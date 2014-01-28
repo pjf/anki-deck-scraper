@@ -70,5 +70,5 @@ foreach my $deck (sort by_rating values %decks) {
 sub by_rating {
        $b->[RATING]  <=>    $a->[RATING] ||
        $b->[VOTES]   <=>    $a->[VOTES]  ||
-    lc($b->[TITLE])  cmp lc($a->[TITLE])  ;
+    lc($a->[TITLE])  cmp lc($b->[TITLE])  ;
 }
