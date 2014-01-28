@@ -65,9 +65,10 @@ foreach my $deck (sort by_rating values %decks) {
     say "[$title]($URL_BASE/$deck->[ID]) | $deck->[RATING] | $deck->[VOTES]";
 }
 
-# Sort by rating, then by number of votes
+# Sort by rating, then by number of votes, then alphabetical
 
 sub by_rating {
-    $b->[RATING] <=> $a->[RATING] ||
-    $b->[VOTES]  <=> $a->[VOTES];
+       $b->[RATING]  <=>    $a->[RATING] ||
+       $b->[VOTES]   <=>    $a->[VOTES]  ||
+    lc($b->[TITLE])  cmp lc($a->[TITLE])  ;
 }
