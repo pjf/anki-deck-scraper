@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1960137105, "Swedish-Russian, Russian-Swedish", 0.0, 0, 1371340800, 2108, 0, 0], [886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1454198400, 49, 0, 6], [120195518, "Swedish Core 100 - Basic words (EN  SV with audio)", 0.0, 0, 1437004800, 202, 109, 116], [90188268, "Pimsleur Japanese [90 Units, Kana+Kanji answers]", 4.0, 3, 1411257600, 772, 0, 0], [520026553, "Business Law Exam 4 Short Answer (Carr)", 0.0, 0, 1345852800, 15, 0, 0], [743421837, "Neuro Step 1 NSpottiswoode", 0.0, 0, 1454630400, 171, 0, 6], [727443726, "Swedish-Greek svenska-grekiska \u03a3\u03bf\u03c5\u03b7\u03b4\u03b9\u03ba\u03ac-\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", 0.0, 0, 1454457600, 163, 0, 0], [453117332, "TDF1-2.2 Gusswerkstoffe", 0.0, 0, 1454889600, 28, 0, 22], [2015648873, "Rivstart A1A2 - Swedish & English", 0.0, 0, 1453766400, 1121, 0, 0], [702032903, "Spindel Swedish Vocabulary 2.0", 0.0, 0, 1437004800, 2750, 0, 1], [1280007998, "Swahili Phrases .CA", 0.0, 0, 1454112000, 51, 0, 0], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [1423271367, "My first Swedish conversations", 0.0, 0, 1453248000, 170, 0, 0], [2546748369, "Swahili-Fran\u00e7ais m\u00e9thode Assimil (46 le\u00e7ons)", 0.0, 0, 1345852800, 656, 0, 0], [1263750147, "Swahili 1000", 0.0, 0, 1452902400, 859, 0, 0], [1504409571, "UTSW Renal Block", 0.0, 0, 1449100800, 219, 0, 41], [947146768, "Swiss Cantons", 5.0, 1, 1440633600, 26, 20, 52], [1858499615, "HSWT 1 Geo", 0.0, 0, 1452729600, 7, 0, 0], [4319702, "Wales - Valar (Swedish)", 0.0, 0, 1452124800, 17, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [1327437810, "Swahili daily life words, from Tanzania", 0.0, 0, 1453248000, 0, 0, 0], [1616814989, "Die Ehe usw.", 0.0, 0, 1452816000, 139, 8, 0], [909149678, "Swedish verbs", 0.0, 0, 1450396800, 22, 22, 0], [64066910, "Sveriges landskap (Provinces of Sweden)", 1.0, 1, 1441238400, 25, 0, 0], [50460602, "Swahili Core 100 - Basic words (EN  SW with audio)", 0.0, 0, 1436918400, 202, 108, 116], [639276142, "Volkswirtschaftslehre", 0.0, 0, 1449360000, 116, 0, 21], [274033554, "2 Swahili 10", 0.0, 0, 1450483200, 44, 0, 0], [2098439135, "2 Swahili 8", 0.0, 0, 1450483200, 24, 0, 0], [1766626258, "2 Swahili 9", 0.0, 0, 1450483200, 54, 0, 0], [210872431, "2 Swahili 7", 0.0, 0, 1450483200, 20, 0, 0], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [812109177, "2 Swahili 11", 0.0, 0, 1450483200, 49, 0, 0], [1653449054, "SWX English", 0.0, 0, 1449792000, 77, 0, 0], [1188630017, "2 Swahili 3", 0.0, 0, 1450483200, 39, 0, 0], [686500656, "2 Swahili 6", 0.0, 0, 1450483200, 37, 0, 0], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [1202495604, "Beginners' Swedish", 0.0, 0, 1447459200, 83, 1, 1], [841756527, "UTSW Respiratory Block", 0.0, 0, 1447804800, 874, 0, 61], [509148378, "2 Swahili 4", 0.0, 0, 1450483200, 78, 0, 0], [1915989352, "2 Swahili 5", 0.0, 0, 1450483200, 43, 0, 0], [1053790538, "Glassworks vocab 1", 0.0, 0, 1449619200, 25, 0, 3], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [342513243, "Kiswahili", 0.0, 0, 1445385600, 23, 0, 0], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [1717445806, "Swedish vocabularies for German speaking persons", 0.0, 0, 1444262400, 645, 0, 0], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [1349269614, "UTSW Cardio Block", 0.0, 0, 1445990400, 706, 16, 42], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [1554468445, "Big Swedish deck", 0.0, 0, 1436918400, 3561, 3638, 0], [503287777, "UTSW Respiratory Block", 0.0, 0, 1447459200, 661, 0, 58], [45084451, "UTSW Musculoskeletal block", 0.0, 0, 1448064000, 393, 0, 23], [62022344, "Personalplanung und -auswahl", 0.0, 0, 1444435200, 46, 0, 0], [1310643497, "Essential Guide to Marketing Planning -in swedish", 0.0, 0, 1445731200, 80, 3, 1], [729643122, "Swahili 2 les 1", 0.0, 0, 1444176000, 59, 0, 0], [1023280793, "Swahili Quick & Dirty 30 (EN  SW)", 0.0, 0, 1445731200, 60, 38, 45], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [1333054599, "Personalplanung und -auswahl PLUS", 0.0, 0, 1444435200, 38, 0, 0], [1917486156, "Swahili 2 les 2", 0.0, 0, 1444176000, 44, 0, 0], [389347934, "Frans-Nederlands basiswoordenschat", 0.0, 0, 1420156800, 840, 0, 0], [1413590935, "Swedish driver license (English)", 5.0, 1, 1440460800, 216, 0, 133], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [727257216, "Swedish Quick & Dirty 30 (EN  SV)", 0.0, 0, 1445731200, 60, 38, 45], [1493032477, "Histo Lab Slides with Answers", 0.0, 0, 1443657600, 22, 0, 0], [94308283, "UTSW Fundamentals 3", 0.0, 0, 1444176000, 633, 0, 8], [202822959, "boeing 727 System Review Questions and Answers", 0.0, 0, 1435276800, 134, 285, 26], [1753189353, "Swahili Les 7", 0.0, 0, 1431907200, 100, 0, 0], [156359901, "Fundamentals 2 UTSW", 0.0, 0, 1442361600, 760, 0, 9], [511740443, "J&G Swedish", 0.0, 0, 1439510400, 49, 3, 0], [856107973, "Sammy Sweetheart's mind fuck 2", 0.0, 0, 1425513600, 269, 0, 47], [902517225, "Swahili Les 4", 0.0, 0, 1431907200, 90, 0, 0], [681179872, "Swansea is shit", 0.0, 0, 1420761600, 42, 0, 0], [180446828, "Cranial Nerves - Role in Eating/Drinking, Swallowing, Speech", 0.0, 0, 1438732800, 17, 0, 0], [1481802008, "Franska glosor, French words in Swedish", 0.0, 0, 1436486400, 56, 0, 0], [3155267569, "Swedish proverbs w/ english translations", 0.0, 0, 1360627200, 328, 0, 0], [440637283, "Vorbereitung Betriebswirtschaftslehre I & II", 0.0, 0, 1379894400, 90, 0, 1], [363861931, "Verkehrswesen als Erg\u00e4nzungsfach Master Informatik am KIT", 0.0, 0, 1406505600, 132, 0, 54], [440110193, "Algorithmist's Latvian Swadesh List with Audio", 0.0, 0, 1422662400, 208, 214, 14], [861281785, "Swahili Les 10", 0.0, 0, 1432684800, 129, 0, 0], [2003721912, "komsyswi14 komsyswi14 ", 0.0, 0, 1431475200, 91, 2, 15], [2146626596, "Anatomy test 1 for doctor sweet", 0.0, 0, 1391644800, 18, 0, 0], [1668009206, "Swahili Les 9", 0.0, 0, 1432684800, 37, 0, 0], [2118307582, "Shorinji Kempo in Swedish", 0.0, 0, 1370390400, 124, 0, 0], [1722588634, "NASWI RFC Test1", 0.0, 0, 1388707200, 40, 0, 0], [518795558, "Gunnemark_minilex_ru_swe", 0.0, 0, 1345852800, 576, 0, 0], [2015486344, "Swahili Les 8", 0.0, 0, 1431907200, 77, 0, 0], [959488396, "Swadesh Greek Vocab ", 0.0, 0, 1425340800, 204, 2, 3], [959693892, "Swahili toevoegingen les 9-12", 0.0, 0, 1431907200, 111, 0, 0], [548610639, "Crossword-ese", 0.0, 0, 1422489600, 262, 0, 0], [347088350, "CCNP SWITCH", 0.0, 0, 1364428800, 409, 0, 0], [1567723803, "Personalplanung und Personalauswahl", 0.0, 0, 1433980800, 53, 0, 0], [1512181493, "English - Swedish Advanced", 0.0, 0, 1399939200, 77, 0, 0], [2779690080, "Business Law Exam 3 Short Answer (Carr)", 0.0, 0, 1345852800, 16, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [32600325, "Pr\u00e4sens PL-DE-DE (Stammvokalwechsel usw.) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 39, 0, 0], [372356395, "Chemistry Test 1 G10 ISW", 0.0, 0, 1415923200, 24, 0, 0], [1687080661, "Business Law Exam 1 Short Answer (Carr)", 3.5, 2, 1345852800, 36, 0, 2], [1991674589, "FTS4 Rechnungswesen", 0.0, 0, 1420761600, 72, 0, 12], [621550497, "Note Type: Cloze (Type Answer) ", 5.0, 1, 1416700800, 1, 7, 0], [739835074, "Swahili Les 12", 0.0, 0, 1432684800, 46, 0, 0], [2405210855, "1000 questions 1000 answers -fels\u0151fok", 0.0, 0, 1360800000, 93, 0, 0], [206147857, "Biblical Greek (Koine) - Swedish", 0.0, 0, 1345852800, 1126, 0, 0], [805559080, "Swahili-Finnish vocabulary from Mambo Vipi with extras", 0.0, 0, 1393545600, 889, 0, 0], [1968084174, "Jacks SFI Swedish", 0.0, 0, 1414281600, 322, 0, 0], [2051401135, "Spindel Swedish vocabulary (Snoogles' Swedish vocab +extra)", 0.0, 0, 1416873600, 2429, 0, 0], [964842117, "Swahili Les 11", 0.0, 0, 1432684800, 82, 0, 0], [292087585, "L\u00e2m-swedish-20141030", 0.0, 0, 1414713600, 897, 1, 98], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [590237376, "Swahili Les 6", 0.0, 0, 1431907200, 85, 0, 0], [637005002, "Most used Phrases in English language (Brazilian answers)  ", 0.0, 0, 1415750400, 615, 619, 0], [1358010156, "Swahili Les 3", 0.0, 0, 1431907200, 163, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [1414336043, "MyIeltsWords", 0.0, 0, 1396310400, 194, 0, 0], [45683064, "Fruit and vegetables (english, swedish)", 0.0, 0, 1362528000, 33, 33, 32], [763144704, "Swahilarious", 0.0, 0, 1405123200, 28, 0, 10], [1886963939, "PALS test 3 as per LQS at NASWI", 0.0, 0, 1396137600, 38, 0, 0], [333140111, "meb2psw2", 0.0, 0, 1386806400, 29, 0, 1], [2108064352, "My swedish deck", 4.4, 5, 1411344000, 4277, 10824, 1895], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [133510709, "Auswanderung", 0.0, 0, 1382054400, 24, 0, 0], [3872565233, "Wordswordswords", 0.0, 0, 1384732800, 22, 0, 22], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [1010583067, "Swahili Les 1", 0.0, 0, 1431907200, 80, 0, 0], [2006684745, "Swahili toevoegingen les 1-4", 0.0, 0, 1431907200, 159, 0, 0], [565632937, "Jobs_Swojczycka", 0.0, 0, 1429488000, 14, 6, 0], [1911028758, "Passwort Deutsch PL-DE Dariusz Swoboda", 2.0, 1, 1345852800, 1572, 0, 0], [1550008091, "Swojczycka_1", 0.0, 0, 1430092800, 13, 0, 0], [696804506, "Swahili toevoegingen les 6-7", 0.0, 0, 1432684800, 55, 0, 0], [450503291, "Swojczycka_2", 0.0, 0, 1430092800, 17, 0, 0], [1382664936, "Ohio State Swahili 1103 Flashcards", 0.0, 0, 1409702400, 143, 0, 0], [1010133509, "Sammy Sweetheart's Mind Games", 0.0, 0, 1422662400, 225, 0, 0], [1563179433, "Swahili Les 2", 0.0, 0, 1431907200, 148, 0, 0], [596394935, "Berufswelt", 0.0, 0, 1382054400, 50, 0, 0], [3644943099, "Business Law Exam 2 Short Answer (Carr)", 0.0, 0, 1345852800, 17, 0, 2], [2106175260, "Swahili Les 5", 0.0, 0, 1431907200, 95, 0, 0], [1389247075, "Swedish Vocabulary - ongoing 2012", 0.0, 0, 1345852800, 1235, 0, 0], [3033579065, "1000 Questions 1000 Answers (2008)", 0.0, 0, 1358208000, 3600, 0, 0], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [1229462856, "Swahili-swedish", 0.0, 0, 1370908800, 7205, 0, 0], [1732272901, "SFI Swedish", 0.0, 0, 1345852800, 216, 0, 0], [158344546, "Snoogles' Swedish vocabulary", 4.5, 2, 1345852800, 2266, 0, 0], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [1405009676, "aloisswedish", 0.0, 0, 1417305600, 496, 2, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

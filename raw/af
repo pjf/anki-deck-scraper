@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1583779826, "Droit des affaires - Introduction", 0.0, 0, 1454889600, 15, 0, 1], [1460664383, "Droit des affaires - Partie 1/Chapitre 1", 0.0, 0, 1454889600, 10, 0, 0], [583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [1585004278, "Politikwissenschaften M1 WS 15/16", 0.0, 0, 1454976000, 44, 0, 0], [989205601, "Introduction au droit des affaires", 0.0, 0, 1454889600, 33, 0, 0], [240081041, "acquafontalba", 0.0, 0, 1454284800, 8, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [1829276931, "BaldyBunch Dani Afr Week1", 0.0, 0, 1454025600, 52, 52, 0], [452505990, "\u77e5\u8bc6\u70b9\u7c7b\u578b(Basic)\u5361\u7247\u6a21\u677f 2.0\u2014\u2014Leaflyer", 0.0, 0, 1451692800, 1, 0, 7], [2660852337, "Deutsch im B\u00fcro SGH Wirtschaftsdeutsch PL-DE", 4.0, 1, 1345852800, 2616, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [1340171737, "METAR/TAF Codes", 0.0, 0, 1453420800, 88, 0, 0], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [1283154252, "DaF Kompakt A2 Deutsch T\u00fcrkisch", 0.0, 0, 1452211200, 104, 0, 0], [508547589, "Human rights (from Malala Yousafzai interview)", 0.0, 0, 1452902400, 15, 15, 6], [375842036, "Wirtschaftslehre 5", 0.0, 0, 1452038400, 27, 0, 0], [737765266, "Landschaft", 0.0, 0, 1449705600, 0, 0, 0], [639276142, "Volkswirtschaftslehre", 0.0, 0, 1449360000, 116, 0, 21], [1667660515, "\u9519\u9898\u6a21\u677f\u2014\u2014Leaflyer", 5.0, 1, 1449273600, 1, 0, 2], [815442201, "medical vocabulary 17 - medical staff", 0.0, 0, 1452384000, 42, 0, 0], [235777112, "Petrografia/Petrografy", 0.0, 0, 1451865600, 65, 0, 11], [1705374801, "Avalanche Safety", 0.0, 0, 1416268800, 93, 0, 52], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [1566118340, "Wirtschaftslehre 2", 0.0, 0, 1449532800, 31, 0, 1], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [1773843941, "CVS - AFEM PEARLS", 0.0, 0, 1449705600, 26, 0, 6], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [1390416563, "#SaamInAfrika", 0.0, 0, 1449014400, 1, 0, 0], [195134115, "Geografia", 0.0, 0, 1447286400, 881, 0, 0], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [442267222, "Strafrecht bt", 0.0, 0, 1448323200, 154, 0, 6], [1351792369, "Scienze e geografia astronomica", 0.0, 0, 1447286400, 748, 0, 0], [1779667546, "Pathologyaftermidterm2015", 0.0, 0, 1447718400, 0, 0, 0], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [1424373046, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [4168812071, "Business English Wirtschaftsenglisch EN-DE Cordula Sauerland", 5.0, 3, 1345852800, 18454, 0, 0], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [362677896, "1000 Question 7/b traffic hungarian", 0.0, 0, 1446681600, 147, 0, 0], [263702850, "1000 Question 7/a traffic hungarian", 0.0, 0, 1446681600, 151, 0, 0], [289499377, "Hanafuda", 0.0, 0, 1379116800, 59, 0, 48], [1997421296, "V\u00e4gm\u00e4rken (Trafikm\u00e4rken)", 0.0, 0, 1445731200, 274, 0, 2], [854651628, "ortografia giuriato", 0.0, 0, 1443744000, 84, 15, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [842050830, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 100, 0, 0], [206141345, "Wirtschaftsgeographie I", 0.0, 0, 1389744000, 223, 0, 12], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [3697650997, "Kalafina - Magia", 0.0, 0, 1345852800, 118, 115, 0], [1912172275, "fafe", 0.0, 0, 1437436800, 0, 0, 0], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 0.0, 0, 1424217600, 20, 20, 0], [3635715246, "Lojban rafsi (frequency order)", 0.0, 0, 1345852800, 2741, 0, 0], [360570529, "Freundschaften", 0.0, 0, 1432252800, 39, 39, 45], [1452703727, "Afrikaans Exam Work (Baldy Bunch)", 0.0, 0, 1437091200, 101, 101, 0], [4143849910, "HMS.IMP.Lymphocyte.Traffic.Migration", 0.0, 0, 1364947200, 12, 0, 0], [1045775027, "echokardiografia", 0.0, 0, 1416873600, 38, 0, 0], [440637283, "Vorbereitung Betriebswirtschaftslehre I & II", 0.0, 0, 1379894400, 90, 0, 1], [1933399475, "RLR #88 \u2013 West African English ", 5.0, 2, 1421798400, 30, 30, 0], [840494124, "serinaf\u00fcrdichfranz2", 0.0, 0, 1385078400, 60, 0, 0], [28035572, "LevantAfricaFlags", 0.0, 0, 1438128000, 28, 0, 28], [383348090, "Ace Affixes Like a Native!\u2122", 0.0, 0, 1431648000, 41, 82, 1], [2013714935, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [870727920, "Afrikaans Numbers (Baldy Bunch)", 0.0, 0, 1437091200, 70, 70, 0], [6055910, "Malala Yousafzai video", 0.0, 0, 1425859200, 11, 0, 5], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [4109044851, "Der gro\u00dfe Artikeltest DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 6, 1345852800, 1063, 0, 0], [1271917279, "Grundformen deutscher Verben DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 112, 0, 0], [2611380741, "serinaf\u00fcrdichfranz14", 0.0, 0, 1385078400, 39, 0, 0], [1190152740, "serinaf\u00fcrdichfranzblablablabla", 0.0, 0, 1385078400, 38, 0, 0], [3343929880, "serinaf\u00fcrdichfranz13", 0.0, 0, 1385078400, 81, 0, 0], [1123097461, "Afrkaans Negatives (Baldy Bunch)", 0.0, 0, 1436918400, 52, 34, 0], [3646503409, "DaF Test-500 (Jumbo-Test) Stufe C2 DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 500, 0, 0], [520106245, "serinaf\u00fcrdichfranz16", 0.0, 0, 1385078400, 81, 0, 0], [1069509639, "Diergeneeskunde Embryologie Afwijkingen", 0.0, 0, 1430179200, 196, 0, 126], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [1261128285, "Affan Oromoo", 0.0, 0, 1407801600, 665, 0, 0], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [3095561588, "serinaf\u00fcrdichfranz3", 0.0, 0, 1385078400, 44, 0, 0], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [1062825139, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [1840050012, "Afasilva_TI_TI", 0.0, 0, 1406592000, 343, 0, 10], [2447914481, "serinaf\u00fcrdichfranz7", 0.0, 0, 1385078400, 38, 0, 0], [1598671729, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [492381866, "Legsilacao Tributaria AFRFB FSSILVA", 0.0, 0, 1424390400, 552, 0, 4], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [448281788, "serinaf\u00fcrdichfranz17", 0.0, 0, 1385078400, 92, 0, 0], [3122753139, "FOKUS - CAFE JULIA 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [838976538, "Afrikaans Conjunctions (Baldy Bunch)", 0.0, 0, 1437091200, 44, 123, 0], [2827431135, "French - Farsi -- Words of \"Cafe Creme 1 \"", 0.0, 0, 1358553600, 495, 0, 0], [1164261014, "Afrikaans general vocabulary ", 0.0, 0, 1390521600, 4, 0, 0], [2338652152, "serinaf\u00fcrdichfranz1", 0.0, 0, 1385078400, 38, 0, 0], [2191004342, "StudentCafe Comunity on Google+", 0.0, 0, 1362441600, 17, 0, 0], [2362033690, "serinaf\u00fcrdichfranz5", 0.0, 0, 1385078400, 45, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [2628815328, "AF2 metabolisme \u00f8velse fysiologi", 0.0, 0, 1345852800, 17, 0, 12], [725326782, "Afr HF Vocab Words 2 (Baldy Bunch)", 0.0, 0, 1427673600, 10, 10, 0], [4134086798, "serinaf\u00fcrdichfranz1", 0.0, 0, 1385078400, 38, 0, 0], [1129473997, "serinaf\u00fcrdichfranz15", 0.0, 0, 1385078400, 25, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [1411431603, "ActionAlexKILL Megafon", 0.0, 0, 1407801600, 28, 0, 0], [909030915, "OLAFR", 0.0, 0, 1412812800, 1420, 0, 15], [1548296745, "Food Safety", 0.0, 0, 1396224000, 88, 0, 0], [1365848358, "serinaf\u00fcrdichfranz30", 0.0, 0, 1385078400, 23, 0, 0], [1370161023, "Portugues FSS AFRFB", 0.0, 0, 1423094400, 6, 0, 0], [484621442, "Afrikaans words and phrases (English - Afrikaans)", 5.0, 1, 1425340800, 171, 0, 0], [2984397399, "Birds of South Africa", 4.0, 1, 1360800000, 271, 0, 310], [3755836748, "serinaf\u00fcrdichfranz19", 0.0, 0, 1385078400, 15, 0, 0], [2086434886, "Z\u00e1kladn\u00ed geografick\u00e9 pojmy", 0.0, 0, 1358294400, 136, 0, 0], [1123866302, "Comercio Internacional AFRFB FSSILVA", 0.0, 0, 1424390400, 301, 0, 3], [1485408120, "rough draft flash cards", 0.0, 0, 1409616000, 244, 0, 260], [109750668, "After Effects CC (GER)", 0.0, 0, 1420416000, 24, 0, 1], [2475853179, "Deutschtest 2 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [2465020309, "serinaf\u00fcrdichfranz4", 0.0, 0, 1385078400, 66, 0, 0], [4124159378, "Zivil- und Strafrecht PL-DE (aska_su + Evita)", 0.0, 0, 1345852800, 222, 0, 0], [3535203096, "Micro.Zoonotic.LAF", 0.0, 0, 1367193600, 43, 0, 15], [2682292314, "serinaf\u00fcrdichfranz9", 0.0, 0, 1385078400, 10, 0, 0], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [1051062373, "Wirtschaftsinformatik TU KL WS1415", 0.0, 0, 1426118400, 105, 0, 18], [2733190355, "serinaf\u00fcrdichfranz12", 0.0, 0, 1385078400, 47, 0, 0], [1814068789, "FarmaFIR", 0.0, 0, 1384387200, 3862, 0, 0], [628989051, "Afr HF Vocab Words 1 (Baldy Bunch)", 0.0, 0, 1427673600, 9, 9, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [2854503240, "AFEA - Five Element - Acupuncture Points", 4.0, 1, 1357516800, 121, 0, 0], [1018557096, "Esperanto el la Grafo", 0.0, 0, 1357516800, 244, 0, 0], [2263746587, "Deutsche Geschichte - Zeittafel (Stefan Jacob)", 4.0, 1, 1345852800, 336, 0, 0], [1923357321, "serinaf\u00fcrdichfranz6", 0.0, 0, 1385078400, 11, 0, 0], [1075975738, "Afr HF Sentences 1 (Baldy Bunch)", 0.0, 0, 1427673600, 11, 11, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [733650614, "Lojban rafsi", 0.0, 0, 1345852800, 1436, 0, 0], [634131912, "demons afl", 0.0, 0, 1399766400, 84, 0, 0], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [2947491164, "Geografie Gymnasium Schweiz", 0.0, 0, 1378080000, 689, 0, 165], [2013419104, "FOKUS - CAFE JULIA 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [147459951, "TUM Einf. Wirtschaftsinformatik 14/15", 0.0, 0, 1423958400, 107, 1, 1], [2657317463, "Chemie DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 28, 0, 0], [1497362550, "AWL, Allgemeine Wirtschaftslehre BS-AN, Unternehmensformen", 0.0, 0, 1393286400, 24, 0, 0], [1433453242, "Test geografia Africa - Dorotee", 0.0, 0, 1381363200, 23, 0, 0], [824411599, "IAFs for Whidbey radar approaches", 0.0, 0, 1425859200, 22, 0, 0], [1548495292, "Raciocinio Logico FSS AFRFB", 0.0, 0, 1423094400, 18, 0, 20], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [2194324572, "serinaf\u00fcrdichfranz18", 0.0, 0, 1385078400, 85, 0, 0], [1668000391, "beygingar::nafnor\u00f0", 0.0, 0, 1446249600, 78, 0, 0], [818730373, "bucetafumegante", 0.0, 0, 1372809600, 71, 0, 0], [3491343740, "serinaf\u00fcrdichfranz11", 0.0, 0, 1385078400, 20, 0, 0], [918818089, "Auditoria AFRFB FSSILVA", 0.0, 0, 1424390400, 913, 0, 0], [973800294, "Afasilva TI Concursos", 0.0, 0, 1400544000, 21, 0, 0], [864970024, "serinaf\u00fcrdichfranz14", 0.0, 0, 1385078400, 21, 0, 0], [317708448, "glaucomaforamelia", 0.0, 0, 1386460800, 67, 0, 53], [1361815937, "\u0411\u0438\u043b\u0435\u0442\u044b \u041f\u0414\u0414 \u0420\u0424 2011-2012. Traffic Rules (in Russian)", 3.67, 3, 1349913600, 800, 0, 613], [285999610, "Afrikaans gender (Baldy Bunch)", 0.0, 0, 1437264000, 12, 24, 0], [3612079865, "serinaf\u00fcrdichfranz8", 0.0, 0, 1385078400, 56, 0, 0], [1138390234, "JH Zebrafish", 0.0, 0, 1399334400, 58, 0, 11], [599602815, "Seitlinger stille Gesellschaft MIG", 0.0, 0, 1420416000, 11, 2, 2], [84101695, "serinaf\u00fcrdichfranz10", 0.0, 0, 1385078400, 17, 0, 0], [4052224371, "155 S\u00e4tze - Wirtschaftsdeutsch - PL-DE - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [69541209, "Afasilva_TI_Direito", 0.0, 0, 1406160000, 17, 0, 0], [1908956266, "Deutschtest 1 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [3275911238, "Meithai - Familie und Verwandtschaft", 0.0, 0, 1383782400, 145, 0, 0], [1187097806, "aafp3 3rd deck", 0.0, 0, 1410739200, 22, 0, 0], [1805976255, "Lettres et Blog - AF", 0.0, 0, 1401062400, 1, 0, 0], [2891246967, "Strafrecht", 0.0, 0, 1358380800, 60, 0, 0], [2039425129, "DaF Vokabeln, generelles Wortschatz Liste.", 0.0, 0, 1414454400, 19, 0, 0], [2132192140, "DaF Vokabeln, schrifftlicher Ausdr\u00fcck", 0.0, 0, 1414454400, 30, 0, 0], [1280119221, "A - F (17) Le commerce et les affaires", 0.0, 0, 1416355200, 457, 0, 0], [3349670042, "Wirtschaftsdeutsch PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 214, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [1232225609, "idaf a2 german", 0.0, 0, 1372291200, 340, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [2161294631, "AF2 dissektion 8 - kar, nerver og andre strukturer", 0.0, 0, 1345852800, 37, 0, 74], [4165382820, "Geografia do Brasil (Brazil Geography)", 3.75, 4, 1353456000, 27, 0, 27], [906962639, "Legislacao Aduaneira AFRFB FSSILVA", 0.0, 0, 1424390400, 358, 0, 0], [1997226726, "Contabilidade AFRFB FSSILVA", 0.0, 0, 1424390400, 63, 0, 0], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [3427099204, "AAAFC - Revolu\u00e7\u00f5es S\u00e9c. XVII - XVIII", 0.0, 0, 1369958400, 8, 0, 0], [1482579965, "25 Largest African Countries - Map Quiz", 0.0, 0, 1401321600, 27, 0, 25], [253334733, "Direito Previdenciario AFRFB FSSILVA", 5.0, 1, 1424390400, 335, 0, 16], [428371059, "Bs5 Verwandtschaft in Englisch", 0.0, 0, 1417219200, 15, 0, 0], [2711089641, "Plural 250 (DaF) DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 250, 0, 0], [867360477, "Athis Afrique ", 0.0, 0, 1395705600, 19, 0, 0], [1866623593, "Afryka- mapa polityczna", 3.5, 4, 1418256000, 107, 0, 55], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [2893249974, "Deutsche Komposita DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 32, 0, 0], [1097445777, "Germanistik DaF - \"W\u00f6rter zur Wahl\" - PL-DE - Slips", 0.0, 0, 1345852800, 1559, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Af</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

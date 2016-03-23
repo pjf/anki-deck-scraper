@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[992483210, "TDF1-3.1 Grundlagen", 0.0, 0, 1454889600, 30, 0, 31], [1705584167, "Grundlagen des Marketing Uni due WS 15/16", 0.0, 0, 1454544000, 358, 0, 62], [1220268813, "VHDL Glossary", 0.0, 0, 1454544000, 248, 0, 1], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [3074067052, "Hoch Middle Egyptian Lesson3 Biliterals (Bi-consonantal) ", 0.0, 0, 1363392000, 25, 0, 25], [670484589, "Jura M\u00fcndliche Pr\u00fcfung 1. Staatsexamen", 0.0, 0, 1452124800, 283, 0, 6], [2823000019, "Hoch Middle Egyptian Lesson1 Vocabulary Hoch1b", 0.0, 0, 1363392000, 17, 0, 17], [3587957214, "Hoch Middle Egyptian Lesson7 Vocabulary Hoch7v", 0.0, 0, 1363651200, 64, 0, 64], [1551514077, "P\u00fctz Pflanzensch\u00e4dlinge", 0.0, 0, 1452816000, 0, 0, 0], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [982139209, "Pahlavi (Middle Persian) Sentences", 0.0, 0, 1451174400, 45, 0, 114], [490384714, "Kunstgeschichte_Grundlagen", 0.0, 0, 1450137600, 59, 2, 68], [3071021884, "Hoch Middle Egyptian Lesson6 Vocabulary Hoch6v", 0.0, 0, 1363392000, 68, 0, 68], [809047702, "Angielski dla pocz\u0105tkuj\u0105cych. Posiadanie (have got, has got)", 0.0, 0, 1437436800, 21, 21, 9], [1383472342, "Hoch Middle Egyptian Lesson3 Vocabulary Hoch3v", 0.0, 0, 1363392000, 56, 0, 55], [916574908, "NDLS Soulign\u00e9", 0.0, 0, 1449619200, 860, 0, 0], [150327819, "Hoch Middle Egyptian Lesson2  Determinatives  Hoch2dt", 0.0, 0, 1363392000, 109, 0, 109], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [367400291, "SZF - Grundlagen", 0.0, 0, 1449878400, 12, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [606825834, "MPSI4 Janson Food Insecurity DL Fran\u00e7ais>Anglais", 0.0, 0, 1448928000, 33, 25, 21], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [1729303210, "Angielski dla fizjoterapeut\u00f3w [www.ofizjo.pl]", 0.0, 0, 1450051200, 798, 104, 4], [2819536122, "Hoch5a Hoch Middle Egyptian Lesson 5a", 0.0, 0, 1367020800, 26, 0, 52], [2036454330, "DANA 5001: Cementum, PDL, and Alveolar bone", 0.0, 0, 1449705600, 140, 0, 4], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [301398508, "DLI Toishan-Cantonese Chinese (Hoisanva, Toisanwa, Taishanhu", 0.0, 0, 1415664000, 504, 0, 0], [2107982423, "GDL EU case deck", 0.0, 0, 1446768000, 129, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [3325452890, "Hoch 4t Section 41 Transposition  Middle Egyptian Lesson 4  ", 0.0, 0, 1363910400, 19, 0, 19], [751640601, "RedLine2 Unit 5", 0.0, 0, 1448323200, 105, 0, 0], [1923569782, "Hoch Middle Egyptian Lesson2 Vocabulary Hoch2v", 0.0, 0, 1363392000, 37, 0, 37], [687887799, "DLDECK", 0.0, 0, 1446681600, 67, 44, 38], [1336744833, "Hoch Middle Egyptian Lesson6 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 14, 0, 14], [818334815, "DLDECK2", 0.0, 0, 1446681600, 221, 397, 0], [3706604012, "Hoch Middle Egyptian Lesson8 Vocabulary Hoch8v", 0.0, 0, 1363651200, 45, 0, 45], [1049242109, "Hoch Middle Egyptian Lesson4 Vocabulary Hoch4v", 0.0, 0, 1363392000, 44, 0, 42], [786177469, "DLDECK3", 0.0, 0, 1446681600, 602, 627, 710], [3797575858, "Hoch Middle Egyptian Lesson7 Biliterals (Bi-consonantal) Hoc", 0.0, 0, 1363651200, 12, 0, 12], [1899842757, "Hiszpa\u0144ski dla mnie", 0.0, 0, 1443830400, 801, 0, 0], [1096340037, "Hoch Middle Egyptian Lesson4 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 21, 0, 20], [1594174040, "nauka czytania dla dzieci polish", 0.0, 0, 1442793600, 3, 40, 16], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 2.5, 2, 1345852800, 500, 0, 0], [1938249960, "DLI MSA course vocab", 0.0, 0, 1443139200, 4420, 0, 0], [1275764118, "DLI MSA Semester 2 Area Studies", 0.0, 0, 1439251200, 115, 0, 11], [2037226027, "DLI Joint Service Study Guide", 0.0, 0, 1439251200, 204, 0, 0], [638660700, "MTH - Pectoral Girdle Bones", 0.0, 0, 1438819200, 68, 0, 65], [618052218, "Anatomy Terms: Shoulder Girdle + Proximal Humerus", 0.0, 0, 1437004800, 41, 0, 0], [3664398293, "Turkish DLI Course Grammar cards", 5.0, 1, 1351728000, 489, 0, 0], [766650431, "Heart, Middle Mediastinum, & Superior Mediastinum CSUS ", 0.0, 0, 1440374400, 19, 0, 20], [726712372, "DLA.MARCINA", 0.0, 0, 1356652800, 316, 0, 0], [1218966244, "SDL3meb1", 0.0, 0, 1379462400, 34, 0, 2], [1470163184, "Farsi DLPT", 0.0, 0, 1399075200, 215, 0, 0], [1122988552, "J1 Dl1 Woordenlijst unit 2 KANJI", 0.0, 0, 1412467200, 56, 0, 0], [567666603, "ZU BWL Grundlagen 2014 SPRING ", 3.0, 1, 1415923200, 180, 0, 166], [1542098516, "Thai middle class consonants3-MF tones", 0.0, 0, 1430611200, 19, 0, 0], [539854188, "Grundlagen der Programmiersprachen", 0.0, 0, 1378684800, 77, 0, 0], [1772952760, "Alex_Lydl\u00e6re2", 0.0, 0, 1402358400, 6, 0, 7], [154062101, "Birds, Wildlife and Exotic Pets", 0.0, 0, 1405036800, 620, 0, 0], [336637613, "Thai Middle Class Consonants practice", 0.0, 0, 1430006400, 48, 0, 0], [1106291704, "Barrons GRE 4813 wordlist pron, EN, RU", 0.0, 0, 1399593600, 4813, 0, 0], [942552343, "J1 Dl1 Woordenlijst unit 5 KANJI", 0.0, 0, 1414454400, 50, 0, 0], [734877436, "J1 Dl1 Woordenlijst unit 1", 0.0, 0, 1412467200, 113, 0, 0], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [135221183, "Dr. Bradley's Lectures", 0.0, 0, 1430179200, 60, 0, 72], [1089015047, "Unternehmensf\u00fchrung  - Grundlagen/Planung", 0.0, 0, 1429660800, 42, 0, 0], [12404575, "dlaKa\u015bki", 0.0, 0, 1433462400, 11366, 11365, 0], [265990646, "PHZH Quest 2 Musiktheorie Grundlagen", 0.0, 0, 1413849600, 133, 0, 9], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [914857336, "Anatomy: Middle Mediastinum", 0.0, 0, 1383091200, 38, 0, 76], [4001402813, "sdl5meb1", 0.0, 0, 1379289600, 58, 0, 1], [548314053, "English-Esperanto Lernu.net wordlist - good wishes", 0.0, 0, 1424908800, 13, 0, 1], [2598379547, "BPP GDL - Criminal", 0.0, 0, 1383696000, 1, 0, 0], [386947606, "AneesHussainGreatestHitsVocabularyWordlist1", 0.0, 0, 1390608000, 504, 0, 0], [2315988852, "Chemie 1. Semester Grundlegende Ph\u00e4nomene chemischer Reaktio", 0.0, 0, 1346284800, 105, 0, 34], [116000069, "klasjdkasjdlkasjd", 0.0, 0, 1386979200, 136, 0, 0], [1392650657, "AneesHussain GRE Wordlist Vocabulary", 0.0, 0, 1390780800, 3633, 0, 0], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [2131294133, "UP-ERN Mathematik - Grundlagen", 0.0, 0, 1388707200, 34, 0, 13], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 4.0, 1, 1345852800, 500, 0, 0], [1031385855, "Middle Mediastinum ", 0.0, 0, 1382659200, 34, 0, 35], [2024316148, "Numerische und stochastische Grundlagen der Informatik", 0.0, 0, 1425254400, 34, 0, 68], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [1821957849, "FADL - recheck", 0.0, 0, 1408233600, 219, 0, 0], [2010315988, "Redlands Japanese-Chapter 5", 0.0, 0, 1420761600, 32, 0, 0], [207392097, "Persian-Farsi - DLIFLC - GLOSS - \"An Epidemic Disease\"", 0.0, 0, 1417305600, 205, 0, 0], [2120354766, "Zestaw dla pocz\u0105tkuj\u0105cych", 0.0, 0, 1425600000, 497, 0, 0], [1709492239, "Farsi DLPT 2", 0.0, 0, 1399075200, 205, 0, 0], [43068708, "Persian-Farsi - DLIFLC - GLOSS - Judgment", 0.0, 0, 1417305600, 145, 0, 0], [569437139, "Persian-Farsi - DLIFLC - GLOSS - An Apartment For Rent", 0.0, 0, 1417305600, 131, 0, 0], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [1386643392, "BPP GDL - Criminal", 0.0, 0, 1383696000, 1, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [2028296135, "Thai middle class consonants 6-MR tones", 0.0, 0, 1430438400, 11, 0, 0], [969427906, "Grundlagen Geoinformatik und GIS Osnabr\u00fcck", 0.0, 0, 1423353600, 236, 0, 62], [2015109480, "Grundlegende Kommandos in Emacs und info", 0.0, 0, 1429660800, 70, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [458675992, "ordlab1jlm298", 0.0, 0, 1430956800, 37, 0, 37], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [1033443341, "Chinese DLPT", 0.0, 0, 1362700800, 474, 0, 0], [1032130282, "J1 Dl1 Woordenlijst unit 3", 0.0, 0, 1414454400, 111, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [1659770434, "\u015fehirler, plakalar\u0131 ve alan kodlar\u0131", 0.0, 0, 1356912000, 14, 0, 0], [542717096, "Grundlagen Psychologie und Ergonomie", 0.0, 0, 1422230400, 140, 0, 0], [1249368459, "Middle Egyptian - Ockinga", 0.0, 0, 1345852800, 78, 0, 0], [1653325242, "PHZH Quest Musiktheorie Grundlagen Nowak", 0.0, 0, 1415318400, 135, 0, 9], [1921600280, "Grundlagen der Sprachdidaktik ", 0.0, 0, 1405296000, 19, 0, 3], [2015312308, "zhemesdl", 0.0, 0, 1411257600, 45, 0, 1], [1586790638, "Rickai-Chan Friendly Template Vocab Deck", 0.0, 0, 1345852800, 1, 0, 0], [2101303225, "Middle School Words: English-Korean", 0.0, 0, 1423094400, 800, 0, 0], [1348043857, "J1 Dl1 Woordenlijst unit 4 KANJI", 0.0, 0, 1414454400, 58, 0, 0], [980793069, "UK NUR 221 Toddler development", 0.0, 0, 1416182400, 43, 0, 0], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [103332595, "JAKUB j\u00eddlo", 0.0, 0, 1425254400, 124, 0, 0], [3259785843, "NDL 1.2", 0.0, 0, 1372982400, 121, 0, 0], [1947673003, "5 Bundles to Know", 0.0, 0, 1383177600, 5, 0, 5], [1108650894, "P\u0159edlo\u017eky-Pr\u00e4positionen tschechisch-deutsch by Wolf", 0.0, 0, 1411603200, 105, 0, 0], [113778380, "Farsi DLPT 3", 0.0, 0, 1399507200, 205, 0, 0], [478830633, "Anatomy - Muscles of the Shoulder Girdle", 0.0, 0, 1388707200, 5, 0, 19], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [3261294097, "BA2 NDLS", 0.0, 0, 1380844800, 308, 0, 0], [1340860033, "Grundlagen des Rechts 736180", 0.0, 0, 1387497600, 367, 0, 0], [607624640, "English-Esperanto Lernu wordlist - Common questions", 0.0, 0, 1423094400, 46, 0, 1], [2482912576, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 TA B\u00f6lge kodlar\u0131", 0.0, 0, 1368662400, 84, 0, 11], [2935077510, "CVA Necturus Forlimb and Pectoral Girdle Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1149999087, "J1 Dl1 Woordenlijst unit 5", 0.0, 0, 1414454400, 76, 0, 0], [3700921422, "Angielski dla uczni\u00f3w", 0.0, 0, 1391385600, 178, 195, 0], [1004046382, "J1 Dl1 Woordenlijst unit 3 KANJI", 0.0, 0, 1414454400, 96, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [273648179, "Persian-Farsi - DLIFLC - GLOSS - \"A New Style of Shopping\"", 0.0, 0, 1417305600, 108, 0, 0], [1844518864, "J1 Dl1 Woordenlijst unit 1 KANJI", 0.0, 0, 1412467200, 90, 0, 1], [882877934, "Norsk ordlist", 0.0, 0, 1423440000, 420, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [1421762023, "OPP LECOM MUSCLE SPINDLES", 0.0, 0, 1413072000, 81, 0, 35], [725419078, "Thai Middle Class Consonants practice 2-Mid and Low tones", 0.0, 0, 1430524800, 28, 0, 0], [981785458, "Mathematische Grundlagen f\u00fcr Abi und Studium", 0.0, 0, 1427155200, 144, 0, 73], [587806734, "Thai middle class consonants 5-M,H", 0.0, 0, 1430611200, 15, 0, 0], [1686575120, "Thai middle class consonants 4-LMF tones mix", 0.0, 0, 1430611200, 16, 0, 0], [2732772896, "Hoch Middle Egyptian Lesson5 Vocabulary Hoch5v", 0.0, 0, 1363392000, 60, 0, 60], [1590089197, "Thai middle class consonants 7-all tones mix", 0.0, 0, 1430438400, 13, 0, 0], [1506527026, "Alex_lydl\u00e6re1", 0.0, 0, 1402358400, 13, 0, 13], [1592197799, "WMS - SDL - Stroke ", 0.0, 0, 1390608000, 39, 0, 0], [1589506583, "J1 Dl1 Woordenlijst unit 4", 0.0, 0, 1414454400, 63, 0, 0], [300299773, "J1 Dl1 Woordenlijst unit 2", 0.0, 0, 1412467200, 62, 0, 0], [1875156548, "AneesHussainGreatestHitsVocabularyWordlist2", 0.0, 0, 1390608000, 974, 0, 0], [1583677017, "DLI CBC", 0.0, 0, 1436140800, 5410, 0, 0], [1881395835, "Logik Grundlagen", 0.0, 0, 1427155200, 29, 0, 1], [1471085542, "\u00bfComo se dice...? (cuaderno) + DuoLingo vocab + misc", 0.0, 0, 1416182400, 4947, 0, 0], [3429722075, "AJ's Intermediate Turkish Grammar (Follows the DLI course)", 5.0, 1, 1380585600, 490, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

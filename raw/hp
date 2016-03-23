@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[65047924, "Tj\u00e1hppemus", 0.0, 0, 1453420800, 145, 0, 0], [202091927, "ABI 103 Chp 5", 0.0, 0, 1453075200, 71, 0, 2], [2131914953, "P\u00fctz Teichpflanzen", 0.0, 0, 1452816000, 14, 0, 24], [991447010, "Jinghpaw-English (550 words)", 0.0, 0, 1444608000, 550, 0, 0], [1608720885, "SZF - Die Stichprobe", 0.0, 0, 1449878400, 11, 0, 0], [198545612, "USask PHPM - Public Health Basics", 0.0, 0, 1448064000, 75, 0, 5], [1381733097, "USask PHPM - Policy", 0.0, 0, 1448064000, 11, 0, 0], [1039488963, "USask PHPM - Legal", 0.0, 0, 1448064000, 34, 0, 0], [1310572539, "USask PHPM - Occupational Health", 0.0, 0, 1448064000, 72, 0, 0], [1230529081, "Kanji Chp 23-29", 0.0, 0, 1448409600, 84, 0, 0], [75770421, "USask PHPM - Communication", 0.0, 0, 1448064000, 4, 0, 1], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [1809133183, "USask PHPM - Cancer screening and epidemiology", 0.0, 0, 1448064000, 22, 0, 2], [323511961, "Health Assessment Chp 24 Musculoskeletal", 0.0, 0, 1445731200, 119, 0, 0], [964124196, "USask PHPM - Program Planning and Evaluation", 0.0, 0, 1448064000, 113, 0, 2], [1057165854, "Health Assessment Chp 26 Males/Rectum", 0.0, 0, 1445385600, 74, 0, 0], [226368218, "Health Assessment Chp 14", 0.0, 0, 1442016000, 145, 0, 0], [1172387558, "hp1", 0.0, 0, 1443657600, 282, 413, 123], [1132056661, "USask PHPM - Emergency Health Management", 0.0, 0, 1443484800, 76, 0, 1], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [2097795866, "USask PHPM - Early Childhood Development", 0.0, 0, 1443484800, 43, 0, 4], [2000645439, "Health Assessment Chp 27 Females", 0.0, 0, 1445385600, 81, 0, 0], [226120799, "Health Assessment Chp 23 Abdomen", 0.0, 0, 1445385600, 102, 0, 0], [428748620, "USask PHPM - Public Health ethics", 0.0, 0, 1443484800, 2, 0, 0], [2058943025, "USask PHPM - Health status reporting", 0.0, 0, 1443484800, 50, 0, 1], [977368449, "Peds Assessment of Child and Family Chp 29", 0.0, 0, 1441756800, 37, 0, 0], [892760957, "USask PHPM - Epi Fundamentals", 0.0, 0, 1443484800, 52, 0, 0], [964210752, "USask PHPM - Health Promotion models", 0.0, 0, 1443484800, 23, 0, 3], [767707097, "Health Assessment Chp 25 Neurologic", 0.0, 0, 1445731200, 123, 0, 0], [1643541463, "Health Assessment Chp 16 Eyes", 0.0, 0, 1442275200, 121, 0, 0], [736560207, "Health Assessment Chp 1-5", 0.0, 0, 1441756800, 32, 0, 0], [1597907348, "Health Assessment Chp 8,9,13", 0.0, 0, 1441756800, 68, 0, 0], [1236572553, "Chpt. 1 preventative", 0.0, 0, 1440633600, 5, 0, 0], [445553325, "Health Assessment Chp 15 Head and Neck", 0.0, 0, 1442016000, 49, 0, 0], [3292865308, "All sentences from HPMoR chapters 1-9, French - English", 0.0, 0, 1360281600, 3350, 0, 0], [3571778664, "HMS.IHP.Renal.IV", 0.0, 0, 1361404800, 12, 0, 3], [3038071857, "HMS.IHP.Cardio.Electro.I-II", 0.0, 0, 1359849600, 28, 0, 16], [863259931, "Complete Lithuanian chpt 1-3", 0.0, 0, 1437609600, 106, 0, 0], [253672639, "HMS.IHP.Cardio.II", 0.0, 0, 1360454400, 47, 0, 9], [486583935, "HMS.IHP.Pulmonary.III", 0.0, 0, 1359417600, 22, 0, 13], [570283553, "USask PHPM - CoreCompDivInc", 0.0, 0, 1399420800, 0, 0, 0], [1532680099, "Repro HPV CPC 04.29.15", 0.0, 0, 1431216000, 20, 0, 5], [1321651212, "USask PHPM - Public Health", 0.0, 0, 1391212800, 234, 0, 14], [130811188, "HMS.IHP.Pulmonary.V.A", 0.0, 0, 1359417600, 28, 0, 9], [1348520325, "HMS.IHP.Exercise", 0.0, 0, 1360886400, 13, 0, 3], [4051644851, "HMS.IHP.GI.II", 0.0, 0, 1361750400, 25, 0, 2], [489805983, "HMS.IHP.Cardio.Electro.III", 0.0, 0, 1360454400, 36, 0, 21], [2595959201, "Minna No Nihongo Chptrs 1-25", 0.0, 0, 1345852800, 1401, 0, 5], [2974452329, "HMS.IHP.Cardiology.VIII", 0.0, 0, 1360886400, 28, 0, 1], [580563651, "HMS.IHP.GI.V", 0.0, 0, 1361923200, 22, 0, 4], [1180684478, "HMS.IHP.Endocrine.XI", 0.0, 0, 1362873600, 27, 0, 11], [697330887, "HPD Block 2", 0.0, 0, 1412035200, 34, 0, 16], [3054275650, "HMS.IHP.Endocrine.X", 0.0, 0, 1362873600, 20, 0, 7], [1261659571, "HMS.IHP.Menopause", 0.0, 0, 1363046400, 12, 0, 0], [2768802550, "PHP f\u00fcr Anf\u00e4nger", 0.0, 0, 1360022400, 22, 0, 0], [3975547388, "HMS.IHP.Endocrine.I", 0.0, 0, 1362441600, 28, 0, 5], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [1357173263, "HMS.IHP.Cardio.I", 0.0, 0, 1360108800, 45, 0, 5], [522067134, "HMS.IHP.GI.IV", 0.0, 0, 1362182400, 12, 0, 8], [3346264479, "HMS.IHP.Renal.V.", 0.0, 0, 1361318400, 31, 0, 6], [1186387197, "Chp 5: Head Clinical Correlates", 0.0, 0, 1414972800, 68, 0, 0], [2948439282, "HMS.IHP.Cardiology.VIII", 0.0, 0, 1360886400, 28, 0, 1], [533559436, "HMS.IHP.Cardio.Focused.Exercise.II", 0.0, 0, 1360886400, 13, 0, 0], [410308095, "Shariahprogram Arabic 2014 Theory + Sarf (no tarkeeb)", 0.0, 0, 1398038400, 119, 0, 194], [4120707148, "HMS.IHP.Endocrine.VII", 0.0, 0, 1362787200, 36, 0, 1], [1035756223, "USask PHPM - CanMeds Roles", 0.0, 0, 1443398400, 4, 0, 0], [2942805606, "HMS.IHP.GI.I", 0.0, 0, 1360108800, 48, 0, 21], [3931268858, "HMS.IHP.Endocrine.VI", 0.0, 0, 1362787200, 37, 0, 6], [2539816391, "HMS.IHP.Maternal.Physiology", 0.0, 0, 1363046400, 21, 0, 0], [552069535, "Genki Kanji Vocab, Chpts 13-16", 0.0, 0, 1345852800, 219, 0, 0], [678830273, "HMS.IHP.Pulmonary.II", 0.0, 0, 1359417600, 21, 0, 7], [3509651624, "HMS.IHP.Pulmonary.I", 0.0, 0, 1359417600, 24, 0, 5], [1815478411, "HMS.IHP.Cardio.IV", 0.0, 0, 1360627200, 16, 0, 5], [2335974837, "HMS.IHP.GI.V.FatAbsorption", 0.0, 0, 1362096000, 24, 0, 8], [2062271779, "USask PHPM Environmental Health", 0.0, 0, 1443484800, 514, 0, 8], [1002146631, "HMS.IHP.Hepatic", 0.0, 0, 1360195200, 20, 0, 5], [2921787265, "HMS.IHP.GI.VI", 0.0, 0, 1361923200, 24, 0, 9], [2259391229, "HMS.IHP.Endocrine.IV", 0.0, 0, 1362614400, 17, 0, 9]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Hp</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

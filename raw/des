@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1583779826, "Droit des affaires - Introduction", 0.0, 0, 1454889600, 15, 0, 1], [1460664383, "Droit des affaires - Partie 1/Chapitre 1", 0.0, 0, 1454889600, 10, 0, 0], [1852809644, "SM34 - A crystal clear destiny", 0.0, 0, 1454889600, 32, 0, 0], [2123341972, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 67", 0.0, 0, 1454803200, 13, 13, 0], [1212249195, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 71", 0.0, 0, 1454803200, 4, 4, 0], [493566475, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 72", 0.0, 0, 1454803200, 11, 11, 0], [1112304797, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 68", 0.0, 0, 1454803200, 6, 6, 0], [216819736, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 69", 0.0, 0, 1454803200, 9, 9, 0], [1112137068, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 70", 0.0, 0, 1454803200, 4, 4, 0], [1292597608, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 73", 0.0, 0, 1454803200, 7, 7, 0], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [989205601, "Introduction au droit des affaires", 0.0, 0, 1454889600, 33, 0, 0], [1705584167, "Grundlagen des Marketing Uni due WS 15/16", 0.0, 0, 1454544000, 358, 0, 62], [930116308, "2100 Kanji l'int\u00e9grale des JLPT et Jouyou en Fran\u00e7ais", 0.0, 0, 1453939200, 2100, 0, 2202], [1013028463, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 88", 0.0, 0, 1454284800, 8, 8, 0], [1118822279, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 29", 0.0, 0, 1454803200, 24, 24, 0], [164619324, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 74", 0.0, 0, 1454803200, 23, 23, 0], [193471417, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 75", 0.0, 0, 1454803200, 18, 18, 0], [1823347243, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 90", 0.0, 0, 1454284800, 21, 21, 0], [126524023, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 60", 0.0, 0, 1454284800, 19, 19, 0], [2096349358, "JMC Audio: 302 Acoustic Design Notes", 0.0, 0, 1453939200, 14, 0, 1], [640726, "TS - Caract\u00e9ristiques des ondes", 0.0, 0, 1453680000, 36, 1, 27], [1977964181, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 89", 0.0, 0, 1454284800, 17, 17, 0], [2028379579, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 91", 0.0, 0, 1454284800, 10, 10, 0], [523933998, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 57", 0.0, 0, 1452729600, 9, 9, 0], [3588242408, "PLU Price Lookup Codes", 4.0, 1, 1387324800, 1027, 0, 639], [2087821241, "yllsom derm slides", 0.0, 0, 1453161600, 0, 0, 0], [866691323, "Anato desk", 0.0, 0, 1453852800, 24, 0, 0], [1813898871, "My desk", 0.0, 0, 1452384000, 1568, 1385, 0], [731720484, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 51", 0.0, 0, 1452729600, 2, 2, 0], [286862392, "Europe des nationalit\u00e9s ", 0.0, 0, 1452729600, 59, 0, 0], [1923103392, "190-LED Sd des antiphospholipides", 0.0, 0, 1452643200, 13, 0, 0], [53902289, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 55", 0.0, 0, 1452729600, 4, 4, 0], [443840823, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 50", 0.0, 0, 1452729600, 3, 3, 0], [537488752, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 52", 0.0, 0, 1452729600, 11, 11, 0], [1990090671, "ABI Ch3 NUCLEOTIDES/AMINO ACIDS", 0.0, 0, 1452816000, 70, 0, 12], [2005688403, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 56", 0.0, 0, 1452729600, 8, 8, 0], [1321705254, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 58", 0.0, 0, 1452729600, 11, 11, 0], [13042516, "history of Chinese art and design", 0.0, 0, 1453161600, 83, 0, 0], [1874254267, "Latitudes and longitudes of some major cities", 0.0, 0, 1450828800, 43, 0, 0], [1225699360, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 54", 0.0, 0, 1452729600, 4, 4, 0], [1340171737, "METAR/TAF Codes", 0.0, 0, 1453420800, 88, 0, 0], [401721721, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 53", 0.0, 0, 1452729600, 9, 9, 0], [740745654, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 59", 0.0, 0, 1452729600, 16, 16, 0], [1954715116, "Torsades", 0.0, 0, 1452124800, 6, 0, 0], [1473435128, "ABI CH3 NUCLEOTIDES/AMINO ACIDS", 0.0, 0, 1451952000, 5, 0, 0], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [164450921, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 40", 0.0, 0, 1448496000, 24, 24, 0], [1939657963, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 35", 0.0, 0, 1448150400, 9, 9, 0], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [1703243554, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 32", 0.0, 0, 1448150400, 13, 13, 0], [1891892833, "PathoAnatomy Slides 1-70", 0.0, 0, 1447804800, 67, 0, 221], [1829966048, "Vokabeln zum Erlernen des paschtunischen Alphabets", 0.0, 0, 1450224000, 113, 3, 1], [711814954, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 49", 0.0, 0, 1449532800, 7, 7, 0], [712694151, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 34", 0.0, 0, 1448150400, 6, 6, 0], [967969043, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 48", 0.0, 0, 1448496000, 12, 12, 0], [1722500951, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 47", 0.0, 0, 1448496000, 4, 4, 0], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [2064286028, "JMC Audio 302 \"Acoustic Design\" Notes", 0.0, 0, 1449532800, 242, 0, 59], [739232840, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 44", 0.0, 0, 1448496000, 4, 4, 0], [2106806583, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 42", 0.0, 0, 1448496000, 9, 9, 0], [1468755628, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 28", 0.0, 0, 1447545600, 6, 6, 0], [1044914894, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 46", 0.0, 0, 1448496000, 5, 5, 0], [1139833201, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 41", 0.0, 0, 1448496000, 19, 19, 0], [520676708, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 37", 0.0, 0, 1448150400, 14, 14, 0], [1981454284, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 33", 0.0, 0, 1448150400, 8, 8, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 5.0, 1, 1345852800, 3527, 0, 0], [571074513, "Personal Pattern for Anki Desk", 0.0, 0, 1448236800, 0, 0, 0], [2071937304, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 43", 0.0, 0, 1448496000, 6, 6, 0], [1109445416, "this is a description", 0.0, 0, 1448323200, 16, 0, 20], [1218921897, "BNDES 2015", 0.0, 0, 1447200000, 18, 0, 0], [2031591801, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 30", 0.0, 0, 1448150400, 4, 4, 0], [1894908809, "Gef\u00e4\u00dfe des Halses", 0.0, 0, 1447632000, 8, 0, 0], [1446975799, "Biologie mol\u00e9culaire Acides Amin\u00e9s & Prot\u00e9ines", 0.0, 0, 1447372800, 5, 0, 0], [805615255, "Nerven des Halses", 0.0, 0, 1447632000, 6, 0, 0], [1846368139, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 24", 0.0, 0, 1446768000, 16, 16, 0], [1866968965, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 27", 0.0, 0, 1447545600, 23, 23, 0], [1015315881, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 39", 0.0, 0, 1448496000, 11, 11, 0], [142394550, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 31", 0.0, 0, 1448150400, 12, 12, 0], [900261995, "Muskulatur des Dorsum Pedis", 0.0, 0, 1447804800, 7, 0, 0], [1607606313, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 23", 0.0, 0, 1446768000, 20, 20, 0], [226739842, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 36", 0.0, 0, 1448150400, 33, 33, 0], [494756537, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 22", 0.0, 0, 1446768000, 4, 4, 0], [168368817, "Kn\u00f6chernde Bestandteile des Unterschenkels und des Fu\u00dfes", 0.0, 0, 1447804800, 7, 0, 0], [1825852181, "Biologie mol\u00e9culaire Lipides", 0.0, 0, 1447372800, 21, 0, 0], [1786099268, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 38", 0.0, 0, 1448150400, 30, 30, 0], [1523420163, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 45", 0.0, 0, 1448496000, 10, 10, 0], [1429393318, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 26", 0.0, 0, 1446768000, 13, 13, 0], [1145032819, "Intermediate R functions and design patterns ", 5.0, 1, 1440460800, 51, 0, 1], [1821520709, "Map of Asian States Includes Capitals and Flags", 0.0, 0, 1428969600, 49, 8, 61], [1179665148, "Il mio deck di tedesco", 0.0, 0, 1443916800, 1, 0, 0], [2137098690, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 25", 0.0, 0, 1446768000, 37, 37, 0], [609701403, "Basic R functions and design patterns", 5.0, 2, 1440460800, 40, 0, 0], [181404630, "FPP MSS Pathology Midterm Tutor Slides", 0.0, 0, 1440720000, 170, 0, 131], [1262224552, "Describing graphs DJ", 0.0, 0, 1444089600, 51, 0, 0], [622822071, "Histology cards for Recognition Slides", 0.0, 0, 1441238400, 8, 0, 9], [1901564598, "Comunidades aut\u00f3nomas de Espa\u00f1a", 4.0, 1, 1434067200, 34, 0, 0], [1493032477, "Histo Lab Slides with Answers", 0.0, 0, 1443657600, 22, 0, 0], [371529962, "Histology Lab 3 slides", 0.0, 0, 1440201600, 28, 0, 56], [1484686549, "\u0130spanyolca - T\u00fcrk\u00e7e 2000 (TTS Destekli)", 5.0, 1, 1442448000, 2051, 3926, 1], [782915723, "Anatomie Muskeln des Menschen", 3.0, 2, 1404259200, 215, 0, 56], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 0.0, 0, 1454025600, 1381, 1119, 100], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [1496793357, "Flashcards for the Design Rotation", 0.0, 0, 1438905600, 39, 9, 0], [2130714428, "Table des types pok\u00e9mon", 0.0, 0, 1438128000, 80, 0, 1], [1493953511, "Instrumente des Controlling - Marketingcontrolling", 0.0, 0, 1442361600, 22, 0, 2], [636105689, "Information about Trematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 57, 0, 0], [1384075779, "Histology Lab 2 slides", 0.0, 0, 1440201600, 20, 0, 40], [1434971097, "Wojew\u00f3dztwa w Polsce- Voivodeships in Poland", 0.0, 0, 1412726400, 31, 0, 15], [108378900, "Wichtige Philosophische Begriffe des Altgriechischen", 0.0, 0, 1435017600, 226, 0, 0], [1342690825, "mnslabslides", 0.0, 0, 1398902400, 21, 0, 42], [2615197542, "HTTP Return Codes", 0.0, 0, 1351382400, 58, 0, 0], [953417349, "Landeskunde Japans T\u00fc WS 13/14", 0.0, 0, 1391126400, 79, 0, 0], [1522316540, "Photo description \u65e5\u672c\u8a9e<->\u82f1\u8a9e", 0.0, 0, 1382400000, 16, 0, 0], [1203992203, "SAMS 15-01 - Design and Operational Art (DOA)", 0.0, 0, 1432166400, 192, 0, 27], [440110193, "Algorithmist's Latvian Swadesh List with Audio", 0.0, 0, 1422662400, 208, 214, 14], [780255508, "UPJS Pathoanatomy Slides 71-140", 0.0, 0, 1398902400, 238, 0, 237], [2116883197, "Cisco Certified Design Associate preparation deck", 4.0, 1, 1425340800, 98, 0, 2], [1134233754, "dakua'ana davi: v. descriptive", 0.0, 0, 1411689600, 19, 19, 18], [190522232, "Judesiai ir raumenys bendrai", 0.0, 0, 1431820800, 124, 0, 135], [440474937, "Exam 4 Desert trip", 0.0, 0, 1433116800, 67, 0, 0], [1140711545, "AAAHST7CM Sociedades Produtoras", 0.0, 0, 1433289600, 20, 0, 0], [525341516, "Landes Hebrew Vocabulary", 0.0, 0, 1387238400, 558, 0, 0], [2080518810, "dakua'ana davi: enfermedades", 0.0, 0, 1411689600, 15, 15, 14], [2945646902, "Svedese", 0.0, 0, 1345852800, 23, 0, 0], [3663741503, "Psicolog\u00eda del Desarrollo I", 0.0, 0, 1388361600, 610, 0, 0], [1656851722, "Notes Rapides code de la route", 0.0, 0, 1381190400, 30, 0, 0], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [959488396, "Swadesh Greek Vocab ", 0.0, 0, 1425340800, 204, 2, 3], [1981395207, "CMBM I proteins, nucleotides", 0.0, 0, 1386115200, 582, 0, 85], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [1108171985, "Major Scales & Modes - Spelling", 0.0, 0, 1369958400, 588, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [1173211136, "Block 3 - Descending motor tracts. ", 0.0, 0, 1391212800, 40, 0, 0], [3192676274, "Dvlpmt des organisations", 0.0, 0, 1384387200, 21, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [718381181, "Most Common NFPA Codes", 0.0, 0, 1394323200, 58, 0, 0], [3402948704, "13240 Airport Design", 0.0, 0, 1367280000, 143, 0, 0], [3495652827, "Gardiner Sign Codes", 0.0, 0, 1360281600, 1071, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [2014989462, "CRM- Basics of study Design ", 0.0, 0, 1367280000, 14, 0, 0], [140944871, "Anatomy Exam 3 TA Review Slides", 0.0, 0, 1397865600, 159, 0, 0], [282809961, "Les grandes r\u00e9gions du cerveau en 3D - neurologie", 0.0, 0, 1390867200, 27, 0, 1], [701549605, "Design Patterns", 5.0, 1, 1434412800, 23, 0, 22], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [1654430327, "FTO 711 Outgoing Codes IATA", 0.0, 0, 1419984000, 45, 0, 0], [836592429, "Destination", 0.0, 0, 1428105600, 811, 0, 0], [442460260, "MCBI B1 - Nucleotides/Nucleic acids", 0.0, 0, 1410825600, 69, 0, 40], [1345191673, "Th\u00e9orie des jeux", 0.0, 0, 1411344000, 36, 0, 0], [131520755, "A longer description is required. ", 0.0, 0, 1392681600, 19, 0, 4], [971658824, "Information about cestodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 122, 0, 0], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [636549812, "Information about Nematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 199, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [981929284, "Armenian most important words_1 desk", 0.0, 0, 1431043200, 1526, 0, 0], [819731189, "Appearances and Attitudes", 0.0, 0, 1423440000, 15, 0, 0], [517093674, "Curso Multiplus BNDES", 0.0, 0, 1426636800, 664, 36, 21], [620746859, "LSQ grammaire Langue des signes SignEcriture 2015 ", 0.0, 0, 1428192000, 313, 0, 314], [1700211142, "Art Hum final power point slides", 0.0, 0, 1399766400, 178, 0, 341], [1767504651, "SHB Exam 3: Handout for Ascending and Descending Tract", 0.0, 0, 1417824000, 9, 0, 1], [814604981, "glossaire des termes douaniers internationaux ", 0.0, 0, 1421366400, 165, 0, 0], [1069282454, "BA3 - M\u00e9thodes et probl\u00e8mes", 0.0, 0, 1399334400, 23, 0, 0], [1123135443, "Slides for SCJP exam", 0.0, 0, 1354579200, 42, 0, 0], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [811239422, "Designing Lean Manufacturing Systems TU M\u00fcnchen", 0.0, 0, 1408406400, 42, 0, 36], [1102657521, "GI LGD and PEPTIDES", 0.0, 0, 1393286400, 18, 0, 7], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [1562981279, "Desiderata", 0.0, 0, 1345852800, 44, 0, 0], [3136532859, "Deutsche Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 16, 0, 0], [1741373124, "Country codes (top-level domain names)", 0.0, 0, 1391212800, 247, 0, 0], [1340860033, "Grundlagen des Rechts 736180", 0.0, 0, 1387497600, 367, 0, 0], [408123031, "AAAHST7CM Sociedades Recoletoras", 0.0, 0, 1433289600, 20, 0, 0], [2119169139, "MCB-1 Amino Acids & Nucleotides", 0.0, 0, 1414368000, 31, 0, 29], [113801033, "Grammatik und Partikel des Japanischen", 0.0, 0, 1423008000, 35, 0, 0], [1952398056, "IATA airport and city codes", 1.0, 1, 1350086400, 10125, 0, 0], [237574423, "histo final Kirangs slides- epithelium", 0.0, 0, 1417478400, 47, 0, 36], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [728354230, "An\u00e1lise e Projeto com UML (Diagrama de Casos de Uso - Desenh", 0.0, 0, 1410912000, 8, 0, 5], [2059738881, "UPJS Pathoanatomy Slides 1-71", 0.0, 0, 1401494400, 191, 0, 188], [3094092531, "IPA Spanish & English Consonants (Description First)", 0.0, 0, 1345852800, 50, 41, 0], [321932587, "MCB-1 Modes of Inheritance", 0.0, 0, 1414368000, 65, 0, 19], [1162704718, "Longer description required.", 0.0, 0, 1393632000, 30, 0, 16], [609924740, "Course d'orientation - Descriptions de contr\u00f4le", 0.0, 0, 1419033600, 111, 0, 111], [785733832, "A short one line description of your deck.", 1.0, 1, 1405900800, 360, 0, 0], [2222581120, "Deutsche S\u00e4tze f\u00fcr Italiener / Frasi in tedesco per italiani", 0.0, 0, 1364860800, 4046, 0, 0], [373541232, "SHB Exam 3: Descending Corticospinal Tract", 0.0, 0, 1417824000, 20, 0, 16], [1742252642, "Curiosidadesparalanena", 0.0, 0, 1367193600, 319, 0, 16], [3405910230, "My desk for learning English (Charger)", 0.0, 0, 1385251200, 37, 0, 0], [171784385, "\u5feb\u4e50\u6c49\u8bed episodes 1-8 \u751f\u8bcd", 0.0, 0, 1370822400, 70, 0, 0], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [385718711, "Deutsche Bundesl\u00e4nder - Federal States of Germany", 4.67, 6, 1358553600, 16, 0, 0], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [3049014207, "Italian wines with English Descriptions", 0.0, 0, 1345852800, 19, 0, 0], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [2889467993, "Nucleosides & Nucleotides", 0.0, 0, 1359590400, 28, 0, 28], [1268076678, "T\u00e9trades Harmonisation Maj/Min/MinHarmo", 0.0, 0, 1359331200, 147, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 5.0, 1, 1363392000, 5393, 0, 0], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [205208556, "Spanish: Destinos Lecciones 1-26", 0.0, 0, 1345852800, 964, 0, 0], [2471957626, "American English Braille Grades 1 & 2", 0.0, 0, 1357084800, 254, 0, 206], [555748726, "Comptabilit\u00e9 fran\u00e7aise", 0.0, 0, 1394668800, 52, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Des</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

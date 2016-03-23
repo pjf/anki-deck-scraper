@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[826144732, "Apolo-nemet", 0.0, 0, 1454803200, 542, 0, 0], [3837585903, "Zertifikat Deutsch - B1, p\u00e9ld\u00e1kkal -- n\u00e9met-magyar", 4.75, 4, 1378425600, 3539, 0, 0], [2071543425, "Japanese Onomatopoeia and Mimetic Words by Onomato Project", 5.0, 1, 1454544000, 85, 0, 84], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [1699867374, "SBFV - Trainer C - Methodik P\u00e4dagogik", 0.0, 0, 1453852800, 7, 0, 0], [419081300, "TDF1-2.4 Pulvermetallurgie", 0.0, 0, 1454889600, 46, 0, 50], [1546703997, "Mental Arithmetic Practice", 3.0, 2, 1428624000, 40099, 1, 37], [806643760, "Schritte international 2 -- n\u00e9met-magyar", 5.0, 1, 1380326400, 1088, 0, 0], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [2079637790, "Dr.Bab\u00e1ri Ern\u0151 - Egyszer\u0171en n\u00e9met\u00fcl -- n\u00e9met-magyar", 4.0, 1, 1390435200, 1043, 0, 0], [2680787138, "Start! Neu, N\u00e9met I. -- n\u00e9met-magyar", 4.25, 4, 1380672000, 1659, 0, 0], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [18065717, "Boschn\u00e9met", 0.0, 0, 1454630400, 11, 0, 0], [1510872195, "ABI Second Intro to Metabolism", 0.0, 0, 1452902400, 44, 0, 0], [1763234529, "Laz\u00e1n n\u00e9met\u00fcl II.", 0.0, 0, 1451088000, 118, 0, 0], [1049070721, "methoden 10 kowi uhlemann", 0.0, 0, 1452211200, 9, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [1340171737, "METAR/TAF Codes", 0.0, 0, 1453420800, 88, 0, 0], [1833735996, "N\u00e9met nyelvvizsga felk\u00e9sz\u00fcl\u00e9s", 0.0, 0, 1451088000, 111, 0, 0], [622673852, "methoden 8 kowi uhlemann", 0.0, 0, 1452211200, 16, 0, 0], [1688346635, "methoden 11 kowi uhlemann", 0.0, 0, 1452211200, 20, 0, 1], [1362116560, "Callan 1 English Metod - Basic 1", 0.0, 0, 1452038400, 122, 0, 0], [2126897672, "methoden 9 kowi uhlemann", 0.0, 0, 1452211200, 21, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [180038681, "Seven Base Units (Metric SI)", 0.0, 0, 1395532800, 7, 0, 0], [1498619072, "NUT 111AV INTRO 2 METBOLISM", 0.0, 0, 1451088000, 3, 0, 0], [713498644, "N\u00e9met szavak - \u00c9tkez\u00e9s", 0.0, 0, 1448582400, 30, 0, 0], [1674273219, "AA metabolism", 0.0, 0, 1447459200, 57, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 6, 1372636800, 1966, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 0.0, 0, 1447286400, 108, 0, 78], [449387316, "Piar2018_n\u00e9met", 0.0, 0, 1449446400, 33, 0, 0], [133728276, "Trigonometry", 0.0, 0, 1447372800, 24, 0, 0], [986536761, "Folic Acid Metabolism", 0.0, 0, 1447459200, 45, 0, 0], [746963567, "Methoden 1 Kowi Uhleman", 0.0, 0, 1446595200, 16, 0, 0], [3883396643, "Geometry Acrostics", 3.33, 3, 1407196800, 76, 0, 71], [1681063052, "methoden 3 kowi uhleman", 0.0, 0, 1446595200, 17, 0, 0], [382007413, "methoden kowi 2 uhleman", 0.0, 0, 1446595200, 4, 0, 0], [1332833324, "methoden 5 kowi uhlemann", 0.0, 0, 1447891200, 18, 0, 1], [2000817267, "MP - Matematica e geometria per superiori", 0.0, 0, 1446768000, 104, 41, 100], [855347051, "Lecture 4.1 pentose phosphate and fructose metabolism", 0.0, 0, 1444089600, 57, 0, 0], [714702480, "methoden 6 uhlemann kowi", 0.0, 0, 1447891200, 29, 0, 11], [1320014410, "Research Methods Matt and Ilya", 0.0, 0, 1444089600, 187, 0, 4], [809884496, "Enokrina systemet", 0.0, 0, 1446768000, 29, 0, 0], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [1649779035, "JQuery methods", 0.0, 0, 1441497600, 281, 0, 0], [1247701499, "FinnFACEM - Endo-metabolic", 0.0, 0, 1439424000, 49, 0, 39], [1562088869, "Neurobiologi til Mette", 0.0, 0, 1442880000, 541, 0, 349], [1218968469, "Delar av det periodiska systemet ", 0.0, 0, 1443398400, 31, 19, 8], [335741154, "Transitional Metals Cations", 0.0, 0, 1442361600, 18, 0, 0], [2248232206, "N\u00e9met alapsz\u00f3kincs", 2.5, 2, 1348272000, 1997, 0, 0], [1611887260, "Amino Acids and Metabolism 1 -biochem - TU-  JessTepper", 0.0, 0, 1439596800, 83, 0, 0], [1418354487, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok birtokos esetben", 0.0, 0, 1396742400, 26, 0, 0], [1906995119, "egyesultnemet", 0.0, 0, 1396483200, 4783, 0, 0], [218813209, "MPaley Nitrogen Metabolism ", 0.0, 0, 1439596800, 73, 0, 1], [615297363, "Biochem Chapter 18: Nitrogen Metabolism", 0.0, 0, 1430697600, 63, 3, 2], [308486891, "Natural Science: Meteorology, Oceanography and Hydrology", 0.0, 0, 1440460800, 139, 0, 0], [162623957, "forme geometriche by 853722", 0.0, 0, 1440028800, 8, 0, 0], [1482539989, "Metab 5", 0.0, 0, 1441238400, 8, 0, 0], [1160174865, "Hasznos Kifejez\u00e9sek N\u00e9met-Magyar", 0.0, 0, 1405987200, 471, 0, 0], [443471974, "ROWAN SOM BIOCHEM BLOCK 3 LECTURE 1 METABOLISM INTEGRATION", 0.0, 0, 1412467200, 55, 0, 3], [403624453, "Metabolism III review - biochem - JessTepper", 0.0, 0, 1439596800, 50, 0, 0], [689885823, "N\u00e9met szavak \u00e9s kifejez\u00e9sek", 0.0, 0, 1351641600, 1154, 0, 0], [867320286, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1427500800, 104, 0, 0], [1738896752, "N\u00e9met \u00d6sszetett m\u00falt 4.", 0.0, 0, 1396051200, 45, 0, 0], [2060842003, "Fullmetal Botanist", 0.0, 0, 1434499200, 72, 0, 0], [247187871, "Metabolism L1-4", 0.0, 0, 1417996800, 131, 0, 12], [3689664425, "HMS.HG.Methods.Testing.DNA", 0.0, 0, 1355011200, 27, 0, 3], [4019441714, "Kanji Movie Method", 0.0, 0, 1345852800, 134, 0, 0], [1220201887, "N\u00e9met - Mondatok_3", 0.0, 0, 1412380800, 57, 0, 0], [3146384271, "Arithmetic", 0.0, 0, 1381190400, 1099, 0, 0], [1774851542, "N\u00e9met - Futur II.", 0.0, 0, 1437264000, 38, 0, 0], [123912555, "Emma metabolism", 0.0, 0, 1396656000, 49, 0, 0], [1747291830, "debnemet4", 0.0, 0, 1385510400, 60, 0, 0], [611021059, "Metabolism Block 2 GI", 0.0, 0, 1415491200, 314, 0, 1], [1095254711, "VG's Biochemistry: Carbohydrate Metabolism", 0.0, 0, 1408752000, 29, 0, 7], [832666249, "rowan som prematric biochemistry - metabolism carbohydrates", 0.0, 0, 1404864000, 20, 0, 10], [1144118175, "TU Wien - Plastik, Nichtmetalle (308.860)", 0.0, 0, 1425340800, 177, 0, 46], [1670900781, "Marys Methoden der Marketingforschung Einheit 1 @ WU Wien", 0.0, 0, 1387065600, 51, 0, 31], [75331612, "N\u00e9met - Hat\u00e1rozatlan n\u00e9vm\u00e1s ; Az egyik...", 0.0, 0, 1416096000, 60, 0, 0], [287003730, "Geometria 3 - Unina", 0.0, 0, 1434240000, 132, 3, 281], [562923854, "Met PBL 7", 0.0, 0, 1417305600, 21, 0, 0], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [1226694032, "N\u00e9met rendhagy\u00f3 ig\u00e9k Dave", 0.0, 0, 1388707200, 172, 0, 0], [308875846, "N\u00e9met \u00d6sszetett m\u00falt  2.", 0.0, 0, 1395619200, 28, 0, 0], [1388417611, "Metabolic Syndrome/Diabetes", 0.0, 0, 1411776000, 52, 0, 0], [134561151, "ESFT Assessment Methods & Interventions", 0.0, 0, 1436313600, 25, 0, 0], [36514656, "Villanova Stat Methods I - part 1", 0.0, 0, 1423180800, 49, 0, 11], [238222841, "N\u00e9met sz\u00f6vegkoh\u00e9zi\u00f3s elemek (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 101, 0, 0], [144230687, "metabolism", 0.0, 0, 1432857600, 427, 0, 0], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [478163536, "Statistische Methoden der Risikotheorie", 0.0, 0, 1427932800, 29, 0, 33], [2105949298, "SPF-M n\u00e9met-magyar ", 0.0, 0, 1427587200, 940, 0, 0], [1174141980, "N\u00e9met szavak_Nyelvtani ABC+saj\u00e1t", 0.0, 0, 1453075200, 190, 0, 20], [1392106804, "N\u00e9met szitu\u00e1ci\u00f3k - Arbeit", 0.0, 0, 1409011200, 72, 0, 0], [1212701380, "MBChB Metabolism", 0.0, 0, 1358380800, 86, 0, 2], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [2820284005, "Deutsch Perfekt 3 (magyar-nemet)", 0.0, 0, 1453852800, 1004, 529, 414], [873233633, "N\u00e9met - Mondatok_4", 0.0, 0, 1414368000, 54, 0, 0], [1163453434, "productionSystems CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 32, 0, 0], [250751362, "Laz\u00e1n n\u00e9met\u00fcl I.: 4. lecke - szavak", 0.0, 0, 1407110400, 68, 0, 0], [1576398487, "Mehmet 2", 0.0, 0, 1411689600, 333, 0, 0], [840146691, "N\u00e9met - Wenn-es felt\u00e9teles mell\u00e9kmondatok", 0.0, 0, 1398124800, 31, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [1549757360, "UP-ERN Methoden der Biochemie", 0.0, 0, 1424822400, 57, 0, 11], [104861841, "Philosophical Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 28, 0, 0], [933188095, "N\u00e9met \u00d6sszetett m\u00falt 6.", 0.0, 0, 1396656000, 59, 0, 0], [1217898473, "All Cards CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 346, 0, 0], [842729777, "Villanova Regression Methods - part 1", 0.0, 0, 1424563200, 48, 0, 49], [662638511, "Neuroscience Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 47, 0, 0], [3974018994, "debnemet3", 0.0, 0, 1385510400, 68, 0, 0], [883742463, "N\u00e9met \u00d6sszetett m\u00falt 1.", 0.0, 0, 1395619200, 62, 0, 0], [1052499941, "Sz\u00f3k\u00e1rty\u00e1im a k\u00f6z\u00e9pfok\u00faig magyar-n\u00e9met (Deutsch)", 0.0, 0, 1429488000, 798, 0, 0], [2628815328, "AF2 metabolisme \u00f8velse fysiologi", 0.0, 0, 1345852800, 17, 0, 12], [732330018, "Mehmet Turkish 1", 0.0, 0, 1409702400, 413, 0, 0], [887012279, "Iron Metabolism", 0.0, 0, 1411862400, 62, 0, 0], [1799696303, "N\u00e9met - Szenved\u0151 szerkezet", 0.0, 0, 1406419200, 34, 0, 0], [1602298555, "Laz\u00e1n n\u00e9met\u00fcl I: 3. lecke - szavak", 0.0, 0, 1404172800, 70, 0, 0], [1741503681, "ACT Geometry Facts & Formulas", 0.0, 0, 1432512000, 33, 0, 11], [601201769, "French - Czech: Connexion 1 - Method de Francais", 0.0, 0, 1413331200, 1376, 0, 0], [1630227006, "CRM- META ", 0.0, 0, 1367625600, 8, 0, 2], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 1, 1373241600, 2049, 0, 0], [1604177820, "debnemet5", 0.0, 0, 1385510400, 70, 0, 0], [1666139404, "N\u00e9met - Arbeit 2", 0.0, 0, 1407801600, 44, 0, 0], [1361490881, "N\u00e9met Felt\u00e9teles m\u00falt - tagad\u00f3", 0.0, 0, 1396828800, 64, 0, 0], [2039375844, "Mehmet 3", 0.0, 0, 1427155200, 333, 0, 0], [538756811, "Glycogen Metabolism", 0.0, 0, 1411776000, 32, 0, 0], [68946285, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1428883200, 67, 0, 0], [3853161371, "Trigonometry Acrostics", 0.0, 0, 1408838400, 71, 0, 49], [842615593, "N\u00e9met-Magyar 1000K\u00e9rd\u00e9s1000V\u00e1lasz", 0.0, 0, 1405987200, 3061, 0, 0], [2730742482, "debnemet1", 0.0, 0, 1385510400, 103, 0, 0], [3327932949, "Kristallographie I (haupts\u00e4chlich Geometrie)", 0.0, 0, 1389744000, 172, 0, 0], [2062190850, "Kezdo Nemet - Delfin", 0.0, 0, 1345852800, 2185, 0, 0], [3644830517, "ethology CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 15, 0, 0], [1476171601, "Biochem Chapter 17: Lipid metabolism", 0.0, 0, 1430697600, 34, 3, 2], [1073329575, "N\u00e9met - Mondatok_2", 0.0, 0, 1409011200, 75, 0, 0], [106533309, "Geometrische Analysis", 0.0, 0, 1389139200, 96, 0, 118], [854640697, "Trigonometry", 0.0, 0, 1407283200, 29, 0, 51], [1519635985, "Most common sites of Cancer metastasis", 0.0, 0, 1390867200, 12, 0, 0], [1196211369, "Villanova Stat Methods 1 - part 2", 0.0, 0, 1423180800, 31, 0, 0], [1529069472, "Metodos diagnostico de car calcetas", 0.0, 0, 1423699200, 27, 0, 7], [59486831, "debnemet2", 0.0, 0, 1385510400, 78, 0, 0], [210894223, "Planetino 1. n\u00e9met sz\u00f3szedet (Kal\u00f3Z)", 0.0, 0, 1424304000, 89, 0, 0], [1311108596, "T6 - MCQ-fr\u00e5gor - L\u00e4karprogrammet Lund/Malm\u00f6/Hbg", 0.0, 0, 1389398400, 209, 0, 0], [1852191864, "metabolism", 0.0, 0, 1420848000, 176, 0, 17], [1928327134, "Biochem Chapter 19: Regulation of Mammalian Fuel Metabolism", 0.0, 0, 1430697600, 26, 3, 2], [2208213442, "Deutsch Perfekt 1 (n\u00e9met-magyar)", 0.0, 0, 1453852800, 1000, 513, 408], [1090701268, "N\u00e9met \u00d6sszetett m\u00falt 5.", 0.0, 0, 1396656000, 51, 0, 0], [1938143068, "Pravdepodonostni metody", 0.0, 0, 1420156800, 61, 1, 51], [3535495155, "Deutsch Perfekt 2 (n\u00e9met-magyar)", 5.0, 1, 1453852800, 1026, 492, 384], [1738791118, "French - Farsi -- Words of AlterEgo 1 methode de francais", 1.0, 1, 1358553600, 1150, 0, 0], [3489705191, "Levels of Explanation in Science CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [1187177858, "N\u00e9met \u00d6sszetett m\u00falt 3.", 0.0, 0, 1396051200, 59, 0, 0], [1002764210, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok prepoz\u00edci\u00f3kkal", 0.0, 0, 1396742400, 29, 0, 0], [1852441418, "N\u00e9met Felt\u00e9teles m\u00falt - k\u00e9rd\u0151", 0.0, 0, 1395619200, 39, 0, 0], [502929531, "Marys Methoden der Marketingforschung Einheit 3-6 @ WU Wien", 0.0, 0, 1387065600, 11, 0, 5], [586107723, "noncommutative Geometry I", 0.0, 0, 1433808000, 412, 0, 451], [1967931259, "N\u00e9met rendhagy\u00f3 ig\u00e9k", 0.0, 0, 1405987200, 138, 0, 0], [1797939064, "Drug Metabolism VIJ", 0.0, 0, 1412208000, 25, 0, 8], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [1871478532, "Erwin Tschirner - N\u00e9met sz\u00f3kincs 1-600 sz\u00f3", 0.0, 0, 1357862400, 600, 0, 0], [1508269032, "Villanova Stat Methods I - Introductory concepts", 0.0, 0, 1423180800, 15, 0, 0], [1815578108, "\u00fajnemet", 0.0, 0, 1388102400, 119, 0, 0], [2031049221, "MCM Test 3: 8.15 BSC Inborn Errors of Metabolism", 0.0, 0, 1408492800, 8, 0, 0], [1956799398, "Metzer's Koine Greek Vocab, 42-45 Frequency", 0.0, 0, 1409270400, 25, 0, 0], [1262731104, "Esperanto: de Universala Esperanto Metodo", 0.0, 0, 1430092800, 79, 0, 10], [320677583, "Metasyntactic Encryption Variables", 0.0, 0, 1394755200, 16, 0, 0], [889539572, "unc_som_2018-carbohydrate and E metabolism", 0.0, 0, 1409270400, 48, 0, 0], [420399809, "Marys Methoden der Marketingforschung SPSS @ WU Wien", 0.0, 0, 1387065600, 35, 0, 7], [1024632897, "DDO Paediatrics - Hypoglycaemia and metabolic emergencies ", 0.0, 0, 1409616000, 40, 0, 0], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [2125511416, "Marys Methoden der Marketingforschung Einheit 2 @ WU Wien", 0.0, 0, 1387065600, 25, 0, 10], [119736089, "Kreat\u00edv n\u00e9met kezd\u0151 0104 A", 0.0, 0, 1400457600, 94, 0, 0], [43978039, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok r\u00e9szes esetben", 0.0, 0, 1396742400, 27, 0, 0], [1199962106, "NE-Metalle Mollard", 0.0, 0, 1421452800, 27, 0, 0], [1826967122, "Villanova Regression Methods - part 2", 0.0, 0, 1424563200, 31, 0, 20], [1844687840, "Herstellung metalischer Werkstoffen", 0.0, 0, 1422576000, 29, 0, 0], [372344843, "Verfahrenstechnik - W\u00e4rmetechnik", 0.0, 0, 1406073600, 11, 0, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [1080414520, "Major Methods: 10-Spliced Surprise (Mark B Davies) 1", 0.0, 0, 1409788800, 80, 0, 70], [2706219531, "Linguistics Methodology CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 15, 0, 0], [1034600627, "Kedvenc szavaim (n\u00e9met-magyar)", 0.0, 0, 1411257600, 231, 0, 219], [546729483, "Making Science Presentations CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [3451058793, "Drug metabolism", 0.0, 0, 1350777600, 31, 0, 0], [1609494797, "Izpit_voditelj_colna-5del-METEOROLOGIJA ", 0.0, 0, 1414281600, 21, 0, 1], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [1961469242, "N\u00e9met sz\u00f3kincsem", 3.0, 2, 1396483200, 4783, 0, 0], [2956513523, "Deutsch Perfekt 4 (magyar-n\u00e9met)", 5.0, 1, 1453852800, 1005, 639, 304], [485381930, "Protocol Analysis CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 18, 0, 0], [1139659285, "Mathematical Methods", 0.0, 0, 1397001600, 53, 0, 35], [537895049, "Biometrie TU M\u00fcnchen", 0.0, 0, 1390867200, 48, 1, 24], [2042640723, "Kreat\u00edv n\u00e9met alap - szavak", 0.0, 0, 1379721600, 30, 0, 0], [2300217896, "Path Lab 6: Metaplasia, Dysplasia & Neoplasia", 0.0, 0, 1372291200, 65, 0, 73], [1668340927, "N\u00e9met - Mondatok I.", 0.0, 0, 1410307200, 28, 0, 0], [2713449531, "psychology methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 92, 0, 0], [1550608419, "Metzer's Koine Greek Vocab, 46-49 times frequency", 0.0, 0, 1409270400, 25, 0, 0], [1211895976, "Villanova Regression Methods - part 3", 0.0, 0, 1424563200, 39, 0, 12], [1570847601, "AAA Geometria ", 0.0, 0, 1395792000, 3, 0, 0], [2765488392, "debnemet6", 0.0, 0, 1385510400, 90, 0, 0], [864958802, "ethnography CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 21, 0, 0], [96133927, "Deutsch perfekt 1. (n\u00e9met-magyar)", 0.0, 0, 1366848000, 1005, 0, 110], [1704650437, "N\u00e9met alapsz\u00f3kincs 2.", 0.0, 0, 1367798400, 2065, 0, 0], [627239283, "csabinemet", 0.0, 0, 1388102400, 3877, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Met</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

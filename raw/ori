@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [2966538659, "Chinese Radicals (Study-Ready; Simplified-Oriented)", 4.5, 2, 1345852800, 214, 0, 0], [1907499016, "14 High-Priority Dates", 5.0, 1, 1453852800, 17, 0, 0], [483427304, "Algorithmist's FSI Finnish Unit 1 with Audio", 0.0, 0, 1454198400, 246, 254, 16], [738342931, "11 High-Priority Places", 0.0, 0, 1453852800, 12, 0, 0], [1775803239, "Deutsch: Over 1000 Travel German Phrases in Categories", 5.0, 1, 1430611200, 1704, 47, 5], [2032415575, "[FULL ZBLL] Sune Orientation", 0.0, 0, 1454025600, 72, 0, 72], [1891379539, "Algorithmist's Finnish Visiting the Doctor with Audio", 0.0, 0, 1453939200, 129, 137, 16], [187884353, "Categorical Syllogisms", 0.0, 0, 1395273600, 24, 0, 24], [1308960770, "Algorithmic and Economic Aspects of the Internet", 0.0, 0, 1453334400, 107, 0, 0], [275278437, "Sistemas Operativos 1 - Historia", 0.0, 0, 1453420800, 1, 0, 0], [359978596, "Algorithmist's Finnish Months with Audio", 0.0, 0, 1453593600, 12, 20, 16], [14855591, "Algorithmist's Malayalam abugida (\"alphabet\") ", 0.0, 0, 1447804800, 70, 52, 0], [4035204890, "Bible Quiz 46 I Corinthians", 0.0, 0, 1345852800, 195, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [843234024, "RTK 1 Improved Keywords and Stories", 0.0, 0, 1399680000, 3138, 0, 0], [1120113808, "Python 3 Tutorial", 0.0, 0, 1444521600, 124, 0, 1], [1676738758, "Algorithmist's Finnish Expressions with Audio", 0.0, 0, 1453939200, 121, 126, 16], [1366559084, "Algorithmist's Finnish Cases", 0.0, 0, 1452556800, 101, 8, 16], [612048686, "[FULL ZBLL] Pi Orientation ", 0.0, 0, 1452556800, 72, 0, 72], [2091312412, "Repetytorium 6-klasisty. Pearson. Dzial 5", 0.0, 0, 1452038400, 124, 0, 0], [880791866, "Bibelkunde NT 4 - Korintherbriefe", 0.0, 0, 1452556800, 11, 0, 0], [1840914772, "Henry III's Minority Rule 1216-1232", 0.0, 0, 1452124800, 38, 0, 0], [1804021309, "Bible Quiz 47 II Corinthians", 0.0, 0, 1345852800, 123, 0, 0], [1652625283, "Honorific and Humble Verbs (\u656c\u8a9e Keigo / \u8b19\u8b72\u8a9e Kenjyougo) \t", 0.0, 0, 1435276800, 19, 0, 0], [833665190, "Algorithmist's Latvian words by frequency :1-100 with audio", 0.0, 0, 1422662400, 100, 106, 14], [1274791027, "TEOLOG\u00cdA FUNDAMENTAL, SORIANO", 0.0, 0, 1449705600, 138, 0, 0], [635748846, "Rhetorical Fallacies", 0.0, 0, 1448409600, 26, 0, 0], [1768536471, "208-Maladies respi d'origine professionnelle", 0.0, 0, 1449964800, 11, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1177597200, "Algorithmist's German-English Tatoeba Sentences", 0.0, 0, 1444089600, 101839, 29, 31], [263276491, "Salish Stories 1 Vocabulary - Selis\u030c Sm\u0313im\u0313i 1", 0.0, 0, 1448668800, 83, 4, 71], [699206800, "Bogazici - Memoria", 0.0, 0, 1449878400, 16, 0, 0], [477148734, "Algorithmist's Latvian  with audio", 0.0, 0, 1447804800, 30, 17, 0], [801289629, "Parasporiasis", 0.0, 0, 1447977600, 64, 0, 24], [2077872612, "Heisig's Remember the Kanji 1-3 w/top 2 community stories", 4.45, 11, 1345852800, 3007, 0, 0], [1423776121, "Florizarre HGE complet", 0.0, 0, 1445212800, 281, 0, 1], [164370335, "The Trivium - Grammar, Logic and Rhetoric", 0.0, 0, 1448582400, 88, 0, 0], [614792066, "ELEC4320 Asset Management and Condition Monitoring", 0.0, 0, 1449187200, 77, 0, 12], [248372278, "Algorithmist's Finnish Deck 1 with Audio", 0.0, 0, 1446508800, 200, 213, 29], [78272541, "Florizarre T/UR", 0.0, 0, 1445126400, 82, 0, 2], [1075326749, "Algorithmist's Norwegian On The Web with audio", 0.0, 0, 1446163200, 1165, 1166, 0], [2000817267, "MP - Matematica e geometria per superiori", 0.0, 0, 1446768000, 104, 41, 100], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [2094804809, "Algorithmist's Learn Norwegian On The Web with audio ", 2.0, 1, 1446163200, 1420, 1409, 0], [1330372651, "Algorithmist's Norwegian Pronouns with Audio", 0.0, 0, 1446940800, 18, 29, 29], [1803796212, "Biol 192 Lab - Porifera and Cnidaria", 0.0, 0, 1445385600, 50, 0, 10], [1214989042, "Florizarre HI complet", 0.0, 0, 1445212800, 212, 0, 6], [98868882, "Algorithmist's Hindi-English Tatoeba Sentences", 0.0, 0, 1443830400, 2623, 29, 31], [1572647336, "Florizarre OR complet", 0.0, 0, 1445126400, 171, 0, 4], [1372144121, "Berufsorientierung", 0.0, 0, 1445904000, 15, 0, 0], [1747649168, "Florizarre K complet", 0.0, 0, 1445126400, 105, 0, 2], [1508475733, "Florizarre ORT", 0.0, 0, 1445212800, 136, 0, 1], [458445558, "FLORIZARRE MI complet", 0.0, 0, 1445212800, 255, 0, 6], [673297265, "Florizarre N Complet", 0.0, 0, 1445212800, 114, 0, 0], [1424926379, "Algorithmist's  Finnish-English Tatoeba Sentences", 0.0, 0, 1443744000, 30717, 28, 30], [519672152, "horikoshi chinese", 0.0, 0, 1439856000, 24, 0, 0], [480736072, "West End Idiomas - Clothes and Accessories ", 0.0, 0, 1440979200, 70, 0, 70], [35445751, "FLorizarre OPH complet", 0.0, 0, 1445212800, 175, 0, 35], [626671316, "Florizarre DER complet", 0.0, 0, 1445126400, 188, 0, 12], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [1123244004, "trgova\u010dko pravo zagreb tepe\u0161 ugovori", 0.0, 0, 1442361600, 130, 0, 0], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [245675140, "PSY101 Testorino #1", 0.0, 0, 1442361600, 34, 0, 0], [985721475, "Doctoring Practical", 0.0, 0, 1441238400, 107, 0, 82], [796385110, "Algorithmist's Kalderash Romani  Numbers 1 to 10", 0.0, 0, 1444089600, 10, 29, 31], [785159256, "Hebrew Words Learned with Dorit", 5.0, 1, 1442275200, 1312, 0, 0], [1179581104, "classificatori by 853722", 0.0, 0, 1440028800, 15, 0, 0], [947852770, "ZBLL algorithms: H Set", 0.0, 0, 1440374400, 48, 0, 48], [165493922, "Historia ustroju i prawa polskiego", 0.0, 0, 1441756800, 321, 0, 0], [1143296168, "Historia ustroju i prawa polskiego - notatki", 0.0, 0, 1441756800, 226, 0, 0], [1548575602, "TY A09 Accessories ", 0.0, 0, 1440201600, 12, 12, 12], [1586715527, "Horizantes tercera edic\u00edon lecci\u00f3n 2", 0.0, 0, 1416787200, 87, 0, 0], [957480334, "M\u00e9morisation - Le Grand Syst\u00e8me de T. Buzan", 0.0, 0, 1436400000, 100, 0, 102], [1505806582, "Theocratic words and Phrases Lorina", 0.0, 0, 1416182400, 7, 0, 0], [1667317484, "Atti teroristici ", 0.0, 0, 1433808000, 173, 0, 0], [2109067388, "Florizarre PNE", 0.0, 0, 1432166400, 218, 0, 4], [509749588, "Laboratorio di Programmazione 2 - Unina", 0.0, 0, 1416268800, 34, 0, 0], [997640056, "storia XII e XIII giuriato", 0.0, 0, 1383696000, 33, 0, 0], [3208497039, "\u5c0a\u656c\u8a9e\u30fb\u8b19\u8b72\u8a9e Honorific/Humble Language (Keigo)", 0.0, 0, 1368316800, 46, 0, 0], [1370725998, "Montessori Upper El Background Knowledge - version 2", 0.0, 0, 1440028800, 95, 0, 50], [465868024, "Version Originale 4", 0.0, 0, 1434758400, 87, 0, 0], [393774022, "Auditoria - Receita ", 0.0, 0, 1436227200, 27, 0, 0], [2061155796, "1170 Short Stories", 0.0, 0, 1402272000, 1171, 0, 1], [1505237629, "DSRI Unit 5  Inference for Categorical Variables", 5.0, 1, 1415145600, 22, 0, 9], [252383924, "Pasado aoristo (pret\u00e9rito perfecto) de verbos b\u00falgaros", 0.0, 0, 1420070400, 171, 0, 0], [3106940525, "A2 History: CCEA. William III and the Glorious Revolution", 0.0, 0, 1367020800, 40, 0, 0], [440110193, "Algorithmist's Latvian Swadesh List with Audio", 0.0, 0, 1422662400, 208, 214, 14], [2493637129, "Tutorial deck", 0.0, 0, 1383091200, 14, 1, 1], [466379855, "Historias_1", 0.0, 0, 1422144000, 27, 0, 0], [1940818164, "powszechna historia prawa", 0.0, 0, 1434758400, 68, 0, 0], [1577914834, "Karolina Toborikova English vocabulary", 0.0, 0, 1433462400, 0, 0, 0], [1354218170, "Version Originale 1&2", 0.0, 0, 1434758400, 66, 0, 0], [1756188124, "Repro Impact of Sexual Orientation 05.05.15 ", 0.0, 0, 1430870400, 23, 0, 0], [1205611604, "Marys IB SBWL Theories of International Trade @ WU Wien", 0.0, 0, 1397779200, 28, 0, 0], [265990646, "PHZH Quest 2 Musiktheorie Grundlagen", 0.0, 0, 1413849600, 133, 0, 9], [245915709, "Datenstrukturen und Algorithmen", 0.0, 0, 1425081600, 85, 0, 187], [614601180, "Chinese Ethnic Minorities", 0.0, 0, 1374451200, 58, 0, 67], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [655985817, "patent law cases statutory categories patentable matter 101", 0.0, 0, 1437609600, 53, 0, 0], [599363894, "Florizarre ER", 0.0, 0, 1423008000, 22, 0, 0], [1173480265, "Powszechna historia ustroju", 0.0, 0, 1434758400, 227, 0, 0], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [1280147684, "600 parapente theorie vragen", 0.0, 0, 1438128000, 593, 0, 0], [2118307582, "Shorinji Kempo in Swedish", 0.0, 0, 1370390400, 124, 0, 0], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [898656837, "Taloustieteen oppihistoria", 0.0, 0, 1414713600, 209, 0, 0], [2017996345, "Ancient Greek Aphorisms", 0.0, 0, 1425340800, 95, 2, 3], [858632958, "Surface Anatomy - Doctoring - Lungs & Heart", 0.0, 0, 1410307200, 18, 0, 0], [964541329, "Bible verses to memorize - in Chinese Union Version", 0.0, 0, 1404950400, 662, 0, 0], [597088859, "Historias szavak", 0.0, 0, 1422662400, 113, 0, 0], [1086258645, "Common Somali Nouns Lorina", 0.0, 0, 1416182400, 58, 0, 0], [1116774311, "storia XIV e XV sec dorotee", 0.0, 0, 1388707200, 20, 0, 0], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [478163536, "Statistische Methoden der Risikotheorie", 0.0, 0, 1427932800, 29, 0, 33], [2828667408, "Deutsch Rhetorische Stilmittel", 0.0, 0, 1365292800, 27, 0, 0], [1675079582, "rowan som physiology block 1 lecture 3 theories of aging", 0.0, 0, 1408579200, 20, 0, 8], [145773029, "6 Somatosensoriske og motoriske system", 0.0, 0, 1414368000, 38, 0, 21], [355972131, "general facts for a 4th-6th Montessori classroom", 0.0, 0, 1436572800, 3, 0, 0], [1349130511, "Bible verses for memorization (mostly ESV)", 5.0, 1, 1411862400, 53, 0, 0], [1180274296, "takanori 01Nous", 0.0, 0, 1406764800, 151, 0, 0], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [615292734, "Version Originale 3", 0.0, 0, 1434758400, 71, 0, 0], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [4262346685, "Neue Horizonte", 0.0, 0, 1345852800, 142, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [1607499809, "Aronson's Memorised Deck Stack", 0.0, 0, 1435190400, 104, 0, 53], [56155240, "Theories of State and Market - Azkaban", 0.0, 0, 1421280000, 5, 0, 0], [2238522367, "Japanese Honorifics", 0.0, 0, 1371081600, 244, 0, 0], [130936522, "Prazke legendy nouns stories 1-5 verbs", 0.0, 0, 1421625600, 41, 0, 0], [1942928090, "SCC PAS State 2015 Floriculture", 0.0, 0, 1422489600, 187, 0, 35], [1423213578, "23.Sz\u00ednek,form\u00e1k,hasonl\u00f3s\u00e1gok,k\u00fcl\u00f6nbs\u00e9gek,gyakoris\u00e1g \u00e9s sorr", 0.0, 0, 1432771200, 73, 0, 0], [3756847175, "Informatica Teorica UniBG", 0.0, 0, 1367884800, 155, 0, 9], [382258951, "second crab horizontal brain", 0.0, 0, 1394323200, 54, 0, 44], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [380507128, "Florizarre QI", 0.0, 0, 1424736000, 13, 0, 1], [203505614, "SPU MFT Theories I Final - Virginia Satir", 0.0, 0, 1417305600, 15, 0, 0], [1901494669, "Modellek \u00e9s Algoritmusok 2. ZH", 0.0, 0, 1418083200, 49, 0, 52], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [2406856458, "Analise e Melhoria de Processos ENAP", 0.0, 0, 1369612800, 46, 0, 0], [1894427810, "(FJFI, CZE) Teorie Kodovani (Mares 2015)", 0.0, 0, 1433030400, 82, 0, 157], [223135944, "Skautsk\u00e1 historie 0.9 (CZ)", 0.0, 0, 1384560000, 42, 0, 0], [390178449, "Maori based on Whitireia year 1-3", 0.0, 0, 1454198400, 1480, 0, 3], [250212756, "Al's memorized numbers", 0.0, 0, 1431993600, 107, 0, 0], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [1345191673, "Th\u00e9orie des jeux", 0.0, 0, 1411344000, 36, 0, 0], [993891628, "Historia gospodarcza (SGH), Robert Dr\u00f3zd", 0.0, 0, 1345852800, 867, 0, 0], [502266647, "OSGi modularty based on OSGi Modularity - Tutorial  Lars Vog", 0.0, 0, 1434499200, 65, 0, 0], [966035701, "Bible memorization verses", 0.0, 0, 1345852800, 77, 0, 0], [613100555, "Broad Categories of Skin Lesions", 0.0, 0, 1402617600, 23, 0, 44], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [386575990, "SPU MFT Theories I - Final Exam - Experiential / Whitaker ", 0.0, 0, 1417305600, 12, 0, 0], [1874990313, "Ossa membri superioris", 0.0, 0, 1412380800, 46, 0, 0], [116832626, "Athis moyen orient", 0.0, 0, 1395705600, 13, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [2604429, "SPU MFT - Theories I Final - Bowen / Transgenerational", 0.0, 0, 1417305600, 13, 0, 0], [767742056, "Floristutbildarna - Blomma bildkort (Flower flash cards)", 0.0, 0, 1421193600, 0, 0, 0], [1796690392, "Prazke legendy nouns stories 6-10 verbs", 0.0, 0, 1421625600, 47, 0, 0], [58051672, "Roman Historians", 0.0, 0, 1345852800, 20, 0, 0], [368738143, "Historias 2", 0.0, 0, 1422662400, 66, 0, 0], [694734278, "Florizarre SP", 0.0, 0, 1423526400, 17, 0, 0], [1756853157, "Zahlentheorie", 0.0, 0, 1377820800, 61, 0, 1], [1653325242, "PHZH Quest Musiktheorie Grundlagen Nowak", 0.0, 0, 1415318400, 135, 0, 9], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [4161480669, "Neue Horizonte Kapitel 8 Vokabeln", 0.0, 0, 1345852800, 143, 0, 0], [1616511864, "Dont Think Memorize ", 0.0, 0, 1426723200, 57, 0, 0], [3018723782, "kakitori deck ", 0.0, 0, 1381104000, 7754, 0, 0], [1702903891, "Module Automatentheorie - Masterfernstudium Hochschule Trier", 0.0, 0, 1418860800, 180, 0, 253], [3513298168, "Cranio: fosse e fori - Anatomia (UniPD MED 3-4)", 0.0, 0, 1362268800, 39, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [4026561951, "historia-daty", 0.0, 0, 1360627200, 106, 0, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [29233364, "Prehistoric Aegean", 0.0, 0, 1386720000, 27, 0, 27], [608701296, "Florizarre GY", 0.0, 0, 1423008000, 61, 0, 0], [1355474314, "Memoria Segundaria", 0.0, 0, 1410739200, 18, 0, 5], [1064912793, "Rails Tutorial Step by Step", 0.0, 0, 1412812800, 36, 0, 5], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [887774701, "karuta memorize", 0.0, 0, 1412035200, 200, 0, 0], [524621478, "Florizarre HI", 0.0, 0, 1423008000, 33, 0, 0], [590826154, "Berlitz Exploring the Issues HUN_ENG", 0.0, 0, 1388448000, 146, 0, 0], [3789268318, "Maori by Cali", 0.0, 0, 1358640000, 357, 0, 0], [2438776091, "RTK 1-3 w/top 2 community stories (recognition)", 0.0, 0, 1366588800, 3007, 0, 0], [829927643, "Tutorial deck", 0.0, 0, 1383091200, 14, 1, 1], [918818089, "Auditoria AFRFB FSSILVA", 0.0, 0, 1424390400, 913, 0, 0], [1007033568, "Florizarre K", 0.0, 0, 1424736000, 28, 0, 0], [1739809735, "Examen Auto categoria B 2014", 0.0, 0, 1426636800, 1164, 0, 371], [609924740, "Course d'orientation - Descriptions de contr\u00f4le", 0.0, 0, 1419033600, 111, 0, 111], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1295100998, "Prazke legendy nouns stories 6-10", 0.0, 0, 1421884800, 79, 0, 0], [1719606266, "rhetoric", 0.0, 0, 1389657600, 17, 0, 0], [1180977066, "Connecteurs rh\u00e9toriques fran\u00e7ais ", 0.0, 0, 1427673600, 15, 0, 0], [2132392039, "Algorithm Analysis First Exam", 0.0, 0, 1394755200, 50, 0, 18], [2002345501, "Korean TOPIK vocab - Edit of the original deck of same name", 5.0, 1, 1427241600, 7627, 0, 0], [4275545719, "Memoriol BACEN", 0.0, 0, 1385424000, 431, 0, 0], [2483221143, "biochem - yokomori", 0.0, 0, 1379894400, 54, 0, 25], [458635370, "OS1 Anatomy Tutorial Images", 0.0, 0, 1388793600, 427, 0, 680], [3125609258, "States & Union Territories of India", 2.5, 2, 1345852800, 35, 0, 0], [1694718418, "Taidehistorian tentti 2015 ", 0.0, 0, 1425600000, 61, 0, 0], [1990749466, "500wordsforizzy", 0.0, 0, 1430265600, 204, 0, 0], [293635631, "Florizarre UR", 0.0, 0, 1423008000, 35, 0, 0], [505610409, "Prazke legendy nouns stories 1-5", 0.0, 0, 1421884800, 86, 0, 0], [315918621, "Apuntes de historia espa\u00f1ola", 0.0, 0, 1399680000, 93, 0, 0], [272936667, "Historia Polski", 0.0, 0, 1345852800, 316, 0, 0], [211188473, "Taketori monogatari translation", 0.0, 0, 1351296000, 26, 0, 0], [1606405711, "Psicolog\u00eda de la Memoria", 0.0, 0, 1388361600, 78, 0, 0], [2278634640, "Month of the Gregorian Year", 0.0, 0, 1357084800, 12, 0, 0], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [103972532, "An\u00e1lise e Projeto com UML (Orienta\u00e7\u00e3o a Objetos)", 0.0, 0, 1410912000, 18, 0, 4], [545158801, "Algoritmo Estrutura de Dados", 0.0, 0, 1375401600, 39, 0, 19], [537109525, "BA3 - Figures de rh\u00e9torique", 0.0, 0, 1399334400, 30, 0, 0], [1307122021, "Biochem, Unit 4; Complicating factors & Multifactorial Inher", 0.0, 0, 1414108800, 64, 0, 0], [249309112, "Florizarre EN", 0.0, 0, 1428105600, 155, 0, 0], [162363562, "Florizarre RH", 0.0, 0, 1423008000, 151, 0, 0], [1020908200, "SPU MFT - Theories I - General Systems - Final Exam", 0.0, 0, 1417305600, 13, 0, 0], [1524628867, "Historia Sztuki. \u015aredniowiecze cz. 1", 0.0, 0, 1398124800, 211, 0, 223]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ori</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

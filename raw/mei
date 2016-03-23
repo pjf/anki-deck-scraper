@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [1251668868, "\u4eba\u540d\u7528\u6f22\u5b57 Jinmeiyoukanji (Full Names+Single Names)", 4.0, 2, 1345852800, 2530, 0, 0], [16585168, "Allgemeine Psychopathologie: die psychiatrischen Symptome", 0.0, 0, 1427846400, 240, 0, 0], [2009669666, "As Primeiras 1000 frases em Ingl\u00eas.", 4.5, 2, 1441497600, 1503, 1081, 0], [353580872, "Meine Identit\u00e4t in Jesus (1/3)", 0.0, 0, 1441843200, 9, 0, 0], [646043192, "meiosis", 0.0, 0, 1406419200, 11, 0, 0], [2339610758, "Meithai - K\u00f6rper, Hygiene und Gesundheit", 5.0, 1, 1383782400, 279, 0, 0], [483745770, "Mein Schultag ", 0.0, 0, 1412899200, 43, 43, 44], [888447898, "Meine Vokabelliste", 0.0, 0, 1428278400, 61, 0, 0], [1883101005, "IEL Allgemein Operatoren 1", 0.0, 0, 1402358400, 5, 0, 0], [596329658, "Mein Zuhause", 0.0, 0, 1417824000, 48, 45, 48], [1896792678, "Meine Klasse ", 5.0, 1, 1443571200, 71, 70, 62], [3703677513, "Meithai - Zeitangaben, Zeitadverbien, ect.", 0.0, 0, 1383782400, 141, 0, 0], [852928146, "Meithai - Essen und Trinken", 5.0, 1, 1383782400, 261, 0, 0], [1182618284, "Meine Stadt", 0.0, 0, 1423008000, 54, 53, 56], [2176251115, "Deutsch Allgemeinwissen Gymnasium Schweiz", 0.0, 0, 1372377600, 28, 0, 1], [376905944, "Allgemeinwissen Schweiz", 0.0, 0, 1362268800, 255, 0, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [1417197028, "Meine Familie", 0.0, 0, 1416009600, 58, 58, 58], [1156787862, "Meithai - Zahlen und Nummern", 0.0, 0, 1383782400, 139, 0, 0], [1052366022, "Tonmeister 2015", 0.0, 0, 1442620800, 81, 0, 16], [2854867155, "Allgemeine Zoologie - Gewebe 1", 0.0, 0, 1385510400, 93, 0, 21], [2171508221, "Meithai - Geographie und Orte", 5.0, 1, 1383782400, 133, 0, 0], [45209827, "Meine Freizeit", 0.0, 0, 1420070400, 44, 43, 47], [1583998190, "Meithai - Tiere und Pflanzen", 5.0, 1, 1383782400, 212, 0, 0], [4109111173, "Meithai - Werkzeuge und Baumaterial", 0.0, 0, 1383782400, 95, 0, 0], [3570948043, "Meithai - Verben und Hilfsverben", 0.0, 0, 1383782400, 210, 0, 0], [152893945, "history of japan meiji", 5.0, 1, 1399334400, 299, 0, 0], [1899190438, "Meithai - Transport und Verkehr", 5.0, 1, 1383782400, 229, 0, 0], [3159046110, "Meithai - Haushalt und Einrichtung", 5.0, 1, 1383782400, 133, 0, 0], [785696343, "UP-ERN Allgemeine Zoologie - Gewebe 2", 0.0, 0, 1388707200, 49, 0, 7], [2936450995, "Meithai - Allt\u00e4gliches", 5.0, 1, 1383782400, 189, 0, 0], [299548013, "Meithai - Schrift- und Sonderzeichen", 5.0, 1, 1383782400, 109, 0, 0], [1497362550, "AWL, Allgemeine Wirtschaftslehre BS-AN, Unternehmensformen", 0.0, 0, 1393286400, 24, 0, 0], [3994138261, "Meithai - Fragew\u00f6rter, Partikel, ect.", 5.0, 1, 1383782400, 53, 0, 0], [1098875372, "Meine Familie II", 0.0, 0, 1398384000, 21, 21, 21], [1521519270, "Pharmakologie Allgemeines TU M\u00fcnchen", 0.0, 0, 1393286400, 70, 1, 0], [3275911238, "Meithai - Familie und Verwandtschaft", 0.0, 0, 1383782400, 145, 0, 0], [448339735, "Allgemeine Psychologie Uni Bonn", 0.0, 0, 1401062400, 113, 0, 0], [1927626509, "Meine Pl\u00e4ne", 0.0, 0, 1431129600, 51, 51, 60], [1050440370, "UP-ERN Allgemeine Zoologie - Gewebe 1", 0.0, 0, 1389052800, 94, 0, 21], [1065596097, "Meithai - Schule und Lernen", 5.0, 1, 1383782400, 110, 0, 0], [24939688, "UP-ERN Allgemeine Zoologie - Testat", 0.0, 0, 1389139200, 77, 0, 9]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mei</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

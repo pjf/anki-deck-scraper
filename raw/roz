@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3806466647, "08 Podroze LRM PP", 5.0, 1, 1345852800, 246, 244, 0], [27685291, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s fogalmak", 0.0, 0, 1453161600, 21, 0, 0], [977481713, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 3.", 0.0, 0, 1453161600, 5, 0, 0], [1997499017, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 1.", 0.0, 0, 1453161600, 22, 0, 0], [826340229, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 6.", 0.0, 0, 1453161600, 5, 0, 0], [1188809436, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 4.", 0.0, 0, 1453161600, 3, 0, 0], [1503671037, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 7.", 0.0, 0, 1453161600, 6, 0, 0], [887070855, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 5.", 0.0, 0, 1453161600, 3, 0, 0], [1909571498, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 2.", 0.0, 0, 1453161600, 28, 0, 0], [1951598413, "SZF - Der Forschungsprozess", 0.0, 0, 1449878400, 13, 0, 0], [847946617, "Aktion Deutsch 1 \u2013 Rozdzia\u0142 2", 0.0, 0, 1449014400, 41, 0, 0], [1146826440, "Rozm\u00f3wki polsko-rosyjskie PL-RU (UAM)", 3.5, 4, 1345852800, 1033, 0, 0], [272257352, "omt podroze", 0.0, 0, 1444348800, 192, 0, 1], [1887325415, "Norsk i dag. 10 rozdz. ", 0.0, 0, 1409184000, 68, 0, 0], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [75331612, "N\u00e9met - Hat\u00e1rozatlan n\u00e9vm\u00e1s ; Az egyik...", 0.0, 0, 1416096000, 60, 0, 0], [712577244, "Norsk i dag. 11 rozdz. ", 0.0, 0, 1409184000, 96, 0, 0], [173433318, "KLP-pytania (bie\u017c\u0105ce, rozszerzone)", 0.0, 0, 1424736000, 43, 0, 0], [2061087287, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 9 cz\u0119\u015b\u0107 1", 0.0, 0, 1426809600, 52, 0, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [1893778085, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 10 cz\u0119\u015b\u0107 2", 5.0, 1, 1427414400, 58, 0, 0], [1502227436, "Norsk i dag. 4 rozdz", 0.0, 0, 1409184000, 113, 0, 0], [933404196, "Norsk i dag. 7 rozdz. ", 0.0, 0, 1409184000, 116, 0, 0], [22907074, "19.Id\u0151hat\u00e1roz\u00f3k", 0.0, 0, 1432771200, 41, 0, 0], [936311751, "Izpit_voditelj_colna-4del-OSNOVE_MOTOROZNANSTVA", 0.0, 0, 1414281600, 50, 0, 0], [966658040, "Norsk i dag. 13 rozdz. ", 0.0, 0, 1409184000, 89, 0, 0], [2010583601, "hat\u00e1roz\u00f3sz\u00f3k", 0.0, 0, 1425772800, 31, 0, 0], [1867200690, "Norsk i dag. 9 rozdz. ", 0.0, 0, 1409184000, 57, 0, 0], [640253570, "Norsk i dag. 6 rozdz. ", 0.0, 0, 1409184000, 114, 0, 0], [372646159, "Norsk i dag. 3 rozdz", 0.0, 0, 1409184000, 113, 0, 0], [23793903, "Norsk i dag. 12 rozdz. ", 0.0, 0, 1409184000, 97, 0, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [1595709420, " Norsk i dag. 2 rozdz. ", 0.0, 0, 1409184000, 73, 0, 0], [55085245, "Norsk i dag. 5 rozdz. ", 0.0, 0, 1409184000, 108, 0, 0], [901185743, "Norsk i dag. 14 rozdz. ", 0.0, 0, 1409184000, 52, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Roz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

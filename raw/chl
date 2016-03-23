@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [1122971182, "Anatomie - Geschlechtsorgane", 0.0, 0, 1449878400, 19, 0, 4], [341836791, "deutschland for Berlitz beginners", 0.0, 0, 1449100800, 89, 0, 0], [3986074186, "Autokennzeichen (Deutschland)", 5.0, 1, 1345852800, 555, 0, 0], [1420583073, "Schl\u00fcssels\u00e4tze der Altgriechischen Philosophie", 0.0, 0, 1435017600, 96, 0, 0], [2017257931, "1907SchlOsieGU2013 ", 0.0, 0, 1373414400, 180, 0, 3], [3874185977, "jschlake's kanji", 0.0, 0, 1345852800, 550, 0, 0], [1211960241, "Chloe: Renal diseases", 0.0, 0, 1425945600, 19, 0, 0], [1399457871, "Tachles Modern Hebrew Lesson 3 - Shopping", 0.0, 0, 1397174400, 110, 0, 0], [4176040791, "Latein Klettverschluss GWS", 0.0, 0, 1383004800, 94, 0, 0], [1272924946, "GAL81 - Schlauchkunde", 0.0, 0, 1433635200, 12, 0, 0], [1415247295, "Chloe Glomerular Diseases", 0.0, 0, 1425945600, 30, 0, 0], [3327932949, "Kristallographie I (haupts\u00e4chlich Geometrie)", 0.0, 0, 1389744000, 172, 0, 0], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [232435977, "Alle Minister Deutschlands \"Kabinett Merkel II\"", 0.0, 0, 1358035200, 17, 0, 0], [1812447615, "Herr Bachfischer Geschichte Von Deutschland Nach Deutschland", 1.0, 1, 1377475200, 327, 0, 0], [1029609284, "Tachles Modern Hebrew Lesson 2 - Getting around", 0.0, 0, 1397174400, 76, 0, 0], [2083283530, "Tachles Modern Hebrew Lesson 4 - Restaurant", 0.0, 0, 1397174400, 79, 0, 0], [1845402909, "Tachles Modern Hebrew Lesson 1 - Basics", 0.0, 0, 1397174400, 77, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Chl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

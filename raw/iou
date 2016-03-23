@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1649276016, "Microbes Infectious Disease", 0.0, 0, 1454716800, 512, 0, 1], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [178023466, "Plant Idents - Various Plants", 0.0, 0, 1444089600, 20, 0, 21], [1736492939, "Ariella- infectious diseases", 0.0, 0, 1445904000, 252, 2, 161], [729904786, "Ariella- infectious diseases 2", 0.0, 0, 1446508800, 135, 2, 127], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [2003785165, "600 essential TOEIC-CURIOUS (full) ", 5.0, 2, 1411862400, 625, 653, 601], [793705624, "CT scans of thorax at various levels", 0.0, 0, 1423958400, 5, 0, 13], [2138285650, "Infectious Disease Exam 1", 0.0, 0, 1379548800, 267, 0, 0], [3106940525, "A2 History: CCEA. William III and the Glorious Revolution", 0.0, 0, 1367020800, 40, 0, 0], [1405065715, "Various English words (intermediate/advanced level) [EN-PL]", 0.0, 0, 1379462400, 156, 0, 0], [2777410014, "Infectious Disease Exam  HIV", 0.0, 0, 1381968000, 162, 0, 0], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 0, 1430956800, 60, 60, 119], [3155823752, "Onavarious's Spanish Common Words", 0.0, 0, 1358121600, 10, 1, 10], [522544564, "patent law cases obviousness 103", 0.0, 0, 1437609600, 395, 0, 0], [2087312684, "Infectious Disease", 0.0, 0, 1421107200, 21, 0, 4], [1664312643, "Russian Vocab-Various", 0.0, 0, 1345852800, 522, 0, 0], [1143794661, "various Kanji decks ", 0.0, 0, 1424217600, 333, 0, 0], [946643853, "DDO Paediatrics - fever and serious bacterial illness ", 0.0, 0, 1409616000, 17, 0, 0], [1151431366, "Infectious diseases for SMP", 0.0, 0, 1427673600, 439, 0, 43], [787071023, "Roots, and various info to know", 0.0, 0, 1398816000, 33, 0, 3], [763144704, "Swahilarious", 0.0, 0, 1405123200, 28, 0, 10], [410962657, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [2197220727, "Infectious Disease Final Infectious Diarrhea", 0.0, 0, 1381968000, 20, 0, 0], [3552195532, "ACVPM Infectious Diseases", 0.0, 0, 1367798400, 50, 0, 0], [1054635811, "Spanish-Polish vocab and various phrases", 0.0, 0, 1409961600, 260, 0, 0], [660737587, "Ballstothe CTB 2: 2 Cells 2 Furious", 0.0, 0, 1413417600, 421, 0, 16], [2650127004, "Guson's Infectious Disease", 0.0, 0, 1377820800, 88, 0, 0], [1476521219, "MDTI 02.04.15 Infectious Arthritis", 0.0, 0, 1423094400, 41, 0, 2], [844954491, "Various French Vocabulary ", 0.0, 0, 1387497600, 361, 0, 0], [1566860448, "Week 3 Infectious Disease", 0.0, 0, 1409443200, 69, 0, 0], [882565543, "Various Advanced Words and Phrases PL - ENG", 0.0, 0, 1453248000, 1264, 0, 0], [343505858, "Various Modern Greek verbs", 0.0, 0, 1420243200, 36, 0, 0], [325214895, "Infectious Disease Brand/Generic", 0.0, 0, 1379548800, 58, 0, 0], [280177810, "Various Vocab", 0.0, 0, 1372118400, 9917, 0, 0], [263070022, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [2351651167, "Infectious Disease Exam  HIV", 0.0, 0, 1382054400, 162, 0, 0], [1512731043, "M Marks: General Medicine and Infectious Disease", 0.0, 0, 1421193600, 491, 0, 0], [2632950522, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 267, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iou</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

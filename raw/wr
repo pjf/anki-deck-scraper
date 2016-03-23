@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[768323641, "JLPT (1-4) Vocabulary in Heisig's RTK Order (writing)", 0.0, 0, 1454371200, 7098, 3, 2], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [1360487529, "JLPT Joyo Kanji N4\u30fbWriting Practice", 0.0, 0, 1454544000, 40, 0, 0], [1741808368, "WaniKani Kanji Writing Practice", 0.0, 0, 1453766400, 2027, 3, 9], [1475161099, "CIS 215 written midterm prep", 0.0, 0, 1454716800, 72, 0, 0], [3851268149, "Writing characters (given example words)", 0.0, 0, 1363305600, 3875, 0, 0], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [1650955553, "Writing with Flair", 0.0, 0, 1453248000, 4, 0, 0], [1725941306, "Read & Write Cajun French", 0.0, 0, 1411344000, 196, 102, 0], [1823839669, "CIS 214 written prep", 0.0, 0, 1449360000, 60, 0, 0], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 5.0, 2, 1378252800, 33, 33, 33], [1021662717, "FSL Filipino sign language Lexicon in SignWriting 2014", 0.0, 0, 1428192000, 825, 0, 826], [320504689, "Writing Strategies", 0.0, 0, 1442707200, 9, 6, 0], [843771850, "RACP Written Exam Flashcards", 0.0, 0, 1442016000, 3688, 0, 166], [221232868, "Thai words, writing and pronounciation", 0.0, 0, 1443571200, 0, 0, 0], [1048178121, "OncEmergencies_WRBIM", 0.0, 0, 1441670400, 13, 0, 0], [979649563, "SystemicSclerosis_WRBIM", 0.0, 0, 1438819200, 12, 0, 5], [783157229, "MTH - Wrist and Hand", 0.0, 0, 1440028800, 109, 0, 38], [698299477, "GlomerularDisease_WRBIM", 0.0, 0, 1440892800, 15, 0, 0], [2438479006, "Hand and wrist ACA", 0.0, 0, 1385078400, 21, 0, 0], [1290123940, "Famous Wrestlers", 0.0, 0, 1435017600, 201, 0, 185], [938595418, "OMM Written 2 of 2", 0.0, 0, 1400803200, 27, 0, 0], [2002154682, "CAnatomy Written 2", 0.0, 0, 1434067200, 41, 0, 47], [1083926421, "OMM Written 1 of 2", 0.0, 0, 1400803200, 108, 0, 0], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 2.0, 1, 1409788800, 32, 0, 0], [1591737039, "ASL SignWriting to picture dictionary 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [1044805400, "Deutsch English Mundbildschrift MouthWriting 2014", 0.0, 0, 1431216000, 94, 0, 68], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [259636754, "300 High Frequency Sight Words - 65% of Written English", 5.0, 1, 1389657600, 300, 296, 0], [175250398, "Anatomy Terms: Wrist + hand", 0.0, 0, 1437004800, 35, 0, 0], [1167536083, "Written exam study cards", 0.0, 0, 1409097600, 945, 0, 1127], [1772402224, "Japanese the Written Language Chapter 18 Kanji", 0.0, 0, 1383350400, 38, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [567061978, "MMWR Jan-March 2013", 0.0, 0, 1390780800, 67, 0, 0], [1823073887, "LipWriting Phonetic English Deutsch 2014 (lip reading)", 0.0, 0, 1431302400, 36, 0, 39], [1044381450, "All Written Japanese C Vocabulary", 5.0, 1, 1345852800, 484, 0, 0], [16856431, "CWRU Oral Histology Pathology picture ID", 0.0, 0, 1352764800, 269, 0, 0], [190051080, "37C - Hand and wrist", 0.0, 0, 1385510400, 21, 0, 0], [1672901306, "Japanese Kanji Writing Practice", 0.0, 0, 1410825600, 987, 0, 0], [899473772, "ASL picture dictionary to SignWriting 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [1314728830, "CIS 227 midterm review-Written", 0.0, 0, 1431475200, 74, 0, 0], [2823915896, "Japanese the Written Language Chapter 17 Kanji", 0.0, 0, 1381363200, 31, 0, 0], [1609421280, "anu kanji - writtenB 121-165", 0.0, 0, 1407715200, 19, 0, 17], [843601977, "Polish English   Id\u0119...Jestem...Wracam", 0.0, 0, 1396915200, 141, 0, 0], [634671923, "SignWriting to ASL Handshapes 2014", 0.0, 0, 1431475200, 83, 0, 187], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [1891435999, "Japanese from Zero - Book 1 (Written in Kana and Kanji)", 3.5, 2, 1406246400, 1370, 1221, 95], [1262595493, "MouthWriting with English 2014", 0.0, 0, 1431216000, 82, 0, 62], [2085328071, "Japanese kana writing", 0.0, 0, 1431043200, 92, 0, 0], [580025041, "ASL Handshapes to SignWriting 2014", 0.0, 0, 1431475200, 83, 0, 187], [1789068393, "Less Wrong ", 0.0, 0, 1409011200, 114, 0, 3], [1088245296, "Less Wrong Be Happier", 0.0, 0, 1416009600, 34, 0, 1], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [1454625242, "IELTS writing vocab", 1.0, 1, 1408924800, 1, 0, 0], [358602198, "JLPT 3 Kanji Writing", 0.0, 0, 1410825600, 384, 0, 0], [3217044479, "Japanese the Written Language Chapter 19 Kanji", 0.0, 0, 1383350400, 0, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Wr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

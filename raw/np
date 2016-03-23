@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2035756260, "Aryanpour-nazli", 0.0, 0, 1454371200, 1622, 2, 7], [1185680326, "German-Spanish-inprogress", 0.0, 0, 1454630400, 31, 0, 0], [2201805440, "1000 Most Common Thai Words [TH,EN,DE,MP3,HiddenPhonetic]", 3.33, 3, 1352764800, 1000, 0, 0], [1338082147, "vanpostell", 0.0, 0, 1450051200, 977, 0, 0], [2071256234, "IntonationPractice", 0.0, 0, 1452556800, 28, 29, 5], [425998661, "vocabulaire sanpo niveau A1", 0.0, 0, 1452470400, 389, 0, 2274], [1694916964, "vanpostell", 0.0, 0, 1450051200, 143, 0, 0], [3597062691, "Bunpou N2 (\u6587\u6cd5N2\uff09", 0.0, 0, 1345852800, 419, 0, 0], [370202981, "arianpour IELTS vocab class", 0.0, 0, 1448496000, 1206, 35, 67], [140671763, "npm 2 unit 1 impairment", 0.0, 0, 1444694400, 32, 0, 0], [605209248, "NPM 2 outcome measures (unit 1)", 0.0, 0, 1444694400, 89, 0, 0], [370419106, "Nonpolar, Alipathic R Groups", 0.0, 0, 1443398400, 0, 0, 0], [258514634, "NPM 2 Unit 1 UE Assessment", 0.0, 0, 1444694400, 48, 0, 0], [1065029621, "FA - nonpharm", 0.0, 0, 1445472000, 6034, 0, 896], [559257662, "Intro Pohnpeian", 0.0, 0, 1444953600, 240, 82, 112], [1308545632, "Jpnproject239 Radicals #7", 0.0, 0, 1380758400, 41, 0, 0], [1625133020, "NPM: SCI and Vestibular", 0.0, 0, 1432339200, 168, 0, 0], [3300089744, "Jpnproject239 Radicals #4", 0.0, 0, 1380758400, 34, 0, 0], [332028046, "AMB II Pflanzenphysio", 0.0, 0, 1436140800, 153, 0, 1], [1787841904, "DGVT Zwischenpr\u00fcfungsfragen", 0.0, 0, 1397606400, 17, 0, 0], [29886310, "Humanpatogene bakterier demonstrasjon - med bilder", 0.0, 0, 1345852800, 11, 0, 9], [1950425595, "zichanpinggu-jidian", 0.0, 0, 1425340800, 1133, 0, 205], [347088350, "CCNP SWITCH", 0.0, 0, 1364428800, 409, 0, 0], [3367756138, "HellensteinPhysik9", 0.0, 0, 1345852800, 89, 0, 21], [1762461289, "FNPCumultative", 0.0, 0, 1403308800, 964, 0, 332], [1681887992, "zichanpinggu-jianzhu", 0.0, 0, 1425340800, 1316, 0, 42], [1108461821, "history of japan asuka tenpyou", 5.0, 1, 1399334400, 209, 0, 0], [4281589592, "jpnproject239 #0", 0.0, 0, 1380153600, 5, 0, 0], [1911061442, "CCNP Route: Chapter 2 review", 4.0, 2, 1370304000, 38, 0, 0], [1647138982, "zichanpinggu-pinggu", 0.0, 0, 1425340800, 855, 0, 102], [2665910019, "HellensteinPhysik8", 0.0, 0, 1345852800, 90, 0, 48], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [1217533270, "Jpnproject239 Radicals #5", 0.0, 0, 1380758400, 31, 0, 0], [277564484, "zichanpinggu-caiwu", 0.0, 0, 1425340800, 1598, 0, 75], [1899878441, "Elinpatologia 2", 0.0, 0, 1411171200, 126, 0, 0], [2125057130, "NPM: Week 1", 0.0, 0, 1431907200, 128, 0, 0], [4028583003, "Demonstrasjon: humanpatogene bakterier", 0.0, 0, 1345852800, 11, 0, 9], [1516417956, "Fabrik und Anlagenplanung TU Clausthal", 0.0, 0, 1402012800, 249, 0, 0], [2060936264, "NPCR Flashcards (Ch 1 - 12)", 5.0, 1, 1431302400, 431, 429, 0], [1080438538, "Jpnproject239 Radicals #3", 0.0, 0, 1380758400, 35, 0, 0], [2616033812, "Jpnproject239 Radicals #6", 0.0, 0, 1380758400, 36, 0, 0], [1229965821, "Jpnproject239 Radicals #1", 0.0, 0, 1380758400, 35, 0, 0], [1512159092, "FunPharm 3", 0.0, 0, 1421280000, 24, 0, 0], [3379015373, "Jpnproject239 Radicals #2", 0.0, 0, 1380758400, 35, 0, 0], [1480058180, "Deutsch-Italienisch NPI1 Unit\u00e0 introduttiva", 0.0, 0, 1400025600, 112, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Np</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

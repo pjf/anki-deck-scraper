@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2039517568, "Spaans::extra::Verbos (ES-NL) (CVO Leuven)", 0.0, 0, 1453161600, 702, 38, 1], [704800637, "zzxxccv1", 0.0, 0, 1454889600, 10, 10, 0], [913280093, "LacVietCards", 4.5, 2, 1403395200, 3354, 6708, 310], [1322911027, "Spaans::jaar 2 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1347, 4, 23], [486775437, "Spaans::jaar 3 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 874, 138, 15], [1233578244, "CVS - past questions", 0.0, 0, 1452124800, 14, 0, 9], [636146339, "Spaans::Jaar 1 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1125, 11, 7], [398451152, "CVS - random facts", 0.0, 0, 1452124800, 28, 0, 0], [1026202296, "CVS - STEMI", 0.0, 0, 1452124800, 12, 0, 2], [43010628, "azertyuiopqsdfghjklmwxcvbn", 0.0, 0, 1450915200, 51, 0, 0], [237183522, "CVS - pericarditis", 0.0, 0, 1452124800, 6, 0, 0], [1042340847, "CVS - WPW", 0.0, 0, 1452124800, 14, 0, 7], [1542265872, "CVS - VT", 0.0, 0, 1452124800, 10, 0, 3], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1902544577, "CVS - Syncope", 0.0, 0, 1452124800, 2, 0, 0], [1743201350, "CVS - brugada syndrome", 0.0, 0, 1452124800, 4, 0, 2], [2020009036, "CVS - aortic dissection", 0.0, 0, 1449705600, 11, 0, 0], [703748314, "CVS - BLS", 0.0, 0, 1449705600, 2, 0, 2], [1773843941, "CVS - AFEM PEARLS", 0.0, 0, 1449705600, 26, 0, 6], [1264581309, "CV test 2 pharm", 0.0, 0, 1449619200, 58, 0, 1], [934309533, "KSUCVM Pharmacology Exam III", 0.0, 0, 1448841600, 368, 0, 16], [377998483, "Spaans::jaar 4 [gedeeltelijk] (CVO Leuven)", 5.0, 3, 1452643200, 289, 3, 18], [2032271894, "KSUCVM Bacteriology Exam IV", 0.0, 0, 1448841600, 600, 0, 16], [1810052805, "KSUCVM Parasitology Exam III", 0.0, 0, 1448841600, 579, 0, 74], [1157692810, "KSUCVM Pathology Exam III", 0.0, 0, 1448841600, 282, 0, 16], [1614618955, "KSUCVM Pharm Exam 3", 0.0, 0, 1448841600, 220, 0, 16], [45049656, " CVA Exam 2 - KSU Ganser Fall 2015", 0.0, 0, 1444262400, 173, 0, 31], [641689167, "VCP6-DCV Exam (2V0-621)", 0.0, 0, 1446076800, 954, 0, 0], [690608402, "KSUCVM Pathology Exam 2", 0.0, 0, 1446249600, 483, 0, 96], [1474980268, "KSUCVM Bacteriology Exam III", 0.0, 0, 1446940800, 607, 0, 80], [793223533, "CVA KSU Exam 3", 0.0, 0, 1446422400, 215, 0, 18], [2047978292, "KSUCVM Parasitology Exam II", 0.0, 0, 1446336000, 713, 0, 164], [870430433, "KSUCVM Pharmacology Exam 1", 0.0, 0, 1441497600, 15, 0, 0], [1857519091, "KSUCVM Bacteriology Exam II", 0.0, 0, 1444694400, 674, 0, 90], [880269031, "KSUCVM Pathology Exam 1", 0.0, 0, 1440720000, 0, 0, 0], [150000781, "BBC Does your CV shine?", 0.0, 0, 1445472000, 14, 0, 7], [535730469, "*KSUCVM Parasitology Exam #1", 5.0, 1, 1442102400, 532, 0, 16], [1724406196, "KSUCVM Pharmacology Exam II", 0.0, 0, 1445904000, 541, 0, 16], [911433756, "KSUCVM Pharmacology Exam 1", 0.0, 0, 1443571200, 256, 0, 26], [62733010, "KSUCVM Pathology Exam 1", 0.0, 0, 1443139200, 399, 0, 16], [717269752, "KSUCVM Dat New Parasitology Exam 1", 0.0, 0, 1442793600, 667, 0, 52], [1373793750, "Marrs CV Overview", 0.0, 0, 1441756800, 45, 0, 0], [456345573, "KSUCVM Bacteriology Exam I ", 0.0, 0, 1441929600, 645, 0, 16], [659658062, "KSUCVM Bacteriology Exam 1", 0.0, 0, 1441584000, 120, 0, 0], [405527987, "KSUCVM Parasitology Exam 1", 0.0, 0, 1441497600, 16, 0, 0], [387278495, "CVA Necturus Axial Trunk Muscles", 0.0, 0, 1382659200, 5, 0, 0], [1200409255, "CVA Felis Upper Back Muscles", 0.0, 0, 1382659200, 15, 0, 0], [495543244, "cv2hyuthuuuuuuuuuuuu", 0.0, 0, 1437436800, 242, 0, 0], [653346137, "cvo-db-1-Spaanse woordenschat", 2.0, 1, 1363478400, 946, 0, 0], [86647136, "MA1 - Pharmacologie sp\u00e9ciale - CV", 0.0, 0, 1353456000, 55, 0, 302], [4165681500, "CVA Felis Forearm Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1396319774, "CVA Squalus Branchiomeric Muscles", 0.0, 0, 1382659200, 11, 0, 0], [1993710075, "UK NUR 221 Exam 3 CVA stroke", 0.0, 0, 1414713600, 36, 0, 0], [1059337484, "CVC Nonsense", 0.0, 0, 1377302400, 68, 0, 14], [4193252901, "CVA Felis Arm Muscles", 0.0, 0, 1382659200, 5, 0, 0], [561378792, "Pediatric CVS_ Erigo-Backsman", 0.0, 0, 1438387200, 22, 0, 0], [499983284, "ACV Verbindungen Aachen", 0.0, 0, 1345852800, 12, 0, 12], [2065817272, "Dutch (CVO Module 1)", 0.0, 0, 1350691200, 1715, 0, 0], [868864489, "CVA Felis Abdominal Muscles", 0.0, 0, 1382659200, 4, 0, 0], [1388763952, "CVO 1ste jaar spaans 2014-2015", 0.0, 0, 1417305600, 542, 0, 0], [152207854, "CVA Necturus Head and Pharyngeal Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1327559697, "CVA Felis Chest Muscles", 0.0, 0, 1382659200, 9, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [1638423846, "CV Block", 0.0, 0, 1421366400, 3076, 0, 488], [1639170777, "Grieks-Nederlandse woordenschat SCVO cursus Berchem jr 1 & 2", 0.0, 0, 1369180800, 981, 0, 0], [266347170, "ACVPM - Epidemiology", 0.0, 0, 1391990400, 48, 0, 0], [1433689213, "ACVPM - Water", 0.0, 0, 1389916800, 25, 0, 0], [1491064360, "Block 3 CV intro, receptors, and excitation-contraction coup", 0.0, 0, 1415836800, 128, 0, 0], [1806573062, "CVA Felis Erector Spinae Muscles", 0.0, 0, 1382659200, 7, 0, 0], [125014727, "racviro", 0.0, 0, 1398643200, 243, 0, 227], [1203842504, "UBC MD 2018: Histology - CV/PULM/FERGU\t", 0.0, 0, 1432166400, 170, 0, 115], [2122130615, "MCV 2018 Basic Tissues", 0.0, 0, 1418256000, 50, 0, 50], [3552195532, "ACVPM Infectious Diseases", 0.0, 0, 1367798400, 50, 0, 0], [2624109645, "CVA Felis Tongue and Neck Muscles", 0.0, 0, 1382659200, 15, 0, 0], [1276006970, "MCV 2018 Blood Vessels & GI Tract", 0.0, 0, 1418256000, 10, 0, 12], [2935077510, "CVA Necturus Forlimb and Pectoral Girdle Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1109438359, "MCV 2018 Cell Basics", 0.0, 0, 1418256000, 15, 0, 17], [4083945974, "CVA Felis Buttocks & Thigh Muscles", 0.0, 0, 1382659200, 18, 0, 0], [2621774113, "cvo-db-1-Spaanse werkwoorden - tegenwoordige tijd", 0.0, 0, 1363478400, 41, 0, 0], [1021804519, "CVA Necturus Pelvis and Hind Limb Muscles", 0.0, 0, 1382659200, 8, 0, 0], [4083876071, "CVO Roeselare study words", 0.0, 0, 1381104000, 30, 0, 0], [853528522, "ACVPM  - Air", 0.0, 0, 1392336000, 53, 0, 0], [2624383847, "CVA Squalus Appendicular Muscles", 0.0, 0, 1382659200, 2, 0, 0], [3259698232, "All elementary-level Kanji plus JLPT 2 (MCV MCV)", 0.0, 0, 1379203200, 1161, 0, 0], [3414011381, "CVC sentences", 0.0, 0, 1377302400, 172, 99, 0], [476926342, "cvo-db-1-Spaanse getallen", 0.0, 0, 1363478400, 46, 0, 0], [2028555831, "JAKUB Dodate\u010dn\u00e9 procvi\u010dov\u00e1n\u00ed", 0.0, 0, 1422576000, 12, 0, 0], [2919804633, "CVA Squalus Hypobranchial Muscles", 0.0, 0, 1382659200, 4, 0, 0], [568191158, "6270 Care of Adults CVA flashcards", 0.0, 0, 1386633600, 29, 0, 2], [248203364, "CVA Felis Leg Muscles ", 0.0, 0, 1382659200, 10, 0, 0], [1951360938, "MCV 2018 Gross Anatomy", 0.0, 0, 1418256000, 18, 0, 7]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cv</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

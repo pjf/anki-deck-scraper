@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1360487529, "JLPT Joyo Kanji N4\u30fbWriting Practice", 0.0, 0, 1454544000, 40, 0, 0], [930116308, "2100 Kanji l'int\u00e9grale des JLPT et Jouyou en Fran\u00e7ais", 0.0, 0, 1453939200, 2100, 0, 2202], [201400806, "Teach Yourself Hindi Dictionary", 5.0, 2, 1361232000, 3025, 0, 0], [718618031, "sopica myo dos", 0.0, 0, 1454457600, 10, 0, 0], [2157658310, "[VectorMaps] Special wards of Tokyo, Japan", 4.33, 3, 1368662400, 23, 0, 46], [3283034296, "japanese phonetic - signal primitives - ONYOMI groups", 5.0, 1, 1383177600, 361, 0, 0], [1763047972, "Hepokatin abipaketti: Ruotsi (Omia poimintoja)", 0.0, 0, 1452902400, 844, 1, 1], [1170753503, "Gross & Embryology_DeMelo", 5.0, 1, 1453161600, 78, 0, 0], [1039595143, "Portuguese 100 most common words - Brigham Young University", 0.0, 0, 1451865600, 100, 0, 0], [173107807, "SM20 - The summer, the beach, youth and ghosts", 0.0, 0, 1452902400, 27, 0, 0], [1251668868, "\u4eba\u540d\u7528\u6f22\u5b57 Jinmeiyoukanji (Full Names+Single Names)", 4.0, 2, 1345852800, 2530, 0, 0], [224181860, "lazy cards for everyone interested in remembering kanji", 0.0, 0, 1452124800, 2042, 0, 0], [1792058065, "to be with you ", 0.0, 0, 1451260800, 20, 0, 0], [508547589, "Human rights (from Malala Yousafzai interview)", 0.0, 0, 1452902400, 15, 15, 6], [44494876, "a youg man msut not give up", 0.0, 0, 1451433600, 60, 3, 1], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [169859079, "a youg man msut not give up 56", 0.0, 0, 1452038400, 101, 3, 1], [529934467, "SM07 - So You Want to Be a Superstar", 0.0, 0, 1451606400, 32, 0, 0], [1652625283, "Honorific and Humble Verbs (\u656c\u8a9e Keigo / \u8b19\u8b72\u8a9e Kenjyougo) \t", 0.0, 0, 1435276800, 19, 0, 0], [811803516, "are you even in this class?", 0.0, 0, 1450051200, 170, 0, 7], [1099216650, "here you go ", 0.0, 0, 1448755200, 70, 0, 0], [211413308, "Do you speak English ? KANESHA", 0.0, 0, 1449360000, 743, 0, 0], [1814683909, "One word for each Jouyou kanji", 0.0, 0, 1345852800, 2138, 0, 0], [940491871, "UWYO Japanese 1010 Vocabulary", 0.0, 0, 1447718400, 577, 0, 0], [1799058153, "6.2 Embryology", 0.0, 0, 1445904000, 3, 0, 0], [417416744, "Infrahyoidale Muskulatur", 0.0, 0, 1447632000, 6, 0, 0], [2042285532, "IMMS Lectures (Bar Histo and Embryol they separate module)", 0.0, 0, 1446595200, 195, 0, 45], [740967428, "Jouyou kanji & related compounds ", 5.0, 2, 1444176000, 14942, 0, 0], [530751234, "Embryologie", 0.0, 0, 1447113600, 81, 0, 1], [1529305451, "Embryology based on Objectives, Human Anatomy I", 0.0, 0, 1441152000, 96, 0, 0], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [1138822339, "BIOL 200 Yoni", 0.0, 0, 1443571200, 182, 0, 0], [1145125698, "Bel pawol Kreyol", 0.0, 0, 1444867200, 41, 40, 1], [150000781, "BBC Does your CV shine?", 0.0, 0, 1445472000, 14, 0, 7], [2106178206, "Trilaminar Embryo", 0.0, 0, 1445990400, 92, 0, 0], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [2266764033, "Yonsei Korean 1 (1-5)", 0.0, 0, 1345852800, 386, 0, 0], [1099485630, "simons yoyo chinese lesson 1 ", 0.0, 0, 1443830400, 2, 3, 1], [724171188, "Authentic Japanese Unit 1 (yondemiyou)", 0.0, 0, 1442188800, 61, 0, 0], [1484686549, "\u0130spanyolca - T\u00fcrk\u00e7e 2000 (TTS Destekli)", 5.0, 1, 1442448000, 2051, 3926, 1], [1154942172, "Ch6 Embryology Respiratory", 0.0, 0, 1442534400, 73, 0, 12], [2094988346, "Jouyou not on Kanjidamage vocab", 0.0, 0, 1374364800, 1755, 0, 0], [2027281672, "\u0420\u0443\u0441\u0441\u043a\u043e-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043d\u0438\u043a (\u0434\u043b\u044f \u0432\u0438\u0434\u0435\u043e \u043d\u0430 YouTube)", 0.0, 0, 1387756800, 24, 24, 1], [596300598, "Human Anatomy I, Chapter 4 Objectives, Embryology", 0.0, 0, 1441065600, 24, 0, 0], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [1404505877, "All sentences from Paul Graham's essay \"What you can't say\"", 0.0, 0, 1441497600, 371, 0, 0], [978818750, "Perineal and Pelvic Myology FIU PA ", 0.0, 0, 1442361600, 9, 0, 0], [117102372, "Embryology Deck", 0.0, 0, 1441238400, 88, 0, 8], [2051412754, "M\u00f6llers - Introducing Yourself", 0.0, 0, 1411257600, 68, 0, 0], [826781248, "spanyol sz\u00e1mok 56-100", 0.0, 0, 1403568000, 45, 0, 0], [817913284, "korededaijyoubu", 0.0, 0, 1439856000, 210, 0, 0], [1754505716, "THER Exam 2 AbbyO", 0.0, 0, 1440633600, 347, 0, 19], [725621551, "Embryology", 0.0, 0, 1441324800, 143, 0, 0], [3414320282, "Malay For Everyone", 0.0, 0, 1376179200, 534, 0, 0], [1604882084, "This will rock your world. Path ", 0.0, 0, 1381881600, 556, 0, 293], [1974215699, "RLR #97 \u2013 Sports Idioms for Your Life", 5.0, 1, 1427328000, 33, 33, 0], [1472635709, "Ashtanga Yoga", 5.0, 1, 1407283200, 49, 0, 49], [1500523238, "yome choronghi", 0.0, 0, 1387324800, 4036, 0, 756], [1942521403, "RLR #84 - How to Revolutionize Your English with Podcasts", 0.0, 0, 1418947200, 34, 32, 0], [873133349, "Histyory of space exploration", 0.0, 0, 1439596800, 117, 0, 0], [6055910, "Malala Yousafzai video", 0.0, 0, 1425859200, 11, 0, 5], [136593977, "Anatomy -GI Embryology (Kessler)", 0.0, 0, 1412035200, 19, 0, 0], [1592316339, "spanyol sz\u00e1mok 100-1000", 0.0, 0, 1403568000, 13, 0, 0], [308584470, "LECOM - Embryology Quiz 1", 5.0, 1, 1438473600, 136, 0, 0], [2856122421, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 \u0130\u015fletme ", 0.0, 0, 1368662400, 151, 0, 0], [147446962, "spanyol sorsz\u00e1mnevek", 0.0, 0, 1403568000, 10, 0, 0], [675841085, "Cardiomyopathy", 0.0, 0, 1396915200, 54, 0, 2], [1896272189, "Max/Matiar Embryology", 0.0, 0, 1377129600, 81, 0, 38], [2108048799, "Nutrition Your Life Science Module 1", 0.0, 0, 1422662400, 57, 0, 16], [92063362, "Embryo Lecom", 0.0, 0, 1410307200, 87, 0, 26], [886567792, "Block 3 Cardio Embryo", 0.0, 0, 1415836800, 62, 0, 11], [1069509639, "Diergeneeskunde Embryologie Afwijkingen", 0.0, 0, 1430179200, 196, 0, 126], [3861281800, "embryologie", 0.0, 0, 1370044800, 171, 0, 0], [635670360, "Grade 3 joyou kanji", 0.0, 0, 1428105600, 86, 0, 0], [778299874, "Chiffre - Yota", 0.0, 0, 1376265600, 41, 0, 0], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [3410204465, "Yonsei Korean 2 (1-5)", 0.0, 0, 1345852800, 423, 0, 0], [2103026114, "UHSA Embryology", 0.0, 0, 1417219200, 241, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [372494404, "Youlia Russe B1", 0.0, 0, 1434672000, 189, 0, 4], [1522205299, "embryo 2", 0.0, 0, 1408147200, 62, 0, 16], [400960527, "e2Pe Yope", 0.0, 0, 1406764800, 29, 27, 0], [3674668436, "SaengMyong_Flashcards", 0.0, 0, 1349308800, 143, 0, 0], [2877041043, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C \u0130\u015fletme Soru Bankas\u0131", 0.0, 0, 1368662400, 82, 0, 0], [772913647, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Uluslararas\u0131 Fonetik Alfabe", 0.0, 0, 1368662400, 26, 0, 0], [3810223180, "Teach Yourself Finnish Vocabulary", 0.0, 0, 1345852800, 937, 0, 0], [1108461821, "history of japan asuka tenpyou", 5.0, 1, 1399334400, 209, 0, 0], [1899709390, "embryo lecture ap", 0.0, 0, 1402099200, 64, 0, 0], [1333876874, "CHM EdExcel AS Italian Vocab - Youth Culture and Concerns", 0.0, 0, 1368057600, 171, 0, 0], [845300491, "Rebecca's Embryology", 0.0, 0, 1410739200, 199, 0, 1], [1283632216, "Ballstothe Embryology", 0.0, 0, 1410652800, 128, 0, 0], [106295531, "RLR #95 \u2013 The Importance of Knowing WHY You're Learning", 5.0, 1, 1426032000, 30, 30, 0], [2129732836, "Digestive system embryo Med school ", 0.0, 0, 1416009600, 8, 0, 0], [1720951320, "Respiratory System Embryo", 0.0, 0, 1416009600, 22, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [2567551207, "Ancient History (young kids homeschool)", 0.0, 0, 1345852800, 112, 0, 83], [547032762, "spanyol sz\u00e1mok 1-55", 0.0, 0, 1403568000, 56, 1, 0], [1528095336, "RLR #89 - Maximize Your Determination ", 0.0, 0, 1422403200, 30, 30, 0], [3477974631, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Ulusal Fonetik Alfabe", 0.0, 0, 1368662400, 40, 0, 0], [1924989807, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C S\u0131n\u0131f\u0131 Ulusal ve Uluslararas\u0131 ", 0.0, 0, 1368662400, 49, 0, 0], [1017660878, "Richard Young", 0.0, 0, 1407283200, 193, 0, 0], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [3012149418, "Yonsei Korean 2 (6-10)", 0.0, 0, 1345852800, 419, 0, 0], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [391136450, "The Top 39 Thai Words You Must Know", 0.0, 0, 1362096000, 39, 0, 0], [214234931, "Kanji in italiano per ankiweb (Jouyou kanji)", 0.0, 0, 1452470400, 2622, 3, 0], [186771768, "HMS.IMP.Pyogenic.Bacteria", 0.0, 0, 1365552000, 30, 0, 10], [3912954192, "Embryo Cards", 0.0, 0, 1381276800, 123, 0, 14], [1001128266, "Anatomy -GI Embryology (Kessler)", 0.0, 0, 1412726400, 19, 0, 0], [1634283011, "Lecom embryo kidney", 0.0, 0, 1411862400, 39, 0, 22], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [846583375, "Jenna's Embryology", 0.0, 0, 1410220800, 72, 0, 0], [82564160, "Tokyo Geography", 5.0, 1, 1394928000, 55, 0, 55], [757772622, "Spanish Yoga Terms", 0.0, 0, 1401321600, 14, 0, 0], [983608919, "TheBayOfAvi", 1.0, 1, 1393459200, 181, 0, 223], [2044489115, "Joyou Kanji (Fran\u00e7ais-Japonais)", 0.0, 0, 1345852800, 1945, 0, 0], [1595044165, "Id\u00e9zetek spanyolul", 0.0, 0, 1413676800, 6, 0, 0], [1740940736, "Ayamo Embryology", 0.0, 0, 1385424000, 264, 0, 125], [2611696388, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik Sor", 0.0, 0, 1368662400, 140, 0, 31], [426754190, "Embryologi (branchiebuer)_Ida", 0.0, 0, 1402358400, 11, 0, 1], [1498310295, "RLR #98 \u2013 Reckon Your English is Good? Try Aussie English!", 5.0, 1, 1427846400, 32, 32, 0], [1308119915, "spanyol felt\u00e9teles mondatok", 0.0, 0, 1403568000, 5, 0, 0], [2482912576, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 TA B\u00f6lge kodlar\u0131", 0.0, 0, 1368662400, 84, 0, 11], [117637301, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik ", 0.0, 0, 1369440000, 172, 0, 62], [1878136556, "Embryo", 0.0, 0, 1415059200, 23, 0, 7], [211697247, "Valuable Words in Barron's\"1100 words you need to know\"", 0.0, 0, 1410652800, 295, 0, 0], [2555152728, "Keiyoushi SII Nihongo UECE", 0.0, 0, 1345852800, 32, 30, 32], [1840057796, "What the people of the Amazon know that you don't", 0.0, 0, 1426032000, 29, 0, 8], [1316803847, "Jyoti's pharm drugs deck", 0.0, 0, 1410393600, 174, 0, 0], [2042655279, "Kanji Reading (Joyo Kanji - Torres)", 0.0, 0, 1398124800, 2135, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [1943294739, "ManjiJapanese : : Song 01 \u25c4\u3010\u65e5\u672c\u8a9e\u30e9\u30c3\u30d7\u3011\u3081\u3044\u304f\u307e\u306d\u30fcYO!!!", 0.0, 0, 1411862400, 30, 0, 1], [110029802, "embryology 1 Eli", 0.0, 0, 1408147200, 41, 0, 11], [191268618, "Yonsei Korean 1 (6-10)", 0.0, 0, 1345852800, 361, 0, 0], [1129552294, "Embryologie", 0.0, 0, 1369526400, 11, 0, 0], [1741333726, "Emma embryology", 0.0, 0, 1396656000, 85, 0, 0], [2424172975, "Medical Embryology (ECU)", 0.0, 0, 1386633600, 113, 0, 22], [327520335, "lecom head and neck embryo", 0.0, 0, 1413590400, 91, 0, 89], [4031746778, "Loyola Biology", 0.0, 0, 1384300800, 607, 0, 0], [2068256311, "240.04&05.AmblyopiaAssessment", 0.0, 0, 1393200000, 17, 0, 35], [1193840984, "Teach Yourself Zulu", 0.0, 0, 1391817600, 24, 26, 2], [313300394, "chuukyuu kara jyoukyuu e no kotoba", 0.0, 0, 1401494400, 226, 0, 0], [785733832, "A short one line description of your deck.", 1.0, 1, 1405900800, 360, 0, 0], [3484058259, "Changing your mindset", 0.0, 0, 1374969600, 9, 0, 0], [447252944, "SPOM-Embryo III", 0.0, 0, 1383868800, 76, 0, 0], [235954787, "All Yours Logan", 0.0, 0, 1432425600, 68, 0, 3], [684631089, "embryo MT for lauren", 0.0, 0, 1429747200, 0, 0, 0], [2775509690, "Catechism for Young Children", 5.0, 1, 1357689600, 145, 0, 0], [281436838, "Yookoso Ch4 Vocab (Weather)", 0.0, 0, 1345852800, 204, 0, 0], [1195191974, "Rheum - Vasculitis, Myositis", 0.0, 0, 1361145600, 54, 0, 18], [1053215329, "Anatomie myologie", 0.0, 0, 1369526400, 159, 0, 4], [294866598, "embryo 3", 0.0, 0, 1408147200, 41, 0, 10], [2483221143, "biochem - yokomori", 0.0, 0, 1379894400, 54, 0, 25], [4244611937, "RGBM Embryology II", 0.0, 0, 1358294400, 58, 0, 8], [517224776, "embryo heart lecom", 0.0, 0, 1414627200, 111, 0, 31], [401094247, "RLR #86 \u2013 New York English & the Qu'ran", 0.0, 0, 1420675200, 30, 30, 0], [587958922, "Man'yougana \u4e07\u8449\u4eee\u540d", 0.0, 0, 1416960000, 619, 0, 0], [979559117, "Repro Embryo of the Male Repro Tract 04.21.15", 0.0, 0, 1430611200, 15, 0, 1], [1709600314, "Embryology ", 0.0, 0, 1409443200, 295, 0, 68], [1251390776, "nichiyou", 0.0, 0, 1429833600, 30, 0, 1], [471301332, "Yookoso Ch5 Vocab", 0.0, 0, 1345852800, 159, 0, 0], [1736529013, "Repro Embryo of the Female Repro Tract 04.22.15", 0.0, 0, 1430697600, 19, 0, 3], [822363740, "Simple kanji deck - English definition and on'yomi", 0.0, 0, 1422057600, 2136, 0, 0], [646808114, "Joyou Kanji (Japonais-Fran\u00e7ais)", 0.0, 0, 1345852800, 1945, 0, 0], [214847256, "Embryo gut", 0.0, 0, 1410652800, 68, 0, 31], [3208536705, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B- S\u0131n\u0131f\u0131 Ulusal ve Uluslararas", 0.0, 0, 1368662400, 67, 0, 0], [1290753172, "Nervous You are; FORCE a powerful ally indeed", 0.0, 0, 1378339200, 971, 0, 244], [1439992440, "\u65e5\u672c\u8a9e\u3067\u6c17\u6301\u3061\u3092\u4f1d\u3048\u308b\u3002 Express Your Feelings In Japanese", 4.29, 7, 1345852800, 627, 0, 0], [2069831381, "Anatomy Embryology", 0.0, 0, 1417305600, 57, 0, 1], [3680019382, "IUSM Microbiology Staphlyococci", 0.0, 0, 1377129600, 30, 0, 0], [2184215972, "amarakosha - vyoma-teja", 0.0, 0, 1368403200, 255, 0, 0], [1040047446, "Embryological Proficiency on the Urinary System", 0.0, 0, 1351728000, 51, 0, 11], [344115856, "spanyol sz\u00e1mok", 0.0, 0, 1413676800, 124, 1, 0], [408195215, "Words You Should Know", 0.0, 0, 1427414400, 756, 0, 0], [1737181506, "Anatomy Shambhava Yoga HYTT 200", 0.0, 0, 1405296000, 51, 0, 0], [2614870101, "Jouyou not on Kanjidamage", 0.0, 0, 1374364800, 533, 0, 0], [3516884108, "Jouyou kanji in italiano", 5.0, 1, 1380585600, 2622, 0, 0], [1780380716, "Salters-Nuffield Biology A2 - Run for your Life", 0.0, 0, 1412035200, 101, 0, 0], [1259584055, "Business English. B1. Speaking about your career", 0.0, 0, 1427414400, 19, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

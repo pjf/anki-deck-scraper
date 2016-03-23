@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[825115765, "Blood and Lymph KUMC", 5.0, 1, 1454371200, 1276, 10, 1148], [1786707266, "BloodBowl - Englisch/Deutsch", 0.0, 0, 1454025600, 52, 0, 0], [3588242408, "PLU Price Lookup Codes", 4.0, 1, 1387324800, 1027, 0, 639], [228550516, "Blood and Lymph", 0.0, 0, 1452470400, 343, 10, 320], [1985586257, "Speaksuli Look words ", 0.0, 0, 1451865600, 13, 0, 0], [2014309273, "Blood and lymphatics FMED", 0.0, 0, 1450310400, 262, 0, 0], [1788234984, "CSIM2 - Blood and Blood Disorders", 0.0, 0, 1448582400, 71, 0, 0], [765517752, "Blood Supply, CSF, Supporting Structures of Brain", 0.0, 0, 1425859200, 135, 0, 17], [391039968, "Histo-Blood", 0.0, 0, 1444953600, 21, 0, 0], [1523402957, "Blood block", 0.0, 0, 1444953600, 704, 0, 0], [784720822, "MTH - Histo: Blood", 0.0, 0, 1440460800, 0, 0, 0], [1428851914, "Abdominal Organs, Blood Supply (UNIT 2: Lec 5) Bio 122 CSUS", 0.0, 0, 1440374400, 53, 0, 58], [3349232177, "CofO2 - 1 - Structure and Function of Blood", 0.0, 0, 1345852800, 43, 0, 0], [1844399824, "Blood Block OU-HCOM", 0.0, 0, 1413504000, 1484, 0, 192], [3383967349, "CofO2 - 19 - Carriage of Gases In Blood.anki", 0.0, 0, 1345852800, 26, 0, 0], [428692755, "Anatomy Terms: Blood Supply and Nerve Path", 0.0, 0, 1437091200, 19, 0, 0], [2073304818, "Discussions based on Bloom's Taxonomy 2", 0.0, 0, 1425686400, 9, 0, 0], [2040058999, "Blood supply to the heart", 0.0, 0, 1416528000, 11, 0, 0], [1569188895, "Bacteria, Blood and Viruses MM", 0.0, 0, 1372723200, 689, 0, 133], [1617922388, "Kanji look and learn Unit 9", 0.0, 0, 1425772800, 42, 0, 0], [2456638077, "Blood supply of the brain", 0.0, 0, 1380672000, 42, 0, 0], [237741023, "White Blood Cell 1 & 2", 0.0, 0, 1434240000, 151, 0, 148], [1859751437, "Week 2 Blood Components", 0.0, 0, 1409443200, 62, 0, 5], [678003905, "Rheumapalooza 2015", 0.0, 0, 1426118400, 182, 0, 38], [1705158755, "Kanji look and learn Unit 6", 0.0, 0, 1425772800, 24, 0, 0], [1749548332, "Histology Lecture Weeks 6-9 (Nerve - Blood II)", 0.0, 0, 1381104000, 172, 0, 5], [793751783, "Histology 9 (Blood II)", 0.0, 0, 1381363200, 26, 0, 19], [1276006970, "MCV 2018 Blood Vessels & GI Tract", 0.0, 0, 1418256000, 10, 0, 12], [632659568, "CofO2 - 6 - Blood Groups", 0.0, 0, 1345852800, 36, 0, 0], [1971967039, "Week 1 Blood & Lymphatics", 0.0, 0, 1409443200, 36, 0, 0], [438708809, "Blood n Guts", 0.0, 0, 1377388800, 21, 0, 0], [1345552912, "Emily Blood Test", 0.0, 0, 1424217600, 38, 0, 6], [686051559, "Kanji look and learn Unit 5", 0.0, 0, 1425772800, 30, 0, 0], [1377110063, "Kanji look and learn Unit 11", 0.0, 0, 1425772800, 0, 0, 0], [1032508491, "Kanji look and learn Unit 7", 0.0, 0, 1425772800, 35, 0, 0], [1245473530, "immune/inflammation response/blood cells", 0.0, 0, 1406419200, 56, 0, 0], [1946757060, "Ballstothe Anatomy 2: A-Neck-Trick Boogaloo", 0.0, 0, 1415836800, 760, 0, 49], [2041074348, "Blood ", 0.0, 0, 1345852800, 19, 0, 0], [1089718336, "Kanji look and learn Unit 4", 0.0, 0, 1425772800, 44, 0, 0], [1540471712, "Epic INI Lookup", 0.0, 0, 1410220800, 139, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Loo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

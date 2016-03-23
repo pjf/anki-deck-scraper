@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3837585903, "Zertifikat Deutsch - B1, p\u00e9ld\u00e1kkal -- n\u00e9met-magyar", 4.75, 4, 1378425600, 3539, 0, 0], [1794956578, "Edible weeds and wild herb identification", 5.0, 1, 1417478400, 280, 0, 271], [2132185048, "Sopica appareil digestif", 0.0, 0, 1454716800, 43, 0, 4], [1159215668, "Sopica appareil digestif ok ", 0.0, 0, 1454716800, 42, 0, 4], [744441926, "Identifiactions of amino acids and proteins. ", 0.0, 0, 1452902400, 0, 0, 0], [1921864781, "Deutsch Zertifikat B1 Deutsch-russisches Worterbuch", 5.0, 1, 1447632000, 3231, 1, 33], [330262636, "Droi administratif S3", 0.0, 0, 1449619200, 56, 0, 0], [1321937944, "Acte Administratifs", 0.0, 0, 1449619200, 48, 0, 0], [1032621598, "KK Leitmotif Reviews", 0.0, 0, 1443484800, 12, 12, 0], [2143509951, "Java Web Services Certification", 0.0, 0, 1442534400, 182, 0, 0], [1299682280, "Java Certified Associate OCA7 Exam Questions", 0.0, 0, 1434499200, 9, 0, 2], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [1471864600, "UK NUR 210 EXAM 4 Antivirals/antifungals", 0.0, 0, 1418774400, 38, 0, 0], [2116883197, "Cisco Certified Design Associate preparation deck", 4.0, 1, 1425340800, 98, 0, 2], [802958366, "UMMCpharmAntifungals", 0.0, 0, 1421712000, 30, 0, 3], [251118466, "B1 Zertifikat Wortschatz", 0.0, 0, 1432339200, 224, 0, 0], [1111008041, "Zertifikat Deutsch EN-DE Jane Baird", 0.0, 0, 1345852800, 1913, 0, 0], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [1918097166, "Leaving Certificate Chemsitry", 0.0, 0, 1446940800, 1118, 0, 24], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [1533879605, "adjectifs de personnalit\u00e9 n\u00e9gatifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 66, 0, 0], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [3247401211, "All Cards CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 361, 0, 0], [261154551, "adjectifs de personnalit\u00e9 positifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 72, 0, 0], [3457317948, "fuzzy logic CGSC 4001 5001 Artificial Intelligence ", 0.0, 0, 1345852800, 31, 0, 0], [1710624338, "Certified IRB Professional (CIP) Exam", 0.0, 0, 1394668800, 617, 0, 1], [499451121, "Lec 13 Synthesizing and Interpreting Scientific Evidence", 0.0, 0, 1414540800, 14, 0, 0], [3758189052, "HMS.IMP.antifungal.therapy", 0.0, 0, 1368144000, 14, 0, 7], [120237169, "UConn Medical and Dental OS2 Anatomy Identification", 0.0, 0, 1397088000, 383, 0, 349], [619551680, "RFC test 2, 3 letter identifiers", 0.0, 0, 1392336000, 72, 0, 0], [742859891, "B1 Zertifkat ", 0.0, 0, 1419897600, 639, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [559765544, "verbes + infinitif: avec \u00e0, de ou sans pr\u00e9position", 0.0, 0, 1416528000, 223, 0, 0], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [1450143754, "logic CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 29, 0, 0], [1966450662, "Unindentified", 0.0, 0, 1420416000, 53, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [1387552942, "\u665f\u666f\u55ae\u5b57\u66f8U4#11-20(Tiff)", 0.0, 0, 1426636800, 10, 0, 0], [1450739, "Leaving Certificate Biology", 5.0, 1, 1440115200, 1617, 0, 24], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [712723060, "Leaving Certificate Physics", 5.0, 1, 1446940800, 1049, 0, 58], [324122248, "Precision Nutrition Level 1 Certification - Part A", 0.0, 0, 1423526400, 220, 0, 0], [1307122021, "Biochem, Unit 4; Complicating factors & Multifactorial Inher", 0.0, 0, 1414108800, 64, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tif</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

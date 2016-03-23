@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1621569193, "selfstudythai.com vocabulary w/audio from VOA articles 1-85", 0.0, 0, 1406764800, 5392, 1748, 0], [1617487818, "Cassell Exam 1", 0.0, 0, 1454544000, 51, 0, 3], [201400806, "Teach Yourself Hindi Dictionary", 5.0, 2, 1361232000, 3025, 0, 0], [1139381831, "Manu Basel - \u9ad8\u60a6\u4eae - HSK 1-2 -reedited", 0.0, 0, 1426032000, 300, 558, 243], [490744079, "Web Development Flashcards [@jackkinsella]", 5.0, 4, 1404691200, 6144, 0, 258], [539377625, "selfstudythai.com vocabulary w/audio from VOA articles 1-10", 0.0, 0, 1399852800, 1420, 354, 0], [1543937746, "REN MAI - Conception Vessel- SEA OF YIN", 0.0, 0, 1450569600, 21, 0, 0], [1521181522, "Selected Physical Constants (TIMSS 1995)", 0.0, 0, 1395360000, 13, 0, 2], [149534155, "Deitel Java How to Program Chapter 4 (Self Exercises)", 0.0, 0, 1448409600, 29, 0, 0], [1854787519, "Music Theory and Production [@jackkinsella]", 0.0, 0, 1404691200, 1761, 0, 290], [299744082, " Wechselpr\u00e4positionen", 0.0, 0, 1449705600, 0, 0, 0], [1729915144, "Deitel Java How to Program Chapter 3 (Self Exercises)", 0.0, 0, 1448409600, 31, 0, 0], [528727218, "Salish - English (seli\u0161 - sunyapcin) vocabulary ", 0.0, 0, 1450569600, 904, 30, 535], [263276491, "Salish Stories 1 Vocabulary - Selis\u030c Sm\u0313im\u0313i 1", 0.0, 0, 1448668800, 83, 4, 71], [1466626645, "English - Polish 2000 top frequent words (ISEL)", 3.33, 6, 1345852800, 2000, 0, 0], [1200025131, "Lipidstoffwechsel im Modul MK 20 Spezielle Biochemie JLU", 0.0, 0, 1447372800, 40, 0, 30], [732544763, "Duitse voorzetsels op frequentie (SETL)", 0.0, 0, 1438992000, 132, 1, 1], [113138392, "German Grammar [@jackkinsella]", 0.0, 0, 1404691200, 1134, 0, 95], [633293368, "Mandatory Selectives MS3 2015", 0.0, 0, 1440633600, 385, 0, 125], [2051412754, "M\u00f6llers - Introducing Yourself", 0.0, 0, 1411257600, 68, 0, 0], [1427731002, "Self share_kron", 0.0, 0, 1434326400, 498, 0, 1], [1348422150, "Business English. B1. Selling the positives in a negotiation", 0.0, 0, 1427241600, 24, 0, 1], [1420583073, "Schl\u00fcssels\u00e4tze der Altgriechischen Philosophie", 0.0, 0, 1435017600, 96, 0, 0], [1364471469, "KJV Bible - Selected Verses", 0.0, 0, 1432512000, 3661, 0, 1], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [3899009929, "Dermatology Self Study for Physical Assessment", 0.0, 0, 1367798400, 32, 0, 15], [2107342451, "TO SELMA AUDI CAROLE REID GEMMA BOWSSURGERY LOBS FROM SARAH ", 0.0, 0, 1431820800, 365, 0, 4], [866221253, "English Grammar and Style [@jackkinsella]", 4.0, 2, 1404691200, 480, 0, 31], [327802141, "Segundo parcial temas selectos", 0.0, 0, 1429660800, 241, 0, 0], [314335866, "rowan som block 1 fundamentals 1 self study cell signalling", 0.0, 0, 1409702400, 17, 0, 2], [301925772, "d\u00e9veloppement produits selbstcheck", 0.0, 0, 1423699200, 160, 0, 1], [2101704639, "German selection of words", 0.0, 0, 1424649600, 289, 5, 0], [518152011, "OCR Physics AS Definitions (Selective)", 0.0, 0, 1395619200, 86, 0, 0], [32600325, "Pr\u00e4sens PL-DE-DE (Stammvokalwechsel usw.) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 39, 0, 0], [3810223180, "Teach Yourself Finnish Vocabulary", 0.0, 0, 1345852800, 937, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [1779092905, "Treatment of heart and vessel disease", 0.0, 0, 1417651200, 44, 0, 0], [1491508458, "to myself", 0.0, 0, 1433980800, 39, 0, 11], [1383349401, "self-improvement", 0.0, 0, 1389657600, 33, 0, 0], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [536081221, "Brian's Selected SAT Vocabulary", 0.0, 0, 1401926400, 162, 0, 0], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [2842335079, "Spanish Selection J\u00fcrg", 0.0, 0, 1361232000, 1021, 0, 0], [58387355, "13240 seq and sep phraselogy", 0.0, 0, 1368057600, 37, 0, 0], [4038902201, "Slownik ISEL 1500 Popular Phrases. Polish - English + sound", 4.0, 3, 1360108800, 1500, 2975, 0], [1913902378, "Legal Capacity Counseling", 0.0, 0, 1390435200, 34, 0, 0], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [1276006970, "MCV 2018 Blood Vessels & GI Tract", 0.0, 0, 1418256000, 10, 0, 12], [3702909821, "clinical point selection", 0.0, 0, 1374364800, 56, 0, 0], [4083876071, "CVO Roeselare study words", 0.0, 0, 1381104000, 30, 0, 0], [1839615397, "Kreuzwortr\u00e4tsel", 0.0, 0, 1417996800, 119, 0, 0], [1193840984, "Teach Yourself Zulu", 0.0, 0, 1391817600, 24, 26, 2], [208414894, "Ita Chiaro susi ursel", 0.0, 0, 1390694400, 298, 0, 0], [599602815, "Seitlinger stille Gesellschaft MIG", 0.0, 0, 1420416000, 11, 2, 2], [1792757048, "Selecting and manipulating files in Windows 8", 0.0, 0, 1420243200, 5, 0, 0], [1111509721, "Biologie 1. Energie und Stoffwechsel", 0.0, 0, 1346284800, 115, 0, 47], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [2744515901, "Randomly Selected Lojban non-gismu brivla", 0.0, 0, 1345852800, 62, 0, 0], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [1085241879, "Khmer School Book 1, Selected Words", 0.0, 0, 1408147200, 1101, 0, 0], [1828322799, "French-Dutch SELOR 8000 words + reverse", 5.0, 1, 1388275200, 7543, 0, 0], [207415160, "Rationality and Biases [@jackkinsella]", 0.0, 0, 1404691200, 374, 0, 39], [1203542828, "French-Dutch SELOR 8000 words", 4.14, 7, 1345852800, 8074, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sel</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

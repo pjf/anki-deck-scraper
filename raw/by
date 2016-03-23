@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1230337683, "Awesome Anatomy Anki deck 1.3 (aby_baby)", 5.0, 4, 1453420800, 1980, 40, 370], [662847082, "Similar Hanzi Pairs Ranked by Most Common", 0.0, 0, 1449100800, 416, 576, 1], [4066961604, "Korean Vocabulary by Evita", 4.69, 16, 1441843200, 4786, 677, 0], [2071543425, "Japanese Onomatopoeia and Mimetic Words by Onomato Project", 5.0, 1, 1454544000, 85, 0, 84], [824327154, "Korean Hanja by Evita", 4.75, 4, 1447459200, 279, 0, 0], [1101204068, "80 Percent Greek Vocabulary by Frequency", 4.67, 3, 1345852800, 1099, 0, 0], [493959367, "Verbs Followed By Gerunds And Infinititves", 0.0, 0, 1453939200, 100, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [1968740715, "A Huge Thai Vocabulary Deck sorted by Subjects", 0.0, 0, 1454198400, 9683, 24, 138], [545958596, "Greek by radio, lessons 1-75 Russian and English Translation", 5.0, 1, 1436918400, 6955, 0, 1], [514083148, "JLPT Kanji by level", 0.0, 0, 1451260800, 2136, 0, 0], [1007827763, "French prepositions in sentences by Isaac", 0.0, 0, 1452816000, 41, 0, 29], [1812032714, "Deutch:4000 German words by frequency with Google example t", 0.0, 0, 1438041600, 4214, 4222, 0], [167023255, "Let's Talk Hebrew Vocabulary", 0.0, 0, 1453334400, 66, 0, 57], [4036022128, "Model Thinking (notes by Dmitriy Alexeev)", 0.0, 0, 1345852800, 81, 0, 33], [1957917948, "single herbs", 0.0, 0, 1453680000, 36, 0, 0], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [231723347, "Geschichte der Psychologie by LG", 0.0, 0, 1452643200, 269, 0, 15], [485573335, "German verbs by phased.", 0.0, 0, 1452988800, 116, 0, 0], [677598525, "Deutsch - Russisch  DB 1 (>4000)  by Rakzin Roman", 5.0, 1, 1448150400, 4201, 0, 0], [1432655733, "Stopping by Woods on a Snowy Evening-Robert Frost", 0.0, 0, 1449878400, 16, 0, 0], [2062278632, "4000 Essential English Words \u2013 Book 1, by Paul Nation", 3.33, 3, 1415750400, 600, 1801, 644], [696698893, "Englisch - Deutsch by Inforoth", 0.0, 0, 1453161600, 38, 2, 7], [1563764546, "Sailor Moon Super S Special 1 - Crybaby Usagi's Growth Diary", 0.0, 0, 1451692800, 22, 0, 0], [2009624202, "HEADWAY Intermediate Magyar-Angol - by Nandika", 4.67, 3, 1431820800, 1355, 1325, 4], [1850561512, "4000 Essential English Words \u2013 Book 5, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1547992436, "4000 Essential English Words \u2013 Book 6, by Paul Nation", 0.0, 0, 1415750400, 601, 1801, 645], [1253348476, "Into English made by Clemens", 0.0, 0, 1450051200, 20, 0, 0], [2089276886, "4000 Essential English Words \u2013 Book 4, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1366124074, "4000 Essential English Words \u2013 Book 3, by Paul Nation", 0.0, 0, 1415750400, 599, 1798, 644], [158358330, "Speed Cards - 52 Spielkarten merken by inforoth", 0.0, 0, 1406764800, 52, 0, 1], [785000113, "Body parts - English - By Guido", 0.0, 0, 1449878400, 17, 32, 1], [1890343184, "1000 k\u00e9rd\u00e9s 1000 v\u00e1lasz k\u00f6z\u00e9pfok by Nandika", 5.0, 2, 1446336000, 3697, 3593, 6], [647532939, "HEADWAY - Pre-Intermediate (4th ed) (Czech-English) by Qvasa", 4.29, 7, 1426464000, 841, 0, 0], [833665190, "Algorithmist's Latvian words by frequency :1-100 with audio", 0.0, 0, 1422662400, 100, 106, 14], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [618312178, "Partie polit., NGO, spo\u0142ecze\u0144stwo obywatelskie", 0.0, 0, 1449360000, 80, 0, 0], [475097444, "4000 Essential English Words \u2013 Book 2, by Paul Nation", 0.0, 0, 1415750400, 600, 1798, 643], [707407179, "Choroby", 0.0, 0, 1449446400, 82, 0, 0], [653061995, "Deutsch: 4000 German Words by Frequency", 4.61, 28, 1432425600, 4214, 4222, 0], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [1096582102, "Cocktail recipes covered by a NW US Bartending College", 0.0, 0, 1447632000, 127, 0, 0], [1869547261, "El arabya bayna yadayk 1/2", 0.0, 0, 1446163200, 190, 1, 0], [1165707242, "English-Russian vocabulary by Oleksandr Bolshov", 0.0, 0, 1416614400, 1133, 0, 0], [1374982851, "Genki II - Japanese-Czech by Lamanai", 0.0, 0, 1445472000, 652, 3, 0], [197818804, "GMAT Vocabulary List by Mahdi", 3.67, 3, 1385942400, 1341, 0, 0], [406808447, "Google Go Tour by DataGallos", 0.0, 0, 1447027200, 26, 0, 0], [795924684, "English-russian deck by Zanudniy", 0.0, 0, 1442966400, 1021, 0, 0], [403921135, "Morse Code by jx12", 0.0, 0, 1445299200, 29, 0, 0], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 0.0, 0, 1445472000, 14, 0, 0], [788074947, "Genki I - Japanese-Czech by Lamanai", 0.0, 0, 1445472000, 727, 3, 0], [1911151560, "Tongan", 5.0, 1, 1444521600, 116, 0, 0], [904955279, "Path by Pic AUA", 0.0, 0, 1445299200, 157, 0, 297], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 0.0, 0, 1445472000, 11, 0, 7], [1506255, "Opis osoby", 0.0, 0, 1345852800, 204, 196, 156], [678612558, "onomatopee by 853722", 0.0, 0, 1440028800, 15, 0, 0], [1673911644, "Reading Rhythm Ear Deck - GuitarOS by FretboardAnatomy.com ", 4.0, 1, 1422403200, 32, 22, 24], [1266989783, "BBC The three-parent baby", 0.0, 0, 1442275200, 38, 0, 7], [1387355056, "baby sign", 0.0, 0, 1442880000, 52, 0, 0], [103890101, "HEADWAY - Elementary 4th edition (Czech-English) by Qvasa", 5.0, 5, 1428624000, 1121, 0, 0], [1133240153, "CA1 acronyms by GG", 0.0, 0, 1440547200, 47, 0, 0], [3572937583, "IELTS VOCABULARY 2 ENGLISH TO PERSIAN-OXFORD BY KAMRAN ", 4.0, 1, 1371686400, 1132, 515, 0], [848099568, "film by 853722", 0.0, 0, 1440028800, 5, 0, 0], [552792247, "International Express (Czech-English) by Qvasa", 5.0, 4, 1428624000, 567, 0, 0], [1179581104, "classificatori by 853722", 0.0, 0, 1440028800, 15, 0, 0], [230471440, "Muskeln by pebx 15.07.21.c", 0.0, 0, 1437436800, 37, 0, 36], [22754865, "Pharm Drugs by Class", 0.0, 0, 1441756800, 16, 0, 0], [1877153096, "Voc :  \" el arabya bayna yadayk \" ---Arabe / Fran\u00e7ais ( 2/2)", 0.0, 0, 1430265600, 77, 1, 0], [1133613899, "cose a caso by 853722", 0.0, 0, 1440028800, 78, 0, 0], [502277926, "Attrezzi comuni (common tools, Italian) (by Supernatent)", 0.0, 0, 1360022400, 43, 43, 43], [283926030, "parti del corpo by 853722", 0.0, 0, 1440028800, 6, 0, 0], [225048355, "BEC Vantage Masterclass (Czech-English) by Qvasa", 4.33, 6, 1428624000, 1054, 0, 0], [1754505716, "THER Exam 2 AbbyO", 0.0, 0, 1440633600, 347, 0, 19], [150653593, "Pan's Labyrinth (El laberinto del fauno)", 5.0, 2, 1368316800, 243, 0, 0], [381859838, "Adjektiven+sein mit Pr\u00e4positionen tschechisch-deutsch byWolf", 0.0, 0, 1411603200, 62, 0, 0], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 4.9, 10, 1431820800, 1325, 1300, 4], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [162623957, "forme geometriche by 853722", 0.0, 0, 1440028800, 8, 0, 0], [1575389343, "avverbi by 853722", 0.0, 0, 1439856000, 25, 0, 0], [1318997802, "Rapid literacy in Chinese by ZhangPengPeng", 0.0, 0, 1408752000, 750, 0, 0], [2036962902, "J-Bridge vol.1 S01-L01 vocabulary by Tarek", 0.0, 0, 1390435200, 48, 0, 0], [874972057, "BYU Media Arabic Reverse", 0.0, 0, 1435449600, 285, 0, 0], [682572489, "J-Bridge vol.1 S01-L10 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1829964949, "Jess and Pierre baby huskies snowballs and snowflakes", 0.0, 0, 1414454400, 14, 0, 25], [1478878857, "\u0420\u0443\u0441\u0441\u043a\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0441 tylbaas.ykt.ru (by Cujoko)", 0.0, 0, 1413331200, 4956, 0, 0], [1729052897, "Physiology Midterm 3 by cyitoh", 0.0, 0, 1418169600, 40, 0, 8], [1846792247, "BYU Media Arabic", 0.0, 0, 1435449600, 332, 0, 0], [990200980, "Muskeln by pebx2", 0.0, 0, 1437350400, 37, 0, 34], [672029587, "Japanese Vocabulary by Suiberu", 0.0, 0, 1412726400, 85, 0, 0], [1266651913, "Guitar Note Names w/audio - GuitarOS by Fretboard Anatomy", 0.0, 0, 1445644800, 47, 47, 0], [1233554734, "Lojban big_list (sorted by frequency)", 0.0, 0, 1365379200, 1986, 0, 0], [3847643652, "Dragunkin Rus - Eng made by Sergey Larin", 0.0, 0, 1359417600, 388, 0, 0], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [1080314594, "Med1000 by Pedro", 0.0, 0, 1433376000, 1132, 0, 381], [1160937867, "Kanji p. 34-39 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [904750965, "BYU Arabic Vocab", 0.0, 0, 1424649600, 4030, 0, 0], [3669639509, "IB Psychology", 0.0, 0, 1367625600, 123, 0, 0], [231402903, "Polski-japonski by Adam", 0.0, 0, 1384560000, 6947, 0, 0], [3428008707, "Thackston Introduction to Syriac", 0.0, 0, 1365206400, 709, 0, 436], [883207925, "J-Bridge vol.1 S01-L03 vocabulary by Tarek", 0.0, 0, 1390435200, 26, 0, 0], [1019875083, "Kanji p. 28-33 by Tarek", 0.0, 0, 1390435200, 27, 0, 0], [1709622773, "Arabic Alphabet by Muna Osman ", 4.75, 12, 1345852800, 28, 112, 28], [1079822281, "Ruby trivia", 0.0, 0, 1399075200, 2, 0, 0], [1332437227, "Irregular verbs gaby", 0.0, 0, 1396224000, 140, 0, 0], [814546657, "Common English mistakes made by Vietnamese speakers", 0.0, 0, 1430524800, 13, 0, 1], [3132575204, "\u042f\u043a\u0443\u0442\u0441\u043a\u043e-\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0425\u0430\u0440\u0438\u0442\u043e\u043d\u043e\u0432\u0430 (by Cujoko)", 0.0, 0, 1413331200, 973, 0, 0], [1376268026, "A1. Lesson 18. Hobby", 0.0, 0, 1424217600, 24, 24, 9], [158562446, "Syriac OT Peshitta by Word Frequency", 0.0, 0, 1393459200, 1665, 0, 1661], [347409403, "Slaby's anatomy w/images", 0.0, 0, 1408924800, 17, 0, 9], [510759035, "Hiszpanski by jankoxik", 0.0, 0, 1401494400, 17, 17, 0], [388553362, "J-Bridge vol.1 S01-L08 vocabulary by Tarek", 0.0, 0, 1390435200, 43, 0, 0], [878078393, "A2. Travelling by plane (Lesson 3)", 0.0, 0, 1423699200, 11, 11, 4], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [227406271, "Kanji p. 50-55 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [249950571, "Kanji p. 40-45 by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [411344612, "Glossary for Mosby's Paramedic", 0.0, 0, 1437696000, 2789, 0, 0], [1488284162, "Kanji p. 46-49 by Tarek", 0.0, 0, 1390435200, 20, 0, 0], [1887378255, "J-Bridge vol.1 S01-L04 vocabulary by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [2047919017, "Kanji p. 16-21 by Tarek", 0.0, 0, 1390521600, 34, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1284899016, "BSHo Obs IUGR, fetal surveillance, small/preterm baby ", 0.0, 0, 1396483200, 30, 0, 0], [4036500628, "IELTS VOCABULARY ENGLISH TO PERSIAN-OXFORD BY KAMRAN FARAJI", 2.0, 2, 1358985600, 4493, 0, 0], [1402847964, "PORT by Bernardo Feitosa", 0.0, 0, 1395187200, 29, 0, 0], [5863628, "hobbys", 0.0, 0, 1398211200, 18, 18, 17], [1609060974, "Fraction/Decimal (by Supernatent)", 0.0, 0, 1360022400, 151, 0, 0], [1390126566, "Project 1 (Czech-English) by Qvasa", 4.2, 5, 1428624000, 634, 0, 0], [638144462, "Easy Spanish Step-by-Step", 5.0, 4, 1429920000, 1152, 1060, 0], [3614346923, "Korean Grammar Sentences by Evita", 4.9, 40, 1454630400, 1959, 1844, 0], [101538968, "Blissymbols by MM", 0.0, 0, 1427587200, 1973, 0, 2041], [3640721565, "OCR Greek AS Word List Produced by Eaton College", 0.0, 0, 1345852800, 782, 0, 0], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [902581425, "J-Bridge vol.1 S01-L12 vocabulary by Tarek", 0.0, 0, 1390435200, 35, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [518149845, "KINE 2049 mid term 2 (by ziwei)", 0.0, 0, 1416787200, 97, 0, 31], [377734551, "Kanji p. 22-27 by Tarek", 0.0, 0, 1390435200, 23, 0, 0], [1463613166, "Easy Spanish Step by Step", 0.0, 0, 1409356800, 693, 0, 0], [129149646, "Pathophysiology - BYU - BIKMAN", 0.0, 0, 1427328000, 22, 0, 7], [1545705273, "J-Bridge vol.1 S01-L07 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [2898911171, "German for Reading Knowledge by Jannach", 0.0, 0, 1345852800, 2243, 0, 0], [1491900759, "Game of Thrones (En-Dt) (by Ambrosius; April 2015)", 4.5, 2, 1430006400, 425, 0, 0], [1463774813, "Baby Phang", 0.0, 0, 1394409600, 11, 0, 1], [1045625989, "Hobbys", 0.0, 0, 1413936000, 59, 59, 61], [3301862686, "Single-malt Scotch whisky by region", 0.0, 0, 1382227200, 89, 0, 0], [849929019, "HEADWAY - Intermediate 3rd edition (Czech-English) by Qvasa", 4.2, 5, 1428624000, 1348, 0, 0], [1108650894, "P\u0159edlo\u017eky-Pr\u00e4positionen tschechisch-deutsch by Wolf", 0.0, 0, 1411603200, 105, 0, 0], [601013022, "Kanji p. 02-09 by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [3323192814, "13240 AC PO Exam notes as Transcribed by AN Cooper", 0.0, 0, 1392076800, 1139, 0, 26], [900736489, "\u0412\u043e\u043f\u0440\u043e\u0441\u044b \u041f\u0414\u0414 2014 (A, B) (by Cujoko)", 0.0, 0, 1413331200, 800, 0, 562], [1930180302, "IELTS,TOEFL  Vocabulary", 3.0, 2, 1357344000, 2316, 0, 0], [45784566, "Chatterbox 2 (Czech-English) by Qvasa", 5.0, 4, 1428624000, 700, 0, 0], [379170858, "POSC by Bernardo Feitosa", 0.0, 0, 1395187200, 89, 0, 0], [395734601, "Guitar Chords With Sound by ReinOwader", 4.0, 1, 1420502400, 319, 319, 0], [379225846, "J-Bridge vol.1 S01-L05 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [186061344, "The Most Common Chinese Radicals by Zhangpengpeng", 0.0, 0, 1408752000, 118, 0, 0], [1064912793, "Rails Tutorial Step by Step", 0.0, 0, 1412812800, 36, 0, 5], [16060238, "Ruby Keywords", 0.0, 0, 1380672000, 28, 0, 0], [874659177, "Notation & Guitar Neck Learning by ReinOwader", 0.0, 0, 1428796800, 84, 0, 0], [87833031, "Ru\u0161tina pro samouky by Qvasa ", 5.0, 5, 1428624000, 2840, 0, 0], [4205426963, "Vocab from the 3 books by N. R. R. Oulton", 0.0, 0, 1355529600, 627, 0, 60], [2132223383, "HEADWAY Upper Intermediate Magyar-Angol - by Nandika", 5.0, 2, 1431820800, 1092, 1081, 4], [3789268318, "Maori by Cali", 0.0, 0, 1358640000, 357, 0, 0], [1434563486, "JS Anki deck by Sivers", 5.0, 2, 1426377600, 351, 0, 0], [1182257644, "Kanji by pict o graphix", 0.0, 0, 1406678400, 81, 0, 136], [1119085080, "J-Bridge vol.1 S01-L09 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [253387486, "J-Bridge vol.1 S02-14 vocabulary by Tarek", 0.0, 0, 1391126400, 52, 0, 0], [875581594, "Japanese words by kanji ", 0.0, 0, 1417910400, 2122, 0, 1], [2042851476, "J-Bridge vol.1 S01-L02 vocabulary by Tarek", 0.0, 0, 1390435200, 36, 0, 0], [2123125255, "Chatterbox 1 (Czech-English) by Qvasa", 5.0, 4, 1428624000, 346, 0, 0], [3338743476, "chinese traditional intermediate by mingrong", 0.0, 0, 1359763200, 5950, 1854, 0], [4207131672, "S\u0142u\u017cby RL - skr\u00f3ty", 0.0, 0, 1357430400, 70, 0, 0], [2862657820, "500 German Theological Vocabulary by Siliakus (and Ziefle)", 3.0, 1, 1345852800, 450, 0, 0], [680377361, "Circle of Fifths - GuitarOS by Fretboard Anatomy", 0.0, 0, 1453766400, 51, 0, 0], [1155004753, "HISTB by Bernardo Feitosa", 0.0, 0, 1395187200, 157, 0, 6], [2069378238, "English to Persian Words by Ali", 0.0, 0, 1421366400, 35, 0, 0], [994693053, "Deutsch: 4000 German Words by Frequency (no audio)", 5.0, 1, 1432425600, 4214, 8, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [4020140781, "OCR Greek AS Word List Produced by Eton College", 0.0, 0, 1363392000, 782, 0, 0], [1336990262, "Komplett deutsche S\u00e4tze! Alles Klar! - by Anna", 0.0, 0, 1422921600, 179, 0, 0], [1013713068, "J-Bridge vol.1 S01-L11 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1638815855, "J-Bridge vol.1 S01-L13 vocabulary by Tarek", 0.0, 0, 1390435200, 52, 0, 0], [157755053, "DIP by Bernardo Feitosa", 0.0, 0, 1395187200, 28, 0, 0], [1930556491, "A1. Lesson 5. Liczby, wiek, kraje", 0.0, 0, 1422662400, 72, 50, 0], [1232651803, "J-Bridge vol.1 S01-L06 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 5.0, 1, 1363392000, 5393, 0, 0], [858641764, "Kanji p. 10-15 by Tarek", 0.0, 0, 1390435200, 33, 0, 0], [1733504599, "Intervals - GuitarOS by Fretboard Anatomy", 0.0, 0, 1422403200, 170, 0, 170], [4157389275, "643 Spanish verbs each followed by 1 example sentence", 4.67, 3, 1431043200, 1187, 0, 1], [1990182595, "Malay for Adults, taught by Yahya Hamid", 5.0, 2, 1448755200, 1757, 0, 0], [1822253716, "1-2-3 Tarot Sentences by Donald Tyson", 0.0, 0, 1423353600, 78, 0, 78]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>By</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

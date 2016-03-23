@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1951512042, "Norwegian Core 100 - Basic words (EN  NO with audio)", 0.0, 0, 1436918400, 202, 109, 116], [737514179, "norske sterke verb - tsjekkisk (norwegian irregular verbs)", 0.0, 0, 1345852800, 139, 0, 0], [1138236995, "Norwegian Church Words", 0.0, 0, 1450828800, 1617, 0, 0], [253810555, "FSI Norwegian 2015", 4.0, 1, 1444867200, 1152, 0, 0], [1075326749, "Algorithmist's Norwegian On The Web with audio", 0.0, 0, 1446163200, 1165, 1166, 0], [1646915080, "Norwegian - russian Elementary 1 \t", 0.0, 0, 1447718400, 117, 0, 0], [648050398, "300+ most common portuguese words - norwegian - portuguese", 0.0, 0, 1448409600, 182, 0, 1], [2094804809, "Algorithmist's Learn Norwegian On The Web with audio ", 2.0, 1, 1446163200, 1420, 1409, 0], [608342050, "CHORWACKI - B2-C1", 0.0, 0, 1444780800, 5656, 0, 0], [1330372651, "Algorithmist's Norwegian Pronouns with Audio", 0.0, 0, 1446940800, 18, 29, 29], [53168656, "Words from Norwegian course at Rosenhof Oslo", 0.0, 0, 1444780800, 10, 0, 0], [1529958967, "Norwegian Sentences with Audio", 4.82, 11, 1345852800, 2312, 2312, 0], [281628775, "Norwegian with Audio", 5.0, 1, 1399507200, 8886, 6585, 0], [1611742362, "Norwegian Quick & Dirty 30 (EN  NO)", 0.0, 0, 1445731200, 60, 38, 45], [1910551518, "German Grammar test. Norwegian-German", 0.0, 0, 1443052800, 0, 0, 0], [97481091, "Tysk gloset Weitblick kapitel 1 German-Norwegian", 0.0, 0, 1443052800, 130, 0, 0], [1529369157, "Sterke verb - Norwegian irregular verbs", 0.0, 0, 1345852800, 70, 0, 0], [2089536949, "lextra_norwegisch6", 0.0, 0, 1408924800, 85, 0, 0], [1763679541, "lextra_norwegisch7", 0.0, 0, 1408924800, 83, 0, 0], [730776837, "lextra_norwegisch3", 0.0, 0, 1408752000, 86, 0, 0], [438954265, "Norwegian Feminine Nouns", 0.0, 0, 1436227200, 56, 0, 0], [269574896, "Norwegian Idiomatic Prepositional Phrases using 'Av'", 0.0, 0, 1435622400, 40, 0, 0], [215294712, "tross alt - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395360000, 29, 58, 0], [1062947887, "Maradonas magi - Kappitel 1 (Norwegian)", 0.0, 0, 1435536000, 52, 0, 0], [256313490, "heller - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [789578797, "henne, hennes - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385337600, 29, 58, 0], [1091467274, "Hangzhouhua - Norwegian deck (\u676d\u5dde\u8bdd - \u632a\u5a01\u8bed)", 5.0, 1, 1391644800, 16, 31, 0], [988266460, "jobbintervjuet - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [308810734, "basic Norwegian verbs", 0.0, 0, 1390867200, 0, 0, 0], [3563947295, "vel (part 1) - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 29, 58, 0], [187109677, "lextra_norwegisch5", 0.0, 0, 1408924800, 81, 0, 0], [1384551168, "lextra_norwegisch8", 0.0, 0, 1408924800, 86, 0, 0], [891239743, "\u00e5 kjenne - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385769600, 28, 54, 0], [973582349, "disse - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395273600, 30, 60, 0], [1757269560, "lextra_norwegisch1", 0.0, 0, 1408752000, 94, 0, 0], [1687066301, "Counties of Norway", 3.0, 2, 1388361600, 20, 0, 22], [1501225873, "lextra_norwegisch9", 0.0, 0, 1408924800, 86, 0, 0], [824729346, "Borwin - Ge - Br\u00fc - 1815-1871 und Industrielle Revolution", 0.0, 0, 1426377600, 62, 0, 0], [523153197, "wichtige norwegische verben", 0.0, 0, 1408924800, 125, 0, 0], [1699898647, "lextra_norwegisch2", 0.0, 0, 1408752000, 76, 0, 0], [162017545, "Norwegian", 0.0, 0, 1426377600, 2971, 0, 0], [289924078, "lextra_norwegisch4", 0.0, 0, 1408752000, 66, 0, 0], [2663031286, "hittil - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 29, 58, 0], [399987235, "\u00e5 f\u00e5 (part 2) - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1396396800, 31, 62, 0], [1101296907, "aktuell, aktuelt - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 25, 50, 0], [1660333806, "German FSI Vocab Forward and Reverse", 5.0, 1, 1428624000, 3302, 1, 0], [1946942769, "Norweski PL-NO (Editta)", 0.0, 0, 1345852800, 1399, 0, 0], [1060534595, "begge deler - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395532800, 28, 56, 0], [516258955, "sin si sitt sine - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1399248000, 27, 54, 0], [2009534374, "vel (part 2) - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [1296710848, "som om - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [1591875718, "\u00e5 f\u00e5 (part 1) - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395446400, 30, 60, 0], [397596705, "Hangzhouhua - Norwegian deck (\u676d\u5dde\u8bdd - \u632a\u5a01\u8bed)", 0.0, 0, 1384992000, 16, 31, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Orw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[791404065, "EE Formulierungen II", 0.0, 0, 1454803200, 26, 0, 0], [836451434, "EE Formulierungen I", 0.0, 0, 1454803200, 22, 0, 0], [70031263, "Morphological Families for Two-Kanji Compounds", 5.0, 2, 1431388800, 19638, 0, 0], [1943613633, "Vocabulaire - Cours de Japonais par Julien Fontanier", 0.0, 0, 1454544000, 163, 3, 45], [136521280, "SM30 - Grandpa's Follies", 0.0, 0, 1454371200, 28, 0, 0], [364245113, "DAW Entorno cliente", 0.0, 0, 1453939200, 82, 0, 1], [776247798, "Vocabulaire de base Italien (pr\u00e9pa)", 0.0, 0, 1452988800, 167, 0, 0], [1374527835, "SIAM Supplier Integration and Management", 0.0, 0, 1453939200, 4, 0, 0], [1751525754, "Deutsch - Russisch (Vokabular eines beliebten Lehrbuchs)", 0.0, 0, 1453766400, 826, 0, 3], [1448814626, "SM18 - Dangerous Dollies", 0.0, 0, 1452816000, 24, 0, 0], [1757464456, "Italienisch-Deutsch Vokabeln", 0.0, 0, 1447372800, 885, 5, 1], [624421632, "sopica assistance hospitaliere", 0.0, 0, 1453248000, 9, 0, 0], [700205096, "Anglais - Verbes irr\u00e9guliers - 5e - 76 verbes", 0.0, 0, 1453161600, 76, 0, 0], [1086465743, "Amelie - French - Russian", 5.0, 1, 1373241600, 756, 0, 0], [1590750558, "julien deck dico francais arabe", 0.0, 0, 1454198400, 4577, 0, 0], [114365336, "Verbes irr\u00e9guliers en Anglais (+ traduction fr)", 4.0, 1, 1441929600, 122, 0, 0], [1408519942, "Verbes irr\u00e9guliers en anglais (162) + leurs prononciations", 4.5, 2, 1448150400, 162, 163, 3], [1030072942, "Kalbame lietuvi\u0161kai - 2015 (1)", 0.0, 0, 1445472000, 47, 0, 0], [1509809217, "Vocabulaire Italien - Cours univ. permanente A1", 0.0, 0, 1454544000, 1352, 0, 9], [261816158, "Italienisch040890", 0.0, 0, 1444608000, 3, 0, 0], [370626182, "Core Concepts of ESFT Understanding Families", 0.0, 0, 1442880000, 29, 0, 0], [1320724950, "Wylie transliteration cards", 0.0, 0, 1438041600, 34, 0, 0], [1625440004, "L'immobillier", 0.0, 0, 1412812800, 399, 0, 15], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [3840210803, "Familie", 0.0, 0, 1383955200, 25, 0, 0], [441989196, "Fossilien Uni T\u00fcbingen", 0.0, 0, 1425513600, 45, 0, 0], [545938803, "liens familiaux en mandarin", 0.0, 0, 1436659200, 13, 14, 1], [4221653766, "charlie", 0.0, 0, 1368403200, 331, 0, 44], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1189084931, "Arquitetura cliente-servidor", 0.0, 0, 1437696000, 8, 0, 0], [1703120627, "Bl\u00fcmo Familien TU BS SS14", 0.0, 0, 1404864000, 34, 0, 64], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [2135560089, "GlyphStudy Collier&Manley Chapter 5 - Vocabulary", 0.0, 0, 1345852800, 46, 0, 92], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [2094185308, "Verbe irregulier anglais fran\u00e7ais", 0.0, 0, 1432598400, 125, 7, 3], [1150212643, "Familie", 0.0, 0, 1413244800, 72, 0, 0], [355089338, "AQA GCSE Chemistry Unit 3 (Applied): Higher Tier", 0.0, 0, 1409529600, 213, 0, 8], [4266220010, "Charlie's Numbers", 0.0, 0, 1351209600, 11, 0, 0], [997975627, "GlyphStudy Collier&Manley Chapter 8 - Exercise", 0.0, 0, 1345852800, 75, 0, 150], [11942959, "1000 K\u00e9rd\u00e9s 1.1 Familie", 0.0, 0, 1422662400, 330, 0, 0], [1417197028, "Meine Familie", 0.0, 0, 1416009600, 58, 58, 58], [2021268026, "Instruments and Supplies", 0.0, 0, 1430524800, 167, 0, 166], [122172752, "CONSILIENCE 071714", 0.0, 0, 1414972800, 3440, 0, 0], [1804545092, "A2 UM Folien B", 0.0, 0, 1413849600, 12, 0, 3], [205344329, "GlyphStudy Collier&Manley Chapter 4 - Exercise", 0.0, 0, 1345852800, 71, 0, 142], [314943552, "die Familie", 0.0, 0, 1410220800, 88, 0, 0], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [1201322335, "GlyphStudy Collier&Manley Chapter 6 - Exercise", 0.0, 0, 1345852800, 82, 0, 164], [1995270134, "Italienisch f\u00fcr Anf\u00e4nger, italien pour d\u00e9butants", 0.0, 0, 1431302400, 183, 0, 1], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1550271225, "Lietuvi\u0173-pranc\u016bz\u0173 Lituanien-fran\u00e7ais Lithuanian-French LT-FR", 1.0, 1, 1365120000, 3932, 0, 0], [891483251, "Lietuvi\u0173-ispan\u0173, ispan\u0173-lietuvi\u0173", 0.0, 0, 1444348800, 1178, 0, 0], [1066682529, "Telling lies", 0.0, 0, 1426032000, 9, 0, 0], [1844094383, "verbes irr\u00e9guliers allemands", 0.0, 0, 1403308800, 127, 0, 0], [1853280182, "Spanish Words - course in Sliema", 0.0, 0, 1414022400, 135, 0, 0], [1848798738, "GlyphStudy Collier&Manley Chapter 4 - Vocabulary", 0.0, 0, 1345852800, 24, 0, 48], [191778428, "Study for Court of Master Sommeliers Level 1 Exam", 5.0, 1, 1423872000, 337, 0, 0], [2852042313, "Med Chem 3 Final Ilies Oncology Study Set", 0.0, 0, 1354924800, 142, 0, 0], [1564168149, "GlyphStudy Collier&Manley Chapter 7 - Exercise", 0.0, 0, 1345852800, 61, 0, 122], [3315859020, "GlyphStudy Collier&Manley Chapter 8 - Vocabulary", 0.0, 0, 1345852800, 76, 0, 152], [2375869398, "FOKUS - FAMILIE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [3580487384, "GlyphStudy Collier&Manley Chapter 5 - Exercise", 0.0, 0, 1345852800, 88, 0, 176], [3158098502, "Logic, Probability, and Applied Epistemology", 0.0, 0, 1345852800, 224, 0, 0], [1373113891, "Temperament and Resilience", 0.0, 0, 1428969600, 36, 0, 0], [3643348538, "Jonny and Julie's SOAS Korean 1st year", 0.0, 0, 1347062400, 3458, 0, 0], [1098875372, "Meine Familie II", 0.0, 0, 1398384000, 21, 21, 21], [356217341, "Applied Anatomy and Physiology for Manual Therapists", 0.0, 0, 1404172800, 1018, 0, 150], [2222581120, "Deutsche S\u00e4tze f\u00fcr Italiener / Frasi in tedesco per italiani", 0.0, 0, 1364860800, 4046, 0, 0], [3275911238, "Meithai - Familie und Verwandtschaft", 0.0, 0, 1383782400, 145, 0, 0], [12370898, "Vocab Italien Fran\u00e7ais Base", 0.0, 0, 1345852800, 180, 0, 0], [639746089, "GlyphStudy Collier&Manley Chapter 6 - Vocabulary", 0.0, 0, 1345852800, 18, 0, 36], [1704261859, "SUR 122 Instruments and Supplies", 0.0, 0, 1430784000, 175, 0, 175], [1275823209, "8 Basal ganglier og cerebellum", 0.0, 0, 1414627200, 22, 0, 27], [4005945346, "GlyphStudy Collier&Manley Chapter 7 - Vocabulary", 0.0, 0, 1345852800, 92, 0, 184], [2188974401, "Consilience 07142014", 0.0, 0, 1405382400, 4132, 0, 0], [1480058180, "Deutsch-Italienisch NPI1 Unit\u00e0 introduttiva", 0.0, 0, 1400025600, 112, 0, 0], [1916065590, "Zwanzig weniger eins - 1. Familie", 0.0, 0, 1373760000, 254, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lie</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

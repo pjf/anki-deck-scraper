@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[4747191, "english for loui", 5.0, 1, 1451779200, 170, 13, 0], [201049166, "Cloud Computing", 0.0, 0, 1452470400, 56, 0, 2], [1226045171, "Louis XIV", 0.0, 0, 1450224000, 20, 0, 0], [629972372, "French 500 coloured words with pictures and audio", 4.88, 8, 1433203200, 491, 480, 487], [699994759, "Louvre sculptures grecques salles 13 14 15", 0.0, 0, 1445644800, 38, 0, 42], [420701102, "Japanese Colours", 0.0, 0, 1408838400, 11, 11, 22], [655607936, "Neuro - Louai__Block 4_Laskowski", 0.0, 0, 1437264000, 112, 0, 49], [1010224212, "CloudComputing Tai AIFB KIT", 0.0, 0, 1392508800, 172, 0, 20], [754850603, "Neuro - Louai__Block 2_Laskowski", 0.0, 0, 1433548800, 235, 0, 146], [1481797526, "UQ MBBS 1 PBL 10 Vincent is off Colour", 0.0, 0, 1395532800, 64, 0, 6], [898656837, "Taloustieteen oppihistoria", 0.0, 0, 1414713600, 209, 0, 0], [1471236424, "Neuro - Louai__Block 3_Laskowski", 0.0, 0, 1445644800, 298, 0, 210], [348774256, "Glasgow Medicine MBChB5 Specialties (Joseph Colclough) ", 0.0, 0, 1421625600, 828, 0, 154], [1781485751, "A2 Chemistry Unit 5 Coloured Ions", 0.0, 0, 1389571200, 6, 0, 0], [1769078374, "I listen to colour", 0.0, 0, 1426032000, 8, 0, 0], [347852514, "MBChB4 Finals surgery and medicine update-Joseph Colclough", 0.0, 0, 1423785600, 882, 0, 73], [746658177, "QX callouts", 0.0, 0, 1411430400, 43, 0, 0], [872399094, "Louison Anglais", 0.0, 0, 1445385600, 714, 0, 0], [596235315, "Glasgow Intercal notes complete (Joseph Colclough) ", 0.0, 0, 1396137600, 629, 0, 69], [1420803268, "Marathi - colours", 0.0, 0, 1403654400, 19, 0, 0], [1915502510, "Neugriechisch -  Maria Christmann-Petropoulou ", 4.0, 1, 1402617600, 536, 520, 191]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lou</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

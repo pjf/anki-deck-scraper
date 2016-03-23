@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[510492037, "Osteoporosis Drugs MSK Exam 1", 0.0, 0, 1452643200, 38, 0, 0], [308482818, "INTRODUCCI\u00d3N A LA TEOLOG\u00cdA Y AL M\u00c9TODO TEOL\u00d3GICO", 0.0, 0, 1449619200, 145, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [1209854733, "Introducci\u00f3n al m\u00e9todo teol\u00f3gico ", 0.0, 0, 1449619200, 14, 0, 0], [1750151939, "introducci\u00f3n al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449532800, 113, 0, 0], [1945122056, "Teologia Fundamental", 0.0, 0, 1449705600, 143, 0, 0], [364571018, "B\u00edblia - 2 Tim\u00f3teo", 0.0, 0, 1451260800, 83, 0, 0], [1274791027, "TEOLOG\u00cdA FUNDAMENTAL, SORIANO", 0.0, 0, 1449705600, 138, 0, 0], [8370437, "Teolog\u00eda Fundamental (Lalo)", 0.0, 0, 1449705600, 135, 0, 0], [100543929, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 119, 0, 0], [594837003, "Teologia fundamental-FARIAS", 0.0, 0, 1449619200, 111, 0, 0], [550655679, "M\u00e9todo Teol\u00f3gico", 0.0, 0, 1449532800, 102, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [513384214, "TEOLOG\u00cdA FUNDAMENTAL (Rens)", 0.0, 0, 1449705600, 160, 0, 0], [208851277, "Teolog\u00eda Fundamental", 0.0, 0, 1449619200, 102, 0, 0], [1596050101, "Introduccion al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449619200, 132, 0, 0], [1681356233, "Curso de Teolog\u00eda Fundamental I", 0.0, 0, 1449532800, 48, 0, 0], [1760549466, "Curso de Teolog\u00eda Fundamental I", 0.0, 0, 1449532800, 141, 0, 0], [861498706, "TEOLOGIA FUNDAMENTAL", 0.0, 0, 1449705600, 73, 0, 0], [1213414736, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 134, 0, 0], [315680461, "osteologia bez czaszki", 0.0, 0, 1434499200, 506, 0, 0], [308486891, "Natural Science: Meteorology, Oceanography and Hydrology", 0.0, 0, 1440460800, 139, 0, 0], [66242386, "TEOG 2. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 90, 85, 0], [2063952661, "TEOG 6. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 536, 473, 0], [2871278994, "CMS 4 - Osteoporosis (Ryan's)", 0.0, 0, 1345852800, 19, 0, 3], [1602814577, "TEOG 2015 UN\u0130T 5-11", 0.0, 0, 1427241600, 814, 743, 0], [1000551308, "Anatomy - Cranial Osteology", 0.0, 0, 1386460800, 86, 0, 76], [3756847175, "Informatica Teorica UniBG", 0.0, 0, 1367884800, 155, 0, 9], [542142986, "TEOG 7. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1389225600, 346, 0, 0], [1894427810, "(FJFI, CZE) Teorie Kodovani (Mares 2015)", 0.0, 0, 1433030400, 82, 0, 157], [1367774234, "KW-TEOIC-words", 0.0, 0, 1411776000, 123, 37, 0], [1477178908, "TEOG 8. S\u0131n\u0131f \u0130ngilizce", 0.0, 0, 1388793600, 506, 98, 0], [2101591248, "osteology block2", 0.0, 0, 1387238400, 22, 0, 26], [444363831, "Rheumatology Osteoarthritis", 0.0, 0, 1422835200, 57, 0, 1], [102251019, "Anatomy - Joints and Osteology - Upper Limb", 0.0, 0, 1387065600, 58, 0, 89], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [1614998227, "TEOG 4. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1388966400, 166, 0, 0], [3804213261, "Osteopathy chap1", 0.0, 0, 1345852800, 36, 0, 0], [1609494797, "Izpit_voditelj_colna-5del-METEOROLOGIJA ", 0.0, 0, 1414281600, 21, 0, 1], [1825938659, "Anatomy - Vertebral Joints and Osteology", 0.0, 0, 1386633600, 39, 0, 54], [1197175935, "Osteo - Plop", 0.0, 0, 1345852800, 2, 0, 0], [1640172905, "Osteopathy chap2", 0.0, 0, 1345852800, 58, 0, 0], [818166000, "Anatomy - Joints and Osteology - Pelvis and Hip Joint", 0.0, 0, 1387324800, 33, 0, 28], [1158313769, "Anatomy - Joints and Osteology - Lower Limb", 0.0, 0, 1387497600, 35, 0, 73]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Teo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

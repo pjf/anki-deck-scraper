@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1970824522, "Verben zum Tagesablauf lernen", 0.0, 0, 1449100800, 14, 0, 0], [1861211878, "Esame Fisica 1 (In aggiornamento)", 0.0, 0, 1445990400, 23, 0, 35], [1585112771, "LinguaPortuguesa", 0.0, 0, 1446595200, 10, 0, 0], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 0.0, 0, 1445472000, 14, 0, 0], [1551944070, "Escrita Japonesa", 0.0, 0, 1442966400, 57, 0, 0], [1558444186, "Presupuesto Empresarial OyM", 0.0, 0, 1445558400, 20, 0, 0], [16983990, "Matematik, esaars", 0.0, 0, 1418947200, 272, 0, 381], [1230635908, "Nihongo Somatome N3 vocabulario_esa\u00f1ol(quetzalli)", 0.0, 0, 1382745600, 1397, 0, 0], [997012637, "Hist\u00f3ria e Cultura Portuguesa", 0.0, 0, 1391040000, 7, 0, 1], [1090394765, "Domande per esame patente nautica oltre 12 miglia", 0.0, 0, 1362355200, 533, 0, 86], [3663741503, "Psicolog\u00eda del Desarrollo I", 0.0, 0, 1388361600, 610, 0, 0], [3582358191, "A mesa puesta", 0.0, 0, 1350777600, 94, 0, 0], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [606333793, "\u010de\u0161tina \u010desk\u00fd humanismus a renesace", 0.0, 0, 1412380800, 5, 0, 0], [2297332991, "\u200c\u0905\u092e\u0930\u0915\u094b\u0936\u0903 \u0938\u094d\u0935\u0930\u094d\u0917\u0928\u0930\u0915\u0938\u0942\u091a\u093f\u0903 (Amarakosha Sanskrit thesaurus)", 0.0, 0, 1368403200, 705, 0, 0], [1694513283, "IOC-Empresa i Iniciativa Emprenedora-Unitat 2", 0.0, 0, 1357430400, 56, 0, 0], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [795800357, "IOC-Empresa i Iniciativa Emprenedora-Unitat 1", 0.0, 0, 1357430400, 32, 0, 0], [1971047725, "KESA EMT Medical Terminology", 3.0, 1, 1351123200, 225, 0, 0], [1413567210, "JAKUB slovesa se spojkami", 0.0, 0, 1423785600, 20, 0, 0], [2914457889, "Private deck for Teresa & me", 0.0, 0, 1345852800, 183, 0, 0], [2043413582, "AAA Cultura Portuguesa", 0.0, 0, 1395792000, 7, 0, 1], [1611891644, "Euskara-Frantsesa lexikoa , Lexique Basque - Francais", 0.0, 0, 1431907200, 523, 0, 0], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [2724741871, "IOC-Empresa i Iniciativa Emprenedora-Unitat 3", 0.0, 0, 1357430400, 71, 0, 0], [687240771, "MESA midterm", 0.0, 0, 1425513600, 46, 0, 0], [3690720131, "Glosario Economia de la Empresa", 0.0, 0, 1345852800, 64, 0, 0], [2057483946, "N\u011bmeck\u00e1 nepravideln\u00e1 slovesa", 0.0, 0, 1430179200, 292, 0, 0], [1263846556, "Direito Empresarial", 0.0, 0, 1413244800, 32, 0, 0], [1330356704, "Klinische Chemie TU M\u00fcnchen gesamt", 0.0, 0, 1412899200, 286, 2, 5]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Esa</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

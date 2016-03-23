@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[145405837, "Strategy and international business", 0.0, 0, 1454889600, 33, 0, 0], [1374527835, "SIAM Supplier Integration and Management", 0.0, 0, 1453939200, 4, 0, 0], [1775803239, "Deutsch: Over 1000 Travel German Phrases in Categories", 5.0, 1, 1430611200, 1704, 47, 5], [780286455, "integrated chinese chapter 2 vocab", 0.0, 0, 1453766400, 17, 0, 0], [187884353, "Categorical Syllogisms", 0.0, 0, 1395273600, 24, 0, 24], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [589330498, "An Integrated Approach to Japanese, Full Vocab", 5.0, 1, 1451606400, 1658, 0, 0], [794286705, "\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f 1 \u0443\u0440\u043e\u043a\u0430 An Integrated Approach to Intermediate Jap", 0.0, 0, 1449792000, 17, 3, 35], [212652989, "formule integrale si derivate", 0.0, 0, 1449619200, 38, 17, 77], [1594511998, "An Integrated Approach to Intermediate Japanese - Chapter 3", 0.0, 0, 1448928000, 81, 0, 0], [1672052461, "An Integrated Approach to Intermediate Japanese - Chapter 4", 0.0, 0, 1449014400, 83, 0, 0], [1709183482, "Integrated Chinese Vocabulary", 5.0, 1, 1360108800, 271, 0, 0], [196511944, "\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f 6 \u0443\u0440\u043e\u043a\u0430 An Integrated Approach to Intermediate Jap", 0.0, 0, 1449792000, 29, 3, 35], [1106309452, "Endocrine and Integument ANAT D502", 0.0, 0, 1449705600, 311, 0, 3], [320504689, "Writing Strategies", 0.0, 0, 1442707200, 9, 6, 0], [239766621, "Anatomy ch. 5 integument", 0.0, 0, 1443830400, 39, 0, 0], [702468843, "Division of integers 1-12", 0.0, 0, 1441497600, 90, 0, 0], [1130110834, "Tabla de integrales inmediatas y derivadas", 0.0, 0, 1442188800, 37, 0, 74], [1599460154, "Peds Integumentary Chapter 47", 0.0, 0, 1441756800, 76, 0, 0], [396165861, "Integrated Chinese Level 1 Part 1 L4D1V", 0.0, 0, 1362096000, 28, 0, 0], [1276473010, "Integrated Chinese Level 1 Part 1 L4D1P", 0.0, 0, 1362096000, 13, 0, 0], [443471974, "ROWAN SOM BIOCHEM BLOCK 3 LECTURE 1 METABOLISM INTEGRATION", 0.0, 0, 1412467200, 55, 0, 3], [1950233242, "Integrated Chinese Level 1 Part 1 L4D2P", 0.0, 0, 1362614400, 11, 0, 0], [1215014921, "ACT Math Tips & Strategies", 0.0, 0, 1433548800, 11, 0, 1], [703333049, "Integrated Chinese Level 1 Part 1 L1D2P", 0.0, 0, 1361059200, 6, 0, 0], [1505237629, "DSRI Unit 5  Inference for Categorical Variables", 5.0, 1, 1415145600, 22, 0, 9], [862151568, "Integrated Chinese Level 1 Part 1 L3D2P", 0.0, 0, 1361923200, 15, 0, 0], [458904025, "Integumentary lecture", 0.0, 0, 1411689600, 51, 0, 0], [655985817, "patent law cases statutory categories patentable matter 101", 0.0, 0, 1437609600, 53, 0, 0], [1749843677, "Integrated Chinese Level 1 Part 1 L5D2P", 0.0, 0, 1364083200, 8, 0, 0], [2092253049, "A2 German AQA words (Einwanderung+Integration)", 0.0, 0, 1412899200, 77, 0, 0], [873414385, "SAMS 15-01 - Strategic Context and Operational Art (SCOA)", 0.0, 0, 1432166400, 322, 0, 31], [3825136515, "Integrated Chinese Level 1 Part 1 L4D2V", 0.0, 0, 1362614400, 15, 0, 0], [830393012, "Integrations CS", 0.0, 0, 1387238400, 20, 0, 36], [1933774998, "Integrated Chinese Level 1 Part 1 L1D2V", 0.0, 0, 1361059200, 12, 0, 0], [3020795849, "Derecho de integracion Pat", 0.0, 0, 1385596800, 55, 0, 0], [129928431, "Integrated Physiology", 0.0, 0, 1420243200, 186, 0, 95], [3722961319, "Integrated Chinese L1P2L16D1", 0.0, 0, 1380067200, 10, 0, 0], [4067791923, "Integrated Chinese Level 1 Part 1 L5D1V", 0.0, 0, 1364083200, 26, 0, 0], [1559426192, "Strategisches Management TU Clausthal", 0.0, 0, 1410825600, 433, 0, 50], [613100555, "Broad Categories of Skin Lesions", 0.0, 0, 1402617600, 23, 0, 44], [1705158496, "Integrated Chinese Level 1 Part 1 L2D2V", 0.0, 0, 1361232000, 19, 0, 0], [2673986298, "Integrated Chinese Level 1 Part 1 L3D2V", 0.0, 0, 1361923200, 15, 0, 0], [3042377216, " Integrated Chinese Level 1 Part 1 L2D1V", 0.0, 0, 1361059200, 21, 0, 0], [821970571, "integrale", 0.0, 0, 1419292800, 47, 0, 3], [1261698721, "Integrated Chinese Level 1 Part 1 L5D2V", 0.0, 0, 1364083200, 7, 0, 0], [2084726437, "Integrated Chinese Level 1 Part 1 L3D1P", 0.0, 0, 1361491200, 30, 0, 0], [2838481226, "Integrated Chinese L18D1V", 0.0, 0, 1381881600, 11, 0, 0], [1626762357, "Integrated Chinese Level 1 (3ed) with pinyin -> character", 0.0, 0, 1381795200, 941, 0, 0], [3880610585, "PITPAK Mathe Kapitel 4. Integral", 0.0, 0, 1345852800, 10, 0, 0], [3824794207, "Integrated Chinese L1P2L18D1+", 0.0, 0, 1381881600, 35, 0, 0], [2621774113, "cvo-db-1-Spaanse werkwoorden - tegenwoordige tijd", 0.0, 0, 1363478400, 41, 0, 0], [1739809735, "Examen Auto categoria B 2014", 0.0, 0, 1426636800, 1164, 0, 371], [3562578471, "Integrated Chinese Level 1 Part 1 L1_to_L5_Review", 0.0, 0, 1364083200, 8, 0, 0], [1885081400, "Stochastische Integration und Finanzmathematik", 0.0, 0, 1418342400, 255, 0, 303], [3807742358, "Integrated Chinese Level 1 Part 1 L2D1P", 0.0, 0, 1361059200, 5, 0, 0], [1593472457, "Integrated Chinese Level 1 Part 1 L3D1P", 0.0, 0, 1361491200, 11, 0, 0], [1337968749, "block 2 integument", 0.0, 0, 1414281600, 59, 0, 0], [3210390911, "Blackjack basic strategy", 0.0, 0, 1360454400, 320, 0, 0], [3951979740, "Integrated Chinese Level 1 Part 1 L2D2P", 0.0, 0, 1361232000, 6, 0, 0], [690247199, "Integrated Chinese Level 2 Part 1 Vocabulary", 0.0, 0, 1370390400, 82, 0, 0], [2387677511, "Integrated Chinese Level 1 Part 1 L5D1P", 0.0, 0, 1364083200, 17, 0, 0], [919606883, "Integrated Chinese, 3rd Edition (Level 2)", 5.0, 2, 1386547200, 839, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Teg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

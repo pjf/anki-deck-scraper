@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1624720400, "ESL-053-Reading1-Vocab", 5.0, 1, 1453766400, 15, 1, 1], [1077842299, "Business Vocabulary - English", 0.0, 0, 1448582400, 21, 21, 0], [2039090378, "Eitel- Business/academic English idioms", 0.0, 0, 1444262400, 125, 0, 0], [1554243755, "Wesleyan Social Psychology lectures 16-20", 0.0, 0, 1400112000, 112, 0, 0], [1522316540, "Photo description \u65e5\u672c\u8a9e<->\u82f1\u8a9e", 0.0, 0, 1382400000, 16, 0, 0], [1342339439, "TOEIC for MSCS ESL1", 0.0, 0, 1398729600, 139, 0, 0], [755726751, "eslovaco castellano vocabulario 1000", 0.0, 0, 1437696000, 823, 0, 0], [2191004342, "StudentCafe Comunity on Google+", 0.0, 0, 1362441600, 17, 0, 0], [862350585, "5212 essential words for ESL", 0.0, 0, 1427241600, 6910, 0, 0], [2084402966, "BC English Advanced Level 8", 0.0, 0, 1383004800, 98, 97, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [3136532859, "Deutsche Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 16, 0, 0], [385718711, "Deutsche Bundesl\u00e4nder - Federal States of Germany", 4.67, 6, 1358553600, 16, 0, 0], [375104279, "myEnglish02", 0.0, 0, 1345852800, 596, 0, 99]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Esl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

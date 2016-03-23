@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3837585903, "Zertifikat Deutsch - B1, p\u00e9ld\u00e1kkal -- n\u00e9met-magyar", 4.75, 4, 1378425600, 3539, 0, 0], [2263258759, "Countries of the World", 4.44, 18, 1416009600, 204, 0, 407], [1794956578, "Edible weeds and wild herb identification", 5.0, 1, 1417478400, 280, 0, 271], [2915332392, "[VectorMaps] Countries of the World", 4.68, 31, 1368835200, 194, 0, 388], [6517124, "La Rochefoucauld's Maxims (French-English)", 0.0, 0, 1427500800, 504, 5, 0], [1597132160, "Cyborg world", 0.0, 0, 1453939200, 14, 14, 8], [587147604, "Household Objects: Pictures to English and Japanese", 5.0, 1, 1396569600, 108, 0, 1], [32583162, "child health for charlotte", 0.0, 0, 1452816000, 62, 0, 0], [1987414799, "Firstaid/Uworld pharmacology", 0.0, 0, 1453507200, 305, 0, 157], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [799622335, "One World English Textbook Grammar \u4e2d\u5b66\u6821\uff11\u304b\u3089\uff13\u5e74\u751f\u306e\u82f1\u8a9e\u306e\u6587\u6cd5", 5.0, 1, 1415059200, 108, 0, 0], [1829276931, "BaldyBunch Dani Afr Week1", 0.0, 0, 1454025600, 52, 52, 0], [102146203, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 2", 0.0, 0, 1453680000, 43, 0, 0], [1833052782, "B\u00f3khald og skattskil", 0.0, 0, 1453507200, 20, 0, 0], [885239367, "matylda", 0.0, 0, 1453248000, 11, 19, 14], [895633892, "CP2  child health ", 0.0, 0, 1454284800, 58, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [539849601, "we are the world", 0.0, 0, 1451260800, 9, 0, 0], [1689009828, "Eucarist\u00eda (Gustavo Balderas Soto)", 0.0, 0, 1449705600, 87, 0, 0], [282238661, "Eucarist\u00eda (Gustavo Balderas Soto)", 0.0, 0, 1449705600, 13, 0, 0], [631842259, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 1", 5.0, 1, 1448236800, 95, 0, 0], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 0.0, 0, 1447286400, 108, 0, 78], [1623872446, " English for children", 0.0, 0, 1445040000, 7, 14, 5], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [2104842713, "Held GLC", 0.0, 0, 1448582400, 12, 1, 0], [270217324, "High yield English-Italian vocab", 0.0, 0, 1438041600, 1259, 3, 1], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [687887799, "DLDECK", 0.0, 0, 1446681600, 67, 44, 38], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [787218078, "Deck para estudar urologia na faculdade de medicina.", 0.0, 0, 1445817600, 11, 0, 0], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [1009076816, "Cities of the World", 0.0, 0, 1439942400, 100, 0, 0], [818334815, "DLDECK2", 0.0, 0, 1446681600, 221, 397, 0], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [786177469, "DLDECK3", 0.0, 0, 1446681600, 602, 627, 710], [1662596327, "Gold-Unit2 (food)", 0.0, 0, 1444262400, 72, 0, 0], [1964836737, "HighYield Exam3", 0.0, 0, 1443571200, 77, 0, 5], [1381407630, "Aeusseres Erscheinungsbild (English to German)", 0.0, 0, 1443484800, 20, 0, 0], [1361700302, "High-yield English-Spanish connectors", 0.0, 0, 1438041600, 91, 3, 1], [1265839292, "\u00c4usseres Erscheinungsbild (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [2097795866, "USask PHPM - Early Childhood Development", 0.0, 0, 1443484800, 43, 0, 4], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [1671772629, "uworldqbank medicine", 0.0, 0, 1440979200, 1111, 0, 6], [347480564, "Leading hotel of the world", 0.0, 0, 1441497600, 9, 0, 9], [977368449, "Peds Assessment of Child and Family Chp 29", 0.0, 0, 1441756800, 37, 0, 0], [27841478, "Bhuuworldgi", 0.0, 0, 1438992000, 373, 0, 0], [1271643379, "\u00c4usseres Erscheinungsbild", 0.0, 0, 1442793600, 20, 0, 0], [801457026, "Old English Vocabulary", 0.0, 0, 1441065600, 166, 0, 0], [1150950870, "Muscles of the Shoulder, Brachial Plexus", 0.0, 0, 1441497600, 49, 0, 61], [441308857, "Shoulder", 0.0, 0, 1443571200, 15, 0, 0], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [2080576766, "Protein Synthesis, Folding, + Degradation", 0.0, 0, 1439942400, 36, 0, 0], [2025053178, "\u00c4usseres Erscheinungsbild (German to English)", 0.0, 0, 1444176000, 20, 0, 0], [537296649, "Stuff Kids Should Know - 1", 0.0, 0, 1421020800, 118, 0, 0], [1857819914, "Aeusseres Erscheinungsbild (German to English)", 0.0, 0, 1443484800, 20, 0, 0], [1733689599, "renal uworld", 0.0, 0, 1439942400, 203, 0, 0], [615841914, "Walldurn JB 2015", 0.0, 0, 1442361600, 840, 0, 0], [796385110, "Algorithmist's Kalderash Romani  Numbers 1 to 10", 0.0, 0, 1444089600, 10, 29, 31], [307563880, "Old English Vocabulary List Lessons 1 to 3", 0.0, 0, 1442275200, 22, 0, 0], [1928388055, "Bhupulmuworld", 0.0, 0, 1438732800, 135, 0, 0], [569168669, "trgova\u010dko pravo zagreb gold\u0161tajn knjiga", 0.0, 0, 1442361600, 40, 0, 0], [1094736228, "High yield English-Italian connectors", 0.0, 0, 1438041600, 91, 3, 1], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [83199440, "EJR child ACA", 0.0, 0, 1428796800, 205, 0, 0], [371462976, "Bewegte Zeiten - Bewegte Bilder", 0.0, 0, 1434585600, 81, 2, 136], [618052218, "Anatomy Terms: Shoulder Girdle + Proximal Humerus", 0.0, 0, 1437004800, 41, 0, 0], [1061435538, "endocrineuworldbhu", 0.0, 0, 1439164800, 162, 0, 0], [3109551834, "WorldFlags", 4.79, 14, 1345852800, 204, 0, 204], [1462431226, "bhuGIUWORLD", 0.0, 0, 1439078400, 248, 0, 0], [1313090174, "Matches for World Cup Brazil 2014", 0.0, 0, 1386460800, 64, 0, 0], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 0.0, 0, 1424217600, 20, 20, 0], [1159626024, "Deutsch Modelldialog", 0.0, 0, 1440547200, 1, 5, 0], [26730585, "Living World AQA", 0.0, 0, 1431648000, 10, 0, 0], [695322121, "46a Childs Health ", 0.0, 0, 1433289600, 325, 0, 0], [2078296305, "shoulder", 0.0, 0, 1439251200, 35, 0, 10], [1452703727, "Afrikaans Exam Work (Baldy Bunch)", 0.0, 0, 1437091200, 101, 101, 0], [1604882084, "This will rock your world. Path ", 0.0, 0, 1381881600, 556, 0, 293], [1585104738, "schildermateriaal 4", 0.0, 0, 1417392000, 16, 0, 16], [1641760705, "AP World Chapter 14", 0.0, 0, 1414368000, 75, 0, 0], [3374674221, "Einfache IT Systeme Lernfeld 4", 0.0, 0, 1361923200, 90, 0, 0], [154062101, "Birds, Wildlife and Exotic Pets", 0.0, 0, 1405036800, 620, 0, 0], [1787927424, "AP World CHapter 16", 0.0, 0, 1415750400, 27, 0, 0], [1186576037, "Goldstein Narcotics", 0.0, 0, 1424563200, 16, 0, 0], [870727920, "Afrikaans Numbers (Baldy Bunch)", 0.0, 0, 1437091200, 70, 70, 0], [107011403, "Goldstein Antianxiety", 0.0, 0, 1422921600, 36, 0, 1], [910918558, "Boldog kar\u00e1csonyt! (en)", 0.0, 0, 1410566400, 50, 49, 0], [1519233537, "High yield English-Spanish vocab", 0.0, 0, 1438041600, 1252, 3, 1], [847974395, "mr high yield", 0.0, 0, 1429315200, 99, 0, 6], [331073551, "How Horatius Held the Bridge", 0.0, 0, 1406937600, 143, 0, 0], [2713183883, "GVA, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute komplett", 0.0, 0, 1376006400, 244, 0, 0], [431021649, "Colores 2.   Ford\u00edt\u00e1si gyakorlat a Colores 2. megold\u00e1sokb\u00f3l", 0.0, 0, 1407974400, 17, 0, 0], [1123097461, "Afrkaans Negatives (Baldy Bunch)", 0.0, 0, 1436918400, 52, 34, 0], [1448066071, "Onderw\u00eareld Vocab ch 14 - 24", 0.0, 0, 1434585600, 78, 0, 0], [2016524648, "Goldstein Antidepressants", 0.0, 0, 1424390400, 20, 0, 3], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [549241579, "37C - Shoulder & Arm Images", 0.0, 0, 1384387200, 29, 0, 0], [3464518153, "OT1.3 Old Testament Dates, Oak Hill", 0.0, 0, 1371772800, 18, 0, 11], [145739763, "Mysteries of the unseen world", 0.0, 0, 1426291200, 22, 0, 8], [29886310, "Humanpatogene bakterier demonstrasjon - med bilder", 0.0, 0, 1345852800, 11, 0, 9], [538911870, "KCOM - Dr. Goldman Test Review (Neuro II block)", 0.0, 0, 1424390400, 25, 1, 5], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [1044805400, "Deutsch English Mundbildschrift MouthWriting 2014", 0.0, 0, 1431216000, 94, 0, 68], [1803144712, "schildermateriaal 1", 0.0, 0, 1417392000, 20, 0, 20], [2122589537, "Bilder und T\u00f6ne", 0.0, 0, 1433030400, 61, 59, 69], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [1384956353, "McDonald: MS", 0.0, 0, 1422921600, 39, 0, 4], [848504498, "BUSM - Anatomy - Bones Shoulder region", 0.0, 0, 1377043200, 68, 0, 2], [2454392946, "Poetry for Children", 0.0, 0, 1345852800, 18, 0, 0], [1372674744, "EVMS Alex Shoulder", 0.0, 0, 1379980800, 11, 0, 11], [1800704874, "Old Persian alphabet", 0.0, 0, 1417651200, 36, 5, 39], [1173639500, "Lernfeld 5 + 6 Industriekaufleute April 2012", 0.0, 0, 1345852800, 85, 0, 0], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [480184665, "Kl. biomekanik - Klinikophold B", 0.0, 0, 1445904000, 133, 0, 0], [344807918, "GVA 2015 ZWP, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute", 0.0, 0, 1437696000, 92, 0, 0], [68106304, "C/V UWorld", 0.0, 0, 1436227200, 115, 0, 0], [920079608, "Ordination Prep: Old Testament Verses", 0.0, 0, 1429401600, 175, 0, 0], [631903756, "Geld II", 0.0, 0, 1398556800, 13, 13, 14], [1322621374, "Creative Arts Test1 Drama FD (Baldy Bunch)", 0.0, 0, 1425945600, 6, 0, 0], [838976538, "Afrikaans Conjunctions (Baldy Bunch)", 0.0, 0, 1437091200, 44, 123, 0], [25024300, "rowan som fund 2 micro TUTOR & OLD EXAM QUESTIONS", 0.0, 0, 1412035200, 64, 0, 17], [1368943848, "Maths Facts (Baldy Bunch Homeschool)", 0.0, 0, 1416700800, 48, 0, 0], [2102377793, "MPM 2: Shoulder", 0.0, 0, 1433721600, 137, 0, 0], [539884671, "Acropolis World News Ancient Greek Vocabulary", 0.0, 0, 1430265600, 237, 2, 3], [489322929, "Anatomy High Yield Exam 1", 0.0, 0, 1411257600, 133, 0, 54], [1280755311, "OTH4412 UF Chapter 8 Muscles of the Shoulder Region", 0.0, 0, 1422316800, 52, 0, 0], [413333049, "Angol - Daily Habits, Household Chores", 0.0, 0, 1437264000, 61, 0, 0], [1337952012, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Web 1.0\"", 0.0, 0, 1422403200, 21, 0, 6], [498745213, "Cold War - the end - grade 10", 0.0, 0, 1429142400, 27, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [1643257269, "ITB, IFL Bayreuth - Fragen zum Themenfeld \"Bin\u00e4re Gr\u00f6\u00dfen\"", 0.0, 0, 1422403200, 21, 0, 2], [1859521142, "Creative Arts Test 1 Dance FD (Baldy Bunch)", 0.0, 0, 1425945600, 26, 0, 0], [1105214353, "path old exam q's block 2 ", 0.0, 0, 1417478400, 330, 0, 410], [1180429794, "McDonald 12/7/2015", 0.0, 0, 1421193600, 34, 0, 6], [1518369865, "AP World Chapter 15", 0.0, 0, 1414368000, 50, 0, 0], [1577659086, "KCOM - Dr. Goldman Cases (Neuro II block)", 0.0, 0, 1423872000, 23, 1, 31], [725326782, "Afr HF Vocab Words 2 (Baldy Bunch)", 0.0, 0, 1427673600, 10, 10, 0], [1054680101, "DDO Paediatrics - Renal emergencies in infants and children ", 0.0, 0, 1409616000, 38, 0, 0], [23794347, "household words", 5.0, 1, 1405641600, 50, 0, 0], [18259943, "Michael's Syriac for vocab building", 0.0, 0, 1365033600, 2564, 0, 2557], [1213322278, "English Test Deck 2 (Baldy Bunch)", 0.0, 0, 1423526400, 18, 0, 0], [1214408553, "Childhood Viruses MMR", 0.0, 0, 1418688000, 46, 0, 0], [284200817, "CAASIC Translation Course - Maternity and Childhood Vocab", 0.0, 0, 1392508800, 238, 0, 0], [1126331521, "ZP Mediengestalter Bild und Ton", 0.0, 0, 1398124800, 331, 0, 9], [1094731573, "HoldEmStartingHands", 5.0, 1, 1345852800, 169, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [1193987286, "Shoulder anatomy", 0.0, 0, 1407801600, 38, 0, 44], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [806698911, "schildermateriaal 3", 0.0, 0, 1417392000, 20, 0, 20], [893697752, "Boldog kar\u00e1csonyt! (it)", 0.0, 0, 1410566400, 50, 49, 0], [3137623451, "beeldende kunsten", 0.0, 0, 1397952000, 34, 0, 45], [3218831318, "BUSM childhood developmental milestones", 0.0, 0, 1376870400, 33, 0, 0], [342051672, "OSU - MSK - Upper Arm, Shoulder, Brachial Plexus", 0.0, 0, 1418515200, 114, 0, 79], [1761568971, "Cold War - grade 10", 0.0, 0, 1420070400, 35, 0, 9], [968446625, "ITB, IFL Bayreuth - Fragen zum Themenfeld Codierung", 0.0, 0, 1422403200, 20, 0, 4], [767742056, "Floristutbildarna - Blomma bildkort (Flower flash cards)", 0.0, 0, 1421193600, 0, 0, 0], [1590235002, "Two German states (Cold War) - grade 10", 0.0, 0, 1420070400, 7, 0, 0], [1529126688, "Neuro McDonald Head Injury", 0.0, 0, 1421712000, 34, 0, 13], [158747140, "Neuro McDonald Ischemia", 0.0, 0, 1421625600, 32, 0, 4], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [1278063009, "Salters-Nuffield Biology A2 - Grey Matter", 0.0, 0, 1411776000, 131, 0, 0], [1957201561, "Gold Nuggets", 0.0, 0, 1402272000, 50, 0, 0], [2001191039, "Shoulder dystocia + C section + VBAC ", 0.0, 0, 1399939200, 20, 0, 0], [2211969297, "MBBS 1 Week 31 - Emerald City", 0.0, 0, 1350172800, 102, 0, 27], [1639629623, "DDO Paediatrics - the child with diabetes ", 0.0, 0, 1409616000, 21, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [628989051, "Afr HF Vocab Words 1 (Baldy Bunch)", 0.0, 0, 1427673600, 9, 9, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1527719264, "Elder Futhar Runes", 0.0, 0, 1415059200, 24, 0, 0], [1232970070, "Hebrew Names of Old Testament Books", 0.0, 0, 1393632000, 35, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1861369530, "AP World History Practice Test", 0.0, 0, 1367625600, 92, 0, 4], [1075975738, "Afr HF Sentences 1 (Baldy Bunch)", 0.0, 0, 1427673600, 11, 11, 0], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [2143754235, "DDO Paediatrics - GIT bleeding in children", 0.0, 0, 1409616000, 22, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [2074879029, "Proficiency Gold", 0.0, 0, 1412553600, 438, 0, 0], [1555192785, "Goldstein Parkinsons", 0.0, 0, 1422748800, 28, 0, 2], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [478830633, "Anatomy - Muscles of the Shoulder Girdle", 0.0, 0, 1388707200, 5, 0, 19], [2080029214, "Semester 1 Exam AP World", 0.0, 0, 1421712000, 136, 0, 0], [358165436, "Story of the World 1", 0.0, 0, 1358208000, 3, 0, 1], [2032385308, "DDO Paediatrics - UTIs in infants and children ", 0.0, 0, 1409616000, 25, 0, 0], [1709915119, "Salters-Nuffield Biology A2 - Infection, Immunity, Forensics", 0.0, 0, 1412035200, 128, 0, 0], [919811508, "German_LDG_1", 0.0, 0, 1410912000, 58, 0, 0], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [729162741, "schildermateriaal 2", 0.0, 0, 1417392000, 20, 0, 20], [1079516190, "Ordination Prep: Old Testament Outlines", 0.0, 0, 1430352000, 39, 0, 0], [400080736, "McDonald: CNS tumors", 0.0, 0, 1423612800, 30, 0, 18], [1585581476, "Kr\u00e4ldjur Sanna", 0.0, 0, 1423180800, 6, 0, 7], [1530606013, "Salters-Nuffield Biology A2 - On the Wild Side", 0.0, 0, 1412035200, 68, 0, 0], [1746096413, "Boldog kar\u00e1csonyt!", 0.0, 0, 1387670400, 50, 49, 0], [1563572825, "World History Chapter 11 Flashcards", 0.0, 0, 1428451200, 66, 0, 0], [403694705, "GoldFibre's Korean Deck", 0.0, 0, 1345852800, 6360, 0, 286], [1190652733, "DDO Paediatrics - evaluation of child with special health ca", 0.0, 0, 1409616000, 5, 0, 0], [1061963553, "Westminster Shorter Catechism w/ clean Formatting and Fields", 4.67, 3, 1407888000, 107, 0, 0], [1828479201, "West End Idiomas - The Natural World", 0.0, 0, 1425772800, 86, 0, 86], [1982004101, "high yield topics usmle 1", 0.0, 0, 1427500800, 85, 0, 6], [807846553, "old path tests", 0.0, 0, 1413158400, 221, 0, 263], [285999610, "Afrikaans gender (Baldy Bunch)", 0.0, 0, 1437264000, 12, 24, 0], [113893386, "Childhood Trauma", 0.0, 0, 1428969600, 30, 0, 0], [720779136, "Nick's Ap World History Deck", 0.0, 0, 1423180800, 1061, 0, 0], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1063724962, "M\u00f6llers - Growing into the world of work", 0.0, 0, 1412035200, 80, 0, 0], [3543965585, "Fulfulde - English", 4.0, 1, 1374364800, 20, 0, 0], [2775509690, "Catechism for Young Children", 5.0, 1, 1357689600, 145, 0, 0], [1140688681, "Letter Pair images for BLD", 0.0, 0, 1423526400, 576, 0, 0], [1175366719, "Word List from Pearson FCE Gold Plus (English - German)", 0.0, 0, 1393977600, 1886, 0, 0], [1181351588, "Bildgebung TU M\u00fcnchen", 0.0, 0, 1392076800, 127, 1, 1], [63262519, "Childhood cancers", 0.0, 0, 1411257600, 32, 0, 0], [1782582509, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Logik\"", 0.0, 0, 1422403200, 21, 0, 11], [1342572945, "DDO Paediatrics - altered mental status in children ", 0.0, 0, 1409616000, 6, 0, 0], [1041114497, "World Flags part deux", 0.0, 0, 1345852800, 204, 0, 204], [508609876, "HILD7B Midterm 1 Key Terms", 0.0, 0, 1423008000, 55, 0, 0], [2145853152, "High Yield Citow", 0.0, 0, 1393718400, 41, 0, 1], [3788851852, "37C - Shoulder", 0.0, 0, 1384560000, 76, 0, 0], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [976229959, "Mundbildschrift 2014", 0.0, 0, 1431216000, 84, 0, 63], [1330207861, "World Art Terms", 0.0, 0, 1430524800, 94, 0, 81], [3518047851, "Vorbereitung Yield Management", 0.0, 0, 1376870400, 38, 0, 4], [694424419, "shoulder/axilla", 0.0, 0, 1408320000, 148, 0, 61], [591534824, "DDO Paediatrics - acute abdominal pain in children ", 0.0, 0, 1409616000, 53, 0, 2], [3916604735, "David Chalmers - Constructing the World", 0.0, 0, 1380412800, 120, 0, 0], [669847017, "ITB,  IFL Bayreuth - Fragen zum Themenfeld Zahlensysteme", 0.0, 0, 1422403200, 29, 0, 17], [1476852978, "ITB, IFL Bayreuth - Fragen zum Themenfeld ODR", 0.0, 0, 1422403200, 14, 0, 19], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1312704755, "Yield Management Tourismus & Hospitality", 0.0, 0, 1370822400, 143, 0, 3], [506049295, "McDonald CNS Infections", 0.0, 0, 1423180800, 39, 0, 22], [2090701210, "Phrases to build  krey\u00f2l vocabulary", 0.0, 0, 1399593600, 1, 0, 0], [727837141, "Geld", 0.0, 0, 1398556800, 19, 19, 19], [408195215, "Words You Should Know", 0.0, 0, 1427414400, 756, 0, 0], [477544038, "Lernfeld Ausbildung 3", 0.0, 0, 1420761600, 14, 0, 1], [3109610524, "Baldwin Physio test #2", 0.0, 0, 1383868800, 136, 0, 131], [1822253716, "1-2-3 Tarot Sentences by Donald Tyson", 0.0, 0, 1423353600, 78, 0, 78], [166359105, "Engl-German vocab - Cold War + two German states", 0.0, 0, 1424304000, 104, 0, 0], [1780380716, "Salters-Nuffield Biology A2 - Run for your Life", 0.0, 0, 1412035200, 101, 0, 0], [1251643308, "LDS Scripture Mastery", 0.0, 0, 1424649600, 114, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ld</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

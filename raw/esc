@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1158491752, "LSE Lengua de Signos Espa\u00f1ola SignoEscritura 2015", 0.0, 0, 1429142400, 7824, 0, 7836], [1546413252, "Kunstgeschichte", 0.0, 0, 1454803200, 100, 0, 101], [758142893, "Bauphysik W\u00e4rmeschutz", 0.0, 0, 1454025600, 70, 0, 9], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [231723347, "Geschichte der Psychologie by LG", 0.0, 0, 1452643200, 269, 0, 15], [417635412, "Bibelkunde AT (7) - Geschichte Israels", 0.0, 0, 1453161600, 17, 0, 0], [1616191947, "Franz\u00f6sisch f\u00fcr Fortgeschrittene", 0.0, 0, 1452124800, 0, 0, 0], [490384714, "Kunstgeschichte_Grundlagen", 0.0, 0, 1450137600, 59, 2, 68], [1122971182, "Anatomie - Geschlechtsorgane", 0.0, 0, 1449878400, 19, 0, 4], [4169815589, "Daten der Weltgeschichte", 5.0, 2, 1384819200, 971, 0, 0], [1109445416, "this is a description", 0.0, 0, 1448323200, 16, 0, 20], [375163220, "Italiano Lesce NIP", 0.0, 0, 1453334400, 305, 312, 292], [1551944070, "Escrita Japonesa", 0.0, 0, 1442966400, 57, 0, 0], [1179665148, "Il mio deck di tedesco", 0.0, 0, 1443916800, 1, 0, 0], [1383568108, "2c 2d anglescina sgtsr", 0.0, 0, 1446681600, 220, 209, 145], [3068152165, "Math Facts (Sam & Max Homeschool)", 1.0, 1, 1345852800, 334, 0, 0], [1262224552, "Describing graphs DJ", 0.0, 0, 1444089600, 51, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [1354603406, "Erdgeschichte", 0.0, 0, 1382140800, 26, 0, 0], [1606225729, "Math 1530 NESCC", 0.0, 0, 1433808000, 0, 0, 0], [1522316540, "Photo description \u65e5\u672c\u8a9e<->\u82f1\u8a9e", 0.0, 0, 1382400000, 16, 0, 0], [2248880549, "TCM Review Maciocia Point Prescriptions", 0.0, 0, 1345852800, 63, 0, 0], [2067163406, "Adolescent Development", 0.0, 0, 1428969600, 23, 0, 0], [1134233754, "dakua'ana davi: v. descriptive", 0.0, 0, 1411689600, 19, 19, 18], [1965976203, "UK NUR 221 Exam 4 Preschoolers", 0.0, 0, 1416182400, 27, 0, 0], [621631940, "Adolescent Health Issues-Erigo-Backsman", 0.0, 0, 1438387200, 87, 0, 0], [1273282345, "Geschichte der Sportp\u00e4dagogik", 0.0, 0, 1424649600, 2, 0, 0], [1031602923, "Geologic Timescale", 0.0, 0, 1345852800, 43, 0, 0], [200973892, "UP: Klausur Sportgeschichte 2", 0.0, 0, 1417046400, 12, 0, 0], [779168285, "Izpit_voditelj_colna-2del-MORNARSKA_DELA_IN_VESCINE ", 0.0, 0, 1414281600, 55, 0, 7], [1009418837, "Libras L\u00edngua Brasileira Sinais LibrasEscrita 2015", 0.0, 0, 1429488000, 4659, 0, 4680], [3826873097, "Herr Bachfischer Geschichte Emil", 0.0, 0, 1377475200, 73, 0, 0], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [1173211136, "Block 3 - Descending motor tracts. ", 0.0, 0, 1391212800, 40, 0, 0], [1368943848, "Maths Facts (Baldy Bunch Homeschool)", 0.0, 0, 1416700800, 48, 0, 0], [290001679, "UK NUR 221 Exam 5 Peds G&D School Age/Adolescent", 0.0, 0, 1417651200, 60, 0, 0], [133951269, "Erdgeschichte Uni T\u00fcbingen", 0.0, 0, 1425513600, 195, 0, 0], [1619089594, "Prescription Drug Abuse", 0.0, 0, 1428883200, 26, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [1297127955, "Leren bij kinderen en adolescenten sheets", 0.0, 0, 1403222400, 189, 0, 8], [16758016, "Geschichtsdaten AKSA", 0.0, 0, 1370649600, 82, 0, 0], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [712319246, "Herr Bachfischer Geschichte Weck, Wurst, und Wein", 0.0, 0, 1377475200, 246, 0, 0], [131520755, "A longer description is required. ", 0.0, 0, 1392681600, 19, 0, 4], [2567551207, "Ancient History (young kids homeschool)", 0.0, 0, 1345852800, 112, 0, 83], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [2383383395, "Personenbeschreibung", 0.0, 0, 1370217600, 25, 0, 0], [2006013534, "UP: Klausur Sportgeschichte", 0.0, 0, 1416268800, 18, 0, 0], [2017564521, "Japanisch im Sauseschritt", 0.0, 0, 1431216000, 643, 0, 0], [4046634007, "Geschichte Gymnasium Schweiz", 0.0, 0, 1354060800, 390, 0, 0], [1488390318, "Escritura Fundacional", 0.0, 0, 1419811200, 270, 0, 1], [1767504651, "SHB Exam 3: Handout for Ascending and Descending Tract", 0.0, 0, 1417824000, 9, 0, 1], [1812447615, "Herr Bachfischer Geschichte Von Deutschland Nach Deutschland", 1.0, 1, 1377475200, 327, 0, 0], [2263746587, "Deutsche Geschichte - Zeittafel (Stefan Jacob)", 4.0, 1, 1345852800, 336, 0, 0], [2062115923, "NS-Geschichte - Dienstgrade in der Wehrmacht und in der SS", 0.0, 0, 1345852800, 25, 0, 0], [2041195638, "Chinesische Geschichte", 3.0, 1, 1401408000, 30, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [3094092531, "IPA Spanish & English Consonants (Description First)", 0.0, 0, 1345852800, 50, 41, 0], [1162704718, "Longer description required.", 0.0, 0, 1393632000, 30, 0, 16], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [609924740, "Course d'orientation - Descriptions de contr\u00f4le", 0.0, 0, 1419033600, 111, 0, 111], [785733832, "A short one line description of your deck.", 1.0, 1, 1405900800, 360, 0, 0], [1112279117, "UP: Klausur Sportgeschichte 3", 0.0, 0, 1417046400, 10, 0, 0], [2222581120, "Deutsche S\u00e4tze f\u00fcr Italiener / Frasi in tedesco per italiani", 0.0, 0, 1364860800, 4046, 0, 0], [1082326752, "aufgeschnappt", 0.0, 0, 1454630400, 441, 0, 0], [373541232, "SHB Exam 3: Descending Corticospinal Tract", 0.0, 0, 1417824000, 20, 0, 16], [3139658923, "Herr Bachfischer Geschichte H\u00f6llenmaschine an Bord", 0.0, 0, 1377475200, 136, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [3049014207, "Italian wines with English Descriptions", 0.0, 0, 1345852800, 19, 0, 0], [2401346978, "Herr Bachfischer Geschichte Unten Durch", 0.0, 0, 1377475200, 194, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 5.0, 1, 1363392000, 5393, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Esc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

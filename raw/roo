@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[994854665, "Brookes: Kanji Test 9-12", 0.0, 0, 1448236800, 217, 0, 1], [1245216435, "Oxford Brookes Kanji 13-16", 0.0, 0, 1448841600, 216, 0, 1], [995295430, "Ancient Greek Stems and Roots", 0.0, 0, 1365724800, 274, 0, 0], [1957589898, "Brookes Kanji Week 2", 0.0, 0, 1447632000, 139, 0, 1], [1606108845, "gre root word short version ", 0.0, 0, 1444953600, 297, 0, 0], [908907374, "Brookes Ultimate Japanese Vocab Deck v1.7", 0.0, 0, 1449705600, 889, 0, 1], [1339567562, "Brookes Matt Kanji", 0.0, 0, 1447027200, 58, 0, 1], [665141412, "Sanskrit Verbs' Roots", 0.0, 0, 1450742400, 1256, 2, 53], [383434309, "Classroom Portuguese in Mozambique", 0.0, 0, 1445299200, 27, 0, 0], [1975391396, "Japanese school/classroom vocabulary", 0.0, 0, 1439424000, 130, 0, 0], [1852791984, "Pali Verbs' Roots (\u0927\u093e\u0924\u0941\u092e\u0932)", 0.0, 0, 1443484800, 1193, 2, 53], [152479176, "Emergency pharmacology roots suffixes prefixes abbreviations", 0.0, 0, 1441238400, 55, 0, 0], [387478415, "Sanskrit verb roots \u0938\u0902\u0938\u094d\u0915\u0943\u0924\u0947 \u092a\u093e\u0923\u093f\u0928\u0940\u092f-\u0927\u093e\u0924\u0941\u092a\u093e\u0920\u0903", 0.0, 0, 1368403200, 2551, 0, 0], [59067283, "Brookes Genshi 0-100", 5.0, 1, 1413590400, 105, 0, 33], [854690761, "TY A03 In the Room", 0.0, 0, 1438646400, 10, 10, 10], [2007657608, "Brookes, Vocab, is good, shake hands, etc.", 0.0, 0, 1414800000, 43, 0, 0], [685765620, "Beginning Spanish Vocab (Troon)", 0.0, 0, 1437436800, 448, 340, 417], [25060778, "Latin / Greek Roots", 0.0, 0, 1423267200, 79, 0, 0], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 2.0, 1, 1409788800, 32, 0, 0], [569391809, "Brookes Essential Kanji 101-202", 0.0, 0, 1416873600, 101, 0, 0], [355972131, "general facts for a 4th-6th Montessori classroom", 0.0, 0, 1436572800, 3, 0, 0], [366376858, "500 Root Words", 2.0, 1, 1423612800, 500, 0, 0], [125438535, "This deck brooks", 0.0, 0, 1374796800, 104, 0, 0], [2671945522, "GCSE German - Herr Crook", 0.0, 0, 1379980800, 27, 0, 0], [787071023, "Roots, and various info to know", 0.0, 0, 1398816000, 33, 0, 3], [901818333, "Pali Magadhi Verb Roots Dhatumala \u092a\u093e\u0933\u093f \u092e\u0917\u0927\u0940 \u092d\u093e\u0938\u093e \u0927\u093e\u0924\u0941\u0938\u0932", 0.0, 0, 1414281600, 1196, 0, 15], [2011785800, "TAMU VIBS 305 - Latin/Greek Roots", 0.0, 0, 1389916800, 40, 0, 0], [1013188669, "Perfect Squares and Roots 1 to 30", 0.0, 0, 1404777600, 60, 0, 0], [198892467, "Brookes Genshi Units 9-12", 0.0, 0, 1414540800, 96, 0, 46], [850965587, "Cebuano root verbs", 0.0, 0, 1426636800, 298, 0, 0], [1089676175, "Brookes Genshi Units 6-8", 0.0, 0, 1413849600, 79, 0, 47], [1279910633, "Roots of the Russian Language", 2.5, 2, 1345852800, 333, 0, 0], [2058652135, "TAMU VIBS 305 - Latin/Greek Roots", 0.0, 0, 1390953600, 60, 0, 0], [1936862882, "Brookes Essential Kanji 203-304", 0.0, 0, 1417478400, 101, 0, 0], [169510866, "Brookes Essential Kanji 1-100", 0.0, 0, 1416268800, 100, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Roo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

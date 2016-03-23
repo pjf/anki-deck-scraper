@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1748849213, "Direito constitucional para concursos", 5.0, 1, 1435968000, 216, 0, 11], [1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [660991814, "Respiratory Pathologies: Interstitial Lung Disease", 0.0, 0, 1454889600, 9, 0, 0], [1028528798, "Medical French - Defense Language Institute LSK", 5.0, 2, 1418342400, 640, 629, 0], [493959367, "Verbs Followed By Gerunds And Infinititves", 0.0, 0, 1453939200, 100, 0, 0], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [623347520, "BHACDEC Econ competition", 0.0, 0, 1453852800, 12, 0, 0], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [1874254267, "Latitudes and longitudes of some major cities", 0.0, 0, 1450828800, 43, 0, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [2090663515, "Symbols for Some Derived SI Quantities", 0.0, 0, 1395532800, 10, 0, 9], [2238275437, "Bible Quiz 56 Titus", 0.0, 0, 1345852800, 18, 0, 0], [8616450, "Units for Some Derived SI Quantities", 0.0, 0, 1448928000, 10, 0, 9], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [822818361, "ESP English Institute  - Upper  Intermediate level", 0.0, 0, 1448496000, 18, 1, 7], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [613098322, "JAPONES BASICO I Instituto de Idiomas US", 0.0, 0, 1454544000, 582, 5, 317], [640408959, "ESP English Institute  - Upper  Intermediate level 2", 0.0, 0, 1448496000, 5, 0, 7], [901113318, "Vocabulari de \"Les vacances du petit Nicolas\", A2", 0.0, 0, 1448150400, 123, 0, 0], [256920480, "CPGE_Evry US Constitution", 0.0, 0, 1445731200, 48, 0, 0], [1134079481, "Fran\u00e7ais - espagnol droit et institutions ", 0.0, 0, 1445990400, 494, 0, 0], [935664828, "Hittite sign list", 0.0, 0, 1453680000, 194, 8, 259], [1002120426, " Finnish: ammatit ja harrastukset", 0.0, 0, 1444003200, 125, 0, 0], [714215906, "Inuktitut Syllabics", 0.0, 0, 1345852800, 120, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [498506379, "Boerma Instituut's Flower Name Deck", 0.0, 0, 1441324800, 30, 0, 30], [353580872, "Meine Identit\u00e4t in Jesus (1/3)", 0.0, 0, 1441843200, 9, 0, 0], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [789952687, "AME CONSTITUCIONAL - FISCALIZA\u00c7\u00c3O CONT\u00c1BIL FINANC E OR\u00c7AMENT", 0.0, 0, 1409702400, 21, 0, 0], [2352461320, "PC Confucius Institute - HSK 3 ", 4.0, 1, 1359072000, 602, 0, 0], [3235936325, "56 Acute Pancreatitis", 0.0, 0, 1362960000, 27, 0, 0], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [2651175560, "Barbri Constitutional Law", 0.0, 0, 1373587200, 33, 0, 0], [2069724327, "Sardaigne - Petit lexique", 0.0, 0, 1406937600, 2, 0, 0], [691215033, "AME CONSTITUCIONAL", 5.0, 1, 1431302400, 530, 0, 0], [1314284864, "Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [598878704, "AME CONSTITUCIONAL - FUN\u00c7\u00d5ES ESSENCIAIS \u00c0 JUSTI\u00c7A", 0.0, 0, 1409702400, 27, 0, 0], [1114644923, "CLL algotithms", 0.0, 0, 1420761600, 43, 0, 43], [184070046, "DDO Gastro - viral hepatitis and jaundice", 0.0, 0, 1415836800, 8, 0, 0], [114144256, "Hittite Cuneiform Syllabary (Unicode)", 0.0, 0, 1401321600, 112, 0, 0], [1623245882, "Direito Constitucional", 0.0, 0, 1423094400, 18, 0, 0], [1690864852, "AME CONSTITUCIONAL - DIREITOS SOCIAIS", 0.0, 0, 1409702400, 15, 0, 0], [1561812428, "AME CONSTITUCIONAL - PROCESSO LEGISLATIVO", 0.0, 0, 1409702400, 37, 0, 0], [1776784992, "British Authors - Titles", 0.0, 0, 1352332800, 33, 0, 0], [1305194227, "La politique et les institutions (Fr - Esp) ", 0.0, 0, 1445990400, 321, 0, 0], [900036563, "AME CONSTITUCIONAL - PODER EXECUTIVO", 0.0, 0, 1408320000, 18, 0, 0], [819731189, "Appearances and Attitudes", 0.0, 0, 1423440000, 15, 0, 0], [1898850445, "Hapatitis Pathology", 0.0, 0, 1424736000, 36, 0, 3], [1381998996, "Orgo 16 Electrophilic Aromatic Substitution EAS", 0.0, 0, 1424217600, 32, 0, 22], [37296923, "AME CONSTITUCIONAL - PRINC\u00cdPIOS FUNDAMENTAIS", 0.0, 0, 1409788800, 5, 0, 0], [582760719, "AME CONSTITUCIONAL - Constitui\u00e7\u00e3o", 0.0, 0, 1431561600, 31, 0, 0], [1907076338, "AME CONSTITUCIONAL - COMPET STF, STJ, TRF, J.FEDERAIS, JT", 0.0, 0, 1422748800, 65, 0, 0], [298853069, "LBR7 -- Constitutional Law", 0.0, 0, 1405900800, 34, 0, 0], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [1738858094, "AME CONSTITUCIONAL - DIREITOS DE NACIONALIDADE", 0.0, 0, 1409702400, 8, 0, 0], [1227945861, "HMS.IMP.Hepatitis", 0.0, 0, 1367452800, 17, 0, 14], [2083987818, "AME CONSTITUCIONAL - APLICA\u00c7\u00c3O DAS NORMAS CONSTITUCIONAIS", 0.0, 0, 1409702400, 15, 0, 0], [2977877472, "Medical Spanish (Colombian) - Defense Language Institute LSK", 4.33, 3, 1418342400, 640, 637, 0], [1070407933, "Reverse Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [2407783082, "Direito Constitucional Intro", 0.0, 0, 1360022400, 21, 0, 0], [1219087219, "The Constitution (US)", 0.0, 0, 1399507200, 65, 0, 0], [4105518009, "Petite Prince (first 8 pages) - Russian", 0.0, 0, 1379894400, 500, 0, 0], [11378703, "AME CONSTITUCIONAL - DIREITOS POL\u00cdTICOS", 5.0, 1, 1409702400, 13, 0, 0], [516919906, "Direito Constitucional - TLP", 0.0, 0, 1431302400, 44, 0, 0], [1749071173, "Spanish Subtitles Corpus 1-2000", 0.0, 0, 1402444800, 4204, 0, 0], [805679483, "Micro 12/9: Viral Hepatitis ", 0.0, 0, 1418688000, 59, 0, 0], [220844358, "AME CONSTITUCIONAL - PODER LEGISLATIVO", 0.0, 0, 1409702400, 56, 0, 0], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [1928248558, "AME CONSTITUCIONAL - PODER JUDICI\u00c1RIO", 0.0, 0, 1408320000, 16, 0, 0], [1663500573, "Medical Persian Farsi Iran - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tit</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

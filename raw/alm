@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[19863729, "Ophthalmology", 0.0, 0, 1454889600, 185, 0, 94], [27685291, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s fogalmak", 0.0, 0, 1453161600, 21, 0, 0], [723428174, "Nitrat kezikonyv fogalmak", 0.0, 0, 1446940800, 51, 5, 0], [1833979614, "Ophthalmology SN", 0.0, 0, 1448841600, 11, 0, 0], [1879054045, "Az els\u0151 vil\u00e1gh\u00e1bor\u00fa, a forradalmak \u00e9s a b\u00e9k\u00e9k", 0.0, 0, 1444348800, 41, 0, 0], [4272712811, "Vorbereitung Personalmanagement", 0.0, 0, 1376870400, 48, 0, 2], [890080933, "Oftalmologie KUleuven", 0.0, 0, 1397174400, 459, 0, 18], [1678402419, "18.\u00c1ltal\u00e1nos fogalmak", 0.0, 0, 1432771200, 67, 0, 0], [1383880596, "Almost all the spec for OCR Chemistry B (Salters) F335 exam", 0.0, 0, 1434240000, 84, 0, 40], [1748178268, "Hiragana - Almost ALL", 0.0, 0, 1435708800, 0, 3, 0], [100439255, "Industriell ekonomi LMT968 Chalmers", 0.0, 0, 1421280000, 33, 0, 14], [92896526, "NIV Psalm 3", 0.0, 0, 1427241600, 9, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1704490835, "T7 Lund HT2014: Oftalmologi ", 0.0, 0, 1418428800, 89, 0, 6], [1061109357, "SUMMERISALMOSTOVER!", 0.0, 0, 1403136000, 8, 0, 17], [512970025, "DalMed2018 - Publicly Shared Test Deck - Kember", 0.0, 0, 1414368000, 3, 0, 1], [659102374, "Personalmanagement Tourismus & Hospitality", 0.0, 0, 1374105600, 148, 0, 0], [473933293, "B&B 02.27.15 Neuro-Ophthalmology ", 0.0, 0, 1425427200, 28, 0, 6], [2576541527, "Almen Histologi Spot", 0.0, 0, 1385164800, 190, 0, 190], [1311108596, "T6 - MCQ-fr\u00e5gor - L\u00e4karprogrammet Lund/Malm\u00f6/Hbg", 0.0, 0, 1389398400, 209, 0, 0], [3793659460, "222AOphthalmicLensChar", 0.0, 0, 1380585600, 119, 0, 73], [923043453, "Pszichol\u00f3gia fogalmak", 0.0, 0, 1430006400, 361, 0, 0], [272998489, "Bridie ophthalmology ", 0.0, 0, 1382918400, 12, 0, 0], [1778090163, "T\u00fcrkisch-Deutsch: S\u00e4tze / T\u00fcrk\u00e7e-Almanca: S\u00f6zler", 0.0, 0, 1402358400, 104, 0, 0], [1358559558, "KCOM - Basic Ophthalmology End of Chapter Questions", 0.0, 0, 1424476800, 27, 1, 80], [224768494, "Bible Quiz 19: Psalms", 0.0, 0, 1345852800, 422, 0, 0], [1356299823, "Ophtalm/Otologie-Seminar", 0.0, 0, 1430697600, 35, 0, 5], [3916604735, "David Chalmers - Constructing the World", 0.0, 0, 1380412800, 120, 0, 0], [1928287463, "Ophthalmology Online Module MM", 0.0, 0, 1373673600, 0, 0, 0], [1844458588, "ophtalmoarnaudf", 0.0, 0, 1387238400, 246, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Alm</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

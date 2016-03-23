@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[644151027, "Portuguese Phrase Book (Continental pronunciation)", 5.0, 3, 1385942400, 1111, 1111, 35], [1610254447, "Netzwerk Grenchen: Lernen am Smartphone", 0.0, 0, 1454198400, 201, 39, 170], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [2013855291, "Lehren und Lernen - Susi", 5.0, 1, 1453939200, 28, 0, 0], [1808735822, "Schulp\u00e4dagogik II Definitionen ", 0.0, 0, 1454371200, 87, 0, 0], [646339611, "Lehren und Lernen Empirie - Susi", 5.0, 1, 1453939200, 10, 0, 0], [951783930, "Maschinenelemente TU Wien", 0.0, 0, 1452297600, 86, 0, 70], [1591191899, "Schulp\u00e4dagogik Definitionen", 0.0, 0, 1454544000, 135, 0, 0], [367083463, "Sonnenhang P\u00fctz", 0.0, 0, 1452729600, 13, 0, 13], [687092981, "Wichtige Ionen/S\u00e4uren/Basen ", 0.0, 0, 1452211200, 43, 0, 0], [1505761701, "Arterien und Venen", 0.0, 0, 1453161600, 64, 0, 0], [961001656, "Seguros Fase 1 Funenseg", 0.0, 0, 1451952000, 168, 1, 45], [784874842, "\u6211\u5b66\u6c49\u8bed \u2606 CHINESISCH lernen! - Animexx ", 0.0, 0, 1452470400, 404, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [499477650, "Opetus.tv - Lukion Orgaaninen Kemia ", 0.0, 0, 1413763200, 246, 0, 23], [1423933394, "eehah5ru-deutsch-verben-mit-pr\u00e4positionen", 0.0, 0, 1450137600, 150, 0, 0], [1829966048, "Vokabeln zum Erlernen des paschtunischen Alphabets", 0.0, 0, 1450224000, 113, 3, 1], [299744082, " Wechselpr\u00e4positionen", 0.0, 0, 1449705600, 0, 0, 0], [1970824522, "Verben zum Tagesablauf lernen", 0.0, 0, 1449100800, 14, 0, 0], [1740603545, "Alefba erste vier Lektionen", 0.0, 0, 1446595200, 296, 0, 0], [584652185, "Verben mit Pr\u00e4positionen", 0.0, 0, 1447718400, 95, 0, 1], [337953075, "DEPONENTS", 0.0, 0, 1447286400, 29, 0, 0], [1509809217, "Vocabulaire Italien - Cours univ. permanente A1", 0.0, 0, 1454544000, 1352, 0, 9], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [97313721, "Deutsch Goethe wohnen", 0.0, 0, 1445299200, 53, 0, 31], [916263482, "Adverbien mit Pr\u00e4positionen", 0.0, 0, 1445472000, 43, 0, 0], [1844711579, "Esperanto woorden en zinnen EO-NL", 4.0, 1, 1428019200, 7435, 0, 0], [2067752537, "Verben mit den feste pr\u00e4positionen", 0.0, 0, 1443052800, 248, 0, 0], [1889498182, "1x1 mit Dreiecken lernen,  1x1 with Triangles", 0.0, 0, 1437955200, 81, 0, 110], [109266344, "Verben mit Pr\u00e4positionen", 0.0, 0, 1382054400, 22, 0, 0], [381859838, "Adjektiven+sein mit Pr\u00e4positionen tschechisch-deutsch byWolf", 0.0, 0, 1411603200, 62, 0, 0], [3464954978, "Pr\u00e4positionen in Esperanto", 0.0, 0, 1345852800, 34, 0, 0], [1928500271, "Angol innen-onnan", 0.0, 0, 1414368000, 134, 0, 3], [30140141, "Anorganische Chemie Nachweisreaktionen", 0.0, 0, 1410220800, 29, 0, 3], [863378831, "IEL Deutsch Pr\u00e4positionen", 0.0, 0, 1417219200, 28, 1, 0], [1842283660, "Kennenlernen", 0.0, 0, 1442361600, 68, 68, 68], [1307483730, "deutsche pr\u00e4positionen mit den verben", 0.0, 0, 1428364800, 248, 0, 0], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [375804819, "Chemie 2. Semester Donator-Akzeptor-Reaktionen", 0.0, 0, 1346284800, 154, 0, 99], [2042240240, "Verben + Pr\u00e4positionen + AKK", 0.0, 0, 1382054400, 30, 0, 0], [1991325453, "Verben und Pr\u00e4positionen - GER2000", 0.0, 0, 1415664000, 66, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [2454005629, "Personen", 0.0, 0, 1383955200, 0, 0, 0], [3636259653, "S\u00e4uren, Basen & Salze / Chem. Rechnen f\u00fcr Biologen WS2013", 0.0, 0, 1383868800, 69, 0, 0], [886571508, "Deutsch Oberstufe Pr\u00e4positionen", 0.0, 0, 1449100800, 233, 0, 0], [2749225995, "\u0e44\u0e21\u0e44\u0e17\u0e22 - Adjektive, Adverbien, Pr\u00e4positionen ", 0.0, 0, 1383782400, 334, 0, 0], [2383383395, "Personenbeschreibung", 0.0, 0, 1370217600, 25, 0, 0], [1859751437, "Week 2 Blood Components", 0.0, 0, 1409443200, 62, 0, 5], [1510756841, "BKR, Bankrechnen f\u00fcr Bankkaufleute 2013/14 Teil 1", 0.0, 0, 1390262400, 38, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [2117999136, "Begegnungen A2 Kapitel 7 (Wohnen) Deutsch-Russisch", 0.0, 0, 1416268800, 91, 0, 0], [720122853, "Base 2 Exponents", 0.0, 0, 1418774400, 17, 0, 0], [1108650894, "P\u0159edlo\u017eky-Pr\u00e4positionen tschechisch-deutsch by Wolf", 0.0, 0, 1411603200, 105, 0, 0], [1107991954, "Ven\u00e4j\u00e4_preposition j\u00e4lkeinen sija", 0.0, 0, 1419292800, 51, 0, 0], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [1800014337, "Lernen zu lernen", 0.0, 0, 1429315200, 90, 0, 0], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [714191061, "Bauphysikalische Optimierung von Hochbaukonstruktionen", 0.0, 0, 1406073600, 152, 0, 9], [2468380623, "Wohnen", 0.0, 0, 1383955200, 9, 0, 0], [1728902028, "Verfahrenstechnik - Mechanisches Trennen", 0.0, 0, 1406073600, 4, 0, 0], [2150793883, "Verben + Pr\u00e4positionen Extra", 0.0, 0, 1382054400, 21, 0, 0], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [4020148685, "Adverbien u. Konjunktionen in Esperanto", 0.0, 0, 1345852800, 35, 0, 0], [1681483519, "DM_R10 Namen von Ionen", 5.0, 1, 1416441600, 25, 0, 0], [1742252642, "Curiosidadesparalanena", 0.0, 0, 1367193600, 319, 0, 16], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [2901360256, "Latin deponent conjugations", 0.0, 0, 1366156800, 119, 0, 0], [2079428463, "Top Phonetic Components for Kanji", 4.0, 3, 1431388800, 92, 0, 0], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [364787347, "Latein Konjugationen", 0.0, 0, 1386028800, 670, 0, 0], [1065596097, "Meithai - Schule und Lernen", 5.0, 1, 1383782400, 110, 0, 0], [2451644469, "Pr\u00e4positionen", 0.0, 0, 1383955200, 12, 0, 0], [696908990, "Verben + Pr\u00c4positionen + DAT", 0.0, 0, 1382054400, 17, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nen</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

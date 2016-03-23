@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1024942726, "Aki's (UJS) Japanese collaboration", 4.8, 5, 1408924800, 18688, 2738, 0], [3695737370, "ANGLISTYKA UJ ADVANCED ENGLISH ERNIE (www.anglista.edu.pl)", 0.0, 0, 1345852800, 7827, 0, 0], [809047702, "Angielski dla pocz\u0105tkuj\u0105cych. Posiadanie (have got, has got)", 0.0, 0, 1437436800, 21, 21, 9], [19612579, "Phonetic Gujrati - French ", 0.0, 0, 1453852800, 73, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 2.5, 2, 1345852800, 500, 0, 0], [1478878857, "\u0420\u0443\u0441\u0441\u043a\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0441 tylbaas.ykt.ru (by Cujoko)", 0.0, 0, 1413331200, 4956, 0, 0], [3302145396, "Shuujuku Kanji", 0.0, 0, 1345852800, 1598, 0, 0], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [719431520, "UJK Gramatyka Praktyczna", 0.0, 0, 1387238400, 205, 0, 0], [3132575204, "\u042f\u043a\u0443\u0442\u0441\u043a\u043e-\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0425\u0430\u0440\u0438\u0442\u043e\u043d\u043e\u0432\u0430 (by Cujoko)", 0.0, 0, 1413331200, 973, 0, 0], [2120354766, "Zestaw dla pocz\u0105tkuj\u0105cych", 0.0, 0, 1425600000, 497, 0, 0], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [900736489, "\u0412\u043e\u043f\u0440\u043e\u0441\u044b \u041f\u0414\u0414 2014 (A, B) (by Cujoko)", 0.0, 0, 1413331200, 800, 0, 562], [1530985260, "Gujarati Basic Vocabulary", 0.0, 0, 1402531200, 1175, 0, 0], [1255481624, "premier cours de vietnamien 2012-2013 UJVF", 0.0, 0, 1370822400, 33, 2, 0], [2177383467, "Der Neue Deutschexpress - altalanos gyujtemeny", 0.0, 0, 1351814400, 91, 0, 0], [1358673525, "Colloquial Gujarati Glossary", 0.0, 0, 1405641600, 1117, 0, 15], [4166453084, "UJVF L\u1edbp Ti\u1ebfng Vi\u1ec7t 01/04/2013 ", 0.0, 0, 1364860800, 64, 0, 0], [1030183555, "\u65e7\u5b57\u4f53\u65b0\u5b57\u4f53 Kyuujitai Shinjitai", 0.0, 0, 1416096000, 397, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uj</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

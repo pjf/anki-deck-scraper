@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[697969444, "Angol Instant Mondatt\u00e1r", 0.0, 0, 1454889600, 779, 1, 4], [1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [794383054, "LM4 Schulinspektion", 0.0, 0, 1454716800, 4, 0, 3], [1791761336, "Polski - ukrainski zdanie", 0.0, 0, 1430870400, 2426, 2369, 47], [1028528798, "Medical French - Defense Language Institute LSK", 5.0, 2, 1418342400, 640, 629, 0], [907859654, "Einmal-Eins", 0.0, 0, 1453420800, 79, 0, 0], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [490744079, "Web Development Flashcards [@jackkinsella]", 5.0, 4, 1404691200, 6144, 0, 258], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [289954030, "TCC BIO 1224 CHAPTER 3 PROTEINS/ AMINO ACIDS", 0.0, 0, 1453334400, 13, 0, 0], [1918915202, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 4", 0.0, 0, 1451779200, 170, 0, 0], [744441926, "Identifiactions of amino acids and proteins. ", 0.0, 0, 1452902400, 0, 0, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [1666783479, "Westminster Catechisms and Confession", 0.0, 0, 1451692800, 359, 0, 0], [1654761283, "medical vocabulary 14 - instruments", 0.0, 0, 1452384000, 62, 0, 0], [1539461024, "243- INSUFFISANCE SURRENALE", 0.0, 0, 1450224000, 14, 0, 1], [1041272842, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 3", 5.0, 2, 1451692800, 177, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [1884179457, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 1", 0.0, 0, 1447632000, 146, 0, 0], [1854787519, "Music Theory and Production [@jackkinsella]", 0.0, 0, 1404691200, 1761, 0, 290], [606825834, "MPSI4 Janson Food Insecurity DL Fran\u00e7ais>Anglais", 0.0, 0, 1448928000, 33, 25, 21], [822818361, "ESP English Institute  - Upper  Intermediate level", 0.0, 0, 1448496000, 18, 1, 7], [1255424937, "Arteries/veins of cranium georg", 0.0, 0, 1448236800, 30, 0, 1], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [839721054, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 2", 0.0, 0, 1447632000, 201, 0, 0], [613098322, "JAPONES BASICO I Instituto de Idiomas US", 0.0, 0, 1454544000, 582, 5, 317], [640408959, "ESP English Institute  - Upper  Intermediate level 2", 0.0, 0, 1448496000, 5, 0, 7], [224232870, "Insamschool Progetto Italiano Unita2", 0.0, 0, 1446768000, 61, 0, 0], [1134079481, "Fran\u00e7ais - espagnol droit et institutions ", 0.0, 0, 1445990400, 494, 0, 0], [1356262364, "medical vocabulary 6 - aches and pains", 0.0, 0, 1445385600, 66, 0, 0], [755321781, "BSN iGCSE Biology unit 4 energy flow, food chains and webs", 0.0, 0, 1447200000, 14, 3, 3], [671042665, "Einstein Core Physical Exam", 0.0, 0, 1445126400, 11, 0, 11], [1324503580, "Lecture 4.2 Galactose, glycogen and glycoproteins", 0.0, 0, 1444521600, 94, 0, 0], [1474022719, "Lecture 2.1 Proteins", 0.0, 0, 1444089600, 47, 0, 0], [1230975085, "Insamschool, Ro-It Progetto Italiano A1, Benvenuti, Unita 1", 0.0, 0, 1446768000, 226, 0, 0], [1274600383, "medical vocabulary 8 - instructions", 0.0, 0, 1445385600, 53, 0, 0], [2142128673, "daryll inso topik 1000 word challenge", 0.0, 0, 1444089600, 761, 1, 3], [1688642029, "Daryll Inso KNU vocab semester 1", 0.0, 0, 1444089600, 80, 47, 88], [914673492, "BRAINS", 0.0, 0, 1443312000, 905, 0, 174], [113138392, "German Grammar [@jackkinsella]", 0.0, 0, 1404691200, 1134, 0, 95], [498506379, "Boerma Instituut's Flower Name Deck", 0.0, 0, 1441324800, 30, 0, 30], [2021327235, "Week 3 Anatomy Lymph Art Veins ", 0.0, 0, 1441238400, 70, 0, 3], [598523164, "Hospital Corpsman Exam study deck: Instructions", 0.0, 0, 1439683200, 20, 0, 0], [1493953511, "Instrumente des Controlling - Marketingcontrolling", 0.0, 0, 1442361600, 22, 0, 2], [1700166527, "Seitlinger Insolvenzrecht", 0.0, 0, 1420416000, 23, 2, 2], [2109526826, "Cree Language of the Plains page 1", 0.0, 0, 1389657600, 49, 49, 50], [1389513475, "MTH - Histo: Proteins", 0.0, 0, 1440460800, 10, 0, 0], [876019906, "Fat and water soluble Vitamins ", 0.0, 0, 1411171200, 48, 0, 0], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [2352461320, "PC Confucius Institute - HSK 3 ", 4.0, 1, 1359072000, 602, 0, 0], [1575142789, "Fin\u0161tina - finsk\u00e1 slov\u00ed\u010dka", 0.0, 0, 1401667200, 2458, 0, 0], [598599126, "B&B 02.16.15 Brainstem 2", 0.0, 0, 1424304000, 27, 0, 0], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [2630890195, " Tema 11.2 Farmacolog\u00eda  II Insuficiencia card\u00edaca", 0.0, 0, 1369440000, 79, 0, 4], [426167372, "Lecture 1 on Prostaglandins and Thromboxanes ", 0.0, 0, 1418342400, 63, 0, 20], [1594855394, "MCBI B1 - Amino Acids/proteins", 0.0, 0, 1410825600, 84, 0, 70], [274465222, "KCOM - Dr. Robbins cases Neuro I block", 0.0, 0, 1430265600, 101, 1, 192], [935713104, "Week 2 Proteins", 0.0, 0, 1409443200, 50, 0, 0], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 2.0, 1, 1409788800, 32, 0, 0], [866221253, "English Grammar and Style [@jackkinsella]", 4.0, 2, 1404691200, 480, 0, 31], [42806810, "Lipoproteins", 0.0, 0, 1411776000, 34, 0, 0], [683483452, "Hacking to the Gate (Steins;Gate)", 0.0, 0, 1428105600, 41, 36, 2], [1750666916, "Surgical Instruments - RVU Military", 0.0, 0, 1399334400, 45, 0, 57], [1981395207, "CMBM I proteins, nucleotides", 0.0, 0, 1386115200, 582, 0, 85], [650069993, "Lipoproteins and Cardiovascular Disease", 0.0, 0, 1411776000, 41, 0, 0], [815348653, "Brainstem/Spinal cord Anatomy", 0.0, 0, 1396310400, 24, 0, 44], [2008361287, "B&B 02.16.15 Brainstem 1", 0.0, 0, 1424304000, 27, 0, 7], [1689662198, "Marys Handelsmarketing Einstiegstest @ WU Wien", 0.0, 0, 1387065600, 16, 0, 0], [196593780, "Japanese Kinship Terms JTMW (version 1.02)", 0.0, 0, 1421107200, 31, 0, 0], [1314284864, "Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [469968023, "Week 1 Proteins", 0.0, 0, 1409443200, 51, 0, 1], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [2212265387, "HR \u00cdslenska stig 1 - Sigr\u00ed\u00f0ur Kristinsd\u00f3ttir", 0.0, 0, 1367366400, 29, 0, 0], [2117778396, "Mins Words", 0.0, 0, 1416182400, 11, 0, 0], [483413729, "Biologie Insekten", 0.0, 0, 1389571200, 32, 0, 0], [1705380750, "2014 Inspired Vocabulary 2", 0.0, 0, 1411257600, 59, 0, 0], [2021268026, "Instruments and Supplies", 0.0, 0, 1430524800, 167, 0, 166], [129185684, "2014 Inspired Vocabulary 3", 0.0, 0, 1421020800, 257, 0, 0], [1899523792, "FTS4 Personaleinsch\u00e4tzung", 0.0, 0, 1409097600, 33, 0, 0], [2699726511, "IERW - Instruments", 0.0, 0, 1345852800, 227, 0, 34], [271731087, "Medisinsk biokjemi", 0.0, 0, 1395014400, 506, 0, 0], [251565083, "Fundamentals of Instruction", 0.0, 0, 1359936000, 87, 0, 0], [662270231, "LBR6 -- Business Associations and Negotiable Instruments", 0.0, 0, 1405900800, 102, 0, 0], [1305194227, "La politique et les institutions (Fr - Esp) ", 0.0, 0, 1445990400, 321, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [1286284367, "KCOM - Dr. Robbins Cases (Neuro Block II)", 0.0, 0, 1423872000, 112, 1, 214], [1777158249, "bio1011wasaninsidejob", 0.0, 0, 1433548800, 200, 0, 43], [2462634497, "Lins Danske Ord og S\u00e6tninger", 0.0, 0, 1359244800, 24, 24, 0], [709517551, "BrzrkrkKen Instruments", 0.0, 0, 1397001600, 285, 0, 0], [1009874510, "US Military - Rank & Insignia", 0.0, 0, 1419292800, 38, 0, 36], [3953375097, "Westminster Shorter Catechism ", 0.0, 0, 1345852800, 47, 0, 0], [1555192785, "Goldstein Parkinsons", 0.0, 0, 1422748800, 28, 0, 2], [3704314987, "CMS 6 - DIsord. of Instestine 2 (Ryan)", 0.0, 0, 1345852800, 96, 0, 5], [381666314, "Brainstem 3 Syndromes", 0.0, 0, 1425081600, 22, 0, 0], [1641306702, "HD Disorders And Proteins", 0.0, 0, 1430092800, 36, 0, 0], [307667533, "Collins Ecclesiastical Latin Primer Vocabulary", 0.0, 0, 1434153600, 461, 0, 0], [953091856, "Max*/Matiar/Ameer Membrane Immunology Plasma Proteins", 0.0, 0, 1379289600, 23, 0, 16], [716704289, "CRM- Proteins", 0.0, 0, 1367625600, 18, 0, 2], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [165388687, "Stewart: Neurotoxins", 0.0, 0, 1424563200, 64, 0, 0], [904960090, "Extrinsic back muscles", 0.0, 0, 1409443200, 28, 0, 0], [3413446272, "Souverains de France", 0.0, 0, 1345852800, 111, 0, 0], [942251095, "Intrinsic back muscles", 0.0, 0, 1409443200, 24, 0, 0], [1061963553, "Westminster Shorter Catechism w/ clean Formatting and Fields", 4.67, 3, 1407888000, 107, 0, 0], [96649348, "Vitamins ", 0.0, 0, 1411776000, 49, 0, 0], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [2977877472, "Medical Spanish (Colombian) - Defense Language Institute LSK", 4.33, 3, 1418342400, 640, 637, 0], [1371735481, "Mins Phrases ", 0.0, 0, 1416182400, 2, 0, 0], [1070407933, "Reverse Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [158300759, "Westminster Larger Catechism", 4.0, 1, 1398643200, 196, 0, 0], [1938196840, "MCB Block 3 Proteins", 0.0, 0, 1414540800, 79, 0, 0], [319193245, "Latina:farm_vitamins", 0.0, 0, 1426550400, 15, 0, 0], [1704261859, "SUR 122 Instruments and Supplies", 0.0, 0, 1430784000, 175, 0, 175], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [1819837037, "Einstein 2nd yr ICM final", 0.0, 0, 1345852800, 254, 0, 0], [682022296, "A2. Lesson 9. Reading about twins", 0.0, 0, 1424304000, 11, 11, 0], [1453764190, "ATmega instruction set", 0.0, 0, 1385510400, 131, 0, 0], [2576899571, " Tema 11.1  Farmacolog\u00eda II  Insuficiencia  card\u00edaca ", 0.0, 0, 1369440000, 124, 0, 0], [639492508, "ASO - INS la Pineda", 0.0, 0, 1422576000, 18, 0, 0], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [880495751, "MDTI 02.03.15 Prostaglandins", 0.0, 0, 1423008000, 53, 0, 0], [207415160, "Rationality and Biases [@jackkinsella]", 0.0, 0, 1404691200, 374, 0, 39], [1916065590, "Zwanzig weniger eins - 1. Familie", 0.0, 0, 1373760000, 254, 0, 0], [1663500573, "Medical Persian Farsi Iran - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ins</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

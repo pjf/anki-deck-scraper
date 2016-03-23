@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[70031263, "Morphological Families for Two-Kanji Compounds", 5.0, 2, 1431388800, 19638, 0, 0], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [1278657410, "Path3 - Morph Buzzwords", 0.0, 0, 1453334400, 17, 0, 0], [511419172, "NUT 111AV DIGESTION AND ABSORPTION", 0.0, 0, 1451088000, 47, 0, 0], [598523164, "Hospital Corpsman Exam study deck: Instructions", 0.0, 0, 1439683200, 20, 0, 0], [1944554978, "Peace Corps Darija Dictionary (Script)", 0.0, 0, 1409702400, 748, 0, 0], [283926030, "parti del corpo by 853722", 0.0, 0, 1440028800, 6, 0, 0], [1721290998, "Hospital Corpsman Exam Deck: Chemical Weapons", 0.0, 0, 1439683200, 20, 0, 0], [989660710, "Lecture 22 GI Digestion and Absorption", 0.0, 0, 1393286400, 35, 0, 7], [2131159971, "le corps", 0.0, 0, 1436659200, 12, 13, 1], [1289790901, "CFA L2 Corp Fin - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 41, 0, 18], [931098670, "Corpus 3000", 0.0, 0, 1345852800, 310, 149, 0], [975335255, "Dysmorphism terms", 0.0, 0, 1433980800, 138, 0, 0], [1107458831, "FRCPath Part II: Morphology", 0.0, 0, 1411257600, 513, 0, 576], [614283834, "Corporate Governance", 0.0, 0, 1425254400, 41, 0, 0], [69959300, "MDTI 01.21.15 Neoplasia Nomenclature Morphology", 0.0, 0, 1422230400, 40, 0, 18], [2822835243, "Ivo Welch's Corporate Finance (2nd ed.)", 3.0, 1, 1364947200, 42, 0, 2], [923599107, "INVERCORPEFS", 0.0, 0, 1387238400, 68, 0, 0], [43617190, "Neoplasia Nomenclature Morphology", 0.0, 0, 1422057600, 43, 0, 13], [1906053332, "Lymph Node Morphology", 0.0, 0, 1422057600, 29, 0, 0], [1877504189, "The human body - le corps humain", 0.0, 0, 1429920000, 261, 0, 0], [1468173820, "Substantivos 2 - Corpo (SLC)", 0.0, 0, 1384300800, 32, 0, 0], [1749071173, "Spanish Subtitles Corpus 1-2000", 0.0, 0, 1402444800, 4204, 0, 0], [2335974837, "HMS.IHP.GI.V.FatAbsorption", 0.0, 0, 1362096000, 24, 0, 8], [1602610870, "Lipid Digestion, Absorption and Assimilation", 0.0, 0, 1411603200, 62, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Orp</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

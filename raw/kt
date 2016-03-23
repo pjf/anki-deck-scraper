@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[423533680, "Schweizer Strommarkt Fachvokabular DE-FR", 0.0, 0, 1454544000, 318, 0, 0], [220999045, "Duits - Neue Kontakte 12 VWO 6e editie", 0.0, 0, 1454630400, 931, 0, 0], [794383054, "LM4 Schulinspektion", 0.0, 0, 1454716800, 4, 0, 3], [769993852, "German-Icelandic from Wiktionary", 0.0, 0, 1453939200, 2073, 0, 0], [724804547, "Chemie Strukturformeln FFM Chemie f\u00fcr Mediziner", 0.0, 0, 1454025600, 190, 0, 191], [63966141, "Adjektiv", 0.0, 0, 1453161600, 48, 0, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [1520978235, "Funktions-Verb-Gef\u00fcge", 0.0, 0, 1453334400, 25, 0, 0], [1918915202, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 4", 0.0, 0, 1451779200, 170, 0, 0], [591908342, "Histo Praktikum Block 3", 0.0, 0, 1450224000, 82, 0, 87], [1283154252, "DaF Kompakt A2 Deutsch T\u00fcrkisch", 0.0, 0, 1452211200, 104, 0, 0], [1275627506, "Vocab KTT", 0.0, 0, 1449792000, 271, 271, 35], [1041272842, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 3", 5.0, 2, 1451692800, 177, 0, 0], [605377097, "Oktat\u00e1si alapismeretek \u00e9retts\u00e9gi k\u00e9rd\u00e9sek", 0.0, 0, 1451779200, 1101, 0, 0], [448224390, "Kontakto vocabulario vortaro", 0.0, 0, 1447804800, 1000, 0, 0], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 4.0, 1, 1409443200, 106, 0, 127], [1884179457, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 1", 0.0, 0, 1447632000, 146, 0, 0], [832603678, "Marcamedies German Lektion Zwei", 0.0, 0, 1449878400, 36, 0, 0], [1921475781, "Ideologie, doktryny polityczne (oprac. Bog.Piet.)", 0.0, 0, 1448928000, 64, 0, 0], [1085375872, "Deutsch Goethe a1 perfekt Vergangenheit ", 0.0, 0, 1448064000, 59, 3, 2], [480928451, "Et \u00e5r i Norge - Lektion 4", 4.0, 1, 1448409600, 70, 0, 0], [847946617, "Aktion Deutsch 1 \u2013 Rozdzia\u0142 2", 0.0, 0, 1449014400, 41, 0, 0], [1552432975, "S\u0142\u00f3wka czeskie, lektorat ", 0.0, 0, 1447804800, 161, 0, 1], [933587419, "Lektion 26", 0.0, 0, 1447200000, 28, 0, 0], [1740603545, "Alefba erste vier Lektionen", 0.0, 0, 1446595200, 296, 0, 0], [839721054, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 2", 0.0, 0, 1447632000, 201, 0, 0], [1096582102, "Cocktail recipes covered by a NW US Bartending College", 0.0, 0, 1447632000, 127, 0, 0], [1276033024, "11.4 Politik Syrien Konflikt ", 0.0, 0, 1449014400, 12, 0, 3], [1764791838, "Lektion 27", 0.0, 0, 1447200000, 28, 0, 0], [1320303589, "Vocabulario Sicher! b2.1 Lektion 1", 0.0, 0, 1446854400, 90, 0, 0], [1131186629, "Lektion 25", 0.0, 0, 1447200000, 28, 0, 0], [1678890178, "Japanische Adjektive VHS-WI H73090", 0.0, 0, 1446076800, 60, 0, 0], [1651502487, "Deutsch Lektion 3 (Zahlen) Thannhauser Modell", 0.0, 0, 1447804800, 36, 36, 0], [2029250081, "Et \u00e5r i Norge - Lektion 3", 0.0, 0, 1445385600, 85, 0, 0], [298864061, "Das Neue Praktische Chinesisch (Band 1-3)", 3.67, 3, 1345852800, 1925, 0, 0], [1496877297, "Bochum Lektion 1", 0.0, 0, 1445040000, 54, 0, 0], [870991221, "Adjektive mit unregelm\u00e4\u00dfiger Steigerung", 0.0, 0, 1448409600, 41, 0, 0], [368480404, "KTTL", 0.0, 0, 1446681600, 32, 0, 64], [2083312821, "Deutsch Lektion 4 Thannhauser Modell", 0.0, 0, 1447804800, 16, 16, 0], [1394650898, "Vocabulario Sicher! b2.1 Lektion 2", 0.0, 0, 1446854400, 94, 0, 0], [382694247, "English Voc J1 WG (Okt)", 0.0, 0, 1445299200, 125, 0, 0], [2118642457, "Korbut - przeciwbakteryjne", 0.0, 0, 1445212800, 36, 0, 0], [578409285, "Deutsch Perfekt 5", 0.0, 0, 1453852800, 535, 431, 205], [197736293, "Deutsch Goethe Adjektive mit Gegenteil ", 0.0, 0, 1448064000, 36, 3, 2], [525716758, "Charakter & Temperament (German to English)", 0.0, 0, 1442966400, 20, 0, 0], [710318989, "J-Bridge Vokabeln Lektion 5", 0.0, 0, 1444867200, 130, 0, 0], [1761928544, "Charakter & Temperament (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1196391144, "Et \u00e5r i Norge - Lektion 1", 0.0, 0, 1444176000, 72, 0, 0], [2115485069, "Et \u00e5r i Norge - Lektion 2", 0.0, 0, 1444176000, 100, 0, 0], [837203531, "Trivialnamen / Funktionelle Gruppen", 0.0, 0, 1443052800, 68, 0, 68], [1372516784, "Lektorat - angielski - czasowniki nieregularne EN-EN (UAM)", 1.0, 2, 1345852800, 176, 0, 0], [637075483, "Cocktails_4F", 0.0, 0, 1445472000, 19, 3, 4], [714215906, "Inuktitut Syllabics", 0.0, 0, 1345852800, 120, 0, 0], [393140332, "J-Bridge Vokabeln Lektion 6", 0.0, 0, 1444867200, 85, 0, 0], [75000918, "kinesiska@KTH bok1", 0.0, 0, 1441324800, 14, 28, 3], [1319551392, "Elektromotorni pogoni uvod ", 0.0, 0, 1444608000, 0, 0, 0], [1249862032, "sip3_aktuell", 5.0, 1, 1439769600, 2888, 0, 234], [1991673161, "Funktionalanalysis (final)", 0.0, 0, 1443830400, 247, 0, 91], [1849369642, "VIT - Projektmanagement", 0.0, 0, 1444089600, 41, 0, 4], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 2.5, 2, 1345852800, 500, 0, 0], [2474573896, "Lektorat - angielski w biznesie PL-EN (UAM)", 0.0, 0, 1345852800, 160, 0, 0], [2095062719, "Charakter & Temperament", 0.0, 0, 1442793600, 20, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [419443158, "Funktionalanalysis", 0.0, 0, 1439769600, 98, 0, 91], [1013594208, "Projekt und Org Management POM SS15 - TUM", 0.0, 0, 1437955200, 212, 1, 22], [2476666722, "KT#5", 0.0, 0, 1384128000, 70, 39, 0], [1687157957, "Konstruktion utmattning", 0.0, 0, 1437264000, 32, 0, 5], [1214596043, "Konstruktion Lager", 0.0, 0, 1437264000, 23, 0, 0], [381859838, "Adjektiven+sein mit Pr\u00e4positionen tschechisch-deutsch byWolf", 0.0, 0, 1411603200, 62, 0, 0], [2231312730, "Javisst! - Lektion 1-6", 0.0, 0, 1359072000, 621, 0, 0], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [524074924, "Erin Lektion 1", 0.0, 0, 1431388800, 16, 0, 0], [1830691264, "Lumina Latein Lernvokabeln - Lektion 1", 0.0, 0, 1370995200, 40, 0, 0], [2084495902, "KMP_4_MUI_Infektio", 0.0, 0, 1440979200, 631, 0, 0], [860142072, "FOKUS - CHARAKTER - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [30140141, "Anorganische Chemie Nachweisreaktionen", 0.0, 0, 1410220800, 29, 0, 3], [757887544, "\u65b0\u6807\u51c6\u5fb7\u8bed\u5f3a\u5316\u6559\u7a0b2 Lektion5", 0.0, 0, 1418860800, 188, 5, 0], [3663071247, "Deutsch Perfekt 1", 0.0, 0, 1367366400, 1005, 0, 123], [890364032, "Bochum Lektion 19", 0.0, 0, 1434326400, 51, 0, 0], [1478878857, "\u0420\u0443\u0441\u0441\u043a\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0441 tylbaas.ykt.ru (by Cujoko)", 0.0, 0, 1413331200, 4956, 0, 0], [986069772, "12 Tumorer, cerebral parese, infektioner", 0.0, 0, 1416614400, 57, 0, 30], [3415702610, "KT#1", 0.0, 0, 1384128000, 94, 71, 0], [2040950631, "Cursus Brevis, Lektion 12", 0.0, 0, 1425254400, 40, 0, 0], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [906413708, "Infektiologie TU M\u00fcnchen ", 0.0, 0, 1419033600, 111, 2, 1], [1038916791, "SIP3 v1409, source: doktormike.net", 0.0, 0, 1430870400, 4316, 0, 60], [265990646, "PHZH Quest 2 Musiktheorie Grundlagen", 0.0, 0, 1413849600, 133, 0, 9], [1713562532, "T7Infektion", 0.0, 0, 1401062400, 92, 0, 6], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [245915709, "Datenstrukturen und Algorithmen", 0.0, 0, 1425081600, 85, 0, 187], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [1540239470, "Adjektive", 0.0, 0, 1383782400, 29, 0, 0], [654378495, "ZKT CWI", 0.0, 0, 1438387200, 544, 0, 296], [2138997147, "Ven\u00e4j\u00e4n adjektiivien vertailuasteet", 0.0, 0, 1419292800, 31, 0, 0], [29886310, "Humanpatogene bakterier demonstrasjon - med bilder", 0.0, 0, 1345852800, 11, 0, 9], [719431520, "UJK Gramatyka Praktyczna", 0.0, 0, 1387238400, 205, 0, 0], [1895863589, "\u65b0\u6807\u51c6\u5fb7\u8bed\u5f3a\u5316\u6559\u7a0b\uff08\u521d\u7ea7\uff09 Lektion3 \uff08\u5b8c\u6210\u7248\uff09", 0.0, 0, 1408492800, 192, 5, 0], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [139037500, "IBA Cocktail Recipes", 0.0, 0, 1397001600, 77, 0, 0], [2315988852, "Chemie 1. Semester Grundlegende Ph\u00e4nomene chemischer Reaktio", 0.0, 0, 1346284800, 105, 0, 34], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [1142936968, "Projektierung", 0.0, 0, 1450569600, 28, 0, 6], [1065562328, "Espanjan preteriti ja imperfekti -harjoituksia", 0.0, 0, 1426377600, 95, 0, 0], [1769880216, "GKT MBBS5 notes ", 0.0, 0, 1431734400, 139, 0, 10], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [1245300071, "Fin\u0161tina - p\u0159eklady a praktick\u00e9", 0.0, 0, 1401667200, 647, 0, 0], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 4.0, 1, 1345852800, 500, 0, 0], [899431406, "koktelreceptek", 0.0, 0, 1412294400, 44, 0, 2], [1628315334, "Surface Chemistry KTK095", 0.0, 0, 1414454400, 130, 0, 9], [1008771921, "Funktionalanalysis", 0.0, 0, 1421366400, 230, 0, 265], [1390372234, "sozialstrukturanalyse ", 0.0, 0, 1422576000, 275, 0, 9], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [2001817837, "Mittelpunkt B2.1 Thema3", 0.0, 0, 1384128000, 347, 0, 0], [2824111462, "KT#3", 0.0, 0, 1384128000, 75, 51, 0], [4027237569, "Polnisch, Lektion 1 ", 0.0, 0, 1345852800, 71, 0, 0], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [2820284005, "Deutsch Perfekt 3 (magyar-nemet)", 0.0, 0, 1453852800, 1004, 529, 414], [1208892727, "Bochum Lektion 20", 0.0, 0, 1434326400, 53, 0, 0], [1671241037, "\u65b0\u6807\u51c6\u5fb7\u8bed\u5f3a\u5316\u6559\u7a0b1 Lektion5", 0.0, 0, 1417305600, 294, 5, 0], [171266800, "KT #7", 0.0, 0, 1389225600, 100, 100, 0], [375804819, "Chemie 2. Semester Donator-Akzeptor-Reaktionen", 0.0, 0, 1346284800, 154, 0, 99], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [1446961703, "FOKUS - ERSTE KONTAKTE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [483413729, "Biologie Insekten", 0.0, 0, 1389571200, 32, 0, 0], [1854461120, "Rektion der Verben PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [1611662936, "Strukturgeologie", 0.0, 0, 1389744000, 139, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [3045643711, "Jahrmarkt", 0.0, 0, 1345852800, 91, 0, 0], [253151767, "Produktionstechnik II TU Berlin", 0.0, 0, 1437523200, 94, 0, 10], [1265337882, "Das schmeckt gut ", 0.0, 0, 1418256000, 51, 49, 53], [2749225995, "\u0e44\u0e21\u0e44\u0e17\u0e22 - Adjektive, Adverbien, Pr\u00e4positionen ", 0.0, 0, 1383782400, 334, 0, 0], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1326461296, "IBA Official Cocktails: Recipes and Pictures", 0.0, 0, 1418169600, 75, 0, 73], [70840341, "starkt kl\u00f6versystem bridge ", 0.0, 0, 1420329600, 25, 0, 0], [1653325242, "PHZH Quest Musiktheorie Grundlagen Nowak", 0.0, 0, 1415318400, 135, 0, 9], [1921600280, "Grundlagen der Sprachdidaktik ", 0.0, 0, 1405296000, 19, 0, 3], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [1977629592, "Isl\u00e6ndische Vokalbeln mit Flektionsklassen", 0.0, 0, 1425340800, 163, 0, 0], [420376188, "FOKUS - EXAKT 02 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [2208213442, "Deutsch Perfekt 1 (n\u00e9met-magyar)", 0.0, 0, 1453852800, 1000, 513, 408], [3535495155, "Deutsch Perfekt 2 (n\u00e9met-magyar)", 5.0, 1, 1453852800, 1026, 492, 384], [1462123574, "Sz\u00e1m\u00edt\u00f3g\u00e9p Architekt\u00far\u00e1k", 0.0, 0, 1437264000, 251, 0, 0], [663210289, "KT#2", 0.0, 0, 1384128000, 63, 35, 0], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [1379665052, "Kontakte 7 Kapital 8 (unfinished)", 0.0, 0, 1412726400, 26, 0, 39], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [4028583003, "Demonstrasjon: humanpatogene bakterier", 0.0, 0, 1345852800, 11, 0, 9], [138241836, "Latinum Ausgabe B Lektion 22", 0.0, 0, 1421625600, 41, 0, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [1204098998, "FOKUS - EXAKT 01 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [2098683027, "Obrazovne perspektive", 0.0, 0, 1428969600, 51, 0, 0], [685271587, "Cocktails", 0.0, 0, 1392076800, 158, 0, 0], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [2139299562, "TCF KT FR-CS-FR", 0.0, 0, 1392854400, 27, 0, 0], [3942192955, "UPB_KT", 0.0, 0, 1370390400, 50, 0, 11], [4052180344, "Induktion", 0.0, 0, 1358812800, 18, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [575464002, "Lektion 1", 0.0, 0, 1351468800, 52, 0, 0], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [714191061, "Bauphysikalische Optimierung von Hochbaukonstruktionen", 0.0, 0, 1406073600, 152, 0, 9], [573318215, "\u65b0\u6807\u51c6\u5fb7\u8bed\u5f3a\u5316\u6559\u7a0b2 Lektion1", 0.0, 0, 1417305600, 240, 5, 0], [2065018530, "IPMA Projektmanagement Level D", 0.0, 0, 1345852800, 272, 0, 0], [707046712, "Latein Lektion 21", 0.0, 0, 1428624000, 38, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [1453908785, "Projektmanagement FU Hagen", 0.0, 0, 1428278400, 46, 0, 0], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [297920192, "Altgriechisch Nomen \u00fc Adjektive", 3.0, 1, 1362009600, 808, 0, 0], [1584586928, "Bs5 Elektro Vokabeln", 0.0, 0, 1416355200, 19, 19, 27], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [246059310, "100 Punkte Baumliste", 0.0, 0, 1411516800, 111, 0, 0], [836072956, "HTLinn Elektronik Vokabelliste", 0.0, 0, 1414972800, 799, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [4020148685, "Adverbien u. Konjunktionen in Esperanto", 0.0, 0, 1345852800, 35, 0, 0], [3197657371, "Cocktail Recipes", 0.0, 0, 1345852800, 25, 0, 0], [1101296907, "aktuell, aktuelt - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 25, 50, 0], [803260466, "Themen Aktuell 1", 0.0, 0, 1427414400, 1186, 1183, 3], [1684900806, "Chemie 3. Semester Vom Rohstoff zum Systheseprodukt", 0.0, 0, 1346284800, 97, 0, 55], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [2146414573, "Elektrische Bauelemente", 0.0, 0, 1389052800, 66, 0, 32], [2956513523, "Deutsch Perfekt 4 (magyar-n\u00e9met)", 5.0, 1, 1453852800, 1005, 639, 304], [1737776144, "Aspekt C1.2", 0.0, 0, 1422748800, 953, 0, 0], [809077151, "Svenska Adjektiv", 0.0, 0, 1368921600, 185, 0, 0], [1437669281, "el curso en vivo lektion 2", 0.0, 0, 1430352000, 124, 5, 0], [404307161, "el curso en vivo lektion 1", 0.0, 0, 1430352000, 102, 5, 0], [266497706, "Bochum Lektion 14", 0.0, 0, 1431388800, 61, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [2522743621, "German Irregular Verbs, Pr\u00e4teritum und Perfekt", 4.0, 1, 1373587200, 38, 0, 0], [811948970, "DM_R16 Stoffklassen und Funktionelle Gruppen", 0.0, 0, 1416441600, 18, 0, 17], [2161294631, "AF2 dissektion 8 - kar, nerver og andre strukturer", 0.0, 0, 1345852800, 37, 0, 74], [3921228207, "KT#4", 0.0, 0, 1384128000, 113, 78, 0], [204707956, "Nanomaterials Chemistry (KTK041)", 0.0, 0, 1420761600, 44, 0, 4], [23391890, "Bochum Lektion 15", 0.0, 0, 1430092800, 49, 0, 0], [531747341, "parazyty-praktyk", 0.0, 0, 1400630400, 35, 0, 38], [1417747720, "technische Projektanalyse", 0.0, 0, 1423353600, 0, 0, 0], [2075183149, "Han GuG EKT", 0.0, 0, 1428969600, 904, 0, 4], [2067847049, "PortuguesBenediktBla", 0.0, 0, 1396828800, 1, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [96133927, "Deutsch perfekt 1. (n\u00e9met-magyar)", 0.0, 0, 1366848000, 1005, 0, 110], [2050023423, "Produkters kemi", 0.0, 0, 1400716800, 151, 0, 1], [880517544, "Kukta suomi", 0.0, 0, 1393891200, 129, 0, 0], [1603469521, "koktelreceptekstand", 0.0, 0, 1412294400, 11, 0, 2], [2359722318, "Direkt Neu PL-DE (K. Pajewski)", 0.0, 0, 1345852800, 1435, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[958412884, "Updated Allez Viens", 0.0, 0, 1450828800, 1076, 1075, 19], [1710259620, "Espresso 1 Lezione 2", 0.0, 0, 1447804800, 159, 0, 0], [1215127008, "Espresso 1 Lezione 1", 0.0, 0, 1447804800, 264, 0, 0], [1337964523, "Espresso 1 Lezione 5", 0.0, 0, 1447804800, 228, 0, 0], [1313705418, "Espresso 1 Lezione 6", 0.0, 0, 1447804800, 155, 0, 0], [336758320, "Espresso 1 Lezione 9", 0.0, 0, 1447804800, 165, 0, 0], [1101955036, "Espresso 1 Lezione 7", 0.0, 0, 1447804800, 190, 0, 0], [1424374374, "Espresso 1 Lezione 4", 0.0, 0, 1447804800, 333, 0, 0], [930481249, "Allez, Viens! Vocabulary", 0.0, 0, 1448668800, 1081, 8, 17], [1489359048, "Espresso 1 Lezione 10", 0.0, 0, 1447804800, 215, 0, 0], [478782729, "Espresso 1 Lezione 3", 0.0, 0, 1447804800, 504, 0, 0], [1147691393, "Espresso 1 Lezione 8", 0.0, 0, 1447804800, 150, 0, 0], [1247154178, "Il cinese per gli italiani vol. 2 - Lezione 7", 0.0, 0, 1443830400, 35, 2, 0], [1073996599, "Il cinese per gli italiani vol. 2 - Lezione 8", 0.0, 0, 1443830400, 33, 2, 0], [741701325, "Il cinese per gli italiani vol. 2 - Lezione 2", 0.0, 0, 1443312000, 38, 2, 0], [1136524582, "Italiano - lezione 1", 0.0, 0, 1443657600, 69, 0, 0], [367229321, "Il cinese per gli italiani vol. 2 - Lezione 6", 0.0, 0, 1443830400, 31, 2, 0], [1057958866, "Il cinese per gli italiani vol. 2 - Lezione 5", 0.0, 0, 1443312000, 46, 2, 0], [1946663683, "Italiano - lezione 2", 0.0, 0, 1443657600, 111, 0, 0], [470747188, "Il cinese per gli italiani vol. 2 - Lezione 1", 0.0, 0, 1443312000, 37, 2, 0], [943350254, "Italiano - lezione 0", 0.0, 0, 1443657600, 57, 0, 0], [1912926621, "Il cinese per gli italiani vol. 2 - Lezione 3", 0.0, 0, 1443312000, 39, 2, 0], [1625731516, "Il cinese per gli italiani vol. 2 - Lezione 4", 0.0, 0, 1443312000, 48, 2, 0], [618576749, "USC Dental - George Gonzalez", 0.0, 0, 1439078400, 52, 0, 9], [2078942369, "Clezio Camus", 0.0, 0, 1425600000, 1376, 0, 0], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 0.0, 0, 1345852800, 769, 0, 0], [39808157, "Espresso 1 - lezione 2: io e gli altri", 0.0, 0, 1392163200, 136, 0, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 0.0, 0, 1345852800, 641, 0, 0], [795176364, "ALLEZ", 0.0, 0, 1425600000, 404, 0, 0], [569506958, "Espresso 1 - lezione 1: primi contatti", 0.0, 0, 1392163200, 117, 0, 0], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 0.0, 0, 1345852800, 335, 0, 0], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lez</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[769202743, "UIHC Surgery Pestana", 0.0, 0, 1453680000, 320, 3, 7], [1407442620, "Oleh Marushchak", 0.0, 0, 1454284800, 11, 0, 0], [195601326, "Amharic-English Flashcards", 0.0, 0, 1454889600, 971, 0, 0], [1248500644, "3000 Oxford Common Words Flashcards", 3.5, 2, 1398470400, 3377, 6754, 313], [1918804031, "LU PT Exam flashcards", 0.0, 0, 1453248000, 123, 0, 0], [1340826029, "ACE Exam flashcards", 0.0, 0, 1453248000, 221, 0, 0], [490744079, "Web Development Flashcards [@jackkinsella]", 5.0, 4, 1404691200, 6144, 0, 258], [1085600304, "rowan som fundamentals 2 microbiology LECTURE 2 MHC TCR", 0.0, 0, 1410307200, 60, 0, 26], [1389666706, "Dermatology Final Exam Flashcards", 0.0, 0, 1449446400, 289, 0, 101], [1377864668, "RHCSA", 0.0, 0, 1450569600, 89, 0, 0], [1992011021, "Physiology Exam #5 Flashcards", 0.0, 0, 1447977600, 283, 0, 6], [445609231, "OMM Year 2 Exam 1 Flashcards", 0.0, 0, 1449792000, 288, 0, 127], [1213226906, "History of Photography Exam Flashcards", 0.0, 0, 1449446400, 77, 0, 77], [19022210, "Semester One flashcards", 0.0, 0, 1449532800, 1081, 0, 2], [1195349525, "Flashcard Anglais DOA Saint-Vincent Soignies UNIT 1-2-3-4", 0.0, 0, 1446940800, 230, 225, 4], [2020162015, "Ann's Intermediate to Advanced Flashcards", 0.0, 0, 1448496000, 88, 0, 1], [337171345, "Chris's flashcards (USC dental)", 0.0, 0, 1447286400, 127, 0, 6], [169864257, "HCE SN", 0.0, 0, 1446768000, 88, 0, 0], [1062151237, "AAA flashcard", 0.0, 0, 1448236800, 13, 0, 0], [2012105202, "PHCY 405 Top 200 Drug List", 0.0, 0, 1447200000, 246, 0, 0], [1233276873, "DHC Chapters", 0.0, 0, 1445817600, 128, 0, 0], [278548011, "Portugese Flashcards 1234", 0.0, 0, 1443657600, 1000, 0, 0], [1512737174, "EENT OUHCOM", 0.0, 0, 1444435200, 367, 0, 21], [843771850, "RACP Written Exam Flashcards", 0.0, 0, 1442016000, 3688, 0, 166], [929715644, "Global Advanced Flashcards Unit\u00e0 1", 0.0, 0, 1439856000, 141, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [391614082, "Pathology Sem 2 Flashcards", 0.0, 0, 1443052800, 489, 0, 33], [1333550820, "Derrick Anatomy flashcards", 0.0, 0, 1441929600, 41, 0, 44], [513161176, "EVMS MM Anatomy Flashcards", 0.0, 0, 1441497600, 2880, 0, 325], [1439138863, "Test 1 Anatomy Flashcards 1387", 0.0, 0, 1439942400, 1386, 0, 102], [1800426974, "Mike Ferm's Amino Acid Flashcards", 0.0, 0, 1440201600, 20, 0, 20], [1362145984, "RACP Clinical Exam Flashcards", 0.0, 0, 1442016000, 919, 0, 26], [1496793357, "Flashcards for the Design Rotation", 0.0, 0, 1438905600, 39, 9, 0], [1122915286, "IM flashcards 2343", 0.0, 0, 1437523200, 92, 0, 0], [1886278157, "Hochchinesisch III", 0.0, 0, 1434585600, 613, 0, 0], [98018760, "Mr. Northcutt's English 2", 0.0, 0, 1439683200, 5, 0, 5], [855766342, "Global Advanced -  Flashcards Unit\u00e0 3", 0.0, 0, 1440892800, 134, 0, 0], [3475558167, "Biochemistry & Genetics USMLE Step I Flashcards", 0.0, 0, 1363046400, 137, 0, 0], [1917522332, "LSSA HCP", 0.0, 0, 1440201600, 36, 8, 16], [1626564289, "Global Advanced -  Flashcards Unit\u00e0 2", 0.0, 0, 1440201600, 182, 0, 0], [1844399824, "Blood Block OU-HCOM", 0.0, 0, 1413504000, 1484, 0, 192], [2132392969, "Korean Flashcards for my Love", 0.0, 0, 1436832000, 57, 57, 0], [274734459, "Amino Acid Flashcards", 4.5, 2, 1420761600, 20, 0, 20], [1313266100, "MD6 Neuro HCPs", 0.0, 0, 1417824000, 337, 0, 8], [1234925254, "WCMC Human Structure & Function (HSF) 2013 Flashcards", 0.0, 0, 1389052800, 1582, 0, 245], [629770159, "FRACP Cardiology Flashcards", 0.0, 0, 1426636800, 359, 0, 15], [1721938209, "Coptic Flashcards based on Smith's Dictionary", 0.0, 0, 1413936000, 2100, 0, 1], [1401321967, "Spanish 51 LMC Flashcards (Incomplete)", 0.0, 0, 1345852800, 398, 0, 0], [212761990, "Jillian's Pharm Flashcards", 0.0, 0, 1432771200, 65, 0, 2], [594735782, "Ottoman Flashcards", 0.0, 0, 1393200000, 61, 0, 0], [1516259222, "Examples from Using Anki Flashcards", 0.0, 0, 1412985600, 1, 0, 0], [1123296999, "Food flashcards for Nadav", 0.0, 0, 1433548800, 144, 0, 1], [598939422, "MD7 HCPs", 0.0, 0, 1425945600, 392, 0, 15], [853297118, "MD6 HCPs for psych ", 0.0, 0, 1417824000, 76, 0, 3], [1703730426, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 2", 0.0, 0, 1366329600, 83, 0, 0], [665313153, "MHCHS Key Slave Trading Events", 0.0, 0, 1363737600, 62, 0, 0], [1267179880, "Flashfinals - flashcards for UK medical school exams", 5.0, 1, 1452988800, 2596, 3, 82], [1051860598, "MSK HCPs ", 0.0, 0, 1417305600, 246, 0, 11], [1219500844, "Practical 4 Flashcards", 0.0, 0, 1399248000, 266, 0, 52], [923796402, "Thai Language Flashcards", 0.0, 0, 1416700800, 105, 67, 102], [2001843700, "MHCHS Edexcel Unit 2: Topic 4 Nazi Domestic Policies 1933-39", 0.0, 0, 1388016000, 52, 0, 0], [1488104980, "HCC Government", 0.0, 0, 1428624000, 413, 7, 0], [2038964407, "Renewable energies course flashcards", 0.0, 0, 1436400000, 118, 0, 69], [219659767, "Eastern Civ Flashcards", 0.0, 0, 1393200000, 284, 0, 0], [3674668436, "SaengMyong_Flashcards", 0.0, 0, 1349308800, 143, 0, 0], [1545117789, "Real BI Drugs Flashcards", 0.0, 0, 1418256000, 153, 0, 0], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [1918766345, "GEM flashcards for Martin new", 0.0, 0, 1393286400, 3108, 0, 0], [3431085932, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 1", 0.0, 0, 1366329600, 90, 0, 0], [1453769736, "Med I MKSAP Flashcards", 0.0, 0, 1424131200, 552, 0, 10], [841282207, "MHCHS Edexcel GCSE Unit 1 Section 1", 0.0, 0, 1371254400, 39, 0, 0], [3905715188, "UMMS Brain Track 3 Psychiatry Flashcards (Disorders & Pharm)", 0.0, 0, 1361664000, 374, 0, 0], [1143157853, "Social Psychology Textbook Flashcards", 0.0, 0, 1393804800, 182, 0, 0], [402154273, "Cardiff Uni ComSci HCI Exam Revision", 0.0, 0, 1388793600, 87, 0, 0], [3524369849, "MHCHS Edexcel Unit 2: Topic 2 Rise of the Nazi Party 1918-33", 0.0, 0, 1383091200, 41, 0, 0], [59972112, "6270 Care of Adults - Finals flashcards", 0.0, 0, 1386633600, 136, 0, 20], [1071094952, "Mughal Flashcards", 0.0, 0, 1393200000, 64, 0, 0], [632602298, "MHCHS Edexcel Unit 2: Weimar Republic 1918-33", 0.0, 0, 1383091200, 86, 0, 0], [1600495101, "3000 Oxford FlashCard EN-VI", 0.0, 0, 1403136000, 3353, 3369, 7], [904977388, "Gineco hc", 0.0, 0, 1395446400, 18, 0, 9], [1771203477, "Hochchinesisch IV", 0.0, 0, 1402704000, 300, 0, 0], [153076468, "biostatuchc", 0.0, 0, 1363564800, 81, 0, 4], [624676379, "MHCHS Edexcel Unit 2: Topic 3 The Nazi Dictatorship 1933-39", 0.0, 0, 1387929600, 59, 0, 0], [1563572825, "World History Chapter 11 Flashcards", 0.0, 0, 1428451200, 66, 0, 0], [899032712, "Imperial China Final Flashcards", 0.0, 0, 1399680000, 274, 0, 0], [1129613469, "PHCN", 0.0, 0, 1414627200, 89, 0, 0], [979664384, "HMS.IMP.MHC", 0.0, 0, 1364601600, 27, 0, 0], [1382664936, "Ohio State Swahili 1103 Flashcards", 0.0, 0, 1409702400, 143, 0, 0], [3609594007, "MHCHS Timeline of British Empire 1492-1763", 0.0, 0, 1370131200, 26, 0, 0], [1867505142, "Behavioral Neuroscience Exam 3 Flashcards", 0.0, 0, 1419897600, 324, 0, 0], [2060936264, "NPCR Flashcards (Ch 1 - 12)", 5.0, 1, 1431302400, 431, 429, 0], [1037181925, "Histology Slide flashcards", 0.0, 0, 1397779200, 74, 0, 58], [165697127, "PH5 flashcards for WJEC A-level Physics", 0.0, 0, 1428969600, 54, 0, 0], [1230039843, "Qing Dynasty Flashcards", 0.0, 0, 1393200000, 57, 0, 0], [1102872731, "Step 3 Flashcards Wustljeff", 0.0, 0, 1404777600, 244, 0, 0], [2158320535, "Max*/Matiar/Ameer MHC molecules", 0.0, 0, 1379289600, 12, 0, 10], [347320395, "PTCE Flashcards 2014", 0.0, 0, 1413763200, 681, 0, 0], [384983301, "ENGL 241 (14497) Midterm Flashcards", 0.0, 0, 1393027200, 8, 0, 0], [1906734235, "English 11B flashcards", 0.0, 0, 1401321600, 142, 0, 0], [568191158, "6270 Care of Adults CVA flashcards", 0.0, 0, 1386633600, 29, 0, 2], [1910120996, "BIO 182 Exam #2 Flashcards", 0.0, 0, 1425340800, 162, 0, 2], [2593014401, "Spanish 50 LMC Flashcards", 0.0, 0, 1345852800, 891, 0, 0], [2288741695, "MHCHS Politics Key Words and Information", 0.0, 0, 1381104000, 21, 0, 0], [402198864, "Micha's flashcards for Cognitive Science", 0.0, 0, 1393027200, 65, 0, 4], [230198547, "Praxis math flashcards for both Praxis I and II exams", 0.0, 0, 1357344000, 400, 0, 185]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Hc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

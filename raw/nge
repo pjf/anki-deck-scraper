@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[791404065, "EE Formulierungen II", 0.0, 0, 1454803200, 26, 0, 0], [836451434, "EE Formulierungen I", 0.0, 0, 1454803200, 22, 0, 0], [1916583570, "Sch\u00f6ngeburt", 0.0, 0, 1454716800, 62, 0, 0], [1185382950, "Bibelkunde NT (13) Markus Evangelium", 0.0, 0, 1453852800, 74, 0, 0], [325066777, "QWERTY Typing deck. (Keys to finger and finger to keys)", 0.0, 0, 1454371200, 10, 0, 1], [100338815, "Bibelkunde NT (14) Mt Evangelium", 0.0, 0, 1453852800, 54, 0, 0], [1508155275, "Lot en Sebas engels", 0.0, 0, 1453420800, 46, 0, 0], [1448814626, "SM18 - Dangerous Dollies", 0.0, 0, 1452816000, 24, 0, 0], [543859625, "Challenge A", 0.0, 0, 1452297600, 165, 0, 0], [1551514077, "P\u00fctz Pflanzensch\u00e4dlinge", 0.0, 0, 1452816000, 0, 0, 0], [1031301995, "Farmakologi - lungemedicin", 0.0, 0, 1451952000, 6, 0, 4], [1056742136, "90 Day Challenge - Russian - Day 01", 0.0, 0, 1417478400, 40, 29, 3], [508272082, "Deutsch - Fran\u00e7ais f\u00fcr blutige Anf\u00e4nger", 0.0, 0, 1390521600, 230, 0, 0], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 4.0, 1, 1345852800, 250, 0, 0], [1880228155, "Spanisch Anf\u00e4nger", 0.0, 0, 1448841600, 531, 0, 0], [1085375872, "Deutsch Goethe a1 perfekt Vergangenheit ", 0.0, 0, 1448064000, 59, 3, 2], [68813638, "MKL Getriebe und Verzahnungen", 0.0, 0, 1447545600, 88, 0, 30], [1932240786, "A2 Begegnungen English - German", 0.0, 0, 1444435200, 379, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [737687039, "Niclas Engene Ch. 18", 0.0, 0, 1446249600, 83, 0, 10], [1675739495, "Goethe a1 h\u00f6ren \u00dcbungen ", 0.0, 0, 1447977600, 43, 45, 2], [317362519, "Angelika. Words.1", 0.0, 0, 1447027200, 61, 0, 0], [866818089, "Kanji N4 list from Nihongo Challenge book", 0.0, 0, 1439251200, 180, 0, 0], [103043585, "MKL Wellenkupplungen", 0.0, 0, 1445731200, 93, 0, 0], [1704739009, "niclas engene test 2 ", 0.0, 0, 1444953600, 126, 0, 11], [38866731, "MKL Dichtungen", 0.0, 0, 1447545600, 65, 0, 8], [2142128673, "daryll inso topik 1000 word challenge", 0.0, 0, 1444089600, 761, 1, 3], [1254167893, "Langenscheidt - I - 2000 palavras - alem\u00e3o -  portugu\u00eas", 5.0, 1, 1428883200, 1974, 0, 0], [1244162070, "MKL Lagerungen und F\u00fchrungen", 0.0, 0, 1445731200, 92, 0, 15], [570471959, "MKL Schraubenverbindungen", 0.0, 0, 1439337600, 96, 0, 16], [629191217, "Angel: Nomenclature 7/24", 0.0, 0, 1437782400, 116, 0, 0], [500118042, "MKL Bauteilverbindungen", 0.0, 0, 1439251200, 98, 0, 4], [290216921, "375 Redewendungen DE-DE Laura Cavallaro", 0.0, 0, 1378166400, 375, 0, 0], [1908972299, "Seitlinger KG", 0.0, 0, 1452038400, 13, 2, 11], [1700166527, "Seitlinger Insolvenzrecht", 0.0, 0, 1420416000, 23, 2, 2], [7394443, "Interchange", 0.0, 0, 1393027200, 16, 0, 0], [1417067786, "Engels-Nederlands", 0.0, 0, 1438819200, 153, 0, 0], [1019738748, "regelkringen bvj havo-4 begrippen", 0.0, 0, 1431993600, 13, 0, 1], [98651661, "Technische Anweisungen", 0.0, 0, 1435017600, 14, 0, 0], [618522619, "OC I Hiersemann: \u00dcbungen", 0.0, 0, 1406764800, 68, 0, 118], [1348030551, "UBRM_SS2014_Atmospheric pollution and climate change", 0.0, 0, 1417824000, 59, 0, 0], [1188635389, "Interhange 3 MMZ", 5.0, 1, 1437004800, 813, 843, 51], [457026582, "Pharmacology, Age dependent changes", 0.0, 0, 1351123200, 20, 0, 0], [359041611, "Danger areas", 0.0, 0, 1433894400, 15, 0, 0], [1964580388, "Spear Finger (Cherokee)", 0.0, 0, 1431302400, 86, 0, 0], [472838067, "Humangenetik TU M\u00fcnchen", 0.0, 0, 1392076800, 84, 1, 0], [714717292, "Seitlinger EWIV", 0.0, 0, 1452038400, 6, 2, 4], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [441989196, "Fossilien Uni T\u00fcbingen", 0.0, 0, 1425513600, 45, 0, 0], [1572390380, "Franz\u00f6sisch Anf\u00e4ngerkurs 2 WU Wien", 0.0, 0, 1433894400, 419, 0, 0], [251451160, "Deutsche Abk\u00fcrzungen DE-DE-PL Marcin Perli\u0144ski", 0.0, 0, 1345852800, 261, 0, 0], [1813956502, "The Changeling key quotes", 0.0, 0, 1432771200, 192, 0, 0], [935467202, "Englisch-Redwendungen f\u00fcr Deutsche", 4.0, 1, 1345852800, 1774, 0, 0], [480239736, "Interchange Intro MMZ", 5.0, 1, 1436486400, 830, 822, 51], [1069509639, "Diergeneeskunde Embryologie Afwijkingen", 0.0, 0, 1430179200, 196, 0, 126], [1308262341, "The hunger games 1 part", 0.0, 0, 1391299200, 1545, 1326, 5], [499983284, "ACV Verbindungen Aachen", 0.0, 0, 1345852800, 12, 0, 12], [659057783, "Interchange 2 MMZ", 0.0, 0, 1435017600, 737, 770, 51], [913036949, "L\u00f3ng - Chinesisch f\u00fcr Anf\u00e4nger (A1+A2): Vokabelkarten", 5.0, 1, 1368144000, 497, 0, 0], [959693892, "Swahili toevoegingen les 9-12", 0.0, 0, 1431907200, 111, 0, 0], [152207854, "CVA Necturus Head and Pharyngeal Muscles", 0.0, 0, 1382659200, 10, 0, 0], [953320743, "Begegnungen B1 Kapitel 1 (Zeitvertrieb) Deutsch-Russisch", 0.0, 0, 1416268800, 81, 0, 0], [1652970474, "Llama avenger", 0.0, 0, 1414886400, 43, 43, 0], [1499728063, "Linguapolis Niveau 2 Nederlands cursus - Engels", 0.0, 0, 1410825600, 613, 0, 1], [162662169, "Words in context - Challenges of modern society - Unit 5", 5.0, 1, 1386201600, 491, 0, 0], [1467173143, "Engenharia de Software para Concurso", 0.0, 0, 1375401600, 131, 0, 44], [174968363, "Seitlinger GmbH", 0.0, 0, 1452038400, 76, 2, 57], [1867278812, "Book 2 Llama Avengers - Chinese", 0.0, 0, 1414886400, 591, 578, 0], [143442514, "Fragen / Anworten Leadership Change Management", 0.0, 0, 1345852800, 7, 0, 1], [133951269, "Erdgeschichte Uni T\u00fcbingen", 0.0, 0, 1425513600, 195, 0, 0], [22720737, "Begegnungen A1 - Kapitel 2", 0.0, 0, 1414454400, 30, 0, 0], [3349069353, "Long Chinesisch f\u00fcr Anf\u00e4nger 1 Hanzi - Pinyin Lesson 1-11", 0.0, 0, 1345852800, 408, 0, 0], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [1398306250, "Vocabulaire allemand de base - Langenscheidt chap 8/13", 0.0, 0, 1386633600, 295, 0, 0], [2062791171, "Erkundungen Deutsch-Ungarisch C1", 0.0, 0, 1414281600, 331, 0, 0], [1189529087, "Banking, Markets, Stock Exchange, Finance English-Russian", 0.0, 0, 1408233600, 5078, 0, 0], [1577065051, "Koine-Griechisch Verbendungen", 0.0, 0, 1408579200, 21, 0, 0], [1829679792, "WMS - Block 3 - Anatomy of the skull and meninges ", 0.0, 0, 1390694400, 41, 0, 23], [452169592, "changement climatique conference mercredi", 0.0, 0, 1426032000, 129, 0, 0], [2049495529, "Guntram et Silke vocabulaire TinTin, vendanges", 0.0, 0, 1358121600, 536, 0, 0], [4033570314, "DE - PL, Deutsch - Polnisch, ingenieurbegriffe", 0.0, 0, 1360713600, 36, 0, 0], [1126331521, "ZP Mediengestalter Bild und Ton", 0.0, 0, 1398124800, 331, 0, 9], [131520755, "A longer description is required. ", 0.0, 0, 1392681600, 19, 0, 4], [2532732904, "ASL Fingerspelling Deck", 0.0, 0, 1357084800, 36, 0, 36], [1865296975, "UH-60 A/L EPs Change 7 Current", 0.0, 0, 1445040000, 72, 0, 142], [2768802550, "PHP f\u00fcr Anf\u00e4nger", 0.0, 0, 1360022400, 22, 0, 0], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [133254136, "Verankerungen im Tragwerk aus Beton und Mauerwerk", 0.0, 0, 1406073600, 16, 0, 0], [617288573, "congenital heart", 0.0, 0, 1424649600, 58, 0, 15], [1995270134, "Italienisch f\u00fcr Anf\u00e4nger, italien pour d\u00e9butants", 0.0, 0, 1431302400, 183, 0, 1], [684527862, "Jess and Pierre orange mocha frappucino potato gems", 0.0, 0, 1410739200, 35, 0, 43], [877950965, "Ballstothe Anatomy 3: Armed and Dangerous", 0.0, 0, 1418083200, 197, 0, 10], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [1915317090, "lange peds", 0.0, 0, 1420934400, 7, 0, 0], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [474617059, "Beziehungen", 0.0, 0, 1424131200, 42, 0, 0], [2462634497, "Lins Danske Ord og S\u00e6tninger", 0.0, 0, 1359244800, 24, 24, 0], [55260522, "bvj havo-4 basisstof 1 regelkringen en homeostase", 0.0, 0, 1431993600, 13, 0, 3], [1573946898, "Wilhelm Hauff - Der junge Engl\u00e4nder - PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 344, 0, 0], [1384044053, "Erkundungen Deutsch-Ungarisch C1 Kapitel 3", 0.0, 0, 1414281600, 187, 0, 0], [1625985129, "Seitlinger SE", 0.0, 0, 1452038400, 4, 2, 5], [2117999136, "Begegnungen A2 Kapitel 7 (Wohnen) Deutsch-Russisch", 0.0, 0, 1416268800, 91, 0, 0], [607515665, "NUR 414 Congestive Heart Failure", 0.0, 0, 1424390400, 32, 0, 0], [1321034394, "Hand ranges", 0.0, 0, 1395100800, 45, 0, 0], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1265509482, "Nomen-Verb Verbindungen", 0.0, 0, 1425945600, 34, 0, 0], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [2006684745, "Swahili toevoegingen les 1-4", 0.0, 0, 1431907200, 159, 0, 0], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [1165783275, "Wortschatz B1 Beziehungen", 0.0, 0, 1436832000, 13, 0, 0], [696804506, "Swahili toevoegingen les 6-7", 0.0, 0, 1432684800, 55, 0, 0], [724090437, "Ballstothe Biochem 2: Revenge of the Ice-Dancers", 0.0, 0, 1413417600, 214, 0, 0], [1070683839, "Linguapolis Niveau 3 Nederlands cursus - Engels", 0.0, 0, 1410825600, 335, 0, 1], [1162704718, "Longer description required.", 0.0, 0, 1393632000, 30, 0, 16], [49518835, "Adult II Week 5 - Alt. in Pulmonary Gas Exchange", 0.0, 0, 1412121600, 55, 0, 7], [1738554413, "MSU ANTR 350 Fall 2014 - Brain and Meninges", 0.0, 0, 1412553600, 78, 0, 35], [599602815, "Seitlinger stille Gesellschaft MIG", 0.0, 0, 1420416000, 11, 2, 2], [2050341846, "Long Chinesisch f\u00fcr Anf\u00e4nger 1 Hanzi - Deutsch Lesson 1-11", 0.0, 0, 1345852800, 405, 0, 0], [808255356, "Vocabulaire allemand de base - Langenscheidt  ", 0.0, 0, 1385769600, 182, 0, 0], [471144806, "Lateinische Stil\u00fcbungen II", 0.0, 0, 1406160000, 221, 0, 0], [1724286263, "F-A Climate Change (conference)", 0.0, 0, 1426032000, 235, 0, 0], [1003618955, "Erkundungen Deutsch-Ungarisch C1 Kapitel 4", 0.0, 0, 1414281600, 180, 0, 0], [142924034, "Change basic English into business", 0.0, 0, 1426291200, 11, 0, 0], [1447179076, "OC II - wichtige Verbindungen", 0.0, 0, 1425081600, 125, 0, 117], [1128149815, "DDO Paediatrics - congenital heart disease ", 0.0, 0, 1409616000, 39, 0, 3], [1723130864, "Erkundungen Deutsch-Ungarisch C1 Kapitel 2", 0.0, 0, 1414281600, 255, 0, 0], [438559176, "Begegnungen A1 - Kapitel 3", 0.0, 0, 1415318400, 71, 0, 0], [173126312, "Regionale Geologie Uni T\u00fcbingen", 0.0, 0, 1425513600, 30, 0, 0], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [800996858, "Erkundungen Deutsch-Ungarisch C1.1 (1-4)", 0.0, 0, 1422748800, 692, 0, 0], [1059792849, "Begegnungen A1 - Kapitel 1", 0.0, 0, 1414454400, 78, 0, 0], [1100112724, "Seitlinger OG", 0.0, 0, 1452038400, 28, 2, 24], [440892094, "Biologie f\u00fcr Geos Uni T\u00fcbingen", 0.0, 0, 1425513600, 187, 0, 0], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [1907856341, "UPJS Biological Reference Ranges", 0.0, 0, 1402185600, 44, 0, 0], [1683104414, "Engelse woorden - moeilijk - NL -> EN", 0.0, 0, 1428969600, 472, 0, 15], [213304206, "Fingerspelling (\u6307\u6587\u5b57) and Kana w/ Images, Audio", 4.67, 3, 1431388800, 227, 227, 143]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nge</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

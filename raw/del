@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3377799369, "Kanji del 1\u00b0 anno (80)", 0.0, 0, 1345852800, 80, 0, 0], [2712749355, "Kanji del 1\u00b0 e 2\u00b0 anno (240; 160 attivi)", 5.0, 1, 1345852800, 240, 0, 0], [172934687, "Vocabulario para secuencia 1 de \"El rumor del Astrac\u00e1n\"", 0.0, 0, 1454630400, 59, 0, 0], [702032903, "Spindel Swedish Vocabulary 2.0", 0.0, 0, 1437004800, 2750, 0, 1], [90973261, "Japanese Core with cloze delete furigana/kanji", 4.67, 3, 1402185600, 6361, 6361, 0], [1176122148, "Chess \u2013 model for chess problems", 4.25, 4, 1404432000, 2, 0, 0], [1679622788, "Vocabulario del JLPT 5 (espa\u00f1ol)", 3.33, 3, 1391731200, 731, 0, 0], [4036022128, "Model Thinking (notes by Dmitriy Alexeev)", 0.0, 0, 1345852800, 81, 0, 33], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 4.0, 1, 1449964800, 280, 0, 0], [58726747, " german spanish declinaci\u00f3n del adjetivo aleman", 0.0, 0, 1345852800, 51, 0, 0], [1805491582, "The OSI Model", 0.0, 0, 1452556800, 14, 0, 0], [1923241106, "R\u00edos mas caudalosos del mundo", 0.0, 0, 1449792000, 112, 0, 0], [1421987679, "Gli elenchi del Buddha", 0.0, 0, 1451260800, 58, 0, 0], [3052747002, "lyrics of several songs (using enumeration model)", 0.0, 0, 1345852800, 28, 0, 0], [734344617, "biopharm and delivery systems (for uzo)", 0.0, 0, 1449878400, 18, 0, 26], [893822998, "Spanisch Deutsch Handelskorrespondenz", 0.0, 0, 1449964800, 294, 0, 0], [520059486, "people model", 0.0, 0, 1394668800, 3, 0, 3], [1614364983, "Heidelberg Catechism", 0.0, 0, 1451692800, 128, 0, 0], [312366217, "L\u00e4kemedelsrelaterade-problem_L\u00e4kemedelsv\u00e4rdering", 0.0, 0, 1449187200, 114, 0, 20], [875486799, "Mendelova Angli\u010dtina", 0.0, 0, 1447891200, 42, 0, 0], [1906780705, "Chinesisch  Deutsch Handelskorrespondenz", 0.0, 0, 1447200000, 114, 0, 0], [1651502487, "Deutsch Lektion 3 (Zahlen) Thannhauser Modell", 0.0, 0, 1447804800, 36, 36, 0], [2083312821, "Deutsch Lektion 4 Thannhauser Modell", 0.0, 0, 1447804800, 16, 16, 0], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [1681815053, "BBC Are models too skiny?", 0.0, 0, 1442275200, 5, 0, 7], [874082899, "DELE C1 Educaci\u00f3n y Formaci\u00f3n ", 0.0, 0, 1445212800, 1, 0, 0], [205252674, "delta (with farsi)", 0.0, 0, 1437264000, 447, 2, 65], [731407507, "Partes del cerpo (Q'anjob'al, kanjobal)", 0.0, 0, 1447200000, 18, 5, 13], [1462395680, "Gram\u00e1tica del \u00e1rabe", 0.0, 0, 1445904000, 740, 0, 1], [964210752, "USask PHPM - Health Promotion models", 0.0, 0, 1443484800, 23, 0, 3], [1656924688, "Komplekse tal eksamensforberedelse", 0.0, 0, 1442275200, 47, 0, 0], [1218968469, "Delar av det periodiska systemet ", 0.0, 0, 1443398400, 31, 19, 8], [1791224433, "Calcolo delle Probabilit\u00e0 - Unina", 0.0, 0, 1421020800, 160, 0, 365], [721789011, "Pa\u00edses y Capitales del Mundo (banderas inclusive)", 5.0, 1, 1440374400, 194, 0, 248], [546947974, "An\u00e1lise e Projeto com UML (Modelagem)", 0.0, 0, 1410912000, 17, 0, 2], [2822311550, "Delta 73N memory items", 0.0, 0, 1383523200, 33, 0, 0], [3664844114, "Psicolog\u00eda del Pensamiento", 0.0, 0, 1369094400, 810, 0, 1], [283926030, "parti del corpo by 853722", 0.0, 0, 1440028800, 6, 0, 0], [269385901, "NICE Guidelines UK Antibiotics fist line - Shatrick", 0.0, 0, 1433289600, 27, 0, 0], [1159626024, "Deutsch Modelldialog", 0.0, 0, 1440547200, 1, 5, 0], [439765611, "Uni Heidelberg Innere Medizin", 0.0, 0, 1437696000, 392, 0, 9], [150653593, "Pan's Labyrinth (El laberinto del fauno)", 5.0, 2, 1368316800, 243, 0, 0], [1966655807, "Business English. B2. Delaying in negotiations", 0.0, 0, 1429660800, 10, 0, 0], [1002710681, "Vocabulario del ingl\u00e9s (Nivel C1-C2)", 3.0, 1, 1434240000, 354, 0, 0], [1236250788, "Baudelaire Paysage", 0.0, 0, 1406851200, 13, 0, 0], [146952695, "Izpit_voditelj_colna-1del-POMORSKI_PREDPISI", 0.0, 0, 1414281600, 55, 0, 3], [1552589514, "Izpit_voditelj_colna-6del-NAVIGACIJA ", 0.0, 0, 1414281600, 40, 0, 3], [3190217570, "Riman 2.1: Res, pojem a deleni", 0.0, 0, 1364774400, 28, 0, 0], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1387552567, "Izpit_voditelj_colna-3del-PRAVILA_IZOGIBANJA_TRCENJA_NA_MORJ", 0.0, 0, 1414281600, 26, 0, 2], [819965687, "T6 Artin Kardiologi L\u00e4kemedel", 0.0, 0, 1420156800, 25, 0, 0], [779168285, "Izpit_voditelj_colna-2del-MORNARSKA_DELA_IN_VESCINE ", 0.0, 0, 1414281600, 55, 0, 7], [708533783, "Uni Heidelberg Klinische Pharma", 0.0, 0, 1437868800, 165, 0, 4], [559221270, "Villanova Linear Models", 0.0, 0, 1426636800, 44, 0, 45], [3663741503, "Psicolog\u00eda del Desarrollo I", 0.0, 0, 1388361600, 610, 0, 0], [327802141, "Segundo parcial temas selectos", 0.0, 0, 1429660800, 241, 0, 0], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [840088535, "Uni Heidelberg Geriatrie", 0.0, 0, 1437436800, 177, 0, 0], [1689662198, "Marys Handelsmarketing Einstiegstest @ WU Wien", 0.0, 0, 1387065600, 16, 0, 0], [4041563747, "Psicolog\u00eda del Aprendizaje", 0.0, 0, 1345852800, 616, 0, 0], [1901494669, "Modellek \u00e9s Algoritmusok 2. ZH", 0.0, 0, 1418083200, 49, 0, 52], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [2051401135, "Spindel Swedish vocabulary (Snoogles' Swedish vocab +extra)", 0.0, 0, 1416873600, 2429, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [3284013354, "Death Note/ El Cuaderno del Muerte, Spanisch - Deutsch ", 0.0, 0, 1369699200, 190, 0, 0], [936311751, "Izpit_voditelj_colna-4del-OSNOVE_MOTOROZNANSTVA", 0.0, 0, 1414281600, 50, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [1363045271, "CONOCIMIENTO DEL MEDIO 4\u00ba primaria, espa\u00f1a, asturias", 0.0, 0, 1375401600, 201, 0, 176], [1140040407, "Marys Handelsmarketing Endtest @ WU Wien", 0.0, 0, 1387065600, 65, 0, 49], [2228560755, "robson_ruedell_1", 0.0, 0, 1383004800, 117, 0, 18], [2062190850, "Kezdo Nemet - Delfin", 0.0, 0, 1345852800, 2185, 0, 0], [1836679632, "Farmaka - handelsnavne. Danish.", 0.0, 0, 1399680000, 360, 0, 0], [162285217, "       14 Muskelsygdomme, Myasteni og nervebet\u00e6ndelse", 0.0, 0, 1420070400, 37, 0, 21], [1227894335, "Solubility guidelines for Aqueous Solutions", 0.0, 0, 1378166400, 12, 0, 0], [3509237023, "DELF-Voci", 0.0, 0, 1362268800, 35, 0, 0], [134908722, "Delia elementary french", 0.0, 0, 1432684800, 426, 5, 2], [718442297, "Las 2000 m\u00e1s comunes palabras del franc\u00e9s", 1.0, 1, 1434240000, 1996, 0, 38], [477405248, "[Pool] \u4f53\u306e\u90e8\u5206 \u300c\u304b\u3089\u3060\u306e\u3076\u3076\u3093\u300d (Lichaamsdelen)", 4.0, 1, 1361318400, 34, 0, 0], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [107494099, "Espa\u00f1ol en marcha - Nivel b\u00e1sico (A1 + A2)", 0.0, 0, 1374192000, 1177, 0, 0], [1754841355, "El Tiempo y El Clima Ruso", 0.0, 0, 1400112000, 86, 85, 83], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [413625194, "Nepravidelna nemcina", 0.0, 0, 1422576000, 78, 0, 0], [2076073194, "Thalamus, thalamocorticale forbindelse. Cerebral cortex, Tal", 0.0, 0, 1411689600, 31, 0, 15], [225024067, "Dmitri Geidel HGB", 0.0, 0, 1415577600, 54, 0, 0], [2133640786, "Taules de multiplicar del 1 al 10", 0.0, 0, 1418515200, 100, 0, 0], [203494814, "IEL Chemie Teilchenmodell", 0.0, 0, 1400803200, 56, 0, 0], [658544900, "Mendelian Inheritance", 0.0, 0, 1414108800, 37, 0, 0], [1609494797, "Izpit_voditelj_colna-5del-METEOROLOGIJA ", 0.0, 0, 1414281600, 21, 0, 1], [1060534595, "begge deler - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395532800, 28, 56, 0], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [122287696, "RVUCOM MCM.19 Mendelian Inheritance (Heck)", 0.0, 0, 1407283200, 31, 0, 5], [2057483946, "N\u011bmeck\u00e1 nepravideln\u00e1 slovesa", 0.0, 0, 1430179200, 292, 0, 0], [1858009284, "Neurobiologi2014-makroskopiskopdeling", 0.0, 0, 1409702400, 47, 0, 47], [282190868, "Trastornos del estado de animo", 0.0, 0, 1423699200, 42, 0, 0], [774638785, "Izpit_voditelj_colna-6del-NAVIGACIJA-oznake ", 0.0, 0, 1414281600, 42, 0, 42], [1728590955, "meb1lecmendelian", 0.0, 0, 1382832000, 29, 0, 0], [3987096092, "600 parole base del latino", 0.0, 0, 1385683200, 600, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Del</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

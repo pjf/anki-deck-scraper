@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1970401628, "Marcio ... Meu anki", 0.0, 0, 1454716800, 220, 0, 0], [418733270, "Grundstufe Deutsch PL-DE Marcin Perli\u0144ski (mit Audio DE)", 5.0, 6, 1345852800, 1477, 1472, 0], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [1087757076, "Leticia e Marco (Senten\u00e7as em Japon\u00eas)", 0.0, 0, 1453852800, 94, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 5.0, 1, 1345852800, 4353, 0, 0], [786822650, "Narcotics, Recreational Drug Fact-sheets AAL", 0.0, 0, 1454025600, 79, 29, 278], [1802224060, "Wortschatz - Stufe C1/C2 - L\u00fcckentest DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 483, 0, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [1578094647, "EmoryResearchEBM", 0.0, 0, 1453852800, 41, 0, 3], [1259908002, "AWS Solutions Architect Cert", 4.0, 1, 1452643200, 208, 0, 0], [25428484, "Leticia e Marco(Japaneses)", 0.0, 0, 1454457600, 93, 0, 0], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 4.0, 1, 1345852800, 250, 0, 0], [1001038552, "Niemiecki - 1000 s\u0142\u00f3w - Marcin Perli\u0144ski (Audio DE+PL)", 5.0, 1, 1446336000, 1000, 2000, 0], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [832603678, "Marcamedies German Lektion Zwei", 0.0, 0, 1449878400, 36, 0, 0], [2126271842, "Mental Health Research Group Nepali", 0.0, 0, 1447891200, 56, 0, 0], [415808950, "Mental Health Research Group Nepali", 0.0, 0, 1447286400, 12, 0, 0], [531179098, "P.E.R. Patr\u00f3n de Embarcaci\u00f3n de Recreo", 0.0, 0, 1447459200, 204, 0, 2], [372019873, "1524: Sarcoid + Pleural Lung disease", 0.0, 0, 1445817600, 44, 0, 43], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [1320014410, "Research Methods Matt and Ilya", 0.0, 0, 1444089600, 187, 0, 4], [3768529989, "Hauptst\u00e4dte Europas DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 47, 0, 0], [940233116, "ARC Sheep Brain Practical", 0.0, 0, 1442016000, 192, 0, 192], [2030823431, "DE8 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 192, 0, 0], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 100, 0, 0], [3626394573, "Fremdw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 462, 0, 0], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [726712372, "DLA.MARCINA", 0.0, 0, 1356652800, 316, 0, 0], [3290680236, "DE1 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 575, 0, 0], [1928877568, "Schweizer Kantone DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 26, 0, 0], [1186576037, "Goldstein Narcotics", 0.0, 0, 1424563200, 16, 0, 0], [251451160, "Deutsche Abk\u00fcrzungen DE-DE-PL Marcin Perli\u0144ski", 0.0, 0, 1345852800, 261, 0, 0], [4109044851, "Der gro\u00dfe Artikeltest DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 6, 1345852800, 1063, 0, 0], [1271917279, "Grundformen deutscher Verben DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 112, 0, 0], [3646503409, "DaF Test-500 (Jumbo-Test) Stufe C2 DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 500, 0, 0], [417291689, "Alergologia 3er parcial", 0.0, 0, 1413331200, 44, 0, 2], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [1789254966, "DE7 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 218, 0, 0], [757050783, "Embolism, Infarction, and Septic Shock", 0.0, 0, 1360627200, 36, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [1476585977, "DE2 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 325, 0, 0], [2798464655, "Deutsches Alphabet/Buchstabieralphabet - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 41, 0, 0], [3639354247, "DE3 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 256, 0, 0], [327802141, "Segundo parcial temas selectos", 0.0, 0, 1429660800, 241, 0, 0], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [4022757295, "Pharnygeal arches/pouches (ron)", 0.0, 0, 1379030400, 16, 0, 3], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [1929222132, "DE5 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 226, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [32600325, "Pr\u00e4sens PL-DE-DE (Stammvokalwechsel usw.) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 39, 0, 0], [26623829, "CPearce2014", 0.0, 0, 1396656000, 51, 0, 0], [567061978, "MMWR Jan-March 2013", 0.0, 0, 1390780800, 67, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [1854461120, "Rektion der Verben PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [183062921, "Egzamin kr\u00f3tkofalarski 2014 (Marcin Perli\u0144ski)", 0.0, 0, 1427068800, 453, 0, 28], [1383795806, "HI, Enfermer\u00eda 2do 2ero, comunitaria, 1er parcial", 0.0, 0, 1403308800, 39, 0, 0], [3280779758, "150 sytuacji j\u0119zykowych PL-DE (matura) - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 150, 0, 0], [993891628, "Historia gospodarcza (SGH), Robert Dr\u00f3zd", 0.0, 0, 1345852800, 867, 0, 0], [3067238433, "DE4 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 242, 0, 0], [1721109353, "HISTOLOGIJA PRVA PARCIJALA :)", 0.0, 0, 1413849600, 40, 0, 2], [2475853179, "Deutschtest 2 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1399557559, "Podstawy programowania (Andrzej Marciniak), I semestr, I rok", 0.0, 0, 1421193600, 5, 0, 0], [1573946898, "Wilhelm Hauff - Der junge Engl\u00e4nder - PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 344, 0, 0], [425152273, "Recht (Jura) PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 65, 0, 0], [2027169721, "Science and research nico", 0.0, 0, 1433203200, 236, 0, 0], [237664657, "Psicolog\u00eda Social segundo parcial", 0.0, 0, 1345852800, 536, 0, 0], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [1716741441, "MARC21 Tags (Basic)", 0.0, 0, 1411430400, 16, 0, 0], [1462123574, "Sz\u00e1m\u00edt\u00f3g\u00e9p Architekt\u00far\u00e1k", 0.0, 0, 1437264000, 251, 0, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [1532239850, "arc", 0.0, 0, 1401667200, 442, 0, 517], [1416999242, "Intrebari limba romana marcu capitolele 1-3", 0.0, 0, 1390608000, 39, 0, 0], [107494099, "Espa\u00f1ol en marcha - Nivel b\u00e1sico (A1 + A2)", 0.0, 0, 1374192000, 1177, 0, 0], [3136532859, "Deutsche Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 16, 0, 0], [936544387, "Roman Monarchy Deck", 0.0, 0, 1413504000, 100, 0, 0], [2657317463, "Chemie DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 28, 0, 0], [1131894875, "HI, Enfermer\u00eda 2do 1ero, comunitaria, 1er parcial...", 0.0, 0, 1403481600, 81, 0, 0], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [2232412781, "DE6 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 161, 0, 0], [1335075975, "IT + Computer PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 243, 0, 0], [841235653, "HI, Enfermer\u00eda 2do 2do, comunitaria, 2do parcial", 0.0, 0, 1403308800, 39, 0, 0], [3308080288, "Deutsche Sprichw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 82, 0, 0], [4052224371, "155 S\u00e4tze - Wirtschaftsdeutsch - PL-DE - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [1359907483, "Farmacolog\u00eda II Ejemplos de interacciones 1er parcial", 0.0, 0, 1364169600, 10, 0, 0], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [1908956266, "Deutschtest 1 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [2425654603, "Tree Id Arch 136 Fall 2013", 1.0, 1, 1379030400, 1, 0, 0], [3349670042, "Wirtschaftsdeutsch PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 214, 0, 0], [274125057, "HSC Biology: \"Search For Better Health\"", 0.0, 0, 1413676800, 266, 0, 5], [206341925, "K. March Goal", 0.0, 0, 1399939200, 30, 0, 0], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [1349084760, "\u6f22\u5b57\u30de\u30b9\u30bf\u30fcN3", 0.0, 0, 1416441600, 1344, 0, 0], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [615602438, "kanji 2 marco", 0.0, 0, 1390089600, 71, 0, 0], [1200636963, "English Monarchs", 0.0, 0, 1353456000, 45, 0, 0], [2709737504, "Psicolog\u00eda Social primer parcial", 0.0, 0, 1345852800, 558, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [1999287271, "Kanji 1 marco", 0.0, 0, 1390089600, 285, 0, 0], [2711089641, "Plural 250 (DaF) DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 250, 0, 0], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 5.0, 1, 1345852800, 113, 0, 0], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [2893249974, "Deutsche Komposita DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 32, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Arc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

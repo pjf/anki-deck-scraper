@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1185382950, "Bibelkunde NT (13) Markus Evangelium", 0.0, 0, 1453852800, 74, 0, 0], [2007394494, "TalkEnglish Offline Package  M4R4M", 4.0, 2, 1408579200, 612, 0, 1], [359423088, "Angielski frazale i nie tylko", 3.0, 1, 1453334400, 481, 0, 0], [472954079, "Bibelkunde NT (10) - Offenbarung", 0.0, 0, 1453680000, 20, 0, 0], [100338815, "Bibelkunde NT (14) Mt Evangelium", 0.0, 0, 1453852800, 54, 0, 0], [760754731, "Bibelkunde AT (8) Gro\u00dfer Stapel", 0.0, 0, 1453680000, 157, 0, 0], [167023255, "Let's Talk Hebrew Vocabulary", 0.0, 0, 1453334400, 66, 0, 57], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [61203353, "Bibelkunde NT (12) Lukas Ev.", 0.0, 0, 1453766400, 34, 0, 0], [398472219, "Jarek Mariolka", 0.0, 0, 1454976000, 702, 0, 0], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [156591062, "Bibelkunde NT 3 - Johannes", 0.0, 0, 1452556800, 38, 0, 0], [223549278, "Bibelkunde NT (5) Kreuzestod", 0.0, 0, 1452643200, 20, 0, 0], [417635412, "Bibelkunde AT (7) - Geschichte Israels", 0.0, 0, 1453161600, 17, 0, 0], [703681848, "Bibelkunde NT (9) - Nachgereichte Karten", 0.0, 0, 1453680000, 13, 0, 0], [1761105160, "Bibelkunde NT (6) - Frauen und \u00c4mter und kath. Briefe", 0.0, 0, 1452816000, 14, 0, 0], [1761174017, "EKK Uralkod\u00f3k", 0.0, 0, 1452556800, 50, 0, 0], [1833735996, "N\u00e9met nyelvvizsga felk\u00e9sz\u00fcl\u00e9s", 0.0, 0, 1451088000, 111, 0, 0], [1506716023, "Bibelkunde NT 2 - Kleine Paulus Briefe", 0.0, 0, 1452556800, 11, 0, 0], [880791866, "Bibelkunde NT 4 - Korintherbriefe", 0.0, 0, 1452556800, 11, 0, 0], [639276142, "Volkswirtschaftslehre", 0.0, 0, 1449360000, 116, 0, 21], [158358330, "Speed Cards - 52 Spielkarten merken by inforoth", 0.0, 0, 1406764800, 52, 0, 1], [2133136749, "Fall 2015 Condensed Alkene Reactions", 0.0, 0, 1449014400, 12, 0, 24], [809992848, "SM03 - Talk Radio", 0.0, 0, 1451174400, 25, 0, 0], [1151734453, "business small talk", 0.0, 0, 1448236800, 34, 0, 0], [1799661367, "Yt- och materialkemi CTH", 0.0, 0, 1442966400, 252, 0, 35], [1611072343, "Physik Formeln deutsch MLK - physics fomula (in german)", 0.0, 0, 1389744000, 23, 0, 80], [1016327239, "adsfl;asjflkasjdflkj", 0.0, 0, 1440028800, 204, 0, 0], [1455572021, "Oogheelkunde", 0.0, 0, 1419379200, 28, 0, 0], [634687222, "TMS 180-4: Walking in Victory", 0.0, 0, 1440374400, 36, 0, 0], [1019738748, "regelkringen bvj havo-4 begrippen", 0.0, 0, 1431993600, 13, 0, 1], [1614953931, "Remember The Milk Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [1664667087, "Sumerian Cuneiform Signs from Volk's Reader Part 1", 0.0, 0, 1414713600, 139, 0, 276], [904861698, "Powiaty wojew\u00f3dztwa wielkopolskiego", 1.0, 1, 1412812800, 66, 0, 31], [2315988852, "Chemie 1. Semester Grundlegende Ph\u00e4nomene chemischer Reaktio", 0.0, 0, 1346284800, 105, 0, 34], [2364347249, "LK uz8", 0.0, 0, 1383782400, 16, 0, 0], [116000069, "klasjdkasjdlkasjd", 0.0, 0, 1386979200, 136, 0, 0], [913036949, "L\u00f3ng - Chinesisch f\u00fcr Anf\u00e4nger (A1+A2): Vokabelkarten", 5.0, 1, 1368144000, 497, 0, 0], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [1422432959, "MLK", 0.0, 0, 1395705600, 73, 0, 0], [1602415894, "lkajsdkalsjdkl", 0.0, 0, 1387411200, 222, 0, 0], [2851082405, "Chemie 4. Semester Organische Makromolek\u00fcle", 0.0, 0, 1346284800, 100, 0, 45], [418024624, "Talk Italian", 0.0, 0, 1413936000, 179, 0, 0], [375804819, "Chemie 2. Semester Donator-Akzeptor-Reaktionen", 0.0, 0, 1346284800, 154, 0, 99], [2049495529, "Guntram et Silke vocabulaire TinTin, vendanges", 0.0, 0, 1358121600, 536, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [3086931226, "Milkana English", 0.0, 0, 1345852800, 108, 0, 0], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [55260522, "bvj havo-4 basisstof 1 regelkringen en homeostase", 0.0, 0, 1431993600, 13, 0, 3], [245886519, "Ven\u00e4j\u00e4_verbin j\u00e4lkeisen substantiivin sija", 0.0, 0, 1418601600, 48, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1107991954, "Ven\u00e4j\u00e4_preposition j\u00e4lkeinen sija", 0.0, 0, 1419292800, 51, 0, 0], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [3561358062, "Ochem Exam 2 Alkene Reactions", 0.0, 0, 1380931200, 16, 0, 15], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [182729602, "RLR #78 \u2013 How to Talk About Hair", 0.0, 0, 1415836800, 30, 30, 0], [153841974, "Malk Kanji", 0.0, 0, 1416700800, 3007, 0, 0], [804206907, "Abitur 2012 Biologie, Politik, Chemie", 0.0, 0, 1346371200, 1419, 0, 398], [233463964, "Bibelkunde Neues Testament", 0.0, 0, 1370908800, 34, 0, 0], [4080322056, "Kolker16", 0.0, 0, 1356566400, 468, 0, 0], [1435884116, "Anat Blk 1 - AUC DK", 0.0, 0, 1400889600, 343, 0, 12], [4129207500, "Biologie 4. \u00d6kologie", 0.0, 0, 1346284800, 106, 0, 23], [1684900806, "Chemie 3. Semester Vom Rohstoff zum Systheseprodukt", 0.0, 0, 1346284800, 97, 0, 55], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [702002752, "Japanese TED talk w/ video clips, sentence diagrams", 0.0, 0, 1431475200, 82, 82, 163], [1720346249, "jllkj", 0.0, 0, 1361923200, 31, 0, 0], [621053856, "Biologie 3. Informationsverarbeitung und Regelung", 0.0, 0, 1346284800, 88, 0, 34], [109235067, "Kollokvie-1 - Dermatologi miderste bolk", 0.0, 0, 1369872000, 71, 0, 15], [1010637119, "Bibelkunde Altes Testament", 0.0, 0, 1370908800, 151, 0, 0], [1949738488, "Sales Talk - 72 DHF Basic Words", 0.0, 0, 1380844800, 73, 0, 0], [1679567787, "JWalker - Spanish Deck", 5.0, 1, 1409702400, 8457, 587, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

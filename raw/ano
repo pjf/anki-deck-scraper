@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2628085601, "3500 most common english words mazo para hispanoparlantes", 3.5, 2, 1345852800, 3508, 0, 0], [3191897553, "Italiano - Arabo (avanzato)", 0.0, 0, 1345852800, 1678, 0, 1], [188644036, "German-spanish mazo para hispanoparlantes de alem\u00e1n", 5.0, 1, 1345852800, 7699, 0, 0], [749735832, "Fran\u00e7ais-Italiano Il visconte dimezzato", 0.0, 0, 1453420800, 736, 5, 1], [479111924, "L'italiano di Antonio", 0.0, 0, 1452556800, 350, 346, 347], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [961092971, "oceanography- Earths planet water", 0.0, 0, 1453852800, 24, 0, 0], [2028459617, "French-spanish mazo de franc\u00e9s para hispanoparlantes", 3.6, 5, 1345852800, 6517, 0, 0], [1545067402, "oceanography-Earths structure and plate techtonics ", 0.0, 0, 1453852800, 18, 0, 0], [1267581783, "Volcanoes (English-Italian)", 0.0, 0, 1452384000, 92, 92, 0], [2145130205, "Piano Notes and Keys", 0.0, 0, 1452297600, 39, 0, 78], [991942067, "Progetto italiano1", 0.0, 0, 1452902400, 888, 908, 256], [889511856, "1945 H\u00e1n t\u1ef1 v\u1edbi \u00e2m H\u00e1n Vi\u1ec7t + c\u00e1c t\u1eeb li\u00ean quan t\u1eeb Tanos.uk", 0.0, 0, 1451347200, 1945, 0, 1], [1997224931, "ItalianoPlus unit\u00e0 1", 0.0, 0, 1448323200, 170, 8, 107], [1274791027, "TEOLOG\u00cdA FUNDAMENTAL, SORIANO", 0.0, 0, 1449705600, 138, 0, 0], [324017063, "ItalianoPlus unit\u00e0 6", 0.0, 0, 1448323200, 180, 8, 172], [1722260176, "ItalianoPlus unit\u00e0 4", 0.0, 0, 1448323200, 197, 8, 92], [1295897566, "HSK 1 a 3 Cinese-Italiano; Italiano - Cinese", 0.0, 0, 1436227200, 708, 32, 3], [1559464861, "ItalianoPlus unit\u00e0 3", 0.0, 0, 1448323200, 113, 8, 118], [421637738, "ItalianoPlus unit\u00e0 5", 0.0, 0, 1448323200, 157, 8, 143], [383232938, "ItalianoPlus unit\u00e0 2", 0.0, 0, 1448323200, 117, 8, 112], [224232870, "Insamschool Progetto Italiano Unita2", 0.0, 0, 1446768000, 61, 0, 0], [375163220, "Italiano Lesce NIP", 0.0, 0, 1453334400, 305, 312, 292], [1578878717, "Camino al Espanol Spanish Vocabulary", 0.0, 0, 1445299200, 30, 0, 0], [1621593492, "Italiano 4a 4b SGTSR", 0.0, 0, 1453420800, 242, 251, 144], [1136524582, "Italiano - lezione 1", 0.0, 0, 1443657600, 69, 0, 0], [50297673, "Settimana & date - italiano-giapponese", 0.0, 0, 1444780800, 57, 0, 0], [1230975085, "Insamschool, Ro-It Progetto Italiano A1, Benvenuti, Unita 1", 0.0, 0, 1446768000, 226, 0, 0], [2036220378, "Italiano - grammatica", 0.0, 0, 1443657600, 30, 0, 0], [1946663683, "Italiano - lezione 2", 0.0, 0, 1443657600, 111, 0, 0], [125731314, "3a 3b italiano SGTSR", 0.0, 0, 1453161600, 209, 249, 157], [520764292, "Italiano - z\u00e1kladn\u00ed v\u011bty a fr\u00e1ze", 0.0, 0, 1443657600, 10, 0, 0], [943350254, "Italiano - lezione 0", 0.0, 0, 1443657600, 57, 0, 0], [2143571650, "Los Paises Hispanos, 8th grade Spanish", 0.0, 0, 1444003200, 22, 0, 0], [583105927, "Adjectivos Espanoles de Ser CJO", 0.0, 0, 1442448000, 85, 0, 53], [523495801, "ganong ch 29", 0.0, 0, 1441324800, 17, 0, 14], [33225169, "UP-ERN AC 2 + Bioanorganische Chemie", 0.0, 0, 1438560000, 105, 0, 25], [1773095150, "Minano_kotoba1_40", 5.0, 1, 1438560000, 813, 803, 733], [1798132407, "Universit\u00e4t Leipzig - Japanologie - Vokabular", 0.0, 0, 1440806400, 348, 0, 0], [4037045014, "castellano - checo, spanish-czech, spanielsko-cestina", 0.0, 0, 1345852800, 1192, 0, 0], [1384213834, "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439 \u041c\u0438\u043d\u0438\u043b\u0435\u043a\u0441 - Espanol-Russo Minilex", 0.0, 0, 1421107200, 513, 0, 0], [308486891, "Natural Science: Meteorology, Oceanography and Hydrology", 0.0, 0, 1440460800, 139, 0, 0], [438662349, "marwanounet-car", 0.0, 0, 1449014400, 123, 0, 4], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1218161970, "Vokabelliste Buch 2 Japanologie Wien", 0.0, 0, 1428278400, 617, 0, 0], [1538190132, "Coreano", 0.0, 0, 1437264000, 226, 191, 0], [30140141, "Anorganische Chemie Nachweisreaktionen", 0.0, 0, 1410220800, 29, 0, 3], [755726751, "eslovaco castellano vocabulario 1000", 0.0, 0, 1437696000, 823, 0, 0], [737101496, "Anorganische Chemie 1", 0.0, 0, 1358035200, 135, 0, 0], [2883286629, "Marianopolis Calculus II", 0.0, 0, 1371945600, 4, 0, 0], [3003501636, "Wladcy Polski - lata panowania", 0.0, 0, 1345852800, 30, 0, 0], [40678794, "Terminologia Enfermeria Hospital Italiano de Bs As", 0.0, 0, 1402444800, 59, 0, 0], [559221270, "Villanova Linear Models", 0.0, 0, 1426636800, 44, 0, 45], [36514656, "Villanova Stat Methods I - part 1", 0.0, 0, 1423180800, 49, 0, 11], [2375007277, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 1", 0.0, 0, 1363305600, 390, 0, 0], [1881121874, "marwanounet-ger", 0.0, 0, 1449014400, 122, 0, 1], [223852644, "Sueco castiliano / Espa\u00f1ol glossario", 0.0, 0, 1425513600, 31, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [1180274296, "takanori 01Nous", 0.0, 0, 1406764800, 151, 0, 0], [773988618, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda II", 0.0, 0, 1392768000, 82, 0, 0], [1190610103, "Tibetano", 0.0, 0, 1412640000, 296, 0, 0], [1693896443, "marwanounet-HGE", 0.0, 0, 1449014400, 257, 0, 10], [1935126978, "marwanounet-der", 0.0, 0, 1449014400, 169, 0, 20], [785149575, "SOCO Espa\u00f1ol - El Cuerpo Humano", 0.0, 0, 1437955200, 18, 0, 0], [2363166600, "Centrul Romano-Chinez", 0.0, 0, 1374624000, 148, 0, 0], [1065206829, "Aikido - Roanoke Budo Kai", 0.0, 0, 1413072000, 134, 0, 2], [277199174, "marwanounet-inf", 0.0, 0, 1449014400, 248, 0, 1], [2045758959, "marwanounet-neu", 0.0, 0, 1449014400, 246, 0, 29], [1249854110, "Coreano 1 riotto", 0.0, 0, 1366848000, 367, 0, 0], [642665617, "marwanounet-nephro", 0.0, 0, 1449014400, 119, 0, 10], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [842729777, "Villanova Regression Methods - part 1", 0.0, 0, 1424563200, 48, 0, 49], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [332607362, "AAAHST7CM Imp\u00e9rio Romano", 0.0, 0, 1433289600, 26, 0, 0], [2079526890, "Mazo de portugu\u00e9s para hispanoparlantes", 4.0, 1, 1409788800, 5136, 0, 0], [3054511886, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 2", 0.0, 0, 1363305600, 79, 0, 0], [1958500694, "marwanounet-imm", 0.0, 0, 1449014400, 220, 0, 10], [1934109689, "HZF espanol juridico", 0.0, 0, 1383350400, 10, 0, 0], [3633341875, "NEPA Italiano Beginners", 0.0, 0, 1375228800, 75, 87, 92], [176735327, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369872000, 60, 0, 0], [2820141108, "NEPA Italiano", 0.0, 0, 1374796800, 61, 70, 46], [390489048, "hospital italiano primer a\u00f1o segundo semestre b\u00e1sica II", 0.0, 0, 1380585600, 24, 0, 0], [2100972, "Verbi Giapponese Italiano N5", 0.0, 0, 1408060800, 101, 0, 0], [72405212, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Biof\u00edsica I", 0.0, 0, 1392768000, 34, 0, 0], [398382772, "Yhdyssanoja Basic Kanji book 2 (Finnish/Japanese)", 5.0, 1, 1430697600, 411, 0, 0], [1196211369, "Villanova Stat Methods 1 - part 2", 0.0, 0, 1423180800, 31, 0, 0], [1687086932, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405209600, 120, 0, 0], [191286422, "Villanova Stat Theory 1", 0.0, 0, 1423180800, 122, 0, 113], [214234931, "Kanji in italiano per ankiweb (Jouyou kanji)", 0.0, 0, 1452470400, 2622, 3, 0], [1220682414, "Villanova Stat Theory 2", 0.0, 0, 1423180800, 52, 0, 41], [4036197163, "Italiano-Giapponese", 0.0, 0, 1345852800, 2691, 0, 0], [216610219, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405296000, 126, 0, 0], [1661488072, "Kamianova 1-9 Ru->De", 0.0, 0, 1424131200, 831, 0, 0], [1168788045, "Piano", 0.0, 0, 1405728000, 29, 0, 0], [1508269032, "Villanova Stat Methods I - Introductory concepts", 0.0, 0, 1423180800, 15, 0, 0], [281512280, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / B\u00e1sica I", 0.0, 0, 1369612800, 23, 0, 0], [946752090, "Chord Symbols to piano keys", 0.0, 0, 1395619200, 797, 0, 797], [614071473, "1ero 2do Enfermeria Salud Mental Hospital Italiano", 0.0, 0, 1402444800, 12, 0, 0], [1011923924, "SM latino Oerb italiano", 0.0, 0, 1423353600, 1918, 0, 13], [1783612208, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369094400, 60, 0, 0], [2396427693, "CMS 7 Anorectal Disorders (Ryan's)", 0.0, 0, 1345852800, 41, 0, 2], [1941773617, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Antropolog\u00eda", 0.0, 0, 1392768000, 23, 0, 0], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [850965587, "Cebuano root verbs", 0.0, 0, 1426636800, 298, 0, 0], [303245578, " Espanol Tom", 0.0, 0, 1378598400, 538, 0, 0], [729734698, "atecubanos", 0.0, 0, 1366416000, 10, 0, 0], [2177383467, "Der Neue Deutschexpress - altalanos gyujtemeny", 0.0, 0, 1351814400, 91, 0, 0], [1826967122, "Villanova Regression Methods - part 2", 0.0, 0, 1424563200, 31, 0, 20], [1397331425, "Italiano-Russo", 0.0, 0, 1418947200, 41, 0, 0], [707230704, "dakua'ana davi: v. manos", 0.0, 0, 1411689600, 15, 15, 14], [623750102, "Parliamo Italiano One Chapter 4", 0.0, 0, 1415577600, 148, 148, 0], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [1436875729, "marwanounet-oph", 0.0, 0, 1449014400, 143, 0, 35], [1499954558, "marwanounet-gyn", 0.0, 0, 1449014400, 235, 0, 20], [1315489305, "Espresso1/10 + 2/1-7 Italian italiano", 4.0, 4, 1394496000, 472, 470, 197], [271751464, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda", 0.0, 0, 1369872000, 156, 0, 2], [574520279, "Cards for Anoops 2014 Spring SFU NLP Course", 0.0, 0, 1394323200, 15, 0, 3], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [603204509, "SM Oerberg Familia Romana 1-20 latino-italiano e italiano-la", 0.0, 0, 1423267200, 948, 0, 13], [2198957496, "Coreano 2 riotto", 0.0, 0, 1370736000, 263, 0, 0], [204707956, "Nanomaterials Chemistry (KTK041)", 0.0, 0, 1420761600, 44, 0, 4], [1211895976, "Villanova Regression Methods - part 3", 0.0, 0, 1424563200, 39, 0, 12], [1350956373, "Journal Club Melanoma", 0.0, 0, 1422403200, 20, 0, 1], [3516884108, "Jouyou kanji in italiano", 5.0, 1, 1380585600, 2622, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ano</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

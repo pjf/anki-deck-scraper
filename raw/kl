@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1470114103, "Klausurtechnik f\u00fcr das Jura-Studium", 5.0, 2, 1438041600, 62, 0, 6], [1164027913, "Auge Klausur", 0.0, 0, 1454976000, 64, 0, 0], [562950832, "Physik Deck Kluggeburt", 5.0, 1, 1454716800, 277, 0, 0], [3180012916, "Klett Green Line 1 & 2", 5.0, 4, 1345852800, 2745, 35, 15], [986984480, "Psychologie - Sprachentwicklung ", 0.0, 0, 1453852800, 226, 0, 2], [43010628, "azertyuiopqsdfghjklmwxcvbn", 0.0, 0, 1450915200, 51, 0, 0], [2091312412, "Repetytorium 6-klasisty. Pearson. Dzial 5", 0.0, 0, 1452038400, 124, 0, 0], [1506716023, "Bibelkunde NT 2 - Kleine Paulus Briefe", 0.0, 0, 1452556800, 11, 0, 0], [47760362, "ny sziklagyep", 0.0, 0, 1449014400, 26, 0, 0], [1546466328, "Blandet klinik", 0.0, 0, 1451520000, 241, 0, 70], [1799339188, "8. Klas\u0109ambra lingva\u0135o (2)", 0.0, 0, 1449014400, 25, 0, 0], [174001939, "skl", 0.0, 0, 1450137600, 32, 0, 0], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [1655467450, "1-3. Klas\u0109ambra lingva\u0135o, salutoj kaj prezentoj", 0.0, 0, 1447113600, 25, 0, 0], [1076421898, "Anatomy Ankle Muscles", 0.0, 0, 1449619200, 117, 0, 48], [1087998420, "    Wetter und Klima", 0.0, 0, 1449705600, 0, 0, 0], [2034463645, "Klagemauer 2015", 0.0, 0, 1448323200, 60, 0, 0], [1045591108, "HEP 1. Klausur", 0.0, 0, 1447372800, 19, 0, 2], [513904051, "Salish - English - Huckleberries", 0.0, 0, 1449360000, 33, 25, 24], [68813638, "MKL Getriebe und Verzahnungen", 0.0, 0, 1447545600, 88, 0, 30], [1280962225, "z\u00e1rt sziklagyepek", 0.0, 0, 1449014400, 4, 0, 0], [956087598, "MKL Federn", 0.0, 0, 1445731200, 83, 0, 9], [1456519393, "MNT Klasse 10 - Klassenarbeit Nr. 1", 0.0, 0, 1447891200, 66, 0, 0], [897040456, "Goethe a1 Klamotten ", 0.0, 0, 1447977600, 35, 3, 26], [2051668736, "Checklists and More from Airplane Handbooks", 0.0, 0, 1447027200, 479, 0, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [1407286083, "\u8003\u7814\u7ea2\u5b9d\u4e66hijklmn", 0.0, 0, 1446681600, 671, 0, 0], [78150192, "QM Klausurvorbereitung", 0.0, 0, 1444867200, 66, 0, 0], [103043585, "MKL Wellenkupplungen", 0.0, 0, 1445731200, 93, 0, 0], [38866731, "MKL Dichtungen", 0.0, 0, 1447545600, 65, 0, 8], [1702122304, "Huettes kleine Fibel f\u00fcr Karlsruhe", 0.0, 0, 1444608000, 16, 2, 20], [2069321917, "Lithuanian 2015 - Raugyklos g., level 1. Words.", 0.0, 0, 1444176000, 47, 0, 0], [520764292, "Italiano - z\u00e1kladn\u00ed v\u011bty a fr\u00e1ze", 0.0, 0, 1443657600, 10, 0, 0], [1244162070, "MKL Lagerungen und F\u00fchrungen", 0.0, 0, 1445731200, 92, 0, 15], [1335407539, "HeadNeckLab", 0.0, 0, 1443657600, 31, 0, 30], [570471959, "MKL Schraubenverbindungen", 0.0, 0, 1439337600, 96, 0, 16], [93786151, "MKL Dimensionierung", 0.0, 0, 1438732800, 80, 0, 19], [1484686549, "\u0130spanyolca - T\u00fcrk\u00e7e 2000 (TTS Destekli)", 5.0, 1, 1442448000, 2051, 3926, 1], [1609880560, "kls", 0.0, 0, 1440374400, 3, 0, 0], [1951323036, "N\u011bm\u010dina - z\u00e1kladn\u00ed slova", 0.0, 0, 1441929600, 45, 0, 0], [500118042, "MKL Bauteilverbindungen", 0.0, 0, 1439251200, 98, 0, 4], [1196282236, "Alles klar!", 0.0, 0, 1437264000, 96, 1, 0], [1967886336, "H\u00e5llbar Utveckling", 0.0, 0, 1438560000, 63, 0, 0], [1231963447, "Boeing 727 momery items (Emergency Checklist)", 0.0, 0, 1435276800, 13, 89, 8], [1522011268, "MKL Technische Systeme", 0.0, 0, 1437004800, 97, 0, 0], [1273495136, "Entwicklungsbiologie Klausurfragen", 0.0, 0, 1436227200, 48, 0, 3], [858429110, "Weekly Korean Vocabulary", 0.0, 0, 1438387200, 11, 11, 0], [1210257143, "lakjsdklasjdaklsjd", 0.0, 0, 1392336000, 38, 0, 0], [2014505840, "M8 Klausurfragen 03423", 0.0, 0, 1433980800, 69, 0, 0], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [603892583, "Klinische Chemie - Kardio-Lipid", 0.0, 0, 1397520000, 47, 1, 0], [1225173123, "M8 Klausurfragen 03426", 0.0, 0, 1433980800, 75, 0, 0], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [1896792678, "Meine Klasse ", 5.0, 1, 1443571200, 71, 70, 62], [2375633745, "disce-dekl", 0.0, 0, 1380067200, 74, 0, 0], [200973892, "UP: Klausur Sportgeschichte 2", 0.0, 0, 1417046400, 12, 0, 0], [254650726, "5\ub2e8\uacc4 \ub2e8\uc5b4 Level 5 vocabulary to practice for KLI-LPT exam", 0.0, 0, 1374710400, 59, 0, 0], [708533783, "Uni Heidelberg Klinische Pharma", 0.0, 0, 1437868800, 165, 0, 4], [116000069, "klasjdkasjdlkasjd", 0.0, 0, 1386979200, 136, 0, 0], [1245300071, "Fin\u0161tina - p\u0159eklady a praktick\u00e9", 0.0, 0, 1401667200, 647, 0, 0], [483148098, "WiSo Klassenarbeit", 0.0, 0, 1389916800, 130, 0, 130], [173433318, "KLP-pytania (bie\u017c\u0105ce, rozszerzone)", 0.0, 0, 1424736000, 43, 0, 0], [480184665, "Kl. biomekanik - Klinikophold B", 0.0, 0, 1445904000, 133, 0, 0], [439513413, "OSU - MSK - Lower Leg and Ankle Joint", 0.0, 0, 1418342400, 90, 0, 55], [2061087287, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 9 cz\u0119\u015b\u0107 1", 0.0, 0, 1426809600, 52, 0, 0], [1544529456, "Diego Klapper", 0.0, 0, 1405555200, 1, 0, 0], [1602415894, "lkajsdkalsjdkl", 0.0, 0, 1387411200, 222, 0, 0], [450525684, "block 2 legs, ankle, feet", 0.0, 0, 1414281600, 112, 0, 0], [1893778085, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 10 cz\u0119\u015b\u0107 2", 5.0, 1, 1427414400, 58, 0, 0], [1073321511, "Thema Kleidung fuer Deutsch-Russisch", 0.0, 0, 1403136000, 65, 0, 0], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [1014771277, "Klinische Seminar", 0.0, 0, 1391817600, 135, 0, 0], [440654392, "Der kleine Prinz vocab", 0.0, 0, 1412294400, 207, 5, 0], [4176040791, "Latein Klettverschluss GWS", 0.0, 0, 1383004800, 94, 0, 0], [4087636246, "Auckland Uni Chinese: FSC and FWC ch 1-9", 0.0, 0, 1345852800, 300, 274, 0], [1124884023, "FTS4 Personalentwicklung", 0.0, 0, 1409097600, 4, 0, 0], [328967435, "HGBDKLNAKM", 0.0, 0, 1425686400, 584, 0, 188], [3056607432, "pojmy na klasick\u00fd isl\u00e1m - \u0165upek", 0.0, 0, 1361750400, 122, 0, 0], [687398620, "9 parakliniske unders\u00f8gelser - apoplexi", 0.0, 0, 1414972800, 41, 0, 28], [2006013534, "UP: Klausur Sportgeschichte", 0.0, 0, 1416268800, 18, 0, 0], [2086434886, "Z\u00e1kladn\u00ed geografick\u00e9 pojmy", 0.0, 0, 1358294400, 136, 0, 0], [70840341, "starkt kl\u00f6versystem bridge ", 0.0, 0, 1420329600, 25, 0, 0], [2444930906, "CMS 4 - Ankle & Foot (Ryan's)", 0.0, 0, 1345852800, 37, 0, 2], [1051062373, "Wirtschaftsinformatik TU KL WS1415", 0.0, 0, 1426118400, 105, 0, 18], [730968683, "M8 Klausurfragen 03424", 0.0, 0, 1433980800, 86, 0, 0], [1043093901, "Klinische Chemie Diabetes Mellitus TU M\u00fcnchen", 0.0, 0, 1401840000, 40, 1, 0], [1989623521, "farma leki z ukladow", 0.0, 0, 1434931200, 242, 0, 0], [4145369629, "Klingon basics", 5.0, 1, 1424217600, 334, 0, 1], [1437788107, "Klinische Chemie - H\u00e4matologie I", 0.0, 0, 1397520000, 30, 1, 0], [1977629592, "Isl\u00e6ndische Vokalbeln mit Flektionsklassen", 0.0, 0, 1425340800, 163, 0, 0], [89010260, "NorskLangB1", 0.0, 0, 1406332800, 360, 0, 0], [419331111, "Klinische 1 ", 0.0, 0, 1391817600, 103, 0, 8], [882932071, "Huettes Kleine Couleur Fibel", 0.0, 0, 1412208000, 11, 3, 7], [324182624, "PODKLNAKM", 0.0, 0, 1425686400, 59, 0, 38], [2568609589, "FOKUS - KLEINE DEUTSCHMUSIK - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1272664547, "Klinische Chemie TU M\u00fcnchen H\u00e4mostaseologie", 0.0, 0, 1404259200, 39, 1, 0], [141613653, "Altgriechische Deklination", 0.0, 0, 1419379200, 113, 0, 0], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [1462798212, "Pharma-Klausurfragen TU M\u00fcnchen", 0.0, 0, 1393372800, 74, 1, 1], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [910899212, "M8 Klausurfragen 03425", 0.0, 0, 1433980800, 100, 0, 0], [337970963, "IVL 2.1 TU M\u00fcnchen Klausurfragen", 0.0, 0, 1405036800, 71, 1, 6], [1763886278, "Klinische Chemie - Leber", 0.0, 0, 1397520000, 36, 1, 3], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [1112279117, "UP: Klausur Sportgeschichte 3", 0.0, 0, 1417046400, 10, 0, 0], [1343712279, "mikrobiologia klasyfikacja", 0.0, 0, 1394928000, 139, 0, 0], [1995300730, "K4 \u2013\u00a0kl. biomekanik columna lumbalis", 0.0, 0, 1400112000, 184, 0, 74], [30793257, "JAKLUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [1080481369, "Berechenbarkeit und Komplexit\u00e4t Scheinklausur", 0.0, 0, 1423267200, 24, 0, 28], [12952183, "Der Kleine Prinz: Intermediate German vocab chapters 1-5", 0.0, 0, 1406764800, 116, 0, 0], [2048370279, "Benjamin Franklin's 13 Virtues", 0.0, 0, 1406332800, 13, 5, 0], [639562009, "PIDKLNAKM ", 0.0, 0, 1426032000, 377, 0, 188], [956819967, "Klinische2", 0.0, 0, 1404691200, 229, 0, 58], [1173187157, "Klett \"Moct I\" book, vocabulary from exercise 8", 0.0, 0, 1378339200, 49, 0, 0], [1873144266, "Korgan's vocabulary from 'Wer will eine kleine Katze haben?\"", 0.0, 0, 1345852800, 122, 0, 0], [606402422, "Biochemie KMP2 Tiziana Klawitter", 0.0, 0, 1431129600, 954, 0, 94], [811948970, "DM_R16 Stoffklassen und Funktionelle Gruppen", 0.0, 0, 1416441600, 18, 0, 17], [1808157323, "Garbe Klausurfragen 2011", 0.0, 0, 1405123200, 87, 0, 88], [1793857933, "Klinische Chemie - H\u00e4matologie II", 0.0, 0, 1397520000, 34, 1, 1], [541858251, "MNEMO ZAKLADKI OD ", 0.0, 0, 1429747200, 9, 0, 1], [1336990262, "Komplett deutsche S\u00e4tze! Alles Klar! - by Anna", 0.0, 0, 1422921600, 179, 0, 0], [1507656170, "klajsdklasjdkl", 0.0, 0, 1387411200, 217, 0, 0], [551101169, "K4 \u2013\u00a0kl. biomekanik Hofte og b\u00e6kken", 0.0, 0, 1400112000, 189, 0, 81], [121961141, "Greetings from the Teklimakan (Kansas U)", 5.0, 2, 1422921600, 920, 920, 0], [1025899636, "GEODKLNAKM", 0.0, 0, 1425686400, 138, 0, 10], [1330356704, "Klinische Chemie TU M\u00fcnchen gesamt", 0.0, 0, 1412899200, 286, 2, 5], [1217073216, "C# f\u00fcr Java Entwickler", 0.0, 0, 1367712000, 85, 0, 0], [197085113, "Deklinator", 0.0, 0, 1431216000, 2413, 8, 1]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

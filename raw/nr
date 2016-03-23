@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[160559158, "Ukraine - Deutsch - unregelm\u00e4\u00dfige Verben", 0.0, 0, 1454976000, 36, 0, 0], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [1629769194, "D\u00e9partements et r\u00e9gions fran\u00e7ais \u2013 Enrichi", 1.0, 1, 1385078400, 125, 221, 334], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [846527467, "Latin 6 RNRMU (Neuter nouns) / \u041b\u0430\u0442\u044b\u043d\u044c 6 \u0420\u041d\u0418\u041c\u0423 (\u0441\u0440. \u0440.)", 0.0, 0, 1448150400, 25, 0, 0], [1840914772, "Henry III's Minority Rule 1216-1232", 0.0, 0, 1452124800, 38, 0, 0], [1216251988, "Latin 4 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 4 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 18, 0, 0], [1481540932, "Latin 7 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 7 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 61, 0, 0], [1456519393, "MNT Klasse 10 - Klassenarbeit Nr. 1", 0.0, 0, 1447891200, 66, 0, 0], [101659904, "RenR 120", 0.0, 0, 1445558400, 92, 0, 0], [870991221, "Adjektive mit unregelm\u00e4\u00dfiger Steigerung", 0.0, 0, 1448409600, 41, 0, 0], [454970607, "Japanska l\u00e4xa nr 1", 0.0, 0, 1444435200, 15, 0, 0], [291817551, "Latin 3 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 3 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 68, 0, 0], [1958702363, "unregelm\u00e4\u00dfiger Verben", 0.0, 0, 1447804800, 149, 0, 0], [715762831, "Latin 2 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 2 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 64, 0, 0], [512587002, "Latin 1 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 1 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 57, 0, 0], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [2087143514, "Latin 6 RNRMU (Feminine nouns) / \u041b\u0430\u0442\u044b\u043d\u044c 6 \u0420\u041d\u0418\u041c\u0423 (\u0436. \u0440.)", 0.0, 0, 1448150400, 38, 0, 0], [824850543, "Henry VIII's marriages", 0.0, 0, 1443484800, 30, 0, 7], [1604785236, "Henry Ford Surgery", 0.0, 0, 1442620800, 1200, 0, 0], [997882948, "Kett Green Line 1 NRW", 0.0, 0, 1441065600, 887, 1, 1], [168543266, "False Friends - Cognates - Ronronia", 0.0, 0, 1424131200, 262, 0, 0], [103566467, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - U (Sammy)", 4.0, 1, 1411948800, 13, 0, 0], [1751457864, "Latijn onregelmatige werkwoorden", 0.0, 0, 1395360000, 245, 0, 0], [297376608, "HSNR QM", 0.0, 0, 1412985600, 25, 1, 1], [2791382957, "frxprnsp6nr", 0.0, 0, 1370908800, 223, 0, 0], [252212980, "HSNR FL", 0.0, 0, 1412985600, 7, 1, 5], [1837271219, "Niederl\u00e4ndisch unregelm\u00e4\u00dfige Verben", 0.0, 0, 1411084800, 59, 0, 0], [27733396, "Deutsch Unregelm\u00e4ssige Verben Partizip II - Spanish-Catalan", 0.0, 0, 1422144000, 67, 0, 63], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [3210867736, "Chemie Abitur NRW 2012", 0.0, 0, 1345852800, 127, 0, 90], [2127945496, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - E (Sammy)", 0.0, 0, 1410998400, 12, 0, 0], [480877093, "Unregelm\u00e4\u00dfige Verben nach Ablaut (Sammy) a - a", 0.0, 0, 1410998400, 8, 0, 0], [3159046110, "Meithai - Haushalt und Einrichtung", 5.0, 1, 1383782400, 133, 0, 0], [281108684, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - O (Sammy)", 0.0, 0, 1410998400, 19, 0, 0], [1785789571, "Die Deutsche Unregelm\u00e4\u00dfige verben", 0.0, 0, 1443052800, 248, 0, 732], [3537271157, "FINRA Series 7 - 2012", 0.0, 0, 1375833600, 486, 0, 0], [1152343697, "Unregelm\u00e4ssige Formen im Indefinido", 0.0, 0, 1367712000, 38, 0, 0], [548944079, "NREMT EMT-B", 0.0, 0, 1382400000, 53, 1, 1], [300969331, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H2", 0.0, 0, 1387324800, 30, 0, 0], [3680063, "Unregelmaasige Verben", 0.0, 0, 1414281600, 32, 0, 0], [182834143, "HSNR IA", 0.0, 0, 1412985600, 33, 1, 2], [3086174671, "Blake Brownrigg Chinese Deck", 0.0, 0, 1345852800, 539, 0, 0], [3169370251, "ZhongwenRedGreenBluev3.7", 5.0, 1, 1345852800, 1509, 1509, 0], [3097382316, "CSIM Spanisch-Deutsch A1 unregelm\u00e4\u00dfige Verben Partizip II", 0.0, 0, 1383350400, 122, 0, 0], [1552160807, "Vocabulary - Human Body - Ronronia", 0.0, 0, 1423872000, 88, 0, 0], [409936192, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II", 0.0, 0, 1387411200, 40, 0, 0], [1968183720, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H1", 0.0, 0, 1387324800, 30, 0, 0], [384021671, "Business English. B1. Unreasonable demands", 0.0, 0, 1427241600, 18, 0, 0], [2058757917, "Vocabulary - Physique - Ronronia", 0.0, 0, 1423872000, 134, 0, 0], [992405429, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H3", 0.0, 0, 1387324800, 30, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

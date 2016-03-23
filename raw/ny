@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1852809644, "SM34 - A crystal clear destiny", 0.0, 0, 1454889600, 32, 0, 0], [1855818143, "Hanyu Shuiping Kaoshi (HSK) (all 5000 words, high quality)", 3.75, 4, 1454544000, 4995, 0, 0], [600425609, "Denny's Menu", 0.0, 0, 1454457600, 6, 0, 0], [1391952699, "Deutsch: Phonetic Alphabet of Germany", 4.5, 2, 1431043200, 32, 40, 0], [189636759, "SM29 - Too Many Girlfriends", 0.0, 0, 1454284800, 34, 0, 0], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [900126143, "Terminy z r\u00f3\u017cnych dziedzin (PL-PL) - v.1.1", 0.0, 0, 1452902400, 166, 0, 0], [3283034296, "japanese phonetic - signal primitives - ONYOMI groups", 5.0, 1, 1383177600, 361, 0, 0], [254260021, "Uni Frankfurt Sinologie L3 DE Pinyin Hanzi", 5.0, 1, 1452729600, 50, 0, 0], [1888902361, "Angol magyar szavak k\u00f6nyvolvas\u00e1sb\u00f3l...", 0.0, 0, 1453852800, 591, 217, 4], [509132394, "Pinyin - Finals - Multiple recordings per final", 0.0, 0, 1453248000, 36, 272, 2], [1075892172, "Uni Frankfurt Sinologie L1 DE Pinyin Hanzi", 5.0, 1, 1452729600, 35, 0, 0], [1047375404, "Angol, k\u00f6nyvt\u00e1ros szakmai idegen nyelv", 0.0, 0, 1429920000, 379, 0, 180], [1295665503, "D\u011bjiny um\u011bn\u00ed PedfUK I", 0.0, 0, 1452643200, 905, 0, 888], [17443078, "Uni Frankfurt Sinologie L2 DE Pinyin Hanzi", 5.0, 1, 1452729600, 58, 0, 0], [1833735996, "N\u00e9met nyelvvizsga felk\u00e9sz\u00fcl\u00e9s", 0.0, 0, 1451088000, 111, 0, 0], [1139851746, "Ennyit kellene tudnod k\u00e9mi\u00e1b\u00f3l ", 0.0, 0, 1450915200, 288, 1, 94], [2046625108, "CFA Level I Official Acronyms", 0.0, 0, 1451433600, 22, 0, 0], [485085502, "Fyzika 4 - Elmag. vlny - Optika - Relativita (Pomi)", 5.0, 1, 1409443200, 40, 0, 49], [1388654599, "English 1 for Anthony", 0.0, 0, 1450656000, 286, 0, 0], [1121901553, "Neuro NYU Clerkship", 0.0, 0, 1450483200, 414, 0, 165], [906562128, "angol nyelvtanfolyam pack", 0.0, 0, 1450742400, 374, 1, 6], [905840488, "Zbi\u00f3r r\u00f3\u017cnych s\u0142\u00f3wek z j\u0119zyka hiszpa\u0144skiego", 0.0, 0, 1450051200, 220, 0, 0], [2006308886, "ny\u00e1ras bor\u00f3k\u00e1s", 0.0, 0, 1449014400, 3, 0, 0], [644239028, "Hars\u00e1nyi marketing \u00e9retts\u00e9gi, 1.t\u00e9tel: A marketing alapjai", 0.0, 0, 1451692800, 14, 0, 0], [47760362, "ny sziklagyep", 0.0, 0, 1449014400, 26, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [198795287, "Lucfenyvesek n\u00f6v\u00e9nyei", 0.0, 0, 1449014400, 2, 0, 0], [2120185857, "Angol nyelvtan ", 0.0, 0, 1448928000, 141, 1, 5], [643327538, "Lucenyvesek \u00e1llatai", 0.0, 0, 1449014400, 2, 0, 0], [1921475781, "Ideologie, doktryny polityczne (oprac. Bog.Piet.)", 0.0, 0, 1448928000, 64, 0, 0], [2143913127, "rendhagy\u00f3 ig\u00e9k gy\u00fcjtem\u00e9nye", 0.0, 0, 1451433600, 63, 0, 0], [1894538180, "cseres-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [1341236757, "Nynorsk sonans", 0.0, 0, 1443657600, 22, 3, 0], [528727218, "Salish - English (seli\u0161 - sunyapcin) vocabulary ", 0.0, 0, 1450569600, 904, 30, 535], [920488936, "Hagym\u00e1s-gum\u00f3s n\u00f6v\u00e9nyek", 0.0, 0, 1449014400, 6, 0, 0], [723428174, "Nitrat kezikonyv fogalmak", 0.0, 0, 1446940800, 51, 5, 0], [210202527, "gyerty\u00e1nos-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [1232637648, "Spanish Synonyms GL", 0.0, 0, 1447632000, 239, 0, 1], [921726390, "general English under scrutiny", 1.0, 1, 1448755200, 1695, 0, 0], [1146781341, "francuski - ubrania, kolory, tkaniny", 0.0, 0, 1447545600, 73, 0, 0], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [1955731683, "Latina a \u0159e\u010dtiny pro mediky", 0.0, 0, 1445385600, 690, 0, 0], [49880928, "Nynorsk verb", 0.0, 0, 1443657600, 113, 3, 0], [1619309805, "SZIE N\u00f6v\u00e9nytermeszt\u00e9stani alapsimeretek - Maglista", 0.0, 0, 1446768000, 40, 0, 0], [1681815053, "BBC Are models too skiny?", 0.0, 0, 1442275200, 5, 0, 7], [2059487354, "nyitcom exam 2", 0.0, 0, 1442534400, 47, 0, 0], [1470326566, "ELTE N\u00f6v\u00e9nyrendszertan gyakorlat", 0.0, 0, 1444003200, 78, 0, 79], [73095194, "Histologia preparaty na podstawie My\u015bliwskiego i innych", 0.0, 0, 1443484800, 194, 0, 194], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 100, 0, 0], [657930336, "english file intermediate 2n Batx Baixmontseny", 0.0, 0, 1442102400, 46, 0, 0], [678779340, "Nynorsk verb-b\u00f8ying sonans", 0.0, 0, 1443657600, 112, 3, 0], [1133240153, "CA1 acronyms by GG", 0.0, 0, 1440547200, 47, 0, 0], [1484686549, "\u0130spanyolca - T\u00fcrk\u00e7e 2000 (TTS Destekli)", 5.0, 1, 1442448000, 2051, 3926, 1], [1263656758, "Zhuyin Fuhao / Bopomofo Pinyin Association", 0.0, 0, 1421020800, 410, 0, 0], [341482045, "Prawo rzymskie - warunki i terminy", 0.0, 0, 1441756800, 13, 0, 0], [1156393931, "Codzienny angielski. On board the plane", 0.0, 0, 1442016000, 43, 0, 0], [1527724792, "hormony", 0.0, 0, 1434931200, 231, 0, 0], [5568810, "Kinyarwanda", 5.0, 1, 1406851200, 173, 0, 0], [147805612, "Podstawy \u0142aciny - lekcja 7-8", 0.0, 0, 1411603200, 44, 0, 0], [826781248, "spanyol sz\u00e1mok 56-100", 0.0, 0, 1403568000, 45, 0, 0], [1062238174, "Chinese antonym pairs", 0.0, 0, 1387843200, 236, 0, 0], [1236759081, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 6", 0.0, 0, 1376438400, 54, 54, 54], [263604040, "Podstawy \u0142aciny - lekcja 19-20", 0.0, 0, 1415923200, 34, 0, 0], [1855555096, "CP PHX Company Officer 2014", 0.0, 0, 1406160000, 256, 0, 0], [17052446, "Magyar \u00fczleti nyelvk\u00f6nyv 1. fejezet", 0.0, 0, 1439942400, 31, 0, 0], [1132873061, "M\u00f6llers - The company and its products and services", 0.0, 0, 1438214400, 27, 0, 0], [1985493935, "CP PHX Ladder company officer 2014", 0.0, 0, 1406160000, 37, 0, 0], [208301179, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 5", 5.0, 1, 1376438400, 80, 80, 80], [954514071, "limfatyczny", 0.0, 0, 1434585600, 104, 0, 0], [169091345, "20.Mennyis\u00e9gi adatok", 0.0, 0, 1432771200, 75, 0, 0], [791837641, "odmiany", 0.0, 0, 1437004800, 683, 0, 0], [287007106, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 8", 0.0, 0, 1376438400, 154, 153, 154], [910918558, "Boldog kar\u00e1csonyt! (en)", 0.0, 0, 1410566400, 50, 49, 0], [1592316339, "spanyol sz\u00e1mok 100-1000", 0.0, 0, 1403568000, 13, 0, 0], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [827090757, "Podstawy \u0142aciny - lekcja 21-22", 0.0, 0, 1415923200, 11, 0, 0], [147446962, "spanyol sorsz\u00e1mnevek", 0.0, 0, 1403568000, 10, 0, 0], [190522232, "Judesiai ir raumenys bendrai", 0.0, 0, 1431820800, 124, 0, 135], [765328824, "20000 chinese - english sentences with proper pinyin", 5.0, 1, 1411257600, 18896, 0, 1], [911133545, "Rosyjski 1 SGH - zaawansowany RU-PL M. Bobrowski", 0.0, 0, 1345852800, 1953, 0, 0], [845184059, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 2", 5.0, 1, 1376438400, 112, 104, 105], [438065158, "A1. Lesson 6. Godziny, daty, zaimki dzier\u017cawcze", 0.0, 0, 1422662400, 42, 42, 4], [270379812, "NYU CPM Neuroanatomy Lab4", 0.0, 0, 1412121600, 78, 0, 78], [930607582, "ITIL Foundation V3  Exam; Germany", 0.0, 0, 1417305600, 40, 0, 40], [757145215, "Podstawy \u0142aciny - lekcja 1", 0.0, 0, 1410048000, 14, 0, 0], [92286361, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1416441600, 43, 0, 0], [1073946251, "NYU CPM Neuroanatomy Lab2", 0.0, 0, 1411603200, 95, 0, 154], [414394398, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1417651200, 43, 0, 0], [238222841, "N\u00e9met sz\u00f6vegkoh\u00e9zi\u00f3s elemek (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 101, 0, 0], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [24662280, "Gy\u00f3gyn\u00f6v\u00e9ny", 0.0, 0, 1430870400, 0, 0, 0], [1469601931, "Podstawy \u0142aciny - lekcja 3-4", 0.0, 0, 1410393600, 38, 0, 0], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 4.0, 1, 1345852800, 500, 0, 0], [1406703083, "Revising: Hanyu Jiaocheng Chinese Course Textbook 1A", 0.0, 0, 1427760000, 1339, 286, 3], [1174141980, "N\u00e9met szavak_Nyelvtani ABC+saj\u00e1t", 0.0, 0, 1453075200, 190, 0, 20], [2141357132, "Sunny Kim", 0.0, 0, 1368489600, 33, 0, 0], [3571861319, "OCR AS-History Dictatorship and Democracy in Nazi Germany.", 0.0, 0, 1366761600, 378, 0, 0], [2213072780, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 7", 0.0, 0, 1376438400, 32, 18, 32], [818909923, "Blynyddoedd", 0.0, 0, 1398211200, 30, 0, 0], [4022757295, "Pharnygeal arches/pouches (ron)", 0.0, 0, 1379030400, 16, 0, 3], [1292167770, "trawienny", 0.0, 0, 1434585600, 311, 0, 0], [1023766037, "Vipul Naik's acronyms", 0.0, 0, 1400716800, 23, 0, 0], [376597567, "Saudia Company Procedures", 0.0, 0, 1430956800, 17, 0, 0], [2225182956, "amarakosha - anya", 0.0, 0, 1368403200, 2253, 0, 0], [3410820659, "Many chinese characters", 0.0, 0, 1371081600, 1838, 0, 0], [3349069353, "Long Chinesisch f\u00fcr Anf\u00e4nger 1 Hanzi - Pinyin Lesson 1-11", 0.0, 0, 1345852800, 408, 0, 0], [1363951189, "Ivrit Akademit - NYU", 0.0, 0, 1413936000, 296, 0, 0], [4028206235, "Rosyjski 2 SGH - zaawansowany PL-RU A. Kierczy\u0144ska", 0.0, 0, 1345852800, 2935, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [1543671849, "Codzienny angielski. Asking for directions", 0.0, 0, 1436918400, 35, 0, 0], [1259378892, "Anthony's GRE Flash Cards ", 0.0, 0, 1390694400, 724, 0, 0], [10541898, "badanie fizykalne, tony serca", 0.0, 0, 1416873600, 31, 0, 0], [4012554358, "sunny7-\uc601\uc5b4\ud68c\ud654", 0.0, 0, 1370995200, 18, 0, 0], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [3733736365, "Immunology with many teachers", 0.0, 0, 1384905600, 177, 0, 203], [48929203, "Acronyms used within St John Ambulance Australia", 0.0, 0, 1424217600, 9, 0, 0], [999991875, "H\u00e1ny \u00f3ra van?", 0.0, 0, 1413676800, 129, 0, 0], [547032762, "spanyol sz\u00e1mok 1-55", 0.0, 0, 1403568000, 56, 1, 0], [893697752, "Boldog kar\u00e1csonyt! (it)", 0.0, 0, 1410566400, 50, 49, 0], [608942902, "K\u00f6rnyezetbotanika-N\u00f6v\u00e9nyfelismer\u00e9s", 0.0, 0, 1388448000, 210, 0, 329], [2349811380, "Chinese Mandarin Pinyin rules", 0.0, 0, 1355961600, 21, 0, 0], [4242706138, "SNYDER SOCIAL PSYCHOLOGY TEST 4", 0.0, 0, 1386201600, 82, 0, 0], [499578321, "NYU CPM Neuro Test 2", 0.0, 0, 1413417600, 862, 0, 13], [2065005722, "angol nyelvtan", 0.0, 0, 1406419200, 88, 0, 8], [1420150903, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny II", 0.0, 0, 1419120000, 477, 0, 14], [1443592887, "kinya", 0.0, 0, 1414540800, 1, 0, 0], [1966669080, "Podstawy \u0142aciny - lekcja 9-10", 0.0, 0, 1412294400, 57, 0, 0], [79658586, "angielski medyczny", 0.0, 0, 1394409600, 860, 0, 0], [922193244, "Potraviny", 0.0, 0, 1398470400, 24, 0, 0], [896726834, "ITIL Foundation Acronyms and Initials", 0.0, 0, 1406851200, 51, 0, 0], [1453046109, "Immunology Cytokines, Surface Molecules, Acronyms", 0.0, 0, 1418428800, 53, 0, 0], [1281509730, "D\u011bjiny S\u00fdrie", 0.0, 0, 1400716800, 44, 0, 0], [769951638, "pr\u00f3ba 3. alap mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [373237261, "niemiecki polityczny", 0.0, 0, 1345852800, 180, 0, 0], [2507909018, "900 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3wek rosyjskich PL-RU (Dydek)", 0.0, 0, 1345852800, 900, 0, 0], [3457817130, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 1", 5.0, 1, 1376438400, 29, 19, 19], [1331089496, "Uk\u0142ad wsp\u00f3\u0142czulny", 0.0, 0, 1432944000, 50, 0, 0], [1595044165, "Id\u00e9zetek spanyolul", 0.0, 0, 1413676800, 6, 0, 0], [1095265638, "Podstawy \u0142aciny - lekcja 11-12", 0.0, 0, 1412812800, 37, 0, 0], [1897717925, "Podstawy \u0142aciny - lekcja 27-28", 0.0, 0, 1417651200, 24, 0, 0], [306434394, "NYUSOM Dermatoses", 0.0, 0, 1418083200, 190, 0, 173], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [2086670438, "Podstawy \u0142aciny - lekcja 5-6", 0.0, 0, 1410998400, 26, 0, 0], [381453041, "NYU CPM Neuroanatomy Lab3", 0.0, 0, 1412121600, 52, 0, 50], [1626762357, "Integrated Chinese Level 1 (3ed) with pinyin -> character", 0.0, 0, 1381795200, 941, 0, 0], [1308119915, "spanyol felt\u00e9teles mondatok", 0.0, 0, 1403568000, 5, 0, 0], [3794996113, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 3", 5.0, 1, 1376438400, 14, 14, 14], [244737286, "G\u0142\u00f3wny system pami\u0119ciowy", 0.0, 0, 1418860800, 186, 0, 0], [1229093172, "tengwar quenya mode", 4.0, 1, 1424217600, 46, 0, 48], [995808633, "English Synonyms Jon", 0.0, 0, 1345852800, 35, 0, 0], [1746096413, "Boldog kar\u00e1csonyt!", 0.0, 0, 1387670400, 50, 49, 0], [722663086, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 4", 5.0, 1, 1376438400, 92, 91, 92], [1325939856, "pr\u00f3ba 2. alap egyik v. mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [3636992919, "Portuguese (brazilian) antonyms", 0.0, 0, 1380672000, 114, 0, 0], [1266799307, "Zaawansowany angielski", 0.0, 0, 1345852800, 67, 0, 0], [6918823, "QX Acronyms", 0.0, 0, 1411430400, 42, 0, 0], [2711495693, "Gruden Pinyin Patonghua", 0.0, 0, 1345852800, 54, 0, 0], [438728818, "Mandarin Radicals with Pinyin and English", 0.0, 0, 1425340800, 214, 0, 0], [3643348538, "Jonny and Julie's SOAS Korean 1st year", 0.0, 0, 1347062400, 3458, 0, 0], [13740744, "d\u011bjiny Egypta", 0.0, 0, 1400716800, 76, 0, 0], [1505637531, "OSU - Neuro - Bony Anatomy", 0.0, 0, 1421280000, 153, 0, 26], [553926592, "Adjetivos - antonyms", 0.0, 0, 1384300800, 19, 0, 0], [1281140526, "Chinese for Beginners: Intermediate. sentences with pinyin", 0.0, 0, 1416528000, 15, 0, 0], [6420964, "Homonyms", 0.0, 0, 1430352000, 48, 3, 0], [2177383467, "Der Neue Deutschexpress - altalanos gyujtemeny", 0.0, 0, 1351814400, 91, 0, 0], [1214271187, "NYU CPM Neuroanatomy Lab1", 0.0, 0, 1411171200, 75, 0, 139], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [303974579, "Carlos kar\u00e1csonyi", 0.0, 0, 1419120000, 41, 0, 0], [310550163, "Podstawy \u0142aciny - lekcja 25-26", 0.0, 0, 1417651200, 12, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [3907633940, "Troch\u0119 podstawowych wyraz\u00f3w z 1000 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3", 0.0, 0, 1443830400, 939, 0, 0], [1223227363, "Anything Goes Chinese Lesson 17", 0.0, 0, 1390780800, 92, 0, 0], [1112640042, "Podstawy \u0142aciny - lekcja 15-16", 0.0, 0, 1414195200, 15, 0, 0], [385718711, "Deutsche Bundesl\u00e4nder - Federal States of Germany", 4.67, 6, 1358553600, 16, 0, 0], [63502106, "Podstawy \u0142aciny - lekcja 11-12", 0.0, 0, 1414195200, 9, 0, 0], [426389722, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny I", 0.0, 0, 1414540800, 544, 0, 0], [82573936, "d\u011bjiny Ir\u00e1ku", 0.0, 0, 1400716800, 69, 0, 0], [1058930323, "Podstawy \u0142aciny - lekcja 23-24", 0.0, 0, 1417651200, 26, 0, 0], [2415091160, "Sunny7-2", 0.0, 0, 1369353600, 19, 0, 0], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [1873516256, "Podstawy \u0142aciny - lekcja 17-18", 0.0, 0, 1414713600, 4, 0, 0], [2427330814, "hanyu dashi", 0.0, 0, 1345852800, 28, 0, 0], [344115856, "spanyol sz\u00e1mok", 0.0, 0, 1413676800, 124, 1, 0], [1783287555, "PBL Case 3 - Jenny Forrester", 0.0, 0, 1381190400, 51, 0, 1], [985193042, "Vitaminok - Szerep, hi\u00e1nyt\u00fcnetek", 0.0, 0, 1423699200, 12, 0, 0], [232674474, "Podstawy \u0142aciny II - lekcja 1", 0.0, 0, 1410134400, 32, 0, 0], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [471503410, "German Synonyms", 0.0, 0, 1360022400, 54, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ny</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

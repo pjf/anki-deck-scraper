@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[701620338, "The imabi Grammar Gauntlet (Beginner I)", 0.0, 0, 1425859200, 50, 0, 0], [1712131772, "The imabi Grammar Gauntlet (Beginner II)", 0.0, 0, 1425859200, 50, 0, 0], [2134488481, "\u2192 \u2192 \u2192 \u2192 The Top 1000 Most Frequently Used Spanish Words ", 0.0, 0, 1454112000, 1000, 1005, 1], [1378991278, "\u00d6ffentliches Recht TUHH", 0.0, 0, 1453766400, 18, 0, 0], [1366760035, "The imabi Grammar Gauntlet", 0.0, 0, 1425945600, 344, 0, 0], [1571586872, "\u2192 \u2192 \u2192 The 2000 Most Frequently Used German Nouns (2.0)", 0.0, 0, 1452297600, 2000, 5, 0], [1050915561, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Spanish Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [1954317665, "\uff08\u279c\u0e3a\uff09 2000 Most Frequently Used Japanese Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [535817548, "\uff08\u279c\u0e3a\uff09 2000 Most Frequently Used Korean Nouns ", 0.0, 0, 1451606400, 1998, 5, 0], [1716352809, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Russian Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [1494687711, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Mandarin Chinese Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [436558500, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used French Nouns", 5.0, 1, 1451606400, 1998, 5, 0], [394609033, "VIT - BWL der \u00f6ffentlichen Verwaltung", 0.0, 0, 1444176000, 76, 0, 15], [2017456166, "New TOEIC Frequently-used Vocabulary", 0.0, 0, 1407801600, 896, 2, 7]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ntl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

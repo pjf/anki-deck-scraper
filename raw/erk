@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1610254447, "Netzwerk Grenchen: Lernen am Smartphone", 0.0, 0, 1454198400, 201, 39, 170], [453117332, "TDF1-2.2 Gusswerkstoffe", 0.0, 0, 1454889600, 28, 0, 22], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [737514179, "norske sterke verb - tsjekkisk (norwegian irregular verbs)", 0.0, 0, 1345852800, 139, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [235461606, "Kreisverkehr Pflanzen P\u00fctz", 0.0, 0, 1452729600, 19, 0, 22], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [1076967965, "NEUROLOGY CLERKSHIP", 0.0, 0, 1450051200, 626, 0, 92], [1121901553, "Neuro NYU Clerkship", 0.0, 0, 1450483200, 414, 0, 165], [1597339571, "Kabinett Merkel III", 0.0, 0, 1392681600, 16, 0, 20], [566759793, "Farmakologi - immunsuppresiva og cancerkemoterapi", 0.0, 0, 1450656000, 21, 0, 1], [158358330, "Speed Cards - 52 Spielkarten merken by inforoth", 0.0, 0, 1406764800, 52, 0, 1], [14284501, "N\u00e4tverksfamiljen", 0.0, 0, 1449446400, 6, 0, 0], [1836832260, "6. Interkonati\u011do, laboro, a\u011do, urbo, lando", 0.0, 0, 1448928000, 25, 0, 0], [813821183, "Netzwerk A2.2 Deutsch-Persisch", 0.0, 0, 1446854400, 570, 0, 0], [1967371805, "Merkf\u00e4higkeit", 0.0, 0, 1447200000, 100, 0, 0], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [461794434, "TWIW 15 B1 - Werkstoffkunde Semester 1", 0.0, 0, 1447286400, 68, 0, 1], [1438844343, "Top-50 Spaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 1054, 1, 1], [744941419, "Epidemiology_UC Berkeley", 0.0, 0, 1442361600, 36, 0, 0], [1529369157, "Sterke verb - Norwegian irregular verbs", 0.0, 0, 1345852800, 70, 0, 0], [1176697844, "Top-50 Italiaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 900, 1, 1], [245039130, "L2 - Werkwoorden", 0.0, 0, 1390348800, 125, 0, 0], [363861931, "Verkehrswesen als Erg\u00e4nzungsfach Master Informatik am KIT", 0.0, 0, 1406505600, 132, 0, 54], [1572390380, "Franz\u00f6sisch Anf\u00e4ngerkurs 2 WU Wien", 0.0, 0, 1433894400, 419, 0, 0], [1751457864, "Latijn onregelmatige werkwoorden", 0.0, 0, 1395360000, 245, 0, 0], [477360852, "Rosyjski RU-PL (magisterka)", 0.0, 0, 1390176000, 217, 0, 49], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [526774205, "\u52d5\u8a5e \u300c\u3069\u3046\u3057\u300d (Werkwoorden - Verbs)", 0.0, 0, 1424736000, 236, 0, 0], [763313120, "merk", 0.0, 0, 1410307200, 26, 0, 0], [1883210017, "Pediatric Clerkship", 0.0, 0, 1345852800, 171, 0, 46], [1410871371, "UC Berkeley Vietnamese 1A Words", 0.0, 0, 1418860800, 793, 0, 0], [1600751078, "WerkstofftechnikMarkH", 0.0, 0, 1402617600, 72, 0, 61], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [1799696303, "N\u00e9met - Szenved\u0151 szerkezet", 0.0, 0, 1406419200, 34, 0, 0], [2062791171, "Erkundungen Deutsch-Ungarisch C1", 0.0, 0, 1414281600, 331, 0, 0], [133254136, "Verankerungen im Tragwerk aus Beton und Mauerwerk", 0.0, 0, 1406073600, 16, 0, 0], [4109111173, "Meithai - Werkzeuge und Baumaterial", 0.0, 0, 1383782400, 95, 0, 0], [1899190438, "Meithai - Transport und Verkehr", 5.0, 1, 1383782400, 229, 0, 0], [507968900, "Sommerkurs 2011", 0.0, 0, 1345852800, 145, 0, 0], [1384044053, "Erkundungen Deutsch-Ungarisch C1 Kapitel 3", 0.0, 0, 1414281600, 187, 0, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [737595128, "Verfahrenstechnik - R\u00fchrwerke", 0.0, 0, 1406073600, 8, 0, 0], [232435977, "Alle Minister Deutschlands \"Kabinett Merkel II\"", 0.0, 0, 1358035200, 17, 0, 0], [424569662, "Recepteerkunde Farmacie 2014/2015", 0.0, 0, 1422489600, 158, 0, 0], [2621774113, "cvo-db-1-Spaanse werkwoorden - tegenwoordige tijd", 0.0, 0, 1363478400, 41, 0, 0], [1844687840, "Herstellung metalischer Werkstoffen", 0.0, 0, 1422576000, 29, 0, 0], [398895724, "Behavioral Therapy Ferkauf ", 0.0, 0, 1431388800, 280, 0, 0], [1003618955, "Erkundungen Deutsch-Ungarisch C1 Kapitel 4", 0.0, 0, 1414281600, 180, 0, 0], [1723130864, "Erkundungen Deutsch-Ungarisch C1 Kapitel 2", 0.0, 0, 1414281600, 255, 0, 0], [800996858, "Erkundungen Deutsch-Ungarisch C1.1 (1-4)", 0.0, 0, 1422748800, 692, 0, 0], [4067994379, "Surgery Clerkship Quick Review", 0.0, 0, 1345852800, 478, 0, 0], [558890796, "zprop ohne werkstoffkunde demi", 0.0, 0, 1378080000, 221, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Erk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

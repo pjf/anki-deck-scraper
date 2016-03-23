@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[843822718, "EBC III Vocabs", 0.0, 0, 1453852800, 380, 0, 0], [1917922426, "WWU CS 509 Test 1 Study Deck", 0.0, 0, 1447372800, 31, 0, 0], [1092511409, "Mufrodat Akrab Nahwu Awal", 0.0, 0, 1443830400, 794, 0, 118], [158459636, "Wuthering Heights Key quotes", 0.0, 0, 1432771200, 373, 0, 0], [920353805, "GWU Neurolab 2", 0.0, 0, 1442534400, 19, 0, 17], [93370793, "L1 - Wudu and Sholat", 0.0, 0, 1441497600, 25, 25, 22], [1831927300, "WU2019 - Superficial Back, Nerves, Radiology", 0.0, 0, 1439510400, 47, 0, 14], [1406202232, "Marys English Business Communication EBC1 @ WU Wien", 0.0, 0, 1387065600, 154, 0, 0], [581999595, "Marys WIKO 3 Spanisch Vokabeltest 2 @ WU Wien", 0.0, 0, 1426204800, 490, 0, 0], [2109456838, "Marys WIKO 2 Spanisch Vokabeltest 1 @ WU Wien", 0.0, 0, 1426204800, 243, 0, 0], [565172298, "Marys IB SBWL The Cultural Environment of IB @ WU Wien", 0.0, 0, 1397779200, 30, 0, 0], [1572390380, "Franz\u00f6sisch Anf\u00e4ngerkurs 2 WU Wien", 0.0, 0, 1433894400, 419, 0, 0], [1205611604, "Marys IB SBWL Theories of International Trade @ WU Wien", 0.0, 0, 1397779200, 28, 0, 0], [932547474, "Biochem 1st year MWU", 0.0, 0, 1387411200, 106, 0, 5], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [1670900781, "Marys Methoden der Marketingforschung Einheit 1 @ WU Wien", 0.0, 0, 1387065600, 51, 0, 31], [1752413909, "Marys IB SBWL Introduction @ WU Wien", 0.0, 0, 1397779200, 30, 0, 0], [290932340, "\u9032\u884c\u4e2d\u3000(Wurstwasser)", 0.0, 0, 1413072000, 6, 0, 0], [1646134398, "Marys WIKO 1 Spanisch Vokabeltest 1 @ WU Wien ", 0.0, 0, 1397779200, 260, 0, 0], [1689662198, "Marys Handelsmarketing Einstiegstest @ WU Wien", 0.0, 0, 1387065600, 16, 0, 0], [580294196, "WunschWunschWunsch", 0.0, 0, 1426291200, 5, 0, 1], [1753401306, "Pierwsza pomoc WUM", 0.0, 0, 1416355200, 5, 0, 0], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [743278963, "Marys AMC II @ WU Wien", 0.0, 0, 1387065600, 177, 0, 0], [221113877, "WUM - OUN", 0.0, 0, 1416441600, 50, 0, 0], [712319246, "Herr Bachfischer Geschichte Weck, Wurst, und Wein", 0.0, 0, 1377475200, 246, 0, 0], [1774109710, "Marys IB SBWL Political and Legal Systems @ WU Wien", 0.0, 0, 1397779200, 18, 0, 0], [1140040407, "Marys Handelsmarketing Endtest @ WU Wien", 0.0, 0, 1387065600, 65, 0, 49], [916660927, "Marys WIKO 1 Spanisch Vokabeltest 1 @ WU Wien", 0.0, 0, 1426204800, 250, 0, 0], [4164914521, "Herzlichen Gl\u00fcckwunsch", 0.0, 0, 1382054400, 33, 0, 0], [406020277, "Go Seigen Games", 0.0, 0, 1419292800, 110, 0, 121], [277564484, "zichanpinggu-caiwu", 0.0, 0, 1425340800, 1598, 0, 75], [352654971, "Marys IB SBWL Participants that Make IB Happen @ WU Wien", 0.0, 0, 1397779200, 36, 0, 0], [2028606104, "Marys WIKO 2 Spanisch Vokabeltest 2 @ WU Wien", 0.0, 0, 1426204800, 252, 0, 0], [502929531, "Marys Methoden der Marketingforschung Einheit 3-6 @ WU Wien", 0.0, 0, 1387065600, 11, 0, 5], [138165640, "Marys English Business Communication EBC2 @ WU Wien", 0.0, 0, 1397779200, 90, 0, 0], [420399809, "Marys Methoden der Marketingforschung SPSS @ WU Wien", 0.0, 0, 1387065600, 35, 0, 7], [905168597, "Marys IB SBWL Globalisation of Markets @ WU Wien", 0.0, 0, 1397779200, 36, 0, 0], [2125511416, "Marys Methoden der Marketingforschung Einheit 2 @ WU Wien", 0.0, 0, 1387065600, 25, 0, 10], [461857530, "\u3060\u3051\uff08Wurstwasser\uff09", 0.0, 0, 1413417600, 4, 0, 0], [600801458, "Marys English Business Communication EBC3 @ WU Wien", 0.0, 0, 1426204800, 133, 0, 0], [1539473837, "\u7bc4\u56f2\u306e\u59cb\u307e\u308a\u3068\u7d42\u308f\u308a\u30fc\u305d\u306e\u969b\u3060\u3000\uff08Wurstwasser) \t", 0.0, 0, 1413072000, 6, 0, 0], [589006827, "Anatomy Winter 2013 MWU", 0.0, 0, 1387411200, 18, 0, 0], [1102872731, "Step 3 Flashcards Wustljeff", 0.0, 0, 1404777600, 244, 0, 0], [525907052, "Marys Statistik @ WU Wien", 0.0, 0, 1387065600, 57, 0, 63], [286694361, "\u5f8c\u3067\u3000\uff08Wurstwasser\uff09", 0.0, 0, 1413072000, 5, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Wu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

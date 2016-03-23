@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [3857923599, "Fundamentos de Investigaci\u00f3n", 0.0, 0, 1345852800, 599, 0, 1], [861251979, "3 PT Nomenclatuur: hout- en kruidachtigen", 0.0, 0, 1453593600, 19, 0, 0], [687092981, "Wichtige Ionen/S\u00e4uren/Basen ", 0.0, 0, 1452211200, 43, 0, 0], [1835660651, "Investigaci\u00f3n Biom\u00e9dica 5\u00ba Medicina UAM: Ex\u00e1menes", 0.0, 0, 1452816000, 156, 0, 0], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [508272082, "Deutsch - Fran\u00e7ais f\u00fcr blutige Anf\u00e4nger", 0.0, 0, 1390521600, 230, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [108378900, "Wichtige Philosophische Begriffe des Altgriechischen", 0.0, 0, 1435017600, 226, 0, 0], [1229401819, "Fertigung 3 F\u00f6rster S 2015 ", 0.0, 0, 1454457600, 31, 0, 31], [184248024, "DM_R13 Wichtige S\u00e4uren", 0.0, 0, 1416441600, 15, 0, 0], [1751457864, "Latijn onregelmatige werkwoorden", 0.0, 0, 1395360000, 245, 0, 0], [1809289195, "PL - Peripheral Vertigo\t", 0.0, 0, 1400976000, 31, 0, 1], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [576288304, "HR \u00cdslenska stig 2", 0.0, 0, 1425513600, 300, 0, 0], [1730790366, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1430870400, 73, 0, 0], [2212265387, "HR \u00cdslenska stig 1 - Sigr\u00ed\u00f0ur Kristinsd\u00f3ttir", 0.0, 0, 1367366400, 29, 0, 0], [587061671, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1432771200, 176, 0, 0], [2501147782, "HMS.IMP.Antigen.Receptors", 0.0, 0, 1364601600, 14, 0, 8], [2628882789, "Sonstiges", 0.0, 0, 1383955200, 41, 2, 0], [2357799636, "antique greek verbs koine / verbos griego antiguo \u03bb\u03c5\u03c9 \u03b5\u03b9\u03bc\u03b9", 0.0, 0, 1348617600, 294, 0, 0], [2093531433, "rowan som fundamentals 2 lecture 4 antigens", 0.0, 0, 1411430400, 51, 0, 35], [317039549, "Neuro Vertigo Summerson", 0.0, 0, 1421625600, 33, 0, 1], [1499230852, "Vitigni Italiani", 0.0, 0, 1345852800, 94, 0, 0], [523153197, "wichtige norwegische verben", 0.0, 0, 1408924800, 125, 0, 0], [1882475838, "HMS.IMP.Antigen.Receptors.I", 0.0, 0, 1364601600, 11, 0, 7], [500815396, "Pharmakologie TUM fertig", 0.0, 0, 1361923200, 358, 0, 0], [815761363, "AAAHST7CM Gr\u00e9cia Antiga", 0.0, 0, 1433289600, 25, 0, 0], [1365254519, "Antigen Presentation", 0.0, 0, 1358899200, 24, 0, 0], [1447179076, "OC II - wichtige Verbindungen", 0.0, 0, 1425081600, 125, 0, 117], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tig</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1198216547, "MUI_2012_EBM", 0.0, 0, 1454630400, 105, 0, 0], [1017288624, "Webmarketing", 0.0, 0, 1453334400, 89, 0, 0], [1578094647, "EmoryResearchEBM", 0.0, 0, 1453852800, 41, 0, 3], [219393525, "1BMNE English1 howest", 0.0, 0, 1451779200, 556, 0, 0], [608903005, "BME 20151202", 0.0, 0, 1449014400, 57, 0, 0], [310862862, "\u00cdzeltl\u00e1b\u00faak BM", 0.0, 0, 1449014400, 16, 0, 0], [1550964740, "BM fran\u00e7ais voc. 2", 0.0, 0, 1450828800, 1613, 0, 0], [1410212979, "EBM Quiz #2 FIU PA", 0.0, 0, 1448323200, 30, 0, 0], [1269234526, "K\u00e9t\u00e9lt\u0171ek BM", 0.0, 0, 1449014400, 6, 0, 0], [1534350376, "MBM Block 2", 0.0, 0, 1447459200, 55, 0, 15], [348389342, "IUPUI PA Labmed Exam 2", 0.0, 0, 1445385600, 94, 0, 0], [402770703, "IUPUI PA Labmed 3", 0.0, 0, 1445385600, 9, 0, 0], [839358741, "BMF2 Exam2", 0.0, 0, 1442102400, 741, 0, 3], [1411068180, "MERPCBMEEP1.0", 0.0, 0, 1447027200, 612, 0, 159], [1646274772, "BM1004", 0.0, 0, 1442880000, 323, 0, 89], [1208916759, "labmodule3", 0.0, 0, 1443398400, 30, 0, 31], [1871404054, "Tongue, Oral Cavity, Submandibular Region ", 0.0, 0, 1441324800, 13, 0, 20], [217329638, "MPaley MBM Protein Lecture 1", 0.0, 0, 1439596800, 29, 0, 0], [177211777, "CMBM Hypersensitivity II, III", 0.0, 0, 1391990400, 19, 0, 6], [1212653284, "CMBM II", 0.0, 0, 1388620800, 416, 0, 190], [3251575176, "BME", 0.0, 0, 1360972800, 89, 0, 18], [2231661921, "RGBM Week 3 Pregnancy I", 0.0, 0, 1358553600, 100, 0, 18], [2807415971, "RGBM Week 2 Contraception ", 0.0, 0, 1358035200, 69, 0, 2], [3153435793, "RGBM Week 1 M&F Anatomy", 0.0, 0, 1357430400, 104, 0, 23], [4058297694, "CMBM_Q2", 0.0, 0, 1377302400, 320, 0, 23], [1981395207, "CMBM I proteins, nucleotides", 0.0, 0, 1386115200, 582, 0, 85], [2694559977, "CMBM Exam I", 0.0, 0, 1385510400, 345, 0, 30], [783078663, "RGBM Week 3-4 Pregnancy III", 0.0, 0, 1358899200, 121, 0, 5], [352419493, "RGBM Week 1 M&F Anatomy I", 0.0, 0, 1358294400, 104, 0, 27], [3962080912, "RGBM Week 3 Urinary Dysfn ", 0.0, 0, 1358294400, 59, 0, 9], [2864332725, "Biochemistry of Behavior (HBM)", 0.0, 0, 1377043200, 67, 0, 0], [1532330251, "Submarine Brad Biochem 1", 0.0, 0, 1422316800, 156, 0, 10], [2676229342, "SBM6", 0.0, 0, 1362528000, 688, 0, 46], [777793407, "FRACP EBM", 0.0, 0, 1429920000, 71, 0, 6], [2174270357, "RGBM Week 3 Pregnancy II", 0.0, 0, 1358899200, 101, 0, 7], [602223996, "jlmMAlabmale", 0.0, 0, 1393977600, 29, 0, 32], [452951147, "CMBM Exam III Complement", 0.0, 0, 1389830400, 23, 0, 12], [1003472919, "Hungarian -> Yellow Submarine - The Beatles", 0.0, 0, 1369008000, 66, 167, 34], [3963018481, "Ethical and Legal Issues in Medicine (HBM)", 0.0, 0, 1377043200, 75, 0, 0], [3928737864, "RGBM Week 2 - Craig Lectures", 0.0, 0, 1357948800, 105, 0, 5], [4039456393, "RGBM Week 2 Repro Pharm", 0.0, 0, 1358294400, 103, 0, 0], [698102600, "RGBM Week 1 M&F Anatomy II", 0.0, 0, 1358294400, 99, 0, 44], [4010897319, "RGBM Week 2 - Male GU", 0.0, 0, 1357948800, 99, 0, 0], [2984066337, "RGBM Week 3 Independent Studies", 0.0, 0, 1358294400, 49, 0, 3], [780627802, "BBM CBL FINALLLLLLL", 0.0, 0, 1406160000, 143, 0, 21], [1778096380, "RGBM Week 3 Pregnancy Pharm", 0.0, 0, 1358553600, 52, 0, 2], [259274203, "RGBM Week 2-3 Independent Studies", 0.0, 0, 1358294400, 67, 0, 4], [1447103618, "CMBM: Immune response to microbial infection", 0.0, 0, 1391990400, 24, 0, 10], [277495484, "BMOS toets", 0.0, 0, 1430092800, 26, 8, 30], [4244611937, "RGBM Embryology II", 0.0, 0, 1358294400, 58, 0, 8], [1478232430, "BMS370 W/ Eggers: Exam II", 0.0, 0, 1414627200, 236, 0, 1], [2129334108, "MCBM as of 12/13", 0.0, 0, 1386979200, 894, 0, 0], [2530617883, "RGBM Week 3-4 Pregnancy IV + Genetics", 0.0, 0, 1358899200, 88, 0, 5], [1400356389, "RNLPathlabmeb", 0.0, 0, 1424044800, 38, 0, 34], [2570121618, "RGBM Week 1 M&F Anatomy", 0.0, 0, 1357344000, 104, 0, 23], [186573550, "RGBM Independent Studies I ", 0.0, 0, 1358294400, 67, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Bm</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

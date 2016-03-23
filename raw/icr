@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[167031957, "Antimicrobial Prophylaxis", 0.0, 0, 1452643200, 12, 0, 0], [1570116959, "Microbiology - Gram-negative Bacteria", 0.0, 0, 1370044800, 45, 0, 27], [571899869, "Microbiology (Rhena)", 0.0, 0, 1450051200, 1045, 5, 8], [1649276016, "Microbes Infectious Disease", 0.0, 0, 1454716800, 512, 0, 1], [870144158, "micro start", 0.0, 0, 1453248000, 5, 0, 0], [4044939073, "Microbiology - Anaerobic Bacterial Infections", 0.0, 0, 1369785600, 23, 0, 14], [4150386061, "Microbiology - Intracellular/atypical bacterial pathogens", 0.0, 0, 1369785600, 20, 0, 14], [564072935, "Microbiologia (UniPD MED 3-4)", 0.0, 0, 1386979200, 114, 0, 0], [1331783703, "Microbiology flash cards JUYU 2nd", 0.0, 0, 1450051200, 31, 0, 0], [1085600304, "rowan som fundamentals 2 microbiology LECTURE 2 MHC TCR", 0.0, 0, 1410307200, 60, 0, 26], [2138511782, "AP Microeconomics Terms", 0.0, 0, 1450656000, 273, 0, 26], [1177009132, "Micro Colloq 2", 0.0, 0, 1450224000, 82, 0, 15], [190999495, "Micro Exam Daxa", 0.0, 0, 1449187200, 2, 0, 0], [1777666145, "Microbiology Lab", 0.0, 0, 1449705600, 72, 0, 40], [1587003435, "Med 4 Block 3 Micro", 0.0, 0, 1448236800, 523, 0, 261], [743198618, "rowan som fundamentals 2 microbiology lecture 1 innate imm.", 0.0, 0, 1410220800, 85, 0, 26], [1352891910, "Microbiology - Pathogenic Staphylococcus spp.", 0.0, 0, 1369958400, 24, 0, 16], [330413900, "T4postmicro", 0.0, 0, 1446336000, 155, 0, 611], [1532603700, "Micro CJL Step 1", 0.0, 0, 1444867200, 239, 0, 21], [561841035, "DePaul Microbiology", 0.0, 0, 1444176000, 126, 0, 34], [1524498453, "minimals micro- clinical bacteriology debrecen uni. ", 0.0, 0, 1447632000, 102, 0, 0], [2105076780, "General Micro-minimals-unideb", 0.0, 0, 1444694400, 75, 0, 0], [2114750070, "Micro - Muscle (Lab + Review Disk)", 0.0, 0, 1444521600, 67, 0, 66], [2016100824, "FSU COM Microbio Bug Vignettes", 0.0, 0, 1444435200, 35, 0, 0], [1935070056, "Micro anki cards V2", 0.0, 0, 1442016000, 332, 0, 5], [1020652719, "Micro Block 1", 0.0, 0, 1441670400, 1203, 0, 687], [1062725447, "Microbiology flash cards JUYU", 0.0, 0, 1447372800, 219, 0, 0], [59802978, "Windows 10 Microsoft Edge shortcuts", 3.0, 1, 1439164800, 35, 0, 0], [2140314386, "Dr. Pai's Micro Lectures", 0.0, 0, 1441670400, 40, 0, 49], [1225886253, "Micro deck up to 8-11-15", 0.0, 0, 1440720000, 588, 0, 348], [1213559732, "AUA Med 3 Microbiology", 0.0, 0, 1435017600, 1570, 0, 1271], [636105689, "Information about Trematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 57, 0, 0], [781582486, "micro prematric", 0.0, 0, 1405641600, 121, 0, 7], [1746957572, "rowan som prematric peter tatum micro cardiac", 0.0, 0, 1405296000, 0, 0, 0], [633094380, "micro test4343", 0.0, 0, 1438992000, 1, 0, 0], [464842839, "Micro.Labs.Bacteriology", 0.0, 0, 1366848000, 48, 0, 21], [1045776765, "Micro/ID Properties of Bacteria", 0.0, 0, 1414022400, 74, 0, 0], [1536659412, "Shatrick - microbio & pharm", 0.0, 0, 1404000000, 155, 0, 0], [1385484740, "FOr Sim: MICRO", 0.0, 0, 1432684800, 329, 0, 209], [353082040, "Med Micro B2 Extra credit - aka This is stupid", 0.0, 0, 1434326400, 3, 0, 0], [692892245, "ROWAN SOM FUND 3 MICRO LECTURE 2 INTRO TO VIROLOGY (B)", 0.0, 0, 1412899200, 19, 0, 1], [28559621, "Micro & Immuno Viruses", 0.0, 0, 1410825600, 17, 0, 1], [2057679107, "Micro Ale FCs", 0.0, 0, 1409616000, 316, 0, 21], [3619320767, "Parts of the Microscope", 0.0, 0, 1345852800, 28, 0, 1], [1952936182, "BIOL140L/240L_Microbiology Laboratory", 0.0, 0, 1362355200, 133, 0, 0], [273575569, "Introduction to Microcomputing", 0.0, 0, 1426204800, 279, 0, 0], [265532741, "Information about Coccidia for Micro 3403 at Weber State", 0.0, 0, 1417996800, 96, 0, 0], [215782393, "Med Micro - URT infections", 0.0, 0, 1433289600, 111, 0, 50], [2012033341, "medische microbiologie UA 8", 0.0, 0, 1407369600, 26, 0, 0], [1444561284, "Micro SCT 2", 0.0, 0, 1417996800, 103, 0, 0], [2911856595, "Microbiology - Mycology and fungal skin infections", 0.0, 0, 1369872000, 32, 0, 44], [1150247403, "Med Micro - UTI & UGI", 0.0, 0, 1432512000, 86, 0, 21], [727979834, "UK NUR 210 Exam 4 Microbiology/Immunology", 0.0, 0, 1418774400, 83, 0, 0], [1401086358, "Med Micro - Antibacterial Drugs", 0.0, 0, 1431907200, 31, 0, 2], [608515244, "Neuro Micro 2015", 0.0, 0, 1423008000, 124, 0, 3], [1663050189, "Micro Block 3", 0.0, 0, 1396396800, 274, 0, 0], [539951472, "medische microbiologie UA 1", 0.0, 0, 1407369600, 21, 0, 17], [904973221, "rowan som micro fundamentals 3 t cell development", 0.0, 0, 1411430400, 59, 0, 23], [1448752845, "Micro Block 1", 0.0, 0, 1423094400, 239, 0, 0], [508472554, "rowan som fundamentals 2 microbiology", 0.0, 0, 1410307200, 145, 0, 51], [3427473876, "Ayamo Microbiology", 0.0, 0, 1385424000, 1032, 0, 318], [1539837358, "Micro exam 3 from ryan", 0.0, 0, 1428364800, 175, 0, 16], [169718960, "MICRO EXAM 4 - STIs", 0.0, 0, 1423699200, 291, 0, 153], [1229999007, "Microbiology Lab", 0.0, 0, 1417651200, 45, 0, 0], [1059913121, "rowan som fund 2 micro lecture 8 type 3-4 hypersensitivity", 0.0, 0, 1412035200, 46, 0, 6], [379984685, "Microbiology - 400 ", 0.0, 0, 1438473600, 305, 0, 0], [949944058, "Med Micro - Drugs Para, fungi, viral", 0.0, 0, 1431907200, 0, 0, 0], [3822468040, "Micro.Meningitis.HMS16", 0.0, 0, 1366675200, 21, 0, 7], [25024300, "rowan som fund 2 micro TUTOR & OLD EXAM QUESTIONS", 0.0, 0, 1412035200, 64, 0, 17], [1749262279, "Microbiology", 0.0, 0, 1428192000, 206, 0, 55], [1159872765, "Microbiology", 0.0, 0, 1415318400, 38, 0, 3], [16353437, "Microbiology Exam 1 MLS", 0.0, 0, 1409529600, 84, 0, 87], [40883493, "Rebecca's Micro Exam 2", 0.0, 0, 1418688000, 334, 0, 4], [1560499615, "FA Microbio", 0.0, 0, 1400457600, 93, 0, 4], [1598534380, "medische microbiologie UA 3", 0.0, 0, 1407369600, 6, 0, 1], [67031527, "DMNB Microbiology Drugs", 0.0, 0, 1417305600, 66, 0, 0], [3141433282, "Microbiology - Parasitology and Parasitic Skin Infections", 0.0, 0, 1369958400, 31, 0, 29], [2079303092, "Exam 3 - Microbiology", 0.0, 0, 1423094400, 310, 0, 157], [813007994, "Micro SCT 1", 0.0, 0, 1417996800, 75, 0, 0], [3924251294, "Med Micro Test 2 - UMMC", 0.0, 0, 1382400000, 388, 0, 0], [478140722, "CofO2 - Microanatomy.anki", 0.0, 0, 1345852800, 50, 0, 0], [620871039, "Exam 5 Micro", 0.0, 0, 1424649600, 372, 0, 101], [640621767, "Microbio ICS Quiz", 0.0, 0, 1400284800, 36, 0, 4], [856339835, "Microbiology . C.Rush", 0.0, 0, 1394150400, 111, 0, 0], [1084759521, "Ballstothe Microbio II: Going Viral", 0.0, 0, 1418601600, 313, 0, 2], [971658824, "Information about cestodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 122, 0, 0], [1753228079, "UT Houston Microbiology Block 4", 0.0, 0, 1398902400, 918, 0, 2], [1466562586, "Micro Exam 1 - Nitish", 0.0, 0, 1409529600, 91, 0, 33], [1889570833, "CAM102 Microbiology lawl", 0.0, 0, 1376956800, 163, 0, 9], [636549812, "Information about Nematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 199, 0, 0], [1832731190, "FMIP Microbiology IC1", 0.0, 0, 1424304000, 608, 0, 55], [475578017, "Microbiology Buzz Words (Viruses)", 0.0, 0, 1418515200, 147, 0, 0], [176735327, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369872000, 60, 0, 0], [139155333, "rowan som micro 6 fundamentals 2 antibody med. imm.", 0.0, 0, 1411430400, 16, 0, 1], [2629222369, "microbiology ", 0.0, 0, 1382140800, 174, 0, 0], [416826655, "Shatrick - microbiology ", 0.0, 0, 1407110400, 213, 0, 0], [482888005, "Micro/ID Properties of Bacteria", 0.0, 0, 1414022400, 11, 0, 0], [3535203096, "Micro.Zoonotic.LAF", 0.0, 0, 1367193600, 43, 0, 15], [2140378321, "microbio exam 2 sara likes wieners", 0.0, 0, 1424908800, 329, 0, 6], [551294987, "Micro Lec 3", 0.0, 0, 1369267200, 212, 0, 0], [2106155554, "Jae Chung RowanSOM Micro Renal 2015", 0.0, 0, 1420588800, 34, 0, 0], [1155251277, "Micro Exam 1  Davie", 0.0, 0, 1391472000, 191, 0, 0], [850882015, "Micro Exam 1", 0.0, 0, 1409270400, 186, 0, 177], [694412334, "Block3Micro", 0.0, 0, 1396656000, 659, 0, 13], [132130044, "Micro Ryan", 0.0, 0, 1425168000, 600, 0, 55], [1198858548, "Micro: Bacterial Pathogenesis 10/21", 0.0, 0, 1414108800, 32, 0, 0], [326386831, "micro exam III", 0.0, 0, 1417910400, 181, 0, 1], [1893721845, "ALL THE MICROBES", 0.0, 0, 1412294400, 42, 0, 0], [875944045, "Micro & Pharm with Mia", 0.0, 0, 1345852800, 51, 0, 0], [1185600625, "Microeconomics 304k Sibley", 1.0, 1, 1414627200, 3, 0, 0], [1276003756, "Micro: GI Viruses 12.12.14", 0.0, 0, 1418428800, 48, 0, 2], [1134898636, "medische microbiologie UA 6", 0.0, 0, 1407369600, 18, 0, 26], [1733890509, "Respiratory microbio", 0.0, 0, 1410739200, 16, 0, 4], [998551176, "Micro: Tissue Responses to Infection 10/30", 0.0, 0, 1415318400, 56, 0, 6], [570882039, "Microbiology I, with Eggers", 0.0, 0, 1411171200, 188, 0, 0], [2993810413, "BIOL140L_Microbiology Laboratory", 0.0, 0, 1345852800, 80, 0, 0], [1819181743, "NBDE Microbio/Path", 0.0, 0, 1391990400, 14, 0, 2], [986172315, "Micro Block 4", 0.0, 0, 1398816000, 202, 0, 0], [4279360206, "Microbio", 5.0, 1, 1384473600, 102, 0, 2], [2293089039, "Microbiology Lecture 1", 0.0, 0, 1366329600, 27, 0, 0], [1115600216, "Micro Viruses Block 3", 0.0, 0, 1427846400, 274, 0, 5], [513357273, "medische microbiologie UA 11", 0.0, 0, 1407369600, 24, 0, 7], [554965885, "LECOM MICRO one liners 2015", 0.0, 0, 1427846400, 587, 0, 2], [861458906, "rowan som micro 5 b cell development (fundamentals 2)", 0.0, 0, 1411430400, 32, 0, 1], [2173531084, "UMMC Microbiology Test 3", 0.0, 0, 1385337600, 156, 0, 0], [713365486, "Ballstothe Microbio", 0.0, 0, 1415836800, 450, 0, 9], [1910201598, "medische microbiologie UA 7", 0.0, 0, 1407369600, 51, 0, 55], [1880831787, "Micro Block III", 0.0, 0, 1395532800, 644, 0, 10], [926662215, "medische microbiologie UA 10", 0.0, 0, 1407369600, 17, 0, 20], [1783612208, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369094400, 60, 0, 0], [462980963, "Exam 6 Micro", 0.0, 0, 1425772800, 416, 0, 210], [1098833542, "rowan som micro fund 3 lecture 1 virology-A", 0.0, 0, 1412899200, 10, 0, 1], [2302930015, "FMS-3: Microbiology", 0.0, 0, 1384646400, 59, 0, 0], [840988966, "MicroLab: Quiz 2", 0.0, 0, 1394496000, 49, 0, 33], [728537128, "rowan som fund 2 micro lecture 7 type 1-2 hypersensitivity", 0.0, 0, 1412035200, 1, 0, 2], [72287582, "medische microbiologie UA 5", 0.0, 0, 1407369600, 30, 0, 6], [652036161, "CofO2 - 9 - Microcirculation and Edema", 0.0, 0, 1345852800, 26, 0, 0], [2128444719, "Med Micro Pharm and UTI", 0.0, 0, 1431561600, 46, 0, 32], [249666246, "medische microbiologie UA 12", 0.0, 0, 1407369600, 136, 0, 21], [1554839914, "Microbiology Buzz Words", 0.0, 0, 1416096000, 180, 0, 0], [1899683986, "Block 2 Microbiology", 0.0, 0, 1444867200, 1632, 0, 925], [1447103618, "CMBM: Immune response to microbial infection", 0.0, 0, 1391990400, 24, 0, 10], [1641325830, "Micro Block III 2/3", 0.0, 0, 1396396800, 873, 0, 9], [968419798, "micro", 0.0, 0, 1384128000, 163, 0, 0], [1416059262, "Rebecca's Micro Exam 1", 0.0, 0, 1416355200, 379, 0, 1], [1737612793, "Microbiology Lab Dva", 0.0, 0, 1417651200, 22, 0, 0], [1655246357, "Stupy Microbiology", 0.0, 0, 1430870400, 1661, 0, 0], [2049461951, "Block 3 Micro", 0.0, 0, 1431302400, 72, 0, 72], [1556002504, "medische microbiologie UA 4", 0.0, 0, 1407369600, 14, 0, 16], [1111993191, "Microbiology", 0.0, 0, 1426723200, 157, 0, 0], [1389312162, "Med Micro week 1", 0.0, 0, 1431388800, 49, 0, 5], [805679483, "Micro 12/9: Viral Hepatitis ", 0.0, 0, 1418688000, 59, 0, 0], [1971318057, "Microbio II PSM Practice", 0.0, 0, 1437696000, 3261, 0, 188], [926217534, "BASICRNAV", 0.0, 0, 1417478400, 13, 0, 0], [3351228323, "IUSM Microbiology streptococci", 0.0, 0, 1377129600, 59, 0, 0], [1033822626, "Micro: Respiratory Tract Bacteria I/II 11.12", 0.0, 0, 1415923200, 62, 0, 0], [467316133, "Microbes Exam", 0.0, 0, 1418256000, 146, 0, 0], [784001045, "medische microbiologie UA 9", 0.0, 0, 1407369600, 7, 0, 4], [3680019382, "IUSM Microbiology Staphlyococci", 0.0, 0, 1377129600, 30, 0, 0], [1770936917, "RPDonmicroforj", 0.0, 0, 1425254400, 39, 0, 0], [106281162, "microbio exam 1", 4.0, 1, 1422921600, 362, 0, 0], [267920793, "Seana Micro & Immuno FINAL", 0.0, 0, 1417996800, 182, 0, 32], [1362190984, "rowan som fund 2 micro lecture 9 vaccines & autoimmunity", 0.0, 0, 1412035200, 2, 0, 3], [2003398614, "Microbiology block 1", 0.0, 0, 1420588800, 73, 0, 0], [1351461775, "medische microbiologie UA 2", 0.0, 0, 1407369600, 9, 0, 1], [2895118218, "Microbiology - Streptococcus and Enterococcus", 0.0, 0, 1369958400, 42, 0, 10]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Icr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

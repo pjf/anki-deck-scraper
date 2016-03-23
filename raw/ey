@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[678926200, "HAII Midterm 1 - eye and orbit", 0.0, 0, 1454889600, 151, 0, 5], [1095090628, "they saw the house before them", 0.0, 0, 1453680000, 23, 0, 0], [554088453, "Remembering the Kanji 1, 3, \u221e (+ Vocab/Better Keywords)", 0.0, 0, 1408492800, 3235, 3, 0], [325066777, "QWERTY Typing deck. (Keys to finger and finger to keys)", 0.0, 0, 1454371200, 10, 0, 1], [1705736809, "Korean hangul to hanja using Heisig's RTK keywords", 0.0, 0, 1406073600, 331, 0, 0], [234552493, "Lahey Psychology Exam 1v", 0.0, 0, 1452470400, 400, 0, 0], [843234024, "RTK 1 Improved Keywords and Stories", 0.0, 0, 1399680000, 3138, 0, 0], [888118060, "Lahey Psychology Exam 4", 0.0, 0, 1452470400, 100, 0, 0], [2145130205, "Piano Notes and Keys", 0.0, 0, 1452297600, 39, 0, 78], [1875730707, "Lahey Psychology - Exam 3.", 0.0, 0, 1452470400, 100, 0, 0], [1158996250, "Lahey Psychology Exam 2?", 0.0, 0, 1452470400, 100, 0, 0], [4263652, "Ley 11/2007 - listas a aprender", 0.0, 0, 1449792000, 11, 0, 0], [1543605227, "Kidney Physiology questions about Homeostasis", 0.0, 0, 1449532800, 61, 0, 12], [972027116, "RTK 1 Improved Keywords Skeleton", 0.0, 0, 1394409600, 3029, 0, 0], [530357092, "Ear and Eye ANATD 502", 0.0, 0, 1449705600, 219, 5, 49], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [1022510556, "Edexcel Chemistry unit 4 organic esters Sydney", 0.0, 0, 1448928000, 6, 0, 4], [2036738806, "joey's vocab deck", 0.0, 0, 1449014400, 12, 0, 0], [349750013, "50 key history dates", 0.0, 0, 1447200000, 50, 0, 0], [997467399, "maconkey agar1.3", 0.0, 0, 1447891200, 156, 0, 103], [2042285532, "IMMS Lectures (Bar Histo and Embryol they separate module)", 0.0, 0, 1446595200, 195, 0, 45], [2080897934, "Edexcel Chemistry unit 4 Sydney", 0.0, 0, 1448928000, 384, 0, 87], [633419483, "Eylem's math3", 0.0, 0, 1447027200, 195, 0, 72], [1239012207, "Python - Built in functions, Keywords, Types", 2.0, 1, 1440892800, 350, 0, 0], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [7215717, "Eye Anatomy - Kathy Durham - Anatomy and Physiology LCCC", 0.0, 0, 1443398400, 30, 0, 14], [1145125698, "Bel pawol Kreyol", 0.0, 0, 1444867200, 41, 40, 1], [1427483779, "Heisig's Remember the Kanji (RTK) 1+3 Kanji to keyword", 5.0, 1, 1439856000, 3006, 3, 1650], [1275945354, "Kidney and Urinary Tract Pathology", 0.0, 0, 1441670400, 102, 0, 48], [158459636, "Wuthering Heights Key quotes", 0.0, 0, 1432771200, 373, 0, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [1098230940, "Japanese for busy people - Longley-preston edition", 0.0, 0, 1443916800, 149, 0, 0], [941790850, "Key vocab week 1", 0.0, 0, 1444694400, 73, 0, 0], [462941866, "Eye, Orbit, Orbital Region, & Eyeball. CSUS Bio 122", 0.0, 0, 1440374400, 10, 0, 21], [1643541463, "Health Assessment Chp 16 Eyes", 0.0, 0, 1442275200, 121, 0, 0], [395736849, "Sublime Keyboard Shortcuts - Windows/Linux", 0.0, 0, 1441065600, 54, 0, 0], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [1073860645, "Kidneys", 0.0, 0, 1442620800, 24, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [696959526, "MPaley MB1", 0.0, 0, 1439596800, 91, 0, 4], [298539925, "Assessing Kidney Function", 0.0, 0, 1441756800, 11, 0, 0], [744941419, "Epidemiology_UC Berkeley", 0.0, 0, 1442361600, 36, 0, 0], [1439005826, "Windows 10 Keyboard Shortcuts ", 0.0, 0, 1439164800, 48, 0, 1], [217329638, "MPaley MBM Protein Lecture 1", 0.0, 0, 1439596800, 29, 0, 0], [218813209, "MPaley Nitrogen Metabolism ", 0.0, 0, 1439596800, 73, 0, 1], [729292332, "Homer Odyssey Vocabulary", 0.0, 0, 1425513600, 296, 0, 1], [808913171, "MPaley Anatomy ", 0.0, 0, 1439596800, 93, 0, 63], [2013831574, "2001 Space odyssey", 0.0, 0, 1421366400, 202, 0, 0], [2026167464, "Chapter 17 Physiology of the Kidneys", 0.0, 0, 1432684800, 16, 0, 0], [1554243755, "Wesleyan Social Psychology lectures 16-20", 0.0, 0, 1400112000, 112, 0, 0], [1211527526, "Harvey Flash Card", 0.0, 0, 1429488000, 1, 0, 7], [4071507927, "Emacs Keystrokes", 0.0, 0, 1357776000, 66, 0, 0], [1105889109, "Eye Histology", 0.0, 0, 1407974400, 93, 0, 89], [730142465, "Courtney wants, Courtney gets", 0.0, 0, 1434326400, 62, 0, 36], [1402764556, "Kelsey: Petra", 0.0, 0, 1426377600, 269, 0, 0], [1588667128, "Genesis - Key Facts and Events", 0.0, 0, 1437523200, 49, 0, 0], [1160353614, "Key Epilepsy Drug ADRs", 0.0, 0, 1382486400, 31, 0, 0], [540406260, "AshleyRS1", 0.0, 0, 1430352000, 158, 0, 16], [1726688279, "Leaving Cert Chemistry for Courtney", 0.0, 0, 1432080000, 282, 0, 35], [1614953931, "Remember The Milk Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1289928087, "WS2014_I&P_Romeyke", 0.0, 0, 1422835200, 112, 0, 0], [1781700801, "Joey's Jizzing UWS Cards", 0.0, 0, 1414368000, 157, 0, 2], [375788075, "Whidbey airspace", 0.0, 0, 1425254400, 52, 0, 53], [3847643652, "Dragunkin Rus - Eng made by Sergey Larin", 0.0, 0, 1359417600, 388, 0, 0], [135221183, "Dr. Bradley's Lectures", 0.0, 0, 1430179200, 60, 0, 72], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1315969359, "Riley Japanese", 0.0, 0, 1426377600, 82, 0, 0], [828176078, "Sherman's Circular Gallifreyan", 0.0, 0, 1423008000, 29, 0, 29], [1208876092, "Geography leaving cert for Courtney", 0.0, 0, 1432166400, 896, 0, 129], [1813956502, "The Changeling key quotes", 0.0, 0, 1432771200, 192, 0, 0], [1849870205, "Arabic keyboard", 0.0, 0, 1423440000, 48, 0, 131], [376716890, "Whidbey Island RFC Test 2", 0.0, 0, 1388707200, 25, 0, 0], [2625437215, "TCM Review CALE 83 Formulas Key Signs & Symptoms", 0.0, 0, 1345852800, 83, 0, 0], [785337001, "Komiskey-MS drugs", 0.0, 0, 1400112000, 37, 0, 1], [2135560089, "GlyphStudy Collier&Manley Chapter 5 - Vocabulary", 0.0, 0, 1345852800, 46, 0, 92], [1425078886, "GuitarOS Reading Rhythms 'Eye' Deck - FretboardAnatomy.com ", 0.0, 0, 1422921600, 49, 49, 98], [3419069801, "zoeyzy", 0.0, 0, 1355097600, 129, 0, 0], [665313153, "MHCHS Key Slave Trading Events", 0.0, 0, 1363737600, 62, 0, 0], [997975627, "GlyphStudy Collier&Manley Chapter 8 - Exercise", 0.0, 0, 1345852800, 75, 0, 150], [1150655406, "Ordination Prep: Key Words", 0.0, 0, 1429142400, 66, 0, 0], [119714158, "Chrome Windows keyboard shortcuts", 0.0, 0, 1392336000, 76, 0, 0], [482276031, "Kelsey Arabic: Patterns", 0.0, 0, 1440460800, 509, 147, 24], [122558268, "Mikey's German <=> English Vocab Deck", 0.0, 0, 1358467200, 1677, 0, 0], [388823500, "Kelsey: Abdo", 0.0, 0, 1424822400, 573, 0, 0], [466488009, "Games 101 Spring 2015 Key Games", 0.0, 0, 1431475200, 100, 0, 98], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [1410871371, "UC Berkeley Vietnamese 1A Words", 0.0, 0, 1418860800, 793, 0, 0], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [526354263, "ED Money vocabulary Polish-English", 0.0, 0, 1425772800, 77, 0, 0], [546665876, "beygingar::l\u00fdsingaror\u00f0", 0.0, 0, 1453939200, 228, 0, 0], [470894463, "McKinley Adult School Japanese 1", 0.0, 0, 1345852800, 368, 655, 65], [502278161, "Kelsey Arabic: Topical Discussion", 0.0, 0, 1440374400, 376, 21, 1], [199914376, "Land Survey 01 - Conversions", 0.0, 0, 1412553600, 18, 0, 0], [205344329, "GlyphStudy Collier&Manley Chapter 4 - Exercise", 0.0, 0, 1345852800, 71, 0, 142], [401628011, "Water Analysis for my friend, Courtney", 5.0, 1, 1432080000, 52, 0, 5], [4054819301, "37C - Eyes & Ears images", 0.0, 0, 1384560000, 28, 0, 0], [1201322335, "GlyphStudy Collier&Manley Chapter 6 - Exercise", 0.0, 0, 1345852800, 82, 0, 164], [1615416392, "Vimium keyboard shortcuts", 5.0, 1, 1392336000, 38, 0, 0], [776189815, "Bell PCOM Eye 1/18/2015", 0.0, 0, 1421539200, 30, 0, 14], [902604370, "GuitarOS Reading Rhythms Two - Eye Deck - FretboardAnatomy.c", 0.0, 0, 1425859200, 75, 75, 150], [1761443214, "AshleyRS2", 0.0, 0, 1430352000, 53, 0, 0], [2347827767, "Whidbey RFC Phase 3", 0.0, 0, 1392336000, 23, 0, 0], [1434812234, "UK Spelling Keywords", 0.0, 0, 1417132800, 298, 294, 0], [1278063009, "Salters-Nuffield Biology A2 - Grey Matter", 0.0, 0, 1411776000, 131, 0, 0], [1052016923, "hey", 0.0, 0, 1387584000, 236, 0, 0], [790415016, "Medicine Harvey T", 0.0, 0, 1421020800, 807, 0, 8], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [1848798738, "GlyphStudy Collier&Manley Chapter 4 - Vocabulary", 0.0, 0, 1345852800, 24, 0, 48], [1185600625, "Microeconomics 304k Sibley", 1.0, 1, 1414627200, 3, 0, 0], [18763790, "Tracey's USMLE Deck", 0.0, 0, 1403568000, 2029, 0, 161], [1634283011, "Lecom embryo kidney", 0.0, 0, 1411862400, 39, 0, 22], [3672396104, "2012 List of 90 Key verses", 0.0, 0, 1345852800, 90, 0, 0], [1683626442, "Key to Quranic Arabic", 0.0, 0, 1422662400, 214, 0, 214], [1564168149, "GlyphStudy Collier&Manley Chapter 7 - Exercise", 0.0, 0, 1345852800, 61, 0, 122], [1874397604, "Pulmonology For PSU Hershey Spring 15", 0.0, 0, 1429660800, 331, 0, 467], [3315859020, "GlyphStudy Collier&Manley Chapter 8 - Vocabulary", 0.0, 0, 1345852800, 76, 0, 152], [16060238, "Ruby Keywords", 0.0, 0, 1380672000, 28, 0, 0], [440911762, "AshleyRS", 0.0, 0, 1430352000, 83, 0, 10], [3580487384, "GlyphStudy Collier&Manley Chapter 5 - Exercise", 0.0, 0, 1345852800, 88, 0, 176], [1775906357, "Hingley Neuro", 0.0, 0, 1423094400, 82, 0, 11], [946752090, "Chord Symbols to piano keys", 0.0, 0, 1395619200, 797, 0, 797], [1262620338, "Eclipse keyboard shortcuts", 0.0, 0, 1400457600, 28, 0, 0], [824411599, "IAFs for Whidbey radar approaches", 0.0, 0, 1425859200, 22, 0, 0], [1376176075, "B3 Histology: Ear and Eye", 0.0, 0, 1424390400, 108, 0, 107], [1668000391, "beygingar::nafnor\u00f0", 0.0, 0, 1446249600, 78, 0, 0], [1316378259, "Mawhinney Genetics Lectures", 0.0, 0, 1411430400, 140, 0, 0], [3440390949, "Gmail Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [27335959, "beygingar::forn\u00f6fn", 0.0, 0, 1403827200, 73, 0, 0], [570858257, "A2. Lesson 14. Sydney", 0.0, 0, 1424908800, 24, 24, 0], [290956596, "Mikey's Polish <=> English Vocab Deck", 0.0, 0, 1358467200, 1367, 0, 0], [1703683610, "Tea with Talley - CAH Term", 0.0, 0, 1405382400, 55, 0, 23], [639746089, "GlyphStudy Collier&Manley Chapter 6 - Vocabulary", 0.0, 0, 1345852800, 18, 0, 36], [508609876, "HILD7B Midterm 1 Key Terms", 0.0, 0, 1423008000, 55, 0, 0], [287844216, "MCB II Block II Money Questions", 0.0, 0, 1423872000, 233, 0, 0], [827714409, "Business English. B1. Common English expressions about money", 0.0, 0, 1427500800, 8, 0, 0], [4005945346, "GlyphStudy Collier&Manley Chapter 7 - Vocabulary", 0.0, 0, 1345852800, 92, 0, 184], [1966591620, "Python Symbols and Keywords LPTHW Ex22", 0.0, 0, 1391040000, 52, 0, 0], [1052103645, "WMS - Anatomy - Eyes ", 0.0, 0, 1390608000, 36, 0, 5], [1220569063, "Super joey ", 0.0, 0, 1415059200, 439, 0, 44], [1236098686, "Asana keyboard shortcuts", 0.0, 0, 1393459200, 35, 0, 0], [1845645316, "CofO2 - 16 - Kidney", 0.0, 0, 1345852800, 39, 0, 0], [2090701210, "Phrases to build  krey\u00f2l vocabulary", 0.0, 0, 1399593600, 1, 0, 0], [2288741695, "MHCHS Politics Key Words and Information", 0.0, 0, 1381104000, 21, 0, 0], [2513998527, "Edipo rey", 0.0, 0, 1345852800, 1486, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ey</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

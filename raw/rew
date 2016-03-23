@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[675738707, "100 Basic Hebrew Verbs (TeachMeHebrew.com)", 5.0, 2, 1358812800, 100, 100, 0], [3137513112, "100 Basic Hebrew Phrases (TeachMeHebrew.com)", 4.78, 9, 1355875200, 101, 101, 0], [1101604155, "1.000+ most frequent Hebrew Words", 0.0, 0, 1438214400, 716, 0, 1], [348899138, "Hebrew with Nekudot - gk", 0.0, 0, 1345852800, 1750, 0, 0], [36186446, "Numbers in Hebrew (TeachMeHebrew.com)", 5.0, 1, 1359936000, 213, 213, 0], [3696327833, "500 Basic Hebrew Words (TeachMeHebrew.com)", 5.0, 8, 1358812800, 500, 499, 0], [400352449, "Modern Hebrew for Beginners", 0.0, 0, 1454803200, 517, 0, 0], [1420931293, "Hebrew Alphabet with vowels", 4.5, 2, 1357689600, 44, 46, 49], [889789113, "Hebrew Core 100 - Basic words (EN  HE with audio)", 0.0, 0, 1436832000, 202, 109, 116], [742905435, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level BET", 0.0, 0, 1386460800, 3261, 0, 0], [1014529076, "Lambdin Hebrew Grammar Vocabulary", 0.0, 0, 1449187200, 903, 720, 11], [1286299827, "hebrew 1test", 0.0, 0, 1452816000, 1, 0, 0], [2718482960, "Anno's Primary Hebrew Sentence Mine", 5.0, 1, 1375833600, 2826, 1755, 91], [167023255, "Let's Talk Hebrew Vocabulary", 0.0, 0, 1453334400, 66, 0, 57], [1190323276, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level DALET, verbs", 0.0, 0, 1386460800, 528, 0, 0], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [1554982961, "Biblical Hebrew Verbs (Oak Hill College)", 0.0, 0, 1410825600, 384, 0, 383], [204452366, "Vocabulary for the Hebrew 1 course at Moore College (2016)", 0.0, 0, 1453334400, 367, 1, 2], [1597841382, "Futato Hebrew I & II  Vocabulary @ RTS", 0.0, 0, 1451520000, 285, 0, 0], [1608487705, "Set of Hebrew words preparing to menunanim exam", 0.0, 0, 1451001600, 185, 268, 0], [2076380991, "Hebrew I Vocabulary ", 0.0, 0, 1450137600, 160, 0, 0], [1546104439, "Bible Quiz 58 Hebrews", 0.0, 0, 1345852800, 146, 0, 0], [1424147843, "Biblical hebrew (z polskim t\u0142umaczeniem)", 0.0, 0, 1448668800, 737, 0, 0], [1077141005, "Picture-Russian-Hebrew", 0.0, 0, 1446249600, 30, 0, 30], [1139068131, "Biblical Hebrew Grammar (Oak Hill College)", 0.0, 0, 1356566400, 251, 0, 0], [2138821507, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF, verbs", 0.0, 0, 1386460800, 243, 0, 0], [1929025612, "Past Simple V2 - Irregular Verbs - English - Hebrew", 0.0, 0, 1448150400, 151, 0, 0], [1318425181, "Hebrew ENG-HEB", 0.0, 0, 1445990400, 1908, 8, 20], [2013592460, "Ulpan Vocabulary(Hebrew-English/English-Hebrew)", 0.0, 0, 1441152000, 149, 0, 0], [991608745, "Hebrew Verbaton", 0.0, 0, 1446681600, 9, 3, 2], [1208003417, "He Brews! Memory aids for Hebrew vocab", 0.0, 0, 1369008000, 242, 135, 249], [1783149357, "Hebrew Quick & Dirty 30 (EN  HE)", 0.0, 0, 1445126400, 60, 38, 45], [2711974027, "Basics of Biblical Hebrew Pratico and Van Pelt", 3.5, 2, 1345852800, 490, 0, 0], [1024263426, "Hebrew In Time", 0.0, 0, 1442707200, 23, 0, 4], [790313954, "Hebrew From Scratch, Books 1&2 - Heb-Eng / Eng-Heb", 0.0, 0, 1441238400, 2006, 0, 0], [1010356796, "Hebrew Advanced", 0.0, 0, 1431734400, 610, 0, 0], [508065864, "Seow Hebrew Grammar Vocabulary - Complete", 0.0, 0, 1442448000, 765, 0, 0], [531080883, "The First Hebrew Primer", 0.0, 0, 1439510400, 560, 0, 0], [785159256, "Hebrew Words Learned with Dorit", 5.0, 1, 1442275200, 1312, 0, 0], [180106402, "English - Hebrew words", 0.0, 0, 1433808000, 420, 0, 0], [389954908, "WELS Hebrew 2015 Grammar points for Nass Class Genesis 37-50", 0.0, 0, 1434672000, 21, 0, 0], [101744176, "Hebrew extra", 0.0, 0, 1437264000, 18, 0, 0], [1642351538, "Moore College Hebrew Strong Verb Paradigms", 0.0, 0, 1391731200, 243, 0, 0], [1318204123, "Hebrew VI-Bock", 0.0, 0, 1345852800, 52, 0, 0], [843159562, "Hebrew from scratch ", 0.0, 0, 1437264000, 1976, 0, 0], [3381943471, "Hebrew - Kitah Hay", 0.0, 0, 1375228800, 100, 0, 0], [3217084975, "electricity physics hebrew", 0.0, 0, 1352246400, 24, 0, 9], [2093064714, "Biblical Hebrew consonants and vowels", 0.0, 0, 1426032000, 55, 0, 0], [3844810037, "Hebrew V-Bock", 0.0, 0, 1345852800, 113, 0, 0], [62505688, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level BET, verbs", 0.0, 0, 1386460800, 822, 0, 0], [1326982580, "history of japan taisho to prewar", 5.0, 1, 1399334400, 186, 0, 0], [1473169785, "hebrew words, phrases and sentences", 0.0, 0, 1431475200, 466, 467, 0], [410042936, "Hebrew Beginners", 0.0, 0, 1418860800, 849, 0, 0], [1149066316, "Hebrew Vocabulary: Miscellaneous ", 3.0, 1, 1430179200, 3615, 0, 0], [103163536, "aloishebrew", 0.0, 0, 1417305600, 783, 2, 3], [695189831, "Moore College Hebrew 1 (2013)", 0.0, 0, 1391731200, 364, 0, 0], [4069034544, "Hebrew Grammar", 0.0, 0, 1345852800, 1, 0, 0], [71941426, "English Vocabulary - Intermediate/ Advanced (Hebrew)", 0.0, 0, 1393804800, 439, 0, 0], [525341516, "Landes Hebrew Vocabulary", 0.0, 0, 1387238400, 558, 0, 0], [473958092, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level GIMEL", 0.0, 0, 1386460800, 1715, 0, 0], [501235572, "hebrew", 0.0, 0, 1412467200, 466, 0, 2], [1805361268, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 5.0, 1, 1365638400, 393, 222, 393], [635810368, "Hebrew VI-Bock-Class 8", 0.0, 0, 1345852800, 20, 0, 0], [1256549076, "Van Pelt & Pratico Biblical Hebrew Vocab 1-200", 0.0, 0, 1423094400, 200, 0, 0], [3256824214, "Hebrew From Scratch-Book B", 0.0, 0, 1345852800, 37, 0, 0], [3563246950, "Drew's French to English", 5.0, 1, 1374364800, 1012, 0, 0], [727240819, "Skipper Machinery Test - Hebrew ", 0.0, 0, 1425945600, 178, 0, 0], [345816955, "Hebrew <-> English, intermediate advanced, Bet Plus upwards", 0.0, 0, 1408060800, 1710, 0, 0], [4214826034, "Biblical Hebrew ch 3-5", 0.0, 0, 1345852800, 34, 0, 0], [2812525236, "Test Hebrew", 0.0, 0, 1355961600, 1, 0, 0], [423814050, "Van Pelt & Pratico Biblical Hebrew Vocab 1001-1101", 0.0, 0, 1424304000, 100, 0, 0], [1399457871, "Tachles Modern Hebrew Lesson 3 - Shopping", 0.0, 0, 1397174400, 110, 0, 0], [2841590704, "Biblical Hebrew 201 UofA", 0.0, 0, 1382313600, 267, 0, 0], [69093084, "Hebrew Vocab", 0.0, 0, 1432684800, 182, 1, 2], [1541766241, "Common Masora Parva Abbreviations Hebrew MTC 2013", 0.0, 0, 1361145600, 29, 0, 0], [724242811, "Basics of Biblical Hebrew Vocab (PVP)", 0.0, 0, 1425686400, 520, 0, 0], [504358078, "Hebrew AlefBet (TeachMeHebrew.com)", 5.0, 2, 1354924800, 22, 22, 0], [2617319445, "Biblical Hebrew Vocab (Oak Hill College)", 5.0, 2, 1357689600, 1268, 0, 1268], [618040839, "Hebrew VI-Bock-Class 7", 0.0, 0, 1345852800, 18, 0, 0], [1737203563, "Moore College Hebrew Masorah Vocabs", 0.0, 0, 1391817600, 28, 0, 0], [44008109, "St andrews MD2002 WIP.3", 0.0, 0, 1432339200, 1619, 0, 401], [88061418, "Moore College Hebrew Sight Words", 0.0, 0, 1391731200, 32, 0, 0], [1232970070, "Hebrew Names of Old Testament Books", 0.0, 0, 1393632000, 35, 0, 0], [2148398495, "Kis-Lev Esperanto HEBREW", 0.0, 0, 1345852800, 349, 0, 0], [1675544794, "Hebrew Inflections", 0.0, 0, 1345852800, 35, 0, 0], [1029609284, "Tachles Modern Hebrew Lesson 2 - Getting around", 0.0, 0, 1397174400, 76, 0, 0], [23276562, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 0.0, 0, 1365638400, 393, 222, 393], [1283875542, "Van Pelt & Pratico Biblical Hebrew Vocab 1101-1200", 0.0, 0, 1424304000, 100, 0, 0], [649610078, "Mitchel's Hebrew Vocabulary (1A-5S)", 0.0, 0, 1383264000, 1432, 0, 0], [2083283530, "Tachles Modern Hebrew Lesson 4 - Restaurant", 0.0, 0, 1397174400, 79, 0, 0], [979729172, "Van Pelt & Pratico Biblical Hebrew Vocab 801 - 1000", 0.0, 0, 1424304000, 200, 0, 0], [755444174, "Immunology - TAU Immunology Course - Hebrew", 0.0, 0, 1407456000, 856, 0, 304], [650299746, "Hebrew1", 0.0, 0, 1345852800, 20, 0, 0], [2126805285, "Mitchel's Hebrew Vocab (1A - 5BB) (Complete)", 0.0, 0, 1389657600, 1988, 0, 0], [1658661904, "Hebrew-Slovak Hanes", 5.0, 1, 1383696000, 815, 46, 0], [1278761793, "Medical Hebrew", 0.0, 0, 1399248000, 396, 0, 0], [2536601410, "Biblical Hebrew Verbs PVP (Oak Hill College)", 0.0, 0, 1368662400, 384, 0, 383], [3555664940, "Set of Biblical Hebrew Cards", 0.0, 0, 1345852800, 987, 0, 0], [1347433194, "Oak Hill Hebrew Vocab: PVP, Ruth, Jonah, Deut - Apr 2014", 0.0, 0, 1396483200, 1430, 0, 1429], [1395268888, "Hebrew - Sandy and Geoff", 0.0, 0, 1392595200, 35, 0, 0], [2583486943, "Biblical Hebrew Verb No-Prefix Forms", 0.0, 0, 1345852800, 36, 0, 0], [104037262, "Hebrew Tenses", 0.0, 0, 1398643200, 9, 0, 0], [1143777650, "Hebrew Verbs", 5.0, 1, 1345852800, 25, 0, 0], [31671055, "Van Pelt & Pratico Biblical Hebrew Vocab 201-500", 0.0, 0, 1423094400, 300, 0, 0], [1845402909, "Tachles Modern Hebrew Lesson 1 - Basics", 0.0, 0, 1397174400, 77, 0, 0], [1065168474, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level GIMEL, verbs", 0.0, 0, 1386460800, 1163, 0, 0], [1774074550, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF", 0.0, 0, 1386460800, 1549, 0, 0], [4184313731, "Learning Hebrew", 0.0, 0, 1350086400, 261, 0, 0], [901394390, "hebrew boubou", 0.0, 0, 1426896000, 17, 0, 0], [1396675159, "Krewni i Powinowaci", 0.0, 0, 1402099200, 48, 0, 0], [1747245368, "Anno's Hebrew Tatoeba Sentence Deck (with audio)", 3.5, 4, 1375920000, 32479, 941, 0], [643009011, "Ross Biblical Hebrew (w/ audio)", 5.0, 1, 1378944000, 454, 456, 0], [9612081, "Van Pelt & Pratico Biblical Hebrew Vocab 501-800", 0.0, 0, 1423094400, 300, 0, 0], [1255941926, "Hebrew Medical Phrases", 0.0, 0, 1385337600, 68, 0, 0], [2939228610, "1750 words english-hebrew with hints (to hebrew speakers)", 5.0, 1, 1366675200, 1750, 0, 0], [3962900935, "Elementary Biblical Hebrew Vocab (GWC)", 4.0, 1, 1358899200, 393, 0, 393], [876234524, "Basics of Biblical Hebrew", 0.0, 0, 1387411200, 794, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rew</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

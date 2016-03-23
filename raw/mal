@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[855258552, "Vocabulario - Minna no Nihongo I - EOI Malaga", 0.0, 0, 1454889600, 825, 0, 0], [2091336733, "Animals: Pictures to English and Japanese", 2.0, 1, 1414195200, 150, 0, 150], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [1195399361, "Small Test English-Cantonese deck with Audio", 0.0, 0, 1454371200, 429, 426, 0], [1409514856, "625 Word German Deck / Picture Words & Minimal Pairs", 0.0, 0, 1445385600, 559, 646, 470], [764428933, "Kanji - Grado 2 - EOI Malaga", 0.0, 0, 1454889600, 47, 0, 0], [1839034134, "fmmale", 0.0, 0, 1454630400, 39, 0, 0], [907859654, "Einmal-Eins", 0.0, 0, 1453420800, 79, 0, 0], [1701636491, "Animales en alem\u00e1n", 0.0, 0, 1442793600, 19, 0, 0], [2015783523, "Animals English-German Krzysztof Sobczak GIM", 0.0, 0, 1452124800, 72, 0, 0], [1369920954, "EDU 803 Small Group 4", 0.0, 0, 1453334400, 0, 0, 0], [1554952324, "Kanji - Grado 1 - EOI Malaga", 5.0, 3, 1454889600, 80, 0, 0], [729423771, "internal medicine minimals", 0.0, 0, 1452384000, 66, 0, 1], [14855591, "Algorithmist's Malayalam abugida (\"alphabet\") ", 0.0, 0, 1447804800, 70, 52, 0], [1815176407, "Thai Breitenstein Animals", 0.0, 0, 1453248000, 34, 8, 32], [499237768, "Park Small Group Memory Verses - 11329", 0.0, 0, 1452556800, 1, 3, 0], [625878654, "Easy Malay Words", 0.0, 0, 1451952000, 230, 0, 0], [2140735574, "Tokemo Malay (Beginner/Elementary)", 5.0, 1, 1405296000, 2842, 2827, 1228], [508547589, "Human rights (from Malala Yousafzai interview)", 0.0, 0, 1452902400, 15, 15, 6], [359505716, "Mal infs", 0.0, 0, 1449014400, 39, 0, 1], [333716190, "PSY 280 (Abnormal Psychology MSU)", 5.0, 1, 1449705600, 199, 0, 0], [1151734453, "business small talk", 0.0, 0, 1448236800, 34, 0, 0], [1795726648, "small rum ", 0.0, 0, 1449964800, 79, 0, 0], [894215287, "Arabic Minimal Pairs", 5.0, 1, 1449273600, 138, 0, 0], [1320347145, "Medical School - Pelvic Anatomy (Male/Female)", 0.0, 0, 1445731200, 182, 0, 451], [734076001, "mammalia a'la t\u00e1rsul\u00e1sok", 0.0, 0, 1449014400, 19, 0, 0], [893298781, "Malay Sentences Level 12", 0.0, 0, 1448668800, 24, 1, 0], [1768536471, "208-Maladies respi d'origine professionnelle", 0.0, 0, 1449964800, 11, 0, 0], [1615726147, "CSIM2 - Abnormal Renal Function", 0.0, 0, 1449878400, 88, 0, 0], [759214485, "Malay Sentences Level 5", 0.0, 0, 1448668800, 27, 1, 0], [1974263871, "Malay Sentences Level 1", 0.0, 0, 1448668800, 9, 1, 0], [519991911, "Malay Sentences Level 11", 0.0, 0, 1448668800, 19, 1, 0], [359302370, "Male ad Female Reproductive Systems ANATD 502 ", 0.0, 0, 1449705600, 275, 0, 38], [1204688718, "Malay Sentences Level 2", 0.0, 0, 1448668800, 15, 1, 0], [1429966940, "Animal Phys Exam 3 Endocrinology ", 0.0, 0, 1447891200, 87, 0, 0], [1106483072, "Malay Sentences Level 8 ", 0.0, 0, 1448496000, 15, 1, 0], [1067533339, "Malay Sentences Level 3", 0.0, 0, 1448668800, 16, 1, 0], [1221625160, "Malay Sentences Level 7 ", 0.0, 0, 1448496000, 15, 1, 0], [1621958370, "Arabic Animal Names (Vocabulary) (Vowel Signs)", 0.0, 0, 1422144000, 102, 61, 0], [2074018399, "Animal Phys Exam 2 Neurons", 5.0, 1, 1445817600, 35, 0, 0], [1464056258, "Malay Sentences Level 4", 0.0, 0, 1448668800, 9, 1, 0], [23083473, "Malay Sentences Level 9 ", 0.0, 0, 1448496000, 36, 1, 0], [383990831, "Animal Phys Exam 2 Muscles", 0.0, 0, 1445817600, 36, 0, 0], [738862165, "Malaka", 0.0, 0, 1448236800, 162, 0, 0], [479830396, "female repro 2- pics", 0.0, 0, 1446508800, 52, 2, 143], [1804763339, "Animal Phys Exam 3 Circulation", 0.0, 0, 1447891200, 46, 0, 0], [1518106034, "Ariella- female repro 2- pics", 0.0, 0, 1446508800, 52, 2, 143], [917863058, "Animal Phys Exam 2 Sensory", 0.0, 0, 1445817600, 111, 0, 0], [1057165854, "Health Assessment Chp 26 Males/Rectum", 0.0, 0, 1445385600, 74, 0, 0], [1524498453, "minimals micro- clinical bacteriology debrecen uni. ", 0.0, 0, 1447632000, 102, 0, 0], [2085659187, "VCU Animal Reproduction", 0.0, 0, 1444694400, 533, 0, 55], [2105076780, "General Micro-minimals-unideb", 0.0, 0, 1444694400, 75, 0, 0], [168724376, "Animal Phys Exam 2 Brain", 0.0, 0, 1445817600, 0, 0, 0], [590070108, "Companion Animal and Equine Medicine Exam 2", 0.0, 0, 1444089600, 559, 0, 0], [1439509063, "Anan's Malaysian Medical Normal Value", 0.0, 0, 1445126400, 71, 0, 0], [2000645439, "Health Assessment Chp 27 Females", 0.0, 0, 1445385600, 81, 0, 0], [1839219427, "Animal Phys Exam 1", 0.0, 0, 1443571200, 131, 0, 0], [748240516, "malerepro", 0.0, 0, 1446681600, 38, 0, 0], [1204849858, "AUA Med 4 Female Reproductive Pathology", 0.0, 0, 1443916800, 292, 0, 167], [1813242064, "Malattie infettive v1 Bari", 0.0, 0, 1442966400, 22, 0, 1], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [2102628967, "Malagasy Passive Verbs", 0.0, 0, 1440806400, 30, 0, 4], [560647422, "Malagasy Active Verbs 1-100", 0.0, 0, 1440806400, 101, 0, 4], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [322091789, "TY A01 Animals", 0.0, 0, 1438646400, 10, 10, 10], [618052218, "Anatomy Terms: Shoulder Girdle + Proximal Humerus", 0.0, 0, 1437004800, 41, 0, 0], [528758787, "Ven\u00e4j\u00e4\u00e4 suomalaisille", 0.0, 0, 1440460800, 426, 0, 0], [1957808452, "Animals: Da'an Davi", 0.0, 0, 1405900800, 22, 22, 0], [4089137, "TY A03 Animals", 0.0, 0, 1438646400, 11, 11, 11], [3414320282, "Malay For Everyone", 0.0, 0, 1376179200, 534, 0, 0], [1131934718, "minimals biostatistics", 0.0, 0, 1385424000, 30, 0, 61], [2567141894, "bokmal kee", 0.0, 0, 1369526400, 218, 15, 0], [800178925, "PFP Male Reproductive System", 0.0, 0, 1416268800, 34, 0, 0], [2749208589, "Kollokvie-1 - Dermatologi premaligne og maligne tumores", 0.0, 0, 1369872000, 91, 0, 83], [958302064, "Pronunciation trainer and minimal pairs", 0.0, 0, 1412467200, 101, 133, 65], [2042073996, "Fish and marine animals", 0.0, 0, 1397952000, 169, 0, 0], [1353874807, "FRCPA WHO malignancy deck JW", 0.0, 0, 1438473600, 82, 0, 1], [6055910, "Malala Yousafzai video", 0.0, 0, 1425859200, 11, 0, 5], [4248883746, "Kurso de Esperanto (fran\u00e7ais) + Gerda malaperis", 5.0, 1, 1345852800, 858, 0, 0], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [1974021586, "Malaysia Medical Common Practice Abbreviation", 0.0, 0, 1434585600, 233, 0, 0], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [1785669958, "Dogs and Cats Abnormal Urination (3rd year vet)", 0.0, 0, 1420243200, 683, 0, 0], [888405182, "Lysosomal Storage Diseases", 0.0, 0, 1410739200, 31, 0, 0], [1676295402, "Animals", 0.0, 0, 1422489600, 17, 0, 0], [3300776687, "WFSC 401 - TAMU Mammalogy Lab Exam 2", 0.0, 0, 1365724800, 94, 0, 113], [532940709, "Marathi - animals", 0.0, 0, 1403654400, 36, 0, 0], [2027329528, "Animali", 0.0, 0, 1384905600, 50, 50, 0], [1007163436, "Patho Minimals Semester 1", 0.0, 0, 1417996800, 156, 0, 0], [1110516983, "Korean Minimal Pair Sounds", 0.0, 0, 1429401600, 52, 52, 0], [1555834117, "Female Repro", 0.0, 0, 1386806400, 35, 0, 34], [2005023180, "minimals biophysics debrecen", 0.0, 0, 1381017600, 34, 0, 0], [1002978114, "dakakua'ana davi: animales", 0.0, 0, 1411689600, 22, 22, 22], [205826724, "Repro Female Sexual Dysfunction 04.24.15", 0.0, 0, 1430697600, 21, 0, 4], [1783233872, "Small B cell lymphomas", 0.0, 0, 1422835200, 28, 0, 0], [953505473, "Physiology Lab Exam minimals", 0.0, 0, 1386892800, 78, 0, 0], [41269272, "Maltese - English Vocab", 0.0, 0, 1410134400, 9609, 0, 24], [1086258645, "Common Somali Nouns Lorina", 0.0, 0, 1416182400, 58, 0, 0], [397541033, "Deutsch Minimalpaare", 0.0, 0, 1415664000, 94, 174, 0], [3433177573, "new minimals biophysics", 0.0, 0, 1384646400, 46, 0, 92], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [51206747, "English Minimal Pairs (General American)", 0.0, 0, 1432512000, 24, 48, 48], [678020693, "\u0e2a\u0e31\u0e15\u0e27\u0e4c - Animals", 0.0, 0, 1417910400, 12, 12, 12], [2004372912, "BSHo Gyn - Abnormal Uterine Bleeding", 0.0, 0, 1394928000, 29, 0, 1], [195580153, "Seana Animal Science Exam 2", 0.0, 0, 1414627200, 63, 0, 1], [1848339928, "Anatomy of the Female Reproductive Tract", 0.0, 0, 1431129600, 47, 0, 8], [1493915386, "Lysosomal Storage Diseases", 0.0, 0, 1410307200, 37, 0, 0], [490266310, "Anatomy Male Pelvis", 0.0, 0, 1351123200, 17, 0, 1], [2804919574, "Gastric Lymphoma, Gastrointestinal Stromal Tumor", 0.0, 0, 1376697600, 42, 0, 5], [934310325, "Repro Anatomy of the Male Repro Tract 04.20.15 ", 0.0, 0, 1430870400, 16, 0, 9], [238861646, "Bahasa Malaysia basic vocabulary", 0.0, 0, 1437696000, 245, 1, 0], [2613488349, "czasowniki i zwierz\u0119ta verbs & animals", 0.0, 0, 1345852800, 59, 59, 186], [1621071095, "SBF Minimal Pairs /L/ vs /R/ Listening", 0.0, 0, 1432252800, 24, 24, 0], [1284899016, "BSHo Obs IUGR, fetal surveillance, small/preterm baby ", 0.0, 0, 1396483200, 30, 0, 0], [964984232, "Male Gonad Physiology", 0.0, 0, 1431216000, 55, 0, 2], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [1609060974, "Fraction/Decimal (by Supernatent)", 0.0, 0, 1360022400, 151, 0, 0], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [4090836869, "Bible Quiz 39: Malachi", 0.0, 0, 1345852800, 13, 0, 0], [602223996, "jlmMAlabmale", 0.0, 0, 1393977600, 29, 0, 32], [1858623950, "GI Pathology: Small Intestine", 0.0, 0, 1422144000, 21, 0, 3], [488877493, "jlmMALabfemale", 0.0, 0, 1393977600, 28, 0, 35], [1222257840, "Formale Systeme", 0.0, 0, 1416182400, 6, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1311108596, "T6 - MCQ-fr\u00e5gor - L\u00e4karprogrammet Lund/Malm\u00f6/Hbg", 0.0, 0, 1389398400, 209, 0, 0], [1679447346, "Cambridge Part II Physics: Thermal and Statistical Physics", 0.0, 0, 1413504000, 35, 0, 30], [3301862686, "Single-malt Scotch whisky by region", 0.0, 0, 1382227200, 89, 0, 0], [1928327134, "Biochem Chapter 19: Regulation of Mammalian Fuel Metabolism", 0.0, 0, 1430697600, 26, 3, 2], [901818333, "Pali Magadhi Verb Roots Dhatumala \u092a\u093e\u0933\u093f \u092e\u0917\u0927\u0940 \u092d\u093e\u0938\u093e \u0927\u093e\u0924\u0941\u0938\u0932", 0.0, 0, 1414281600, 1196, 0, 15], [649847594, "Histology: Female Reproductive System: Leonard", 0.0, 0, 1352764800, 91, 0, 21], [1371570709, "Malgache pour les vazah", 0.0, 0, 1426377600, 158, 0, 0], [1762079208, "Maltese language", 0.0, 0, 1399334400, 3373, 0, 0], [4010897319, "RGBM Week 2 - Male GU", 0.0, 0, 1357948800, 99, 0, 0], [931352610, "Optimal A1 Kapitel 9", 0.0, 0, 1421280000, 52, 0, 0], [1304733696, "FHB Small Group: Hemodynamics", 0.0, 0, 1422489600, 7, 0, 5], [900836268, "Male reproductive tract", 0.0, 0, 1414195200, 47, 0, 0], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [179583701, "Maltese - English Vocab2", 0.0, 0, 1410134400, 4210, 0, 21], [2000097946, "FHB Small Group: Hemoglobin", 0.0, 0, 1423699200, 9, 0, 11], [1211343102, "HD4 Heme Malignant Transformation 3-28-14", 0.0, 0, 1396051200, 32, 0, 18], [8571675, "Histology of the Male Repro Tract", 0.0, 0, 1431129600, 35, 0, 2], [1993140760, "PFP Female Reproductive System", 0.0, 0, 1416268800, 28, 0, 0], [978100004, "Abnormal Uterine Bleeding", 0.0, 0, 1431475200, 15, 0, 0], [153841974, "Malk Kanji", 0.0, 0, 1416700800, 3007, 0, 0], [1865324583, "Small Ruminants Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 770, 0, 3], [3832460992, "HMS.HB.Male.Female.Reproductive.System", 0.0, 0, 1352419200, 43, 0, 49], [524823056, "Hexadecimal to Binary Bit Patterns ", 0.0, 0, 1345852800, 15, 0, 0], [149768994, "HIsto Male Reproductive Lab AECOM", 0.0, 0, 1345852800, 20, 0, 40], [1408116126, "FRCPath Part II: Malignant Haematology", 0.0, 0, 1411257600, 276, 0, 2], [1315239469, "Glycogen/Lysosomal Storage Diseases", 0.0, 0, 1424995200, 16, 0, 5], [405816537, "SS UNM SOM HSF&D Week 4 Thorax MINIMAL", 0.0, 0, 1413849600, 570, 0, 276], [1799342418, "FHB Small Group: Special Circulation", 0.0, 0, 1422489600, 5, 0, 1], [712533315, "Anatomy-smallgroup1", 0.0, 0, 1418515200, 64, 0, 0], [405506694, "Hexadecimal Multiplication Table", 0.0, 0, 1415836800, 224, 0, 0], [439343183, "FHB Small Group: Cardiac Mechanics", 0.0, 0, 1422230400, 4, 0, 7], [2457452134, "WFSC 401 - TAMU Mammalogy Lab Exam 1", 0.0, 0, 1362614400, 45, 0, 45], [1036465593, "Cognates Somali", 0.0, 0, 1416182400, 17, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [659810376, "German vocabulary Optimal A1", 0.0, 0, 1345852800, 657, 0, 0], [979559117, "Repro Embryo of the Male Repro Tract 04.21.15", 0.0, 0, 1430611200, 15, 0, 1], [1736529013, "Repro Embryo of the Female Repro Tract 04.22.15", 0.0, 0, 1430697600, 19, 0, 3], [2047708283, "arabic vocabulary - names of animals", 0.0, 0, 1345852800, 61, 0, 0], [1280155647, "Histology of the Female Reproductive Tract", 0.0, 0, 1431129600, 33, 0, 0], [909109552, "Small B Cell Non Hodgkin Lymphomas", 0.0, 0, 1422403200, 43, 0, 3], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [1317758454, "Small Ruminants 2 (3rd year vet)", 0.0, 0, 1420243200, 427, 0, 0], [1016960205, "Mal--Mondatok", 0.0, 0, 1427932800, 46, 0, 0], [576647290, "Animal Phys E3", 0.0, 0, 1394668800, 15, 0, 0], [1881521277, "Nahuatlahtolli: animales, animals", 0.0, 0, 1414540800, 43, 42, 0], [417803351, "Male Repro Path", 0.0, 0, 1390435200, 21, 0, 8], [1598672102, "FHB Small Group: Muscle & Cardiac Electrophysiology", 0.0, 0, 1422230400, 6, 0, 2], [1964864443, "Male Sex Hormones", 0.0, 0, 1431475200, 35, 0, 0], [1482852568, "Female Sex Hormones", 0.0, 0, 1431475200, 54, 0, 0], [1990182595, "Malay for Adults, taught by Yahya Hamid", 5.0, 2, 1448755200, 1757, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mal</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

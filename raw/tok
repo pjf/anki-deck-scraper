@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2016594195, "Angol kisokos Besz\u00e9dfordulatok", 0.0, 0, 1454889600, 92, 12, 0], [1628413778, "Toki Pona complete", 0.0, 0, 1454889600, 123, 0, 0], [172142717, "PHD cytokines from Scribes and FA ", 0.0, 0, 1453248000, 24, 0, 0], [2157658310, "[VectorMaps] Special wards of Tokyo, Japan", 4.33, 3, 1368662400, 23, 0, 46], [371011205, "Recombinant Cytokines and Clinical Uses", 0.0, 0, 1453075200, 9, 0, 0], [2140735574, "Tokemo Malay (Beginner/Elementary)", 5.0, 1, 1405296000, 2842, 2827, 1228], [233351718, "histokid", 0.0, 0, 1446163200, 48, 0, 0], [1418354487, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok birtokos esetben", 0.0, 0, 1396742400, 26, 0, 0], [606503749, "Angol - Felt\u00e9teles mondatok", 0.0, 0, 1437436800, 51, 0, 0], [3986074186, "Autokennzeichen (Deutschland)", 5.0, 1, 1345852800, 555, 0, 0], [3249304571, "Schweizer Autokennzeichen", 0.0, 0, 1357948800, 26, 0, 0], [169091345, "20.Mennyis\u00e9gi adatok", 0.0, 0, 1432771200, 75, 0, 0], [936608058, "16.Szem\u00e9lyes kapcsolatok", 0.0, 0, 1432771200, 69, 0, 0], [1220201887, "N\u00e9met - Mondatok_3", 0.0, 0, 1412380800, 57, 0, 0], [3158338551, "Chemokines and Cytokines - Innate", 0.0, 0, 1377561600, 43, 0, 0], [910730236, "toki pona fran\u00e7ais", 0.0, 0, 1437868800, 120, 0, 0], [873233633, "N\u00e9met - Mondatok_4", 0.0, 0, 1414368000, 54, 0, 0], [840146691, "N\u00e9met - Wenn-es felt\u00e9teles mell\u00e9kmondatok", 0.0, 0, 1398124800, 31, 0, 0], [1073329575, "N\u00e9met - Mondatok_2", 0.0, 0, 1409011200, 75, 0, 0], [1453046109, "Immunology Cytokines, Surface Molecules, Acronyms", 0.0, 0, 1418428800, 53, 0, 0], [82564160, "Tokyo Geography", 5.0, 1, 1394928000, 55, 0, 55], [1132025673, "N\u00e9mer - Vonzatok", 0.0, 0, 1405123200, 50, 0, 0], [1308119915, "spanyol felt\u00e9teles mondatok", 0.0, 0, 1403568000, 5, 0, 0], [1917082991, "Cytokines", 0.0, 0, 1395964800, 31, 0, 0], [1668340927, "N\u00e9met - Mondatok I.", 0.0, 0, 1410307200, 28, 0, 0], [1016960205, "Mal--Mondatok", 0.0, 0, 1427932800, 46, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tok</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

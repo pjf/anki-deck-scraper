@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2016594195, "Angol kisokos Besz\u00e9dfordulatok", 0.0, 0, 1454889600, 92, 12, 0], [644201386, "1000 English words 10 x szybsza nauka z Symonem", 2.0, 1, 1432944000, 50, 50, 0], [1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [1091674831, " Mikro\u00f6konomie Interdisziplin\u00e4r Uni due WS 15/16", 0.0, 0, 1454544000, 175, 0, 63], [793176241, "Martin Csaba: 2B OR NOT 2B - 101 hasznos kifejez\u00e9s - [en-hu]", 5.0, 5, 1435104000, 101, 101, 0], [1069513411, "Martin Csaba: 2B OR NOT 2B - \u00d6sszes mondat* - [en-hu]", 5.0, 3, 1435104000, 711, 710, 0], [27685291, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s fogalmak", 0.0, 0, 1453161600, 21, 0, 0], [2062719634, "03 Szkola LRM PP", 5.0, 1, 1345852800, 200, 199, 0], [552622382, "Fiszki Agusia", 0.0, 0, 1452988800, 128, 0, 0], [2079637790, "Dr.Bab\u00e1ri Ern\u0151 - Egyszer\u0171en n\u00e9met\u00fcl -- n\u00e9met-magyar", 4.0, 1, 1390435200, 1043, 0, 0], [977481713, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 3.", 0.0, 0, 1453161600, 5, 0, 0], [2015783523, "Animals English-German Krzysztof Sobczak GIM", 0.0, 0, 1452124800, 72, 0, 0], [1997499017, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 1.", 0.0, 0, 1453161600, 22, 0, 0], [906766464, "Najwazniejsze slowka ENG --> PL    PART I", 0.0, 0, 1453075200, 50, 0, 0], [826340229, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 6.", 0.0, 0, 1453161600, 5, 0, 0], [1888902361, "Angol magyar szavak k\u00f6nyvolvas\u00e1sb\u00f3l...", 0.0, 0, 1453852800, 591, 217, 4], [1188809436, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 4.", 0.0, 0, 1453161600, 3, 0, 0], [1503671037, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 7.", 0.0, 0, 1453161600, 6, 0, 0], [887070855, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 5.", 0.0, 0, 1453161600, 3, 0, 0], [1047375404, "Angol, k\u00f6nyvt\u00e1ros szakmai idegen nyelv", 0.0, 0, 1429920000, 379, 0, 180], [1653734475, "EKK Szem\u00e9lyek", 0.0, 0, 1452556800, 58, 0, 0], [1833735996, "N\u00e9met nyelvvizsga felk\u00e9sz\u00fcl\u00e9s", 0.0, 0, 1451088000, 111, 0, 0], [1909571498, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 2.", 0.0, 0, 1453161600, 28, 0, 0], [378400787, "SZF - Die Befragung", 0.0, 0, 1449878400, 5, 0, 0], [905840488, "Zbi\u00f3r r\u00f3\u017cnych s\u0142\u00f3wek z j\u0119zyka hiszpa\u0144skiego", 0.0, 0, 1450051200, 220, 0, 0], [1658418547, "Debreceni Egyetem Turizmus  szak Turizmus rendszere", 0.0, 0, 1451347200, 44, 0, 0], [47760362, "ny sziklagyep", 0.0, 0, 1449014400, 26, 0, 0], [1890343184, "1000 k\u00e9rd\u00e9s 1000 v\u00e1lasz k\u00f6z\u00e9pfok by Nandika", 5.0, 2, 1446336000, 3697, 3593, 6], [766471892, "SZF - Qualitative Interviews", 0.0, 0, 1449878400, 9, 0, 0], [1951598413, "SZF - Der Forschungsprozess", 0.0, 0, 1449878400, 13, 0, 0], [1722815790, "EKK \u00c9vsz\u00e1mok", 0.0, 0, 1449964800, 123, 0, 0], [2111206450, "SZF - Die Frage", 0.0, 0, 1449878400, 10, 0, 0], [1716597667, "4000 Essential English Words 1 [en-pl] M4R4M_KrisZet", 5.0, 2, 1421452800, 600, 1805, 634], [1783338642, "czasowniki hiszpa\u0144ski", 0.0, 0, 1450051200, 124, 0, 0], [1608720885, "SZF - Die Stichprobe", 0.0, 0, 1449878400, 11, 0, 0], [713498644, "N\u00e9met szavak - \u00c9tkez\u00e9s", 0.0, 0, 1448582400, 30, 0, 0], [367400291, "SZF - Grundlagen", 0.0, 0, 1449878400, 12, 0, 0], [130457105, "SZF - Arten von Qualitativer Forschung:", 0.0, 0, 1449878400, 11, 0, 3], [4068740251, "fiszki - j\u0119zyk japo\u0144ski", 1.0, 1, 1345852800, 300, 300, 32], [788964178, "szikes t\u00e1rsul\u00e1sok", 0.0, 0, 1449014400, 6, 0, 0], [1280962225, "z\u00e1rt sziklagyepek", 0.0, 0, 1449014400, 4, 0, 0], [130198145, "4000 Essential English Words 3 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 599, 1803, 634], [2018145698, "Sz\u00fcl\u00e9szet \u00e9s n\u0151gy\u00f3gy\u00e1szat", 0.0, 0, 1449532800, 83, 0, 1], [2104778148, "szymon1995", 0.0, 0, 1448841600, 8, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [1160047159, "Moje pierwsze s\u0142owa", 0.0, 0, 1445904000, 161, 161, 1], [181034040, "SZIE KGA N\u00f6vterm minimum k\u00e9rd\u00e9sek 2015", 0.0, 0, 1447286400, 92, 0, 0], [420465117, "Angol - k\u00f6z\u00e9pfok, \u00fczleti \u00e9s t\u00e1j\u00e9p\u00edt\u00e9szet (ENG-HUN)", 0.0, 0, 1442880000, 215, 0, 0], [1619309805, "SZIE N\u00f6v\u00e9nytermeszt\u00e9stani alapsimeretek - Maglista", 0.0, 0, 1446768000, 40, 0, 0], [709781529, "Latin - Magyar  (fogorvosi asszisztens)", 0.0, 0, 1444262400, 29, 0, 0], [1899842757, "Hiszpa\u0144ski dla mnie", 0.0, 0, 1443830400, 801, 0, 0], [1470326566, "ELTE N\u00f6v\u00e9nyrendszertan gyakorlat", 0.0, 0, 1444003200, 78, 0, 79], [1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [1603427253, "4000 Essential English Words 6 [en-pl] M4R4M_KrisZet", 5.0, 1, 1421712000, 600, 1806, 635], [147963916, "1000 k\u00e9rd\u00e9s 1000 v\u00e1lasz fels\u0151fok", 0.0, 0, 1398556800, 465, 0, 0], [1694784549, "Chi\u0144ski Szczecin", 0.0, 0, 1441152000, 605, 601, 0], [2248232206, "N\u00e9met alapsz\u00f3kincs", 2.5, 2, 1348272000, 1997, 0, 0], [315680461, "osteologia bez czaszki", 0.0, 0, 1434499200, 506, 0, 0], [421487931, "PTSZA1", 0.0, 0, 1426464000, 139, 140, 30], [1458751130, "ptaszek", 0.0, 0, 1434585600, 121, 0, 0], [801648998, "wszystkie kanjioszki", 0.0, 0, 1420848000, 3909, 0, 0], [826781248, "spanyol sz\u00e1mok 56-100", 0.0, 0, 1403568000, 45, 0, 0], [193265787, "\u00e9vsz\u00e1mok", 0.0, 0, 1433116800, 41, 0, 0], [1438545362, "4poziom kanjioszk\u00f3w", 0.0, 0, 1420848000, 1846, 0, 0], [1160174865, "Hasznos Kifejez\u00e9sek N\u00e9met-Magyar", 0.0, 0, 1405987200, 471, 0, 0], [1896939837, "24.Sz\u00f6vegkoh\u00e9zi\u00f3s eszk\u00f6z\u00f6k", 0.0, 0, 1432771200, 90, 0, 0], [689885823, "N\u00e9met szavak \u00e9s kifejez\u00e9sek", 0.0, 0, 1351641600, 1154, 0, 0], [860142072, "FOKUS - CHARAKTER - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [867320286, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1427500800, 104, 0, 0], [1738896752, "N\u00e9met \u00d6sszetett m\u00falt 4.", 0.0, 0, 1396051200, 45, 0, 0], [1320750473, "fiszki farma", 0.0, 0, 1434240000, 930, 6, 35], [1940818164, "powszechna historia prawa", 0.0, 0, 1434758400, 68, 0, 0], [936608058, "16.Szem\u00e9lyes kapcsolatok", 0.0, 0, 1432771200, 69, 0, 0], [1084292585, "Mariusz Weso\u0142owski Angielski", 0.0, 0, 1437004800, 1, 1, 0], [1592316339, "spanyol sz\u00e1mok 100-1000", 0.0, 0, 1403568000, 13, 0, 0], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [3587513003, "HISTO - TK.T\u0141USZCZOWA ", 0.0, 0, 1351814400, 18, 0, 0], [147446962, "spanyol sorsz\u00e1mnevek", 0.0, 0, 1403568000, 10, 0, 0], [308388292, "sv\u00e9d sz\u00f3t\u00e1rf\u00fczet", 0.0, 0, 1385856000, 335, 0, 0], [3919710332, "E. Szabat - po\u017cegnalne kolokwium [pol-eng, eng-pol]", 0.0, 0, 1358899200, 108, 0, 0], [1571260298, "Sz\u00f3rakosgat\u00f3 angol - New English File Advanced SB Unit 3 GrV", 5.0, 1, 1422835200, 90, 0, 9], [1173480265, "Powszechna historia ustroju", 0.0, 0, 1434758400, 227, 0, 0], [597088859, "Historias szavak", 0.0, 0, 1422662400, 113, 0, 0], [308875846, "N\u00e9met \u00d6sszetett m\u00falt  2.", 0.0, 0, 1395619200, 28, 0, 0], [1225734138, "Alap angol szavak", 0.0, 0, 1438300800, 1, 0, 0], [238222841, "N\u00e9met sz\u00f6vegkoh\u00e9zi\u00f3s elemek (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 101, 0, 0], [1164305399, "Gastronomie PL-DE Krzysztof Nowaczek", 0.0, 0, 1345852800, 1233, 0, 0], [4275646624, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1345852800, 19, 0, 0], [535094727, "PTSZA3", 0.0, 0, 1421798400, 93, 0, 38], [173433318, "KLP-pytania (bie\u017c\u0105ce, rozszerzone)", 0.0, 0, 1424736000, 43, 0, 0], [1174141980, "N\u00e9met szavak_Nyelvtani ABC+saj\u00e1t", 0.0, 0, 1453075200, 190, 0, 20], [1392106804, "N\u00e9met szitu\u00e1ci\u00f3k - Arbeit", 0.0, 0, 1409011200, 72, 0, 0], [510759035, "Hiszpanski by jankoxik", 0.0, 0, 1401494400, 17, 17, 0], [3122753139, "FOKUS - CAFE JULIA 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1328671399, "Pneumosz", 0.0, 0, 1424908800, 35, 0, 0], [250751362, "Laz\u00e1n n\u00e9met\u00fcl I.: 4. lecke - szavak", 0.0, 0, 1407110400, 68, 0, 0], [1573871053, "888 v\u00e1lasz 2.", 0.0, 0, 1422057600, 43, 0, 0], [1423213578, "23.Sz\u00ednek,form\u00e1k,hasonl\u00f3s\u00e1gok,k\u00fcl\u00f6nbs\u00e9gek,gyakoris\u00e1g \u00e9s sorr", 0.0, 0, 1432771200, 73, 0, 0], [933188095, "N\u00e9met \u00d6sszetett m\u00falt 6.", 0.0, 0, 1396656000, 59, 0, 0], [1753401306, "Pierwsza pomoc WUM", 0.0, 0, 1416355200, 5, 0, 0], [883742463, "N\u00e9met \u00d6sszetett m\u00falt 1.", 0.0, 0, 1395619200, 62, 0, 0], [1052499941, "Sz\u00f3k\u00e1rty\u00e1im a k\u00f6z\u00e9pfok\u00faig magyar-n\u00e9met (Deutsch)", 0.0, 0, 1429488000, 798, 0, 0], [1446961703, "FOKUS - ERSTE KONTAKTE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [588719185, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [1799696303, "N\u00e9met - Szenved\u0151 szerkezet", 0.0, 0, 1406419200, 34, 0, 0], [3601541250, "FOKUS - HAUS - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1602298555, "Laz\u00e1n n\u00e9met\u00fcl I: 3. lecke - szavak", 0.0, 0, 1404172800, 70, 0, 0], [2590988283, "dp_szavak_00010", 0.0, 0, 1362096000, 186, 0, 0], [2113156618, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [547032762, "spanyol sz\u00e1mok 1-55", 0.0, 0, 1403568000, 56, 1, 0], [763571865, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [68946285, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1428883200, 67, 0, 0], [988037432, "15.Szabadid\u0151 \u00e9s sz\u00f3rakoz\u00e1s2", 0.0, 0, 1434758400, 137, 0, 0], [2031114929, "A1. Lesson 11. Meble, wyposa\u017cenie mieszkania, liczba mnoga", 0.0, 0, 1423094400, 33, 33, 30], [2092285392, "part 2 antibioticszzz", 0.0, 0, 1386979200, 25, 0, 0], [842615593, "N\u00e9met-Magyar 1000K\u00e9rd\u00e9s1000V\u00e1lasz", 0.0, 0, 1405987200, 3061, 0, 0], [890993360, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1389139200, 39, 0, 22], [955100491, "Sv\u00e9d szavak", 0.0, 0, 1402272000, 83, 0, 0], [1731124618, "Anatomia (ko\u015bciec g\u0142owy - czaszka)", 0.0, 0, 1345852800, 26, 0, 26], [828118545, "IEL Mathe Ordnungszahlen", 0.0, 0, 1414713600, 20, 1, 0], [1049648964, "4000 Essential English Words 4 [en-pl] M4R4M_KrisZet", 4.0, 1, 1421452800, 600, 1806, 635], [210894223, "Planetino 1. n\u00e9met sz\u00f3szedet (Kal\u00f3Z)", 0.0, 0, 1424304000, 89, 0, 0], [395300029, "FOKUS - BERUFE - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1657444165, "Otwory i kana\u0142y czaszki", 0.0, 0, 1416355200, 53, 0, 0], [420376188, "FOKUS - EXAKT 02 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [1090701268, "N\u00e9met \u00d6sszetett m\u00falt 5.", 0.0, 0, 1396656000, 51, 0, 0], [2010583601, "hat\u00e1roz\u00f3sz\u00f3k", 0.0, 0, 1425772800, 31, 0, 0], [1462123574, "Sz\u00e1m\u00edt\u00f3g\u00e9p Architekt\u00far\u00e1k", 0.0, 0, 1437264000, 251, 0, 0], [2568609589, "FOKUS - KLEINE DEUTSCHMUSIK - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1187177858, "N\u00e9met \u00d6sszetett m\u00falt 3.", 0.0, 0, 1396051200, 59, 0, 0], [923043453, "Pszichol\u00f3gia fogalmak", 0.0, 0, 1430006400, 361, 0, 0], [2375869398, "FOKUS - FAMILIE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2013419104, "FOKUS - CAFE JULIA 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [3647269953, "E. Szabat - pierwsze kolokwium 5 semestru [pol-eng, eng-pol]", 0.0, 0, 1359072000, 106, 0, 0], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [3833446595, "FOKUS - M\u00d6BEL - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1911028758, "Passwort Deutsch PL-DE Dariusz Swoboda", 2.0, 1, 1345852800, 1572, 0, 0], [1204098998, "FOKUS - EXAKT 01 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [90517004, "888 v\u00e1lasz 3.", 0.0, 0, 1422144000, 180, 0, 0], [1871478532, "Erwin Tschirner - N\u00e9met sz\u00f3kincs 1-600 sz\u00f3", 0.0, 0, 1357862400, 600, 0, 0], [768787499, "FOKUS - FARBEN UND ZEIT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [744063978, "Az ITSH-s N20-as csoport szavai (r\u00e9szben)", 0.0, 0, 1351209600, 1402, 0, 0], [661316567, "Fiszki z lekcji j\u0119zyka niemieckiego.", 0.0, 0, 1416528000, 210, 0, 0], [2779070537, "FOKUS - SPRACHMITTEL 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2217022793, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [212924380, "Sejt \u00e9s szervbiok\u00e9mia I", 0.0, 0, 1422403200, 75, 0, 0], [1325604750, "pr\u00f3ba 4. lyukas sz\u00f6veg", 0.0, 0, 1403654400, 5, 0, 0], [138083253, "15.Szabadid\u0151 \u00e9s sz\u00f3rakoz\u00e1s", 0.0, 0, 1432771200, 179, 0, 0], [1839615397, "Kreuzwortr\u00e4tsel", 0.0, 0, 1417996800, 119, 0, 0], [1825199005, "prezentacje szemi", 0.0, 0, 1399334400, 106, 0, 0], [664028671, "cardioSZ", 0.0, 0, 1424908800, 104, 0, 0], [1728909586, "Angol szavak k\u00e9pekkel", 0.0, 0, 1406419200, 478, 0, 474], [2112268535, "Szwedzki PL-SV", 0.0, 0, 1345852800, 327, 0, 0], [1838277718, "mindennapi szavak", 0.0, 0, 1396828800, 656, 0, 612], [2602425662, "D - PL, Deutsch - Polnisch querbeet, mieszanka", 0.0, 0, 1360713600, 428, 0, 0], [43978039, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok r\u00e9szes esetben", 0.0, 0, 1396742400, 27, 0, 0], [358269120, "888 v\u00e1lasz 1", 0.0, 0, 1421971200, 29, 0, 0], [32569786, "k\u00e9rd\u0151szavak 1.", 0.0, 0, 1416700800, 9, 0, 0], [1034600627, "Kedvenc szavaim (n\u00e9met-magyar)", 0.0, 0, 1411257600, 231, 0, 219], [1961469242, "N\u00e9met sz\u00f3kincsem", 3.0, 2, 1396483200, 4783, 0, 0], [597069243, "Hiszpa\u0144ski - Espa\u00f1ol - PL-ES (Tosia)", 5.0, 1, 1345852800, 903, 0, 0], [2042640723, "Kreat\u00edv n\u00e9met alap - szavak", 0.0, 0, 1379721600, 30, 0, 0], [1475192142, "Dave sz\u00f3t\u00e1r", 0.0, 0, 1388707200, 1373, 0, 0], [989055389, "FOKUS - SPRACHMITTEL 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [703318393, "angol-magyar szavak", 0.0, 0, 1451692800, 235, 217, 4], [344115856, "spanyol sz\u00e1mok", 0.0, 0, 1413676800, 124, 1, 0], [594130521, "dp_szavak_00000", 0.0, 0, 1362096000, 96, 0, 0], [745758380, "K\u00f6z\u00e9pszint\u0171 angol-magyar sz\u00f3t\u00e1r 4000 szavas", 3.0, 1, 1397433600, 4145, 0, 0], [985193042, "Vitaminok - Szerep, hi\u00e1nyt\u00fcnetek", 0.0, 0, 1423699200, 12, 0, 0], [1838387453, "Erwin Tschirner: Angol sz\u00f3kincs + Best of English - [en-hu]", 4.62, 29, 1452384000, 4081, 8162, 3], [2047197427, "4000 Essential English Words 2 [en-pl] M4R4M_KrisZet", 3.0, 1, 1424390400, 599, 1800, 632], [784651538, "polsko-hiszpa\u0144skie fiszki poziom A1 i A2", 4.5, 2, 1429660800, 1727, 0, 0], [1524628867, "Historia Sztuki. \u015aredniowiecze cz. 1", 0.0, 0, 1398124800, 211, 0, 223], [666018500, "Sz\u00f3rakosgat\u00f3 angol - Introductory verbs Hun-Eng", 0.0, 0, 1422835200, 25, 0, 0], [1704650437, "N\u00e9met alapsz\u00f3kincs 2.", 0.0, 0, 1367798400, 2065, 0, 0], [253751894, "4000 Essential English Words 5 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 600, 1806, 635]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

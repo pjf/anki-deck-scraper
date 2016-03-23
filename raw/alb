@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[240081041, "acquafontalba", 0.0, 0, 1454284800, 8, 0, 0], [1390770928, "Science 10 Climate unit (Alberta)", 0.0, 0, 1454025600, 32, 0, 0], [1030072942, "Kalbame lietuvi\u0161kai - 2015 (1)", 0.0, 0, 1445472000, 47, 0, 0], [776116990, "Grade 4 Social Studies (Alberta CANADA)", 0.0, 0, 1445472000, 16, 0, 0], [852785883, "Psych 104 - University of Alberta", 0.0, 0, 1441843200, 259, 0, 2], [1940641063, "Chemistry 10 Alberta", 0.0, 0, 1441411200, 193, 0, 0], [1919850787, "Albanian to Italian General Vocab", 0.0, 0, 1441670400, 264, 8, 0], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [688323721, "Psych 104 DECK 2 - University of Alberta", 0.0, 0, 1441843200, 416, 0, 1], [519361022, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Food", 0.0, 0, 1407628800, 15, 0, 15], [292912507, "Ital\u0173 kalbos veiksma\u017eod\u017eiai", 0.0, 0, 1435881600, 279, 0, 0], [2002633460, "renalbjhbjhbjh", 0.0, 0, 1439424000, 215, 0, 0], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [777746044, "Basic Albanian (Albanian - English)", 3.0, 1, 1379462400, 41, 0, 0], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [1977629592, "Isl\u00e6ndische Vokalbeln mit Flektionsklassen", 0.0, 0, 1425340800, 163, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [2697006016, "Albanian", 0.0, 0, 1345852800, 152, 0, 0], [1763260882, "French 211 Fall 2012 University of Alberta", 0.0, 0, 1352246400, 929, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [890703107, "Albanese, Spanish 2, Unit 1, Lesson 1", 0.0, 0, 1409184000, 33, 0, 32], [3489887149, "Personalbogen", 0.0, 0, 1383782400, 16, 0, 0], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [1426176493, "Albanese, Spanish 4, Unit 1", 0.0, 0, 1409011200, 37, 0, 36]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Alb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

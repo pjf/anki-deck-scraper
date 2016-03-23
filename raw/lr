@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[4037450305, "01 Czlowiek LRM PP", 4.25, 8, 1345852800, 306, 304, 0], [3806466647, "08 Podroze LRM PP", 5.0, 1, 1345852800, 246, 244, 0], [3732013665, "11 Zdrowie LRM PP", 0.0, 0, 1345852800, 204, 202, 0], [2490917024, "06 Zywienie LRM PP", 5.0, 1, 1345852800, 272, 268, 0], [530972367, "14 Panstwo LRM PP", 0.0, 0, 1345852800, 267, 260, 0], [3689094597, "05 Rodzina LRM PP", 5.0, 1, 1345852800, 198, 197, 0], [300577387, "09 Kultura LRM PP", 0.0, 0, 1345852800, 240, 235, 0], [2700445208, "13 Przyroda LRM PP", 0.0, 0, 1345852800, 284, 277, 0], [1267789366, "04 Praca LRM PP", 4.5, 2, 1345852800, 215, 213, 0], [2661660337, "02 Dom LRM PP", 4.5, 2, 1345852800, 216, 216, 0], [2637721973, "07 Zakupy LRM PP", 5.0, 1, 1345852800, 182, 182, 0], [2016599963, "10 Sport LRM PP", 0.0, 0, 1345852800, 252, 250, 0], [2711667391, "12 Nauka LRM PP", 0.0, 0, 1345852800, 250, 248, 0], [2062719634, "03 Szkola LRM PP", 5.0, 1, 1345852800, 200, 199, 0], [241060352, "Amharic_ILRI", 5.0, 1, 1445472000, 317, 316, 314], [68432097, "PolRosBeta", 0.0, 0, 1435968000, 1, 0, 0], [495162571, "RLR #83 - Body Language", 5.0, 1, 1418774400, 30, 30, 0], [706720256, "RLR #93 \u2013 Wordplay with Names & Big Bang Theory", 0.0, 0, 1424908800, 30, 30, 0], [1974215699, "RLR #97 \u2013 Sports Idioms for Your Life", 5.0, 1, 1427328000, 33, 33, 0], [1094565487, "RLR #71 - Proverbs", 0.0, 0, 1411516800, 32, 32, 0], [1933399475, "RLR #88 \u2013 West African English ", 5.0, 2, 1421798400, 30, 30, 0], [1942521403, "RLR #84 - How to Revolutionize Your English with Podcasts", 0.0, 0, 1418947200, 34, 32, 0], [1950813577, "RLR #90 - Powerful Idioms", 0.0, 0, 1423008000, 30, 30, 0], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [1487440894, "RLR #77 \u2013 the Big Move", 0.0, 0, 1415145600, 33, 33, 0], [185312331, "RLR #82 - How to Make a Presentation", 0.0, 0, 1418169600, 31, 31, 0], [899431406, "koktelreceptek", 0.0, 0, 1412294400, 44, 0, 2], [1417238157, "TSA, EMB-145 MP/LR Memory Items", 0.0, 0, 1425340800, 18, 0, 0], [2130408736, "RLR #72 - Negative Emotions", 0.0, 0, 1412035200, 30, 30, 0], [1797167597, "RLR #85 - Breaking the Law", 0.0, 0, 1418947200, 31, 31, 0], [635226191, "RLR #80 \u2013 Big Cities", 0.0, 0, 1416960000, 30, 30, 0], [1738500322, "RLR #76 \u2013 Politically Correct", 0.0, 0, 1414540800, 30, 30, 0], [940439508, "RLR #94 \u2013 American Sports Idioms", 0.0, 0, 1425427200, 30, 30, 0], [106295531, "RLR #95 \u2013 The Importance of Knowing WHY You're Learning", 5.0, 1, 1426032000, 30, 30, 0], [1528095336, "RLR #89 - Maximize Your Determination ", 0.0, 0, 1422403200, 30, 30, 0], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [741343175, "RLR #75 - Bodily Functions", 0.0, 0, 1414022400, 30, 30, 0], [710801047, "RLR #73 - Start with Why", 0.0, 0, 1412726400, 30, 30, 0], [116478246, "RLR #87 \u2013 Fluency Interview & the Schwah Sound", 0.0, 0, 1421193600, 30, 30, 0], [182729602, "RLR #78 \u2013 How to Talk About Hair", 0.0, 0, 1415836800, 30, 30, 0], [1498310295, "RLR #98 \u2013 Reckon Your English is Good? Try Aussie English!", 5.0, 1, 1427846400, 32, 32, 0], [487100034, "RLR #81 - Holiday Season", 0.0, 0, 1417564800, 33, 33, 0], [1777755040, "RLR #92 \u2013 Learning English without Classes", 0.0, 0, 1424217600, 30, 30, 0], [1692851696, "RLR #79 \u2013 How to Be Tough in English", 0.0, 0, 1416441600, 30, 30, 0], [1646765900, "TSA, EMB-145 MP/LR Limitations", 0.0, 0, 1425340800, 12, 0, 0], [401094247, "RLR #86 \u2013 New York English & the Qu'ran", 0.0, 0, 1420675200, 30, 30, 0], [1009598247, "RLR #74 - Australian Slang & Expressions", 0.0, 0, 1413331200, 30, 30, 0], [145146692, "RLR #91 - Growth Mindset", 5.0, 1, 1423612800, 31, 31, 0], [2090293558, "RLR #96 \u2013 Kickass Habits & British Accents", 5.0, 1, 1426636800, 31, 31, 0], [1133347410, "RLR #99 \u2013 LOL: Make People Laugh in English ", 0.0, 0, 1428537600, 32, 32, 0], [1603469521, "koktelreceptekstand", 0.0, 0, 1412294400, 11, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1583779826, "Droit des affaires - Introduction", 0.0, 0, 1454889600, 15, 0, 1], [1460664383, "Droit des affaires - Partie 1/Chapitre 1", 0.0, 0, 1454889600, 10, 0, 0], [855258552, "Vocabulario - Minna no Nihongo I - EOI Malaga", 0.0, 0, 1454889600, 825, 0, 0], [2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 2, 1373328000, 32, 65, 0], [1677720087, "Vocabulario Minna no Nihongo 1\u00ba curso EOI M\u00e1laga", 0.0, 0, 1454976000, 314, 0, 0], [475767360, "Musc. pt mgmt 2: intro to joint moilization", 0.0, 0, 1454803200, 35, 0, 0], [989205601, "Introduction au droit des affaires", 0.0, 0, 1454889600, 33, 0, 0], [1878254954, "Koine New Testament Greek 30 Mounce (with Audio & reverse)", 2.0, 1, 1419552000, 552, 340, 0], [764428933, "Kanji - Grado 2 - EOI Malaga", 0.0, 0, 1454889600, 47, 0, 0], [635407797, "fmthyroid", 0.0, 0, 1454803200, 52, 0, 0], [262824215, "Sopica appareil circulatoire fini !", 0.0, 0, 1453680000, 32, 0, 4], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [72433448, "Pathology Final: neoplasia, autoimmune diseases ", 0.0, 0, 1453939200, 85, 0, 28], [889883458, "Mimi kara oboeru goi N2", 0.0, 0, 1453852800, 1444, 1393, 823], [865230832, "Sopica appareil respiratoire", 0.0, 0, 1453852800, 14, 0, 5], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [1763047972, "Hepokatin abipaketti: Ruotsi (Omia poimintoja)", 0.0, 0, 1452902400, 844, 1, 1], [1554952324, "Kanji - Grado 1 - EOI Malaga", 5.0, 3, 1454889600, 80, 0, 0], [1676271403, "Jula de Cote d'Ivoire  (Jula/Fran\u00e7ais)", 0.0, 0, 1451347200, 248, 0, 0], [485324682, "L17-18 Opioids", 0.0, 0, 1452384000, 46, 0, 0], [1507084958, "ABI 102 Chapter 15 Checkpoints", 0.0, 0, 1453075200, 29, 0, 2], [1961110358, "ABI Chapter 17 Checkpoints", 0.0, 0, 1452902400, 14, 0, 1], [1307976761, "L13-16 autocoids, analgesics, non-steroid antiinflammaotry a", 0.0, 0, 1452384000, 58, 0, 0], [389702299, "Elementary Koine Greek, Year One, Open Texture, Gatchell", 4.8, 5, 1449878400, 159, 0, 0], [1436671682, "R\u00e9vision Droit GOL 29 maggle", 0.0, 0, 1452556800, 34, 0, 4], [2088573454, "Introduction to Bioinformatic Databases and Tools", 0.0, 0, 1452470400, 11, 0, 0], [1211009901, "Thyroid-AY", 0.0, 0, 1452729600, 9, 0, 0], [1124369737, "ABI 102 Chapter 14 Checkpoints", 0.0, 0, 1453075200, 50, 0, 0], [920672749, "241-HYPOTHYROIDIE", 0.0, 0, 1450137600, 13, 0, 0], [1028983649, "Big band Rhythm guitar voicings", 0.0, 0, 1452384000, 111, 0, 111], [388909500, "SM14 - Match Point for Sailor Moon", 0.0, 0, 1452297600, 31, 0, 0], [1766735624, "Date d'histoire EU et monde", 0.0, 0, 1449964800, 22, 0, 0], [2060964926, "Glossary of stoicism terms", 0.0, 0, 1450137600, 56, 0, 0], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [393084317, "V3 - Verbs used in Passive Voice and Perfect tenses", 0.0, 0, 1448150400, 150, 0, 0], [847681038, "Histoire de la litt\u00e9rature", 0.0, 0, 1449187200, 90, 0, 3], [589043133, "HM 516 asoijoisjfd", 0.0, 0, 1449360000, 124, 0, 18], [833634290, "MUSC M2 Block 9 PHD: Drug of Choice", 5.0, 1, 1450137600, 41, 0, 105], [330262636, "Droi administratif S3", 0.0, 0, 1449619200, 56, 0, 0], [48011632, "Vocabulaire suedois-fran\u00e7ais", 0.0, 0, 1448928000, 3025, 0, 0], [564778111, "M\u00e9moire", 0.0, 0, 1449705600, 5, 0, 4], [758029840, "Dur\u00e9s du travail dans la coiffure", 0.0, 0, 1447718400, 5, 0, 0], [301398508, "DLI Toishan-Cantonese Chinese (Hoisanva, Toisanwa, Taishanhu", 0.0, 0, 1415664000, 504, 0, 0], [1685861970, "Anatomy Ch. 9 Joints", 0.0, 0, 1443830400, 22, 0, 0], [417416744, "Infrahyoidale Muskulatur", 0.0, 0, 1447632000, 6, 0, 0], [1195349525, "Flashcard Anglais DOA Saint-Vincent Soignies UNIT 1-2-3-4", 0.0, 0, 1446940800, 230, 225, 4], [1134079481, "Fran\u00e7ais - espagnol droit et institutions ", 0.0, 0, 1445990400, 494, 0, 0], [1927464468, "tiens francois", 0.0, 0, 1446336000, 1046, 0, 3], [372019873, "1524: Sarcoid + Pleural Lung disease", 0.0, 0, 1445817600, 44, 0, 43], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [1799949302, "WVC Unit 3 Muscle OIA", 0.0, 0, 1446422400, 69, 0, 0], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [1066201748, "Chronologie Histoire-G\u00e9o", 0.0, 0, 1442966400, 65, 0, 0], [1288444002, "Sources_du_droit_du_travail_fr", 0.0, 0, 1444867200, 8, 0, 0], [161196169, "Bones and joints", 0.0, 0, 1442620800, 21, 0, 0], [934776163, "KC Kanji Boiiiiiiiiiii", 0.0, 0, 1440720000, 24, 0, 0], [1015112342, "ENG-SPA- DO ANDROIDS DREAM WITH ELECTRICIAN SHEEPS?", 0.0, 0, 1432857600, 181, 223, 172], [1583318848, "301 phrases dans les conversations en chinois", 0.0, 0, 1374537600, 1100, 1141, 0], [1633349206, "miriam-amyloid", 0.0, 0, 1444521600, 22, 2, 82], [106080024, "OITE ", 0.0, 0, 1441756800, 314, 0, 28], [1921980249, "Koine Case Ending Charts (Nom, Gen, Dat, Acc)", 0.0, 0, 1409443200, 53, 0, 0], [376688634, "aloisspanish", 0.0, 0, 1417305600, 163, 2, 3], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [1839306580, "Dominant 7th Drop 2 Voicings for Guitar", 0.0, 0, 1382054400, 768, 0, 0], [389954908, "WELS Hebrew 2015 Grammar points for Nass Class Genesis 37-50", 0.0, 0, 1434672000, 21, 0, 0], [1776608159, "Java Android", 0.0, 0, 1423440000, 14, 0, 47], [2125700661, "WS2015_Jungk_Fragen_1-6_Multiple_Choice", 0.0, 0, 1436745600, 6, 0, 0], [2037226027, "DLI Joint Service Study Guide", 0.0, 0, 1439251200, 204, 0, 0], [1274606527, "HIV and Opportunistic Infections", 0.0, 0, 1382054400, 38, 0, 0], [1408455745, "Parallel Dict Sentence-hint-Word Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [1434971097, "Wojew\u00f3dztwa w Polsce- Voivodeships in Poland", 0.0, 0, 1412726400, 31, 0, 15], [1287676704, "DDO Gastrointestinal emergencies - UGIT bleeding", 0.0, 0, 1415232000, 9, 0, 0], [400361969, "Question droit public g\u00e9n\u00e9ral", 0.0, 0, 1435276800, 59, 0, 0], [760788138, "Stritch Pharmacology-Opioid Analgesics", 0.0, 0, 1440633600, 34, 0, 3], [110957057, "Gr_Idiotismoi", 0.0, 0, 1429833600, 291, 0, 0], [945132736, "aloisgreekmodern", 0.0, 0, 1417305600, 2166, 2, 3], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1451753995, "Inalco Chinois L1 comp le\u00e7on13", 0.0, 0, 1419984000, 16, 16, 0], [1769067426, "Inalco Chinois L1 comp le\u00e7on4", 0.0, 0, 1419984000, 15, 15, 0], [1260157868, "Pelvis, Gluteal, Hip joint (CSUS Bio 122)", 0.0, 0, 1425254400, 62, 0, 51], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [1897561848, "Dates Histoire", 0.0, 0, 1433808000, 156, 0, 0], [2248880549, "TCM Review Maciocia Point Prescriptions", 0.0, 0, 1345852800, 63, 0, 0], [1421186685, "Inalco Chinois L1 comp le\u00e7on3", 0.0, 0, 1419984000, 15, 15, 0], [250901078, "Russian Faces and Voices CH5", 0.0, 0, 1390521600, 89, 0, 0], [1564717579, "Anatomy - Tibiofibular/Talocrural joints ", 0.0, 0, 1436054400, 80, 0, 0], [167397928, "chinese wiki grammar points", 0.0, 0, 1417910400, 1946, 0, 1], [1999441279, "Inalco Chinois L1 comp le\u00e7on7", 0.0, 0, 1419984000, 6, 6, 0], [103163536, "aloishebrew", 0.0, 0, 1417305600, 783, 2, 3], [1053637098, "aloisfarsi", 0.0, 0, 1417305600, 340, 2, 3], [1333375367, "First Aid Gastrointestinal Questions", 5.0, 1, 1435795200, 247, 0, 14], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [543264071, "aloisrussian", 0.0, 0, 1417305600, 1386, 2, 3], [1387642306, "Japanese 411 dette koi vocab", 0.0, 0, 1391472000, 104, 0, 0], [1353699972, "TCM Review CAM Basic Point Rx", 0.0, 0, 1345852800, 57, 0, 0], [2197907882, "Neramsinxxx (histoire erg)", 0.0, 0, 1382745600, 759, 0, 3], [1065562328, "Espanjan preteriti ja imperfekti -harjoituksia", 0.0, 0, 1426377600, 95, 0, 0], [3188723510, "bozoigek", 0.0, 0, 1385510400, 51, 0, 0], [715281609, "BB 02.10.15 Intro to Neuroanatomy/Neuroimaging", 0.0, 0, 1423785600, 22, 0, 17], [1093674526, "Duolingo Esperanto, Checkpoint 1 -2", 0.0, 0, 1433289600, 238, 0, 0], [1189619765, "Organ-Specific Autoimmunity (AI)", 0.0, 0, 1359763200, 38, 0, 0], [801747579, "Inalco Chinois L1 comp le\u00e7on6", 0.0, 0, 1419984000, 18, 18, 0], [376667258, "Russian Faces and Voices CH10", 0.0, 0, 1390521600, 86, 0, 0], [1459171153, "Discoverypoint Intro Deck", 0.0, 0, 1361318400, 88, 0, 48], [439513413, "OSU - MSK - Lower Leg and Ankle Joint", 0.0, 0, 1418342400, 90, 0, 55], [2309623596, "Koine Greek Verb Paradigms", 0.0, 0, 1345852800, 138, 0, 0], [1391018935, "Inalco Chinois L1 comp le\u00e7on2", 0.0, 0, 1419984000, 15, 15, 0], [675411337, "DDO Gastrointestinal emergencies - disorders presenting prim", 0.0, 0, 1415232000, 39, 0, 0], [1412468881, "DDO Gastrointestinal Emergencies - Hepatic disorders, jaundi", 0.0, 0, 1415232000, 34, 0, 0], [618993474, "DDO Gastrointestinal Emergencies - Acute abdominal pain", 0.0, 0, 1415232000, 9, 0, 0], [351890062, "TCM Review CAM Extended Point Rx", 0.0, 0, 1345852800, 42, 0, 0], [1237517244, "Inalco Chinois L1 comp le\u00e7on10", 0.0, 0, 1419984000, 19, 19, 0], [732400940, "Inalco Chinois L1 comp le\u00e7on14", 0.0, 0, 1419984000, 16, 16, 0], [2804919574, "Gastric Lymphoma, Gastrointestinal Stromal Tumor", 0.0, 0, 1376697600, 42, 0, 5], [682191539, "Investointi- ja rahoitussuunnittelu", 0.0, 0, 1414627200, 262, 0, 0], [1948069563, "DAEU A Histoire", 0.0, 0, 1427846400, 161, 0, 0], [1010863370, "MDTI 01.29.15 Rheumatoid Arthritis", 0.0, 0, 1422576000, 52, 0, 4], [236331332, "DDO Gastrointestinal Emergencies - Oesophageal emergencies", 0.0, 0, 1415232000, 21, 0, 0], [1506569139, "Max*/Matiar/Ameer Autoimmunity", 0.0, 0, 1379289600, 25, 0, 8], [2057840245, "Droit p\u00e9nal suisse (ECG)", 0.0, 0, 1425340800, 24, 0, 0], [1654430327, "FTO 711 Outgoing Codes IATA", 0.0, 0, 1419984000, 45, 0, 0], [969427906, "Grundlagen Geoinformatik und GIS Osnabr\u00fcck", 0.0, 0, 1423353600, 236, 0, 62], [2734583336, "Histo Lymphoid - NN", 0.0, 0, 1381536000, 54, 0, 81], [513440793, "English Tenses, Aspects and Voices", 5.0, 1, 1410393600, 24, 0, 0], [525417561, "Caract\u00e8res chinois du \"New practical Chinese reader\"", 0.0, 0, 1427846400, 207, 0, 0], [578716386, "Inalco Chinois L1 comp le\u00e7on8", 0.0, 0, 1419984000, 12, 12, 0], [1577065051, "Koine-Griechisch Verbendungen", 0.0, 0, 1408579200, 21, 0, 0], [718041458, "Inalco Chinois L1 comp le\u00e7on5", 0.0, 0, 1419984000, 10, 10, 0], [206147857, "Biblical Greek (Koine) - Swedish", 0.0, 0, 1345852800, 1126, 0, 0], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [1084759521, "Ballstothe Microbio II: Going Viral", 0.0, 0, 1418601600, 313, 0, 2], [1922897734, "aloisdutch", 0.0, 0, 1417305600, 238, 2, 3], [1665314112, "Duolingo Esperanto, Checkpoint 0 - 1", 0.0, 0, 1433116800, 134, 0, 0], [103829065, "Russian Faces and Voices CH7", 0.0, 0, 1390521600, 97, 0, 0], [1618464991, "aloishungarian", 0.0, 0, 1417305600, 403, 2, 3], [784243122, "Steroids", 0.0, 0, 1423267200, 22, 0, 1], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [1367774234, "KW-TEOIC-words", 0.0, 0, 1411776000, 123, 37, 0], [1200728057, "NSAIDs-Opioids", 0.0, 0, 1417392000, 98, 0, 0], [3238299878, "Droit du travail-France", 0.0, 0, 1382054400, 71, 0, 3], [1021517482, "N4-N5 FOR droid", 0.0, 0, 1395619200, 1303, 0, 0], [2560734270, "TCM Review Extra Points Location", 0.0, 0, 1345852800, 40, 0, 0], [1246520238, "DDO Gastrointestinal Emergencies - Lower GIT bleeding", 0.0, 0, 1415232000, 5, 0, 0], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [731021726, "EOI NA1 MU", 0.0, 0, 1416268800, 279, 0, 1], [1817933893, "Koinonia Hsinchu Matthew 5-7 Study Guide", 0.0, 0, 1345852800, 27, 0, 0], [139932320, "Koine Greek Grammar ", 0.0, 0, 1365465600, 316, 0, 0], [1869705960, "G2MS Hematology and Lymphoid Lab", 0.0, 0, 1410393600, 101, 0, 52], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [1359095949, "Duolingo Esperanto, Checkpoint 2 - 3, v2", 0.0, 0, 1434499200, 677, 0, 0], [783784498, "Inalco Chinois L1 comp le\u00e7on11", 0.0, 0, 1419984000, 12, 12, 0], [2211126117, "introduction to bioinformatics an der boku", 0.0, 0, 1380758400, 79, 0, 13], [632690749, "Ty\u00f6oikeus", 0.0, 0, 1414713600, 117, 0, 0], [1674814311, "aloisitalian", 0.0, 0, 1417305600, 257, 2, 3], [1700211142, "Art Hum final power point slides", 0.0, 0, 1399766400, 178, 0, 341], [1033335256, "Cicero 3 Locations & Points", 0.0, 0, 1345852800, 64, 0, 0], [2357799636, "antique greek verbs koine / verbos griego antiguo \u03bb\u03c5\u03c9 \u03b5\u03b9\u03bc\u03b9", 0.0, 0, 1348617600, 294, 0, 0], [2854503240, "AFEA - Five Element - Acupuncture Points", 4.0, 1, 1357516800, 121, 0, 0], [1679019041, "aloisjapanese", 0.0, 0, 1417305600, 1188, 2, 3], [1492736011, "Koine Greek", 0.0, 0, 1416268800, 1559, 0, 0], [2673849101, "Autacoids", 0.0, 0, 1350777600, 108, 0, 0], [1065879643, "Inalco Chinois L1 comp le\u00e7on9", 0.0, 0, 1419984000, 17, 17, 0], [923450914, "N2 Goi somatome", 4.0, 2, 1423958400, 1973, 0, 0], [1715366641, "aloisgerman", 0.0, 0, 1417305600, 1835, 2, 3], [1411425637, "Chapman's Point", 0.0, 0, 1424822400, 66, 0, 2], [148553838, "aloislatin", 0.0, 0, 1417305600, 273, 2, 3], [882236101, "Anatomy - Joints, Joints of the thoracic wall", 0.0, 0, 1386460800, 11, 0, 13], [1743815443, "Parallel Dict Word-Url Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [608844046, "Pesticide and Drug Poisoning VIJ", 0.0, 0, 1413072000, 27, 0, 6], [21505615, "500FR-CNChinoisContemporainLivre02L01-L0", 0.0, 0, 1345852800, 422, 305, 0], [4022606164, "eoivigo", 4.0, 1, 1382486400, 1477, 0, 0], [1281809217, "Ven\u00e4j\u00e4 substantiiveja joilla erityispiirteit\u00e4", 0.0, 0, 1419379200, 83, 0, 0], [439826086, "fuck anatomy- joints, mastication, orbit", 0.0, 0, 1411948800, 125, 0, 89], [1001927189, "aloisarabic", 0.0, 0, 1417305600, 176, 2, 3], [3702909821, "clinical point selection", 0.0, 0, 1374364800, 56, 0, 0], [1939457831, "Joints - MECH2901 Anatomy and Physiology for Engineers", 0.0, 0, 1410480000, 7, 0, 1], [1956799398, "Metzer's Koine Greek Vocab, 42-45 Frequency", 0.0, 0, 1409270400, 25, 0, 0], [69027218, "with voice recording", 0.0, 0, 1416960000, 276, 277, 79], [1817595552, "Nihongo no Goi", 0.0, 0, 1431561600, 10, 0, 0], [235783792, "Oil, gas, newspaper news", 0.0, 0, 1430179200, 380, 0, 0], [1183646899, "Hematopoiesis, Stem Cells", 0.0, 0, 1422835200, 64, 0, 0], [1223764558, "chinese wiki grammar points with simpl and trad", 0.0, 0, 1417996800, 1949, 0, 1], [1231804262, "2013 Keele Med 2.1 Thyroid (Yr2 Term 1)", 0.0, 0, 1420156800, 12, 0, 2], [4270519617, "New Kanji Added (Han tu moi)", 0.0, 0, 1345852800, 278, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [677663333, "aloisgreekancient", 0.0, 0, 1417305600, 5303, 2, 3], [102251019, "Anatomy - Joints and Osteology - Upper Limb", 0.0, 0, 1387065600, 58, 0, 89], [1372315936, "Living Koine Greek deck", 4.0, 2, 1390867200, 342, 345, 231], [1521465457, "Russian Faces and Voices CH11", 0.0, 0, 1390521600, 70, 0, 0], [2130011212, "chants d'oiseaux", 0.0, 0, 1422835200, 78, 78, 0], [2046556586, "neramsin hoi", 0.0, 0, 1382745600, 481, 0, 7], [860501145, "Russian Faces and Voices CH6", 0.0, 0, 1390521600, 65, 0, 0], [404672408, "Rheum - Autoimmunity, Arthritis, Lab Tests", 0.0, 0, 1360886400, 86, 0, 31], [544072714, "aloisindonesian", 0.0, 0, 1417305600, 1705, 2, 3], [1604917464, "mc steroids with media", 0.0, 0, 1351555200, 167, 0, 89], [2868658513, "[engoi] Russian to Romanian words and phrases with audio", 0.0, 0, 1375920000, 1045, 1037, 0], [1720512425, "aloisvietnamese", 0.0, 0, 1417305600, 202, 2, 3], [1864222712, "MUSC M1 Block 2 Clinical and Joints", 0.0, 0, 1414540800, 79, 0, 0], [413978060, "aloishindi", 0.0, 0, 1417305600, 604, 2, 3], [1211144349, "block 2 joints of the lower limb", 0.0, 0, 1414281600, 65, 0, 0], [1253560295, "Inalco Chinois L1 comp le\u00e7on1", 0.0, 0, 1419984000, 12, 12, 0], [1825938659, "Anatomy - Vertebral Joints and Osteology", 0.0, 0, 1386633600, 39, 0, 54], [1389247075, "Swedish Vocabulary - ongoing 2012", 0.0, 0, 1345852800, 1235, 0, 0], [1060891267, "Autoimmunity (AI)", 0.0, 0, 1359676800, 38, 0, 0], [1783724577, "Koine Greek grammar from Duff's Elements", 5.0, 1, 1357689600, 855, 0, 0], [3907249446, "Paquet pour apprendre l'anglais \u00e0 remplir soi-m\u00eame", 0.0, 0, 1361145600, 3, 3, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [675749765, "Inalco Chinois L1 comp le\u00e7on12", 0.0, 0, 1419984000, 10, 10, 0], [112491433, "aloisthai", 0.0, 0, 1417305600, 156, 2, 3], [1550608419, "Metzer's Koine Greek Vocab, 46-49 times frequency", 0.0, 0, 1409270400, 25, 0, 0], [66575670, "Pelvis, Gluteal, Hip joint (CSUS Bio 122)", 0.0, 0, 1424995200, 62, 0, 51], [818166000, "Anatomy - Joints and Osteology - Pelvis and Hip Joint", 0.0, 0, 1387324800, 33, 0, 28], [2870257275, "TCM Review Big Picture Point Location", 0.0, 0, 1345852800, 121, 0, 0], [337371285, "goi jasso 1-300", 0.0, 0, 1426723200, 279, 3, 0], [4103149021, "TCM Review Point Indications", 0.0, 0, 1345852800, 156, 0, 0], [1362190984, "rowan som fund 2 micro lecture 9 vaccines & autoimmunity", 0.0, 0, 1412035200, 2, 0, 3], [1045899098, "Leisure - Loisire ", 0.0, 0, 1394409600, 276, 0, 0], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0], [4124362349, "AnkiBac : Fiches pour le bac d'Histoire", 5.0, 1, 1358899200, 47, 0, 0], [760146822, "aloisbasque", 0.0, 0, 1417305600, 346, 2, 3], [1713729921, "Russian Faces and Voices CH9", 0.0, 0, 1390521600, 59, 0, 0], [2931075708, "bridie autoimmune CT ", 0.0, 0, 1384214400, 58, 0, 0], [369364662, "N3 Grammar points review", 0.0, 0, 1431561600, 1, 0, 0], [3108312157, "DNB Histoire", 0.0, 0, 1369612800, 53, 0, 0], [1158313769, "Anatomy - Joints and Osteology - Lower Limb", 0.0, 0, 1387497600, 35, 0, 73], [1405009676, "aloisswedish", 0.0, 0, 1417305600, 496, 2, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Oi</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

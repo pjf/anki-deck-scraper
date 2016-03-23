@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1463767702, "Paul Thomas General Medical Knowledge", 5.0, 1, 1454630400, 220, 0, 10], [1498818887, "AWS Knowledge January 2016", 0.0, 0, 1454025600, 31, 0, 0], [3218813077, "J.BRIDGE for Beginners vol.1", 5.0, 1, 1375228800, 1069, 1065, 0], [269213494, "Cambridge Latin Course: Unit 2", 0.0, 0, 1454025600, 166, 0, 0], [383044272, "Pilot Knowledge", 0.0, 0, 1452297600, 2199, 0, 61], [1096303402, "ck bgdbvgy vvzdgbcdj", 0.0, 0, 1450915200, 341, 0, 40], [617497471, "A Dream Within a Dream-Edgar Allen Poe", 0.0, 0, 1449878400, 26, 0, 0], [2098834578, "Cambridge Latin Unit 3 Vocabulary", 0.0, 0, 1449878400, 168, 0, 1], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 0.0, 0, 1447286400, 108, 0, 78], [239206204, "ODG Chimie PCSI2", 0.0, 0, 1447113600, 22, 0, 0], [777878970, "Cambridge Latin Course: Unit 1", 0.0, 0, 1447372800, 630, 0, 0], [710318989, "J-Bridge Vokabeln Lektion 5", 0.0, 0, 1444867200, 130, 0, 0], [393140332, "J-Bridge Vokabeln Lektion 6", 0.0, 0, 1444867200, 85, 0, 0], [785093514, "MAARNG OCS Knowledge", 0.0, 0, 1441756800, 84, 30, 0], [27841478, "Bhuuworldgi", 0.0, 0, 1438992000, 373, 0, 0], [1294610992, "Cambridge Latin 2, Chapter 1", 0.0, 0, 1439942400, 75, 0, 0], [59802978, "Windows 10 Microsoft Edge shortcuts", 3.0, 1, 1439164800, 35, 0, 0], [1540866098, "Cambridge Part II Physics: Optics and Electrodynamics ", 0.0, 0, 1413504000, 43, 0, 79], [1348512512, "ShawnSedgh", 0.0, 0, 1439251200, 1800, 0, 949], [1354603406, "Erdgeschichte", 0.0, 0, 1382140800, 26, 0, 0], [278240367, "Cambridge Latin Stages 1-5", 0.0, 0, 1439856000, 182, 0, 4], [2036962902, "J-Bridge vol.1 S01-L01 vocabulary by Tarek", 0.0, 0, 1390435200, 48, 0, 0], [1370725998, "Montessori Upper El Background Knowledge - version 2", 0.0, 0, 1440028800, 95, 0, 50], [1387382907, "TH-67 Oral Knowledge", 0.0, 0, 1374105600, 85, 0, 0], [682572489, "J-Bridge vol.1 S01-L10 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [92606505, "Vocab for Bridge Reading Class", 0.0, 0, 1405900800, 20, 0, 0], [331073551, "How Horatius Held the Bridge", 0.0, 0, 1406937600, 143, 0, 0], [1787841904, "DGVT Zwischenpr\u00fcfungsfragen", 0.0, 0, 1397606400, 17, 0, 0], [883207925, "J-Bridge vol.1 S01-L03 vocabulary by Tarek", 0.0, 0, 1390435200, 26, 0, 0], [17092719, "Vocabulary for Bridge AEP Reading Class Summer 2014", 0.0, 0, 1405987200, 20, 0, 0], [225717476, "Becker Summer Bridge 2014", 0.0, 0, 1404345600, 20, 0, 0], [1227640507, "Cambridge College Crests", 0.0, 0, 1394236800, 31, 0, 31], [903183762, "Hodgkin Lymphoma", 0.0, 0, 1422576000, 36, 0, 5], [388553362, "J-Bridge vol.1 S01-L08 vocabulary by Tarek", 0.0, 0, 1390435200, 43, 0, 0], [754114012, "dgsom b4w3", 0.0, 0, 1396396800, 73, 0, 79], [43068708, "Persian-Farsi - DLIFLC - GLOSS - Judgment", 0.0, 0, 1417305600, 145, 0, 0], [133951269, "Erdgeschichte Uni T\u00fcbingen", 0.0, 0, 1425513600, 195, 0, 0], [1740295918, "Fantunes bridge system according to Bill Jacobs book", 0.0, 0, 1409097600, 142, 0, 0], [1320732067, "Cambridge_Javad", 0.0, 0, 1436400000, 658, 0, 10], [180290335, "testhgfdgh", 0.0, 0, 1426291200, 44, 0, 0], [1887378255, "J-Bridge vol.1 S01-L04 vocabulary by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [7900273, "Nata cutting edge elementary", 0.0, 0, 1353456000, 526, 0, 0], [1530485539, "NDG Vocabulaire NL 5\u00e8me B", 0.0, 0, 1401840000, 121, 0, 0], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [1025960484, "HSBC Bridge Precision Bidding", 0.0, 0, 1428192000, 103, 0, 0], [902581425, "J-Bridge vol.1 S01-L12 vocabulary by Tarek", 0.0, 0, 1390435200, 35, 0, 0], [70840341, "starkt kl\u00f6versystem bridge ", 0.0, 0, 1420329600, 25, 0, 0], [1545705273, "J-Bridge vol.1 S01-L07 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [181648759, "Basic Bridge Agreements ", 0.0, 0, 1429488000, 40, 0, 0], [2898911171, "German for Reading Knowledge by Jannach", 0.0, 0, 1345852800, 2243, 0, 0], [1679447346, "Cambridge Part II Physics: Thermal and Statistical Physics", 0.0, 0, 1413504000, 35, 0, 30], [371748812, "Mixed Knowledge", 0.0, 0, 1418342400, 4, 5, 1], [2729163186, "Arakawa under the bridge op2", 0.0, 0, 1345852800, 22, 22, 0], [379225846, "J-Bridge vol.1 S01-L05 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [919811508, "German_LDG_1", 0.0, 0, 1410912000, 58, 0, 0], [529789526, "DGSOM Anatomy Block 3 weeks 1-3", 0.0, 0, 1390867200, 330, 0, 466], [449548536, "CS1 - Knowledge Engineering Maastricht", 0.0, 0, 1414108800, 89, 0, 0], [665271826, "Cambridge Part II Physics: Theoretical Physics (1)", 0.0, 0, 1413504000, 11, 0, 12], [1287464256, "sdgsdgsdg", 0.0, 0, 1396915200, 399, 0, 5], [401262656, "Bible Quiz 07: Judges", 0.0, 0, 1345852800, 88, 0, 0], [1119085080, "J-Bridge vol.1 S01-L09 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [566988211, "2nd Year MT Cambridge Chinese", 0.0, 0, 1388188800, 1058, 0, 0], [3169370251, "ZhongwenRedGreenBluev3.7", 5.0, 1, 1345852800, 1509, 1509, 0], [1637201598, "Construction Technology, Bridges.", 0.0, 0, 1394409600, 46, 5, 35], [253387486, "J-Bridge vol.1 S02-14 vocabulary by Tarek", 0.0, 0, 1391126400, 52, 0, 0], [2042851476, "J-Bridge vol.1 S01-L02 vocabulary by Tarek", 0.0, 0, 1390435200, 36, 0, 0], [1181351588, "Bildgebung TU M\u00fcnchen", 0.0, 0, 1392076800, 127, 1, 1], [3046153246, "SI.SpoznavanjeOkolja.3rdGrade", 0.0, 0, 1363824000, 99, 0, 98], [1538473936, "Badger Quiz 1", 0.0, 0, 1407456000, 8, 0, 0], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57], [909109552, "Small B Cell Non Hodgkin Lymphomas", 0.0, 0, 1422403200, 43, 0, 3], [2186335371, "sgdsgsdgsdg", 0.0, 0, 1384732800, 17, 0, 25], [1013713068, "J-Bridge vol.1 S01-L11 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1638815855, "J-Bridge vol.1 S01-L13 vocabulary by Tarek", 0.0, 0, 1390435200, 52, 0, 0], [1232651803, "J-Bridge vol.1 S01-L06 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [1773575851, "Cambridge Part II Physics: Advanced Quantum Physics ", 0.0, 0, 1413504000, 44, 0, 80]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

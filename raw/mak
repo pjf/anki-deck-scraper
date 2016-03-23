@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [388208839, "SM33 - Sailor V makes the scene", 0.0, 0, 1454716800, 27, 0, 0], [27685291, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s fogalmak", 0.0, 0, 1453161600, 21, 0, 0], [1204216851, "T\u00e1rsalg\u00e1si t\u00e9mak\u00f6r\u00f6k", 0.0, 0, 1453680000, 112, 0, 6], [108998816, "Pharmakologie Wirkstoffe TU M\u00fcnchen", 4.25, 4, 1393286400, 279, 1, 0], [1301664229, "Farmakologi - antibiotika", 0.0, 0, 1451952000, 15, 0, 1], [1031301995, "Farmakologi - lungemedicin", 0.0, 0, 1451952000, 6, 0, 4], [1511978827, "Pharmakologie WS 15/16 ", 0.0, 0, 1452384000, 87, 0, 3], [650472367, "Makro\u00f6konomie", 0.0, 0, 1450742400, 91, 0, 0], [188812201, "Farmakologi 5: CNS", 0.0, 0, 1450310400, 14, 0, 0], [566759793, "Farmakologi - immunsuppresiva og cancerkemoterapi", 0.0, 0, 1450656000, 21, 0, 1], [454773329, "pacemakers and defibrillators", 0.0, 0, 1451692800, 10, 0, 0], [1259996652, "Farmakologi - kardiologi", 0.0, 0, 1449360000, 5, 0, 5], [47502591, "Renal farmaka", 0.0, 0, 1448323200, 1, 0, 0], [1781327787, "Farmakologi - gastroenterologi", 0.0, 0, 1449360000, 6, 0, 0], [163888012, "Farmakologi - urinvejene", 0.0, 0, 1449360000, 8, 0, 2], [913889308, "Farmakologi 6: Immunomodulation", 3.0, 1, 1449532800, 15, 0, 0], [1491806726, "CB - Decision Making", 0.0, 0, 1447113600, 23, 0, 0], [1473424601, "Ringvorlesung: Pharmakologie und Toxikologie", 0.0, 0, 1448150400, 22, 0, 0], [723428174, "Nitrat kezikonyv fogalmak", 0.0, 0, 1446940800, 51, 5, 0], [1092574835, "Ringvorlesung: Pharmakognosie", 0.0, 0, 1448150400, 53, 0, 1], [1453791625, "Do & Make", 0.0, 0, 1442016000, 197, 205, 42], [1879054045, "Az els\u0151 vil\u00e1gh\u00e1bor\u00fa, a forradalmak \u00e9s a b\u00e9k\u00e9k", 0.0, 0, 1444348800, 41, 0, 0], [639604528, "MakroHBRS", 0.0, 0, 1437091200, 8, 0, 2], [1308462805, "Pharmakologie MedUni 2. Jahr", 0.0, 0, 1386288000, 2296, 0, 85], [1678402419, "18.\u00c1ltal\u00e1nos fogalmak", 0.0, 0, 1432771200, 67, 0, 0], [2101126902, "FarmaK2", 0.0, 0, 1433548800, 37, 0, 0], [1105261427, "Pharmakologie ", 0.0, 0, 1387238400, 235, 0, 0], [185312331, "RLR #82 - How to Make a Presentation", 0.0, 0, 1418169600, 31, 31, 0], [1301897451, "history of japan heian kamakura", 5.0, 1, 1399334400, 400, 0, 0], [517913719, "PharmaKardioMUI", 0.0, 0, 1422230400, 176, 0, 0], [116920067, "Statistics in Medical Decision Making\t", 0.0, 0, 1424649600, 19, 0, 28], [2851082405, "Chemie 4. Semester Organische Makromolek\u00fcle", 0.0, 0, 1346284800, 100, 0, 45], [670987890, "Makro\u00f6konomie II", 0.0, 0, 1430697600, 39, 0, 46], [1803181122, "Farmakologi T5 ", 0.0, 0, 1432771200, 235, 0, 1], [125849137, "Farmaka - grupper. Danish", 0.0, 0, 1398902400, 358, 0, 0], [1836679632, "Farmaka - handelsnavne. Danish.", 0.0, 0, 1399680000, 360, 0, 0], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [1697091757, "SNS sushi kaburimaki", 0.0, 0, 1436918400, 7, 0, 7], [352654971, "Marys IB SBWL Participants that Make IB Happen @ WU Wien", 0.0, 0, 1397779200, 36, 0, 0], [923043453, "Pszichol\u00f3gia fogalmak", 0.0, 0, 1430006400, 361, 0, 0], [500815396, "Pharmakologie TUM fertig", 0.0, 0, 1361923200, 358, 0, 0], [402452301, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1420329600, 111, 0, 0], [1521519270, "Pharmakologie Allgemeines TU M\u00fcnchen", 0.0, 0, 1393286400, 70, 1, 0], [546729483, "Making Science Presentations CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [405705484, "Japanees Verbs (129 cards from Namako Abe's Useful Japanese ", 0.0, 0, 1414800000, 129, 5, 0], [1858009284, "Neurobiologi2014-makroskopiskopdeling", 0.0, 0, 1409702400, 47, 0, 47], [558035274, "PharmakologieMUI", 0.0, 0, 1428883200, 389, 0, 5], [691258206, "farmakologie - antivirotika", 0.0, 0, 1421366400, 5, 0, 0], [121961141, "Greetings from the Teklimakan (Kansas U)", 5.0, 2, 1422921600, 920, 920, 0], [879289052, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1419984000, 110, 0, 0], [1133347410, "RLR #99 \u2013 LOL: Make People Laugh in English ", 0.0, 0, 1428537600, 32, 32, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mak</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

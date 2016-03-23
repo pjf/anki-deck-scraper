@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1392746304, "Hungarian Core 100 - Basic words (EN  HU with audio)", 0.0, 0, 1436832000, 202, 109, 116], [877468581, "Kanji manga", 0.0, 0, 1453420800, 251, 0, 0], [1077705993, "Hungarian - english official words, administration", 0.0, 0, 1453075200, 79, 0, 0], [90404164, "Changana to English Basic Phrases", 0.0, 0, 1453075200, 34, 0, 0], [1042149144, "Changana to English Extensive Vocabulary", 0.0, 0, 1453075200, 1090, 0, 0], [1674579546, "Changana to English Top 200 Words", 0.0, 0, 1453075200, 200, 0, 0], [124854924, "FSI Hungarian I Vocab & Basic Sentences (with audio)", 5.0, 3, 1405900800, 2129, 2130, 0], [2055372714, "Hungarian Rov\u00e1s\u00edr\u00e1s", 5.0, 1, 1451174400, 52, 0, 54], [1875520915, "FSI II Hungarian Basic Sentences (with audio)", 5.0, 2, 1406592000, 929, 930, 0], [283521292, "the Hindi langage", 0.0, 0, 1449705600, 669, 0, 0], [2750629478, "Hungarian-French basic words", 0.0, 0, 1345852800, 504, 182, 25], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 6, 1372636800, 1966, 0, 0], [325832880, "New English File Intermediate - English-Hungarian [gubus]", 5.0, 1, 1441152000, 1287, 1287, 1], [282522785, "Singapore GCSE 'A' Level H2 Chemistry: Organic chemistry", 0.0, 0, 1435795200, 145, 0, 0], [1258852337, "shRngAra-satakam \u0936\u0943\u0919\u094d\u0917\u093e\u0930\u0936\u0924\u0915\u092e\u094d", 0.0, 0, 1446854400, 104, 0, 0], [43521364, " Fragew\u00f6rter, Ortsangaben, Pratikel Japanisch VHS-WI H73090", 0.0, 0, 1446249600, 53, 0, 0], [362677896, "1000 Question 7/b traffic hungarian", 0.0, 0, 1446681600, 147, 0, 0], [1911151560, "Tongan", 5.0, 1, 1444521600, 116, 0, 0], [888858991, "prepositions angol-magyar (english-hungarian)", 0.0, 0, 1433894400, 466, 0, 0], [1380876242, "Hungarian Quick & Dirty 30 (EN  HU)", 0.0, 0, 1445126400, 60, 38, 45], [263702850, "1000 Question 7/a traffic hungarian", 0.0, 0, 1446681600, 151, 0, 0], [1783000526, "1000 Question 8/A entertainment hungarian", 0.0, 0, 1444176000, 172, 0, 0], [809280648, "BBC Why did Singapore ban gum?", 0.0, 0, 1442275200, 48, 0, 7], [883232227, "Vikinga", 0.0, 0, 1393891200, 74, 0, 42], [114508291, "Hungarian-English 25000", 1.0, 1, 1426377600, 25280, 0, 3], [19628564, "IELTS Vocabulary (Hungarian - English)", 0.0, 0, 1433808000, 213, 0, 1], [1984838861, "Hungarian Oral Final Topic 3", 0.0, 0, 1417996800, 15, 0, 0], [177410465, "Hungarian Unit 1 - 4 Vocabulary", 5.0, 1, 1413504000, 258, 0, 0], [1098857072, "Anti-fungals", 0.0, 0, 1434240000, 7, 0, 0], [1886685557, "Basic Bengali", 0.0, 0, 1355097600, 249, 139, 0], [453049854, "Bs5  Zeitangaben - Vokabeln ", 0.0, 0, 1416441600, 20, 0, 0], [2110209125, "Ungarsk-Norsk IT's deck", 0.0, 0, 1418860800, 384, 0, 0], [826418419, "Hungarian Oral Final Topic 6", 0.0, 0, 1417996800, 17, 0, 0], [1472635709, "Ashtanga Yoga", 5.0, 1, 1407283200, 49, 0, 49], [1471864600, "UK NUR 210 EXAM 4 Antivirals/antifungals", 0.0, 0, 1418774400, 38, 0, 0], [802958366, "UMMCpharmAntifungals", 0.0, 0, 1421712000, 30, 0, 3], [989272223, "7.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 26, 0, 0], [660178319, "Langara level 6 (Y\u01d0 y\u00e1 hu\u00e1n y\u00e1)", 0.0, 0, 1345852800, 7, 0, 0], [2658945606, "Langara lesson 25", 0.0, 0, 1345852800, 38, 0, 0], [3825293842, "New English File Upper Intermediate Words(English-Hungarian)", 0.0, 0, 1426204800, 255, 0, 0], [824905444, "Langara lesson 27", 0.0, 0, 1345852800, 27, 0, 0], [235922595, "Advanced Hungarian", 0.0, 0, 1345852800, 105, 0, 0], [2911856595, "Microbiology - Mycology and fungal skin infections", 0.0, 0, 1369872000, 32, 0, 44], [1802762264, "6.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 78, 0, 0], [270825967, "Langara level 6 (N\u01celi N\u01celi)", 0.0, 0, 1345852800, 17, 0, 0], [3563775490, "Langara lesson 22", 0.0, 0, 1345852800, 22, 0, 0], [3258039765, "Langara lesson 12", 0.0, 0, 1345852800, 21, 0, 0], [15980387, "Russian-Hungarian words", 0.0, 0, 1436400000, 131, 0, 0], [3703677513, "Meithai - Zeitangaben, Zeitadverbien, ect.", 0.0, 0, 1383782400, 141, 0, 0], [204916041, "Langara lesson 20", 0.0, 0, 1345852800, 22, 0, 0], [2375007277, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 1", 0.0, 0, 1363305600, 390, 0, 0], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 5.0, 1, 1445904000, 1398, 2796, 1], [2843757576, "Langara level 6 Xi\u00e0ti\u0101n l\u00e0i le - supplemental", 0.0, 0, 1358985600, 17, 0, 0], [331794875, "4.The most common 2000 german words.German-Hungarian", 0.0, 0, 1424563200, 35, 0, 0], [835508790, "Langara lesson 03", 0.0, 0, 1345852800, 17, 0, 0], [1134389909, "Ungarisch - Deutsch", 0.0, 0, 1348876800, 1233, 0, 0], [3741836181, "Langara lesson 21", 0.0, 0, 1345852800, 22, 0, 0], [1164788312, "Ashtanga Primary Series", 0.0, 0, 1430956800, 49, 0, 49], [2039006696, "Langara lesson 30", 0.0, 0, 1345852800, 30, 0, 0], [2059450516, "Langara lesson 26", 0.0, 0, 1345852800, 22, 0, 0], [3996957273, "Langara lesson 18", 0.0, 0, 1345852800, 19, 0, 0], [279689760, "9.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 112, 0, 0], [1537730942, "Algengar sagnir", 0.0, 0, 1433116800, 99, 0, 0], [939706670, "Langara lesson 15", 0.0, 0, 1345852800, 18, 0, 0], [546665876, "beygingar::l\u00fdsingaror\u00f0", 0.0, 0, 1453939200, 228, 0, 0], [298815655, "Langara lesson 13", 0.0, 0, 1345852800, 18, 0, 0], [2894975615, "Langara lesson 29", 0.0, 0, 1345852800, 23, 0, 0], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [2396111280, "Langara level 6 (lesson 10)", 0.0, 0, 1345852800, 12, 0, 0], [3054511886, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 2", 0.0, 0, 1363305600, 79, 0, 0], [2062791171, "Erkundungen Deutsch-Ungarisch C1", 0.0, 0, 1414281600, 331, 0, 0], [549048615, "12.The most common german words.German-Hungaria3", 0.0, 0, 1426204800, 67, 0, 0], [885148678, "2.The most common german words.Hungarian-German", 0.0, 0, 1424563200, 54, 0, 0], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 1, 1373241600, 2049, 0, 0], [2993394151, "Hungarian words -> Matrix 1", 0.0, 0, 1369008000, 37, 99, 0], [1618464991, "aloishungarian", 0.0, 0, 1417305600, 403, 2, 3], [1067106735, "8.The most common german words.German-Hungarin", 0.0, 0, 1426204800, 81, 0, 0], [786532481, "Hungarian Oral Final Topic 2", 0.0, 0, 1417996800, 17, 0, 0], [1550142007, "Hungarian Oral Final Topic 7", 0.0, 0, 1417996800, 18, 0, 0], [3758189052, "HMS.IMP.antifungal.therapy", 0.0, 0, 1368144000, 14, 0, 7], [1804801402, "Random Hungarian words", 0.0, 0, 1416355200, 497, 0, 0], [3401930182, "Langara lesson 21 expressions", 0.0, 0, 1345852800, 22, 0, 0], [2804811262, "Langara lesson 28", 0.0, 0, 1345852800, 31, 0, 0], [1741486205, "12.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 122, 0, 0], [1249368459, "Middle Egyptian - Ockinga", 0.0, 0, 1345852800, 78, 0, 0], [3795203828, "New English File Pre-Intermediate Words (English-Hungarian)", 0.0, 0, 1383436800, 598, 0, 0], [2268841756, "Langara lesson 17", 0.0, 0, 1345852800, 15, 0, 0], [409348245, "New English File Elementary Words (English-Hungarian)", 0.0, 0, 1383350400, 960, 0, 0], [1003472919, "Hungarian -> Yellow Submarine - The Beatles", 0.0, 0, 1369008000, 66, 167, 34], [1384044053, "Erkundungen Deutsch-Ungarisch C1 Kapitel 3", 0.0, 0, 1414281600, 187, 0, 0], [935265841, "Langara lesson 16", 0.0, 0, 1345852800, 25, 0, 0], [1064707712, "10.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 81, 0, 0], [592419942, "Langara lesson 19", 0.0, 0, 1345852800, 18, 0, 0], [438123184, "Langara level 6 (j\u00ecnshiy\u01cen)", 0.0, 0, 1345852800, 11, 0, 0], [1760833663, "Deutsch-Spanisch Ortsangaben", 0.0, 0, 1368230400, 15, 0, 0], [3605978244, "Langara lesson 14", 0.0, 0, 1345852800, 28, 0, 0], [128793311, "Langara business lesson 01 T\u0101 zh\u00e8ngz\u00e0i k\u0101ihu\u00ec", 0.0, 0, 1345852800, 42, 0, 0], [3976843902, "Langara level 6 Xi\u00e0ti\u0101n l\u00e0i le", 0.0, 0, 1358812800, 30, 0, 0], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [1012673030, "3.The most common german words.Hungarian-German", 0.0, 0, 1424563200, 67, 0, 0], [2109704050, "AdiGeo   Ungarisch Deutsch", 0.0, 0, 1417305600, 64, 1, 31], [948904241, "Hungarian Oral Final Topic 10", 0.0, 0, 1417996800, 14, 0, 0], [111282358, "German-Hungarian", 0.0, 0, 1424563200, 46, 0, 0], [683670847, "Hungarian Oral Final Topic 4", 0.0, 0, 1417996800, 14, 0, 0], [1668000391, "beygingar::nafnor\u00f0", 0.0, 0, 1446249600, 78, 0, 0], [701238830, "Langara lesson 11", 0.0, 0, 1345852800, 18, 0, 0], [1631351753, "Langara lesson 23", 0.0, 0, 1345852800, 22, 0, 0], [1479610294, "Langara lesson 24", 0.0, 0, 1345852800, 25, 0, 0], [2701788669, "Deutsch - Ungarisch / German - Hungarian", 5.0, 1, 1345852800, 1016, 0, 0], [27335959, "beygingar::forn\u00f6fn", 0.0, 0, 1403827200, 73, 0, 0], [1048384366, "Langara lesson 02", 0.0, 0, 1345852800, 37, 0, 0], [1860774131, "5.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 72, 0, 0], [458118913, "Langara level 6 (tone1 drill)", 0.0, 0, 1345852800, 9, 0, 0], [3539203178, "bengali basic words and phrases", 0.0, 0, 1377043200, 26, 0, 0], [978902080, "Hungarian Oral Final Topic 5", 0.0, 0, 1417996800, 14, 0, 0], [1003618955, "Erkundungen Deutsch-Ungarisch C1 Kapitel 4", 0.0, 0, 1414281600, 180, 0, 0], [1127889387, "11.The most common german words.German-Hungarian", 0.0, 0, 1426204800, 84, 0, 0], [1723130864, "Erkundungen Deutsch-Ungarisch C1 Kapitel 2", 0.0, 0, 1414281600, 255, 0, 0], [563657323, "Hungarian Oral Final Topic 8", 0.0, 0, 1417996800, 19, 0, 0], [240482386, "Hungarian Oral Final Topic 9", 0.0, 0, 1417996800, 16, 0, 0], [800996858, "Erkundungen Deutsch-Ungarisch C1.1 (1-4)", 0.0, 0, 1422748800, 692, 0, 0], [1926120795, "Bengali words and phrases", 0.0, 0, 1377043200, 16, 0, 0], [1144725912, "Hungarian Oral Final Topic 1", 0.0, 0, 1417996800, 16, 0, 0], [507768052, "FSI II Hungarian Vocab", 5.0, 2, 1406592000, 1044, 1, 0], [3637650375, "Langara level 6 (sh\u00edji\u0101n)", 0.0, 0, 1345852800, 12, 0, 0], [3649522441, "New Headway Intermediate English-Hungarian lesson 1", 5.0, 1, 1359504000, 102, 0, 0], [99251831, "Ungarisch - Deutsch: Vokabel, Grammatik, Ausdr\u00fccke", 0.0, 0, 1385337600, 1669, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nga</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

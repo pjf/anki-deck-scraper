@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[678445357, "Gladenbach qui/quae/quod", 0.0, 0, 1453766400, 10, 0, 0], [472954079, "Bibelkunde NT (10) - Offenbarung", 0.0, 0, 1453680000, 20, 0, 0], [162187570, "Gladenbach 16", 0.0, 0, 1453766400, 44, 0, 0], [2100235973, "Gladenbach 15", 0.0, 0, 1453766400, 52, 0, 0], [1454547900, "Gladenbach 14", 0.0, 0, 1452729600, 27, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1476759630, "Gladenbach 13", 0.0, 0, 1448323200, 44, 0, 0], [967309941, "Gladenbach 12", 0.0, 0, 1444608000, 57, 0, 0], [1843761656, "Gladenbach 11", 0.0, 0, 1441670400, 59, 0, 0], [1414021581, "Gladenbach 6", 0.0, 0, 1428364800, 44, 0, 0], [244928826, "johnio_05_trenbarre", 0.0, 0, 1424563200, 19, 0, 0], [781623206, "Gladenbach 7", 0.0, 0, 1427932800, 49, 0, 0], [2383383395, "Personenbeschreibung", 0.0, 0, 1370217600, 25, 0, 0], [2016709354, "Gladenbach 5", 0.0, 0, 1428451200, 42, 0, 0], [2067075275, "Gladenbach 4", 0.0, 0, 1428537600, 43, 0, 0], [3786791111, "Datenbanksysteme bei Prof. Dr. B\u00f6hm am KIT (2013)", 4.0, 1, 1374537600, 60, 0, 0], [1013797125, "WI13Datenbanken1", 5.0, 1, 1413936000, 49, 0, 41], [1730048436, "Gladenbach 2", 0.0, 0, 1428710400, 40, 0, 0], [974475246, "Gladenbach 9", 0.0, 0, 1428364800, 51, 0, 0], [1609421280, "anu kanji - writtenB 121-165", 0.0, 0, 1407715200, 19, 0, 17], [3169370251, "ZhongwenRedGreenBluev3.7", 5.0, 1, 1345852800, 1509, 1509, 0], [1080481369, "Berechenbarkeit und Komplexit\u00e4t Scheinklausur", 0.0, 0, 1423267200, 24, 0, 28], [347793243, "EvB Pflanzen Tenbergo", 0.0, 0, 1415404800, 92, 0, 83], [1952961261, "Berechenbarkeit und Komplexit\u00e4t Informatik", 0.0, 0, 1424217600, 71, 0, 142], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [1184749066, "Gladenbach 1", 0.0, 0, 1428796800, 41, 0, 0], [2125891601, "Gladenbach 8", 0.0, 0, 1427932800, 54, 0, 0], [125914526, "Gladenbach 10", 0.0, 0, 1428969600, 53, 0, 0], [193286086, "Gladenbach 3", 0.0, 0, 1428624000, 40, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Enb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

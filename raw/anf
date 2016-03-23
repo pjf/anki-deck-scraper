@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[334572462, "ML 2011 Stanford Coursera", 0.0, 0, 1454025600, 187, 0, 130], [508272082, "Deutsch - Fran\u00e7ais f\u00fcr blutige Anf\u00e4nger", 0.0, 0, 1390521600, 230, 0, 0], [906562128, "angol nyelvtanfolyam pack", 0.0, 0, 1450742400, 374, 1, 6], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 4.0, 1, 1345852800, 250, 0, 0], [1592949976, "Stanford Machine Learning", 0.0, 0, 1448928000, 2, 0, 0], [1880228155, "Spanisch Anf\u00e4nger", 0.0, 0, 1448841600, 531, 0, 0], [1008436113, "French Vocabulary (Stanford First-Year)", 0.0, 0, 1445385600, 445, 0, 0], [1898521226, "Angol tanfolyam", 0.0, 0, 1446595200, 27, 28, 0], [1572390380, "Franz\u00f6sisch Anf\u00e4ngerkurs 2 WU Wien", 0.0, 0, 1433894400, 419, 0, 0], [415036397, "ML Stanford Online Class 2011", 0.0, 0, 1345852800, 193, 0, 130], [913036949, "L\u00f3ng - Chinesisch f\u00fcr Anf\u00e4nger (A1+A2): Vokabelkarten", 5.0, 1, 1368144000, 497, 0, 0], [1230855862, "Stanford First-year Russian", 0.0, 0, 1417824000, 353, 0, 0], [3349069353, "Long Chinesisch f\u00fcr Anf\u00e4nger 1 Hanzi - Pinyin Lesson 1-11", 0.0, 0, 1345852800, 408, 0, 0], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [1679532336, "DB Stanford Online Class 2011", 5.0, 1, 1345852800, 261, 0, 167], [2768802550, "PHP f\u00fcr Anf\u00e4nger", 0.0, 0, 1360022400, 22, 0, 0], [1780815113, "(Chinese) Steve Jobs' Stanford Commencement Address Part 2", 0.0, 0, 1364256000, 65, 0, 0], [1995270134, "Italienisch f\u00fcr Anf\u00e4nger, italien pour d\u00e9butants", 0.0, 0, 1431302400, 183, 0, 1], [4213536183, "AI Stanford Online Class 2011", 0.0, 0, 1345852800, 265, 0, 135], [733477793, "Stanford Fall Anatomy 2011", 0.0, 0, 1345852800, 142, 0, 121], [1293612542, "HHD Stanford 2011-2013", 0.0, 0, 1345852800, 272, 0, 7], [2050341846, "Long Chinesisch f\u00fcr Anf\u00e4nger 1 Hanzi - Deutsch Lesson 1-11", 0.0, 0, 1345852800, 405, 0, 0], [4064467436, "(Chinese) Steve Jobs' Stanford Commencement Address Part 3", 0.0, 0, 1364256000, 63, 0, 0], [669525207, "Steve Jobs Stanford Commencement Address in Chinese - Part 1", 0.0, 0, 1364256000, 66, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Anf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

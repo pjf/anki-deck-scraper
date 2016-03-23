@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1415962711, "Josh's secret to getting laid", 0.0, 0, 1454716800, 112, 0, 33], [1022264668, "Pathology for Second-Year Med Students", 4.5, 2, 1437696000, 3605, 0, 563], [172934687, "Vocabulario para secuencia 1 de \"El rumor del Astrac\u00e1n\"", 0.0, 0, 1454630400, 59, 0, 0], [202855227, "Geologic Map & X-section interpretation", 0.0, 0, 1453680000, 29, 0, 0], [1510872195, "ABI Second Intro to Metabolism", 0.0, 0, 1452902400, 44, 0, 0], [186567255, "Cours de physique de seconde - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 28, 0, 19], [483062232, "221 - HTA SECONDAIRE", 0.0, 0, 1450137600, 11, 0, 0], [1194867595, "Cross section - Pelvis - MMA", 0.0, 0, 1448064000, 206, 0, 21], [2020009036, "CVS - aortic dissection", 0.0, 0, 1449705600, 11, 0, 0], [606825834, "MPSI4 Janson Food Insecurity DL Fran\u00e7ais>Anglais", 0.0, 0, 1448928000, 33, 25, 21], [1968565138, "Security for CISSP", 0.0, 0, 1446076800, 288, 0, 0], [542094415, "software security", 0.0, 0, 1447200000, 1, 0, 0], [3325452890, "Hoch 4t Section 41 Transposition  Middle Egyptian Lesson 4  ", 0.0, 0, 1363910400, 19, 0, 19], [89810865, "LEA Intro Second Half", 0.0, 0, 1447977600, 101, 0, 108], [1115628571, "Carson Biblical Theology Section 1", 0.0, 0, 1443398400, 35, 0, 0], [177628288, "Italian Section8 - Words", 0.0, 0, 1408233600, 52, 0, 0], [1293444048, "Math Sec 5 CST", 0.0, 0, 1429228800, 16, 0, 0], [1846207509, "Year 8 Chapter 8 section 1 rocks", 4.0, 1, 1435017600, 13, 0, 7], [1525275655, "MTH - Arm Cross Sections", 0.0, 0, 1440460800, 74, 0, 74], [916477937, "Secondary Crustacean: Biochem Block 4 and some finals ", 0.0, 0, 1430524800, 442, 0, 164], [130437953, "JH Rat Disssection", 0.0, 0, 1399593600, 46, 0, 6], [59741036, "New Words for Ch 7 Sect 1", 0.0, 0, 1392940800, 28, 0, 0], [837077748, "Medical Gross Anatomy (ECU) - Anatomy 4th section", 0.0, 0, 1386115200, 529, 0, 143], [1348792774, "geissech\u00e4s6", 0.0, 0, 1415750400, 28, 0, 0], [2439535661, "Sechste Stunde", 0.0, 0, 1370217600, 11, 0, 0], [264325378, "Respiratory Second Crab Sean", 0.0, 0, 1392681600, 287, 0, 65], [2060885240, "New Words for Ch 6 Sect 1", 0.0, 0, 1392940800, 30, 0, 0], [2138623142, "Neuro block 1 second crab image review 59-117", 0.0, 0, 1391385600, 58, 0, 54], [124986233, "Physio Block 2 Second Crab", 0.0, 0, 1391040000, 293, 0, 82], [2016300272, "Securing B's", 0.0, 0, 1420588800, 0, 0, 0], [289595607, "New Words for Ch 5 Sect 2", 0.0, 0, 1392940800, 25, 0, 0], [1116774311, "storia XIV e XV sec dorotee", 0.0, 0, 1388707200, 20, 0, 0], [542891173, "13 secrets for speaking fluent Japanese", 0.0, 0, 1438041600, 760, 0, 0], [1153306594, "Italian Section2 Class4", 0.0, 0, 1406937600, 22, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [1713975098, "44b second year ", 0.0, 0, 1437696000, 785, 3, 23], [1388456503, "CP PHX Hazmat Unit 3 Sec 1&2 2014", 0.0, 0, 1406160000, 41, 0, 32], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [69701301, "geissech\u00e4s3", 0.0, 0, 1415750400, 53, 0, 0], [382258951, "second crab horizontal brain", 0.0, 0, 1394323200, 54, 0, 44], [1466072080, "B3 Brain stem cross sections", 0.0, 0, 1424649600, 88, 0, 13], [6066309, "Nursing 211 Second Exam study deck", 0.0, 0, 1415318400, 351, 0, 1], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [12856329, "second crab diarrhea", 0.0, 0, 1397347200, 35, 0, 9], [1378319355, "Year 8 Chapter 8 section 2 sedimentary rocks", 0.0, 0, 1435017600, 43, 0, 16], [1966709982, "Sean Block 5 OSF Pancreas Second Crab", 0.0, 0, 1397088000, 62, 0, 15], [146550409, "New Words for Ch 5 Sect 1", 0.0, 0, 1392940800, 22, 0, 0], [963075732, "New Words for Ch 8 Sect 1", 0.0, 0, 1392940800, 25, 0, 0], [841282207, "MHCHS Edexcel GCSE Unit 1 Section 1", 0.0, 0, 1371254400, 39, 0, 0], [2490953964, "IAU BSP biochem final section review", 0.0, 0, 1385251200, 368, 0, 9], [397096826, "Physio Second Crab Zach", 0.0, 0, 1389398400, 222, 0, 81], [996363802, "Gastric motility and secretion ", 0.0, 0, 1395360000, 57, 0, 10], [777137956, "Sean Block 5 GI 1-3 Second Crab", 0.0, 0, 1397001600, 77, 0, 30], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [2001191039, "Shoulder dystocia + C section + VBAC ", 0.0, 0, 1399939200, 20, 0, 0], [1551033204, "SGU clinical photogrphic disector images ", 0.0, 0, 1416787200, 249, 0, 92], [810972721, "geissech\u00e4s4", 0.0, 0, 1415750400, 42, 0, 0], [1873922087, "Second Crab IMN Block 3 From Sean", 0.0, 0, 1396396800, 88, 0, 17], [2084751585, "PSYC 311 Coronal Sections", 0.0, 0, 1428969600, 162, 0, 161], [258287499, "Second Crab M1 CSF", 0.0, 0, 1408406400, 1472, 0, 632], [491217223, "Italian Section8 - Phrases", 0.0, 0, 1408233600, 3, 0, 0], [376622019, "geissech\u00e4s5", 0.0, 0, 1415750400, 29, 0, 0], [2040082470, "geissech\u00e4s1", 0.0, 0, 1411776000, 42, 0, 0], [2080898329, "Italian Section2 Class3 - Prendere (to take)", 0.0, 0, 1406160000, 8, 0, 0], [1489289375, "PS Second Grade High Frequency Words", 0.0, 0, 1427932800, 87, 87, 0], [2032779817, "New Words for Ch 9 Sect 1", 0.0, 0, 1393891200, 21, 0, 0], [261690616, "Neuro Spinal Cord Section", 0.0, 0, 1393027200, 5, 0, 10], [1133827405, "Second Crab Histology Blocks 1-2", 0.0, 0, 1412035200, 400, 0, 151], [251395435, "Nicholls Orgo section 3", 0.0, 0, 1396828800, 117, 0, 222], [1811034218, "Second unit kanji 2014/15", 0.0, 0, 1415145600, 86, 0, 0], [1305588402, "Second Crab-Endocrine-Zach", 0.0, 0, 1397174400, 298, 0, 38], [749348345, "Neuro second crab last third", 0.0, 0, 1391385600, 115, 0, 62], [2073864457, "HISD Second Grade High Frequency Words", 0.0, 0, 1427932800, 299, 299, 0], [250085770, "second crab-digestion-zach", 0.0, 0, 1397347200, 42, 0, 11], [363703241, "Zach-Second Crab-IMN Block 3", 0.0, 0, 1396396800, 228, 0, 54], [1520510556, "Secondary Crustacean: Biochem Block 3", 0.0, 0, 1428537600, 80, 0, 11], [488809474, "Math Sec 5 SN", 0.0, 0, 1426377600, 33, 0, 0], [900665022, "Italian Section2 - Words", 0.0, 0, 1407369600, 35, 0, 0], [108746690, "New Words for Ch 7 Sect 2", 0.0, 0, 1392940800, 20, 0, 0], [2014343877, "Italian Section 8 - Rules", 0.0, 0, 1408233600, 11, 0, 0], [1110575730, "New Words for Ch 8 Sect 2", 0.0, 0, 1392940800, 23, 0, 0], [133392835, "Italian Section2 Class3 - Avere (to have)", 0.0, 0, 1406160000, 10, 0, 0], [1258757979, "Elementary Linear Algebra (Anton), sections 4.1 - 4.7", 0.0, 0, 1395532800, 44, 0, 0], [128292423, "Sean Block 5 GI Second Crab", 0.0, 0, 1397174400, 138, 0, 53], [1070555104, "geissech\u00e4s2", 0.0, 0, 1411776000, 28, 0, 0], [389664612, "ALP Fall Level 8 Section 019", 0.0, 0, 1410739200, 10, 0, 0], [634014216, "Grecia VI e V sec aC dorotee", 0.0, 0, 1397865600, 19, 0, 0], [1265561395, "New Words for Ch 6 Sect 2", 0.0, 0, 1392940800, 20, 0, 0], [1680921791, "Italian Section2 Class3 - Words", 0.0, 0, 1405987200, 31, 0, 0], [1258338966, "Secondary Crustacean: Biochem ", 0.0, 0, 1430524800, 417, 0, 226], [677547147, "Italian Section2 Class3 - Avere", 0.0, 0, 1405987200, 10, 0, 0], [4099248951, "Top 100 Step 2 Secrets", 0.0, 0, 1380844800, 356, 0, 0], [1194433673, "Sean Block 5 OSF Calcium phosphate Second Crab", 0.0, 0, 1397088000, 65, 0, 15], [997257940, "Pathoma - All Sections", 3.0, 4, 1425254400, 1803, 0, 425]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sec</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

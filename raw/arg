@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[729345299, "TCB Largest Migration in Human History", 0.0, 0, 1454716800, 25, 0, 0], [260716601, "Think Again: How to Reason and Argue (Coursera/Duke)", 0.0, 0, 1410912000, 131, 0, 0], [1351032480, "Expresiones Argentinas - Espa\u00f1ol", 0.0, 0, 1450742400, 114, 3, 2], [572169727, "JLPT N3 Vocab TURBOCHARGED WOOOOO!", 0.0, 0, 1447545600, 1984, 3, 1], [171192257, "ECO - EPARGNE", 0.0, 0, 1446940800, 55, 0, 0], [1342754908, "Chemical Jargon in Portuguese", 0.0, 0, 1445299200, 169, 0, 0], [1227246397, "Argo HS Chemistry", 2.33, 3, 1445040000, 100, 3, 66], [1987010801, "Adjetibos con \"B\" larga", 0.0, 0, 1440720000, 105, 0, 0], [1923241463, "Negatively Charged R Groups", 0.0, 0, 1443398400, 2, 0, 2], [2097460033, "Positively Charged R Groups", 0.0, 0, 1443398400, 3, 0, 1], [208993447, "Kiki pris en charge", 0.0, 0, 1450742400, 88, 0, 11], [417963742, "Polar Uncharged R Groups", 0.0, 0, 1443398400, 5, 0, 0], [460376321, "GI: Large Bowel", 0.0, 0, 1422144000, 64, 0, 22], [161722515, "the large yellow house at the top of the hill", 0.0, 0, 1436486400, 3, 0, 0], [1955159956, "TARGET \u30bf\u30fc\u30b2\u30c3\u30c8 1400 \u983b\u51fa\u5358\u8a9e 1-1100 English->Japanese", 5.0, 1, 1419206400, 1076, 0, 1], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [3855154695, "Targumic Aramaic", 0.0, 0, 1345852800, 235, 0, 4], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [158300759, "Westminster Larger Catechism", 4.0, 1, 1398643200, 196, 0, 0], [3405910230, "My desk for learning English (Charger)", 0.0, 0, 1385251200, 37, 0, 0], [1482579965, "25 Largest African Countries - Map Quiz", 0.0, 0, 1401321600, 27, 0, 25]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Arg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

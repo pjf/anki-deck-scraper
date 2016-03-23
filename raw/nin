@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [1565134200, " English sentences with meanings", 4.0, 1, 1430870400, 1040, 1080, 47], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [530238957, "SBFV - Trainer C - Kinder und Jugendtraining", 0.0, 0, 1453852800, 7, 0, 0], [518132132, "Textmining", 0.0, 0, 1454544000, 82, 0, 8], [114060567, "Japanese Core 2000 Step 01 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 405, 235], [128251318, "Matthews - Learning Chinese Characters", 0.0, 0, 1345852800, 1169, 0, 0], [1910608929, "Note Type: Code, a note type for learning to code. ", 0.0, 0, 1417305600, 2, 7, 0], [1570120374, "1x1imDreieck Learning the Tables with Triangles", 0.0, 0, 1450137600, 126, 0, 168], [1746873523, "Marquis Chapter Nine Review", 0.0, 0, 1454371200, 25, 0, 0], [663719920, "Biochemistry - Rosonina Test 1", 0.0, 0, 1454284800, 323, 0, 119], [747158030, "Learning How to Learn", 5.0, 1, 1408320000, 27, 0, 0], [157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [1557524851, "SBFV - Trainer C - Schnelligkeitsausdauertraining", 0.0, 0, 1453852800, 20, 0, 1], [1331188420, "Beginning Japanese (Otsuka)", 5.0, 1, 1453248000, 267, 3, 2], [2094998847, "Janin ja Ollin p\u00e4iv\u00e4n sanat", 0.0, 0, 1453075200, 1930, 0, 0], [1454340636, "SBFV - Trainer C - Koordinationstraining", 0.0, 0, 1453852800, 8, 0, 0], [1620071018, "Scottish Gaelic Feminine Nouns", 0.0, 0, 1453420800, 171, 278, 283], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [1856422935, "Japanese Core 2000 Step 02 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 399, 404, 236], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [632799882, "CFP Canada: Introduction to Retirement Planning", 0.0, 0, 1452297600, 24, 0, 0], [10497898, "Deck A1/EFL 111/ Unit 1 Urban planning", 0.0, 0, 1453075200, 19, 0, 0], [1432655733, "Stopping by Woods on a Snowy Evening-Robert Frost", 0.0, 0, 1449878400, 16, 0, 0], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [1752619191, "Japanese Core 2000 Step 03 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 406, 235], [497361745, "Mots fran\u00e7ais masculin / f\u00e9minin", 0.0, 0, 1452211200, 7, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [2021905542, "Japanese Core 2000 Step 06 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 399, 405, 250], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [499477650, "Opetus.tv - Lukion Orgaaninen Kemia ", 0.0, 0, 1413763200, 246, 0, 23], [169595438, "Japanese Core 2000 Step 04 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 405, 235], [327544976, "English to Nepali Language Learning", 0.0, 0, 1449532800, 303, 0, 0], [945331029, "Learning English for Japanese people", 0.0, 0, 1450224000, 380, 0, 3], [1592949976, "Stanford Machine Learning", 0.0, 0, 1448928000, 2, 0, 0], [239020548, "Japanese Core 2000 Step 05 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 398, 404, 245], [933348436, "Treatment Planning", 0.0, 0, 1449619200, 41, 0, 0], [204263941, "Japanese Vocabulary Deck created with Wakan (learning tool)", 0.0, 0, 1425859200, 1, 3, 0], [35536644, "Java Training", 0.0, 0, 1445731200, 1, 0, 0], [1170201736, "JLPT N0 Vocab (Kanji/word <-> pronunciation and meaning)", 0.0, 0, 1374796800, 11911, 0, 0], [1288543488, "Telephoning", 0.0, 0, 1449619200, 10, 0, 0], [525761337, "Unit 3- reading 1- when does language learning begin?", 0.0, 0, 1449014400, 21, 0, 0], [436912138, "November  Vocabulary Learning", 0.0, 0, 1448323200, 85, 0, 0], [1809133183, "USask PHPM - Cancer screening and epidemiology", 0.0, 0, 1448064000, 22, 0, 2], [1065390308, "Deck 19- listening 4- chapter 7- working", 0.0, 0, 1449014400, 10, 0, 0], [4186458196, "Musical Interval Training", 4.0, 1, 1381795200, 216, 0, 0], [1317215688, "CB - Learning and Memory ", 0.0, 0, 1447113600, 19, 0, 0], [1146781341, "francuski - ubrania, kolory, tkaniny", 0.0, 0, 1447545600, 73, 0, 0], [1177753686, "Learning Icelandic", 0.0, 0, 1446249600, 115, 0, 0], [964124196, "USask PHPM - Program Planning and Evaluation", 0.0, 0, 1448064000, 113, 0, 2], [2087143514, "Latin 6 RNRMU (Feminine nouns) / \u041b\u0430\u0442\u044b\u043d\u044c 6 \u0420\u041d\u0418\u041c\u0423 (\u0436. \u0440.)", 0.0, 0, 1448150400, 38, 0, 0], [1271245595, "Korean Go/Baduk terms and their English meanings", 0.0, 0, 1445904000, 99, 0, 0], [1310643497, "Essential Guide to Marketing Planning -in swedish", 0.0, 0, 1445731200, 80, 3, 1], [2075911918, "BBC The meaning of clothes", 0.0, 0, 1445472000, 23, 0, 7], [1139792512, "Japanese Core 2000 Step 10 Listening Sentence Vocab + Images", 4.67, 3, 1427328000, 398, 404, 245], [1105795620, "Learning English", 0.0, 0, 1438128000, 53, 52, 1], [2107680498, "Stritch Pharmacology-Serotonin and dopamine", 0.0, 0, 1440633600, 85, 0, 3], [995782287, "Fisica Matematica - Unina", 0.0, 0, 1445990400, 327, 3, 911], [1175836498, "Open University A276 Learning Vocab", 0.0, 0, 1442016000, 18, 0, 0], [427252884, "Japanese Core 2000 Step 08 Listening Sentence Vocab + Images", 4.83, 6, 1427155200, 400, 406, 237], [900932091, "Open University A276 Learning Vocab Block 1", 0.0, 0, 1443571200, 144, 0, 0], [1791224433, "Calcolo delle Probabilit\u00e0 - Unina", 0.0, 0, 1421020800, 160, 0, 365], [1071816948, "Diagnostic + Screening Tests", 0.0, 0, 1439769600, 25, 0, 4], [1001949172, "JLPT N1 vocabulary meaning sentences", 0.0, 0, 1436832000, 789, 0, 0], [1723929337, "Urdu Words (Meanings and Spellings)", 0.0, 0, 1442275200, 202, 0, 0], [528520607, "Sistemi Dinamici (mod 2) - Unina", 0.0, 0, 1430611200, 60, 3, 160], [448399484, "Beginning Japanese", 0.0, 0, 1345852800, 37, 0, 0], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [1735204367, "Learnings on how to be a great VainGlory hero", 0.0, 0, 1441324800, 12, 0, 0], [580614262, "Procedural Skills Training", 0.0, 0, 1439769600, 65, 0, 3], [1341912134, "Shum Language learning", 0.0, 0, 1415404800, 18, 0, 18], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [1687157957, "Konstruktion utmattning", 0.0, 0, 1437264000, 32, 0, 5], [2827633339, "HMS.IMP.Meningitis", 0.0, 0, 1365638400, 19, 0, 5], [118781189, "HSC Biology: \"Maintaining A Balance\"", 0.0, 0, 1413676800, 227, 0, 20], [509749588, "Laboratorio di Programmazione 2 - Unina", 0.0, 0, 1416268800, 34, 0, 0], [1236759081, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 6", 0.0, 0, 1376438400, 54, 54, 54], [1591457982, "UK Road Signs & Meanings", 0.0, 0, 1438646400, 167, 0, 0], [2658038690, "Guide to Dakini Land condensed meaning p4", 0.0, 0, 1370649600, 8, 0, 0], [1973512499, "JACT Learning Vocabulary", 5.0, 1, 1345852800, 1185, 0, 0], [208301179, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 5", 5.0, 1, 1376438400, 80, 80, 80], [1065855450, "Learning programme ", 0.0, 0, 1439251200, 1459, 1418, 0], [685765620, "Beginning Spanish Vocab (Troon)", 0.0, 0, 1437436800, 448, 340, 417], [1935085027, "Ear training (chords)", 0.0, 0, 1392163200, 56, 56, 0], [1558864285, "ILM Tissue Staining", 0.0, 0, 1409443200, 18, 0, 0], [1894902572, "Japanese Core 2000 Step 07 Listening Sentence Vocab + Images", 4.5, 2, 1427155200, 400, 406, 237], [438954265, "Norwegian Feminine Nouns", 0.0, 0, 1436227200, 56, 0, 0], [608463257, "BSprA Spa 1-3 2014 Dining", 0.0, 0, 1412726400, 176, 0, 0], [287007106, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 8", 0.0, 0, 1376438400, 154, 153, 154], [832177589, "Tarot card meanings", 0.0, 0, 1432425600, 78, 0, 78], [1166799116, "Learning Theological German for English speakers", 4.0, 1, 1425686400, 4321, 1, 2], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [2084627808, "Learning and Memory Cellular Basis", 0.0, 0, 1425340800, 26, 0, 1], [3862571104, "Beginning Uyghur for English Speakers: textbook vocabulary", 5.0, 2, 1395619200, 778, 781, 0], [3782921111, "JLPT N3 Vocabulary (expression, reading, meaning)", 5.0, 2, 1345852800, 1764, 0, 0], [3611799994, "Guide to Dakini Land condensed meaning headings", 0.0, 0, 1370649600, 9, 0, 0], [845184059, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 2", 5.0, 1, 1376438400, 112, 104, 105], [533170176, "persisk undervisning med Nina", 0.0, 0, 1413244800, 78, 0, 0], [3347309899, "Guide to Dakini Land condensed meaning p7", 0.0, 0, 1370649600, 7, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [1374722434, "Learning Excel Deck DB", 0.0, 0, 1387238400, 32, 0, 0], [1326383042, "English to German complete sentences for language learning", 0.0, 0, 1417824000, 47, 0, 0], [287003730, "Geometria 3 - Unina", 0.0, 0, 1434240000, 132, 3, 281], [1860084405, "Coursera: Learning How to Learn", 3.0, 1, 1409097600, 10, 0, 0], [1073806654, "Guide to Dakini Land condensed meaning p8", 0.0, 0, 1370649600, 7, 0, 0], [2395256866, "UConn Arabic Verb Form Meanings", 0.0, 0, 1345852800, 10, 0, 0], [2213072780, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 7", 0.0, 0, 1376438400, 32, 18, 32], [279520484, "For James and Kim - CHN Authentic Listening", 0.0, 0, 1420329600, 266, 262, 0], [3822468040, "Micro.Meningitis.HMS16", 0.0, 0, 1366675200, 21, 0, 7], [246789243, "3rd Year- News Listening (Chinese to English)", 0.0, 0, 1388102400, 504, 0, 0], [1098274703, "Clinical word meanings", 0.0, 0, 1388534400, 27, 0, 0], [1249624144, "Learning How To Learn (Based on a Coursera course )", 3.0, 2, 1422403200, 56, 5, 0], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [1282100945, "Ukulele Training", 0.0, 0, 1437609600, 710, 0, 0], [1621071095, "SBF Minimal Pairs /L/ vs /R/ Listening", 0.0, 0, 1432252800, 24, 24, 0], [1511588172, "B&B Neuropharmacology of Serotonin 04.08.15", 0.0, 0, 1428796800, 28, 0, 0], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [1829679792, "WMS - Block 3 - Anatomy of the skull and meninges ", 0.0, 0, 1390694400, 41, 0, 23], [2102394320, "Ning Yi Exam \u7559\u5b66\u751f (updated)", 0.0, 0, 1432425600, 433, 0, 0], [106295531, "RLR #95 \u2013 The Importance of Knowing WHY You're Learning", 5.0, 1, 1426032000, 30, 30, 0], [1484754259, "\u767e\u4eba\u4e00\u9996\u304b\u308b\u305f Hyakunin isshu karuta ", 5.0, 3, 1364428800, 100, 0, 0], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [600101024, "Japanese Core 2000 Step 09 Listening Sentence Vocab + Images", 4.5, 2, 1427328000, 398, 404, 237], [1777158249, "bio1011wasaninsidejob", 0.0, 0, 1433548800, 200, 0, 43], [2462634497, "Lins Danske Ord og S\u00e6tninger", 0.0, 0, 1359244800, 24, 24, 0], [1702850920, "MMT Medieninformatik Einf\u00fchrung (HHN WS14)", 0.0, 0, 1423094400, 100, 0, 1], [1964473408, "Coursera - Learning how to learn", 5.0, 1, 1420588800, 12, 0, 0], [2562004261, "LearningLawTogether - Tort", 0.0, 0, 1398643200, 140, 0, 0], [1078886232, "Chinese learning for D", 0.0, 0, 1359849600, 12, 0, 0], [3421982235, "Guide to Dakini Land condensed meaning p6", 0.0, 0, 1370649600, 7, 0, 0], [1312109116, "Japanese Core 6000 Step 01 (Listening Sentence & Vocab)", 4.67, 6, 1429056000, 4035, 4038, 0], [901469225, "Sussex Machine Learning", 0.0, 0, 1370476800, 196, 0, 7], [31132307, "Big Words (SAT Learning Edit)", 0.0, 0, 1431734400, 1112, 0, 0], [1791119831, "TICA Training", 0.0, 0, 1413936000, 144, 0, 0], [454102104, "Statistica Matematica - Unina", 0.0, 0, 1434240000, 74, 3, 171], [286676280, "Maintaining Homeostasis VIJ", 0.0, 0, 1412726400, 17, 0, 4], [2080527658, "BIOEN 1020 Exam 3 Learning Objectives", 0.0, 0, 1398643200, 45, 0, 15], [811239422, "Designing Lean Manufacturing Systems TU M\u00fcnchen", 0.0, 0, 1408406400, 42, 0, 36], [3457817130, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 1", 5.0, 1, 1376438400, 29, 19, 19], [1310920170, "Psykologisk Testning", 0.0, 0, 1414972800, 212, 0, 59], [1898578597, "Learning and Memory Aging, MCI", 0.0, 0, 1425340800, 36, 0, 5], [1976568397, "LearningLawTogether - Criminal", 0.0, 0, 1398643200, 115, 0, 0], [874659177, "Notation & Guitar Neck Learning by ReinOwader", 0.0, 0, 1428796800, 84, 0, 0], [608844046, "Pesticide and Drug Poisoning VIJ", 0.0, 0, 1413072000, 27, 0, 6], [3794996113, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 3", 5.0, 1, 1376438400, 14, 14, 14], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [2116198153, "Cancer Screening Canada", 0.0, 0, 1390867200, 2, 0, 0], [1777755040, "RLR #92 \u2013 Learning English without Classes", 0.0, 0, 1424217600, 30, 30, 0], [1442182838, "Guide to Dakini Land condensed meaning p2", 0.0, 0, 1370649600, 5, 0, 0], [1597134098, "Ogura Hyakunin Isshu", 0.0, 0, 1418515200, 100, 0, 200], [744429963, "LearningLawTogether - EU MCT Practice", 0.0, 0, 1393459200, 83, 0, 0], [722663086, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 4", 5.0, 1, 1376438400, 92, 91, 92], [3330472718, "Guide to Dakini Land condensed meaning p5", 0.0, 0, 1370649600, 6, 0, 0], [1735436350, "Guide to Dakini Land condensed meaning p1", 0.0, 0, 1370649600, 3, 0, 0], [847521428, "Business English. B1. Phrasal verbs for explaining problems ", 0.0, 0, 1434672000, 13, 0, 0], [132289559, "Beginning 6 \u6211\u7684\u5976\u5976", 0.0, 0, 1414540800, 46, 0, 0], [1738554413, "MSU ANTR 350 Fall 2014 - Brain and Meninges", 0.0, 0, 1412553600, 78, 0, 35], [1750431708, "Learning Russian Lessions 1-5", 0.0, 0, 1416096000, 241, 0, 0], [567719536, "Learning and Memory MTL", 0.0, 0, 1425168000, 40, 0, 1], [217641867, "Guide to Dakini Land condensed meaning p9", 0.0, 0, 1370649600, 6, 0, 0], [1966450662, "Unindentified", 0.0, 0, 1420416000, 53, 0, 0], [895576189, "LearningLawTogether - Equity & Trusts", 0.0, 0, 1398643200, 111, 0, 0], [1634256924, "Fondamenti di Matematica - Unina", 0.0, 0, 1421798400, 285, 0, 376], [673963158, "LearningLawTogether - EU", 0.0, 0, 1392768000, 241, 0, 0], [3405910230, "My desk for learning English (Charger)", 0.0, 0, 1385251200, 37, 0, 0], [3273053765, "\"Beginning Sanskrit\" cumulative vocabulary", 5.0, 1, 1414281600, 1325, 0, 1], [4184313731, "Learning Hebrew", 0.0, 0, 1350086400, 261, 0, 0], [456159305, "Greining og h\u00f6nnnun hugb\u00fana\u00f0ar", 0.0, 0, 1396742400, 124, 0, 0], [575904246, "LearningLawTogether - Land", 0.0, 0, 1398643200, 122, 0, 0], [614200461, "Colin's learning Thai deck", 0.0, 0, 1427068800, 1687, 1709, 0], [2043750814, "NIHONGO KANTAN: Kanji Meanings", 0.0, 0, 1431302400, 136, 0, 0], [169802889, "LearningLawTogether - Contract", 0.0, 0, 1398643200, 77, 0, 0], [300251853, "Everything Learned from the Book \"Running Lean\"", 0.0, 0, 1400976000, 321, 0, 81], [3505812284, "Listening exam Grammar JAP", 0.0, 0, 1383782400, 48, 0, 0], [1370412300, "Kanjis learning", 0.0, 0, 1412553600, 5, 0, 0], [305407165, "M\u00f6llers - Telephoning", 0.0, 0, 1438214400, 75, 0, 0], [572904172, "General Principles of Screening", 0.0, 0, 1390867200, 16, 0, 0], [1048818901, "Wine training", 5.0, 1, 1447113600, 135, 0, 0], [3227642277, "Guide to Dakini Land condensed meaning p3", 0.0, 0, 1370649600, 6, 0, 0], [4069640378, "lauri's deck for shi jia, to be used for learning how to use", 0.0, 0, 1383523200, 294, 287, 0], [4220422161, "LearningLawTogether - Con & Ad", 0.0, 0, 1385337600, 41, 0, 0], [346153275, "TICA Training", 0.0, 0, 1392076800, 40, 0, 0], [962902082, "Beginning Turkish/English Vocabulary", 0.0, 0, 1357862400, 722, 0, 0], [1871689715, "Tuttle Learning Chinese Characters", 0.0, 0, 1410825600, 852, 851, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nin</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

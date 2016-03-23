@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2039517568, "Spaans::extra::Verbos (ES-NL) (CVO Leuven)", 0.0, 0, 1453161600, 702, 38, 1], [1322911027, "Spaans::jaar 2 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1347, 4, 23], [1039626004, "TS - Analyse spectrale", 0.0, 0, 1453680000, 30, 1, 46], [486775437, "Spaans::jaar 3 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 874, 138, 15], [636146339, "Spaans::Jaar 1 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1125, 11, 7], [377998483, "Spaans::jaar 4 [gedeeltelijk] (CVO Leuven)", 5.0, 3, 1452643200, 289, 3, 18], [1030072942, "Kalbame lietuvi\u0161kai - 2015 (1)", 0.0, 0, 1445472000, 47, 0, 0], [351441496, "French to English phrases vancouver", 0.0, 0, 1443484800, 596, 0, 0], [699994759, "Louvre sculptures grecques salles 13 14 15", 0.0, 0, 1445644800, 38, 0, 42], [1319551392, "Elektromotorni pogoni uvod ", 0.0, 0, 1444608000, 0, 0, 0], [2090338423, "UVM COM Readiness Exam", 0.0, 0, 1439769600, 66, 0, 21], [1325483010, "D\u00e9couvertes 2", 0.0, 0, 1443225600, 757, 750, 1], [613172320, "D\u00e9couvertes 1", 0.0, 0, 1443225600, 674, 589, 1], [1517152173, "D\u00e9couvertes 3", 0.0, 0, 1442016000, 843, 825, 4], [1380309412, "op\u0107i uvjeti poslovanja", 0.0, 0, 1441756800, 14, 0, 0], [1488300574, "UVA Tibetan SLI 2015 (Updated 8.25.15)", 0.0, 0, 1440460800, 1327, 0, 0], [1341686107, "UVA Tibetan SLI (Updated 7.13.15)", 0.0, 0, 1436832000, 706, 0, 0], [890080933, "Oftalmologie KUleuven", 0.0, 0, 1397174400, 459, 0, 18], [3738616831, "civilt\u00e0 fluviali 2", 0.0, 0, 1383696000, 26, 0, 0], [375656174, "Psychopathologie ifsi beauvais", 0.0, 0, 1396310400, 41, 0, 0], [471833048, "Relativit\u00e9 du mouvement", 0.0, 0, 1396742400, 6, 0, 5], [1417347301, "ALLEMAND GAUVRY SHARE", 0.0, 0, 1426032000, 83, 0, 0], [382408377, "Nouveaux anticoagulants", 0.0, 0, 1437955200, 33, 0, 0], [596898606, "UVA Tibetan SLI (Updated 7.16.15)", 0.0, 0, 1437177600, 835, 0, 0], [101148376, "UVA Tibetan SLI (Updated 7.26.15)", 0.0, 0, 1437955200, 1068, 0, 0], [1405399191, "ifsi de beauvais", 0.0, 0, 1396224000, 21, 0, 0], [1703730426, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 2", 0.0, 0, 1366329600, 83, 0, 0], [1578619966, "UVA Tibetan SLI 2015 (Updated 7.31.15)", 0.0, 0, 1438473600, 1193, 0, 0], [531834199, "UVA Tibetan SLI (Updated 7.20.15)", 0.0, 0, 1437436800, 927, 0, 0], [5101527, "Le nouveau taxi - A1", 0.0, 0, 1396224000, 1596, 1299, 0], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [3431085932, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 1", 0.0, 0, 1366329600, 90, 0, 0], [581597811, "NKO Kuleuven", 0.0, 0, 1407542400, 629, 0, 382], [907876400, "S\u00e9curit\u00e9 sociale IFSI Beauvais ", 0.0, 0, 1396310400, 23, 0, 0], [1550271225, "Lietuvi\u0173-pranc\u016bz\u0173 Lituanien-fran\u00e7ais Lithuanian-French LT-FR", 1.0, 1, 1365120000, 3932, 0, 0], [891483251, "Lietuvi\u0173-ispan\u0173, ispan\u0173-lietuvi\u0173", 0.0, 0, 1444348800, 1178, 0, 0], [3413446272, "Souverains de France", 0.0, 0, 1345852800, 111, 0, 0], [576684508, "CUVIROEX2SG", 0.0, 0, 1396310400, 70, 0, 142], [183767228, "Sant\u00e9 publique IFSI Beauvais", 0.0, 0, 1396310400, 76, 0, 1], [539589265, "02-2011_UVT_Chinese Pre-Intermediate Course_Character list", 0.0, 0, 1345852800, 140, 0, 0], [329585837, "MDPH ifsi beauvais", 0.0, 0, 1396224000, 20, 0, 0], [970342229, "Neurologie Kuleuven", 0.0, 0, 1407542400, 790, 0, 275]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uv</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

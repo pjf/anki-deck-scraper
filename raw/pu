@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2108644558, "Respiratory Pathologies: Pulmonary Edema", 0.0, 0, 1454889600, 5, 0, 0], [1076559576, "Respiratory Pathologies: Pulmonary Embolism", 0.0, 0, 1454889600, 5, 0, 0], [1567450136, "Respiratory Pathologies: Pulmonary Hypertension", 0.0, 0, 1454889600, 9, 0, 0], [419081300, "TDF1-2.4 Pulvermetallurgie", 0.0, 0, 1454889600, 46, 0, 50], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [201049166, "Cloud Computing", 0.0, 0, 1452470400, 56, 0, 2], [46086918, "Most popular english+russian words", 0.0, 0, 1449619200, 4319, 3774, 0], [847616454, "Vergil Vocab: (puer - traho)", 0.0, 0, 1452211200, 56, 0, 0], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [259164755, "Sopica sant\u00e9 pub d\u00e9finitions", 0.0, 0, 1452643200, 37, 0, 0], [676313274, "Hiragana Katakana output", 0.0, 0, 1412121600, 123, 0, 0], [1102582808, "COMPUTADOR DE LEITNER", 0.0, 0, 1451088000, 981, 6, 37], [725244839, "pulmonary embolism", 0.0, 0, 1451692800, 5, 0, 0], [1292290589, "Sailor Moon Super S Special 2 - The ghostly puppet show.", 0.0, 0, 1451692800, 22, 0, 0], [1614994147, "SM08 - Computer School Blues", 0.0, 0, 1451606400, 26, 0, 0], [2043423277, "Final Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 240, 0, 44], [1907929471, "Puntos Elem Spanish Chapter 6", 0.0, 0, 1448755200, 164, 0, 0], [1789735416, "APUSH Midterm Roberts", 0.0, 0, 1450310400, 215, 0, 0], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [1139088506, "Test 1 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 285, 0, 31], [1972757101, "222- Hypertension pulmonaire ", 0.0, 0, 1450051200, 6, 0, 0], [1536392535, "Test 2 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 258, 0, 0], [198545612, "USask PHPM - Public Health Basics", 0.0, 0, 1448064000, 75, 0, 5], [1982086758, "Puntos Elem Spanish Chapter 5", 0.0, 0, 1448755200, 54, 0, 0], [650180769, "Public Health exam 1 Seana", 0.0, 0, 1447372800, 141, 0, 11], [343596517, "IUPUI PA Dermatology #3", 0.0, 0, 1448236800, 110, 0, 0], [272277309, "Computer Science", 0.0, 0, 1412985600, 580, 0, 3], [288981082, "IUPUI PA Pharmacology drugs", 0.0, 0, 1446422400, 155, 0, 0], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [356285820, "F453 - Chapter 2 - The function are purpose of translators", 0.0, 0, 1447372800, 37, 0, 0], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [1342390203, "DPT - Pulm, ENT, GU", 0.0, 0, 1446681600, 511, 0, 49], [1541069025, "BSN iGCSE Biology unit 4 population size", 0.0, 0, 1447200000, 11, 3, 3], [348389342, "IUPUI PA Labmed Exam 2", 0.0, 0, 1445385600, 94, 0, 0], [402770703, "IUPUI PA Labmed 3", 0.0, 0, 1445385600, 9, 0, 0], [1558444186, "Presupuesto Empresarial OyM", 0.0, 0, 1445558400, 20, 0, 0], [466037064, "IUPUI PA Lab med Exam 1", 0.0, 0, 1445385600, 68, 0, 0], [1472084088, "Pugillares", 0.0, 0, 1445990400, 507, 0, 0], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [428748620, "USask PHPM - Public Health ethics", 0.0, 0, 1443484800, 2, 0, 0], [1928388055, "Bhupulmuworld", 0.0, 0, 1438732800, 135, 0, 0], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [904558379, "KMP_4_MUI_Pulmo", 0.0, 0, 1440979200, 228, 0, 0], [830065314, "Futurelearn/Univ. Ea. Anglia \"Teaching Computing\" Vocab.", 0.0, 0, 1442188800, 32, 0, 0], [1391731184, "Pupil and Optic Nerve", 0.0, 0, 1424563200, 22, 0, 3], [1010224212, "CloudComputing Tai AIFB KIT", 0.0, 0, 1392508800, 172, 0, 20], [129743167, "Nick APUSH", 0.0, 0, 1440720000, 374, 0, 57], [400361969, "Question droit public g\u00e9n\u00e9ral", 0.0, 0, 1435276800, 59, 0, 0], [1847856783, "pulmbhu56789", 0.0, 0, 1438560000, 207, 0, 0], [2911664310, "Pushkin-Pistol Shot", 0.0, 0, 1345852800, 161, 55, 0], [1445692196, "DDO pulmonary - respiratory distress", 0.0, 0, 1412899200, 15, 0, 0], [1811201120, "Angielski Kapusta", 0.0, 0, 1438300800, 495, 489, 0], [2030026556, "TY A02 Object Manipulation", 0.0, 0, 1438646400, 3, 3, 3], [1033307158, "opunuhae", 0.0, 0, 1429920000, 41, 14, 0], [1571963302, "Pueblos", 0.0, 0, 1411689600, 10, 10, 0], [1050905535, "Cardio Pulm 2 Cumulative review for Final", 0.0, 0, 1368057600, 32, 0, 0], [744753183, "OSU - Cardio/Pulm - Anatomy Lab 1 Structures", 0.0, 0, 1427846400, 150, 0, 93], [273575569, "Introduction to Microcomputing", 0.0, 0, 1426204800, 279, 0, 0], [486583935, "HMS.IHP.Pulmonary.III", 0.0, 0, 1359417600, 22, 0, 13], [776750760, "Sussex Web Computing 2014", 0.0, 0, 1416355200, 179, 0, 1], [1090373559, "Verfahrenstechnik - Pumpen #1", 0.0, 0, 1406073600, 7, 0, 0], [1890603208, "MD2 Pulm Path", 0.0, 0, 1416441600, 109, 0, 123], [1171571432, "pulmonology", 0.0, 0, 1421107200, 15, 0, 5], [719955538, "pulm 35", 0.0, 0, 1395532800, 21, 0, 12], [859382514, "LF I.2.1 Puls u. Blutdruck", 0.0, 0, 1431993600, 47, 0, 0], [1321651212, "USask PHPM - Public Health", 0.0, 0, 1391212800, 234, 0, 14], [895229482, "QX APU", 0.0, 0, 1411430400, 15, 0, 0], [637951266, "Cardiopulmonary Drugs for CP Exam II", 0.0, 0, 1415923200, 31, 0, 4], [768426120, "Verfahrenstechnik - Pumpen #2", 0.0, 0, 1406073600, 1, 0, 0], [130811188, "HMS.IHP.Pulmonary.V.A", 0.0, 0, 1359417600, 28, 0, 9], [1860078055, "Pulm", 0.0, 0, 1393804800, 0, 0, 0], [1829451406, "DDO Pulmonary - haemoptysis", 0.0, 0, 1412899200, 12, 0, 0], [434523351, "Puntos de Partida Cap\u00edtulo 6", 0.0, 0, 1392422400, 109, 0, 0], [1838931866, "hausputz", 0.0, 0, 1398211200, 13, 13, 13], [552307912, "IPA - Pulmonic Consonants (with audio)", 0.0, 0, 1433894400, 42, 40, 0], [1417607433, "pulmonology", 0.0, 0, 1422057600, 159, 0, 0], [49166663, "Conduit bender parts, stub up, and pullbox quiz", 0.0, 0, 1425168000, 19, 0, 0], [3582358191, "A mesa puesta", 0.0, 0, 1350777600, 94, 0, 0], [2097316121, "arquiteturadecomputadores", 0.0, 0, 1375315200, 37, 0, 17], [931098670, "Corpus 3000", 0.0, 0, 1345852800, 310, 149, 0], [2001817837, "Mittelpunkt B2.1 Thema3", 0.0, 0, 1384128000, 347, 0, 0], [2015398007, "MDTI 01.29.15 Lupus", 0.0, 0, 1422662400, 40, 0, 0], [1913121146, "02 DE FRITZ computer / adjective", 0.0, 0, 1392595200, 187, 0, 0], [1477173991, "Med School Pulmonary ", 0.0, 0, 1426982400, 124, 0, 60], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [1877309995, "OSU - Cardio/Pulm - Anatomy Lab 3 Structures", 0.0, 0, 1432771200, 46, 0, 114], [1023766037, "Vipul Naik's acronyms", 0.0, 0, 1400716800, 23, 0, 0], [778319596, "Organiza\u00e7\u00e3o de computadores", 0.0, 0, 1407888000, 24, 49, 0], [115917412, "General software development and computer science questions.", 0.0, 0, 1353110400, 18, 0, 0], [153491679, "Intro to Computer Science", 0.0, 0, 1399075200, 68, 0, 0], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [2293011098, "CofO2 - 11 - Heart as a Pump", 0.0, 0, 1345852800, 16, 0, 0], [1169223081, "OCR Computing", 0.0, 0, 1423353600, 141, 0, 0], [203505614, "SPU MFT Theories I Final - Virginia Satir", 0.0, 0, 1417305600, 15, 0, 0], [5683140, "Pulm 33", 0.0, 0, 1395532800, 23, 0, 9], [576770939, "Computational Fluid Dynamics for Engineers", 0.0, 0, 1432512000, 133, 0, 48], [4220235310, "200  adverbos populais", 0.0, 0, 1381708800, 89, 0, 0], [3504712369, "French-Farsi -Words of  the book \"CAMPUS 1\"  A1 (lesson1-6)", 5.0, 1, 1358553600, 672, 0, 0], [512970025, "DalMed2018 - Publicly Shared Test Deck - Kember", 0.0, 0, 1414368000, 3, 0, 1], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [1526808570, "Genetics before Population Lecture", 0.0, 0, 1410307200, 204, 0, 3], [1347728356, "COMS30127 Computational Neuroscience", 0.0, 0, 1451865600, 83, 0, 4], [386575990, "SPU MFT Theories I - Final Exam - Experiential / Whitaker ", 0.0, 0, 1417305600, 12, 0, 0], [2738924753, "amarakosha-purashaila", 0.0, 0, 1368403200, 218, 0, 0], [684527862, "Jess and Pierre orange mocha frappucino potato gems", 0.0, 0, 1410739200, 35, 0, 43], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [2604429, "SPU MFT - Theories I Final - Bowen / Transgenerational", 0.0, 0, 1417305600, 13, 0, 0], [2015552155, "TU Dortmund Computer Systems", 0.0, 0, 1379116800, 54, 0, 0], [136682947, "TCM Review Pulse Diagnosis", 0.0, 0, 1345852800, 17, 0, 0], [683937621, "Spanish (Infopulse A1)", 0.0, 0, 1422489600, 345, 0, 0], [4038902201, "Slownik ISEL 1500 Popular Phrases. Polish - English + sound", 4.0, 3, 1360108800, 1500, 2975, 0], [249304494, "PSU Pulmonary 2015", 0.0, 0, 1429660800, 815, 0, 131], [2010128814, "HMS.HG.Population.Genetics", 0.0, 0, 1354579200, 22, 0, 4], [465249195, "TCM Review Formula Pulses", 0.0, 0, 1345852800, 83, 0, 0], [2854503240, "AFEA - Five Element - Acupuncture Points", 4.0, 1, 1357516800, 121, 0, 0], [830428026, "cardiopulm", 0.0, 0, 1428710400, 1163, 0, 381], [915414763, "Computergest\u00fctzte Datenanalyse", 0.0, 0, 1423267200, 46, 0, 73], [1980238150, "PUMS patho block 5", 0.0, 0, 1424217600, 310, 0, 1], [632602298, "MHCHS Edexcel Unit 2: Weimar Republic 1918-33", 0.0, 0, 1383091200, 86, 0, 0], [466405902, "pulm 37", 0.0, 0, 1395532800, 15, 0, 11], [655466584, "CP PHX Pumping Apparatus", 0.0, 0, 1406160000, 32, 0, 0], [1203842504, "UBC MD 2018: Histology - CV/PULM/FERGU\t", 0.0, 0, 1432166400, 170, 0, 115], [1874397604, "Pulmonology For PSU Hershey Spring 15", 0.0, 0, 1429660800, 331, 0, 467], [1313687305, "Comment Haglar Rocio Pu", 0.0, 0, 1424736000, 14, 0, 0], [609787157, "Pulmonology through sleep disorders", 0.0, 0, 1428537600, 390, 0, 128], [1753283400, "Vocabulaire de l'administration publique - Canada", 0.0, 0, 1426550400, 500, 0, 0], [1259772655, "Ch 2 Population measures", 0.0, 0, 1398384000, 17, 0, 0], [1335075975, "IT + Computer PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 243, 0, 0], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [789179072, "pulm", 0.0, 0, 1397606400, 152, 0, 0], [492986119, "OSU - Cardio/Pulm - Anatomy Lab 2 Structures", 0.0, 0, 1427932800, 91, 0, 185], [2384567099, "MD2 Path Lab Pulm", 0.0, 0, 1384992000, 114, 0, 102], [49518835, "Adult II Week 5 - Alt. in Pulmonary Gas Exchange", 0.0, 0, 1412121600, 55, 0, 7], [3932561036, "TCM Review Acupuncture Contraindications", 0.0, 0, 1345852800, 33, 0, 0], [1324030531, "pulm 36pulm 36", 0.0, 0, 1395532800, 22, 0, 13], [2437004623, "Computer Networks", 0.0, 0, 1361404800, 35, 0, 1], [3765612039, "OCR Computing AS-Level", 0.0, 0, 1363564800, 197, 0, 0], [1002826827, "Repro Puberty 05.01.15", 0.0, 0, 1430784000, 37, 0, 0], [183767228, "Sant\u00e9 publique IFSI Beauvais", 0.0, 0, 1396310400, 76, 0, 1], [424621566, "Lucas Pucas' Levorotary Aminos", 0.0, 0, 1421539200, 58, 0, 17], [246059310, "100 Punkte Baumliste", 0.0, 0, 1411516800, 111, 0, 0], [314589184, "Public Health and Administration", 0.0, 0, 1401062400, 161, 0, 0], [678830273, "HMS.IHP.Pulmonary.II", 0.0, 0, 1359417600, 21, 0, 7], [3509651624, "HMS.IHP.Pulmonary.I", 0.0, 0, 1359417600, 24, 0, 5], [2075699219, "punchiprueba", 0.0, 0, 1402185600, 2, 0, 0], [2305196561, "French-Farsi -Words of  the book \"CAMPUS 1\"  A2 (lesson7-12)", 5.0, 1, 1358553600, 740, 0, 0], [4217791128, "Spanish Computer Terms", 0.0, 0, 1345852800, 130, 0, 0], [1792757048, "Selecting and manipulating files in Windows 8", 0.0, 0, 1420243200, 5, 0, 0], [798342403, "Circumcised pulmonology 2", 0.0, 0, 1424995200, 167, 0, 8], [1482850907, "FSPUc", 0.0, 0, 1428451200, 341, 0, 0], [315918621, "Apuntes de historia espa\u00f1ola", 0.0, 0, 1399680000, 93, 0, 0], [1749071173, "Spanish Subtitles Corpus 1-2000", 0.0, 0, 1402444800, 4204, 0, 0], [3547924803, "my deck (multiple computers)", 0.0, 0, 1345852800, 1701, 0, 0], [2068644928, "Bridie pulmonary infection", 0.0, 0, 1383264000, 14, 0, 0], [2814195359, "Computer stuff", 0.0, 0, 1381190400, 196, 0, 0], [1940171104, "Al's public admin vocab", 0.0, 0, 1399420800, 462, 0, 0], [1814884933, "Biology Purification Plant VHS, Vienna", 0.0, 0, 1398729600, 7, 0, 0], [1890834391, "CFA Aerial Pumper Mills Tui scania ", 0.0, 0, 1404604800, 22, 0, 0], [35317718, "Nu spurtar vi f\u00f6r tentan whoop whoop!", 0.0, 0, 1382486400, 289, 0, 3], [1008040581, "Irish Pub Vocabulary", 0.0, 0, 1409270400, 131, 0, 0], [52483492, " P&T Cardio Pulm 2 Final", 0.0, 0, 1368057600, 215, 0, 0], [1601435576, "pulm 34pulm 34pulm 34", 0.0, 0, 1395532800, 38, 0, 18], [208097760, "CofO2 - 13 - Pulmonary Circulation", 0.0, 0, 1345852800, 16, 0, 0], [936933897, "din\u00e1mica de las ventas, la respuesta a las objeciones", 0.0, 0, 1405987200, 35, 0, 0], [1020908200, "SPU MFT - Theories I - General Systems - Final Exam", 0.0, 0, 1417305600, 13, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Pu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

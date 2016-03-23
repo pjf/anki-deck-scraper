@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[475767360, "Musc. pt mgmt 2: intro to joint moilization", 0.0, 0, 1454803200, 35, 0, 0], [363625331, "Yi\u011fit Efe - Ba\u015flang\u0131\u00e7 Seviyesi \u0130ngilizce", 0.0, 0, 1453766400, 141, 299, 176], [1322830607, "G\u00f6k\u015fin - \u0130ngilizce 4. s\u0131n\u0131f ", 0.0, 0, 1453766400, 426, 822, 453], [933520754, "2nd grade English - Kagan Bilek_2. S\u0131n\u0131f \u0130ngilizce", 0.0, 0, 1452816000, 230, 493, 215], [1323391467, "USCIS Naturalization Interview and English Test", 0.0, 0, 1427241600, 160, 19, 0], [1830005382, "Block 1 - Liz P's Deck", 0.0, 0, 1440201600, 57, 0, 8], [2424650179, "Generalized AI Disorders/SLE and Sjogrens", 0.0, 0, 1360022400, 45, 0, 0], [66242386, "TEOG 2. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 90, 85, 0], [789952687, "AME CONSTITUCIONAL - FISCALIZA\u00c7\u00c3O CONT\u00c1BIL FINANC E OR\u00c7AMENT", 0.0, 0, 1409702400, 21, 0, 0], [2063952661, "TEOG 6. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 536, 473, 0], [89126766, "LizPolishLanguage", 0.0, 0, 1407628800, 168, 0, 0], [1679024823, "AAAHST7CM Civiliza\u00e7\u00f5es Urbanas", 0.0, 0, 1433289600, 20, 0, 0], [542142986, "TEOG 7. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1389225600, 346, 0, 0], [1477178908, "TEOG 8. S\u0131n\u0131f \u0130ngilizce", 0.0, 0, 1388793600, 506, 98, 0], [1991734925, "Turkish English / T\u00fcrk\u00e7e \u0130ngilizce", 0.0, 0, 1434067200, 13, 0, 0], [743536053, "MUG - Famulaturlizenz", 0.0, 0, 1421366400, 691, 0, 22], [1954328938, "Generalized AI Disorders/SLE and Sjogrens", 0.0, 0, 1359763200, 45, 0, 0], [1614998227, "TEOG 4. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1388966400, 166, 0, 0], [1389159823, "Repro Fertilization 04.24.15", 0.0, 0, 1430697600, 23, 0, 0], [3373965339, "Tema 06. Tecnolog\u00eda Farmace\u00fatica II. Liofilizaci\u00f3n", 0.0, 0, 1365206400, 150, 0, 22]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Liz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

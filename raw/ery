@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[769202743, "UIHC Surgery Pestana", 0.0, 0, 1453680000, 320, 3, 7], [889021449, "Anatomy Lab Everything before axial lecture", 0.0, 0, 1454976000, 90, 0, 0], [40821529, "Useful Everyday German Words", 0.0, 0, 1452124800, 36, 0, 0], [560595400, "Japanese - Everything v2.0", 0.0, 0, 1453334400, 576, 1, 0], [224181860, "lazy cards for everyone interested in remembering kanji", 0.0, 0, 1452124800, 2042, 0, 0], [373534082, "My Everyday Russian Kris", 0.0, 0, 1451520000, 25, 0, 3], [825931430, "surgery for charlotte", 0.0, 0, 1452816000, 79, 0, 0], [2110044394, "English Everyday Idioms (english - russian)", 0.0, 0, 1452384000, 363, 33, 37], [417079421, "Surgery", 0.0, 0, 1452124800, 50, 0, 0], [734344617, "biopharm and delivery systems (for uzo)", 0.0, 0, 1449878400, 18, 0, 26], [1919748156, "surgery so far", 0.0, 0, 1448496000, 633, 0, 109], [1797915632, "Medical Chemistry Drug Discovery ", 5.0, 1, 1444176000, 78, 0, 0], [1790054280, "AlchemyMystery", 0.0, 0, 1444694400, 169, 0, 0], [2118642457, "Korbut - przeciwbakteryjne", 0.0, 0, 1445212800, 36, 0, 0], [407858764, "jQuery 1.4", 5.0, 1, 1345852800, 190, 0, 0], [1633948747, "UNC-Asheville Surgery I", 0.0, 0, 1444262400, 191, 0, 0], [974268469, "Surgery: Surgical Infections", 0.0, 0, 1443484800, 152, 0, 0], [880493988, "Some very basic Chinese", 0.0, 0, 1441670400, 315, 0, 0], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [1604785236, "Henry Ford Surgery", 0.0, 0, 1442620800, 1200, 0, 0], [1649779035, "JQuery methods", 0.0, 0, 1441497600, 281, 0, 0], [995157191, "pterygopalatine fossa", 0.0, 0, 1441929600, 16, 0, 0], [169738438, "Human Anatomy I, Chapter 2 Everything, Thoracic Wall", 0.0, 0, 1440979200, 109, 0, 17], [412074817, "Unit 11 Its a very Exciting Place", 0.0, 0, 1435622400, 22, 0, 0], [3414320282, "Malay For Everyone", 0.0, 0, 1376179200, 534, 0, 0], [1231963447, "Boeing 727 momery items (Emergency Checklist)", 0.0, 0, 1435276800, 13, 89, 8], [153303619, "Surgery (oral exam guide)", 0.0, 0, 1359936000, 343, 0, 0], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [1750562363, "Everyday English. At the party (dialogue)", 0.0, 0, 1432684800, 18, 0, 0], [1642480002, "Principles of Surgery - UniSR", 0.0, 0, 1399075200, 198, 0, 6], [3585955447, "Surgery 2001 review", 0.0, 0, 1361404800, 2673, 0, 0], [2107342451, "TO SELMA AUDI CAROLE REID GEMMA BOWSSURGERY LOBS FROM SARAH ", 0.0, 0, 1431820800, 365, 0, 4], [1096503806, "natxo_every_day", 0.0, 0, 1429660800, 23, 0, 0], [93980248, "Japanese everyday words and phrases, translated into Russian", 5.0, 1, 1350777600, 113, 105, 21], [1459171153, "Discoverypoint Intro Deck", 0.0, 0, 1361318400, 88, 0, 48], [727240819, "Skipper Machinery Test - Hebrew ", 0.0, 0, 1425945600, 178, 0, 0], [1164364191, "Czech history - very little", 0.0, 0, 1437955200, 27, 0, 0], [347852514, "MBChB4 Finals surgery and medicine update-Joseph Colclough", 0.0, 0, 1423785600, 882, 0, 73], [244185108, "Everyday English. At the party (text)", 0.0, 0, 1432684800, 18, 14, 4], [777040445, "UoN Yr4 Surgery Vivas", 0.0, 0, 1403395200, 272, 0, 50], [2724021830, "Very basic Turkish words (Turkish - Polish)", 0.0, 0, 1379462400, 115, 0, 0], [1857866944, "CRM- Drug discovery ", 0.0, 0, 1367452800, 14, 0, 0], [1047176836, "German Grammar Mastery Deck 2013.07.30", 0.0, 0, 1375228800, 572, 0, 0], [2105847600, "BrzrkrKen Gunnery", 0.0, 0, 1399420800, 404, 0, 25], [439313427, "EveryDayChinese", 0.0, 0, 1425513600, 286, 0, 0], [571278459, "Everyday Chinese Words", 0.0, 0, 1374451200, 93, 92, 14], [476319034, "German Grammar Mastery Deck", 0.0, 0, 1345852800, 572, 0, 0], [2053610253, "MTB - Surgery", 0.0, 0, 1406419200, 2, 0, 0], [300251853, "Everything Learned from the Book \"Running Lean\"", 0.0, 0, 1400976000, 321, 0, 81], [879596105, "OSU - Neuro - Pterygopalatine Fossa Anatomy", 0.0, 0, 1422748800, 40, 0, 8], [260085151, "Some 20s lingo phrases to use every day!", 0.0, 0, 1424822400, 137, 3, 1], [3143587623, "Bridie Surgery ", 0.0, 0, 1383955200, 44, 0, 0], [1360089204, "Very basic french words and phrases", 0.0, 0, 1359504000, 22, 0, 0], [4067994379, "Surgery Clerkship Quick Review", 0.0, 0, 1345852800, 478, 0, 0], [2635434805, "Surgery Recall", 4.0, 1, 1345852800, 2132, 0, 0], [1251643308, "LDS Scripture Mastery", 0.0, 0, 1424649600, 114, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ery</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

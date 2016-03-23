@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[701620338, "The imabi Grammar Gauntlet (Beginner I)", 0.0, 0, 1425859200, 50, 0, 0], [855258552, "Vocabulario - Minna no Nihongo I - EOI Malaga", 0.0, 0, 1454889600, 825, 0, 0], [1712131772, "The imabi Grammar Gauntlet (Beginner II)", 0.0, 0, 1425859200, 50, 0, 0], [160608290, "Chinese Beginner Sentences (Traditional and Simplified)", 5.0, 1, 1367107200, 866, 0, 0], [1677720087, "Vocabulario Minna no Nihongo 1\u00ba curso EOI M\u00e1laga", 0.0, 0, 1454976000, 314, 0, 0], [1757039494, "Finnish j\u00e4rjestyksess\u00e4 - improved", 5.0, 1, 1430352000, 7449, 0, 0], [1018410050, "Finnish Core 100 - Basic words (EN  FI with audio)", 5.0, 1, 1436832000, 204, 110, 116], [1831527151, "Minna no Nihongo 1.26 2nd ed. [En] [Ru]", 0.0, 0, 1435881600, 49, 0, 0], [1192696720, "Minna no Nihongo 1.27 2nd ed. [En] [Ru]", 0.0, 0, 1435968000, 44, 0, 0], [477508551, "Beginner Latin American Spanish Sentences", 5.0, 10, 1437868800, 1224, 0, 1], [1847451780, "Japanese: Minna No Nihongo 1", 5.0, 1, 1428969600, 790, 3, 0], [1394017728, "Finnish Core 2000 Word List(without translation)", 0.0, 0, 1454457600, 1841, 43, 1845], [400352449, "Modern Hebrew for Beginners", 0.0, 0, 1454803200, 517, 0, 0], [368253253, "Thai Language: Beginner - Advanced", 4.0, 4, 1345852800, 1469, 477, 43], [1195492722, "Frans beginners Studieplan", 0.0, 0, 1453420800, 116, 0, 0], [483427304, "Algorithmist's FSI Finnish Unit 1 with Audio", 0.0, 0, 1454198400, 246, 254, 16], [3218813077, "J.BRIDGE for Beginners vol.1", 5.0, 1, 1375228800, 1069, 1065, 0], [1891379539, "Algorithmist's Finnish Visiting the Doctor with Audio", 0.0, 0, 1453939200, 129, 137, 16], [1331188420, "Beginning Japanese (Otsuka)", 5.0, 1, 1453248000, 267, 3, 2], [359978596, "Algorithmist's Finnish Months with Audio", 0.0, 0, 1453593600, 12, 20, 16], [1570705890, "minna no nihongo 40-50 \u307f\u3093\u306a\u3000\u306e\u3000\u306b\u307b\u3093\u3054\u3000\uff14\uff10\uff0d\uff15\uff10", 4.0, 1, 1453334400, 384, 356, 277], [159579487, "Tagalog for Beginners", 0.0, 0, 1452297600, 156, 8, 15], [909944533, "Finnish - Fillingwords (in sentences)", 0.0, 0, 1451520000, 111, 0, 0], [1676738758, "Algorithmist's Finnish Expressions with Audio", 0.0, 0, 1453939200, 121, 126, 16], [1366559084, "Algorithmist's Finnish Cases", 0.0, 0, 1452556800, 101, 8, 16], [1651110887, "Finnish - Russian basic vocabulary", 4.5, 2, 1453680000, 3533, 3326, 1292], [1288779357, "Italian Sentences for Beginners", 5.0, 2, 1451088000, 1426, 1451, 133], [2140735574, "Tokemo Malay (Beginner/Elementary)", 5.0, 1, 1405296000, 2842, 2827, 1228], [1439843162, "Beginners' French (Chris Reall)", 0.0, 0, 1449878400, 408, 1, 1], [1997120933, "Anatomie - Sinnesorgane", 0.0, 0, 1450569600, 13, 0, 0], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [296491320, "Minna no Nihongo 1.28 2nd ed. [En] [Ru]", 0.0, 0, 1436572800, 54, 0, 0], [644576688, "Beginners' Italian (Chris Reall)", 0.0, 0, 1447891200, 180, 1, 1], [1202495604, "Beginners' Swedish", 0.0, 0, 1447459200, 83, 1, 1], [341836791, "deutschland for Berlitz beginners", 0.0, 0, 1449100800, 89, 0, 0], [932643380, "Beginner's Russian UCLA", 0.0, 0, 1445126400, 153, 0, 0], [1645268817, "\u307f\u3093\u306a\u306e\u306b\u307b\u3093\u3054 / Minna no nihongo Buch 1 [German / Deutsch]", 0.0, 0, 1444003200, 329, 0, 0], [743198618, "rowan som fundamentals 2 microbiology lecture 1 innate imm.", 0.0, 0, 1410220800, 85, 0, 26], [1398481442, "Finnish mine only", 0.0, 0, 1447718400, 46, 0, 0], [833452978, "Beginners' Dutch (Chris Reall)", 0.0, 0, 1447891200, 309, 1, 1], [1361282428, "4.Other-inne", 0.0, 0, 1447459200, 0, 0, 0], [248372278, "Algorithmist's Finnish Deck 1 with Audio", 0.0, 0, 1446508800, 200, 213, 29], [1257220110, "minna no nihongo 32", 0.0, 0, 1447804800, 7, 0, 0], [1334229822, "Basic French (Finnish-French)", 0.0, 0, 1445126400, 1079, 0, 0], [1739125625, "Finnish - Russian phrases and sentencies", 5.0, 1, 1453680000, 2631, 446, 305], [83128584, "English for beginners", 0.0, 0, 1440028800, 3, 0, 0], [1424926379, "Algorithmist's  Finnish-English Tatoeba Sentences", 0.0, 0, 1443744000, 30717, 28, 30], [410411606, "Finnish Quick & Dirty 30 (EN  FI)", 4.5, 2, 1443225600, 60, 38, 45], [1002120426, " Finnish: ammatit ja harrastukset", 0.0, 0, 1444003200, 125, 0, 0], [1601495136, "FinnFACEM - ECG", 0.0, 0, 1439424000, 27, 0, 16], [73095194, "Histologia preparaty na podstawie My\u015bliwskiego i innych", 0.0, 0, 1443484800, 194, 0, 194], [891682328, "Finnish: organismi", 0.0, 0, 1444003200, 154, 0, 0], [719411748, "The JET Programme Japanese Language Course - Beginner Vol. 1", 0.0, 0, 1444089600, 160, 0, 0], [1121506948, "Innovationsmarketing", 0.0, 0, 1444953600, 0, 0, 0], [728422948, "Minna no Nihongo KC", 0.0, 0, 1449100800, 841, 0, 0], [1492676219, "Minna No Nihongo 2 vocab", 5.0, 1, 1433030400, 1140, 352, 0], [1975355015, "HSF: Back Muscle Innervation and Function", 0.0, 0, 1444003200, 16, 0, 0], [573292882, "Finnish: verbit", 0.0, 0, 1444003200, 178, 0, 0], [1247701499, "FinnFACEM - Endo-metabolic", 0.0, 0, 1439424000, 49, 0, 39], [99824376, "FinnFACEM - Radiology", 0.0, 0, 1439424000, 10, 0, 4], [2005922843, "Minna no Nihongo Intermediate Chapter 13 vocabulary", 0.0, 0, 1438732800, 196, 3, 0], [1844711579, "Esperanto woorden en zinnen EO-NL", 4.0, 1, 1428019200, 7435, 0, 0], [958811257, "English/Finnish Common Words", 0.0, 0, 1438819200, 5, 5, 5], [1719854665, "Minna no Nihongo Intermediate Chapter 15 vocabulary", 0.0, 0, 1438732800, 162, 3, 0], [770811726, "Beginners Grammar ", 0.0, 0, 1440547200, 56, 0, 0], [448399484, "Beginning Japanese", 0.0, 0, 1345852800, 37, 0, 0], [1839262734, "FinnFACEM - Cardio", 0.0, 0, 1438473600, 120, 6, 35], [542228633, "FinnFACEM - Disaster/ Pre-Hosp", 0.0, 0, 1439424000, 7, 0, 3], [4199636793, "Minna no nihongo 01-05", 0.0, 0, 1345852800, 302, 0, 0], [4059179299, "Verbes du Minna no nihongo", 0.0, 0, 1345852800, 138, 0, 0], [1388443283, "MTH - Sensory Innervation to Hand", 0.0, 0, 1440028800, 13, 0, 13], [819455092, "Hindi Beginner A1", 0.0, 0, 1439078400, 495, 14, 498], [437882980, "Minna no Nihongo Intermediate Chapter 14 vocabulary", 0.0, 0, 1438732800, 213, 3, 0], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 5.0, 1, 1392940800, 183, 0, 257], [1612285191, "FinnFACEM - Trm: Spine, Pelvis", 0.0, 0, 1439424000, 11, 0, 7], [1920076417, "FinnFACEM - Surg, Gen", 0.0, 0, 1439424000, 18, 0, 3], [1190284708, "Ukrainian Beginner 2015", 0.0, 0, 1439164800, 535, 0, 0], [1008945541, "Lao Beginners Vocabulary", 0.0, 0, 1345852800, 618, 0, 0], [2001002563, "FinnFACEM - Trm: Head & Neck", 0.0, 0, 1439424000, 36, 6, 10], [439765611, "Uni Heidelberg Innere Medizin", 0.0, 0, 1437696000, 392, 0, 9], [1776365453, "FinnFACEM - Tox", 0.0, 0, 1439424000, 149, 2, 80], [841091970, "SIP 3 - Block 18 (Sinnesorgane, Derma)", 0.0, 0, 1403222400, 29, 0, 1], [212850521, "Minna no Nihongo 2.27 - 2nd edition", 0.0, 0, 1430179200, 43, 0, 0], [738235003, "FinnFACEM - Enviro", 0.0, 0, 1438473600, 170, 83, 112], [2248026594, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1345852800, 305, 0, 0], [180516939, "FinnFACEM - Vasc", 0.0, 0, 1438473600, 12, 0, 3], [1928500271, "Angol innen-onnan", 0.0, 0, 1414368000, 134, 0, 3], [1385356144, "FinnFACEM - Rx Drugs", 0.0, 0, 1436745600, 21, 0, 2], [1665805535, "FinnFACEM - Renal", 0.0, 0, 1437696000, 50, 0, 12], [907654980, "FinnFACEM - Haem-Onc", 0.0, 0, 1438473600, 67, 0, 32], [1181094918, "private beginner spanish verbs deck", 0.0, 0, 1413417600, 21, 0, 0], [685765620, "Beginning Spanish Vocab (Troon)", 0.0, 0, 1437436800, 448, 340, 417], [1237969294, "Minna No Nihongo Lesson 31-33 Vocab", 0.0, 0, 1402444800, 96, 0, 0], [2131712329, "MINNA NO NIHONGO Espa\u00f1il lecci\u00f3n 32", 0.0, 0, 1430006400, 43, 0, 1], [857549993, "Beginner's Spanish", 5.0, 1, 1391731200, 624, 0, 0], [179589162, "FinnFACEM - Trm: Thx, Abdo", 0.0, 0, 1438473600, 40, 2, 4], [480759578, "FinnFACEM - GastroHep", 0.0, 0, 1437782400, 51, 0, 26], [3158338551, "Chemokines and Cytokines - Innate", 0.0, 0, 1377561600, 43, 0, 0], [410042936, "Hebrew Beginners", 0.0, 0, 1418860800, 849, 0, 0], [3862571104, "Beginning Uyghur for English Speakers: textbook vocabulary", 5.0, 2, 1395619200, 778, 781, 0], [193111415, "zuff trinnte trinne zuff", 0.0, 0, 1383177600, 65, 0, 1], [1357259166, "FinnFACEM - Labs", 0.0, 0, 1438473600, 4, 0, 2], [991907660, "STEX A&T Innere", 0.0, 0, 1429574400, 0, 0, 0], [1432572340, "FinnFACEM - O&G", 0.0, 0, 1438473600, 76, 0, 67], [511675220, "FinnFACEM - Anaesth", 0.0, 0, 1436745600, 46, 16, 3], [584898370, "FinnFACEM - Paeds", 0.0, 0, 1437264000, 141, 0, 15], [1581798828, "Minna no Nihongo 2.26 - 2nd edition", 0.0, 0, 1428537600, 49, 0, 0], [827633983, "Minna no Nihongo II Lesson 50 Vocab", 0.0, 0, 1393545600, 42, 0, 0], [1334679743, "Beginner's Chinese Characters", 0.0, 0, 1406592000, 23, 0, 0], [1746917906, "FinnFACEM - Resus, Paed", 0.0, 0, 1437264000, 47, 2, 6], [1893435130, "FinnFACEM - Adult Resus", 0.0, 0, 1430438400, 36, 0, 0], [1427334786, "FinnFACEM - Trauma, general", 0.0, 0, 1439424000, 34, 2, 4], [617417118, "FinnFACEM - Uro", 0.0, 0, 1437696000, 36, 0, 2], [1871586609, "Beginner German - Nouns with plural", 0.0, 0, 1366156800, 301, 0, 0], [1402389697, "Birds Of Minnesota", 0.0, 0, 1385942400, 29, 0, 0], [2071439517, "FinnFACEM - Psych", 0.0, 0, 1436486400, 64, 0, 3], [82460873, "FinnFACEM - HEENT", 0.0, 0, 1438473600, 60, 0, 17], [1817668353, "Beginner's Chinese Characters", 0.0, 0, 1406592000, 23, 0, 0], [360729940, "FinnFACEM - Ortho", 0.0, 0, 1437177600, 96, 0, 52], [366765425, "FinnFACEM - Resp", 0.0, 0, 1437609600, 50, 14, 18], [1655449656, "Icelandic for Foreigners - Hver er Ma\u00f0urinn?", 0.0, 0, 1361145600, 31, 0, 0], [442409657, "Beginner Turkish with media", 5.0, 1, 1363132800, 73, 73, 0], [2595959201, "Minna No Nihongo Chptrs 1-25", 0.0, 0, 1345852800, 1401, 0, 5], [1380484545, "inne s\u0142owa", 0.0, 0, 1416096000, 29, 0, 0], [1638037027, "GIC Beginner's Korean Level 2 (Lesson 1)", 0.0, 0, 1427241600, 28, 0, 0], [4263974097, "Beginner Farsi in context", 0.0, 0, 1374796800, 41, 0, 0], [2047409493, "Minna no Nihongo II vocabulary RUS full + audio", 4.0, 5, 1385424000, 1142, 869, 0], [3810223180, "Teach Yourself Finnish Vocabulary", 0.0, 0, 1345852800, 937, 0, 0], [1884777346, "Japanesepod101.com Beginner and Survival Phrases", 4.0, 1, 1345852800, 272, 0, 0], [885330806, "Complete Finnish chapter 2", 5.0, 1, 1420070400, 109, 0, 0], [683595098, "Finnish- first 400 words included", 4.0, 1, 1421020800, 1215, 0, 0], [4040982060, "Innate Immune System", 0.0, 0, 1358985600, 63, 0, 0], [713058873, "GIC Beginner's Korean Level 2 (Lesson 2)", 0.0, 0, 1427241600, 35, 0, 0], [1551813741, "GIC Beginner's Korean Level 2 (Lesson 8)", 0.0, 0, 1427846400, 10, 0, 0], [1535312138, "private beginner spanish deck", 0.0, 0, 1413417600, 22, 0, 0], [1486012891, "Minna no Nihongo Ch\u00fbky\u00fb - German", 0.0, 0, 1380844800, 2525, 0, 0], [2146361167, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1350950400, 580, 0, 0], [1681663269, "minnasan no onegai", 0.0, 0, 1394409600, 110, 0, 0], [805559080, "Swahili-Finnish vocabulary from Mambo Vipi with extras", 0.0, 0, 1393545600, 889, 0, 0], [3530461270, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1345852800, 580, 0, 0], [3633341875, "NEPA Italiano Beginners", 0.0, 0, 1375228800, 75, 87, 92], [4029032846, "Beginner Slovak-Romanian Deck", 0.0, 0, 1393632000, 517, 0, 0], [238182732, "Shirine_German Deck Beginner and Intermediate", 0.0, 0, 1442275200, 3925, 0, 0], [3261573635, "Finnish noun case endings", 0.0, 0, 1374969600, 10, 0, 0], [831345451, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1351123200, 284, 0, 0], [64952805, "GIC Beginner's Korean Level 2 (Lesson 3)", 0.0, 0, 1427241600, 11, 0, 0], [398382772, "Yhdyssanoja Basic Kanji book 2 (Finnish/Japanese)", 5.0, 1, 1430697600, 411, 0, 0], [1233510854, "Polish for beginners", 0.0, 0, 1421193600, 50, 1, 1], [1733182090, "GIC Beginner's Korean Level 2 (Lesson 7)", 0.0, 0, 1427241600, 47, 0, 0], [678989202, "FinnFACEM - Neuro", 0.0, 0, 1439424000, 93, 23, 13], [72214249, "FinnFACEM - Immuno", 0.0, 0, 1438473600, 19, 0, 3], [1422030595, "Beginner Japanese Phrases", 0.0, 0, 1407110400, 61, 0, 0], [1209267614, "Chinese Characters SNU Beginner", 0.0, 0, 1395100800, 23, 0, 0], [2346689345, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1351123200, 305, 0, 0], [1820815140, "basic beginner vocabulary", 0.0, 0, 1429574400, 39, 0, 0], [4245755714, "Business Finnish-English", 0.0, 0, 1358035200, 394, 0, 0], [1795611650, "Thai for Beginners - Becker", 0.0, 0, 1385769600, 550, 516, 0], [2064187228, "Minna no nihongo 06 - 10", 0.0, 0, 1345852800, 381, 0, 0], [1431358984, "Powershell - Beginners Deck", 5.0, 1, 1403740800, 211, 0, 0], [58111306, "Coursera -\u00a0Chinese for Beginners", 4.0, 1, 1410912000, 17, 3, 0], [1657726305, "FinnFACEM - ID", 0.0, 0, 1438473600, 35, 0, 12], [132289559, "Beginning 6 \u6211\u7684\u5976\u5976", 0.0, 0, 1414540800, 46, 0, 0], [1316378259, "Mawhinney Genetics Lectures", 0.0, 0, 1411430400, 140, 0, 0], [545979292, "Random Finnish words", 5.0, 1, 1387065600, 452, 0, 0], [2055762311, "University of Cincinnati Karp Exam 2", 0.0, 0, 1393200000, 89, 0, 0], [1281140526, "Chinese for Beginners: Intermediate. sentences with pinyin", 0.0, 0, 1416528000, 15, 0, 0], [836072956, "HTLinn Elektronik Vokabelliste", 0.0, 0, 1414972800, 799, 0, 0], [29385321, "Complete Finnish Intro and chapter 1.", 5.0, 1, 1419897600, 251, 0, 0], [1798382221, "Thai for Beginners Lesson 1 (with sound) - Z", 0.0, 0, 1420329600, 34, 34, 0], [1800196958, "InnereMedizinMUI2015", 0.0, 0, 1421107200, 294, 0, 0], [1173064259, "FinnFACEM - Derm", 0.0, 0, 1437177600, 22, 0, 18], [1147824814, "Tung - Minna No Nihongo L01 \u5355\u8a9e", 0.0, 0, 1415232000, 142, 34, 0], [275170690, "GIC Beginner's Korean Level 2 (Lesson 5)", 0.0, 0, 1427241600, 30, 0, 0], [3273053765, "\"Beginning Sanskrit\" cumulative vocabulary", 5.0, 1, 1414281600, 1325, 0, 1], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [311822124, "Beginner Chinese for students at Dalarna University", 0.0, 0, 1425772800, 74, 3, 3], [3981603394, "Finnish Sentence of the Day", 4.33, 3, 1345852800, 570, 0, 0], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [1413399398, "HMS.IMP.Innate.Immunity", 0.0, 0, 1364342400, 13, 0, 9], [958989403, "russian-spanish words for beginners", 0.0, 0, 1397088000, 1557, 0, 0], [3664465892, "Minna no nihongo 11-15", 0.0, 0, 1345852800, 338, 0, 0], [205482022, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 9-12", 0.0, 0, 1351123200, 309, 0, 0], [413011552, "URDU CLS Beginner ", 0.0, 0, 1404777600, 431, 0, 0], [1971855870, "Upper limb Muscle actions and innervations", 0.0, 0, 1411862400, 17, 0, 0], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [3017541861, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1345852800, 284, 0, 0], [962902082, "Beginning Turkish/English Vocabulary", 0.0, 0, 1357862400, 722, 0, 0], [2026758, "Australian HSC Beginner's Japanese: 1365 Vocabulary", 0.0, 0, 1439164800, 1365, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Inn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

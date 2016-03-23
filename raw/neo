@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[238233695, "Gluconeogenesis", 0.0, 0, 1454716800, 12, 0, 2], [483402006, "Igneous Petrology", 0.0, 0, 1454457600, 25, 0, 0], [613166278, "Neonatology for charlotte", 0.0, 0, 1452816000, 25, 0, 0], [72433448, "Pathology Final: neoplasia, autoimmune diseases ", 0.0, 0, 1453939200, 85, 0, 28], [962044715, "step neoplasi", 0.0, 0, 1453420800, 120, 0, 240], [1742243854, "mineola physiology", 0.0, 0, 1453593600, 88, 0, 5], [1149005435, "EN-RU Phrases for Simultaneous Interpretation", 0.0, 0, 1452384000, 51, 0, 0], [1944196964, "Lecture 3.3 Gluconeogenesis", 0.0, 0, 1445040000, 47, 0, 0], [1102705181, "Antineoplastic Drugs", 0.0, 0, 1444435200, 32, 0, 0], [2120745147, "miriam-neoplasia", 0.0, 0, 1444521600, 222, 2, 82], [1915831994, "KUMC GenNeo Pharmacology", 0.0, 0, 1444262400, 60, 0, 0], [1411565654, "FPP MSS Antineoplastic Drugs", 0.0, 0, 1440720000, 44, 0, 50], [181627062, "Neoplasia I", 0.0, 0, 1359590400, 46, 0, 0], [1452223735, "Hemochromatosis/Hepatic Neoplasms Pathology", 0.0, 0, 1424736000, 60, 0, 3], [2578445178, "HMS.IMP.Neoplasia.Morbidity", 0.0, 0, 1370390400, 10, 0, 3], [1149066316, "Hebrew Vocabulary: Miscellaneous ", 3.0, 1, 1430179200, 3615, 0, 0], [105668315, "Neoplasia Epidemiology", 0.0, 0, 1422057600, 9, 0, 0], [1234347618, "Leukemias, lymphomas, myelomas and other WBC neoplasias", 0.0, 0, 1426723200, 104, 0, 13], [1618224007, "DDO Paediatrics - Neonatal intubation ", 0.0, 0, 1409616000, 5, 0, 0], [1834529021, "Neoplasia III", 0.0, 0, 1360022400, 21, 0, 0], [3108381250, "MOD immunology and neoplasia", 0.0, 0, 1379203200, 472, 0, 32], [1238636042, "OB GYN PEDS NEO", 0.0, 0, 1426032000, 393, 0, 5], [69959300, "MDTI 01.21.15 Neoplasia Nomenclature Morphology", 0.0, 0, 1422230400, 40, 0, 18], [343918186, "MDTI 01.21.15 Neoplasia Epidemiology", 0.0, 0, 1422230400, 22, 0, 0], [1954069622, "Neoplasia Molecular Mechanisms ", 0.0, 0, 1422230400, 75, 0, 0], [4133800751, "Neoplasia II", 0.0, 0, 1360022400, 61, 0, 0], [127426306, "DDO Paediatrics - neonatal resusc ", 0.0, 0, 1409616000, 13, 0, 0], [872405782, "Gluconeogenesis", 0.0, 0, 1411776000, 26, 0, 0], [1017242423, "FHB L22: Special Circulations: Cutaneous & Splanchnic", 0.0, 0, 1422403200, 10, 0, 10], [234217216, "MDTI 01.22.15 Neoplasia Molecular Mechanisms 1-2", 0.0, 0, 1422230400, 58, 0, 4], [43617190, "Neoplasia Nomenclature Morphology", 0.0, 0, 1422057600, 43, 0, 13], [194317212, "FRCPath Part II: Miscellaneous General Haematology", 0.0, 0, 1411257600, 137, 0, 2], [1530681727, "38C - CSIM Inflammation and Neoplasia", 0.0, 0, 1400198400, 111, 0, 0], [575714160, "L\u00e9ka\u0159sk\u00e1 terminologie HK receptura (neofici\u00e1ln\u00ed)", 0.0, 0, 1429574400, 61, 0, 0], [197196282, "HMS.IMP.Into.to.Neoplasia", 0.0, 0, 1369008000, 16, 0, 0], [1885343385, "OSU - Neuro - Miscellaneous Structures", 0.0, 0, 1423008000, 78, 0, 87], [1189997718, "Neoplasia I", 0.0, 0, 1359417600, 46, 0, 0], [2300217896, "Path Lab 6: Metaplasia, Dysplasia & Neoplasia", 0.0, 0, 1372291200, 65, 0, 73]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Neo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

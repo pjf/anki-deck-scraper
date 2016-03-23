@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1666805772, "TCA cycle pharmacy keele", 5.0, 1, 1454803200, 13, 0, 1], [1987414799, "Firstaid/Uworld pharmacology", 0.0, 0, 1453507200, 305, 0, 157], [2000749682, "Emacs Study Deck", 0.0, 0, 1420156800, 3898, 0, 13], [881824847, "FIU MPAS Pharmacology quiz #1", 0.0, 0, 1453075200, 46, 0, 0], [2096494205, "Pharmacologie - ECN", 0.0, 0, 1452902400, 16, 0, 0], [1334083088, "Pharmacology 20151", 0.0, 0, 1437696000, 2824, 0, 1], [205110282, "medical vocabulary 13 - pharmacy", 0.0, 0, 1452384000, 69, 0, 0], [706543716, "Pharmacology Practical", 0.0, 0, 1449878400, 40, 0, 2], [1592949976, "Stanford Machine Learning", 0.0, 0, 1448928000, 2, 0, 0], [1421616660, "Molecular Medicine of the Heart: Kass and MacLellan Lectures", 0.0, 0, 1450137600, 11, 0, 0], [592852969, "German - English Vocabulary around Shakespeare's Macbeth", 0.0, 0, 1449619200, 19, 0, 1], [1424147843, "Biblical hebrew (z polskim t\u0142umaczeniem)", 0.0, 0, 1448668800, 737, 0, 0], [934309533, "KSUCVM Pharmacology Exam III", 0.0, 0, 1448841600, 368, 0, 16], [785158363, "Farmaceutische Chemie", 0.0, 0, 1448841600, 34, 0, 2], [926113062, "FA 15 Pharmaceutics I", 0.0, 0, 1448150400, 580, 0, 326], [1310932250, "Njemacki - Izrazi", 0.0, 0, 1445558400, 10, 0, 0], [997467399, "maconkey agar1.3", 0.0, 0, 1447891200, 156, 0, 103], [1479920864, "Mobile communications MAC ", 0.0, 0, 1449273600, 11, 0, 0], [1243201706, "Biblical greek (z polskim t\u0142umaczeniem)", 0.0, 0, 1448064000, 1058, 0, 0], [288981082, "IUPUI PA Pharmacology drugs", 0.0, 0, 1446422400, 155, 0, 0], [1200239866, "Fundamentals of Pharmacology", 0.0, 0, 1445817600, 399, 0, 0], [338130286, "Njemacki - 40 izraza", 0.0, 0, 1445558400, 40, 0, 0], [1200765609, "Njemacke Recenice 1", 0.0, 0, 1445558400, 76, 0, 0], [874270810, "Immunopharrmacology Drugs", 0.0, 0, 1444435200, 17, 0, 0], [845915543, "Njemacki - 10 izraza", 0.0, 0, 1445558400, 7, 0, 0], [254705020, "Njemacke Recenice 12", 0.0, 0, 1445558400, 63, 0, 0], [1092206530, "Farmacotherapie", 0.0, 0, 1442793600, 468, 0, 1], [456272525, "Njemacke Recenice 11", 0.0, 0, 1445558400, 45, 0, 0], [1778191582, "Pharmacy: Biochemistry Exam 2", 0.0, 0, 1442966400, 50, 0, 53], [870430433, "KSUCVM Pharmacology Exam 1", 0.0, 0, 1441497600, 15, 0, 0], [743114105, "UNSOM Block 1 ANS Pharmacology", 0.0, 0, 1444003200, 67, 0, 1], [1608655747, "Njemacke Recenice 4", 0.0, 0, 1445558400, 50, 0, 0], [2011551767, "Njemacke Recenice 3", 0.0, 0, 1445558400, 75, 0, 0], [563785919, "Pharmacy: Human Physiology Exam 3", 0.0, 0, 1445040000, 131, 0, 127], [874082899, "DELE C1 Educaci\u00f3n y Formaci\u00f3n ", 0.0, 0, 1445212800, 1, 0, 0], [1223459466, "Pharmacy: Human Physiology 2 Exam", 0.0, 0, 1442966400, 133, 0, 109], [1638338561, "Pharmacy: Pharmaceutical Calculations Conversion", 0.0, 0, 1442966400, 18, 0, 0], [1724406196, "KSUCVM Pharmacology Exam II", 0.0, 0, 1445904000, 541, 0, 16], [1534523847, "Njemacke Recenice 2", 0.0, 0, 1445558400, 95, 0, 0], [246819871, "Njemacke Recenice 10", 0.0, 0, 1445558400, 67, 0, 0], [911433756, "KSUCVM Pharmacology Exam 1", 0.0, 0, 1443571200, 256, 0, 26], [301283072, "NU 578 Pharmacology ", 0.0, 0, 1441843200, 24, 0, 0], [1796040139, "FA PHARMACEUTICS EXAM 1", 0.0, 0, 1442275200, 49, 0, 0], [2107680498, "Stritch Pharmacology-Serotonin and dopamine", 0.0, 0, 1440633600, 85, 0, 3], [1915831994, "KUMC GenNeo Pharmacology", 0.0, 0, 1444262400, 60, 0, 0], [1218758649, "Stritch Pharmacology-NSAIDs", 0.0, 0, 1440720000, 75, 0, 3], [626640506, "Pharmacodynamics", 0.0, 0, 1439942400, 36, 0, 14], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [152479176, "Emergency pharmacology roots suffixes prefixes abbreviations", 0.0, 0, 1441238400, 55, 0, 0], [100297296, "stritch pharmacology-cholinergics", 0.0, 0, 1440374400, 73, 0, 3], [426855829, "Test 1 Pharmaceutical Sciences II Course 4200", 0.0, 0, 1442534400, 312, 0, 146], [301381977, "Pharmacology classes and what not", 0.0, 0, 1441324800, 160, 0, 0], [1848105699, "MP's Pharmacology Fall 2015", 5.0, 1, 1440979200, 70, 0, 0], [2066265122, "Berliner Platz PL-DE Maciej Karpi\u0144ski", 0.0, 0, 1345852800, 679, 0, 0], [831434309, "Stritch Pharmacology-Local Anesthetics", 0.0, 0, 1440720000, 37, 0, 3], [564448735, "Adult II Week 2 Pharmacology", 0.0, 0, 1410912000, 82, 0, 10], [760788138, "Stritch Pharmacology-Opioid Analgesics", 0.0, 0, 1440633600, 34, 0, 3], [1076980328, "Stritch Pharmacology-General Anesthetics", 0.0, 0, 1440720000, 36, 0, 3], [113008712, "Biochem, Unit 4; Phamacogenetics", 0.0, 0, 1414108800, 39, 0, 0], [912553543, "Test 1 Pharmaceutical Sciences II Course 6200", 0.0, 0, 1440979200, 25, 0, 17], [457026582, "Pharmacology, Age dependent changes", 0.0, 0, 1351123200, 20, 0, 0], [4071507927, "Emacs Keystrokes", 0.0, 0, 1357776000, 66, 0, 0], [934225830, "Cholinergic and Adrenergic Pharmacology", 0.0, 0, 1411171200, 38, 0, 0], [86647136, "MA1 - Pharmacologie sp\u00e9ciale - CV", 0.0, 0, 1353456000, 55, 0, 302], [1168500110, "AUA Med 3 Pharmacology", 0.0, 0, 1435017600, 1814, 0, 1368], [2248880549, "TCM Review Maciocia Point Prescriptions", 0.0, 0, 1345852800, 63, 0, 0], [268620646, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [1533444539, "Brackets for Mac, version 1.3", 0.0, 0, 1435276800, 81, 0, 0], [1051333305, "Medical School Pharmacology (Block I)", 0.0, 0, 1411776000, 194, 0, 0], [1595484368, "MDTI 01.13.15 Pharmacology 3", 0.0, 0, 1421193600, 25, 0, 1], [3284414008, "Macht Mit! 3 - LB Seite 48", 0.0, 0, 1383264000, 17, 0, 0], [1785969495, "Pharmacology ANS ", 0.0, 0, 1398816000, 83, 0, 0], [2797148898, "CofO2 - 21 - Pharmacology of Respiration.anki", 0.0, 0, 1345852800, 23, 0, 0], [2630890195, " Tema 11.2 Farmacolog\u00eda  II Insuficiencia card\u00edaca", 0.0, 0, 1369440000, 79, 0, 4], [3166936901, "CMS 6 - Stomach (Ryan)", 0.0, 0, 1345852800, 48, 0, 3], [1496369600, "Macht Mit! 3 - LB Seite 43", 0.0, 0, 1383264000, 17, 0, 0], [969754090, "CAASIC Translation Course - Diplomacy Vocab", 0.0, 0, 1414972800, 83, 0, 0], [3173814939, "MA1 - Pharmacologie sp\u00e9ciale - SNC", 0.0, 0, 1354838400, 57, 0, 371], [154629047, "Tema 01. Farmacolog\u00eda II. Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [1540235022, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [220321359, "Pharmacology 2", 0.0, 0, 1420934400, 51, 0, 5], [1187456655, "Pharmacology_Ishac", 5.0, 1, 1412553600, 76, 0, 0], [1767667185, "Macht Mit! 3 - LB Seite 49", 0.0, 0, 1383264000, 8, 0, 0], [1322013973, "A1. Lesson 2. Podstawowe informacje o Tobie", 0.0, 0, 1422403200, 23, 24, 1], [1611539534, "Pharmacy 4050 Lecture on Gout", 0.0, 0, 1418342400, 40, 0, 10], [4036649805, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [816531956, "oncologie specialistische farmacotherapie", 0.0, 0, 1412294400, 224, 0, 0], [146706841, "Nottingham GEM Pharmacology and Treatments", 0.0, 0, 1391731200, 860, 0, 39], [727240819, "Skipper Machinery Test - Hebrew ", 0.0, 0, 1425945600, 178, 0, 0], [1247884378, "MA1 - Pharmacologie sp\u00e9ciale - GI", 0.0, 0, 1354492800, 16, 0, 74], [1805369916, "MVST IB MODA (Pharmacology)", 0.0, 0, 1395878400, 272, 0, 0], [1559376688, "Tema 07. Farmacolog\u00eda II. Antipsic\u00f3ticos", 0.0, 0, 1363910400, 47, 0, 0], [1798058599, "Farmacologia", 5.0, 1, 1414972800, 20, 0, 0], [1505791319, "Sozialpsychologie (Smith & Mackie 3rd Edition)", 0.0, 0, 1405900800, 234, 0, 1], [769317555, "Pharmacology: inflammation block", 0.0, 0, 1369008000, 110, 0, 0], [1676457876, "history of japan muromachi momoyama", 5.0, 1, 1399334400, 296, 0, 0], [1716758613, "Tema 5. Tecnolog\u00eda Farmac\u00e9utica II. Formas rectales y vagina", 0.0, 0, 1365379200, 210, 0, 0], [3023091261, "MA1 - Pharmacologie sp\u00e9ciale - Douleur", 0.0, 0, 1354492800, 20, 0, 149], [2015109480, "Grundlegende Kommandos in Emacs und info", 0.0, 0, 1429660800, 70, 0, 0], [1440029216, "pharmacokinetics", 0.0, 0, 1411257600, 6, 0, 0], [1511588172, "B&B Neuropharmacology of Serotonin 04.08.15", 0.0, 0, 1428796800, 28, 0, 0], [1080048568, "Pharmacy test", 5.0, 1, 1433980800, 2264, 0, 141], [1478117010, "Pharmacology Final Exam", 0.0, 0, 1399161600, 261, 0, 0], [891438366, "Farmacologia", 0.0, 0, 1425254400, 73, 0, 140], [1481070479, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [1508231824, "Farmacolog\u00eda II Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [303190419, "Pharmacology 4", 0.0, 0, 1421193600, 35, 0, 4], [159858333, "Pharmacologia Basico", 0.0, 0, 1391731200, 37, 0, 0], [1380184151, "Tema 16. Farmacolog\u00eda II. Hemostasia y coagulaci\u00f3n", 0.0, 0, 1369526400, 380, 0, 32], [2494594367, "Macht Mit! 3 - LB Seite 46", 0.0, 0, 1383264000, 16, 0, 0], [2570428123, "MacPorts", 0.0, 0, 1361577600, 9, 0, 0], [1645723955, "Pharmaceuticals: Block I", 0.0, 0, 1414195200, 27, 0, 0], [425816800, "MDTI 01.16.15 Pharmacology 5", 0.0, 0, 1421452800, 34, 0, 9], [3870596228, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [112394026, "Google Docs shortcuts for Mac", 0.0, 0, 1416873600, 118, 5, 0], [21314331, "Block 3 gross la flamma blanco machiatto", 0.0, 0, 1417305600, 284, 0, 24], [1310440737, "Tema 15. Farmacolog\u00eda II. Hipertensi\u00f3n", 0.0, 0, 1369526400, 170, 0, 20], [64308921, "Tema 02. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [901469225, "Sussex Machine Learning", 0.0, 0, 1370476800, 196, 0, 7], [2911256793, "Qu\u00edmica Farmac\u00e9utica Fase I", 0.0, 0, 1356480000, 25, 0, 12], [117768731, "OTC and Pharmacogenomics", 0.0, 0, 1429574400, 76, 0, 61], [4241598156, "FMS-3: Pharmacology", 0.0, 0, 1384646400, 31, 0, 0], [393479166, "Psychopharmacology, Psychotherapy, and Neuropharmacology", 0.0, 0, 1428192000, 252, 0, 3], [424569662, "Recepteerkunde Farmacie 2014/2015", 0.0, 0, 1422489600, 158, 0, 0], [1663076859, "MACRO EXAM 2", 0.0, 0, 1426032000, 61, 0, 12], [3819130012, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [1728786006, "URMC Pharmacology ", 0.0, 0, 1432771200, 441, 0, 6], [2062115923, "NS-Geschichte - Dienstgrade in der Wehrmacht und in der SS", 0.0, 0, 1345852800, 25, 0, 0], [300516680, "Conceptos de macro econom\u00eda Ciencias Pol\u00edticas USC", 0.0, 0, 1421625600, 128, 0, 1], [202980432, "01. Cardiac and Renal Pharmacology 1", 0.0, 0, 1428710400, 163, 0, 123], [1816222318, "Tema 06.1. Farmacolog\u00eda II. Psicof\u00e1rmacos", 0.0, 0, 1363910400, 4, 0, 0], [1154019711, "Tema 10. Farmacolog\u00eda II. Farmacodependencias", 0.0, 0, 1363996800, 6, 0, 0], [1770064264, "MacroT1", 0.0, 0, 1345852800, 103, 0, 0], [3280365539, "Tema 04. Farmacolog\u00eda II. Antiepil\u00e9pticos", 0.0, 0, 1363910400, 58, 0, 0], [1058757321, "MDTI 01.07.15 Pharmacology 1", 0.0, 0, 1420675200, 62, 0, 0], [995545072, "shatrick - pharmacology", 0.0, 0, 1444608000, 935, 0, 0], [1422736257, "Block 3 Pharmacology - Emma F.", 0.0, 0, 1425600000, 72, 0, 0], [1262620338, "Eclipse keyboard shortcuts", 0.0, 0, 1400457600, 28, 0, 0], [54885977, "UW-L PA Pharmacology I (Fall 2014)", 0.0, 0, 1418083200, 153, 0, 88], [387858305, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [1445468014, "Hindi Samachar Glossary", 0.0, 0, 1345852800, 573, 0, 0], [3917598254, "MA1 - Pharmacologie sp\u00e9ciale - Urog\u00e9nital", 0.0, 0, 1358553600, 11, 0, 49], [965368870, "UWM pharmacology exam 1", 0.0, 0, 1424649600, 166, 0, 0], [1863181846, "Farmacolog\u00eda II Farmacodependencia", 0.0, 0, 1363824000, 6, 0, 0], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [2039480685, "Pharmacology Day2", 0.0, 0, 1408838400, 24, 0, 2], [163218916, "Farmacos de car Calcetas", 0.0, 0, 1423699200, 25, 0, 1], [3259630536, "Nottingham GEM Pharmacology", 0.0, 0, 1371600000, 643, 0, 32], [3078424777, "Mankiw - Macroeconomics", 0.0, 0, 1368403200, 16, 0, 0], [1359907483, "Farmacolog\u00eda II Ejemplos de interacciones 1er parcial", 0.0, 0, 1364169600, 10, 0, 0], [1090529908, "Macht Mit! 3 - LB Seite 45", 0.0, 0, 1383264000, 16, 0, 0], [1011272249, "Pharmacology of IV Anesthetics", 0.0, 0, 1427068800, 59, 0, 0], [520478565, "Pharmacokinetic Principles Pharmacokinetic Principles Pharma", 0.0, 0, 1412121600, 4, 0, 4], [1743115599, "Angina Pharmacology", 0.0, 0, 1428883200, 16, 0, 0], [1175044573, "Sublime Text 3 shortcuts for Mac", 0.0, 0, 1416528000, 100, 5, 0], [391469209, "02. Cardiac and Renal Pharmacology 2", 0.0, 0, 1428796800, 80, 0, 65], [1314366259, "Pharmacology Day1", 0.0, 0, 1408838400, 25, 0, 0], [822644260, "Macht Mit! 3 - LB Seite 42", 0.0, 0, 1383264000, 15, 0, 0], [2132010923, "Paramedic Pharmacology", 0.0, 0, 1431129600, 338, 0, 0], [2062446881, "Danish; Macroscopic anatomy (1. semester)", 0.0, 0, 1400803200, 162, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [861524175, "chinasmack", 3.67, 3, 1431043200, 37000, 0, 0], [1217583113, "Macht Mit! 3 - LB Seite 50", 0.0, 0, 1383264000, 5, 0, 0], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [3455719500, "Macht Mit! 3 - LB Seite 47", 0.0, 0, 1383264000, 19, 0, 0], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [512680281, "Macbeth Lines", 0.0, 0, 1426204800, 144, 0, 0], [1852331531, "Njemacki i obrnuto", 0.0, 0, 1396224000, 508, 0, 0], [1330898561, "UW-L PA Pharmacology II and III (Fall 2014)", 0.0, 0, 1418256000, 174, 0, 30], [2258917527, "HMS.HG.Pharmacogenetics", 0.0, 0, 1355702400, 52, 0, 13], [202781649, "CAM201 Pharmacology", 5.0, 1, 1398470400, 509, 0, 0], [3196517920, "MA1 - Pharmacologie sp\u00e9ciale - Respi", 0.0, 0, 1354492800, 27, 0, 136], [3373965339, "Tema 06. Tecnolog\u00eda Farmace\u00fatica II. Liofilizaci\u00f3n", 0.0, 0, 1365206400, 150, 0, 22], [2576899571, " Tema 11.1  Farmacolog\u00eda II  Insuficiencia  card\u00edaca ", 0.0, 0, 1369440000, 124, 0, 0], [3963407932, "Tema 06.2. Farmacolog\u00eda II. Ansiol\u00edticos", 0.0, 0, 1363910400, 66, 0, 0], [1260562477, "Psych Pharmacology Final RVU", 0.0, 0, 1398902400, 68, 0, 4], [4050545614, "Macht Mit! 3 - LB Seite 44", 0.0, 0, 1383264000, 20, 0, 0], [1466267194, "GI Pathology: Stomach", 0.0, 0, 1397088000, 17, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mac</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

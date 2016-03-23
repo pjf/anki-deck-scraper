@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[359423088, "Angielski frazale i nie tylko", 3.0, 1, 1453334400, 481, 0, 0], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [1165508146, "Brazilian Portuguese Basic Vocabulary (Chris Reall)", 0.0, 0, 1449878400, 144, 1, 1], [1310932250, "Njemacki - Izrazi", 0.0, 0, 1445558400, 10, 0, 0], [338130286, "Njemacki - 40 izraza", 0.0, 0, 1445558400, 40, 0, 0], [845915543, "Njemacki - 10 izraza", 0.0, 0, 1445558400, 7, 0, 0], [637589142, "Crazy English 365", 0.0, 0, 1442275200, 365, 0, 3], [1313090174, "Matches for World Cup Brazil 2014", 0.0, 0, 1386460800, 64, 0, 0], [616788147, "Brazilian Slang", 0.0, 0, 1393545600, 19, 3, 1], [1540331253, "Utilaj frazoj - Vetero", 0.0, 0, 1427846400, 37, 37, 0], [89952534, "Utilaj frazoj - Tempo", 0.0, 0, 1427846400, 26, 25, 0], [1382916317, "Utilaj frazoj - Salutoj kaj adia\u016doj", 0.0, 0, 1427846400, 30, 30, 0], [1159738132, "Utilaj frazoj - Hotelo", 0.0, 0, 1427155200, 15, 15, 0], [130936522, "Prazke legendy nouns stories 1-5 verbs", 0.0, 0, 1421625600, 41, 0, 0], [439243098, "Crazy D Physiology 1", 0.0, 0, 1423008000, 132, 0, 16], [525537379, "Utilaj frazoj - Konati\u011do", 0.0, 0, 1427155200, 27, 27, 0], [994257308, "Utilaj frazoj - Gratuloj kaj bondeziroj", 0.0, 0, 1427155200, 13, 13, 0], [339385665, "Utilaj frazoj - A\u0109etado", 0.0, 0, 1427068800, 25, 25, 0], [169450341, "Utilaj frazoj - Bazaj frazoj", 0.0, 0, 1427155200, 41, 41, 0], [1796690392, "Prazke legendy nouns stories 6-10 verbs", 0.0, 0, 1421625600, 47, 0, 0], [637005002, "Most used Phrases in English language (Brazilian answers)  ", 0.0, 0, 1415750400, 615, 619, 0], [2015743017, "Utilaj frazoj - Man\u011dado", 0.0, 0, 1427155200, 26, 26, 0], [4085479325, "Presidentes do Brasil (Brazil Presidents)", 0.0, 0, 1353456000, 38, 0, 38], [1551828714, "Utilaj frazoj - Voja\u011do", 0.0, 0, 1427846400, 29, 29, 0], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [2119256779, "Utilaj frazoj - Korespondado", 0.0, 0, 1427155200, 54, 54, 0], [2098683027, "Obrazovne perspektive", 0.0, 0, 1428969600, 51, 0, 0], [591594728, "Utilaj frazoj - Kutimaj demandoj", 0.0, 0, 1427155200, 46, 46, 0], [193272018, "Brazilian Portuguese Duolingo", 0.0, 0, 1433376000, 149, 27, 0], [3636992919, "Portuguese (brazilian) antonyms", 0.0, 0, 1380672000, 114, 0, 0], [1295100998, "Prazke legendy nouns stories 6-10", 0.0, 0, 1421884800, 79, 0, 0], [1223810403, "Portuguese (brazilian) verbs", 0.0, 0, 1380672000, 209, 0, 0], [137528301, "Brazilian Portuguese Verb Conjugations", 0.0, 0, 1402012800, 154, 0, 1], [833233083, "Brazilian States", 1.0, 1, 1366070400, 33, 0, 59], [1182761429, "Basic Brazilian Portuguese ", 0.0, 0, 1374451200, 1057, 641, 475], [505610409, "Prazke legendy nouns stories 1-5", 0.0, 0, 1421884800, 86, 0, 0], [3907633940, "Troch\u0119 podstawowych wyraz\u00f3w z 1000 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3", 0.0, 0, 1443830400, 939, 0, 0], [1778878697, "Fraze / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 8, 0, 0], [4165382820, "Geografia do Brasil (Brazil Geography)", 3.75, 4, 1353456000, 27, 0, 27], [531747341, "parazyty-praktyk", 0.0, 0, 1400630400, 35, 0, 38], [2010032165, "Utilaj frazoj - Por ali\u011di al aran\u011do", 0.0, 0, 1427846400, 39, 39, 0], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [193876735, "fatduckgocrazy", 0.0, 0, 1398297600, 30, 0, 0], [508924940, "Brazilska Portugalstina - Anglictina/Cestina", 0.0, 0, 1345852800, 1768, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Raz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

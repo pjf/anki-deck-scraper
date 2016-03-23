@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1226689493, "[VectorMaps] The United States of America", 4.8, 20, 1368662400, 50, 0, 50], [907578404, "John Williams White First Greek Book", 0.0, 0, 1453420800, 52, 0, 0], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [742242289, "Nutzen der Raumfahrt: Kapitel 8", 0.0, 0, 1453593600, 7, 0, 0], [1841733775, "Spanish.colombia and literature", 0.0, 0, 1453507200, 847, 0, 0], [1637892411, "Nutzen der Raumfahrt: Kapitel 7", 0.0, 0, 1453593600, 24, 0, 0], [434514182, " Literary Studies Uni due WS 15/16", 0.0, 0, 1454544000, 262, 0, 3], [1916870177, "Nutzen der Raumfahrt - Kapitel 2", 0.0, 0, 1453593600, 12, 0, 0], [1139381831, "Manu Basel - \u9ad8\u60a6\u4eae - HSK 1-2 -reedited", 0.0, 0, 1426032000, 300, 558, 243], [974180274, "Nutzen der Raumfahrt - Kapitel 5", 0.0, 0, 1453680000, 14, 0, 1], [768616257, "Nutzen der Raumfahrt - Kapitel 1", 0.0, 0, 1453680000, 24, 0, 2], [1480066480, "Thai Breitenstein Emotions", 0.0, 0, 1453766400, 49, 8, 39], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 4.0, 1, 1449964800, 280, 0, 0], [3074067052, "Hoch Middle Egyptian Lesson3 Biliterals (Bi-consonantal) ", 0.0, 0, 1363392000, 25, 0, 25], [754925457, "o kama jo e sona pi sitelen sitelen.", 0.0, 0, 1420675200, 120, 0, 120], [926037104, "SM25 - Jupiter Comes Thundering In", 0.0, 0, 1453680000, 33, 0, 0], [1472010384, "Nutzen der Raumfahrt: Kapitel 4", 0.0, 0, 1453593600, 11, 0, 0], [1259908002, "AWS Solutions Architect Cert", 4.0, 1, 1452643200, 208, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [1504008975, "Technisches Management Kapitel 3", 0.0, 0, 1453161600, 1, 0, 0], [328592936, "Nutzen der Raumfahrt - Kapitel 6", 0.0, 0, 1453680000, 53, 0, 1], [1815176407, "Thai Breitenstein Animals", 0.0, 0, 1453248000, 34, 8, 32], [660290012, "188, 189 - VASCULARITES", 0.0, 0, 1450483200, 19, 0, 0], [1549876892, "Thai Breitenstein Places", 0.0, 0, 1453248000, 28, 8, 29], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [425300093, "SM24 - Naru's Tears: Nephrite Dies for Love", 0.0, 0, 1453593600, 20, 0, 0], [1922273001, "Thai Breitenstein Transportation", 0.0, 0, 1453248000, 27, 8, 28], [474818579, "P\u00fctz Pflanzenkrankheiten", 0.0, 0, 1452816000, 19, 0, 0], [2093228948, "Nutzen der Raumfahrt - Kapitel 5", 0.0, 0, 1453680000, 14, 0, 1], [559152355, "Thai Breitenstein Body Parts", 0.0, 0, 1453248000, 46, 8, 38], [226078359, "Nutzen der Raumfahrt - Kapitel 3", 0.0, 0, 1453593600, 49, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [640803219, "Thai Breitenstein Verbs", 0.0, 0, 1453248000, 82, 8, 55], [1863272004, "Thai Breitenstein Colors", 0.0, 0, 1453248000, 24, 8, 27], [2030577142, "Saudia A320 Memory Items", 0.0, 0, 1430956800, 11, 0, 0], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [1614732719, "KMP 3 Altfragen Seite 19-37", 0.0, 0, 1450828800, 502, 0, 0], [1725941306, "Read & Write Cajun French", 0.0, 0, 1411344000, 196, 102, 0], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [1290483696, "251-OBESITE", 0.0, 0, 1450051200, 10, 0, 0], [919519290, "Arik Air Q400 Memory Items", 0.0, 0, 1449792000, 14, 0, 13], [1567237386, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 10", 0.0, 0, 1447804800, 75, 0, 0], [598586940, "CSIM2 - Inherited Disease", 0.0, 0, 1448496000, 67, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [149534155, "Deitel Java How to Program Chapter 4 (Self Exercises)", 0.0, 0, 1448409600, 29, 0, 0], [1729915144, "Deitel Java How to Program Chapter 3 (Self Exercises)", 0.0, 0, 1448409600, 31, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1239847313, "web sites", 0.0, 0, 1448409600, 71, 0, 0], [527680422, "Spanisch, erweiterter Wortschatz", 0.0, 0, 1445040000, 1806, 1889, 116], [1747841072, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 7", 0.0, 0, 1444348800, 83, 0, 0], [182402474, "Mitarbeiter und Teamfuehrung", 0.0, 0, 1446681600, 49, 0, 4], [502225754, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 9", 0.0, 0, 1444953600, 75, 0, 0], [2039090378, "Eitel- Business/academic English idioms", 0.0, 0, 1444262400, 125, 0, 0], [1015922922, "TC - Kapitel 4", 0.0, 0, 1444089600, 10, 0, 0], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 5.0, 1, 1345852800, 3007, 0, 0], [1061354646, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 1", 0.0, 0, 1444348800, 77, 0, 0], [1675336088, "T4post parasites", 0.0, 0, 1446336000, 24, 0, 213], [1336744833, "Hoch Middle Egyptian Lesson6 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 14, 0, 14], [1561444482, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 5", 0.0, 0, 1444348800, 52, 0, 0], [1012981177, "Voyage \u00danite 3 ", 0.0, 0, 1445385600, 150, 0, 0], [935664828, "Hittite sign list", 0.0, 0, 1453680000, 194, 8, 259], [1801117060, "TC - Kapitel 13", 0.0, 0, 1444089600, 10, 0, 5], [348197263, "ITL Literacy Midterm ", 0.0, 0, 1444608000, 58, 0, 0], [966802854, "TC - Kapitel 3", 0.0, 0, 1444089600, 10, 0, 0], [1463782152, "TC - Kapitel 10", 0.0, 0, 1444089600, 10, 0, 1], [609289105, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 6", 0.0, 0, 1444348800, 133, 0, 0], [3797575858, "Hoch Middle Egyptian Lesson7 Biliterals (Bi-consonantal) Hoc", 0.0, 0, 1363651200, 12, 0, 12], [929743368, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 8", 0.0, 0, 1443657600, 77, 0, 0], [1382595920, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 8 (Zahlen)", 0.0, 0, 1444953600, 49, 0, 0], [97481091, "Tysk gloset Weitblick kapitel 1 German-Norwegian", 0.0, 0, 1443052800, 130, 0, 0], [745206623, "TC - Kapitel 12", 0.0, 0, 1444089600, 10, 0, 0], [1096340037, "Hoch Middle Egyptian Lesson4 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 21, 0, 20], [650274080, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 3", 0.0, 0, 1444348800, 53, 0, 0], [734332708, "TC - Kapitel 1", 0.0, 0, 1444089600, 10, 0, 0], [2052190299, "TC - Kapitel 14", 0.0, 0, 1444089600, 10, 0, 1], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [1524526736, "TC - Kapitel 2", 0.0, 0, 1444089600, 10, 0, 0], [1301254094, "TC - Kapitel 11", 0.0, 0, 1444089600, 10, 0, 1], [1781178418, "Kapitel 10", 0.0, 0, 1442361600, 5, 0, 0], [2128172950, "NAQT literature", 0.0, 0, 1443657600, 102, 0, 0], [1183283276, "TC - Kapitel 5", 0.0, 0, 1444089600, 10, 0, 4], [106080024, "OITE ", 0.0, 0, 1441756800, 314, 0, 28], [882508398, "o kama jo e sona pi sitelen sitelen (kala lili)", 0.0, 0, 1443225600, 92, 0, 92], [2088705639, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 4", 0.0, 0, 1444348800, 85, 0, 0], [1610384865, "Criteria", 0.0, 0, 1439251200, 23, 0, 0], [371462976, "Bewegte Zeiten - Bewegte Bilder", 0.0, 0, 1434585600, 81, 2, 136], [747726143, "Anton Preterite Irregular", 0.0, 0, 1420761600, 24, 0, 0], [2822311550, "Delta 73N memory items", 0.0, 0, 1383523200, 33, 0, 0], [1122170488, "Russisch-Deutsch, \u041c\u043e\u0441\u0442 1, A1-A2 Kapitel 2", 0.0, 0, 1444348800, 41, 0, 0], [152564020, "chinese literary reading", 0.0, 0, 1390780800, 75, 0, 0], [1320724950, "Wylie transliteration cards", 0.0, 0, 1438041600, 34, 0, 0], [1710142487, "Literary Spanish vocabulary", 0.0, 0, 1434672000, 144, 1, 0], [1231963447, "Boeing 727 momery items (Emergency Checklist)", 0.0, 0, 1435276800, 13, 89, 8], [214519432, "Ber\u00fchmte Pers\u00f6nlichkeiten", 0.0, 0, 1441411200, 37, 8, 15], [619869431, "Spanisch-Deutsch Zweite Stunde", 0.0, 0, 1368230400, 43, 0, 0], [1318997802, "Rapid literacy in Chinese by ZhangPengPeng", 0.0, 0, 1408752000, 750, 0, 0], [255068535, "\u092d\u094b\u091c\u0928\u093e\u0928\u093f - food items", 0.0, 0, 1384387200, 43, 0, 0], [114855411, "Earthquake, water & hope (Nepalese Transliteration & Devanag", 0.0, 0, 1430611200, 13, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1937739136, "French literary words and phrases", 0.0, 0, 1416700800, 1586, 0, 1], [1204809968, "5.2 Weiter Geht's", 0.0, 0, 1416268800, 26, 0, 0], [3284414008, "Macht Mit! 3 - LB Seite 48", 0.0, 0, 1383264000, 17, 0, 0], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [271523188, "Medias in Res - Kapitel 2", 0.0, 0, 1386201600, 30, 0, 0], [146952695, "Izpit_voditelj_colna-1del-POMORSKI_PREDPISI", 0.0, 0, 1414281600, 55, 0, 3], [1552589514, "Izpit_voditelj_colna-6del-NAVIGACIJA ", 0.0, 0, 1414281600, 40, 0, 3], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [4074625280, "United States of America", 0.0, 0, 1383782400, 51, 0, 51], [1189084931, "Arquitetura cliente-servidor", 0.0, 0, 1437696000, 8, 0, 0], [1827192273, "4.3 Weiter Geht's", 0.0, 0, 1416268800, 25, 0, 0], [1496369600, "Macht Mit! 3 - LB Seite 43", 0.0, 0, 1383264000, 17, 0, 0], [2004450396, "Biologie der Zelle Charite", 3.0, 1, 1364860800, 563, 0, 0], [1387552567, "Izpit_voditelj_colna-3del-PRAVILA_IZOGIBANJA_TRCENJA_NA_MORJ", 0.0, 0, 1414281600, 26, 0, 2], [1350842813, "Parasite Practical", 0.0, 0, 1433635200, 87, 0, 177], [1062947887, "Maradonas magi - Kappitel 1 (Norwegian)", 0.0, 0, 1435536000, 52, 0, 0], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 2.0, 1, 1409788800, 32, 0, 0], [1365222489, "Polish-English food items", 0.0, 0, 1394409600, 145, 145, 145], [259375228, "4.1 Weiter Geht's", 0.0, 0, 1415664000, 30, 0, 0], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [291446323, "Weiter Geht's 7.3 Vocab", 0.0, 0, 1422662400, 27, 0, 0], [779168285, "Izpit_voditelj_colna-2del-MORNARSKA_DELA_IN_VESCINE ", 0.0, 0, 1414281600, 55, 0, 7], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [637173185, "Medias in Res - Kapitel 1", 0.0, 0, 1386201600, 33, 0, 0], [1767667185, "Macht Mit! 3 - LB Seite 49", 0.0, 0, 1383264000, 8, 0, 0], [3479950638, "CSUN ART 305 Art & Mass Media: a Visual Literacy", 0.0, 0, 1383782400, 38, 1, 36], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [1165058891, "Lumbosacral plexus, thigh, popliteal fossa (CSUS Bio 122)", 0.0, 0, 1424995200, 51, 0, 57], [324717788, "Japanese Literature midterm", 0.0, 0, 1381190400, 85, 0, 0], [1307442021, "Inherited Disorders", 0.0, 0, 1420848000, 40, 0, 0], [1010596136, "Comment Haglar Rocio Bite", 0.0, 0, 1424736000, 25, 0, 0], [953320743, "Begegnungen B1 Kapitel 1 (Zeitvertrieb) Deutsch-Russisch", 0.0, 0, 1416268800, 81, 0, 0], [2097316121, "arquiteturadecomputadores", 0.0, 0, 1375315200, 37, 0, 17], [2772171262, "Vite et Bien 1 - Vokabeln", 0.0, 0, 1410998400, 1176, 0, 0], [150449225, "Literatur Gymnasium Schweiz - Homo Faber", 0.0, 0, 1372377600, 23, 0, 3], [3686521939, "Dish Satellite Basics", 0.0, 0, 1345852800, 32, 0, 0], [1417238157, "TSA, EMB-145 MP/LR Memory Items", 0.0, 0, 1425340800, 18, 0, 0], [814404298, "Medias in Res - Kapitel 7", 0.0, 0, 1387238400, 29, 0, 0], [447135458, "Arquitetura e tecnologias de sistemas de informa\u00e7\u00e3o", 0.0, 0, 1437696000, 11, 0, 0], [2710208854, "Finite Math MTH102 Rider", 0.0, 0, 1383091200, 22, 0, 14], [22720737, "Begegnungen A1 - Kapitel 2", 0.0, 0, 1414454400, 30, 0, 0], [347849881, "Medias in Res - Kapitel 6", 0.0, 0, 1387238400, 27, 0, 0], [1884953442, "Sicherheiten Geno", 0.0, 0, 1393891200, 16, 0, 0], [338959619, "literary tibetan", 0.0, 0, 1411516800, 93, 0, 0], [732652381, "Medias in Res - Kapitel 5", 0.0, 0, 1387238400, 30, 0, 0], [30392134, "Brett'sLiteraryDevices", 0.0, 0, 1410393600, 25, 0, 0], [114144256, "Hittite Cuneiform Syllabary (Unicode)", 0.0, 0, 1401321600, 112, 0, 0], [1300547302, "7.1 Weiter Geht's Vocabulary", 0.0, 0, 1422403200, 27, 0, 0], [1632498029, "This Deck is about the opposite words at the new English  fi", 0.0, 0, 1422144000, 14, 0, 1], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [2755220076, "United States Apportionment of Congressmen, 2012-2022", 0.0, 0, 1365465600, 50, 0, 0], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [669714020, "Literary Terms 76-100", 0.0, 0, 1398729600, 24, 0, 0], [854660669, "Medias in Res - Kapitel 4", 0.0, 0, 1387238400, 29, 0, 0], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [1087276344, "Literary Terms 26-50", 0.0, 0, 1396915200, 24, 0, 0], [237741023, "White Blood Cell 1 & 2", 0.0, 0, 1434240000, 151, 0, 148], [936311751, "Izpit_voditelj_colna-4del-OSNOVE_MOTOROZNANSTVA", 0.0, 0, 1414281600, 50, 0, 0], [3726225845, "Arabic Literature", 0.0, 0, 1345852800, 1400, 0, 0], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [2494594367, "Macht Mit! 3 - LB Seite 46", 0.0, 0, 1383264000, 16, 0, 0], [4161480669, "Neue Horizonte Kapitel 8 Vokabeln", 0.0, 0, 1345852800, 143, 0, 0], [1519635985, "Most common sites of Cancer metastasis", 0.0, 0, 1390867200, 12, 0, 0], [1780640163, "Charite - Modul 19 - Onkogenese - Tumore", 0.0, 0, 1407024000, 84, 0, 0], [1384044053, "Erkundungen Deutsch-Ungarisch C1 Kapitel 3", 0.0, 0, 1414281600, 187, 0, 0], [292861994, "MDTI 01.08.15 Inherited Disorders", 0.0, 0, 1420761600, 41, 0, 0], [2117999136, "Begegnungen A2 Kapitel 7 (Wohnen) Deutsch-Russisch", 0.0, 0, 1416268800, 91, 0, 0], [854246212, "Esperanto - Czech: Lernu - Useful phrases/U\u017eite\u010dn\u00e9 fr\u00e1ze", 0.0, 0, 1396742400, 400, 0, 0], [3437316441, "Opposite English Words", 0.0, 0, 1345852800, 53, 0, 0], [1991394856, "Earthquake, water & hope (Nepalese Devanagari & Transliterat", 0.0, 0, 1430611200, 13, 0, 0], [931352610, "Optimal A1 Kapitel 9", 0.0, 0, 1421280000, 52, 0, 0], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [1462123574, "Sz\u00e1m\u00edt\u00f3g\u00e9p Architekt\u00far\u00e1k", 0.0, 0, 1437264000, 251, 0, 0], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [143515930, "Parasites", 0.0, 0, 1423612800, 33, 0, 1], [546284808, "6.3 Weiter Geht's", 0.0, 0, 1422403200, 28, 0, 0], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [3880610585, "PITPAK Mathe Kapitel 4. Integral", 0.0, 0, 1345852800, 10, 0, 0], [2024049280, "Seasite Thai Maanii Book 2", 0.0, 0, 1405296000, 302, 302, 0], [506531760, "christine is a parasite", 1.0, 1, 1425945600, 30, 0, 7], [1709577165, "Literatur Gymnasium Schweiz - Matthias Berg", 0.0, 0, 1376784000, 22, 0, 0], [662887611, "Kapitel 5 Tissue", 0.0, 0, 1364342400, 18, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [413432030, "Streiten oder Kooperieren?", 0.0, 0, 1414454400, 33, 0, 0], [553037824, "Literary Terms 1-100", 0.0, 0, 1402876800, 99, 0, 1], [1254039965, "Peter Rabbits Recent Favourite Recipes", 0.0, 0, 1428364800, 287, 0, 35], [774267502, "Literary Terms 1-25", 0.0, 0, 1395619200, 25, 0, 1], [359757227, "Depressive Disorders DSM5 criteria", 1.0, 1, 1423872000, 0, 0, 0], [908046668, "Weiter Geht's 4.2 Vocab", 0.0, 0, 1415577600, 25, 0, 0], [905210952, "Medias in Res - Kapitel 3", 0.0, 0, 1386201600, 27, 0, 0], [920221620, "Finite Element Analysis", 0.0, 0, 1400371200, 24, 0, 60], [1096257400, "Physik UniBW-WT-ITE", 0.0, 0, 1397174400, 79, 0, 3], [1090529908, "Macht Mit! 3 - LB Seite 45", 0.0, 0, 1383264000, 16, 0, 0], [687422596, "Parasites", 0.0, 0, 1416268800, 39, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [4105518009, "Petite Prince (first 8 pages) - Russian", 0.0, 0, 1379894400, 500, 0, 0], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [1609494797, "Izpit_voditelj_colna-5del-METEOROLOGIJA ", 0.0, 0, 1414281600, 21, 0, 1], [1003618955, "Erkundungen Deutsch-Ungarisch C1 Kapitel 4", 0.0, 0, 1414281600, 180, 0, 0], [822644260, "Macht Mit! 3 - LB Seite 42", 0.0, 0, 1383264000, 15, 0, 0], [2889581819, "Presidents of the United States", 0.0, 0, 1354320000, 44, 0, 0], [1723130864, "Erkundungen Deutsch-Ungarisch C1 Kapitel 2", 0.0, 0, 1414281600, 255, 0, 0], [1217583113, "Macht Mit! 3 - LB Seite 50", 0.0, 0, 1383264000, 5, 0, 0], [1801078486, "Amc Menu Items", 0.0, 0, 1401667200, 76, 0, 0], [578009757, "ELA 10-1 Literary Terms 51-75", 0.0, 0, 1398124800, 25, 0, 0], [1791198277, "Fragen 1. - 4. Kapitel", 0.0, 0, 1413504000, 30, 59, 1], [3455719500, "Macht Mit! 3 - LB Seite 47", 0.0, 0, 1383264000, 19, 0, 0], [438559176, "Begegnungen A1 - Kapitel 3", 0.0, 0, 1415318400, 71, 0, 0], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [548153347, "Fungi and Parasites quiz", 0.0, 0, 1395100800, 18, 0, 23], [1059792849, "Begegnungen A1 - Kapitel 1", 0.0, 0, 1414454400, 78, 0, 0], [774638785, "Izpit_voditelj_colna-6del-NAVIGACIJA-oznake ", 0.0, 0, 1414281600, 42, 0, 42], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [4050545614, "Macht Mit! 3 - LB Seite 44", 0.0, 0, 1383264000, 20, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ite</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 2, 1373328000, 32, 65, 0], [644151027, "Portuguese Phrase Book (Continental pronunciation)", 5.0, 3, 1385942400, 1111, 1111, 35], [276529460, "Neuronal potentials", 0.0, 0, 1454803200, 57, 0, 0], [165719974, "Vocabulaire Farsi - Francais ( avec prononciation)", 0.0, 0, 1454457600, 53, 0, 0], [1558539004, "Barron's Basic Word List: 1500 words for the PSAT, SAT, etc.", 0.0, 0, 1345852800, 1467, 0, 0], [2024982590, "Astronomy Midterm 2021B Western University ", 0.0, 0, 1454889600, 12, 0, 0], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [715457895, "English IELTS Pronunciation 807", 0.0, 0, 1433203200, 196, 0, 0], [1007590997, "ACS Egham - Environment", 0.0, 0, 1453766400, 31, 0, 0], [1674909651, "Chrono Trigger script. Japanese <-> English retranslation", 4.67, 3, 1372464000, 4701, 0, 0], [1390035042, "ochrona art 5 zastrzezone", 0.0, 0, 1452643200, 1, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [1207523922, "Los bomberos comieron mi gato", 0.0, 0, 1451865600, 55, 0, 0], [685352992, "Pchrona tajne art 5", 0.0, 0, 1452643200, 7, 0, 0], [2046625108, "CFA Level I Official Acronyms", 0.0, 0, 1451433600, 22, 0, 0], [2137546472, "Japanese Personal Pronouns JTMW (version 1.03)", 0.0, 0, 1424217600, 30, 0, 0], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [656717484, "Bible Quiz 05: Deuteronomy", 0.0, 0, 1345852800, 156, 0, 0], [1768525984, "199-DYSPNEE AIGUE ET CHRONIQUE", 0.0, 0, 1450137600, 7, 0, 0], [486606871, "Electronics Vocabs 2 Pr V.1", 0.0, 0, 1450569600, 714, 0, 0], [1222961490, "English vocabulary with pronunciation", 0.0, 0, 1448582400, 10, 10, 10], [1304486133, "245- Diabete complications chroniques", 0.0, 0, 1450051200, 14, 0, 0], [1170201736, "JLPT N0 Vocab (Kanji/word <-> pronunciation and meaning)", 0.0, 0, 1374796800, 11911, 0, 0], [507639030, "Mastronarde Principal Parts", 0.0, 0, 1447459200, 203, 0, 213], [1182673372, "Mastronarde Principal Parts Greek->English", 0.0, 0, 1447200000, 1146, 2, 3], [1243640311, "English Irregular Verbs 114 Pron LV", 0.0, 0, 1448064000, 114, 0, 0], [1351792369, "Scienze e geografia astronomica", 0.0, 0, 1447286400, 748, 0, 0], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [2074018399, "Animal Phys Exam 2 Neurons", 5.0, 1, 1445817600, 35, 0, 0], [1125875207, "Korean Pronouns", 0.0, 0, 1444435200, 64, 0, 0], [1408519942, "Verbes irr\u00e9guliers en anglais (162) + leurs prononciations", 4.5, 2, 1448150400, 162, 163, 3], [183795164, "Vasco/Basque/Euskera 1 - Pronombres y posesivos", 0.0, 0, 1443398400, 17, 0, 1], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [1330372651, "Algorithmist's Norwegian Pronouns with Audio", 0.0, 0, 1446940800, 18, 29, 29], [2055255418, "Veronica", 0.0, 0, 1444089600, 9, 0, 0], [960396052, "miriam-environment", 0.0, 0, 1444780800, 91, 2, 82], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 0.0, 0, 1445472000, 14, 0, 0], [401749660, "Spanish personal pronouns", 0.0, 0, 1444003200, 51, 0, 0], [1066201748, "Chronologie Histoire-G\u00e9o", 0.0, 0, 1442966400, 65, 0, 0], [1542691095, "Neurons and Glia", 0.0, 0, 1444521600, 160, 0, 0], [226038635, "Veronica 3B", 0.0, 0, 1444780800, 16, 0, 0], [1089325367, "Personal Pronouns, 8th grade Spanish", 0.0, 0, 1444003200, 51, 0, 0], [1120551019, "Veronica 3B", 0.0, 0, 1444089600, 20, 0, 0], [221232868, "Thai words, writing and pronounciation", 0.0, 0, 1443571200, 0, 0, 0], [4269065416, "Bible Quiz 14: II Chronicles", 0.0, 0, 1345852800, 155, 0, 0], [1133240153, "CA1 acronyms by GG", 0.0, 0, 1440547200, 47, 0, 0], [2980560471, "Bible Quiz 13: I Chronicles", 0.0, 0, 1345852800, 91, 0, 0], [911206921, "Pronuntiation Buchstaben", 0.0, 0, 1439424000, 29, 32, 1], [1171316921, "NEURONEURO", 0.0, 0, 1442361600, 601, 0, 192], [1713587535, "JMC Audio: 205 Electronics Notes", 0.0, 0, 1440201600, 277, 0, 4], [1723417078, "word choronghi japanese deck", 1.0, 1, 1387324800, 8478, 27, 1484], [108270676, "Die Zahlen (1-20) mit Pronuntiation", 0.0, 0, 1439510400, 20, 23, 1], [3952890737, "Arabic Personal Pronouns", 0.0, 0, 1383350400, 12, 0, 0], [171286370, "Personal Pronomen mit Konjugation von Verb ,,sein\"", 0.0, 0, 1439510400, 9, 12, 1], [743619055, "JMC Audio: 206 Introduction to Electronic Music Notes", 0.0, 0, 1440201600, 145, 0, 4], [1642351538, "Moore College Hebrew Strong Verb Paradigms", 0.0, 0, 1391731200, 243, 0, 0], [219475345, "Portuguese verbs. Front in English, back in Portuguese", 0.0, 0, 1352332800, 138, 0, 0], [1427731002, "Self share_kron", 0.0, 0, 1434326400, 498, 0, 1], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1977809133, "TY A01 Pronouns", 0.0, 0, 1438646400, 6, 6, 6], [168543266, "False Friends - Cognates - Ronronia", 0.0, 0, 1424131200, 262, 0, 0], [928000207, "BB 02.11.15 Neurons and Glia", 0.0, 0, 1423785600, 35, 0, 4], [510404938, "Cr\u00e8ole pronunciation", 0.0, 0, 1431129600, 35, 0, 0], [1500523238, "yome choronghi", 0.0, 0, 1387324800, 4036, 0, 756], [958302064, "Pronunciation trainer and minimal pairs", 0.0, 0, 1412467200, 101, 133, 65], [1860004285, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [1106291704, "Barrons GRE 4813 wordlist pron, EN, RU", 0.0, 0, 1399593600, 4813, 0, 0], [565172298, "Marys IB SBWL The Cultural Environment of IB @ WU Wien", 0.0, 0, 1397779200, 30, 0, 0], [2891920539, "HMS.IMP.Chronic.Inflammation", 0.0, 0, 1364342400, 26, 0, 2], [650333509, "Slovenian personal pronounces - Osebni zaimki", 0.0, 0, 1438214400, 16, 0, 16], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [2042890169, "biologia operon 2 matura 15", 0.0, 0, 1416614400, 33, 0, 0], [2968269403, "Korgan's German personal pronouns", 5.0, 1, 1345852800, 14, 0, 0], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [1811186782, "Marathi - pronouns", 0.0, 0, 1403654400, 39, 0, 0], [688386484, "Biochem, Unit 4; The structure of Neurons and Glia", 0.0, 0, 1414108800, 75, 0, 0], [1164305399, "Gastronomie PL-DE Krzysztof Nowaczek", 0.0, 0, 1345852800, 1233, 0, 0], [1724180525, "auditory ron1", 0.0, 0, 1395964800, 17, 0, 18], [1607499809, "Aronson's Memorised Deck Stack", 0.0, 0, 1435190400, 104, 0, 53], [4022757295, "Pharnygeal arches/pouches (ron)", 0.0, 0, 1379030400, 16, 0, 3], [1888485670, "Environment (cours, NB)", 0.0, 0, 1432339200, 236, 0, 0], [1023766037, "Vipul Naik's acronyms", 0.0, 0, 1400716800, 23, 0, 0], [1172824577, "Japanese Pronouncing Times (JTMW)", 0.0, 0, 1413158400, 29, 0, 0], [750898269, "study German pronounciation", 0.0, 0, 1386720000, 178, 181, 0], [2412441701, "Game of Thrones / Gra o Tron, English - Polish, 0001-0100", 0.0, 0, 1374019200, 101, 0, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [887012279, "Iron Metabolism", 0.0, 0, 1411862400, 62, 0, 0], [115263812, "Environment nico", 0.0, 0, 1433203200, 206, 0, 0], [1497261440, "Gerontology", 0.0, 0, 1415577600, 45, 0, 0], [48929203, "Acronyms used within St John Ambulance Australia", 0.0, 0, 1424217600, 9, 0, 0], [928140404, "Wallangues / Altissia Pronunciation English", 0.0, 0, 1386633600, 53, 0, 0], [341198269, "Jurga's Lithuanian Prononunciation Deck", 0.0, 0, 1421366400, 42, 42, 33], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [1491900759, "Game of Thrones (En-Dt) (by Ambrosius; April 2015)", 4.5, 2, 1430006400, 425, 0, 0], [2084751585, "PSYC 311 Coronal Sections", 0.0, 0, 1428969600, 162, 0, 161], [896726834, "ITIL Foundation Acronyms and Initials", 0.0, 0, 1406851200, 51, 0, 0], [1453046109, "Immunology Cytokines, Surface Molecules, Acronyms", 0.0, 0, 1418428800, 53, 0, 0], [3727329958, "En-Pronunciation", 0.0, 0, 1354406400, 32, 0, 0], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [59073739, "[mux] Pronunciation excercise", 4.0, 1, 1392768000, 76, 192, 1], [2048387633, "Shulu pronunciation v2", 0.0, 0, 1429056000, 86, 98, 61], [561646050, "Acute & Chronic Leukemia ", 0.0, 0, 1392854400, 38, 0, 8], [3240296319, "say-it japanese choronghi", 0.0, 0, 1369526400, 2614, 0, 1237], [909382456, "Aviation civile : environnement", 0.0, 0, 1411084800, 24, 0, 0], [397817534, "FHB L1: Neuronal Electrophysiology", 0.0, 0, 1420502400, 13, 0, 17], [145047688, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [936693809, "pronunciation", 0.0, 0, 1391990400, 654, 0, 0], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [971124808, "Block 2 Path: Environmental for Ravi", 0.0, 0, 1430006400, 997, 0, 600], [211697247, "Valuable Words in Barron's\"1100 words you need to know\"", 0.0, 0, 1410652800, 295, 0, 0], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [1129137831, "Latin 8th grade personal pronouns", 0.0, 0, 1414540800, 36, 0, 0], [6918823, "QX Acronyms", 0.0, 0, 1411430400, 42, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [630110042, "Pronomes possessivos (SLC)", 0.0, 0, 1384300800, 6, 0, 0], [3455359064, "Czech German irrergular (strong) verbs 1.0", 0.0, 0, 1383868800, 181, 0, 0], [1263371019, "ron deck CN hardy 1", 0.0, 0, 1378944000, 45, 0, 6], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [1259837048, "Ithkuil suffix degree pronunciation", 0.0, 0, 1376611200, 18, 0, 18], [680066958, "Barrons 3500 word list", 0.0, 0, 1360022400, 3403, 780, 369], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [1626054154, "GCSE Spanish AQA Environment", 0.0, 0, 1345852800, 119, 0, 0], [1451992170, "Helping out da jabroni!", 0.0, 0, 1429660800, 14, 0, 17], [1077496304, "Neurons and Glia UCI SOM", 0.0, 0, 1398297600, 27, 0, 9], [836072956, "HTLinn Elektronik Vokabelliste", 0.0, 0, 1414972800, 799, 0, 0], [3338743476, "chinese traditional intermediate by mingrong", 0.0, 0, 1359763200, 5950, 1854, 0], [183858094, "Cantonese pronunciation for the2400 most common characters i", 0.0, 0, 1415491200, 2400, 0, 0], [857304128, "Electronics", 0.0, 0, 1381190400, 169, 0, 2], [2077295616, "Voc Anglais \"Science, New Technologie and Astronautics\"", 0.0, 0, 1360886400, 76, 0, 0], [1887362521, "English Pronunciation (\u05d1\u05d9\u05d8\u05d5\u05d9 \u05d0\u05e0\u05d2\u05dc\u05d9\u05ea)", 0.0, 0, 1431216000, 8, 8, 8], [816953505, "Barron's 3500 for SAT", 5.0, 2, 1358294400, 3457, 0, 0], [1552160807, "Vocabulary - Human Body - Ronronia", 0.0, 0, 1423872000, 88, 0, 0], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [3001803639, "German relative pronouns", 0.0, 0, 1360368000, 16, 0, 0], [1789068393, "Less Wrong ", 0.0, 0, 1409011200, 114, 0, 3], [143693304, "Ingl\u00eas Pronuncia (1k)", 0.0, 0, 1406419200, 1011, 1027, 2], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [271662380, "tong hop Barron", 0.0, 0, 1362096000, 2782, 0, 0], [839019034, "Thai tone pronunciation practise", 0.0, 0, 1399507200, 94, 94, 0], [1088245296, "Less Wrong Be Happier", 0.0, 0, 1416009600, 34, 0, 1], [1665321850, "Gamilaraay Pronouns", 0.0, 0, 1425254400, 49, 44, 49], [281819247, "X-Ray Photoelectron Spectroscopy ", 0.0, 0, 1387411200, 11, 0, 7], [1496957243, "Environmental Health and Toxicity", 0.0, 0, 1392681600, 92, 0, 0], [2062271779, "USask PHPM Environmental Health", 0.0, 0, 1443484800, 514, 0, 8], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [1345276174, "Marathi - environment", 0.0, 0, 1403654400, 67, 0, 0], [2058757917, "Vocabulary - Physique - Ronronia", 0.0, 0, 1423872000, 134, 0, 0], [1398545191, "Arabic possessive (attached) pronouns", 0.0, 0, 1383350400, 12, 0, 0], [2075981724, "Chronic Inflammation", 0.0, 0, 1359331200, 54, 0, 0], [1029451814, "T7\u00d6ron", 0.0, 0, 1401062400, 100, 0, 18], [3990692596, "Erik's German Pronunciation Deck", 0.0, 0, 1353024000, 180, 176, 0], [3481693948, "Choronghi korean", 5.0, 1, 1387324800, 1926, 0, 561], [1975673825, "Electronics: Resistor Color Coding", 5.0, 1, 1391904000, 17, 0, 30]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ron</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[171512949, "fmHTN", 0.0, 0, 1454630400, 29, 0, 0], [195601326, "Amharic-English Flashcards", 0.0, 0, 1454889600, 971, 0, 0], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 4.0, 1, 1449964800, 280, 0, 0], [1085600304, "rowan som fundamentals 2 microbiology LECTURE 2 MHC TCR", 0.0, 0, 1410307200, 60, 0, 26], [2068107225, "Amharic Vocabulary: Verbs", 0.0, 0, 1449964800, 339, 0, 0], [1548877679, "Amharic Vocabulary: Nouns", 0.0, 0, 1449964800, 855, 0, 0], [1331031100, "UMass Amherst Art History 118 Final Study Deck", 0.0, 0, 1449878400, 15, 0, 13], [1756298039, "SS333-Stage3", 0.0, 0, 1447977600, 1466, 0, 2], [736141511, "Manuscript Japanese UMass Amherst (Hentaigana)", 0.0, 0, 1450310400, 48, 3, 48], [363270366, "English MHS Language Devices 2015", 0.0, 0, 1447286400, 23, 0, 0], [316956013, "Menschen A1 mmhahmadi", 0.0, 0, 1444003200, 2173, 0, 231], [1227655700, "MHG", 0.0, 0, 1444608000, 155, 0, 73], [113389803, "ASUMH PARAMEDIC", 0.0, 0, 1440460800, 1783, 0, 0], [241060352, "Amharic_ILRI", 5.0, 1, 1445472000, 317, 316, 314], [597159811, "EMT ASUMH Prehospital Emergency Care 10th Editi", 0.0, 0, 1437696000, 1940, 0, 0], [665313153, "MHCHS Key Slave Trading Events", 0.0, 0, 1363737600, 62, 0, 0], [2001843700, "MHCHS Edexcel Unit 2: Topic 4 Nazi Domestic Policies 1933-39", 0.0, 0, 1388016000, 52, 0, 0], [486318472, "Amharic starter", 0.0, 0, 1392768000, 53, 0, 0], [867983239, "CS 121 - UMass Amherst", 0.0, 0, 1390348800, 95, 0, 2], [857344026, "SRLMHH", 0.0, 0, 1359244800, 13, 0, 0], [1517585812, "Geez-Amharic words ", 0.0, 0, 1428019200, 20, 1, 1], [841282207, "MHCHS Edexcel GCSE Unit 1 Section 1", 0.0, 0, 1371254400, 39, 0, 0], [3524369849, "MHCHS Edexcel Unit 2: Topic 2 Rise of the Nazi Party 1918-33", 0.0, 0, 1383091200, 41, 0, 0], [632602298, "MHCHS Edexcel Unit 2: Weimar Republic 1918-33", 0.0, 0, 1383091200, 86, 0, 0], [873614870, "general pathology", 0.0, 0, 1417046400, 211, 0, 7], [624676379, "MHCHS Edexcel Unit 2: Topic 3 The Nazi Dictatorship 1933-39", 0.0, 0, 1387929600, 59, 0, 0], [979664384, "HMS.IMP.MHC", 0.0, 0, 1364601600, 27, 0, 0], [1725261195, "EMHogue", 0.0, 0, 1430265600, 45, 0, 0], [3609594007, "MHCHS Timeline of British Empire 1492-1763", 0.0, 0, 1370131200, 26, 0, 0], [73210253, "meb1mhg17", 0.0, 0, 1382832000, 48, 0, 0], [1472546935, "amarakosha-simhAdi", 0.0, 0, 1368403200, 531, 0, 0], [2158320535, "Max*/Matiar/Ameer MHC molecules", 0.0, 0, 1379289600, 12, 0, 10], [2288741695, "MHCHS Politics Key Words and Information", 0.0, 0, 1381104000, 21, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mh</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1794956578, "Edible weeds and wild herb identification", 5.0, 1, 1417478400, 280, 0, 271], [1022264668, "Pathology for Second-Year Med Students", 4.5, 2, 1437696000, 3605, 0, 563], [986229768, "Biomedizinische Technik TU Dresden", 5.0, 1, 1454544000, 85, 0, 0], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [1833750820, "Bayerische K\u00f6nige und Ministerpr\u00e4sidenten 1799-1933", 0.0, 0, 1454716800, 31, 0, 0], [600425609, "Denny's Menu", 0.0, 0, 1454457600, 6, 0, 0], [1809903103, "Periodensystem mit Atomdaten", 5.0, 3, 1351123200, 118, 0, 0], [2087959279, "U.S. Presidents (/w pics)", 0.0, 0, 1453161600, 44, 0, 43], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [1939483822, "Hector ludena", 0.0, 0, 1454025600, 10, 0, 0], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [678445357, "Gladenbach qui/quae/quod", 0.0, 0, 1453766400, 10, 0, 0], [1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [120847549, "Tweede Kamer - Kabinet-Rutte II ", 0.0, 0, 1453852800, 14, 0, 14], [2201805440, "1000 Most Common Thai Words [TH,EN,DE,MP3,HiddenPhonetic]", 3.33, 3, 1352764800, 1000, 0, 0], [691308250, "Trident OB gyn", 0.0, 0, 1452643200, 17, 0, 0], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [162187570, "Gladenbach 16", 0.0, 0, 1453766400, 44, 0, 0], [2100235973, "Gladenbach 15", 0.0, 0, 1453766400, 52, 0, 0], [1454547900, "Gladenbach 14", 0.0, 0, 1452729600, 27, 0, 0], [744441926, "Identifiactions of amino acids and proteins. ", 0.0, 0, 1452902400, 0, 0, 0], [1049070721, "methoden 10 kowi uhlemann", 0.0, 0, 1452211200, 9, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [428131788, "Stuttgart Lernwortschatz Ciceros Reden", 0.0, 0, 1451433600, 200, 0, 0], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [64066910, "Sveriges landskap (Provinces of Sweden)", 1.0, 1, 1441238400, 25, 0, 0], [622673852, "methoden 8 kowi uhlemann", 0.0, 0, 1452211200, 16, 0, 0], [1688346635, "methoden 11 kowi uhlemann", 0.0, 0, 1452211200, 20, 0, 1], [1075465080, "Toefl for persian (Farsi) students", 0.0, 0, 1451520000, 1891, 0, 0], [153746441, "Brain-driven psychological concepts and tendencies", 5.0, 1, 1442793600, 272, 0, 9], [2126897672, "methoden 9 kowi uhlemann", 0.0, 0, 1452211200, 21, 0, 0], [2133136749, "Fall 2015 Condensed Alkene Reactions", 0.0, 0, 1449014400, 12, 0, 24], [893822998, "Spanisch Deutsch Handelskorrespondenz", 0.0, 0, 1449964800, 294, 0, 0], [1067297930, "248-DENUTRITION", 0.0, 0, 1450051200, 9, 0, 0], [528335417, "Krieg und Frieden", 0.0, 0, 1449705600, 3, 0, 0], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [1912983973, "English - Advanced - Dennis School ", 0.0, 0, 1445558400, 331, 0, 0], [1668122086, "Indo woorden", 0.0, 0, 1447459200, 633, 93, 634], [1906780705, "Chinesisch  Deutsch Handelskorrespondenz", 0.0, 0, 1447200000, 114, 0, 0], [746963567, "Methoden 1 Kowi Uhleman", 0.0, 0, 1446595200, 16, 0, 0], [1476759630, "Gladenbach 13", 0.0, 0, 1448323200, 44, 0, 0], [1681063052, "methoden 3 kowi uhleman", 0.0, 0, 1446595200, 17, 0, 0], [382007413, "methoden kowi 2 uhleman", 0.0, 0, 1446595200, 4, 0, 0], [178023466, "Plant Idents - Various Plants", 0.0, 0, 1444089600, 20, 0, 21], [1332833324, "methoden 5 kowi uhlemann", 0.0, 0, 1447891200, 18, 0, 1], [337171345, "Chris's flashcards (USC dental)", 0.0, 0, 1447286400, 127, 0, 6], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [714702480, "methoden 6 uhlemann kowi", 0.0, 0, 1447891200, 29, 0, 11], [1967592565, "medical vocabulary 7 - injuries and accidents", 0.0, 0, 1445385600, 86, 0, 0], [285703120, "Rules of Evidence ", 0.0, 0, 1444953600, 143, 0, 0], [389347934, "Frans-Nederlands basiswoordenschat", 0.0, 0, 1420156800, 840, 0, 0], [967309941, "Gladenbach 12", 0.0, 0, 1444608000, 57, 0, 0], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [1429538167, "Don't get dengue 3", 0.0, 0, 1445040000, 299, 0, 6], [493100310, "Maanden Frans - Nederlands en vv", 0.0, 0, 1442966400, 24, 5, 0], [1843761656, "Gladenbach 11", 0.0, 0, 1441670400, 59, 0, 0], [1275372900, "GI Pharm2/Path4 condensed", 0.0, 0, 1444176000, 92, 0, 83], [1438844343, "Top-50 Spaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 1054, 1, 1], [1844711579, "Esperanto woorden en zinnen EO-NL", 4.0, 1, 1428019200, 7435, 0, 0], [2067752537, "Verben mit den feste pr\u00e4positionen", 0.0, 0, 1443052800, 248, 0, 0], [353580872, "Meine Identit\u00e4t in Jesus (1/3)", 0.0, 0, 1441843200, 9, 0, 0], [969379912, "USC Dental - Virginia Ovine", 0.0, 0, 1439078400, 25, 0, 0], [1765536239, "Presydent", 0.0, 0, 1439078400, 26, 0, 0], [618576749, "USC Dental - George Gonzalez", 0.0, 0, 1439078400, 52, 0, 9], [517276898, "Hayden's Random Medical Trivia", 0.0, 0, 1440028800, 1090, 0, 136], [1843110602, "Zelfstandig naamwoorden Russisch", 0.0, 0, 1418515200, 45, 0, 0], [1198153315, "Evidence Based Medicine", 1.0, 1, 1440374400, 224, 0, 95], [1176697844, "Top-50 Italiaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 900, 1, 1], [1521042867, "nederlandse woorden\u3000 naar \u65e5\u672c\u8a9e\u306e\u5358\u8a9e", 0.0, 0, 1437350400, 4, 0, 0], [2658038690, "Guide to Dakini Land condensed meaning p4", 0.0, 0, 1370649600, 8, 0, 0], [1122988552, "J1 Dl1 Woordenlijst unit 2 KANJI", 0.0, 0, 1412467200, 56, 0, 0], [457026582, "Pharmacology, Age dependent changes", 0.0, 0, 1351123200, 20, 0, 0], [653346137, "cvo-db-1-Spaanse woordenschat", 2.0, 1, 1363478400, 946, 0, 0], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [245039130, "L2 - Werkwoorden", 0.0, 0, 1390348800, 125, 0, 0], [107850262, "Camden Town - Starter", 0.0, 0, 1400630400, 52, 0, 0], [942552343, "J1 Dl1 Woordenlijst unit 5 KANJI", 0.0, 0, 1414454400, 50, 0, 0], [734877436, "J1 Dl1 Woordenlijst unit 1", 0.0, 0, 1412467200, 113, 0, 0], [136467897, "Hoofdsteden van Europese landen", 1.0, 1, 1345852800, 43, 0, 0], [3505953313, "Federal Rules of Evidence", 0.0, 0, 1377734400, 57, 0, 0], [1441898832, "Mikrobil\u00e4\u00e4kkeiden tyyppiaineita", 0.0, 0, 1410307200, 13, 0, 0], [1414021581, "Gladenbach 6", 0.0, 0, 1428364800, 44, 0, 0], [3611799994, "Guide to Dakini Land condensed meaning headings", 0.0, 0, 1370649600, 9, 0, 0], [1751457864, "Latijn onregelmatige werkwoorden", 0.0, 0, 1395360000, 245, 0, 0], [2126424186, "\u8a9e\u5f59\u300c\u3054\u3044\u300d (Woordenschat - Vocabulary)", 0.0, 0, 1419033600, 839, 0, 0], [1307483730, "deutsche pr\u00e4positionen mit den verben", 0.0, 0, 1428364800, 248, 0, 0], [3347309899, "Guide to Dakini Land condensed meaning p7", 0.0, 0, 1370649600, 7, 0, 0], [1563908616, "UCONN Med/Dent HB2 Anatomy Didactic", 0.0, 0, 1414281600, 114, 0, 1], [526774205, "\u52d5\u8a5e \u300c\u3069\u3046\u3057\u300d (Werkwoorden - Verbs)", 0.0, 0, 1424736000, 236, 0, 0], [2554204149, "Gymnasium Physik 12 Maria von Linden Schule", 0.0, 0, 1350864000, 16, 0, 0], [798453957, "UQ MBBS 1 PBL 12 Hidden in the Crypts", 0.0, 0, 1395532800, 79, 0, 0], [1670900781, "Marys Methoden der Marketingforschung Einheit 1 @ WU Wien", 0.0, 0, 1387065600, 51, 0, 31], [507029487, "Wie war's in den Ferien?", 0.0, 0, 1426291200, 53, 53, 55], [1073806654, "Guide to Dakini Land condensed meaning p8", 0.0, 0, 1370649600, 7, 0, 0], [912412174, "Corrected Student Sentences", 0.0, 0, 1421020800, 45, 0, 0], [478163536, "Statistische Methoden der Risikotheorie", 0.0, 0, 1427932800, 29, 0, 33], [373505356, "UCONN Medical and Dental OS3 Histology ", 0.0, 0, 1400803200, 661, 0, 661], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [1335608706, "Direito Previdenci\u00e1rio", 1.0, 1, 1423526400, 43, 0, 0], [1549757360, "UP-ERN Methoden der Biochemie", 0.0, 0, 1424822400, 57, 0, 11], [1149385472, "Zelfstandig naamwoorden Russisch mv", 0.0, 0, 1424476800, 42, 0, 0], [2191004342, "StudentCafe Comunity on Google+", 0.0, 0, 1362441600, 17, 0, 0], [837477221, "NBDE Dental Anatomy", 0.0, 0, 1390953600, 73, 0, 4], [949134539, "\"Camden Town\" theme 6 - A", 0.0, 0, 1398729600, 30, 0, 0], [983695202, "Transport Canada TP 11919 (PSTAR)- Student Pilot Permit or P", 0.0, 0, 1360972800, 192, 0, 1], [1802766164, "NTSJA DTPs for ECU students", 0.0, 0, 1408060800, 188, 0, 0], [349334532, "The Flag Students (TFS)", 0.0, 0, 1436832000, 269, 0, 7], [499451121, "Lec 13 Synthesizing and Interpreting Scientific Evidence", 0.0, 0, 1414540800, 14, 0, 0], [1639170777, "Grieks-Nederlandse woordenschat SCVO cursus Berchem jr 1 & 2", 0.0, 0, 1369180800, 981, 0, 0], [781623206, "Gladenbach 7", 0.0, 0, 1427932800, 49, 0, 0], [1629143602, "T\u00fcrk\u00e7e - Nederlands S\u00f6zc\u00fck listesi - Woordenlijst 4", 0.0, 0, 1410739200, 3350, 0, 0], [279902009, "Rangtelwoorden Russisch", 0.0, 0, 1417996800, 28, 0, 0], [1666337911, "Hoofdsteden van Nederlandse provincies", 0.0, 0, 1345852800, 12, 0, 0], [1032130282, "J1 Dl1 Woordenlijst unit 3", 0.0, 0, 1414454400, 111, 0, 0], [823685012, "UConn Medical and Dental OS2 Anatomy Didactic", 0.0, 0, 1396742400, 140, 0, 40], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [1332453173, "2014.07.13 Resident Rights Advocacy", 0.0, 0, 1405296000, 1, 0, 0], [3137623451, "beeldende kunsten", 0.0, 0, 1397952000, 34, 0, 45], [120237169, "UConn Medical and Dental OS2 Anatomy Identification", 0.0, 0, 1397088000, 383, 0, 349], [4085479325, "Presidentes do Brasil (Brazil Presidents)", 0.0, 0, 1353456000, 38, 0, 38], [2126514171, "UCONN Medical and Dental OS2 Updated Radiology Deck", 0.0, 0, 1397260800, 134, 0, 50], [619551680, "RFC test 2, 3 letter identifiers", 0.0, 0, 1392336000, 72, 0, 0], [1348043857, "J1 Dl1 Woordenlijst unit 4 KANJI", 0.0, 0, 1414454400, 58, 0, 0], [395054002, "Aprendendo alem\u00e3o com Anki", 1.0, 1, 1428192000, 3, 0, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [1289365935, "HD4 Lymphadenopathy & Lymphoma", 0.0, 0, 1396915200, 37, 0, 36], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [3421982235, "Guide to Dakini Land condensed meaning p6", 0.0, 0, 1370649600, 7, 0, 0], [707902025, "Business English. B2. Lesson 2. Business correspondence", 0.0, 0, 1429142400, 15, 0, 0], [1506869770, "Das Periodensystem der Elemente 2010 (112 Elemente)", 0.0, 0, 1345852800, 112, 0, 0], [828445577, "MSA 8.36 - Common Ailments and Accidental Injuries", 0.0, 0, 1426636800, 35, 0, 0], [2016709354, "Gladenbach 5", 0.0, 0, 1428451200, 42, 0, 0], [2147178489, "Persoonlijk voornaamwoorden Russisch", 0.0, 0, 1417996800, 53, 0, 0], [2067075275, "Gladenbach 4", 0.0, 0, 1428537600, 43, 0, 0], [894435405, "Nederlandse woordenlijst B1", 0.0, 0, 1431907200, 432, 0, 0], [2984066337, "RGBM Week 3 Independent Studies", 0.0, 0, 1358294400, 49, 0, 3], [2121631267, "telwoorden Russisch", 0.0, 0, 1412121600, 28, 0, 0], [1154019711, "Tema 10. Farmacolog\u00eda II. Farmacodependencias", 0.0, 0, 1363996800, 6, 0, 0], [502929531, "Marys Methoden der Marketingforschung Einheit 3-6 @ WU Wien", 0.0, 0, 1387065600, 11, 0, 5], [1973420773, "SaraYale This deck is for my students.", 0.0, 0, 1410134400, 501, 500, 0], [365302010, "Evidence", 0.0, 0, 1396828800, 57, 0, 0], [1442182838, "Guide to Dakini Land condensed meaning p2", 0.0, 0, 1370649600, 5, 0, 0], [1730048436, "Gladenbach 2", 0.0, 0, 1428710400, 40, 0, 0], [1057658858, "MSA 8.37 - Dentistry and Health Consultation", 0.0, 0, 1426636800, 29, 0, 0], [1149999087, "J1 Dl1 Woordenlijst unit 5", 0.0, 0, 1414454400, 76, 0, 0], [2621774113, "cvo-db-1-Spaanse werkwoorden - tegenwoordige tijd", 0.0, 0, 1363478400, 41, 0, 0], [974475246, "Gladenbach 9", 0.0, 0, 1428364800, 51, 0, 0], [3330472718, "Guide to Dakini Land condensed meaning p5", 0.0, 0, 1370649600, 6, 0, 0], [1735436350, "Guide to Dakini Land condensed meaning p1", 0.0, 0, 1370649600, 3, 0, 0], [420399809, "Marys Methoden der Marketingforschung SPSS @ WU Wien", 0.0, 0, 1387065600, 35, 0, 7], [1863181846, "Farmacolog\u00eda II Farmacodependencia", 0.0, 0, 1363824000, 6, 0, 0], [2711495693, "Gruden Pinyin Patonghua", 0.0, 0, 1345852800, 54, 0, 0], [1486822972, "Camden Town 5 - vocab - all themes ", 0.0, 0, 1403136000, 443, 0, 0], [1004046382, "J1 Dl1 Woordenlijst unit 3 KANJI", 0.0, 0, 1414454400, 96, 0, 0], [217641867, "Guide to Dakini Land condensed meaning p9", 0.0, 0, 1370649600, 6, 0, 0], [2125511416, "Marys Methoden der Marketingforschung Einheit 2 @ WU Wien", 0.0, 0, 1387065600, 25, 0, 10], [1838277718, "mindennapi szavak", 0.0, 0, 1396828800, 656, 0, 612], [1844518864, "J1 Dl1 Woordenlijst unit 1 KANJI", 0.0, 0, 1412467200, 90, 0, 1], [1966450662, "Unindentified", 0.0, 0, 1420416000, 53, 0, 0], [848648756, "UCONN Med/Dent HB2 Anatomy Radiology", 0.0, 0, 1414281600, 268, 0, 67], [458639325, "LBR8 -- Criminal Law, Procedure, and Evidence", 0.0, 0, 1405900800, 49, 0, 0], [2111317989, "Dentistry Chemistry", 0.0, 0, 1387411200, 10, 0, 25], [774176087, "Aprendendo Latim", 0.0, 0, 1428796800, 7, 0, 0], [259274203, "RGBM Week 2-3 Independent Studies", 0.0, 0, 1358294400, 67, 0, 4], [198433008, "U.S. Presidents Dates of Service", 0.0, 0, 1408406400, 50, 0, 0], [311822124, "Beginner Chinese for students at Dalarna University", 0.0, 0, 1425772800, 74, 3, 3], [3362778311, "La Bar Criminal Law, Procedure, and Evidence", 0.0, 0, 1374192000, 22, 0, 0], [818562244, "Biostats UConn Med/Dental", 0.0, 0, 1394668800, 93, 0, 34], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [2889581819, "Presidents of the United States", 0.0, 0, 1354320000, 44, 0, 0], [4102788222, "bulgarian-intro-denise", 0.0, 0, 1373500800, 582, 0, 0], [1589506583, "J1 Dl1 Woordenlijst unit 4", 0.0, 0, 1414454400, 63, 0, 0], [1513895924, "LBR8 -- Crim and Evidence", 0.0, 0, 1405900800, 69, 0, 0], [3227642277, "Guide to Dakini Land condensed meaning p3", 0.0, 0, 1370649600, 6, 0, 0], [253334733, "Direito Previdenciario AFRFB FSSILVA", 5.0, 1, 1424390400, 335, 0, 16], [186573550, "RGBM Independent Studies I ", 0.0, 0, 1358294400, 67, 0, 4], [3201067748, "pyth_my_den", 0.0, 0, 1353628800, 1, 0, 0], [300299773, "J1 Dl1 Woordenlijst unit 2", 0.0, 0, 1412467200, 62, 0, 0], [1184749066, "Gladenbach 1", 0.0, 0, 1428796800, 41, 0, 0], [2125891601, "Gladenbach 8", 0.0, 0, 1427932800, 54, 0, 0], [125914526, "Gladenbach 10", 0.0, 0, 1428969600, 53, 0, 0], [193286086, "Gladenbach 3", 0.0, 0, 1428624000, 40, 0, 0], [850771992, "Dogs and Cats Neuro and Sudden Death", 0.0, 0, 1420243200, 583, 0, 0], [877756350, "U.S. Presidents", 0.0, 0, 1345852800, 87, 0, 0], [1683104414, "Engelse woorden - moeilijk - NL -> EN", 0.0, 0, 1428969600, 472, 0, 15]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Den</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

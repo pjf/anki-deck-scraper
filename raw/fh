@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[601588002, "Lqsd sdofji ksdjfhskjd", 0.0, 0, 1453939200, 140, 0, 332], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [639604528, "MakroHBRS", 0.0, 0, 1437091200, 8, 0, 2], [2067911096, "FHB L13: Interactions between the Heart and the Peripheral V", 0.0, 0, 1421798400, 8, 0, 9], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [1628940778, "FH Technikum Wien - Audiotechnik", 0.0, 0, 1422230400, 38, 0, 9], [178828042, "FHB L18: Control of the Circulation", 0.0, 0, 1422057600, 9, 0, 17], [1965989986, "FHB L29: Gas Transport", 0.0, 0, 1423612800, 13, 0, 42], [1304733696, "FHB Small Group: Hemodynamics", 0.0, 0, 1422489600, 7, 0, 5], [2000097946, "FHB Small Group: Hemoglobin", 0.0, 0, 1423699200, 9, 0, 11], [397817534, "FHB L1: Neuronal Electrophysiology", 0.0, 0, 1420502400, 13, 0, 17], [1017242423, "FHB L22: Special Circulations: Cutaneous & Splanchnic", 0.0, 0, 1422403200, 10, 0, 10], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [3816457520, "Jumbucks 22,000 Scrabble FHKVWY Bingo Sets", 0.0, 0, 1345852800, 22247, 0, 0], [1799342418, "FHB Small Group: Special Circulation", 0.0, 0, 1422489600, 5, 0, 1], [1280522285, "FHB L26: Ventilation", 0.0, 0, 1423440000, 10, 0, 31], [439343183, "FHB Small Group: Cardiac Mechanics", 0.0, 0, 1422230400, 4, 0, 7], [1180957895, "FHB: EKG Conference", 0.0, 0, 1421452800, 15, 0, 22], [1257784623, "FHB L2: Neurotransmission & Autonomic NS", 0.0, 0, 1420502400, 17, 0, 24], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [232395375, "FHB L3: Striated Muscle Physiology", 0.0, 0, 1420502400, 28, 0, 38], [1598672102, "FHB Small Group: Muscle & Cardiac Electrophysiology", 0.0, 0, 1422230400, 6, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Fh</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

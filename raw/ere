@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1584323243, "Anatomy: Circle of Willis and Intracerebral Bleeds", 0.0, 0, 1454889600, 12, 0, 0], [324680302, "a good reference to learn javascript", 0.0, 0, 1454457600, 128, 0, 0], [1461579132, "106 Common Japanese Verbs and their Different Forms", 4.0, 2, 1421366400, 108, 0, 0], [595360096, "eren1", 0.0, 0, 1454025600, 5, 0, 0], [1525494286, "Negierende Pr\u00e4fixe", 0.0, 0, 1453248000, 20, 0, 0], [54856360, "eren2", 0.0, 0, 1454025600, 10, 0, 0], [1647469208, "Japanese Kanji Frequency Ordered", 5.0, 2, 1420329600, 2198, 0, 1], [593760162, "Corrupcion y Conferencia", 0.0, 0, 1454025600, 128, 0, 0], [224181860, "lazy cards for everyone interested in remembering kanji", 0.0, 0, 1452124800, 2042, 0, 0], [1592170734, "Hygiene und Unfallverh\u00fctung  im Haushaltsbereich", 0.0, 0, 1452211200, 29, 0, 0], [1286357363, "Untere Extremit\u00e4t", 0.0, 0, 1452297600, 312, 0, 0], [703681848, "Bibelkunde NT (9) - Nachgereichte Karten", 0.0, 0, 1453680000, 13, 0, 0], [624421632, "sopica assistance hospitaliere", 0.0, 0, 1453248000, 9, 0, 0], [1520282817, "ANAT: Untere Ex. I", 0.0, 0, 1452297600, 57, 0, 2], [306130418, "Agatha Christie \u2013 And then there were none", 0.0, 0, 1452643200, 105, 3, 0], [1658418547, "Debreceni Egyetem Turizmus  szak Turizmus rendszere", 0.0, 0, 1451347200, 44, 0, 0], [605377097, "Oktat\u00e1si alapismeretek \u00e9retts\u00e9gi k\u00e9rd\u00e9sek", 0.0, 0, 1451779200, 1101, 0, 0], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [1099216650, "here you go ", 0.0, 0, 1448755200, 70, 0, 0], [1100926520, "Kanji da leggere Saito", 0.0, 0, 1449187200, 249, 0, 0], [807702906, "   Tiere", 0.0, 0, 1449705600, 0, 0, 0], [756468068, "Entrereneurship for Chris", 0.0, 0, 1449100800, 66, 0, 93], [1894538180, "cseres-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [955916647, "Deutsch-Russisch. Medizin und andere. Teil 1. Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [1096582102, "Cocktail recipes covered by a NW US Bartending College", 0.0, 0, 1447632000, 127, 0, 0], [1078213166, "Deutsch-Russisch. Medizin und andere. Teil 2 Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [417039606, "Intereses", 0.0, 0, 1447372800, 14, 0, 0], [1424373046, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [467115427, "Rules of Inference ", 0.0, 0, 1395273600, 21, 0, 21], [1425627385, "cerebrum123", 0.0, 0, 1445472000, 54, 0, 0], [78150192, "QM Klausurvorbereitung", 0.0, 0, 1444867200, 66, 0, 0], [1619309805, "SZIE N\u00f6v\u00e9nytermeszt\u00e9stani alapsimeretek - Maglista", 0.0, 0, 1446768000, 40, 0, 0], [1381407630, "Aeusseres Erscheinungsbild (English to German)", 0.0, 0, 1443484800, 20, 0, 0], [1153794708, "Zuurresten leren", 0.0, 0, 1444435200, 12, 0, 0], [1372516784, "Lektorat - angielski - czasowniki nieregularne EN-EN (UAM)", 1.0, 2, 1345852800, 176, 0, 0], [1265839292, "\u00c4usseres Erscheinungsbild (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [748240516, "malerepro", 0.0, 0, 1446681600, 38, 0, 0], [1344105746, "Legisla\u021bia rutier\u0103 - Indicatoare rutiere", 0.0, 0, 1444608000, 281, 0, 42], [1271643379, "\u00c4usseres Erscheinungsbild", 0.0, 0, 1442793600, 20, 0, 0], [842050830, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [2025053178, "\u00c4usseres Erscheinungsbild (German to English)", 0.0, 0, 1444176000, 20, 0, 0], [885567072, "Gro\u00dfe schwere Pr\u00fcfung", 0.0, 0, 1440460800, 275, 0, 190], [1656924688, "Komplekse tal eksamensforberedelse", 0.0, 0, 1442275200, 47, 0, 0], [1857819914, "Aeusseres Erscheinungsbild (German to English)", 0.0, 0, 1443484800, 20, 0, 0], [1917095458, "Official KanjiDamage deck REORDERED", 4.33, 15, 1439078400, 1757, 0, 2020], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [1328192018, "Gro\u00dfe schwere Pr\u00fcfung Kap 4", 0.0, 0, 1440460800, 30, 0, 43], [4272712811, "Vorbereitung Personalmanagement", 0.0, 0, 1376870400, 48, 0, 2], [439765611, "Uni Heidelberg Innere Medizin", 0.0, 0, 1437696000, 392, 0, 9], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [416154597, "Vorbereitung Veranstaltungsmanagement", 0.0, 0, 1376870400, 65, 37, 1], [1205594857, "Encountered Vocab", 0.0, 0, 1345852800, 549, 0, 0], [923847960, "DREREVIEW2", 0.0, 0, 1431993600, 94, 0, 42], [1639609313, "Programmieren II MC-Fragen", 0.0, 0, 1360108800, 121, 0, 0], [440637283, "Vorbereitung Betriebswirtschaftslehre I & II", 0.0, 0, 1379894400, 90, 0, 1], [1505237629, "DSRI Unit 5  Inference for Categorical Variables", 5.0, 1, 1415145600, 22, 0, 9], [986069772, "12 Tumorer, cerebral parese, infektioner", 0.0, 0, 1416614400, 57, 0, 30], [2100943058, "TI_Everest", 0.0, 0, 1434672000, 412, 0, 203], [764555424, "Neuroanatomie deel 1 - inwendige bouw cerebrum", 0.0, 0, 1353369600, 37, 0, 2], [991907660, "STEX A&T Innere", 0.0, 0, 1429574400, 0, 0, 0], [886135100, "OMMDREREVIEW PART 1", 0.0, 0, 1431734400, 84, 0, 26], [349615766, "Derecho Financiero y Tributario", 0.0, 0, 1427587200, 266, 0, 0], [4070138298, "Maria Full of Grace (Mar\u00eda llena eres de gracia)", 5.0, 2, 1368316800, 134, 0, 0], [799203460, "Adult II Week 3 - Gerentology Acute Care", 0.0, 0, 1410912000, 31, 0, 2], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [3891234644, "Vorbereitung Hotelmarketing", 0.0, 0, 1382486400, 53, 0, 1], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [2068674741, "Italian Session2 Class3 - Prendere (to take)", 0.0, 0, 1405987200, 14, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [2030786680, "And Then There Were None - Study Guide", 0.0, 0, 1418947200, 101, 0, 0], [573986224, "Terms List: Cerebrum Cerebellum ", 0.0, 0, 1422662400, 174, 0, 28], [613113375, "DSRI Unit 3 Framework for Inference", 0.0, 0, 1415145600, 22, 0, 0], [3873585511, "neuro 1 - deel1, H5: het cerebellum", 0.0, 0, 1353456000, 23, 0, 0], [3020795849, "Derecho de integracion Pat", 0.0, 0, 1385596800, 55, 0, 0], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [109990026, "Bible Quiz 24: Jeremiah", 0.0, 0, 1345852800, 180, 0, 0], [1681679218, "Tiere ", 0.0, 0, 1445385600, 43, 43, 42], [960592027, "Berenice francais", 0.0, 0, 1386633600, 1, 0, 1], [4087584728, "anatomie bijzondere dieren", 0.0, 0, 1369526400, 155, 0, 0], [588719185, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [2129064454, "Cerebrum, Diencephalon, ANS", 0.0, 0, 1428278400, 51, 0, 43], [1297127955, "Leren bij kinderen en adolescenten sheets", 0.0, 0, 1403222400, 189, 0, 8], [1566694372, "Italian Session2 Class3 - Volere (to want)", 0.0, 0, 1406160000, 7, 0, 0], [452169592, "changement climatique conference mercredi", 0.0, 0, 1426032000, 129, 0, 0], [169136957, "Shared Korean Deck from somewhere", 0.0, 0, 1420329600, 3177, 0, 0], [1583998190, "Meithai - Tiere und Pflanzen", 5.0, 1, 1383782400, 212, 0, 0], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [763571865, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [1378124683, "Prereqs for math 142", 0.0, 0, 1409097600, 90, 0, 164], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [1806573062, "CVA Felis Erector Spinae Muscles", 0.0, 0, 1382659200, 7, 0, 0], [1580302344, "Ferengi Rules of Acquisition", 0.0, 0, 1415750400, 116, 0, 0], [2914457889, "Private deck for Teresa & me", 0.0, 0, 1345852800, 183, 0, 0], [2080898329, "Italian Section2 Class3 - Prendere (to take)", 0.0, 0, 1406160000, 8, 0, 0], [1738791118, "French - Farsi -- Words of AlterEgo 1 methode de francais", 1.0, 1, 1358553600, 1150, 0, 0], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [305015118, "Filtered Deck", 0.0, 0, 1367971200, 0, 0, 0], [1440962064, "B&B 02.19.15 Cerebellar Syndromes", 0.0, 0, 1425427200, 20, 0, 0], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [1358525311, "Elbisch (Wanderer-Kampagne)", 0.0, 0, 1429401600, 51, 0, 0], [703832613, "Repro Erectile Dysfunction 04.22.15", 0.0, 0, 1430697600, 32, 0, 0], [1551804813, "B&B 02.18.15 The Cerebellum", 0.0, 0, 1424476800, 28, 0, 0], [1338467835, "DASI U4 Inference of Numerical Variables", 5.0, 1, 1415145600, 29, 0, 16], [2076073194, "Thalamus, thalamocorticale forbindelse. Cerebral cortex, Tal", 0.0, 0, 1411689600, 31, 0, 15], [413432030, "Streiten oder Kooperieren?", 0.0, 0, 1414454400, 33, 0, 0], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [520760568, "AME ADMINISTRATIVO - PODERES ADMINISTRATIVOS", 0.0, 0, 1408320000, 16, 0, 0], [133392835, "Italian Section2 Class3 - Avere (to have)", 0.0, 0, 1406160000, 10, 0, 0], [1180957895, "FHB: EKG Conference", 0.0, 0, 1421452800, 15, 0, 22], [1080481369, "Berechenbarkeit und Komplexit\u00e4t Scheinklausur", 0.0, 0, 1423267200, 24, 0, 28], [1800196958, "InnereMedizinMUI2015", 0.0, 0, 1421107200, 294, 0, 0], [1342572945, "DDO Paediatrics - altered mental status in children ", 0.0, 0, 1409616000, 6, 0, 0], [2039425129, "DaF Vokabeln, generelles Wortschatz Liste.", 0.0, 0, 1414454400, 19, 0, 0], [1582881215, "MCM Test 3: 8.12 Cellular DIfferentiation", 0.0, 0, 1408492800, 18, 0, 0], [1724286263, "F-A Climate Change (conference)", 0.0, 0, 1426032000, 235, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [677547147, "Italian Section2 Class3 - Avere", 0.0, 0, 1405987200, 10, 0, 0], [221699812, "Unsere Feste", 0.0, 0, 1445385600, 46, 41, 52], [244927036, "Geremia Exam Review Deck - A&P2 Deck", 0.0, 0, 1431043200, 651, 0, 17], [3518047851, "Vorbereitung Yield Management", 0.0, 0, 1376870400, 38, 0, 4], [1275823209, "8 Basal ganglier og cerebellum", 0.0, 0, 1414627200, 22, 0, 27], [1952961261, "Berechenbarkeit und Komplexit\u00e4t Informatik", 0.0, 0, 1424217600, 71, 0, 142], [569675917, "NTNU MFEL1010 Medisin for ikke-medisinere", 0.0, 0, 1418774400, 634, 0, 23], [1394373869, "DSA11b Cerebral Hemisphere ", 0.0, 0, 1413072000, 52, 0, 41], [1182700720, "T Cell Activation and Differentiation ", 0.0, 0, 1424649600, 66, 0, 89], [1907856341, "UPJS Biological Reference Ranges", 0.0, 0, 1402185600, 44, 0, 0], [121639039, "Arabic letters(the different forms+audio)", 0.0, 0, 1387670400, 112, 28, 0], [985193042, "Vitaminok - Szerep, hi\u00e1nyt\u00fcnetek", 0.0, 0, 1423699200, 12, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ere</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

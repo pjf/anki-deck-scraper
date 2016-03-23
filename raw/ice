@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1364052597, "\u7cb5\u8a9e\u8072\u8abf\u7df4\u7fd2 Cantonese Tone Practice", 5.0, 1, 1388188800, 664, 2284, 0], [2112782806, "Police, law, surveillance", 0.0, 0, 1454976000, 19, 19, 12], [1905432437, "English to Deutsch (spelling practice)", 4.55, 11, 1388707200, 810, 814, 964], [1301023985, "Army Military Justice Exam Study Guide", 0.0, 0, 1454284800, 34, 0, 0], [1360487529, "JLPT Joyo Kanji N4\u30fbWriting Practice", 0.0, 0, 1454544000, 40, 0, 0], [453141476, "Chinese Practice", 0.0, 0, 1454630400, 74, 0, 0], [1945669744, "HAII Midterm 1 - Chapter Practice Questions", 0.0, 0, 1454889600, 69, 0, 1], [1284435924, "Words for practice", 0.0, 0, 1454112000, 67, 0, 1], [1546703997, "Mental Arithmetic Practice", 3.0, 2, 1428624000, 40099, 1, 37], [1741808368, "WaniKani Kanji Writing Practice", 0.0, 0, 1453766400, 2027, 3, 9], [889854322, "A Song of Ice and Fire", 0.0, 0, 1454198400, 4512, 0, 5], [769993852, "German-Icelandic from Wiktionary", 0.0, 0, 1453939200, 2073, 0, 0], [371462910, "SJL Icelandic 2", 0.0, 0, 1453852800, 106, 0, 0], [768777742, "Arabic Practice - Country Names", 0.0, 0, 1442275200, 52, 0, 0], [1355644247, "Complete Japanese Kana practice deck", 4.0, 2, 1442016000, 227, 124, 0], [3588242408, "PLU Price Lookup Codes", 4.0, 1, 1387324800, 1027, 0, 639], [1159338731, "Icelandic basic expressions", 0.0, 0, 1451692800, 42, 0, 0], [86247609, "medical vocabulary 16 - doctors office", 0.0, 0, 1452384000, 29, 0, 0], [428131788, "Stuttgart Lernwortschatz Ciceros Reden", 0.0, 0, 1451433600, 200, 0, 0], [1274417947, "Taiwan Driver's License - English - Motorcycle - 2015/07", 0.0, 0, 1441929600, 1606, 0, 323], [215631758, "Japanese Edexcel AS kanji practice", 0.0, 0, 1452470400, 2, 0, 0], [856255493, "Prep deck for the licensing exam in PA", 0.0, 0, 1451952000, 0, 0, 0], [1408849907, "Vietnamese to English vocab and practice", 0.0, 0, 1448064000, 1569, 0, 0], [2071256234, "IntonationPractice", 0.0, 0, 1452556800, 28, 29, 5], [270104150, "Icelandic basic expressions and phrases", 0.0, 0, 1451692800, 118, 0, 0], [252887096, "PSYB57 practice deck", 0.0, 0, 1450656000, 161, 0, 0], [531744294, "Let's Go - Unit 2 - Practice Card (continue)", 0.0, 0, 1449964800, 29, 29, 11], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [393084317, "V3 - Verbs used in Passive Voice and Perfect tenses", 0.0, 0, 1448150400, 150, 0, 0], [471138548, "Let's Go - Unit 3 - Practice Card", 0.0, 0, 1449964800, 31, 31, 0], [833634290, "MUSC M2 Block 9 PHD: Drug of Choice", 5.0, 1, 1450137600, 41, 0, 105], [1246083285, "Licence 1 PsychoPatho - Paris8", 0.0, 0, 1450656000, 65, 0, 0], [1374853058, "Complete Katakana practice deck", 0.0, 0, 1442016000, 123, 123, 0], [421935798, "Let's Go - Unit 2 - Practice Card", 0.0, 0, 1449792000, 52, 52, 0], [413473480, "Mississippi Driver's License", 0.0, 0, 1449014400, 121, 0, 0], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [1965238542, "1000 k\u00e9rd\u00e9s angol service a", 0.0, 0, 1447804800, 243, 0, 0], [1300878464, "1000 k\u00e9rd\u00e9s angol service b", 0.0, 0, 1447804800, 188, 0, 0], [1200765609, "Njemacke Recenice 1", 0.0, 0, 1445558400, 76, 0, 0], [1177753686, "Learning Icelandic", 0.0, 0, 1446249600, 115, 0, 0], [1359055810, "JWL Pt1+Pt2 Kanji Vocab Practice COMPLETE [In Progress v0.2]", 0.0, 0, 1442793600, 146, 0, 0], [363270366, "English MHS Language Devices 2015", 0.0, 0, 1447286400, 23, 0, 0], [254705020, "Njemacke Recenice 12", 0.0, 0, 1445558400, 63, 0, 0], [843221611, "Complete Hiragana practice deck", 5.0, 1, 1442016000, 104, 104, 0], [249049818, "Russian Case Practice", 0.0, 0, 1444953600, 273, 0, 1], [2083023461, "IGCSE Edexcel Physics Unit 1 Alice", 0.0, 0, 1446595200, 30, 3, 19], [456272525, "Njemacke Recenice 11", 0.0, 0, 1445558400, 45, 0, 0], [1549299727, "Harry Potter II (English/German - Icelandic) - chapter 2", 0.0, 0, 1444780800, 129, 0, 0], [1608655747, "Njemacke Recenice 4", 0.0, 0, 1445558400, 50, 0, 0], [2011551767, "Njemacke Recenice 3", 0.0, 0, 1445558400, 75, 0, 0], [1174880778, "CAC Diagram Practice", 0.0, 0, 1443484800, 19, 0, 1], [2031618672, "Regional Anatomy Practice Questions - Kathy Durham Anatomy", 0.0, 0, 1443398400, 25, 0, 1], [1413590935, "Swedish driver license (English)", 5.0, 1, 1440460800, 216, 0, 133], [2143509951, "Java Web Services Certification", 0.0, 0, 1442534400, 182, 0, 0], [2135578217, "Europa stolice (polish)", 5.0, 1, 1442275200, 48, 0, 0], [1534523847, "Njemacke Recenice 2", 0.0, 0, 1445558400, 95, 0, 0], [246819871, "Njemacke Recenice 10", 0.0, 0, 1445558400, 67, 0, 0], [2118389807, "Taiwan Driver's License - Chinese - Car - 2015/08", 0.0, 0, 1441929600, 1431, 0, 369], [1287654549, "rugalita_imperativo_practice", 0.0, 0, 1381622400, 80, 0, 0], [124654375, "Taiwan Driver's License - English - Car - 2015/08", 0.0, 0, 1441929600, 1427, 0, 371], [321603792, "biochem fundamentals 2 extra tutor and practice questions", 0.0, 0, 1412035200, 52, 0, 25], [1218362948, "Private Pilot License", 5.0, 1, 1345852800, 205, 0, 43], [142527921, "Tibetan - Russian \u00ab37 Bodhisattva Practices\u00bb", 0.0, 0, 1440720000, 157, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [1295811490, "Taiwan Driver's License - Chinese - Motorcycle - 2015/08", 0.0, 0, 1442016000, 1611, 0, 323], [1981600699, "DDO Paediatrics - jaundice ", 0.0, 0, 1409616000, 10, 0, 0], [2125700661, "WS2015_Jungk_Fragen_1-6_Multiple_Choice", 0.0, 0, 1436745600, 6, 0, 0], [2037226027, "DLI Joint Service Study Guide", 0.0, 0, 1439251200, 204, 0, 0], [269385901, "NICE Guidelines UK Antibiotics fist line - Shatrick", 0.0, 0, 1433289600, 27, 0, 0], [2423433295, "Icelandic IT Terminology", 0.0, 0, 1384128000, 35, 0, 0], [1855555096, "CP PHX Company Officer 2014", 0.0, 0, 1406160000, 256, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1132873061, "M\u00f6llers - The company and its products and services", 0.0, 0, 1438214400, 27, 0, 0], [274460702, "Immunodeficineices ", 0.0, 0, 1427241600, 42, 0, 10], [1985493935, "CP PHX Ladder company officer 2014", 0.0, 0, 1406160000, 37, 0, 0], [1197172185, "Kana Practice (46 Characters)", 0.0, 0, 1436572800, 46, 0, 0], [336637613, "Thai Middle Class Consonants practice", 0.0, 0, 1430006400, 48, 0, 0], [250901078, "Russian Faces and Voices CH5", 0.0, 0, 1390521600, 89, 0, 0], [1974021586, "Malaysia Medical Common Practice Abbreviation", 0.0, 0, 1434585600, 233, 0, 0], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [228111984, "Stolice pa\u0144stw \u015bwiata", 0.0, 0, 1345852800, 161, 0, 0], [1749324511, "Psych 280 ISU for Aggression, Prejudice, Stress", 0.0, 0, 1387324800, 11, 0, 0], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [473284019, "Dogs and Cats Pallor and Jaundice", 0.0, 0, 1410825600, 441, 0, 0], [254650726, "5\ub2e8\uacc4 \ub2e8\uc5b4 Level 5 vocabulary to practice for KLI-LPT exam", 0.0, 0, 1374710400, 59, 0, 0], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [844967056, "Slavicek's Fret Deck", 0.0, 0, 1345852800, 29, 0, 29], [161888663, "Tkach--Licensure: Church History Dates", 0.0, 0, 1390867200, 77, 0, 0], [376667258, "Russian Faces and Voices CH10", 0.0, 0, 1390521600, 86, 0, 0], [1655449656, "Icelandic for Foreigners - Hver er Ma\u00f0urinn?", 0.0, 0, 1361145600, 31, 0, 0], [1866204019, "N3 Kanji Practice", 0.0, 0, 1431561600, 42, 0, 0], [1874297142, "Licencia de Armas", 0.0, 0, 1409616000, 400, 0, 0], [3565060462, "Alice1", 0.0, 0, 1354233600, 76, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [75649524, "practice deck", 0.0, 0, 1409961600, 10, 0, 10], [1471125672, "Fire officers handbook of tactics", 0.0, 0, 1425081600, 260, 0, 2], [1886498013, "Znalost terminologie oboru \u010desk\u00fd jazyk (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 121, 0, 0], [1003864234, "Akkadian (Caplice & Snell)", 0.0, 0, 1345852800, 103, 0, 0], [1161763034, "Anatomy Practice Review", 0.0, 0, 1396310400, 47, 0, 57], [359991714, "MCD practice", 0.0, 0, 1425513600, 199, 0, 0], [2671840233, "Random Icelandic vocab", 0.0, 0, 1365984000, 500, 0, 0], [1098381252, "Icelandic - \u00f3reglulegar sagnir (\u00fet.)", 4.5, 2, 1410307200, 99, 0, 0], [184070046, "DDO Gastro - viral hepatitis and jaundice", 0.0, 0, 1415836800, 8, 0, 0], [1105054874, "EKG Practice", 0.0, 0, 1418688000, 40, 0, 42], [960592027, "Berenice francais", 0.0, 0, 1386633600, 1, 0, 1], [30392134, "Brett'sLiteraryDevices", 0.0, 0, 1410393600, 25, 0, 0], [513440793, "English Tenses, Aspects and Voices", 5.0, 1, 1410393600, 24, 0, 0], [2560638307, "nice", 0.0, 0, 1354233600, 168, 0, 0], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [103829065, "Russian Faces and Voices CH7", 0.0, 0, 1390521600, 97, 0, 0], [1966187249, "Les vices du consentement", 0.0, 0, 1404691200, 15, 0, 0], [152278035, "CFA Level II Practice Problems", 0.0, 0, 1425513600, 247, 0, 655], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [63574913, "Tkach--Licensure: WSC", 0.0, 0, 1390867200, 58, 0, 0], [1033335256, "Cicero 3 Locations & Points", 0.0, 0, 1345852800, 64, 0, 0], [1861369530, "AP World History Practice Test", 0.0, 0, 1367625600, 92, 0, 4], [4048415855, "Josh Kanji Practice", 0.0, 0, 1383264000, 73, 0, 0], [3346328277, "Drug Devices and Consumers Final", 0.0, 0, 1368576000, 309, 0, 1], [1821934354, "JLPT N2 Practice Test Questions", 0.0, 0, 1345852800, 16, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [788023668, "Neramsinxxx (Of Mice and Men)", 0.0, 0, 1382745600, 167, 0, 0], [1923959385, "Spelling Practice - Deutsch", 0.0, 0, 1426896000, 1051, 981, 1105], [1672901306, "Japanese Kanji Writing Practice", 0.0, 0, 1410825600, 987, 0, 0], [1044011339, "Taiwan Driving Licences - Motorcycle", 0.0, 0, 1396137600, 583, 0, 236], [4173697249, "JLPT N4 Practice Test Questions", 0.0, 0, 1345852800, 14, 0, 1], [2018715158, "kanji licenta jap mnn an 3", 0.0, 0, 1428364800, 1466, 3, 1], [1227610045, "HSC4652 Beneficence ", 0.0, 0, 1426550400, 69, 0, 0], [69027218, "with voice recording", 0.0, 0, 1416960000, 276, 277, 79], [724090437, "Ballstothe Biochem 2: Revenge of the Ice-Dancers", 0.0, 0, 1413417600, 214, 0, 0], [744429963, "LearningLawTogether - EU MCT Practice", 0.0, 0, 1393459200, 83, 0, 0], [2010065826, "TU Darmstadt - Software Engineering in industrial practice", 0.0, 0, 1400889600, 68, 0, 0], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [549677727, "46a Infection & Clinical Practice", 0.0, 0, 1433289600, 275, 0, 2], [1521465457, "Russian Faces and Voices CH11", 0.0, 0, 1390521600, 70, 0, 0], [2791311197, "Nicene Creed", 4.0, 1, 1364947200, 31, 0, 0], [1800574577, "drdale syllabus quiz practice", 0.0, 0, 1421712000, 31, 0, 0], [860501145, "Russian Faces and Voices CH6", 0.0, 0, 1390521600, 65, 0, 0], [519662891, "Japanese Oral Production Practice", 5.0, 1, 1345852800, 103, 0, 0], [3945248690, "Cicero 3 Locations", 0.0, 0, 1345852800, 64, 0, 0], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [1080414520, "Major Methods: 10-Spliced Surprise (Mark B Davies) 1", 0.0, 0, 1409788800, 80, 0, 70], [198433008, "U.S. Presidents Dates of Service", 0.0, 0, 1408406400, 50, 0, 0], [1570982511, "Drugs Devices and Consumers Exam 1", 0.0, 0, 1361232000, 227, 0, 0], [863305670, "C++ Novice Deck", 0.0, 0, 1412899200, 216, 0, 0], [1726074925, "Drugs Devices and Consumers Exam 2", 0.0, 0, 1365033600, 258, 0, 0], [1728197940, "The police", 0.0, 0, 1426118400, 13, 0, 3], [725419078, "Thai Middle Class Consonants practice 2-Mid and Low tones", 0.0, 0, 1430524800, 28, 0, 0], [2863578862, "Caplice's Akkadian", 0.0, 0, 1410998400, 350, 0, 0], [1130398084, "JLPT N1 Practice Test Questions", 5.0, 1, 1345852800, 12, 0, 0], [1859477986, "JLPT N3 Practice Test Questions", 1.0, 1, 1345852800, 14, 0, 0], [1626059368, "Business English. B2. Negotiating a price", 0.0, 0, 1429660800, 11, 0, 0], [3621229564, "JLPT N5 Practice Test Questions", 0.0, 0, 1345852800, 12, 0, 2], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [1971318057, "Microbio II PSM Practice", 0.0, 0, 1437696000, 3261, 0, 188], [1392715584, "Law Justice", 0.0, 0, 1391990400, 177, 0, 0], [3114916065, "Cicero 3 Symbols", 0.0, 0, 1345852800, 133, 0, 0], [2152264823, "HMS.IMP.Medical.Devices", 0.0, 0, 1370131200, 10, 0, 12], [992749031, "Colloquial Icelandic", 0.0, 0, 1388880000, 104, 0, 0], [1912944761, "English 3rd grade - Z\u0160 \u010cechtice", 0.0, 0, 1426723200, 131, 0, 0], [2051527189, "Harry Potter II (English/German - Icelandic) - chapter 1", 5.0, 1, 1444348800, 488, 0, 0], [1713729921, "Russian Faces and Voices CH9", 0.0, 0, 1390521600, 59, 0, 0], [1471085542, "\u00bfComo se dice...? (cuaderno) + DuoLingo vocab + misc", 0.0, 0, 1416182400, 4947, 0, 0], [1698879442, "II-V-I-VI Practice for Drop 2 Chords", 0.0, 0, 1403222400, 288, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ice</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[769202743, "UIHC Surgery Pestana", 0.0, 0, 1453680000, 320, 3, 7], [855258552, "Vocabulario - Minna no Nihongo I - EOI Malaga", 0.0, 0, 1454889600, 825, 0, 0], [993866228, "NihongoShark.com Blank Vocabulary Deck", 0.0, 0, 1425168000, 1, 0, 1], [1677720087, "Vocabulario Minna no Nihongo 1\u00ba curso EOI M\u00e1laga", 0.0, 0, 1454976000, 314, 0, 0], [1831527151, "Minna no Nihongo 1.26 2nd ed. [En] [Ru]", 0.0, 0, 1435881600, 49, 0, 0], [1192696720, "Minna no Nihongo 1.27 2nd ed. [En] [Ru]", 0.0, 0, 1435968000, 44, 0, 0], [1956010956, "NihongoShark.com Kanji Deck", 4.96, 46, 1447459200, 2200, 3, 2202], [174064441, "NihongoShark.com Pre-Loaded Vocabulary Deck", 4.25, 4, 1425168000, 3992, 3989, 1960], [1847451780, "Japanese: Minna No Nihongo 1", 5.0, 1, 1428969600, 790, 3, 0], [2093993949, "Mots du Coran ( De Bayinah \u00e0 sabih )", 0.0, 0, 1453161600, 190, 1, 0], [1570705890, "minna no nihongo 40-50 \u307f\u3093\u306a\u3000\u306e\u3000\u306b\u307b\u3093\u3054\u3000\uff14\uff10\uff0d\uff15\uff10", 4.0, 1, 1453334400, 384, 356, 277], [1691081723, "hallihallo1", 0.0, 0, 1453680000, 2906, 0, 1138], [1781741955, "Psihologie Experimentala an I", 0.0, 0, 1452470400, 102, 0, 0], [1448010580, "Kanji 1 - nihongonogakusei", 0.0, 0, 1452384000, 10, 0, 0], [296491320, "Minna no Nihongo 1.28 2nd ed. [En] [Ru]", 0.0, 0, 1436572800, 54, 0, 0], [1542092902, "Nihongo center vocab", 0.0, 0, 1447632000, 335, 0, 0], [1645268817, "\u307f\u3093\u306a\u306e\u306b\u307b\u3093\u3054 / Minna no nihongo Buch 1 [German / Deutsch]", 0.0, 0, 1444003200, 329, 0, 0], [1942577716, "JF Nihongo Hiragana Vocabulary", 0.0, 0, 1444953600, 74, 0, 0], [1363974035, "Shin nihongo no chukyu", 0.0, 0, 1454457600, 230, 0, 0], [866818089, "Kanji N4 list from Nihongo Challenge book", 0.0, 0, 1439251200, 180, 0, 0], [1257220110, "minna no nihongo 32", 0.0, 0, 1447804800, 7, 0, 0], [2100366629, "Haeufigkeit und Reihenfolge (English to German)", 0.0, 0, 1444176000, 40, 0, 0], [728422948, "Minna no Nihongo KC", 0.0, 0, 1449100800, 841, 0, 0], [1492676219, "Minna No Nihongo 2 vocab", 5.0, 1, 1433030400, 1140, 352, 0], [2005922843, "Minna no Nihongo Intermediate Chapter 13 vocabulary", 0.0, 0, 1438732800, 196, 3, 0], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [756321324, "Haeufigkeit und Reihenfolge (German to English)", 0.0, 0, 1444176000, 40, 0, 0], [1719854665, "Minna no Nihongo Intermediate Chapter 15 vocabulary", 0.0, 0, 1438732800, 162, 3, 0], [610634671, "Nihongo", 0.0, 0, 1441411200, 3479, 0, 0], [4199636793, "Minna no nihongo 01-05", 0.0, 0, 1345852800, 302, 0, 0], [4059179299, "Verbes du Minna no nihongo", 0.0, 0, 1345852800, 138, 0, 0], [437882980, "Minna no Nihongo Intermediate Chapter 14 vocabulary", 0.0, 0, 1438732800, 213, 3, 0], [210212430, "Nihongo So-matome N2 Vocabulary Week 1 / \u65e5\u672c\u8a9e\u7dcf\u307e\u3068\u3081N2 \u8a9e\u5f59 \u7b2c1\u9031", 0.0, 0, 1435104000, 179, 3, 0], [3571778664, "HMS.IHP.Renal.IV", 0.0, 0, 1361404800, 12, 0, 3], [212850521, "Minna no Nihongo 2.27 - 2nd edition", 0.0, 0, 1430179200, 43, 0, 0], [2248026594, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1345852800, 305, 0, 0], [3038071857, "HMS.IHP.Cardio.Electro.I-II", 0.0, 0, 1359849600, 28, 0, 16], [1237969294, "Minna No Nihongo Lesson 31-33 Vocab", 0.0, 0, 1402444800, 96, 0, 0], [1230635908, "Nihongo Somatome N3 vocabulario_esa\u00f1ol(quetzalli)", 0.0, 0, 1382745600, 1397, 0, 0], [2131712329, "MINNA NO NIHONGO Espa\u00f1il lecci\u00f3n 32", 0.0, 0, 1430006400, 43, 0, 1], [253672639, "HMS.IHP.Cardio.II", 0.0, 0, 1360454400, 47, 0, 9], [988374585, "Nihongo So-Matome N2 Kanji", 0.0, 0, 1447718400, 2210, 0, 0], [486583935, "HMS.IHP.Pulmonary.III", 0.0, 0, 1359417600, 22, 0, 13], [1581798828, "Minna no Nihongo 2.26 - 2nd edition", 0.0, 0, 1428537600, 49, 0, 0], [827633983, "Minna no Nihongo II Lesson 50 Vocab", 0.0, 0, 1393545600, 42, 0, 0], [191639336, "Respiratory for MSIH M2", 0.0, 0, 1415404800, 453, 0, 0], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [812414531, "nihongo no kotoba", 0.0, 0, 1420848000, 2789, 0, 0], [898656837, "Taloustieteen oppihistoria", 0.0, 0, 1414713600, 209, 0, 0], [130811188, "HMS.IHP.Pulmonary.V.A", 0.0, 0, 1359417600, 28, 0, 9], [1348520325, "HMS.IHP.Exercise", 0.0, 0, 1360886400, 13, 0, 3], [4051644851, "HMS.IHP.GI.II", 0.0, 0, 1361750400, 25, 0, 2], [154375938, "Brihuega", 0.0, 0, 1357776000, 85, 0, 0], [104155097, "Bunka\u3000Shokyuu Nihongo Buch 1", 0.0, 0, 1428278400, 271, 0, 0], [489805983, "HMS.IHP.Cardio.Electro.III", 0.0, 0, 1360454400, 36, 0, 21], [2595959201, "Minna No Nihongo Chptrs 1-25", 0.0, 0, 1345852800, 1401, 0, 5], [2974452329, "HMS.IHP.Cardiology.VIII", 0.0, 0, 1360886400, 28, 0, 1], [580563651, "HMS.IHP.GI.V", 0.0, 0, 1361923200, 22, 0, 4], [1180684478, "HMS.IHP.Endocrine.XI", 0.0, 0, 1362873600, 27, 0, 11], [2047409493, "Minna no Nihongo II vocabulary RUS full + audio", 4.0, 5, 1385424000, 1142, 869, 0], [389172696, "Comment Haglar Rocio VIH", 0.0, 0, 1424736000, 35, 0, 0], [3054275650, "HMS.IHP.Endocrine.X", 0.0, 0, 1362873600, 20, 0, 7], [1261659571, "HMS.IHP.Menopause", 0.0, 0, 1363046400, 12, 0, 0], [1486012891, "Minna no Nihongo Ch\u00fbky\u00fb - German", 0.0, 0, 1380844800, 2525, 0, 0], [2146361167, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1350950400, 580, 0, 0], [3530461270, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1345852800, 580, 0, 0], [276162503, "intro to ihd", 0.0, 0, 1345852800, 1, 0, 0], [831345451, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1351123200, 284, 0, 0], [3975547388, "HMS.IHP.Endocrine.I", 0.0, 0, 1362441600, 28, 0, 5], [1357173263, "HMS.IHP.Cardio.I", 0.0, 0, 1360108800, 45, 0, 5], [522067134, "HMS.IHP.GI.IV", 0.0, 0, 1362182400, 12, 0, 8], [3346264479, "HMS.IHP.Renal.V.", 0.0, 0, 1361318400, 31, 0, 6], [1950601814, "Nihongo", 0.0, 0, 1372377600, 39, 0, 0], [1700024535, "Mina No Nihongo Verbs", 0.0, 0, 1421107200, 84, 0, 0], [965296262, "Nihongo UECE S1", 5.0, 1, 1345852800, 130, 105, 130], [2346689345, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1351123200, 305, 0, 0], [128793311, "Langara business lesson 01 T\u0101 zh\u00e8ngz\u00e0i k\u0101ihu\u00ec", 0.0, 0, 1345852800, 42, 0, 0], [2948439282, "HMS.IHP.Cardiology.VIII", 0.0, 0, 1360886400, 28, 0, 1], [740570715, "MSIH Anatomy of Abdomen and Pelvis", 0.0, 0, 1416960000, 194, 0, 0], [3184920527, "Handball IHF Regelfragenkatalog (Fassung 18.05.2012 )", 0.0, 0, 1388016000, 332, 0, 0], [533559436, "HMS.IHP.Cardio.Focused.Exercise.II", 0.0, 0, 1360886400, 13, 0, 0], [442709416, "Cardiology MSIH", 0.0, 0, 1412035200, 376, 0, 0], [2555152728, "Keiyoushi SII Nihongo UECE", 0.0, 0, 1345852800, 32, 30, 32], [2064187228, "Minna no nihongo 06 - 10", 0.0, 0, 1345852800, 381, 0, 0], [4120707148, "HMS.IHP.Endocrine.VII", 0.0, 0, 1362787200, 36, 0, 1], [1817595552, "Nihongo no Goi", 0.0, 0, 1431561600, 10, 0, 0], [3866597475, "Shin Nihongo no Kiso I (JA->RU vocabulary)", 0.0, 0, 1345852800, 463, 0, 0], [2942805606, "HMS.IHP.GI.I", 0.0, 0, 1360108800, 48, 0, 21], [686566960, "IHD", 0.0, 0, 1396828800, 220, 0, 36], [3931268858, "HMS.IHP.Endocrine.VI", 0.0, 0, 1362787200, 37, 0, 6], [2539816391, "HMS.IHP.Maternal.Physiology", 0.0, 0, 1363046400, 21, 0, 0], [678830273, "HMS.IHP.Pulmonary.II", 0.0, 0, 1359417600, 21, 0, 7], [3509651624, "HMS.IHP.Pulmonary.I", 0.0, 0, 1359417600, 24, 0, 5], [1815478411, "HMS.IHP.Cardio.IV", 0.0, 0, 1360627200, 16, 0, 5], [1147824814, "Tung - Minna No Nihongo L01 \u5355\u8a9e", 0.0, 0, 1415232000, 142, 34, 0], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [2043750814, "NIHONGO KANTAN: Kanji Meanings", 0.0, 0, 1431302400, 136, 0, 0], [3664465892, "Minna no nihongo 11-15", 0.0, 0, 1345852800, 338, 0, 0], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [2335974837, "HMS.IHP.GI.V.FatAbsorption", 0.0, 0, 1362096000, 24, 0, 8], [205482022, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 9-12", 0.0, 0, 1351123200, 309, 0, 0], [1002146631, "HMS.IHP.Hepatic", 0.0, 0, 1360195200, 20, 0, 5], [2921787265, "HMS.IHP.GI.VI", 0.0, 0, 1361923200, 24, 0, 9], [2259391229, "HMS.IHP.Endocrine.IV", 0.0, 0, 1362614400, 17, 0, 9], [3017541861, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1345852800, 284, 0, 0], [525963268, "N3 Vocab Nihonogosomatome", 0.0, 0, 1430697600, 60, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ih</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

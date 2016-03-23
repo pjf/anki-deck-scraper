@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[701620338, "The imabi Grammar Gauntlet (Beginner I)", 0.0, 0, 1425859200, 50, 0, 0], [1628413778, "Toki Pona complete", 0.0, 0, 1454889600, 123, 0, 0], [1712131772, "The imabi Grammar Gauntlet (Beginner II)", 0.0, 0, 1425859200, 50, 0, 0], [1199078757, "JMdict complete", 0.0, 0, 1454889600, 174463, 3, 1], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [1087757076, "Leticia e Marco (Senten\u00e7as em Japon\u00eas)", 0.0, 0, 1453852800, 94, 0, 0], [90973261, "Japanese Core with cloze delete furigana/kanji", 4.67, 3, 1402185600, 6361, 6361, 0], [1355644247, "Complete Japanese Kana practice deck", 4.0, 2, 1442016000, 227, 124, 0], [3180012916, "Klett Green Line 1 & 2", 5.0, 4, 1345852800, 2745, 35, 15], [1366760035, "The imabi Grammar Gauntlet", 0.0, 0, 1425945600, 344, 0, 0], [167023255, "Let's Talk Hebrew Vocabulary", 0.0, 0, 1453334400, 66, 0, 57], [977481713, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 3.", 0.0, 0, 1453161600, 5, 0, 0], [1190323276, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level DALET, verbs", 0.0, 0, 1386460800, 528, 0, 0], [1997499017, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 1.", 0.0, 0, 1453161600, 22, 0, 0], [1651278241, "Complete Japanese Kana", 0.0, 0, 1453334400, 222, 3, 2], [826340229, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 6.", 0.0, 0, 1453161600, 5, 0, 0], [1553234095, "Nombres en toutes lettres", 0.0, 0, 1452643200, 141, 0, 0], [1188809436, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 4.", 0.0, 0, 1453161600, 3, 0, 0], [1503671037, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 7.", 0.0, 0, 1453161600, 6, 0, 0], [887070855, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 5.", 0.0, 0, 1453161600, 3, 0, 0], [25428484, "Leticia e Marco(Japaneses)", 0.0, 0, 1454457600, 93, 0, 0], [933889867, "KWilliams MCAT 2015 Complete Review", 0.0, 0, 1449187200, 1394, 0, 54], [293367340, "A Frequency Dictionary of French (Complete)", 5.0, 2, 1449100800, 5000, 0, 0], [1909571498, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 2.", 0.0, 0, 1453161600, 28, 0, 0], [398271053, "Sketchy complete", 4.33, 3, 1449360000, 841, 0, 1385], [531744294, "Let's Go - Unit 2 - Practice Card (continue)", 0.0, 0, 1449964800, 29, 29, 11], [972027116, "RTK 1 Improved Keywords Skeleton", 0.0, 0, 1394409600, 3029, 0, 0], [471138548, "Let's Go - Unit 3 - Practice Card", 0.0, 0, 1449964800, 31, 31, 0], [1374853058, "Complete Katakana practice deck", 0.0, 0, 1442016000, 123, 123, 0], [1795593474, "Hiragana Complete", 0.0, 0, 1443744000, 104, 0, 104], [421935798, "Let's Go - Unit 2 - Practice Card", 0.0, 0, 1449792000, 52, 52, 0], [1423776121, "Florizarre HGE complet", 0.0, 0, 1445212800, 281, 0, 1], [323511961, "Health Assessment Chp 24 Musculoskeletal", 0.0, 0, 1445731200, 119, 0, 0], [1359055810, "JWL Pt1+Pt2 Kanji Vocab Practice COMPLETE [In Progress v0.2]", 0.0, 0, 1442793600, 146, 0, 0], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [45084451, "UTSW Musculoskeletal block", 0.0, 0, 1448064000, 393, 0, 23], [1214989042, "Florizarre HI complet", 0.0, 0, 1445212800, 212, 0, 6], [420465117, "Angol - k\u00f6z\u00e9pfok, \u00fczleti \u00e9s t\u00e1j\u00e9p\u00edt\u00e9szet (ENG-HUN)", 0.0, 0, 1442880000, 215, 0, 0], [843221611, "Complete Hiragana practice deck", 5.0, 1, 1442016000, 104, 104, 0], [1572647336, "Florizarre OR complet", 0.0, 0, 1445126400, 171, 0, 4], [1747649168, "Florizarre K complet", 0.0, 0, 1445126400, 105, 0, 2], [458445558, "FLORIZARRE MI complet", 0.0, 0, 1445212800, 255, 0, 6], [673297265, "Florizarre N Complet", 0.0, 0, 1445212800, 114, 0, 0], [686887148, "GGG Quizlet - ANS-Receptor Function", 0.0, 0, 1443052800, 77, 0, 0], [458634680, "Leos f\u00f6rsta lista av det appendikul\u00e4ra skelettet ", 0.0, 0, 1442188800, 66, 0, 0], [35445751, "FLorizarre OPH complet", 0.0, 0, 1445212800, 175, 0, 35], [626671316, "Florizarre DER complet", 0.0, 0, 1445126400, 188, 0, 12], [508065864, "Seow Hebrew Grammar Vocabulary - Complete", 0.0, 0, 1442448000, 765, 0, 0], [1398539982, "Alfabeto Hiragana Completo", 5.0, 1, 1435536000, 71, 0, 0], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [241869920, "C&TB exam 1 complete", 5.0, 1, 1440633600, 772, 0, 60], [352425390, "Complete Hindi 1-11", 0.0, 0, 1416528000, 1164, 147, 0], [1789951069, "MB1 Diseases to know (incomplete)", 0.0, 0, 1439596800, 16, 0, 0], [1952483701, "Cytoskelleton Deck", 0.0, 0, 1440028800, 23, 0, 0], [1457251132, "Plans Fran\u00e7ais Complet 2014 1S4", 0.0, 0, 1402617600, 24, 0, 0], [17052446, "Magyar \u00fczleti nyelvk\u00f6nyv 1. fejezet", 0.0, 0, 1439942400, 31, 0, 0], [863259931, "Complete Lithuanian chpt 1-3", 0.0, 0, 1437609600, 106, 0, 0], [819964331, "Greek Letters", 5.0, 1, 1405382400, 24, 0, 48], [1664129032, "Elettrotecnica", 0.0, 0, 1429056000, 50, 0, 60], [2856122421, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 \u0130\u015fletme ", 0.0, 0, 1368662400, 151, 0, 0], [1401321967, "Spanish 51 LMC Flashcards (Incomplete)", 0.0, 0, 1345852800, 398, 0, 0], [1495115426, "Murakami Vocab Complete", 0.0, 0, 1381104000, 45, 0, 0], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [2713183883, "GVA, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute komplett", 0.0, 0, 1376006400, 244, 0, 0], [868920400, "Brette Greek Letters", 5.0, 2, 1345852800, 24, 0, 0], [1326383042, "English to German complete sentences for language learning", 0.0, 0, 1417824000, 47, 0, 0], [1936877944, "Colores_2_vocabulario_letra_A", 0.0, 0, 1403222400, 131, 0, 0], [2794844738, "French-Farsi - verbs of Reflets1 book to Persian", 0.0, 0, 1358553600, 313, 0, 0], [1296333007, "Complete SAQs for Medical Finals - Stather et al.", 0.0, 0, 1416009600, 229, 0, 458], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [1751497983, "JLPT Grammar Deck N5-N3 (incomplete)", 0.0, 0, 1393632000, 36, 0, 0], [2159495701, "Platelets", 0.0, 0, 1377388800, 27, 0, 0], [2877041043, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C \u0130\u015fletme Soru Bankas\u0131", 0.0, 0, 1368662400, 82, 0, 0], [1955000392, "Complete CAE vocabulary", 0.0, 0, 1385424000, 432, 0, 0], [4261453182, "Contract - Doctrine of Complete performance", 0.0, 0, 1345852800, 7, 0, 0], [4021495842, "French - Farsi -- Words of \"Reflets 1\"", 0.0, 0, 1358553600, 1584, 0, 0], [4176040791, "Latein Klettverschluss GWS", 0.0, 0, 1383004800, 94, 0, 0], [519431227, "Skeletal System", 0.0, 0, 1404259200, 36, 0, 0], [885330806, "Complete Finnish chapter 2", 5.0, 1, 1420070400, 109, 0, 0], [869153932, "A Pali-English Dictionary (Complete)", 0.0, 0, 1424822400, 15732, 0, 15], [2026186455, "Physiology 4 - Dear God, Let it end. Please?", 0.0, 0, 1429747200, 153, 0, 0], [1503109249, "Personal Grammar List For Korean (Incomplete)", 0.0, 0, 1405209600, 50, 0, 0], [2053900866, "Wheelock's Latin - Complete Vocabulary", 4.67, 3, 1345852800, 871, 0, 0], [334819184, "Antiplatelet Anticoagulation Therapy", 0.0, 0, 1421193600, 47, 0, 0], [619551680, "RFC test 2, 3 letter identifiers", 0.0, 0, 1392336000, 72, 0, 0], [1670616427, "Jess and Pierre omelette du fromage", 0.0, 0, 1402185600, 53, 0, 0], [1390082470, " Urdu - Complete", 0.0, 0, 1353974400, 22, 22, 25], [40091944, "CTB Skeletal Muscle 3 9.30.14", 0.0, 0, 1412726400, 43, 0, 0], [1396362632, "rowan som block 1 histology lecture 3 skelete smoothe muscle", 0.0, 0, 1409270400, 79, 0, 85], [1022797507, "A Complete Subject Chinese Deck", 0.0, 0, 1426982400, 8484, 0, 15], [950182698, "Morse Code - Letters and Numbers", 2.0, 1, 1384905600, 72, 0, 0], [2732046431, "C&TB 2013 (L2): Cytoskeleton", 0.0, 0, 1377561600, 62, 0, 7], [408123031, "AAAHST7CM Sociedades Recoletoras", 0.0, 0, 1433289600, 20, 0, 0], [1524909943, "Budapest ker\u00fcletei", 1.0, 1, 1392422400, 23, 0, 110], [1920283289, "MBI-2309 (2010, incomplete)", 0.0, 0, 1345852800, 145, 0, 1], [1797313650, "K\u00e9mia 1. t\u00e9maz\u00e1r\u00f3 egyenletek 10a", 0.0, 0, 1415145600, 9, 0, 0], [707693633, "Histo B1 - cytoskeleton", 0.0, 0, 1410739200, 19, 0, 21], [917840131, "Anti-coagulant, anti-platelet", 0.0, 0, 1421539200, 53, 0, 8], [2126805285, "Mitchel's Hebrew Vocab (1A - 5BB) (Complete)", 0.0, 0, 1389657600, 1988, 0, 0], [596235315, "Glasgow Intercal notes complete (Joseph Colclough) ", 0.0, 0, 1396137600, 629, 0, 69], [588969123, "\u00dczleti angol", 0.0, 0, 1408665600, 20, 0, 3], [684045098, "Francisco's Letters", 0.0, 0, 1424995200, 26, 26, 0], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [3297184995, "Path 1 - Musculoskeletal (Ryan's)", 0.0, 0, 1345852800, 38, 0, 1], [1577195011, "KJV Ephesians complete 1 Scripture Verse per Day", 0.0, 0, 1420156800, 155, 0, 1], [555769664, "1/6 Platelets", 0.0, 0, 1421020800, 35, 0, 0], [3873314971, "Pre-K Letters", 0.0, 0, 1377302400, 167, 0, 62], [812156876, "Alphabet Order - The Number Of Each English Alphabet Letter", 1.0, 1, 1402444800, 51, 0, 0], [29385321, "Complete Finnish Intro and chapter 1.", 5.0, 1, 1419897600, 251, 0, 0], [1140688681, "Letter Pair images for BLD", 0.0, 0, 1423526400, 576, 0, 0], [1805976255, "Lettres et Blog - AF", 0.0, 0, 1401062400, 1, 0, 0], [176824005, "B&B 02.13.15 Disorders of Skeletal Muscle", 0.0, 0, 1424476800, 25, 0, 0], [1941129657, "MDTI 01.06.15 Platelets", 0.0, 0, 1420588800, 58, 0, 0], [2857574369, "Letter Sound Pre-K", 0.0, 0, 1377302400, 121, 81, 85], [1253401024, "Vocabulary from: A Complete Grammar of Esperanto", 0.0, 0, 1423353600, 920, 0, 0], [1173187157, "Klett \"Moct I\" book, vocabulary from exercise 8", 0.0, 0, 1378339200, 49, 0, 0], [732952973, "German phrases and complete sentences ", 0.0, 0, 1418169600, 143, 0, 0], [1336990262, "Komplett deutsche S\u00e4tze! Alles Klar! - by Anna", 0.0, 0, 1422921600, 179, 0, 0], [121639039, "Arabic letters(the different forms+audio)", 0.0, 0, 1387670400, 112, 28, 0], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [709598150, "Let's Learn Kanji", 0.0, 0, 1394064000, 3, 0, 0], [2258467165, "Arabic Common 3-letter Verbs", 0.0, 0, 1379030400, 200, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Let</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

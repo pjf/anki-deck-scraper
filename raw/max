@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[6517124, "La Rochefoucauld's Maxims (French-English)", 0.0, 0, 1427500800, 504, 5, 0], [956222301, "anglais commerce maxime", 0.0, 0, 1452470400, 37, 0, 0], [3068152165, "Math Facts (Sam & Max Homeschool)", 1.0, 1, 1345852800, 334, 0, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [2846079133, "\u4e2d\u7d1a\u6f22\u5b57\uff11\u3000\uff13\u8ab2", 0.0, 0, 1366502400, 40, 0, 0], [1896272189, "Max/Matiar Embryology", 0.0, 0, 1377129600, 81, 0, 38], [2127399398, "max deck", 0.0, 0, 1414195200, 16, 0, 0], [2028939378, "Max revel condorcet 2", 0.0, 0, 1425427200, 7, 0, 0], [1506569139, "Max*/Matiar/Ameer Autoimmunity", 0.0, 0, 1379289600, 25, 0, 8], [406540368, "Max*/Matiar/Ameer Cancer", 0.0, 0, 1379808000, 106, 0, 35], [2805752833, "Max*/Matiar/Ameer Membrane Transport", 0.0, 0, 1377820800, 32, 0, 16], [26879018, "cours max", 0.0, 0, 1389139200, 1241, 0, 0], [1456138024, "\u4e2d\u7d1a\u6f22\u5b57\uff11\u3000\uff12\u8ab2", 0.0, 0, 1366502400, 30, 0, 0], [2031247971, "\u4e2d\u7d1a\u6f22\u5b57\uff11\u3000\uff12\u8ab2", 0.0, 0, 1366502400, 30, 0, 0], [1528095336, "RLR #89 - Maximize Your Determination ", 0.0, 0, 1422403200, 30, 30, 0], [983541721, "For Max- bae", 0.0, 0, 1420761600, 141, 0, 0], [2240685777, "Max*/Matiar/Ameer linear response to pathogens", 0.0, 0, 1379289600, 9, 0, 8], [3031895221, "\u4e2d\u7d1a\u6f22\u5b57\uff11\u3000\uff15\u8ab2", 0.0, 0, 1366502400, 25, 0, 0], [2259379665, "Max*/Matiar/Ameer Mitochondria and cell energy", 0.0, 0, 1377820800, 9, 0, 3], [953091856, "Max*/Matiar/Ameer Membrane Immunology Plasma Proteins", 0.0, 0, 1379289600, 23, 0, 16], [1718705201, "Max/Matiar Stem Cells", 0.0, 0, 1377129600, 27, 0, 10], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [4232072556, "Max*/Matiar/Ameer Histopathology (Skin)", 0.0, 0, 1377820800, 53, 0, 30], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [530659319, "\u4e2d\u7d1a\u6f22\u5b57\uff11\u3000\uff14\u8ab2", 0.0, 0, 1366502400, 46, 0, 0], [1715145526, "Max*/Matiar/Ameer Cell and Tissue Injury", 0.0, 0, 1377820800, 44, 0, 25], [1598661035, "Max is a dork", 0.0, 0, 1428883200, 46, 0, 0], [573650371, "LANAMAX LANAMAXLANAMAX", 0.0, 0, 1421107200, 84, 0, 0], [3650608611, "Max/Matiar histology", 0.0, 0, 1377129600, 55, 0, 32], [2158320535, "Max*/Matiar/Ameer MHC molecules", 0.0, 0, 1379289600, 12, 0, 10], [705271371, "Jamie and max's study kit", 0.0, 0, 1412553600, 76, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [546126633, "Max revel condorcet", 0.0, 0, 1425427200, 41, 0, 0], [2329064132, "Max*/Matiar/Ameer T cells", 0.0, 0, 1379289600, 21, 0, 8]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Max</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

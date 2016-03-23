@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3377799369, "Kanji del 1\u00b0 anno (80)", 0.0, 0, 1345852800, 80, 0, 0], [2712749355, "Kanji del 1\u00b0 e 2\u00b0 anno (240; 160 attivi)", 5.0, 1, 1345852800, 240, 0, 0], [2344553548, "Kanji dal 1\u00b0 al 3\u00b0 anno (440; 200 attivi)", 0.0, 0, 1345852800, 440, 0, 0], [2718482960, "Anno's Primary Hebrew Sentence Mine", 5.0, 1, 1375833600, 2826, 1755, 91], [1498465048, "Kanji dal 1\u00b0 al 4\u00b0 anno (640; 200 attivi)", 0.0, 0, 1345852800, 640, 0, 0], [2622906541, "Kanji dal 1\u00b0 al 5\u00b0 anno (825; 185 attivi)", 4.0, 1, 1345852800, 825, 0, 0], [156591062, "Bibelkunde NT 3 - Johannes", 0.0, 0, 1452556800, 38, 0, 0], [1547809939, "Jannach German for Reading - in process", 0.0, 0, 1452297600, 317, 0, 0], [632799882, "CFP Canada: Introduction to Retirement Planning", 0.0, 0, 1452297600, 24, 0, 0], [10497898, "Deck A1/EFL 111/ Unit 1 Urban planning", 0.0, 0, 1453075200, 19, 0, 0], [1293353034, "statistik 7 kowi uhlemann", 0.0, 0, 1452211200, 12, 0, 12], [1049070721, "methoden 10 kowi uhlemann", 0.0, 0, 1452211200, 9, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [3421526356, "Anno's Turkish (Tatoeba Sentence) Deck", 4.33, 3, 1375488000, 134091, 1435, 0], [1694528215, "Mineralogia di base (primo anno Geolo)/First year mineralogy", 0.0, 0, 1451865600, 13, 0, 0], [622673852, "methoden 8 kowi uhlemann", 0.0, 0, 1452211200, 16, 0, 0], [1688346635, "methoden 11 kowi uhlemann", 0.0, 0, 1452211200, 20, 0, 1], [2126897672, "methoden 9 kowi uhlemann", 0.0, 0, 1452211200, 21, 0, 0], [1797533999, "statistik 6 kowi uhelmann", 0.0, 0, 1452211200, 12, 0, 11], [933348436, "Treatment Planning", 0.0, 0, 1449619200, 41, 0, 0], [1184673096, "Dannah Anatomy", 0.0, 0, 1447718400, 209, 0, 52], [381398147, "Anno's Dutch (Tatoeba Sentence) Deck\t", 5.0, 1, 1346112000, 3731, 0, 0], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [977344955, "statistik 3 uhlemann kowi", 0.0, 0, 1447891200, 9, 0, 5], [1651502487, "Deutsch Lektion 3 (Zahlen) Thannhauser Modell", 0.0, 0, 1447804800, 36, 36, 0], [2020162015, "Ann's Intermediate to Advanced Flashcards", 0.0, 0, 1448496000, 88, 0, 1], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [2083312821, "Deutsch Lektion 4 Thannhauser Modell", 0.0, 0, 1447804800, 16, 16, 0], [964124196, "USask PHPM - Program Planning and Evaluation", 0.0, 0, 1448064000, 113, 0, 2], [1332833324, "methoden 5 kowi uhlemann", 0.0, 0, 1447891200, 18, 0, 1], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [714702480, "methoden 6 uhlemann kowi", 0.0, 0, 1447891200, 29, 0, 11], [1310643497, "Essential Guide to Marketing Planning -in swedish", 0.0, 0, 1445731200, 80, 3, 1], [293016194, "Biol 192 Lab - Platyhelminthes, Nematoda, Annelida", 0.0, 0, 1445385600, 28, 0, 0], [334275188, "Principles of Science Hannah", 0.0, 0, 1444780800, 104, 0, 0], [1499661819, "annette", 0.0, 0, 1444435200, 120, 0, 0], [1952131465, "Annette also", 0.0, 0, 1444435200, 115, 0, 0], [118629900, "CCMPG - Badr - Ann\u00e9e 1 - Trimestre 1", 0.0, 0, 1443571200, 31, 31, 0], [1300809618, "MCP Lecture 18 Ion Channels + APs", 0.0, 0, 1440547200, 54, 0, 15], [1135106284, "Anno's Primary Turkish Sentence Deck", 0.0, 0, 1346284800, 1570, 0, 0], [618522619, "OC I Hiersemann: \u00dcbungen", 0.0, 0, 1406764800, 68, 0, 118], [497112019, "Virgin Media TV Channel numbers", 0.0, 0, 1388793600, 8, 0, 0], [1504131155, "Cahier espa notes ann\u00e9e", 0.0, 0, 1445990400, 365, 0, 0], [309828683, "OC I Hiersemann: Trivialnamen", 0.0, 0, 1406764800, 126, 0, 123], [698196308, "Fragenkatalog WGA - Teil Hansemann", 0.0, 0, 1390003200, 37, 0, 10], [1447642979, "Annie's deck 3 imm", 0.0, 0, 1397088000, 165, 0, 216], [1541853171, "D\u00e4ggdjur Sanna", 4.0, 1, 1423094400, 39, 0, 39], [766646792, "CTB Electrical/Channel Pathologies", 0.0, 0, 1412208000, 29, 0, 0], [378494783, "Anna's English Deck", 0.0, 0, 1384214400, 85, 0, 0], [259213177, "Annie's deck 2 mb", 0.0, 0, 1397088000, 613, 0, 901], [2761762589, "Virology Annie Kalt", 0.0, 0, 1367539200, 132, 0, 0], [1151073544, "K\u00e4rlv\u00e4xter Sanna", 0.0, 0, 1423180800, 307, 0, 444], [1172260983, "Annie's deck 1 bc", 0.0, 0, 1397088000, 324, 0, 460], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [422825949, "Anglais voc de l'ann\u00e9e", 0.0, 0, 1445990400, 328, 0, 0], [323348113, "Annie Kalt Virology temp", 0.0, 0, 1367625600, 210, 0, 15], [1699941402, "Evertebrater Sanna", 0.0, 0, 1423180800, 97, 0, 100], [880186649, "Grodor Sanna", 0.0, 0, 1423180800, 13, 0, 16], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [837696337, "mariannethisone", 0.0, 0, 1349049600, 136, 0, 32], [534693839, "Til Sebastian og ikke Johannes", 0.0, 0, 1386028800, 16, 0, 0], [108637995, "Uhlmann's Intermediate Spanish Vocabulary", 0.0, 0, 1420416000, 1664, 0, 0], [1995886513, "AnnaMichael", 0.0, 0, 1420243200, 5, 0, 0], [1994604918, "F\u00e5glar Sanna", 4.0, 1, 1423180800, 129, 0, 145], [3108417751, "Japannewbie's Japanese Deck", 0.0, 0, 1350777600, 732, 0, 0], [2898911171, "German for Reading Knowledge by Jannach", 0.0, 0, 1345852800, 2243, 0, 0], [21730105, "QX Annunciator Lights", 0.0, 0, 1411430400, 52, 0, 0], [1523098763, "Fiskar Sanna", 0.0, 0, 1423180800, 37, 0, 42], [3180123045, "Anno's \uc6b0\ub9ac\ub098\ub77c \ubb38\ud654", 0.0, 0, 1346025600, 22, 0, 21], [1836386156, "Annas Farbtest Colors", 0.0, 0, 1427587200, 61, 0, 61], [1632065316, "Hartmann", 0.0, 0, 1380067200, 107, 0, 0], [1585581476, "Kr\u00e4ldjur Sanna", 0.0, 0, 1423180800, 6, 0, 7], [313137899, "ANG Annuals plants", 0.0, 0, 1358899200, 20, 0, 0], [3917326353, "MBBS Week 32 - Just my Annual Checkup Dr!", 0.0, 0, 1350172800, 81, 0, 17], [1915502510, "Neugriechisch -  Maria Christmann-Petropoulou ", 4.0, 1, 1402617600, 536, 520, 191], [1933771591, "Annie's deck 4 pth", 0.0, 0, 1397088000, 78, 0, 66], [2896248901, "Baurmann", 0.0, 0, 1380067200, 55, 0, 0], [1747245368, "Anno's Hebrew Tatoeba Sentence Deck (with audio)", 3.5, 4, 1375920000, 32479, 941, 0], [1208771237, "Cahier anglais 1 (voc de l'ann\u00e9e)", 0.0, 0, 1445990400, 292, 0, 0], [1432429643, "Dannii's QTC Greek", 0.0, 0, 1393459200, 306, 0, 0], [237639107, "Anniversaries", 0.0, 0, 1406073600, 25, 0, 0], [1336990262, "Komplett deutsche S\u00e4tze! Alles Klar! - by Anna", 0.0, 0, 1422921600, 179, 0, 0], [196757232, "20,000 + mandarin sentences plus annotations", 0.0, 0, 1391904000, 22349, 0, 0], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [2032458682, "new HSK chinese word list plus a few more annotations", 1.0, 1, 1403827200, 4223, 5, 0], [1911337687, "Anno's Korean TTMIK Deck with audio", 0.0, 0, 1348444800, 122, 123, 0], [605675691, "Anno's Primary Korean Sentence Deck", 4.8, 5, 1375833600, 8964, 1659, 43]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ann</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

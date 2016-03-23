@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1420604129, "Inleiding Business Intelligence", 0.0, 0, 1454889600, 24, 0, 0], [2039517568, "Spaans::extra::Verbos (ES-NL) (CVO Leuven)", 0.0, 0, 1453161600, 702, 38, 1], [1949155849, "nlanjkf", 0.0, 0, 1453939200, 1, 0, 0], [2038090189, "rowan som histology (VISUAL AIDS ONLY) BLOCK 1", 0.0, 0, 1407888000, 43, 0, 61], [1913226324, "Paul Thomas Commonly Used Drugs", 5.0, 1, 1454630400, 263, 0, 5], [1880481633, "Dutch Core 100 - Basic words (EN  NL with audio)", 0.0, 0, 1436832000, 202, 109, 116], [102146203, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 2", 0.0, 0, 1453680000, 43, 0, 0], [1625870764, "Physik Abitur Rheinlandpfalz", 0.0, 0, 1452211200, 92, 0, 78], [647563123, "100 commonly tested facts", 0.0, 0, 1449187200, 21, 0, 1], [182551402, "Psychology online", 0.0, 0, 1448755200, 96, 0, 0], [626034578, "1_inlingua_Essential Chinese ", 0.0, 0, 1449187200, 190, 191, 133], [631842259, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 1", 5.0, 1, 1448236800, 95, 0, 0], [802717761, "Anatomie - Einleitung, Aufbau der Materie", 0.0, 0, 1447200000, 94, 0, 1], [1003092620, "0_inlingua Portuguese starter pack - Basic Expressions ", 0.0, 0, 1449187200, 17, 17, 2], [1398481442, "Finnish mine only", 0.0, 0, 1447718400, 46, 0, 0], [2007539878, "Henle First Year Latin vocabulary", 0.0, 0, 1449273600, 91, 0, 0], [574151262, "new words from inlingua ", 0.0, 0, 1449273600, 0, 0, 1], [615562332, "Dutch Quick & Dirty 30 (EN  NL)", 0.0, 0, 1443225600, 60, 38, 45], [292604786, "Esperanto - AdE Baza Radikaro Oficiala Grupo 6 EO-NL", 0.0, 0, 1403654400, 244, 0, 0], [541942045, "NLP ", 0.0, 0, 1444867200, 61, 0, 0], [1108563907, "Esperanto - AdE Baza Radikaro Oficiala Grupo 4 EO-NL", 0.0, 0, 1403654400, 152, 0, 0], [909079147, "Esperanto - AdE Baza Radikaro Oficiala Grupo 2 EO-NL", 0.0, 0, 1403654400, 102, 0, 0], [66910099, "Esperanto - AdE Baza Radikaro Oficiala Grupo 3 EO-NL", 0.0, 0, 1403654400, 122, 0, 0], [1844711579, "Esperanto woorden en zinnen EO-NL", 4.0, 1, 1428019200, 7435, 0, 0], [2901600193, "Top spanish verbs - Binlingue - Top verbes espagnole", 0.0, 0, 1345852800, 134, 0, 0], [214519432, "Ber\u00fchmte Pers\u00f6nlichkeiten", 0.0, 0, 1441411200, 37, 8, 15], [1122988552, "J1 Dl1 Woordenlijst unit 2 KANJI", 0.0, 0, 1412467200, 56, 0, 0], [807524734, "Osmanl\u0131 padi\u015fahlar\u0131", 0.0, 0, 1438473600, 37, 3, 97], [2382342963, "NL_vocab_divers", 0.0, 0, 1345852800, 11, 0, 0], [942552343, "J1 Dl1 Woordenlijst unit 5 KANJI", 0.0, 0, 1414454400, 50, 0, 0], [734877436, "J1 Dl1 Woordenlijst unit 1", 0.0, 0, 1412467200, 113, 0, 0], [1778820534, "GroepT7_1__Les_8_9_10__NL2ES", 0.0, 0, 1390780800, 377, 0, 0], [339021610, "SGNL 1301 CH 1", 0.0, 0, 1395360000, 32, 0, 80], [664873193, "Esperanto - AdE Baza Radikaro Oficiala Grupo 5 EO-NL", 0.0, 0, 1403654400, 156, 0, 0], [2713183883, "GVA, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute komplett", 0.0, 0, 1376006400, 244, 0, 0], [1842283660, "Kennenlernen", 0.0, 0, 1442361600, 68, 68, 68], [4107967117, "online4meb1", 0.0, 0, 1379203200, 59, 0, 7], [2045700349, "Zusammenleben", 0.0, 0, 1433376000, 42, 42, 59], [415036397, "ML Stanford Online Class 2011", 0.0, 0, 1345852800, 193, 0, 130], [2135560089, "GlyphStudy Collier&Manley Chapter 5 - Vocabulary", 0.0, 0, 1345852800, 46, 0, 92], [822231631, "InLingua Lesson - Lesson 22InLingua Lesson - Lesson 22InLing", 0.0, 0, 1386979200, 67, 0, 0], [1166627116, "Unit Circle Values (sin and cos only)", 0.0, 0, 1397088000, 32, 0, 6], [583554653, "NL3 - hoofdstuk 4", 0.0, 0, 1391472000, 54, 0, 0], [344807918, "GVA 2015 ZWP, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute", 0.0, 0, 1437696000, 92, 0, 0], [710684309, "Esperanto - AdE Baza Radikaro Oficiala Grupo 7 EO-NL", 0.0, 0, 1403654400, 296, 0, 0], [548276201, "NL3 - hoofdstuk 3", 0.0, 0, 1391472000, 130, 0, 0], [2808653490, "Niderlandzki PL-NL (Wikibooks)", 0.0, 0, 1345852800, 282, 0, 0], [997975627, "GlyphStudy Collier&Manley Chapter 8 - Exercise", 0.0, 0, 1345852800, 75, 0, 150], [1102873658, "Spanish shared deck for download", 0.0, 0, 1378166400, 596, 0, 16], [1423213578, "23.Sz\u00ednek,form\u00e1k,hasonl\u00f3s\u00e1gok,k\u00fcl\u00f6nbs\u00e9gek,gyakoris\u00e1g \u00e9s sorr", 0.0, 0, 1432771200, 73, 0, 0], [1617004010, "RNLSGforJ", 0.0, 0, 1424822400, 18, 0, 12], [1812196990, "History - grade 9 - post-WWI,Weimar,NS - only 1 direction", 0.0, 0, 1402876800, 71, 0, 8], [1671145467, "Esperanto - AdE Baza Radikaro Oficiala Grupo 8 EO-NL", 0.0, 0, 1403654400, 467, 0, 0], [1090065095, "Hausa (mainly audio)", 0.0, 0, 1415404800, 40, 40, 31], [522426868, "http://womenlearnthai.com/ top 3000 vocab list", 0.0, 0, 1417910400, 3038, 3025, 0], [1679532336, "DB Stanford Online Class 2011", 5.0, 1, 1345852800, 261, 0, 167], [470894463, "McKinley Adult School Japanese 1", 0.0, 0, 1345852800, 368, 655, 65], [1822287745, "APers\u00f6nlichkeitsst\u00f6rung", 0.0, 0, 1401408000, 43, 0, 6], [1077872454, "NLN PAX-RN Review", 0.0, 0, 1385078400, 767, 0, 42], [1629143602, "T\u00fcrk\u00e7e - Nederlands S\u00f6zc\u00fck listesi - Woordenlijst 4", 0.0, 0, 1410739200, 3350, 0, 0], [1435016983, "Spanish 130 Commonly Spoken Words", 0.0, 0, 1345852800, 148, 0, 0], [1530485539, "NDG Vocabulaire NL 5\u00e8me B", 0.0, 0, 1401840000, 121, 0, 0], [205344329, "GlyphStudy Collier&Manley Chapter 4 - Exercise", 0.0, 0, 1345852800, 71, 0, 142], [1032130282, "J1 Dl1 Woordenlijst unit 3", 0.0, 0, 1414454400, 111, 0, 0], [788746448, "abirk NL 1 & 2", 0.0, 0, 1421625600, 165, 0, 128], [1481124319, "RNL4UTIs", 0.0, 0, 1424995200, 27, 0, 0], [1201322335, "GlyphStudy Collier&Manley Chapter 6 - Exercise", 0.0, 0, 1345852800, 82, 0, 164], [1348043857, "J1 Dl1 Woordenlijst unit 4 KANJI", 0.0, 0, 1414454400, 58, 0, 0], [306544415, "GroepT7_1__Les_8_9_10__ES2NL", 0.0, 0, 1390780800, 247, 0, 0], [215620951, "Esperanto - AdE Baza Radikaro Oficiala Grupo 1 EO-NL", 0.0, 0, 1404259200, 179, 0, 0], [1848798738, "GlyphStudy Collier&Manley Chapter 4 - Vocabulary", 0.0, 0, 1345852800, 24, 0, 48], [2147178489, "Persoonlijk voornaamwoorden Russisch", 0.0, 0, 1417996800, 53, 0, 0], [894435405, "Nederlandse woordenlijst B1", 0.0, 0, 1431907200, 432, 0, 0], [119891572, "rowan som histology (definition only - no visuals) BLOCK 1", 0.0, 0, 1407888000, 36, 0, 9], [1564168149, "GlyphStudy Collier&Manley Chapter 7 - Exercise", 0.0, 0, 1345852800, 61, 0, 122], [816429027, "RNLCPCforjay", 0.0, 0, 1424908800, 19, 0, 11], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [3315859020, "GlyphStudy Collier&Manley Chapter 8 - Vocabulary", 0.0, 0, 1345852800, 76, 0, 152], [21505615, "500FR-CNChinoisContemporainLivre02L01-L0", 0.0, 0, 1345852800, 422, 305, 0], [3580487384, "GlyphStudy Collier&Manley Chapter 5 - Exercise", 0.0, 0, 1345852800, 88, 0, 176], [1797313650, "K\u00e9mia 1. t\u00e9maz\u00e1r\u00f3 egyenletek 10a", 0.0, 0, 1415145600, 9, 0, 0], [1815379967, "Ovanligare svenska ord", 5.0, 2, 1360627200, 4972, 0, 0], [1149999087, "J1 Dl1 Woordenlijst unit 5", 0.0, 0, 1414454400, 76, 0, 0], [1516417956, "Fabrik und Anlagenplanung TU Clausthal", 0.0, 0, 1402012800, 249, 0, 0], [4213536183, "AI Stanford Online Class 2011", 0.0, 0, 1345852800, 265, 0, 135], [527563490, "NLab Lesions", 0.0, 0, 1390867200, 45, 0, 93], [1070569986, "Pers\u00f6nlichkeitspsychologie", 0.0, 0, 1419120000, 73, 0, 1], [1004046382, "J1 Dl1 Woordenlijst unit 3 KANJI", 0.0, 0, 1414454400, 96, 0, 0], [295453703, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [3741544605, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [1420173537, "NL3 - hoofdstuk 5", 0.0, 0, 1391472000, 55, 0, 0], [1844518864, "J1 Dl1 Woordenlijst unit 1 KANJI", 0.0, 0, 1412467200, 90, 0, 1], [895362682, "English shared deck for downlaod", 0.0, 0, 1378166400, 826, 0, 1], [1953551394, "DEMO ONLY: hanzi recognition using qhanzi.com", 0.0, 0, 1415836800, 4, 3, 0], [1590839010, "French deck for download", 0.0, 0, 1378166400, 5004, 0, 1630], [3100245, "englishxznlm", 0.0, 0, 1397520000, 1, 0, 0], [639746089, "GlyphStudy Collier&Manley Chapter 6 - Vocabulary", 0.0, 0, 1345852800, 18, 0, 36], [121789943, "Chinese Internet & Online Marketing Terms (\u7f51\u4e0a\u5e7f\u544a\u5355\u8bcd)", 0.0, 0, 1404172800, 153, 0, 0], [3303770170, "slovak words and enlishhh", 0.0, 0, 1398729600, 435, 0, 0], [4005945346, "GlyphStudy Collier&Manley Chapter 7 - Vocabulary", 0.0, 0, 1345852800, 92, 0, 184], [574520279, "Cards for Anoops 2014 Spring SFU NLP Course", 0.0, 0, 1394323200, 15, 0, 3], [1928287463, "Ophthalmology Online Module MM", 0.0, 0, 1373673600, 0, 0, 0], [140928840, "Bs5 E- Vokabeln Alarmanlage", 0.0, 0, 1416441600, 19, 0, 0], [1589506583, "J1 Dl1 Woordenlijst unit 4", 0.0, 0, 1414454400, 63, 0, 0], [1400356389, "RNLPathlabmeb", 0.0, 0, 1424044800, 38, 0, 34], [300299773, "J1 Dl1 Woordenlijst unit 2", 0.0, 0, 1412467200, 62, 0, 0], [479751735, "Esperanto - AdE Baza Radikaro Oficiala Grupo 9 EO-NL", 0.0, 0, 1403654400, 749, 0, 0], [1223298723, "NL3 - hoofdstuk 2", 0.0, 0, 1391472000, 45, 0, 0], [463406445, "Rassenleer", 0.0, 0, 1370736000, 434, 0, 405], [1683104414, "Engelse woorden - moeilijk - NL -> EN", 0.0, 0, 1428969600, 472, 0, 15]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

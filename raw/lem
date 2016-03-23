@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[942922371, "Genki 1 & 2, Incl Genki 1 Supplementary Vocab", 4.13, 16, 1345852800, 1369, 0, 0], [1050878605, "Aleman", 0.0, 0, 1454544000, 123, 8, 0], [302939103, "[Nederlands/Dutch] Chemische elementen/Chemical elements", 0.0, 0, 1443657600, 118, 1, 92], [89323017, "Headway Plus Elementary & Pre Intermediate EN-FA (98ia.com)", 0.0, 0, 1424649600, 2433, 1776, 573], [880373388, "Gynaecology problems for Karen ", 0.0, 0, 1454112000, 90, 0, 0], [188644036, "German-spanish mazo para hispanoparlantes de alem\u00e1n", 5.0, 1, 1345852800, 7699, 0, 0], [1176122148, "Chess \u2013 model for chess problems", 4.25, 4, 1404432000, 2, 0, 0], [1936909884, "Alem\u00e1n A1 a B1 (PBG)", 0.0, 0, 1449619200, 3843, 0, 0], [1701636491, "Animales en alem\u00e1n", 0.0, 0, 1442793600, 19, 0, 0], [432515186, "Elementary School Kanji", 0.0, 0, 1395187200, 1006, 0, 0], [58726747, " german spanish declinaci\u00f3n del adjetivo aleman", 0.0, 0, 1345852800, 51, 0, 0], [171903151, "Cours de physique de 1S - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 16, 0, 9], [951783930, "Maschinenelemente TU Wien", 0.0, 0, 1452297600, 86, 0, 70], [389702299, "Elementary Koine Greek, Year One, Open Texture, Gatchell", 4.8, 5, 1449878400, 159, 0, 0], [1293353034, "statistik 7 kowi uhlemann", 0.0, 0, 1452211200, 12, 0, 12], [1049070721, "methoden 10 kowi uhlemann", 0.0, 0, 1452211200, 9, 0, 0], [186567255, "Cours de physique de seconde - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 28, 0, 19], [907251582, "PBSC Elementary Spanish2 SPN1121", 0.0, 0, 1453939200, 96, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [2140735574, "Tokemo Malay (Beginner/Elementary)", 5.0, 1, 1405296000, 2842, 2827, 1228], [622673852, "methoden 8 kowi uhlemann", 0.0, 0, 1452211200, 16, 0, 0], [78768156, "FCC - Element 3 - Flash 1-Sided", 0.0, 0, 1450483200, 600, 0, 0], [1688346635, "methoden 11 kowi uhlemann", 0.0, 0, 1452211200, 20, 0, 1], [1253348476, "Into English made by Clemens", 0.0, 0, 1450051200, 20, 0, 0], [2126897672, "methoden 9 kowi uhlemann", 0.0, 0, 1452211200, 21, 0, 0], [35223294, "Allemand LM", 0.0, 0, 1447891200, 1592, 0, 0], [1132584003, "FCC - Element 1 - Flash 2-Sided", 0.0, 0, 1450483200, 144, 0, 0], [1565454452, "FCC - Element 3 - Flash 2-Sided", 0.0, 0, 1450483200, 600, 0, 0], [1907929471, "Puntos Elem Spanish Chapter 6", 0.0, 0, 1448755200, 164, 0, 0], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [172704578, "Clemson Plant Bio 2", 0.0, 0, 1449532800, 396, 0, 13], [36128031, "Verbos Ingles-Franc\u00e9s-Alem\u00e1n ", 0.0, 0, 1449532800, 35, 0, 0], [1804717950, "FCC - Element 1 - Flash 1-Sided", 0.0, 0, 1450483200, 144, 0, 0], [1468805495, "Allemand", 0.0, 0, 1447891200, 1592, 0, 0], [312366217, "L\u00e4kemedelsrelaterade-problem_L\u00e4kemedelsv\u00e4rdering", 0.0, 0, 1449187200, 114, 0, 20], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [412910637, "1.4 Verhalten Allemand", 0.0, 0, 1449014400, 35, 0, 0], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [1982086758, "Puntos Elem Spanish Chapter 5", 0.0, 0, 1448755200, 54, 0, 0], [1682526042, "Allemand LL", 0.0, 0, 1447891200, 1592, 0, 0], [702117650, "Javier1 estudio Aleman", 0.0, 0, 1448928000, 89, 0, 0], [253503107, "next level Elementary Module 11", 0.0, 0, 1447113600, 28, 3, 6], [907305985, "Aprender Alem\u00e3o - Portugu\u00eas", 0.0, 0, 1449446400, 111, 106, 1], [1082475512, "Next level Elementary Module 10", 0.0, 0, 1447113600, 57, 14, 8], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [746963567, "Methoden 1 Kowi Uhleman", 0.0, 0, 1446595200, 16, 0, 0], [977344955, "statistik 3 uhlemann kowi", 0.0, 0, 1447891200, 9, 0, 5], [1681063052, "methoden 3 kowi uhleman", 0.0, 0, 1446595200, 17, 0, 0], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [633419483, "Eylem's math3", 0.0, 0, 1447027200, 195, 0, 72], [382007413, "methoden kowi 2 uhleman", 0.0, 0, 1446595200, 4, 0, 0], [698936420, "Next level Elementary Module 6", 0.0, 0, 1447113600, 101, 26, 40], [1646915080, "Norwegian - russian Elementary 1 \t", 0.0, 0, 1447718400, 117, 0, 0], [1332833324, "methoden 5 kowi uhlemann", 0.0, 0, 1447891200, 18, 0, 1], [1681936433, "Allemand ST - Groupe 2", 0.0, 0, 1447113600, 36, 0, 0], [387051264, "Allemand LL", 5.0, 1, 1449619200, 1742, 0, 0], [394269530, "M\u00e9mento Allemand", 0.0, 0, 1444262400, 1864, 0, 3], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [714702480, "methoden 6 uhlemann kowi", 0.0, 0, 1447891200, 29, 0, 11], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [873074853, "Next level Elementary 9", 0.0, 0, 1443830400, 20, 0, 0], [1746058568, "Next level Elementary Module 2", 0.0, 0, 1443744000, 60, 16, 0], [774777119, "Next level Elementrary 7", 0.0, 0, 1443830400, 17, 5, 0], [1485338520, "Elementary Japanese Lesson 3", 0.0, 0, 1441497600, 68, 0, 0], [1254167893, "Langenscheidt - I - 2000 palavras - alem\u00e3o -  portugu\u00eas", 5.0, 1, 1428883200, 1974, 0, 0], [1894601453, "Vocabulary from Elementary Turkish", 0.0, 0, 1441929600, 1169, 0, 0], [2026297622, "Next level elementary 5", 0.0, 0, 1441152000, 45, 4, 0], [729249472, "Next level Elementary Module 3", 0.0, 0, 1443830400, 43, 0, 0], [121064327, "2015 Coleman Test 1", 0.0, 0, 1443398400, 165, 0, 0], [392158492, "PBSC SPN1120 Elementry Spanish", 0.0, 0, 1446681600, 213, 0, 6], [839563685, "Next level Elementary 8", 0.0, 0, 1443830400, 31, 7, 0], [2094558834, "Next level Elementary 4", 0.0, 0, 1443830400, 12, 0, 0], [454241263, "Elements Symbols", 0.0, 0, 1442361600, 15, 0, 0], [103890101, "HEADWAY - Elementary 4th edition (Czech-English) by Qvasa", 5.0, 5, 1428624000, 1121, 0, 0], [863941301, "Portugu\u00eas - Alem\u00e3o v2", 5.0, 1, 1417046400, 2875, 5610, 1], [1195438702, "Alem\u00e3o - Portugu\u00eas ", 0.0, 0, 1442707200, 162, 32, 2], [361852093, "Elementary Japanese Lesson 1", 0.0, 0, 1441497600, 38, 0, 10], [1985674621, "Elementary Japanese Lesson 2", 0.0, 0, 1441497600, 60, 0, 0], [1620660318, "Chinese Link: Elementary & Intermediate (work in progress)", 0.0, 0, 1364256000, 1256, 0, 0], [154621062, "Trabajos: alem\u00e1n - espa\u00f1ol", 0.0, 0, 1442793600, 15, 0, 0], [2027359382, "La clase en alem\u00e1n", 0.0, 0, 1442793600, 29, 0, 0], [129986190, "Chemical elements \u2014 number, name, symbol, mass", 4.0, 1, 1435795200, 118, 0, 0], [1417347301, "ALLEMAND GAUVRY SHARE", 0.0, 0, 1426032000, 83, 0, 0], [849285625, "Easy Czech Elementary Unit 12", 0.0, 0, 1410566400, 92, 0, 0], [1854433882, "Herbs and supplements", 0.0, 0, 1417305600, 465, 0, 0], [1758492284, "Vocabulaire du vox allemand : das Gef\u00fchl", 0.0, 0, 1431129600, 41, 0, 0], [3807780920, "Bible Quiz 57 Philemon", 0.0, 0, 1345852800, 26, 0, 0], [1230799001, "Easy Czech Elementary Unit 10", 0.0, 0, 1410566400, 98, 0, 0], [95863831, "Allemand", 0.0, 0, 1434585600, 341, 0, 0], [884256540, "Alem\u00e1n Ausdrucken", 0.0, 0, 1439337600, 49, 0, 0], [104079035, "21.Tulajdons\u00e1gok \u00e9s jellemz\u0151k", 0.0, 0, 1432771200, 43, 0, 0], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [1805361268, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 5.0, 1, 1365638400, 393, 222, 393], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [238222841, "N\u00e9met sz\u00f6vegkoh\u00e9zi\u00f3s elemek (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 101, 0, 0], [2843757576, "Langara level 6 Xi\u00e0ti\u0101n l\u00e0i le - supplemental", 0.0, 0, 1358985600, 17, 0, 0], [465424610, "Vocab allemand litt\u00e9raire", 0.0, 0, 1432684800, 50, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [1239898578, "aleman", 0.0, 0, 1431475200, 16, 0, 0], [13534213, "Easy Czech Elementary Unit 1", 0.0, 0, 1410393600, 0, 0, 0], [1398306250, "Vocabulaire allemand de base - Langenscheidt chap 8/13", 0.0, 0, 1386633600, 295, 0, 0], [7900273, "Nata cutting edge elementary", 0.0, 0, 1353456000, 526, 0, 0], [1804314677, "Alllemand", 0.0, 0, 1397606400, 96, 0, 0], [1328908647, "Easy Czech Elementary Unit 8", 0.0, 0, 1410566400, 112, 0, 0], [727621110, "Easy Czech Elementary Unit 3", 0.0, 0, 1410393600, 104, 0, 0], [4101644076, "LA Bar CivPro Supplement", 0.0, 0, 1373846400, 7, 0, 0], [1276055675, "Easy Czech Elementary Unit 9", 0.0, 0, 1410566400, 110, 0, 0], [1609855750, "Langue juridique allemande ", 0.0, 0, 1410912000, 922, 0, 0], [452951147, "CMBM Exam III Complement", 0.0, 0, 1389830400, 23, 0, 12], [152278035, "CFA Level II Practice Problems", 0.0, 0, 1425513600, 247, 0, 655], [409348245, "New English File Elementary Words (English-Hungarian)", 0.0, 0, 1383350400, 960, 0, 0], [395054002, "Aprendendo alem\u00e3o com Anki", 1.0, 1, 1428192000, 3, 0, 0], [1154299408, "Russian-English Word List Elementary", 4.67, 3, 1428019200, 451, 0, 403], [1844094383, "verbes irr\u00e9guliers allemands", 0.0, 0, 1403308800, 127, 0, 0], [2854503240, "AFEA - Five Element - Acupuncture Points", 4.0, 1, 1357516800, 121, 0, 0], [1269035023, "Deutsch - Spanisch / Aleman - Espa\u00f1ol", 0.0, 0, 1409616000, 5928, 0, 0], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [1506869770, "Das Periodensystem der Elemente 2010 (112 Elemente)", 0.0, 0, 1345852800, 112, 0, 0], [1378020084, "GMAT Flash Card Problems", 0.0, 0, 1430611200, 127, 0, 254], [208080877, "Allemand voc 154-156", 0.0, 0, 1426550400, 50, 0, 0], [134908722, "Delia elementary french", 0.0, 0, 1432684800, 426, 5, 2], [23276562, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 0.0, 0, 1365638400, 393, 222, 393], [1610146663, "Easy Czech Elementary Unit 5", 3.0, 1, 1410566400, 106, 0, 0], [1555512297, "Easy Czech Elementary Unit 7", 0.0, 0, 1410566400, 97, 0, 0], [36314847, "Easy Czech Elementary Unit 11", 0.0, 0, 1410566400, 106, 0, 0], [3236787963, "Alem\u00e1n-Espa\u00f1ol por elnezah", 0.0, 0, 1372723200, 1055, 0, 0], [1946195018, "Complementary Deck for Basics of Biblical Greek", 0.0, 0, 1419552000, 228, 0, 0], [1314994340, "Vocabulaire Allemand utile \u00e0 l'\u00e9crit", 0.0, 0, 1360886400, 415, 0, 0], [1400497201, "Alex_Mellem\u00f8re", 0.0, 0, 1402272000, 30, 0, 10], [758355518, "English Vocabulary in Use Elementary (To persian-Farsi)", 0.0, 0, 1394236800, 915, 893, 2], [1950519440, "Portugu\u00eas - Alem\u00e3o", 0.0, 0, 1360281600, 3305, 0, 0], [847521428, "Business English. B1. Phrasal verbs for explaining problems ", 0.0, 0, 1434672000, 13, 0, 0], [1176932577, "elementary", 0.0, 0, 1431043200, 333, 5, 0], [3482395819, "Complement System", 0.0, 0, 1358380800, 25, 0, 0], [3259698232, "All elementary-level Kanji plus JLPT 2 (MCV MCV)", 0.0, 0, 1379203200, 1161, 0, 0], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [1491742854, "latino: casi complementi terminazioni", 0.0, 0, 1381622400, 31, 0, 0], [144744370, "Easy Czech Elementary Unit 6", 0.0, 0, 1410566400, 105, 0, 0], [1258757979, "Elementary Linear Algebra (Anton), sections 4.1 - 4.7", 0.0, 0, 1395532800, 44, 0, 0], [808255356, "Vocabulaire allemand de base - Langenscheidt  ", 0.0, 0, 1385769600, 182, 0, 0], [920221620, "Finite Element Analysis", 0.0, 0, 1400371200, 24, 0, 60], [1687657459, "CMU OLI Elementary French I vocabulary", 0.0, 0, 1384473600, 997, 0, 0], [3095176728, "Neramsinxxx (allemand)", 0.0, 0, 1382745600, 1255, 0, 0], [1184516372, "Probleml\u00f6sung, Kommunikation und Leadership", 0.0, 0, 1406073600, 57, 0, 9], [1660984834, "Vocabulaire Allemand ESBPJ 78 harmos", 0.0, 0, 1430956800, 588, 0, 0], [1639494944, "Easy Czech Elementary Unit 2", 0.0, 0, 1410393600, 88, 0, 0], [1511430571, "vocabulaire fran\u00e7ais-allemand", 3.0, 1, 1403308800, 120, 0, 0], [1091354585, "mazo-aleman-raul", 0.0, 0, 1392249600, 1432, 0, 0], [2146414573, "Elektrische Bauelemente", 0.0, 0, 1389052800, 66, 0, 32], [3913756983, "Englisch f\u00fcr Deutsche - Elementar- und Grundwortschatz", 3.67, 3, 1345852800, 2014, 0, 0], [1783724577, "Koine Greek grammar from Duff's Elements", 5.0, 1, 1357689600, 855, 0, 0], [2629571547, "Posicion de los elementos en la tabla periodica", 0.0, 0, 1383955200, 118, 0, 118], [1687132434, "JK_Hypokalemia", 0.0, 0, 1398297600, 33, 0, 0], [1693963574, "Supplemental", 0.0, 0, 1365897600, 67, 0, 0], [1496084951, "A Level History: 1920s Economic Problems in USA", 0.0, 0, 1401667200, 45, 0, 0], [1003400781, "Alemao para brasileiros", 0.0, 0, 1421280000, 2, 0, 0], [105712039, "Easy Czech Elementary Unit 4", 0.0, 0, 1410393600, 109, 0, 0], [3150399310, "Vocabulaire Fran\u00e7ais - Allemand v.02", 4.0, 1, 1388966400, 3362, 0, 0], [3962900935, "Elementary Biblical Hebrew Vocab (GWC)", 4.0, 1, 1358899200, 393, 0, 393], [2609029846, "Elementary", 0.0, 0, 1355356800, 25, 0, 9], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lem</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1885763725, "Josue toefl", 0.0, 0, 1454976000, 279, 0, 2], [3421526356, "Anno's Turkish (Tatoeba Sentence) Deck", 4.33, 3, 1375488000, 134091, 1435, 0], [1075465080, "Toefl for persian (Farsi) students", 0.0, 0, 1451520000, 1891, 0, 0], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [1057189611, "Anatomy Toe Muscles", 0.0, 0, 1449619200, 124, 0, 45], [2344818168, "Esperanto-English Sentences from Tatoeba (with audio)", 0.0, 0, 1374451200, 456, 456, 0], [964541747, "Most common TOEFL words", 3.5, 2, 1380844800, 2466, 0, 0], [411845063, "Toegepaste fysica", 0.0, 0, 1447718400, 9, 0, 0], [619515654, "Intermediate (B1/B2) sentences from tatoeba", 0.0, 0, 1404345600, 4312, 0, 1], [381398147, "Anno's Dutch (Tatoeba Sentence) Deck\t", 5.0, 1, 1346112000, 3731, 0, 0], [1177597200, "Algorithmist's German-English Tatoeba Sentences", 0.0, 0, 1444089600, 101839, 29, 31], [1618957646, "GermanToEnglish", 0.0, 0, 1445299200, 597, 0, 0], [1239529011, "The Most Important Words Of TPO for TOEFL", 4.0, 2, 1444262400, 1207, 36, 55], [1708037740, "400 must have words for the TOEFL ", 5.0, 1, 1444521600, 402, 438, 19], [1988434165, "400 TOEFL Words", 4.11, 9, 1345852800, 399, 0, 0], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [98868882, "Algorithmist's Hindi-English Tatoeba Sentences", 0.0, 0, 1443830400, 2623, 29, 31], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [2029355477, "600 essential TOEIC - Polish", 0.0, 0, 1442188800, 625, 653, 601], [1424926379, "Algorithmist's  Finnish-English Tatoeba Sentences", 0.0, 0, 1443744000, 30717, 28, 30], [2427803041, "Essential Words for TOEFL", 0.0, 0, 1357948800, 460, 0, 0], [1740812666, "Serbian Eng Tatoeba Sentences (Optimized for Srp-Eng) AAL", 0.0, 0, 1434153600, 737, 26, 103], [2003785165, "600 essential TOEIC-CURIOUS (full) ", 5.0, 2, 1411862400, 625, 653, 601], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [208971974, "Serbian Eng Tatoeba Sentences (Optimized for Eng-Srp) AAL", 0.0, 0, 1434153600, 668, 26, 103], [3642015721, "Toefl - Persian Explanation", 3.75, 4, 1354838400, 2814, 0, 0], [633891512, "\u65e0\u8001\u5e08TOEFL\u8bcd\u6c47\u7ea2\u5b9d\u4e66", 0.0, 0, 1420416000, 2629, 2613, 7], [1342339439, "TOEIC for MSCS ESL1", 0.0, 0, 1398729600, 139, 0, 0], [1503073102, "TOEIC Vocab - English for Japanese - \u65e5\u672c\u4eba\u306e\u305f\u3081\u306e\u82f1\u8a9e\u30b3\u30fc\u30b9", 4.5, 2, 1414195200, 1062, 1053, 1051], [40490366, "Essential Words for the TOEFL [Organized]", 4.5, 2, 1345852800, 450, 0, 0], [1837953188, "Essential Words for the TOEFL [Persian]", 4.0, 10, 1345852800, 450, 0, 0], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1539092241, "Essential Words for the TOEFL EN-FA [Persian] + examples", 4.67, 6, 1404345600, 446, 768, 0], [1901909319, "tatoeba", 0.0, 0, 1345852800, 1444, 1444, 0], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1818811195, "Vocabulaire sp\u00e9cifique anglais TOEIC", 0.0, 0, 1410134400, 868, 0, 0], [959693892, "Swahili toevoegingen les 9-12", 0.0, 0, 1431907200, 111, 0, 0], [2007936468, "400 must have words for the TOEFL", 0.0, 0, 1431734400, 400, 0, 4], [2844383995, "302 EO-CN sentences FROM Tatoeba.org", 0.0, 0, 1360540800, 302, 0, 0], [1413518980, "TOEIC5-1(RTK)", 0.0, 0, 1417219200, 696, 0, 0], [1148532217, "toefl", 0.0, 0, 1409961600, 522, 0, 0], [1930180302, "IELTS,TOEFL  Vocabulary", 3.0, 2, 1357344000, 2316, 0, 0], [1653962653, "Personal TOEFL Vocab", 0.0, 0, 1428796800, 321, 82, 12], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [2790171650, "Vocabulary for TOEFL PBT", 4.5, 2, 1345852800, 450, 25, 0], [2006684745, "Swahili toevoegingen les 1-4", 0.0, 0, 1431907200, 159, 0, 0], [696804506, "Swahili toevoegingen les 6-7", 0.0, 0, 1432684800, 55, 0, 0], [799949918, "Italian Tatoeba Sentences (Native Translations)", 5.0, 1, 1419465600, 61918, 10, 2], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [277495484, "BMOS toets", 0.0, 0, 1430092800, 26, 8, 30], [1747245368, "Anno's Hebrew Tatoeba Sentence Deck (with audio)", 3.5, 4, 1375920000, 32479, 941, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [281819247, "X-Ray Photoelectron Spectroscopy ", 0.0, 0, 1387411200, 11, 0, 7], [1812957209, "chinese sentences from tatoeba", 0.0, 0, 1417910400, 18896, 0, 1], [3735369741, "504 - TOEFL", 0.0, 0, 1357948800, 533, 0, 0], [1696781240, "Toets Gesproken Nederlands (TGN)", 0.0, 0, 1413072000, 684, 708, 0], [2017456166, "New TOEIC Frequently-used Vocabulary", 0.0, 0, 1407801600, 896, 2, 7], [2613296470, "500 Words for TOEFL iBT Stirling 2010", 0.0, 0, 1383696000, 500, 0, 97]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Toe</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

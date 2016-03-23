@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[730363457, "Sinh l\u00ed 1 - Y2 - YDH", 0.0, 0, 1454889600, 796, 33, 31], [1109675316, "Hydrology", 0.0, 0, 1454544000, 67, 0, 5], [40821529, "Useful Everyday German Words", 0.0, 0, 1452124800, 36, 0, 0], [373534082, "My Everyday Russian Kris", 0.0, 0, 1451520000, 25, 0, 3], [2110044394, "English Everyday Idioms (english - russian)", 0.0, 0, 1452384000, 363, 33, 37], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [499838263, "Lydia LATEIN", 0.0, 0, 1449014400, 659, 0, 0], [1022510556, "Edexcel Chemistry unit 4 organic esters Sydney", 0.0, 0, 1448928000, 6, 0, 4], [1082059924, "laundryday", 0.0, 0, 1448755200, 220, 0, 0], [2080897934, "Edexcel Chemistry unit 4 Sydney", 0.0, 0, 1448928000, 384, 0, 87], [212591059, "Lecture 3.1 Carbohydrates and Nucleotide Structure", 0.0, 0, 1445040000, 15, 0, 0], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [2061365536, "Alex_ydre\u00f8re", 0.0, 0, 1402272000, 28, 0, 12], [1765536239, "Presydent", 0.0, 0, 1439078400, 26, 0, 0], [517276898, "Hayden's Random Medical Trivia", 0.0, 0, 1440028800, 1090, 0, 136], [308486891, "Natural Science: Meteorology, Oceanography and Hydrology", 0.0, 0, 1440460800, 139, 0, 0], [280708578, "USYD BIOS5090 2/2", 0.0, 0, 1439251200, 370, 0, 248], [1008275138, "USYD BIOS5090 1/2", 0.0, 0, 1439251200, 543, 0, 213], [397661935, "fattyducky", 0.0, 0, 1430524800, 72, 0, 0], [1750562363, "Everyday English. At the party (dialogue)", 0.0, 0, 1432684800, 18, 0, 0], [1656314812, "Pathydoma", 0.0, 0, 1438300800, 4234, 0, 326], [1772952760, "Alex_Lydl\u00e6re2", 0.0, 0, 1402358400, 6, 0, 7], [2038953250, "fattyducky2", 0.0, 0, 1430611200, 180, 0, 0], [1927755083, "NGFJHL Block 1 USyd Med", 0.0, 0, 1433894400, 2293, 0, 285], [1095254711, "VG's Biochemistry: Carbohydrate Metabolism", 0.0, 0, 1408752000, 29, 0, 7], [832666249, "rowan som prematric biochemistry - metabolism carbohydrates", 0.0, 0, 1404864000, 20, 0, 10], [93980248, "Japanese everyday words and phrases, translated into Russian", 5.0, 1, 1350777600, 113, 105, 21], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [1718848058, "QX Hydraulic system", 0.0, 0, 1411430400, 44, 0, 0], [818909923, "Blynyddoedd", 0.0, 0, 1398211200, 30, 0, 0], [30392134, "Brett'sLiteraryDevices", 0.0, 0, 1410393600, 25, 0, 0], [20445874, "Hydrology and Gases - Year 9 - Mr Shepherd", 0.0, 0, 1406764800, 42, 0, 0], [4242706138, "SNYDER SOCIAL PSYCHOLOGY TEST 4", 0.0, 0, 1386201600, 82, 0, 0], [244185108, "Everyday English. At the party (text)", 0.0, 0, 1432684800, 18, 14, 4], [540521538, "YDS Exam Words", 4.0, 1, 1417132800, 1037, 17, 10], [2507909018, "900 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3wek rosyjskich PL-RU (Dydek)", 0.0, 0, 1345852800, 900, 0, 0], [1592592682, "Hydrocephalus Turtz", 0.0, 0, 1422057600, 7, 0, 0], [2141799388, "Mini 3 Biochemistry - Carbohydrates (unfinised)", 0.0, 0, 1399939200, 50, 0, 0], [889539572, "unc_som_2018-carbohydrate and E metabolism", 0.0, 0, 1409270400, 48, 0, 0], [1839243772, "AQA AS Biology: Carbohydrates", 0.0, 0, 1396483200, 40, 0, 0], [946674766, "mydeck(12) ", 0.0, 0, 1352419200, 264, 0, 0], [33560450, "Kalendarium \u017byd\u00f3w.", 0.0, 0, 1427414400, 40, 0, 0], [570858257, "A2. Lesson 14. Sydney", 0.0, 0, 1424908800, 24, 24, 0], [439313427, "EveryDayChinese", 0.0, 0, 1425513600, 286, 0, 0], [571278459, "Everyday Chinese Words", 0.0, 0, 1374451200, 93, 92, 14], [1707916704, "NGFJHL Block 2 USyd Med", 0.0, 0, 1438214400, 3202, 0, 372], [514888901, "YD ANATOMY", 0.0, 0, 1408579200, 60, 0, 4], [64703150, "Block 1 USyd SMP", 0.0, 0, 1429056000, 2127, 0, 275], [2086401329, "Block 2 USyd", 0.0, 0, 1433721600, 373, 0, 92], [1506527026, "Alex_lydl\u00e6re1", 0.0, 0, 1402358400, 13, 0, 13], [3183688332, "mydeck(1)", 0.0, 0, 1345852800, 77, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yd</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[43010628, "azertyuiopqsdfghjklmwxcvbn", 0.0, 0, 1450915200, 51, 0, 0], [1523595797, "BNTR", 0.0, 0, 1450828800, 75, 1, 1], [333716190, "PSY 280 (Abnormal Psychology MSU)", 5.0, 1, 1449705600, 199, 0, 0], [1615726147, "CSIM2 - Abnormal Renal Function", 0.0, 0, 1449878400, 88, 0, 0], [1218921897, "BNDES 2015", 0.0, 0, 1447200000, 18, 0, 0], [88403580, "My Vocabulary (BNQ)", 0.0, 0, 1440633600, 1496, 1395, 518], [658532312, "kupoprodaje s posebnim pogodbama", 0.0, 0, 1441756800, 24, 0, 0], [331404957, "Ballstothe Bnb ", 0.0, 0, 1440720000, 1017, 0, 27], [1907661654, "vrijednosni papiri i \u010dek (mjenica je posebno!)", 0.0, 0, 1441756800, 13, 0, 0], [491893831, "Ballstothe BnB2", 0.0, 0, 1440720000, 384, 0, 33], [625299731, "Fragenkatalog WGA - Teil H\u00fcbner", 0.0, 0, 1389916800, 32, 0, 11], [650333509, "Slovenian personal pronounces - Osebni zaimki", 0.0, 0, 1438214400, 16, 0, 16], [1785669958, "Dogs and Cats Abnormal Urination (3rd year vet)", 0.0, 0, 1420243200, 683, 0, 0], [1747291830, "debnemet4", 0.0, 0, 1385510400, 60, 0, 0], [2004372912, "BSHo Gyn - Abnormal Uterine Bleeding", 0.0, 0, 1394928000, 29, 0, 1], [3974018994, "debnemet3", 0.0, 0, 1385510400, 68, 0, 0], [1604177820, "debnemet5", 0.0, 0, 1385510400, 70, 0, 0], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [2730742482, "debnemet1", 0.0, 0, 1385510400, 103, 0, 0], [517093674, "Curso Multiplus BNDES", 0.0, 0, 1426636800, 664, 36, 21], [59486831, "debnemet2", 0.0, 0, 1385510400, 78, 0, 0], [978100004, "Abnormal Uterine Bleeding", 0.0, 0, 1431475200, 15, 0, 0], [2765488392, "debnemet6", 0.0, 0, 1385510400, 90, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Bn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1754920041, "russian-slovene", 0.0, 0, 1453766400, 1267, 1288, 3594], [758146693, "6000+ most common Slovak words (with english translations)", 0.0, 0, 1453507200, 6456, 0, 0], [1816040695, "RSI Learn Slovak", 0.0, 0, 1452211200, 165, 0, 0], [673403093, "SM23 - Wish Upon a Star: Naru's First Love", 0.0, 0, 1453420800, 40, 0, 0], [216818240, "slovake.eu A1 (Lesson 2)", 0.0, 0, 1453593600, 48, 51, 0], [425300093, "SM24 - Naru's Tears: Nephrite Dies for Love", 0.0, 0, 1453593600, 20, 0, 0], [348404039, "SM06 - Protect the Melody of Love: Usagi Plays Cupid", 0.0, 0, 1451606400, 28, 0, 0], [1984628120, "N\u011bmecko - \u010desk\u00e9 slov\u00ed\u010dka a fr\u00e1ze", 0.0, 0, 1448323200, 2410, 0, 0], [1769643348, "Sailor Moon Super S Special - Ami's first love", 0.0, 0, 1451692800, 18, 0, 0], [875486799, "Mendelova Angli\u010dtina", 0.0, 0, 1447891200, 42, 0, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [94901459, "migration: slovenian - english", 0.0, 0, 1444089600, 40, 0, 0], [208157405, "JubiloVokabel004", 0.0, 0, 1441670400, 69, 0, 0], [1700904049, "reporting verbs: slovenian - english", 0.0, 0, 1444089600, 25, 0, 0], [1380309412, "op\u0107i uvjeti poslovanja", 0.0, 0, 1441756800, 14, 0, 0], [1172086077, "trgova\u010dko pravo zagreb Zakon o financijskom poslovanju...", 0.0, 0, 1442361600, 4, 0, 0], [1951323036, "N\u011bm\u010dina - z\u00e1kladn\u00ed slova", 0.0, 0, 1441929600, 45, 0, 0], [1130005693, "TMS 180-2: Growing in Love", 0.0, 0, 1440201600, 36, 0, 0], [469694018, "Nemecko-cesk\u00e1 slovicka", 0.0, 0, 1440288000, 328, 0, 0], [371673206, "JubiloVokabel001", 0.0, 0, 1436918400, 36, 0, 0], [2132392969, "Korean Flashcards for my Love", 0.0, 0, 1436832000, 57, 57, 0], [1181795061, "WS2014_IP_Topalov_Teil_3_Kostenmanagement", 0.0, 0, 1422489600, 73, 0, 0], [46523033, "(CZ czech \u010desk\u00fd) (slovak slovensk\u00fd) SK <-> EN (en) Da Vinci", 0.0, 0, 1345852800, 713, 0, 0], [1357739149, "JubiloVokabel003", 0.0, 0, 1438646400, 145, 0, 0], [755726751, "eslovaco castellano vocabulario 1000", 0.0, 0, 1437696000, 823, 0, 0], [1742156094, "Maturita Solutions - pre-intermediate slov\u00ed\u010dka ENG>CZE", 0.0, 0, 1424822400, 418, 0, 0], [1575142789, "Fin\u0161tina - finsk\u00e1 slov\u00ed\u010dka", 0.0, 0, 1401667200, 2458, 0, 0], [3901055979, "Slovak - English random vocabulary", 0.0, 0, 1346198400, 294, 0, 0], [760096227, "JubiloVokabel002", 0.0, 0, 1437264000, 80, 0, 0], [650333509, "Slovenian personal pronounces - Osebni zaimki", 0.0, 0, 1438214400, 16, 0, 16], [246318989, "Slovak verbs in english", 0.0, 0, 1398729600, 92, 0, 0], [1171470939, "2000 nejpou\u017e\u00edvan\u011bj\u0161\u00edch n\u011bmeck\u00fdch v\u011bt a slov\u00ed\u010dek", 0.0, 0, 1425513600, 505, 0, 0], [728058814, "Maturita Solutions - intermediate slov\u00ed\u010dka ENG>CZE", 0.0, 0, 1424736000, 617, 0, 0], [990941101, "slovicka z gramatickyho systemu ", 0.0, 0, 1363651200, 321, 0, 0], [2847693036, "Nj - slov\u00ed\u010dka lekce 6", 0.0, 0, 1383782400, 71, 0, 0], [773154514, "Chemick\u00e9 n\u00e1zvoslov\u00ed - ANC", 0.0, 0, 1389398400, 2358, 0, 0], [531806782, "Slovak-german", 0.0, 0, 1398297600, 1539, 0, 3], [1719200896, "L\u00e9ka\u0159sk\u00e1 terminologie HK - souhrn slov\u00ed\u010dek", 0.0, 0, 1428883200, 1349, 0, 0], [1935441326, "Slovene Alphabet", 0.0, 0, 1424217600, 25, 25, 0], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [1452877149, "Ciz\u00ed slova", 4.0, 1, 1362268800, 497, 0, 0], [4029032846, "Beginner Slovak-Romanian Deck", 0.0, 0, 1393632000, 517, 0, 0], [429336972, "love & party & culture", 2.0, 1, 1412208000, 34, 0, 0], [1413567210, "JAKUB slovesa se spojkami", 0.0, 0, 1423785600, 20, 0, 0], [2320957142, "Deutsch Slovensko 100 Basic Verben", 0.0, 0, 1345852800, 100, 0, 0], [4260779012, "Words from the Slovenian exam (Slovenian - Polish)", 0.0, 0, 1379462400, 276, 0, 0], [3389203135, "Slovenian words 2 (Slovenian-Polish)", 0.0, 0, 1379462400, 192, 0, 0], [1658661904, "Hebrew-Slovak Hanes", 5.0, 1, 1383696000, 815, 46, 0], [320449039, "SLOVAK - ENGLISH (Oxford Project 3rd Edition #1) - Unit 4", 0.0, 0, 1393804800, 15, 0, 0], [1657079759, "Jakub random slovicka", 0.0, 0, 1429488000, 234, 0, 0], [3351948672, "In Slovak language, names of countries, languages, etc.", 0.0, 0, 1360886400, 40, 0, 0], [10244812, "Nj - slov\u00ed\u010dka 12. lekce", 0.0, 0, 1415577600, 98, 0, 0], [3837842325, "Slovenian-Polish 1", 0.0, 0, 1379462400, 84, 0, 0], [1240133089, "Russian-Slovene", 5.0, 1, 1415232000, 939, 944, 2119], [3303770170, "slovak words and enlishhh", 0.0, 0, 1398729600, 435, 0, 0], [552224277, "english slovak elevate", 0.0, 0, 1425945600, 452, 455, 3], [2057483946, "N\u011bmeck\u00e1 nepravideln\u00e1 slovesa", 0.0, 0, 1430179200, 292, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [858664824, "Lekarska terminologie - cislovky", 0.0, 0, 1426464000, 31, 0, 3], [3622447500, "slovak tenses and english", 0.0, 0, 1349568000, 3455, 0, 0], [1452595631, "WS2014_IP_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 44, 0, 0], [1309279685, "WS2014_I&P_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 86, 0, 0], [31626809, "First Friends 1 - English/Slovak", 0.0, 0, 1397692800, 147, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lov</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

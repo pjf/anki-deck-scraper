@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2018020748, "PSYC3042", 0.0, 0, 1446940800, 280, 0, 75], [1344872557, "UQ MBBS 1 PBL 3 Blue is for Boys", 0.0, 0, 1395532800, 50, 0, 0], [356695260, "UQ MBBS1 PBL2 It's Just Indigestion", 0.0, 0, 1395532800, 144, 0, 2], [497779833, "UQ MBBS 1 PBL 8 War and Peace", 0.0, 0, 1395532800, 44, 0, 3], [1341214217, "Clinical Examination Flash Cards UQ MBBS OSCEs", 0.0, 0, 1400630400, 21, 0, 0], [1481797526, "UQ MBBS 1 PBL 10 Vincent is off Colour", 0.0, 0, 1395532800, 64, 0, 6], [798453957, "UQ MBBS 1 PBL 12 Hidden in the Crypts", 0.0, 0, 1395532800, 79, 0, 0], [2942580985, "UQ MBBS 1 PBL 13", 0.0, 0, 1370822400, 99, 0, 1], [2753501751, "UQ MBBS 1 Histology Semester 2", 0.0, 0, 1395532800, 149, 0, 236], [3576321917, "MEDI2034 EOS Flash Cards", 0.0, 0, 1383782400, 180, 0, 88], [1762168852, "UQ MBBS 1 PBL 4 Breathless", 0.0, 0, 1395532800, 86, 0, 0], [2067961893, "UQ MBBS 1 PBL 5 A Nasty Cough", 0.0, 0, 1395532800, 86, 0, 0], [538330340, "UQ MEDI2044 Flash Cards", 0.0, 0, 1378512000, 166, 0, 138], [107339191, "UQ MBBS1 Semester 1 Histology", 0.0, 0, 1395532800, 125, 0, 188], [1626398159, "MEDI2034 Mid-Semester Flash Cards", 0.0, 0, 1383782400, 158, 0, 87], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [1516370227, "UQ MBBSIII Cardiovascular Clinical", 0.0, 0, 1400630400, 139, 0, 1], [98362632, "UQ MBBS III Respiratory Clinical", 0.0, 0, 1400630400, 199, 0, 58], [1500411413, "UQ MBBS 1 PBL 8 Not Even a Dribble", 0.0, 0, 1395532800, 90, 0, 19], [1917551990, "UQ MBBS 1 PBL 17 Smash and Burn", 0.0, 0, 1395532800, 43, 0, 6], [327137949, "UQ MBBS 1 PBL 11", 0.0, 0, 1370822400, 66, 0, 0], [1039995539, "Neurology Clinical UQ MBBS III", 0.0, 0, 1400630400, 298, 0, 7], [313325777, "UQ MBBS III Rheumatology and Orthopaedics Clinical", 0.0, 0, 1400630400, 89, 0, 56], [509177649, "UQ MBBS 1 PBL 6 He Doesn't Listen to a Word I Say", 0.0, 0, 1395532800, 57, 0, 0], [1436914378, "UQ MBBS 1 PBL 7 Starting Work", 0.0, 0, 1395532800, 55, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uq</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

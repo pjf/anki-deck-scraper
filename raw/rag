@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2136150393, "Hiragana + Audio + essential words (the easiest /kawaii way)", 4.44, 16, 1432252800, 87, 87, 77], [1852060079, "Pr\u00fcfungsfragen Psychotherapie", 0.0, 0, 1453680000, 1869, 0, 0], [483423199, "LM4 10 Fragen", 0.0, 0, 1454716800, 6, 0, 7], [226553655, "Japanische Hiragana (\u3072\u3089\u304c\u306a)", 0.0, 0, 1454457600, 100, 0, 0], [195754716, "Japanese Hiragana", 0.0, 0, 1411689600, 104, 104, 0], [1001567186, "Hiragana and katakana", 0.0, 0, 1449619200, 92, 0, 0], [1595194586, "Fragenkatalog MAG-Schwei\u00dfen", 0.0, 0, 1453507200, 30, 0, 0], [1979569449, "N4 JLPT Vocabulary english+hiragana", 0.0, 0, 1451433600, 632, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 0.0, 0, 1421107200, 102, 0, 1], [34491717, "Hiragana", 0.0, 0, 1432857600, 104, 107, 0], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [1614732719, "KMP 3 Altfragen Seite 19-37", 0.0, 0, 1450828800, 502, 0, 0], [378400787, "SZF - Die Befragung", 0.0, 0, 1449878400, 5, 0, 0], [676313274, "Hiragana Katakana output", 0.0, 0, 1412121600, 123, 0, 0], [973903084, "Hiragana from TextFugu", 4.5, 2, 1447027200, 104, 104, 0], [628484304, "JapanesePod101.com Hiragana", 0.0, 0, 1407888000, 30669, 18797, 0], [2111206450, "SZF - Die Frage", 0.0, 0, 1449878400, 10, 0, 0], [125313500, "Japanese Hiragana/Katakana", 0.0, 0, 1448236800, 206, 0, 0], [1038350085, "Deck roberTo Hiragana", 0.0, 0, 1436313600, 46, 0, 0], [1795593474, "Hiragana Complete", 0.0, 0, 1443744000, 104, 0, 104], [1647570708, "Hiraganakatakana", 0.0, 0, 1448582400, 572, 0, 1], [1942577716, "JF Nihongo Hiragana Vocabulary", 0.0, 0, 1444953600, 74, 0, 0], [63275581, "Katakana - Hiragana - \u010desk\u00e1 transcripce ", 0.0, 0, 1447977600, 140, 0, 0], [1745066759, "Prince2_Foundation_MusterFragen_Komplex-B_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [82677516, "Prince2_Foundation_MusterFragen_Komplex-A_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [1006836649, "Memazija - Japanski Hiragana", 0.0, 0, 1444694400, 46, 0, 46], [454663294, "Deutsch Goethe A1 Sprechen: Fragen", 0.0, 0, 1447977600, 67, 3, 69], [43521364, " Fragew\u00f6rter, Ortsangaben, Pratikel Japanisch VHS-WI H73090", 0.0, 0, 1446249600, 53, 0, 0], [843221611, "Complete Hiragana practice deck", 5.0, 1, 1442016000, 104, 104, 0], [1233850715, "vairAgya-shatakam \u0935\u0948\u0930\u093e\u0917\u094d\u092f\u0936\u0924\u0915\u092e\u094d", 0.0, 0, 1446854400, 111, 0, 0], [1285383127, "hiraganacgmds", 5.0, 1, 1442275200, 32, 0, 0], [1404332725, "Academic Status (Hiragana)", 0.0, 0, 1443484800, 10, 0, 0], [1034628850, "Hiragana 1", 0.0, 0, 1441152000, 10, 0, 0], [323123866, "Daily Activities Japanese (Hiragana)", 0.0, 0, 1442793600, 20, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [706183245, "N5 JLPT Kanji english+hiragana", 0.0, 0, 1451433600, 79, 0, 0], [1398539982, "Alfabeto Hiragana Completo", 5.0, 1, 1435536000, 71, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [2125700661, "WS2015_Jungk_Fragen_1-6_Multiple_Choice", 0.0, 0, 1436745600, 6, 0, 0], [236327623, "Hiragana vs Katakana", 0.0, 0, 1345852800, 71, 0, 71], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [1639609313, "Programmieren II MC-Fragen", 0.0, 0, 1360108800, 121, 0, 0], [556666730, "Drawing Hiragana", 0.0, 0, 1409529600, 104, 104, 0], [1273495136, "Entwicklungsbiologie Klausurfragen", 0.0, 0, 1436227200, 48, 0, 3], [1759690965, "Frageworter", 0.0, 0, 1383955200, 8, 0, 0], [625299731, "Fragenkatalog WGA - Teil H\u00fcbner", 0.0, 0, 1389916800, 32, 0, 11], [2258670281, "The Busy Trap (Chinese) Paragraph 6", 0.0, 0, 1365292800, 28, 0, 0], [2099614052, "Pr\u00fcfungsfragen", 0.0, 0, 1437523200, 575, 0, 571], [2014505840, "M8 Klausurfragen 03423", 0.0, 0, 1433980800, 69, 0, 0], [703987976, "M9 Fragensammlung 03431", 0.0, 0, 1404777600, 40, 0, 0], [1788487462, "M9 Fragensammlung 03428", 0.0, 0, 1404777600, 30, 0, 0], [3847643652, "Dragunkin Rus - Eng made by Sergey Larin", 0.0, 0, 1359417600, 388, 0, 0], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1225173123, "M8 Klausurfragen 03426", 0.0, 0, 1433980800, 75, 0, 0], [888405182, "Lysosomal Storage Diseases", 0.0, 0, 1410739200, 31, 0, 0], [1787841904, "DGVT Zwischenpr\u00fcfungsfragen", 0.0, 0, 1397606400, 17, 0, 0], [4038123885, "The Busy Trap (Chinese) Paragraph 3", 0.0, 0, 1365292800, 15, 0, 0], [1836008419, "72 Melakarta Raga system", 0.0, 0, 1392508800, 72, 144, 72], [1280147684, "600 parapente theorie vragen", 0.0, 0, 1438128000, 593, 0, 0], [698196308, "Fragenkatalog WGA - Teil Hansemann", 0.0, 0, 1390003200, 37, 0, 10], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [883169541, "Hiragana deck with stroke diagram", 0.0, 0, 1436227200, 46, 0, 1], [1748178268, "Hiragana - Almost ALL", 0.0, 0, 1435708800, 0, 3, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [197874229, "Dragons ESSBS 20130302CH01", 0.0, 0, 1362268800, 219, 0, 0], [1493915386, "Lysosomal Storage Diseases", 0.0, 0, 1410307200, 37, 0, 0], [754953013, "TU BS Bio B.Sc. BD01 Fragenkatalog Evers ", 0.0, 0, 1426464000, 65, 0, 38], [1619246873, "SIP1kombiFragen", 5.0, 1, 1371254400, 303, 0, 178], [143442514, "Fragen / Anworten Leadership Change Management", 0.0, 0, 1345852800, 7, 0, 1], [2585046631, "GreenDragon Addition001", 0.0, 0, 1362355200, 400, 0, 0], [1337952012, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Web 1.0\"", 0.0, 0, 1422403200, 21, 0, 6], [1643257269, "ITB, IFL Bayreuth - Fragen zum Themenfeld \"Bin\u00e4re Gr\u00f6\u00dfen\"", 0.0, 0, 1422403200, 21, 0, 2], [4066820571, "The Busy Trap (Chinese) Paragraph 9", 0.0, 0, 1365292800, 36, 0, 0], [4063388903, "The Busy Trap (Chinese) Paragraph 11", 0.0, 0, 1365292800, 35, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [133254136, "Verankerungen im Tragwerk aus Beton und Mauerwerk", 0.0, 0, 1406073600, 16, 0, 0], [2888255356, "NeurofragenfuerJen", 0.0, 0, 1368921600, 143, 0, 66], [2144191480, "Aviation civile : masse et centrage", 0.0, 0, 1411084800, 9, 0, 0], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [2183294427, "Japanese Basic Hiragana", 5.0, 2, 1384128000, 46, 46, 0], [968446625, "ITB, IFL Bayreuth - Fragen zum Themenfeld Codierung", 0.0, 0, 1422403200, 20, 0, 4], [36441785, "The Busy Trap (Chinese) Paragraph 7", 0.0, 0, 1365292800, 32, 0, 0], [3439132127, "Bon Courage", 0.0, 0, 1345852800, 517, 0, 0], [730968683, "M8 Klausurfragen 03424", 0.0, 0, 1433980800, 86, 0, 0], [3774742471, "The Busy Trap (Chinese) Paragraph 4", 0.0, 0, 1365292800, 23, 0, 0], [452411054, "VBR Kaufvertrag Begriffe", 0.0, 0, 1392595200, 22, 0, 0], [3553975077, "Geb\u00e4udetechnik Fragenkatalog", 0.0, 0, 1358812800, 79, 0, 0], [263407895, "Hiragama", 0.0, 0, 1345852800, 104, 104, 0], [1928021410, "Japanisch Vokabeln +Hiragana VHS-WI H73090", 0.0, 0, 1442880000, 164, 0, 0], [964897106, "Duolingo / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 168, 0, 0], [531089381, "72 Melakarta Raga system", 0.0, 0, 1396051200, 72, 156, 144], [644577545, "The Busy Trap (Chinese) Paragraph 5", 0.0, 0, 1365292800, 29, 0, 0], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [3184920527, "Handball IHF Regelfragenkatalog (Fassung 18.05.2012 )", 0.0, 0, 1388016000, 332, 0, 0], [2016042343, "The Busy Trap (Chinese) Paragraph 10", 0.0, 0, 1365292800, 31, 0, 0], [1462798212, "Pharma-Klausurfragen TU M\u00fcnchen", 0.0, 0, 1393372800, 74, 1, 1], [910899212, "M8 Klausurfragen 03425", 0.0, 0, 1433980800, 100, 0, 0], [337970963, "IVL 2.1 TU M\u00fcnchen Klausurfragen", 0.0, 0, 1405036800, 71, 1, 6], [3994138261, "Meithai - Fragew\u00f6rter, Partikel, ect.", 5.0, 1, 1383782400, 53, 0, 0], [1315239469, "Glycogen/Lysosomal Storage Diseases", 0.0, 0, 1424995200, 16, 0, 5], [1082886799, "Dragons ESSBS 20130311CH02", 0.0, 0, 1363046400, 212, 0, 0], [114367886, "IK Fragenkatalog (Industrielle Kommunikationstechnik)", 0.0, 0, 1345852800, 129, 0, 8], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [3335113453, "Vocabulaire japonais simple pour apprendre les hiragana", 0.0, 0, 1383955200, 33, 0, 0], [2012137078, "M9 Fragensammlung 03430", 0.0, 0, 1404777600, 39, 0, 0], [4081021230, "SSM1 Altfragen", 0.0, 0, 1381881600, 166, 0, 1], [1982100597, "Master Hiragana [Stroke Diagrams, Audio, 3-Way Notes]", 5.0, 1, 1399161600, 104, 104, 71], [1782582509, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Logik\"", 0.0, 0, 1422403200, 21, 0, 11], [1319526945, "M9 Fragensammlung 03429", 0.0, 0, 1404777600, 31, 0, 0], [1500089388, "Bon Courage", 5.0, 1, 1379030400, 1528, 0, 0], [1830393105, "hiragana", 0.0, 0, 1412553600, 104, 104, 0], [4038795351, "Japanese Y\u014don Hiragana", 0.0, 0, 1384128000, 33, 33, 0], [1778878697, "Fraze / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 8, 0, 0], [1808157323, "Garbe Klausurfragen 2011", 0.0, 0, 1405123200, 87, 0, 88], [669847017, "ITB,  IFL Bayreuth - Fragen zum Themenfeld Zahlensysteme", 0.0, 0, 1422403200, 29, 0, 17], [1791198277, "Fragen 1. - 4. Kapitel", 0.0, 0, 1413504000, 30, 59, 1], [1476852978, "ITB, IFL Bayreuth - Fragen zum Themenfeld ODR", 0.0, 0, 1422403200, 14, 0, 19], [1095337232, "The Busy Trap (Chinese) Paragraphs 1 & 2", 0.0, 0, 1365292800, 23, 0, 0], [3026375407, "Passion List Universe Hiragana", 0.0, 0, 1375056000, 20, 0, 0], [2316163379, "CRM- Storage and use of Human tissue ", 0.0, 0, 1367539200, 11, 0, 1], [2762056365, "The Busy Trap (Chinese) Paragraph 8", 0.0, 0, 1365292800, 10, 0, 0], [3022720532, "Hiragana", 0.0, 0, 1376265600, 99, 0, 0], [4185046271, "Japanese Ten-Ten and Maru Hiragana", 0.0, 0, 1384128000, 25, 25, 0], [722065315, "Hiragana with stroke diagrams and audio", 4.25, 16, 1356998400, 104, 104, 46], [728392663, "Hiragana to Katakana (Basic set)", 4.5, 2, 1416614400, 46, 0, 0], [4038968061, "Dragunkin course vocabulary Eng & Rus", 0.0, 0, 1345852800, 385, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rag</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

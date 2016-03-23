@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1541030782, "Relaxa Dialog", 0.0, 0, 1454803200, 5130, 0, 0], [1239798232, "Wear and Tear preliminary", 0.0, 0, 1454803200, 121, 0, 35], [20318160, "international relations", 0.0, 0, 1454457600, 123, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 5.0, 1, 1345852800, 4353, 0, 0], [357737392, "Politics related words", 0.0, 0, 1453075200, 87, 0, 0], [217769720, "Counties of Ireland", 0.0, 0, 1437868800, 32, 0, 32], [485085502, "Fyzika 4 - Elmag. vlny - Optika - Relativita (Pomi)", 5.0, 1, 1409443200, 40, 0, 49], [312366217, "L\u00e4kemedelsrelaterade-problem_L\u00e4kemedelsv\u00e4rdering", 0.0, 0, 1449187200, 114, 0, 20], [1816213503, "XO Wireless Product info", 0.0, 0, 1446249600, 172, 0, 0], [740967428, "Jouyou kanji & related compounds ", 5.0, 2, 1444176000, 14942, 0, 0], [113518784, "Japanese Relative Time Words Version 1.01 (JTMW)", 0.0, 0, 1424390400, 118, 0, 0], [693896995, "CLINICAL CORRELATIONS EXAM 2- MSMS", 0.0, 0, 1444435200, 74, 0, 0], [774673559, "UGA Math 2250 Cantarella Background Material", 0.0, 0, 1439856000, 19, 0, 38], [13825275, "Ace Correlatives Like a Native!\u2122", 0.0, 0, 1431648000, 59, 118, 1], [1147075506, "TY A06 Relational Verbs", 0.0, 0, 1440201600, 3, 3, 3], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [1256673416, "Math 2250 Cantarella Chapter 2 Limits", 0.0, 0, 1439856000, 15, 0, 30], [519361022, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Food", 0.0, 0, 1407628800, 15, 0, 15], [830065314, "Futurelearn/Univ. Ea. Anglia \"Teaching Computing\" Vocab.", 0.0, 0, 1442188800, 32, 0, 0], [872310434, "Medi11003 Relational Anatomy", 0.0, 0, 1439078400, 1215, 0, 114], [471833048, "Relativit\u00e9 du mouvement", 0.0, 0, 1396742400, 6, 0, 5], [1920112684, "Znieczulenie og\u00f3lne i miejscowe, miorelaksanty", 0.0, 0, 1432944000, 41, 0, 0], [1448066071, "Onderw\u00eareld Vocab ch 14 - 24", 0.0, 0, 1434585600, 78, 0, 0], [297232729, "CPD Relevant List", 0.0, 0, 1389225600, 3067, 0, 0], [1296521467, "Mongolian verbs and project/health-related vocabulary", 0.0, 0, 1345852800, 812, 0, 0], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [1789163405, "12. LP and Related conditions", 0.0, 0, 1374192000, 28, 0, 0], [574464367, "Korelativaj demandoj / angla", 0.0, 0, 1363910400, 10, 0, 0], [1061475370, "Patterns of Religion Vocabulary", 0.0, 0, 1422921600, 178, 0, 0], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [1410276069, "Contract - False prelims", 0.0, 0, 1345852800, 26, 0, 0], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [1375801936, "jlm297correlate", 0.0, 0, 1394668800, 64, 0, 4], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [1644684195, "Anatomy - terms of relationship", 0.0, 0, 1431820800, 14, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [2802320328, "Ireland1", 0.0, 0, 1345852800, 403, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [1186387197, "Chp 5: Head Clinical Correlates", 0.0, 0, 1414972800, 68, 0, 0], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [1777635479, "General Relativity study cards", 0.0, 0, 1382572800, 22, 0, 44], [4116727170, "Squirrel (uncontested) bidding system notes", 0.0, 0, 1375056000, 395, 0, 0], [1861865759, "dakua'ana davi: relaciones", 0.0, 0, 1411689600, 18, 18, 17], [239088165, "communicating / relationsips", 0.0, 0, 1400371200, 60, 0, 0], [572875536, "COM1002 Maths Binary Relations", 0.0, 0, 1432166400, 13, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [2039425129, "DaF Vokabeln, generelles Wortschatz Liste.", 0.0, 0, 1414454400, 19, 0, 0], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [3001803639, "German relative pronouns", 0.0, 0, 1360368000, 16, 0, 0], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57], [2580745740, "BUSM Anatomy - Clinical Correlations of Back, UE, Embry", 0.0, 0, 1378080000, 83, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rel</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

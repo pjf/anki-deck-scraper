@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1812780301, "Diabetes Review for CCFP Exam 2016", 0.0, 0, 1454284800, 16, 0, 0], [2048458785, "Sopica MCF", 0.0, 0, 1453852800, 16, 0, 0], [2474824523, "TOCFL - Begginer (First Level)", 0.0, 0, 1345852800, 838, 0, 0], [2030590426, "CFA Breathing Apparatus", 0.0, 0, 1452556800, 30, 60, 0], [632799882, "CFP Canada: Introduction to Retirement Planning", 0.0, 0, 1452297600, 24, 0, 0], [2046625108, "CFA Level I Official Acronyms", 0.0, 0, 1451433600, 22, 0, 0], [1703904218, "First 50 Words from TOCFL Vocabulary list 1", 0.0, 0, 1452124800, 50, 48, 0], [198795287, "Lucfenyvesek n\u00f6v\u00e9nyei", 0.0, 0, 1449014400, 2, 0, 0], [407403537, "CFA level 3 glossary", 0.0, 0, 1448323200, 820, 11, 37], [1338419429, "The Ultimate CFA Level 1 Anki Deck", 5.0, 1, 1438300800, 1400, 8, 209], [1731235554, "CFA Level 3 - Main Deck", 0.0, 0, 1439856000, 502, 0, 76], [1495449522, "CFT", 0.0, 0, 1439769600, 253, 0, 264], [126609219, "fECfY 1.05", 0.0, 0, 1351123200, 33, 0, 0], [1808658728, "FECfY 3.05", 0.0, 0, 1351123200, 77, 0, 0], [3828374599, "fECfY 1.07", 0.0, 0, 1351123200, 36, 0, 0], [4293798551, "FECfY 3.10", 0.0, 0, 1351123200, 77, 0, 0], [634337459, "CTCFL Oxford Multimedia Roleplay Vocab", 0.0, 0, 1432771200, 210, 0, 0], [609682449, "CFA L2 Equity - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 48, 0, 11], [36544443, "FECfY 2.03", 0.0, 0, 1351123200, 36, 0, 0], [1289790901, "CFA L2 Corp Fin - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 41, 0, 18], [1137153463, "FECfY 3.06", 0.0, 0, 1351123200, 72, 0, 0], [1683830825, "FECfY 2.06", 0.0, 0, 1351123200, 37, 0, 0], [3015844370, "FECfY 3.08", 0.0, 0, 1351123200, 70, 0, 0], [2840288845, "FECfY 3.07", 0.0, 0, 1351123200, 74, 0, 0], [1447665701, "FECfY 2.01", 0.0, 0, 1351123200, 35, 0, 0], [1447781038, "KC's MCFM Unit 3", 0.0, 0, 1418688000, 34, 0, 6], [4015876827, "FECfY 1.03", 0.0, 0, 1351123200, 36, 0, 0], [763605388, "FECfY 2.09", 0.0, 0, 1351123200, 35, 0, 0], [335910705, "cfrench11 list", 0.0, 0, 1429056000, 252, 0, 0], [152278035, "CFA Level II Practice Problems", 0.0, 0, 1425513600, 247, 0, 655], [1265811225, "CFA L2 FRA - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 11, 0, 23], [873856662, "FECfY 1.10", 0.0, 0, 1351123200, 35, 0, 0], [69003739, "FECfY 2.05", 0.0, 0, 1351123200, 36, 0, 0], [3160974807, "fECfY 1.06", 0.0, 0, 1351123200, 31, 0, 0], [3403279294, "FECfY 3.02", 0.0, 0, 1351123200, 71, 0, 0], [2135534035, "FECfY 2.07", 0.0, 0, 1351123200, 35, 0, 0], [2776710345, "FECfY 3.09", 0.0, 0, 1351123200, 71, 0, 0], [663758758, "CFA L2 Fixed Income - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 33, 0, 21], [816429027, "RNLCPCforjay", 0.0, 0, 1424908800, 19, 0, 11], [1244088363, "CFA L2 Port Man - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 16, 0, 9], [475643449, "CFT ", 0.0, 0, 1405900800, 22, 0, 24], [375372246, "CFA L2 Econ - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 9, 0, 9], [33462997, "FECfY 1.09", 0.0, 0, 1351123200, 33, 0, 0], [2139299562, "TCF KT FR-CS-FR", 0.0, 0, 1392854400, 27, 0, 0], [2057931237, "CFA L2 Derivs - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 23, 0, 17], [1289573275, "RPDCPCfirstforjay", 0.0, 0, 1425168000, 28, 0, 3], [3375903379, "FECfY 3.01", 0.0, 0, 1351123200, 59, 0, 0], [1122377038, "CFA Level 1 Study Notes RF", 0.0, 0, 1412985600, 582, 0, 22], [2643704295, "FECfY 1.02", 0.0, 0, 1351123200, 30, 0, 0], [816781886, "MK - custom CFA Study Deck", 0.0, 0, 1431734400, 2284, 0, 0], [1098401043, "FECfY 2.10", 0.0, 0, 1351123200, 39, 0, 0], [696415625, "FECfY 1.11", 0.0, 0, 1351123200, 35, 0, 0], [415408182, "FECfY 2.02", 0.0, 0, 1351123200, 37, 0, 0], [3519621533, "FECfY 2.04", 0.0, 0, 1351123200, 36, 0, 0], [1890834391, "CFA Aerial Pumper Mills Tui scania ", 0.0, 0, 1404604800, 22, 0, 0], [3556941117, "FECfY 1.08", 0.0, 0, 1351123200, 36, 0, 0], [1696353014, "FECfY 2.08", 0.0, 0, 1351123200, 37, 0, 0], [3485839674, "FECfY 1.04", 0.0, 0, 1351123200, 31, 0, 0], [1430696102, "CFA L2 Alt Inv - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 28, 0, 10]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

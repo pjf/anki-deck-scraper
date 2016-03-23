@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3138861285, "Vocabulary with Kanji Mnemonics", 4.67, 6, 1432425600, 1548, 0, 1], [644201386, "1000 English words 10 x szybsza nauka z Symonem", 2.0, 1, 1432944000, 50, 50, 0], [826144732, "Apolo-nemet", 0.0, 0, 1454803200, 542, 0, 0], [102832936, "AWLS mnemonics", 0.0, 0, 1453939200, 6, 0, 65], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 0.0, 0, 1421107200, 101, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 0.0, 0, 1421107200, 102, 0, 1], [1437384824, "713 Common Names and Mnemonics", 0.0, 0, 1430352000, 713, 1, 4], [1904178321, "Russe perfectionnement Assimil ( fran\u00e7ais- russe)", 0.0, 0, 1409616000, 893, 888, 3], [516104018, "otinemiger", 0.0, 0, 1448841600, 0, 0, 0], [293016194, "Biol 192 Lab - Platyhelminthes, Nematoda, Annelida", 0.0, 0, 1445385600, 28, 0, 0], [469694018, "Nemecko-cesk\u00e1 slovicka", 0.0, 0, 1440288000, 328, 0, 0], [1906995119, "egyesultnemet", 0.0, 0, 1396483200, 4783, 0, 0], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [481902074, "Approaches to Anemia", 0.0, 0, 1421280000, 86, 0, 6], [1747291830, "debnemet4", 0.0, 0, 1385510400, 60, 0, 0], [1570185936, "nemcina", 0.0, 0, 1431129600, 824, 0, 0], [518795558, "Gunnemark_minilex_ru_swe", 0.0, 0, 1345852800, 576, 0, 0], [417332002, "Roman Enemies (IDs)", 0.0, 0, 1345852800, 15, 0, 0], [2820284005, "Deutsch Perfekt 3 (magyar-nemet)", 0.0, 0, 1453852800, 1004, 529, 414], [3083426865, "Nemecky s usmevem 2", 0.0, 0, 1345852800, 74, 0, 0], [3974018994, "debnemet3", 0.0, 0, 1385510400, 68, 0, 0], [1604177820, "debnemet5", 0.0, 0, 1385510400, 70, 0, 0], [636549812, "Information about Nematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 199, 0, 0], [2730742482, "debnemet1", 0.0, 0, 1385510400, 103, 0, 0], [2062190850, "Kezdo Nemet - Delfin", 0.0, 0, 1345852800, 2185, 0, 0], [2451250379, "Phonemes of American English and their transcription", 0.0, 0, 1345852800, 101, 0, 0], [59486831, "debnemet2", 0.0, 0, 1385510400, 78, 0, 0], [1429915215, "MDTI 01.15.15 Hemolytic Anemia", 0.0, 0, 1421366400, 51, 0, 10], [4103200536, "Bridie anemia", 0.0, 0, 1383609600, 21, 0, 0], [964897106, "Duolingo / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 168, 0, 0], [909382456, "Aviation civile : environnement", 0.0, 0, 1411084800, 24, 0, 0], [4145625587, "Nemecky s usmevem 1", 0.0, 0, 1345852800, 57, 0, 0], [1815578108, "\u00fajnemet", 0.0, 0, 1388102400, 119, 0, 0], [413625194, "Nepravidelna nemcina", 0.0, 0, 1422576000, 78, 0, 0], [559724750, "hemolytic anemia", 0.0, 0, 1421452800, 57, 0, 2], [2019230274, "HygieneMUI", 0.0, 0, 1425340800, 1027, 0, 30], [758105674, "37C - Mnemonics - Arm", 0.0, 0, 1388534400, 19, 0, 0], [1839907396, "Nema\u010dko srpski", 0.0, 0, 1395964800, 960, 0, 0], [1818965083, "Anemia", 0.0, 0, 1421280000, 67, 0, 4], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [1778878697, "Fraze / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 8, 0, 0], [541858251, "MNEMO ZAKLADKI OD ", 0.0, 0, 1429747200, 9, 0, 1], [2765488392, "debnemet6", 0.0, 0, 1385510400, 90, 0, 0], [886533041, "Nemcina s usmevem", 0.0, 0, 1407024000, 414, 0, 0], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24], [627239283, "csabinemet", 0.0, 0, 1388102400, 3877, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nem</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

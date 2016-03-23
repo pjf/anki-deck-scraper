@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1583779826, "Droit des affaires - Introduction", 0.0, 0, 1454889600, 15, 0, 1], [1584323243, "Anatomy: Circle of Willis and Intracerebral Bleeds", 0.0, 0, 1454889600, 12, 0, 0], [475767360, "Musc. pt mgmt 2: intro to joint moilization", 0.0, 0, 1454803200, 35, 0, 0], [1901155898, "introduction to the nervous system", 0.0, 0, 1454803200, 78, 0, 0], [1862654683, "Introduction to Clinical Skills", 5.0, 1, 1437696000, 733, 23, 8], [2263258759, "Countries of the World", 4.44, 18, 1416009600, 204, 0, 407], [989205601, "Introduction au droit des affaires", 0.0, 0, 1454889600, 33, 0, 0], [2915332392, "[VectorMaps] Countries of the World", 4.68, 31, 1368835200, 194, 0, 388], [975494540, "Country Maps", 0.0, 0, 1453593600, 228, 3, 228], [1821450608, " Introduction Linguistics Uni Due WS 15/16", 0.0, 0, 1454457600, 193, 0, 39], [768777742, "Arabic Practice - Country Names", 0.0, 0, 1442275200, 52, 0, 0], [952920940, "Country Flags", 0.0, 0, 1453680000, 221, 3, 0], [39324415, "Antro deal", 0.0, 0, 1453852800, 20, 0, 4], [1148631475, "Introduction to Sociology Chapter 1", 0.0, 0, 1452124800, 21, 0, 0], [1449733362, "Countries and Capitals", 0.0, 0, 1453939200, 272, 0, 0], [1500961552, "FST 100B FOOD PROPERTIES Intro/sight", 0.0, 0, 1452988800, 59, 0, 0], [859682033, "SFD Contract", 0.0, 0, 1453939200, 63, 0, 0], [67919815, "INTREBARI POMOLOGIE", 0.0, 0, 1452211200, 100, 0, 0], [1510872195, "ABI Second Intro to Metabolism", 0.0, 0, 1452902400, 44, 0, 0], [4150386061, "Microbiology - Intracellular/atypical bacterial pathogens", 0.0, 0, 1369785600, 20, 0, 14], [632799882, "CFP Canada: Introduction to Retirement Planning", 0.0, 0, 1452297600, 24, 0, 0], [2088573454, "Introduction to Bioinformatic Databases and Tools", 0.0, 0, 1452470400, 11, 0, 0], [1684758611, "MW Neuro Central Control, UMN,LMN", 0.0, 0, 1452988800, 45, 0, 7], [1745961245, "Ortskundepr\u00fcfung Krankentransport Hamburg", 0.0, 0, 1452988800, 47, 0, 0], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1523595797, "BNTR", 0.0, 0, 1450828800, 75, 1, 1], [308482818, "INTRODUCCI\u00d3N A LA TEOLOG\u00cdA Y AL M\u00c9TODO TEOL\u00d3GICO", 0.0, 0, 1449619200, 145, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [1209854733, "Introducci\u00f3n al m\u00e9todo teol\u00f3gico ", 0.0, 0, 1449619200, 14, 0, 0], [814321415, "Module 1 - Introduction \u00e0 la psychom\u00e9trie", 0.0, 0, 1449360000, 21, 0, 0], [445209496, "ASCII (including control characters)", 0.0, 0, 1450742400, 128, 4, 2], [1750151939, "introducci\u00f3n al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449532800, 113, 0, 0], [863461558, "Bri's Pharm test 3 Contraceptives", 0.0, 0, 1448928000, 55, 0, 47], [1498619072, "NUT 111AV INTRO 2 METBOLISM", 0.0, 0, 1451088000, 3, 0, 0], [100543929, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 119, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 0.0, 0, 1447286400, 108, 0, 78], [1299834324, "Country Names in Chinese", 0.0, 0, 1447977600, 202, 0, 0], [756468068, "Entrereneurship for Chris", 0.0, 0, 1449100800, 66, 0, 93], [1596050101, "Introduccion al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449619200, 132, 0, 0], [1213414736, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 134, 0, 0], [1632764161, "Muskeln der ventrolateralen Bauchwand", 0.0, 0, 1447804800, 9, 0, 0], [1326720965, "Dictionary of An Introduction to Ancient Greek C.A Luschnig", 0.0, 0, 1397260800, 458, 0, 0], [365554340, "AMS 131 - Intro to Probability Theory Midterm", 0.0, 0, 1445731200, 98, 0, 110], [702141744, "Capital Cities of Central America and Caribbean Islands", 0.0, 0, 1381881600, 39, 0, 0], [89810865, "LEA Intro Second Half", 0.0, 0, 1447977600, 101, 0, 108], [397206132, "IV-Controlling - Seminar und \u00dcbung 1", 0.0, 0, 1445126400, 12, 0, 0], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [1356338378, "Intro Acids n Bases", 0.0, 0, 1445126400, 2, 0, 0], [1968101765, "LMI - Introduction to Greek (Greek 101)", 5.0, 1, 1449014400, 354, 0, 0], [774777119, "Next level Elementrary 7", 0.0, 0, 1443830400, 17, 5, 0], [392158492, "PBSC SPN1120 Elementry Spanish", 0.0, 0, 1446681600, 213, 0, 6], [701060023, "FIU PA school Intro and Organization of Anatomy ", 0.0, 0, 1440374400, 77, 0, 0], [46293116, "Neural control", 0.0, 0, 1443571200, 40, 0, 0], [1004982674, "Introduction to Chinese", 0.0, 0, 1442448000, 188, 0, 0], [201694940, "HMS.IMP.Introduction to Immunology", 0.0, 0, 1364342400, 14, 0, 0], [1303176013, "Human Phys: Intro king usf adb ", 0.0, 0, 1443398400, 75, 0, 0], [1616583212, "mazzo su asia medio rientale e centrale", 0.0, 0, 1386028800, 29, 0, 0], [1681908598, "FIU PA Genetic Intro Physiology ", 0.0, 0, 1440374400, 23, 0, 0], [559257662, "Intro Pohnpeian", 0.0, 0, 1444953600, 240, 82, 112], [1608649604, "Contraception Options_Erigo-Backsman", 0.0, 0, 1438646400, 87, 0, 0], [1493953511, "Instrumente des Controlling - Marketingcontrolling", 0.0, 0, 1442361600, 22, 0, 2], [1824417180, "culpa in contrahendo", 0.0, 0, 1441756800, 8, 0, 0], [2021362761, "Fran\u00e7ais-Pr\u00e9paration entretien embauche", 0.0, 0, 1395446400, 112, 0, 13], [743619055, "JMC Audio: 206 Introduction to Electronic Music Notes", 0.0, 0, 1440201600, 145, 0, 4], [2051412754, "M\u00f6llers - Introducing Yourself", 0.0, 0, 1411257600, 68, 0, 0], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [1035591681, "Introduction to Modern Uighur", 5.0, 2, 1422921600, 936, 1291, 0], [692892245, "ROWAN SOM FUND 3 MICRO LECTURE 2 INTRO TO VIROLOGY (B)", 0.0, 0, 1412899200, 19, 0, 1], [1105041470, "intro to stats", 0.0, 0, 1434585600, 29, 0, 21], [273575569, "Introduction to Microcomputing", 0.0, 0, 1426204800, 279, 0, 0], [2081019665, "Introduction to Immune System I & II", 0.0, 0, 1417737600, 36, 0, 0], [1682601588, "Transitive and Intransitive verbs from \u540d\u53e4\u5c4bYWCA\u521d\u7d1a\uff12", 0.0, 0, 1442361600, 36, 0, 4], [3428008707, "Thackston Introduction to Syriac", 0.0, 0, 1365206400, 709, 0, 436], [154629047, "Tema 01. Farmacolog\u00eda II. Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [1574741184, "Team C/C++ - Intro to Programming", 0.0, 0, 1405296000, 9, 1, 3], [2146637620, "Constantes physiologiques plasmatiques et intracellulaires", 0.0, 0, 1345852800, 11, 0, 0], [1957037709, "Contract - Remedies for breach", 0.0, 0, 1345852800, 20, 0, 0], [2807415971, "RGBM Week 2 Contraception ", 0.0, 0, 1358035200, 69, 0, 2], [1039165213, "MSU ANTR 350 Fall 2014 - Nervous System General", 0.0, 0, 1412553600, 30, 0, 4], [480239736, "Interchange Intro MMZ", 5.0, 1, 1436486400, 830, 822, 51], [425463686, "MSU ANTR 350 Fall 2014 - Upper Limb Muscle Attachments", 0.0, 0, 1412553600, 5, 0, 0], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [1752413909, "Marys IB SBWL Introduction @ WU Wien", 0.0, 0, 1397779200, 30, 0, 0], [1345046498, "Contract - Offer and acceptance", 0.0, 0, 1345852800, 31, 0, 0], [4135973469, " Contract - Contents", 0.0, 0, 1345852800, 39, 0, 0], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [1031210575, "CofO2 - 12 - Control of BP and CO", 0.0, 0, 1345852800, 32, 0, 0], [715281609, "BB 02.10.15 Intro to Neuroanatomy/Neuroimaging", 0.0, 0, 1423785600, 22, 0, 17], [1305130524, "ANTR 350 Final - Exam 2 Material", 0.0, 0, 1417824000, 289, 0, 78], [993930594, "European Countries, Capitals, and Languages", 0.0, 0, 1360195200, 21, 0, 0], [628638569, "MSU ANTR 350 Fall 2014 - Upper Limb Bones", 0.0, 0, 1412553600, 57, 0, 50], [1459171153, "Discoverypoint Intro Deck", 0.0, 0, 1361318400, 88, 0, 48], [211726377, "Contraception", 0.0, 0, 1431388800, 61, 0, 0], [241584689, "Countries in Esperanto Like a Native!\u2122", 0.0, 0, 1432252800, 196, 402, 386], [975168797, "JMC Audio: 201 Introduction to the Audio Industry Notes", 0.0, 0, 1428969600, 77, 0, 2], [608685198, "BIOL120_Introduction to Plant Structure and Function", 0.0, 0, 1345852800, 254, 0, 0], [3544817823, "Contract -- Undue influence", 0.0, 0, 1345852800, 9, 0, 0], [605983515, "MSU ANTR 350 Heart and Vasculature Structures", 0.0, 0, 1415750400, 106, 0, 106], [2363166600, "Centrul Romano-Chinez", 0.0, 0, 1374624000, 148, 0, 0], [1183291079, "MSU ANTR 350 Fall 2014 - Cranial Nerves Groups", 0.0, 0, 1412553600, 24, 0, 9], [1663276288, "MSU ANTR 350 Fall 2014 - Upper Limb Muscle Stuff", 0.0, 0, 1412812800, 29, 0, 2], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [4261453182, "Contract - Doctrine of Complete performance", 0.0, 0, 1345852800, 7, 0, 0], [1629048851, "Intro to Rheumatology ", 0.0, 0, 1422662400, 6, 0, 0], [153491679, "Intro to Computer Science", 0.0, 0, 1399075200, 68, 0, 0], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [530012840, "Introducci\u00f3n al An\u00e1lisis de Datos", 0.0, 0, 1345852800, 207, 0, 0], [1573179779, "Intro to Substance Use Disorders", 0.0, 0, 1428883200, 28, 0, 0], [3390959912, "Reproductive Health in Developing Countries", 0.0, 0, 1384732800, 64, 0, 1], [2078410356, "HMS.IMP.Intro to Bacterial Pathogenesis", 0.0, 0, 1365552000, 30, 0, 0], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [2009350137, "Introduction to MDTI/Hemostasis/Thrombosis", 0.0, 0, 1420588800, 22, 0, 0], [2105092537, "MCM Test 3: BSC Cancer and Aging: Uncontrolled Cell Growth", 0.0, 0, 1408492800, 50, 0, 0], [923990132, "Kanji for L106 (Introductory Japanese)", 0.0, 0, 1443571200, 195, 0, 0], [2049495529, "Guntram et Silke vocabulaire TinTin, vendanges", 0.0, 0, 1358121600, 536, 0, 0], [317134603, "MSU ANTR 350 Fall 2014 - Upper Limb Concepts", 0.0, 0, 1412553600, 36, 0, 0], [1491064360, "Block 3 CV intro, receptors, and excitation-contraction coup", 0.0, 0, 1415836800, 128, 0, 0], [391812642, "Contract - Misrep", 0.0, 0, 1345852800, 27, 0, 0], [1084510011, "Medical Physiology 1- Control of Respiration", 0.0, 0, 1379376000, 142, 0, 4], [3675548771, "Japanese Transitive Intransitive Verbs \u4ed6\u52d5\u8a5e\u3000\u81ea\u52d5\u8a5e", 2.5, 4, 1356566400, 140, 0, 141], [1508231824, "Farmacolog\u00eda II Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [276162503, "intro to ihd", 0.0, 0, 1345852800, 1, 0, 0], [1842504228, "MSU ANTR 350 Fall 2014 - Cranial Nerves Discrete", 0.0, 0, 1412553600, 67, 0, 0], [620180305, "Introduction to Lymphomas", 0.0, 0, 1422316800, 56, 0, 6], [2144191480, "Aviation civile : masse et centrage", 0.0, 0, 1411084800, 9, 0, 0], [1875734127, "Ethologie Intro1", 0.0, 0, 1412812800, 36, 0, 0], [1335125837, "B&B Intro to brain and behavior", 0.0, 0, 1424131200, 18, 0, 0], [1410276069, "Contract - False prelims", 0.0, 0, 1345852800, 26, 0, 0], [311149638, "block 2 hormonal control", 0.0, 0, 1414281600, 63, 0, 0], [2211126117, "introduction to bioinformatics an der boku", 0.0, 0, 1380758400, 79, 0, 13], [2061971660, "HMS.IMP.Intro.Adapative.Immunity", 0.0, 0, 1364601600, 23, 0, 0], [1598875701, "Sicherheitskontrolle", 0.0, 0, 1444348800, 30, 0, 4], [178828042, "FHB L18: Control of the Circulation", 0.0, 0, 1422057600, 9, 0, 17], [556294989, "Nahuatlahtolli: Intransitivos", 0.0, 0, 1414540800, 123, 122, 0], [2361589138, "Bladder Control and Sexual Function", 0.0, 0, 1370217600, 8, 0, 0], [65081649, "INTRODUCTION \u00c0 MARX", 0.0, 0, 1420502400, 34, 0, 0], [344969576, "1.Declarations and Access Control (Chechin)", 0.0, 0, 1429747200, 9, 0, 0], [1584744148, "Renal physiology - core medicine for Oxford graduate entry", 0.0, 0, 1424304000, 230, 0, 4], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [3203596474, "Control Systems", 0.0, 0, 1359504000, 1, 0, 1], [1416999242, "Intrebari limba romana marcu capitolele 1-3", 0.0, 0, 1390608000, 39, 0, 0], [734819484, "HMS.IMP.Infection.Control", 0.0, 0, 1367452800, 33, 0, 2], [1778404461, "DSRI Unit 6  Intro to Linear Regression", 5.0, 1, 1415145600, 21, 0, 6], [1741373124, "Country codes (top-level domain names)", 0.0, 0, 1391212800, 247, 0, 0], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [1508269032, "Villanova Stat Methods I - Introductory concepts", 0.0, 0, 1423180800, 15, 0, 0], [179864438, "CofO2 - 20 - Control of Ventilation.anki", 0.0, 0, 1345852800, 26, 0, 0], [942251095, "Intrinsic back muscles", 0.0, 0, 1409443200, 24, 0, 0], [2994556329, "Intro to Operating Systems start-midterm", 0.0, 0, 1345852800, 103, 0, 0], [1305490160, "Cairo Engineering - Comm2013 - NTRA II", 0.0, 0, 1370304000, 20, 0, 0], [1941773617, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Antropolog\u00eda", 0.0, 0, 1392768000, 23, 0, 0], [3932561036, "TCM Review Acupuncture Contraindications", 0.0, 0, 1345852800, 33, 0, 0], [1738554413, "MSU ANTR 350 Fall 2014 - Brain and Meninges", 0.0, 0, 1412553600, 78, 0, 35], [14857649, "intro patho labintro patho labintro patho labintro patho lab", 0.0, 0, 1412640000, 28, 0, 37], [609924740, "Course d'orientation - Descriptions de contr\u00f4le", 0.0, 0, 1419033600, 111, 0, 111], [1860671939, "BSHo Gyn - Contraception ", 0.0, 0, 1394928000, 26, 0, 1], [2655412208, "IID intro and heme", 0.0, 0, 1379203200, 327, 0, 5], [586428582, "ANTR 350 Final - Exam 1 Material", 0.0, 0, 1417824000, 295, 0, 177], [1678415663, "entrepreneurship", 0.0, 0, 1389657600, 9, 0, 0], [1243497721, "HD L1: Introduction to the Immune Response", 0.0, 0, 1425340800, 6, 0, 16], [1773671064, "Mures-Intrebari capitol 1", 0.0, 0, 1400198400, 25, 0, 0], [4111024141, "Contract - Frustration", 0.0, 0, 1345852800, 20, 0, 0], [29385321, "Complete Finnish Intro and chapter 1.", 5.0, 1, 1419897600, 251, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [429900320, "Intro to Psychiatry", 0.0, 0, 1428883200, 26, 0, 0], [2407783082, "Direito Constitucional Intro", 0.0, 0, 1360022400, 21, 0, 0], [3351948672, "In Slovak language, names of countries, languages, etc.", 0.0, 0, 1360886400, 40, 0, 0], [3369564515, "NTRA", 0.0, 0, 1368835200, 91, 0, 3], [886341274, "QX Flight Controls", 0.0, 0, 1411430400, 30, 0, 0], [1161829246, "IntroToPath", 0.0, 0, 1408665600, 168, 0, 57], [2118746127, "Art 101H Intro, Chapters 1-4", 0.0, 0, 1345852800, 176, 0, 67], [931352622, "Dermatology Intro", 0.0, 0, 1411257600, 19, 0, 18], [169802889, "LearningLawTogether - Contract", 0.0, 0, 1398643200, 77, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [4102788222, "bulgarian-intro-denise", 0.0, 0, 1373500800, 582, 0, 0], [564721390, "SHB Exam 3: Introduction & General Organization of the NS", 0.0, 0, 1417305600, 29, 0, 73], [1948398170, "An Introductory Course in Thai Language & Culture", 0.0, 0, 1409097600, 30, 0, 0], [403578363, "Anglais Entrer en contact avec les autres", 0.0, 0, 1399852800, 21, 0, 0], [1482579965, "25 Largest African Countries - Map Quiz", 0.0, 0, 1401321600, 27, 0, 25], [796366147, "HD4 Heme Intro to Bleeding", 0.0, 0, 1395446400, 32, 0, 9], [1290066901, "Introduction to Networking start-midterm", 0.0, 0, 1350518400, 29, 0, 0], [70563720, "Contracts McC", 5.0, 1, 1418515200, 185, 0, 0], [2046126973, "Contract - Duress", 0.0, 0, 1345852800, 8, 0, 0], [1606762863, "MSU ANTR 350 Fall 2014 - Spinal Cord", 0.0, 0, 1412812800, 52, 0, 7], [335003715, "Introduction to College Algebra", 2.0, 1, 1410048000, 99, 0, 101], [1840186109, "Daniella Kohn's Manual Limba Romana Pentru Straini", 0.0, 0, 1401062400, 631, 573, 144], [27669929, "MSU ANTR 350 Fall 2014 - Spine Stuff", 0.0, 0, 1410480000, 10, 0, 10], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [2364959972, "Introducing the IPA", 0.0, 0, 1393027200, 68, 57, 1], [320130059, "Introduction to Modern Japanese Vocab", 0.0, 0, 1387929600, 919, 0, 0], [992298106, "AB untranslated Japanese", 0.0, 0, 1370044800, 6, 0, 0], [1480058180, "Deutsch-Italienisch NPI1 Unit\u00e0 introduttiva", 0.0, 0, 1400025600, 112, 0, 0], [666018500, "Sz\u00f3rakosgat\u00f3 angol - Introductory verbs Hun-Eng", 0.0, 0, 1422835200, 25, 0, 0], [26517359, "HMS.IMP.Intro.fungi", 0.0, 0, 1368144000, 13, 0, 16], [592931210, "Regions of European Countries (with maps and capitals)", 2.0, 2, 1402963200, 92, 0, 95]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ntr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

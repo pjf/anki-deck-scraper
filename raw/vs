@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2396410861, "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a - \u0421\u0442\u0440\u0443\u0433\u043e\u0432\u0430 \u0438 \u0428\u0435\u0444\u0442\u0435\u043b\u0435\u0432\u0438\u0447 (ivse)", 5.0, 1, 1360195200, 1454, 0, 394], [1253832496, "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a - \u043a\u0430\u043d\u0430 - \u0441\u043b\u043e\u0433\u043e\u0432\u0430\u044f \u0430\u0437\u0431\u0443\u043a\u0430. (ivse)", 4.4, 5, 1360195200, 765, 0, 92], [2176171209, "Japanese Kana  - syllabic Japanese scripts. (ivse)", 0.0, 0, 1360022400, 765, 0, 92], [2015648873, "Rivstart A1A2 - Swedish & English", 0.0, 0, 1453766400, 1121, 0, 0], [3316742273, "Rivstart A1+2 und B1+2", 0.0, 0, 1359590400, 3400, 0, 0], [953434792, "bavspezi", 0.0, 0, 1452816000, 119, 0, 0], [1233578244, "CVS - past questions", 0.0, 0, 1452124800, 14, 0, 9], [429194805, "Julevs\u00e1megiella a-kurssa \u00e5d\u00e5jakm\u00e1no 2016", 0.0, 0, 1452902400, 123, 0, 0], [1663154532, "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a - \u0438\u0435\u0440\u043e\u0433\u043b\u0438\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043a\u043b\u044e\u0447\u0438 (ivse)", 3.0, 2, 1360195200, 264, 0, 254], [398451152, "CVS - random facts", 0.0, 0, 1452124800, 28, 0, 0], [1026202296, "CVS - STEMI", 0.0, 0, 1452124800, 12, 0, 2], [237183522, "CVS - pericarditis", 0.0, 0, 1452124800, 6, 0, 0], [1042340847, "CVS - WPW", 0.0, 0, 1452124800, 14, 0, 7], [1542265872, "CVS - VT", 0.0, 0, 1452124800, 10, 0, 3], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1902544577, "CVS - Syncope", 0.0, 0, 1452124800, 2, 0, 0], [1743201350, "CVS - brugada syndrome", 0.0, 0, 1452124800, 4, 0, 2], [1722815790, "EKK \u00c9vsz\u00e1mok", 0.0, 0, 1449964800, 123, 0, 0], [2020009036, "CVS - aortic dissection", 0.0, 0, 1449705600, 11, 0, 0], [703748314, "CVS - BLS", 0.0, 0, 1449705600, 2, 0, 2], [1773843941, "CVS - AFEM PEARLS", 0.0, 0, 1449705600, 26, 0, 6], [1463527613, "Present Perfect vs Past Simple", 0.0, 0, 1444694400, 51, 0, 7], [1017324613, "Past Simple vs Past Perfect vs Present Perfect ", 0.0, 0, 1446076800, 34, 0, 7], [1842534569, "DVSA Show me, Tell me", 2.0, 1, 1441152000, 19, 0, 0], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [46854705, "MVST 1B BOD", 0.0, 0, 1435622400, 3518, 0, 29], [236327623, "Hiragana vs Katakana", 0.0, 0, 1345852800, 71, 0, 71], [193265787, "\u00e9vsz\u00e1mok", 0.0, 0, 1433116800, 41, 0, 0], [2096014785, "Adult II Week 1 -IVs", 0.0, 0, 1410912000, 24, 0, 9], [247663123, "UPB_SvS", 0.0, 0, 1425772800, 193, 0, 78], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [220360258, "Alex-V\u00e6vsl\u00e6re", 0.0, 0, 1393372800, 74, 0, 6], [561378792, "Pediatric CVS_ Erigo-Backsman", 0.0, 0, 1438387200, 22, 0, 0], [2700750037, "OHSU vs. Buddy Ullman:  CSF Block 1", 5.0, 1, 1385510400, 464, 0, 1], [1385977020, "Jiraiya VS Pain fight vocab - NARUTO (english-japanese)", 5.0, 1, 1409788800, 206, 3, 0], [1805369916, "MVST IB MODA (Pharmacology)", 0.0, 0, 1395878400, 272, 0, 0], [399922363, "MVST IB BOD Chemicals (Pathology)", 0.0, 0, 1395878400, 104, 0, 0], [1405223934, "PITPAK GB vs US englisch", 0.0, 0, 1345852800, 34, 0, 0], [285679631, "Formell vs. Informell ", 0.0, 0, 1369267200, 32, 0, 0], [1621071095, "SBF Minimal Pairs /L/ vs /R/ Listening", 0.0, 0, 1432252800, 24, 24, 0], [221085830, "10 Diencephalon, limbiske sys, autonomt nervsystem", 0.0, 0, 1415145600, 29, 0, 33], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1020133879, "MVST IB BOD Diseases (Pathology)", 0.0, 0, 1395878400, 86, 0, 0], [2057931237, "CFA L2 Derivs - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 23, 0, 17], [1119294196, "Japanese Verb Conjugations and Combinations JTMW (vs 1.05)", 0.0, 0, 1430006400, 338, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Vs</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

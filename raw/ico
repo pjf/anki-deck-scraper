@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[245685089, "Estudo de Astrologia (b\u00e1sico)", 0.0, 0, 1453766400, 41, 0, 0], [587159031, "Calcos semanticos", 0.0, 0, 1453852800, 33, 0, 0], [1606643809, "Astrologia B\u00e1sico", 5.0, 1, 1453420800, 24, 0, 0], [218840145, "Se\u00f1ales de tr\u00e1fico", 0.0, 0, 1450828800, 92, 0, 92], [308482818, "INTRODUCCI\u00d3N A LA TEOLOG\u00cdA Y AL M\u00c9TODO TEOL\u00d3GICO", 0.0, 0, 1449619200, 145, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [1209854733, "Introducci\u00f3n al m\u00e9todo teol\u00f3gico ", 0.0, 0, 1449619200, 14, 0, 0], [1186796683, "Im\u00e1genes Examen Pr\u00e1ctico Radiolog\u00eda UAM 5\u00ba 2015", 0.0, 0, 1449014400, 318, 0, 322], [1750151939, "introducci\u00f3n al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449532800, 113, 0, 0], [100543929, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 119, 0, 0], [480197629, "Ingl\u00eas b\u00e1sico", 0.0, 0, 1449273600, 24, 17, 0], [256483708, "Alfabeto Cir\u00edlico - Alfabeto Latino", 0.0, 0, 1449187200, 47, 0, 1], [550655679, "M\u00e9todo Teol\u00f3gico", 0.0, 0, 1449532800, 102, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [1590750558, "julien deck dico francais arabe", 0.0, 0, 1454198400, 4577, 0, 0], [1596050101, "Introduccion al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449619200, 132, 0, 0], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [613098322, "JAPONES BASICO I Instituto de Idiomas US", 0.0, 0, 1454544000, 582, 5, 317], [901113318, "Vocabulari de \"Les vacances du petit Nicolas\", A2", 0.0, 0, 1448150400, 123, 0, 0], [1213414736, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 134, 0, 0], [1021662717, "FSL Filipino sign language Lexicon in SignWriting 2014", 0.0, 0, 1428192000, 825, 0, 826], [2024458624, "FOR NICOLE AND REIKA ORGO TEST 2", 0.0, 0, 1446163200, 127, 0, 175], [1626227171, "PicoPicoPico", 0.0, 0, 1442966400, 14865, 0, 2580], [509512670, "Spanish - Rico", 0.0, 0, 1441065600, 22, 8, 15], [523528641, "Inglese tecnico contabile", 0.0, 0, 1443484800, 196, 6, 1], [1594849138, "JP - Vocabulario B\u00e1sico I-IV", 0.0, 0, 1444953600, 216, 0, 0], [313855073, "Vocabulario b\u00e1sico franc\u00e9s", 0.0, 0, 1443657600, 137, 0, 38], [881035480, "ESII M\u00e1s Vocabulario Basico", 0.0, 0, 1443139200, 49, 0, 38], [659870929, "ESII Vocabulario Basico", 0.0, 0, 1442361600, 91, 0, 81], [1747998362, "Ingles B\u00e1sico (Level 1)", 5.0, 1, 1438819200, 1588, 3172, 0], [2711974027, "Basics of Biblical Hebrew Pratico and Van Pelt", 3.5, 2, 1345852800, 490, 0, 0], [1666431979, "Vasco/Basque/Euskera 1 - Vocabulario b\u00e1sico", 0.0, 0, 1443398400, 20, 0, 1], [661189597, "Economic issues nico", 0.0, 0, 1433203200, 268, 0, 0], [3664844114, "Psicolog\u00eda del Pensamiento", 0.0, 0, 1369094400, 810, 0, 1], [1129430024, "Lei 8.112/90 - Servidor p\u00fablico federal", 0.0, 0, 1430956800, 25, 0, 0], [974624387, " Antipsic\u00f3ticos", 0.0, 0, 1363651200, 47, 0, 0], [337086993, "Seem\u00e4nnische Begriffe / Segellexicon", 0.0, 0, 1439683200, 337, 3, 1], [651340308, "Estados y capitales de M\u00e9xico", 0.0, 0, 1387497600, 63, 0, 32], [1581722002, "Sistema Politico Brasileiro", 0.0, 0, 1438214400, 24, 0, 0], [268620646, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [382408377, "Nouveaux anticoagulants", 0.0, 0, 1437955200, 33, 0, 0], [2370686572, "Preposicoes (SLC)", 0.0, 0, 1384300800, 16, 0, 0], [2224832029, "Psicopatolog\u00eda", 0.0, 0, 1376265600, 4118, 0, 0], [3567230475, "Playing cards, unicode signs", 0.0, 0, 1345852800, 4, 0, 0], [1706376514, "Psicolog\u00eda de la Motivaci\u00f3n", 0.0, 0, 1345852800, 1043, 0, 0], [1253505906, "40_vocabulario b\u00e1sico", 0.0, 0, 1423267200, 167, 0, 0], [1170312568, "Health nico", 0.0, 0, 1433203200, 541, 0, 0], [1427261992, "RUSVM Toxicology Exam 1", 0.0, 0, 1433980800, 140, 0, 41], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [870748238, "Vocabulary - Physique - F\u00edsico (Spanish-English)", 0.0, 0, 1423612800, 134, 0, 0], [3663741503, "Psicolog\u00eda del Desarrollo I", 0.0, 0, 1388361600, 610, 0, 0], [1256549076, "Van Pelt & Pratico Biblical Hebrew Vocab 1-200", 0.0, 0, 1423094400, 200, 0, 0], [4036649805, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [1143319786, "Racioc\u00ednio L\u00f3gico", 0.0, 0, 1381536000, 133, 0, 252], [1111354368, "Psicolog\u00eda de la Atenci\u00f3n", 0.0, 0, 1345852800, 728, 0, 0], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [202392330, "Sistemas inform\u00e1ticos: DAW", 0.0, 0, 1422403200, 145, 0, 2], [557136118, "Racioc\u00ednio L\u00f3gico - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [4041563747, "Psicolog\u00eda del Aprendizaje", 0.0, 0, 1345852800, 616, 0, 0], [744646156, "Esperanto b\u00e1sico em portugu\u00eas", 0.0, 0, 1409356800, 10, 0, 0], [1559376688, "Tema 07. Farmacolog\u00eda II. Antipsic\u00f3ticos", 0.0, 0, 1363910400, 47, 0, 0], [423814050, "Van Pelt & Pratico Biblical Hebrew Vocab 1001-1101", 0.0, 0, 1424304000, 100, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1745554320, "Direito Administrativo - Bens P\u00fablicos - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1253364478, "Ingles vocabulario basico 1000 palabras", 0.0, 0, 1429747200, 835, 0, 0], [114144256, "Hittite Cuneiform Syllabary (Unicode)", 0.0, 0, 1401321600, 112, 0, 0], [426866391, "giuriato lessico base latino1", 0.0, 0, 1385856000, 74, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [445305596, "Vocabul\u00e1rio jur\u00eddico", 5.0, 1, 1437436800, 167, 0, 3], [115263812, "Environment nico", 0.0, 0, 1433203200, 206, 0, 0], [1934109689, "HZF espanol juridico", 0.0, 0, 1383350400, 10, 0, 0], [1481070479, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [138025739, "Nicotine", 0.0, 0, 1428883200, 21, 0, 0], [159858333, "Pharmacologia Basico", 0.0, 0, 1391731200, 37, 0, 0], [455017909, "Stewart Anticonvulsants", 0.0, 0, 1422835200, 30, 0, 0], [1529069472, "Metodos diagnostico de car calcetas", 0.0, 0, 1423699200, 27, 0, 7], [334819184, "Antiplatelet Anticoagulation Therapy", 0.0, 0, 1421193600, 47, 0, 0], [64308921, "Tema 02. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [381631037, "Per il concorso a Dirigente scolastico", 0.0, 0, 1423008000, 227, 0, 0], [2027169721, "Science and research nico", 0.0, 0, 1433203200, 236, 0, 0], [237664657, "Psicolog\u00eda Social segundo parcial", 0.0, 0, 1345852800, 536, 0, 0], [1322231925, "Psicolog\u00eda de la Percepci\u00f3n", 0.0, 0, 1369353600, 736, 0, 4], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [958247672, "Conceptos basicos (Espacio y tiempo) Es El Ru", 0.0, 0, 1399852800, 101, 295, 1], [3819130012, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [1283875542, "Van Pelt & Pratico Biblical Hebrew Vocab 1101-1200", 0.0, 0, 1424304000, 100, 0, 0], [3794568627, "frances_basico_jalex98", 0.0, 0, 1352592000, 16, 0, 0], [1816222318, "Tema 06.1. Farmacolog\u00eda II. Psicof\u00e1rmacos", 0.0, 0, 1363910400, 4, 0, 0], [107494099, "Espa\u00f1ol en marcha - Nivel b\u00e1sico (A1 + A2)", 0.0, 0, 1374192000, 1177, 0, 0], [3280365539, "Tema 04. Farmacolog\u00eda II. Antiepil\u00e9pticos", 0.0, 0, 1363910400, 58, 0, 0], [979729172, "Van Pelt & Pratico Biblical Hebrew Vocab 801 - 1000", 0.0, 0, 1424304000, 200, 0, 0], [1711248802, "Psicolog\u00eda de la Emoci\u00f3n", 0.0, 0, 1345852800, 903, 0, 0], [60177493, "Lat\u00edn eclesi\u00e1stico", 0.0, 0, 1410912000, 2146, 0, 0], [1548495292, "Raciocinio Logico FSS AFRFB", 0.0, 0, 1423094400, 18, 0, 20], [4047647727, "Psicolog\u00eda Fisiol\u00f3gica", 0.0, 0, 1388361600, 760, 0, 0], [1118588463, "Evaluaci\u00f3n Psicol\u00f3gica", 0.0, 0, 1422403200, 1002, 0, 0], [31671055, "Van Pelt & Pratico Biblical Hebrew Vocab 201-500", 0.0, 0, 1423094400, 300, 0, 0], [373541232, "SHB Exam 3: Descending Corticospinal Tract", 0.0, 0, 1417824000, 20, 0, 16], [11378703, "AME CONSTITUCIONAL - DIREITOS POL\u00cdTICOS", 5.0, 1, 1409702400, 13, 0, 0], [1738937181, "Toxicology LSU Health ", 0.0, 0, 1405987200, 162, 0, 11], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [1606405711, "Psicolog\u00eda de la Memoria", 0.0, 0, 1388361600, 78, 0, 0], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [9612081, "Van Pelt & Pratico Biblical Hebrew Vocab 501-800", 0.0, 0, 1423094400, 300, 0, 0], [1986387722, "Digicode", 0.0, 0, 1416528000, 71, 0, 71], [2709737504, "Psicolog\u00eda Social primer parcial", 0.0, 0, 1345852800, 558, 0, 0], [3963407932, "Tema 06.2. Farmacolog\u00eda II. Ansiol\u00edticos", 0.0, 0, 1363910400, 66, 0, 0], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ico</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

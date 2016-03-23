@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [98793788, "Softwarequalit\u00e4t_WS15_16", 0.0, 0, 1454544000, 71, 0, 0], [1585004278, "Politikwissenschaften M1 WS 15/16", 0.0, 0, 1454976000, 44, 0, 0], [1480731014, "soft tissue injury", 0.0, 0, 1454803200, 80, 0, 0], [888135785, "Software Engineering", 0.0, 0, 1454371200, 428, 9, 202], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [532785798, "SoftballPavla", 0.0, 0, 1454889600, 12, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [677620877, "Software Engineering", 5.0, 1, 1453161600, 351, 9, 158], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [2660852337, "Deutsch im B\u00fcro SGH Wirtschaftsdeutsch PL-DE", 4.0, 1, 1345852800, 2616, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [1353934357, "HSR Software Engineering 1 HS2015", 5.0, 1, 1452211200, 51, 0, 15], [375842036, "Wirtschaftslehre 5", 0.0, 0, 1452038400, 27, 0, 0], [737765266, "Landschaft", 0.0, 0, 1449705600, 0, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [639276142, "Volkswirtschaftslehre", 0.0, 0, 1449360000, 116, 0, 21], [1566118340, "Wirtschaftslehre 2", 0.0, 0, 1449532800, 31, 0, 1], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [803672550, "Polnisches Alphabet DE-PL mit Audio und Lautschrift", 0.0, 0, 1447804800, 51, 96, 5], [542094415, "software security", 0.0, 0, 1447200000, 1, 0, 0], [1779667546, "Pathologyaftermidterm2015", 0.0, 0, 1447718400, 0, 0, 0], [525500214, "SPEL suftlank core vocabulary", 0.0, 0, 1446163200, 1077, 0, 0], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [4168812071, "Business English Wirtschaftsenglisch EN-DE Cordula Sauerland", 5.0, 3, 1345852800, 18454, 0, 0], [1012870475, "BBC Lifts", 0.0, 0, 1445385600, 25, 0, 7], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [1584106381, "B1: soft tissue", 0.0, 0, 1441411200, 14, 0, 0], [206141345, "Wirtschaftsgeographie I", 0.0, 0, 1389744000, 223, 0, 12], [59802978, "Windows 10 Microsoft Edge shortcuts", 3.0, 1, 1439164800, 35, 0, 0], [370626182, "Core Concepts of ESFT Understanding Families", 0.0, 0, 1442880000, 29, 0, 0], [1915605482, "Soft tissue tumors MSK", 0.0, 0, 1440547200, 26, 0, 34], [1677141242, "fatducksoft", 0.0, 0, 1399161600, 28, 0, 18], [646471560, "Berliner Luft", 0.0, 0, 1447632000, 37, 37, 50], [890080933, "Oftalmologie KUleuven", 0.0, 0, 1397174400, 459, 0, 18], [360570529, "Freundschaften", 0.0, 0, 1432252800, 39, 39, 45], [1089036967, "Extra vocabulary taken from the software portion of GER2000", 5.0, 1, 1422057600, 335, 0, 0], [1368298759, "Logan's mathematical gift", 0.0, 0, 1432857600, 27, 0, 3], [1495449522, "CFT", 0.0, 0, 1439769600, 253, 0, 264], [440637283, "Vorbereitung Betriebswirtschaftslehre I & II", 0.0, 0, 1379894400, 90, 0, 1], [2101639778, "ESFT Treatment Theory", 0.0, 0, 1436400000, 18, 0, 0], [971750740, "Common words used in software development", 0.0, 0, 1422489600, 19, 0, 0], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [1044805400, "Deutsch English Mundbildschrift MouthWriting 2014", 0.0, 0, 1431216000, 94, 0, 68], [134561151, "ESFT Assessment Methods & Interventions", 0.0, 0, 1436313600, 25, 0, 0], [3810743070, "UPB_FT", 0.0, 0, 1378944000, 254, 0, 231], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [863606079, "Softwaretechnik 2 am KIT WS1415", 0.0, 0, 1429315200, 675, 0, 2], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [1467173143, "Engenharia de Software para Concurso", 0.0, 0, 1375401600, 131, 0, 44], [542701763, "High Redshift Galaxies Class at UT.", 0.0, 0, 1421798400, 0, 0, 0], [115917412, "General software development and computer science questions.", 0.0, 0, 1353110400, 18, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [1704490835, "T7 Lund HT2014: Oftalmologi ", 0.0, 0, 1418428800, 89, 0, 6], [1600751078, "WerkstofftechnikMarkH", 0.0, 0, 1402617600, 72, 0, 61], [1625135861, "Einf\u00fchrung in Software Engineering TU Darmstadt WS14/15", 0.0, 0, 1423785600, 49, 0, 1], [1991674589, "FTS4 Rechnungswesen", 0.0, 0, 1420761600, 72, 0, 12], [1654430327, "FTO 711 Outgoing Codes IATA", 0.0, 0, 1419984000, 45, 0, 0], [203505614, "SPU MFT Theories I Final - Virginia Satir", 0.0, 0, 1417305600, 15, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [2275233222, "Giftpflanzen", 0.0, 0, 1369699200, 62, 0, 132], [1124884023, "FTS4 Personalentwicklung", 0.0, 0, 1409097600, 4, 0, 0], [1899523792, "FTS4 Personaleinsch\u00e4tzung", 0.0, 0, 1409097600, 33, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [386575990, "SPU MFT Theories I - Final Exam - Experiential / Whitaker ", 0.0, 0, 1417305600, 12, 0, 0], [1485408120, "rough draft flash cards", 0.0, 0, 1409616000, 244, 0, 260], [2604429, "SPU MFT - Theories I Final - Bowen / Transgenerational", 0.0, 0, 1417305600, 13, 0, 0], [109750668, "After Effects CC (GER)", 0.0, 0, 1420416000, 24, 0, 1], [96637746, "Buddhismus_Schrift_1xx", 5.0, 1, 1426982400, 161, 327, 0], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [1051062373, "Wirtschaftsinformatik TU KL WS1415", 0.0, 0, 1426118400, 105, 0, 18], [1876183848, "Software Evolution am KIT", 0.0, 0, 1398643200, 55, 0, 0], [547681559, "FTCE Professional Education Test Prep", 0.0, 0, 1434585600, 478, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [1389857821, "Lebensohl och svar efter X p\u00e5 1l\u00e4get.", 0.0, 0, 1420502400, 12, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [299548013, "Meithai - Schrift- und Sonderzeichen", 5.0, 1, 1383782400, 109, 0, 0], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [475643449, "CFT ", 0.0, 0, 1405900800, 22, 0, 24], [147459951, "TUM Einf. Wirtschaftsinformatik 14/15", 0.0, 0, 1423958400, 107, 1, 1], [785914382, "Software Technik II am KIT", 0.0, 0, 1394668800, 15, 0, 2], [1336409320, "Marketing FTS4", 0.0, 0, 1409011200, 14, 0, 1], [1497362550, "AWL, Allgemeine Wirtschaftslehre BS-AN, Unternehmensformen", 0.0, 0, 1393286400, 24, 0, 0], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [2010065826, "TU Darmstadt - Software Engineering in industrial practice", 0.0, 0, 1400889600, 68, 0, 0], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [658454950, "Vertiefte Themen der Bauphysik II", 0.0, 0, 1406073600, 167, 0, 6], [599602815, "Seitlinger stille Gesellschaft MIG", 0.0, 0, 1420416000, 11, 2, 2], [265985223, "FTO 751 Deutsch", 0.0, 0, 1420502400, 175, 0, 0], [4052224371, "155 S\u00e4tze - Wirtschaftsdeutsch - PL-DE - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [3275911238, "Meithai - Familie und Verwandtschaft", 0.0, 0, 1383782400, 145, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [2132192140, "DaF Vokabeln, schrifftlicher Ausdr\u00fcck", 0.0, 0, 1414454400, 30, 0, 0], [3349670042, "Wirtschaftsdeutsch PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 214, 0, 0], [680377361, "Circle of Fifths - GuitarOS by Fretboard Anatomy", 0.0, 0, 1453766400, 51, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [976229959, "Mundbildschrift 2014", 0.0, 0, 1431216000, 84, 0, 63], [1902251406, "F\u00fcnfte Stunde", 0.0, 0, 1370217600, 59, 0, 0], [1322506439, "FTS4 Marketing", 0.0, 0, 1420761600, 67, 0, 1], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [551101169, "K4 \u2013\u00a0kl. biomekanik Hofte og b\u00e6kken", 0.0, 0, 1400112000, 189, 0, 81], [428371059, "Bs5 Verwandtschaft in Englisch", 0.0, 0, 1417219200, 15, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [4144850662, "Software Unit Testing", 0.0, 0, 1360627200, 29, 0, 0], [1020908200, "SPU MFT - Theories I - General Systems - Final Exam", 0.0, 0, 1417305600, 13, 0, 0], [1643399766, "Software Testing Terminology", 0.0, 0, 1424822400, 51, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ft</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

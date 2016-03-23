@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1315051839, "U5: PLACES", 0.0, 0, 1454889600, 34, 0, 0], [913280093, "LacVietCards", 4.5, 2, 1403395200, 3354, 6708, 310], [1929806266, "David Alan Black Learn to Read New Testament Greek Ch. 6-8", 0.0, 0, 1453852800, 85, 85, 1], [738342931, "11 High-Priority Places", 0.0, 0, 1453852800, 12, 0, 0], [1578705103, "David Alan Black Learn to Read New Testament Greek Ch. 18-20", 0.0, 0, 1453852800, 68, 68, 1], [1532101574, "David Alan Black Learn to Read New Testament Greek Ch. 21-23", 0.0, 0, 1453852800, 24, 24, 1], [1174121624, "David Alan Black Learn to Read New Testament Greek Ch. 15-17", 0.0, 0, 1453852800, 64, 64, 1], [830907336, "David Alan Black Learn to Read New Testament Greek Ch. 24-25", 0.0, 0, 1453852800, 23, 23, 1], [240981133, "David Alan Black Learn to Read New Testament Greek Ch. 9-11", 0.0, 0, 1453852800, 53, 53, 1], [1504178765, "David Alan Black Learn to Read New Testament Greek Ch. 12-14", 0.0, 0, 1453852800, 51, 51, 1], [538887824, "David Alan Black Learn to Read New Testament Greek Ch. 3-5", 5.0, 1, 1453852800, 105, 105, 1], [1549876892, "Thai Breitenstein Places", 0.0, 0, 1453248000, 28, 8, 29], [1247020189, "Se\u00f1ales de circulaci\u00f3n en Espana - Comunidad Europea", 0.0, 0, 1451692800, 329, 0, 335], [485615724, "Blackjack Deck", 0.0, 0, 1449619200, 199, 0, 0], [205202471, "Prepositions (place/direction) pictures", 0.0, 0, 1448236800, 71, 0, 41], [635748846, "Rhetorical Fallacies", 0.0, 0, 1448409600, 26, 0, 0], [1053631809, "Lacuna Musculorum und Vasorum", 0.0, 0, 1447804800, 8, 0, 0], [1084320905, "Prepositions (place/direction)", 0.0, 0, 1448236800, 44, 0, 7], [210097518, "Histology Urinary System (Palacky)", 0.0, 0, 1446681600, 48, 0, 2], [1324503580, "Lecture 4.2 Galactose, glycogen and glycoproteins", 0.0, 0, 1444521600, 94, 0, 0], [86924670, "blackblossom", 0.0, 0, 1396828800, 51, 0, 156], [412074817, "Unit 11 Its a very Exciting Place", 0.0, 0, 1435622400, 22, 0, 0], [1982513146, "Physiology of Lactation", 0.0, 0, 1423180800, 108, 0, 7], [492381866, "Legsilacao Tributaria AFRFB FSSILVA", 0.0, 0, 1424390400, 552, 0, 4], [2186875272, "French - Workplace vocabulary", 0.0, 0, 1381795200, 50, 0, 0], [309055347, "Nahuatlahtolli: lugares places", 0.0, 0, 1414540800, 115, 111, 0], [2030222131, "Repro Placental Pathology 05.05.15", 0.0, 0, 1431216000, 49, 0, 9], [4090836869, "Bible Quiz 39: Malachi", 0.0, 0, 1345852800, 13, 0, 0], [1380184151, "Tema 16. Farmacolog\u00eda II. Hemostasia y coagulaci\u00f3n", 0.0, 0, 1369526400, 380, 0, 32], [420762274, "Common workplace expressions", 0.0, 0, 1426291200, 7, 0, 0], [2254470364, "Lakehead Workplace Idioms", 0.0, 0, 1366588800, 36, 0, 0], [1861865759, "dakua'ana davi: relaciones", 0.0, 0, 1411689600, 18, 18, 17], [3396951775, "Prepositions of place and movement", 0.0, 0, 1360540800, 29, 0, 58], [2203059685, "Lojban gismu Places (with sound files)", 0.0, 0, 1345852800, 3534, 3534, 0], [970971960, "List of Cognitive Biases and Fallacies", 4.0, 3, 1345852800, 211, 0, 0], [1731336887, "phil 110 Munson and Black", 0.0, 0, 1345852800, 232, 0, 1], [1096747051, "Rules of Replacement", 0.0, 0, 1395705600, 12, 0, 11], [906962639, "Legislacao Aduaneira AFRFB FSSILVA", 0.0, 0, 1424390400, 358, 0, 0], [3210390911, "Blackjack basic strategy", 0.0, 0, 1360454400, 320, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lac</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

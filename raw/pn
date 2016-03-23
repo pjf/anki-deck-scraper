@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1009423643, "Respiratory Pathologies: Pneumonia", 0.0, 0, 1454889600, 10, 0, 0], [907251582, "PBSC Elementary Spanish2 SPN1121", 0.0, 0, 1453939200, 96, 0, 0], [1768525984, "199-DYSPNEE AIGUE ET CHRONIQUE", 0.0, 0, 1450137600, 7, 0, 0], [884854774, "PNSBHU", 0.0, 0, 1450396800, 113, 0, 0], [301850634, "pneumologie", 0.0, 0, 1449964800, 25, 0, 0], [1985800908, "1524: Sleep Apnea", 0.0, 0, 1445817600, 20, 0, 24], [392158492, "PBSC SPN1120 Elementry Spanish", 0.0, 0, 1446681600, 213, 0, 6], [533564592, "PNS PHARM", 0.0, 0, 1443916800, 74, 0, 10], [1583581689, "Pneumoniae (bacteria)", 0.0, 0, 1439942400, 83, 0, 0], [2636432883, "JPN1 BCC Genki", 0.0, 0, 1345852800, 140, 0, 0], [2109067388, "Florizarre PNE", 0.0, 0, 1432166400, 218, 0, 4], [1308545632, "Jpnproject239 Radicals #7", 0.0, 0, 1380758400, 41, 0, 0], [887912586, "\u0160pan\u0161\u010dina \u0160OLT 1. stopnja (4/4)", 0.0, 0, 1347235200, 235, 0, 0], [3300089744, "Jpnproject239 Radicals #4", 0.0, 0, 1380758400, 34, 0, 0], [571184647, "\u0160pan\u0161\u010dina \u0160OLT 1. stopnja (1/4)", 0.0, 0, 1347235200, 355, 0, 0], [28907751, "UHM JPN211 L15 Vocab Fall-2014", 0.0, 0, 1415750400, 25, 2, 4], [456334782, "NUR 414 Sleep Apnea", 0.0, 0, 1425945600, 10, 0, 0], [2104528067, "\u0160pan\u0161\u010dina \u0160OLT 1. stopnja (3/4)", 0.0, 0, 1347235200, 334, 0, 0], [1328671399, "Pneumosz", 0.0, 0, 1424908800, 35, 0, 0], [4281589592, "jpnproject239 #0", 0.0, 0, 1380153600, 5, 0, 0], [1847697493, "JAPN 402 Midterm", 0.0, 0, 1395964800, 364, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [22658037, "Hypnosis", 0.0, 0, 1428969600, 6, 0, 0], [1217533270, "Jpnproject239 Radicals #5", 0.0, 0, 1380758400, 31, 0, 0], [2338118123, "\u0160pan\u0161\u010dina \u0160OLT 1. stopnja (2/4)", 0.0, 0, 1347235200, 326, 0, 0], [1776778580, "UHM JPN211 L14 Vocab Fall-2014", 0.0, 0, 1415750400, 60, 2, 4], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [2114693934, "JAPN211", 0.0, 0, 1410480000, 59, 0, 0], [654620210, "Rosyjski-PNJR-N", 0.0, 0, 1352678400, 196, 0, 0], [660335307, "JPN 562 Study Deck", 0.0, 0, 1418601600, 60, 0, 0], [1080438538, "Jpnproject239 Radicals #3", 0.0, 0, 1380758400, 35, 0, 0], [2616033812, "Jpnproject239 Radicals #6", 0.0, 0, 1380758400, 36, 0, 0], [688692617, "PneumologieMUI", 0.0, 0, 1428883200, 572, 0, 24], [1229965821, "Jpnproject239 Radicals #1", 0.0, 0, 1380758400, 35, 0, 0], [3379015373, "Jpnproject239 Radicals #2", 0.0, 0, 1380758400, 35, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Pn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

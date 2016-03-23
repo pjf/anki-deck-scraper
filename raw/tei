@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1110833860, "KF, Kontof\u00fchrung 2015/16 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1454630400, 47, 0, 0], [1878007199, "NUT 111AV Protein", 0.0, 0, 1454803200, 108, 0, 0], [1289058429, "Protein and amino catabolism", 0.0, 0, 1454716800, 18, 0, 4], [1429345215, "Wittgenstein's Tractatus (German-English)", 0.0, 0, 1427500800, 873, 5, 0], [1480066480, "Thai Breitenstein Emotions", 0.0, 0, 1453766400, 49, 8, 39], [102146203, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 2", 0.0, 0, 1453680000, 43, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [1815176407, "Thai Breitenstein Animals", 0.0, 0, 1453248000, 34, 8, 32], [1549876892, "Thai Breitenstein Places", 0.0, 0, 1453248000, 28, 8, 29], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [1922273001, "Thai Breitenstein Transportation", 0.0, 0, 1453248000, 27, 8, 28], [559152355, "Thai Breitenstein Body Parts", 0.0, 0, 1453248000, 46, 8, 38], [289954030, "TCC BIO 1224 CHAPTER 3 PROTEINS/ AMINO ACIDS", 0.0, 0, 1453334400, 13, 0, 0], [744441926, "Identifiactions of amino acids and proteins. ", 0.0, 0, 1452902400, 0, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [2131914953, "P\u00fctz Teichpflanzen", 0.0, 0, 1452816000, 14, 0, 24], [640803219, "Thai Breitenstein Verbs", 0.0, 0, 1453248000, 82, 8, 55], [1863272004, "Thai Breitenstein Colors", 0.0, 0, 1453248000, 24, 8, 27], [1834934069, "GIP Karteikarten", 5.0, 1, 1452643200, 84, 5, 98], [1661677970, "ABI CH7 Protein Function", 0.0, 0, 1453075200, 94, 0, 0], [1295208084, "Latein Felix", 0.0, 0, 1443312000, 1581, 1, 0], [308951003, "Deutsch-Russisch K\u00f6rperteile", 0.0, 0, 1447286400, 38, 0, 0], [938482387, "Terminologievokabeln Latein", 0.0, 0, 1449619200, 288, 0, 0], [499838263, "Lydia LATEIN", 0.0, 0, 1449014400, 659, 0, 0], [631842259, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 1", 5.0, 1, 1448236800, 95, 0, 0], [955916647, "Deutsch-Russisch. Medizin und andere. Teil 1. Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [1286095362, "Deutsch Goethe a1 schreiben Teil 3 Brief ", 0.0, 0, 1448064000, 19, 3, 2], [1884472117, "Goethe a1 h\u00f6ren Teil 1", 0.0, 0, 1447977600, 19, 22, 21], [633176088, "Goethe a1 h\u00f6ren Teil 2", 0.0, 0, 1447977600, 13, 16, 15], [1078213166, "Deutsch-Russisch. Medizin und andere. Teil 2 Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [1780456213, "Chinesisch  Deutsch Teil 1", 0.0, 0, 1447200000, 462, 0, 0], [540621746, "KF, Kontof\u00fchrung 2015/16 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1447459200, 47, 0, 0], [641758211, "Goethe a1 h\u00f6ren Teil 3", 0.0, 0, 1447977600, 22, 25, 17], [870991221, "Adjektive mit unregelm\u00e4\u00dfiger Steigerung", 0.0, 0, 1448409600, 41, 0, 0], [1884736848, "Deutsch Goethe a1 schreiben Teil 2 Formular ", 0.0, 0, 1448064000, 10, 3, 2], [1485901556, "1524: Pharm + Hematuria/Proteinuria", 0.0, 0, 1447977600, 70, 0, 59], [168368817, "Kn\u00f6chernde Bestandteile des Unterschenkels und des Fu\u00dfes", 0.0, 0, 1447804800, 7, 0, 0], [671042665, "Einstein Core Physical Exam", 0.0, 0, 1445126400, 11, 0, 11], [1324503580, "Lecture 4.2 Galactose, glycogen and glycoproteins", 0.0, 0, 1444521600, 94, 0, 0], [197736293, "Deutsch Goethe Adjektive mit Gegenteil ", 0.0, 0, 1448064000, 36, 3, 2], [1474022719, "Lecture 2.1 Proteins", 0.0, 0, 1444089600, 47, 0, 0], [1717556008, "Til a\u00f0 l\u00e6ra fyrir k\u00fars um n\u00fd fasteignal\u00f6g", 0.0, 0, 1442620800, 17, 0, 0], [1346799433, "Norsk privatist Jostein Christensen og Asbj\u00f8rn Aag", 0.0, 0, 1441670400, 77, 3, 34], [2080576766, "Protein Synthesis, Folding, + Degradation", 0.0, 0, 1439942400, 36, 0, 0], [1893134816, "Protein Synth/Gene Expression", 0.0, 0, 1441238400, 28, 0, 0], [500118042, "MKL Bauteilverbindungen", 0.0, 0, 1439251200, 98, 0, 4], [2425969234, "Latein - Medizinische Terminologie_Grammatik", 4.0, 1, 1378166400, 90, 0, 0], [217329638, "MPaley MBM Protein Lecture 1", 0.0, 0, 1439596800, 29, 0, 0], [1181795061, "WS2014_IP_Topalov_Teil_3_Kostenmanagement", 0.0, 0, 1422489600, 73, 0, 0], [1830691264, "Lumina Latein Lernvokabeln - Lektion 1", 0.0, 0, 1370995200, 40, 0, 0], [1389513475, "MTH - Histo: Proteins", 0.0, 0, 1440460800, 10, 0, 0], [625299731, "Fragenkatalog WGA - Teil H\u00fcbner", 0.0, 0, 1389916800, 32, 0, 11], [68385916, "Latein Rotz Dreck", 0.0, 0, 1431820800, 141, 0, 0], [1411451876, "Unikurs Latein", 4.0, 1, 1424131200, 379, 0, 0], [1186576037, "Goldstein Narcotics", 0.0, 0, 1424563200, 16, 0, 0], [107011403, "Goldstein Antianxiety", 0.0, 0, 1422921600, 36, 0, 1], [1583349231, "Biochem Chapter 22: Protein synthesis", 0.0, 0, 1430697600, 24, 3, 2], [1594855394, "MCBI B1 - Amino Acids/proteins", 0.0, 0, 1410825600, 84, 0, 70], [2016524648, "Goldstein Antidepressants", 0.0, 0, 1424390400, 20, 0, 3], [935713104, "Week 2 Proteins", 0.0, 0, 1409443200, 50, 0, 0], [698196308, "Fragenkatalog WGA - Teil Hansemann", 0.0, 0, 1390003200, 37, 0, 10], [1736902404, "Latein - Medizinische Terminologie", 4.0, 1, 1378166400, 1830, 0, 0], [279802067, "Das Haus Teil 2", 0.0, 0, 1398211200, 8, 8, 6], [42806810, "Lipoproteins", 0.0, 0, 1411776000, 34, 0, 0], [683483452, "Hacking to the Gate (Steins;Gate)", 0.0, 0, 1428105600, 41, 36, 2], [1981395207, "CMBM I proteins, nucleotides", 0.0, 0, 1386115200, 582, 0, 85], [650069993, "Lipoproteins and Cardiovascular Disease", 0.0, 0, 1411776000, 41, 0, 0], [3367756138, "HellensteinPhysik9", 0.0, 0, 1345852800, 89, 0, 21], [469968023, "Week 1 Proteins", 0.0, 0, 1409443200, 51, 0, 1], [4176040791, "Latein Klettverschluss GWS", 0.0, 0, 1383004800, 94, 0, 0], [388983195, "Lukion yhteiskuntaoppi kurssi 1 termit", 0.0, 0, 1418601600, 338, 0, 0], [337142596, "A\u00f0rir flokkar fasteigna og skipaso\u00f0un", 0.0, 0, 1425859200, 0, 0, 0], [1510756841, "BKR, Bankrechnen f\u00fcr Bankkaufleute 2013/14 Teil 1", 0.0, 0, 1390262400, 38, 0, 0], [16089016, "Latein_Matur Voci", 0.0, 0, 1431388800, 57, 0, 0], [2665910019, "HellensteinPhysik8", 0.0, 0, 1345852800, 90, 0, 48], [2533982354, "Wer wird Million\u00e4r? DE-DE Teil 2 (schwer)", 0.0, 0, 1345852800, 460, 0, 0], [1555192785, "Goldstein Parkinsons", 0.0, 0, 1422748800, 28, 0, 2], [1641306702, "HD Disorders And Proteins", 0.0, 0, 1430092800, 36, 0, 0], [953091856, "Max*/Matiar/Ameer Membrane Immunology Plasma Proteins", 0.0, 0, 1379289600, 23, 0, 16], [716704289, "CRM- Proteins", 0.0, 0, 1367625600, 18, 0, 2], [1281809217, "Ven\u00e4j\u00e4 substantiiveja joilla erityispiirteit\u00e4", 0.0, 0, 1419379200, 83, 0, 0], [1524909943, "Budapest ker\u00fcletei", 1.0, 1, 1392422400, 23, 0, 110], [2668424145, "Berliner Ortsteile und Bezirke", 0.0, 0, 1374969600, 108, 0, 109], [111075782, "Das Haus 1. Teil ", 0.0, 0, 1398211200, 10, 10, 10], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [1201091878, "Latein (Hessenkollege WZ)", 0.0, 0, 1392768000, 390, 0, 0], [119771252, "K\u00f6rperteile DE-RU", 0.0, 0, 1421712000, 112, 0, 0], [707046712, "Latein Lektion 21", 0.0, 0, 1428624000, 38, 0, 0], [1422173183, "Wer wird Million\u00e4r? DE-DE Teil 1 (einfach)", 0.0, 0, 1345852800, 460, 0, 0], [203494814, "IEL Chemie Teilchenmodell", 0.0, 0, 1400803200, 56, 0, 0], [471144806, "Lateinische Stil\u00fcbungen II", 0.0, 0, 1406160000, 221, 0, 0], [950134103, "Mi-Chans Genki I Karteigrammatik", 5.0, 1, 1372896000, 21, 0, 0], [1938196840, "MCB Block 3 Proteins", 0.0, 0, 1414540800, 79, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [364787347, "Latein Konjugationen", 0.0, 0, 1386028800, 670, 0, 0], [1819837037, "Einstein 2nd yr ICM final", 0.0, 0, 1345852800, 254, 0, 0], [1452595631, "WS2014_IP_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 44, 0, 0], [1309279685, "WS2014_I&P_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 86, 0, 0], [934961656, "Stein Gate Eng/Ru", 0.0, 0, 1425340800, 2497, 2518, 33]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tei</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

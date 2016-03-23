@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1987414799, "Firstaid/Uworld pharmacology", 0.0, 0, 1453507200, 305, 0, 157], [1356244406, "uw medicine", 0.0, 0, 1449964800, 25, 0, 2], [940491871, "UWYO Japanese 1010 Vocabulary", 0.0, 0, 1447718400, 577, 0, 0], [262089195, "Grund- und Aufbauwortschatz Griechisch", 0.0, 0, 1446508800, 682, 0, 0], [1671772629, "uworldqbank medicine", 0.0, 0, 1440979200, 1111, 0, 6], [27841478, "Bhuuworldgi", 0.0, 0, 1438992000, 373, 0, 0], [533564592, "PNS PHARM", 0.0, 0, 1443916800, 74, 0, 10], [1733689599, "renal uworld", 0.0, 0, 1439942400, 203, 0, 0], [1928388055, "Bhupulmuworld", 0.0, 0, 1438732800, 135, 0, 0], [1061435538, "endocrineuworldbhu", 0.0, 0, 1439164800, 162, 0, 0], [573912206, "muw_grammatik_09/15", 0.0, 0, 1441843200, 130, 0, 0], [1462431226, "bhuGIUWORLD", 0.0, 0, 1439078400, 248, 0, 0], [789517822, "NUW Radar Data Study Notes. Phases 1-5.", 5.0, 1, 1396742400, 122, 0, 0], [1648295721, "UW Madison Summer Uyghur", 5.0, 1, 1437436800, 788, 0, 0], [1781700801, "Joey's Jizzing UWS Cards", 0.0, 0, 1414368000, 157, 0, 2], [301125290, "EA 204 @ UW-Madison", 0.0, 0, 1421971200, 0, 0, 0], [764555424, "Neuroanatomie deel 1 - inwendige bouw cerebrum", 0.0, 0, 1353369600, 37, 0, 2], [933887931, "Patho 1 Exam 3 UWM", 0.0, 0, 1415145600, 290, 0, 0], [3085922208, "KNUW Airspace MAP", 0.0, 0, 1381276800, 45, 0, 41], [689535261, "MMG Block I UW SMPH", 0.0, 0, 1412121600, 153, 0, 0], [68106304, "C/V UWorld", 0.0, 0, 1436227200, 115, 0, 0], [268431798, "UW-L PA Cardiology Didactic", 0.0, 0, 1418256000, 204, 0, 205], [3983893876, "UW USMLE STEP1 ", 0.0, 0, 1370649600, 56, 0, 0], [677476614, "UWO Mineralogy 2206", 0.0, 0, 1447113600, 79, 0, 0], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 1, 1373241600, 2049, 0, 0], [1174368555, "UW-L PA Nephrology", 0.0, 0, 1421193600, 41, 0, 52], [204553045, "\u0141acina", 0.0, 0, 1386201600, 44, 0, 0], [2120253420, "UW Madison Classical Chinese Semester Two", 0.0, 0, 1422835200, 937, 0, 0], [54885977, "UW-L PA Pharmacology I (Fall 2014)", 0.0, 0, 1418083200, 153, 0, 88], [56697303, "Native North American Art", 0.0, 0, 1389398400, 56, 0, 41], [965368870, "UWM pharmacology exam 1", 0.0, 0, 1424649600, 166, 0, 0], [406163616, "Pals test 1 KNUW", 0.0, 0, 1396137600, 13, 0, 0], [1330898561, "UW-L PA Pharmacology II and III (Fall 2014)", 0.0, 0, 1418256000, 174, 0, 30], [1315865430, "Cell Structure and Function UW SMPH. ", 0.0, 0, 1412121600, 235, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1470114103, "Klausurtechnik f\u00fcr das Jura-Studium", 5.0, 2, 1438041600, 62, 0, 6], [2112782806, "Police, law, surveillance", 0.0, 0, 1454976000, 19, 19, 12], [520026553, "Business Law Exam 4 Short Answer (Carr)", 0.0, 0, 1345852800, 15, 0, 0], [2087959279, "U.S. Presidents (/w pics)", 0.0, 0, 1453161600, 44, 0, 43], [894272514, "Rechtsphilo FINAL", 0.0, 0, 1454198400, 16, 0, 6], [283750340, "US Bill of Rights", 5.0, 2, 1361664000, 17, 0, 0], [1277856472, "CLB", 0.0, 0, 1453248000, 79, 0, 0], [1354504174, "Warnken's criminal law final", 0.0, 0, 1447977600, 98, 0, 0], [246005258, "patent law cases anticipation 102", 0.0, 0, 1434067200, 101, 0, 0], [1943546827, "Lawl fml", 0.0, 0, 1448496000, 314, 10, 259], [540108631, "Outlaw Star TV 01 [EVA02]", 0.0, 0, 1442016000, 37, 0, 0], [1299366046, "Business Law Exam 3 (Carr)", 0.0, 0, 1345852800, 108, 0, 0], [15774447, "Law words: English Turkish ", 0.0, 0, 1433116800, 28, 0, 0], [2089114050, "Business Law Exam 4 (Carr)", 0.0, 0, 1345852800, 122, 0, 0], [1841616637, "\"Outlaw\" Anatomy II", 0.0, 0, 1418083200, 526, 0, 148], [3505953313, "Federal Rules of Evidence", 0.0, 0, 1377734400, 57, 0, 0], [1173171468, "patent law cases claim interpretation", 0.0, 0, 1437609600, 70, 0, 0], [3898087522, "Business Law Exam 1 (Carr)", 0.0, 0, 1345852800, 192, 0, 2], [2049968104, "Legal English for Russian Speakers", 2.5, 2, 1359417600, 77, 0, 0], [655985817, "patent law cases statutory categories patentable matter 101", 0.0, 0, 1437609600, 53, 0, 0], [2651175560, "Barbri Constitutional Law", 0.0, 0, 1373587200, 33, 0, 0], [522544564, "patent law cases obviousness 103", 0.0, 0, 1437609600, 395, 0, 0], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [2128188228, "patent law cases prior art", 0.0, 0, 1437609600, 27, 0, 0], [1411490472, "patent law cases omnibus ", 0.0, 0, 1437609600, 849, 0, 0], [2779690080, "Business Law Exam 3 Short Answer (Carr)", 0.0, 0, 1345852800, 16, 0, 0], [1669155697, "Cevimeline's Law", 0.0, 0, 1430006400, 174, 1, 25], [1687080661, "Business Law Exam 1 Short Answer (Carr)", 3.5, 2, 1345852800, 36, 0, 2], [1797167597, "RLR #85 - Breaking the Law", 0.0, 0, 1418947200, 31, 31, 0], [1889570833, "CAM102 Microbiology lawl", 0.0, 0, 1376956800, 163, 0, 9], [1254193736, "human Rights law - scots", 0.0, 0, 1412553600, 6, 0, 0], [2079427361, "property topic 4", 0.0, 0, 1370908800, 47, 0, 0], [2772473507, "Ohm's Law", 0.0, 0, 1360454400, 12, 0, 12], [2562004261, "LearningLawTogether - Tort", 0.0, 0, 1398643200, 140, 0, 0], [632690749, "Ty\u00f6oikeus", 0.0, 0, 1414713600, 117, 0, 0], [1342493819, "CAM102 Gross Anatomy lawl ", 0.0, 0, 1376956800, 478, 0, 33], [1976568397, "LearningLawTogether - Criminal", 0.0, 0, 1398643200, 115, 0, 0], [2024058962, "Church figures, laws, and lawyers", 0.0, 0, 1345852800, 17, 0, 0], [2417733534, "property topic 3 ", 0.0, 0, 1370908800, 62, 0, 0], [298853069, "LBR7 -- Constitutional Law", 0.0, 0, 1405900800, 34, 0, 0], [744429963, "LearningLawTogether - EU MCT Practice", 0.0, 0, 1393459200, 83, 0, 0], [1875009896, "BPP EU Law Revision", 0.0, 0, 1393891200, 175, 0, 0], [429317498, "law", 0.0, 0, 1412208000, 52, 0, 0], [1361815937, "\u0411\u0438\u043b\u0435\u0442\u044b \u041f\u0414\u0414 \u0420\u0424 2011-2012. Traffic Rules (in Russian)", 3.67, 3, 1349913600, 800, 0, 613], [3644943099, "Business Law Exam 2 Short Answer (Carr)", 0.0, 0, 1345852800, 17, 0, 2], [895576189, "LearningLawTogether - Equity & Trusts", 0.0, 0, 1398643200, 111, 0, 0], [458639325, "LBR8 -- Criminal Law, Procedure, and Evidence", 0.0, 0, 1405900800, 49, 0, 0], [1605585273, "48 Laws of Power", 0.0, 0, 1406332800, 48, 5, 0], [673963158, "LearningLawTogether - EU", 0.0, 0, 1392768000, 241, 0, 0], [3362778311, "La Bar Criminal Law, Procedure, and Evidence", 0.0, 0, 1374192000, 22, 0, 0], [575904246, "LearningLawTogether - Land", 0.0, 0, 1398643200, 122, 0, 0], [169802889, "LearningLawTogether - Contract", 0.0, 0, 1398643200, 77, 0, 0], [606402422, "Biochemie KMP2 Tiziana Klawitter", 0.0, 0, 1431129600, 954, 0, 94], [947916955, "Medical law", 0.0, 0, 1397520000, 57, 0, 0], [1392715584, "Law Justice", 0.0, 0, 1391990400, 177, 0, 0], [4220422161, "LearningLawTogether - Con & Ad", 0.0, 0, 1385337600, 41, 0, 0], [4282224136, "Business Law Exam 2 (Carr)", 3.0, 2, 1345852800, 97, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Law</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

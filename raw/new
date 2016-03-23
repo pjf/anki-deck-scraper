@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1878254954, "Koine New Testament Greek 30 Mounce (with Audio & reverse)", 2.0, 1, 1419552000, 552, 340, 0], [1929806266, "David Alan Black Learn to Read New Testament Greek Ch. 6-8", 0.0, 0, 1453852800, 85, 85, 1], [3270327772, "Bible Quiz 25: Lamentations", 0.0, 0, 1345852800, 14, 0, 0], [2022962448, "Bible Quiz 23: Isaiah", 0.0, 0, 1345852800, 219, 0, 0], [2924015409, "Bible Quiz 31: Obadiah", 0.0, 0, 1345852800, 6, 0, 0], [620053768, "Hui Shen --- new words", 0.0, 0, 1454112000, 6, 0, 0], [2834237563, "Bible Quiz 41: Mark", 0.0, 0, 1345852800, 60, 0, 0], [1578705103, "David Alan Black Learn to Read New Testament Greek Ch. 18-20", 0.0, 0, 1453852800, 68, 68, 1], [1337100309, "Bible Quiz 44 Acts", 0.0, 0, 1345852800, 410, 0, 0], [3892914161, "Bible Quiz 50 Philippians", 0.0, 0, 1345852800, 43, 0, 0], [3772034370, "Bible Quiz 06: Joshua", 0.0, 0, 1345852800, 91, 0, 0], [3880162897, "Bible Quiz 02: Exodus", 0.0, 0, 1345852800, 195, 0, 0], [948056020, "Bible Quiz 15: Ezra", 0.0, 0, 1345852800, 33, 0, 0], [734973444, "Bible Quiz 51 Colossians", 0.0, 0, 1345852800, 64, 0, 0], [1532101574, "David Alan Black Learn to Read New Testament Greek Ch. 21-23", 0.0, 0, 1453852800, 24, 24, 1], [1922011662, "Bible Quiz 21: Ecclesiastes", 0.0, 0, 1345852800, 73, 0, 0], [1174121624, "David Alan Black Learn to Read New Testament Greek Ch. 15-17", 0.0, 0, 1453852800, 64, 64, 1], [830907336, "David Alan Black Learn to Read New Testament Greek Ch. 24-25", 0.0, 0, 1453852800, 23, 23, 1], [990960330, "Bible Quiz 52 I Thessalonians", 0.0, 0, 1345852800, 56, 0, 0], [240981133, "David Alan Black Learn to Read New Testament Greek Ch. 9-11", 0.0, 0, 1453852800, 53, 53, 1], [1504178765, "David Alan Black Learn to Read New Testament Greek Ch. 12-14", 0.0, 0, 1453852800, 51, 51, 1], [28328419, "Bible Quiz 33: Micah", 0.0, 0, 1345852800, 22, 0, 0], [538887824, "David Alan Black Learn to Read New Testament Greek Ch. 3-5", 5.0, 1, 1453852800, 105, 105, 1], [3043279898, "Bible Quiz 55 II Timothy", 0.0, 0, 1345852800, 48, 0, 0], [936935814, "Bible Quiz 49 Ephesians", 0.0, 0, 1345852800, 78, 0, 0], [4035204890, "Bible Quiz 46 I Corinthians", 0.0, 0, 1345852800, 195, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [654348838, "Bible Quiz 16: Nehemiah", 0.0, 0, 1345852800, 64, 0, 0], [1400379517, "Bible Quiz 45 Romans", 0.0, 0, 1345852800, 194, 0, 0], [131448396, "Dil's Monster News Vocab With Subdecks", 0.0, 0, 1451692800, 1522, 1, 1], [656717484, "Bible Quiz 05: Deuteronomy", 0.0, 0, 1345852800, 156, 0, 0], [286274576, "NT Greek Grammar (Oak Hill College)", 0.0, 0, 1355875200, 267, 0, 0], [3982037439, "Bible Quiz 20: Proverbs", 0.0, 0, 1345852800, 247, 0, 0], [329948167, "Bible Quiz 36: Zephaniah", 0.0, 0, 1345852800, 11, 0, 0], [1546104439, "Bible Quiz 58 Hebrews", 0.0, 0, 1345852800, 146, 0, 0], [3585042406, "Bible Quiz 27: Daniel", 0.0, 0, 1345852800, 80, 0, 0], [2238275437, "Bible Quiz 56 Titus", 0.0, 0, 1345852800, 18, 0, 0], [1804021309, "Bible Quiz 47 II Corinthians", 0.0, 0, 1345852800, 123, 0, 0], [557301682, "Bible Quiz 28: Hosea", 0.0, 0, 1345852800, 41, 0, 0], [886610955, "Dil's Monster News Vocab", 0.0, 0, 1448582400, 1385, 1, 1], [1857569652, "Bible Quiz 43: John", 0.0, 0, 1345852800, 112, 0, 0], [736035713, "Bible Quiz 01: Genesis", 0.0, 0, 1345852800, 327, 0, 0], [660189436, "Bible Quiz 18: Job", 0.0, 0, 1345852800, 135, 0, 0], [1605666493, "Bible Quiz 63 II John", 0.0, 0, 1345852800, 9, 0, 0], [574151262, "new words from inlingua ", 0.0, 0, 1449273600, 0, 0, 1], [325832880, "New English File Intermediate - English-Hungarian [gubus]", 5.0, 1, 1441152000, 1287, 1287, 1], [132912213, "new words 2", 0.0, 0, 1447027200, 408, 0, 0], [1073450896, "Japanese Newspaper 4560 Additional News", 0.0, 0, 1443657600, 106, 3, 0], [888717216, "Bible Quiz 62 I John", 0.0, 0, 1345852800, 59, 0, 0], [2069604193, "Bible Quiz 04: Numbers", 0.0, 0, 1345852800, 176, 0, 0], [1274644414, "575 Advanced Spanish Verbs with 3, 4 or 5 usage sentences", 4.88, 8, 1431043200, 3025, 0, 1], [3228451621, "Bible Quiz 42: Luke", 0.0, 0, 1345852800, 147, 0, 0], [3263933168, "Bible Quiz 03: Leviticus", 0.0, 0, 1345852800, 78, 0, 0], [126560048, "Bible Quiz 37: Haggai", 0.0, 0, 1345852800, 11, 0, 0], [403133480, "Bible Quiz 40: Matthew", 0.0, 0, 1345852800, 144, 0, 0], [1350840747, "Bible Quiz 59 James", 5.0, 1, 1345852800, 84, 0, 0], [800605480, "Bible Quiz 60 I Peter", 0.0, 0, 1345852800, 73, 0, 0], [1549013089, "Jordan News Article Vocab", 0.0, 0, 1442966400, 298, 0, 0], [4269065416, "Bible Quiz 14: II Chronicles", 0.0, 0, 1345852800, 155, 0, 0], [2980560471, "Bible Quiz 13: I Chronicles", 0.0, 0, 1345852800, 91, 0, 0], [1715776639, "Bible Quiz 32: Jonah", 0.0, 0, 1345852800, 20, 0, 0], [1180389210, "New Deck Sept. 13", 0.0, 0, 1442102400, 85, 0, 0], [717269752, "KSUCVM Dat New Parasitology Exam 1", 0.0, 0, 1442793600, 667, 0, 52], [188437368, "Japanese Newspaper 4560", 0.0, 0, 1441756800, 98, 0, 0], [3258550671, "Bible Quiz 08: Ruth", 0.0, 0, 1345852800, 22, 0, 0], [3993503662, "Bible Quiz 11: I Kings", 0.0, 0, 1345852800, 134, 0, 0], [1606781907, "New Vocabulary Phrases", 0.0, 0, 1440979200, 59, 0, 0], [2886872180, "Chinese in 10 Days (The Commercial Press), book 1, new words", 0.0, 0, 1345852800, 222, 222, 0], [627485476, "News in Korean TTMIK", 0.0, 0, 1415577600, 176, 175, 0], [2674931632, "Bible Quiz 64 III John", 0.0, 0, 1345852800, 10, 0, 0], [2033213574, "New words through sentences - English to Portuguese", 4.62, 13, 1421452800, 2734, 2650, 7], [59741036, "New Words for Ch 7 Sect 1", 0.0, 0, 1392940800, 28, 0, 0], [3158398929, "Bible Quiz 38: Zechariah", 0.0, 0, 1345852800, 52, 0, 0], [3621797043, "Bible Quiz 65 Jude", 0.0, 0, 1345852800, 20, 0, 0], [1841536200, "GNT Vocab - Philippians ch 1", 0.0, 0, 1433116800, 52, 0, 0], [127013540, "New_Chinese ", 0.0, 0, 1425513600, 25, 0, 0], [3825293842, "New English File Upper Intermediate Words(English-Hungarian)", 0.0, 0, 1426204800, 255, 0, 0], [2170645682, "Bible Quiz 10: II Samuel", 0.0, 0, 1345852800, 95, 0, 0], [3807780920, "Bible Quiz 57 Philemon", 0.0, 0, 1345852800, 26, 0, 0], [2964554861, "Bible Quiz 34: Nahum", 0.0, 0, 1345852800, 8, 0, 0], [3626140208, "Bible Quiz 26: Ezekiel", 0.0, 0, 1345852800, 125, 0, 0], [1080483066, "3rd Year- News Reading Vocab (Chinese to English)", 0.0, 0, 1388188800, 135, 0, 0], [1571260298, "Sz\u00f3rakosgat\u00f3 angol - New English File Advanced SB Unit 3 GrV", 5.0, 1, 1422835200, 90, 0, 9], [1276649065, "Media Arabic: A Coursebook for Reading Arabic News ", 0.0, 0, 1414886400, 31, 1, 0], [2060885240, "New Words for Ch 6 Sect 1", 0.0, 0, 1392940800, 30, 0, 0], [289595607, "New Words for Ch 5 Sect 2", 0.0, 0, 1392940800, 25, 0, 0], [528478231, "German words from the news.", 0.0, 0, 1437436800, 286, 0, 114], [3433177573, "new minimals biophysics", 0.0, 0, 1384646400, 46, 0, 92], [1048481865, "chinese newspaper exam", 0.0, 0, 1390003200, 477, 0, 0], [585396542, "Bible Quiz 61 II Peter", 0.0, 0, 1345852800, 41, 0, 0], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 5.0, 1, 1445904000, 1398, 2796, 1], [1466173870, "MTC 2nd year New Testament Set Text Greek Vocab", 0.0, 0, 1373932800, 430, 0, 1], [3740991650, "Lesson 67", 0.0, 0, 1356048000, 17, 17, 1], [3514973533, "Reading Into A New China (vol.1) - Svenska, kap 1-9 ", 0.0, 0, 1382572800, 418, 0, 0], [2074768262, "New Approach 6", 0.0, 0, 1417651200, 52, 0, 0], [246789243, "3rd Year- News Listening (Chinese to English)", 0.0, 0, 1388102400, 504, 0, 0], [2038964407, "Renewable energies course flashcards", 0.0, 0, 1436400000, 118, 0, 69], [4133970918, "Bible Quiz 12: II Kings", 0.0, 0, 1345852800, 130, 0, 0], [388445446, "New Approach \u6f22\u5b57", 0.0, 0, 1434758400, 730, 0, 0], [539884671, "Acropolis World News Ancient Greek Vocabulary", 0.0, 0, 1430265600, 237, 2, 3], [856244294, "Ordination Prep: New Testament Outlines", 0.0, 0, 1430352000, 26, 0, 0], [2572316465, "2011 Earthquake and Tsunami Japanese News Vocabulary", 0.0, 0, 1345852800, 88, 0, 0], [4098300670, "Lesson 66", 0.0, 0, 1356048000, 48, 48, 0], [109990026, "Bible Quiz 24: Jeremiah", 0.0, 0, 1345852800, 180, 0, 0], [83815045, "Bible Quiz 53 II Thessalonians", 0.0, 0, 1345852800, 27, 0, 0], [1744991691, "New Approach \u5358\u8a9e", 0.0, 0, 1434758400, 1024, 0, 0], [706302375, "New Approach Japanese Intermediate Course", 0.0, 0, 1429315200, 141, 0, 0], [1899029170, "New Friends 3", 0.0, 0, 1351382400, 71, 0, 0], [1632498029, "This Deck is about the opposite words at the new English  fi", 0.0, 0, 1422144000, 14, 0, 1], [1918766345, "GEM flashcards for Martin new", 0.0, 0, 1393286400, 3108, 0, 0], [525417561, "Caract\u00e8res chinois du \"New practical Chinese reader\"", 0.0, 0, 1427846400, 207, 0, 0], [1715696218, "New City Catechism", 0.0, 0, 1357689600, 52, 0, 0], [146550409, "New Words for Ch 5 Sect 1", 0.0, 0, 1392940800, 22, 0, 0], [206147857, "Biblical Greek (Koine) - Swedish", 0.0, 0, 1345852800, 1126, 0, 0], [963075732, "New Words for Ch 8 Sect 1", 0.0, 0, 1392940800, 25, 0, 0], [1180288013, "grama new appro japanese", 0.0, 0, 1400630400, 120, 0, 0], [4090836869, "Bible Quiz 39: Malachi", 0.0, 0, 1345852800, 13, 0, 0], [286118177, "q1newbied", 0.0, 0, 1411603200, 36, 0, 1], [148012156, "Thai High class consonants 3 with new vowels", 0.0, 0, 1431734400, 20, 0, 0], [3309842799, "Bible Quiz 17: Esther", 0.0, 0, 1345852800, 49, 0, 0], [3795203828, "New English File Pre-Intermediate Words (English-Hungarian)", 0.0, 0, 1383436800, 598, 0, 0], [1527582706, "Reproductive Histology New", 0.0, 0, 1397952000, 54, 0, 39], [409348245, "New English File Elementary Words (English-Hungarian)", 0.0, 0, 1383350400, 960, 0, 0], [2679311077, "Assimil New French with Ease and Audio", 4.5, 14, 1383609600, 2617, 1209, 2], [1278958368, "New Testament Syriac", 3.0, 1, 1364860800, 1780, 0, 887], [412203543, "Thai High class consonants 2 with new vowels", 0.0, 0, 1431734400, 19, 0, 0], [3108417751, "Japannewbie's Japanese Deck", 0.0, 0, 1350777600, 732, 0, 0], [1260818567, "New Approach 9", 0.0, 0, 1421280000, 56, 0, 0], [4010120156, "Bible Quiz 66 Revelation", 0.0, 0, 1345852800, 229, 0, 0], [1492736011, "Koine Greek", 0.0, 0, 1416268800, 1559, 0, 0], [69453965, "new of nas", 0.0, 0, 1360886400, 673, 0, 0], [251532788, "q1newbiea", 0.0, 0, 1411603200, 26, 0, 23], [967761190, "Media Arabic: A Coursebook for Reading Arabic News", 0.0, 0, 1414886400, 70, 1, 0], [3804262200, "NT Greek Verbs with all Principal Parts", 0.0, 0, 1373500800, 293, 0, 0], [1994921824, "1 Peter Greek vocab (below 21x in NT)", 0.0, 0, 1379980800, 295, 0, 295], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [839385032, "Newcastle MBBS Stage 2 - CSIM", 0.0, 0, 1399766400, 1005, 0, 4], [2032779817, "New Words for Ch 9 Sect 1", 0.0, 0, 1393891200, 21, 0, 0], [2228299718, "Bible Quiz 29: Joel", 0.0, 0, 1345852800, 14, 0, 0], [1745894701, "Japanese News Article", 0.0, 0, 1390435200, 69, 0, 0], [1178412962, "Vocabulary and expressions of Unit 6, book New English File", 0.0, 0, 1449619200, 64, 0, 0], [819918699, "new approach", 0.0, 0, 1399507200, 274, 0, 0], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [3810533592, "Bible Quiz 54 I Timothy", 0.0, 0, 1345852800, 65, 0, 0], [235783792, "Oil, gas, newspaper news", 0.0, 0, 1430179200, 380, 0, 0], [2130680356, "Ordination Prep: New Testament Verses", 0.0, 0, 1430352000, 215, 0, 0], [4270519617, "New Kanji Added (Han tu moi)", 0.0, 0, 1345852800, 278, 0, 0], [3527779736, "new of nas", 0.0, 0, 1360886400, 673, 0, 0], [2504837256, "Lesson 68", 0.0, 0, 1356048000, 9, 9, 0], [967360313, "q1newbiec", 0.0, 0, 1411603200, 40, 0, 2], [401262656, "Bible Quiz 07: Judges", 0.0, 0, 1345852800, 88, 0, 0], [255128879, "q1newbib", 0.0, 0, 1411603200, 112, 0, 1], [273648179, "Persian-Farsi - DLIFLC - GLOSS - \"A New Style of Shopping\"", 0.0, 0, 1417305600, 108, 0, 0], [108746690, "New Words for Ch 7 Sect 2", 0.0, 0, 1392940800, 20, 0, 0], [1110575730, "New Words for Ch 8 Sect 2", 0.0, 0, 1392940800, 23, 0, 0], [291783655, "\u65b0\u6982\u5ff5\u82f1\u8bed\u7b2c\u4e00\u518c", 5.0, 1, 1404518400, 758, 0, 0], [2060936264, "NPCR Flashcards (Ch 1 - 12)", 5.0, 1, 1431302400, 431, 429, 0], [275619092, "\u65b0\u6982\u5ff5\u7b2c\u4e00\u518c\u5355\u8bcd\u5e26\u97f3\u6807", 0.0, 0, 1404518400, 899, 0, 0], [2132647205, "Bible Quiz 30: Amos", 0.0, 0, 1345852800, 28, 0, 0], [1265561395, "New Words for Ch 6 Sect 2", 0.0, 0, 1392940800, 20, 0, 0], [2077295616, "Voc Anglais \"Science, New Technologie and Astronautics\"", 0.0, 0, 1360886400, 76, 0, 0], [401094247, "RLR #86 \u2013 New York English & the Qu'ran", 0.0, 0, 1420675200, 30, 30, 0], [2873911578, "Bible Quiz 35: Habakkuk", 0.0, 0, 1345852800, 9, 0, 0], [87010126, "Newest Words", 0.0, 0, 1419379200, 165, 165, 0], [3823689849, "Bible Quiz 22: Song of Solomon", 0.0, 0, 1345852800, 20, 0, 0], [224768494, "Bible Quiz 19: Psalms", 0.0, 0, 1345852800, 422, 0, 0], [335784705, "Voelz Greek Vocabulary", 3.0, 1, 1345852800, 547, 0, 0], [136408032, "Bible Quiz 09: I Samuel", 0.0, 0, 1345852800, 138, 0, 0], [2976671642, "Lesson 63", 0.0, 0, 1355184000, 79, 78, 39], [1341867074, "Newtonian", 0.0, 0, 1357689600, 67, 0, 0], [119654867, "Bible Quiz 48 Galatians", 0.0, 0, 1345852800, 84, 0, 0], [569057320, "Text Criticism Terms", 0.0, 0, 1380585600, 51, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 5.0, 1, 1363392000, 5393, 0, 0], [2032458682, "new HSK chinese word list plus a few more annotations", 1.0, 1, 1403827200, 4223, 5, 0], [1539003116, "NT Greek Vocab (Oak Hill College)", 4.5, 2, 1357689600, 1218, 0, 0], [2875167399, "CHINA101R_1st-Year Chinese", 0.0, 0, 1345852800, 148, 0, 0], [2017456166, "New TOEIC Frequently-used Vocabulary", 0.0, 0, 1407801600, 896, 2, 7], [4165979750, "Bible Scriptures (NWT)", 5.0, 2, 1355443200, 219, 0, 0], [2213227198, "Slightly Upgraded core6k", 0.0, 0, 1360022400, 6016, 5929, 0], [3649522441, "New Headway Intermediate English-Hungarian lesson 1", 5.0, 1, 1359504000, 102, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>New</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

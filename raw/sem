@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[877590109, "Anglais technique ENSM semestre 2", 0.0, 0, 1454457600, 145, 25, 6], [551627581, "Sem 3 Vocab", 0.0, 0, 1454025600, 992, 0, 0], [218378958, "Vocab-5-Sem", 0.0, 0, 1453852800, 195, 0, 0], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [1829750423, "Area Studies Semester 2", 0.0, 0, 1454025600, 98, 0, 0], [1695134078, "Kanjis LLCE 2 Bordeaux 3 1er Semestre", 0.0, 0, 1453248000, 381, 0, 1], [1281843764, "Semester 3 Levantine", 0.0, 0, 1454025600, 319, 0, 0], [587159031, "Calcos semanticos", 0.0, 0, 1453852800, 33, 0, 0], [1334357098, "Semester 1 - Block 1 - Anatomy", 0.0, 0, 1449792000, 93, 0, 107], [2036526789, "Semester 1 - Block 2 - Anatomy", 0.0, 0, 1449792000, 16, 0, 29], [1145667213, "Semester 1 - Block 3 - MCB", 0.0, 0, 1449792000, 1, 0, 2], [1562780580, "Shariah Program Semester One Grammar SIA", 0.0, 0, 1372636800, 324, 0, 0], [679056481, "Semester 1 - Block 1 - MCB", 0.0, 0, 1449792000, 51, 0, 77], [130662739, "Semester 1 - Block 1 - Histology", 0.0, 0, 1449792000, 68, 0, 120], [954041552, "Mikrobiologi 6. Semester", 0.0, 0, 1447113600, 141, 0, 276], [19022210, "Semester One flashcards", 0.0, 0, 1449532800, 1081, 0, 2], [616580705, "Uni K\u00f6ln Semester 4 Kanji Miri", 0.0, 0, 1447459200, 329, 0, 0], [105841342, "TWIW 15 B1 - VWL DHBW KA Semester 1", 0.0, 0, 1447286400, 73, 0, 0], [397206132, "IV-Controlling - Seminar und \u00dcbung 1", 0.0, 0, 1445126400, 12, 0, 0], [461794434, "TWIW 15 B1 - Werkstoffkunde Semester 1", 0.0, 0, 1447286400, 68, 0, 1], [1689698256, "Semi Comprehensive Deck for MS3", 3.71, 7, 1440115200, 14981, 0, 0], [1358043074, "anglais professionnel semestre 1 fran\u00e7ais anglais", 0.0, 0, 1442793600, 350, 25, 6], [1688642029, "Daryll Inso KNU vocab semester 1", 0.0, 0, 1444089600, 80, 47, 88], [391614082, "Pathology Sem 2 Flashcards", 0.0, 0, 1443052800, 489, 0, 33], [1275764118, "DLI MSA Semester 2 Area Studies", 0.0, 0, 1439251200, 115, 0, 11], [1990808667, "Farma 6. semester KU", 5.0, 1, 1440460800, 150, 0, 300], [618522619, "OC I Hiersemann: \u00dcbungen", 0.0, 0, 1406764800, 68, 0, 118], [910719449, "Nahosemenne - poznavani", 0.0, 0, 1401580800, 19, 0, 19], [1910290351, "SUSOM Semester 5", 0.0, 0, 1430524800, 5014, 0, 4020], [369979523, "Texto 2", 0.0, 0, 1438732800, 24, 3, 0], [867320286, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1427500800, 104, 0, 0], [1354843414, "5. Semester Kanji", 0.0, 0, 1424736000, 415, 0, 0], [157196614, "K\u00f6ln 1.+2. Semester Kanji", 0.0, 0, 1412208000, 1294, 0, 0], [1011396031, "Korean Vocab 1st Semester", 0.0, 0, 1392940800, 146, 0, 0], [2061730713, "Kinesiology Mid Sem Test", 0.0, 0, 1398038400, 60, 0, 2], [1536859014, "K\u00f6ln 4. Semester Kanji", 0.0, 0, 1412208000, 597, 0, 0], [1905561030, "ANU sem2 vocab lesson 11", 0.0, 0, 1406937600, 33, 0, 0], [152709235, "Ferienkanji zum 5. Semester", 0.0, 0, 1424736000, 258, 0, 0], [1007163436, "Patho Minimals Semester 1", 0.0, 0, 1417996800, 156, 0, 0], [2059883340, "Biopsychologie Assessement Semester 1", 0.0, 0, 1425427200, 104, 0, 98], [309828683, "OC I Hiersemann: Trivialnamen", 0.0, 0, 1406764800, 126, 0, 123], [698196308, "Fragenkatalog WGA - Teil Hansemann", 0.0, 0, 1390003200, 37, 0, 10], [2315988852, "Chemie 1. Semester Grundlegende Ph\u00e4nomene chemischer Reaktio", 0.0, 0, 1346284800, 105, 0, 34], [875733011, "SEM AdWords Questions", 0.0, 0, 1433462400, 64, 0, 0], [1924230142, "SUSOM Semester 1", 5.0, 2, 1419984000, 6317, 0, 4019], [1057186625, "Kinesiology Mid Sem Test (extra)", 0.0, 0, 1398038400, 26, 0, 0], [276091597, "Horses (3rd year vet semester 1)", 0.0, 0, 1405036800, 961, 0, 3], [2350919598, "Semaphore & Nautical Flags", 4.0, 2, 1357084800, 72, 0, 26], [1309685567, "Cattle Semester 2 3rd year vet", 0.0, 0, 1420243200, 743, 0, 0], [2851082405, "Chemie 4. Semester Organische Makromolek\u00fcle", 0.0, 0, 1346284800, 100, 0, 45], [2753501751, "UQ MBBS 1 Histology Semester 2", 0.0, 0, 1395532800, 149, 0, 236], [1638555883, "Histology Semester 2", 0.0, 0, 1381449600, 371, 0, 283], [375804819, "Chemie 2. Semester Donator-Akzeptor-Reaktionen", 0.0, 0, 1346284800, 154, 0, 99], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1014771277, "Klinische Seminar", 0.0, 0, 1391817600, 135, 0, 0], [107051073, "TAS Jap 2 Semester 1 Vocab", 0.0, 0, 1418515200, 244, 0, 0], [1570434912, "Physiologie 1. Semester College Sutherland", 0.0, 0, 1420588800, 8, 0, 3], [356460173, "Diverse eksamenssp\u00f8rgsm\u00e5l til 8. Semester Medicin ved KU", 0.0, 0, 1369785600, 174, 0, 0], [1118390533, "Krytosemenne - poznavani", 0.0, 0, 1402012800, 147, 0, 148], [1104380581, "semiologia", 0.0, 0, 1423612800, 22, 0, 3], [68946285, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1428883200, 67, 0, 0], [1719511771, "IAU BSP Semester Review for A&P and Med Term", 0.0, 0, 1385251200, 1115, 0, 107], [390489048, "hospital italiano primer a\u00f1o segundo semestre b\u00e1sica II", 0.0, 0, 1380585600, 24, 0, 0], [1585006350, "Pigs Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 326, 0, 0], [1399557559, "Podstawy programowania (Andrzej Marciniak), I semestr, I rok", 0.0, 0, 1421193600, 5, 0, 0], [560591616, "Medicin 2. semester Kandidat 2013 KU", 0.0, 0, 1424822400, 197, 0, 0], [2120253420, "UW Madison Classical Chinese Semester Two", 0.0, 0, 1422835200, 937, 0, 0], [1412756056, "UK NUR 300/301 FULL SEMESTER", 0.0, 0, 1443398400, 780, 0, 0], [107339191, "UQ MBBS1 Semester 1 Histology", 0.0, 0, 1395532800, 125, 0, 188], [833580298, "K\u00f6ln 3. Semester Kanji", 0.0, 0, 1412208000, 370, 0, 0], [3199832759, "MEDSEM3 Eksamensoppgaver og div", 0.0, 0, 1398816000, 721, 0, 239], [2080029214, "Semester 1 Exam AP World", 0.0, 0, 1421712000, 136, 0, 0], [1791421199, "Hemoglobinopathies and Thalassemias", 0.0, 0, 1421539200, 61, 0, 7], [3647269953, "E. Szabat - pierwsze kolokwium 5 semestru [pol-eng, eng-pol]", 0.0, 0, 1359072000, 106, 0, 0], [1626398159, "MEDI2034 Mid-Semester Flash Cards", 0.0, 0, 1383782400, 158, 0, 87], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [1865324583, "Small Ruminants Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 770, 0, 3], [125463102, "ERNSEM2", 0.0, 0, 1362873600, 974, 0, 700], [146560091, "Dogs and Cats (Semester 1 3rd year vet)", 0.0, 0, 1405036800, 1943, 0, 4], [1275224540, "08. og 09. Semester KU medicin", 0.0, 0, 1424822400, 866, 0, 0], [1745693937, "The REAL ICM QUIZ 1 Semester III ", 0.0, 0, 1435017600, 101, 0, 110], [3047909828, "Semi-Advanced Chinese Vocabulary Words", 3.5, 2, 1367452800, 715, 678, 0], [1684900806, "Chemie 3. Semester Vom Rohstoff zum Systheseprodukt", 0.0, 0, 1346284800, 97, 0, 55], [440081028, "SUSOM Semester 4", 5.0, 1, 1419984000, 6167, 0, 3735], [1961469242, "N\u00e9met sz\u00f3kincsem", 3.0, 2, 1396483200, 4783, 0, 0], [1584665317, "Semesterferienkanjis 1", 0.0, 0, 1395273600, 185, 0, 0], [4067753948, "WiChi 1. Semester", 0.0, 0, 1345852800, 470, 0, 0], [3416311096, "ERNSEM2 - Eksamensoppgaver", 0.0, 0, 1362873600, 31, 0, 36], [1356299823, "Ophtalm/Otologie-Seminar", 0.0, 0, 1430697600, 35, 0, 5], [2062446881, "Danish; Macroscopic anatomy (1. semester)", 0.0, 0, 1400803200, 162, 0, 0], [1569744419, "IAU BSP biochem semester review", 0.0, 0, 1385251200, 579, 0, 1], [377412747, "PDS Semester 1 ", 0.0, 0, 1413331200, 27, 0, 0], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [2095386000, "semiologia", 0.0, 0, 1423612800, 30, 0, 1], [315601320, "SUSOM Semester 3", 5.0, 1, 1419984000, 4908, 0, 4912], [1480412247, "SUSOM Semester 2", 0.0, 0, 1419984000, 4722, 0, 3082], [205962841, "Japanese 2 Semester 1 Vocab Kanji- English", 0.0, 0, 1418515200, 248, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sem</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

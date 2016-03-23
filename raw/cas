@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[166395852, "Pharm block II - the coagulation cascade again?", 0.0, 0, 1454803200, 36, 0, 66], [1617487818, "Cassell Exam 1", 0.0, 0, 1454544000, 51, 0, 3], [1923796073, "fmcase12cough", 0.0, 0, 1454284800, 120, 0, 0], [1801858486, "fmcase24infant", 0.0, 0, 1454284800, 79, 0, 0], [1436069194, "fmcase21fever", 0.0, 0, 1454284800, 158, 0, 0], [1037252197, "fmcase29dementia", 0.0, 0, 1454284800, 93, 0, 0], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [475330361, "Mandarin sentences business casual", 0.0, 0, 1452643200, 9750, 0, 0], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [723370916, "SpanA1 Castillo", 0.0, 0, 1452988800, 1412, 8, 0], [1702998371, "fmcase22stroke", 0.0, 0, 1454284800, 130, 0, 0], [1366559084, "Algorithmist's Finnish Cases", 0.0, 0, 1452556800, 101, 8, 16], [1383756269, "Pr\u00e9positions russes + cas + exemples", 0.0, 0, 1449187200, 52, 0, 0], [123920743, "Sailor Moon Super S Special 3 - The dreaded vampire castle.", 0.0, 0, 1451692800, 17, 0, 0], [246005258, "patent law cases anticipation 102", 0.0, 0, 1434067200, 101, 0, 0], [2107982423, "GDL EU case deck", 0.0, 0, 1446768000, 129, 0, 0], [3613534949, "German Prepositional Verbs (+Cases)", 4.5, 2, 1345852800, 151, 0, 0], [1942342461, "SSE English Podcasts (eng-eng)", 4.75, 4, 1434240000, 77, 77, 7], [249049818, "Russian Case Practice", 0.0, 0, 1444953600, 273, 0, 1], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 0.0, 0, 1445472000, 11, 0, 7], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [693369416, "Exam Prep - Clinical Cases", 0.0, 0, 1441411200, 52, 0, 0], [1921980249, "Koine Case Ending Charts (Nom, Gen, Dat, Acc)", 0.0, 0, 1409443200, 53, 0, 0], [4037045014, "castellano - checo, spanish-czech, spanielsko-cestina", 0.0, 0, 1345852800, 1192, 0, 0], [1904291880, "SOCO Espa\u00f1ol - La Casa", 0.0, 0, 1437955200, 50, 0, 0], [1133613899, "cose a caso by 853722", 0.0, 0, 1440028800, 78, 0, 0], [656657995, "Case Study Exam", 0.0, 0, 1428019200, 37, 0, 4], [2032891124, "Case files notes", 0.0, 0, 1437350400, 30, 0, 0], [755726751, "eslovaco castellano vocabulario 1000", 0.0, 0, 1437696000, 823, 0, 0], [1596128697, "castle serie", 0.0, 0, 1433203200, 69, 0, 0], [1942521403, "RLR #84 - How to Revolutionize Your English with Podcasts", 0.0, 0, 1418947200, 34, 32, 0], [262993157, "\u00c1lgebra Lineal y Estructuras Matem\u00e1ticas", 0.0, 0, 1411516800, 510, 0, 2358], [1173171468, "patent law cases claim interpretation", 0.0, 0, 1437609600, 70, 0, 0], [274465222, "KCOM - Dr. Robbins cases Neuro I block", 0.0, 0, 1430265600, 101, 1, 192], [655985817, "patent law cases statutory categories patentable matter 101", 0.0, 0, 1437609600, 53, 0, 0], [522544564, "patent law cases obviousness 103", 0.0, 0, 1437609600, 395, 0, 0], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [223852644, "Sueco castiliano / Espa\u00f1ol glossario", 0.0, 0, 1425513600, 31, 0, 0], [2128188228, "patent law cases prior art", 0.0, 0, 1437609600, 27, 0, 0], [1411490472, "patent law cases omnibus ", 0.0, 0, 1437609600, 849, 0, 0], [1670080019, "37C - Case 30", 0.0, 0, 1388102400, 118, 0, 0], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [2599126460, "GCSE Geography Paper 2 case studies", 0.0, 0, 1370390400, 128, 0, 7], [1577659086, "KCOM - Dr. Goldman Cases (Neuro II block)", 0.0, 0, 1423872000, 23, 1, 31], [294619359, "US Government - Supreme Court Cases", 0.0, 0, 1418774400, 48, 0, 0], [3261573635, "Finnish noun case endings", 0.0, 0, 1374969600, 10, 0, 0], [1286284367, "KCOM - Dr. Robbins Cases (Neuro Block II)", 0.0, 0, 1423872000, 112, 1, 214], [300516680, "Conceptos de macro econom\u00eda Ciencias Pol\u00edticas USC", 0.0, 0, 1421625600, 128, 0, 1], [839385032, "Newcastle MBBS Stage 2 - CSIM", 0.0, 0, 1399766400, 1005, 0, 4], [616769945, "Rubiks Cube 3X3 F2L Cases", 0.0, 0, 1413849600, 42, 0, 42], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [1053501313, "German cases", 0.0, 0, 1403308800, 48, 0, 0], [728354230, "An\u00e1lise e Projeto com UML (Diagrama de Casos de Uso - Desenh", 0.0, 0, 1410912000, 8, 0, 5], [903431582, "Kazakh case endings", 0.0, 0, 1345852800, 60, 0, 0], [1721426337, "WMS - Group work emergency cases", 0.0, 0, 1390608000, 34, 0, 8], [1491742854, "latino: casi complementi terminazioni", 0.0, 0, 1381622400, 31, 0, 0], [424621566, "Lucas Pucas' Levorotary Aminos", 0.0, 0, 1421539200, 58, 0, 17], [1783287555, "PBL Case 3 - Jenny Forrester", 0.0, 0, 1381190400, 51, 0, 1], [1601825325, "Russian Case Examples", 1.0, 1, 1430179200, 2103, 1928, 339]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cas</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

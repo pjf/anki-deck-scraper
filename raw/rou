@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1680286867, "Multiplication Table 2x1 through 20x20 Spreadsheet-built", 4.57, 7, 1395446400, 380, 0, 0], [2002667426, "Genki 1 and 2 Vocabulary (Kanji / Kana / Romaji / Roumaji)", 0.0, 0, 1432166400, 799, 0, 0], [3283034296, "japanese phonetic - signal primitives - ONYOMI groups", 5.0, 1, 1383177600, 361, 0, 0], [1369920954, "EDU 803 Small Group 4", 0.0, 0, 1453334400, 0, 0, 0], [1448814626, "SM18 - Dangerous Dollies", 0.0, 0, 1452816000, 24, 0, 0], [499237768, "Park Small Group Memory Verses - 11329", 0.0, 0, 1452556800, 1, 3, 0], [520305527, "Art History 251 (5 through 8)", 0.0, 0, 1449964800, 60, 0, 34], [1410818429, "Policy Based Routing Sim", 0.0, 0, 1451952000, 1, 0, 0], [592852969, "German - English Vocabulary around Shakespeare's Macbeth", 0.0, 0, 1449619200, 19, 0, 1], [2126271842, "Mental Health Research Group Nepali", 0.0, 0, 1447891200, 56, 0, 0], [415808950, "Mental Health Research Group Nepali", 0.0, 0, 1447286400, 12, 0, 0], [670574567, "CB - Group and Situational Effects", 0.0, 0, 1447113600, 37, 0, 0], [1681936433, "Allemand ST - Groupe 2", 0.0, 0, 1447113600, 36, 0, 0], [1091252829, "Rouse First Greek Course", 0.0, 0, 1445126400, 249, 0, 284], [370419106, "Nonpolar, Alipathic R Groups", 0.0, 0, 1443398400, 0, 0, 0], [694966111, "Aromatic R Groups", 0.0, 0, 1443398400, 3, 0, 1], [2118346464, "Lecture 1.1 Functional groups in biological molecules", 0.0, 0, 1445040000, 47, 0, 0], [1923241463, "Negatively Charged R Groups", 0.0, 0, 1443398400, 2, 0, 2], [2097460033, "Positively Charged R Groups", 0.0, 0, 1443398400, 3, 0, 1], [774673559, "UGA Math 2250 Cantarella Background Material", 0.0, 0, 1439856000, 19, 0, 38], [417963742, "Polar Uncharged R Groups", 0.0, 0, 1443398400, 5, 0, 0], [1849285694, "English all around", 0.0, 0, 1438214400, 1590, 0, 0], [1728674862, "For the group: Path all up to today", 0.0, 0, 1432684800, 540, 0, 368], [2033213574, "New words through sentences - English to Portuguese", 4.62, 13, 1421452800, 2734, 2650, 7], [1370725998, "Montessori Upper El Background Knowledge - version 2", 0.0, 0, 1440028800, 95, 0, 50], [1780009834, "French Family vocab list IB bilborough", 0.0, 0, 1413676800, 22, 0, 0], [3065276034, "Latin Vocabulary Group 1", 0.0, 0, 1345852800, 61, 61, 0], [1135687090, "French present IB Bilborough", 0.0, 0, 1412726400, 18, 0, 0], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [1656851722, "Notes Rapides code de la route", 0.0, 0, 1381190400, 30, 0, 0], [1183291079, "MSU ANTR 350 Fall 2014 - Cranial Nerves Groups", 0.0, 0, 1412553600, 24, 0, 9], [1911061442, "CCNP Route: Chapter 2 review", 4.0, 2, 1370304000, 38, 0, 0], [778589238, "Groups 5-8", 0.0, 0, 1422403200, 14, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [633024143, "Groups 9-10", 0.0, 0, 1424995200, 8, 0, 0], [1485408120, "rough draft flash cards", 0.0, 0, 1409616000, 244, 0, 260], [877950965, "Ballstothe Anatomy 3: Armed and Dangerous", 0.0, 0, 1418083200, 197, 0, 10], [1707680389, "Groups 11-14", 0.0, 0, 1426636800, 16, 0, 0], [1121560014, "Groups 15-18", 0.0, 0, 1427155200, 11, 0, 0], [476449916, "Renal up through glomerulonephritis", 0.0, 0, 1431734400, 589, 0, 60], [1849993262, "CAASIC random group of fusha terms", 0.0, 0, 1414972800, 389, 9, 16], [1304733696, "FHB Small Group: Hemodynamics", 0.0, 0, 1422489600, 7, 0, 5], [1029609284, "Tachles Modern Hebrew Lesson 2 - Getting around", 0.0, 0, 1397174400, 76, 0, 0], [1454825663, "homeostasis 6/8, through week 8", 0.0, 0, 1433808000, 278, 0, 17], [2000097946, "FHB Small Group: Hemoglobin", 0.0, 0, 1423699200, 9, 0, 11], [568825116, "Intellectual  History[with background] deck 1", 0.0, 0, 1389139200, 5951, 0, 0], [609787157, "Pulmonology through sleep disorders", 0.0, 0, 1428537600, 390, 0, 128], [2805922402, "Advanced 4 - Group 411", 0.0, 0, 1386115200, 132, 0, 0], [632659568, "CofO2 - 6 - Blood Groups", 0.0, 0, 1345852800, 36, 0, 0], [1721426337, "WMS - Group work emergency cases", 0.0, 0, 1390608000, 34, 0, 8], [1785679803, "The Sheriff's Developmental Roundup 3", 0.0, 0, 1418256000, 144, 0, 0], [1799342418, "FHB Small Group: Special Circulation", 0.0, 0, 1422489600, 5, 0, 1], [712533315, "Anatomy-smallgroup1", 0.0, 0, 1418515200, 64, 0, 0], [439343183, "FHB Small Group: Cardiac Mechanics", 0.0, 0, 1422230400, 4, 0, 7], [1372209541, "Marathi - around the house", 0.0, 0, 1403654400, 39, 0, 0], [751782965, "Mastering Muscles and Movement Group 4", 0.0, 0, 1355097600, 10, 0, 20], [1914290576, "Dogma Through Korean Language", 0.0, 0, 1369785600, 53, 0, 0], [601029952, "Groups 1-4", 0.0, 0, 1420588800, 13, 0, 0], [1255379113, "Flynn Vocab Groups", 0.0, 0, 1398211200, 15, 0, 0], [1287755142, "trout latin", 0.0, 0, 1421539200, 140, 3, 1], [1598672102, "FHB Small Group: Muscle & Cardiac Electrophysiology", 0.0, 0, 1422230400, 6, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rou</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2490917024, "06 Zywienie LRM PP", 5.0, 1, 1345852800, 272, 268, 0], [114060567, "Japanese Core 2000 Step 01 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 405, 235], [375272252, "100 Spanish Sentences using 'venir' from 123teachme.com", 5.0, 1, 1379721600, 101, 0, 0], [1856422935, "Japanese Core 2000 Step 02 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 399, 404, 236], [1757464456, "Italienisch-Deutsch Vokabeln", 0.0, 0, 1447372800, 885, 5, 1], [1432655733, "Stopping by Woods on a Snowy Evening-Robert Frost", 0.0, 0, 1449878400, 16, 0, 0], [1752619191, "Japanese Core 2000 Step 03 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 406, 235], [2021905542, "Japanese Core 2000 Step 06 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 399, 405, 250], [1561372479, "Slowenisch Vokabeln ", 5.0, 1, 1451865600, 998, 0, 0], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1992482192, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [924105715, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [1658418547, "Debreceni Egyetem Turizmus  szak Turizmus rendszere", 0.0, 0, 1451347200, 44, 0, 0], [169595438, "Japanese Core 2000 Step 04 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 400, 405, 235], [239020548, "Japanese Core 2000 Step 05 Listening Sentence Vocab + Images", 4.0, 1, 1449014400, 398, 404, 245], [1315749116, "Armenian/English", 0.0, 0, 1447459200, 115, 0, 0], [570638424, "BasicArmenianWords", 0.0, 0, 1448755200, 28, 0, 0], [1424147843, "Biblical hebrew (z polskim t\u0142umaczeniem)", 0.0, 0, 1448668800, 737, 0, 0], [92219272, "Path III- bring on the genitalia", 0.0, 0, 1446854400, 171, 0, 1], [1243201706, "Biblical greek (z polskim t\u0142umaczeniem)", 0.0, 0, 1448064000, 1058, 0, 0], [829066702, "urogeni", 0.0, 0, 1446595200, 70, 0, 0], [1809133183, "USask PHPM - Cancer screening and epidemiology", 0.0, 0, 1448064000, 22, 0, 2], [1301323420, "Biogenic Amines", 0.0, 0, 1447459200, 31, 0, 0], [206720673, "Genial B1 Einheit 3 17", 0.0, 0, 1446422400, 10, 0, 0], [1065390308, "Deck 19- listening 4- chapter 7- working", 0.0, 0, 1449014400, 10, 0, 0], [868834479, "Genial B1 Einheit 3 14-16", 0.0, 0, 1446422400, 27, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [1352891910, "Microbiology - Pathogenic Staphylococcus spp.", 0.0, 0, 1369958400, 24, 0, 16], [1200765609, "Njemacke Recenice 1", 0.0, 0, 1445558400, 76, 0, 0], [817624922, "Oral Path - Odontogenic Tumors", 0.0, 0, 1447545600, 44, 0, 0], [254705020, "Njemacke Recenice 12", 0.0, 0, 1445558400, 63, 0, 0], [2119554100, "Physique PTSI_Vilgenis 2015/2016", 5.0, 5, 1454198400, 208, 0, 167], [94901459, "migration: slovenian - english", 0.0, 0, 1444089600, 40, 0, 0], [456272525, "Njemacke Recenice 11", 0.0, 0, 1445558400, 45, 0, 0], [1139792512, "Japanese Core 2000 Step 10 Listening Sentence Vocab + Images", 4.67, 3, 1427328000, 398, 404, 245], [1608655747, "Njemacke Recenice 4", 0.0, 0, 1445558400, 50, 0, 0], [261816158, "Italienisch040890", 0.0, 0, 1444608000, 3, 0, 0], [2011551767, "Njemacke Recenice 3", 0.0, 0, 1445558400, 75, 0, 0], [80790265, "English vocabulary PTSI Vilgenis", 0.0, 0, 1442966400, 66, 0, 0], [1534523847, "Njemacke Recenice 2", 0.0, 0, 1445558400, 95, 0, 0], [246819871, "Njemacke Recenice 10", 0.0, 0, 1445558400, 67, 0, 0], [1700904049, "reporting verbs: slovenian - english", 0.0, 0, 1444089600, 25, 0, 0], [427252884, "Japanese Core 2000 Step 08 Listening Sentence Vocab + Images", 4.83, 6, 1427155200, 400, 406, 237], [60056755, "mjenica", 0.0, 0, 1441756800, 60, 0, 0], [1071816948, "Diagnostic + Screening Tests", 0.0, 0, 1439769600, 25, 0, 4], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [1907661654, "vrijednosni papiri i \u010dek (mjenica je posebno!)", 0.0, 0, 1441756800, 13, 0, 0], [2827633339, "HMS.IMP.Meningitis", 0.0, 0, 1365638400, 19, 0, 5], [484177174, "Armenian Vocabulary (Western)", 0.0, 0, 1390780800, 3009, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1894902572, "Japanese Core 2000 Step 07 Listening Sentence Vocab + Images", 4.5, 2, 1427155200, 400, 406, 237], [1920112684, "Znieczulenie og\u00f3lne i miejscowe, miorelaksanty", 0.0, 0, 1432944000, 41, 0, 0], [650333509, "Slovenian personal pronounces - Osebni zaimki", 0.0, 0, 1438214400, 16, 0, 16], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [3190217570, "Riman 2.1: Res, pojem a deleni", 0.0, 0, 1364774400, 28, 0, 0], [1512212857, "Uk\u0142ad kr\u0105\u017cenia", 0.0, 0, 1416441600, 35, 0, 0], [590919050, "Classical Armenian Alphabet", 0.0, 0, 1345852800, 36, 35, 0], [1616012662, "Armenian-Russian Theocratic Words", 0.0, 0, 1423008000, 858, 141, 0], [279520484, "For James and Kim - CHN Authentic Listening", 0.0, 0, 1420329600, 266, 262, 0], [3822468040, "Micro.Meningitis.HMS16", 0.0, 0, 1366675200, 21, 0, 7], [246789243, "3rd Year- News Listening (Chinese to English)", 0.0, 0, 1388102400, 504, 0, 0], [960592027, "Berenice francais", 0.0, 0, 1386633600, 1, 0, 1], [1621071095, "SBF Minimal Pairs /L/ vs /R/ Listening", 0.0, 0, 1432252800, 24, 24, 0], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [1804662279, "Anatomia (po\u0142\u0105czenia ko\u015bci)", 0.0, 0, 1345852800, 22, 0, 22], [1829679792, "WMS - Block 3 - Anatomy of the skull and meninges ", 0.0, 0, 1390694400, 41, 0, 23], [4033570314, "DE - PL, Deutsch - Polnisch, ingenieurbegriffe", 0.0, 0, 1360713600, 36, 0, 0], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [617288573, "congenital heart", 0.0, 0, 1424649600, 58, 0, 15], [1995270134, "Italienisch f\u00fcr Anf\u00e4nger, italien pour d\u00e9butants", 0.0, 0, 1431302400, 183, 0, 1], [2031114929, "A1. Lesson 11. Meble, wyposa\u017cenie mieszkania, liczba mnoga", 0.0, 0, 1423094400, 33, 33, 30], [600101024, "Japanese Core 2000 Step 09 Listening Sentence Vocab + Images", 4.5, 2, 1427328000, 398, 404, 237], [981929284, "Armenian most important words_1 desk", 0.0, 0, 1431043200, 1526, 0, 0], [1702850920, "MMT Medieninformatik Einf\u00fchrung (HHN WS14)", 0.0, 0, 1423094400, 100, 0, 1], [162285217, "       14 Muskelsygdomme, Myasteni og nervebet\u00e6ndelse", 0.0, 0, 1420070400, 37, 0, 21], [1312109116, "Japanese Core 6000 Step 01 (Listening Sentence & Vocab)", 4.67, 6, 1429056000, 4035, 4038, 0], [186771768, "HMS.IMP.Pyogenic.Bacteria", 0.0, 0, 1365552000, 30, 0, 10], [4260779012, "Words from the Slovenian exam (Slovenian - Polish)", 0.0, 0, 1379462400, 276, 0, 0], [1993243473, "ASchizophrenie", 0.0, 0, 1401408000, 32, 0, 10], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [1252778053, "Cavenish PRE2 Example", 0.0, 0, 1403481600, 6, 3, 7], [2116198153, "Cancer Screening Canada", 0.0, 0, 1390867200, 2, 0, 0], [724814426, "Senior Cycle 1 RCSI", 0.0, 0, 1402185600, 1055, 0, 24], [3389203135, "Slovenian words 2 (Slovenian-Polish)", 0.0, 0, 1379462400, 192, 0, 0], [648437048, "Kanji zlozenia", 0.0, 0, 1392768000, 491, 0, 0], [1738554413, "MSU ANTR 350 Fall 2014 - Brain and Meninges", 0.0, 0, 1412553600, 78, 0, 35], [2055437047, "B&B Phenomenology of Schizophrenia 04.09.15", 0.0, 0, 1428796800, 19, 0, 0], [1663342312, "Rosyjski, Zatrudnienie", 0.0, 0, 1370390400, 330, 0, 0], [598151180, "Cwiczenia - Ania M", 0.0, 0, 1393804800, 1, 0, 0], [3837842325, "Slovenian-Polish 1", 0.0, 0, 1379462400, 84, 0, 0], [1374591208, "vim genius and vimtutor review", 0.0, 0, 1421020800, 81, 0, 0], [1015711429, "Benign and Inflammatory Dermatoses", 0.0, 0, 1410134400, 40, 0, 84], [1128149815, "DDO Paediatrics - congenital heart disease ", 0.0, 0, 1409616000, 39, 0, 3], [4102788222, "bulgarian-intro-denise", 0.0, 0, 1373500800, 582, 0, 0], [3505812284, "Listening exam Grammar JAP", 0.0, 0, 1383782400, 48, 0, 0], [572904172, "General Principles of Screening", 0.0, 0, 1390867200, 16, 0, 0], [1480058180, "Deutsch-Italienisch NPI1 Unit\u00e0 introduttiva", 0.0, 0, 1400025600, 112, 0, 0], [1916065590, "Zwanzig weniger eins - 1. Familie", 0.0, 0, 1373760000, 254, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Eni</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

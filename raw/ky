@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3274643976, "Francouz\u0161tina nejen pro samouky - Lekce 19 - 32 (\u010desk\u00e9)", 0.0, 0, 1372032000, 1091, 0, 0], [2157658310, "[VectorMaps] Special wards of Tokyo, Japan", 4.33, 3, 1368662400, 23, 0, 46], [3399102657, "CZ - \u0160pan\u011bl\u0161tina pro samouky", 5.0, 1, 1345852800, 3728, 0, 0], [945650110, "ot\u00e1zky z OTA", 0.0, 0, 1452902400, 1144, 0, 4], [1579844521, "Skyrim Vocabulary", 0.0, 0, 1430524800, 219, 3, 1], [1221791992, "Francouz\u0161tina nejen pro samouky - Lekce 1 - 16 (\u010desk\u00e9)", 0.0, 0, 1365724800, 971, 0, 0], [1363974035, "Shin nihongo no chukyu", 0.0, 0, 1454457600, 230, 0, 0], [1349616068, "Draci pohadky", 0.0, 0, 1451520000, 793, 10, 15], [1947809580, "Anki Panki my Hanky", 0.0, 0, 1446681600, 233, 0, 19], [210097518, "Histology Urinary System (Palacky)", 0.0, 0, 1446681600, 48, 0, 2], [1955731683, "Latina a \u0159e\u010dtiny pro mediky", 0.0, 0, 1445385600, 690, 0, 0], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [146298687, "English Spelling Tricky Words", 0.0, 0, 1434412800, 165, 3, 1], [965498428, "N\u011bmecky s \u00fasm\u011bvem 9", 0.0, 0, 1414195200, 51, 0, 0], [3016296630, "13240 Sky Conditions", 0.0, 0, 1365638400, 9, 0, 0], [2248026594, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1345852800, 305, 0, 0], [1660046849, "Constellations of the Northern Sky", 0.0, 0, 1345852800, 56, 0, 55], [397661935, "fattyducky", 0.0, 0, 1430524800, 72, 0, 0], [2038953250, "fattyducky2", 0.0, 0, 1430611200, 180, 0, 0], [1021185885, "N\u011bmecky s \u00fasm\u011bvem 12", 0.0, 0, 1426636800, 67, 0, 0], [990941101, "slovicka z gramatickyho systemu ", 0.0, 0, 1363651200, 321, 0, 0], [1703730426, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 2", 0.0, 0, 1366329600, 83, 0, 0], [700445456, "Tricky French words", 0.0, 0, 1434412800, 67, 0, 0], [104155097, "Bunka\u3000Shokyuu Nihongo Buch 1", 0.0, 0, 1428278400, 271, 0, 0], [1740974143, "1 kyu kotoba", 0.0, 0, 1424736000, 5445, 2775, 1091], [8796113, "KYCOM OMS2 Pharm Block 2", 0.0, 0, 1410307200, 156, 0, 0], [1898004627, "Hanky Code", 0.0, 0, 1367712000, 76, 0, 52], [1831648646, "N\u011bmecky s \u00fasm\u011bvem 7", 0.0, 0, 1412208000, 78, 0, 0], [3083426865, "Nemecky s usmevem 2", 0.0, 0, 1345852800, 74, 0, 0], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [288101308, "Zna\u010dky", 0.0, 0, 1384646400, 81, 0, 71], [239643371, "N\u011bmecky s \u00fasm\u011bvem 8", 0.0, 0, 1412467200, 55, 0, 0], [1845781229, "KYCOM Rx Abbv", 0.0, 0, 1411430400, 27, 0, 0], [1486012891, "Minna no Nihongo Ch\u00fbky\u00fb - German", 0.0, 0, 1380844800, 2525, 0, 0], [3431085932, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 1", 0.0, 0, 1366329600, 90, 0, 0], [625751057, "Tricky words (English->French)", 0.0, 0, 1434499200, 93, 0, 0], [359104387, "4 kyu kotoba", 0.0, 0, 1424736000, 588, 1346, 729], [235572863, "N\u011bmecky s \u00fasm\u011bvem 6", 0.0, 0, 1398729600, 75, 0, 0], [831345451, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1351123200, 284, 0, 0], [282410736, "2 kyu kotoba", 0.0, 0, 1424649600, 3600, 6333, 2277], [1219255576, "N\u011bmecky s \u00fasm\u011bvem 11", 0.0, 0, 1416700800, 43, 0, 0], [948996188, "N\u011bmecky s \u00fasm\u011bvem 10", 0.0, 0, 1416182400, 71, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1768013860, "Ngu phap 1 kyu", 0.0, 0, 1424649600, 107, 0, 0], [3301862686, "Single-malt Scotch whisky by region", 0.0, 0, 1382227200, 89, 0, 0], [1108650894, "P\u0159edlo\u017eky-Pr\u00e4positionen tschechisch-deutsch by Wolf", 0.0, 0, 1411603200, 105, 0, 0], [82564160, "Tokyo Geography", 5.0, 1, 1394928000, 55, 0, 55], [549451882, "\u0160v\u00e9d\u0161tina pro samouky", 0.0, 0, 1359590400, 78, 0, 0], [1348886481, "CZ - \u0160pan\u011bl\u0161tina pro samouky - prvn\u00edch 20 lekc\u00ed", 0.0, 0, 1419033600, 725, 0, 0], [2346689345, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1351123200, 305, 0, 0], [2066064891, "Kyrillisches Alphabet (Serbisch)", 0.0, 0, 1362700800, 30, 0, 0], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [3199823782, "N\u011bm\u010dina pro samouky", 0.0, 0, 1356652800, 46, 0, 0], [538793140, "Kyrgyz Vocabulary from the Gospel of Mark (LS Version)", 0.0, 0, 1426204800, 468, 0, 0], [2061238142, "1 kyu muzukashi kotoba", 0.0, 0, 1424649600, 2630, 1067, 441], [87833031, "Ru\u0161tina pro samouky by Qvasa ", 5.0, 5, 1428624000, 2840, 0, 0], [4145625587, "Nemecky s usmevem 1", 0.0, 0, 1345852800, 57, 0, 0], [361146906, "3 kyu kotoba", 0.0, 0, 1424736000, 621, 1245, 582], [295162177, "vicky english", 0.0, 0, 1386115200, 149, 64, 55], [313300394, "chuukyuu kara jyoukyuu e no kotoba", 0.0, 0, 1401494400, 226, 0, 0], [957832803, "JAKUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [30793257, "JAKLUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [368864221, "JAKUB Sport a konicky", 0.0, 0, 1422576000, 98, 0, 0], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [4044495351, "Portugalstina pro samouky Leda", 0.0, 0, 1345852800, 809, 0, 0], [858664824, "Lekarska terminologie - cislovky", 0.0, 0, 1426464000, 31, 0, 3], [205482022, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 9-12", 0.0, 0, 1351123200, 309, 0, 0], [1030183555, "\u65e7\u5b57\u4f53\u65b0\u5b57\u4f53 Kyuujitai Shinjitai", 0.0, 0, 1416096000, 397, 0, 0], [1469779422, "N\u011bmecky s \u00fasm\u011bvem 5", 0.0, 0, 1393977600, 77, 0, 0], [3017541861, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1345852800, 284, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ky</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

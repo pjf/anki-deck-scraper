@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [1195170501, "Fyziologick\u00e9 hodnoty", 0.0, 0, 1454371200, 57, 0, 0], [2073037929, "Fyzio a BCH hodnoty", 0.0, 0, 1454716800, 58, 0, 0], [55092811, "Bauphysik Energiesparverordnung ", 0.0, 0, 1454025600, 28, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [1139851746, "Ennyit kellene tudnod k\u00e9mi\u00e1b\u00f3l ", 0.0, 0, 1450915200, 288, 1, 94], [1543605227, "Kidney Physiology questions about Homeostasis", 0.0, 0, 1449532800, 61, 0, 12], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [1022510556, "Edexcel Chemistry unit 4 organic esters Sydney", 0.0, 0, 1448928000, 6, 0, 4], [1724049591, "wellness bidness", 0.0, 0, 1449705600, 74, 0, 0], [2080897934, "Edexcel Chemistry unit 4 Sydney", 0.0, 0, 1448928000, 384, 0, 87], [553357825, "Trudne s\u0142owa j\u0119zyka polskiego", 0.0, 0, 1446336000, 599, 0, 0], [795924684, "English-russian deck by Zanudniy", 0.0, 0, 1442966400, 1021, 0, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [1750829628, "Gochin DNA Replication Repair Recombination", 0.0, 0, 1441324800, 104, 0, 18], [520764292, "Italiano - z\u00e1kladn\u00ed v\u011bty a fr\u00e1ze", 0.0, 0, 1443657600, 10, 0, 0], [1723411050, "DNA/RNA", 3.0, 1, 1441238400, 83, 0, 0], [1275945354, "Kidney and Urinary Tract Pathology", 0.0, 0, 1441670400, 102, 0, 48], [1335407539, "HeadNeckLab", 0.0, 0, 1443657600, 31, 0, 30], [1951323036, "N\u011bm\u010dina - z\u00e1kladn\u00ed slova", 0.0, 0, 1441929600, 45, 0, 0], [1073860645, "Kidneys", 0.0, 0, 1442620800, 24, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [1498488285, "trgova\u010dko pravo zagreb Zakon o obveznim odnosima", 0.0, 0, 1442361600, 214, 0, 0], [298539925, "Assessing Kidney Function", 0.0, 0, 1441756800, 11, 0, 0], [103852044, "MSF Fdn3-Immune system", 0.0, 0, 1416528000, 109, 0, 4], [1320394687, "Chinese 1 Vocab for DNHS", 0.0, 0, 1441238400, 38, 0, 0], [1907661654, "vrijednosni papiri i \u010dek (mjenica je posebno!)", 0.0, 0, 1441756800, 13, 0, 0], [2032024923, "A1. Lesson 12. Dni tygodnia, miesi\u0105ce, czasowniki", 0.0, 0, 1423094400, 39, 39, 0], [2026167464, "Chapter 17 Physiology of the Kidneys", 0.0, 0, 1432684800, 16, 0, 0], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [1038296488, "MSF Fdn3-Antibiotics", 0.0, 0, 1416528000, 58, 0, 0], [2376341207, "CRM- DNA", 0.0, 0, 1367625600, 11, 0, 1], [3689664425, "HMS.HG.Methods.Testing.DNA", 0.0, 0, 1355011200, 27, 0, 3], [2094478473, "block 2 McDermott DNA", 0.0, 0, 1414281600, 71, 0, 0], [860755540, "MSF Fdn3-Lec80", 0.0, 0, 1416528000, 48, 0, 3], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [2057585343, "Biochem, Unit 4; Recombinant DNA Technology", 0.0, 0, 1414108800, 40, 0, 0], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 4.0, 1, 1345852800, 500, 0, 0], [882820529, "MSF Fdn3-Lec86", 0.0, 0, 1416528000, 21, 0, 1], [1275150422, "Vital English words I didn't know", 0.0, 0, 1418169600, 204, 0, 0], [1985318972, "MCM Test 3: 8.11 DNA Damage and Repair", 0.0, 0, 1408492800, 84, 0, 0], [579602914, "MSF Fdn3-Lec93-94", 0.0, 0, 1416528000, 39, 0, 1], [3809698777, "Drugs that Act on the Level of DNA", 0.0, 0, 1376697600, 6, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [1677928794, "MSF Fdn3-Lec81", 0.0, 0, 1416528000, 33, 0, 4], [2086434886, "Z\u00e1kladn\u00ed geografick\u00e9 pojmy", 0.0, 0, 1358294400, 136, 0, 0], [563016295, "MSF Fdn3-Lec85", 0.0, 0, 1416528000, 10, 0, 0], [452220692, "recombination dna kandpal", 0.0, 0, 1386633600, 48, 0, 0], [337669725, "MSF Fdn3-Lec79", 0.0, 0, 1416528000, 18, 0, 1], [828118545, "IEL Mathe Ordnungszahlen", 0.0, 0, 1414713600, 20, 1, 0], [293184036, "RealLife Radio #70 \u2013 Kindness", 0.0, 0, 1410912000, 31, 31, 0], [793239667, "MSF Fdn3-Lec77", 0.0, 0, 1416528000, 13, 0, 0], [119087322, "MSF Fdn3-Lec83", 0.0, 0, 1416528000, 34, 0, 7], [1634283011, "Lecom embryo kidney", 0.0, 0, 1411862400, 39, 0, 22], [1132639857, "MSF Fdn3-Lec78", 0.0, 0, 1416528000, 10, 0, 0], [1510804069, "DNS MCQs", 0.0, 0, 1423267200, 148, 0, 37], [1245935078, "rowan som block 1 biochemistry lecture 1 dna/rna", 0.0, 0, 1409270400, 20, 0, 3], [83763177, "MSF Fdn3-Lymphatics", 0.0, 0, 1416528000, 24, 0, 2], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [835546669, "MSF Fdn3-Lec87", 0.0, 0, 1416528000, 5, 0, 1], [1746124542, "Week 1 FDN", 0.0, 0, 1411603200, 80, 0, 8], [254220455, "Biochem chapter 20: DNA replication and repair", 0.0, 0, 1430697600, 35, 3, 2], [426850395, "polski w 4 tygodni", 0.0, 0, 1427068800, 202, 0, 4], [1888244147, "Week 2 FDN", 0.0, 0, 1411603200, 207, 0, 65], [1663342312, "Rosyjski, Zatrudnienie", 0.0, 0, 1370390400, 330, 0, 0], [1675803988, "MSF Fdn3-Lec82", 0.0, 0, 1416528000, 39, 0, 14], [570858257, "A2. Lesson 14. Sydney", 0.0, 0, 1424908800, 24, 24, 0], [1063489297, "Biochem - DNA and RNA structure (8/13/13)", 0.0, 0, 1376438400, 40, 0, 0], [1453502723, "MSF Fdn3-Lec84", 0.0, 0, 1416528000, 17, 0, 2], [2011066103, "DNA Replication", 0.0, 0, 1410134400, 88, 0, 13], [1845645316, "CofO2 - 16 - Kidney", 0.0, 0, 1345852800, 39, 0, 0], [1946097995, "Week 3 and 4 FDN", 0.0, 0, 1411603200, 108, 0, 36], [3108312157, "DNB Histoire", 0.0, 0, 1369612800, 53, 0, 0], [1524628867, "Historia Sztuki. \u015aredniowiecze cz. 1", 0.0, 0, 1398124800, 211, 0, 223]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

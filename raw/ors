@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3645353967, "Morse Code Sound and Lights", 4.0, 2, 1419638400, 59, 59, 0], [1972742252, "norsk", 0.0, 0, 1452729600, 114, 0, 0], [737514179, "norske sterke verb - tsjekkisk (norwegian irregular verbs)", 0.0, 0, 1345852800, 139, 0, 0], [695617073, "MORS430", 0.0, 0, 1452816000, 20, 0, 0], [1749738897, "Morseova abeceda (text, zvuk, sv\u011btlo)", 0.0, 0, 1453420800, 62, 56, 16], [1863272004, "Thai Breitenstein Colors", 0.0, 0, 1453248000, 24, 8, 27], [86247609, "medical vocabulary 16 - doctors office", 0.0, 0, 1452384000, 29, 0, 0], [1413496812, "Ariella- Spec Path brain tumors", 0.0, 0, 1450742400, 113, 2, 129], [1954715116, "Torsades", 0.0, 0, 1452124800, 6, 0, 0], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [1683783715, "cardiac tumors", 0.0, 0, 1451692800, 12, 0, 0], [454773329, "pacemakers and defibrillators", 0.0, 0, 1451692800, 10, 0, 0], [1951598413, "SZF - Der Forschungsprozess", 0.0, 0, 1449878400, 13, 0, 0], [799574339, "Deutsch Oberstufe Verben mit Vorsilben", 0.0, 0, 1449187200, 32, 0, 0], [670444394, "Economic Indicators - Portugal", 0.0, 0, 1447977600, 23, 0, 0], [130457105, "SZF - Arten von Qualitativer Forschung:", 0.0, 0, 1449878400, 11, 0, 3], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [1341236757, "Nynorsk sonans", 0.0, 0, 1443657600, 22, 3, 0], [332542285, "MD6 Brain Tumors", 0.0, 0, 1448582400, 58, 0, 98], [1072699862, "Morse sonore lumineux mn\u00e9no fr", 0.0, 0, 1447632000, 59, 59, 4], [356285820, "F453 - Chapter 2 - The function are purpose of translators", 0.0, 0, 1447372800, 37, 0, 0], [888100010, "bravar pomorsko zagreb", 0.0, 0, 1448150400, 152, 0, 0], [900261995, "Muskulatur des Dorsum Pedis", 0.0, 0, 1447804800, 7, 0, 0], [817624922, "Oral Path - Odontogenic Tumors", 0.0, 0, 1447545600, 44, 0, 0], [451549696, "Norsk ikke for ferske", 0.0, 0, 1447632000, 171, 16, 139], [403921135, "Morse Code by jx12", 0.0, 0, 1445299200, 29, 0, 0], [1804095998, "Sculptures d'Orsay", 5.0, 1, 1447200000, 110, 0, 37], [745783547, "norsk test begreper", 0.0, 0, 1446422400, 32, 0, 0], [143024943, "norske begreper begrepstest STOR 2015", 0.0, 0, 1445299200, 166, 0, 0], [2297788233, "Common German Conversation Connectors", 2.25, 4, 1345852800, 92, 0, 0], [49880928, "Nynorsk verb", 0.0, 0, 1443657600, 113, 3, 0], [1903419936, "Bone Tumors", 0.0, 0, 1443398400, 69, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [1361700302, "High-yield English-Spanish connectors", 0.0, 0, 1438041600, 91, 3, 1], [788927816, "Adrenergic receptors", 0.0, 0, 1440288000, 97, 0, 3], [1346799433, "Norsk privatist Jostein Christensen og Asbj\u00f8rn Aag", 0.0, 0, 1441670400, 77, 3, 34], [678779340, "Nynorsk verb-b\u00f8ying sonans", 0.0, 0, 1443657600, 112, 3, 0], [993582222, "Radioamatorski kod Q", 0.0, 0, 1441411200, 150, 0, 0], [1915605482, "Soft tissue tumors MSK", 0.0, 0, 1440547200, 26, 0, 34], [893650156, "Spanish conversational connectors ", 5.0, 1, 1403308800, 95, 0, 0], [866290663, "FIU PA Adrenergic Receptors ", 0.0, 0, 1441324800, 30, 0, 0], [1094736228, "High yield English-Italian connectors", 0.0, 0, 1438041600, 91, 3, 1], [2130388644, "TY A07 Colors", 0.0, 0, 1440201600, 14, 14, 11], [1887325415, "Norsk i dag. 10 rozdz. ", 0.0, 0, 1409184000, 68, 0, 0], [2110209125, "Ungarsk-Norsk IT's deck", 0.0, 0, 1418860800, 384, 0, 0], [1854445395, "Neighbors2", 0.0, 0, 1431475200, 15, 0, 0], [2057657198, "Conversational Connectors English - German", 5.0, 1, 1413763200, 446, 0, 0], [147446962, "spanyol sorsz\u00e1mnevek", 0.0, 0, 1403568000, 10, 0, 0], [146952695, "Izpit_voditelj_colna-1del-POMORSKI_PREDPISI", 0.0, 0, 1414281600, 55, 0, 3], [1215878529, "Nordsamisk \u2013 norsk", 0.0, 0, 1426204800, 275, 0, 0], [1830986847, "Division Flash Cards (Divisors up to 10)", 0.0, 0, 1397952000, 91, 0, 0], [421011706, "Majorsystem 60-79", 0.0, 0, 1431043200, 60, 0, 0], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 0.0, 0, 1345852800, 769, 0, 0], [3545061634, "Chemical Mediators of Inflammation", 0.0, 0, 1360627200, 68, 0, 0], [1670900781, "Marys Methoden der Marketingforschung Einheit 1 @ WU Wien", 0.0, 0, 1387065600, 51, 0, 31], [712577244, "Norsk i dag. 11 rozdz. ", 0.0, 0, 1409184000, 96, 0, 0], [674383536, "Concorso DS inverso ", 0.0, 0, 1423008000, 226, 0, 0], [4275646624, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1345852800, 19, 0, 0], [1079850633, "mandarin-norsk", 0.0, 0, 1391644800, 6094, 644, 68], [3571861319, "OCR AS-History Dictatorship and Democracy in Nazi Germany.", 0.0, 0, 1366761600, 378, 0, 0], [874730321, "receptors", 0.0, 0, 1423353600, 110, 0, 0], [276091597, "Horses (3rd year vet semester 1)", 0.0, 0, 1405036800, 961, 0, 3], [2856400611, "Gross Anatomy: leg and dorsum of the foot", 0.0, 0, 1352419200, 69, 0, 48], [2778551023, "Chemical Mediators of Inflammation", 0.0, 0, 1358640000, 30, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [3772656056, "Chemical Mediators of Inflammation", 0.0, 0, 1359072000, 52, 0, 0], [1502227436, "Norsk i dag. 4 rozdz", 0.0, 0, 1409184000, 113, 0, 0], [290491956, "Sensory Receptors and the Peripheral Nervous System", 0.0, 0, 1380672000, 50, 0, 0], [2033234340, "100 Colors", 5.0, 1, 1398816000, 100, 0, 100], [2340022014, "Gross Anatomy: Thigh Flexors: Sampson", 0.0, 0, 1352332800, 0, 0, 0], [935800604, "Majorsystem 20-39", 0.0, 0, 1431043200, 0, 0, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 0.0, 0, 1345852800, 641, 0, 0], [1291333535, "Haskell Lens library (operators and functions)", 0.0, 0, 1398470400, 21, 0, 15], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [933404196, "Norsk i dag. 7 rozdz. ", 0.0, 0, 1409184000, 116, 0, 0], [189354356, "forserina1", 0.0, 0, 1398729600, 13, 0, 0], [420962408, "CW (Morse Code)", 0.0, 0, 1391126400, 154, 0, 0], [1491064360, "Block 3 CV intro, receptors, and excitation-contraction coup", 0.0, 0, 1415836800, 128, 0, 0], [2501147782, "HMS.IMP.Antigen.Receptors", 0.0, 0, 1364601600, 14, 0, 8], [528490399, "CNS Tumors 1-2", 0.0, 0, 1426809600, 50, 0, 4], [1776784992, "British Authors - Titles", 0.0, 0, 1352332800, 33, 0, 0], [324471149, "Norsk --> Spansk", 0.0, 0, 1353283200, 0, 0, 0], [1351449924, "Neurotransmitters Receptors", 0.0, 0, 1424563200, 44, 0, 1], [2037473461, "Morseova abeceda", 0.0, 0, 1377388800, 37, 0, 0], [890993360, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1389139200, 39, 0, 22], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [966658040, "Norsk i dag. 13 rozdz. ", 0.0, 0, 1409184000, 89, 0, 0], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [1707233749, "tumors and transplants", 0.0, 0, 1426377600, 31, 0, 24], [381631037, "Per il concorso a Dirigente scolastico", 0.0, 0, 1423008000, 227, 0, 0], [1258858369, "Forearm extensors", 0.0, 0, 1409616000, 44, 0, 0], [2130868865, "Norse Creation Mythology", 0.0, 0, 1415404800, 30, 0, 0], [3982865350, "Modern Greek - clothes/colors", 0.0, 0, 1389657600, 138, 0, 0], [89010260, "NorskLangB1", 0.0, 0, 1406332800, 360, 0, 0], [547614562, "Horses 2 (3rd year vet)", 0.0, 0, 1420243200, 682, 0, 3], [20184342, "Gilmors girls", 0.0, 0, 1414281600, 110, 0, 0], [2229262945, "Norsk - portugisisk", 0.0, 0, 1372636800, 446, 891, 0], [950182698, "Morse Code - Letters and Numbers", 2.0, 1, 1384905600, 72, 0, 0], [502929531, "Marys Methoden der Marketingforschung Einheit 3-6 @ WU Wien", 0.0, 0, 1387065600, 11, 0, 5], [1836386156, "Annas Farbtest Colors", 0.0, 0, 1427587200, 61, 0, 61], [2047421145, "BrzrkrKen SightsSensors", 0.0, 0, 1399420800, 100, 0, 37], [2844343903, "B\u1ed9 Thu\u1ed9c l\u00f2ng Kinh Th\u00e1nh (Navigators TMS 108)", 0.0, 0, 1345852800, 107, 0, 0], [1867200690, "Norsk i dag. 9 rozdz. ", 0.0, 0, 1409184000, 57, 0, 0], [624676379, "MHCHS Edexcel Unit 2: Topic 3 The Nazi Dictatorship 1933-39", 0.0, 0, 1387929600, 59, 0, 0], [400080736, "McDonald: CNS tumors", 0.0, 0, 1423612800, 30, 0, 18], [640253570, "Norsk i dag. 6 rozdz. ", 0.0, 0, 1409184000, 114, 0, 0], [2031049221, "MCM Test 3: 8.15 BSC Inborn Errors of Metabolism", 0.0, 0, 1408492800, 8, 0, 0], [1882475838, "HMS.IMP.Antigen.Receptors.I", 0.0, 0, 1364601600, 11, 0, 7], [372646159, "Norsk i dag. 3 rozdz", 0.0, 0, 1409184000, 113, 0, 0], [748248936, "Brachial flexors/extensors", 0.0, 0, 1409443200, 20, 0, 0], [2063854615, "Studieplan Nederlands-Noors", 0.0, 0, 1410652800, 5294, 0, 0], [420399809, "Marys Methoden der Marketingforschung SPSS @ WU Wien", 0.0, 0, 1387065600, 35, 0, 7], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 0.0, 0, 1345852800, 335, 0, 0], [1686395513, "Forearm flexors", 0.0, 0, 1409529600, 32, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [2125511416, "Marys Methoden der Marketingforschung Einheit 2 @ WU Wien", 0.0, 0, 1387065600, 25, 0, 10], [2919939884, "\u0935\u0930\u094d\u0923\u093e\u0903 - colors", 0.0, 0, 1384387200, 11, 0, 0], [882877934, "Norsk ordlist", 0.0, 0, 1423440000, 420, 0, 0], [3646633956, "Suomen mestari 1 Suomi-Norsk", 0.0, 0, 1375833600, 826, 0, 0], [23793903, "Norsk i dag. 12 rozdz. ", 0.0, 0, 1409184000, 97, 0, 0], [1000575923, "Weider - Wilm's Tumor & other peds tumors", 0.0, 0, 1393804800, 94, 0, 0], [240406941, "Welsh for School Governors", 0.0, 0, 1389225600, 769, 0, 0], [2701735534, "Shock: Vasopressors and Inotropes", 0.0, 0, 1366848000, 38, 0, 0], [3681219101, "The Navigators TMS (Topical Memory System) Bible Verses", 3.5, 2, 1355011200, 60, 0, 0], [816384211, "Majorsystem 00-19", 0.0, 0, 1431043200, 0, 0, 0], [1843832349, "Majorsystem 40-59", 0.0, 0, 1431043200, 60, 0, 0], [1595709420, " Norsk i dag. 2 rozdz. ", 0.0, 0, 1409184000, 73, 0, 0], [55085245, "Norsk i dag. 5 rozdz. ", 0.0, 0, 1409184000, 108, 0, 0], [1848877959, "Norske ord og uttrykk", 0.0, 0, 1429488000, 3, 0, 0], [1307122021, "Biochem, Unit 4; Complicating factors & Multifactorial Inher", 0.0, 0, 1414108800, 64, 0, 0], [1444502165, "english for doctors", 0.0, 0, 1422403200, 335, 0, 0], [901185743, "Norsk i dag. 14 rozdz. ", 0.0, 0, 1409184000, 52, 0, 0], [1903608062, "Norsk", 0.0, 0, 1345852800, 8, 8, 0], [900914860, "German Conversation Connectors", 5.0, 1, 1417564800, 88, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ors</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

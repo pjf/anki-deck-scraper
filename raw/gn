@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1158491752, "LSE Lengua de Signos Espa\u00f1ola SignoEscritura 2015", 0.0, 0, 1429142400, 7824, 0, 7836], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [1181770964, "fmpregnancy", 0.0, 0, 1454544000, 131, 0, 0], [472904097, "Early pregnancy care for Karen", 0.0, 0, 1454112000, 28, 0, 0], [626697504, "ASL Browser with 4500 Signs including video", 4.5, 2, 1380067200, 4585, 0, 0], [483402006, "Igneous Petrology", 0.0, 0, 1454457600, 25, 0, 0], [2096349358, "JMC Audio: 302 Acoustic Design Notes", 0.0, 0, 1453939200, 14, 0, 1], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [2137316729, "Diagnostik-Susi", 5.0, 1, 1453852800, 2, 0, 0], [598380507, "Hui Shen--- assignment of tense", 0.0, 0, 1454112000, 14, 0, 0], [3283034296, "japanese phonetic - signal primitives - ONYOMI groups", 5.0, 1, 1383177600, 361, 0, 0], [915160001, "2_Nima_Dutch for foreigners", 0.0, 0, 1453334400, 1926, 219, 6], [710322955, "Cognitive Therapy 2015", 0.0, 0, 1450656000, 141, 0, 0], [13042516, "history of Chinese art and design", 0.0, 0, 1453161600, 83, 0, 0], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [1099273396, "Baralhos de significados de frases com audio em ingles!", 0.0, 0, 1449792000, 98, 97, 4], [866950771, "ignore this", 0.0, 0, 1449964800, 3, 0, 0], [135266511, "Japanese signs", 0.0, 0, 1414627200, 50, 0, 50], [960165611, "ODOM: Vital Signs and Examinations", 0.0, 0, 1449619200, 95, 0, 4], [72579331, "ign 1103 holidays", 0.0, 0, 1452384000, 30, 0, 0], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [916574908, "NDLS Soulign\u00e9", 0.0, 0, 1449619200, 860, 0, 0], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [563975180, "espagnol steven Briand 2", 0.0, 0, 1447632000, 34, 0, 0], [2091559483, "Molecular Medicine of the Heart: Signal Transduction Lecture", 0.0, 0, 1450137600, 41, 0, 0], [721601506, "rowan som biochemisttry block 1 lecture 8 diagnostic tools", 0.0, 0, 1409184000, 82, 0, 28], [1423087605, "espagnol steven Briand", 0.0, 0, 1447632000, 450, 0, 0], [85640050, "Tae Kim's Guide to Grammar (Recognition and Production)", 4.0, 5, 1407110400, 785, 3, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 4.0, 1, 1409443200, 106, 0, 127], [904904278, "Liste de sberves en pr\u00e9position fran\u00e7ais - espagnol", 0.0, 0, 1449532800, 105, 0, 0], [2064286028, "JMC Audio 302 \"Acoustic Design\" Notes", 0.0, 0, 1449532800, 242, 0, 59], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [1932240786, "A2 Begegnungen English - German", 0.0, 0, 1444435200, 379, 0, 0], [1188402900, "Conjugaisons espagnoles", 0.0, 0, 1435276800, 605, 0, 0], [379201729, "VU-Diagnostik Uni Wien", 0.0, 0, 1448841600, 129, 0, 0], [1092574835, "Ringvorlesung: Pharmakognosie", 0.0, 0, 1448150400, 53, 0, 1], [708227827, "rowan som prematric peter tatum anatomy diagnostic imaging", 0.0, 0, 1405296000, 23, 0, 30], [1933691201, "CCO - pregnancy", 0.0, 0, 1447286400, 79, 0, 0], [1621958370, "Arabic Animal Names (Vocabulary) (Vowel Signs)", 0.0, 0, 1422144000, 102, 61, 0], [1021662717, "FSL Filipino sign language Lexicon in SignWriting 2014", 0.0, 0, 1428192000, 825, 0, 826], [1195349525, "Flashcard Anglais DOA Saint-Vincent Soignies UNIT 1-2-3-4", 0.0, 0, 1446940800, 230, 225, 4], [171192257, "ECO - EPARGNE", 0.0, 0, 1446940800, 55, 0, 0], [1134079481, "Fran\u00e7ais - espagnol droit et institutions ", 0.0, 0, 1445990400, 494, 0, 0], [963710025, "Vital signs", 0.0, 0, 1442620800, 20, 0, 0], [1145032819, "Intermediate R functions and design patterns ", 5.0, 1, 1440460800, 51, 0, 1], [935664828, "Hittite sign list", 0.0, 0, 1453680000, 194, 8, 259], [1717556008, "Til a\u00f0 l\u00e6ra fyrir k\u00fars um n\u00fd fasteignal\u00f6g", 0.0, 0, 1442620800, 17, 0, 0], [173867467, "DuongND Study Japanese", 0.0, 0, 1443398400, 0, 3, 2], [73482521, "Signal Transduction, Cystic Fibrosis", 0.0, 0, 1440028800, 22, 0, 1], [1387355056, "baby sign", 0.0, 0, 1442880000, 52, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [609701403, "Basic R functions and design patterns", 5.0, 2, 1440460800, 40, 0, 0], [996697128, "DuongND Study Japanese 2", 0.0, 0, 1443398400, 315, 3, 2], [502402505, "cell signals", 0.0, 0, 1441238400, 33, 0, 0], [2016100824, "FSU COM Microbio Bug Vignettes", 0.0, 0, 1444435200, 35, 0, 0], [806418773, "immunology BCR and TCR signaling", 0.0, 0, 1442880000, 38, 0, 10], [622822071, "Histology cards for Recognition Slides", 0.0, 0, 1441238400, 8, 0, 9], [1220142243, "Cell Signaling", 0.0, 0, 1441324800, 36, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [1071816948, "Diagnostic + Screening Tests", 0.0, 0, 1439769600, 25, 0, 4], [3088137796, "Vocabulaire Interm\u00e9diaire Espagnol", 0.0, 0, 1345852800, 802, 0, 0], [2113559136, "asignacija", 0.0, 0, 1441756800, 10, 0, 0], [1496793357, "Flashcards for the Design Rotation", 0.0, 0, 1438905600, 39, 9, 0], [2901600193, "Top spanish verbs - Binlingue - Top verbes espagnole", 0.0, 0, 1345852800, 134, 0, 0], [2014938967, "50 Basic Auslan Signs", 0.0, 0, 1437350400, 50, 0, 0], [1711673922, "Recognize False Friends Like a Native!\u2122", 0.0, 0, 1432252800, 62, 124, 1], [1283264811, "Japanese Signal Words (version 1.02)", 0.0, 0, 1423267200, 54, 0, 0], [610206214, "Grammaire Espagnol Bintou S", 0.0, 0, 1434326400, 77, 0, 0], [1591457982, "UK Road Signs & Meanings", 0.0, 0, 1438646400, 167, 0, 0], [2749208589, "Kollokvie-1 - Dermatologi premaligne og maligne tumores", 0.0, 0, 1369872000, 91, 0, 83], [1203992203, "SAMS 15-01 - Design and Operational Art (DOA)", 0.0, 0, 1432166400, 192, 0, 27], [168543266, "False Friends - Cognates - Ronronia", 0.0, 0, 1424131200, 262, 0, 0], [2116883197, "Cisco Certified Design Associate preparation deck", 4.0, 1, 1425340800, 98, 0, 2], [1353874807, "FRCPA WHO malignancy deck JW", 0.0, 0, 1438473600, 82, 0, 1], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [3567230475, "Playing cards, unicode signs", 0.0, 0, 1345852800, 4, 0, 0], [1841536200, "GNT Vocab - Philippians ch 1", 0.0, 0, 1433116800, 52, 0, 0], [339021610, "SGNL 1301 CH 1", 0.0, 0, 1395360000, 32, 0, 80], [1903413044, "PD Physical Diagnosis", 0.0, 0, 1393804800, 146, 0, 79], [3919710332, "E. Szabat - po\u017cegnalne kolokwium [pol-eng, eng-pol]", 0.0, 0, 1358899200, 108, 0, 0], [1138564201, "Physical Diagnosis RMC M1 Spring", 0.0, 0, 1432080000, 60, 0, 6], [898801095, "Kanji Recognition", 0.0, 0, 1447286400, 248, 0, 0], [2231661921, "RGBM Week 3 Pregnancy I", 0.0, 0, 1358553600, 100, 0, 18], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [1664667087, "Sumerian Cuneiform Signs from Volk's Reader Part 1", 0.0, 0, 1414713600, 139, 0, 276], [1591737039, "ASL SignWriting to picture dictionary 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [2625437215, "TCM Review CALE 83 Formulas Key Signs & Symptoms", 0.0, 0, 1345852800, 83, 0, 0], [661457316, "K4 \u2013 Billeddiagnostik Columna Thoracalis", 0.0, 0, 1400544000, 146, 0, 57], [774065303, "A1. Lesson 1. Przywitania, po\u017cegnania", 0.0, 0, 1421712000, 21, 21, 15], [1486376263, "BSHo Obs - Hypertension in Pregnancy", 0.0, 0, 1394928000, 19, 0, 1], [336799997, "K4 \u2013 Billeddiagnostik OE", 0.0, 0, 1398988800, 360, 0, 129], [2069724327, "Sardaigne - Petit lexique", 0.0, 0, 1406937600, 2, 0, 0], [953320743, "Begegnungen B1 Kapitel 1 (Zeitvertrieb) Deutsch-Russisch", 0.0, 0, 1416268800, 81, 0, 0], [314335866, "rowan som block 1 fundamentals 1 self study cell signalling", 0.0, 0, 1409702400, 17, 0, 2], [1655449656, "Icelandic for Foreigners - Hver er Ma\u00f0urinn?", 0.0, 0, 1361145600, 31, 0, 0], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [783078663, "RGBM Week 3-4 Pregnancy III", 0.0, 0, 1358899200, 121, 0, 5], [133122027, "Espagnol Assimil, lecciones 1-12", 0.0, 0, 1358294400, 235, 0, 0], [3402948704, "13240 Airport Design", 0.0, 0, 1367280000, 143, 0, 0], [1832907255, "For foreigners", 0.0, 0, 1427500800, 431, 0, 0], [617029375, "Diagnostic Imaging: Radiology Test 2", 0.0, 0, 1405382400, 44, 0, 11], [1840381614, "vocabulaire de base Espagnol ", 0.0, 0, 1424044800, 352, 0, 0], [3495652827, "Gardiner Sign Codes", 0.0, 0, 1360281600, 1071, 0, 0], [1163453434, "productionSystems CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 32, 0, 0], [607630107, "Espagnol", 0.0, 0, 1345852800, 585, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [3881206524, "Luci e segnali di navigazione", 0.0, 0, 1361577600, 65, 0, 130], [2014989462, "CRM- Basics of study Design ", 0.0, 0, 1367280000, 14, 0, 0], [30965350, "Magnus Osnes", 0.0, 0, 1380931200, 92, 0, 189], [169257242, "Cahier espagnol 1 voc", 0.0, 0, 1445990400, 228, 0, 0], [104861841, "Philosophical Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 28, 0, 0], [905535343, "test - ignore", 0.0, 0, 1387584000, 9, 0, 1], [22720737, "Begegnungen A1 - Kapitel 2", 0.0, 0, 1414454400, 30, 0, 0], [701549605, "Design Patterns", 5.0, 1, 1434412800, 23, 0, 22], [278322741, "K4 \u2013 Billeddiagnostik UE", 0.0, 0, 1400198400, 193, 0, 61], [1217898473, "All Cards CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 346, 0, 0], [1537730942, "Algengar sagnir", 0.0, 0, 1433116800, 99, 0, 0], [1098381252, "Icelandic - \u00f3reglulegar sagnir (\u00fet.)", 4.5, 2, 1410307200, 99, 0, 0], [662638511, "Neuroscience Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 47, 0, 0], [337142596, "A\u00f0rir flokkar fasteigna og skipaso\u00f0un", 0.0, 0, 1425859200, 0, 0, 0], [1101386476, "Krishingner Human Anatomy 3/1/15", 0.0, 0, 1425254400, 219, 0, 214], [2174270357, "RGBM Week 3 Pregnancy II", 0.0, 0, 1358899200, 101, 0, 7], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [3525784978, "Moser, Magnus Osnes", 0.0, 0, 1380931200, 19, 0, 43], [3249084887, "Espagnol A-Z", 5.0, 1, 1350777600, 712, 0, 0], [3644830517, "ethology CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 15, 0, 0], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [136682947, "TCM Review Pulse Diagnosis", 0.0, 0, 1345852800, 17, 0, 0], [620746859, "LSQ grammaire Langue des signes SignEcriture 2015 ", 0.0, 0, 1428192000, 313, 0, 314], [903758353, "Diagnostics for TCM", 0.0, 0, 1424304000, 328, 0, 26], [1529069472, "Metodos diagnostico de car calcetas", 0.0, 0, 1423699200, 27, 0, 7], [1340249610, "signs and systems of cardiovascular disease", 0.0, 0, 1416528000, 71, 0, 0], [2117999136, "Begegnungen A2 Kapitel 7 (Wohnen) Deutsch-Russisch", 0.0, 0, 1416268800, 91, 0, 0], [2763627563, "Alger, Magnus Osnes", 0.0, 0, 1380931200, 44, 0, 86], [3851359429, "Espagnol vocab", 0.0, 0, 1377216000, 1503, 0, 0], [3849446874, "CognitivePsychology", 0.0, 0, 1345852800, 21, 0, 0], [1009874510, "US Military - Rank & Insignia", 0.0, 0, 1419292800, 38, 0, 36], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [811239422, "Designing Lean Manufacturing Systems TU M\u00fcnchen", 0.0, 0, 1408406400, 42, 0, 36], [471729312, "Cognitive Biases and Misconceptions", 0.0, 0, 1421798400, 18, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [3745368357, "Fisk, Magnus Osnes", 0.0, 0, 1380931200, 43, 0, 92], [515846693, "Vocabulario espagnol fran\u00e7ais terminale", 0.0, 0, 1389744000, 358, 0, 0], [3823043833, "100 Most Common Spanish Cognates", 0.0, 0, 1345852800, 198, 0, 0], [1211343102, "HD4 Heme Malignant Transformation 3-28-14", 0.0, 0, 1396051200, 32, 0, 18], [1499230852, "Vitigni Italiani", 0.0, 0, 1345852800, 94, 0, 0], [1358525311, "Elbisch (Wanderer-Kampagne)", 0.0, 0, 1429401600, 51, 0, 0], [899473772, "ASL picture dictionary to SignWriting 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [1371455762, "Mots de liaison espagnol", 0.0, 0, 1358553600, 57, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [2438776091, "RTK 1-3 w/top 2 community stories (recognition)", 0.0, 0, 1366588800, 3007, 0, 0], [1408116126, "FRCPath Part II: Malignant Haematology", 0.0, 0, 1411257600, 276, 0, 2], [436086667, "Fran\u00e7ais -> Espagnol (voc du quadri)", 0.0, 0, 1401408000, 127, 0, 0], [1592395616, "spagnolo g", 0.0, 0, 1350604800, 48, 0, 0], [2925910463, "Fugl, Magnus Osnes", 0.0, 0, 1381363200, 52, 0, 103], [141246269, "UK Road Signs ", 5.0, 1, 1426464000, 152, 0, 151], [976669539, "Diagnostyka - lipidy", 0.0, 0, 1414022400, 44, 0, 0], [1778096380, "RGBM Week 3 Pregnancy Pharm", 0.0, 0, 1358553600, 52, 0, 2], [1787745240, "Cognition ", 0.0, 0, 1426291200, 22, 0, 0], [1036465593, "Cognates Somali", 0.0, 0, 1416182400, 17, 0, 0], [1139295212, "Garmin GNS 430 Procedures", 0.0, 0, 1361923200, 18, 0, 5], [1953551394, "DEMO ONLY: hanzi recognition using qhanzi.com", 0.0, 0, 1415836800, 4, 3, 0], [2321718584, "Mon espagnol", 0.0, 0, 1350777600, 1309, 0, 0], [133484194, "\u00d3regulegra sagna", 0.0, 0, 1433203200, 99, 0, 0], [709140417, "vocabulaire anglais espagnol", 0.0, 0, 1386979200, 7, 0, 0], [996214995, "Mon espagnol 2", 0.0, 0, 1350777600, 454, 0, 0], [634671923, "SignWriting to ASL Handshapes 2014", 0.0, 0, 1431475200, 83, 0, 187], [3664575524, "Block 2 terminology, A/C Callsigns and Airports", 0.0, 0, 1369008000, 109, 0, 0], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [127022158, "Vocabulaire Fran\u00e7ais-espagnol", 0.0, 0, 1431475200, 612, 0, 0], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [1951050529, "K4 \u2013 Billeddiagnostik Columna Cervicalis", 0.0, 0, 1400716800, 128, 0, 70], [970971960, "List of Cognitive Biases and Fallacies", 4.0, 3, 1345852800, 211, 0, 0], [2765295474, "List of Cognitive Biases (from Wikipedia)", 0.0, 0, 1345852800, 151, 0, 0], [1015711429, "Benign and Inflammatory Dermatoses", 0.0, 0, 1410134400, 40, 0, 84], [485381930, "Protocol Analysis CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 18, 0, 0], [580025041, "ASL Handshapes to SignWriting 2014", 0.0, 0, 1431475200, 83, 0, 187], [1630954056, "Magnus Osnes, Magnus Osnes, Magnus Osnes", 0.0, 0, 1381190400, 69, 0, 167], [2530617883, "RGBM Week 3-4 Pregnancy IV + Genetics", 0.0, 0, 1358899200, 88, 0, 5], [780098291, "Krishingner Human Anatomy Pt2 4/24/15", 0.0, 0, 1429920000, 317, 0, 456], [438559176, "Begegnungen A1 - Kapitel 3", 0.0, 0, 1415318400, 71, 0, 0], [2808982211, "TCM Review Zang Fu Diagnosis CAM", 0.0, 0, 1345852800, 95, 0, 0], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [2713449531, "psychology methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 92, 0, 0], [1582951118, "signaux", 0.0, 0, 1427241600, 28, 0, 0], [1216667583, "cognitive biases deck", 0.0, 0, 1425081600, 2, 0, 0], [1059792849, "Begegnungen A1 - Kapitel 1", 0.0, 0, 1414454400, 78, 0, 0], [402198864, "Micha's flashcards for Cognitive Science", 0.0, 0, 1393027200, 65, 0, 4], [3882311803, "PLL recognition ", 0.0, 0, 1365033600, 88, 0, 88], [2853080322, "Kognitive System", 5.0, 1, 1379289600, 94, 0, 16], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [864958802, "ethnography CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 21, 0, 0], [1696781240, "Toets Gesproken Nederlands (TGN)", 0.0, 0, 1413072000, 684, 708, 0], [1129316370, "Fall Physical Diagnosis", 0.0, 0, 1415491200, 529, 0, 295], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [2500544496, "Unix Signals", 0.0, 0, 1384041600, 28, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Gn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

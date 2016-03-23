@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1657050324, "Islenska fyrir alla", 0.0, 0, 1453334400, 907, 0, 0], [1195170501, "Fyziologick\u00e9 hodnoty", 0.0, 0, 1454371200, 57, 0, 0], [2073037929, "Fyzio a BCH hodnoty", 0.0, 0, 1454716800, 58, 0, 0], [485085502, "Fyzika 4 - Elmag. vlny - Optika - Relativita (Pomi)", 5.0, 1, 1409443200, 40, 0, 49], [235777112, "Petrografia/Petrografy", 0.0, 0, 1451865600, 65, 0, 11], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 4.0, 1, 1409443200, 106, 0, 127], [411845063, "Toegepaste fysica", 0.0, 0, 1447718400, 9, 0, 0], [1717556008, "Til a\u00f0 l\u00e6ra fyrir k\u00fars um n\u00fd fasteignal\u00f6g", 0.0, 0, 1442620800, 17, 0, 0], [1744981687, "m4 - fysiologi", 0.0, 0, 1402099200, 25, 0, 14], [1504441042, "Fyzika 5 - Modern\u00ed fyzika (Pomi)", 4.0, 1, 1409443200, 35, 0, 38], [378456110, "Fysiikka", 0.0, 0, 1394928000, 135, 0, 0], [126609219, "fECfY 1.05", 0.0, 0, 1351123200, 33, 0, 0], [2103840294, "Opetus.tv - Lukion Fysiikka 1", 0.0, 0, 1413763200, 186, 0, 9], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [1808658728, "FECfY 3.05", 0.0, 0, 1351123200, 77, 0, 0], [3828374599, "fECfY 1.07", 0.0, 0, 1351123200, 36, 0, 0], [4293798551, "FECfY 3.10", 0.0, 0, 1351123200, 77, 0, 0], [36544443, "FECfY 2.03", 0.0, 0, 1351123200, 36, 0, 0], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [2937531267, "Islenska fyrir alla 3 (fara/vera \u00ed/\u00e1/til)", 5.0, 1, 1391990400, 62, 0, 0], [1137153463, "FECfY 3.06", 0.0, 0, 1351123200, 72, 0, 0], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [1683830825, "FECfY 2.06", 0.0, 0, 1351123200, 37, 0, 0], [4037279422, "Welsh Vocab Prifysgol Bangor", 0.0, 0, 1363824000, 2732, 0, 0], [3015844370, "FECfY 3.08", 0.0, 0, 1351123200, 70, 0, 0], [2840288845, "FECfY 3.07", 0.0, 0, 1351123200, 74, 0, 0], [1447665701, "FECfY 2.01", 0.0, 0, 1351123200, 35, 0, 0], [3303139196, "fysiikka 6, minilt\u00e4", 0.0, 0, 1385078400, 38, 0, 0], [2628815328, "AF2 metabolisme \u00f8velse fysiologi", 0.0, 0, 1345852800, 17, 0, 12], [4015876827, "FECfY 1.03", 0.0, 0, 1351123200, 36, 0, 0], [763605388, "FECfY 2.09", 0.0, 0, 1351123200, 35, 0, 0], [873856662, "FECfY 1.10", 0.0, 0, 1351123200, 35, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [69003739, "FECfY 2.05", 0.0, 0, 1351123200, 36, 0, 0], [3160974807, "fECfY 1.06", 0.0, 0, 1351123200, 31, 0, 0], [3403279294, "FECfY 3.02", 0.0, 0, 1351123200, 71, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [2135534035, "FECfY 2.07", 0.0, 0, 1351123200, 35, 0, 0], [2776710345, "FECfY 3.09", 0.0, 0, 1351123200, 71, 0, 0], [33462997, "FECfY 1.09", 0.0, 0, 1351123200, 33, 0, 0], [1037404919, "Fyzika 1 - Mechanika (Pomi)", 4.0, 1, 1409443200, 106, 0, 117], [3375903379, "FECfY 3.01", 0.0, 0, 1351123200, 59, 0, 0], [2643704295, "FECfY 1.02", 0.0, 0, 1351123200, 30, 0, 0], [891083771, "fysiikka 7 minilt\u00e4", 0.0, 0, 1385078400, 19, 0, 0], [1098401043, "FECfY 2.10", 0.0, 0, 1351123200, 39, 0, 0], [696415625, "FECfY 1.11", 0.0, 0, 1351123200, 35, 0, 0], [415408182, "FECfY 2.02", 0.0, 0, 1351123200, 37, 0, 0], [3519621533, "FECfY 2.04", 0.0, 0, 1351123200, 36, 0, 0], [244841319, "Fyzika 2 - Mechanika a termodynamika (Pomi)", 4.0, 1, 1409443200, 101, 0, 97], [3556941117, "FECfY 1.08", 0.0, 0, 1351123200, 36, 0, 0], [1696353014, "FECfY 2.08", 0.0, 0, 1351123200, 37, 0, 0], [3485839674, "FECfY 1.04", 0.0, 0, 1351123200, 31, 0, 0], [39514359, "fysikk", 0.0, 0, 1402185600, 134, 0, 22]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Fy</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[66993717, "nephrology for charlotte", 0.0, 0, 1452816000, 30, 0, 0], [425300093, "SM24 - Naru's Tears: Nephrite Dies for Love", 0.0, 0, 1453593600, 20, 0, 0], [2017108749, "Pediatric Nephrology", 0.0, 0, 1449964800, 28, 0, 0], [327544976, "English to Nepali Language Learning", 0.0, 0, 1449532800, 303, 0, 0], [420867799, "Devanagari Script (Nepali)", 0.0, 0, 1449532800, 62, 0, 0], [804481434, "\u00fcnnepek holidays celebration", 0.0, 0, 1449360000, 85, 170, 4], [2126271842, "Mental Health Research Group Nepali", 0.0, 0, 1447891200, 56, 0, 0], [415808950, "Mental Health Research Group Nepali", 0.0, 0, 1447286400, 12, 0, 0], [29001817, "GI CM Nephro 2 Pearls", 0.0, 0, 1444262400, 69, 0, 70], [1382906814, "GI CM Nephro 1", 0.0, 0, 1443312000, 105, 0, 92], [1511974637, "KMP_4_MUI_Nephro", 0.0, 0, 1440979200, 264, 0, 0], [273370319, "Nephrology", 0.0, 0, 1421107200, 12, 0, 0], [114855411, "Earthquake, water & hope (Nepalese Transliteration & Devanag", 0.0, 0, 1430611200, 13, 0, 0], [1118647766, "Christian Nepali Language", 0.0, 0, 1402012800, 89, 0, 0], [1274432711, "NephrologieMUI", 0.0, 0, 1428883200, 587, 0, 7], [123314083, "Deutsch - Srpski: Nepravilni glagoli", 0.0, 0, 1427932800, 158, 0, 0], [1840875344, "Nephro", 0.0, 0, 1393804800, 12, 0, 0], [664481611, "Nepali Sentences.", 0.0, 0, 1402012800, 734, 0, 0], [642665617, "marwanounet-nephro", 0.0, 0, 1449014400, 119, 0, 10], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [1247679437, "cinephile85's German Deck", 0.0, 0, 1362009600, 324, 0, 0], [664812209, "English to Nepali Vocab. A1", 0.0, 0, 1396828800, 87, 0, 0], [1174368555, "UW-L PA Nephrology", 0.0, 0, 1421193600, 41, 0, 52], [3633341875, "NEPA Italiano Beginners", 0.0, 0, 1375228800, 75, 87, 92], [2820141108, "NEPA Italiano", 0.0, 0, 1374796800, 61, 70, 46], [476449916, "Renal up through glomerulonephritis", 0.0, 0, 1431734400, 589, 0, 60], [1991394856, "Earthquake, water & hope (Nepalese Devanagari & Transliterat", 0.0, 0, 1430611200, 13, 0, 0], [978237351, "Nepali Vocabulary", 0.0, 0, 1402012800, 440, 0, 0], [413625194, "Nepravidelna nemcina", 0.0, 0, 1422576000, 78, 0, 0], [1730700883, "English to Nepali Translation Sentences", 0.0, 0, 1402012800, 245, 0, 0], [1955871799, "Nepali words ", 0.0, 0, 1396828800, 333, 0, 0], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [980643105, "Earthquake, water & hope (English-Nepalese)", 0.0, 0, 1430611200, 13, 0, 0], [2057483946, "N\u011bmeck\u00e1 nepravideln\u00e1 slovesa", 0.0, 0, 1430179200, 292, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nep</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

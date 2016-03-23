@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [3837585903, "Zertifikat Deutsch - B1, p\u00e9ld\u00e1kkal -- n\u00e9met-magyar", 4.75, 4, 1378425600, 3539, 0, 0], [209927296, "Hayat U11", 0.0, 0, 1454198400, 302, 0, 0], [236290031, "Hayat U10", 0.0, 0, 1454198400, 893, 0, 0], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [129547646, "YAAA", 0.0, 0, 1454630400, 20, 0, 20], [1631411769, "yang tai_sppp", 0.0, 0, 1454112000, 10, 0, 0], [806643760, "Schritte international 2 -- n\u00e9met-magyar", 5.0, 1, 1380326400, 1088, 0, 0], [2035756260, "Aryanpour-nazli", 0.0, 0, 1454371200, 1622, 2, 7], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [2079637790, "Dr.Bab\u00e1ri Ern\u0151 - Egyszer\u0171en n\u00e9met\u00fcl -- n\u00e9met-magyar", 4.0, 1, 1390435200, 1043, 0, 0], [2680787138, "Start! Neu, N\u00e9met I. -- n\u00e9met-magyar", 4.25, 4, 1380672000, 1659, 0, 0], [14855591, "Algorithmist's Malayalam abugida (\"alphabet\") ", 0.0, 0, 1447804800, 70, 52, 0], [1888902361, "Angol magyar szavak k\u00f6nyvolvas\u00e1sb\u00f3l...", 0.0, 0, 1453852800, 591, 217, 4], [2009624202, "HEADWAY Intermediate Magyar-Angol - by Nandika", 4.67, 3, 1431820800, 1355, 1325, 4], [906562128, "angol nyelvtanfolyam pack", 0.0, 0, 1450742400, 374, 1, 6], [1399457752, "Nagoya YWCA \u4e2d\u7d1aVocab", 0.0, 0, 1449187200, 534, 0, 0], [376690635, "Polyatomic Ions", 0.0, 0, 1448841600, 42, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [1340908953, "Voyages, Unit\u00e9 6", 0.0, 0, 1448409600, 174, 0, 0], [355292019, "Nagoya YWCA \u4e2d\u7d1a\u306e\u6f22\u5b57", 0.0, 0, 1449187200, 739, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 6, 1372636800, 1966, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1170259496, "Voyages 1, Unit\u00e9 7", 0.0, 0, 1447804800, 97, 0, 0], [528727218, "Salish - English (seli\u0161 - sunyapcin) vocabulary ", 0.0, 0, 1450569600, 904, 30, 535], [1869547261, "El arabya bayna yadayk 1/2", 0.0, 0, 1446163200, 190, 1, 0], [272666332, "Voyages 1 Unit\u00e9 3", 0.0, 0, 1448409600, 150, 0, 0], [505455431, "Kreativ Angol Gyakorlo Hun-Eng", 0.0, 0, 1447804800, 178, 0, 0], [1073687042, "Hayat U9", 0.0, 0, 1447977600, 976, 0, 0], [161249463, "Angol-magyar", 0.0, 0, 1444089600, 1227, 0, 1], [160049642, "Voyages 1 Unit\u00e9 9", 0.0, 0, 1447804800, 139, 0, 0], [1779667546, "Pathologyaftermidterm2015", 0.0, 0, 1447718400, 0, 0, 0], [562882246, "Polyatomic Ions", 0.0, 0, 1441584000, 24, 0, 0], [535541696, "Royal Marines Trivia", 0.0, 0, 1445126400, 29, 0, 0], [1815594017, "Myanmar Alphabets (33 Consonants)", 0.0, 0, 1413417600, 33, 33, 33], [238566799, "Irregular verbs 115 ige magyar (hun) \u00e9s angol (eng)", 5.0, 1, 1443484800, 115, 114, 2], [1537040886, "Binisaya Lessons", 0.0, 0, 1446681600, 197, 0, 0], [761928951, "Voyage Unit\u00e9 6", 0.0, 0, 1448409600, 174, 0, 0], [1012981177, "Voyage \u00danite 3 ", 0.0, 0, 1445385600, 150, 0, 0], [1233850715, "vairAgya-shatakam \u0935\u0948\u0930\u093e\u0917\u094d\u092f\u0936\u0924\u0915\u092e\u094d", 0.0, 0, 1446854400, 111, 0, 0], [487641899, "matt phil and ilya ", 0.0, 0, 1447027200, 133, 0, 15], [774696041, "polyatomic ions for nvcc general chemistry", 0.0, 0, 1444089600, 39, 0, 0], [1898521226, "Angol tanfolyam", 0.0, 0, 1446595200, 27, 28, 0], [1320014410, "Research Methods Matt and Ilya", 0.0, 0, 1444089600, 187, 0, 4], [1210521771, "Voyages 1 Unit\u00e9 5", 0.0, 0, 1445385600, 158, 0, 0], [888858991, "prepositions angol-magyar (english-hungarian)", 0.0, 0, 1433894400, 466, 0, 0], [56464517, "k\u00f6zel 8000 magyar - angol mondatp\u00e1r", 4.0, 1, 1437264000, 7904, 0, 0], [1350477406, "Voyages 1 Unit\u00e9 1", 0.0, 0, 1444262400, 198, 0, 0], [709781529, "Latin - Magyar  (fogorvosi asszisztens)", 0.0, 0, 1444262400, 29, 0, 0], [1634048091, "Voyages 1 Unti\u00e9 2", 0.0, 0, 1445385600, 177, 0, 0], [1470326566, "ELTE N\u00f6v\u00e9nyrendszertan gyakorlat", 0.0, 0, 1444003200, 78, 0, 79], [149985131, "angol magyar", 0.0, 0, 1443052800, 1287, 0, 0], [750507314, "Alex and Ilya Sociology", 0.0, 0, 1444262400, 93, 0, 9], [1158410944, "Magyar-angol", 0.0, 0, 1442188800, 985, 0, 0], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [712381125, "Hayat Dictionary", 0.0, 0, 1454198400, 6021, 0, 0], [770653585, "Hayat U8", 0.0, 0, 1442966400, 121, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [2096292786, "Hayat U7", 0.0, 0, 1441324800, 921, 0, 0], [159607440, "Polyatomic Anions", 0.0, 0, 1442361600, 20, 0, 0], [2124870266, "Polyatomic Cations", 0.0, 0, 1442361600, 2, 0, 0], [5568810, "Kinyarwanda", 5.0, 1, 1406851200, 173, 0, 0], [412397360, "Alyawarr Sound Chart", 0.0, 0, 1441238400, 37, 37, 37], [1065931444, "Nagoya YWCA \u521d\u7d1aII \u3051\u3044\u3054", 0.0, 0, 1435449600, 26, 0, 0], [1877153096, "Voc :  \" el arabya bayna yadayk \" ---Arabe / Fran\u00e7ais ( 2/2)", 0.0, 0, 1430265600, 77, 1, 0], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 4.9, 10, 1431820800, 1325, 1300, 4], [1270866356, "amemiya2", 0.0, 0, 1423008000, 33, 35, 68], [1236759081, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 6", 0.0, 0, 1376438400, 54, 54, 54], [1160174865, "Hasznos Kifejez\u00e9sek N\u00e9met-Magyar", 0.0, 0, 1405987200, 471, 0, 0], [1536913770, "\u0423\u043a\u0440\u0430\u0457\u043d\u043e-\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u043e\u0437\u043c\u043e\u0432\u043d\u0438\u043a \u0437 \u0441\u0430\u0439\u0442\u0443 uk.wikivoyage.org", 0.0, 0, 1435795200, 219, 256, 47], [1554243755, "Wesleyan Social Psychology lectures 16-20", 0.0, 0, 1400112000, 112, 0, 0], [17052446, "Magyar \u00fczleti nyelvk\u00f6nyv 1. fejezet", 0.0, 0, 1439942400, 31, 0, 0], [1415648227, "Hayat U6", 0.0, 0, 1439424000, 852, 0, 0], [1476862144, "Battleship Yamato", 0.0, 0, 1425168000, 15, 0, 0], [867320286, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1427500800, 104, 0, 0], [338602707, "Story of battleship Yamato", 0.0, 0, 1438387200, 38, 17, 0], [208301179, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 5", 5.0, 1, 1376438400, 80, 80, 80], [2004259926, "ALittlebitouphadya", 0.0, 0, 1396742400, 282, 0, 15], [965654470, "amarakosha-shabda-nATya", 0.0, 0, 1368403200, 524, 0, 0], [892518528, "Myanmarsar KG Lesson-3", 0.0, 0, 1423699200, 13, 0, 13], [3031204905, "Clin Lab 2 - Other Endocrine (Ryan)", 0.0, 0, 1345852800, 26, 0, 0], [287007106, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 8", 0.0, 0, 1376438400, 154, 153, 154], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [431021649, "Colores 2.   Ford\u00edt\u00e1si gyakorlat a Colores 2. megold\u00e1sokb\u00f3l", 0.0, 0, 1407974400, 17, 0, 0], [824196968, "Clin Path 2 - Reproduction (Ryan)", 0.0, 0, 1345852800, 79, 0, 11], [3166936901, "CMS 6 - Stomach (Ryan)", 0.0, 0, 1345852800, 48, 0, 3], [3149260683, "Clin Path 2 - Endocrine (Ryan)", 0.0, 0, 1345852800, 30, 0, 0], [845184059, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 2", 5.0, 1, 1376438400, 112, 104, 105], [2871278994, "CMS 4 - Osteoporosis (Ryan's)", 0.0, 0, 1345852800, 19, 0, 3], [389076372, "Pharm 2 - GI Review (Ryan)", 0.0, 0, 1345852800, 125, 0, 2], [828176078, "Sherman's Circular Gallifreyan", 0.0, 0, 1423008000, 29, 0, 29], [1852159544, "Surya Namaskara A / Sun Salutation A", 0.0, 0, 1430956800, 7, 0, 7], [2780247271, "Alya English", 0.0, 0, 1345852800, 3030, 50, 121], [3869834479, "Ayamo Path", 0.0, 0, 1385424000, 2685, 0, 763], [1878869917, "Vocabulaire Arabe tir\u00e9 du livre : Haiya     2", 0.0, 0, 1420761600, 31, 0, 0], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [4275646624, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1345852800, 19, 0, 0], [3427473876, "Ayamo Microbiology", 0.0, 0, 1385424000, 1032, 0, 318], [1539837358, "Micro exam 3 from ryan", 0.0, 0, 1428364800, 175, 0, 16], [197597011, "KAZUYAPROGRAMMING", 0.0, 0, 1433462400, 20, 0, 0], [2105949298, "SPF-M n\u00e9met-magyar ", 0.0, 0, 1427587200, 940, 0, 0], [6155018, "Great Wall Chinese 6 k\u00ednai-magyar", 0.0, 0, 1402012800, 31, 15, 0], [1385977020, "Jiraiya VS Pain fight vocab - NARUTO (english-japanese)", 5.0, 1, 1409788800, 206, 3, 0], [2213072780, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 7", 0.0, 0, 1376438400, 32, 18, 32], [2820284005, "Deutsch Perfekt 3 (magyar-nemet)", 0.0, 0, 1453852800, 1004, 529, 414], [2225182956, "amarakosha - anya", 0.0, 0, 1368403200, 2253, 0, 0], [1423213578, "23.Sz\u00ednek,form\u00e1k,hasonl\u00f3s\u00e1gok,k\u00fcl\u00f6nbs\u00e9gek,gyakoris\u00e1g \u00e9s sorr", 0.0, 0, 1432771200, 73, 0, 0], [2238602716, "Clin Lab 2 - Exocrine Pancreas (Ryan)", 0.0, 0, 1345852800, 25, 0, 2], [2026967616, "Clin Lab 2 - Endocrine Pancreas (Ryan)", 0.0, 0, 1345852800, 23, 0, 3], [1219743521, "Ayamo Behavioral Science", 0.0, 0, 1385424000, 93, 0, 14], [1686295504, "Yasmin\u5fb7\u8bed\u9605\u8bfb\u4e2d\u78b0\u5230\u7684\u751f\u8bcd", 0.0, 0, 1434326400, 28, 0, 0], [1676457876, "history of japan muromachi momoyama", 5.0, 1, 1399334400, 296, 0, 0], [1052499941, "Sz\u00f3k\u00e1rty\u00e1im a k\u00f6z\u00e9pfok\u00faig magyar-n\u00e9met (Deutsch)", 0.0, 0, 1429488000, 798, 0, 0], [2114875261, "example 1 test fr", 0.0, 0, 1431820800, 119, 0, 0], [1075206352, "mayamaya", 0.0, 0, 1403136000, 53, 0, 0], [1838714570, "JapaneseStudyAbroad_Review", 0.0, 0, 1434412800, 83, 0, 0], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 1, 1373241600, 2049, 0, 0], [902482244, "magyar - angol kezdoknek  kb 2000 words", 0.0, 0, 1434326400, 1935, 0, 0], [1484754259, "\u767e\u4eba\u4e00\u9996\u304b\u308b\u305f Hyakunin isshu karuta ", 5.0, 3, 1364428800, 100, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [969379280, "Great Wall Chinese 7 k\u00ednai-magyar", 0.0, 0, 1402012800, 32, 0, 0], [68946285, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1428883200, 67, 0, 0], [24992588, "Maya Syllabary", 5.0, 1, 1399939200, 384, 0, 384], [1773510323, "Mayan Medical Aid", 0.0, 0, 1429228800, 683, 0, 0], [842615593, "N\u00e9met-Magyar 1000K\u00e9rd\u00e9s1000V\u00e1lasz", 0.0, 0, 1405987200, 3061, 0, 0], [664124980, "Myanmar alphabet", 0.0, 0, 1367107200, 72, 0, 0], [2444930906, "CMS 4 - Ankle & Foot (Ryan's)", 0.0, 0, 1345852800, 37, 0, 2], [3746619612, "VKIYA", 0.0, 0, 1355184000, 1460, 0, 0], [890993360, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1389139200, 39, 0, 22], [1443592887, "kinya", 0.0, 0, 1414540800, 1, 0, 0], [249078006, "Bryan's Master Class", 0.0, 0, 1345852800, 45, 0, 0], [162285217, "       14 Muskelsygdomme, Myasteni og nervebet\u00e6ndelse", 0.0, 0, 1420070400, 37, 0, 21], [32063961, "Myanmarsar KG Lesson-4", 0.0, 0, 1423699200, 12, 0, 12], [132130044, "Micro Ryan", 0.0, 0, 1425168000, 600, 0, 55], [923210682, "amemiya4", 0.0, 0, 1424908800, 23, 24, 28], [2235828277, "PD 1 - Midterm Review (Ryan)", 0.0, 0, 1345852800, 81, 0, 28], [615988387, "CMS 4 - Lower Ext (Ryan's)", 0.0, 0, 1345852800, 38, 0, 5], [2208213442, "Deutsch Perfekt 1 (n\u00e9met-magyar)", 0.0, 0, 1453852800, 1000, 513, 408], [3704314987, "CMS 6 - DIsord. of Instestine 2 (Ryan)", 0.0, 0, 1345852800, 96, 0, 5], [3535495155, "Deutsch Perfekt 2 (n\u00e9met-magyar)", 5.0, 1, 1453852800, 1026, 492, 384], [3457817130, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 1", 5.0, 1, 1376438400, 29, 19, 19], [369119730, "Ayamo Biochem", 0.0, 0, 1385424000, 612, 0, 285], [1740940736, "Ayamo Embryology", 0.0, 0, 1385424000, 264, 0, 125], [178137368, "Nagoya YWCA \u521d\u7d1a2", 0.0, 0, 1428710400, 629, 0, 0], [3997594176, "Pharm 2 - Endocrine Review (Ryan)", 0.0, 0, 1345852800, 109, 0, 4], [377406306, "Nagoya YWCA \u521d\u7d1a\uff11", 0.0, 0, 1423699200, 996, 0, 0], [228554126, "Myanmarsar KG Lesson-1", 0.0, 0, 1423699200, 10, 0, 10], [3794996113, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 3", 5.0, 1, 1376438400, 14, 14, 14], [3096419492, "Naming Binary Compounds, Polyatomic Ions, and Acids", 0.0, 0, 1360454400, 22, 0, 0], [2078202464, "Vocabulaire Arabe tir\u00e9 du livre : Haiya     3", 0.0, 0, 1420761600, 28, 0, 0], [2672625866, "sanskrit avyaya-s", 0.0, 0, 1368403200, 330, 0, 0], [1229093172, "tengwar quenya mode", 4.0, 1, 1424217600, 46, 0, 48], [1973420773, "SaraYale This deck is for my students.", 0.0, 0, 1410134400, 501, 500, 0], [2132223383, "HEADWAY Upper Intermediate Magyar-Angol - by Nandika", 5.0, 2, 1431820800, 1092, 1081, 4], [2244779098, "CMS 7 Hernias (Ryan's)", 0.0, 0, 1345852800, 74, 0, 10], [1597134098, "Ogura Hyakunin Isshu", 0.0, 0, 1418515200, 100, 0, 200], [722663086, "Learning to read the 'Quran' with 'Al-Nouranya' - Lesson 4", 5.0, 1, 1376438400, 92, 91, 92], [3560355112, "Kriyat Binayim", 0.0, 0, 1345852800, 5, 0, 0], [2396427693, "CMS 7 Anorectal Disorders (Ryan's)", 0.0, 0, 1345852800, 41, 0, 2], [1381643351, "Great Wall Chinese 7 k\u00ednai-magyar", 0.0, 0, 1402012800, 43, 6, 0], [563368435, "Yale Japanese 110 &120 - Japanese the Spoken Language", 5.0, 1, 1402099200, 1591, 1484, 0], [75419321, "Path 1 - Rheum (Ryan's)", 0.0, 0, 1345852800, 20, 0, 1], [2969260020, "Ayamo Anatomy", 0.0, 0, 1385424000, 352, 0, 259], [4058498633, "Path 1 - Neuro (Ryan's)", 0.0, 0, 1345852800, 48, 0, 4], [883312747, "Vocabulaire Arabe tir\u00e9 du livre : Haiya     4", 0.0, 0, 1420761600, 30, 0, 0], [3297184995, "Path 1 - Musculoskeletal (Ryan's)", 0.0, 0, 1345852800, 38, 0, 1], [943020528, "Myanmarsar KG Lesson-6 ", 0.0, 0, 1423699200, 12, 0, 12], [2101491162, "Ilya and Darrion Kin1001", 0.0, 0, 1411430400, 87, 0, 17], [1849056938, "Kobayashi", 0.0, 0, 1396915200, 30, 0, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [1034600627, "Kedvenc szavaim (n\u00e9met-magyar)", 0.0, 0, 1411257600, 231, 0, 219], [47991658, "APWH Review Yay", 0.0, 0, 1431561600, 486, 0, 0], [2956513523, "Deutsch Perfekt 4 (magyar-n\u00e9met)", 5.0, 1, 1453852800, 1005, 639, 304], [65603348, "Vocabulaire Arabe tir\u00e9 du livre : Haiya     1", 0.0, 0, 1420761600, 31, 0, 0], [913533588, "Surya Namaskara B / Sun Salutation B", 0.0, 0, 1430956800, 8, 0, 8], [395725648, "Ryan's Deck", 0.0, 0, 1430179200, 3615, 0, 0], [4019383547, "Clin Path 2 - Aging (Ryan)", 0.0, 0, 1345852800, 23, 0, 1], [1302812641, "amarakosha-vaishya", 0.0, 0, 1368403200, 869, 0, 0], [1653819142, "NonsoTestAnatomyAbdomen", 0.0, 0, 1409702400, 199, 0, 201], [532232318, "Ryan Burns", 0.0, 0, 1422316800, 34, 0, 0], [348968545, "CMS 4 - Ortho Injuries (Ryan's)", 0.0, 0, 1345852800, 45, 0, 5], [205096476, "cards for procrastinator ryan", 0.0, 0, 1429401600, 329, 0, 97], [703318393, "angol-magyar szavak", 0.0, 0, 1451692800, 235, 217, 4], [3221703753, "amarakosha-visheShyanighna", 0.0, 0, 1368403200, 1038, 0, 0], [745758380, "K\u00f6z\u00e9pszint\u0171 angol-magyar sz\u00f3t\u00e1r 4000 szavas", 3.0, 1, 1397433600, 4145, 0, 0], [96133927, "Deutsch perfekt 1. (n\u00e9met-magyar)", 0.0, 0, 1366848000, 1005, 0, 110], [917263274, "Adri - Magyar - Norv\u00e9g", 0.0, 0, 1417737600, 88, 0, 0], [1990182595, "Malay for Adults, taught by Yahya Hamid", 5.0, 2, 1448755200, 1757, 0, 0], [353932106, "Myanmar Consonants Rhymes", 0.0, 0, 1413504000, 25, 25, 50], [1933605427, "Myanmarsar KG Lesson-5", 0.0, 0, 1423699200, 11, 0, 11], [2018543632, "Myanmarsar KG Lesson-2", 0.0, 0, 1423699200, 8, 0, 8]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ya</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

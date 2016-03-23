@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[167253152, "CPM EKG NOTES", 0.0, 0, 1454976000, 63, 0, 0], [1827089257, "CPM Review lecture notes", 0.0, 0, 1454976000, 29, 0, 0], [548685329, "Chinese-English: audio, hsk, cpod, sentences, radicals", 4.5, 6, 1453507200, 16498, 1163, 0], [1185715360, "CP2019bb", 0.0, 0, 1452643200, 187, 0, 0], [935793842, "ATSUSOMA_CPII_Exam II_Anatomy", 0.0, 0, 1453939200, 316, 0, 190], [1769745974, "CPath I - 75% to pass again???", 0.0, 0, 1453420800, 223, 0, 67], [895633892, "CP2  child health ", 0.0, 0, 1454284800, 58, 0, 0], [262710740, "CPGE_Evry Vocabulaire Anglais Civi FR-ENG", 4.0, 1, 1449100800, 253, 232, 0], [1578620214, "46b cptp ", 0.0, 0, 1449964800, 733, 3, 126], [516530329, "44b CPTP ", 0.0, 0, 1449705600, 222, 3, 4], [794615335, "CPE Vocab Review 1 2015-16", 0.0, 0, 1449705600, 119, 0, 0], [256920480, "CPGE_Evry US Constitution", 0.0, 0, 1445731200, 48, 0, 0], [641689167, "VCP6-DCV Exam (2V0-621)", 0.0, 0, 1446076800, 954, 0, 0], [1036691962, "CPGE_Evry Le mot et l'id\u00e9e FR-ENG vocab", 0.0, 0, 1445990400, 127, 60, 24], [843771850, "RACP Written Exam Flashcards", 0.0, 0, 1442016000, 3688, 0, 166], [1866118207, "CP Comps at DU", 0.0, 0, 1443484800, 186, 0, 0], [1800719006, "MCP Lecture 21 Muscles", 0.0, 0, 1440633600, 59, 0, 5], [1543469553, "MCP Lecture 17", 0.0, 0, 1440547200, 75, 0, 12], [1300809618, "MCP Lecture 18 Ion Channels + APs", 0.0, 0, 1440547200, 54, 0, 15], [1638330201, "FRACP Endocrine", 0.0, 0, 1429920000, 805, 0, 1], [1362145984, "RACP Clinical Exam Flashcards", 0.0, 0, 1442016000, 919, 0, 26], [1885260287, "Andy FOCP MSK", 0.0, 0, 1418256000, 72, 0, 0], [187075054, "MCP Lecture 20 Synaptic Transmission", 0.0, 0, 1440547200, 89, 0, 7], [850441621, "MCP Lecture 22 - Synaptic Physiology", 0.0, 0, 1440633600, 76, 0, 16], [1917522332, "LSSA HCP", 0.0, 0, 1440201600, 36, 8, 16], [917150695, "MCP Lecture 15 Notecards", 0.0, 0, 1440460800, 111, 0, 18], [1291953439, "Cpatho 3", 0.0, 0, 1434844800, 143, 0, 145], [1798603809, "CPA FAR", 0.0, 0, 1387843200, 385, 0, 0], [1815472929, "CPA words", 0.0, 0, 1440288000, 1193, 0, 0], [227255139, "RPDCPCprostate", 0.0, 0, 1424304000, 23, 0, 5], [1855555096, "CP PHX Company Officer 2014", 0.0, 0, 1406160000, 256, 0, 0], [613911314, "meb2cp12&13", 0.0, 0, 1386806400, 47, 0, 5], [1985493935, "CP PHX Ladder company officer 2014", 0.0, 0, 1406160000, 37, 0, 0], [1313266100, "MD6 Neuro HCPs", 0.0, 0, 1417824000, 337, 0, 8], [1905522192, "CP PHX Volume 1 2014", 0.0, 0, 1406160000, 94, 0, 0], [1353874807, "FRCPA WHO malignancy deck JW", 0.0, 0, 1438473600, 82, 0, 1], [1027581819, "CPatho 1", 0.0, 0, 1431216000, 115, 0, 72], [802958366, "UMMCpharmAntifungals", 0.0, 0, 1421712000, 30, 0, 3], [629770159, "FRACP Cardiology Flashcards", 0.0, 0, 1426636800, 359, 0, 15], [88644590, "CPA AUD", 0.0, 0, 1387843200, 264, 0, 0], [1532680099, "Repro HPV CPC 04.29.15", 0.0, 0, 1431216000, 20, 0, 5], [427874023, "SCWCD - OCPWCD - OCEWCD", 0.0, 0, 1353542400, 45, 0, 0], [1735751104, "NUR 414 ICP", 0.0, 0, 1427155200, 31, 0, 0], [1533438828, "2014 CiCPA \u4f1a\u8ba1", 0.0, 0, 1430611200, 61, 0, 0], [598939422, "MD7 HCPs", 0.0, 0, 1425945600, 392, 0, 15], [270379812, "NYU CPM Neuroanatomy Lab4", 0.0, 0, 1412121600, 78, 0, 78], [965237744, "FRCPath Part II: Haemostasis", 0.0, 0, 1411257600, 258, 0, 20], [853297118, "MD6 HCPs for psych ", 0.0, 0, 1417824000, 76, 0, 3], [1592870641, "Daryjka i Kacper", 0.0, 0, 1394323200, 16, 0, 0], [297232729, "CPD Relevant List", 0.0, 0, 1389225600, 3067, 0, 0], [1262422519, "CPA REG", 0.0, 0, 1387843200, 387, 0, 0], [637951266, "Cardiopulmonary Drugs for CP Exam II", 0.0, 0, 1415923200, 31, 0, 4], [480893847, "46a FOCP", 0.0, 0, 1432425600, 734, 0, 11], [378437858, "CPharm 2", 0.0, 0, 1432598400, 27, 0, 33], [1073946251, "NYU CPM Neuroanatomy Lab2", 0.0, 0, 1411603200, 95, 0, 154], [1051860598, "MSK HCPs ", 0.0, 0, 1417305600, 246, 0, 11], [1681210295, "meb2cp6", 0.0, 0, 1386806400, 39, 0, 0], [687742573, "G2MS MCP 2", 0.0, 0, 1410307200, 1499, 0, 157], [1500803024, "meb2cp17", 0.0, 0, 1386806400, 19, 0, 1], [317770980, "CP Practical 1", 0.0, 0, 1425513600, 80, 0, 58], [763809362, "CPB Part 2 JC1", 0.0, 0, 1394150400, 96, 0, 3], [1388456503, "CP PHX Hazmat Unit 3 Sec 1&2 2014", 0.0, 0, 1406160000, 41, 0, 32], [1108891602, "Andy FOCP GU", 0.0, 0, 1418256000, 28, 0, 0], [655341600, "CPharm 1 Vcom-cc", 0.0, 0, 1430697600, 96, 0, 84], [493852163, "meb2cp4", 0.0, 0, 1386806400, 36, 0, 0], [1121304443, "Andy FOCP endo", 0.0, 0, 1418256000, 74, 0, 0], [1156607856, "CPatho 2", 0.0, 0, 1431993600, 74, 0, 42], [1252173536, "CP PHX Volume 203 2014", 0.0, 0, 1406160000, 38, 0, 0], [1966363311, "CP PHX Volume 206 2014", 0.0, 0, 1406160000, 46, 0, 0], [1107458831, "FRCPath Part II: Morphology", 0.0, 0, 1411257600, 513, 0, 576], [579034304, "meb2cp18", 0.0, 0, 1386806400, 15, 0, 1], [1177829278, "meb2cp15&16", 0.0, 0, 1386806400, 31, 0, 0], [26623829, "CPearce2014", 0.0, 0, 1396656000, 51, 0, 0], [777793407, "FRACP EBM", 0.0, 0, 1429920000, 71, 0, 6], [789698668, "BLOCK 2 KSUCPM SPRING 2014", 0.0, 0, 1394841600, 6095, 5, 294], [380604289, "meb2cp8", 0.0, 0, 1386806400, 41, 0, 0], [1794792916, "meb2cp3", 0.0, 0, 1386806400, 30, 0, 0], [337508280, "FRCPath Part II: Haemoglobinopathy", 0.0, 0, 1411257600, 170, 0, 73], [1700902221, "Cardiology portion of CPR block", 0.0, 0, 1424563200, 651, 0, 326], [2099161441, "meb2cp12", 0.0, 0, 1386806400, 79, 0, 1], [2106336523, "CP PHX Volume 207", 0.0, 0, 1406160000, 11, 0, 0], [499578321, "NYU CPM Neuro Test 2", 0.0, 0, 1413417600, 862, 0, 13], [2570428123, "MacPorts", 0.0, 0, 1361577600, 9, 0, 0], [1535677966, "CPB Part 1 for JC1", 0.0, 0, 1394150400, 174, 0, 0], [1671676718, "Andy FOCP Neuro", 0.0, 0, 1418256000, 96, 0, 0], [649795748, "My OCPJP study cards", 0.0, 0, 1350864000, 296, 0, 0], [655466584, "CP PHX Pumping Apparatus", 0.0, 0, 1406160000, 32, 0, 0], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [816429027, "RNLCPCforjay", 0.0, 0, 1424908800, 19, 0, 11], [2120163324, "CPA BEC", 0.0, 0, 1387843200, 323, 0, 0], [2129856359, "meb2cp5", 0.0, 0, 1386806400, 44, 0, 0], [381453041, "NYU CPM Neuroanatomy Lab3", 0.0, 0, 1412121600, 52, 0, 50], [1095193488, "CP PHX Volume 201.00 2014", 0.0, 0, 1406160000, 391, 0, 1], [2160059753, "SOMA CP2", 0.0, 0, 1361664000, 477, 0, 25], [75700462, "meb2cp11", 0.0, 0, 1386806400, 29, 0, 1], [793075138, "CP PHX Volume 201.05 2014", 0.0, 0, 1406160000, 82, 0, 0], [1289573275, "RPDCPCfirstforjay", 0.0, 0, 1425168000, 28, 0, 3], [194317212, "FRCPath Part II: Miscellaneous General Haematology", 0.0, 0, 1411257600, 137, 0, 2], [1515683146, "meb2cp10", 0.0, 0, 1386806400, 20, 0, 1], [1370883174, "AME DIREITO DO TRABALHO - CCP", 0.0, 0, 1409788800, 15, 0, 0], [1408116126, "FRCPath Part II: Malignant Haematology", 0.0, 0, 1411257600, 276, 0, 2], [1716453504, "meb2cp7&9", 0.0, 0, 1386806400, 37, 0, 0], [2007180733, "Andy FOCP Resp", 0.0, 0, 1418256000, 62, 0, 0], [756535717, "CP PHX Aerial Apparatus 2014", 0.0, 0, 1406160000, 34, 0, 0], [1340974150, "CP PHX Volume 205 2014", 0.0, 0, 1406160000, 89, 0, 0], [1591548202, "Andy FOCP skin", 0.0, 0, 1418256000, 35, 0, 0], [465724141, "CP PHX Volume 202 2014", 0.0, 0, 1406160000, 203, 0, 0], [729951212, "Andy FOCP examination", 0.0, 0, 1418256000, 48, 0, 0], [1466784058, "Andy FOCP gastro", 0.0, 0, 1418256000, 110, 0, 0], [1214271187, "NYU CPM Neuroanatomy Lab1", 0.0, 0, 1411171200, 75, 0, 139], [1324476826, "CPR Anatomy USU", 0.0, 0, 1422144000, 235, 0, 210], [522984146, "Andy FOCP bits", 0.0, 0, 1418256000, 60, 0, 0], [877883251, "Andy FOCP Cardio", 0.0, 0, 1418256000, 141, 0, 0], [2055037156, "FRACP Haematology", 0.0, 0, 1429920000, 785, 0, 57], [624091720, "100 words for CPE English-German", 5.0, 1, 1358640000, 97, 0, 0], [1761192626, "UMMCpathblock4", 0.0, 0, 1420675200, 1, 0, 1], [1270535436, "FRACP Immunology", 0.0, 0, 1429920000, 235, 0, 0], [1487036447, "CPR EXAM 1", 0.0, 0, 1422230400, 405, 0, 59], [1925743605, "Ericpolska", 0.0, 0, 1422921600, 555, 0, 0], [1018878229, "CP PHX A.R. 2014", 0.0, 0, 1406160000, 25, 0, 0], [2130871646, "meb2cp14", 0.0, 0, 1386806400, 25, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cp</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

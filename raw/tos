@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1426881144, "Ch1. Fundamentos Multimedia", 0.0, 0, 1454976000, 83, 0, 0], [3857923599, "Fundamentos de Investigaci\u00f3n", 0.0, 0, 1345852800, 599, 0, 1], [1704324531, "MW Neuro Somatosensory system", 0.0, 0, 1452988800, 49, 0, 3], [154193831, "PROCESOS Y CONTEXTOS EDUCATIVOS", 0.0, 0, 1451952000, 30, 0, 0], [1907929471, "Puntos Elem Spanish Chapter 6", 0.0, 0, 1448755200, 164, 0, 0], [1982086758, "Puntos Elem Spanish Chapter 5", 0.0, 0, 1448755200, 54, 0, 0], [1403248701, "Fundamentos II franc\u00e9s-espa\u00f1ol", 0.0, 0, 1446508800, 227, 0, 0], [855347051, "Lecture 4.1 pentose phosphate and fructose metabolism", 0.0, 0, 1444089600, 57, 0, 0], [1324503580, "Lecture 4.2 Galactose, glycogen and glycoproteins", 0.0, 0, 1444521600, 94, 0, 0], [166684103, "Distritos de Portugal", 0.0, 0, 1441756800, 0, 0, 0], [2117588759, "O Tx3ra e o Mattos s\u00e3o os melhores", 0.0, 0, 1444176000, 51, 3, 0], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [1952483701, "Cytoskelleton Deck", 0.0, 0, 1440028800, 23, 0, 0], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [1452223735, "Hemochromatosis/Hepatic Neoplasms Pathology", 0.0, 0, 1424736000, 60, 0, 3], [2059731982, "Leukocyte Extravasation and Phagocytosis", 0.0, 0, 1360627200, 39, 0, 0], [955923484, "An\u00e1lise e Projeto com UML (Levantando requisitos)", 0.0, 0, 1410912000, 7, 0, 4], [434523351, "Puntos de Partida Cap\u00edtulo 6", 0.0, 0, 1392422400, 109, 0, 0], [145773029, "6 Somatosensoriske og motoriske system", 0.0, 0, 1414368000, 38, 0, 21], [327802141, "Segundo parcial temas selectos", 0.0, 0, 1429660800, 241, 0, 0], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [530012840, "Introducci\u00f3n al An\u00e1lisis de Datos", 0.0, 0, 1345852800, 207, 0, 0], [1943348424, "AME ADMINISTRATIVO - ATOS ADMINISTRATIVOS", 0.0, 0, 1408320000, 29, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [1690864852, "AME CONSTITUCIONAL - DIREITOS SOCIAIS", 0.0, 0, 1409702400, 15, 0, 0], [1402847964, "PORT by Bernardo Feitosa", 0.0, 0, 1395187200, 29, 0, 0], [1118390533, "Krytosemenne - poznavani", 0.0, 0, 1402012800, 147, 0, 148], [1928803852, "MATERIA\u0141Y stosowane w stomatologii ", 0.0, 0, 1358812800, 10, 0, 0], [326615286, "Biochem Chapter 16: Photosynthesis", 0.0, 0, 1430697600, 31, 3, 2], [1146868410, "Somatosensory Systems", 0.0, 0, 1425081600, 35, 0, 0], [379170858, "POSC by Bernardo Feitosa", 0.0, 0, 1395187200, 89, 0, 0], [958247672, "Conceptos basicos (Espacio y tiempo) Es El Ru", 0.0, 0, 1399852800, 101, 295, 1], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [300516680, "Conceptos de macro econom\u00eda Ciencias Pol\u00edticas USC", 0.0, 0, 1421625600, 128, 0, 1], [306434394, "NYUSOM Dermatoses", 0.0, 0, 1418083200, 190, 0, 173], [2732046431, "C&TB 2013 (L2): Cytoskeleton", 0.0, 0, 1377561600, 62, 0, 7], [707693633, "Histo B1 - cytoskeleton", 0.0, 0, 1410739200, 19, 0, 21], [2032728557, "Cuestionario de Evaluacion de Proyectos 1", 0.0, 0, 1417564800, 11, 0, 0], [1738858094, "AME CONSTITUCIONAL - DIREITOS DE NACIONALIDADE", 0.0, 0, 1409702400, 8, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [575580893, "dakua'ana davi: objetos", 0.0, 0, 1411689600, 45, 45, 43], [11378703, "AME CONSTITUCIONAL - DIREITOS POL\u00cdTICOS", 5.0, 1, 1409702400, 13, 0, 0], [1015711429, "Benign and Inflammatory Dermatoses", 0.0, 0, 1410134400, 40, 0, 84], [1155004753, "HISTB by Bernardo Feitosa", 0.0, 0, 1395187200, 157, 0, 6], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [597069243, "Hiszpa\u0144ski - Espa\u00f1ol - PL-ES (Tosia)", 5.0, 1, 1345852800, 903, 0, 0], [1496553487, "Direito Administrativo - Atos Administrativos - TLP", 0.0, 0, 1431302400, 10, 0, 0], [2629571547, "Posicion de los elementos en la tabla periodica", 0.0, 0, 1383955200, 118, 0, 118], [103972532, "An\u00e1lise e Projeto com UML (Orienta\u00e7\u00e3o a Objetos)", 0.0, 0, 1410912000, 18, 0, 4], [157755053, "DIP by Bernardo Feitosa", 0.0, 0, 1395187200, 28, 0, 0], [667455953, "AME DIREITO DO TRABALHO - DIREITOS CONST DOS TRABALHADORES", 0.0, 0, 1409788800, 36, 0, 0], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tos</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

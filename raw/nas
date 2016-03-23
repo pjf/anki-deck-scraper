@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[616828531, "Laivaved\u017eio egzaminas", 0.0, 0, 1449619200, 152, 0, 72], [1351032480, "Expresiones Argentinas - Espa\u00f1ol", 0.0, 0, 1450742400, 114, 3, 2], [819548689, "Pestanas JDR", 0.0, 0, 1449446400, 571, 0, 12], [1501297528, "Les mots du coran  ( de nas \u00e0 zalzalah )", 0.0, 0, 1449792000, 177, 1, 0], [942704620, "Anasthesia", 0.0, 0, 1449187200, 24, 0, 3], [807540261, "Suomen mestari 1 - Sanasto K1-K6", 0.0, 0, 1444953600, 990, 8, 15], [389954908, "WELS Hebrew 2015 Grammar points for Nass Class Genesis 37-50", 0.0, 0, 1434672000, 21, 0, 0], [2984751592, "mix of nas", 0.0, 0, 1360454400, 52, 0, 0], [1218945042, "A1-tason sanasto", 0.0, 0, 1437868800, 1006, 0, 0], [1417090053, "nashsmash", 0.0, 0, 1416268800, 139, 0, 0], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [1062947887, "Maradonas magi - Kappitel 1 (Norwegian)", 0.0, 0, 1435536000, 52, 0, 0], [2554204149, "Gymnasium Physik 12 Maria von Linden Schule", 0.0, 0, 1350864000, 16, 0, 0], [1722588634, "NASWI RFC Test1", 0.0, 0, 1388707200, 40, 0, 0], [865921090, "suomi-ruotsi ty\u00f6el\u00e4m\u00e4sanasto", 0.0, 0, 1421798400, 103, 0, 0], [2176251115, "Deutsch Allgemeinwissen Gymnasium Schweiz", 0.0, 0, 1372377600, 28, 0, 1], [1679024823, "AAAHST7CM Civiliza\u00e7\u00f5es Urbanas", 0.0, 0, 1433289600, 20, 0, 0], [150449225, "Literatur Gymnasium Schweiz - Homo Faber", 0.0, 0, 1372377600, 23, 0, 3], [1026315206, "Biologie Gymnasium Schweiz", 0.0, 0, 1354060800, 1030, 0, 391], [214798506, "Suomi: helppo sanasto", 0.0, 0, 1444003200, 769, 0, 0], [3439032730, "Chemie Gymnasium Schweiz", 0.0, 0, 1365724800, 997, 0, 476], [3926789171, "Englisch Gymnasium Schweiz", 0.0, 0, 1378080000, 3308, 55, 1], [1799270148, "Nashville Numbers - Fretboard Anatomy- GuitarOS", 0.0, 0, 1442275200, 451, 0, 0], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [223158646, "Svenska 2 anatomian sanastoa", 0.0, 0, 1412208000, 169, 0, 0], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [1681663269, "minnasan no onegai", 0.0, 0, 1394409600, 110, 0, 0], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [4046634007, "Geschichte Gymnasium Schweiz", 0.0, 0, 1354060800, 390, 0, 0], [2935021729, "Twelve Nid\u0101nas, Tibetan-English-Russian-Sanskrit-Pali", 0.0, 0, 1383091200, 12, 0, 0], [2067961893, "UQ MBBS 1 PBL 5 A Nasty Cough", 0.0, 0, 1395532800, 86, 0, 0], [1886963939, "PALS test 3 as per LQS at NASWI", 0.0, 0, 1396137600, 38, 0, 0], [69453965, "new of nas", 0.0, 0, 1360886400, 673, 0, 0], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [2947491164, "Geografie Gymnasium Schweiz", 0.0, 0, 1378080000, 689, 0, 165], [1836386156, "Annas Farbtest Colors", 0.0, 0, 1427587200, 61, 0, 61], [1291755436, "Ven\u00e4j\u00e4n sanastoa_2_yliopistoven\u00e4j\u00e4", 0.0, 0, 1398556800, 160, 0, 0], [2253233114, "Asanas", 5.0, 1, 1351296000, 46, 0, 46], [1709577165, "Literatur Gymnasium Schweiz - Matthias Berg", 0.0, 0, 1376784000, 22, 0, 0], [2048345805, "Franz\u00f6sisch Gymnasium Schweiz", 0.0, 0, 1378080000, 4545, 39, 0], [2750799064, "Spanisch Gymnasium Schweiz", 0.0, 0, 1378080000, 2753, 6, 1], [3527779736, "new of nas", 0.0, 0, 1360886400, 673, 0, 0], [1838209091, "Venezuela division politica, estados y zonas", 0.0, 0, 1423353600, 35, 0, 35], [1342934597, "Ven\u00e4j\u00e4n sanastoa_1_yliopistoven\u00e4j\u00e4", 0.0, 0, 1398556800, 213, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [1230039843, "Qing Dynasty Flashcards", 0.0, 0, 1393200000, 57, 0, 0], [861524175, "chinasmack", 3.67, 3, 1431043200, 37000, 0, 0], [778138208, "Suomi: vaikea sanasto", 0.0, 0, 1444003200, 381, 0, 0], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [261932662, "Anatomy: Nasopharynx 11/5", 0.0, 0, 1415491200, 48, 0, 0], [2664757893, "Deutsche Franz\u00f6sische Vokabeln Gymnasium (1997 - 2002)", 3.33, 3, 1362787200, 2936, 0, 0], [1184845436, "HM.HB.Nasal.Oral", 0.0, 0, 1353369600, 39, 0, 51]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nas</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

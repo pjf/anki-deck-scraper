@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1571625319, "Seana PDI 554 Exam 1", 0.0, 0, 1454976000, 36, 0, 69], [2140532937, "Bros deck updated with errata 1,2,3,4", 5.0, 2, 1454112000, 14855, 0, 2572], [2067862136, "Respiratory Pathologies: COPD", 0.0, 0, 1454889600, 8, 0, 0], [2026362372, "TOURO WEC: PD QUIZ 2 VITALS", 0.0, 0, 1453593600, 64, 0, 0], [564072935, "Microbiologia (UniPD MED 3-4)", 0.0, 0, 1386979200, 114, 0, 0], [958412884, "Updated Allez Viens", 0.0, 0, 1450828800, 1076, 1075, 19], [330490927, "44b PDS ", 0.0, 0, 1449705600, 129, 3, 33], [2036454330, "DANA 5001: Cementum, PDL, and Alveolar bone", 0.0, 0, 1449705600, 140, 0, 4], [1507807456, "English Comics Deck [marzian] - v 1.0 - Updated 19/08/2014", 0.0, 0, 1408492800, 782, 3, 918], [1927464468, "tiens francois", 0.0, 0, 1446336000, 1046, 0, 3], [658531956, "1524: COPD", 0.0, 0, 1445817600, 48, 0, 41], [1991381241, "John Updike's \"Back from Vacation\"", 0.0, 0, 1443052800, 15, 0, 0], [1979976121, "PDI 551 Exam 2", 0.0, 0, 1442966400, 54, 0, 37], [1165583900, "School of Tourism - Israel / 2nd Temple pd till Herod Q1-3", 0.0, 0, 1441670400, 7, 0, 0], [1488300574, "UVA Tibetan SLI 2015 (Updated 8.25.15)", 0.0, 0, 1440460800, 1327, 0, 0], [1341686107, "UVA Tibetan SLI (Updated 7.13.15)", 0.0, 0, 1436832000, 706, 0, 0], [227255139, "RPDCPCprostate", 0.0, 0, 1424304000, 23, 0, 5], [1310607487, "Updated FACEM study cards John Daly", 0.0, 0, 1433462400, 209, 0, 5], [2637514430, "Neuroanatomia (UniPD MED 3-4)", 0.0, 0, 1367625600, 138, 0, 0], [591639332, "ML PD part 2", 0.0, 0, 1397347200, 204, 0, 0], [596898606, "UVA Tibetan SLI (Updated 7.16.15)", 0.0, 0, 1437177600, 835, 0, 0], [570283553, "USask PHPM - CoreCompDivInc", 0.0, 0, 1399420800, 0, 0, 0], [2367489987, "PITPAK Marketleader 7&8 update", 0.0, 0, 1345852800, 78, 0, 0], [4055306648, "Neck and fasia triangles updated", 0.0, 0, 1378944000, 67, 0, 0], [1903413044, "PD Physical Diagnosis", 0.0, 0, 1393804800, 146, 0, 79], [101148376, "UVA Tibetan SLI (Updated 7.26.15)", 0.0, 0, 1437955200, 1068, 0, 0], [297232729, "CPD Relevant List", 0.0, 0, 1389225600, 3067, 0, 0], [1932239666, "RPDz22pathlab2", 0.0, 0, 1424044800, 35, 0, 30], [1578619966, "UVA Tibetan SLI 2015 (Updated 7.31.15)", 0.0, 0, 1438473600, 1193, 0, 0], [531834199, "UVA Tibetan SLI (Updated 7.20.15)", 0.0, 0, 1437436800, 927, 0, 0], [3514965316, "Miologia - Anatomia (UniPD MED 3-4)", 0.0, 0, 1362268800, 154, 0, 0], [697330887, "HPD Block 2", 0.0, 0, 1412035200, 34, 0, 16], [2102394320, "Ning Yi Exam \u7559\u5b66\u751f (updated)", 0.0, 0, 1432425600, 433, 0, 0], [1496737389, "T7 \u00d6NH Artin update", 0.0, 0, 1420329600, 189, 0, 26], [347852514, "MBChB4 Finals surgery and medicine update-Joseph Colclough", 0.0, 0, 1423785600, 882, 0, 73], [795025977, "Nervi spinali - Anatomia (UniPD MED 3-4)", 0.0, 0, 1362268800, 28, 0, 0], [1825449987, "PDS 1", 0.0, 0, 1415318400, 46, 0, 0], [3775408964, "ESPDIC", 5.0, 1, 1345852800, 32108, 0, 0], [3513298168, "Cranio: fosse e fori - Anatomia (UniPD MED 3-4)", 0.0, 0, 1362268800, 39, 0, 0], [2126514171, "UCONN Medical and Dental OS2 Updated Radiology Deck", 0.0, 0, 1397260800, 134, 0, 50], [501717298, "Patologia e Fisiopatologia Generale (UniPD MED 3-4)", 0.0, 0, 1404259200, 506, 0, 1], [2235828277, "PD 1 - Midterm Review (Ryan)", 0.0, 0, 1345852800, 81, 0, 28], [1163316899, "RPDz13pathlab", 0.0, 0, 1424044800, 47, 0, 40], [1155449397, "Bridie COPD", 0.0, 0, 1382054400, 15, 0, 0], [3858424421, "Angiologia - Anatomia (UniPD MED 3-4)", 0.0, 0, 1367625600, 38, 0, 0], [508577390, "PD TEST 3 boobs junk and belly", 0.0, 0, 1396137600, 515, 0, 0], [1289573275, "RPDCPCfirstforjay", 0.0, 0, 1425168000, 28, 0, 3], [859361021, " PLC v 2.2 updated 2-22-15", 0.0, 0, 1424649600, 30, 0, 6], [70233281, "JLPT4_PD", 0.0, 0, 1345852800, 80, 0, 0], [1462853146, "Cantonese Phrases & Sentences 2 - update", 0.0, 0, 1428364800, 46423, 0, 0], [1847312547, "Spanish intermediate/advanced 3900+ sentences update 1", 0.0, 0, 1411344000, 3891, 0, 1], [1858009284, "Neurobiologi2014-makroskopiskopdeling", 0.0, 0, 1409702400, 47, 0, 47], [258776451, "Seana Histo cards updated as of 9-10 ", 0.0, 0, 1410393600, 135, 0, 96], [377412747, "PDS Semester 1 ", 0.0, 0, 1413331200, 27, 0, 0], [1770936917, "RPDonmicroforj", 0.0, 0, 1425254400, 39, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Pd</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

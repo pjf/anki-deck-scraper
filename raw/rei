@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1748849213, "Direito constitucional para concursos", 5.0, 1, 1435968000, 216, 0, 11], [2132185048, "Sopica appareil digestif", 0.0, 0, 1454716800, 43, 0, 4], [1159215668, "Sopica appareil digestif ok ", 0.0, 0, 1454716800, 42, 0, 4], [1570120374, "1x1imDreieck Learning the Tables with Triangles", 0.0, 0, 1450137600, 126, 0, 168], [1790299980, "Psychologie - Zimbardo (Aufnahmepr\u00fcfung \u00d6sterreich)", 5.0, 1, 1449187200, 811, 0, 0], [262824215, "Sopica appareil circulatoire fini !", 0.0, 0, 1453680000, 32, 0, 4], [865230832, "Sopica appareil respiratoire", 0.0, 0, 1453852800, 14, 0, 5], [1480066480, "Thai Breitenstein Emotions", 0.0, 0, 1453766400, 49, 8, 39], [915160001, "2_Nima_Dutch for foreigners", 0.0, 0, 1453334400, 1926, 219, 6], [1815176407, "Thai Breitenstein Animals", 0.0, 0, 1453248000, 34, 8, 32], [1549876892, "Thai Breitenstein Places", 0.0, 0, 1453248000, 28, 8, 29], [171903151, "Cours de physique de 1S - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 16, 0, 9], [1922273001, "Thai Breitenstein Transportation", 0.0, 0, 1453248000, 27, 8, 28], [559152355, "Thai Breitenstein Body Parts", 0.0, 0, 1453248000, 46, 8, 38], [1592170734, "Hygiene und Unfallverh\u00fctung  im Haushaltsbereich", 0.0, 0, 1452211200, 29, 0, 0], [235461606, "Kreisverkehr Pflanzen P\u00fctz", 0.0, 0, 1452729600, 19, 0, 22], [703681848, "Bibelkunde NT (9) - Nachgereichte Karten", 0.0, 0, 1453680000, 13, 0, 0], [640803219, "Thai Breitenstein Verbs", 0.0, 0, 1453248000, 82, 8, 55], [1863272004, "Thai Breitenstein Colors", 0.0, 0, 1453248000, 24, 8, 27], [186567255, "Cours de physique de seconde - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 28, 0, 19], [869835120, "SM15 - Usagi's Panic: Rei's First Date", 0.0, 0, 1452384000, 34, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [1432517454, "Next level preintermediate 4", 0.0, 0, 1449878400, 20, 7, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [778389744, "Direito penal para concursos - Parte geral", 5.0, 1, 1439164800, 175, 0, 17], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [1286095362, "Deutsch Goethe a1 schreiben Teil 3 Brief ", 0.0, 0, 1448064000, 19, 3, 2], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [2024458624, "FOR NICOLE AND REIKA ORGO TEST 2", 0.0, 0, 1446163200, 127, 0, 175], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [1884736848, "Deutsch Goethe a1 schreiben Teil 2 Formular ", 0.0, 0, 1448064000, 10, 3, 2], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [78150192, "QM Klausurvorbereitung", 0.0, 0, 1444867200, 66, 0, 0], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [1538507563, "Alle Geier und Greifv\u00f6gel", 0.0, 0, 1446595200, 0, 0, 0], [364080194, "Direito Administrativo - Interven\u00e7\u00e3o do Estado - TLP", 0.0, 0, 1431302400, 14, 0, 0], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [2100366629, "Haeufigkeit und Reihenfolge (English to German)", 0.0, 0, 1444176000, 40, 0, 0], [756321324, "Haeufigkeit und Reihenfolge (German to English)", 0.0, 0, 1444176000, 40, 0, 0], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [1889498182, "1x1 mit Dreiecken lernen,  1x1 with Triangles", 0.0, 0, 1437955200, 81, 0, 110], [4272712811, "Vorbereitung Personalmanagement", 0.0, 0, 1376870400, 48, 0, 2], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [2010852611, "Direito do trabalho", 0.0, 0, 1402963200, 19, 0, 0], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 4.9, 10, 1431820800, 1325, 1300, 4], [589100008, "Lesen, h\u00f6ren, schreiben, sprechen", 0.0, 0, 1383955200, 15, 0, 0], [416154597, "Vorbereitung Veranstaltungsmanagement", 0.0, 0, 1376870400, 65, 37, 1], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [440637283, "Vorbereitung Betriebswirtschaftslehre I & II", 0.0, 0, 1379894400, 90, 0, 1], [2002567086, "Systeme II - SS 14 - Uni Freiburg", 0.0, 0, 1417996800, 219, 0, 51], [1321992074, "22.08. Karaburun Freitag", 0.0, 0, 1409011200, 23, 0, 0], [2107342451, "TO SELMA AUDI CAROLE REID GEMMA BOWSSURGERY LOBS FROM SARAH ", 0.0, 0, 1431820800, 365, 0, 4], [175688941, "Direito do consumidor para concursos", 5.0, 1, 1437004800, 60, 0, 0], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [614617536, "Direito Administrativo", 4.0, 2, 1423094400, 218, 0, 0], [1829492608, "hilfreich! ", 0.0, 0, 1397952000, 12, 12, 13], [1128149440, "AME DIREITO DO TRABALHO - PROTE\u00c7\u00c3O AO TRABALHO DA MULHER", 0.0, 0, 1409702400, 19, 0, 0], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [3891234644, "Vorbereitung Hotelmarketing", 0.0, 0, 1382486400, 53, 0, 1], [1310249536, "Jess and Pierre Reindeers", 0.0, 0, 1401753600, 15, 0, 19], [1655449656, "Icelandic for Foreigners - Hver er Ma\u00f0urinn?", 0.0, 0, 1361145600, 31, 0, 0], [1327344237, "Arbeit und Freizeit", 0.0, 0, 1413158400, 57, 0, 0], [1335608706, "Direito Previdenci\u00e1rio", 1.0, 1, 1423526400, 43, 0, 0], [1832907255, "For foreigners", 0.0, 0, 1427500800, 431, 0, 0], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [1745554320, "Direito Administrativo - Bens P\u00fablicos - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1623245882, "Direito Constitucional", 0.0, 0, 1423094400, 18, 0, 0], [1690864852, "AME CONSTITUCIONAL - DIREITOS SOCIAIS", 0.0, 0, 1409702400, 15, 0, 0], [390178449, "Maori based on Whitireia year 1-3", 0.0, 0, 1454198400, 1480, 0, 3], [45209827, "Meine Freizeit", 0.0, 0, 1420070400, 44, 43, 47], [2383383395, "Personenbeschreibung", 0.0, 0, 1370217600, 25, 0, 0], [1836650620, "AME DIREITO DO TRABALHO - PROTE\u00c7\u00c3O AO TRABALHO DO MENOR", 0.0, 0, 1409702400, 15, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [395734601, "Guitar Chords With Sound by ReinOwader", 4.0, 1, 1420502400, 319, 319, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [1777295143, "Reisen", 0.0, 0, 1416182400, 104, 0, 0], [874659177, "Notation & Guitar Neck Learning by ReinOwader", 0.0, 0, 1428796800, 84, 0, 0], [966647983, "Direito Ambiental", 0.0, 0, 1423526400, 26, 0, 0], [796872551, "\u00d6sterreichische Politiker", 0.0, 0, 1442188800, 43, 0, 43], [1370883174, "AME DIREITO DO TRABALHO - CCP", 0.0, 0, 1409788800, 15, 0, 0], [1738858094, "AME CONSTITUCIONAL - DIREITOS DE NACIONALIDADE", 0.0, 0, 1409702400, 8, 0, 0], [413432030, "Streiten oder Kooperieren?", 0.0, 0, 1414454400, 33, 0, 0], [772562422, "Bio Tierreich", 0.0, 0, 1422921600, 240, 0, 29], [2417834320, "Freizeit/Urlaub", 0.0, 0, 1383955200, 30, 0, 0], [69541209, "Afasilva_TI_Direito", 0.0, 0, 1406160000, 17, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [1497856473, "Reisen am Rhein", 0.0, 0, 1403222400, 51, 50, 67], [2407783082, "Direito Constitucional Intro", 0.0, 0, 1360022400, 21, 0, 0], [1003245145, "Direito Civil", 0.0, 0, 1360022400, 14, 0, 0], [11378703, "AME CONSTITUCIONAL - DIREITOS POL\u00cdTICOS", 5.0, 1, 1409702400, 13, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [456159305, "Greining og h\u00f6nnnun hugb\u00fana\u00f0ar", 0.0, 0, 1396742400, 124, 0, 0], [1496553487, "Direito Administrativo - Atos Administrativos - TLP", 0.0, 0, 1431302400, 10, 0, 0], [368654935, "Direito Administrativo - Organiza\u00e7\u00e3o da Adm P\u00fablica - TLP", 0.0, 0, 1431302400, 14, 0, 0], [1417500049, "AME DIREITO DO TRABALHO - DURA\u00c7\u00c3O DO TRABALHO", 0.0, 0, 1409702400, 16, 0, 0], [1481437660, "Direito Administrativo - Processo Administrativo - TLP", 0.0, 0, 1431302400, 12, 0, 0], [3518047851, "Vorbereitung Yield Management", 0.0, 0, 1376870400, 38, 0, 4], [516919906, "Direito Constitucional - TLP", 0.0, 0, 1431302400, 44, 0, 0], [1912056599, "Direito Adm.", 0.0, 0, 1410048000, 74, 0, 2], [1852869301, "AME DIREITO DO TRABALHO", 0.0, 0, 1431302400, 164, 0, 0], [253334733, "Direito Previdenciario AFRFB FSSILVA", 5.0, 1, 1424390400, 335, 0, 16], [1263846556, "Direito Empresarial", 0.0, 0, 1413244800, 32, 0, 0], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [1833447909, "AME DIREITO DO TRABALHO - AVISO PR\u00c9VIO", 0.0, 0, 1409702400, 18, 0, 0], [667455953, "AME DIREITO DO TRABALHO - DIREITOS CONST DOS TRABALHADORES", 0.0, 0, 1409788800, 36, 0, 0], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 5.0, 1, 1345852800, 113, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rei</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

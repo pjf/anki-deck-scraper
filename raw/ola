@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1158491752, "LSE Lengua de Signos Espa\u00f1ola SignoEscritura 2015", 0.0, 0, 1429142400, 7824, 0, 7836], [1055723190, "Must Know NeuroLab", 0.0, 0, 1454457600, 517, 0, 106], [2062719634, "03 Szkola LRM PP", 5.0, 1, 1345852800, 200, 199, 0], [1742243854, "mineola physiology", 0.0, 0, 1453593600, 88, 0, 5], [716408237, "Moons of the solar system ", 0.0, 0, 1450396800, 88, 0, 0], [1266628384, "nolas kitchen menue", 0.0, 0, 1449446400, 69, 66, 0], [2036454330, "DANA 5001: Cementum, PDL, and Alveolar bone", 0.0, 0, 1449705600, 140, 0, 4], [901113318, "Vocabulari de \"Les vacances du petit Nicolas\", A2", 0.0, 0, 1448150400, 123, 0, 0], [1632764161, "Muskeln der ventrolateralen Bauchwand", 0.0, 0, 1447804800, 9, 0, 0], [370419106, "Nonpolar, Alipathic R Groups", 0.0, 0, 1443398400, 0, 0, 0], [419344943, "GoLang", 0.0, 0, 1444521600, 259, 0, 1], [920353805, "GWU Neurolab 2", 0.0, 0, 1442534400, 19, 0, 17], [93370793, "L1 - Wudu and Sholat", 0.0, 0, 1441497600, 25, 25, 22], [417963742, "Polar Uncharged R Groups", 0.0, 0, 1443398400, 5, 0, 0], [1061613207, "Triola Essential Statistics", 0.0, 0, 1440115200, 42, 0, 0], [272498251, "Le Sport", 0.0, 0, 1412812800, 40, 0, 15], [1434971097, "Wojew\u00f3dztwa w Polsce- Voivodeships in Poland", 0.0, 0, 1412726400, 31, 0, 15], [1625440004, "L'immobillier", 0.0, 0, 1412812800, 399, 0, 15], [2012240746, "Bipolar", 0.0, 0, 1413590400, 88, 0, 0], [936608058, "16.Szem\u00e9lyes kapcsolatok", 0.0, 0, 1432771200, 69, 0, 0], [1997565813, "Verbi irregolari (passato prossimo)", 5.0, 1, 1391126400, 50, 100, 0], [1037092622, "Arabic I, H\u00f6gskolan Dalarna, Lesson 4", 0.0, 0, 1368316800, 36, 0, 0], [93039595, "Les Gens", 0.0, 0, 1412812800, 37, 0, 15], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [1642375792, "Arabic I, H\u00f6gskolan Dalarna, Lesson 2", 0.0, 0, 1368316800, 16, 0, 0], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [3685347654, "Arabic I, H\u00f6gskolan Dalarna, Lesson 9", 0.0, 0, 1368403200, 29, 0, 0], [1456047659, "Volap\u00fck-English Vocabulary", 0.0, 0, 1412726400, 7613, 0, 0], [3268414583, "Volatile agents", 0.0, 0, 1374451200, 18, 0, 0], [868749090, "JAKUB \u0161kola", 0.0, 0, 1422576000, 35, 0, 0], [909030915, "OLAFR", 0.0, 0, 1412812800, 1420, 0, 15], [473409117, "Au Bureau", 0.0, 0, 1412812800, 99, 0, 15], [2661319385, "Arabic I, H\u00f6gskolan Dalarna", 0.0, 0, 1381363200, 355, 0, 0], [277436156, "Arabic I, H\u00f6gskolan Dalarna, Lesson 8", 0.0, 0, 1368403200, 22, 0, 0], [381631037, "Per il concorso a Dirigente scolastico", 0.0, 0, 1423008000, 227, 0, 0], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [1553045280, "Les Genes", 0.0, 0, 1412812800, 75, 0, 15], [111575696, "Arabic I, H\u00f6gskolan Dalarna, Lesson 10", 0.0, 0, 1368403200, 23, 0, 0], [140050206, "Arabic I, H\u00f6gskolan Dalarna, Lesson 1", 0.0, 0, 1368316800, 13, 0, 0], [1232254140, "Persian - Dar Golastaneh", 0.0, 0, 1418428800, 76, 0, 0], [4031746778, "Loyola Biology", 0.0, 0, 1384300800, 607, 0, 0], [1103325072, "nikolaj1", 0.0, 0, 1424131200, 24, 0, 0], [840988966, "MicroLab: Quiz 2", 0.0, 0, 1394496000, 49, 0, 33], [559811674, "Arabic I, H\u00f6gskolan Dalarna, Lesson 6", 0.0, 0, 1368316800, 67, 0, 0], [4150127035, "Arabic I, H\u00f6gskolan Dalarna, Lesson 5", 0.0, 0, 1368316800, 28, 0, 0], [1511127903, "Le Tourisme", 0.0, 0, 1412812800, 770, 0, 15], [1050480289, "Solar Energie", 0.0, 0, 1390867200, 124, 0, 116], [1794967598, "Arabic I, H\u00f6gskolan Dalarna, Lesson 3", 0.0, 0, 1368316800, 27, 0, 0], [773822861, "Nola's Kitchen -- menu for the best Cajun food in Taiwan!", 0.0, 0, 1416355200, 69, 66, 0], [315918621, "Apuntes de historia espa\u00f1ola", 0.0, 0, 1399680000, 93, 0, 0], [628514035, "verbi italiani irregolari", 5.0, 1, 1360022400, 2840, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ola</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

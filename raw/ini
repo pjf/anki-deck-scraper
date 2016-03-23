@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[232401491, "English-Ukrainian", 0.0, 0, 1429574400, 1167, 0, 0], [1316906536, "Clinical melia", 0.0, 0, 1454889600, 21, 0, 0], [627398253, "Clinical Assessment II", 0.0, 0, 1454976000, 288, 0, 56], [3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [1862654683, "Introduction to Clinical Skills", 5.0, 1, 1437696000, 733, 23, 8], [849454182, "3000 English sentences with ukrainian translates", 5.0, 4, 1430870400, 3353, 3392, 47], [530238957, "SBFV - Trainer C - Kinder und Jugendtraining", 0.0, 0, 1453852800, 7, 0, 0], [986229768, "Biomedizinische Technik TU Dresden", 5.0, 1, 1454544000, 85, 0, 0], [1833750820, "Bayerische K\u00f6nige und Ministerpr\u00e4sidenten 1799-1933", 0.0, 0, 1454716800, 31, 0, 0], [518132132, "Textmining", 0.0, 0, 1454544000, 82, 0, 8], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [1409514856, "625 Word German Deck / Picture Words & Minimal Pairs", 0.0, 0, 1445385600, 559, 646, 470], [553346658, "Joseph's N3 Vocabulary Deck with Japanese Definitions", 5.0, 4, 1450224000, 1644, 3, 0], [262824215, "Sopica appareil circulatoire fini !", 0.0, 0, 1453680000, 32, 0, 4], [493959367, "Verbs Followed By Gerunds And Infinititves", 0.0, 0, 1453939200, 100, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [1150776840, "PMBOK 47 Process Definitions - PMP", 0.0, 0, 1453334400, 46, 0, 0], [157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [1808735822, "Schulp\u00e4dagogik II Definitionen ", 0.0, 0, 1454371200, 87, 0, 0], [1557524851, "SBFV - Trainer C - Schnelligkeitsausdauertraining", 0.0, 0, 1453852800, 20, 0, 1], [1454340636, "SBFV - Trainer C - Koordinationstraining", 0.0, 0, 1453852800, 8, 0, 0], [1077705993, "Hungarian - english official words, administration", 0.0, 0, 1453075200, 79, 0, 0], [371011205, "Recombinant Cytokines and Clinical Uses", 0.0, 0, 1453075200, 9, 0, 0], [729423771, "internal medicine minimals", 0.0, 0, 1452384000, 66, 0, 1], [1620071018, "Scottish Gaelic Feminine Nouns", 0.0, 0, 1453420800, 171, 278, 283], [691431494, "OCR A-level Physics Unit 4 definitions", 0.0, 0, 1452384000, 40, 0, 0], [1591191899, "Schulp\u00e4dagogik Definitionen", 0.0, 0, 1454544000, 135, 0, 0], [839736197, "SM13 - Fight to the finish", 0.0, 0, 1452297600, 19, 0, 0], [497361745, "Mots fran\u00e7ais masculin / f\u00e9minin", 0.0, 0, 1452211200, 7, 0, 0], [259164755, "Sopica sant\u00e9 pub d\u00e9finitions", 0.0, 0, 1452643200, 37, 0, 0], [512634474, "Ukrainien sans peine assimil Ukrainien/ fran\u00e7ais", 0.0, 0, 1443398400, 676, 6, 6], [447833305, "English Phonology Distinctive Features (simple definitions)", 0.0, 0, 1450483200, 20, 8, 15], [2125288921, "Russian Azerbaijani Minilex 500 words", 0.0, 0, 1447545600, 509, 0, 0], [1546466328, "Blandet klinik", 0.0, 0, 1451520000, 241, 0, 70], [35536644, "Java Training", 0.0, 0, 1445731200, 1, 0, 0], [618337748, "Clinical Assessment Fall Term", 0.0, 0, 1450137600, 176, 0, 0], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [894215287, "Arabic Minimal Pairs", 5.0, 1, 1449273600, 138, 0, 0], [1732464077, "Ukrainian most common Adjectives (UA-ENG; ENG-UA)", 5.0, 2, 1429401600, 125, 125, 0], [330262636, "Droi administratif S3", 0.0, 0, 1449619200, 56, 0, 0], [257673622, "Administration", 0.0, 0, 1449705600, 27, 0, 0], [1321937944, "Acte Administratifs", 0.0, 0, 1449619200, 48, 0, 0], [1893565534, "jaymclinical", 0.0, 0, 1448928000, 289, 0, 1], [1821426174, "Ukrainian Prepositions (picts+audio) ENG-UA / UA-ENG", 3.67, 3, 1430870400, 29, 29, 29], [1534656587, "Arabic, Palestinian dialect, Arab easy", 0.0, 0, 1447632000, 776, 0, 0], [4186458196, "Musical Interval Training", 4.0, 1, 1381795200, 216, 0, 0], [1541593467, "Ukrainian Numerals (Num-UA/UA-Num) + AUDIO", 5.0, 1, 1436572800, 77, 77, 0], [181034040, "SZIE KGA N\u00f6vterm minimum k\u00e9rd\u00e9sek 2015", 0.0, 0, 1447286400, 92, 0, 0], [2087143514, "Latin 6 RNRMU (Feminine nouns) / \u041b\u0430\u0442\u044b\u043d\u044c 6 \u0420\u041d\u0418\u041c\u0423 (\u0436. \u0440.)", 0.0, 0, 1448150400, 38, 0, 0], [1537040886, "Binisaya Lessons", 0.0, 0, 1446681600, 197, 0, 0], [1524498453, "minimals micro- clinical bacteriology debrecen uni. ", 0.0, 0, 1447632000, 102, 0, 0], [2105076780, "General Micro-minimals-unideb", 0.0, 0, 1444694400, 75, 0, 0], [535675942, "Math notation and basic definitions", 0.0, 0, 1442707200, 60, 0, 25], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [1748869348, "Clinical Procedure Test 2", 0.0, 0, 1444348800, 126, 0, 0], [693896995, "CLINICAL CORRELATIONS EXAM 2- MSMS", 0.0, 0, 1444435200, 74, 0, 0], [364080194, "Direito Administrativo - Interven\u00e7\u00e3o do Estado - TLP", 0.0, 0, 1431302400, 14, 0, 0], [158069611, "Clinical Anatomy", 0.0, 0, 1443312000, 62, 0, 0], [1658030221, "gerund-infinitive-that_revised-Aug2015", 0.0, 0, 1443312000, 169, 0, 33], [817788923, "Dominic System", 0.0, 0, 1441929600, 100, 0, 0], [1609924661, "Phrasal Verbs (English definition)", 0.0, 0, 1435104000, 216, 0, 0], [459099955, "Samskritasubodhinii", 0.0, 0, 1443139200, 2151, 1762, 0], [693369416, "Exam Prep - Clinical Cases", 0.0, 0, 1441411200, 52, 0, 0], [648391718, "Clinical Notes for Upper Extremity ", 0.0, 0, 1380412800, 18, 0, 0], [1362145984, "RACP Clinical Exam Flashcards", 0.0, 0, 1442016000, 919, 0, 26], [1078893319, "Organiza\u00e7\u00e3o Administrativa da Uni\u00e3o: administra\u00e7\u00e3o direta e ", 0.0, 0, 1439596800, 14, 0, 0], [1830650241, "VOA 1500 - Definitions and Examples", 5.0, 1, 1439769600, 2928, 0, 1], [1233993344, "LATINISMOS -con una explicaci\u00f3n o traducci\u00f3n en espa\u00f1ol-", 0.0, 0, 1439251200, 149, 3, 1], [2425969234, "Latein - Medizinische Terminologie_Grammatik", 4.0, 1, 1378166400, 90, 0, 0], [2259686687, "\u8ff7\u4f60\u5ee3\u64ad\u5287 (Mini Radio Plays)", 0.0, 0, 1345852800, 582, 0, 0], [1384213834, "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439 \u041c\u0438\u043d\u0438\u043b\u0435\u043a\u0441 - Espanol-Russo Minilex", 0.0, 0, 1421107200, 513, 0, 0], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [1564115074, "Mike's Definitive GRE Study List", 0.0, 0, 1439424000, 3677, 387, 0], [388127225, "Bio 122 Unit 3 Clinical Questions, CSUS Bio 122", 0.0, 0, 1440374400, 47, 0, 33], [969379912, "USC Dental - Virginia Ovine", 0.0, 0, 1439078400, 25, 0, 0], [580614262, "Procedural Skills Training", 0.0, 0, 1439769600, 65, 0, 3], [2001578362, "AME ADMINISTRATIVO - LEI 8429", 0.0, 0, 1408320000, 45, 0, 0], [1190284708, "Ukrainian Beginner 2015", 0.0, 0, 1439164800, 535, 0, 0], [2048129820, "Ministerliste 2015", 0.0, 0, 1435622400, 17, 0, 12], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 5.0, 1, 1433721600, 2000, 6, 4], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [118781189, "HSC Biology: \"Maintaining A Balance\"", 0.0, 0, 1413676800, 227, 0, 20], [1131934718, "minimals biostatistics", 0.0, 0, 1385424000, 30, 0, 61], [2658038690, "Guide to Dakini Land condensed meaning p4", 0.0, 0, 1370649600, 8, 0, 0], [1736492226, "Clinical Science 2", 0.0, 0, 1384646400, 56, 0, 3], [1995317130, "Clinical Med 2", 0.0, 0, 1432166400, 37, 0, 34], [1470697926, "KDVP Chemistry Definitions 2014", 0.0, 0, 1417046400, 98, 0, 0], [1931291928, "UOC Administracion y Gestion de organizaciones PAC4", 0.0, 0, 1438041600, 11, 0, 6], [915948300, "Lojban Gismu with Simplified Definitions", 0.0, 0, 1360886400, 100, 0, 13], [1104180760, "Estado, Governo e Administra\u00e7\u00e3o P\u00fablica", 0.0, 0, 1438214400, 19, 0, 0], [958302064, "Pronunciation trainer and minimal pairs", 0.0, 0, 1412467200, 101, 133, 65], [1935085027, "Ear training (chords)", 0.0, 0, 1392163200, 56, 56, 0], [1558864285, "ILM Tissue Staining", 0.0, 0, 1409443200, 18, 0, 0], [438954265, "Norwegian Feminine Nouns", 0.0, 0, 1436227200, 56, 0, 0], [1341214217, "Clinical Examination Flash Cards UQ MBBS OSCEs", 0.0, 0, 1400630400, 21, 0, 0], [608463257, "BSprA Spa 1-3 2014 Dining", 0.0, 0, 1412726400, 176, 0, 0], [1062612586, "Prime Ministers and Kings of England, Britain and the UK", 0.0, 0, 1386547200, 134, 0, 0], [927779100, "UOC - Administraci\u00f3n y gesti\u00f3n de organizaciones PAC3", 0.0, 0, 1438041600, 36, 0, 7], [205385688, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones PAC2", 0.0, 0, 1434067200, 125, 0, 21], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [3379441831, "Bridie clinical colloquium ", 0.0, 0, 1382227200, 22, 0, 0], [603892583, "Klinische Chemie - Kardio-Lipid", 0.0, 0, 1397520000, 47, 1, 0], [3611799994, "Guide to Dakini Land condensed meaning headings", 0.0, 0, 1370649600, 9, 0, 0], [1218067247, "JAKUB infinitiv s zu", 0.0, 0, 1422576000, 12, 0, 0], [3497378696, "Altius bio 1 finished", 0.0, 0, 1345852800, 100, 0, 16], [1007163436, "Patho Minimals Semester 1", 0.0, 0, 1417996800, 156, 0, 0], [1110516983, "Korean Minimal Pair Sounds", 0.0, 0, 1429401600, 52, 52, 0], [3347309899, "Guide to Dakini Land condensed meaning p7", 0.0, 0, 1370649600, 7, 0, 0], [2005023180, "minimals biophysics debrecen", 0.0, 0, 1381017600, 34, 0, 0], [1736902404, "Latein - Medizinische Terminologie", 4.0, 1, 1378166400, 1830, 0, 0], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [1203310645, "Basic Ukrainian", 0.0, 0, 1432166400, 33, 0, 0], [708533783, "Uni Heidelberg Klinische Pharma", 0.0, 0, 1437868800, 165, 0, 4], [953505473, "Physiology Lab Exam minimals", 0.0, 0, 1386892800, 78, 0, 0], [518313939, "West End Idiomas - Personal Feelings, Opinions & Experiences", 0.0, 0, 1422057600, 57, 0, 57], [1658043217, "Finished C3-L1", 0.0, 0, 1428537600, 26, 0, 0], [518795558, "Gunnemark_minilex_ru_swe", 0.0, 0, 1345852800, 576, 0, 0], [1073806654, "Guide to Dakini Land condensed meaning p8", 0.0, 0, 1370649600, 7, 0, 0], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [614617536, "Direito Administrativo", 4.0, 2, 1423094400, 218, 0, 0], [397541033, "Deutsch Minimalpaare", 0.0, 0, 1415664000, 94, 174, 0], [3433177573, "new minimals biophysics", 0.0, 0, 1384646400, 46, 0, 92], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [2038046131, "HMS.HG.Clinical.Testing", 0.0, 0, 1354924800, 31, 0, 9], [1956392596, "Anglais Donner son opinion", 0.0, 0, 1401321600, 34, 0, 0], [1289570095, "Advanced German Vocabulary with good definitions", 3.0, 3, 1361836800, 1826, 0, 0], [51206747, "English Minimal Pairs (General American)", 0.0, 0, 1432512000, 24, 48, 48], [766555004, "B Clinical Colloquium", 0.0, 0, 1382745600, 62, 0, 0], [1775104109, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones PAC1", 0.0, 0, 1434067200, 114, 0, 9], [480184665, "Kl. biomekanik - Klinikophold B", 0.0, 0, 1445904000, 133, 0, 0], [1448084576, "Clinical Medicine Visual Exam", 0.0, 0, 1429574400, 170, 0, 175], [1341834637, "Ukrainian RU-UA", 0.0, 0, 1442793600, 50, 0, 0], [1043059143, "Gerunds_Infinitives_Verb Words_Participles_That Clauses", 0.0, 0, 1356480000, 247, 0, 0], [2710208854, "Finite Math MTH102 Rider", 0.0, 0, 1383091200, 22, 0, 14], [1098274703, "Clinical word meanings", 0.0, 0, 1388534400, 27, 0, 0], [518152011, "OCR Physics AS Definitions (Selective)", 0.0, 0, 1395619200, 86, 0, 0], [549933209, "HMS.IMP.HIV.Clinical", 0.0, 0, 1367452800, 12, 0, 8], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [3303139196, "fysiikka 6, minilt\u00e4", 0.0, 0, 1385078400, 38, 0, 0], [1412793809, "Loho clinical colloquium", 0.0, 0, 1382227200, 47, 0, 0], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [1014771277, "Klinische Seminar", 0.0, 0, 1391817600, 135, 0, 0], [1282100945, "Ukulele Training", 0.0, 0, 1437609600, 710, 0, 0], [1745554320, "Direito Administrativo - Bens P\u00fablicos - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1683761891, "Clinical exam study cards", 0.0, 0, 1409097600, 242, 0, 175], [1943348424, "AME ADMINISTRATIVO - ATOS ADMINISTRATIVOS", 0.0, 0, 1408320000, 29, 0, 0], [596224132, "Mini 3 Anatomy - Oral Cavity / Abdominal Wall", 0.0, 0, 1399420800, 362, 0, 0], [1172295329, "Vini Italiani DOCG", 0.0, 0, 1345852800, 73, 0, 0], [1621071095, "SBF Minimal Pairs /L/ vs /R/ Listening", 0.0, 0, 1432252800, 24, 24, 0], [203505614, "SPU MFT Theories I Final - Virginia Satir", 0.0, 0, 1417305600, 15, 0, 0], [1694513283, "IOC-Empresa i Iniciativa Emprenedora-Unitat 2", 0.0, 0, 1357430400, 56, 0, 0], [1314463826, "Spanish Gasperini", 0.0, 0, 1391558400, 6, 6, 1], [2024905629, "Jason - deck with Japanese definitions", 0.0, 0, 1425427200, 9872, 19302, 9550], [853802430, "Lecture Clinical Medicine Exam 5", 0.0, 0, 1430697600, 268, 0, 128], [804954227, "Ministry Essentials - Concepts and Verses", 0.0, 0, 1413158400, 5, 0, 0], [996397223, "ame administrativo", 0.0, 0, 1421366400, 78, 0, 0], [687398620, "9 parakliniske unders\u00f8gelser - apoplexi", 0.0, 0, 1414972800, 41, 0, 28], [795800357, "IOC-Empresa i Iniciativa Emprenedora-Unitat 1", 0.0, 0, 1357430400, 32, 0, 0], [3259196780, "Lista kanji N2 (definiciones en espa\u00f1ol)", 0.0, 0, 1360108800, 2184, 0, 0], [2014455355, "AME ADMINISTRATIVO - LEI 9784", 0.0, 0, 1408320000, 8, 0, 0], [1566684158, "Test de Administrativo julio 2014 MAB", 0.0, 0, 1413676800, 27, 0, 0], [1399557559, "Podstawy programowania (Andrzej Marciniak), I semestr, I rok", 0.0, 0, 1421193600, 5, 0, 0], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [1181834904, "500 English words(pic and audio) (Ukrainian Translation)", 5.0, 2, 1425254400, 248, 234, 268], [1551033204, "SGU clinical photogrphic disector images ", 0.0, 0, 1416787200, 249, 0, 92], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [1570813080, "Clinical Anatomy Bio 122 CSUS", 0.0, 0, 1425254400, 29, 0, 49], [3421982235, "Guide to Dakini Land condensed meaning p6", 0.0, 0, 1370649600, 7, 0, 0], [1645088778, "Medizinische Terminologie", 0.0, 0, 1428537600, 237, 0, 0], [1043093901, "Klinische Chemie Diabetes Mellitus TU M\u00fcnchen", 0.0, 0, 1401840000, 40, 1, 0], [232435977, "Alle Minister Deutschlands \"Kabinett Merkel II\"", 0.0, 0, 1358035200, 17, 0, 0], [896726834, "ITIL Foundation Acronyms and Initials", 0.0, 0, 1406851200, 51, 0, 0], [1437788107, "Klinische Chemie - H\u00e4matologie I", 0.0, 0, 1397520000, 30, 1, 0], [1791119831, "TICA Training", 0.0, 0, 1413936000, 144, 0, 0], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [1840460391, "HMS.IMP.Clinical.Pathology", 0.0, 0, 1370131200, 15, 0, 8], [286676280, "Maintaining Homeostasis VIJ", 0.0, 0, 1412726400, 17, 0, 4], [119891572, "rowan som histology (definition only - no visuals) BLOCK 1", 0.0, 0, 1407888000, 36, 0, 9], [1186387197, "Chp 5: Head Clinical Correlates", 0.0, 0, 1414972800, 68, 0, 0], [1588348088, "Liniare Algebra", 0.0, 0, 1413849600, 99, 0, 186], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [419331111, "Klinische 1 ", 0.0, 0, 1391817600, 103, 0, 8], [1752151944, "Paradigmi principali verbi latini Giuriato", 0.0, 0, 1410739200, 51, 0, 0], [1379665052, "Kontakte 7 Kapital 8 (unfinished)", 0.0, 0, 1412726400, 26, 0, 39], [559765544, "verbes + infinitif: avec \u00e0, de ou sans pr\u00e9position", 0.0, 0, 1416528000, 223, 0, 0], [914384441, "Prime Ministers of Canada", 0.0, 0, 1401062400, 27, 0, 0], [1272664547, "Klinische Chemie TU M\u00fcnchen H\u00e4mostaseologie", 0.0, 0, 1404259200, 39, 1, 0], [1753283400, "Vocabulaire de l'administration publique - Canada", 0.0, 0, 1426550400, 500, 0, 0], [3702909821, "clinical point selection", 0.0, 0, 1374364800, 56, 0, 0], [2141799388, "Mini 3 Biochemistry - Carbohydrates (unfinised)", 0.0, 0, 1399939200, 50, 0, 0], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [1442182838, "Guide to Dakini Land condensed meaning p2", 0.0, 0, 1370649600, 5, 0, 0], [1516370227, "UQ MBBSIII Cardiovascular Clinical", 0.0, 0, 1400630400, 139, 0, 1], [98362632, "UQ MBBS III Respiratory Clinical", 0.0, 0, 1400630400, 199, 0, 58], [1152343697, "Unregelm\u00e4ssige Formen im Indefinido", 0.0, 0, 1367712000, 38, 0, 0], [3330472718, "Guide to Dakini Land condensed meaning p5", 0.0, 0, 1370649600, 6, 0, 0], [1548495292, "Raciocinio Logico FSS AFRFB", 0.0, 0, 1423094400, 18, 0, 20], [1735436350, "Guide to Dakini Land condensed meaning p1", 0.0, 0, 1370649600, 3, 0, 0], [641325126, "Test de administrativo julio 2014", 0.0, 0, 1407715200, 27, 0, 0], [847521428, "Business English. B1. Phrasal verbs for explaining problems ", 0.0, 0, 1434672000, 13, 0, 0], [771982753, "Gross anatomy clinicals part 3 pgs 40 - 60", 0.0, 0, 1412121600, 81, 0, 0], [1654207472, "Rosyjski (Dominik)", 0.0, 0, 1377302400, 34, 0, 0], [2138161124, "AR5 symboler og definisjoner", 0.0, 0, 1369785600, 54, 0, 0], [2724741871, "IOC-Empresa i Iniciativa Emprenedora-Unitat 3", 0.0, 0, 1357430400, 71, 0, 0], [1763886278, "Klinische Chemie - Leber", 0.0, 0, 1397520000, 36, 1, 3], [549677727, "46a Infection & Clinical Practice", 0.0, 0, 1433289600, 275, 0, 2], [405816537, "SS UNM SOM HSF&D Week 4 Thorax MINIMAL", 0.0, 0, 1413849600, 570, 0, 276], [244963074, "Pre-Clinical Medical School", 0.0, 0, 1345852800, 281, 0, 62], [520760568, "AME ADMINISTRATIVO - PODERES ADMINISTRATIVOS", 0.0, 0, 1408320000, 16, 0, 0], [217641867, "Guide to Dakini Land condensed meaning p9", 0.0, 0, 1370649600, 6, 0, 0], [1039995539, "Neurology Clinical UQ MBBS III", 0.0, 0, 1400630400, 298, 0, 7], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [314589184, "Public Health and Administration", 0.0, 0, 1401062400, 161, 0, 0], [471144806, "Lateinische Stil\u00fcbungen II", 0.0, 0, 1406160000, 221, 0, 0], [920221620, "Finite Element Analysis", 0.0, 0, 1400371200, 24, 0, 60], [313325777, "UQ MBBS III Rheumatology and Orthopaedics Clinical", 0.0, 0, 1400630400, 89, 0, 56], [1685434962, "Clinical Medicine", 0.0, 0, 1408320000, 44, 0, 0], [1048802724, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones", 0.0, 0, 1428364800, 114, 0, 9], [1864222712, "MUSC M1 Block 2 Clinical and Joints", 0.0, 0, 1414540800, 79, 0, 0], [456159305, "Greining og h\u00f6nnnun hugb\u00fana\u00f0ar", 0.0, 0, 1396742400, 124, 0, 0], [956819967, "Klinische2", 0.0, 0, 1404691200, 229, 0, 58], [822363740, "Simple kanji deck - English definition and on'yomi", 0.0, 0, 1422057600, 2136, 0, 0], [1496553487, "Direito Administrativo - Atos Administrativos - TLP", 0.0, 0, 1431302400, 10, 0, 0], [368654935, "Direito Administrativo - Organiza\u00e7\u00e3o da Adm P\u00fablica - TLP", 0.0, 0, 1431302400, 14, 0, 0], [1664590753, "AME ADMINISTRATIVO", 0.0, 0, 1431302400, 261, 0, 0], [55239060, "AME ADMINISTRATIVO:: Lei 8666", 0.0, 0, 1431302400, 12, 0, 0], [1481437660, "Direito Administrativo - Processo Administrativo - TLP", 0.0, 0, 1431302400, 12, 0, 0], [891083771, "fysiikka 7 minilt\u00e4", 0.0, 0, 1385078400, 19, 0, 0], [1187029592, "Clinical Med Exam 2", 0.0, 0, 1412726400, 135, 0, 0], [3350419028, "MSU CHM Preclinical Medical School Subjects", 0.0, 0, 1346889600, 8584, 0, 0], [897522013, "AME ADMINISTRATIVO", 0.0, 0, 1431302400, 222, 0, 0], [1709074644, "ENGLISH DEFINITIONS BL", 0.0, 0, 1417305600, 292, 26, 0], [1793857933, "Klinische Chemie - H\u00e4matologie II", 0.0, 0, 1397520000, 34, 1, 1], [1540471712, "Epic INI Lookup", 0.0, 0, 1410220800, 139, 0, 0], [2580745740, "BUSM Anatomy - Clinical Correlations of Back, UE, Embry", 0.0, 0, 1378080000, 83, 0, 0], [1048818901, "Wine training", 5.0, 1, 1447113600, 135, 0, 0], [3227642277, "Guide to Dakini Land condensed meaning p3", 0.0, 0, 1370649600, 6, 0, 0], [1330356704, "Klinische Chemie TU M\u00fcnchen gesamt", 0.0, 0, 1412899200, 286, 2, 5], [1840186109, "Daniella Kohn's Manual Limba Romana Pentru Straini", 0.0, 0, 1401062400, 631, 573, 144], [346153275, "TICA Training", 0.0, 0, 1392076800, 40, 0, 0], [538352026, "Ukrainian consonants ", 0.0, 0, 1427587200, 21, 21, 0], [1585920690, "Ukrainian vowels", 0.0, 0, 1427587200, 11, 11, 0], [2143430041, "Ukrainian most common verbs", 5.0, 3, 1418688000, 111, 111, 0], [933777057, "ENGLISH DEFINITIONS AL", 0.0, 0, 1420588800, 85, 7, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ini</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1363199689, "dfghgvgvhgvyvygvyvtvy\u00e8", 0.0, 0, 1454544000, 771, 7, 0], [1592170734, "Hygiene und Unfallverh\u00fctung  im Haushaltsbereich", 0.0, 0, 1452211200, 29, 0, 0], [995157191, "pterygopalatine fossa", 0.0, 0, 1441929600, 16, 0, 0], [872122309, "Sygdomskort til tema D KU", 0.0, 0, 1442448000, 42, 0, 62], [2032024923, "A1. Lesson 12. Dni tygodnia, miesi\u0105ce, czasowniki", 0.0, 0, 1423094400, 39, 39, 0], [2339610758, "Meithai - K\u00f6rper, Hygiene und Gesundheit", 5.0, 1, 1383782400, 279, 0, 0], [1648295721, "UW Madison Summer Uyghur", 5.0, 1, 1437436800, 788, 0, 0], [3862571104, "Beginning Uyghur for English Speakers: textbook vocabulary", 5.0, 2, 1395619200, 778, 781, 0], [1781109632, "wyglad ", 0.0, 0, 1429574400, 30, 0, 0], [692511727, "m4 rygg", 0.0, 0, 1402099200, 56, 0, 6], [1511842624, "Uyghur words and useful phrases", 0.0, 0, 1423008000, 645, 0, 0], [4022757295, "Pharnygeal arches/pouches (ron)", 0.0, 0, 1379030400, 16, 0, 3], [546665876, "beygingar::l\u00fdsingaror\u00f0", 0.0, 0, 1453939200, 228, 0, 0], [162285217, "       14 Muskelsygdomme, Myasteni og nervebet\u00e6ndelse", 0.0, 0, 1420070400, 37, 0, 21], [1704511475, "Uyghur 5000 Common Words", 5.0, 2, 1422835200, 1094, 1323, 1], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [426850395, "polski w 4 tygodni", 0.0, 0, 1427068800, 202, 0, 4], [1668000391, "beygingar::nafnor\u00f0", 0.0, 0, 1446249600, 78, 0, 0], [8447977, "Blodsygdomme", 0.0, 0, 1369785600, 71, 0, 0], [27335959, "beygingar::forn\u00f6fn", 0.0, 0, 1403827200, 73, 0, 0], [2019230274, "HygieneMUI", 0.0, 0, 1425340800, 1027, 0, 30], [1057281577, "Uyghur Verb Grammar Forms", 5.0, 2, 1422921600, 114, 228, 0], [1688612187, "Uyghur 5000 Common Words List 2", 0.0, 0, 1430784000, 1689, 2228, 1], [879596105, "OSU - Neuro - Pterygopalatine Fossa Anatomy", 0.0, 0, 1422748800, 40, 0, 8]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

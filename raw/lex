@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[4036022128, "Model Thinking (notes by Dmitriy Alexeev)", 0.0, 0, 1345852800, 81, 0, 33], [917992777, "MW neuromuscular disorder and reflexes", 0.0, 0, 1452988800, 40, 0, 3], [564665806, "Physiologie - Atmung Alex", 0.0, 0, 1452297600, 20, 0, 0], [399673653, "MW Neuro Spinal cord reflexes", 0.0, 0, 1452988800, 19, 0, 3], [554016387, "Plexus Lumbalis", 0.0, 0, 1447804800, 7, 0, 0], [2125288921, "Russian Azerbaijani Minilex 500 words", 0.0, 0, 1447545600, 509, 0, 0], [1021662717, "FSL Filipino sign language Lexicon in SignWriting 2014", 0.0, 0, 1428192000, 825, 0, 826], [1745066759, "Prince2_Foundation_MusterFragen_Komplex-B_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [82677516, "Prince2_Foundation_MusterFragen_Komplex-A_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [170812004, "Reflexive Verben", 0.0, 0, 1444176000, 20, 0, 0], [750507314, "Alex and Ilya Sociology", 0.0, 0, 1444262400, 93, 0, 9], [1171627726, "Alex and Mum Spanish V1", 0.0, 0, 1439337600, 234, 233, 55], [1818432832, "GTO reflex", 0.0, 0, 1444780800, 65, 0, 0], [1150950870, "Muscles of the Shoulder, Brachial Plexus", 0.0, 0, 1441497600, 49, 0, 61], [1925170183, "Lexique m\u00e9dical Qu\u00e9bec", 0.0, 0, 1441497600, 1741, 0, 21], [1707934542, "MTH - Brachial Plexus", 0.0, 0, 1440028800, 55, 0, 21], [780444391, "OHSUNerdHerd Bracial Plexus", 0.0, 0, 1440633600, 27, 0, 1], [1384213834, "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439 \u041c\u0438\u043d\u0438\u043b\u0435\u043a\u0441 - Espanol-Russo Minilex", 0.0, 0, 1421107200, 513, 0, 0], [2061365536, "Alex_ydre\u00f8re", 0.0, 0, 1402272000, 28, 0, 12], [193116679, "Neuroanatomi3_Alex", 0.0, 0, 1398211200, 27, 0, 39], [873568652, "Alex_immunologi", 0.0, 0, 1402444800, 14, 0, 8], [37066355, "Perineum, Pelvic Musculature, Lumbosacral Plexus ", 0.0, 0, 1440374400, 40, 0, 41], [2089536949, "lextra_norwegisch6", 0.0, 0, 1408924800, 85, 0, 0], [759150430, "anglictina flex", 0.0, 0, 1431993600, 7910, 0, 0], [1763679541, "lextra_norwegisch7", 0.0, 0, 1408924800, 83, 0, 0], [337086993, "Seem\u00e4nnische Begriffe / Segellexicon", 0.0, 0, 1439683200, 337, 3, 1], [696907225, "Alex_fonation3", 0.0, 0, 1402272000, 18, 0, 16], [1313997299, "Alex-Respiration1", 0.0, 0, 1393372800, 53, 0, 14], [1772952760, "Alex_Lydl\u00e6re2", 0.0, 0, 1402358400, 6, 0, 7], [1410869259, "Neuroanatomi_Alex", 0.0, 0, 1398211200, 50, 0, 38], [730776837, "lextra_norwegisch3", 0.0, 0, 1408752000, 86, 0, 0], [220360258, "Alex-V\u00e6vsl\u00e6re", 0.0, 0, 1393372800, 74, 0, 6], [1630878898, "Lidepla - English Dictionary (Lidepla - Inglish Lexikon)", 0.0, 0, 1360886400, 8118, 0, 0], [3723561548, "Alex Anatomy EVMS", 0.0, 0, 1378944000, 129, 0, 27], [458248097, "Anatomy - Neurology - Lumbar and Sacral Plexuses", 0.0, 0, 1387670400, 17, 0, 60], [960097495, "Top 200 Medications (NAPLEX)", 0.0, 0, 1400457600, 2715, 0, 0], [2547792300, "Gross Anatomy Flexor compartment of Thigh Sampson", 0.0, 0, 1352592000, 35, 0, 8], [518795558, "Gunnemark_minilex_ru_swe", 0.0, 0, 1345852800, 576, 0, 0], [1165058891, "Lumbosacral plexus, thigh, popliteal fossa (CSUS Bio 122)", 0.0, 0, 1424995200, 51, 0, 57], [2069724327, "Sardaigne - Petit lexique", 0.0, 0, 1406937600, 2, 0, 0], [1372674744, "EVMS Alex Shoulder", 0.0, 0, 1379980800, 11, 0, 11], [1118731976, "Alex_fonation2", 0.0, 0, 1402272000, 14, 0, 15], [2108801542, "Alex_fonation5", 0.0, 0, 1402272000, 11, 0, 5], [195422015, "Anatomy: Lumbosacral Plexus 12/1", 0.0, 0, 1417651200, 41, 0, 3], [2340022014, "Gross Anatomy: Thigh Flexors: Sampson", 0.0, 0, 1352332800, 0, 0, 0], [1618678641, "Nahuatlahtolli: reflexivos", 0.0, 0, 1414540800, 67, 67, 0], [1651585859, "Alex Neuro Synet", 0.0, 0, 1413936000, 25, 0, 28], [975197307, "Komplexe Systeme", 0.0, 0, 1391904000, 16, 0, 15], [1411431603, "ActionAlexKILL Megafon", 0.0, 0, 1407801600, 28, 0, 0], [187109677, "lextra_norwegisch5", 0.0, 0, 1408924800, 81, 0, 0], [1012913355, "Anatomy - Neurology - Axilla and Brachial Plexus", 0.0, 0, 1387497600, 16, 0, 49], [687398620, "9 parakliniske unders\u00f8gelser - apoplexi", 0.0, 0, 1414972800, 41, 0, 28], [208899389, "Alex Neuro Medulla Spinalis", 0.0, 0, 1413936000, 47, 0, 44], [342051672, "OSU - MSK - Upper Arm, Shoulder, Brachial Plexus", 0.0, 0, 1418515200, 114, 0, 79], [235568589, "Alex-Respiration3", 0.0, 0, 1393372800, 23, 0, 10], [1384551168, "lextra_norwegisch8", 0.0, 0, 1408924800, 86, 0, 0], [1821662180, "Alex-Respiration2", 0.0, 0, 1393372800, 54, 0, 34], [1757269560, "lextra_norwegisch1", 0.0, 0, 1408752000, 94, 0, 0], [1353423173, "Alex_formler_plus_ekstra", 0.0, 0, 1402444800, 19, 0, 1], [3794568627, "frances_basico_jalex98", 0.0, 0, 1352592000, 16, 0, 0], [1501225873, "lextra_norwegisch9", 0.0, 0, 1408924800, 86, 0, 0], [1611891644, "Euskara-Frantsesa lexikoa , Lexique Basque - Francais", 0.0, 0, 1431907200, 523, 0, 0], [2092633178, "Neuroanatomi4_Alex", 0.0, 0, 1398211200, 18, 0, 31], [1400497201, "Alex_Mellem\u00f8re", 0.0, 0, 1402272000, 30, 0, 10], [1699898647, "lextra_norwegisch2", 0.0, 0, 1408752000, 76, 0, 0], [748248936, "Brachial flexors/extensors", 0.0, 0, 1409443200, 20, 0, 0], [1009826460, "spl - Alex and Cam 01", 0.0, 0, 1416096000, 26, 26, 0], [289924078, "lextra_norwegisch4", 0.0, 0, 1408752000, 66, 0, 0], [124419539, "Neuroanatomi2_Alex", 0.0, 0, 1398211200, 59, 0, 38], [1686395513, "Forearm flexors", 0.0, 0, 1409529600, 32, 0, 0], [146040994, "Anatomy 03 brachial plexus, neck, axilla", 0.0, 0, 1412640000, 77, 0, 43], [1080481369, "Berechenbarkeit und Komplexit\u00e4t Scheinklausur", 0.0, 0, 1423267200, 24, 0, 28], [148107471, "Alex_fonation1", 0.0, 0, 1402272000, 19, 0, 9], [1419767219, "Alex_fonation4", 0.0, 0, 1402272000, 14, 0, 12], [1475967085, "Neurophysiology1BAlex", 5.0, 1, 1430784000, 298, 0, 3], [1949775918, "Spinal Cord 2 Reflexes", 0.0, 0, 1424563200, 24, 0, 1], [1506527026, "Alex_lydl\u00e6re1", 0.0, 0, 1402358400, 13, 0, 13], [1952961261, "Berechenbarkeit und Komplexit\u00e4t Informatik", 0.0, 0, 1424217600, 71, 0, 142], [1884699638, "Hematology Alex Part 1", 0.0, 0, 1392249600, 328, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lex</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

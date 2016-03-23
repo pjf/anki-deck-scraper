@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[98793788, "Softwarequalit\u00e4t_WS15_16", 0.0, 0, 1454544000, 71, 0, 0], [799011251, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 1-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [2134488481, "\u2192 \u2192 \u2192 \u2192 The Top 1000 Most Frequently Used Spanish Words ", 0.0, 0, 1454112000, 1000, 1005, 1], [1101604155, "1.000+ most frequent Hebrew Words", 0.0, 0, 1438214400, 716, 0, 1], [215126033, "Kruzo 2500 most frequent russian-english \u0440\u0443\u0441\u0441\u043a\u0438\u0439-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439", 5.0, 1, 1410825600, 2497, 0, 0], [1101204068, "80 Percent Greek Vocabulary by Frequency", 4.67, 3, 1345852800, 1099, 0, 0], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [1880775452, "Turkish Frequency List", 0.0, 0, 1454025600, 500, 0, 0], [1651511513, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 3-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [1647469208, "Japanese Kanji Frequency Ordered", 5.0, 2, 1420329600, 2198, 0, 1], [1812032714, "Deutch:4000 German words by frequency with Google example t", 0.0, 0, 1438041600, 4214, 4222, 0], [1571586872, "\u2192 \u2192 \u2192 The 2000 Most Frequently Used German Nouns (2.0)", 0.0, 0, 1452297600, 2000, 5, 0], [1050915561, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Spanish Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [1954317665, "\uff08\u279c\u0e3a\uff09 2000 Most Frequently Used Japanese Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [535817548, "\uff08\u279c\u0e3a\uff09 2000 Most Frequently Used Korean Nouns ", 0.0, 0, 1451606400, 1998, 5, 0], [293367340, "A Frequency Dictionary of French (Complete)", 5.0, 2, 1449100800, 5000, 0, 0], [376016963, "Fouchon's Spanish Frequency Deck", 0.0, 0, 1451692800, 1279, 0, 0], [784209925, "Spanish frequent  400 words ", 0.0, 0, 1448064000, 173, 0, 168], [492070811, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 2-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [1716352809, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Russian Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [2129985421, "Spanish Frequency 100", 0.0, 0, 1449100800, 41, 0, 3], [1494687711, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used Mandarin Chinese Nouns", 0.0, 0, 1451606400, 1998, 5, 0], [436558500, "\uff08\u279c\u0e3a\uff09The 2000 Most Frequently Used French Nouns", 5.0, 1, 1451606400, 1998, 5, 0], [2060207676, "Ancient Egyptian 2000 most Frequent words v. 0.1", 0.0, 0, 1453420800, 554, 8, 689], [833665190, "Algorithmist's Latvian words by frequency :1-100 with audio", 0.0, 0, 1422662400, 100, 106, 14], [653061995, "Deutsch: 4000 German Words by Frequency", 4.61, 28, 1432425600, 4214, 4222, 0], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [1466626645, "English - Polish 2000 top frequent words (ISEL)", 3.33, 6, 1345852800, 2000, 0, 0], [1036714221, "Quran Frequency Dictionary", 0.0, 0, 1445126400, 3349, 1, 0], [522422521, "English deck for the Russians. 5000 the most frequent words.", 4.2, 5, 1387497600, 4321, 3774, 0], [732544763, "Duitse voorzetsels op frequentie (SETL)", 0.0, 0, 1438992000, 132, 1, 1], [1046557073, "Thai vocabulary frequency 4000", 0.0, 0, 1418947200, 4000, 3996, 0], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 5.0, 1, 1433721600, 2000, 6, 4], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 0.0, 0, 1424217600, 20, 20, 0], [3635715246, "Lojban rafsi (frequency order)", 0.0, 0, 1345852800, 2741, 0, 0], [1233554734, "Lojban big_list (sorted by frequency)", 0.0, 0, 1365379200, 1986, 0, 0], [964984056, "Traditional Chinese - 600 most frequent characters", 0.0, 0, 1345852800, 728, 0, 0], [1365261420, "General Class Frequency Bands", 0.0, 0, 1421452800, 25, 0, 0], [955923484, "An\u00e1lise e Projeto com UML (Levantando requisitos)", 0.0, 0, 1410912000, 7, 0, 4], [1842909181, "PS First Grade High Frequency Words", 0.0, 0, 1427932800, 113, 113, 0], [2225389608, "Spanish Word Frequency List 1-100", 0.0, 0, 1370390400, 288, 0, 0], [259636754, "300 High Frequency Sight Words - 65% of Written English", 5.0, 1, 1389657600, 300, 296, 0], [1398663823, "Serbian most frequent words ", 0.0, 0, 1424044800, 293, 5, 0], [158562446, "Syriac OT Peshitta by Word Frequency", 0.0, 0, 1393459200, 1665, 0, 1661], [2691006055, "Victor's Thai frequent phrases.", 0.0, 0, 1378857600, 928, 918, 0], [759807376, "Cantonese: Adverbs/Frequency", 0.0, 0, 1426550400, 29, 0, 0], [131520755, "A longer description is required. ", 0.0, 0, 1392681600, 19, 0, 4], [3468129663, "Korean Frequency List (Advanced)", 0.0, 0, 1383436800, 2643, 0, 0], [386349101, "Arabic Frequency List 1-5000", 4.0, 1, 1390608000, 5000, 0, 0], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [1378124683, "Prereqs for math 142", 0.0, 0, 1409097600, 90, 0, 164], [2567625761, "2,098 frequent Esperanto words (English)", 0.0, 0, 1345852800, 1418, 0, 0], [103274509, "Spanish frequency list 300-350", 0.0, 0, 1413504000, 31, 0, 0], [1612493375, "Korean Frequency List (Intermediate)", 0.0, 0, 1363046400, 1894, 0, 0], [1489289375, "PS Second Grade High Frequency Words", 0.0, 0, 1427932800, 87, 87, 0], [3304607063, "Most frequent German words", 0.0, 0, 1360540800, 6, 0, 0], [1956799398, "Metzer's Koine Greek Vocab, 42-45 Frequency", 0.0, 0, 1409270400, 25, 0, 0], [1001225270, "Spanish frequency list 31-60", 0.0, 0, 1413590400, 30, 0, 0], [2073864457, "HISD Second Grade High Frequency Words", 0.0, 0, 1427932800, 299, 299, 0], [1162704718, "Longer description required.", 0.0, 0, 1393632000, 30, 0, 16], [426866722, "High frequency Spanish words and phrases", 0.0, 0, 1401580800, 152, 0, 0], [719453886, "Spanish frequency list 121-150", 0.0, 0, 1413763200, 30, 0, 0], [1450352132, "Highest Frequency Chengyu with Cloze Sentences (Traditional)", 0.0, 0, 1394236800, 240, 0, 0], [994693053, "Deutsch: 4000 German Words by Frequency (no audio)", 5.0, 1, 1432425600, 4214, 8, 0], [2133849403, "IR spectroscopy frequencies QC CHEN orgo 2", 0.0, 0, 1427673600, 34, 0, 0], [1550608419, "Metzer's Koine Greek Vocab, 46-49 times frequency", 0.0, 0, 1409270400, 25, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 5.0, 1, 1363392000, 5393, 0, 0], [1126003944, "German-English top 1000 words - usage frequency (with audio)", 3.9, 10, 1362096000, 1154, 1131, 0], [2017456166, "New TOEIC Frequently-used Vocabulary", 0.0, 0, 1407801600, 896, 2, 7]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Req</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

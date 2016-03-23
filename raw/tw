@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[98793788, "Softwarequalit\u00e4t_WS15_16", 0.0, 0, 1454544000, 71, 0, 0], [530972367, "14 Panstwo LRM PP", 0.0, 0, 1345852800, 267, 260, 0], [888135785, "Software Engineering", 0.0, 0, 1454371200, 428, 9, 202], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [70031263, "Morphological Families for Two-Kanji Compounds", 5.0, 2, 1431388800, 19638, 0, 0], [1768993625, "Network Engineering (Huawei)", 0.0, 0, 1454457600, 155, 0, 0], [1216676381, "Network Engineering (Cisco and Huawei)", 0.0, 0, 1454457600, 249, 0, 0], [120847549, "Tweede Kamer - Kabinet-Rutte II ", 0.0, 0, 1453852800, 14, 0, 14], [1479426732, "\u0141acina - s\u0142ownictwo i gramatyka", 0.0, 0, 1452902400, 615, 0, 0], [677620877, "Software Engineering", 5.0, 1, 1453161600, 351, 9, 158], [986984480, "Psychologie - Sprachentwicklung ", 0.0, 0, 1453852800, 226, 0, 2], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [1353934357, "HSR Software Engineering 1 HS2015", 5.0, 1, 1452211200, 51, 0, 15], [1985647355, "Networking: A Top Down Approach", 0.0, 0, 1450310400, 18, 0, 0], [495049975, "Networking Deck", 0.0, 0, 1449792000, 177, 0, 0], [618312178, "Partie polit., NGO, spo\u0142ecze\u0144stwo obywatelskie", 0.0, 0, 1449360000, 80, 0, 0], [217397429, "S\u0142owotw\u00f3rstwo A - matura", 0.0, 0, 1448841600, 74, 0, 0], [468878291, "RMA Level Two", 0.0, 0, 1448582400, 601, 1083, 474], [1215685568, "Poj\u0119cia z dzia\u0142u \"Spo\u0142ecze\u0144stwo\" ", 0.0, 0, 1448236800, 97, 0, 0], [542094415, "software security", 0.0, 0, 1447200000, 1, 0, 0], [1875760931, "Al Kitaab Part Two Ch.9", 0.0, 0, 1447804800, 20, 0, 0], [713731484, "univerportword", 0.0, 0, 1448496000, 6418, 0, 0], [164166150, "Social and Information Networks", 0.0, 0, 1447372800, 16, 0, 0], [1782708909, "s\u0142owotw\u00f3rstwo B,C i D - matura ", 0.0, 0, 1448841600, 91, 0, 0], [105841342, "TWIW 15 B1 - VWL DHBW KA Semester 1", 0.0, 0, 1447286400, 73, 0, 0], [1718654904, "Novell Netware Test 1", 0.0, 0, 1444089600, 71, 0, 0], [461794434, "TWIW 15 B1 - Werkstoffkunde Semester 1", 0.0, 0, 1447286400, 68, 0, 1], [488996754, "Mmstw2015", 0.0, 0, 1445212800, 129, 0, 2], [1586638814, "\u53f0\u7063\u6559\u80b2\u90e8\u5e38\u7528\u570b\u5b57", 3.33, 3, 1404259200, 4808, 0, 4808], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [13521556, "Neuroscience Two", 0.0, 0, 1444780800, 624, 0, 169], [492223280, "Year One Russian - Chapter Two", 0.0, 0, 1442707200, 103, 0, 0], [913942762, "nowotwory", 0.0, 0, 1434931200, 149, 0, 0], [1434971097, "Wojew\u00f3dztwa w Polsce- Voivodeships in Poland", 0.0, 0, 1412726400, 31, 0, 15], [1657789477, "Layton's Coptic in Twenty Lessons", 3.0, 1, 1345852800, 616, 0, 0], [1089036967, "Extra vocabulary taken from the software portion of GER2000", 5.0, 1, 1422057600, 335, 0, 0], [1273495136, "Entwicklungsbiologie Klausurfragen", 0.0, 0, 1436227200, 48, 0, 3], [705945063, "Passport v Rossijoe les 7, tweede deel", 0.0, 0, 1413676800, 24, 0, 0], [162860371, "Angielski. A1. Pa\u0144stwa i narodowo\u015bci", 0.0, 0, 1435622400, 28, 28, 13], [971750740, "Common words used in software development", 0.0, 0, 1422489600, 19, 0, 0], [503132046, "spoleczenstwo", 0.0, 0, 1412208000, 69, 0, 0], [814445013, "Elitarne s\u0142ownictwo", 0.0, 0, 1345852800, 79, 0, 0], [228111984, "Stolice pa\u0144stw \u015bwiata", 0.0, 0, 1345852800, 161, 0, 0], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [904861698, "Powiaty wojew\u00f3dztwa wielkopolskiego", 1.0, 1, 1412812800, 66, 0, 31], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [290932340, "\u9032\u884c\u4e2d\u3000(Wurstwasser)", 0.0, 0, 1413072000, 6, 0, 0], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [1742764581, "Passport v Rossijoe les 6, tweede deel", 0.0, 0, 1412121600, 32, 0, 0], [863606079, "Softwaretechnik 2 am KIT WS1415", 0.0, 0, 1429315200, 675, 0, 2], [1425674783, "S\u0142ownictwo polsko-francuskie - do podr\u0119cznika Sc\u00e9nario 1", 0.0, 0, 1427932800, 523, 0, 0], [1467173143, "Engenharia de Software para Concurso", 0.0, 0, 1375401600, 131, 0, 44], [2067911096, "FHB L13: Interactions between the Heart and the Peripheral V", 0.0, 0, 1421798400, 8, 0, 9], [115917412, "General software development and computer science questions.", 0.0, 0, 1353110400, 18, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [1625135861, "Einf\u00fchrung in Software Engineering TU Darmstadt WS14/15", 0.0, 0, 1423785600, 49, 0, 1], [1098525878, "Convention Agreements between Marty and Ally", 0.0, 0, 1429574400, 333, 0, 0], [1124884023, "FTS4 Personalentwicklung", 0.0, 0, 1409097600, 4, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [635765833, "TW COMBANK Deck", 0.0, 0, 1433203200, 525, 1, 27], [902604370, "GuitarOS Reading Rhythms Two - Eye Deck - FretboardAnatomy.c", 0.0, 0, 1425859200, 75, 75, 150], [1590235002, "Two German states (Cold War) - grade 10", 0.0, 0, 1420070400, 7, 0, 0], [390693465, "Networks' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 75, 0, 0], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [2120253420, "UW Madison Classical Chinese Semester Two", 0.0, 0, 1422835200, 937, 0, 0], [1876183848, "Software Evolution am KIT", 0.0, 0, 1398643200, 55, 0, 0], [2935021729, "Twelve Nid\u0101nas, Tibetan-English-Russian-Sanskrit-Pali", 0.0, 0, 1383091200, 12, 0, 0], [1006688406, "Multiplication Facts: Zero to Twelve", 0.0, 0, 1373760000, 169, 0, 0], [1615194005, "MBBS 1 Week 27 - It's the Two of Us", 0.0, 0, 1349481600, 129, 0, 48], [1657444165, "Otwory i kana\u0142y czaszki", 0.0, 0, 1416355200, 53, 0, 0], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [785914382, "Software Technik II am KIT", 0.0, 0, 1394668800, 15, 0, 2], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [2010065826, "TU Darmstadt - Software Engineering in industrial practice", 0.0, 0, 1400889600, 68, 0, 0], [2437004623, "Computer Networks", 0.0, 0, 1361404800, 35, 0, 1], [461857530, "\u3060\u3051\uff08Wurstwasser\uff09", 0.0, 0, 1413417600, 4, 0, 0], [3528248506, "Addition Facts: Zero to Twenty", 0.0, 0, 1373760000, 441, 0, 0], [1539473837, "\u7bc4\u56f2\u306e\u59cb\u307e\u308a\u3068\u7d42\u308f\u308a\u30fc\u305d\u306e\u969b\u3060\u3000\uff08Wurstwasser) \t", 0.0, 0, 1413072000, 6, 0, 0], [2674520820, "Polskie Wojew\u00f3dztwa", 1.0, 1, 1379980800, 16, 0, 16], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [3841699028, "Two Kinds Vocab", 0.0, 0, 1345852800, 39, 0, 0], [764446605, "IP Network addresses", 0.0, 0, 1421280000, 71, 1, 0], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [1868087783, "history of japan postwar", 5.0, 1, 1399334400, 251, 0, 0], [682022296, "A2. Lesson 9. Reading about twins", 0.0, 0, 1424304000, 11, 11, 0], [1290066901, "Introduction to Networking start-midterm", 0.0, 0, 1350518400, 29, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [4144850662, "Software Unit Testing", 0.0, 0, 1360627200, 29, 0, 0], [1217073216, "C# f\u00fcr Java Entwickler", 0.0, 0, 1367712000, 85, 0, 0], [286694361, "\u5f8c\u3067\u3000\uff08Wurstwasser\uff09", 0.0, 0, 1413072000, 5, 0, 0], [1643399766, "Software Testing Terminology", 0.0, 0, 1424822400, 51, 0, 0], [166359105, "Engl-German vocab - Cold War + two German states", 0.0, 0, 1424304000, 104, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

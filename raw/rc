@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1584323243, "Anatomy: Circle of Willis and Intracerebral Bleeds", 0.0, 0, 1454889600, 12, 0, 0], [1970401628, "Marcio ... Meu anki", 0.0, 0, 1454716800, 220, 0, 0], [418733270, "Grundstufe Deutsch PL-DE Marcin Perli\u0144ski (mit Audio DE)", 5.0, 6, 1345852800, 1477, 1472, 0], [335616092, "SM27 - Mercury's Mental Match", 0.0, 0, 1454025600, 28, 0, 0], [2063106217, "C\u00edrculo de Conversaci\u00f3n 2016 02 06", 0.0, 0, 1454803200, 20, 0, 1], [1101204068, "80 Percent Greek Vocabulary by Frequency", 4.67, 3, 1345852800, 1099, 0, 0], [262824215, "Sopica appareil circulatoire fini !", 0.0, 0, 1453680000, 32, 0, 4], [1409369943, "Propedeutica Biochimica - Prof Porcelli", 0.0, 0, 1454457600, 96, 0, 16], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [1087757076, "Leticia e Marco (Senten\u00e7as em Japon\u00eas)", 0.0, 0, 1453852800, 94, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 5.0, 1, 1345852800, 4353, 0, 0], [786822650, "Narcotics, Recreational Drug Fact-sheets AAL", 0.0, 0, 1454025600, 79, 29, 278], [1802224060, "Wortschatz - Stufe C1/C2 - L\u00fcckentest DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 483, 0, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [1578094647, "EmoryResearchEBM", 0.0, 0, 1453852800, 41, 0, 3], [1259908002, "AWS Solutions Architect Cert", 4.0, 1, 1452643200, 208, 0, 0], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [84136945, "Most common church-slavonic words csl-sk/en/ru", 0.0, 0, 1453593600, 20, 1, 7], [25428484, "Leticia e Marco(Japaneses)", 0.0, 0, 1454457600, 93, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [1274417947, "Taiwan Driver's License - English - Motorcycle - 2015/07", 0.0, 0, 1441929600, 1606, 0, 323], [1144010962, "SRC-Sprechfunk ", 0.0, 0, 1450137600, 99, 0, 0], [118807243, "Sensory Perception Khan", 0.0, 0, 1451520000, 51, 0, 5], [956222301, "anglais commerce maxime", 0.0, 0, 1452470400, 37, 0, 0], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 4.0, 1, 1345852800, 250, 0, 0], [1553177705, "information resources (for uzo)", 0.0, 0, 1449878400, 21, 0, 6], [1138236995, "Norwegian Church Words", 0.0, 0, 1450828800, 1617, 0, 0], [1001038552, "Niemiecki - 1000 s\u0142\u00f3w - Marcin Perli\u0144ski (Audio DE+PL)", 5.0, 1, 1446336000, 1000, 2000, 0], [1247020189, "Se\u00f1ales de circulaci\u00f3n en Espana - Comunidad Europea", 0.0, 0, 1451692800, 329, 0, 335], [777172438, "Pain Mrchanisms", 5.0, 1, 1449014400, 25, 0, 6], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [149534155, "Deitel Java How to Program Chapter 4 (Self Exercises)", 0.0, 0, 1448409600, 29, 0, 0], [1729915144, "Deitel Java How to Program Chapter 3 (Self Exercises)", 0.0, 0, 1448409600, 31, 0, 0], [832603678, "Marcamedies German Lektion Zwei", 0.0, 0, 1449878400, 36, 0, 0], [2126271842, "Mental Health Research Group Nepali", 0.0, 0, 1447891200, 56, 0, 0], [913585261, "Pig circulatory", 0.0, 0, 1447113600, 0, 0, 0], [1312271688, "CB - Perception", 0.0, 0, 1447113600, 13, 0, 0], [415808950, "Mental Health Research Group Nepali", 0.0, 0, 1447286400, 12, 0, 0], [1804763339, "Animal Phys Exam 3 Circulation", 0.0, 0, 1447891200, 46, 0, 0], [531179098, "P.E.R. Patr\u00f3n de Embarcaci\u00f3n de Recreo", 0.0, 0, 1447459200, 204, 0, 2], [372019873, "1524: Sarcoid + Pleural Lung disease", 0.0, 0, 1445817600, 44, 0, 43], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [671790312, "PIG CIRCULATORY", 0.0, 0, 1447286400, 56, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [1451463040, "Biochemick\u00e9 vzorce (1. LF UK)", 0.0, 0, 1445385600, 206, 0, 0], [1288444002, "Sources_du_droit_du_travail_fr", 0.0, 0, 1444867200, 8, 0, 0], [1320014410, "Research Methods Matt and Ilya", 0.0, 0, 1444089600, 187, 0, 4], [3768529989, "Hauptst\u00e4dte Europas DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 47, 0, 0], [940233116, "ARC Sheep Brain Practical", 0.0, 0, 1442016000, 192, 0, 192], [2030823431, "DE8 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 192, 0, 0], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 100, 0, 0], [3626394573, "Fremdw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 462, 0, 0], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [1295811490, "Taiwan Driver's License - Chinese - Motorcycle - 2015/08", 0.0, 0, 1442016000, 1611, 0, 323], [2886872180, "Chinese in 10 Days (The Commercial Press), book 1, new words", 0.0, 0, 1345852800, 222, 222, 0], [1586715527, "Horizantes tercera edic\u00edon lecci\u00f3n 2", 0.0, 0, 1416787200, 87, 0, 0], [992045422, "mycommerce", 0.0, 0, 1437523200, 11, 1, 1], [92195275, "DC2.1 Church History Dates", 0.0, 0, 1402704000, 106, 0, 0], [726712372, "DLA.MARCINA", 0.0, 0, 1356652800, 316, 0, 0], [225048355, "BEC Vantage Masterclass (Czech-English) by Qvasa", 4.33, 6, 1428624000, 1054, 0, 0], [7394443, "Interchange", 0.0, 0, 1393027200, 16, 0, 0], [3673994187, "Visual Perception ", 0.0, 0, 1345852800, 30, 0, 0], [2045548240, "Algunos ejercicios de Python", 0.0, 0, 1417651200, 219, 0, 0], [1058850517, "Economie, commerce et finances (10) ", 0.0, 0, 1445990400, 533, 0, 0], [3290680236, "DE1 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 575, 0, 0], [673928473, "RCSI SC2", 0.0, 0, 1425945600, 470, 0, 7], [1928877568, "Schweizer Kantone DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 26, 0, 0], [1221497907, "Church Growth Test 1 Review Sheet", 0.0, 0, 1423526400, 75, 0, 0], [1353874807, "FRCPA WHO malignancy deck JW", 0.0, 0, 1438473600, 82, 0, 1], [1186576037, "Goldstein Narcotics", 0.0, 0, 1424563200, 16, 0, 0], [244364670, "Segundo cuatrimestre cuarto medicina murcia", 0.0, 0, 1426896000, 43, 0, 21], [251451160, "Deutsche Abk\u00fcrzungen DE-DE-PL Marcin Perli\u0144ski", 0.0, 0, 1345852800, 261, 0, 0], [4109044851, "Der gro\u00dfe Artikeltest DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 6, 1345852800, 1063, 0, 0], [1271917279, "Grundformen deutscher Verben DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 112, 0, 0], [1038916791, "SIP3 v1409, source: doktormike.net", 0.0, 0, 1430870400, 4316, 0, 60], [828176078, "Sherman's Circular Gallifreyan", 0.0, 0, 1423008000, 29, 0, 29], [1387552567, "Izpit_voditelj_colna-3del-PRAVILA_IZOGIBANJA_TRCENJA_NA_MORJ", 0.0, 0, 1414281600, 26, 0, 2], [3646503409, "DaF Test-500 (Jumbo-Test) Stufe C2 DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 500, 0, 0], [493004830, "Anatomy - Fetal circulation, etc.", 0.0, 0, 1412899200, 51, 0, 2], [417291689, "Alergologia 3er parcial", 0.0, 0, 1413331200, 44, 0, 2], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [965237744, "FRCPath Part II: Haemostasis", 0.0, 0, 1411257600, 258, 0, 20], [480239736, "Interchange Intro MMZ", 5.0, 1, 1436486400, 830, 822, 51], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [1789254966, "DE7 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 218, 0, 0], [757050783, "Embolism, Infarction, and Septic Shock", 0.0, 0, 1360627200, 36, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [1476585977, "DE2 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 325, 0, 0], [659057783, "Interchange 2 MMZ", 0.0, 0, 1435017600, 737, 770, 51], [2798464655, "Deutsches Alphabet/Buchstabieralphabet - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 41, 0, 0], [1348520325, "HMS.IHP.Exercise", 0.0, 0, 1360886400, 13, 0, 3], [3639354247, "DE3 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 256, 0, 0], [161888663, "Tkach--Licensure: Church History Dates", 0.0, 0, 1390867200, 77, 0, 0], [327802141, "Segundo parcial temas selectos", 0.0, 0, 1429660800, 241, 0, 0], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [573537612, "conf\u00e9rence climat mercredi", 0.0, 0, 1426032000, 55, 0, 0], [1166627116, "Unit Circle Values (sin and cos only)", 0.0, 0, 1397088000, 32, 0, 6], [997975627, "GlyphStudy Collier&Manley Chapter 8 - Exercise", 0.0, 0, 1345852800, 75, 0, 150], [4022757295, "Pharnygeal arches/pouches (ron)", 0.0, 0, 1379030400, 16, 0, 3], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [882387984, "General Chemistry 2 Intermolecular Forces", 0.0, 0, 1407888000, 259, 0, 0], [1929222132, "DE5 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 226, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [694662175, "Budowa serca", 0.0, 0, 1416528000, 37, 0, 0], [2028939378, "Max revel condorcet 2", 0.0, 0, 1425427200, 7, 0, 0], [32600325, "Pr\u00e4sens PL-DE-DE (Stammvokalwechsel usw.) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 39, 0, 0], [4028206235, "Rosyjski 2 SGH - zaawansowany PL-RU A. Kierczy\u0144ska", 0.0, 0, 1345852800, 2935, 0, 0], [1107458831, "FRCPath Part II: Morphology", 0.0, 0, 1411257600, 513, 0, 576], [327888242, "Riman 2.2: Res extra commercium", 0.0, 0, 1364774400, 8, 0, 0], [26623829, "CPearce2014", 0.0, 0, 1396656000, 51, 0, 0], [567061978, "MMWR Jan-March 2013", 0.0, 0, 1390780800, 67, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [1854461120, "Rektion der Verben PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [1639170777, "Grieks-Nederlandse woordenschat SCVO cursus Berchem jr 1 & 2", 0.0, 0, 1369180800, 981, 0, 0], [183062921, "Egzamin kr\u00f3tkofalarski 2014 (Marcin Perli\u0144ski)", 0.0, 0, 1427068800, 453, 0, 28], [1383795806, "HI, Enfermer\u00eda 2do 2ero, comunitaria, 1er parcial", 0.0, 0, 1403308800, 39, 0, 0], [10541898, "badanie fizykalne, tony serca", 0.0, 0, 1416873600, 31, 0, 0], [452169592, "changement climatique conference mercredi", 0.0, 0, 1426032000, 129, 0, 0], [3280779758, "150 sytuacji j\u0119zykowych PL-DE (matura) - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 150, 0, 0], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [993891628, "Historia gospodarcza (SGH), Robert Dr\u00f3zd", 0.0, 0, 1345852800, 867, 0, 0], [2686553722, "Ressources Humaines RH", 0.0, 0, 1382054400, 63, 0, 9], [205344329, "GlyphStudy Collier&Manley Chapter 4 - Exercise", 0.0, 0, 1345852800, 71, 0, 142], [869654914, "RussianAccelleratorCards", 0.0, 0, 1389398400, 99, 0, 0], [2557057917, "Aprender chino mandarin - Ejercicio 01", 0.0, 0, 1345852800, 29, 30, 0], [337508280, "FRCPath Part II: Haemoglobinopathy", 0.0, 0, 1411257600, 170, 0, 73], [3067238433, "DE4 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 242, 0, 0], [1201322335, "GlyphStudy Collier&Manley Chapter 6 - Exercise", 0.0, 0, 1345852800, 82, 0, 164], [1721109353, "HISTOLOGIJA PRVA PARCIJALA :)", 0.0, 0, 1413849600, 40, 0, 2], [1123866302, "Comercio Internacional AFRFB FSSILVA", 0.0, 0, 1424390400, 301, 0, 3], [837549010, "turco g", 0.0, 0, 1350604800, 231, 0, 0], [2475853179, "Deutschtest 2 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1399557559, "Podstawy programowania (Andrzej Marciniak), I semestr, I rok", 0.0, 0, 1421193600, 5, 0, 0], [1955777759, "The Undercover Economist Vocab ENG-GER", 0.0, 0, 1425340800, 75, 75, 0], [178828042, "FHB L18: Control of the Circulation", 0.0, 0, 1422057600, 9, 0, 17], [1573946898, "Wilhelm Hauff - Der junge Engl\u00e4nder - PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 344, 0, 0], [299924212, "Psychiatry RCSI", 0.0, 0, 1386633600, 207, 0, 0], [425152273, "Recht (Jura) PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 65, 0, 0], [2027169721, "Science and research nico", 0.0, 0, 1433203200, 236, 0, 0], [763277765, "Circulation", 0.0, 0, 1407974400, 127, 0, 178], [237664657, "Psicolog\u00eda Social segundo parcial", 0.0, 0, 1345852800, 536, 0, 0], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [1322231925, "Psicolog\u00eda de la Percepci\u00f3n", 0.0, 0, 1369353600, 736, 0, 4], [923599107, "INVERCORPEFS", 0.0, 0, 1387238400, 68, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [1716741441, "MARC21 Tags (Basic)", 0.0, 0, 1411430400, 16, 0, 0], [1488017107, "CofO2 - 3 - Circulation of Thorax", 0.0, 0, 1345852800, 43, 0, 0], [1462123574, "Sz\u00e1m\u00edt\u00f3g\u00e9p Architekt\u00far\u00e1k", 0.0, 0, 1437264000, 251, 0, 0], [1564168149, "GlyphStudy Collier&Manley Chapter 7 - Exercise", 0.0, 0, 1345852800, 61, 0, 122], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [1532239850, "arc", 0.0, 0, 1401667200, 442, 0, 517], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [59073739, "[mux] Pronunciation excercise", 4.0, 1, 1392768000, 76, 192, 1], [410552162, "Interna - serce", 0.0, 0, 1389744000, 50, 0, 0], [1416999242, "Intrebari limba romana marcu capitolele 1-3", 0.0, 0, 1390608000, 39, 0, 0], [2107904924, "Git (DRCS and SCM)", 5.0, 1, 1360886400, 100, 0, 0], [107494099, "Espa\u00f1ol en marcha - Nivel b\u00e1sico (A1 + A2)", 0.0, 0, 1374192000, 1177, 0, 0], [3136532859, "Deutsche Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 16, 0, 0], [936544387, "Roman Monarchy Deck", 0.0, 0, 1413504000, 100, 0, 0], [2657317463, "Chemie DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 28, 0, 0], [1017242423, "FHB L22: Special Circulations: Cutaneous & Splanchnic", 0.0, 0, 1422403200, 10, 0, 10], [2024058962, "Church figures, laws, and lawyers", 0.0, 0, 1345852800, 17, 0, 0], [3580487384, "GlyphStudy Collier&Manley Chapter 5 - Exercise", 0.0, 0, 1345852800, 88, 0, 176], [1197149892, "RTS Virtual Church History II Dates", 0.0, 0, 1364342400, 47, 0, 0], [533559436, "HMS.IHP.Cardio.Focused.Exercise.II", 0.0, 0, 1360886400, 13, 0, 0], [1131894875, "HI, Enfermer\u00eda 2do 1ero, comunitaria, 1er parcial...", 0.0, 0, 1403481600, 81, 0, 0], [1044011339, "Taiwan Driving Licences - Motorcycle", 0.0, 0, 1396137600, 583, 0, 236], [596235315, "Glasgow Intercal notes complete (Joseph Colclough) ", 0.0, 0, 1396137600, 629, 0, 69], [724814426, "Senior Cycle 1 RCSI", 0.0, 0, 1402185600, 1055, 0, 24], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [2232412781, "DE6 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 161, 0, 0], [1335075975, "IT + Computer PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 243, 0, 0], [841235653, "HI, Enfermer\u00eda 2do 2do, comunitaria, 2do parcial", 0.0, 0, 1403308800, 39, 0, 0], [194317212, "FRCPath Part II: Miscellaneous General Haematology", 0.0, 0, 1411257600, 137, 0, 2], [3308080288, "Deutsche Sprichw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 82, 0, 0], [1408116126, "FRCPath Part II: Malignant Haematology", 0.0, 0, 1411257600, 276, 0, 2], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [1685440442, "circuits", 0.0, 0, 1406419200, 5, 0, 0], [1799342418, "FHB Small Group: Special Circulation", 0.0, 0, 1422489600, 5, 0, 1], [652036161, "CofO2 - 9 - Microcirculation and Edema", 0.0, 0, 1345852800, 26, 0, 0], [4052224371, "155 S\u00e4tze - Wirtschaftsdeutsch - PL-DE - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [1359907483, "Farmacolog\u00eda II Ejemplos de interacciones 1er parcial", 0.0, 0, 1364169600, 10, 0, 0], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [1908956266, "Deutschtest 1 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [290298801, "Learn Python the Hard Way - Exercise 37", 0.0, 0, 1400630400, 38, 0, 0], [1177016547, "Statistics intercal alll ", 0.0, 0, 1367107200, 57, 0, 0], [1787034919, "Psychiatry RCSI", 0.0, 0, 1387411200, 418, 0, 0], [2425654603, "Tree Id Arch 136 Fall 2013", 1.0, 1, 1379030400, 1, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [1694384994, "WMS - RCT's", 0.0, 0, 1390608000, 15, 0, 0], [1280119221, "A - F (17) Le commerce et les affaires", 0.0, 0, 1416355200, 457, 0, 0], [3349670042, "Wirtschaftsdeutsch PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 214, 0, 0], [680377361, "Circle of Fifths - GuitarOS by Fretboard Anatomy", 0.0, 0, 1453766400, 51, 0, 0], [274125057, "HSC Biology: \"Search For Better Health\"", 0.0, 0, 1413676800, 266, 0, 5], [798342403, "Circumcised pulmonology 2", 0.0, 0, 1424995200, 167, 0, 8], [206341925, "K. March Goal", 0.0, 0, 1399939200, 30, 0, 0], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [1173187157, "Klett \"Moct I\" book, vocabulary from exercise 8", 0.0, 0, 1378339200, 49, 0, 0], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [1720439963, "Tercera lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 120, 2, 0], [1290753172, "Nervous You are; FORCE a powerful ally indeed", 0.0, 0, 1378339200, 971, 0, 244], [615602438, "kanji 2 marco", 0.0, 0, 1390089600, 71, 0, 0], [1200636963, "English Monarchs", 0.0, 0, 1353456000, 45, 0, 0], [546126633, "Max revel condorcet", 0.0, 0, 1425427200, 41, 0, 0], [2709737504, "Psicolog\u00eda Social primer parcial", 0.0, 0, 1345852800, 558, 0, 0], [2401346978, "Herr Bachfischer Geschichte Unten Durch", 0.0, 0, 1377475200, 194, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [1999287271, "Kanji 1 marco", 0.0, 0, 1390089600, 285, 0, 0], [2711089641, "Plural 250 (DaF) DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 250, 0, 0], [208097760, "CofO2 - 13 - Pulmonary Circulation", 0.0, 0, 1345852800, 16, 0, 0], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 5.0, 1, 1345852800, 113, 0, 0], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [2893249974, "Deutsche Komposita DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 32, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

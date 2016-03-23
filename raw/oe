@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1158491752, "LSE Lengua de Signos Espa\u00f1ola SignoEscritura 2015", 0.0, 0, 1429142400, 7824, 0, 7836], [2071543425, "Japanese Onomatopoeia and Mimetic Words by Onomato Project", 5.0, 1, 1454544000, 85, 0, 84], [638673681, "English Dutch, photo's, Take it Easy, unit 3 Groep 7", 5.0, 1, 1454889600, 40, 40, 40], [1116283841, "Passport B Rossijoe les 17 deel 1", 0.0, 0, 1454371200, 35, 0, 0], [1193287273, "Sopica coeur d\u00e9but", 0.0, 0, 1452902400, 13, 0, 0], [889883458, "Mimi kara oboeru goi N2", 0.0, 0, 1453852800, 1444, 1393, 823], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [1267581783, "Volcanoes (English-Italian)", 0.0, 0, 1452384000, 92, 92, 0], [1885763725, "Josue toefl", 0.0, 0, 1454976000, 279, 0, 2], [883233399, "T\u00fcrkisch Deutsch Lang KoEk", 0.0, 0, 1451779200, 8080, 0, 0], [2112136318, "Mimi kara oboeru N3 - \u0441\u043b\u043e\u0432\u0430 \u044e\u043d\u0438\u0442\u0430 3", 0.0, 0, 1452038400, 80, 0, 0], [3421526356, "Anno's Turkish (Tatoeba Sentence) Deck", 4.33, 3, 1375488000, 134091, 1435, 0], [1075465080, "Toefl for persian (Farsi) students", 0.0, 0, 1451520000, 1891, 0, 0], [1291077582, "Mimi kara oboeru N3 - \u0441\u043b\u043e\u0432\u0430 \u044e\u043d\u0438\u0442\u0430 2", 0.0, 0, 1452038400, 372, 0, 0], [1407732007, "English Take it Easy, groep 7, unit 2, with pictures", 0.0, 0, 1448841600, 42, 0, 39], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [2138511782, "AP Microeconomics Terms", 0.0, 0, 1450656000, 273, 0, 26], [415230069, "Gastroenterologi", 0.0, 0, 1450137600, 464, 0, 54], [1057189611, "Anatomy Toe Muscles", 0.0, 0, 1449619200, 124, 0, 45], [617497471, "A Dream Within a Dream-Edgar Allen Poe", 0.0, 0, 1449878400, 26, 0, 0], [1781327787, "Farmakologi - gastroenterologi", 0.0, 0, 1449360000, 6, 0, 0], [2344818168, "Esperanto-English Sentences from Tatoeba (with audio)", 0.0, 0, 1374451200, 456, 456, 0], [964541747, "Most common TOEFL words", 3.5, 2, 1380844800, 2466, 0, 0], [890842472, "bioavailability and bioequivalence (for uzo)", 0.0, 0, 1449878400, 8, 0, 14], [2036738806, "joey's vocab deck", 0.0, 0, 1449014400, 12, 0, 0], [411845063, "Toegepaste fysica", 0.0, 0, 1447718400, 9, 0, 0], [1085375872, "Deutsch Goethe a1 perfekt Vergangenheit ", 0.0, 0, 1448064000, 59, 3, 2], [619515654, "Intermediate (B1/B2) sentences from tatoeba", 0.0, 0, 1404345600, 4312, 0, 1], [1942434973, "Deutsch Goethe a1 Modalverben ", 0.0, 0, 1448064000, 30, 3, 2], [546602508, "Deutsch Goethe a1 imperative ", 0.0, 0, 1448064000, 64, 3, 2], [525761337, "Unit 3- reading 1- when does language learning begin?", 0.0, 0, 1449014400, 21, 0, 0], [381398147, "Anno's Dutch (Tatoeba Sentence) Deck\t", 5.0, 1, 1346112000, 3731, 0, 0], [1286095362, "Deutsch Goethe a1 schreiben Teil 3 Brief ", 0.0, 0, 1448064000, 19, 3, 2], [1177597200, "Algorithmist's German-English Tatoeba Sentences", 0.0, 0, 1444089600, 101839, 29, 31], [1884472117, "Goethe a1 h\u00f6ren Teil 1", 0.0, 0, 1447977600, 19, 22, 21], [633176088, "Goethe a1 h\u00f6ren Teil 2", 0.0, 0, 1447977600, 13, 16, 15], [1618957646, "GermanToEnglish", 0.0, 0, 1445299200, 597, 0, 0], [1832084361, "Cellen & homoestas", 0.0, 0, 1446681600, 43, 0, 0], [641758211, "Goethe a1 h\u00f6ren Teil 3", 0.0, 0, 1447977600, 22, 25, 17], [1675739495, "Goethe a1 h\u00f6ren \u00dcbungen ", 0.0, 0, 1447977600, 43, 45, 2], [441158767, "Goethe a1 trennbare verben", 0.0, 0, 1447977600, 34, 3, 21], [897040456, "Goethe a1 Klamotten ", 0.0, 0, 1447977600, 35, 3, 26], [1239529011, "The Most Important Words Of TPO for TOEFL", 4.0, 2, 1444262400, 1207, 36, 55], [1884736848, "Deutsch Goethe a1 schreiben Teil 2 Formular ", 0.0, 0, 1448064000, 10, 3, 2], [1711750613, "Goethe A1 Sprechen: Bitten", 0.0, 0, 1447977600, 38, 3, 40], [1708037740, "400 must have words for the TOEFL ", 5.0, 1, 1444521600, 402, 438, 19], [1655875748, "Goethe a1 das Wetter ", 0.0, 0, 1447977600, 16, 3, 16], [1988434165, "400 TOEFL Words", 4.11, 9, 1345852800, 399, 0, 0], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [33008892, "Deutsch Goethe Essen und Trinken", 0.0, 0, 1445040000, 89, 0, 24], [454663294, "Deutsch Goethe A1 Sprechen: Fragen", 0.0, 0, 1447977600, 67, 3, 69], [1044829030, "difficult words for the POE exam", 0.0, 0, 1445472000, 128, 140, 1], [197736293, "Deutsch Goethe Adjektive mit Gegenteil ", 0.0, 0, 1448064000, 36, 3, 2], [98868882, "Algorithmist's Hindi-English Tatoeba Sentences", 0.0, 0, 1443830400, 2623, 29, 31], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [2029355477, "600 essential TOEIC - Polish", 0.0, 0, 1442188800, 625, 653, 601], [1424926379, "Algorithmist's  Finnish-English Tatoeba Sentences", 0.0, 0, 1443744000, 30717, 28, 30], [150000781, "BBC Does your CV shine?", 0.0, 0, 1445472000, 14, 0, 7], [2427803041, "Essential Words for TOEFL", 0.0, 0, 1357948800, 460, 0, 0], [1995920833, "Onomatopoeia Japanese - Englisch", 1.0, 1, 1440028800, 97, 0, 0], [1740812666, "Serbian Eng Tatoeba Sentences (Optimized for Srp-Eng) AAL", 0.0, 0, 1434153600, 737, 26, 103], [97313721, "Deutsch Goethe wohnen", 0.0, 0, 1445299200, 53, 0, 31], [1666280420, "Gastroenterologia", 0.0, 0, 1442966400, 10, 0, 0], [2003785165, "600 essential TOEIC-CURIOUS (full) ", 5.0, 2, 1411862400, 625, 653, 601], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [208971974, "Serbian Eng Tatoeba Sentences (Optimized for Eng-Srp) AAL", 0.0, 0, 1434153600, 668, 26, 103], [245189997, "Ballstothe ReproEndo", 0.0, 0, 1440720000, 856, 0, 28], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [3642015721, "Toefl - Persian Explanation", 3.75, 4, 1354838400, 2814, 0, 0], [498506379, "Boerma Instituut's Flower Name Deck", 0.0, 0, 1441324800, 30, 0, 30], [633891512, "\u65e0\u8001\u5e08TOEFL\u8bcd\u6c47\u7ea2\u5b9d\u4e66", 0.0, 0, 1420416000, 2629, 2613, 7], [202822959, "boeing 727 System Review Questions and Answers", 0.0, 0, 1435276800, 134, 285, 26], [2030400381, "Poetry Terms", 0.0, 0, 1414281600, 50, 0, 0], [319453106, "Passport B Rossijoe les 11 deel 2", 0.0, 0, 1422144000, 57, 0, 0], [1231963447, "Boeing 727 momery items (Emergency Checklist)", 0.0, 0, 1435276800, 13, 89, 8], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [44450023, "Passport B Rossijoe les 13 deel 3", 0.0, 0, 1448323200, 39, 0, 0], [1342339439, "TOEIC for MSCS ESL1", 0.0, 0, 1398729600, 139, 0, 0], [705945063, "Passport v Rossijoe les 7, tweede deel", 0.0, 0, 1413676800, 24, 0, 0], [523354007, "Useful Indoensian Classifiers (google translate audio)", 0.0, 0, 1435363200, 19, 19, 0], [970661892, "boe", 0.0, 0, 1362700800, 42, 0, 129], [268620646, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [1503073102, "TOEIC Vocab - English for Japanese - \u65e5\u672c\u4eba\u306e\u305f\u3081\u306e\u82f1\u8a9e\u30b3\u30fc\u30b9", 4.5, 2, 1414195200, 1062, 1053, 1051], [2370686572, "Preposicoes (SLC)", 0.0, 0, 1384300800, 16, 0, 0], [687028319, "Passport B Rossijoe les 9 deel 2", 0.0, 0, 1416614400, 38, 0, 0], [1781700801, "Joey's Jizzing UWS Cards", 0.0, 0, 1414368000, 157, 0, 2], [40490366, "Essential Words for the TOEFL [Organized]", 4.5, 2, 1345852800, 450, 0, 0], [1837953188, "Essential Words for the TOEFL [Persian]", 4.0, 10, 1345852800, 450, 0, 0], [2082075702, "Doen\u00e7as do Es\u00f4fago", 0.0, 0, 1426982400, 37, 0, 2], [1778820534, "GroepT7_1__Les_8_9_10__NL2ES", 0.0, 0, 1390780800, 377, 0, 0], [880317659, "ECOE", 0.0, 0, 1367020800, 141, 0, 75], [1061333546, "Passport B Rossijoe les 13 deel 1", 0.0, 0, 1448323200, 30, 0, 0], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1539092241, "Essential Words for the TOEFL EN-FA [Persian] + examples", 4.67, 6, 1404345600, 446, 768, 0], [261493036, "Passport v Rossijoe les 8, eerste deel", 0.0, 0, 1414972800, 44, 0, 0], [1079858452, "Passport B Rossijoe les 10 deel 1", 0.0, 0, 1417651200, 45, 0, 0], [321730742, "Passport B Rossijoe les 11 deel 1", 0.0, 0, 1421625600, 66, 0, 0], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [1725817201, "Passport B Rossijoe les 13 deel 2", 0.0, 0, 1448323200, 44, 0, 0], [1901909319, "tatoeba", 0.0, 0, 1345852800, 1444, 1444, 0], [1290168935, "videoele antes y ahora", 0.0, 0, 1421625600, 122, 0, 0], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1818811195, "Vocabulaire sp\u00e9cifique anglais TOEIC", 0.0, 0, 1410134400, 868, 0, 0], [336799997, "K4 \u2013 Billeddiagnostik OE", 0.0, 0, 1398988800, 360, 0, 129], [3419069801, "zoeyzy", 0.0, 0, 1355097600, 129, 0, 0], [959693892, "Swahili toevoegingen les 9-12", 0.0, 0, 1431907200, 111, 0, 0], [2454392946, "Poetry for Children", 0.0, 0, 1345852800, 18, 0, 0], [1742764581, "Passport v Rossijoe les 6, tweede deel", 0.0, 0, 1412121600, 32, 0, 0], [2007936468, "400 must have words for the TOEFL", 0.0, 0, 1431734400, 400, 0, 4], [298326510, "Examen de Gastroenterologia Terapeutica", 0.0, 0, 1432166400, 43, 0, 8], [597325450, "videoele/consejos", 0.0, 0, 1426377600, 197, 0, 0], [818909923, "Blynyddoedd", 0.0, 0, 1398211200, 30, 0, 0], [1133175335, "Zoe_Japanese", 0.0, 0, 1427846400, 8, 0, 0], [1211960241, "Chloe: Renal diseases", 0.0, 0, 1425945600, 19, 0, 0], [2844383995, "302 EO-CN sentences FROM Tatoeba.org", 0.0, 0, 1360540800, 302, 0, 0], [11801002, "videoele: la ropa 2.", 0.0, 0, 1423526400, 133, 0, 0], [725566744, "otuhapohoewnhfao;enfopewbhfopiguh", 0.0, 0, 1420329600, 128, 0, 0], [236331332, "DDO Gastrointestinal Emergencies - Oesophageal emergencies", 0.0, 0, 1415232000, 21, 0, 0], [1646252680, "Passport B Rossijoe les 10 deel 2", 0.0, 0, 1419206400, 53, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [706663784, "Boeing 727 Limitation", 0.0, 0, 1435276800, 110, 3, 4], [1413518980, "TOEIC5-1(RTK)", 0.0, 0, 1417219200, 696, 0, 0], [1557344829, "SM iphone oerb", 0.0, 0, 1424995200, 1918, 0, 13], [1481070479, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [1576820273, "videoele: la ropa", 0.0, 0, 1423526400, 64, 0, 0], [1415247295, "Chloe Glomerular Diseases", 0.0, 0, 1425945600, 30, 0, 0], [76048964, "Passport v Rossijoe les 7, eerste deel", 0.0, 0, 1412121600, 42, 0, 0], [1148532217, "toefl", 0.0, 0, 1409961600, 522, 0, 0], [306544415, "GroepT7_1__Les_8_9_10__ES2NL", 0.0, 0, 1390780800, 247, 0, 0], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [1362154521, "Note Thoe: Dialogue ", 0.0, 0, 1419724800, 1, 7, 0], [1084128695, "VG's Biochemistry: Bioenergetics", 0.0, 0, 1408752000, 3, 0, 1], [1185600625, "Microeconomics 304k Sibley", 1.0, 1, 1414627200, 3, 0, 0], [1930180302, "IELTS,TOEFL  Vocabulary", 3.0, 2, 1357344000, 2316, 0, 0], [2080527658, "BIOEN 1020 Exam 3 Learning Objectives", 0.0, 0, 1398643200, 45, 0, 15], [1653962653, "Personal TOEFL Vocab", 0.0, 0, 1428796800, 321, 82, 12], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [2790171650, "Vocabulary for TOEFL PBT", 4.5, 2, 1345852800, 450, 25, 0], [2006684745, "Swahili toevoegingen les 1-4", 0.0, 0, 1431907200, 159, 0, 0], [2228299718, "Bible Quiz 29: Joel", 0.0, 0, 1345852800, 14, 0, 0], [696804506, "Swahili toevoegingen les 6-7", 0.0, 0, 1432684800, 55, 0, 0], [799949918, "Italian Tatoeba Sentences (Native Translations)", 5.0, 1, 1419465600, 61918, 10, 2], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [831853481, "Passport B Rossijoe les 12 deel 1", 0.0, 0, 1448323200, 35, 0, 0], [1011923924, "SM latino Oerb italiano", 0.0, 0, 1423353600, 1918, 0, 13], [2112910924, "PMP Moez", 0.0, 0, 1417996800, 50, 0, 0], [4083876071, "CVO Roeselare study words", 0.0, 0, 1381104000, 30, 0, 0], [576684508, "CUVIROEX2SG", 0.0, 0, 1396310400, 70, 0, 142], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [1483352559, "Passport B Rossijoe les 9 deel 3", 0.0, 0, 1417478400, 26, 0, 0], [2094271167, "goethe.de (a1)", 0.0, 0, 1404345600, 1, 0, 0], [3078424777, "Mankiw - Macroeconomics", 0.0, 0, 1368403200, 16, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [277495484, "BMOS toets", 0.0, 0, 1430092800, 26, 8, 30], [4120341371, "Chinese Jeroen", 0.0, 0, 1345852800, 580, 0, 0], [1327091703, "Passport B Rossijoe les 9 deel 1", 0.0, 0, 1415923200, 40, 0, 0], [335784705, "Voelz Greek Vocabulary", 3.0, 1, 1345852800, 547, 0, 0], [2362845513, "Conjuncoes (SLC)", 0.0, 0, 1384300800, 9, 0, 0], [1223227363, "Anything Goes Chinese Lesson 17", 0.0, 0, 1390780800, 92, 0, 0], [1747245368, "Anno's Hebrew Tatoeba Sentence Deck (with audio)", 3.5, 4, 1375920000, 32479, 941, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [509177649, "UQ MBBS 1 PBL 6 He Doesn't Listen to a Word I Say", 0.0, 0, 1395532800, 57, 0, 0], [1220569063, "Super joey ", 0.0, 0, 1415059200, 439, 0, 44], [603204509, "SM Oerberg Familia Romana 1-20 latino-italiano e italiano-la", 0.0, 0, 1423267200, 948, 0, 13], [281819247, "X-Ray Photoelectron Spectroscopy ", 0.0, 0, 1387411200, 11, 0, 7], [377345126, "Greek Poetry Class", 0.0, 0, 1345852800, 960, 0, 0], [3581950317, "Biblical Poetry", 0.0, 0, 1345852800, 25, 0, 0], [2049651326, "Block 2 - Haematopoesis", 0.0, 0, 1388448000, 49, 0, 8], [367801778, "Passport B Rossijoe les 12 deel 3", 0.0, 0, 1448323200, 19, 0, 0], [1812957209, "chinese sentences from tatoeba", 0.0, 0, 1417910400, 18896, 0, 1], [454850096, "Passport B Rossijoe grammatica les 11", 0.0, 0, 1424476800, 24, 0, 0], [1557232268, "Passport B Rossijoe les 12 deel 2", 0.0, 0, 1448323200, 53, 0, 0], [1927344330, "Passport B Rossijoe les 8 deel 2", 0.0, 0, 1415404800, 25, 0, 0], [3735369741, "504 - TOEFL", 0.0, 0, 1357948800, 533, 0, 0], [1362411017, "Expressoes (SLC)", 0.0, 0, 1384300800, 33, 0, 0], [1696781240, "Toets Gesproken Nederlands (TGN)", 0.0, 0, 1413072000, 684, 708, 0], [2017456166, "New TOEIC Frequently-used Vocabulary", 0.0, 0, 1407801600, 896, 2, 7], [2613296470, "500 Words for TOEFL iBT Stirling 2010", 0.0, 0, 1383696000, 500, 0, 97], [210989187, "German Vocabulary: Poetry and Prose", 0.0, 0, 1345852800, 82, 0, 0], [1683104414, "Engelse woorden - moeilijk - NL -> EN", 0.0, 0, 1428969600, 472, 0, 15]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Oe</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

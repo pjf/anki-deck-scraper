@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[831167744, "Ultimate kanji-reading deck  (kanji + words + statistics)", 5.0, 4, 1446940800, 25380, 0, 0], [886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1454198400, 49, 0, 6], [1480731014, "soft tissue injury", 0.0, 0, 1454803200, 80, 0, 0], [743421837, "Neuro Step 1 NSpottiswoode", 0.0, 0, 1454630400, 171, 0, 6], [2045717832, "Important Artists to Remember", 0.0, 0, 1453852800, 12, 0, 0], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [1737581396, "Scottish Gaelic Adjectives", 0.0, 0, 1453766400, 139, 135, 167], [2087980298, "Scottish Gaelic Verbs", 0.0, 0, 1453680000, 124, 214, 104], [1620071018, "Scottish Gaelic Feminine Nouns", 0.0, 0, 1453420800, 171, 278, 283], [1293353034, "statistik 7 kowi uhlemann", 0.0, 0, 1452211200, 12, 0, 12], [1478936314, "Scottish Gaelic Masculine Nouns", 0.0, 0, 1453420800, 307, 427, 411], [237183522, "CVS - pericarditis", 0.0, 0, 1452124800, 6, 0, 0], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [135740735, "Statistics -pk", 0.0, 0, 1450915200, 10, 0, 0], [1797533999, "statistik 6 kowi uhelmann", 0.0, 0, 1452211200, 12, 0, 11], [1343750301, "Infective Carditis", 0.0, 0, 1449187200, 63, 0, 0], [1094861888, "CSIM2 - Multisystem Disease", 0.0, 0, 1449878400, 108, 0, 0], [185063094, "Pharmazie - Ringvorlesung - pharmazeutische Chemie", 0.0, 0, 1449878400, 24, 0, 0], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 4.0, 1, 1409443200, 106, 0, 127], [785158363, "Farmaceutische Chemie", 0.0, 0, 1448841600, 34, 0, 2], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [674964730, "Pharmazie - Ringvorlesung: pharmazeutische Technologie", 0.0, 0, 1449878400, 45, 0, 2], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [977344955, "statistik 3 uhlemann kowi", 0.0, 0, 1447891200, 9, 0, 5], [840475842, "Module 2 - R\u00e9vision de la statistique et normes", 0.0, 0, 1449446400, 42, 0, 0], [298864061, "Das Neue Praktische Chinesisch (Band 1-3)", 3.67, 3, 1345852800, 1925, 0, 0], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [1262233856, "nItishatakam of bhartrhari", 0.0, 0, 1446854400, 110, 0, 0], [353300711, "miriam-tissue", 0.0, 0, 1444521600, 62, 2, 82], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [1910277426, "Basic statistical terms and intuition ", 0.0, 0, 1442707200, 186, 0, 23], [1648141761, "miriam-tissue repair", 0.0, 0, 1444521600, 58, 2, 82], [607132059, "Connective tissue ", 0.0, 0, 1443052800, 62, 0, 0], [1346799433, "Norsk privatist Jostein Christensen og Asbj\u00f8rn Aag", 0.0, 0, 1441670400, 77, 3, 34], [1584106381, "B1: soft tissue", 0.0, 0, 1441411200, 14, 0, 0], [228328181, "MTH - Histo: Connective Tissue", 0.0, 0, 1440460800, 14, 0, 0], [91537764, "Connective tissue", 0.0, 0, 1441238400, 25, 0, 10], [17505518, "Anatomy lecture ch. 6 bone tissue", 0.0, 0, 1443830400, 23, 0, 0], [1915605482, "Soft tissue tumors MSK", 0.0, 0, 1440547200, 26, 0, 34], [321353496, "box info up to connective tissue", 0.0, 0, 1440806400, 511, 0, 3], [1061613207, "Triola Essential Statistics", 0.0, 0, 1440115200, 42, 0, 0], [683848162, "[CAN 134] British Political Vocabulary", 0.0, 0, 1442793600, 34, 0, 0], [1359925876, "Theoretische Physik: Quantenmechanik", 0.0, 0, 1392249600, 84, 0, 271], [2827633339, "HMS.IMP.Meningitis", 0.0, 0, 1365638400, 19, 0, 5], [110957057, "Gr_Idiotismoi", 0.0, 0, 1429833600, 291, 0, 0], [1131934718, "minimals biostatistics", 0.0, 0, 1385424000, 30, 0, 61], [2533236654, "Svenska idiomatiska uttryck", 0.0, 0, 1360627200, 1034, 0, 0], [938583778, "UP-ERN Statistik", 0.0, 0, 1438214400, 54, 0, 18], [2804383900, "Histology Lymph Tissue", 0.0, 0, 1351123200, 28, 0, 0], [3235936325, "56 Acute Pancreatitis", 0.0, 0, 1362960000, 27, 0, 0], [1558864285, "ILM Tissue Staining", 0.0, 0, 1409443200, 18, 0, 0], [1529639272, "rowan som histology block 1 lecture 2 connective tissue", 0.0, 0, 1409270400, 125, 0, 151], [75345140, "Autism Spectrum Disorders", 0.0, 0, 1428969600, 25, 0, 0], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [1144782560, "Basic Tissues Exam 1", 0.0, 0, 1423612800, 357, 0, 4], [1835485847, "Effects on Injury on Tissue 2 Lab VIJ", 0.0, 0, 1413072000, 18, 0, 31], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [17013189, "Vasculitis", 0.0, 0, 1396742400, 47, 0, 30], [478163536, "Statistische Methoden der Risikotheorie", 0.0, 0, 1427932800, 29, 0, 33], [816531956, "oncologie specialistische farmacotherapie", 0.0, 0, 1412294400, 224, 0, 0], [2024316148, "Numerische und stochastische Grundlagen der Informatik", 0.0, 0, 1425254400, 34, 0, 68], [169718960, "MICRO EXAM 4 - STIs", 0.0, 0, 1423699200, 291, 0, 153], [1531742625, "Connective Tissue", 0.0, 0, 1414108800, 86, 0, 0], [735818947, "Muscle tissue histo lecture", 0.0, 0, 1409702400, 39, 0, 1], [3822468040, "Micro.Meningitis.HMS16", 0.0, 0, 1366675200, 21, 0, 7], [116920067, "Statistics in Medical Decision Making\t", 0.0, 0, 1424649600, 19, 0, 28], [514289067, "Week 1 Epithelium & Connective Tissue", 0.0, 0, 1409443200, 74, 0, 0], [776184665, "HMS.IMP.Cells.Tissue.Immune", 0.0, 0, 1364342400, 20, 0, 6], [3053287388, "Reflux Esophagitis and Esophageal Cancer", 0.0, 0, 1376611200, 61, 0, 18], [1503659359, "\u010ce\u0161tina - Sv\u011btov\u00fd romantismus", 0.0, 0, 1411344000, 28, 0, 0], [1010863370, "MDTI 01.29.15 Rheumatoid Arthritis", 0.0, 0, 1422576000, 52, 0, 4], [184070046, "DDO Gastro - viral hepatitis and jaundice", 0.0, 0, 1415836800, 8, 0, 0], [173032343, "Theoretische Mechanik", 0.0, 0, 1421884800, 15, 0, 15], [3688309102, "Deutsch-Kroatisch", 0.0, 0, 1387324800, 1509, 0, 0], [1464857021, "Spondylitis", 0.0, 0, 1423267200, 24, 0, 9], [1466562586, "Micro Exam 1 - Nitish", 0.0, 0, 1409529600, 91, 0, 33], [928140404, "Wallangues / Altissia Pronunciation English", 0.0, 0, 1386633600, 53, 0, 0], [400985285, "Statistik und Thermodynamik", 0.0, 0, 1392249600, 142, 0, 345], [54778688, "Probability and Statistics (Temple University) Deck", 0.0, 0, 1424217600, 68, 0, 5], [1481124319, "RNL4UTIs", 0.0, 0, 1424995200, 27, 0, 0], [1070053062, "Statistical Measures: Rates and Measures of risk\t", 0.0, 0, 1424649600, 26, 0, 48], [2104865213, "AP Statistics", 0.0, 0, 1414368000, 23, 0, 12], [299042074, "Test share deck - connective tissues", 0.0, 0, 1423440000, 41, 0, 0], [1776784992, "British Authors - Titles", 0.0, 0, 1352332800, 33, 0, 0], [83746521, "Hackprentissage", 0.0, 0, 1369699200, 1, 0, 0], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [1898850445, "Hapatitis Pathology", 0.0, 0, 1424736000, 36, 0, 3], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [476449916, "Renal up through glomerulonephritis", 0.0, 0, 1431734400, 589, 0, 60], [1679447346, "Cambridge Part II Physics: Thermal and Statistical Physics", 0.0, 0, 1413504000, 35, 0, 30], [454102104, "Statistica Matematica - Unina", 0.0, 0, 1434240000, 74, 3, 171], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [3636079083, "Svenska idiomatiska uttryck", 0.0, 0, 1358553600, 941, 0, 0], [1667159144, "Biochem, Unit 4; Bone Tissue", 0.0, 0, 1414108800, 101, 0, 0], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [2122130615, "MCV 2018 Basic Tissues", 0.0, 0, 1418256000, 50, 0, 50], [998551176, "Micro: Tissue Responses to Infection 10/30", 0.0, 0, 1415318400, 56, 0, 6], [2032385308, "DDO Paediatrics - UTIs in infants and children ", 0.0, 0, 1409616000, 25, 0, 0], [1003871939, "MCM Test 3: 8.14 Nerve Tissue (Heck)", 0.0, 0, 1408492800, 61, 0, 0], [2066762825, "Automatisierungstechnik I TU Berlin", 0.0, 0, 1427155200, 64, 0, 52], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [1057658858, "MSA 8.37 - Dentistry and Health Consultation", 0.0, 0, 1426636800, 29, 0, 0], [662887611, "Kapitel 5 Tissue", 0.0, 0, 1364342400, 18, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [444363831, "Rheumatology Osteoarthritis", 0.0, 0, 1422835200, 57, 0, 1], [1227945861, "HMS.IMP.Hepatitis", 0.0, 0, 1367452800, 17, 0, 14], [3609594007, "MHCHS Timeline of British Empire 1492-1763", 0.0, 0, 1370131200, 26, 0, 0], [1476521219, "MDTI 02.04.15 Infectious Arthritis", 0.0, 0, 1423094400, 41, 0, 2], [1885081400, "Stochastische Integration und Finanzmathematik", 0.0, 0, 1418342400, 255, 0, 303], [1715145526, "Max*/Matiar/Ameer Cell and Tissue Injury", 0.0, 0, 1377820800, 44, 0, 25], [1214097576, "MDTI 02.02.15 Rheumatology Vasculitis", 0.0, 0, 1422921600, 40, 0, 6], [404672408, "Rheum - Autoimmunity, Arthritis, Lab Tests", 0.0, 0, 1360886400, 86, 0, 31], [26259884, "Cell Tissue and Biology Final Exam (Lab)", 1.0, 1, 1413244800, 244, 0, 0], [1195191974, "Rheum - Vasculitis, Myositis", 0.0, 0, 1361145600, 54, 0, 18], [2111317989, "Dentistry Chemistry", 0.0, 0, 1387411200, 10, 0, 25], [581329178, "Statistik B2 Uni Bonn", 0.0, 0, 1410134400, 50, 0, 16], [1076382311, "British Bird Songs", 0.0, 0, 1393891200, 50, 50, 0], [1177016547, "Statistics intercal alll ", 0.0, 0, 1367107200, 57, 0, 0], [981785458, "Mathematische Grundlagen f\u00fcr Abi und Studium", 0.0, 0, 1427155200, 144, 0, 73], [805679483, "Micro 12/9: Viral Hepatitis ", 0.0, 0, 1418688000, 59, 0, 0], [1276925019, "Edexcel GCE Mathematics: Statistics S2", 0.0, 0, 1421712000, 29, 0, 2], [2132075769, "Week 1 Muscle and Peripheral Neural Tissue", 0.0, 0, 1409443200, 18, 0, 0], [3264013397, "A&P Exam #2: Cell Anatomy, Tissues, Bones", 0.0, 0, 1382745600, 0, 0, 0], [839019034, "Thai tone pronunciation practise", 0.0, 0, 1399507200, 94, 94, 0], [525907052, "Marys Statistik @ WU Wien", 0.0, 0, 1387065600, 57, 0, 63], [709742492, "Histology - Connective Tissue", 0.0, 0, 1408752000, 54, 0, 0], [2316163379, "CRM- Storage and use of Human tissue ", 0.0, 0, 1367539200, 11, 0, 1], [1028493176, "TISANE + ? (OTCWL 2014)", 0.0, 0, 1426896000, 24, 0, 0], [2090293558, "RLR #96 \u2013 Kickass Habits & British Accents", 5.0, 1, 1426636800, 31, 31, 0], [615269984, "IMC 501 - Epithelial Tissue", 0.0, 0, 1407196800, 107, 0, 34], [2020634774, "Effects of Injury on Tissues 2 VIJ", 0.0, 0, 1413072000, 24, 0, 22]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tis</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

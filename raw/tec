@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1470114103, "Klausurtechnik f\u00fcr das Jura-Studium", 5.0, 2, 1438041600, 62, 0, 6], [877590109, "Anglais technique ENSM semestre 2", 0.0, 0, 1454457600, 145, 25, 6], [986229768, "Biomedizinische Technik TU Dresden", 5.0, 1, 1454544000, 85, 0, 0], [852919416, "Oberfl\u00e4chen und Schichttechnik", 0.0, 0, 1454716800, 35, 0, 0], [476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [73545654, "SM32 - Umino's Resolve: I'll Protect Naru", 0.0, 0, 1454630400, 30, 0, 0], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [1259908002, "AWS Solutions Architect Cert", 4.0, 1, 1452643200, 208, 0, 0], [1504008975, "Technisches Management Kapitel 3", 0.0, 0, 1453161600, 1, 0, 0], [1545067402, "oceanography-Earths structure and plate techtonics ", 0.0, 0, 1453852800, 18, 0, 0], [1359180267, "E-Technik", 0.0, 0, 1377820800, 30, 0, 0], [84435293, "Citologia Pr\u00e1tica - Tecido Muscular", 0.0, 0, 1451865600, 43, 0, 39], [1666783479, "Westminster Catechisms and Confession", 0.0, 0, 1451692800, 359, 0, 0], [348404039, "SM06 - Protect the Melody of Love: Usagi Plays Cupid", 0.0, 0, 1451606400, 28, 0, 0], [1288080496, "Citologia Pr\u00e1tica - Tecido Nervoso", 0.0, 0, 1451865600, 64, 0, 48], [234145886, "Baltimore Catechism No3", 0.0, 0, 1392768000, 1400, 0, 0], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [1614364983, "Heidelberg Catechism", 0.0, 0, 1451692800, 128, 0, 0], [553580184, "Q: Skills for Success Unit 3 Technology ", 0.0, 0, 1447027200, 30, 0, 0], [1959363981, "biotech (for uzo)", 0.0, 0, 1449878400, 21, 0, 45], [674964730, "Pharmazie - Ringvorlesung: pharmazeutische Technologie", 0.0, 0, 1449878400, 45, 0, 2], [2010857052, "Life Protection", 0.0, 0, 1447718400, 241, 0, 3], [523528641, "Inglese tecnico contabile", 0.0, 0, 1443484800, 196, 6, 1], [1552894770, "VIT - Rechnertechnik", 0.0, 0, 1444089600, 10, 0, 5], [1505753053, "Umich MCDB 310 Exam 1 Notecards ", 0.0, 0, 1443916800, 74, 0, 0], [115131360, "Calc Techniques", 0.0, 0, 1441756800, 5, 0, 6], [1886213578, "TouroCOM OMM Year 1 Practical Techniques", 0.0, 0, 1442188800, 139, 1, 230], [58496566, "Deck para concursos da \u00e1rea de Tecnologia da Informa\u00e7\u00e3o", 4.6, 5, 1345852800, 6035, 0, 757], [1386947410, "teck akbari", 0.0, 0, 1442361600, 130, 112, 1], [2088277137, "Luther's Catechism Enchiridion + 100 Passages", 0.0, 0, 1452384000, 273, 0, 0], [1420022603, "Sterile Technique", 0.0, 0, 1439856000, 6, 0, 0], [1725447480, "Technische Systeme", 0.0, 0, 1439596800, 5, 0, 0], [1566039705, "Block 3 - Data protection ", 0.0, 0, 1391212800, 23, 0, 0], [917150695, "MCP Lecture 15 Notecards", 0.0, 0, 1440460800, 111, 0, 18], [2022834759, "Anatomy & Techniques", 0.0, 0, 1389225600, 217, 0, 0], [98651661, "Technische Anweisungen", 0.0, 0, 1435017600, 14, 0, 0], [1468059189, "Surgical Technology Anatomy 122", 0.0, 0, 1430870400, 80, 0, 80], [1522011268, "MKL Technische Systeme", 0.0, 0, 1437004800, 97, 0, 0], [1405315187, "Amateur Radio 2014-2018 Technician Question Pool", 0.0, 0, 1399334400, 426, 0, 3], [1672491756, "MATERIALI TECNOLOGIA", 0.0, 0, 1434672000, 2, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1764017645, "Michta technology", 0.0, 0, 1400371200, 81, 0, 0], [1677281222, "UTEC II", 0.0, 0, 1436140800, 60, 0, 25], [1664129032, "Elettrotecnica", 0.0, 0, 1429056000, 50, 0, 60], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [1090373559, "Verfahrenstechnik - Pumpen #1", 0.0, 0, 1406073600, 7, 0, 0], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [1512132038, "technical words", 0.0, 0, 1438387200, 10, 2, 8], [768426120, "Verfahrenstechnik - Pumpen #2", 0.0, 0, 1406073600, 1, 0, 0], [166674709, "UPB_F\u00fcgetechnik_A", 0.0, 0, 1422403200, 134, 0, 72], [2057585343, "Biochem, Unit 4; Recombinant DNA Technology", 0.0, 0, 1414108800, 40, 0, 0], [863606079, "Softwaretechnik 2 am KIT WS1415", 0.0, 0, 1429315200, 675, 0, 2], [144985236, "Technische Informatik am KIT", 0.0, 0, 1364601600, 78, 0, 4], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [2311532194, "Tech Support 1", 0.0, 0, 1345852800, 157, 0, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [1463500101, "Technical Vocabulary List", 0.0, 0, 1389312000, 1099, 0, 0], [447135458, "Arquitetura e tecnologias de sistemas de informa\u00e7\u00e3o", 0.0, 0, 1437696000, 11, 0, 0], [1980397294, "Energie Technik Uni Duisburg-Essen", 0.0, 0, 1390867200, 85, 0, 74], [181873587, "Digitaltechnik am KIT vom WS12/13", 0.0, 0, 1375315200, 254, 0, 0], [1600751078, "WerkstofftechnikMarkH", 0.0, 0, 1402617600, 72, 0, 61], [3712856399, "International Business Test 1 Notecards", 0.0, 0, 1362873600, 21, 0, 0], [1716758613, "Tema 5. Tecnolog\u00eda Farmac\u00e9utica II. Formas rectales y vagina", 0.0, 0, 1365379200, 210, 0, 0], [1665477013, "Precambrian Tectonics", 0.0, 0, 1396310400, 33, 0, 0], [1715696218, "New City Catechism", 0.0, 0, 1357689600, 52, 0, 0], [1868462313, "English vocabulary used in technical books", 0.0, 0, 1418083200, 48, 0, 0], [253151767, "Produktionstechnik II TU Berlin", 0.0, 0, 1437523200, 94, 0, 10], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [404266064, "Cantonese: Technology", 0.0, 0, 1426550400, 59, 0, 0], [1628940778, "FH Technikum Wien - Audiotechnik", 0.0, 0, 1422230400, 38, 0, 9], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [3553975077, "Geb\u00e4udetechnik Fragenkatalog", 0.0, 0, 1358812800, 79, 0, 0], [737595128, "Verfahrenstechnik - R\u00fchrwerke", 0.0, 0, 1406073600, 8, 0, 0], [348135565, "Messtechnik", 0.0, 0, 1444348800, 12, 0, 4], [340550950, "Verfahrenstechnik - Trockner", 0.0, 0, 1406073600, 7, 0, 0], [895978895, "Japanese Detective/Crime Vocab", 0.0, 0, 1408320000, 182, 0, 0], [3953375097, "Westminster Shorter Catechism ", 0.0, 0, 1345852800, 47, 0, 0], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [1294088285, "Verfahrens- & Umwelttechnik Beuth", 0.0, 0, 1399420800, 216, 0, 127], [2066762825, "Automatisierungstechnik I TU Berlin", 0.0, 0, 1427155200, 64, 0, 52], [785914382, "Software Technik II am KIT", 0.0, 0, 1394668800, 15, 0, 2], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [679765693, "Verfahrenstechnik - Str\u00f6mungstechnik", 0.0, 0, 1406073600, 4, 0, 0], [1061963553, "Westminster Shorter Catechism w/ clean Formatting and Fields", 4.67, 3, 1407888000, 107, 0, 0], [114367886, "IK Fragenkatalog (Industrielle Kommunikationstechnik)", 0.0, 0, 1345852800, 129, 0, 8], [1619967939, "Technisches Englisch", 0.0, 0, 1399852800, 345, 429, 2], [1829998215, "Schaltungstechnik", 0.0, 0, 1435536000, 16, 0, 4], [1728902028, "Verfahrenstechnik - Mechanisches Trennen", 0.0, 0, 1406073600, 4, 0, 0], [729734698, "atecubanos", 0.0, 0, 1366416000, 10, 0, 0], [2775509690, "Catechism for Young Children", 5.0, 1, 1357689600, 145, 0, 0], [1637201598, "Construction Technology, Bridges.", 0.0, 0, 1394409600, 46, 5, 35], [158300759, "Westminster Larger Catechism", 4.0, 1, 1398643200, 196, 0, 0], [372344843, "Verfahrenstechnik - W\u00e4rmetechnik", 0.0, 0, 1406073600, 11, 0, 0], [2077295616, "Voc Anglais \"Science, New Technologie and Astronautics\"", 0.0, 0, 1360886400, 76, 0, 0], [994086081, "Tectonics Chapter 6", 0.0, 0, 1392076800, 18, 0, 0], [4092068, "Verfahrenstechnik - Arbeitssicherheit", 0.0, 0, 1406073600, 12, 0, 0], [2066332373, "Midterm Notecards for Mrs. Weber's Clas", 0.0, 0, 1428969600, 85, 0, 144], [1417747720, "technische Projektanalyse", 0.0, 0, 1423353600, 0, 0, 0], [3373965339, "Tema 06. Tecnolog\u00eda Farmace\u00fatica II. Liofilizaci\u00f3n", 0.0, 0, 1365206400, 150, 0, 22], [4060294887, "Intermediate Technical Japanese vocabulary", 0.0, 0, 1387152000, 1407, 3, 1], [270812051, "Tecnolog\u00edas m\u00f3viles", 0.0, 0, 1418774400, 242, 0, 0], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tec</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

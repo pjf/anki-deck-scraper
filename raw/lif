@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[160608290, "Chinese Beginner Sentences (Traditional and Simplified)", 5.0, 1, 1367107200, 866, 0, 0], [2966538659, "Chinese Radicals (Study-Ready; Simplified-Oriented)", 4.5, 2, 1345852800, 214, 0, 0], [1730401229, "Wheel of Life", 0.0, 0, 1454544000, 12, 12, 13], [31892554, "HSC Biology: \"The Blueprint of Life\"", 0.0, 0, 1413676800, 237, 0, 15], [127562610, "Chinese sentences and audio, Traditional and Simplified", 4.33, 3, 1453161600, 8141, 8063, 1], [179050914, "medical vocabulary 11 - a day in the life", 0.0, 0, 1452384000, 58, 0, 0], [1327437810, "Swahili daily life words, from Tanzania", 0.0, 0, 1453248000, 0, 0, 0], [1627669267, "James W. Heisig - Remembering Simplified Hanzi 1 & 2", 5.0, 2, 1449014400, 3225, 0, 0], [830113883, "Gregg Shorthand Simplified Brief Forms", 0.0, 0, 1449360000, 181, 0, 0], [1783143577, "Simplified-Traditional Hanzi Characters", 0.0, 0, 1449792000, 2580, 0, 1], [831738629, "Chinese Simplification Patterns", 0.0, 0, 1448064000, 535, 0, 0], [558046876, "Life Cycle", 0.0, 0, 1447718400, 385, 0, 0], [1324482196, "medical vocabulary 2 - stages of life", 0.0, 0, 1445385600, 63, 0, 0], [2010857052, "Life Protection", 0.0, 0, 1447718400, 241, 0, 3], [1012870475, "BBC Lifts", 0.0, 0, 1445385600, 25, 0, 7], [1970933849, "Life", 0.0, 0, 1453161600, 232, 0, 209], [1203381908, "Clifford Intermediate Lesson 1", 0.0, 0, 1413849600, 42, 0, 0], [1974215699, "RLR #97 \u2013 Sports Idioms for Your Life", 5.0, 1, 1427328000, 33, 33, 0], [915948300, "Lojban Gismu with Simplified Definitions", 0.0, 0, 1360886400, 100, 0, 13], [154062101, "Birds, Wildlife and Exotic Pets", 0.0, 0, 1405036800, 620, 0, 0], [392685138, "French words from life (part 2)", 0.0, 0, 1430265600, 907, 0, 3], [828176078, "Sherman's Circular Gallifreyan", 0.0, 0, 1423008000, 29, 0, 29], [2108048799, "Nutrition Your Life Science Module 1", 0.0, 0, 1422662400, 57, 0, 16], [1637037529, "Voc_04_human_life", 0.0, 0, 1412121600, 25, 0, 0], [1684064068, "French words from life (part 1)", 0.0, 0, 1430265600, 1260, 0, 3], [93117126, "Simplified radicals matched with images", 0.0, 0, 1345852800, 214, 0, 200], [207392097, "Persian-Farsi - DLIFLC - GLOSS - \"An Epidemic Disease\"", 0.0, 0, 1417305600, 205, 0, 0], [1568442685, "The Molecular and Cellular Basis of Life (part 1)", 0.0, 0, 1371513600, 64, 0, 2], [43068708, "Persian-Farsi - DLIFLC - GLOSS - Judgment", 0.0, 0, 1417305600, 145, 0, 0], [569437139, "Persian-Farsi - DLIFLC - GLOSS - An Apartment For Rent", 0.0, 0, 1417305600, 131, 0, 0], [293184036, "RealLife Radio #70 \u2013 Kindness", 0.0, 0, 1410912000, 31, 31, 0], [1542884942, "Clifford Intermediate Lesson 2", 0.0, 0, 1414195200, 58, 0, 5], [735459492, "The Molecular and Cellular Basis of Life (part 2)", 0.0, 0, 1372377600, 41, 0, 5], [1174620494, "Hematopathology Myeloproliferative Disorders", 0.0, 0, 1422576000, 60, 0, 7], [273648179, "Persian-Farsi - DLIFLC - GLOSS - \"A New Style of Shopping\"", 0.0, 0, 1417305600, 108, 0, 0], [1393940142, "RealLife Radio #68", 0.0, 0, 1409702400, 30, 30, 0], [1928613788, "French words from life", 0.0, 0, 1406246400, 443, 0, 3], [1639602180, "Chinese 506 - Teng (Simplified Characters)", 5.0, 1, 1427241600, 220, 219, 0], [1780380716, "Salters-Nuffield Biology A2 - Run for your Life", 0.0, 0, 1412035200, 101, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lif</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

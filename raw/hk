@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [963680086, "HKS 1", 0.0, 0, 1453420800, 150, 0, 0], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [1949898796, "dhksjxjdjsjjjse", 0.0, 0, 1449100800, 500, 0, 1], [1595592523, "Curso de Japon\u00eas NHK aula 01 - 30", 0.0, 0, 1450224000, 160, 0, 0], [1019693788, "HKUST Comp3511 OS Flash Cards", 0.0, 0, 1449705600, 100, 0, 12], [1949190070, "DeutschKurs_Cap", 0.0, 0, 1446595200, 485, 0, 0], [1227619809, "HKUST Comp3511 Operating System Midterm", 0.0, 0, 1445472000, 102, 0, 4], [2142976447, "Anatomie - svaly HK", 0.0, 0, 1445990400, 16, 0, 0], [1543379875, "Deutschkurs B2", 0.0, 0, 1448323200, 151, 0, 0], [505096921, "DeutschKursCap", 0.0, 0, 1446595200, 483, 0, 0], [552433655, "Deutschkurs", 0.0, 0, 1445644800, 1315, 0, 0], [823641985, "Cantonese Quick & Dirty 30 (EN  ZH-HK)", 0.0, 0, 1443225600, 60, 38, 45], [1829482786, "NCHK prep - Respiratory", 0.0, 0, 1445472000, 47, 0, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [1565974074, "L\u00e9ka\u0159sk\u00e1 terminologie HK 06B", 0.0, 0, 1412726400, 42, 0, 0], [2911664310, "Pushkin-Pistol Shot", 0.0, 0, 1345852800, 161, 55, 0], [214519432, "Ber\u00fchmte Pers\u00f6nlichkeiten", 0.0, 0, 1441411200, 37, 8, 15], [360520378, "L\u00e9ka\u0159sk\u00e1 terminologie HK 10B", 0.0, 0, 1412726400, 39, 0, 0], [1757346129, "L\u00e9ka\u0159sk\u00e1 terminologie HK 11B", 0.0, 0, 1425945600, 20, 0, 0], [1315357470, "L\u00e9ka\u0159sk\u00e1 terminologie HK 11A", 0.0, 0, 1425945600, 41, 0, 0], [154089855, "L\u00e9ka\u0159sk\u00e1 terminologie HK 08A", 0.0, 0, 1412726400, 4, 0, 0], [681954630, "L\u00e9ka\u0159sk\u00e1 terminologie HK 07B", 0.0, 0, 1412726400, 25, 0, 0], [734256846, "L\u00e9ka\u0159sk\u00e1 terminologie HK 13A", 0.0, 0, 1425945600, 27, 0, 0], [859375531, "L\u00e9ka\u0159sk\u00e1 terminologie HK 03A", 0.0, 0, 1412726400, 92, 0, 0], [1824780505, "L\u00e9ka\u0159sk\u00e1 terminologie HK 16A", 0.0, 0, 1425945600, 17, 0, 0], [1506522605, "L\u00e9ka\u0159sk\u00e1 terminologie HK 05A", 0.0, 0, 1412726400, 42, 0, 0], [1219986654, "L\u00e9ka\u0159sk\u00e1 terminologie HK 09A", 0.0, 0, 1412726400, 35, 0, 0], [703799218, "L\u00e9ka\u0159sk\u00e1 terminologie HK 04B", 0.0, 0, 1412726400, 37, 0, 0], [237501450, "L\u00e9ka\u0159sk\u00e1 terminologie HK 06A", 0.0, 0, 1412726400, 53, 0, 0], [2001784816, "L\u00e9ka\u0159sk\u00e1 terminologie HK 10A", 0.0, 0, 1412726400, 54, 0, 0], [366725989, "L\u00e9ka\u0159sk\u00e1 terminologie HK 05B", 0.0, 0, 1412726400, 42, 0, 0], [1822287745, "APers\u00f6nlichkeitsst\u00f6rung", 0.0, 0, 1401408000, 43, 0, 6], [2107038096, "L\u00e9ka\u0159sk\u00e1 terminologie HK 15", 0.0, 0, 1425945600, 17, 0, 0], [1719200896, "L\u00e9ka\u0159sk\u00e1 terminologie HK - souhrn slov\u00ed\u010dek", 0.0, 0, 1428883200, 1349, 0, 0], [1254606429, "On y va! Der Franz\u00f6sischkurs A2 - Le\u00e7on 1 Wortschatz", 0.0, 0, 1388966400, 156, 0, 0], [1272924946, "GAL81 - Schlauchkunde", 0.0, 0, 1433635200, 12, 0, 0], [889921893, "L\u00e9ka\u0159sk\u00e1 terminologie HK 13B", 0.0, 0, 1425945600, 35, 0, 0], [1673580758, "L\u00e9ka\u0159sk\u00e1 terminologie HK 04A", 0.0, 0, 1412726400, 82, 0, 0], [1146268533, "L\u00e9ka\u0159sk\u00e1 terminologie HK 12A", 0.0, 0, 1425945600, 43, 0, 0], [1052897742, "L\u00e9ka\u0159sk\u00e1 terminologie HK 03C", 0.0, 0, 1412726400, 11, 0, 0], [1112831915, "L\u00e9ka\u0159sk\u00e1 terminologie HK 16B", 0.0, 0, 1425945600, 53, 0, 0], [3816457520, "Jumbucks 22,000 Scrabble FHKVWY Bingo Sets", 0.0, 0, 1345852800, 22247, 0, 0], [1203270487, "L\u00e9ka\u0159sk\u00e1 terminologie HK 03B", 0.0, 0, 1412726400, 23, 0, 0], [1627625772, "L\u00e9ka\u0159sk\u00e1 terminologie HK 07A", 0.0, 0, 1412726400, 33, 0, 0], [1070569986, "Pers\u00f6nlichkeitspsychologie", 0.0, 0, 1419120000, 73, 0, 1], [842962394, "L\u00e9ka\u0159sk\u00e1 terminologie HK 14A", 0.0, 0, 1425945600, 31, 0, 0], [575714160, "L\u00e9ka\u0159sk\u00e1 terminologie HK receptura (neofici\u00e1ln\u00ed)", 0.0, 0, 1429574400, 61, 0, 0], [1108566449, "Pame! A1: Der Griechischkurs (GR, DE, Hueber)", 0.0, 0, 1422835200, 928, 0, 197], [1259837048, "Ithkuil suffix degree pronunciation", 0.0, 0, 1376611200, 18, 0, 18], [1055456142, "L\u00e9ka\u0159sk\u00e1 terminologie HK 14B", 0.0, 0, 1425945600, 26, 0, 0], [337237362, "L\u00e9ka\u0159sk\u00e1 terminologie HK 12B", 0.0, 0, 1425945600, 97, 0, 0], [1003247825, "L\u00e9ka\u0159sk\u00e1 terminologie HK 09B", 0.0, 0, 1412726400, 63, 0, 0], [1395734337, "On y va! - Der Franz\u00f6sischkurs A2 - Le\u00e7on 4", 0.0, 0, 1389830400, 157, 0, 0], [1609773204, "Heirs Vocabulary List (KoreanWithKevin.com)", 0.0, 0, 1426896000, 312, 0, 0], [1512940590, "L\u00e9ka\u0159sk\u00e1 terminologie HK 08B", 0.0, 0, 1412726400, 16, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Hk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1479426732, "\u0141acina - s\u0142ownictwo i gramatyka", 0.0, 0, 1452902400, 615, 0, 0], [1985647355, "Networking: A Top Down Approach", 0.0, 0, 1450310400, 18, 0, 0], [1783338642, "czasowniki hiszpa\u0144ski", 0.0, 0, 1450051200, 124, 0, 0], [216541105, "FR-PL francuskie czasowniki ", 0.0, 0, 1447286400, 85, 0, 0], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [1372516784, "Lektorat - angielski - czasowniki nieregularne EN-EN (UAM)", 1.0, 2, 1345852800, 176, 0, 0], [3741032616, "Farsi Brown Book 1-10", 0.0, 0, 1359417600, 1870, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [621107083, "s\u0142owniczek", 0.0, 0, 1439078400, 51, 0, 0], [1348512512, "ShawnSedgh", 0.0, 0, 1439251200, 1800, 0, 949], [2032024923, "A1. Lesson 12. Dni tygodnia, miesi\u0105ce, czasowniki", 0.0, 0, 1423094400, 39, 39, 0], [107850262, "Camden Town - Starter", 0.0, 0, 1400630400, 52, 0, 0], [3996299276, "Czasowniki", 0.0, 0, 1365292800, 69, 0, 0], [814445013, "Elitarne s\u0142ownictwo", 0.0, 0, 1345852800, 79, 0, 0], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [1272632927, "Japo\u0144sko- polski s\u0142ownik w romaji", 0.0, 0, 1426464000, 9564, 0, 0], [1425674783, "S\u0142ownictwo polsko-francuskie - do podr\u0119cznika Sc\u00e9nario 1", 0.0, 0, 1427932800, 523, 0, 0], [1102873658, "Spanish shared deck for download", 0.0, 0, 1378166400, 596, 0, 16], [1569494239, "Jess and Pierre Brownies", 0.0, 0, 1402012800, 58, 0, 0], [1124267487, "150 czasownik\u00f3w", 0.0, 0, 1415059200, 148, 0, 0], [949134539, "\"Camden Town\" theme 6 - A", 0.0, 0, 1398729600, 30, 0, 0], [725566744, "otuhapohoewnhfao;enfopewbhfopiguh", 0.0, 0, 1420329600, 128, 0, 0], [2613488349, "czasowniki i zwierz\u0119ta verbs & animals", 0.0, 0, 1345852800, 59, 59, 186], [414365830, "Japo\u0144sko - polski s\u0142ownik w romanji", 0.0, 0, 1407196800, 9564, 0, 0], [4038902201, "Slownik ISEL 1500 Popular Phrases. Polish - English + sound", 4.0, 3, 1360108800, 1500, 2975, 0], [485735872, "A1. Lesson 3. Odmiana czasownika \"to be\", przymiotniki", 0.0, 0, 1422403200, 30, 30, 0], [1000990906, "Breakdown of the Bicameral", 0.0, 0, 1394323200, 6, 0, 0], [1013834166, "Markdown", 5.0, 2, 1398643200, 23, 0, 0], [3579482713, "Test questions for lu and brown", 0.0, 0, 1380499200, 0, 0, 0], [244737286, "G\u0142\u00f3wny system pami\u0119ciowy", 0.0, 0, 1418860800, 186, 0, 0], [1486822972, "Camden Town 5 - vocab - all themes ", 0.0, 0, 1403136000, 443, 0, 0], [295453703, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [3741544605, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [3086174671, "Blake Brownrigg Chinese Deck", 0.0, 0, 1345852800, 539, 0, 0], [895362682, "English shared deck for downlaod", 0.0, 0, 1378166400, 826, 0, 1], [1590839010, "French deck for download", 0.0, 0, 1378166400, 5004, 0, 1630], [1396675159, "Krewni i Powinowaci", 0.0, 0, 1402099200, 48, 0, 0], [386742829, "CWNA Study Deck", 0.0, 0, 1431302400, 341, 0, 34], [1032941524, "Shawn's Spanish Deck", 0.0, 0, 1345852800, 638, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Wn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

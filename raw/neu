@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1454198400, 49, 0, 6], [1009423643, "Respiratory Pathologies: Pneumonia", 0.0, 0, 1454889600, 10, 0, 0], [2047354415, "neuroanatomy lab", 0.0, 0, 1454112000, 361, 0, 375], [743421837, "Neuro Step 1 NSpottiswoode", 0.0, 0, 1454630400, 171, 0, 6], [220999045, "Duits - Neue Kontakte 12 VWO 6e editie", 0.0, 0, 1454630400, 931, 0, 0], [276529460, "Neuronal potentials", 0.0, 0, 1454803200, 57, 0, 0], [221875395, "neuro skills and more", 0.0, 0, 1454889600, 36, 0, 3], [1055723190, "Must Know NeuroLab", 0.0, 0, 1454457600, 517, 0, 106], [1955329397, "Neurologie - ECN", 0.0, 0, 1452902400, 84, 0, 0], [2680787138, "Start! Neu, N\u00e9met I. -- n\u00e9met-magyar", 4.25, 4, 1380672000, 1659, 0, 0], [1704324531, "MW Neuro Somatosensory system", 0.0, 0, 1452988800, 49, 0, 3], [1222482928, "MW Neuro Pain", 0.0, 0, 1452988800, 37, 0, 3], [917992777, "MW neuromuscular disorder and reflexes", 0.0, 0, 1452988800, 40, 0, 3], [399673653, "MW Neuro Spinal cord reflexes", 0.0, 0, 1452988800, 19, 0, 3], [54873672, "Neuro drugs ", 0.0, 0, 1452211200, 61, 0, 3], [1888451009, "Neues Testament Einzelverse (Elstal)", 0.0, 0, 1452124800, 314, 0, 0], [1684758611, "MW Neuro Central Control, UMN,LMN", 0.0, 0, 1452988800, 45, 0, 7], [188798441, "MW Neuro SCI", 0.0, 0, 1452988800, 39, 0, 5], [1076967965, "NEUROLOGY CLERKSHIP", 0.0, 0, 1450051200, 626, 0, 92], [846527467, "Latin 6 RNRMU (Neuter nouns) / \u041b\u0430\u0442\u044b\u043d\u044c 6 \u0420\u041d\u0418\u041c\u0423 (\u0441\u0440. \u0440.)", 0.0, 0, 1448150400, 25, 0, 0], [1121901553, "Neuro NYU Clerkship", 0.0, 0, 1450483200, 414, 0, 165], [244314261, "Neuroanatomy Unit 4 - Lower Limb", 0.0, 0, 1450051200, 104, 0, 3], [948345546, "Neuro exam 3 and 4", 0.0, 0, 1450137600, 95, 0, 2], [1881669435, "PedsNeuroBHU", 0.0, 0, 1449964800, 127, 0, 0], [301850634, "pneumologie", 0.0, 0, 1449964800, 25, 0, 0], [28503565, "NEURO ", 0.0, 0, 1449360000, 188, 0, 32], [756468068, "Entrereneurship for Chris", 0.0, 0, 1449100800, 66, 0, 93], [2128079172, "Neural Science Week 8 - Functional Organization of CNS", 0.0, 0, 1445990400, 21, 0, 0], [1708998855, "Exam 5 Neurology (695F) will also need exam 6 Psy & Dev", 0.0, 0, 1446768000, 64, 0, 5], [2074018399, "Animal Phys Exam 2 Neurons", 5.0, 1, 1445817600, 35, 0, 0], [1072699862, "Morse sonore lumineux mn\u00e9no fr", 0.0, 0, 1447632000, 59, 59, 4], [298864061, "Das Neue Praktische Chinesisch (Band 1-3)", 3.67, 3, 1345852800, 1925, 0, 0], [1010601352, "Neuroanatomy", 4.0, 3, 1393804800, 733, 0, 227], [1564608727, "Neu \u65e5\u672c\u8a9e\u306eTaburetto", 0.0, 0, 1447200000, 76, 9, 3], [2021607943, "Neuroanatomy 2 for Beth", 0.0, 0, 1444694400, 84, 0, 1], [392531288, "Neuro and Psyche", 0.0, 0, 1445817600, 3014, 0, 1561], [1582035864, "Neuroanatomy 1 for Beth", 0.0, 0, 1444694400, 95, 0, 0], [2122582555, "Neuro mai wen jing", 0.0, 0, 1447632000, 384, 0, 0], [2134855472, "Neuroanatomy", 0.0, 0, 1445299200, 35, 0, 41], [1031393012, "Neuro Exam 3", 0.0, 0, 1449792000, 244, 0, 0], [1946370917, "Neural Science Week 7 - Organization of the CNS", 0.0, 0, 1445990400, 39, 0, 0], [53731647, "Neuroscience", 0.0, 0, 1445299200, 138, 0, 4], [1414028064, "neuro - B1", 0.0, 0, 1441670400, 32, 0, 23], [1607929185, "Neuro exam", 0.0, 0, 1443571200, 29, 0, 0], [807697032, "Med-Surg I - Neurological", 0.0, 0, 1445472000, 131, 4, 2], [1332754543, "NURS200X Neurotransmitters", 0.0, 0, 1443484800, 58, 0, 0], [1875977942, "Neuroscience Atlas", 0.0, 0, 1444176000, 167, 0, 15], [112796768, "SIP5a - Neuro", 0.0, 0, 1401580800, 255, 0, 0], [390818229, "Fundamentals of Neuroscience exam 2", 0.0, 0, 1446422400, 484, 0, 0], [1574171108, "Neuropractical", 0.0, 0, 1444348800, 33, 0, 12], [1542691095, "Neurons and Glia", 0.0, 0, 1444521600, 160, 0, 0], [174834239, "Neugriechisch A1.1", 0.0, 0, 1444780800, 374, 0, 64], [2087957154, "Neuromuscular Junction", 0.0, 0, 1443052800, 19, 0, 0], [13521556, "Neuroscience Two", 0.0, 0, 1444780800, 624, 0, 169], [46293116, "Neural control", 0.0, 0, 1443571200, 40, 0, 0], [767707097, "Health Assessment Chp 25 Neurologic", 0.0, 0, 1445731200, 123, 0, 0], [26442001, "neurbio421", 0.0, 0, 1442966400, 190, 0, 13], [1562088869, "Neurobiologi til Mette", 0.0, 0, 1442880000, 541, 0, 349], [1583581689, "Pneumoniae (bacteria)", 0.0, 0, 1439942400, 83, 0, 0], [920353805, "GWU Neurolab 2", 0.0, 0, 1442534400, 19, 0, 17], [1171316921, "NEURONEURO", 0.0, 0, 1442361600, 601, 0, 192], [1420318386, "Neuroanatomie Blockkurs 2015 Unibe", 0.0, 0, 1443657600, 105, 0, 1], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [1795074857, "LWP Neurologie - week 1", 0.0, 0, 1439337600, 8, 0, 0], [193116679, "Neuroanatomi3_Alex", 0.0, 0, 1398211200, 27, 0, 39], [1692452302, "Seana NEURO FINAL", 0.0, 0, 1417737600, 288, 0, 188], [2081644037, "Cellular Neuroscience Exam 1", 0.0, 0, 1418342400, 100, 0, 0], [37066355, "Perineum, Pelvic Musculature, Lumbosacral Plexus ", 0.0, 0, 1440374400, 40, 0, 41], [1845175970, " rowan som fund. 2 biochem lect. 4 neurodegenerative disease", 0.0, 0, 1411430400, 80, 0, 1], [655607936, "Neuro - Louai__Block 4_Laskowski", 0.0, 0, 1437264000, 112, 0, 49], [1645578532, "Caminos neu A2", 5.0, 2, 1441497600, 1813, 0, 0], [55456965, "Block 2 neuro", 0.0, 0, 1443139200, 19, 0, 24], [998912551, "Neuro", 0.0, 0, 1439856000, 274, 0, 0], [754850603, "Neuro - Louai__Block 2_Laskowski", 0.0, 0, 1433548800, 235, 0, 146], [1108938665, "LAB NEURO EXAM 2 PCOM ", 0.0, 0, 1430265600, 145, 0, 167], [1061435538, "endocrineuworldbhu", 0.0, 0, 1439164800, 162, 0, 0], [1651194657, "Neuro Rehab (In class test)", 0.0, 0, 1439856000, 82, 0, 4], [1544177056, "Illy neuro", 0.0, 0, 1440892800, 212, 3, 292], [1796650, "B&B Neurobiology of Psychosis 04.09.15", 0.0, 0, 1428710400, 13, 0, 1], [1813881592, "neurobhu", 0.0, 0, 1439251200, 198, 0, 0], [3335416433, "Der Neue Deutschexpress 06", 0.0, 0, 1363305600, 121, 0, 0], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [2637514430, "Neuroanatomia (UniPD MED 3-4)", 0.0, 0, 1367625600, 138, 0, 0], [1477139572, "Cellular Neuroscience Exam 3", 0.0, 0, 1418342400, 83, 0, 26], [630068953, "Neuro", 0.0, 0, 1411689600, 346, 0, 22], [1326692064, "Behavioral Neuroscience PPT 15-16", 0.0, 0, 1419984000, 39, 0, 6], [704556098, "visual systems - neuro", 0.0, 0, 1426118400, 20, 0, 9], [688214345, "Block3Neuro", 0.0, 0, 1396656000, 839, 0, 270], [1146139868, "B&B Neurobiology of Anxiety 04.07.15", 0.0, 0, 1428796800, 25, 0, 1], [589741426, "Cellular Neuroscience Exam 4", 0.0, 0, 1418342400, 56, 0, 10], [928000207, "BB 02.11.15 Neurons and Glia", 0.0, 0, 1423785600, 35, 0, 4], [1313266100, "MD6 Neuro HCPs", 0.0, 0, 1417824000, 337, 0, 8], [3225276328, "neuroanatomy images Brain and Behavior MSSM", 0.0, 0, 1379548800, 115, 0, 228], [1410869259, "Neuroanatomi_Alex", 0.0, 0, 1398211200, 50, 0, 38], [954980709, "Neuro Block 3, first 7 lectures (61 cards) ", 0.0, 0, 1436572800, 61, 0, 0], [558600767, "Neuro Appelt 1/7", 0.0, 0, 1420675200, 101, 0, 67], [38542870, "Neurologie TU M\u00fcnchen", 0.0, 0, 1390780800, 513, 1, 14], [476018135, "Neuroscience SD2016", 0.0, 0, 1452556800, 362, 0, 2], [764555424, "Neuroanatomie deel 1 - inwendige bouw cerebrum", 0.0, 0, 1353369600, 37, 0, 2], [1077703242, "Behavioral Neuroscience PPTS 7-8", 0.0, 0, 1419897600, 25, 0, 9], [299481211, "OCT1206 - Neuroscience Week 12", 0.0, 0, 1383782400, 26, 0, 0], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [458248097, "Anatomy - Neurology - Lumbar and Sacral Plexuses", 0.0, 0, 1387670400, 17, 0, 60], [1620774266, "block 2 neuro", 0.0, 0, 1414281600, 225, 0, 0], [1659350538, "UT Houston Block III Neuro Lab", 0.0, 0, 1395532800, 406, 0, 235], [274465222, "KCOM - Dr. Robbins cases Neuro I block", 0.0, 0, 1430265600, 101, 1, 192], [270379812, "NYU CPM Neuroanatomy Lab4", 0.0, 0, 1412121600, 78, 0, 78], [2138623142, "Neuro block 1 second crab image review 59-117", 0.0, 0, 1391385600, 58, 0, 54], [1042770897, "SS UNM SOM HSF&D Week 7 Pelvis and Perineum", 0.0, 0, 1413849600, 1108, 0, 740], [629457440, "Behavioral Neuroscience PPT 9", 0.0, 0, 1419897600, 29, 0, 7], [1912969436, "medical neuro", 0.0, 0, 1396310400, 96, 0, 14], [608515244, "Neuro Micro 2015", 0.0, 0, 1423008000, 124, 0, 3], [538911870, "KCOM - Dr. Goldman Test Review (Neuro II block)", 0.0, 0, 1424390400, 25, 1, 5], [1667086944, "Patho Midterm 3 (GI & Neuro)", 0.0, 0, 1382572800, 267, 0, 57], [28628586, "12O2O2Neuro", 0.0, 0, 1398902400, 293, 0, 12], [1619358688, "Neuroscience Block 1", 0.0, 0, 1423440000, 1326, 0, 287], [1241610710, "Neuro Lab 11", 0.0, 0, 1397520000, 60, 0, 12], [1733851985, "FA Neuro", 0.0, 0, 1400284800, 135, 0, 23], [1073946251, "NYU CPM Neuroanatomy Lab2", 0.0, 0, 1411603200, 95, 0, 154], [715281609, "BB 02.10.15 Intro to Neuroanatomy/Neuroimaging", 0.0, 0, 1423785600, 22, 0, 17], [1471236424, "Neuro - Louai__Block 3_Laskowski", 0.0, 0, 1445644800, 298, 0, 210], [3426042575, "Neuro 1 - deel1, H4: de hersenstam", 0.0, 0, 1353369600, 26, 0, 0], [688386484, "Biochem, Unit 4; The structure of Neurons and Glia", 0.0, 0, 1414108800, 75, 0, 0], [3668977699, "Barish Neuro Anatomy", 0.0, 0, 1370476800, 167, 0, 0], [1609154574, "Behavioral Neuroscience PPT 14", 0.0, 0, 1419984000, 27, 0, 5], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [2821885408, "Barish Neuro", 0.0, 0, 1370476800, 724, 0, 2], [1509563871, "Neuroanatomy ", 0.0, 0, 1363824000, 140, 0, 50], [4220110423, "Neuro Exam 4 Anki", 0.0, 0, 1370476800, 94, 0, 141], [578951049, "P&T Neuro Psych Exam 2", 0.0, 0, 1384819200, 203, 0, 0], [3720799687, "P&T Neuro Psych Exam 2", 0.0, 0, 1384819200, 203, 0, 0], [391943279, "NeuroScience Modules E,F,G (more chapters added daily)", 0.0, 0, 1445904000, 693, 0, 262], [1756677333, "Behavioral Neuroscience PPT 1-26", 0.0, 0, 1419984000, 685, 0, 77], [4262346685, "Neue Horizonte", 0.0, 0, 1345852800, 142, 0, 0], [723715619, "md6 postmidunit neuroanatomy", 0.0, 0, 1413849600, 94, 0, 50], [1313335288, "NEU C4-L3 ", 0.0, 0, 1428537600, 25, 0, 0], [373859588, "Medical School - Neuro Deck", 0.0, 0, 1427846400, 2686, 0, 901], [1328671399, "Pneumosz", 0.0, 0, 1424908800, 35, 0, 0], [270284806, "\u00c0 plus 2 Unit\u00e9 1 ( Neufassung )", 0.0, 0, 1421366400, 87, 4, 0], [11404197, "Miami miller neuro final", 0.0, 0, 1427155200, 259, 0, 449], [2045758959, "marwanounet-neu", 0.0, 0, 1449014400, 246, 0, 29], [637631982, "OS1 Neuroanatomy - Spinal Cord", 0.0, 0, 1389312000, 64, 0, 15], [1613435404, "Behavioral Neuroscience PPT 11", 0.0, 0, 1419984000, 38, 0, 7], [3873585511, "neuro 1 - deel1, H5: het cerebellum", 0.0, 0, 1353456000, 23, 0, 0], [1081415022, "B&B 02.12.15 Neurobiology of Peripheral Nerve", 0.0, 0, 1424044800, 32, 0, 1], [117206443, "\u00c0 plus 2 Unit\u00e9 2 ( Neufassung )", 1.0, 1, 1421366400, 82, 0, 0], [282809961, "Les grandes r\u00e9gions du cerveau en 3D - neurologie", 0.0, 0, 1390867200, 27, 0, 1], [662638511, "Neuroscience Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 47, 0, 0], [1577659086, "KCOM - Dr. Goldman Cases (Neuro II block)", 0.0, 0, 1423872000, 23, 1, 31], [487189722, "Neuropath Lab Images", 0.0, 0, 1422662400, 136, 0, 137], [4039923632, "Ch_upb_1neu", 0.0, 0, 1354147200, 48, 0, 5], [1651585859, "Alex Neuro Synet", 0.0, 0, 1413936000, 25, 0, 28], [1511588172, "B&B Neuropharmacology of Serotonin 04.08.15", 0.0, 0, 1428796800, 28, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [743775364, "Der Neue Deutschexpress 05", 0.0, 0, 1351814400, 147, 0, 0], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [465117637, "OCT1206 - Neuroscience", 0.0, 0, 1390176000, 154, 0, 1], [2137812685, "MD6 Neuroanatomy ", 0.0, 0, 1412208000, 303, 0, 169], [1012913355, "Anatomy - Neurology - Axilla and Brachial Plexus", 0.0, 0, 1387497600, 16, 0, 49], [1218700319, "T7 HT2014 Lund: Neurologi", 0.0, 0, 1419292800, 623, 0, 1], [2095676822, "Cellular Neuroscience Exam 2", 0.0, 0, 1418342400, 51, 0, 0], [473933293, "B&B 02.27.15 Neuro-Ophthalmology ", 0.0, 0, 1425427200, 28, 0, 6], [1347728356, "COMS30127 Computational Neuroscience", 0.0, 0, 1451865600, 83, 0, 4], [1419333426, "Vascular Neurology 2", 0.0, 0, 1425340800, 42, 0, 1], [2103471640, "neurophys basics", 0.0, 0, 1379289600, 15, 0, 0], [493382930, "OS1 Neurohistology", 0.0, 0, 1390953600, 163, 0, 326], [208899389, "Alex Neuro Medulla Spinalis", 0.0, 0, 1413936000, 47, 0, 44], [1877436951, "neuroanatomy -melissa", 0.0, 0, 1428451200, 19, 0, 2], [631690172, "BUSM Neuro: Taste and Smell lecture", 0.0, 0, 1387152000, 17, 0, 0], [2888255356, "NeurofragenfuerJen", 0.0, 0, 1368921600, 143, 0, 66], [1916736152, "Neuro II Meds - RVU", 0.0, 0, 1397260800, 80, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [865382953, "Kanji 61-65 neu", 0.0, 0, 1418860800, 92, 0, 0], [3948813960, "Der Neue Deutschexpress 08", 0.0, 0, 1367193600, 78, 0, 0], [1434757859, "rowan som histo fund 3 lecture 1 neuroanatomy", 0.0, 0, 1412899200, 71, 0, 64], [1351449924, "Neurotransmitters Receptors", 0.0, 0, 1424563200, 44, 0, 1], [1894905531, "P&T Neuro Psych Exam 1", 0.0, 0, 1383696000, 366, 0, 0], [1529126688, "Neuro McDonald Head Injury", 0.0, 0, 1421712000, 34, 0, 13], [158747140, "Neuro McDonald Ischemia", 0.0, 0, 1421625600, 32, 0, 4], [1286284367, "KCOM - Dr. Robbins Cases (Neuro Block II)", 0.0, 0, 1423872000, 112, 1, 214], [2037380076, "Neuroanatomy", 0.0, 0, 1412121600, 332, 0, 30], [13083552, "OSU - Neuro - Nerve Anatomy", 0.0, 0, 1423094400, 51, 0, 65], [499578321, "NYU CPM Neuro Test 2", 0.0, 0, 1413417600, 862, 0, 13], [4161480669, "Neue Horizonte Kapitel 8 Vokabeln", 0.0, 0, 1345852800, 143, 0, 0], [36390248, "Vascular Neurology 1 Anatomy", 0.0, 0, 1424563200, 38, 0, 6], [1007181850, "neurology flash cards", 0.0, 0, 1422489600, 186, 0, 368], [1794697987, "Block IV Neuroscience", 0.0, 0, 1399248000, 600, 0, 203], [287275215, "Seana Neuro Peterson Lectures", 0.0, 0, 1410307200, 121, 0, 49], [211646090, "P&T Neuro Psych Exam 1", 0.0, 0, 1383696000, 365, 0, 0], [791644969, "MD6 Pathology Neuro", 0.0, 0, 1416614400, 511, 0, 445], [647482650, "BHD neuro cards", 0.0, 0, 1424217600, 1698, 0, 711], [678989202, "FinnFACEM - Neuro", 0.0, 0, 1439424000, 93, 23, 13], [1183983244, "Neuroanatomy Exam 2", 0.0, 0, 1430438400, 171, 0, 151], [1671676718, "Andy FOCP Neuro", 0.0, 0, 1418256000, 96, 0, 0], [366050136, "Neurology MM", 0.0, 0, 1374278400, 300, 0, 6], [1707808271, "7 Neurologisk unders\u00f8gelse", 0.0, 0, 1415836800, 15, 0, 3], [1956678811, "B&B 03.17.15 Neurodegeneration", 0.0, 0, 1426550400, 29, 0, 8], [393479166, "Psychopharmacology, Psychotherapy, and Neuropharmacology", 0.0, 0, 1428192000, 252, 0, 3], [174647621, "P&T Neuro Psych Final Exam", 0.0, 0, 1386720000, 275, 0, 0], [3116360426, "Neuro 1 - deel1, H6: het ruggenmerg", 0.0, 0, 1353456000, 22, 0, 0], [1456285615, " NEU C4-L2", 0.0, 0, 1428537600, 22, 0, 0], [964653049, "Neuro 2", 0.0, 0, 1429488000, 1970, 0, 330], [1167776287, "Neuro Lab Practical 1-58 Crab", 0.0, 0, 1391385600, 68, 0, 64], [3695496489, "Anatomy Perineum", 0.0, 0, 1351123200, 9, 0, 0], [317039549, "Neuro Vertigo Summerson", 0.0, 0, 1421625600, 33, 0, 1], [261690616, "Neuro Spinal Cord Section", 0.0, 0, 1393027200, 5, 0, 10], [4138318142, "termi neu3", 0.0, 0, 1383350400, 1037, 0, 19], [397817534, "FHB L1: Neuronal Electrophysiology", 0.0, 0, 1420502400, 13, 0, 17], [1232118825, "Neurulation & spinal cord development", 0.0, 0, 1409788800, 26, 0, 0], [381453041, "NYU CPM Neuroanatomy Lab3", 0.0, 0, 1412121600, 52, 0, 50], [1725300826, "OSU - Neuro - Arteries Anatomy", 0.0, 0, 1422748800, 54, 0, 35], [2092633178, "Neuroanatomi4_Alex", 0.0, 0, 1398211200, 18, 0, 31], [991728680, "Behavioral Neuroscience PPT 17-18", 0.0, 0, 1419984000, 32, 0, 4], [165388687, "Stewart: Neurotoxins", 0.0, 0, 1424563200, 64, 0, 0], [2135124926, "Ummsm neuro exam one", 0.0, 0, 1397260800, 310, 0, 643], [63354245, "Neuro lab 3", 0.0, 0, 1422403200, 102, 0, 95], [1747445049, "Behavioral Neuroscience PPT 12-13", 0.0, 0, 1419984000, 26, 0, 9], [1775906357, "Hingley Neuro", 0.0, 0, 1423094400, 82, 0, 11], [749348345, "Neuro second crab last third", 0.0, 0, 1391385600, 115, 0, 62], [890727700, "Behavioral Neuroscience PPTS 3-4", 0.0, 0, 1419897600, 30, 0, 5], [4122360205, "QCM Neuro", 0.0, 0, 1385424000, 10, 0, 0], [1221718167, "B&B Neuromodulation 04.06.15", 0.0, 0, 1428796800, 23, 0, 1], [3231596108, "Anatomie neurologie", 5.0, 1, 1369526400, 242, 0, 4], [17686922, "NEURO 1: ORGANISATION", 0.0, 0, 1432339200, 29, 0, 0], [554306494, "Neurorehab", 0.0, 0, 1402012800, 53, 0, 0], [124419539, "Neuroanatomi2_Alex", 0.0, 0, 1398211200, 59, 0, 38], [793691180, "Psychiatry, Pain, and Neurology Drugs", 0.0, 0, 1427587200, 138, 0, 3], [228488186, "Filipovic's Neuro Exam II", 0.0, 0, 1413072000, 191, 0, 9], [1171896818, "HMS.HG.Neuropsychiatric.Behavioral.Genetics", 0.0, 0, 1355702400, 30, 0, 5], [462739666, "NEU C4-L1", 0.0, 0, 1428537600, 18, 0, 0], [4058498633, "Path 1 - Neuro (Ryan's)", 0.0, 0, 1345852800, 48, 0, 4], [119985655, "Behavioral Neuroscience 5-6", 0.0, 0, 1419897600, 51, 0, 5], [233463964, "Bibelkunde Neues Testament", 0.0, 0, 1370908800, 34, 0, 0], [1867505142, "Behavioral Neuroscience Exam 3 Flashcards", 0.0, 0, 1419897600, 324, 0, 0], [2330611768, "HMS.HB.Perineum", 0.0, 0, 1352419200, 25, 0, 50], [131079141, "Neuro diagrams mer", 0.0, 0, 1423094400, 118, 0, 21], [1505637531, "OSU - Neuro - Bony Anatomy", 0.0, 0, 1421280000, 153, 0, 26], [1077496304, "Neurons and Glia UCI SOM", 0.0, 0, 1398297600, 27, 0, 9], [1678415663, "entrepreneurship", 0.0, 0, 1389657600, 9, 0, 0], [2177383467, "Der Neue Deutschexpress - altalanos gyujtemeny", 0.0, 0, 1351814400, 91, 0, 0], [1039995539, "Neurology Clinical UQ MBBS III", 0.0, 0, 1400630400, 298, 0, 7], [1214271187, "NYU CPM Neuroanatomy Lab1", 0.0, 0, 1411171200, 75, 0, 139], [572902417, "Rowan SOM Fundamentals 2 Neurodegenerative diseases", 0.0, 0, 1410566400, 69, 0, 0], [215752850, "P&T Neuro Psych Exam 2", 0.0, 0, 1384905600, 207, 0, 0], [1320961559, "Neurologic Disorders", 0.0, 0, 1401235200, 56, 0, 2], [1885343385, "OSU - Neuro - Miscellaneous Structures", 0.0, 0, 1423008000, 78, 0, 87], [1867462054, "Neuro Exam 2", 0.0, 0, 1351468800, 293, 0, 18], [1482908510, "BUSM Neuro 1 - Staben", 0.0, 0, 1418515200, 605, 0, 92], [1475967085, "Neurophysiology1BAlex", 5.0, 1, 1430784000, 298, 0, 3], [68308746, "Adult II Week 3 - Neurology", 0.0, 0, 1410912000, 52, 0, 15], [1915502510, "Neugriechisch -  Maria Christmann-Petropoulou ", 4.0, 1, 1402617600, 536, 520, 191], [562565337, "Neuro Rosa", 0.0, 0, 1407801600, 107, 0, 0], [1257784623, "FHB L2: Neurotransmission & Autonomic NS", 0.0, 0, 1420502400, 17, 0, 24], [3666699041, "Der Neue Deutschexpress 07", 0.0, 0, 1363564800, 137, 0, 0], [2133767557, "Behavioral Neuroscience PPT 10", 0.0, 0, 1419897600, 22, 0, 3], [970342229, "Neurologie Kuleuven", 0.0, 0, 1407542400, 790, 0, 275], [1273215378, "Neuro VII Imber", 0.0, 0, 1421625600, 26, 0, 7], [974232431, "BWH.Neuro", 0.0, 0, 1418083200, 180, 0, 43], [879596105, "OSU - Neuro - Pterygopalatine Fossa Anatomy", 0.0, 0, 1422748800, 40, 0, 8], [2132075769, "Week 1 Muscle and Peripheral Neural Tissue", 0.0, 0, 1409443200, 18, 0, 0], [1186620797, "Neuro Appelt Limbic", 0.0, 0, 1421625600, 22, 0, 9], [1858009284, "Neurobiologi2014-makroskopiskopdeling", 0.0, 0, 1409702400, 47, 0, 47], [370969721, "Neuro Lecures", 0.0, 0, 1428537600, 858, 0, 132], [688692617, "PneumologieMUI", 0.0, 0, 1428883200, 572, 0, 24], [1571586941, "Neuro Spring Exam 1 Lecture 3-4", 0.0, 0, 1363046400, 52, 0, 103], [1810942538, "BUSM Neuro: Cytology Lectures", 0.0, 0, 1387152000, 15, 0, 0], [4022689363, "P&T Neuro Psych Exam 1", 0.0, 0, 1383696000, 364, 0, 0], [154048518, "OSU - Neuro - Skull Foramen, Fossa, and Canals", 0.0, 0, 1421280000, 64, 0, 11], [426399547, "Al Borland's Neuro 3", 0.0, 0, 1426636800, 69, 0, 1], [1201675830, "Neurologia", 0.0, 0, 1414022400, 6, 0, 0], [728316320, "Neuromuscular Module JC1", 0.0, 0, 1394150400, 132, 0, 4], [1361670668, "Behavioral Neuroscience PPTS 1-2", 0.0, 0, 1419897600, 42, 0, 17], [2848516458, "R\u00e1pido neu (A1-B1) Spanisch-Deutsch", 0.0, 0, 1361750400, 2977, 0, 0], [253010259, "medical neuro ", 0.0, 0, 1398643200, 143, 0, 16], [850771992, "Dogs and Cats Neuro and Sudden Death", 0.0, 0, 1420243200, 583, 0, 0], [77153467, "Neuropathology for Neurology Board Review", 0.0, 0, 1420761600, 29, 0, 32], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 5.0, 1, 1345852800, 113, 0, 0], [580859460, "SIP 3 - Block 19 (Neurologie)", 0.0, 0, 1403222400, 36, 0, 1], [398387161, "OSU - Neuro - Muscle Anatomy", 0.0, 0, 1422662400, 38, 0, 89], [2359722318, "Direkt Neu PL-DE (K. Pajewski)", 0.0, 0, 1345852800, 1435, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Neu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

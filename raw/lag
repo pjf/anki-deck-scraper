@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[855258552, "Vocabulario - Minna no Nihongo I - EOI Malaga", 0.0, 0, 1454889600, 825, 0, 0], [1677720087, "Vocabulario Minna no Nihongo 1\u00ba curso EOI M\u00e1laga", 0.0, 0, 1454976000, 314, 0, 0], [992483210, "TDF1-3.1 Grundlagen", 0.0, 0, 1454889600, 30, 0, 31], [1705584167, "Grundlagen des Marketing Uni due WS 15/16", 0.0, 0, 1454544000, 358, 0, 62], [764428933, "Kanji - Grado 2 - EOI Malaga", 0.0, 0, 1454889600, 47, 0, 0], [2118872411, "Menschen B1.08 ENG-GER, for Menschen books, Humber Verlag.", 0.0, 0, 1453161600, 161, 0, 0], [952920940, "Country Flags", 0.0, 0, 1453680000, 221, 3, 0], [867139296, "Jagen in der Schweiz (2. Auflage)", 0.0, 0, 1454457600, 10, 0, 0], [978825531, "USA flags", 0.0, 0, 1453852800, 26, 0, 39], [102146203, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 2", 0.0, 0, 1453680000, 43, 0, 0], [1554952324, "Kanji - Grado 1 - EOI Malaga", 5.0, 3, 1454889600, 80, 0, 0], [554051060, "Cherokee Language Meetup - Tsalagi", 0.0, 0, 1453593600, 277, 25, 87], [490384714, "Kunstgeschichte_Grundlagen", 0.0, 0, 1450137600, 59, 2, 68], [47760362, "ny sziklagyep", 0.0, 0, 1449014400, 26, 0, 0], [1047725462, "Japanisch f\u00fcr Sch\u00fcler - Kanji - 2. Auflage", 0.0, 0, 1430524800, 199, 0, 0], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [367400291, "SZF - Grundlagen", 0.0, 0, 1449878400, 12, 0, 0], [2034463645, "Klagemauer 2015", 0.0, 0, 1448323200, 60, 0, 0], [631842259, "GVA, Geld- und Verm\u00f6gensanlage 2015/16 Teil 1", 5.0, 1, 1448236800, 95, 0, 0], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [1280962225, "z\u00e1rt sziklagyepek", 0.0, 0, 1449014400, 4, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [1821520709, "Map of Asian States Includes Capitals and Flags", 0.0, 0, 1428969600, 49, 8, 61], [759515303, "Lagune 3 - Hueber - hugovdm", 0.0, 0, 1447286400, 596, 0, 0], [1244162070, "MKL Lagerungen und F\u00fchrungen", 0.0, 0, 1445731200, 92, 0, 15], [2102628967, "Malagasy Passive Verbs", 0.0, 0, 1440806400, 30, 0, 4], [560647422, "Malagasy Active Verbs 1-100", 0.0, 0, 1440806400, 101, 0, 4], [268376408, "South American States with Capitals and Flags", 0.0, 0, 1428969600, 15, 8, 17], [546947974, "An\u00e1lise e Projeto com UML (Modelagem)", 0.0, 0, 1410912000, 17, 0, 2], [1214596043, "Konstruktion Lager", 0.0, 0, 1437264000, 23, 0, 0], [3109551834, "WorldFlags", 4.79, 14, 1345852800, 204, 0, 204], [1985624841, "Flags of UN Member States", 0.0, 0, 1442707200, 195, 0, 0], [567666603, "ZU BWL Grundlagen 2014 SPRING ", 3.0, 1, 1415923200, 180, 0, 166], [28035572, "LevantAfricaFlags", 0.0, 0, 1438128000, 28, 0, 28], [539854188, "Grundlagen der Programmiersprachen", 0.0, 0, 1378684800, 77, 0, 0], [1089015047, "Unternehmensf\u00fchrung  - Grundlagen/Planung", 0.0, 0, 1429660800, 42, 0, 0], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [2713183883, "GVA, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute komplett", 0.0, 0, 1376006400, 244, 0, 0], [1208268223, "Histo B1 - Cartilage", 0.0, 0, 1410739200, 57, 0, 29], [265990646, "PHZH Quest 2 Musiktheorie Grundlagen", 0.0, 0, 1413849600, 133, 0, 9], [123314083, "Deutsch - Srpski: Nepravilni glagoli", 0.0, 0, 1427932800, 158, 0, 0], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [2131294133, "UP-ERN Mathematik - Grundlagen", 0.0, 0, 1388707200, 34, 0, 13], [344807918, "GVA 2015 ZWP, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute", 0.0, 0, 1437696000, 92, 0, 0], [2024316148, "Numerische und stochastische Grundlagen der Informatik", 0.0, 0, 1425254400, 34, 0, 68], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [2350919598, "Semaphore & Nautical Flags", 4.0, 2, 1357084800, 72, 0, 26], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [349334532, "The Flag Students (TFS)", 0.0, 0, 1436832000, 269, 0, 7], [969427906, "Grundlagen Geoinformatik und GIS Osnabr\u00fcck", 0.0, 0, 1423353600, 236, 0, 62], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [542717096, "Grundlagen Psychologie und Ergonomie", 0.0, 0, 1422230400, 140, 0, 0], [1653325242, "PHZH Quest Musiktheorie Grundlagen Nowak", 0.0, 0, 1415318400, 135, 0, 9], [1921600280, "Grundlagen der Sprachdidaktik ", 0.0, 0, 1405296000, 19, 0, 3], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [1799494936, "Tala Svenska A1 Lehrbuch GROA Verlag", 4.5, 2, 1392163200, 563, 0, 0], [2373410558, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [1340860033, "Grundlagen des Rechts 736180", 0.0, 0, 1387497600, 367, 0, 0], [1516417956, "Fabrik und Anlagenplanung TU Clausthal", 0.0, 0, 1402012800, 249, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [1041114497, "World Flags part deux", 0.0, 0, 1345852800, 204, 0, 204], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [2866766582, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [981785458, "Mathematische Grundlagen f\u00fcr Abi und Studium", 0.0, 0, 1427155200, 144, 0, 73], [1281409729, "Biochem, Unit 4; Cartilage", 0.0, 0, 1414108800, 72, 0, 0], [140928840, "Bs5 E- Vokabeln Alarmanlage", 0.0, 0, 1416441600, 19, 0, 0], [1881395835, "Logik Grundlagen", 0.0, 0, 1427155200, 29, 0, 1]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lag</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 2, 1373328000, 32, 65, 0], [644151027, "Portuguese Phrase Book (Continental pronunciation)", 5.0, 3, 1385942400, 1111, 1111, 35], [715457895, "English IELTS Pronunciation 807", 0.0, 0, 1433203200, 196, 0, 0], [1488984982, "Japanese JLPT1 grammar notes from 2010 plus some bonus", 5.0, 1, 1406851200, 225, 0, 0], [1222961490, "English vocabulary with pronunciation", 0.0, 0, 1448582400, 10, 10, 10], [1170201736, "JLPT N0 Vocab (Kanji/word <-> pronunciation and meaning)", 0.0, 0, 1374796800, 11911, 0, 0], [911206921, "Pronuntiation Buchstaben", 0.0, 0, 1439424000, 29, 32, 1], [108270676, "Die Zahlen (1-20) mit Pronuntiation", 0.0, 0, 1439510400, 20, 23, 1], [921083179, "wigsonub", 0.0, 0, 1437868800, 64, 3, 6], [510404938, "Cr\u00e8ole pronunciation", 0.0, 0, 1431129600, 35, 0, 0], [958302064, "Pronunciation trainer and minimal pairs", 0.0, 0, 1412467200, 101, 133, 65], [535956009, "Bonus tests", 0.0, 0, 1383264000, 207, 0, 0], [928140404, "Wallangues / Altissia Pronunciation English", 0.0, 0, 1386633600, 53, 0, 0], [341198269, "Jurga's Lithuanian Prononunciation Deck", 0.0, 0, 1421366400, 42, 42, 33], [3727329958, "En-Pronunciation", 0.0, 0, 1354406400, 32, 0, 0], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [59073739, "[mux] Pronunciation excercise", 4.0, 1, 1392768000, 76, 192, 1], [2048387633, "Shulu pronunciation v2", 0.0, 0, 1429056000, 86, 98, 61], [936693809, "pronunciation", 0.0, 0, 1391990400, 654, 0, 0], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [1259837048, "Ithkuil suffix degree pronunciation", 0.0, 0, 1376611200, 18, 0, 18], [183858094, "Cantonese pronunciation for the2400 most common characters i", 0.0, 0, 1415491200, 2400, 0, 0], [1887362521, "English Pronunciation (\u05d1\u05d9\u05d8\u05d5\u05d9 \u05d0\u05e0\u05d2\u05dc\u05d9\u05ea)", 0.0, 0, 1431216000, 8, 8, 8], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [143693304, "Ingl\u00eas Pronuncia (1k)", 0.0, 0, 1406419200, 1011, 1027, 2], [839019034, "Thai tone pronunciation practise", 0.0, 0, 1399507200, 94, 94, 0], [3990692596, "Erik's German Pronunciation Deck", 0.0, 0, 1353024000, 180, 176, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Onu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

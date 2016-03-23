@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1082539305, "TUM - Information Retrieval in High Dimensional Data (IRHD)", 0.0, 0, 1454889600, 113, 0, 253], [2140532937, "Bros deck updated with errata 1,2,3,4", 5.0, 2, 1454112000, 14855, 0, 2572], [275584315, "Perodic table with atomic data", 5.0, 2, 1351123200, 118, 0, 0], [183933952, "Japanese Katakana", 5.0, 4, 1411430400, 104, 104, 0], [1516686141, "120 data science Q & A ", 0.0, 0, 1454025600, 19, 0, 1], [1289058429, "Protein and amino catabolism", 0.0, 0, 1454716800, 18, 0, 4], [1956517816, "Lipid and fatty acid catabolism ", 0.0, 0, 1454716800, 18, 0, 3], [125752323, "Modern Database Management flash cards for final exam study.", 0.0, 0, 1402358400, 57, 117, 7], [1413712471, "Japanische Katakana (\u30ab\u30bf\u30ab\u30ca)", 0.0, 0, 1454457600, 100, 0, 0], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 0.0, 0, 1421107200, 101, 0, 0], [1731406480, "Mapa \u015bwiata na podstawie Ultimate Geography v. 1.0", 0.0, 0, 1452038400, 309, 3, 568], [1001567186, "Hiragana and katakana", 0.0, 0, 1449619200, 92, 0, 0], [1595194586, "Fragenkatalog MAG-Schwei\u00dfen", 0.0, 0, 1453507200, 30, 0, 0], [2088573454, "Introduction to Bioinformatic Databases and Tools", 0.0, 0, 1452470400, 11, 0, 0], [1597454072, "ABI Glucose Catabolism (Glycolysis)", 0.0, 0, 1452902400, 90, 0, 0], [2071776796, "Big data in R", 0.0, 0, 1452816000, 140, 0, 0], [3275191993, "Deck Data, Languages, Chinese", 0.0, 0, 1395619200, 1145, 0, 0], [676313274, "Hiragana Katakana output", 0.0, 0, 1412121600, 123, 0, 0], [449623667, "Catal\u00e0-jab", 0.0, 0, 1449792000, 1457, 59, 150], [125313500, "Japanese Hiragana/Katakana", 0.0, 0, 1448236800, 206, 0, 0], [251395753, "Vocabulari de \"Jus de chaussettes\", A2 (franc\u00e8s-catal\u00e0)", 0.0, 0, 1448150400, 120, 0, 0], [643327538, "Lucenyvesek \u00e1llatai", 0.0, 0, 1449014400, 2, 0, 0], [1374853058, "Complete Katakana practice deck", 0.0, 0, 1442016000, 123, 123, 0], [1191865573, "Data Science", 0.0, 0, 1449273600, 782, 0, 939], [1647570708, "Hiraganakatakana", 0.0, 0, 1448582400, 572, 0, 1], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [1033037446, "Modern Database Management Mid Term Study", 0.0, 0, 1400025600, 52, 0, 5], [1501923488, "Memazija - Japanski Katakana", 0.0, 0, 1447459200, 46, 0, 46], [1678048485, "Katakana with stroke diagrams and audio", 0.0, 0, 1441756800, 123, 123, 71], [63275581, "Katakana - Hiragana - \u010desk\u00e1 transcripce ", 0.0, 0, 1447977600, 140, 0, 0], [406808447, "Google Go Tour by DataGallos", 0.0, 0, 1447027200, 26, 0, 0], [1258852337, "shRngAra-satakam \u0936\u0943\u0919\u094d\u0917\u093e\u0930\u0936\u0924\u0915\u092e\u094d", 0.0, 0, 1446854400, 104, 0, 0], [56988519, "chata", 0.0, 0, 1445817600, 187, 0, 0], [1262233856, "nItishatakam of bhartrhari", 0.0, 0, 1446854400, 110, 0, 0], [838066147, "Database Deck", 0.0, 0, 1446508800, 42, 9, 37], [1084245066, "Katakana Loan Words", 0.0, 0, 1445644800, 411, 0, 1], [1233850715, "vairAgya-shatakam \u0935\u0948\u0930\u093e\u0917\u094d\u092f\u0936\u0924\u0915\u092e\u094d", 0.0, 0, 1446854400, 111, 0, 0], [199271197, "Renataitagyb bio", 0.0, 0, 1440979200, 469, 0, 0], [1770270429, "Katakana", 0.0, 0, 1434844800, 46, 0, 0], [115452972, "Heisigs Remember the Katakana vocabulary", 0.0, 0, 1441756800, 88, 0, 0], [1352063577, "Renataitagyb quim", 0.0, 0, 1440979200, 310, 0, 6], [1410746919, "Renataitagyb fis", 0.0, 0, 1440979200, 123, 0, 0], [1130110834, "Tabla de integrales inmediatas y derivadas", 0.0, 0, 1442188800, 37, 0, 74], [972539621, "Renataitagyb hist", 0.0, 0, 1440979200, 112, 0, 0], [1031585353, "Renataitagyb mat", 0.0, 0, 1440979200, 98, 0, 0], [1127384349, "Renataitagyb port", 0.0, 0, 1440979200, 148, 0, 0], [1566039705, "Block 3 - Data protection ", 0.0, 0, 1391212800, 23, 0, 0], [1099255571, "Katakana deck", 0.0, 0, 1433894400, 46, 0, 0], [247684641, "Buon Natale!", 0.0, 0, 1387756800, 50, 50, 0], [236327623, "Hiragana vs Katakana", 0.0, 0, 1345852800, 71, 0, 71], [532439588, "Renataitagy geo", 0.0, 0, 1440979200, 131, 0, 0], [789517822, "NUW Radar Data Study Notes. Phases 1-5.", 5.0, 1, 1396742400, 122, 0, 0], [625299731, "Fragenkatalog WGA - Teil H\u00fcbner", 0.0, 0, 1389916800, 32, 0, 11], [649996176, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [3003501636, "Wladcy Polski - lata panowania", 0.0, 0, 1345852800, 30, 0, 0], [1530213742, "IRATA Level 1 Q&A", 0.0, 0, 1438214400, 48, 0, 0], [228111984, "Stolice pa\u0144stw \u015bwiata", 0.0, 0, 1345852800, 161, 0, 0], [604961033, "Catal\u00e0 Ferran U3 i U7", 0.0, 0, 1416268800, 40, 0, 4], [698196308, "Fragenkatalog WGA - Teil Hansemann", 0.0, 0, 1390003200, 37, 0, 10], [1618224007, "DDO Paediatrics - Neonatal intubation ", 0.0, 0, 1409616000, 5, 0, 0], [1435905833, "Gairaigo - These are Katakana words from other languages", 5.0, 1, 1391212800, 413, 0, 0], [1795039665, "Minera\u00e7\u00e3o de dados/ Data Warehouse", 0.0, 0, 1437696000, 21, 0, 0], [1914362517, "Apr\u00e8n Catal\u00e0 amb lAndrea [Spanish] [sound]", 0.0, 0, 1386720000, 19, 18, 0], [751735717, "Kumataros Tandemvokabular", 0.0, 0, 1409270400, 1082, 0, 1], [3792826780, "Oracle 11g - Moving Data", 0.0, 0, 1380499200, 34, 0, 0], [754953013, "TU BS Bio B.Sc. BD01 Fragenkatalog Evers ", 0.0, 0, 1426464000, 65, 0, 38], [545541702, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [27733396, "Deutsch Unregelm\u00e4ssige Verben Partizip II - Spanish-Catalan", 0.0, 0, 1422144000, 67, 0, 63], [1654430327, "FTO 711 Outgoing Codes IATA", 0.0, 0, 1419984000, 45, 0, 0], [7900273, "Nata cutting edge elementary", 0.0, 0, 1353456000, 526, 0, 0], [1901660203, "Cardiff Uni ComSci Database Exam Revision", 0.0, 0, 1389139200, 100, 0, 0], [621372814, "Japanese Y\u014don Katakana", 0.0, 0, 1392940800, 33, 33, 0], [1374366479, "Catalan Shit-Based Expressions, taken from TipsyPilgrim.com", 0.0, 0, 1425859200, 53, 0, 0], [1577639935, "Wereldgeschiedenis Data", 0.0, 0, 1432684800, 28, 0, 0], [310661685, "B&B 03.04.15 Postnatal Development", 0.0, 0, 1425600000, 19, 0, 0], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [1186393048, "Catal\u00e0 Ferran 3 + 16", 0.0, 0, 1416268800, 20, 0, 0], [3553975077, "Geb\u00e4udetechnik Fragenkatalog", 0.0, 0, 1358812800, 79, 0, 0], [127426306, "DDO Paediatrics - neonatal resusc ", 0.0, 0, 1409616000, 13, 0, 0], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [1556677630, "EIT060 Datas\u00e4kerhet", 0.0, 0, 1426550400, 125, 0, 17], [1562981279, "Desiderata", 0.0, 0, 1345852800, 44, 0, 0], [3184920527, "Handball IHF Regelfragenkatalog (Fassung 18.05.2012 )", 0.0, 0, 1388016000, 332, 0, 0], [1952398056, "IATA airport and city codes", 1.0, 1, 1350086400, 10125, 0, 0], [114367886, "IK Fragenkatalog (Industrielle Kommunikationstechnik)", 0.0, 0, 1345852800, 129, 0, 8], [90200237, "Japanese Ten-Ten and Maru Katakana", 4.0, 1, 1392940800, 25, 25, 0], [2870062666, "Katakana Vokabeln Xychu", 0.0, 0, 1345852800, 344, 0, 0], [1909655842, "#JP101.Katakana", 0.0, 0, 1396828800, 107, 0, 0], [211188473, "Taketori monogatari translation", 0.0, 0, 1351296000, 26, 0, 0], [2335974837, "HMS.IHP.GI.V.FatAbsorption", 0.0, 0, 1362096000, 24, 0, 8], [963446172, "Catal\u00e0 Ferran unitats 3 i 4", 0.0, 0, 1418601600, 36, 0, 0], [779415544, "Japanese Basic Katakana", 3.75, 4, 1392768000, 46, 46, 0], [728392663, "Hiragana to Katakana (Basic set)", 4.5, 2, 1416614400, 46, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ata</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [235777112, "Petrografia/Petrografy", 0.0, 0, 1451865600, 65, 0, 11], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [195134115, "Geografia", 0.0, 0, 1447286400, 881, 0, 0], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [442267222, "Strafrecht bt", 0.0, 0, 1448323200, 154, 0, 6], [1351792369, "Scienze e geografia astronomica", 0.0, 0, 1447286400, 748, 0, 0], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [362677896, "1000 Question 7/b traffic hungarian", 0.0, 0, 1446681600, 147, 0, 0], [263702850, "1000 Question 7/a traffic hungarian", 0.0, 0, 1446681600, 151, 0, 0], [1997421296, "V\u00e4gm\u00e4rken (Trafikm\u00e4rken)", 0.0, 0, 1445731200, 274, 0, 2], [854651628, "ortografia giuriato", 0.0, 0, 1443744000, 84, 15, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [3635715246, "Lojban rafsi (frequency order)", 0.0, 0, 1345852800, 2741, 0, 0], [4143849910, "HMS.IMP.Lymphocyte.Traffic.Migration", 0.0, 0, 1364947200, 12, 0, 0], [1045775027, "echokardiografia", 0.0, 0, 1416873600, 38, 0, 0], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [2086434886, "Z\u00e1kladn\u00ed geografick\u00e9 pojmy", 0.0, 0, 1358294400, 136, 0, 0], [1485408120, "rough draft flash cards", 0.0, 0, 1409616000, 244, 0, 260], [4124159378, "Zivil- und Strafrecht PL-DE (aska_su + Evita)", 0.0, 0, 1345852800, 222, 0, 0], [1018557096, "Esperanto el la Grafo", 0.0, 0, 1357516800, 244, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [733650614, "Lojban rafsi", 0.0, 0, 1345852800, 1436, 0, 0], [2947491164, "Geografie Gymnasium Schweiz", 0.0, 0, 1378080000, 689, 0, 165], [1433453242, "Test geografia Africa - Dorotee", 0.0, 0, 1381363200, 23, 0, 0], [1361815937, "\u0411\u0438\u043b\u0435\u0442\u044b \u041f\u0414\u0414 \u0420\u0424 2011-2012. Traffic Rules (in Russian)", 3.67, 3, 1349913600, 800, 0, 613], [1138390234, "JH Zebrafish", 0.0, 0, 1399334400, 58, 0, 11], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [2891246967, "Strafrecht", 0.0, 0, 1358380800, 60, 0, 0], [4165382820, "Geografia do Brasil (Brazil Geography)", 3.75, 4, 1353456000, 27, 0, 27]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Raf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

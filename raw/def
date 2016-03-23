@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [553346658, "Joseph's N3 Vocabulary Deck with Japanese Definitions", 5.0, 4, 1450224000, 1644, 3, 0], [1028528798, "Medical French - Defense Language Institute LSK", 5.0, 2, 1418342400, 640, 629, 0], [1150776840, "PMBOK 47 Process Definitions - PMP", 0.0, 0, 1453334400, 46, 0, 0], [1808735822, "Schulp\u00e4dagogik II Definitionen ", 0.0, 0, 1454371200, 87, 0, 0], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [691431494, "OCR A-level Physics Unit 4 definitions", 0.0, 0, 1452384000, 40, 0, 0], [1591191899, "Schulp\u00e4dagogik Definitionen", 0.0, 0, 1454544000, 135, 0, 0], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [359675195, "TP- Doctor Deck - MUSM Host Defense Phase", 0.0, 0, 1450051200, 456, 0, 292], [1478517548, "Attacks and Defenses Block 1", 0.0, 0, 1452556800, 565, 0, 10], [447833305, "English Phonology Distinctive Features (simple definitions)", 0.0, 0, 1450483200, 20, 8, 15], [454773329, "pacemakers and defibrillators", 0.0, 0, 1451692800, 10, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [1825731269, "\u8003\u7814\u7ea2\u5b9d\u4e66bdefg", 0.0, 0, 1446681600, 724, 0, 0], [866541936, "Russian to English Most Common 10K With Audio and Defs", 0.0, 0, 1446163200, 9203, 9184, 2], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [535675942, "Math notation and basic definitions", 0.0, 0, 1442707200, 60, 0, 25], [1609924661, "Phrasal Verbs (English definition)", 0.0, 0, 1435104000, 216, 0, 0], [1830650241, "VOA 1500 - Definitions and Examples", 5.0, 1, 1439769600, 2928, 0, 1], [1564115074, "Mike's Definitive GRE Study List", 0.0, 0, 1439424000, 3677, 387, 0], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [970054618, "Host Defense", 0.0, 0, 1429056000, 15, 0, 0], [1470697926, "KDVP Chemistry Definitions 2014", 0.0, 0, 1417046400, 98, 0, 0], [274460702, "Immunodeficineices ", 0.0, 0, 1427241600, 42, 0, 10], [915948300, "Lojban Gismu with Simplified Definitions", 0.0, 0, 1360886400, 100, 0, 13], [130756328, "KUMC Immune Deficiencies", 0.0, 0, 1415318400, 22, 0, 0], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [1289570095, "Advanced German Vocabulary with good definitions", 3.0, 3, 1361836800, 1826, 0, 0], [518152011, "OCR Physics AS Definitions (Selective)", 0.0, 0, 1395619200, 86, 0, 0], [2024905629, "Jason - deck with Japanese definitions", 0.0, 0, 1425427200, 9872, 19302, 9550], [928009335, "Test default FS ", 0.0, 0, 1410652800, 1, 0, 0], [3259196780, "Lista kanji N2 (definiciones en espa\u00f1ol)", 0.0, 0, 1360108800, 2184, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [119891572, "rowan som histology (definition only - no visuals) BLOCK 1", 0.0, 0, 1407888000, 36, 0, 9], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [1152343697, "Unregelm\u00e4ssige Formen im Indefinido", 0.0, 0, 1367712000, 38, 0, 0], [2048938643, "WCMC Host Defense/HD 2013 Deck", 0.0, 0, 1389052800, 1053, 0, 174], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [2138161124, "AR5 symboler og definisjoner", 0.0, 0, 1369785600, 54, 0, 0], [2977877472, "Medical Spanish (Colombian) - Defense Language Institute LSK", 4.33, 3, 1418342400, 640, 637, 0], [822363740, "Simple kanji deck - English definition and on'yomi", 0.0, 0, 1422057600, 2136, 0, 0], [1709074644, "ENGLISH DEFINITIONS BL", 0.0, 0, 1417305600, 292, 26, 0], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [1663500573, "Medical Persian Farsi Iran - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [933777057, "ENGLISH DEFINITIONS AL", 0.0, 0, 1420588800, 85, 7, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Def</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

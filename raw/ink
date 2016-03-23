@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[4036022128, "Model Thinking (notes by Dmitriy Alexeev)", 0.0, 0, 1345852800, 81, 0, 33], [1811619462, "linking words", 0.0, 0, 1453507200, 44, 0, 0], [260716601, "Think Again: How to Reason and Argue (Coursera/Duke)", 0.0, 0, 1410912000, 131, 0, 0], [1280003735, "IPv6 OSPF Virtual Link Sim", 0.0, 0, 1451952000, 1, 0, 0], [298914202, "we lsot i think", 0.0, 0, 1451347200, 38, 3, 1], [166821926, "BEC Higher linking words", 0.0, 0, 1449619200, 12, 0, 0], [33008892, "Deutsch Goethe Essen und Trinken", 0.0, 0, 1445040000, 89, 0, 24], [1484269049, "Chinese Food and Drink", 0.0, 0, 1420675200, 182, 53, 103], [2116522243, "TY A08 Drinks", 0.0, 0, 1440201600, 9, 9, 9], [1021974894, "Think Python Vocabulary", 4.5, 2, 1402876800, 450, 0, 0], [1620660318, "Chinese Link: Elementary & Intermediate (work in progress)", 0.0, 0, 1364256000, 1256, 0, 0], [156942115, "yr 2 pink", 0.0, 0, 1441497600, 153, 0, 0], [441343131, "WMS PINK PINK PINK ", 0.0, 0, 1401580800, 206, 0, 17], [180446828, "Cranial Nerves - Role in Eating/Drinking, Swallowing, Speech", 0.0, 0, 1438732800, 17, 0, 0], [1261143568, "Zig Zag house drinks", 0.0, 0, 1392076800, 149, 0, 0], [1290222878, "Erkennen von Parasiten (inklusive Protozoen) f\u00fcr die TiHo", 0.0, 0, 1424131200, 195, 0, 151], [821053380, "SARAH STINKS", 0.0, 0, 1388016000, 138, 0, 0], [852928146, "Meithai - Essen und Trinken", 5.0, 1, 1383782400, 261, 0, 0], [3427128723, "Great Thinkers of Catholicism", 3.0, 1, 1345852800, 625, 0, 0], [748171536, "West End Idiomas - Food and Drink", 0.0, 0, 1437609600, 131, 0, 131], [1616511864, "Dont Think Memorize ", 0.0, 0, 1426723200, 57, 0, 0], [1662948761, "Think and Grow rich", 0.0, 0, 1395014400, 15, 0, 0], [148103435, "Essen und Trinken", 0.0, 0, 1414972800, 102, 0, 0], [1600810346, "The Magic of Thinking Big", 0.0, 0, 1396051200, 62, 0, 0], [1080481369, "Berechenbarkeit und Komplexit\u00e4t Scheinklausur", 0.0, 0, 1423267200, 24, 0, 28], [3002193795, "Einkaufen", 0.0, 0, 1382400000, 51, 39, 0], [4259859295, "Modern Greek - eat/drink/vegetables/fruit", 0.0, 0, 1389657600, 201, 0, 0], [2144588466, "Indremedisinkort", 0.0, 0, 1400371200, 495, 0, 147], [430721272, "Saint house drinks", 0.0, 0, 1392076800, 8, 0, 0], [747756721, "THS pink2", 0.0, 0, 1427500800, 84, 0, 56]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ink</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2002667426, "Genki 1 and 2 Vocabulary (Kanji / Kana / Romaji / Roumaji)", 0.0, 0, 1432166400, 799, 0, 0], [778135515, "Sopica thorax MAJ", 0.0, 0, 1452902400, 53, 0, 8], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [139351230, "Major System Inforoth", 0.0, 0, 1453161600, 110, 2, 7], [1874254267, "Latitudes and longitudes of some major cities", 0.0, 0, 1450828800, 43, 0, 0], [800780602, "german major system in images", 0.0, 0, 1445126400, 100, 0, 100], [360379520, "20 major amino acids", 0.0, 0, 1439596800, 23, 0, 0], [1748584485, "Nederlands - Japans Romaji", 0.0, 0, 1443312000, 16, 0, 0], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 0.0, 0, 1454025600, 1381, 1119, 100], [421011706, "Majorsystem 60-79", 0.0, 0, 1431043200, 60, 0, 0], [1272632927, "Japo\u0144sko- polski s\u0142ownik w romaji", 0.0, 0, 1426464000, 9564, 0, 0], [1108171985, "Major Scales & Modes - Spelling", 0.0, 0, 1369958400, 588, 0, 0], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [935800604, "Majorsystem 20-39", 0.0, 0, 1431043200, 0, 0, 0], [1065053217, "Japanisch Vokabeln R\u014dmaji VHS-WI H73090", 0.0, 0, 1430352000, 66, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [591594728, "Utilaj frazoj - Kutimaj demandoj", 0.0, 0, 1427155200, 46, 46, 0], [1080414520, "Major Methods: 10-Spliced Surprise (Mark B Davies) 1", 0.0, 0, 1409788800, 80, 0, 70], [816384211, "Majorsystem 00-19", 0.0, 0, 1431043200, 0, 0, 0], [1843832349, "Majorsystem 40-59", 0.0, 0, 1431043200, 60, 0, 0], [1268076678, "T\u00e9trades Harmonisation Maj/Min/MinHarmo", 0.0, 0, 1359331200, 147, 0, 0], [67409660, "Major 00-99 (Portuguese)", 4.0, 1, 1442534400, 99, 0, 98]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Maj</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

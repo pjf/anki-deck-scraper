@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2123341972, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 67", 0.0, 0, 1454803200, 13, 13, 0], [1212249195, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 71", 0.0, 0, 1454803200, 4, 4, 0], [493566475, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 72", 0.0, 0, 1454803200, 11, 11, 0], [1112304797, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 68", 0.0, 0, 1454803200, 6, 6, 0], [216819736, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 69", 0.0, 0, 1454803200, 9, 9, 0], [1112137068, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 70", 0.0, 0, 1454803200, 4, 4, 0], [1292597608, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 73", 0.0, 0, 1454803200, 7, 7, 0], [1013028463, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 88", 0.0, 0, 1454284800, 8, 8, 0], [1118822279, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 29", 0.0, 0, 1454803200, 24, 24, 0], [164619324, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 74", 0.0, 0, 1454803200, 23, 23, 0], [193471417, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 75", 0.0, 0, 1454803200, 18, 18, 0], [1823347243, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 90", 0.0, 0, 1454284800, 21, 21, 0], [1790724136, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21 \u00e0 30", 0.0, 0, 1454284800, 91, 183, 0], [678926238, "La Madrassah - Livre niv. 1 Alphabet", 0.0, 0, 1454284800, 28, 28, 0], [1767247205, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 07", 0.0, 0, 1453593600, 10, 20, 0], [126524023, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 60", 0.0, 0, 1454284800, 19, 19, 0], [598263593, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 04", 0.0, 0, 1453593600, 11, 22, 0], [1573631944, "Pharmocology cards for Paramedic Madison WI 2016", 5.0, 1, 1453939200, 655, 0, 0], [1502633560, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01 \u00e0 10", 0.0, 0, 1454284800, 103, 206, 0], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [1102301837, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01", 0.0, 0, 1454198400, 10, 19, 0], [1493754415, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 05", 0.0, 0, 1453593600, 12, 24, 0], [1977964181, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 89", 0.0, 0, 1454284800, 17, 17, 0], [2028379579, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 91", 0.0, 0, 1454284800, 10, 10, 0], [1864263172, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 12", 0.0, 0, 1453334400, 10, 20, 0], [523933998, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 57", 0.0, 0, 1452729600, 9, 9, 0], [2004634169, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 10", 0.0, 0, 1453593600, 12, 24, 0], [302150786, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11 \u00e0 20", 0.0, 0, 1454284800, 106, 212, 0], [1245743488, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 13", 0.0, 0, 1453334400, 12, 24, 0], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [126606944, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 03", 0.0, 0, 1453593600, 10, 20, 0], [1535345818, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 09", 0.0, 0, 1453593600, 10, 20, 0], [1346352296, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 14", 0.0, 0, 1453334400, 10, 20, 0], [731720484, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 51", 0.0, 0, 1452729600, 2, 2, 0], [1823539800, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 17", 0.0, 0, 1453334400, 12, 24, 0], [420553654, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 20", 0.0, 0, 1453334400, 10, 20, 0], [890954625, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 15", 0.0, 0, 1453334400, 10, 20, 0], [53902289, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 55", 0.0, 0, 1452729600, 4, 4, 0], [443840823, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 50", 0.0, 0, 1452729600, 3, 3, 0], [943382011, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21", 0.0, 0, 1453334400, 9, 18, 0], [1871751900, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 19", 0.0, 0, 1453334400, 10, 20, 0], [516232079, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 08", 0.0, 0, 1453593600, 10, 20, 0], [537488752, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 52", 0.0, 0, 1452729600, 11, 11, 0], [473886352, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 02", 0.0, 0, 1453593600, 10, 20, 0], [108705404, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 06", 0.0, 0, 1453593600, 10, 20, 0], [1787623247, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11", 0.0, 0, 1453593600, 10, 20, 0], [2005688403, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 56", 0.0, 0, 1452729600, 8, 8, 0], [1321705254, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 58", 0.0, 0, 1452729600, 11, 11, 0], [1667677711, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 18", 0.0, 0, 1453334400, 10, 20, 0], [1225699360, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 54", 0.0, 0, 1452729600, 4, 4, 0], [401721721, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 53", 0.0, 0, 1452729600, 9, 9, 0], [740745654, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 59", 0.0, 0, 1452729600, 16, 16, 0], [1575841661, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 16", 0.0, 0, 1453334400, 12, 24, 0], [1253348476, "Into English made by Clemens", 0.0, 0, 1450051200, 20, 0, 0], [164450921, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 40", 0.0, 0, 1448496000, 24, 24, 0], [1939657963, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 35", 0.0, 0, 1448150400, 9, 9, 0], [477795797, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 27", 0.0, 0, 1449532800, 10, 20, 0], [366130010, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 28", 0.0, 0, 1449532800, 10, 20, 0], [945792448, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 23", 0.0, 0, 1449532800, 10, 20, 0], [2128960655, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 29", 0.0, 0, 1449532800, 10, 21, 0], [1703243554, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 32", 0.0, 0, 1448150400, 13, 13, 0], [174094001, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 25", 0.0, 0, 1449532800, 10, 20, 0], [711814954, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 49", 0.0, 0, 1449532800, 7, 7, 0], [712694151, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 34", 0.0, 0, 1448150400, 6, 6, 0], [967969043, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 48", 0.0, 0, 1448496000, 12, 12, 0], [1722500951, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 47", 0.0, 0, 1448496000, 4, 4, 0], [494336494, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 24", 0.0, 0, 1449532800, 10, 20, 0], [529967601, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 22", 0.0, 0, 1449532800, 10, 20, 0], [93966752, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 30", 0.0, 0, 1449532800, 10, 18, 0], [739232840, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 44", 0.0, 0, 1448496000, 4, 4, 0], [2106806583, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 42", 0.0, 0, 1448496000, 9, 9, 0], [1313051144, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 26", 0.0, 0, 1449532800, 8, 16, 0], [1468755628, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 28", 0.0, 0, 1447545600, 6, 6, 0], [1044914894, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 46", 0.0, 0, 1448496000, 5, 5, 0], [1139833201, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 41", 0.0, 0, 1448496000, 19, 19, 0], [520676708, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 37", 0.0, 0, 1448150400, 14, 14, 0], [1981454284, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 33", 0.0, 0, 1448150400, 8, 8, 0], [2071937304, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 43", 0.0, 0, 1448496000, 6, 6, 0], [2031591801, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 30", 0.0, 0, 1448150400, 4, 4, 0], [1846368139, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 24", 0.0, 0, 1446768000, 16, 16, 0], [1866968965, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 27", 0.0, 0, 1447545600, 23, 23, 0], [1015315881, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 39", 0.0, 0, 1448496000, 11, 11, 0], [142394550, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 31", 0.0, 0, 1448150400, 12, 12, 0], [1607606313, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 23", 0.0, 0, 1446768000, 20, 20, 0], [226739842, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 36", 0.0, 0, 1448150400, 33, 33, 0], [494756537, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 22", 0.0, 0, 1446768000, 4, 4, 0], [1786099268, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 38", 0.0, 0, 1448150400, 30, 30, 0], [1523420163, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 45", 0.0, 0, 1448496000, 10, 10, 0], [1429393318, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 26", 0.0, 0, 1446768000, 13, 13, 0], [316956013, "Menschen A1 mmhahmadi", 0.0, 0, 1444003200, 2173, 0, 231], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [1477340124, "Madrassa Action Islamique - Niveau 3 Cours 12", 0.0, 0, 1441670400, 22, 22, 0], [2137098690, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 25", 0.0, 0, 1446768000, 37, 37, 0], [1421139594, "Madrassa Action Islamique - Niveau 3 Cours 09", 0.0, 0, 1440633600, 16, 16, 0], [242421592, "Madrassa Action Islamique - Niveau 3 Cours 13", 0.0, 0, 1441670400, 10, 10, 0], [24251812, "Madani qaida", 0.0, 0, 1439078400, 137, 0, 15], [537674402, "Madrassa Action Islamique - Niveau 3 Cours 03", 0.0, 0, 1444262400, 19, 19, 0], [1818443790, "Madrassa Action Islamique - Niveau 3 Cours 11", 0.0, 0, 1441670400, 6, 6, 0], [1137668229, "Madrassa Action Islamique - Niveau 3 Cours 01", 0.0, 0, 1441843200, 22, 22, 0], [140166154, "Madrassa Action Islamique - Niveau 3 Cours 08", 0.0, 0, 1440633600, 9, 9, 0], [1565398851, "Madrassa Action Islamique - Niveau 3 Cours 05", 0.0, 0, 1440633600, 24, 24, 0], [1107284048, "Madrassa Action Islamique - Niveau 3 Cours 02", 0.0, 0, 1444262400, 25, 25, 0], [1521963798, "Madrassa Action Islamique - Niveau 3 Cours 14", 0.0, 0, 1441670400, 35, 35, 0], [805185523, "Madrassa Action Islamique - Niveau 3 Cours 07", 0.0, 0, 1440633600, 19, 19, 0], [493124676, "Madrassa Action Islamique - Niveau 3 Cours 06", 0.0, 0, 1440633600, 18, 18, 0], [2009412915, "Madrassa Action Islamique - Niveau 3 Cours 04", 0.0, 0, 1441670400, 23, 23, 0], [1279765868, "NoMad Culture", 0.0, 0, 1423353600, 421, 0, 0], [1324337003, "Madrassa Action Islamique - Niveau 3 Cours 10", 0.0, 0, 1440633600, 14, 14, 0], [1633435536, "Vocabulaire Sur le ramadan", 0.0, 0, 1435276800, 52, 1, 0], [1648295721, "UW Madison Summer Uyghur", 5.0, 1, 1437436800, 788, 0, 0], [301125290, "EA 204 @ UW-Madison", 0.0, 0, 1421971200, 0, 0, 0], [108558577, "Radioamador", 0.0, 0, 1416960000, 234, 0, 0], [318727608, "Chinese Made Easier - Characters", 0.0, 0, 1431043200, 532, 0, 0], [3847643652, "Dragunkin Rus - Eng made by Sergey Larin", 0.0, 0, 1359417600, 388, 0, 0], [580568420, "Vocabulario tomado de Rosetta Stone El Ru I", 0.0, 0, 1400112000, 266, 0, 1], [814546657, "Common English mistakes made by Vietnamese speakers", 0.0, 0, 1430524800, 13, 0, 1], [499057164, "Japanese Grammar Notes (Homemade, N3ish?)", 0.0, 0, 1437955200, 490, 0, 50], [1941424101, "Madinah Arabic Book 3 (Lesson 1-27)", 0.0, 0, 1454112000, 1558, 0, 1567], [28459231, "PHYT8001 Wk 6 Quiz. This is a quick made up of week six.", 0.0, 0, 1428796800, 30, 0, 0], [1113991100, "Chinese Made Easier - Vocabulary", 0.0, 0, 1431043200, 3386, 0, 0], [2120253420, "UW Madison Classical Chinese Semester Two", 0.0, 0, 1422835200, 937, 0, 0], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [1250634315, "Madinah Arabic Book 1(full book)", 1.0, 1, 1410048000, 425, 0, 430], [3028692523, "Mark Piper's Accounting Made Simple", 0.0, 0, 1364947200, 57, 0, 0], [1669391579, "Madinah Arabic Book 2 (full book)", 0.0, 0, 1454112000, 753, 0, 753], [856377176, "Sanskrit made imple", 5.0, 1, 1372118400, 66, 0, 0], [354435333, "Made to Stick", 0.0, 0, 1345852800, 54, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mad</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

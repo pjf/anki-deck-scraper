@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2140532937, "Bros deck updated with errata 1,2,3,4", 5.0, 2, 1454112000, 14855, 0, 2572], [1185262582, "urheberrecht-beger", 0.0, 0, 1454803200, 28, 0, 0], [1790299980, "Psychologie - Zimbardo (Aufnahmepr\u00fcfung \u00d6sterreich)", 5.0, 1, 1449187200, 811, 0, 0], [380729955, "Wiater Unterrichtsprinzipien", 0.0, 0, 1454025600, 12, 0, 0], [2129243766, "Terry Wallwork - Japanese Kangxi Radicals", 0.0, 0, 1427155200, 214, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [990412215, "merryxmas", 0.0, 0, 1451088000, 64, 1, 21], [636140641, "PASS FIRST CERRIFICATE DECK", 0.0, 0, 1449014400, 268, 0, 0], [1450151841, "PASS FIRST CERRIFICATE DECK", 0.0, 0, 1449014400, 268, 0, 0], [513904051, "Salish - English - Huckleberries", 0.0, 0, 1449360000, 33, 25, 24], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [1333550820, "Derrick Anatomy flashcards", 0.0, 0, 1441929600, 41, 0, 44], [1246120486, "Exam 4 Fierro", 0.0, 0, 1440892800, 117, 0, 0], [614090542, "Terry's Vietnamese Vocabulary", 0.0, 0, 1439251200, 223, 110, 0], [1829964949, "Jess and Pierre baby huskies snowballs and snowflakes", 0.0, 0, 1414454400, 14, 0, 25], [649996176, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [1595412590, "for sherry1 as minhas palavras", 0.0, 0, 1427328000, 168, 0, 0], [1030473135, "Perry's Top 2K Kanji", 0.0, 0, 1345852800, 92, 0, 0], [604961033, "Catal\u00e0 Ferran U3 i U7", 0.0, 0, 1416268800, 40, 0, 4], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [3826873097, "Herr Bachfischer Geschichte Emil", 0.0, 0, 1377475200, 73, 0, 0], [1310249536, "Jess and Pierre Reindeers", 0.0, 0, 1401753600, 15, 0, 19], [1616674533, "superredpineapple", 0.0, 0, 1426118400, 221, 0, 0], [851933985, "Jess and Pierre Rainbows", 0.0, 0, 1401667200, 36, 0, 59], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [1569494239, "Jess and Pierre Brownies", 0.0, 0, 1402012800, 58, 0, 0], [545541702, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [712319246, "Herr Bachfischer Geschichte Weck, Wurst, und Wein", 0.0, 0, 1377475200, 246, 0, 0], [684527862, "Jess and Pierre orange mocha frappucino potato gems", 0.0, 0, 1410739200, 35, 0, 43], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [2671945522, "GCSE German - Herr Crook", 0.0, 0, 1379980800, 27, 0, 0], [1670616427, "Jess and Pierre omelette du fromage", 0.0, 0, 1402185600, 53, 0, 0], [1186393048, "Catal\u00e0 Ferran 3 + 16", 0.0, 0, 1416268800, 20, 0, 0], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [618932245, "F-E 16 la g\u00e9ographie (Sph\u00e8re terrestre > atmosph\u00e8re)", 0.0, 0, 1413331200, 215, 0, 0], [1812447615, "Herr Bachfischer Geschichte Von Deutschland Nach Deutschland", 1.0, 1, 1377475200, 327, 0, 0], [70549253, "Spanish Interrogatives aka Question Words", 0.0, 0, 1345852800, 24, 0, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [2020000427, "Konversationsunterricht_3", 0.0, 0, 1414454400, 34, 0, 0], [659195959, "Jess and Pierre Cotton Candy", 0.0, 0, 1401667200, 12, 0, 27], [2031049221, "MCM Test 3: 8.15 BSC Inborn Errors of Metabolism", 0.0, 0, 1408492800, 8, 0, 0], [796872551, "\u00d6sterreichische Politiker", 0.0, 0, 1442188800, 43, 0, 43], [772562422, "Bio Tierreich", 0.0, 0, 1422921600, 240, 0, 29], [1738952029, "Jess and Pierre fondue weird french things", 0.0, 0, 1414454400, 12, 0, 30], [3125609258, "States & Union Territories of India", 2.5, 2, 1345852800, 35, 0, 0], [3139658923, "Herr Bachfischer Geschichte H\u00f6llenmaschine an Bord", 0.0, 0, 1377475200, 136, 0, 0], [219194394, "merriam webster(my private share)", 0.0, 0, 1430611200, 60, 0, 0], [963446172, "Catal\u00e0 Ferran unitats 3 i 4", 0.0, 0, 1418601600, 36, 0, 0], [146069717, "Konversationsunterricht_2", 0.0, 0, 1414454400, 52, 0, 0], [2401346978, "Herr Bachfischer Geschichte Unten Durch", 0.0, 0, 1377475200, 194, 0, 0], [3306700428, "Konversationsunterricht_1", 0.0, 0, 1414454400, 24, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Err</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

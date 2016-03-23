@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[678445357, "Gladenbach qui/quae/quod", 0.0, 0, 1453766400, 10, 0, 0], [162187570, "Gladenbach 16", 0.0, 0, 1453766400, 44, 0, 0], [2100235973, "Gladenbach 15", 0.0, 0, 1453766400, 52, 0, 0], [407131161, "Gallbladder - Path3", 0.0, 0, 1453334400, 6, 0, 0], [1454547900, "Gladenbach 14", 0.0, 0, 1452729600, 27, 0, 0], [1768536471, "208-Maladies respi d'origine professionnelle", 0.0, 0, 1449964800, 11, 0, 0], [1476759630, "Gladenbach 13", 0.0, 0, 1448323200, 44, 0, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [967309941, "Gladenbach 12", 0.0, 0, 1444608000, 57, 0, 0], [857372921, "trgova\u010dko pravo zagreb miladin", 0.0, 0, 1442361600, 157, 0, 1], [520764292, "Italiano - z\u00e1kladn\u00ed v\u011bty a fr\u00e1ze", 0.0, 0, 1443657600, 10, 0, 0], [721237265, "Gall bladder, pancreas and liver", 0.0, 0, 1443916800, 108, 0, 0], [1843761656, "Gladenbach 11", 0.0, 0, 1441670400, 59, 0, 0], [1318695946, "Gallbladder/ Biliary System", 0.0, 0, 1444348800, 52, 0, 0], [1951323036, "N\u011bm\u010dina - z\u00e1kladn\u00ed slova", 0.0, 0, 1441929600, 45, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [1985493935, "CP PHX Ladder company officer 2014", 0.0, 0, 1406160000, 37, 0, 0], [3003501636, "Wladcy Polski - lata panowania", 0.0, 0, 1345852800, 30, 0, 0], [1414021581, "Gladenbach 6", 0.0, 0, 1428364800, 44, 0, 0], [1781109632, "wyglad ", 0.0, 0, 1429574400, 30, 0, 0], [1245300071, "Fin\u0161tina - p\u0159eklady a praktick\u00e9", 0.0, 0, 1401667200, 647, 0, 0], [1039075883, "Gallbladder/Pancreas Pathology", 0.0, 0, 1424736000, 94, 0, 3], [781623206, "Gladenbach 7", 0.0, 0, 1427932800, 49, 0, 0], [2086434886, "Z\u00e1kladn\u00ed geografick\u00e9 pojmy", 0.0, 0, 1358294400, 136, 0, 0], [1989623521, "farma leki z ukladow", 0.0, 0, 1434931200, 242, 0, 0], [2361589138, "Bladder Control and Sexual Function", 0.0, 0, 1370217600, 8, 0, 0], [2016709354, "Gladenbach 5", 0.0, 0, 1428451200, 42, 0, 0], [2067075275, "Gladenbach 4", 0.0, 0, 1428537600, 43, 0, 0], [2607328655, "Ladr\u00f3n Que Roba A Ladr\u00f3n", 5.0, 1, 1368316800, 216, 0, 0], [1730048436, "Gladenbach 2", 0.0, 0, 1428710400, 40, 0, 0], [974475246, "Gladenbach 9", 0.0, 0, 1428364800, 51, 0, 0], [3219718543, "Cory Ladd's Fret Deck", 0.0, 0, 1345852800, 29, 0, 29], [541858251, "MNEMO ZAKLADKI OD ", 0.0, 0, 1429747200, 9, 0, 1], [1838548842, "JK Bladder Pathology", 0.0, 0, 1414108800, 45, 0, 18], [1184749066, "Gladenbach 1", 0.0, 0, 1428796800, 41, 0, 0], [2125891601, "Gladenbach 8", 0.0, 0, 1427932800, 54, 0, 0], [125914526, "Gladenbach 10", 0.0, 0, 1428969600, 53, 0, 0], [193286086, "Gladenbach 3", 0.0, 0, 1428624000, 40, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lad</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

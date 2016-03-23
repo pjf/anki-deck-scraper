@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1463767702, "Paul Thomas General Medical Knowledge", 5.0, 1, 1454630400, 220, 0, 10], [1055723190, "Must Know NeuroLab", 0.0, 0, 1454457600, 517, 0, 106], [1498818887, "AWS Knowledge January 2016", 0.0, 0, 1454025600, 31, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [1358853175, "Japanese Knitting/Crochet Terms", 5.0, 1, 1423440000, 155, 3, 0], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [383044272, "Pilot Knowledge", 0.0, 0, 1452297600, 2199, 0, 61], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [2073511226, "anatomy Knee Muscles", 0.0, 0, 1449619200, 131, 0, 46], [1441487581, "Anatomie - Gelenke, Muskeln Knochen", 0.0, 0, 1449878400, 56, 0, 0], [168368817, "Kn\u00f6chernde Bestandteile des Unterschenkels und des Fu\u00dfes", 0.0, 0, 1447804800, 7, 0, 0], [1688642029, "Daryll Inso KNU vocab semester 1", 0.0, 0, 1444089600, 80, 47, 88], [785093514, "MAARNG OCS Knowledge", 0.0, 0, 1441756800, 84, 30, 0], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [537296649, "Stuff Kids Should Know - 1", 0.0, 0, 1421020800, 118, 0, 0], [1953059181, "TMS 180-1: Getting to Know God", 0.0, 0, 1440201600, 36, 0, 0], [569168669, "trgova\u010dko pravo zagreb gold\u0161tajn knjiga", 0.0, 0, 1442361600, 40, 0, 0], [2147290078, "Persian AIIS (Lucknow vocab for Josh)", 0.0, 0, 1440374400, 929, 0, 0], [1789951069, "MB1 Diseases to know (incomplete)", 0.0, 0, 1439596800, 16, 0, 0], [1370725998, "Montessori Upper El Background Knowledge - version 2", 0.0, 0, 1440028800, 95, 0, 50], [1387382907, "TH-67 Oral Knowledge", 0.0, 0, 1374105600, 85, 0, 0], [1100909741, "KNES 360", 0.0, 0, 1425513600, 47, 0, 0], [1448019603, "Industriell marknadsf\u00f6ring", 0.0, 0, 1416182400, 91, 3, 12], [3085922208, "KNUW Airspace MAP", 0.0, 0, 1381276800, 45, 0, 41], [1275150422, "Vital English words I didn't know", 0.0, 0, 1418169600, 204, 0, 0], [106295531, "RLR #95 \u2013 The Importance of Knowing WHY You're Learning", 5.0, 1, 1426032000, 30, 30, 0], [902482244, "magyar - angol kezdoknek  kb 2000 words", 0.0, 0, 1434326400, 1935, 0, 0], [1751828486, "Stuff from Anatomy Exam 1 we need to know Seana", 0.0, 0, 1415318400, 56, 0, 68], [787071023, "Roots, and various info to know", 0.0, 0, 1398816000, 33, 0, 3], [2898911171, "German for Reading Knowledge by Jannach", 0.0, 0, 1345852800, 2243, 0, 0], [371748812, "Mixed Knowledge", 0.0, 0, 1418342400, 4, 5, 1], [391136450, "The Top 39 Thai Words You Must Know", 0.0, 0, 1362096000, 39, 0, 0], [1947673003, "5 Bundles to Know", 0.0, 0, 1383177600, 5, 0, 5], [340550950, "Verfahrenstechnik - Trockner", 0.0, 0, 1406073600, 7, 0, 0], [1532583920, "OSU - MSK - Anterior, Medial Thigh, Knee", 0.0, 0, 1418342400, 87, 0, 47], [2611696388, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik Sor", 0.0, 0, 1368662400, 140, 0, 31], [449548536, "CS1 - Knowledge Engineering Maastricht", 0.0, 0, 1414108800, 89, 0, 0], [117637301, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik ", 0.0, 0, 1369440000, 172, 0, 62], [211697247, "Valuable Words in Barron's\"1100 words you need to know\"", 0.0, 0, 1410652800, 295, 0, 0], [1840057796, "What the people of the Amazon know that you don't", 0.0, 0, 1426032000, 29, 0, 8], [406163616, "Pals test 1 KNUW", 0.0, 0, 1396137600, 13, 0, 0], [408195215, "Words You Should Know", 0.0, 0, 1427414400, 756, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

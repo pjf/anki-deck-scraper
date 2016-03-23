@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1657050324, "Islenska fyrir alla", 0.0, 0, 1453334400, 907, 0, 0], [1917119202, "CZKHIsL1", 0.0, 0, 1446595200, 38, 0, 0], [702141744, "Capital Cities of Central America and Caribbean Islands", 0.0, 0, 1381881600, 39, 0, 0], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [1477340124, "Madrassa Action Islamique - Niveau 3 Cours 12", 0.0, 0, 1441670400, 22, 22, 0], [1421139594, "Madrassa Action Islamique - Niveau 3 Cours 09", 0.0, 0, 1440633600, 16, 16, 0], [382953328, "Legisla\u021bia rutier\u0103 - Obliga\u021bii", 0.0, 0, 1445817600, 96, 0, 0], [1344105746, "Legisla\u021bia rutier\u0103 - Indicatoare rutiere", 0.0, 0, 1444608000, 281, 0, 42], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [242421592, "Madrassa Action Islamique - Niveau 3 Cours 13", 0.0, 0, 1441670400, 10, 10, 0], [537674402, "Madrassa Action Islamique - Niveau 3 Cours 03", 0.0, 0, 1444262400, 19, 19, 0], [1973010626, "Sisler", 0.0, 0, 1444262400, 120, 0, 20], [1818443790, "Madrassa Action Islamique - Niveau 3 Cours 11", 0.0, 0, 1441670400, 6, 6, 0], [1137668229, "Madrassa Action Islamique - Niveau 3 Cours 01", 0.0, 0, 1441843200, 22, 22, 0], [140166154, "Madrassa Action Islamique - Niveau 3 Cours 08", 0.0, 0, 1440633600, 9, 9, 0], [1565398851, "Madrassa Action Islamique - Niveau 3 Cours 05", 0.0, 0, 1440633600, 24, 24, 0], [1107284048, "Madrassa Action Islamique - Niveau 3 Cours 02", 0.0, 0, 1444262400, 25, 25, 0], [1521963798, "Madrassa Action Islamique - Niveau 3 Cours 14", 0.0, 0, 1441670400, 35, 35, 0], [805185523, "Madrassa Action Islamique - Niveau 3 Cours 07", 0.0, 0, 1440633600, 19, 19, 0], [493124676, "Madrassa Action Islamique - Niveau 3 Cours 06", 0.0, 0, 1440633600, 18, 18, 0], [2009412915, "Madrassa Action Islamique - Niveau 3 Cours 04", 0.0, 0, 1441670400, 23, 23, 0], [1324337003, "Madrassa Action Islamique - Niveau 3 Cours 10", 0.0, 0, 1440633600, 14, 14, 0], [2425799786, "Islandzki PL-IS (Jakub Budkiewicz)", 0.0, 0, 1345852800, 1899, 0, 0], [2937531267, "Islenska fyrir alla 3 (fara/vera \u00ed/\u00e1/til)", 5.0, 1, 1391990400, 62, 0, 0], [279393304, "CAASIC terms from Islamic Thought", 0.0, 0, 1414972800, 51, 0, 0], [376716890, "Whidbey Island RFC Test 2", 0.0, 0, 1388707200, 25, 0, 0], [988773582, "Map Caribbean Islands", 3.0, 2, 1355961600, 28, 0, 1], [3056607432, "pojmy na klasick\u00fd isl\u00e1m - \u0165upek", 0.0, 0, 1361750400, 122, 0, 0], [1561812428, "AME CONSTITUCIONAL - PROCESSO LEGISLATIVO", 0.0, 0, 1409702400, 37, 0, 0], [1977629592, "Isl\u00e6ndische Vokalbeln mit Flektionsklassen", 0.0, 0, 1425340800, 163, 0, 0], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [148553838, "aloislatin", 0.0, 0, 1417305600, 273, 2, 3], [1309554021, "ENG-SPA. THE TREASURE ISLAND", 0.0, 0, 1392508800, 96, 0, 0], [1326612830, "Isl\u00e4ndisch-Deutsch", 0.0, 0, 1422748800, 1415, 0, 0], [858664824, "Lekarska terminologie - cislovky", 0.0, 0, 1426464000, 31, 0, 3], [906962639, "Legislacao Aduaneira AFRFB FSSILVA", 0.0, 0, 1424390400, 358, 0, 0], [220844358, "AME CONSTITUCIONAL - PODER LEGISLATIVO", 0.0, 0, 1409702400, 56, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Isl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

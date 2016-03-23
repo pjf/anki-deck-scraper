@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [562950832, "Physik Deck Kluggeburt", 5.0, 1, 1454716800, 277, 0, 0], [2474824523, "TOCFL - Begginer (First Level)", 0.0, 0, 1345852800, 838, 0, 0], [1436671682, "R\u00e9vision Droit GOL 29 maggle", 0.0, 0, 1452556800, 34, 0, 4], [1674909651, "Chrono Trigger script. Japanese <-> English retranslation", 4.67, 3, 1372464000, 4701, 0, 0], [1429324291, "SM17 - Shutter bugged", 0.0, 0, 1452643200, 33, 0, 0], [830113883, "Gregg Shorthand Simplified Brief Forms", 0.0, 0, 1449360000, 181, 0, 0], [1100926520, "Kanji da leggere Saito", 0.0, 0, 1449187200, 249, 0, 0], [1861211878, "Esame Fisica 1 (In aggiornamento)", 0.0, 0, 1445990400, 23, 0, 35], [609859235, "Higghg", 0.0, 0, 1447804800, 78, 0, 0], [686887148, "GGG Quizlet - ANS-Receptor Function", 0.0, 0, 1443052800, 77, 0, 0], [126560048, "Bible Quiz 37: Haggai", 0.0, 0, 1345852800, 11, 0, 0], [1133240153, "CA1 acronyms by GG", 0.0, 0, 1440547200, 47, 0, 0], [1331038465, "m4 kroppsvegg", 0.0, 0, 1402099200, 26, 0, 5], [1860004285, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [531620308, "Andiamo in spiaggia! (es)", 0.0, 0, 1407369600, 50, 50, 0], [64443589, "GG - French sentences", 0.0, 0, 1377648000, 140, 0, 0], [1749324511, "Psych 280 ISU for Aggression, Prejudice, Stress", 0.0, 0, 1387324800, 11, 0, 0], [692511727, "m4 rygg", 0.0, 0, 1402099200, 56, 0, 6], [1541853171, "D\u00e4ggdjur Sanna", 4.0, 1, 1423094400, 39, 0, 39], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [1950425595, "zichanpinggu-jidian", 0.0, 0, 1425340800, 1133, 0, 205], [1681887992, "zichanpinggu-jianzhu", 0.0, 0, 1425340800, 1316, 0, 42], [3410422719, "Biggie Korean Deck", 0.0, 0, 1385596800, 763, 0, 130], [1647138982, "zichanpinggu-pinggu", 0.0, 0, 1425340800, 855, 0, 102], [1957201561, "Gold Nuggets", 0.0, 0, 1402272000, 50, 0, 0], [778363617, "GG - general facts", 0.0, 0, 1377648000, 2, 0, 0], [1236085835, "TEST; taggables", 0.0, 0, 1376524800, 42, 0, 42], [277564484, "zichanpinggu-caiwu", 0.0, 0, 1425340800, 1598, 0, 75], [3116360426, "Neuro 1 - deel1, H6: het ruggenmerg", 0.0, 0, 1353456000, 22, 0, 0], [570882039, "Microbiology I, with Eggers", 0.0, 0, 1411171200, 188, 0, 0], [704360905, "Aggressive Lymphomas", 0.0, 0, 1422835200, 24, 0, 0], [145047688, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [2005118429, "Andiamo in spiaggia! (hu)", 0.0, 0, 1407369600, 50, 50, 0], [139022371, "druggss", 0.0, 0, 1408924800, 2, 0, 0], [1485024834, "ENGG 201 Deck", 0.0, 0, 1414108800, 255, 0, 36], [92529641, "reggie taxi 1", 0.0, 0, 1388880000, 223, 0, 0], [1896336622, "GG - Spanish sentences", 0.0, 0, 1377648000, 111, 0, 0], [3086174671, "Blake Brownrigg Chinese Deck", 0.0, 0, 1345852800, 539, 0, 0], [1478232430, "BMS370 W/ Eggers: Exam II", 0.0, 0, 1414627200, 236, 0, 1], [1060534595, "begge deler - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395532800, 28, 56, 0], [1662783036, "Guitar Harmonics - 21 arpeggios with notes and diagrams", 0.0, 0, 1390867200, 22, 0, 22], [28680190, "Aggettivi 1", 0.0, 0, 1390089600, 79, 0, 0], [1839955209, "Aggregate Medical Spanish", 0.0, 0, 1396051200, 1276, 587, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Gg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
