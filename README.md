@@ -17,7 +17,7 @@ How to scrape anew:
 `./md-to-html.sh decks.md > decks.html` (You can also use Jekyll or other means to create an html)  
 3b. Create multiple htmls, grouping the results by language (but note that language guessing is louzy!):  
 `./get-info-for-all.py decks.md restart`  
-`./determine-languages.py decks.md`  
+`./determine-languages.py`  
 `./split-decks-to-groups.sh decks.md`  
 `./all-md-to-html.sh`  
 
