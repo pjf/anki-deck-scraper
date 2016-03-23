@@ -15,8 +15,11 @@ Usage: Grab some pages from anki web with deck listings. I do this:
 
 Then run `build-anki-list.pl` over them:
 
-    $ ./build-anki-list-list.pl raw/* > decks.md
+    $ ./build-anki-list.pl raw/* > decks.md
 
-It produces markdown as output, with YAML top-matter suitable for Jekyll.
+It produces markdown as output, with YAML top-matter suitable for:
+* Jekyll.
+* md-to-html.sh included here
+* ...
 
 You can see the output at http://pjf.id.au/anki/decks.html
