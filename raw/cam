@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[269213494, "Cambridge Latin Course: Unit 2", 0.0, 0, 1454025600, 166, 0, 0], [6283590, "CAD CAM Lab", 0.0, 0, 1450137600, 36, 0, 0], [1375194817, "camels ", 0.0, 0, 1449964800, 51, 0, 0], [2098834578, "Cambridge Latin Unit 3 Vocabulary", 0.0, 0, 1449878400, 168, 0, 1], [832603678, "Marcamedies German Lektion Zwei", 0.0, 0, 1449878400, 36, 0, 0], [777878970, "Cambridge Latin Course: Unit 1", 0.0, 0, 1447372800, 630, 0, 0], [1578878717, "Camino al Espanol Spanish Vocabulary", 0.0, 0, 1445299200, 30, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [1294610992, "Cambridge Latin 2, Chapter 1", 0.0, 0, 1439942400, 75, 0, 0], [1540866098, "Cambridge Part II Physics: Optics and Electrodynamics ", 0.0, 0, 1413504000, 43, 0, 79], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [1645578532, "Caminos neu A2", 5.0, 2, 1441497600, 1813, 0, 0], [278240367, "Cambridge Latin Stages 1-5", 0.0, 0, 1439856000, 182, 0, 4], [107850262, "Camden Town - Starter", 0.0, 0, 1400630400, 52, 0, 0], [2078942369, "Clezio Camus", 0.0, 0, 1425600000, 1376, 0, 0], [1353699972, "TCM Review CAM Basic Point Rx", 0.0, 0, 1345852800, 57, 0, 0], [1227640507, "Cambridge College Crests", 0.0, 0, 1394236800, 31, 0, 31], [1493440238, "Campbell Biology chapter 4", 0.0, 0, 1415232000, 20, 0, 0], [351890062, "TCM Review CAM Extended Point Rx", 0.0, 0, 1345852800, 42, 0, 0], [949134539, "\"Camden Town\" theme 6 - A", 0.0, 0, 1398729600, 30, 0, 0], [1320732067, "Cambridge_Javad", 0.0, 0, 1436400000, 658, 0, 10], [1665477013, "Precambrian Tectonics", 0.0, 0, 1396310400, 33, 0, 0], [3504712369, "French-Farsi -Words of  the book \"CAMPUS 1\"  A1 (lesson1-6)", 5.0, 1, 1358553600, 672, 0, 0], [1889570833, "CAM102 Microbiology lawl", 0.0, 0, 1376956800, 163, 0, 9], [1679447346, "Cambridge Part II Physics: Thermal and Statistical Physics", 0.0, 0, 1413504000, 35, 0, 30], [1342493819, "CAM102 Gross Anatomy lawl ", 0.0, 0, 1376956800, 478, 0, 33], [1000990906, "Breakdown of the Bicameral", 0.0, 0, 1394323200, 6, 0, 0], [2932400150, "TCM Review Functions of Organs CAM", 0.0, 0, 1345852800, 62, 0, 0], [665271826, "Cambridge Part II Physics: Theoretical Physics (1)", 0.0, 0, 1413504000, 11, 0, 12], [1009826460, "spl - Alex and Cam 01", 0.0, 0, 1416096000, 26, 26, 0], [1486822972, "Camden Town 5 - vocab - all themes ", 0.0, 0, 1403136000, 443, 0, 0], [400847432, "Cams - hwork one", 0.0, 0, 1434931200, 40, 0, 0], [361454676, "Camille Shared 2014", 0.0, 0, 1394668800, 198, 0, 0], [566988211, "2nd Year MT Cambridge Chinese", 0.0, 0, 1388188800, 1058, 0, 0], [843601977, "Polish English   Id\u0119...Jestem...Wracam", 0.0, 0, 1396915200, 141, 0, 0], [2305196561, "French-Farsi -Words of  the book \"CAMPUS 1\"  A2 (lesson7-12)", 5.0, 1, 1358553600, 740, 0, 0], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57], [2808982211, "TCM Review Zang Fu Diagnosis CAM", 0.0, 0, 1345852800, 95, 0, 0], [202781649, "CAM201 Pharmacology", 5.0, 1, 1398470400, 509, 0, 0], [894079367, "Ana's Spanish Class: En Camino", 0.0, 0, 1434585600, 262, 0, 0], [1773575851, "Cambridge Part II Physics: Advanced Quantum Physics ", 0.0, 0, 1413504000, 44, 0, 80]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cam</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

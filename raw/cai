@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[165719974, "Vocabulaire Farsi - Francais ( avec prononciation)", 0.0, 0, 1454457600, 53, 0, 0], [1040465699, "Francais - Roman (Francez -Rom\u00e2n)", 0.0, 0, 1453593600, 12723, 3, 5], [1590750558, "julien deck dico francais arabe", 0.0, 0, 1454198400, 4577, 0, 0], [1530530966, "Liste de proverbes Francais-Anglais", 0.0, 0, 1447027200, 10, 0, 3], [617640411, "Les verbes en francais", 0.0, 0, 1446595200, 89, 0, 1], [1615755575, "Francais - Roman", 0.0, 0, 1452643200, 11824, 3, 5], [870026912, "francais-mandarin. d\u00e9butant", 0.0, 0, 1436659200, 39, 40, 1], [2552145678, "French-farsi - Vocabulaire progressive Du francais Debutant\t", 0.0, 0, 1358553600, 185, 0, 0], [526932919, "PhrasesFrancais", 0.0, 0, 1415577600, 34, 1, 1], [1483270442, "Les verbes francaises", 0.0, 0, 1391558400, 147, 0, 0], [960592027, "Berenice francais", 0.0, 0, 1386633600, 1, 0, 1], [601201769, "French - Czech: Connexion 1 - Method de Francais", 0.0, 0, 1413331200, 1376, 0, 0], [213720337, "END OF YEAR SCIENCE EXAM (Francais)", 0.0, 0, 1432252800, 207, 0, 47], [2805478563, "R\u00e9gions Francaises ", 0.0, 0, 1345852800, 106, 0, 0], [4230074663, "words of \"Vocabulaire progressive francais Intermediaire\" ", 3.0, 2, 1358553600, 2109, 0, 0], [277564484, "zichanpinggu-caiwu", 0.0, 0, 1425340800, 1598, 0, 75], [1738791118, "French - Farsi -- Words of AlterEgo 1 methode de francais", 1.0, 1, 1358553600, 1150, 0, 0], [1611891644, "Euskara-Frantsesa lexikoa , Lexique Basque - Francais", 0.0, 0, 1431907200, 523, 0, 0], [1305490160, "Cairo Engineering - Comm2013 - NTRA II", 0.0, 0, 1370304000, 20, 0, 0], [718393071, "Sexual Education Science (Francais)", 1.0, 1, 1427414400, 63, 0, 0], [7181972, "Francais Perspectives A2 Zlimnig", 0.0, 0, 1410739200, 406, 0, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cai</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

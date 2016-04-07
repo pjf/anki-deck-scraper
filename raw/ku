@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[300577387, "09 Kultura LRM PP", 0.0, 0, 1345852800, 240, 235, 0], [1151816691, "Deutsch Wortschatz (Kurs)", 1.0, 1, 1454284800, 0, 0, 0], [1821893832, "HAII Midterm 1 - Skull part 2", 0.0, 0, 1454803200, 51, 0, 1], [348899138, "Hebrew with Nekudot - gk", 0.0, 0, 1345852800, 1750, 0, 0], [2637721973, "07 Zakupy LRM PP", 5.0, 1, 1345852800, 182, 182, 0], [141131449, "HAII Midterm 1 - Skull", 0.0, 0, 1454716800, 73, 0, 1], [1237255439, "Kurman\u00e7\u00ee - Deutsch", 0.0, 0, 1454889600, 48, 0, 0], [1523495518, "Anatomie pro FI kurz", 0.0, 0, 1454284800, 51, 0, 0], [1546413252, "Kunstgeschichte", 0.0, 0, 1454803200, 100, 0, 101], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [1185382950, "Bibelkunde NT (13) Markus Evangelium", 0.0, 0, 1453852800, 74, 0, 0], [1794773363, "Kanji jigoku, poziom trzeci - lekcje 1-13", 0.0, 0, 1454716800, 1040, 0, 0], [998256292, "Kanji jigoku, poziom 3 - lekcje 14-25", 0.0, 0, 1454716800, 1073, 0, 0], [472954079, "Bibelkunde NT (10) - Offenbarung", 0.0, 0, 1453680000, 20, 0, 0], [825115765, "Blood and Lymph KUMC", 5.0, 1, 1454371200, 1276, 10, 1148], [100338815, "Bibelkunde NT (14) Mt Evangelium", 0.0, 0, 1453852800, 54, 0, 0], [760754731, "Bibelkunde AT (8) Gro\u00dfer Stapel", 0.0, 0, 1453680000, 157, 0, 0], [3588242408, "PLU Price Lookup Codes", 4.0, 1, 1387324800, 1027, 0, 639], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [429194805, "Julevs\u00e1megiella a-kurssa \u00e5d\u00e5jakm\u00e1no 2016", 0.0, 0, 1452902400, 123, 0, 0], [339515789, "Studienweg 1 Vorkurs 1", 0.0, 0, 1452816000, 45, 0, 0], [61203353, "Bibelkunde NT (12) Lukas Ev.", 0.0, 0, 1453766400, 34, 0, 0], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [156591062, "Bibelkunde NT 3 - Johannes", 0.0, 0, 1452556800, 38, 0, 0], [223549278, "Bibelkunde NT (5) Kreuzestod", 0.0, 0, 1452643200, 20, 0, 0], [489166221, "Onkologi", 0.0, 0, 1451952000, 114, 0, 10], [417635412, "Bibelkunde AT (7) - Geschichte Israels", 0.0, 0, 1453161600, 17, 0, 0], [703681848, "Bibelkunde NT (9) - Nachgereichte Karten", 0.0, 0, 1453680000, 13, 0, 0], [857635969, "Patologi og histologi", 0.0, 0, 1451952000, 30, 0, 8], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [1761105160, "Bibelkunde NT (6) - Frauen und \u00c4mter und kath. Briefe", 0.0, 0, 1452816000, 14, 0, 0], [591343791, "Sakura Gakuen", 0.0, 0, 1452297600, 263, 0, 0], [1745961245, "Ortskundepr\u00fcfung Krankentransport Hamburg", 0.0, 0, 1452988800, 47, 0, 0], [591908342, "Histo Praktikum Block 3", 0.0, 0, 1450224000, 82, 0, 87], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [1404002235, "H\u00e6matologi", 0.0, 0, 1450656000, 78, 0, 2], [1506716023, "Bibelkunde NT 2 - Kleine Paulus Briefe", 0.0, 0, 1452556800, 11, 0, 0], [880791866, "Bibelkunde NT 4 - Korintherbriefe", 0.0, 0, 1452556800, 11, 0, 0], [1031995971, "Francuski w biznesie i ekonomii  KUL 2014/15 v 2015-01-11", 0.0, 0, 1425340800, 424, 488, 0], [490384714, "Kunstgeschichte_Grundlagen", 0.0, 0, 1450137600, 59, 2, 68], [1417117299, "Kardiologi", 0.0, 0, 1450656000, 264, 0, 64], [692131272, "Urologi/nefrologi", 0.0, 0, 1450656000, 233, 0, 17], [1448010580, "Kanji 1 - nihongonogakusei", 0.0, 0, 1452384000, 10, 0, 0], [1743115155, "Ortop\u00e6dkirurgi", 0.0, 0, 1452211200, 80, 0, 41], [809047702, "Angielski dla pocz\u0105tkuj\u0105cych. Posiadanie (have got, has got)", 0.0, 0, 1437436800, 21, 21, 9], [1615292742, "KULTURA", 0.0, 0, 1451865600, 121, 0, 0], [415230069, "Gastroenterologi", 0.0, 0, 1450137600, 464, 0, 54], [579568041, "ID part 2 KUMC", 0.0, 0, 1449705600, 320, 10, 260], [1546466328, "Blandet klinik", 0.0, 0, 1451520000, 241, 0, 70], [1980638616, "ID part 2222 KUMC", 0.0, 0, 1449705600, 1871, 10, 1448], [1297657361, "Soko Gakuen::Intermediate 6", 0.0, 0, 1439856000, 333, 0, 0], [1031661012, "Plastikkirurgi", 0.0, 0, 1451520000, 54, 0, 3], [1829981344, "Reumatologi", 0.0, 0, 1450137600, 40, 0, 7], [2070409078, "Soko Gakuen::Intermediate 5", 0.0, 0, 1439856000, 331, 0, 0], [1019693788, "HKUST Comp3511 OS Flash Cards", 0.0, 0, 1449705600, 100, 0, 12], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [869748009, "Endokrinologi", 0.0, 0, 1451952000, 36, 0, 0], [501823732, "Remembering the Kanji (301-400) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [691498425, "Muskulatur der Regio Femoralis Anterior", 0.0, 0, 1447804800, 7, 0, 0], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [1949190070, "DeutschKurs_Cap", 0.0, 0, 1446595200, 485, 0, 0], [1447291027, "artyku\u0142 epilepsja", 0.0, 0, 1448755200, 118, 0, 0], [360825358, "Deutsch 4 Kurs", 0.0, 0, 1448496000, 49, 8, 0], [1227619809, "HKUST Comp3511 Operating System Midterm", 0.0, 0, 1445472000, 102, 0, 4], [417416744, "Infrahyoidale Muskulatur", 0.0, 0, 1447632000, 6, 0, 0], [1806694043, "Rememberig the Kanji (201-300) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [586814757, "KUK OREA 1-1", 0.0, 0, 1448236800, 57, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [1862928028, "Remembering the Kanji (101-200) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [2125369688, "Soko Gakuen::Kanji 3", 0.0, 0, 1440633600, 246, 0, 0], [900261995, "Muskulatur des Dorsum Pedis", 0.0, 0, 1447804800, 7, 0, 0], [383928111, "Remembering the Kanji (1-100) - Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [1913327869, "Od samego pocz\u0105tku", 0.0, 0, 1445904000, 179, 205, 1], [1543379875, "Deutschkurs B2", 0.0, 0, 1448323200, 151, 0, 0], [1971368105, "KUMC Anti-viral drugs", 5.0, 1, 1446681600, 37, 10, 8], [505096921, "DeutschKursCap", 0.0, 0, 1446595200, 483, 0, 0], [637318382, "KUMC B&B Anatomy Face/Neck/Infratemporal Fossa", 0.0, 0, 1443052800, 261, 0, 262], [461794434, "TWIW 15 B1 - Werkstoffkunde Semester 1", 0.0, 0, 1447286400, 68, 0, 1], [103043585, "MKL Wellenkupplungen", 0.0, 0, 1445731200, 93, 0, 0], [552433655, "Deutschkurs", 0.0, 0, 1445644800, 1315, 0, 0], [492378128, "Remembering the Kanji (401-500) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1667671630, "kemia lukio kurssi 1", 0.0, 0, 1440460800, 180, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [458634680, "Leos f\u00f6rsta lista av det appendikul\u00e4ra skelettet ", 0.0, 0, 1442188800, 66, 0, 0], [1278483705, "Basic uro-nefro", 0.0, 0, 1445472000, 98, 0, 11], [600328520, "WKU Chinese Traditions", 0.0, 0, 1443571200, 155, 0, 0], [658532312, "kupoprodaje s posebnim pogodbama", 0.0, 0, 1441756800, 24, 0, 0], [1915831994, "KUMC GenNeo Pharmacology", 0.0, 0, 1444262400, 60, 0, 0], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 2.5, 2, 1345852800, 500, 0, 0], [872122309, "Sygdomskort til tema D KU", 0.0, 0, 1442448000, 42, 0, 62], [674452450, "dokumentarni akreditiv i bankarska garancija", 0.0, 0, 1441756800, 32, 0, 0], [855552004, "kupoprodaje", 0.0, 0, 1441756800, 40, 0, 0], [1420318386, "Neuroanatomie Blockkurs 2015 Unibe", 0.0, 0, 1443657600, 105, 0, 1], [1205039445, "Supernopea suomen kielen kurssi - Oppitunti #2", 0.0, 0, 1441411200, 130, 8, 15], [2143127448, "skull", 0.0, 0, 1441411200, 230, 0, 18], [1316819284, "Supernopea suomen kielen kurssi - Oppitunti #1", 0.0, 0, 1441411200, 145, 8, 15], [975025588, "Wk. 1, Inter. 1, Soko Gakuen", 0.0, 0, 1397952000, 54, 0, 0], [2360493643, "Kultur", 0.0, 0, 1383955200, 16, 0, 0], [1536759005, "skull", 0.0, 0, 1441411200, 304, 0, 23], [1990808667, "Farma 6. semester KU", 5.0, 1, 1440460800, 150, 0, 300], [1181231696, "Za ispit trgova\u010dko pravo na Pravnom fakultetu u Zagrebu", 0.0, 0, 1441756800, 63, 0, 0], [87825824, "LSI Japanisch Aufbaukurs", 0.0, 0, 1374796800, 506, 0, 0], [1588850657, "MJBS - Skull Anatomy 1", 0.0, 0, 1441065600, 91, 0, 90], [1891899124, "Face, Scalp, Skull (UNIT 3: Lec 1). CSUS Bio 122", 0.0, 0, 1440374400, 68, 0, 58], [818194423, "Ukulele Basic Chords", 0.0, 0, 1435795200, 35, 0, 0], [890080933, "Oftalmologie KUleuven", 0.0, 0, 1397174400, 459, 0, 18], [1455572021, "Oogheelkunde", 0.0, 0, 1419379200, 28, 0, 0], [431059496, "hankuko2_direction", 0.0, 0, 1432252800, 22, 28, 22], [2674369776, "Cinta Bahasa Buku 2A: Set #1", 0.0, 0, 1355443200, 50, 0, 0], [953417349, "Landeskunde Japans T\u00fc WS 13/14", 0.0, 0, 1391126400, 79, 0, 0], [2040022550, "hankuko", 0.0, 0, 1431820800, 6, 6, 6], [860142072, "FOKUS - CHARAKTER - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [130756328, "KUMC Immune Deficiencies", 0.0, 0, 1415318400, 22, 0, 0], [1411451876, "Unikurs Latein", 4.0, 1, 1424131200, 379, 0, 0], [2425799786, "Islandzki PL-IS (Jakub Budkiewicz)", 0.0, 0, 1345852800, 1899, 0, 0], [4248883746, "Kurso de Esperanto (fran\u00e7ais) + Gerda malaperis", 5.0, 1, 1345852800, 858, 0, 0], [1134233754, "dakua'ana davi: v. descriptive", 0.0, 0, 1411689600, 19, 19, 18], [1572390380, "Franz\u00f6sisch Anf\u00e4ngerkurs 2 WU Wien", 0.0, 0, 1433894400, 419, 0, 0], [1125885052, "UP-ERN Molekularbiologie", 0.0, 0, 1405555200, 33, 0, 6], [3302145396, "Shuujuku Kanji", 0.0, 0, 1345852800, 1598, 0, 0], [412245188, "Ukulele Added Tone Chords", 0.0, 0, 1435795200, 57, 0, 0], [1249842197, "Soko Gakuen::Intermediate 4", 0.0, 0, 1439856000, 195, 0, 0], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [118054642, "Soko Gakuen Intermediate 1 Week 1 & 2", 0.0, 0, 1414022400, 84, 0, 0], [2126424186, "\u8a9e\u5f59\u300c\u3054\u3044\u300d (Woordenschat - Vocabulary)", 0.0, 0, 1419033600, 839, 0, 0], [1218067247, "JAKUB infinitiv s zu", 0.0, 0, 1422576000, 12, 0, 0], [976422765, "Anatomy - Skull", 0.0, 0, 1380499200, 12, 0, 0], [588893550, "Anatomy: Skull 10/29", 0.0, 0, 1415145600, 71, 0, 3], [1002978114, "dakakua'ana davi: animales", 0.0, 0, 1411689600, 22, 22, 22], [526774205, "\u52d5\u8a5e \u300c\u3069\u3046\u3057\u300d (Werkwoorden - Verbs)", 0.0, 0, 1424736000, 236, 0, 0], [2080518810, "dakua'ana davi: enfermedades", 0.0, 0, 1411689600, 15, 15, 14], [782634910, "Ukulele Intervals", 0.0, 0, 1435795200, 52, 0, 0], [1069509639, "Diergeneeskunde Embryologie Afwijkingen", 0.0, 0, 1430179200, 196, 0, 126], [564333237, "Soko Gakuen Intermediate 1 Week 4", 0.0, 0, 1414022400, 50, 0, 0], [1178563601, "Counters, Intermediate 1, Soko Gakuen", 5.0, 1, 1414454400, 92, 0, 0], [751735717, "Kumataros Tandemvokabular", 0.0, 0, 1409270400, 1082, 0, 1], [1301897451, "history of japan heian kamakura", 5.0, 1, 1399334400, 400, 0, 0], [1037064831, "Ukulele Fretboard", 0.0, 0, 1435795200, 26, 0, 0], [1713093562, "English (Jakut)", 0.0, 0, 1403395200, 2541, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [1190804276, "Pl-Ang Zakupy i us\u0142ugi", 0.0, 0, 1414108800, 105, 0, 0], [1782570372, "kultura", 0.0, 0, 1412208000, 38, 0, 0], [1977601109, "KA JAP KU", 0.0, 0, 1415145600, 1604, 0, 0], [2120354766, "Zestaw dla pocz\u0105tkuj\u0105cych", 0.0, 0, 1425600000, 497, 0, 0], [1751551320, "ArabicKur", 0.0, 0, 1360972800, 37, 18, 0], [3122753139, "FOKUS - CAFE JULIA 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [462018035, "Dakua'ana davi: v. violencia", 0.0, 0, 1411689600, 14, 14, 13], [348109997, "Br\u00fcckenkurs", 0.0, 0, 1359244800, 253, 0, 0], [3603542565, "Soko Gakuen Intermediate 1 Oral Production", 0.0, 0, 1345852800, 40, 0, 0], [170941468, "dakua'ana davi: gente", 0.0, 0, 1411689600, 34, 34, 26], [32456793, "Soko Gakuen Intermediate 1 Week 3", 0.0, 0, 1414022400, 51, 0, 0], [1282100945, "Ukulele Training", 0.0, 0, 1437609600, 710, 0, 0], [868749090, "JAKUB \u0161kola", 0.0, 0, 1422576000, 35, 0, 0], [1090907132, "ishi kokushi ", 0.0, 0, 1416528000, 6012, 0, 0], [388983195, "Lukion yhteiskuntaoppi kurssi 1 termit", 0.0, 0, 1418601600, 338, 0, 0], [1343457994, "dakua'ana davi: cuerpo", 0.0, 0, 1411689600, 45, 45, 43], [1446961703, "FOKUS - ERSTE KONTAKTE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2079157096, "Rosyjski, kuchnia", 0.0, 0, 1370390400, 269, 0, 0], [3601541250, "FOKUS - HAUS - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2062791171, "Erkundungen Deutsch-Ungarisch C1", 0.0, 0, 1414281600, 331, 0, 0], [2976174, "Kanji Gakushuu Step", 0.0, 0, 1345852800, 522, 0, 0], [332652595, "\u30a2\u30af\u30c6\u30a3\u30d6\u6f22\u5b57\u300c\u30a2\u30af\u30c6\u30a3\u30d6\u304b\u3093\u3058\u300d (Actieve Kanji - Active Kanji)", 0.0, 0, 1424736000, 181, 0, 0], [746887018, "dakua'ana davi: persona", 0.0, 0, 1411689600, 16, 16, 14], [1829679792, "WMS - Block 3 - Anatomy of the skull and meninges ", 0.0, 0, 1390694400, 41, 0, 23], [151969975, "Kurdish - Turkish", 0.0, 0, 1414713600, 55, 0, 0], [1081494816, "Hudkurs", 0.0, 0, 1395360000, 313, 0, 325], [384465808, "N2\u3000\u6f22\u5b57 \u307e\u3068\u3081\u3000On-Kun", 0.0, 0, 1423958400, 475, 0, 0], [356460173, "Diverse eksamenssp\u00f8rgsm\u00e5l til 8. Semester Medicin ved KU", 0.0, 0, 1369785600, 174, 0, 0], [1254606429, "On y va! Der Franz\u00f6sischkurs A2 - Le\u00e7on 1 Wortschatz", 0.0, 0, 1388966400, 156, 0, 0], [581597811, "NKO Kuleuven", 0.0, 0, 1407542400, 629, 0, 382], [1395881924, "hankuko3_number", 0.0, 0, 1433203200, 33, 33, 33], [1484754259, "\u767e\u4eba\u4e00\u9996\u304b\u308b\u305f Hyakunin isshu karuta ", 5.0, 3, 1364428800, 100, 0, 0], [667818503, "Soko Gakuen Intermediate 1 Week 7 Kanji", 0.0, 0, 1414022400, 50, 0, 12], [254403026, "\u5f62\u5bb9\u8a5e\u300c\u3051\u3044\u3088\u3046\u3057\u300d (Adjectieven - Adjectives)", 0.0, 0, 1417392000, 84, 0, 0], [2113156618, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [604114941, "dakua'ana davi: sentidos", 0.0, 0, 1411689600, 14, 14, 12], [1272924946, "GAL81 - Schlauchkunde", 0.0, 0, 1433635200, 12, 0, 0], [1201691561, "Kunst I", 0.0, 0, 1370304000, 17, 0, 16], [1825918024, "dakua'ana davi: lugar y tiempo", 0.0, 0, 1411689600, 21, 21, 0], [3137623451, "beeldende kunsten", 0.0, 0, 1397952000, 34, 0, 45], [858052399, "dakua'ana davi: kitchen", 0.0, 0, 1411689600, 17, 17, 14], [1628940778, "FH Technikum Wien - Audiotechnik", 0.0, 0, 1422230400, 38, 0, 9], [1155287049, "Gay-Kussac Anglais 2e partie1", 0.0, 0, 1394409600, 38, 0, 0], [727638902, "dakua'ana davi: viaje", 0.0, 0, 1411689600, 27, 27, 23], [560591616, "Medicin 2. semester Kandidat 2013 KU", 0.0, 0, 1424822400, 197, 0, 0], [2211126117, "introduction to bioinformatics an der boku", 0.0, 0, 1380758400, 79, 0, 13], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [507968900, "Sommerkurs 2011", 0.0, 0, 1345852800, 145, 0, 0], [173710333, "Dakua'ana davi: sentimiento", 0.0, 0, 1411689600, 19, 19, 18], [939448157, "dakua'ana davi: estados", 0.0, 0, 1411689600, 31, 31, 23], [1384044053, "Erkundungen Deutsch-Ungarisch C1 Kapitel 3", 0.0, 0, 1414281600, 187, 0, 0], [1413567210, "JAKUB slovesa se spojkami", 0.0, 0, 1423785600, 20, 0, 0], [1867715776, "Family Terms, Intermediate 1, Soko Gakuen", 5.0, 1, 1414454400, 46, 0, 0], [2661693494, "Kull10_ICD_MCQ", 0.0, 0, 1345852800, 184, 0, 4], [395300029, "FOKUS - BERUFE - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [103332595, "JAKUB j\u00eddlo", 0.0, 0, 1425254400, 124, 0, 0], [420376188, "FOKUS - EXAKT 02 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [424569662, "Recepteerkunde Farmacie 2014/2015", 0.0, 0, 1422489600, 158, 0, 0], [53815650, "Universal Markup Language", 0.0, 0, 1416096000, 7, 0, 14], [1390590285, "Pokus01", 0.0, 0, 1422403200, 8, 0, 0], [1443690922, "Kurso de Esperanto", 0.0, 0, 1435190400, 679, 6, 4], [1797923236, "Soko Gakuen Intermediate 1 Week 8 Kanji", 0.0, 0, 1414022400, 15, 0, 8], [2568609589, "FOKUS - KLEINE DEUTSCHMUSIK - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1256842907, "Super Goukaku Japanese Grammar JLPT 1 and JLPT 2", 0.0, 0, 1362614400, 517, 0, 0], [1861865759, "dakua'ana davi: relaciones", 0.0, 0, 1411689600, 18, 18, 17], [849184003, "dakua'ana davi v. otros", 0.0, 0, 1411689600, 16, 15, 16], [2375869398, "FOKUS - FAMILIE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [47820463, "Dakua'ana Davi: v. cocina ", 0.0, 0, 1411689600, 25, 25, 19], [2013419104, "FOKUS - CAFE JULIA 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [605219970, "Soko Gakuen Intermediate 1 Week 6 Kanji", 0.0, 0, 1414022400, 18, 0, 14], [477807572, "dakua'ana davi: v. cara", 0.0, 0, 1411689600, 18, 18, 15], [262924536, "Svenska/ryska Nordic School (Jakut)", 0.0, 0, 1431907200, 3733, 0, 0], [3833446595, "FOKUS - M\u00d6BEL - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1204098998, "FOKUS - EXAKT 01 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [208587222, "Dakua'ana davi: comida", 0.0, 0, 1411689600, 32, 32, 30], [768787499, "FOKUS - FARBEN UND ZEIT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [591594728, "Utilaj frazoj - Kutimaj demandoj", 0.0, 0, 1427155200, 46, 46, 0], [1597134098, "Ogura Hyakunin Isshu", 0.0, 0, 1418515200, 100, 0, 200], [2779070537, "FOKUS - SPRACHMITTEL 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2217022793, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [979258549, "Hebrajski KUL", 0.0, 0, 1408924800, 813, 0, 0], [782983867, "Soko Gakuen Intermediate 1 Week 2 Kanji", 0.0, 0, 1398729600, 34, 0, 0], [1657079759, "Jakub random slovicka", 0.0, 0, 1429488000, 234, 0, 0], [1275224540, "08. og 09. Semester KU medicin", 0.0, 0, 1424822400, 866, 0, 0], [1108566449, "Pame! A1: Der Griechischkurs (GR, DE, Hueber)", 0.0, 0, 1422835200, 928, 0, 197], [233463964, "Bibelkunde Neues Testament", 0.0, 0, 1370908800, 34, 0, 0], [1584326622, "Soko Gakuen Intermediate 1 Week 5 Kanji", 0.0, 0, 1414022400, 52, 0, 18], [1259837048, "Ithkuil suffix degree pronunciation", 0.0, 0, 1376611200, 18, 0, 18], [1259825472, "37C - Skull images", 5.0, 1, 1384041600, 157, 0, 0], [1673741648, "Skull Anatomy", 0.0, 0, 1396483200, 34, 0, 60], [565957672, "Dakua'ana davi: trabajo", 0.0, 0, 1411689600, 17, 17, 15], [894951756, "dakua'ana davi: plantas", 0.0, 0, 1411689600, 37, 37, 34], [957832803, "JAKUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [368864221, "JAKUB Sport a konicky", 0.0, 0, 1422576000, 98, 0, 0], [406735170, "KUMC Medical Spanish 1", 0.0, 0, 1395100800, 193, 0, 0], [660438014, "pokus QQ", 0.0, 0, 1425600000, 172, 0, 0], [3917326353, "MBBS Week 32 - Just my Annual Checkup Dr!", 0.0, 0, 1350172800, 81, 0, 17], [707230704, "dakua'ana davi: v. manos", 0.0, 0, 1411689600, 15, 15, 14], [575580893, "dakua'ana davi: objetos", 0.0, 0, 1411689600, 45, 45, 43], [2862657820, "500 German Theological Vocabulary by Siliakus (and Ziefle)", 3.0, 1, 1345852800, 450, 0, 0], [2873911578, "Bible Quiz 35: Habakkuk", 0.0, 0, 1345852800, 9, 0, 0], [1435139519, "dakua'ana davi: aprendizaje", 0.0, 0, 1411689600, 16, 16, 15], [1003618955, "Erkundungen Deutsch-Ungarisch C1 Kapitel 4", 0.0, 0, 1414281600, 180, 0, 0], [1395734337, "On y va! - Der Franz\u00f6sischkurs A2 - Le\u00e7on 4", 0.0, 0, 1389830400, 157, 0, 0], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [2028555831, "JAKUB Dodate\u010dn\u00e9 procvi\u010dov\u00e1n\u00ed", 0.0, 0, 1422576000, 12, 0, 0], [1070663650, "STL Skull Anatomy", 0.0, 0, 1412294400, 60, 0, 15], [2371125514, "Kurso de Esperanto (Czech version)", 4.0, 1, 1345852800, 679, 0, 0], [970342229, "Neurologie Kuleuven", 0.0, 0, 1407542400, 790, 0, 275], [1723130864, "Erkundungen Deutsch-Ungarisch C1 Kapitel 2", 0.0, 0, 1414281600, 255, 0, 0], [82573936, "d\u011bjiny Ir\u00e1ku", 0.0, 0, 1400716800, 69, 0, 0], [154048518, "OSU - Neuro - Skull Foramen, Fossa, and Canals", 0.0, 0, 1421280000, 64, 0, 11], [800996858, "Erkundungen Deutsch-Ungarisch C1.1 (1-4)", 0.0, 0, 1422748800, 692, 0, 0], [428171829, "dakua'ana davi v. adjetivos", 0.0, 0, 1411689600, 13, 13, 12], [1540471712, "Epic INI Lookup", 0.0, 0, 1410220800, 139, 0, 0], [1292880669, "Verpakung/ Gewichte", 0.0, 0, 1383955200, 21, 0, 0], [1010637119, "Bibelkunde Altes Testament", 0.0, 0, 1370908800, 151, 0, 0], [989055389, "FOKUS - SPRACHMITTEL 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [656998821, "STL Skull Anatomy II", 0.0, 0, 1412467200, 62, 0, 34], [880517544, "Kukta suomi", 0.0, 0, 1393891200, 129, 0, 0], [558890796, "zprop ohne werkstoffkunde demi", 0.0, 0, 1378080000, 221, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ku</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

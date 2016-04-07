@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[196774545, "[Fixed] \u3061\u3087\u3073\u3063\u30c4\uff11 (Chobits Vol.01 Vocabulary)", 0.0, 0, 1402358400, 48, 45, 1], [1852060079, "Pr\u00fcfungsfragen Psychotherapie", 0.0, 0, 1453680000, 1869, 0, 0], [1107238137, "900 M\u1eabu c\u00e2u \u0111\u00e0m tho\u1ea1i cho nh\u00e2n vi\u00ean c\u00f4ng ty", 4.0, 2, 1405296000, 238, 33, 7], [1790299980, "Psychologie - Zimbardo (Aufnahmepr\u00fcfung \u00d6sterreich)", 5.0, 1, 1449187200, 811, 0, 0], [1791629332, "Unit 3: School Subjects & Adjectives", 0.0, 0, 1453161600, 38, 0, 0], [432515186, "Elementary School Kanji", 0.0, 0, 1395187200, 1006, 0, 0], [231723347, "Geschichte der Psychologie by LG", 0.0, 0, 1452643200, 269, 0, 15], [2107766673, "Japanese and English School Pictures", 0.0, 0, 1436227200, 50, 0, 0], [16585168, "Allgemeine Psychopathologie: die psychiatrischen Symptome", 0.0, 0, 1427846400, 240, 0, 0], [234552493, "Lahey Psychology Exam 1v", 0.0, 0, 1452470400, 400, 0, 0], [888118060, "Lahey Psychology Exam 4", 0.0, 0, 1452470400, 100, 0, 0], [1918915202, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 4", 0.0, 0, 1451779200, 170, 0, 0], [986984480, "Psychologie - Sprachentwicklung ", 0.0, 0, 1453852800, 226, 0, 2], [800168566, "OS1 Uconn Med School", 0.0, 0, 1452470400, 2422, 0, 1807], [1875730707, "Lahey Psychology - Exam 3.", 0.0, 0, 1452470400, 100, 0, 0], [153746441, "Brain-driven psychological concepts and tendencies", 5.0, 1, 1442793600, 272, 0, 9], [376016963, "Fouchon's Spanish Frequency Deck", 0.0, 0, 1451692800, 1279, 0, 0], [1158996250, "Lahey Psychology Exam 2?", 0.0, 0, 1452470400, 100, 0, 0], [1614994147, "SM08 - Computer School Blues", 0.0, 0, 1451606400, 26, 0, 0], [1041272842, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 3", 5.0, 2, 1451692800, 177, 0, 0], [814321415, "Module 1 - Introduction \u00e0 la psychom\u00e9trie", 0.0, 0, 1449360000, 21, 0, 0], [972921164, "Management's first lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 24, 0, 0], [333716190, "PSY 280 (Abnormal Psychology MSU)", 5.0, 1, 1449705600, 199, 0, 0], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [1399605515, "Viki school vocab", 0.0, 0, 1448928000, 22, 0, 0], [182551402, "Psychology online", 0.0, 0, 1448755200, 96, 0, 0], [794961235, "W3 School JavaScript Flash Cards", 0.0, 0, 1448755200, 1, 0, 0], [833634290, "MUSC M2 Block 9 PHD: Drug of Choice", 5.0, 1, 1450137600, 41, 0, 105], [1884179457, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 1", 0.0, 0, 1447632000, 146, 0, 0], [1320347145, "Medical School - Pelvic Anatomy (Male/Female)", 0.0, 0, 1445731200, 182, 0, 451], [1246083285, "Licence 1 PsychoPatho - Paris8", 0.0, 0, 1450656000, 65, 0, 0], [900291608, "Psychology 12.9.15", 0.0, 0, 1449705600, 495, 0, 0], [1635324686, "(en-uk) School vocabulary 1-4 grade", 0.0, 0, 1449964800, 944, 0, 0], [176850461, "W3 School", 0.0, 0, 1448755200, 3, 0, 0], [707407179, "Choroby", 0.0, 0, 1449446400, 82, 0, 0], [1912983973, "English - Advanced - Dennis School ", 0.0, 0, 1445558400, 331, 0, 0], [839721054, "INSAM SCHOOL - Vokabeln Tangram aktuell 1, Lektion 2", 0.0, 0, 1447632000, 201, 0, 0], [815305721, "PSYCH 338 - Organizational Psychology", 0.0, 0, 1447113600, 119, 0, 1], [740038143, "Cinta Bahasa Indonesian Language School Book 1, Part 1", 0.0, 0, 1447545600, 190, 0, 0], [224232870, "Insamschool Progetto Italiano Unita2", 0.0, 0, 1446768000, 61, 0, 0], [366585647, "d\u00e0nh cho h\u1ecdc vi\u00ean tr\u01b0\u1eddng v\u0103n h\u00f3a nh\u1eadt b\u1ea3n nam \u0111inh", 0.0, 0, 1447977600, 310, 0, 0], [1633127699, "C'est pas la m\u00eame chose \u00e0 ", 0.0, 0, 1445385600, 231, 0, 13], [608342050, "CHORWACKI - B2-C1", 0.0, 0, 1444780800, 5656, 0, 0], [952778173, "Queen's University Psychology 100", 0.0, 0, 1442620800, 461, 0, 0], [2271678023, "Kyoiku (elementary school) kanji", 4.0, 5, 1345852800, 1006, 0, 0], [1230975085, "Insamschool, Ro-It Progetto Italiano A1, Benvenuti, Unita 1", 0.0, 0, 1446768000, 226, 0, 0], [59048127, "AS Psychology Unit 1 : Social Psychology 2015", 0.0, 0, 1444694400, 56, 0, 0], [645502059, "Airway medications paramedic school", 0.0, 0, 1441756800, 99, 0, 0], [1144111753, "AB for school", 0.0, 0, 1442448000, 99, 0, 3], [1713133413, "Medical School Anatomy Deck - Abdomen (GI/Renal)", 0.0, 0, 1442534400, 327, 0, 556], [3068152165, "Math Facts (Sam & Max Homeschool)", 1.0, 1, 1345852800, 334, 0, 0], [1473934134, "Israel Tourism school", 0.0, 0, 1442793600, 165, 0, 0], [701060023, "FIU PA school Intro and Organization of Anatomy ", 0.0, 0, 1440374400, 77, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [760958869, "FIU PA school Thoracic Cavity Anatomy ", 0.0, 0, 1440374400, 104, 0, 0], [1975391396, "Japanese school/classroom vocabulary", 0.0, 0, 1439424000, 130, 0, 0], [3162827960, "Social Psychology", 0.0, 0, 1345852800, 193, 0, 0], [100297296, "stritch pharmacology-cholinergics", 0.0, 0, 1440374400, 73, 0, 3], [1093977457, "Myers Psychology Chapter 2", 0.0, 0, 1380067200, 162, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [1723417078, "word choronghi japanese deck", 1.0, 1, 1387324800, 8478, 27, 1484], [891293225, "Physiological Psychology Dr. Drum", 0.0, 0, 1440460800, 162, 3, 1], [1165583900, "School of Tourism - Israel / 2nd Temple pd till Herod Q1-3", 0.0, 0, 1441670400, 7, 0, 0], [1567123653, "Myers Psychology Chapter 1", 0.0, 0, 1440460800, 18, 0, 0], [2125700661, "WS2015_Jungk_Fragen_1-6_Multiple_Choice", 0.0, 0, 1436745600, 6, 0, 0], [818194423, "Ukulele Basic Chords", 0.0, 0, 1435795200, 35, 0, 0], [375656174, "Psychopathologie ifsi beauvais", 0.0, 0, 1396310400, 41, 0, 0], [1796650, "B&B Neurobiology of Psychosis 04.09.15", 0.0, 0, 1428710400, 13, 0, 1], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [1345688103, "Ukelele Chords, Basic", 0.0, 0, 1435622400, 35, 0, 0], [1554243755, "Wesleyan Social Psychology lectures 16-20", 0.0, 0, 1400112000, 112, 0, 0], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [1045775027, "echokardiografia", 0.0, 0, 1416873600, 38, 0, 0], [902863535, "Myers Psychology Chapter 6", 0.0, 0, 1383523200, 147, 0, 14], [934225830, "Cholinergic and Adrenergic Pharmacology", 0.0, 0, 1411171200, 38, 0, 0], [1500523238, "yome choronghi", 0.0, 0, 1387324800, 4036, 0, 756], [1935085027, "Ear training (chords)", 0.0, 0, 1392163200, 56, 56, 0], [1051333305, "Medical School Pharmacology (Block I)", 0.0, 0, 1411776000, 194, 0, 0], [1740838429, "Medschool Immunology For Eliana2", 0.0, 0, 1421884800, 413, 0, 87], [1965976203, "UK NUR 221 Exam 4 Preschoolers", 0.0, 0, 1416182400, 27, 0, 0], [412245188, "Ukulele Added Tone Chords", 0.0, 0, 1435795200, 57, 0, 0], [1228405207, "jittaichousa deck", 0.0, 0, 1393891200, 115, 0, 0], [3669639509, "IB Psychology", 0.0, 0, 1367625600, 123, 0, 0], [203711690, "Myers Psychology Chapter 4", 0.0, 0, 1383091200, 34, 0, 0], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [2059883340, "Biopsychologie Assessement Semester 1", 0.0, 0, 1425427200, 104, 0, 98], [771149215, "Psychologie - test ZS 1-40/228", 0.0, 0, 1385596800, 4, 0, 0], [1233976942, "History of Psychology - Exam 1", 0.0, 0, 1413763200, 64, 0, 0], [349615766, "Derecho Financiero y Tributario", 0.0, 0, 1427587200, 266, 0, 0], [584427261, "Chord Formulas - Fretboard Anatomy", 0.0, 0, 1416182400, 22, 0, 0], [242930703, "oddechowy", 0.0, 0, 1434585600, 232, 0, 0], [1267179880, "Flashfinals - flashcards for UK medical school exams", 5.0, 1, 1452988800, 2596, 3, 82], [746038571, "Psychology GCSE (OCR)", 0.0, 0, 1434758400, 33, 0, 0], [978275961, "Adult Psychopathology Midterm ", 0.0, 0, 1434326400, 380, 0, 0], [2062228708, "Anatomia (Oko i Ucho)", 0.0, 0, 1345852800, 64, 0, 67], [3259367670, "Psychological Biases", 0.0, 0, 1345852800, 88, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [1477173991, "Med School Pulmonary ", 0.0, 0, 1426982400, 124, 0, 60], [373859588, "Medical School - Neuro Deck", 0.0, 0, 1427846400, 2686, 0, 901], [1368943848, "Maths Facts (Baldy Bunch Homeschool)", 0.0, 0, 1416700800, 48, 0, 0], [2224535992, "Myers Psychology Chapter 5", 0.0, 0, 1383091200, 53, 0, 0], [413333049, "Angol - Daily Habits, Household Chores", 0.0, 0, 1437264000, 61, 0, 0], [290001679, "UK NUR 221 Exam 5 Peds G&D School Age/Adolescent", 0.0, 0, 1417651200, 60, 0, 0], [59154720, "Kriminalpsychologie", 0.0, 0, 1404691200, 104, 0, 38], [3020795849, "Derecho de integracion Pat", 0.0, 0, 1385596800, 55, 0, 0], [1505791319, "Sozialpsychologie (Smith & Mackie 3rd Edition)", 0.0, 0, 1405900800, 234, 0, 1], [470894463, "McKinley Adult School Japanese 1", 0.0, 0, 1345852800, 368, 655, 65], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [1968530151, "Uni Bonn Sozialpsychologie", 0.0, 0, 1410480000, 111, 0, 9], [2129732836, "Digestive system embryo Med school ", 0.0, 0, 1416009600, 8, 0, 0], [646521532, "biologische psychologie", 0.0, 0, 1432771200, 83, 0, 0], [2567551207, "Ancient History (young kids homeschool)", 0.0, 0, 1345852800, 112, 0, 83], [941063683, "Rechtspsychologie 1", 0.0, 0, 1392336000, 22, 0, 0], [1640258793, "Psychology Chapters 1-12", 0.0, 0, 1407888000, 511, 0, 0], [340374459, "Cantonese: School", 0.0, 0, 1426550400, 15, 0, 0], [1169230958, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 0, 1422403200, 22, 0, 0], [1143157853, "Social Psychology Textbook Flashcards", 0.0, 0, 1393804800, 182, 0, 0], [542717096, "Grundlagen Psychologie und Ergonomie", 0.0, 0, 1422230400, 140, 0, 0], [1405218650, " Systems' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 96, 0, 0], [390693465, "Networks' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 75, 0, 0], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [4242706138, "SNYDER SOCIAL PSYCHOLOGY TEST 4", 0.0, 0, 1386201600, 82, 0, 0], [1135048479, "Professional School of Bartending Recipes", 0.0, 0, 1376956800, 89, 0, 0], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [2101303225, "Middle School Words: English-Korean", 0.0, 0, 1423094400, 800, 0, 0], [514969579, "Han lectures regarding ER, Golgi, Mitochondria, and Lysosome", 0.0, 0, 1408838400, 41, 0, 10], [2322787910, "UBC Stats 302 Cho", 0.0, 0, 1365379200, 6, 0, 11], [3849446874, "CognitivePsychology", 0.0, 0, 1345852800, 21, 0, 0], [393479166, "Psychopharmacology, Psychotherapy, and Neuropharmacology", 0.0, 0, 1428192000, 252, 0, 3], [395734601, "Guitar Chords With Sound by ReinOwader", 4.0, 1, 1420502400, 319, 319, 0], [2320389082, "Guitar Chords and Scales", 0.0, 0, 1345852800, 27, 0, 15], [2259379665, "Max*/Matiar/Ameer Mitochondria and cell energy", 0.0, 0, 1377820800, 9, 0, 3], [923043453, "Pszichol\u00f3gia fogalmak", 0.0, 0, 1430006400, 361, 0, 0], [3240296319, "say-it japanese choronghi", 0.0, 0, 1369526400, 2614, 0, 1237], [1279230702, "SRL Mishna Berajot Berachot Berakhot", 0.0, 0, 1398988800, 65, 0, 0], [262924536, "Svenska/ryska Nordic School (Jakut)", 0.0, 0, 1431907200, 3733, 0, 0], [251395435, "Nicholls Orgo section 3", 0.0, 0, 1396828800, 117, 0, 222], [1146308947, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 0, 1422403200, 22, 0, 0], [946752090, "Chord Symbols to piano keys", 0.0, 0, 1395619200, 797, 0, 797], [1070569986, "Pers\u00f6nlichkeitspsychologie", 0.0, 0, 1419120000, 73, 0, 1], [3115547237, "Histology Block 1 Lecture Tulane School of Medicine", 0.0, 0, 1354406400, 190, 0, 106], [1429633100, "Vocabulaire de Tha\u00ef \u00e0 Siam School", 0.0, 0, 1394323200, 469, 0, 0], [244963074, "Pre-Clinical Medical School", 0.0, 0, 1345852800, 281, 0, 62], [1980724306, "Cardiology I Adrenergic and Cholinergic Drugs", 0.0, 0, 1413676800, 39, 0, 0], [448339735, "Allgemeine Psychologie Uni Bonn", 0.0, 0, 1401062400, 113, 0, 0], [240406941, "Welsh for School Governors", 0.0, 0, 1389225600, 769, 0, 0], [3953277099, "Histology Block 1 Lecture and Lab Tulane School of Medicine", 0.0, 0, 1354406400, 198, 0, 114], [1360908233, "[Fixed] \u3061\u3087\u3073\u3063\u30c4\uff12 (Chobits Vol.02 Vocabulary)", 0.0, 0, 1402358400, 53, 50, 1], [3350419028, "MSU CHM Preclinical Medical School Subjects", 0.0, 0, 1346889600, 8584, 0, 0], [2573842583, "psycho sociale sarah", 0.0, 0, 1383696000, 66, 0, 0], [2713449531, "psychology methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 92, 0, 0], [559319598, "Biopsychology", 0.0, 0, 1422921600, 179, 0, 0], [3676876386, "Taiwan Junior High School English Vocab Year 1", 0.0, 0, 1345852800, 544, 0, 0], [1941205062, "How schools kill creativity?", 0.0, 0, 1425859200, 33, 0, 0], [1085241879, "Khmer School Book 1, Selected Words", 0.0, 0, 1408147200, 1101, 0, 0], [1831020488, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 0, 1422403200, 22, 0, 0], [872250656, "Peter Gray's Psychology (6th ed.)", 4.67, 3, 1358553600, 560, 0, 0], [3481693948, "Choronghi korean", 5.0, 1, 1387324800, 1926, 0, 561], [1698879442, "II-V-I-VI Practice for Drop 2 Chords", 0.0, 0, 1403222400, 288, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cho</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

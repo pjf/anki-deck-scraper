@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3274643976, "Francouz\u0161tina nejen pro samouky - Lekce 19 - 32 (\u010desk\u00e9)", 0.0, 0, 1372032000, 1091, 0, 0], [884821768, "ChineseSkill", 5.0, 4, 1410220800, 172, 172, 56], [866691323, "Anato desk", 0.0, 0, 1453852800, 24, 0, 0], [1813898871, "My desk", 0.0, 0, 1452384000, 1568, 1385, 0], [1984628120, "N\u011bmecko - \u010desk\u00e9 slov\u00ed\u010dka a fr\u00e1ze", 0.0, 0, 1448323200, 2410, 0, 0], [1819407866, "ORGO FINAL JESKE", 0.0, 0, 1450137600, 16, 0, 36], [1221791992, "Francouz\u0161tina nejen pro samouky - Lekce 1 - 16 (\u010desk\u00e9)", 0.0, 0, 1365724800, 971, 0, 0], [1552432975, "S\u0142\u00f3wka czeskie, lektorat ", 0.0, 0, 1447804800, 161, 0, 1], [606541089, "Ceski jezik", 0.0, 0, 1448150400, 519, 0, 0], [571074513, "Personal Pattern for Anki Desk", 0.0, 0, 1448236800, 0, 0, 0], [63275581, "Katakana - Hiragana - \u010desk\u00e1 transcripce ", 0.0, 0, 1447977600, 140, 0, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [469694018, "Nemecko-cesk\u00e1 slovicka", 0.0, 0, 1440288000, 328, 0, 0], [46523033, "(CZ czech \u010desk\u00fd) (slovak slovensk\u00fd) SK <-> EN (en) Da Vinci", 0.0, 0, 1345852800, 713, 0, 0], [953417349, "Landeskunde Japans T\u00fc WS 13/14", 0.0, 0, 1391126400, 79, 0, 0], [1069509639, "Diergeneeskunde Embryologie Afwijkingen", 0.0, 0, 1430179200, 196, 0, 126], [1703730426, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 2", 0.0, 0, 1366329600, 83, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [1886498013, "Znalost terminologie oboru \u010desk\u00fd jazyk (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 121, 0, 0], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [606333793, "\u010de\u0161tina \u010desk\u00fd humanismus a renesace", 0.0, 0, 1412380800, 5, 0, 0], [3431085932, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 1", 0.0, 0, 1366329600, 90, 0, 0], [981929284, "Armenian most important words_1 desk", 0.0, 0, 1431043200, 1526, 0, 0], [1420150903, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny II", 0.0, 0, 1419120000, 477, 0, 14], [2053053692, "Brailleovo p\u00edsmo - \u010desk\u00e9", 0.0, 0, 1424736000, 61, 0, 0], [3405910230, "My desk for learning English (Charger)", 0.0, 0, 1385251200, 37, 0, 0], [1946942769, "Norweski PL-NO (Editta)", 0.0, 0, 1345852800, 1399, 0, 0], [426389722, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny I", 0.0, 0, 1414540800, 544, 0, 0], [1202670334, "K4 \u2013 R\u00f8ntgen beskrivelse", 0.0, 0, 1398988800, 33, 0, 1]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Esk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

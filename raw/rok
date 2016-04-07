@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[612104714, "arab urok", 0.0, 0, 1454803200, 33, 0, 0], [1702998371, "fmcase22stroke", 0.0, 0, 1454284800, 130, 0, 0], [554051060, "Cherokee Language Meetup - Tsalagi", 0.0, 0, 1453593600, 277, 25, 87], [1678048485, "Katakana with stroke diagrams and audio", 0.0, 0, 1441756800, 123, 123, 71], [1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [1824654454, "Ustali Cherokee story vocabulary", 0.0, 0, 1444435200, 78, 3, 14], [4071507927, "Emacs Keystrokes", 0.0, 0, 1357776000, 66, 0, 0], [1964580388, "Spear Finger (Cherokee)", 0.0, 0, 1431302400, 86, 0, 0], [1993710075, "UK NUR 221 Exam 3 CVA stroke", 0.0, 0, 1414713600, 36, 0, 0], [3818749449, "Chi\u0144ski, etno 3 rok", 0.0, 0, 1351641600, 197, 0, 1], [22015729, "Farma 3 rok kolos 2", 0.0, 0, 1435968000, 180, 0, 0], [883169541, "Hiragana deck with stroke diagram", 0.0, 0, 1436227200, 46, 0, 1], [1532966991, "3rok kanje", 0.0, 0, 1420848000, 634, 0, 0], [1399557559, "Podstawy programowania (Andrzej Marciniak), I semestr, I rok", 0.0, 0, 1421193600, 5, 0, 0], [1552099412, "Japanese Radicals 4 - 6 stroke", 5.0, 2, 1400976000, 85, 0, 0], [944262782, "Japanese Radicals 1 - 3 stroke", 0.0, 0, 1400976000, 57, 0, 0], [1982100597, "Master Hiragana [Stroke Diagrams, Audio, 3-Way Notes]", 5.0, 1, 1399161600, 104, 104, 71], [2139210276, "Cherokee Hunters", 0.0, 0, 1444435200, 45, 3, 10], [1285094792, "Ustali Cherokee story vocabulary", 0.0, 0, 1431302400, 78, 0, 0], [302358517, "Cherokee simple sentences", 0.0, 0, 1443657600, 40, 3, 35], [1111556497, "prawo cywilne", 0.0, 0, 1414454400, 454, 0, 35], [1592197799, "WMS - SDL - Stroke ", 0.0, 0, 1390608000, 39, 0, 0], [1696781240, "Toets Gesproken Nederlands (TGN)", 0.0, 0, 1413072000, 684, 708, 0], [722065315, "Hiragana with stroke diagrams and audio", 4.25, 16, 1356998400, 104, 104, 46]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rok</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [1968740715, "A Huge Thai Vocabulary Deck sorted by Subjects", 0.0, 0, 1454198400, 9683, 24, 138], [1791629332, "Unit 3: School Subjects & Adjectives", 0.0, 0, 1453161600, 38, 0, 0], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [23927121, "EIGRP Stub Sim", 0.0, 0, 1451952000, 1, 0, 0], [259164755, "Sopica sant\u00e9 pub d\u00e9finitions", 0.0, 0, 1452643200, 37, 0, 0], [131448396, "Dil's Monster News Vocab With Subdecks", 0.0, 0, 1451692800, 1522, 1, 1], [41767843, "RuB 4 vahvoja verbej\u00e4", 0.0, 0, 1449532800, 32, 0, 0], [3630990, "UBC MD 2018: Histology - GI/BL/MSK/ENDO", 0.0, 0, 1448755200, 299, 0, 245], [74082975, "Vocabulary from Mncube's Xhosa Manual", 0.0, 0, 1449187200, 486, 0, 0], [198545612, "USask PHPM - Public Health Basics", 0.0, 0, 1448064000, 75, 0, 5], [650180769, "Public Health exam 1 Seana", 0.0, 0, 1447372800, 141, 0, 11], [859705919, "Spanish/English Imperfect Subjunctive sample sentences", 0.0, 0, 1445817600, 87, 0, 1], [325832880, "New English File Intermediate - English-Hungarian [gubus]", 5.0, 1, 1441152000, 1287, 1287, 1], [1331864142, "Viral Incubation Periods", 0.0, 0, 1447545600, 18, 10, 8], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [1146781341, "francuski - ubrania, kolory, tkaniny", 0.0, 0, 1447545600, 73, 0, 0], [313854764, "dermatology-chaubuu", 0.0, 0, 1443484800, 25, 0, 9], [602483982, "Scuba Diving - PADI Open and Advanced Open Water Review", 0.0, 0, 1444003200, 67, 0, 3], [428748620, "USask PHPM - Public Health ethics", 0.0, 0, 1443484800, 2, 0, 0], [208157405, "JubiloVokabel004", 0.0, 0, 1441670400, 69, 0, 0], [570471959, "MKL Schraubenverbindungen", 0.0, 0, 1439337600, 96, 0, 16], [459099955, "Samskritasubodhinii", 0.0, 0, 1443139200, 2151, 1762, 0], [2042146071, "Drugs Subdeck", 0.0, 0, 1432771200, 159, 0, 6], [395736849, "Sublime Keyboard Shortcuts - Windows/Linux", 0.0, 0, 1441065600, 54, 0, 0], [2027281672, "\u0420\u0443\u0441\u0441\u043a\u043e-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043d\u0438\u043a (\u0434\u043b\u044f \u0432\u0438\u0434\u0435\u043e \u043d\u0430 YouTube)", 0.0, 0, 1387756800, 24, 24, 1], [1871404054, "Tongue, Oral Cavity, Submandibular Region ", 0.0, 0, 1441324800, 13, 0, 20], [1745502882, "Lubeck Spinal Cord", 0.0, 0, 1422057600, 32, 0, 14], [371673206, "JubiloVokabel001", 0.0, 0, 1436918400, 36, 0, 0], [817913284, "korededaijyoubu", 0.0, 0, 1439856000, 210, 0, 0], [921083179, "wigsonub", 0.0, 0, 1437868800, 64, 3, 6], [400361969, "Question droit public g\u00e9n\u00e9ral", 0.0, 0, 1435276800, 59, 0, 0], [1348030551, "UBRM_SS2014_Atmospheric pollution and climate change", 0.0, 0, 1417824000, 59, 0, 0], [1357739149, "JubiloVokabel003", 0.0, 0, 1438646400, 145, 0, 0], [876019906, "Fat and water soluble Vitamins ", 0.0, 0, 1411171200, 48, 0, 0], [93705527, "Lubov English Deck", 0.0, 0, 1436486400, 11, 0, 0], [2425799786, "Islandzki PL-IS (Jakub Budkiewicz)", 0.0, 0, 1345852800, 1899, 0, 0], [760096227, "JubiloVokabel002", 0.0, 0, 1437264000, 80, 0, 0], [2734115783, "CofO2 - 17 - Glomerular and Tubular Function", 0.0, 0, 1345852800, 29, 0, 0], [1218067247, "JAKUB infinitiv s zu", 0.0, 0, 1422576000, 12, 0, 0], [1240584766, "Lubeck Ischemia", 0.0, 0, 1421971200, 24, 0, 3], [1321651212, "USask PHPM - Public Health", 0.0, 0, 1391212800, 234, 0, 14], [1164753172, "ub amino acid1", 0.0, 0, 1408320000, 56, 0, 1], [3916546620, "Academic Word List Sublist 3 to Chinese equivalents", 0.0, 0, 1426377600, 31, 0, 0], [1618224007, "DDO Paediatrics - Neonatal intubation ", 0.0, 0, 1409616000, 5, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [562378633, "AneesHussain Squares & Cubes List", 0.0, 0, 1429142400, 40, 0, 0], [1079822281, "Ruby trivia", 0.0, 0, 1399075200, 2, 0, 0], [2043979719, "Sublime Text 3 shortcuts for Windows", 0.0, 0, 1405468800, 55, 5, 0], [3849258162, "Substantivos 1 (SLC)", 0.0, 0, 1384300800, 21, 0, 0], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 5.0, 1, 1445904000, 1398, 2796, 1], [49166663, "Conduit bender parts, stub up, and pullbox quiz", 0.0, 0, 1425168000, 19, 0, 0], [3574305592, "Rimske pravo - sedmistrankovy soubor", 0.0, 0, 1362441600, 133, 0, 0], [4237854506, "Stephens UBC Math 101 Deck", 0.0, 0, 1366156800, 13, 0, 27], [868749090, "JAKUB \u0161kola", 0.0, 0, 1422576000, 35, 0, 0], [1573179779, "Intro to Substance Use Disorders", 0.0, 0, 1428883200, 28, 0, 0], [1532330251, "Submarine Brad Biochem 1", 0.0, 0, 1422316800, 156, 0, 10], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [512970025, "DalMed2018 - Publicly Shared Test Deck - Kember", 0.0, 0, 1414368000, 3, 0, 1], [2014480913, "Dicko's Threat Cube Decisions", 0.0, 0, 1429056000, 3, 0, 6], [3450331509, "Academic Word List Sublist 2 to Chinese equivalents", 0.0, 0, 1426377600, 60, 0, 0], [890419055, "Ballstothe Immuno 2: DOUBLE SPEED", 0.0, 0, 1418083200, 53, 0, 0], [1029485837, "Academic Word List Sublist 1 to Chinese equivalents", 0.0, 0, 1426377600, 59, 0, 0], [613429679, "Angielski. A1. Lesson 25. Ubrania", 0.0, 0, 1436832000, 24, 24, 16], [1381998996, "Orgo 16 Electrophilic Aromatic Substitution EAS", 0.0, 0, 1424217600, 32, 0, 22], [1003472919, "Hungarian -> Yellow Submarine - The Beatles", 0.0, 0, 1369008000, 66, 167, 34], [245886519, "Ven\u00e4j\u00e4_verbin j\u00e4lkeisen substantiivin sija", 0.0, 0, 1418601600, 48, 0, 0], [370844235, "Bubba Gump's FOH Top 10", 0.0, 0, 1424649600, 10, 0, 0], [1312755261, "UBC MD 2018 - Grays Collection", 0.0, 0, 1415750400, 349, 0, 675], [1413567210, "JAKUB slovesa se spojkami", 0.0, 0, 1423785600, 20, 0, 0], [1227894335, "Solubility guidelines for Aqueous Solutions", 0.0, 0, 1378166400, 12, 0, 0], [443098853, "UBC Spring 2013 Math 303", 0.0, 0, 1365379200, 18, 0, 44], [2322787910, "UBC Stats 302 Cho", 0.0, 0, 1365379200, 6, 0, 11], [103332595, "JAKUB j\u00eddlo", 0.0, 0, 1425254400, 124, 0, 0], [632602298, "MHCHS Edexcel Unit 2: Weimar Republic 1918-33", 0.0, 0, 1383091200, 86, 0, 0], [3206037332, "Matrix Algebra Deck for UBC", 0.0, 0, 1365897600, 9, 0, 13], [1022797507, "A Complete Subject Chinese Deck", 0.0, 0, 1426982400, 8484, 0, 15], [1203842504, "UBC MD 2018: Histology - CV/PULM/FERGU\t", 0.0, 0, 1432166400, 170, 0, 115], [3429009219, "Substantivos 5 (SLC)", 0.0, 0, 1384300800, 22, 0, 0], [16060238, "Ruby Keywords", 0.0, 0, 1380672000, 28, 0, 0], [616769945, "Rubiks Cube 3X3 F2L Cases", 0.0, 0, 1413849600, 42, 0, 42], [1753283400, "Vocabulaire de l'administration publique - Canada", 0.0, 0, 1426550400, 500, 0, 0], [1281809217, "Ven\u00e4j\u00e4 substantiiveja joilla erityispiirteit\u00e4", 0.0, 0, 1419379200, 83, 0, 0], [3734633431, "First Aid Substance Abuse drugs", 0.0, 0, 1365120000, 28, 0, 0], [654891592, "Baluba", 0.0, 0, 1367193600, 160, 0, 0], [1807547114, "Haag Uber Spring Midterm Vocab", 0.0, 0, 1395532800, 753, 0, 0], [1657079759, "Jakub random slovicka", 0.0, 0, 1429488000, 234, 0, 0], [2417834320, "Freizeit/Urlaub", 0.0, 0, 1383955200, 30, 0, 0], [1002826827, "Repro Puberty 05.01.15", 0.0, 0, 1430784000, 37, 0, 0], [183767228, "Sant\u00e9 publique IFSI Beauvais", 0.0, 0, 1396310400, 76, 0, 1], [1940419405, "UBRM Chemie 1", 0.0, 0, 1415664000, 214, 0, 0], [957832803, "JAKUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [729734698, "atecubanos", 0.0, 0, 1366416000, 10, 0, 0], [1050060791, "\u00d6kologie der Tropen und Subtropen, UniBe", 0.0, 0, 1403049600, 230, 0, 4], [2821654719, "Substantivos 4 (SLC)", 0.0, 0, 1384300800, 29, 0, 0], [30793257, "JAKLUB 6 - Ve\u010d\u00edrky a oslavy", 0.0, 0, 1422576000, 156, 0, 0], [368864221, "JAKUB Sport a konicky", 0.0, 0, 1422576000, 98, 0, 0], [314589184, "Public Health and Administration", 0.0, 0, 1401062400, 161, 0, 0], [135826261, "Journal club", 0.0, 0, 1421539200, 21, 0, 0], [1175044573, "Sublime Text 3 shortcuts for Mac", 0.0, 0, 1416528000, 100, 5, 0], [3323343851, "Substantivos 3 (SLC)", 0.0, 0, 1384300800, 14, 0, 0], [901394390, "hebrew boubou", 0.0, 0, 1426896000, 17, 0, 0], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [2028555831, "JAKUB Dodate\u010dn\u00e9 procvi\u010dov\u00e1n\u00ed", 0.0, 0, 1422576000, 12, 0, 0], [1468173820, "Substantivos 2 - Corpo (SLC)", 0.0, 0, 1384300800, 32, 0, 0], [440775007, "Spinal cord, back muscles, sub-occipital (CSUS Bio 122)", 0.0, 0, 1424995200, 12, 0, 12], [3350419028, "MSU CHM Preclinical Medical School Subjects", 0.0, 0, 1346889600, 8584, 0, 0], [1749071173, "Spanish Subtitles Corpus 1-2000", 0.0, 0, 1402444800, 4204, 0, 0], [1940171104, "Al's public admin vocab", 0.0, 0, 1399420800, 462, 0, 0], [1008040581, "Irish Pub Vocabulary", 0.0, 0, 1409270400, 131, 0, 0], [2050287682, "Hematopathology Journal Club", 0.0, 0, 1422835200, 19, 0, 0], [1350956373, "Journal Club Melanoma", 0.0, 0, 1422403200, 20, 0, 1], [1649568073, "Journal Club Gout", 0.0, 0, 1423008000, 19, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ub</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

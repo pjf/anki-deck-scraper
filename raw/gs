@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1454198400, 49, 0, 6], [1565134200, " English sentences with meanings", 4.0, 1, 1430870400, 1040, 1080, 47], [3883592462, "Danish version of Heisigs Remembering the Kanji 6th edition", 4.0, 1, 1375488000, 2200, 0, 0], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [17052897, "Verwaltungsrecht", 0.0, 0, 1454544000, 45, 0, 0], [1852060079, "Pr\u00fcfungsfragen Psychotherapie", 0.0, 0, 1453680000, 1869, 0, 0], [1240263138, "BL Drugs", 0.0, 0, 1454457600, 58, 0, 1], [1109536862, "Physio Drugs", 0.0, 0, 1454976000, 32, 0, 0], [476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [1913226324, "Paul Thomas Commonly Used Drugs", 5.0, 1, 1454630400, 263, 0, 5], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [952920940, "Country Flags", 0.0, 0, 1453680000, 221, 3, 0], [978825531, "USA flags", 0.0, 0, 1453852800, 26, 0, 39], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [398944184, "L16 Gout/Migraine Drugs", 0.0, 0, 1452384000, 15, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [2097810670, "L20 Drugs of Abuse", 0.0, 0, 1452384000, 38, 0, 0], [510492037, "Osteoporosis Drugs MSK Exam 1", 0.0, 0, 1452643200, 38, 0, 0], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [971642049, "English Slangs, Expressions, and Idioms", 0.0, 0, 1450742400, 29, 0, 0], [1524684465, "Paintings", 0.0, 0, 1451952000, 17, 0, 17], [54873672, "Neuro drugs ", 0.0, 0, 1452211200, 61, 0, 3], [509132394, "Pinyin - Finals - Multiple recordings per final", 0.0, 0, 1453248000, 36, 272, 2], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [1285741551, "Danish - Dansk RTK Heisigs Remembering the Kanji 7. version", 0.0, 0, 1450396800, 2200, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [4056225754, "GSL Week 1", 0.0, 0, 1345852800, 95, 94, 1], [3052747002, "lyrics of several songs (using enumeration model)", 0.0, 0, 1345852800, 28, 0, 0], [1028983649, "Big band Rhythm guitar voicings", 0.0, 0, 1452384000, 111, 0, 111], [923781924, "Geology 1121K Exam GSU", 0.0, 0, 1448409600, 212, 0, 0], [1840882877, "\"diary of a wimpy kid\"s slangs & words ", 0.0, 0, 1451001600, 1691, 1, 58], [685586927, "Anatomie - Verdauungsorgane", 0.0, 0, 1450569600, 32, 0, 2], [1951598413, "SZF - Der Forschungsprozess", 0.0, 0, 1449878400, 13, 0, 0], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [167534623, "Verwaltungsrecht", 0.0, 0, 1449360000, 30, 0, 0], [1545521381, "ID Drugs", 0.0, 0, 1447113600, 70, 10, 8], [288981082, "IUPUI PA Pharmacology drugs", 0.0, 0, 1446422400, 155, 0, 0], [2119128765, "Transfer pricing sp\u00f8rgsm\u00e5l", 0.0, 0, 1445817600, 54, 0, 1], [896136496, "German Adjective Endings", 0.0, 0, 1446595200, 154, 0, 2], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [1971368105, "KUMC Anti-viral drugs", 5.0, 1, 1446681600, 37, 10, 8], [874270810, "Immunopharrmacology Drugs", 0.0, 0, 1444435200, 17, 0, 0], [5416508, "Die 60 haeufigsten Verben (English to German)", 0.0, 0, 1443484800, 60, 0, 0], [1821520709, "Map of Asian States Includes Capitals and Flags", 0.0, 0, 1428969600, 49, 8, 61], [1271245595, "Korean Go/Baduk terms and their English meanings", 0.0, 0, 1445904000, 99, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [1179890017, "Die 60 h\u00e4ufigsten Verben (German to English)", 0.0, 0, 1444176000, 60, 0, 0], [201607898, "Health Assessment Chapter 19 Thorax and Lungs", 0.0, 0, 1443571200, 59, 0, 0], [1381407630, "Aeusseres Erscheinungsbild (English to German)", 0.0, 0, 1443484800, 20, 0, 0], [1225392760, "Some eglish dialogs RUS-ENG", 0.0, 0, 1441756800, 24, 0, 0], [1265839292, "\u00c4usseres Erscheinungsbild (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [1102705181, "Antineoplastic Drugs", 0.0, 0, 1444435200, 32, 0, 0], [237003537, "VIT - Verwaltungsrecht", 0.0, 0, 1444262400, 37, 0, 0], [501237201, "Die 60 h\u00e4ufigsten Verben (English to German)", 0.0, 0, 1444176000, 60, 0, 0], [1943442678, "Thoracic Wall, Lungs, Breathing (UNIT 2: Lec 1)\t", 0.0, 0, 1440374400, 76, 0, 96], [1509967037, "Die 60 haeufigsten Verben (German to English)", 0.0, 0, 1444176000, 60, 0, 0], [115452972, "Heisigs Remember the Katakana vocabulary", 0.0, 0, 1441756800, 88, 0, 0], [1271643379, "\u00c4usseres Erscheinungsbild", 0.0, 0, 1442793600, 20, 0, 0], [666179498, "MUSC M2 All Drugs", 0.0, 0, 1442448000, 40, 0, 0], [731806839, "Rettungssanit\u00e4ter 2015", 0.0, 0, 1443484800, 112, 0, 0], [2025053178, "\u00c4usseres Erscheinungsbild (German to English)", 0.0, 0, 1444176000, 20, 0, 0], [539112965, "MD/MPH Heme/Onc Chemo Drugs", 0.0, 0, 1443052800, 47, 0, 1], [1857819914, "Aeusseres Erscheinungsbild (German to English)", 0.0, 0, 1443484800, 20, 0, 0], [2042146071, "Drugs Subdeck", 0.0, 0, 1432771200, 159, 0, 6], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [1411565654, "FPP MSS Antineoplastic Drugs", 0.0, 0, 1440720000, 44, 0, 50], [612983623, "Anesthesia Drugs", 0.0, 0, 1441065600, 32, 0, 0], [1723929337, "Urdu Words (Meanings and Spellings)", 0.0, 0, 1442275200, 202, 0, 0], [3993503662, "Bible Quiz 11: I Kings", 0.0, 0, 1345852800, 134, 0, 0], [22754865, "Pharm Drugs by Class", 0.0, 0, 1441756800, 16, 0, 0], [268376408, "South American States with Capitals and Flags", 0.0, 0, 1428969600, 15, 8, 17], [1839306580, "Dominant 7th Drop 2 Voicings for Guitar", 0.0, 0, 1382054400, 768, 0, 0], [1735204367, "Learnings on how to be a great VainGlory hero", 0.0, 0, 1441324800, 12, 0, 0], [3987413013, "TCM Review Formula Kings", 0.0, 0, 1345852800, 22, 0, 0], [3109551834, "WorldFlags", 4.79, 14, 1345852800, 204, 0, 204], [1985624841, "Flags of UN Member States", 0.0, 0, 1442707200, 195, 0, 0], [921083179, "wigsonub", 0.0, 0, 1437868800, 64, 3, 6], [763798048, "Cantonese FSI Dialogs with Audio and Cantonese Characters", 4.67, 3, 1409011200, 333, 334, 0], [1591457982, "UK Road Signs & Meanings", 0.0, 0, 1438646400, 167, 0, 0], [416154597, "Vorbereitung Veranstaltungsmanagement", 0.0, 0, 1376870400, 65, 37, 1], [3889929163, "Readings in Modern Chinese Master Vocab list", 0.0, 0, 1426204800, 1538, 0, 0], [1385356144, "FinnFACEM - Rx Drugs", 0.0, 0, 1436745600, 21, 0, 2], [1273495136, "Entwicklungsbiologie Klausurfragen", 0.0, 0, 1436227200, 48, 0, 3], [363861931, "Verkehrswesen als Erg\u00e4nzungsfach Master Informatik am KIT", 0.0, 0, 1406505600, 132, 0, 54], [2099614052, "Pr\u00fcfungsfragen", 0.0, 0, 1437523200, 575, 0, 571], [28035572, "LevantAfricaFlags", 0.0, 0, 1438128000, 28, 0, 28], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [1062612586, "Prime Ministers and Kings of England, Britain and the UK", 0.0, 0, 1386547200, 134, 0, 0], [832177589, "Tarot card meanings", 0.0, 0, 1432425600, 78, 0, 78], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [1500292005, "Autonomic Drugs", 0.0, 0, 1432080000, 42, 0, 67], [1601960119, "Adrenergic Drugs", 0.0, 0, 1413676800, 15, 0, 0], [1785669958, "Dogs and Cats Abnormal Urination (3rd year vet)", 0.0, 0, 1420243200, 683, 0, 0], [1260702230, "Gal81-Verbrennungslehre", 0.0, 0, 1433203200, 41, 0, 0], [3611799994, "Guide to Dakini Land condensed meaning headings", 0.0, 0, 1370649600, 9, 0, 0], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [1555573719, "CGSH Level 5", 0.0, 0, 1398384000, 827, 0, 0], [1549859378, "omfs common drugs phil", 0.0, 0, 1393718400, 4, 0, 0], [520072464, "2013 Keele Med 2.2 Drugs (Yr2 Term 2)", 0.0, 0, 1420156800, 23, 0, 0], [828985163, "Dogs and Cats Respiratory block (3rd year vet)", 0.0, 0, 1405036800, 738, 0, 0], [1787841904, "DGVT Zwischenpr\u00fcfungsfragen", 0.0, 0, 1397606400, 17, 0, 0], [1037092622, "Arabic I, H\u00f6gskolan Dalarna, Lesson 4", 0.0, 0, 1368316800, 36, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [1401086358, "Med Micro - Antibacterial Drugs", 0.0, 0, 1431907200, 31, 0, 2], [473284019, "Dogs and Cats Pallor and Jaundice", 0.0, 0, 1410825600, 441, 0, 0], [1642375792, "Arabic I, H\u00f6gskolan Dalarna, Lesson 2", 0.0, 0, 1368316800, 16, 0, 0], [642102559, "German articles and adjective endings", 5.0, 1, 1360368000, 48, 0, 0], [637951266, "Cardiopulmonary Drugs for CP Exam II", 0.0, 0, 1415923200, 31, 0, 4], [858632958, "Surface Anatomy - Doctoring - Lungs & Heart", 0.0, 0, 1410307200, 18, 0, 0], [785337001, "Komiskey-MS drugs", 0.0, 0, 1400112000, 37, 0, 1], [518313939, "West End Idiomas - Personal Feelings, Opinions & Experiences", 0.0, 0, 1422057600, 57, 0, 57], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [1516640332, "CGSH Level 6", 0.0, 0, 1398384000, 770, 0, 0], [2395256866, "UConn Arabic Verb Form Meanings", 0.0, 0, 1345852800, 10, 0, 0], [2013072054, "CGSH Level 3", 0.0, 0, 1398384000, 223, 0, 0], [3685347654, "Arabic I, H\u00f6gskolan Dalarna, Lesson 9", 0.0, 0, 1368403200, 29, 0, 0], [3633153965, "CofO2 - 5 - Anatomy of the Lungs", 0.0, 0, 1345852800, 33, 0, 12], [492381866, "Legsilacao Tributaria AFRFB FSSILVA", 0.0, 0, 1424390400, 552, 0, 4], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [949944058, "Med Micro - Drugs Para, fungi, viral", 0.0, 0, 1431907200, 0, 0, 0], [1689662198, "Marys Handelsmarketing Einstiegstest @ WU Wien", 0.0, 0, 1387065600, 16, 0, 0], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [2520473800, "Anatomy:  Lungs, Superior and Posterior Mediastinums", 0.0, 0, 1383091200, 36, 0, 38], [4133970918, "Bible Quiz 12: II Kings", 0.0, 0, 1345852800, 130, 0, 0], [3247401211, "All Cards CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 361, 0, 0], [2350919598, "Semaphore & Nautical Flags", 4.0, 2, 1357084800, 72, 0, 26], [1163453434, "productionSystems CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 32, 0, 0], [450525684, "block 2 legs, ankle, feet", 0.0, 0, 1414281600, 112, 0, 0], [754114012, "dgsom b4w3", 0.0, 0, 1396396800, 73, 0, 79], [1730790366, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1430870400, 73, 0, 0], [3882925778, "Persian greetings, gestures etc. (Persian - Polish)", 0.0, 0, 1379462400, 28, 0, 0], [3809698777, "Drugs that Act on the Level of DNA", 0.0, 0, 1376697600, 6, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [1098274703, "Clinical word meanings", 0.0, 0, 1388534400, 27, 0, 0], [1545117789, "Real BI Drugs Flashcards", 0.0, 0, 1418256000, 153, 0, 0], [489643493, "German adjective endings", 0.0, 0, 1423699200, 62, 0, 0], [104861841, "Philosophical Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 28, 0, 0], [3457317948, "fuzzy logic CGSC 4001 5001 Artificial Intelligence ", 0.0, 0, 1345852800, 31, 0, 0], [321104804, "100 h\u00e4ufigste arten", 0.0, 0, 1408406400, 96, 0, 211], [341341915, "Drugs. Physio. Period.", 0.0, 0, 1429142400, 21, 0, 0], [1217898473, "All Cards CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 346, 0, 0], [67031527, "DMNB Microbiology Drugs", 0.0, 0, 1417305600, 66, 0, 0], [662638511, "Neuroscience Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 47, 0, 0], [1991674589, "FTS4 Rechnungswesen", 0.0, 0, 1420761600, 72, 0, 12], [425530914, "F4K - FA05 \u00d6GS", 0.0, 0, 1421107200, 666, 0, 666], [1102185141, "BB drugs", 0.0, 0, 1424822400, 32, 0, 0], [1806463298, "Basmatte inf\u00f6r h\u00f6gskoleprovet och h\u00f6gskolestudier.", 0.0, 0, 1414540800, 93, 0, 0], [356460173, "Diverse eksamenssp\u00f8rgsm\u00e5l til 8. Semester Medicin ved KU", 0.0, 0, 1369785600, 174, 0, 0], [587061671, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1432771200, 176, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [2661319385, "Arabic I, H\u00f6gskolan Dalarna", 0.0, 0, 1381363200, 355, 0, 0], [277436156, "Arabic I, H\u00f6gskolan Dalarna, Lesson 8", 0.0, 0, 1368403200, 22, 0, 0], [1802318653, "P&T Diabetes Drugs", 0.0, 0, 1360627200, 129, 0, 0], [3885513429, "German noun endings indicating gender", 0.0, 0, 1360368000, 58, 0, 0], [323336324, "B2 Drugs", 0.0, 0, 1417392000, 130, 0, 0], [1457168446, "Block 1: 12. Drugs used in Immunology", 0.0, 0, 1426118400, 54, 0, 52], [3644830517, "ethology CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 15, 0, 0], [1585006350, "Pigs Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 326, 0, 0], [3261573635, "Finnish noun case endings", 0.0, 0, 1374969600, 10, 0, 0], [1294699466, "Drugs for Oral Pathology", 0.0, 0, 1395619200, 1, 0, 2], [2132743142, "Modern Greek - proverbs & sayings", 0.0, 0, 1432857600, 27, 0, 0], [828118545, "IEL Mathe Ordnungszahlen", 0.0, 0, 1414713600, 20, 1, 0], [3012218579, "UMMS Psychiatry Drugs (Brain Track 3 Comprehensive)", 0.0, 0, 1361664000, 161, 0, 0], [2942358981, "Guitar fretboard strings 1-6, frets 1-12", 5.0, 1, 1345852800, 78, 0, 0], [934388483, "Drugs - Bristol Medicine", 0.0, 0, 1400716800, 62, 0, 0], [1797977019, "Lecture 2 PGs and TXs as drugs", 0.0, 0, 1418342400, 70, 0, 22], [1131053439, "Anatomy - Bone Markings", 0.0, 0, 1386460800, 18, 0, 0], [2069611544, "natural language processing CGSC4001 CGSC5001 AI", 0.0, 0, 1345852800, 51, 0, 0], [1716741441, "MARC21 Tags (Basic)", 0.0, 0, 1411430400, 16, 0, 0], [641629831, "CGSH Level 4", 0.0, 0, 1398384000, 378, 0, 0], [3489705191, "Levels of Explanation in Science CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1370989390, "ANS Drugs", 0.0, 0, 1410825600, 180, 0, 0], [2066762825, "Automatisierungstechnik I TU Berlin", 0.0, 0, 1427155200, 64, 0, 52], [111575696, "Arabic I, H\u00f6gskolan Dalarna, Lesson 10", 0.0, 0, 1368403200, 23, 0, 0], [529789526, "DGSOM Anatomy Block 3 weeks 1-3", 0.0, 0, 1390867200, 330, 0, 466], [2099775560, "NHB Drugs 1", 0.0, 0, 1345852800, 34, 0, 0], [140050206, "Arabic I, H\u00f6gskolan Dalarna, Lesson 1", 0.0, 0, 1368316800, 13, 0, 0], [3734633431, "First Aid Substance Abuse drugs", 0.0, 0, 1365120000, 28, 0, 0], [862919978, "Pharm drugs", 0.0, 0, 1409616000, 128, 0, 0], [237574423, "histo final Kirangs slides- epithelium", 0.0, 0, 1417478400, 47, 0, 36], [1391208449, "Cardio Block Drugs", 0.0, 0, 1394496000, 38, 0, 1], [1316803847, "Jyoti's pharm drugs deck", 0.0, 0, 1410393600, 174, 0, 0], [1106297812, "Dogs and Cats Orthopaedics (3rd year vet)", 0.0, 0, 1405036800, 270, 0, 0], [679765693, "Verfahrenstechnik - Str\u00f6mungstechnik", 0.0, 0, 1406073600, 4, 0, 0], [1287464256, "sdgsdgsdg", 0.0, 0, 1396915200, 399, 0, 5], [139022371, "druggss", 0.0, 0, 1408924800, 2, 0, 0], [1742777566, "Dogs and Cats Weight Loss and Poor Performance", 0.0, 0, 1420243200, 301, 0, 0], [699302915, "2.1 Drugs (Keele Medicine Yr 2 Term 1 Drugs)", 0.0, 0, 1414368000, 17, 0, 0], [3838480768, "Unterwegs III.", 0.0, 0, 1370995200, 710, 0, 0], [146560091, "Dogs and Cats (Semester 1 3rd year vet)", 0.0, 0, 1405036800, 1943, 0, 4], [793691180, "Psychiatry, Pain, and Neurology Drugs", 0.0, 0, 1427587200, 138, 0, 3], [903431582, "Kazakh case endings", 0.0, 0, 1345852800, 60, 0, 0], [771982753, "Gross anatomy clinicals part 3 pgs 40 - 60", 0.0, 0, 1412121600, 81, 0, 0], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [1450143754, "logic CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 29, 0, 0], [295100408, "q1thingsb", 0.0, 0, 1411603200, 34, 0, 0], [559811674, "Arabic I, H\u00f6gskolan Dalarna, Lesson 6", 0.0, 0, 1368316800, 67, 0, 0], [1829998215, "Schaltungstechnik", 0.0, 0, 1435536000, 16, 0, 4], [543705077, "BUSM Anatomy - Bone Markings", 0.0, 0, 1376870400, 19, 0, 0], [4150127035, "Arabic I, H\u00f6gskolan Dalarna, Lesson 5", 0.0, 0, 1368316800, 28, 0, 0], [1980724306, "Cardiology I Adrenergic and Cholinergic Drugs", 0.0, 0, 1413676800, 39, 0, 0], [742229476, "Dogs and Cats GIT", 0.0, 0, 1410825600, 626, 0, 0], [752026676, "AC II - \u00dcbungsaufgaben", 0.0, 0, 1411603200, 77, 0, 55], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [3696751413, "Psych drugs", 0.0, 0, 1355875200, 25, 0, 0], [1794967598, "Arabic I, H\u00f6gskolan Dalarna, Lesson 3", 0.0, 0, 1368316800, 27, 0, 0], [1738952029, "Jess and Pierre fondue weird french things", 0.0, 0, 1414454400, 12, 0, 30], [1076382311, "British Bird Songs", 0.0, 0, 1393891200, 50, 50, 0], [1570982511, "Drugs Devices and Consumers Exam 1", 0.0, 0, 1361232000, 227, 0, 0], [1231143841, "01. Antiparasitic Drugs", 0.0, 0, 1430870400, 81, 0, 66], [2706219531, "Linguistics Methodology CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 15, 0, 0], [546729483, "Making Science Presentations CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [1041114497, "World Flags part deux", 0.0, 0, 1345852800, 204, 0, 204], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [1726074925, "Drugs Devices and Consumers Exam 2", 0.0, 0, 1365033600, 258, 0, 0], [1771137642, "Latin 8th grade noun endings", 0.0, 0, 1414540800, 29, 0, 0], [485381930, "Protocol Analysis CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 18, 0, 0], [1779560351, "Chinese Readings for 2,200 General-Use Kanji", 4.0, 1, 1376784000, 2484, 0, 0], [4136734188, "Unterwegs II.", 0.0, 0, 1370995200, 738, 0, 0], [2043750814, "NIHONGO KANTAN: Kanji Meanings", 0.0, 0, 1431302400, 136, 0, 0], [389779172, "Stage 4 HD Drugs", 0.0, 0, 1399852800, 41, 0, 0], [1639361866, "memory pegs 102", 0.0, 0, 1422057600, 101, 0, 0], [2186335371, "sgdsgsdgsdg", 0.0, 0, 1384732800, 17, 0, 25], [138815787, "Physio-- DRUGS ", 0.0, 0, 1392249600, 22, 0, 4], [1086834172, "q1thingsa", 0.0, 0, 1411603200, 9, 0, 1], [2713449531, "psychology methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 92, 0, 0], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [1439992440, "\u65e5\u672c\u8a9e\u3067\u6c17\u6301\u3061\u3092\u4f1d\u3048\u308b\u3002 Express Your Feelings In Japanese", 4.29, 7, 1345852800, 627, 0, 0], [1876956765, "Stage 4 HD Drugs lectures", 0.0, 0, 1399852800, 30, 0, 0], [1606619238, "TU BS MB01 \u00dcbungsaufgaben & Essentials", 0.0, 0, 1426550400, 76, 0, 31], [1049956735, "pharmcnsdrugs ", 0.0, 0, 1422316800, 21, 0, 34], [121961141, "Greetings from the Teklimakan (Kansas U)", 5.0, 2, 1422921600, 920, 920, 0], [864958802, "ethnography CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 21, 0, 0], [1446737603, "IEL Ver\u00e4nderungsverben", 0.0, 0, 1424044800, 21, 1, 21], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [850771992, "Dogs and Cats Neuro and Sudden Death", 0.0, 0, 1420243200, 583, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Gs</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

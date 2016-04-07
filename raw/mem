@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3883592462, "Danish version of Heisigs Remembering the Kanji 6th edition", 4.0, 1, 1375488000, 2200, 0, 0], [212996995, "Advaced French Visual Picture Memory", 0.0, 0, 1444521600, 211, 208, 214], [1021375878, "Topical Memory System (TMS) 180", 0.0, 0, 1440633600, 180, 0, 0], [2045717832, "Important Artists to Remember", 0.0, 0, 1453852800, 12, 0, 0], [554088453, "Remembering the Kanji 1, 3, \u221e (+ Vocab/Better Keywords)", 0.0, 0, 1408492800, 3235, 3, 0], [1858983817, "ABI CH9 Lipids and Biological Membranes", 0.0, 0, 1453680000, 60, 0, 9], [224181860, "lazy cards for everyone interested in remembering kanji", 0.0, 0, 1452124800, 2042, 0, 0], [499237768, "Park Small Group Memory Verses - 11329", 0.0, 0, 1452556800, 1, 3, 0], [1285741551, "Danish - Dansk RTK Heisigs Remembering the Kanji 7. version", 0.0, 0, 1450396800, 2200, 0, 0], [2030577142, "Saudia A320 Memory Items", 0.0, 0, 1430956800, 11, 0, 0], [1210778195, "Advanced French Visual Picture Memory Vocabulary (2)", 0.0, 0, 1444521600, 200, 200, 279], [167306554, "Remember The Kanji 1 with Japanese words", 0.0, 0, 1448841600, 2042, 0, 7], [1627669267, "James W. Heisig - Remembering Simplified Hanzi 1 & 2", 5.0, 2, 1449014400, 3225, 0, 0], [919519290, "Arik Air Q400 Memory Items", 0.0, 0, 1449792000, 14, 0, 13], [501823732, "Remembering the Kanji (301-400) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [699206800, "Bogazici - Memoria", 0.0, 0, 1449878400, 16, 0, 0], [1501923488, "Memazija - Japanski Katakana", 0.0, 0, 1447459200, 46, 0, 46], [1806694043, "Rememberig the Kanji (201-300) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [2113297325, "set of information about pc memory", 0.0, 0, 1448409600, 27, 0, 0], [2077872612, "Heisig's Remember the Kanji 1-3 w/top 2 community stories", 4.45, 11, 1345852800, 3007, 0, 0], [1862928028, "Remembering the Kanji (101-200) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [383928111, "Remembering the Kanji (1-100) - Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [1317215688, "CB - Learning and Memory ", 0.0, 0, 1447113600, 19, 0, 0], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 5.0, 1, 1345852800, 3007, 0, 0], [1006836649, "Memazija - Japanski Hiragana", 0.0, 0, 1444694400, 46, 0, 46], [492378128, "Remembering the Kanji (401-500) Espa\u00f1ol, On y Kun", 0.0, 0, 1446422400, 100, 0, 0], [1175204432, "Heisig's Remember the Kanji 1 with media [1-250]", 5.0, 1, 1441152000, 250, 314, 250], [1208003417, "He Brews! Memory aids for Hebrew vocab", 0.0, 0, 1369008000, 242, 135, 249], [977670381, "Heisig's Remember the Kanji 1 with media [501-750]", 5.0, 1, 1441152000, 250, 228, 250], [1427483779, "Heisig's Remember the Kanji (RTK) 1+3 Kanji to keyword", 5.0, 1, 1439856000, 3006, 3, 1650], [115452972, "Heisigs Remember the Katakana vocabulary", 0.0, 0, 1441756800, 88, 0, 0], [756954636, "Membrane Structure and Adhesion", 0.0, 0, 1440892800, 68, 0, 0], [753778061, "B&B 02.27.15 Learning and Memory: Beyond the Hippocampus", 0.0, 0, 1425427200, 26, 0, 0], [2822311550, "Delta 73N memory items", 0.0, 0, 1383523200, 33, 0, 0], [1985624841, "Flags of UN Member States", 0.0, 0, 1442707200, 195, 0, 0], [1270866356, "amemiya2", 0.0, 0, 1423008000, 33, 35, 68], [1614953931, "Remember The Milk Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [2084627808, "Learning and Memory Cellular Basis", 0.0, 0, 1425340800, 26, 0, 1], [964541329, "Bible verses to memorize - in Chinese Union Version", 0.0, 0, 1404950400, 662, 0, 0], [1349130511, "Bible verses for memorization (mostly ESV)", 5.0, 1, 1411862400, 53, 0, 0], [499057164, "Japanese Grammar Notes (Homemade, N3ish?)", 0.0, 0, 1437955200, 490, 0, 50], [1607499809, "Aronson's Memorised Deck Stack", 0.0, 0, 1435190400, 104, 0, 53], [1417238157, "TSA, EMB-145 MP/LR Memory Items", 0.0, 0, 1425340800, 18, 0, 0], [840318366, "Block 3 - Memory", 0.0, 0, 1391212800, 27, 0, 0], [2071901206, "Remembering the Hanzi 1", 0.0, 0, 1345852800, 1500, 0, 0], [201624859, "Ageless Memory", 0.0, 0, 1405209600, 17, 0, 0], [250212756, "Al's memorized numbers", 0.0, 0, 1431993600, 107, 0, 0], [2805752833, "Max*/Matiar/Ameer Membrane Transport", 0.0, 0, 1377820800, 32, 0, 16], [1235029922, "Memory Matrix", 0.0, 0, 1404086400, 131, 0, 95], [966035701, "Bible memorization verses", 0.0, 0, 1345852800, 77, 0, 0], [1874990313, "Ossa membri superioris", 0.0, 0, 1412380800, 46, 0, 0], [1616511864, "Dont Think Memorize ", 0.0, 0, 1426723200, 57, 0, 0], [3158257782, "Remembering the Kana with sounds", 4.8, 5, 1345852800, 171, 124, 0], [923210682, "amemiya4", 0.0, 0, 1424908800, 23, 24, 28], [1355474314, "Memoria Segundaria", 0.0, 0, 1410739200, 18, 0, 5], [1898578597, "Learning and Memory Aging, MCI", 0.0, 0, 1425340800, 36, 0, 5], [953091856, "Max*/Matiar/Ameer Membrane Immunology Plasma Proteins", 0.0, 0, 1379289600, 23, 0, 16], [1267149337, "all words + memrise", 0.0, 0, 1418256000, 2099, 0, 1], [1146381640, "Membrane Transport in Health and Disease", 0.0, 0, 1412121600, 56, 0, 0], [887774701, "karuta memorize", 0.0, 0, 1412035200, 200, 0, 0], [2654705267, "Heisig's Remember the Kanji (RTK) 1+3", 4.27, 15, 1348099200, 3007, 0, 0], [3850185205, "Remembering the Traditional Hanzi Book 2", 0.0, 0, 1345852800, 1536, 0, 0], [567719536, "Learning and Memory MTL", 0.0, 0, 1425168000, 40, 0, 1], [4275545719, "Memoriol BACEN", 0.0, 0, 1385424000, 431, 0, 0], [1494163897, "Can;t remember what dis 1 is", 0.0, 0, 1420761600, 139, 0, 1], [240916016, "Histo lecture 2-membranes", 0.0, 0, 1376956800, 46, 0, 0], [459441318, "Deck of card PAO memory system", 0.0, 0, 1420416000, 26, 0, 26], [3681219101, "The Navigators TMS (Topical Memory System) Bible Verses", 3.5, 2, 1355011200, 60, 0, 0], [1639361866, "memory pegs 102", 0.0, 0, 1422057600, 101, 0, 0], [1606405711, "Psicolog\u00eda de la Memoria", 0.0, 0, 1388361600, 78, 0, 0], [3528052324, "Heiseg's remembering the kanji", 1.0, 1, 1345852800, 3007, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mem</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

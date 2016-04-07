@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1610254447, "Netzwerk Grenchen: Lernen am Smartphone", 0.0, 0, 1454198400, 201, 39, 170], [1391952699, "Deutsch: Phonetic Alphabet of Germany", 4.5, 2, 1431043200, 32, 40, 0], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [1768993625, "Network Engineering (Huawei)", 0.0, 0, 1454457600, 155, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [1216676381, "Network Engineering (Cisco and Huawei)", 0.0, 0, 1454457600, 249, 0, 0], [41787228, "MUI_2012_Genetik", 0.0, 0, 1454630400, 40, 0, 0], [1057073103, "Intermediate-advanced english with phonetic transcription", 0.0, 0, 1453852800, 2018, 3, 82], [344816455, "genetics unb", 0.0, 0, 1454284800, 181, 0, 106], [120847549, "Tweede Kamer - Kabinet-Rutte II ", 0.0, 0, 1453852800, 14, 0, 14], [961092971, "oceanography- Earths planet water", 0.0, 0, 1453852800, 24, 0, 0], [2201805440, "1000 Most Common Thai Words [TH,EN,DE,MP3,HiddenPhonetic]", 3.33, 3, 1352764800, 1000, 0, 0], [1308960770, "Algorithmic and Economic Aspects of the Internet", 0.0, 0, 1453334400, 107, 0, 0], [3283034296, "japanese phonetic - signal primitives - ONYOMI groups", 5.0, 1, 1383177600, 361, 0, 0], [2140156394, "NATO Phonetic Alphabet", 0.0, 0, 1452643200, 26, 0, 0], [2100539557, "Pediatric Genetics", 0.0, 0, 1449964800, 8, 0, 0], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [1291832412, "1000 Most Common Thai Words [EN, DE, MP3, Phonetic]", 2.5, 2, 1352764800, 1000, 0, 0], [1597339571, "Kabinett Merkel III", 0.0, 0, 1392681600, 16, 0, 20], [1985647355, "Networking: A Top Down Approach", 0.0, 0, 1450310400, 18, 0, 0], [1555146144, "Turkish Phonetic Alphabet", 0.0, 0, 1449187200, 31, 0, 0], [495049975, "Networking Deck", 0.0, 0, 1449792000, 177, 0, 0], [1751789256, "Russian Phonetic Alphabet for HAM", 0.0, 0, 1396828800, 35, 35, 0], [871840608, "NATO phonetic alphabet", 0.0, 0, 1449705600, 26, 0, 26], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 4.0, 1, 1409443200, 106, 0, 127], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [19612579, "Phonetic Gujrati - French ", 0.0, 0, 1453852800, 73, 0, 0], [429923008, "PV Brutto zu Netto AUT", 0.0, 0, 1448409600, 101, 0, 0], [164166150, "Social and Information Networks", 0.0, 0, 1447372800, 16, 0, 0], [2772515877, "English Irregular Verbs with Phonetic", 3.88, 8, 1345852800, 311, 0, 0], [813821183, "Netzwerk A2.2 Deutsch-Persisch", 0.0, 0, 1446854400, 570, 0, 0], [1718654904, "Novell Netware Test 1", 0.0, 0, 1444089600, 71, 0, 0], [980819691, "Genetic Diseases FA", 0.0, 0, 1445299200, 33, 0, 0], [418774222, "Bacterial genetics FA step 1", 0.0, 0, 1444089600, 14, 0, 0], [832048039, "Genetics JUYU", 0.0, 0, 1446681600, 213, 0, 0], [1720345077, "English Irregular Verbs with Phonetic And Audio [Persian]", 5.0, 1, 1421193600, 311, 679, 1], [342149149, "Distances to planets, moons, and stars", 0.0, 0, 1445212800, 88, 1, 37], [439778325, "Genetics07", 0.0, 0, 1444867200, 53, 0, 3], [1812572600, "ACA CSIM 2 GENETICS", 0.0, 0, 1445904000, 64, 0, 0], [1586628831, "PCOM 2019 M1 Genetics I and II", 0.0, 0, 1446163200, 24, 0, 3], [625094943, "Genetics FA", 0.0, 0, 1445299200, 28, 0, 0], [1499661819, "annette", 0.0, 0, 1444435200, 120, 0, 0], [1952131465, "Annette also", 0.0, 0, 1444435200, 115, 0, 0], [1935981287, "miriam-genetic", 0.0, 0, 1444780800, 64, 2, 82], [1789196464, "Burmese phonetic (reverse cards)", 0.0, 0, 1441411200, 917, 0, 0], [2016100824, "FSU COM Microbio Bug Vignettes", 0.0, 0, 1444435200, 35, 0, 0], [2035377967, "SGU Genetics Diseases", 0.0, 0, 1441584000, 50, 0, 0], [766972333, "NATO phonetic alphabet", 0.0, 0, 1440460800, 26, 0, 0], [1681908598, "FIU PA Genetic Intro Physiology ", 0.0, 0, 1440374400, 23, 0, 0], [302566100, "FMS Genetic Disorders", 0.0, 0, 1439596800, 60, 0, 0], [1809280561, "BBC Outernet", 0.0, 0, 1442275200, 22, 0, 7], [3475558167, "Biochemistry & Genetics USMLE Step I Flashcards", 0.0, 0, 1363046400, 137, 0, 0], [1788389818, "Genetic Diseases", 5.0, 1, 1394668800, 321, 0, 0], [113008712, "Biochem, Unit 4; Phamacogenetics", 0.0, 0, 1414108800, 39, 0, 0], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [438662349, "marwanounet-car", 0.0, 0, 1449014400, 123, 0, 4], [1069048126, "Genetics Block 2", 0.0, 0, 1413244800, 47, 0, 0], [1945279301, "International Phonetic Alphabet (IPA) Vowels + Consonants", 0.0, 0, 1423094400, 44, 3, 1], [640450662, "First 3 days of genetics", 0.0, 0, 1438819200, 164, 0, 0], [1566036054, "AMB II Genetik", 0.0, 0, 1434067200, 145, 0, 0], [3748582231, "HMS.HG.Genetics.Terms", 0.0, 0, 1354060800, 97, 0, 0], [619568876, "941.112 Genetik (AW) (VO, 2) - 2013S", 0.0, 0, 1373068800, 123, 0, 14], [976506290, "NATO phonetic alphabet", 5.0, 1, 1433376000, 26, 0, 0], [472838067, "Humangenetik TU M\u00fcnchen", 0.0, 0, 1392076800, 84, 1, 0], [88552355, "Genetics Dev1", 0.0, 0, 1416787200, 20, 0, 0], [1519220551, "IPA sounds of english, list of phonetic sounds.", 0.0, 0, 1345852800, 59, 0, 0], [1757492046, "IPA (International Phonetic Alphabet) of English", 2.5, 2, 1361577600, 34, 151, 0], [1674997190, "VETERIN\u00c6RMEDICIN GENETIK kap 10", 0.0, 0, 1345852800, 3, 0, 1], [1038916791, "SIP3 v1409, source: doktormike.net", 0.0, 0, 1430870400, 4316, 0, 60], [1745248597, "Genetics Quizzes", 1.0, 1, 1395792000, 104, 0, 0], [139848681, "Genetics and Genomics Lectures MSSM", 0.0, 0, 1379548800, 221, 0, 0], [548314053, "English-Esperanto Lernu.net wordlist - good wishes", 0.0, 0, 1424908800, 13, 0, 1], [1180653090, "DatURechnernetze", 0.0, 0, 1413676800, 23, 0, 0], [3630884239, "VETERIN\u00c6RMEDICIN GENETIK kap 11", 0.0, 0, 1345852800, 9, 0, 6], [120226396, "Rechnernetze SS2015 KIT", 0.0, 0, 1438300800, 108, 0, 4], [1291211976, "VETERIN\u00c6RMEDICIN GENETIK kap 8", 0.0, 0, 1345852800, 3, 0, 1], [2130745685, "Genetics is cool", 0.0, 0, 1416787200, 638, 0, 294], [1881121874, "marwanounet-ger", 0.0, 0, 1449014400, 122, 0, 1], [1484475385, "Genetics Dev2", 0.0, 0, 1416787200, 33, 0, 0], [1925672934, "genetics fundamentals 2", 0.0, 0, 1411603200, 61, 0, 2], [1693896443, "marwanounet-HGE", 0.0, 0, 1449014400, 257, 0, 10], [1935126978, "marwanounet-der", 0.0, 0, 1449014400, 169, 0, 20], [277199174, "marwanounet-inf", 0.0, 0, 1449014400, 248, 0, 1], [2045758959, "marwanounet-neu", 0.0, 0, 1449014400, 246, 0, 29], [93155613, "Genetics", 0.0, 0, 1412899200, 340, 0, 11], [757544761, "Genetics Dev3", 0.0, 0, 1416787200, 22, 0, 0], [642665617, "marwanounet-nephro", 0.0, 0, 1449014400, 119, 0, 10], [772913647, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Uluslararas\u0131 Fonetik Alfabe", 0.0, 0, 1368662400, 26, 0, 0], [44381924, "Genetik WZW SS13", 0.0, 0, 1374192000, 83, 0, 0], [1381919741, "Genetics", 0.0, 0, 1416700800, 836, 0, 290], [793964887, "Deck for Kenneth", 0.0, 0, 1384214400, 24, 0, 25], [1450984576, "UP-ERN Genetik", 0.0, 0, 1405555200, 23, 0, 3], [3684459441, "HMS.HG.Principles.Genetics", 0.0, 0, 1354492800, 17, 0, 12], [629797400, "HMS.HG.Cytogenetics", 0.0, 0, 1354665600, 23, 0, 3], [1651585859, "Alex Neuro Synet", 0.0, 0, 1413936000, 25, 0, 28], [2519490703, "Genetics Basics 1", 0.0, 0, 1351123200, 71, 0, 0], [1440029216, "pharmacokinetics", 0.0, 0, 1411257600, 6, 0, 0], [1958500694, "marwanounet-imm", 0.0, 0, 1449014400, 220, 0, 10], [1823073887, "LipWriting Phonetic English Deutsch 2014 (lip reading)", 0.0, 0, 1431302400, 36, 0, 39], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [1526808570, "Genetics before Population Lecture", 0.0, 0, 1410307200, 204, 0, 3], [1489638250, "Rechnernetze am KIT SoSe 2013", 0.0, 0, 1375315200, 324, 0, 0], [117748903, "Cellular Genetic Basis of Antibodies", 0.0, 0, 1415491200, 54, 0, 0], [1539513625, "Block 3 - Genetics ", 0.0, 0, 1391212800, 19, 0, 0], [3477974631, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Ulusal Fonetik Alfabe", 0.0, 0, 1368662400, 40, 0, 0], [837696337, "mariannethisone", 0.0, 0, 1349049600, 136, 0, 32], [390693465, "Networks' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 75, 0, 0], [274058837, "Genetic disorders exam 2", 0.0, 0, 1398556800, 30, 0, 0], [1689454441, "HMS.HG.Genetic.Epidemiology", 0.0, 0, 1355184000, 31, 0, 5], [887707950, "Genetics of breast cancer", 0.0, 0, 1431475200, 29, 0, 0], [3878367480, "Medical genetics UU Fall 2013", 0.0, 0, 1410912000, 139, 0, 0], [1429751721, "peter tatum rowan som prematric genetics", 0.0, 0, 1405641600, 133, 0, 0], [2010128814, "HMS.HG.Population.Genetics", 0.0, 0, 1354579200, 22, 0, 4], [210894223, "Planetino 1. n\u00e9met sz\u00f3szedet (Kal\u00f3Z)", 0.0, 0, 1424304000, 89, 0, 0], [232435977, "Alle Minister Deutschlands \"Kabinett Merkel II\"", 0.0, 0, 1358035200, 17, 0, 0], [553162067, "BIOL139_Genetics", 0.0, 0, 1345852800, 159, 0, 0], [426925219, "KC Genetics", 0.0, 0, 1412035200, 368, 0, 3], [928953041, "Genetics so far", 0.0, 0, 1409616000, 48, 0, 0], [114961239, "rowan som block 1 fundamentals 1 genetics FULL RREVIEW", 0.0, 0, 1409443200, 109, 0, 4], [1286577793, "pharmgenetherapy", 0.0, 0, 1422316800, 45, 0, 64], [3331534038, "Phonetic/Number Alphabet", 1.0, 1, 1374624000, 0, 0, 0], [1827302929, "MCBI B1 - Genetics", 0.0, 0, 1410825600, 111, 0, 80], [1861206461, "Rebecca's Genetics", 0.0, 0, 1410739200, 192, 0, 0], [3456984580, "VETERIN\u00c6RMEDICIN GENETIK kap 7", 0.0, 0, 1345852800, 9, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [1171896818, "HMS.HG.Neuropsychiatric.Behavioral.Genetics", 0.0, 0, 1355702400, 30, 0, 5], [1043740870, "Genetics Block 2", 0.0, 0, 1415318400, 25, 0, 0], [809841839, "Genetik och evolution: ett kort exempel", 0.0, 0, 1418774400, 22, 19, 0], [1316378259, "Mawhinney Genetics Lectures", 0.0, 0, 1411430400, 140, 0, 0], [751002150, "genetics", 0.0, 0, 1420848000, 56, 0, 1], [607634260, "VETERIN\u00c6RMEDICIN GENETIK kap 19", 0.0, 0, 1345852800, 10, 0, 5], [2437004623, "Computer Networks", 0.0, 0, 1361404800, 35, 0, 1], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [816404408, "Diginet", 0.0, 0, 1419811200, 275, 282, 14], [3166970026, "English  Phonology and Phonetics", 0.0, 0, 1345852800, 112, 0, 4], [520478565, "Pharmacokinetic Principles Pharmacokinetic Principles Pharma", 0.0, 0, 1412121600, 4, 0, 4], [3545897022, "Genetic Conditions", 0.0, 0, 1366070400, 29, 0, 71], [2031495145, "ROWAN SOM GENETICS BLOCK 1", 0.0, 0, 1407974400, 16, 0, 15], [764446605, "IP Network addresses", 0.0, 0, 1421280000, 71, 1, 0], [121789943, "Chinese Internet & Online Marketing Terms (\u7f51\u4e0a\u5e7f\u544a\u5355\u8bcd)", 0.0, 0, 1404172800, 153, 0, 0], [1436875729, "marwanounet-oph", 0.0, 0, 1449014400, 143, 0, 35], [1499954558, "marwanounet-gyn", 0.0, 0, 1449014400, 235, 0, 20], [706416899, "English Irregular Verbs with Phonetic [Persian]", 5.0, 1, 1345852800, 311, 0, 0], [2079428463, "Top Phonetic Components for Kanji", 4.0, 3, 1431388800, 92, 0, 0], [2530617883, "RGBM Week 3-4 Pregnancy IV + Genetics", 0.0, 0, 1358899200, 88, 0, 5], [1739663871, "Rechnernetze am KIT", 0.0, 0, 1374537600, 108, 0, 4], [2258917527, "HMS.HG.Pharmacogenetics", 0.0, 0, 1355702400, 52, 0, 13], [1290066901, "Introduction to Networking start-midterm", 0.0, 0, 1350518400, 29, 0, 0], [985193042, "Vitaminok - Szerep, hi\u00e1nyt\u00fcnetek", 0.0, 0, 1423699200, 12, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Net</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2002119658, "Alan - L2 - Lotnisko", 0.0, 0, 1454889600, 36, 9, 35], [171512949, "fmHTN", 0.0, 0, 1454630400, 29, 0, 0], [1965697482, "Vietnamese Core 100 - Basic words (EN  VI with audio)", 0.0, 0, 1437004800, 202, 109, 116], [1146639988, "Summer's Agency and Partnership", 0.0, 0, 1453939200, 32, 0, 0], [582427189, "Vietnamese for Jesse 2", 0.0, 0, 1453680000, 20, 21, 25], [1630697137, "Vietnamese Deck", 0.0, 0, 1453334400, 20, 1, 25], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1211566416, "Vietnamese Deck", 0.0, 0, 1451433600, 24, 26, 24], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1408849907, "Vietnamese to English vocab and practice", 0.0, 0, 1448064000, 1569, 0, 0], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [1102582808, "COMPUTADOR DE LEITNER", 0.0, 0, 1451088000, 981, 6, 37], [640417798, "IIIC MCQ Medisin NTNU", 0.0, 0, 1449187200, 55, 0, 1], [1555374462, "MUSC M2 Block 9 PTN", 0.0, 0, 1449878400, 393, 0, 0], [1774727787, "MUSC M2 Block 9 PTN: Cancer Chemotherapy", 0.0, 0, 1448928000, 116, 0, 0], [1015313647, "Salish 2 Example Sentences - Sn\u0294aw\u0294awtn 2: Level 2, Book 2", 0.0, 0, 1449014400, 1016, 769, 982], [351011424, "NTNU MTC Intensive Course - Book 1 - Chapter 1 - Part 1", 0.0, 0, 1449187200, 32, 45, 86], [1825069896, "NTNU MTC Chapter 3", 0.0, 0, 1444176000, 41, 0, 0], [2104828365, "Vietnamese food", 0.0, 0, 1447200000, 6, 0, 0], [1458057343, "NTNU MTC Chapter 4", 0.0, 0, 1444176000, 37, 0, 0], [822564642, "NTNU MTC Chapter 2", 0.0, 0, 1444176000, 37, 0, 0], [771506002, "Medisin NTNU MCQ IIIC 2009-2012", 0.0, 0, 1443484800, 623, 0, 34], [1459097955, "Vietnamese Quick & Dirty 30 (EN  VI)", 0.0, 0, 1445126400, 60, 38, 45], [2029888080, "Srpski za po\u010detnike", 0.0, 0, 1444003200, 10, 0, 0], [1887918966, "NTNU MTC Chapter 1", 0.0, 0, 1444176000, 43, 0, 0], [614090542, "Terry's Vietnamese Vocabulary", 0.0, 0, 1439251200, 223, 110, 0], [2363454232, "JLPT 1K Kanji Vocabulary Vietnamese", 0.0, 0, 1345852800, 1426, 0, 0], [1944478349, "JLPT N2 Grammar Vietnamese", 5.0, 1, 1345852800, 173, 0, 0], [1906995119, "egyesultnemet", 0.0, 0, 1396483200, 4783, 0, 0], [857340550, "Vocabulary from Vietnamese book", 0.0, 0, 1439251200, 37, 19, 0], [1687157957, "Konstruktion utmattning", 0.0, 0, 1437264000, 32, 0, 5], [4268058576, "Genki - Za\u010detni te\u010daj japon\u0161\u010dine", 0.0, 0, 1368489600, 323, 17, 123], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [730142465, "Courtney wants, Courtney gets", 0.0, 0, 1434326400, 62, 0, 36], [422812024, "Egyptian Demotic - Setne Khaemwast", 0.0, 0, 1432684800, 494, 0, 495], [1726688279, "Leaving Cert Chemistry for Courtney", 0.0, 0, 1432080000, 282, 0, 35], [145838376, "Friends S2E19 English - Vietnamese", 0.0, 0, 1415318400, 71, 0, 43], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [3818749449, "Chi\u0144ski, etno 3 rok", 0.0, 0, 1351641600, 197, 0, 1], [1208876092, "Geography leaving cert for Courtney", 0.0, 0, 1432166400, 896, 0, 129], [192225840, "Medisin NTNU MCQ IIAB 2007-2011", 0.0, 0, 1359676800, 1293, 0, 66], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [710811884, "English to Vietnamese", 0.0, 0, 1420502400, 572, 0, 0], [613417287, "Developmental Review Part II: TNT", 0.0, 0, 1411084800, 59, 0, 1], [814546657, "Common English mistakes made by Vietnamese speakers", 0.0, 0, 1430524800, 13, 0, 1], [1886498013, "Znalost terminologie oboru \u010desk\u00fd jazyk (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 121, 0, 0], [3470451392, "JLPTN2Book", 0.0, 0, 1383091200, 231, 0, 0], [1410871371, "UC Berkeley Vietnamese 1A Words", 0.0, 0, 1418860800, 793, 0, 0], [4274950988, "Grundkenntnisse Japanisch 1 - Kanji", 0.0, 0, 1380240000, 15, 0, 15], [792306010, "philip MS TN", 0.0, 0, 1399593600, 19, 0, 0], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [401628011, "Water Analysis for my friend, Courtney", 5.0, 1, 1432080000, 52, 0, 5], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [310661685, "B&B 03.04.15 Postnatal Development", 0.0, 0, 1425600000, 19, 0, 0], [2670829032, "vocJLPTN4", 5.0, 1, 1358380800, 0, 0, 0], [2462634497, "Lins Danske Ord og S\u00e6tninger", 0.0, 0, 1359244800, 24, 24, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [485735872, "A1. Lesson 3. Odmiana czasownika \"to be\", przymiotniki", 0.0, 0, 1422403200, 30, 30, 0], [1938143068, "Pravdepodonostni metody", 0.0, 0, 1420156800, 61, 1, 51], [1607641001, "102 Basic Vietnamese Words and Phrases", 5.0, 1, 1415145600, 104, 112, 15], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [1310920170, "Psykologisk Testning", 0.0, 0, 1414972800, 212, 0, 59], [1548842830, "Vietnamese-English 22000", 0.0, 0, 1426291200, 21717, 0, 3], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [2438989451, "Grundkenntnisse Japanisch 1 - Vokabeln", 0.0, 0, 1380240000, 102, 0, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [2128390243, "IIAB NTNU Medisin MCQ", 0.0, 0, 1367539200, 986, 0, 0], [1255481624, "premier cours de vietnamien 2012-2013 UJVF", 0.0, 0, 1370822400, 33, 2, 0], [331029510, "Vietnamese Phrases - English to Vietnamese", 0.0, 0, 1433548800, 221, 0, 0], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [3342602701, "Vietnamese with pictures", 0.0, 0, 1368489600, 42, 0, 42], [1720512425, "aloisvietnamese", 0.0, 0, 1417305600, 202, 2, 3], [1911591677, "Fitness und Sport", 0.0, 0, 1442966400, 39, 38, 42], [1098528865, "Basic Vietnamese Picture Vocabulary", 0.0, 0, 1404086400, 374, 0, 299], [1386365975, "Medisin NTNU MCQ IICD IIDC 2008-2012", 0.0, 0, 1392768000, 1461, 0, 146], [2145504296, "Das Zuhause (Deutsch-Vietnamesisch)", 0.0, 0, 1418342400, 316, 0, 0], [591464588, "Developmental Review Part I: TNT", 0.0, 0, 1411084800, 75, 0, 0], [569675917, "NTNU MFEL1010 Medisin for ikke-medisinere", 0.0, 0, 1418774400, 634, 0, 23]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

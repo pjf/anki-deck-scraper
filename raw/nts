@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2103573310, "Deutsch: All 200 Irregular Base Verbs of German with Hints", 0.0, 0, 1433808000, 200, 208, 307], [302939103, "[Nederlands/Dutch] Chemische elementen/Chemical elements", 0.0, 0, 1443657600, 118, 1, 92], [1022264668, "Pathology for Second-Year Med Students", 4.5, 2, 1437696000, 3605, 0, 563], [2087959279, "U.S. Presidents (/w pics)", 0.0, 0, 1453161600, 44, 0, 43], [2871273013, "Vocabulaire arabe pour d\u00e9butants", 5.0, 1, 1345852800, 1049, 0, 0], [1629769194, "D\u00e9partements et r\u00e9gions fran\u00e7ais \u2013 Enrichi", 1.0, 1, 1385078400, 125, 221, 334], [1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [652928996, "VOCAB DECK MADE BY STUDENTS EOI RUBI 4th B2  15-16", 0.0, 0, 1453766400, 134, 1, 0], [143533546, "Tibetan Amdo consonants", 0.0, 0, 1451865600, 30, 0, 0], [1448442740, "Assessments", 0.0, 0, 1453939200, 1, 0, 0], [1342086679, "Comportements sociaux et tabous", 0.0, 0, 1453420800, 30, 0, 0], [2037881465, "VOCAB DECK MADE BY STUDENTS EOI RUBI 6th C1  15-16", 0.0, 0, 1453766400, 71, 0, 0], [1507084958, "ABI 102 Chapter 15 Checkpoints", 0.0, 0, 1453075200, 29, 0, 2], [1961110358, "ABI Chapter 17 Checkpoints", 0.0, 0, 1452902400, 14, 0, 1], [1124369737, "ABI 102 Chapter 14 Checkpoints", 0.0, 0, 1453075200, 50, 0, 0], [659111039, "FST 101B Lecture 2 Pigments", 0.0, 0, 1452902400, 65, 0, 0], [1087903819, "medical vocabulary 18 - complaints", 0.0, 0, 1452384000, 33, 0, 0], [1654761283, "medical vocabulary 14 - instruments", 0.0, 0, 1452384000, 62, 0, 0], [1075465080, "Toefl for persian (Farsi) students", 0.0, 0, 1451520000, 1891, 0, 0], [1538264353, "Nova Scotia Plants glossary", 0.0, 0, 1444608000, 399, 0, 0], [1521181522, "Selected Physical Constants (TIMSS 1995)", 0.0, 0, 1395360000, 13, 0, 2], [126898923, "Thai Consonants from Thaipod101 notes", 0.0, 0, 1420502400, 44, 0, 0], [3837218370, "D\u00e9partements fran\u00e7ais + carte (FR)", 4.45, 11, 1345852800, 101, 0, 101], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 5.0, 2, 1378252800, 33, 33, 33], [1685861970, "Anatomy Ch. 9 Joints", 0.0, 0, 1443830400, 22, 0, 0], [178023466, "Plant Idents - Various Plants", 0.0, 0, 1444089600, 20, 0, 21], [873827709, "Ingredients ", 0.0, 0, 1445472000, 30, 13, 8], [1424373046, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [337953075, "DEPONENTS", 0.0, 0, 1447286400, 29, 0, 0], [1815594017, "Myanmar Alphabets (33 Consonants)", 0.0, 0, 1413417600, 33, 33, 33], [1967592565, "medical vocabulary 7 - injuries and accidents", 0.0, 0, 1445385600, 86, 0, 0], [1707970115, "medical vocabulary 5 - diseases and complaints", 0.0, 0, 1445385600, 95, 0, 0], [771821991, "Biol 192 Land Plants from Anthophyta", 0.0, 0, 1444694400, 184, 0, 4], [1021788144, "Gross 1 Bones and ligaments of back", 0.0, 0, 1443484800, 76, 0, 28], [1830316972, "Biol 192 Land Plants pre Anthophyta", 0.0, 0, 1444694400, 203, 0, 36], [161196169, "Bones and joints", 0.0, 0, 1442620800, 21, 0, 0], [454241263, "Elements Symbols", 0.0, 0, 1442361600, 15, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [842050830, "Sensory afferents ", 0.0, 0, 1443571200, 31, 0, 0], [657930336, "english file intermediate 2n Batx Baixmontseny", 0.0, 0, 1442102400, 46, 0, 0], [1896169166, "Movements", 0.0, 0, 1439164800, 19, 0, 3], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [1219873391, "Antidepressants (Australia)", 0.0, 0, 1426291200, 19, 0, 0], [389954908, "WELS Hebrew 2015 Grammar points for Nass Class Genesis 37-50", 0.0, 0, 1434672000, 21, 0, 0], [981979950, "Plaids en Romontsch Sursilvan", 0.0, 0, 1426377600, 3625, 0, 0], [129986190, "Chemical elements \u2014 number, name, symbol, mass", 4.0, 1, 1435795200, 118, 0, 0], [1328721049, "Unc_som_2018-Antibacterial Agents 9/8/2014", 0.0, 0, 1410480000, 32, 0, 0], [1490159530, "noms d'aliments en mandarin", 0.0, 0, 1436659200, 15, 16, 1], [1945279301, "International Phonetic Alphabet (IPA) Vowels + Consonants", 0.0, 0, 1423094400, 44, 3, 1], [2093064714, "Biblical Hebrew consonants and vowels", 0.0, 0, 1426032000, 55, 0, 0], [730142465, "Courtney wants, Courtney gets", 0.0, 0, 1434326400, 62, 0, 36], [1588667128, "Genesis - Key Facts and Events", 0.0, 0, 1437523200, 49, 0, 0], [1542098516, "Thai middle class consonants3-MF tones", 0.0, 0, 1430611200, 19, 0, 0], [3274728330, "Thai Mid Consonants", 0.0, 0, 1345852800, 9, 0, 0], [382408377, "Nouveaux anticoagulants", 0.0, 0, 1437955200, 33, 0, 0], [336637613, "Thai Middle Class Consonants practice", 0.0, 0, 1430006400, 48, 0, 0], [1854433882, "Herbs and supplements", 0.0, 0, 1417305600, 465, 0, 0], [1564717579, "Anatomy - Tibiofibular/Talocrural joints ", 0.0, 0, 1436054400, 80, 0, 0], [167397928, "chinese wiki grammar points", 0.0, 0, 1417910400, 1946, 0, 1], [2142646778, "Antibacterial Agents 9/8/2014", 0.0, 0, 1410480000, 32, 0, 0], [1027407667, "shatrick - classic treatments", 0.0, 0, 1402876800, 60, 0, 0], [981106529, "Antidotes for toxic agents", 0.0, 0, 1350777600, 39, 0, 0], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [2016524648, "Goldstein Antidepressants", 0.0, 0, 1424390400, 20, 0, 3], [1371127401, "Interviewing Patients", 0.0, 0, 1413417600, 31, 0, 0], [425463686, "MSU ANTR 350 Fall 2014 - Upper Limb Muscle Attachments", 0.0, 0, 1412553600, 5, 0, 0], [3916546620, "Academic Word List Sublist 3 to Chinese equivalents", 0.0, 0, 1426377600, 31, 0, 0], [4135973469, " Contract - Contents", 0.0, 0, 1345852800, 39, 0, 0], [1750666916, "Surgical Instruments - RVU Military", 0.0, 0, 1399334400, 45, 0, 57], [665313153, "MHCHS Key Slave Trading Events", 0.0, 0, 1363737600, 62, 0, 0], [552307912, "IPA - Pulmonic Consonants (with audio)", 0.0, 0, 1433894400, 42, 40, 0], [2077153554, "Rheum - Treatments", 0.0, 0, 1361145600, 28, 0, 0], [146706841, "Nottingham GEM Pharmacology and Treatments", 0.0, 0, 1391731200, 860, 0, 39], [2774265873, "Thai Low Consonants", 0.0, 0, 1345852800, 24, 0, 0], [887032639, "Best Thai Consonants", 0.0, 0, 1435363200, 42, 42, 41], [1516872995, "Thai High class consonants", 0.0, 0, 1431734400, 14, 0, 0], [3268414583, "Volatile agents", 0.0, 0, 1374451200, 18, 0, 0], [2328517939, "Some Common Cooking Ingredients in Thailand", 0.0, 0, 1383177600, 152, 0, 152], [1802766164, "NTSJA DTPs for ECU students", 0.0, 0, 1408060800, 188, 0, 0], [1401438148, "Investments", 0.0, 0, 1414713600, 110, 0, 0], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [2028296135, "Thai middle class consonants 6-MR tones", 0.0, 0, 1430438400, 11, 0, 0], [349334532, "The Flag Students (TFS)", 0.0, 0, 1436832000, 269, 0, 7], [178280328, "CofO2 - 18 - Body Fluid Compartments", 0.0, 0, 1345852800, 23, 0, 0], [1054680101, "DDO Paediatrics - Renal emergencies in infants and children ", 0.0, 0, 1409616000, 38, 0, 0], [2021268026, "Instruments and Supplies", 0.0, 0, 1430524800, 167, 0, 166], [3450331509, "Academic Word List Sublist 2 to Chinese equivalents", 0.0, 0, 1426377600, 60, 0, 0], [1098525878, "Convention Agreements between Marty and Ally", 0.0, 0, 1429574400, 333, 0, 0], [2699726511, "IERW - Instruments", 0.0, 0, 1345852800, 227, 0, 34], [705275459, "IPA Spanish & English Consonants (Symbol First)", 0.0, 0, 1345852800, 50, 41, 0], [1029485837, "Academic Word List Sublist 1 to Chinese equivalents", 0.0, 0, 1426377600, 59, 0, 0], [1995270134, "Italienisch f\u00fcr Anf\u00e4nger, italien pour d\u00e9butants", 0.0, 0, 1431302400, 183, 0, 1], [148012156, "Thai High class consonants 3 with new vowels", 0.0, 0, 1431734400, 20, 0, 0], [2560734270, "TCM Review Extra Points Location", 0.0, 0, 1345852800, 40, 0, 0], [1202110210, "Nothros Thai Consonants (44) ", 0.0, 0, 1427414400, 44, 44, 43], [1859751437, "Week 2 Blood Components", 0.0, 0, 1409443200, 62, 0, 5], [662270231, "LBR6 -- Business Associations and Negotiable Instruments", 0.0, 0, 1405900800, 102, 0, 0], [455017909, "Stewart Anticonvulsants", 0.0, 0, 1422835200, 30, 0, 0], [4085479325, "Presidentes do Brasil (Brazil Presidents)", 0.0, 0, 1353456000, 38, 0, 38], [181648759, "Basic Bridge Agreements ", 0.0, 0, 1429488000, 40, 0, 0], [709517551, "BrzrkrkKen Instruments", 0.0, 0, 1397001600, 285, 0, 0], [412203543, "Thai High class consonants 2 with new vowels", 0.0, 0, 1431734400, 19, 0, 0], [1033335256, "Cicero 3 Locations & Points", 0.0, 0, 1345852800, 64, 0, 0], [1707233749, "tumors and transplants", 0.0, 0, 1426377600, 31, 0, 24], [720122853, "Base 2 Exponents", 0.0, 0, 1418774400, 17, 0, 0], [2854503240, "AFEA - Five Element - Acupuncture Points", 4.0, 1, 1357516800, 121, 0, 0], [828445577, "MSA 8.36 - Common Ailments and Accidental Injuries", 0.0, 0, 1426636800, 35, 0, 0], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [882236101, "Anatomy - Joints, Joints of the thoracic wall", 0.0, 0, 1386460800, 11, 0, 13], [352654971, "Marys IB SBWL Participants that Make IB Happen @ WU Wien", 0.0, 0, 1397779200, 36, 0, 0], [2032385308, "DDO Paediatrics - UTIs in infants and children ", 0.0, 0, 1409616000, 25, 0, 0], [1611891644, "Euskara-Frantsesa lexikoa , Lexique Basque - Francais", 0.0, 0, 1431907200, 523, 0, 0], [929103746, "2015 Advanced Music Theory Rudiments for TLG", 0.0, 0, 1420761600, 141, 0, 17], [439826086, "fuck anatomy- joints, mastication, orbit", 0.0, 0, 1411948800, 125, 0, 89], [1865324583, "Small Ruminants Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 770, 0, 3], [1973420773, "SaraYale This deck is for my students.", 0.0, 0, 1410134400, 501, 500, 0], [1939457831, "Joints - MECH2901 Anatomy and Physiology for Engineers", 0.0, 0, 1410480000, 7, 0, 1], [348949873, "Thai consonants ", 0.0, 0, 1378857600, 44, 44, 0], [1784815955, "Growth of Flowering Plants", 0.0, 0, 1402012800, 176, 0, 0], [3094092531, "IPA Spanish & English Consonants (Description First)", 0.0, 0, 1345852800, 50, 41, 0], [1223764558, "chinese wiki grammar points with simpl and trad", 0.0, 0, 1417996800, 1949, 0, 1], [615372928, "Plants Exam", 0.0, 0, 1418428800, 111, 0, 17], [102251019, "Anatomy - Joints and Osteology - Upper Limb", 0.0, 0, 1387065600, 58, 0, 89], [2130011212, "chants d'oiseaux", 0.0, 0, 1422835200, 78, 78, 0], [345387954, "Aircraft Components", 0.0, 0, 1369353600, 67, 0, 0], [861649429, "Ammendments 11-27", 0.0, 0, 1397001600, 17, 0, 0], [198433008, "U.S. Presidents Dates of Service", 0.0, 0, 1408406400, 50, 0, 0], [313137899, "ANG Annuals plants", 0.0, 0, 1358899200, 20, 0, 0], [311822124, "Beginner Chinese for students at Dalarna University", 0.0, 0, 1425772800, 74, 3, 3], [1864222712, "MUSC M1 Block 2 Clinical and Joints", 0.0, 0, 1414540800, 79, 0, 0], [4145505923, "Thai High Consonants", 0.0, 0, 1345852800, 11, 0, 0], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [1211144349, "block 2 joints of the lower limb", 0.0, 0, 1414281600, 65, 0, 0], [1825938659, "Anatomy - Vertebral Joints and Osteology", 0.0, 0, 1386633600, 39, 0, 54], [725419078, "Thai Middle Class Consonants practice 2-Mid and Low tones", 0.0, 0, 1430524800, 28, 0, 0], [1704261859, "SUR 122 Instruments and Supplies", 0.0, 0, 1430784000, 175, 0, 175], [2079428463, "Top Phonetic Components for Kanji", 4.0, 3, 1431388800, 92, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [3170059448, "IPA Spanish & English Vowels & Consonants", 5.0, 1, 1345852800, 65, 56, 0], [587806734, "Thai middle class consonants 5-M,H", 0.0, 0, 1430611200, 15, 0, 0], [1686575120, "Thai middle class consonants 4-LMF tones mix", 0.0, 0, 1430611200, 16, 0, 0], [1783724577, "Koine Greek grammar from Duff's Elements", 5.0, 1, 1357689600, 855, 0, 0], [2889581819, "Presidents of the United States", 0.0, 0, 1354320000, 44, 0, 0], [1590089197, "Thai middle class consonants 7-all tones mix", 0.0, 0, 1430438400, 13, 0, 0], [1317758454, "Small Ruminants 2 (3rd year vet)", 0.0, 0, 1420243200, 427, 0, 0], [982902655, "fuck anatomy- oral cavity, radiology, implants, neck", 0.0, 0, 1411948800, 140, 0, 81], [1561384318, "UK edible plants", 3.0, 2, 1372118400, 53, 0, 53], [4192047854, "TCM Review Formula Ingredients 6 or less", 0.0, 0, 1345852800, 60, 0, 0], [818166000, "Anatomy - Joints and Osteology - Pelvis and Hip Joint", 0.0, 0, 1387324800, 33, 0, 28], [2090293558, "RLR #96 \u2013 Kickass Habits & British Accents", 5.0, 1, 1426636800, 31, 31, 0], [2939228610, "1750 words english-hebrew with hints (to hebrew speakers)", 5.0, 1, 1366675200, 1750, 0, 0], [369364662, "N3 Grammar points review", 0.0, 0, 1431561600, 1, 0, 0], [877756350, "U.S. Presidents", 0.0, 0, 1345852800, 87, 0, 0], [538352026, "Ukrainian consonants ", 0.0, 0, 1427587200, 21, 21, 0], [1158313769, "Anatomy - Joints and Osteology - Lower Limb", 0.0, 0, 1387497600, 35, 0, 73], [353932106, "Myanmar Consonants Rhymes", 0.0, 0, 1413504000, 25, 25, 50]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nts</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

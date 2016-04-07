@@ -12,9 +12,10 @@ use constant ID     => 0;
 use constant TITLE  => 1;
 use constant RATING => 2;
 use constant VOTES  => 3;
-use constant CARDS  => 4;
-use constant AUDIO  => 5;
-use constant IMAGES => 6;
+use constant TIME   => 4;
+use constant CARDS  => 5;
+use constant AUDIO  => 6;
+use constant IMAGES => 7;
 
 my $URL_BASE = 'https://ankiweb.net/shared/info';
 
@@ -51,8 +52,8 @@ foreach my $file (@files) {
 # Now print them out, sorted by rating.
 
 say "---\nlayout: default\ntitle: List of anki decks by score\n---";
-say "Deck | Score | Votes";
-say "-----|-------|------";
+say "Deck | Score | Votes | Cards";
+say "-----|-------|-------|------";
 
 foreach my $deck (sort by_rating values %decks) {
     my $title = $deck->[TITLE];
@@ -60,9 +61,9 @@ foreach my $deck (sort by_rating values %decks) {
     # Strip markdown-ish things form title
     # Yes, this is a hack.
 
-    $title =~ s/[*[\]]+//g;
+    $title =~ s/[*[\]|]+/ /g;
 
-    say "[$title]($URL_BASE/$deck->[ID]) | $deck->[RATING] | $deck->[VOTES]";
+    say "[$title]($URL_BASE/$deck->[ID]) | $deck->[RATING] | $deck->[VOTES] | $deck->[CARDS]";
 }
 
 # Sort by rating, then by number of votes, then alphabetical

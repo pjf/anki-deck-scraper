@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[678926200, "HAII Midterm 1 - eye and orbit", 0.0, 0, 1454889600, 151, 0, 5], [545776701, "CIS 215 midterm hands on prep", 0.0, 0, 1454716800, 4, 0, 0], [869032120, "HAII Midterm 1 - Face", 0.0, 0, 1454803200, 76, 0, 4], [1821893832, "HAII Midterm 1 - Skull part 2", 0.0, 0, 1454803200, 51, 0, 1], [530238957, "SBFV - Trainer C - Kinder und Jugendtraining", 0.0, 0, 1453852800, 7, 0, 0], [141131449, "HAII Midterm 1 - Skull", 0.0, 0, 1454716800, 73, 0, 1], [619903817, "HAII Midterm 1 - Scalp", 0.0, 0, 1454803200, 34, 0, 6], [1945669744, "HAII Midterm 1 - Chapter Practice Questions", 0.0, 0, 1454889600, 69, 0, 1], [316207615, "HAII Midterm 1 - Cranial Nerves", 0.0, 0, 1454889600, 45, 0, 1], [837102834, "Psych 10 Midterm 1", 0.0, 0, 1454889600, 192, 0, 0], [2024982590, "Astronomy Midterm 2021B Western University ", 0.0, 0, 1454889600, 12, 0, 0], [1720445055, "Hauptst\u00e4dte der Welt - Capitals", 4.2, 10, 1425254400, 411, 0, 411], [1475161099, "CIS 215 written midterm prep", 0.0, 0, 1454716800, 72, 0, 0], [448148845, "UCLA G169 Midterm", 0.0, 0, 1454544000, 12, 0, 0], [679534265, "Molecular Biology - BIO334 Midterm 1 - PSU 2015", 3.0, 1, 1427328000, 229, 0, 0], [406965952, "Molecular Biology - BIO334 Midterm 2 - PSU 2015", 0.0, 0, 1427328000, 298, 8, 2], [150327819, "Hoch Middle Egyptian Lesson2  Determinatives  Hoch2dt", 0.0, 0, 1363392000, 109, 0, 109], [1789735416, "APUSH Midterm Roberts", 0.0, 0, 1450310400, 215, 0, 0], [1659903196, "Heme Onc Midterm", 0.0, 0, 1449446400, 14, 0, 28], [1413805675, "West Medterms Chapter 3", 0.0, 0, 1447113600, 67, 0, 0], [832219374, "ESM 425 Midterm", 0.0, 0, 1447286400, 54, 0, 16], [1227619809, "HKUST Comp3511 Operating System Midterm", 0.0, 0, 1445472000, 102, 0, 4], [1713718176, "Katzenverwandte", 0.0, 0, 1448668800, 0, 0, 0], [314711982, "RR Block 1 (midterm)", 0.0, 0, 1447027200, 165, 0, 218], [1779667546, "Pathologyaftermidterm2015", 0.0, 0, 1447718400, 0, 0, 0], [2125136156, "Pericardium and Heart for Midterm 2 ", 0.0, 0, 1444521600, 76, 0, 0], [365554340, "AMS 131 - Intro to Probability Theory Midterm", 0.0, 0, 1445731200, 98, 0, 110], [1687476569, "Global Politics 2I03 Midterm", 0.0, 0, 1445472000, 34, 0, 0], [168368817, "Kn\u00f6chernde Bestandteile des Unterschenkels und des Fu\u00dfes", 0.0, 0, 1447804800, 7, 0, 0], [2126206259, "CIS 214 midterm prep", 0.0, 0, 1445731200, 100, 0, 0], [2052038414, "ACC Unix II Midterm ", 0.0, 0, 1445040000, 44, 0, 1], [1908420446, "QCM Market Midterms", 0.0, 0, 1445299200, 78, 0, 0], [497805556, "CIS 228 midterm prep", 0.0, 0, 1445817600, 85, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [348197263, "ITL Literacy Midterm ", 0.0, 0, 1444608000, 58, 0, 0], [419404848, "LEA1 Midterm 1", 0.0, 0, 1443744000, 260, 0, 46], [3768529989, "Hauptst\u00e4dte Europas DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 47, 0, 0], [1254167893, "Langenscheidt - I - 2000 palavras - alem\u00e3o -  portugu\u00eas", 5.0, 1, 1428883200, 1974, 0, 0], [181404630, "FPP MSS Pathology Midterm Tutor Slides", 0.0, 0, 1440720000, 170, 0, 131], [1674576176, "Vrai ou Faux Market Midterms", 0.0, 0, 1445299200, 41, 0, 0], [2141464680, "Hauptst\u00e4dte der Welt", 0.0, 0, 1437955200, 206, 1, 0], [788936408, "MDTI 01.28.15 Cancer Chemotherapy", 0.0, 0, 1423094400, 64, 0, 4], [1295852323, "MDTI 01.12.15 Wound Healing", 0.0, 0, 1421107200, 51, 0, 6], [519735909, "CIS 227 midterm review", 0.0, 0, 1431302400, 25, 0, 0], [4130564673, "Midterm 2 ", 0.0, 0, 1384819200, 178, 0, 166], [1952397993, "Understanding Food Midterm review questions", 0.0, 0, 1438646400, 29, 0, 0], [1715088451, "CIS 110 midterm study flash cards part 4", 0.0, 0, 1423267200, 16, 0, 0], [1144777267, "more SGU anatomy images post midterm ", 0.0, 0, 1416873600, 395, 0, 487], [2721859417, "Econ 222 midterm3 quiz (Marlow)", 0.0, 0, 1345852800, 29, 0, 0], [160179789, "MDTI 01.30.15 Gout", 0.0, 0, 1422662400, 65, 0, 3], [1729052897, "Physiology Midterm 3 by cyitoh", 0.0, 0, 1418169600, 40, 0, 8], [1166254470, "TCC GENERAL PATHOLOGY TRI 1 FIRST MIDTERM MATERIAL", 0.0, 0, 1423440000, 169, 0, 0], [1595484368, "MDTI 01.13.15 Pharmacology 3", 0.0, 0, 1421193600, 25, 0, 1], [776084721, "MDTI 02.05.15 Immunosuppressives", 0.0, 0, 1423180800, 31, 0, 0], [112893271, "ME Geography midterm", 5.0, 1, 1413331200, 94, 0, 0], [1274148750, "MDTI Exam 2 Week 1 - Rebecca", 0.0, 0, 1422316800, 170, 0, 29], [1222697990, "MDTI 01.26.15 Bone Marrow", 0.0, 0, 1422316800, 38, 0, 15], [1667086944, "Patho Midterm 3 (GI & Neuro)", 0.0, 0, 1382572800, 267, 0, 57], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [1182618284, "Meine Stadt", 0.0, 0, 1423008000, 54, 53, 56], [324717788, "Japanese Literature midterm", 0.0, 0, 1381190400, 85, 0, 0], [978275961, "Adult Psychopathology Midterm ", 0.0, 0, 1434326400, 380, 0, 0], [2015398007, "MDTI 01.29.15 Lupus", 0.0, 0, 1422662400, 40, 0, 0], [1422655150, "MDTI 02.05.15 Sjogren's ", 0.0, 0, 1423180800, 44, 0, 0], [1075153491, "Nursing Community Midterm 1", 0.0, 0, 1402790400, 37, 0, 4], [881035969, "MDTI 01.27.15 Acute Leukemias", 0.0, 0, 1422403200, 49, 0, 5], [2884385106, "Econ 222 midterm2 from notes (Marlow)", 0.0, 0, 1345852800, 39, 0, 0], [1802766164, "NTSJA DTPs for ECU students", 0.0, 0, 1408060800, 188, 0, 0], [1010863370, "MDTI 01.29.15 Rheumatoid Arthritis", 0.0, 0, 1422576000, 52, 0, 4], [1925800041, "MDTI Post-Midterm JWG", 0.0, 0, 1423353600, 460, 0, 0], [227262662, "Ballstothe MDTI I ", 0.0, 0, 1423612800, 719, 0, 16], [1625135861, "Einf\u00fchrung in Software Engineering TU Darmstadt WS14/15", 0.0, 0, 1423785600, 49, 0, 1], [1398306250, "Vocabulaire allemand de base - Langenscheidt chap 8/13", 0.0, 0, 1386633600, 295, 0, 0], [2009350137, "Introduction to MDTI/Hemostasis/Thrombosis", 0.0, 0, 1420588800, 22, 0, 0], [157884516, "OSU Nursing Patho Midterm 2", 0.0, 0, 1380672000, 357, 0, 129], [1847697493, "JAPN 402 Midterm", 0.0, 0, 1395964800, 364, 0, 0], [1140040407, "Marys Handelsmarketing Endtest @ WU Wien", 0.0, 0, 1387065600, 65, 0, 49], [1742427763, "MDTI Pharm 4", 0.0, 0, 1421193600, 32, 0, 2], [1727480418, "more SGU anatomy images post midterm ", 0.0, 0, 1417046400, 468, 0, 57], [1766612180, "REM II Pathology - Midterm 1", 0.0, 0, 1429920000, 107, 0, 0], [425816800, "MDTI 01.16.15 Pharmacology 5", 0.0, 0, 1421452800, 34, 0, 9], [138585950, "CIS 110 midterm study flash cards part 3", 0.0, 0, 1423267200, 22, 0, 0], [69959300, "MDTI 01.21.15 Neoplasia Nomenclature Morphology", 0.0, 0, 1422230400, 40, 0, 18], [2137381372, "MDTI Exam 1 - Rebecca", 0.0, 0, 1421539200, 483, 0, 47], [1420586765, "MDTI 01.05.15 Cell Injury 1-2", 0.0, 0, 1420502400, 47, 0, 2], [1324037844, "MDTI 01.09.15 Thrombophilia", 0.0, 0, 1420934400, 60, 0, 0], [292861994, "MDTI 01.08.15 Inherited Disorders", 0.0, 0, 1420761600, 41, 0, 0], [597321259, "MDTI 01.09.15 Hemodynamic Disorders", 0.0, 0, 1420934400, 53, 0, 0], [1491900759, "Game of Thrones (En-Dt) (by Ambrosius; April 2015)", 4.5, 2, 1430006400, 425, 0, 0], [1429915215, "MDTI 01.15.15 Hemolytic Anemia", 0.0, 0, 1421366400, 51, 0, 10], [343918186, "MDTI 01.21.15 Neoplasia Epidemiology", 0.0, 0, 1422230400, 22, 0, 0], [2235828277, "PD 1 - Midterm Review (Ryan)", 0.0, 0, 1345852800, 81, 0, 28], [976083545, "BOLC Midterm", 0.0, 0, 1403395200, 42, 0, 0], [1330894158, "Econ 222 midterm2 quiz (Marlow)", 0.0, 0, 1345852800, 31, 0, 0], [104537633, "MDTI WEEK ONE", 0.0, 0, 1421107200, 387, 0, 8], [69703381, "L\u00e4nder & Hauptst\u00e4dte in Europa", 0.0, 0, 1396310400, 92, 0, 0], [351332519, "MDTI Hemodynamic Disorder Pathology", 0.0, 0, 1421020800, 28, 0, 5], [1793023491, "CIS 110 midterm study flash cards part 5", 0.0, 0, 1423267200, 30, 0, 0], [2658751055, "Periodontology Midterm", 0.0, 0, 1350432000, 183, 0, 6], [1058757321, "MDTI 01.07.15 Pharmacology 1", 0.0, 0, 1420675200, 62, 0, 0], [1720616823, "TGDI WS13/14 TU Darmstadt", 0.0, 0, 1445472000, 328, 0, 48], [234217216, "MDTI 01.22.15 Neoplasia Molecular Mechanisms 1-2", 0.0, 0, 1422230400, 58, 0, 4], [1108336710, "Japanese spring midterm", 0.0, 0, 1395532800, 77, 0, 0], [1314728830, "CIS 227 midterm review-Written", 0.0, 0, 1431475200, 74, 0, 0], [2994556329, "Intro to Operating Systems start-midterm", 0.0, 0, 1345852800, 103, 0, 0], [1455173337, "Akkordtrainer_002_U1", 0.0, 0, 1432598400, 360, 360, 360], [4200994491, "PathoMidterm1", 0.0, 0, 1345852800, 182, 0, 0], [1807547114, "Haag Uber Spring Midterm Vocab", 0.0, 0, 1395532800, 753, 0, 0], [1476521219, "MDTI 02.04.15 Infectious Arthritis", 0.0, 0, 1423094400, 41, 0, 2], [2010065826, "TU Darmstadt - Software Engineering in industrial practice", 0.0, 0, 1400889600, 68, 0, 0], [969137954, "MDTI Coagulation", 0.0, 0, 1420675200, 40, 0, 0], [893763699, "MDTI Exam 2 Week 3 - Rebecca", 0.0, 0, 1423353600, 188, 0, 23], [1214097576, "MDTI 02.02.15 Rheumatology Vasculitis", 0.0, 0, 1422921600, 40, 0, 6], [808255356, "Vocabulaire allemand de base - Langenscheidt  ", 0.0, 0, 1385769600, 182, 0, 0], [742197873, "nursing community midterm 2", 0.0, 0, 1402790400, 52, 0, 8], [3275911238, "Meithai - Familie und Verwandtschaft", 0.0, 0, 1383782400, 145, 0, 0], [464798358, "CIS 106 Midterm study cards", 0.0, 0, 1423353600, 36, 0, 0], [1473669656, "CIS 110 midterm study flash cards part 2", 0.0, 0, 1423267200, 21, 0, 0], [1530024286, "MDTI Exam 2 Week 2 - Rebecca", 0.0, 0, 1423094400, 231, 0, 19], [1709250682, "Econ 222 midterm1 quiz (Marlow)", 0.0, 0, 1345852800, 21, 0, 1], [1941129657, "MDTI 01.06.15 Platelets", 0.0, 0, 1420588800, 58, 0, 0], [1800021805, "Pathology Post-Midterm Lab Images", 0.0, 0, 1434758400, 226, 0, 227], [687240771, "MESA midterm", 0.0, 0, 1425513600, 46, 0, 0], [508609876, "HILD7B Midterm 1 Key Terms", 0.0, 0, 1423008000, 55, 0, 0], [1730403830, "MDTI pictures", 0.0, 0, 1423008000, 35, 0, 47], [384983301, "ENGL 241 (14497) Midterm Flashcards", 0.0, 0, 1393027200, 8, 0, 0], [48254085, " CIS 110 midterm study flash cards", 0.0, 0, 1423267200, 13, 0, 0], [646055023, "TU Darmstadt - Fuzzy Logik", 0.0, 0, 1395532800, 33, 0, 3], [446885623, "Japanese 411 Midterm Vocabulary", 0.0, 0, 1381017600, 222, 0, 0], [640894408, "200CMidterm1", 0.0, 0, 1380585600, 296, 0, 84], [1298455445, "Ballstothe MDTI II", 0.0, 0, 1423440000, 820, 0, 27], [896729364, "CLST Midterm 2", 0.0, 0, 1407888000, 100, 0, 15], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [2066332373, "Midterm Notecards for Mrs. Weber's Clas", 0.0, 0, 1428969600, 85, 0, 144], [1264744938, "Imperial Japan Midterm", 0.0, 0, 1394496000, 82, 0, 0], [1290066901, "Introduction to Networking start-midterm", 0.0, 0, 1350518400, 29, 0, 0], [428371059, "Bs5 Verwandtschaft in Englisch", 0.0, 0, 1417219200, 15, 0, 0], [862185921, "MDTI 01.23.15 High-Grade Lymphoma", 0.0, 0, 1422921600, 58, 0, 5], [880495751, "MDTI 02.03.15 Prostaglandins", 0.0, 0, 1423008000, 53, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

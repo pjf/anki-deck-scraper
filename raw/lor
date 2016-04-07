@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[388208839, "SM33 - Sailor V makes the scene", 0.0, 0, 1454716800, 27, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [1863272004, "Thai Breitenstein Colors", 0.0, 0, 1453248000, 24, 8, 27], [1563764546, "Sailor Moon Super S Special 1 - Crybaby Usagi's Growth Diary", 0.0, 0, 1451692800, 22, 0, 0], [248805341, "Sailor Moon episode 01 - A Moon Star is born", 0.0, 0, 1450569600, 38, 0, 0], [352930628, "Matura Explorer (Unit 11)", 0.0, 0, 1394496000, 70, 0, 0], [388909500, "SM14 - Match Point for Sailor Moon", 0.0, 0, 1452297600, 31, 0, 0], [1627483294, "Greek to GCSE - John Taylor", 5.0, 1, 1376438400, 1568, 0, 0], [1292290589, "Sailor Moon Super S Special 2 - The ghostly puppet show.", 0.0, 0, 1451692800, 22, 0, 0], [1769643348, "Sailor Moon Super S Special - Ami's first love", 0.0, 0, 1451692800, 18, 0, 0], [123920743, "Sailor Moon Super S Special 3 - The dreaded vampire castle.", 0.0, 0, 1451692800, 17, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1053631809, "Lacuna Musculorum und Vasorum", 0.0, 0, 1447804800, 8, 0, 0], [1423776121, "Florizarre HGE complet", 0.0, 0, 1445212800, 281, 0, 1], [1146781341, "francuski - ubrania, kolory, tkaniny", 0.0, 0, 1447545600, 73, 0, 0], [78272541, "Florizarre T/UR", 0.0, 0, 1445126400, 82, 0, 2], [1602390546, "HTML Color Names", 0.0, 0, 1446336000, 141, 0, 0], [1873058209, "FLORA Y FAUNA hector", 0.0, 0, 1446940800, 55, 0, 0], [1214989042, "Florizarre HI complet", 0.0, 0, 1445212800, 212, 0, 6], [1572647336, "Florizarre OR complet", 0.0, 0, 1445126400, 171, 0, 4], [1747649168, "Florizarre K complet", 0.0, 0, 1445126400, 105, 0, 2], [1508475733, "Florizarre ORT", 0.0, 0, 1445212800, 136, 0, 1], [458445558, "FLORIZARRE MI complet", 0.0, 0, 1445212800, 255, 0, 6], [673297265, "Florizarre N Complet", 0.0, 0, 1445212800, 114, 0, 0], [840840552, "Immuno [C.Lorenzo] Step 1", 0.0, 0, 1444348800, 411, 0, 17], [926055224, "Q'anjob'al Tz'ib'il(colores) (Q'anjob'al, kanjobal)", 0.0, 0, 1443830400, 6, 0, 0], [35445751, "FLorizarre OPH complet", 0.0, 0, 1445212800, 175, 0, 35], [626671316, "Florizarre DER complet", 0.0, 0, 1445126400, 188, 0, 12], [2130388644, "TY A07 Colors", 0.0, 0, 1440201600, 14, 14, 11], [1735204367, "Learnings on how to be a great VainGlory hero", 0.0, 0, 1441324800, 12, 0, 0], [1505806582, "Theocratic words and Phrases Lorina", 0.0, 0, 1416182400, 7, 0, 0], [2109067388, "Florizarre PNE", 0.0, 0, 1432166400, 218, 0, 4], [881441090, "colores 2.10.6.", 0.0, 0, 1403481600, 55, 0, 0], [2456359194, "Sal (color-coded!) German nouns", 0.0, 0, 1358035200, 1434, 0, 0], [3106940525, "A2 History: CCEA. William III and the Glorious Revolution", 0.0, 0, 1367020800, 40, 0, 0], [329003086, "Chemical Compounds Color (Russian)", 0.0, 0, 1432684800, 70, 0, 0], [873133349, "Histyory of space exploration", 0.0, 0, 1439596800, 117, 0, 0], [16180159, "colores 1.6. v\u00e1s\u00e1rl\u00e1s", 0.0, 0, 1404345600, 149, 0, 0], [431021649, "Colores 2.   Ford\u00edt\u00e1si gyakorlat a Colores 2. megold\u00e1sokb\u00f3l", 0.0, 0, 1407974400, 17, 0, 0], [1604062537, "Elbflorace Saison 2014/15", 0.0, 0, 1412467200, 31, 0, 15], [1887776411, "colores 2.9.", 0.0, 0, 1404000000, 439, 0, 0], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 0, 1430956800, 60, 60, 119], [157401792, "colores 2.9.4.", 0.0, 0, 1403827200, 68, 0, 0], [599363894, "Florizarre ER", 0.0, 0, 1423008000, 22, 0, 0], [1548193283, "Sailor Moon 3", 0.0, 0, 1403395200, 28, 0, 0], [473284019, "Dogs and Cats Pallor and Jaundice", 0.0, 0, 1410825600, 441, 0, 0], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [1086258645, "Common Somali Nouns Lorina", 0.0, 0, 1416182400, 58, 0, 0], [1558138139, "colores 2.9.1..", 0.0, 0, 1404000000, 87, 0, 0], [1936877944, "Colores_2_vocabulario_letra_A", 0.0, 0, 1403222400, 131, 0, 0], [1107018083, "colores 2.9.5.", 0.0, 0, 1404000000, 62, 0, 0], [1565776517, "colores 2.9.2.", 0.0, 0, 1403827200, 61, 0, 0], [1942928090, "SCC PAS State 2015 Floriculture", 0.0, 0, 1422489600, 187, 0, 35], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [2033234340, "100 Colors", 5.0, 1, 1398816000, 100, 0, 100], [1445097084, "colores 1.12. utaz\u00e1s", 0.0, 0, 1404432000, 81, 0, 0], [380507128, "Florizarre QI", 0.0, 0, 1424736000, 13, 0, 1], [332107591, "colores 2.11.5", 0.0, 0, 1413676800, 96, 0, 0], [146067812, "colores 1.1. bemutatkoz\u00e1s", 0.0, 0, 1404345600, 44, 0, 0], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [170108201, "colores 2.11.1", 0.0, 0, 1404345600, 161, 0, 0], [351055018, "Matura Explorer (Unit 10)", 0.0, 0, 1394496000, 236, 0, 0], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [717723553, "Matura Explorer (Unit 12)", 0.0, 0, 1394496000, 75, 0, 0], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [1210246820, "colores 2.10.egy\u00e9b", 0.0, 0, 1413676800, 23, 0, 0], [693532877, "colores 2.10.11.", 0.0, 0, 1403827200, 32, 0, 0], [767742056, "Floristutbildarna - Blomma bildkort (Flower flash cards)", 0.0, 0, 1421193600, 0, 0, 0], [694734278, "Florizarre SP", 0.0, 0, 1423526400, 17, 0, 0], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [1897607892, "colores 2.9.3", 0.0, 0, 1403827200, 68, 0, 0], [1036082200, "colores 2.10.7.", 0.0, 0, 1403481600, 75, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [2036757878, "Beijing Explorer Deck 2013", 0.0, 0, 1364083200, 167, 0, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [3982865350, "Modern Greek - clothes/colors", 0.0, 0, 1389657600, 138, 0, 0], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1383980189, "Lordosis deck", 0.0, 0, 1393027200, 55, 0, 24], [608701296, "Florizarre GY", 0.0, 0, 1423008000, 61, 0, 0], [582948287, "colores 2.10.12.", 0.0, 0, 1404000000, 33, 0, 0], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [1836386156, "Annas Farbtest Colors", 0.0, 0, 1427587200, 61, 0, 61], [524621478, "Florizarre HI", 0.0, 0, 1423008000, 33, 0, 0], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [590826154, "Berlitz Exploring the Issues HUN_ENG", 0.0, 0, 1388448000, 146, 0, 0], [104715211, "colores 2.9.1...", 0.0, 0, 1404086400, 82, 0, 0], [297448114, "colores 2 .10. 2.", 0.0, 0, 1403222400, 237, 0, 0], [1576293259, "sailor moon 2", 0.0, 0, 1403222400, 41, 0, 0], [921696493, "colores 2.8.1.", 0.0, 0, 1408320000, 503, 0, 0], [913480677, "colores 2.9.1.", 0.0, 0, 1404000000, 394, 0, 0], [1007033568, "Florizarre K", 0.0, 0, 1424736000, 28, 0, 0], [2057568095, "A1. Lesson 4. Kolory, wskazywanie przedmiot\u00f3w", 0.0, 0, 1422662400, 40, 40, 30], [1586341343, "Colores 2.10.3.", 0.0, 0, 1403308800, 114, 1, 0], [1238197515, "colores 2.11.1.1.", 0.0, 0, 1408320000, 246, 0, 0], [2919939884, "\u0935\u0930\u094d\u0923\u093e\u0903 - colors", 0.0, 0, 1384387200, 11, 0, 0], [2068416889, "Lorenzo test deck", 0.0, 0, 1398038400, 52, 0, 1], [783069115, "colores 2.10.10.", 0.0, 0, 1403740800, 31, 0, 0], [1310396010, "colores 2.9.6.", 0.0, 0, 1404000000, 62, 0, 0], [1406308071, "colores 2.10.9", 0.0, 0, 1403654400, 38, 0, 0], [857067811, "colores 2.10.4.", 0.0, 0, 1403395200, 115, 0, 0], [1667536690, "colores 2.7.", 0.0, 0, 1404345600, 553, 0, 0], [293635631, "Florizarre UR", 0.0, 0, 1423008000, 35, 0, 0], [791860408, "colores 2.10.5.", 0.0, 0, 1403395200, 58, 0, 0], [1521915623, "colores 2.11.4", 0.0, 0, 1413676800, 189, 0, 0], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [365784764, "colores 2.10.8", 0.0, 0, 1403568000, 50, 0, 0], [249309112, "Florizarre EN", 0.0, 0, 1428105600, 155, 0, 0], [162363562, "Florizarre RH", 0.0, 0, 1423008000, 151, 0, 0], [1828322799, "French-Dutch SELOR 8000 words + reverse", 5.0, 1, 1388275200, 7543, 0, 0], [1714910242, "colores 2.11.2.", 0.0, 0, 1409529600, 177, 0, 0], [1975673825, "Electronics: Resistor Color Coding", 5.0, 1, 1391904000, 17, 0, 30], [1203542828, "French-Dutch SELOR 8000 words", 4.14, 7, 1345852800, 8074, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lor</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

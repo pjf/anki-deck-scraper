@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2263258759, "Countries of the World", 4.44, 18, 1416009600, 204, 0, 407], [2915332392, "[VectorMaps] Countries of the World", 4.68, 31, 1368835200, 194, 0, 388], [1597132160, "Cyborg world", 0.0, 0, 1453939200, 14, 14, 8], [1987414799, "Firstaid/Uworld pharmacology", 0.0, 0, 1453507200, 305, 0, 157], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [799622335, "One World English Textbook Grammar \u4e2d\u5b66\u6821\uff11\u304b\u3089\uff13\u5e74\u751f\u306e\u82f1\u8a9e\u306e\u6587\u6cd5", 5.0, 1, 1415059200, 108, 0, 0], [539849601, "we are the world", 0.0, 0, 1451260800, 9, 0, 0], [185063094, "Pharmazie - Ringvorlesung - pharmazeutische Chemie", 0.0, 0, 1449878400, 24, 0, 0], [1657861380, "Orlando Furioso en espa\u00f1ol", 0.0, 0, 1449878400, 41, 0, 0], [674964730, "Pharmazie - Ringvorlesung: pharmazeutische Technologie", 0.0, 0, 1449878400, 45, 0, 2], [1473424601, "Ringvorlesung: Pharmakologie und Toxikologie", 0.0, 0, 1448150400, 22, 0, 0], [1092574835, "Ringvorlesung: Pharmakognosie", 0.0, 0, 1448150400, 53, 0, 1], [505455431, "Kreativ Angol Gyakorlo Hun-Eng", 0.0, 0, 1447804800, 178, 0, 0], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [1009076816, "Cities of the World", 0.0, 0, 1439942400, 100, 0, 0], [1470326566, "ELTE N\u00f6v\u00e9nyrendszertan gyakorlat", 0.0, 0, 1444003200, 78, 0, 79], [1671772629, "uworldqbank medicine", 0.0, 0, 1440979200, 1111, 0, 6], [347480564, "Leading hotel of the world", 0.0, 0, 1441497600, 9, 0, 9], [27841478, "Bhuuworldgi", 0.0, 0, 1438992000, 373, 0, 0], [1733689599, "renal uworld", 0.0, 0, 1439942400, 203, 0, 0], [1928388055, "Bhupulmuworld", 0.0, 0, 1438732800, 135, 0, 0], [1061435538, "endocrineuworldbhu", 0.0, 0, 1439164800, 162, 0, 0], [3109551834, "WorldFlags", 4.79, 14, 1345852800, 204, 0, 204], [1462431226, "bhuGIUWORLD", 0.0, 0, 1439078400, 248, 0, 0], [1313090174, "Matches for World Cup Brazil 2014", 0.0, 0, 1386460800, 64, 0, 0], [26730585, "Living World AQA", 0.0, 0, 1431648000, 10, 0, 0], [1604882084, "This will rock your world. Path ", 0.0, 0, 1381881600, 556, 0, 293], [1641760705, "AP World Chapter 14", 0.0, 0, 1414368000, 75, 0, 0], [1787927424, "AP World CHapter 16", 0.0, 0, 1415750400, 27, 0, 0], [1185885624, "Vorlesung Diff II LA/ MaPhy", 0.0, 0, 1365552000, 2, 0, 2], [431021649, "Colores 2.   Ford\u00edt\u00e1si gyakorlat a Colores 2. megold\u00e1sokb\u00f3l", 0.0, 0, 1407974400, 17, 0, 0], [145739763, "Mysteries of the unseen world", 0.0, 0, 1426291200, 22, 0, 8], [68106304, "C/V UWorld", 0.0, 0, 1436227200, 115, 0, 0], [539884671, "Acropolis World News Ancient Greek Vocabulary", 0.0, 0, 1430265600, 237, 2, 3], [1518369865, "AP World Chapter 15", 0.0, 0, 1414368000, 50, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1861369530, "AP World History Practice Test", 0.0, 0, 1367625600, 92, 0, 4], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [1444961070, "Comment Haglar Rocio ORL", 0.0, 0, 1424822400, 26, 0, 0], [2080029214, "Semester 1 Exam AP World", 0.0, 0, 1421712000, 136, 0, 0], [358165436, "Story of the World 1", 0.0, 0, 1358208000, 3, 0, 1], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [107556865, "Zusatz Karten zur Vorlesung", 0.0, 0, 1405296000, 34, 0, 5], [2935077510, "CVA Necturus Forlimb and Pectoral Girdle Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1563572825, "World History Chapter 11 Flashcards", 0.0, 0, 1428451200, 66, 0, 0], [1828479201, "West End Idiomas - The Natural World", 0.0, 0, 1425772800, 86, 0, 86], [720779136, "Nick's Ap World History Deck", 0.0, 0, 1423180800, 1061, 0, 0], [1063724962, "M\u00f6llers - Growing into the world of work", 0.0, 0, 1412035200, 80, 0, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [1041114497, "World Flags part deux", 0.0, 0, 1345852800, 204, 0, 204], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [1330207861, "World Art Terms", 0.0, 0, 1430524800, 94, 0, 81], [3916604735, "David Chalmers - Constructing the World", 0.0, 0, 1380412800, 120, 0, 0], [426399547, "Al Borland's Neuro 3", 0.0, 0, 1426636800, 69, 0, 1], [752917627, "Jorland TOUCHSTONE 1 A", 0.0, 0, 1412812800, 48, 0, 14]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Orl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1632792405, "Japanese Marugoto A2 Rikai Vocabulary", 0.0, 0, 1454976000, 454, 0, 0], [1407442620, "Oleh Marushchak", 0.0, 0, 1454284800, 11, 0, 0], [523006486, "Japanese Marugoto A1 Rikai Vocabulary", 0.0, 0, 1454716800, 577, 0, 0], [73545654, "SM32 - Umino's Resolve: I'll Protect Naru", 0.0, 0, 1454630400, 30, 0, 0], [472954079, "Bibelkunde NT (10) - Offenbarung", 0.0, 0, 1453680000, 20, 0, 0], [673403093, "SM23 - Wish Upon a Star: Naru's First Love", 0.0, 0, 1453420800, 40, 0, 0], [425300093, "SM24 - Naru's Tears: Nephrite Dies for Love", 0.0, 0, 1453593600, 20, 0, 0], [1012227265, "Sarus: The Shadow Tongue", 0.0, 0, 1407024000, 392, 392, 393], [341482045, "Prawo rzymskie - warunki i terminy", 0.0, 0, 1441756800, 13, 0, 0], [1525951972, "Deutsch Warum nicht? W\u00f6rterlist", 0.0, 0, 1442448000, 1180, 5, 0], [226847734, "Marugoto G4 (A2.2) German Vocab", 0.0, 0, 1396396800, 57, 0, 0], [633971926, "Deutsch - warum nicht? Part 2, verbs with past forms ", 0.0, 0, 1416182400, 103, 0, 0], [97177018, "Marugoto G4 (A2.2) German Vocab Topic 10", 0.0, 0, 1402617600, 47, 0, 0], [1392488706, "Marugoto G4 Topic 16 German. ", 0.0, 0, 1416268800, 36, 0, 0], [114876108, "Marugoto Topic 14", 0.0, 0, 1389571200, 46, 0, 0], [592763699, "Marugoto Topic 15", 0.0, 0, 1389571200, 61, 0, 0], [26801359, "Marugoto G4 Topic 17 German. ", 0.0, 0, 1416268800, 49, 0, 0], [1385977020, "Jiraiya VS Pain fight vocab - NARUTO (english-japanese)", 5.0, 1, 1409788800, 206, 3, 0], [2133058396, "Marugoto G4 Topic 15 German", 0.0, 0, 1416268800, 17, 0, 0], [762592332, "Marugoto G4 (A2.2) German Vocab Topic 13", 0.0, 0, 1414713600, 80, 0, 0], [1901671728, "Marugoto Topic 16", 0.0, 0, 1389571200, 47, 0, 0], [2187513478, "kanji 2 per maruko", 0.0, 0, 1369353600, 60, 0, 0], [5852649, "Marugoto G4 Topic 4", 0.0, 0, 1397433600, 48, 0, 0], [1484754259, "\u767e\u4eba\u4e00\u9996\u304b\u308b\u305f Hyakunin isshu karuta ", 5.0, 3, 1364428800, 100, 0, 0], [1946295946, "Marugoto G4 Topic 6", 0.0, 0, 1398729600, 47, 0, 0], [1535196494, "Marugoto G4 (A2.2) German Vocab Topic 12", 0.0, 0, 1414713600, 46, 0, 0], [1841995193, "Marugoto G4 (A2.2) German Vocab Topic 14", 0.0, 0, 1416268800, 32, 0, 0], [1254217378, "Marugoto Topic 18", 0.0, 0, 1390348800, 0, 0, 0], [3314776797, "per maruko kanji 1", 0.0, 0, 1369526400, 282, 0, 0], [887774701, "karuta memorize", 0.0, 0, 1412035200, 200, 0, 0], [362641784, "Marugoto G4 (A2.2) German Vocab Topic 11", 0.0, 0, 1414713600, 40, 0, 0], [860602128, "Marugoto Topic 13", 0.0, 0, 1389571200, 55, 0, 0], [90200237, "Japanese Ten-Ten and Maru Katakana", 4.0, 1, 1392940800, 25, 25, 0], [1768165328, "Marugoto Vocabulaire A1", 0.0, 0, 1424476800, 371, 0, 0], [1121837480, "Marugoto Topic 17", 0.0, 0, 1390348800, 22, 0, 0], [1461440926, "Marugoto-Vocabluary A1, A2-1, A2-2", 0.0, 0, 1444262400, 1823, 0, 0], [425366450, "Marugoto Kanji A1-A2", 0.0, 0, 1389312000, 136, 0, 0], [385512528, "Marugoto G4 (A2.2) German Vocab Topic 8", 0.0, 0, 1399593600, 36, 0, 0], [4185046271, "Japanese Ten-Ten and Maru Hiragana", 0.0, 0, 1384128000, 25, 25, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Aru</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

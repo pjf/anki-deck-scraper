@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1680286867, "Multiplication Table 2x1 through 20x20 Spreadsheet-built", 4.57, 7, 1395446400, 380, 0, 0], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [1083883813, "Tablas de multiplicar 1 -12", 0.0, 0, 1417392000, 120, 337, 126], [1923103392, "190-LED Sd des antiphospholipides", 0.0, 0, 1452643200, 13, 0, 0], [509132394, "Pinyin - Finals - Multiple recordings per final", 0.0, 0, 1453248000, 36, 272, 2], [388789441, "TLU 4th Grade Multiplication Review", 0.0, 0, 1452124800, 3, 0, 0], [3833461953, "Serbian Slang \u2014 Tipsy Pilgrim's Fluent in 20 Minutes", 0.0, 0, 1373932800, 28, 0, 0], [2060842191, "Multiplication Tables 0-15 ", 5.0, 1, 1449014400, 234, 0, 0], [489498462, "Tips for procrastination", 0.0, 0, 1450828800, 15, 0, 15], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [452110246, "German Gender Rules and Tips III (Valparaiso University)", 5.0, 1, 1345852800, 90, 0, 0], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [1207893780, "German Gender Rules and Tips Sample Words (Valparaiso U)", 0.0, 0, 1405123200, 38, 0, 0], [486546841, "Math Multiplication Table (big)", 0.0, 0, 1446163200, 400, 0, 0], [502842769, "German Gender Rules and Tips I (Valparaiso University)", 0.0, 0, 1345852800, 33, 0, 0], [1759554282, "12 x 12 multiplication table", 0.0, 0, 1443052800, 169, 0, 0], [1750037289, "German Gender Rules and Tips Sample Words I (Valparaiso U)", 0.0, 0, 1405123200, 42, 0, 0], [352894725, "German Gender Rules and Tips Sample Words II (Valparaiso U)", 0.0, 0, 1405123200, 24, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [2125700661, "WS2015_Jungk_Fragen_1-6_Multiple_Choice", 0.0, 0, 1436745600, 6, 0, 0], [974624387, " Antipsic\u00f3ticos", 0.0, 0, 1363651200, 47, 0, 0], [1488609574, "ACT English Rules & Tips", 0.0, 0, 1433548800, 4, 0, 0], [1215014921, "ACT Math Tips & Strategies", 0.0, 0, 1433548800, 11, 0, 1], [1097205574, "Multiple Sclerosis", 0.0, 0, 1426896000, 25, 0, 4], [2362460778, "German Gender Rules and Tips II (Valparaiso University) ", 0.0, 0, 1345852800, 56, 0, 0], [572935623, "Tablas De Multiplicar", 0.0, 0, 1401580800, 100, 0, 1], [1559376688, "Tema 07. Farmacolog\u00eda II. Antipsic\u00f3ticos", 0.0, 0, 1363910400, 47, 0, 0], [105194287, "Tips", 0.0, 0, 1391731200, 43, 0, 2], [389395173, "DSRI Unit 7  Multiple Linear Regression", 5.0, 1, 1415145600, 19, 0, 3], [1374366479, "Catalan Shit-Based Expressions, taken from TipsyPilgrim.com", 0.0, 0, 1425859200, 53, 0, 0], [1859036909, "Multiplication Table 2-20", 2.0, 1, 1375747200, 380, 0, 0], [517093674, "Curso Multiplus BNDES", 0.0, 0, 1426636800, 664, 36, 21], [3266517886, "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0443\u043c\u043d\u043e\u0436\u0435\u043d\u0438\u044f/Multiplication Table (zapominaiki_ru)", 5.0, 1, 1383091200, 81, 0, 162], [334819184, "Antiplatelet Anticoagulation Therapy", 0.0, 0, 1421193600, 47, 0, 0], [1006688406, "Multiplication Facts: Zero to Twelve", 0.0, 0, 1373760000, 169, 0, 0], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [28553942, "Salish - English - Tipis", 0.0, 0, 1418947200, 22, 3, 18], [1117297550, "Simple multiplication table (1-10)", 3.0, 1, 1420416000, 55, 0, 0], [318765770, "Multiplication001", 0.0, 0, 1362355200, 400, 0, 0], [2133640786, "Taules de multiplicar del 1 al 10", 0.0, 0, 1418515200, 100, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [405506694, "Hexadecimal Multiplication Table", 0.0, 0, 1415836800, 224, 0, 0], [1231143841, "01. Antiparasitic Drugs", 0.0, 0, 1430870400, 81, 0, 66], [1313003293, "Natural Math pattern-based multiplication - Off Diagonal", 0.0, 0, 1345852800, 4, 0, 0], [2878122477, "Natural Math pattern-based multiplication - squares", 0.0, 0, 1345852800, 6, 0, 0], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [3547924803, "my deck (multiple computers)", 0.0, 0, 1345852800, 1701, 0, 0], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [1651150093, "NBDE Tips", 0.0, 0, 1397347200, 180, 0, 2], [479413205, "Natural Math pattern-based multiplication - Fours", 0.0, 0, 1345852800, 8, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tip</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1074132202, "Italijanski - Duolingo", 5.0, 1, 1453766400, 2143, 4216, 3], [544061207, "Duolingo Turkish", 3.5, 2, 1435276800, 1129, 0, 0], [1476547324, "All exported words from the Duolingo Dutch course", 0.0, 0, 1453766400, 1849, 8, 16], [1827127735, "Duolingo SPANISH for English learners", 3.33, 3, 1441152000, 2025, 0, 0], [678445357, "Gladenbach qui/quae/quod", 0.0, 0, 1453766400, 10, 0, 0], [1763047972, "Hepokatin abipaketti: Ruotsi (Omia poimintoja)", 0.0, 0, 1452902400, 844, 1, 1], [997954859, "Irish Vocab Part 1 - Duolingo", 0.0, 0, 1449360000, 183, 0, 3], [68232036, "IMMS Anatomy Phase 1 UoS Medicine", 0.0, 0, 1446595200, 202, 0, 35], [1653083252, "Histology Module UoS Phase 1 Medicine", 0.0, 0, 1446595200, 202, 0, 203], [807540261, "Suomen mestari 1 - Sanasto K1-K6", 0.0, 0, 1444953600, 990, 8, 15], [1942862405, "MP - Matematica per scuole medie", 0.0, 0, 1447286400, 34, 41, 75], [202473312, "Duolingo German to English (birdie222)", 4.44, 9, 1450915200, 936, 909, 0], [173867467, "DuongND Study Japanese", 0.0, 0, 1443398400, 0, 3, 2], [996697128, "DuongND Study Japanese 2", 0.0, 0, 1443398400, 315, 3, 2], [158459636, "Wuthering Heights Key quotes", 0.0, 0, 1432771200, 373, 0, 0], [1737303647, "Motivational Quotes", 4.0, 1, 1437782400, 89, 3, 38], [1205039445, "Supernopea suomen kielen kurssi - Oppitunti #2", 0.0, 0, 1441411200, 130, 8, 15], [1316819284, "Supernopea suomen kielen kurssi - Oppitunti #1", 0.0, 0, 1441411200, 145, 8, 15], [247684641, "Buon Natale!", 0.0, 0, 1387756800, 50, 50, 0], [528758787, "Ven\u00e4j\u00e4\u00e4 suomalaisille", 0.0, 0, 1440460800, 426, 0, 0], [293862459, "Ven\u00e4j\u00e4 - Suomi", 0.0, 0, 1438732800, 49, 0, 33], [113335674, "Duod\u00e9cima lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 80, 0, 0], [1931291928, "UOC Administracion y Gestion de organizaciones PAC4", 0.0, 0, 1438041600, 11, 0, 6], [927779100, "UOC - Administraci\u00f3n y gesti\u00f3n de organizaciones PAC3", 0.0, 0, 1438041600, 36, 0, 7], [205385688, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones PAC2", 0.0, 0, 1434067200, 125, 0, 21], [729978386, "Suomen Mestari 1 - Suomea - English", 0.0, 0, 1424649600, 850, 0, 0], [1813956502, "The Changeling key quotes", 0.0, 0, 1432771200, 192, 0, 0], [226773917, "Duo3.0 Tango", 4.5, 6, 1428019200, 2569, 0, 0], [865921090, "suomi-ruotsi ty\u00f6el\u00e4m\u00e4sanasto", 0.0, 0, 1421798400, 103, 0, 0], [1093674526, "Duolingo Esperanto, Checkpoint 1 -2", 0.0, 0, 1433289600, 238, 0, 0], [1775104109, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones PAC1", 0.0, 0, 1434067200, 114, 0, 9], [214798506, "Suomi: helppo sanasto", 0.0, 0, 1444003200, 769, 0, 0], [1427904553, "Duolingo English to German (birdie222)", 4.5, 8, 1450915200, 936, 909, 0], [2841590704, "Biblical Hebrew 201 UofA", 0.0, 0, 1382313600, 267, 0, 0], [1665314112, "Duolingo Esperanto, Checkpoint 0 - 1", 0.0, 0, 1433116800, 134, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [141262185, "Duo Words", 0.0, 0, 1415577600, 183, 0, 0], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [1359095949, "Duolingo Esperanto, Checkpoint 2 - 3, v2", 0.0, 0, 1434499200, 677, 0, 0], [2357799636, "antique greek verbs koine / verbos griego antiguo \u03bb\u03c5\u03c9 \u03b5\u03b9\u03bc\u03b9", 0.0, 0, 1348617600, 294, 0, 0], [2856985421, "Suomi 1", 0.0, 0, 1361404800, 106, 0, 55], [777040445, "UoN Yr4 Surgery Vivas", 0.0, 0, 1403395200, 272, 0, 50], [964897106, "Duolingo / srpski-nema\u010dki / Milan Dragi\u0161i\u0107", 0.0, 0, 1425600000, 168, 0, 0], [375040131, "Irish from Duolingo", 0.0, 0, 1440720000, 1946, 0, 0], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [193272018, "Brazilian Portuguese Duolingo", 0.0, 0, 1433376000, 149, 27, 0], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [1401658787, "German Duolingo Plus with 6,500 word (adj50)", 5.0, 1, 1434931200, 4801, 0, 0], [3646633956, "Suomen mestari 1 Suomi-Norsk", 0.0, 0, 1375833600, 826, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [1048802724, "UOC Administraci\u00f3n y gesti\u00f3n de organizaciones", 0.0, 0, 1428364800, 114, 0, 9], [1519737691, "Ruotsin ep\u00e4s\u00e4\u00e4nn\u00f6lliset verbit", 0.0, 0, 1376092800, 108, 0, 0], [778138208, "Suomi: vaikea sanasto", 0.0, 0, 1444003200, 381, 0, 0], [1471085542, "\u00bfComo se dice...? (cuaderno) + DuoLingo vocab + misc", 0.0, 0, 1416182400, 4947, 0, 0], [880517544, "Kukta suomi", 0.0, 0, 1393891200, 129, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uo</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

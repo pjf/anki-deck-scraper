@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1420604129, "Inleiding Business Intelligence", 0.0, 0, 1454889600, 24, 0, 0], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [1506716023, "Bibelkunde NT 2 - Kleine Paulus Briefe", 0.0, 0, 1452556800, 11, 0, 0], [1102582808, "COMPUTADOR DE LEITNER", 0.0, 0, 1451088000, 981, 6, 37], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [802717761, "Anatomie - Einleitung, Aufbau der Materie", 0.0, 0, 1447200000, 94, 0, 1], [1032621598, "KK Leitmotif Reviews", 0.0, 0, 1443484800, 12, 12, 0], [815431381, "AME Lei 11.419/06", 0.0, 0, 1444780800, 42, 0, 0], [1702122304, "Huettes kleine Fibel f\u00fcr Karlsruhe", 0.0, 0, 1444608000, 16, 2, 20], [374009842, "Universit\u00e4t Leipzig - Japanisch - Vokabeln", 0.0, 0, 1454284800, 661, 0, 0], [1798132407, "Universit\u00e4t Leipzig - Japanologie - Vokabular", 0.0, 0, 1440806400, 348, 0, 0], [2001578362, "AME ADMINISTRATIVO - LEI 8429", 0.0, 0, 1408320000, 45, 0, 0], [1129430024, "Lei 8.112/90 - Servidor p\u00fablico federal", 0.0, 0, 1430956800, 25, 0, 0], [1001817568, "Asa lernt flei\u00dfig", 0.0, 0, 1420156800, 299, 0, 13], [1581722002, "Sistema Politico Brasileiro", 0.0, 0, 1438214400, 24, 0, 0], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [1009418837, "Libras L\u00edngua Brasileira Sinais LibrasEscrita 2015", 0.0, 0, 1429488000, 4659, 0, 4680], [2514596951, "Basis for Business - Unit 3 - Work and leisure", 0.0, 0, 1368316800, 181, 0, 0], [2130043778, "TREMG - Lei 4737", 0.0, 0, 1417910400, 64, 0, 0], [347587182, "AWP 1 (vielleicht auch 2 mit drin)", 0.0, 0, 1397174400, 104, 0, 11], [1073321511, "Thema Kleidung fuer Deutsch-Russisch", 0.0, 0, 1403136000, 65, 0, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [440654392, "Der kleine Prinz vocab", 0.0, 0, 1412294400, 207, 5, 0], [442460260, "MCBI B1 - Nucleotides/Nucleic acids", 0.0, 0, 1410825600, 69, 0, 40], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [1899523792, "FTS4 Personaleinsch\u00e4tzung", 0.0, 0, 1409097600, 33, 0, 0], [2014455355, "AME ADMINISTRATIVO - LEI 9784", 0.0, 0, 1408320000, 8, 0, 0], [882932071, "Huettes Kleine Couleur Fibel", 0.0, 0, 1412208000, 11, 3, 7], [2568609589, "FOKUS - KLEINE DEUTSCHMUSIK - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1712260007, "Lei 8213/91", 0.0, 0, 1395532800, 25, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [12952183, "Der Kleine Prinz: Intermediate German vocab chapters 1-5", 0.0, 0, 1406764800, 116, 0, 0], [1836139383, "AME LEI 8112 -  Art.117", 0.0, 0, 1431388800, 21, 0, 0], [55239060, "AME ADMINISTRATIVO:: Lei 8666", 0.0, 0, 1431302400, 12, 0, 0], [1873144266, "Korgan's vocabulary from 'Wer will eine kleine Katze haben?\"", 0.0, 0, 1345852800, 122, 0, 0], [1003400781, "Alemao para brasileiros", 0.0, 0, 1421280000, 2, 0, 0], [132701820, "TREMG - Lei 9504", 0.0, 0, 1418947200, 24, 0, 0], [1045899098, "Leisure - Loisire ", 0.0, 0, 1394409600, 276, 0, 0], [304803980, "Geography::Bandeiras dos Estados Brasileiros", 1.0, 1, 1378944000, 27, 0, 27]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lei</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

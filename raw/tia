@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2136150393, "Hiragana + Audio + essential words (the easiest /kawaii way)", 4.44, 16, 1432252800, 87, 87, 77], [317970103, "SSE 4000 Essential English Words (all books)", 4.71, 21, 1434067200, 3871, 3859, 3863], [1719657434, "4000 Essential English Words 5 [en-en] M4R4M", 4.15, 13, 1434585600, 600, 1801, 601], [265890089, "4000 Essential English Words 2 [en-en] M4R4M", 4.5, 16, 1434585600, 602, 1804, 602], [95214920, "4000 Essential English Words 6 [en-en] M4R4M", 4.55, 11, 1434585600, 601, 1798, 600], [2036878990, "50 Essential Spanish Verbs", 5.0, 2, 1428969600, 850, 0, 0], [735471551, "4000 Essential English Words 1 [en-en] M4R4M", 4.3, 20, 1434585600, 600, 1800, 600], [1869931834, "4000 Essential English Words 3 [en-en] M4R4M", 4.73, 15, 1434585600, 600, 1798, 600], [1677199951, "4000 Essential English Words 4 [en-en] M4R4M", 4.23, 13, 1434585600, 600, 1801, 601], [1141157836, "4000 Essential English Words 1 [EN-FA] 98iA.Com", 5.0, 1, 1421625600, 600, 1834, 650], [660991814, "Respiratory Pathologies: Interstitial Lung Disease", 0.0, 0, 1454889600, 9, 0, 0], [276529460, "Neuronal potentials", 0.0, 0, 1454803200, 57, 0, 0], [1093401415, "504 Absolutely Essential Words", 0.0, 0, 1454716800, 629, 674, 36], [2079747250, "Essential German for English Speakers", 0.0, 0, 1446249600, 613, 624, 613], [1585500611, ".:Arti:. 504 Absolutely Essential Words EN to Persian V2.7", 4.84, 25, 1454544000, 756, 664, 592], [1037252197, "fmcase29dementia", 0.0, 0, 1454284800, 93, 0, 0], [1898344648, "4000 Essential English Words (all books) [en-en] M4R4M", 4.74, 54, 1434585600, 3599, 10765, 3589], [416076517, "CompTIA A+ 220-901 and 220-902", 0.0, 0, 1453075200, 1551, 0, 3], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [331742207, "4000 Essential English Words, extraits 2 (fr)", 0.0, 0, 1443484800, 184, 183, 187], [3074067052, "Hoch Middle Egyptian Lesson3 Biliterals (Bi-consonantal) ", 0.0, 0, 1363392000, 25, 0, 25], [2823000019, "Hoch Middle Egyptian Lesson1 Vocabulary Hoch1b", 0.0, 0, 1363392000, 17, 0, 17], [3587957214, "Hoch Middle Egyptian Lesson7 Vocabulary Hoch7v", 0.0, 0, 1363651200, 64, 0, 64], [2062278632, "4000 Essential English Words \u2013 Book 1, by Paul Nation", 3.33, 3, 1415750400, 600, 1801, 644], [1850561512, "4000 Essential English Words \u2013 Book 5, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1547992436, "4000 Essential English Words \u2013 Book 6, by Paul Nation", 0.0, 0, 1415750400, 601, 1801, 645], [2089276886, "4000 Essential English Words \u2013 Book 4, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1366124074, "4000 Essential English Words \u2013 Book 3, by Paul Nation", 0.0, 0, 1415750400, 599, 1798, 644], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [3071021884, "Hoch Middle Egyptian Lesson6 Vocabulary Hoch6v", 0.0, 0, 1363392000, 68, 0, 68], [42467525, "4000 Essential English Words, extraits 3 (fr)", 0.0, 0, 1443225600, 302, 301, 305], [1383472342, "Hoch Middle Egyptian Lesson3 Vocabulary Hoch3v", 0.0, 0, 1363392000, 56, 0, 55], [1716597667, "4000 Essential English Words 1 [en-pl] M4R4M_KrisZet", 5.0, 2, 1421452800, 600, 1805, 634], [2060207676, "Ancient Egyptian 2000 most Frequent words v. 0.1", 0.0, 0, 1453420800, 554, 8, 689], [1538264353, "Nova Scotia Plants glossary", 0.0, 0, 1444608000, 399, 0, 0], [993389931, "4000 Essential English Words, extraits 1 (fr)", 0.0, 0, 1443484800, 142, 140, 145], [150327819, "Hoch Middle Egyptian Lesson2  Determinatives  Hoch2dt", 0.0, 0, 1363392000, 109, 0, 109], [1684104880, "Eucaristia-GARY", 0.0, 0, 1449792000, 108, 0, 0], [626034578, "1_inlingua_Essential Chinese ", 0.0, 0, 1449187200, 190, 191, 133], [460308175, "EN-FA-EN Longman Essential Word", 0.0, 0, 1449100800, 498, 475, 1], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [475097444, "4000 Essential English Words \u2013 Book 2, by Paul Nation", 0.0, 0, 1415750400, 600, 1798, 643], [2819536122, "Hoch5a Hoch Middle Egyptian Lesson 5a", 0.0, 0, 1367020800, 26, 0, 52], [69183458, "Felipe-Eucaristia", 0.0, 0, 1449792000, 104, 0, 0], [770116513, "504 Absolutly Essential Words EN to Persian Farsi ", 4.0, 6, 1370044800, 504, 494, 0], [1374719523, "Ancient Egyptian Allen Dictionary", 0.0, 0, 1404345600, 1069, 0, 1453], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [1007273388, "LPI - Linux Essentials ", 4.5, 2, 1441843200, 73, 0, 0], [130198145, "4000 Essential English Words 3 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 599, 1803, 634], [1995266820, "Egyptian Basic Course", 0.0, 0, 1448668800, 4994, 9, 1], [826171249, "Business English. B2. Negotiations part 2", 0.0, 0, 1429488000, 13, 0, 0], [122114918, "absolutely essential words 504-main", 0.0, 0, 1445904000, 450, 0, 0], [3325452890, "Hoch 4t Section 41 Transposition  Middle Egyptian Lesson 4  ", 0.0, 0, 1363910400, 19, 0, 19], [1923569782, "Hoch Middle Egyptian Lesson2 Vocabulary Hoch2v", 0.0, 0, 1363392000, 37, 0, 37], [1535176984, "absolutely essential words 504-2", 0.0, 0, 1445904000, 16, 0, 0], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [1336744833, "Hoch Middle Egyptian Lesson6 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 14, 0, 14], [3706604012, "Hoch Middle Egyptian Lesson8 Vocabulary Hoch8v", 0.0, 0, 1363651200, 45, 0, 45], [1049242109, "Hoch Middle Egyptian Lesson4 Vocabulary Hoch4v", 0.0, 0, 1363392000, 44, 0, 42], [1310643497, "Essential Guide to Marketing Planning -in swedish", 0.0, 0, 1445731200, 80, 3, 1], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [2029355477, "600 essential TOEIC - Polish", 0.0, 0, 1442188800, 625, 653, 601], [3797575858, "Hoch Middle Egyptian Lesson7 Biliterals (Bi-consonantal) Hoc", 0.0, 0, 1363651200, 12, 0, 12], [2427803041, "Essential Words for TOEFL", 0.0, 0, 1357948800, 460, 0, 0], [1096340037, "Hoch Middle Egyptian Lesson4 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 21, 0, 20], [2003785165, "600 essential TOEIC-CURIOUS (full) ", 5.0, 2, 1411862400, 625, 653, 601], [2013833104, "absolutely essential words 504-1", 0.0, 0, 1445904000, 448, 0, 0], [1603427253, "4000 Essential English Words 6 [en-pl] M4R4M_KrisZet", 5.0, 1, 1421712000, 600, 1806, 635], [1945979818, "Mandarin Chinese Christian Vocabulary", 0.0, 0, 1441756800, 113, 52, 0], [911206921, "Pronuntiation Buchstaben", 0.0, 0, 1439424000, 29, 32, 1], [1061613207, "Triola Essential Statistics", 0.0, 0, 1440115200, 42, 0, 0], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [108270676, "Die Zahlen (1-20) mit Pronuntiation", 0.0, 0, 1439510400, 20, 23, 1], [1978350221, "Egyptian Art Exam", 0.0, 0, 1386288000, 199, 0, 199], [1348422150, "Business English. B1. Selling the positives in a negotiation", 0.0, 0, 1427241600, 24, 0, 1], [102815146, "AAAHST7CM Cristianismo", 0.0, 0, 1433289600, 6, 0, 0], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [398209432, "rowan som physiology block 1 lecture 2 action potentials", 0.0, 0, 1408579200, 58, 0, 37], [422812024, "Egyptian Demotic - Setne Khaemwast", 0.0, 0, 1432684800, 494, 0, 495], [107011403, "Goldstein Antianxiety", 0.0, 0, 1422921600, 36, 0, 1], [40490366, "Essential Words for the TOEFL [Organized]", 4.5, 2, 1345852800, 450, 0, 0], [1837953188, "Essential Words for the TOEFL [Persian]", 4.0, 10, 1345852800, 450, 0, 0], [1966655807, "Business English. B2. Delaying in negotiations", 0.0, 0, 1429660800, 10, 0, 0], [692075572, "SBF Minimal Pairs Initial /F/ vs /P/ Listening", 0.0, 0, 1432252800, 30, 30, 0], [1118647766, "Christian Nepali Language", 0.0, 0, 1402012800, 89, 0, 0], [1539092241, "Essential Words for the TOEFL EN-FA [Persian] + examples", 4.67, 6, 1404345600, 446, 768, 0], [120180001, "Basic English and Croatian", 0.0, 0, 1411084800, 145, 0, 0], [756196540, "Egyptian Arabic vocabulary", 0.0, 0, 1448409600, 934, 1, 0], [1896272189, "Max/Matiar Embryology", 0.0, 0, 1377129600, 81, 0, 38], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [951473581, "EXPATIATE - Russian MEGA", 0.0, 0, 1430784000, 943, 263, 39], [569391809, "Brookes Essential Kanji 101-202", 0.0, 0, 1416873600, 101, 0, 0], [323282750, "Comptia A+ for PS", 5.0, 1, 1401235200, 1538, 0, 3], [408782900, "EXPATIATE - Russian Verbs", 0.0, 0, 1421712000, 67, 28, 5], [248162568, "mbchb2012, essentials, week 0, basic terms", 0.0, 0, 1350604800, 34, 0, 0], [708268189, "Sebastian C.", 0.0, 0, 1437782400, 24, 0, 10], [1506569139, "Max*/Matiar/Ameer Autoimmunity", 0.0, 0, 1379289600, 25, 0, 8], [406540368, "Max*/Matiar/Ameer Cancer", 0.0, 0, 1379808000, 106, 0, 35], [1127076328, "Essential Turkish phrases and vocabular w/audio", 0.0, 0, 1399075200, 263, 254, 0], [756441553, "Sebastian C. II", 0.0, 0, 1437782400, 17, 0, 0], [2805752833, "Max*/Matiar/Ameer Membrane Transport", 0.0, 0, 1377820800, 32, 0, 16], [804954227, "Ministry Essentials - Concepts and Verses", 0.0, 0, 1413158400, 5, 0, 0], [1666502221, "Essential Spanish Vebs", 0.0, 0, 1431043200, 52, 0, 1], [386575990, "SPU MFT Theories I - Final Exam - Experiential / Whitaker ", 0.0, 0, 1417305600, 12, 0, 0], [662270231, "LBR6 -- Business Associations and Negotiable Instruments", 0.0, 0, 1405900800, 102, 0, 0], [862350585, "5212 essential words for ESL", 0.0, 0, 1427241600, 6910, 0, 0], [1249368459, "Middle Egyptian - Ockinga", 0.0, 0, 1345852800, 78, 0, 0], [1551086219, "Ancient Egyptian Hieroglyphic Vocabulary", 5.0, 1, 1359504000, 15697, 0, 15697], [1643107045, "CTB Cardiac Action Potentials", 0.0, 0, 1412726400, 57, 0, 0], [534693839, "Til Sebastian og ikke Johannes", 0.0, 0, 1386028800, 16, 0, 0], [1030722750, "DIT Rapid Fire Facts (partial)", 0.0, 0, 1432944000, 94, 0, 8], [1049648964, "4000 Essential English Words 4 [en-pl] M4R4M_KrisZet", 4.0, 1, 1421452800, 600, 1806, 635], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [3086613896, "504 Absolutly Essential Words Persian Farsi (reversed)", 3.33, 3, 1370044800, 504, 494, 0], [896726834, "ITIL Foundation Acronyms and Initials", 0.0, 0, 1406851200, 51, 0, 0], [1398058342, "biochemistry UAG 4th partial exam", 5.0, 1, 1432944000, 32, 0, 0], [2240685777, "Max*/Matiar/Ameer linear response to pathogens", 0.0, 0, 1379289600, 9, 0, 8], [2259379665, "Max*/Matiar/Ameer Mitochondria and cell energy", 0.0, 0, 1377820800, 9, 0, 3], [953091856, "Max*/Matiar/Ameer Membrane Immunology Plasma Proteins", 0.0, 0, 1379289600, 23, 0, 16], [1718705201, "Max/Matiar Stem Cells", 0.0, 0, 1377129600, 27, 0, 10], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [4232072556, "Max*/Matiar/Ameer Histopathology (Skin)", 0.0, 0, 1377820800, 53, 0, 30], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [1715145526, "Max*/Matiar/Ameer Cell and Tissue Injury", 0.0, 0, 1377820800, 44, 0, 25], [2085651118, "Spanish Basic Essentials", 0.0, 0, 1428710400, 19, 0, 0], [1925528289, "Essential Thai Glossary - Revised", 0.0, 0, 1454198400, 6056, 24, 138], [1582881215, "MCM Test 3: 8.12 Cellular DIfferentiation", 0.0, 0, 1408492800, 18, 0, 0], [3650608611, "Max/Matiar histology", 0.0, 0, 1377129600, 55, 0, 32], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [1027661108, "Business English. B2. Negotiations", 0.0, 0, 1429401600, 15, 0, 0], [2158320535, "Max*/Matiar/Ameer MHC molecules", 0.0, 0, 1379289600, 12, 0, 10], [119654867, "Bible Quiz 48 Galatians", 0.0, 0, 1345852800, 84, 0, 0], [1626059368, "Business English. B2. Negotiating a price", 0.0, 0, 1429660800, 11, 0, 0], [2732772896, "Hoch Middle Egyptian Lesson5 Vocabulary Hoch5v", 0.0, 0, 1363392000, 60, 0, 60], [1311279548, "Egyptian-American Slang", 0.0, 0, 1424044800, 751, 35, 70], [1936862882, "Brookes Essential Kanji 203-304", 0.0, 0, 1417478400, 101, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [169510866, "Brookes Essential Kanji 1-100", 0.0, 0, 1416268800, 100, 0, 0], [1182700720, "T Cell Activation and Differentiation ", 0.0, 0, 1424649600, 66, 0, 89], [1606619238, "TU BS MB01 \u00dcbungsaufgaben & Essentials", 0.0, 0, 1426550400, 76, 0, 31], [2329064132, "Max*/Matiar/Ameer T cells", 0.0, 0, 1379289600, 21, 0, 8], [2291369257, "Essential Unix Shell Commands", 5.0, 1, 1360281600, 44, 0, 0], [2047197427, "4000 Essential English Words 2 [en-pl] M4R4M_KrisZet", 3.0, 1, 1424390400, 599, 1800, 632], [277160478, "504 Absolutely Essential Words EN to Persian corrected audio", 3.67, 3, 1376870400, 504, 504, 0], [253751894, "4000 Essential English Words 5 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 600, 1806, 635]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tia</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

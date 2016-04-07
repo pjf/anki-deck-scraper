@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[567978941, "SM31 - Kitty Chaos", 0.0, 0, 1454544000, 32, 0, 0], [1000199481, "Mittelhochdeutsche Verben", 0.0, 0, 1454716800, 68, 0, 0], [1429345215, "Wittgenstein's Tractatus (German-English)", 0.0, 0, 1427500800, 873, 5, 0], [806643760, "Schritte international 2 -- n\u00e9met-magyar", 5.0, 1, 1380326400, 1088, 0, 0], [1475161099, "CIS 215 written midterm prep", 0.0, 0, 1454716800, 72, 0, 0], [1077998431, "Schritte International 5", 0.0, 0, 1411603200, 244, 0, 0], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 5.0, 1, 1345852800, 4353, 0, 0], [635306544, "1T Algebra kapittel 1", 5.0, 1, 1453248000, 79, 0, 154], [1358853175, "Japanese Knitting/Crochet Terms", 5.0, 1, 1423440000, 155, 3, 0], [1616191947, "Franz\u00f6sisch f\u00fcr Fortgeschrittene", 0.0, 0, 1452124800, 0, 0, 0], [1823839669, "CIS 214 written prep", 0.0, 0, 1449360000, 60, 0, 0], [847681038, "Histoire de la litt\u00e9rature", 0.0, 0, 1449187200, 90, 0, 3], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 5.0, 2, 1378252800, 33, 33, 33], [1805963157, "Schritte-International 2 Deutsch-Persisch", 0.0, 0, 1449446400, 457, 0, 0], [1711750613, "Goethe A1 Sprechen: Bitten", 0.0, 0, 1447977600, 38, 3, 40], [538754131, "Schritte International 1 Deutsch-Persisch", 0.0, 0, 1446854400, 527, 0, 0], [1637427641, "Schritte Plus 4", 0.0, 0, 1443398400, 323, 0, 0], [935664828, "Hittite sign list", 0.0, 0, 1453680000, 194, 8, 259], [1332754543, "NURS200X Neurotransmitters", 0.0, 0, 1443484800, 58, 0, 0], [1313352696, "Japanisch - Schritt f\u00fcr Schritt - Band 1 - Vokabeln", 5.0, 2, 1414454400, 374, 0, 0], [843771850, "RACP Written Exam Flashcards", 0.0, 0, 1442016000, 3688, 0, 166], [1444798994, "Schritt fuer Schritt Voc", 0.0, 0, 1437350400, 46, 0, 0], [2103574239, "BBC The bitter taste of sugar", 0.0, 0, 1442275200, 24, 0, 7], [938595418, "OMM Written 2 of 2", 0.0, 0, 1400803200, 27, 0, 0], [2002154682, "CAnatomy Written 2", 0.0, 0, 1434067200, 41, 0, 47], [633502529, "Schritte International 4", 0.0, 0, 1411603200, 331, 0, 0], [1083926421, "OMM Written 1 of 2", 0.0, 0, 1400803200, 108, 0, 0], [2004259926, "ALittlebitouphadya", 0.0, 0, 1396742400, 282, 0, 15], [1228405207, "jittaichousa deck", 0.0, 0, 1393891200, 115, 0, 0], [1921121939, "Lebensmittel", 0.0, 0, 1398211200, 19, 19, 19], [551778084, "Fred's dirty little pie hole ", 0.0, 0, 1417132800, 269, 0, 285], [1229330908, "GAL81 - L\u00f6schmittel und L\u00f6schverfahren", 0.0, 0, 1433635200, 43, 0, 0], [1695007900, "Development Pitt Med", 0.0, 0, 1384214400, 135, 0, 32], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [2828667408, "Deutsch Rhetorische Stilmittel", 0.0, 0, 1365292800, 27, 0, 0], [259636754, "300 High Frequency Sight Words - 65% of Written English", 5.0, 1, 1389657600, 300, 296, 0], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [2001817837, "Mittelpunkt B2.1 Thema3", 0.0, 0, 1384128000, 347, 0, 0], [158562446, "Syriac OT Peshitta by Word Frequency", 0.0, 0, 1393459200, 1665, 0, 1661], [465424610, "Vocab allemand litt\u00e9raire", 0.0, 0, 1432684800, 50, 0, 0], [1164364191, "Czech history - very little", 0.0, 0, 1437955200, 27, 0, 0], [435355169, "Schritte International 6", 0.0, 0, 1411603200, 217, 0, 0], [30646768, "Schritte International 2: Deutsch-Russisch", 0.0, 0, 1435104000, 404, 0, 0], [1167536083, "Written exam study cards", 0.0, 0, 1409097600, 945, 0, 1127], [682191539, "Investointi- ja rahoitussuunnittelu", 0.0, 0, 1414627200, 262, 0, 0], [1772402224, "Japanese the Written Language Chapter 18 Kanji", 0.0, 0, 1383350400, 38, 0, 0], [114144256, "Hittite Cuneiform Syllabary (Unicode)", 0.0, 0, 1401321600, 112, 0, 0], [524310036, "\u4e09\u5e74\u751f\u3000\u6f22\u5b57\u3000\u6587\u7ae0 with a little bit of upper level  ", 0.0, 0, 1392595200, 286, 0, 0], [1044381450, "All Written Japanese C Vocabulary", 5.0, 1, 1345852800, 484, 0, 0], [2113156618, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2556272748, "Schritte International 1", 0.0, 0, 1371513600, 82, 0, 0], [2017564521, "Japanisch im Sauseschritt", 0.0, 0, 1431216000, 643, 0, 0], [1351449924, "Neurotransmitters Receptors", 0.0, 0, 1424563200, 44, 0, 1], [2263746587, "Deutsche Geschichte - Zeittafel (Stefan Jacob)", 4.0, 1, 1345852800, 336, 0, 0], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [1314728830, "CIS 227 midterm review-Written", 0.0, 0, 1431475200, 74, 0, 0], [2114997828, "Tritton Arabic", 0.0, 0, 1422230400, 155, 0, 0], [2823915896, "Japanese the Written Language Chapter 17 Kanji", 0.0, 0, 1381363200, 31, 0, 0], [2779070537, "FOKUS - SPRACHMITTEL 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2217022793, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2476577535, "Schritte International 3", 0.0, 0, 1411603200, 382, 0, 0], [2663031286, "hittil - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 29, 58, 0], [1609421280, "anu kanji - writtenB 121-165", 0.0, 0, 1407715200, 19, 0, 17], [287181510, "Deutsch / Germanistik: Stilmittel und Tropen ", 0.0, 0, 1368230400, 55, 0, 0], [1106332502, "Hueber Schritte Plus 1 A1/1 (German-English)", 4.0, 1, 1388707200, 409, 340, 0], [810351767, "Schritte International 1", 4.67, 3, 1409788800, 513, 0, 0], [1946942769, "Norweski PL-NO (Editta)", 0.0, 0, 1345852800, 1399, 0, 0], [2077622138, "Fran\u00e7ais : mots litt\u00e9raires et soutenus ", 0.0, 0, 1403740800, 193, 192, 3], [1891435999, "Japanese from Zero - Book 1 (Written in Kana and Kanji)", 3.5, 2, 1406246400, 1370, 1221, 95], [516258955, "sin si sitt sine - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1399248000, 27, 54, 0], [606402422, "Biochemie KMP2 Tiziana Klawitter", 0.0, 0, 1431129600, 954, 0, 94], [77170492, "Japanisch - Schritt f\u00fcr Schritt - Band 2 - Vokabeln", 4.5, 2, 1418688000, 416, 0, 0], [989055389, "FOKUS - SPRACHMITTEL 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [845510785, "Schritte 10", 0.0, 0, 1400371200, 57, 0, 0], [1821155577, "Spanisch-Deutsch Dritte Stunde", 0.0, 0, 1368230400, 62, 0, 0], [1710101667, "Schritte International 2", 0.0, 0, 1411603200, 404, 0, 0], [3217044479, "Japanese the Written Language Chapter 19 Kanji", 0.0, 0, 1383350400, 0, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Itt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

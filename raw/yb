@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[644201386, "1000 English words 10 x szybsza nauka z Symonem", 2.0, 1, 1432944000, 50, 50, 0], [1597132160, "Cyborg world", 0.0, 0, 1453939200, 14, 14, 8], [1829276931, "BaldyBunch Dani Afr Week1", 0.0, 0, 1454025600, 52, 52, 0], [1563764546, "Sailor Moon Super S Special 1 - Crybaby Usagi's Growth Diary", 0.0, 0, 1451692800, 22, 0, 0], [252887096, "PSYB57 practice deck", 0.0, 0, 1450656000, 161, 0, 0], [199271197, "Renataitagyb bio", 0.0, 0, 1440979200, 469, 0, 0], [1352063577, "Renataitagyb quim", 0.0, 0, 1440979200, 310, 0, 6], [1410746919, "Renataitagyb fis", 0.0, 0, 1440979200, 123, 0, 0], [395736849, "Sublime Keyboard Shortcuts - Windows/Linux", 0.0, 0, 1441065600, 54, 0, 0], [972539621, "Renataitagyb hist", 0.0, 0, 1440979200, 112, 0, 0], [5466393, "Rentaitagyb fisica", 0.0, 0, 1440979200, 34, 0, 0], [1031585353, "Renataitagyb mat", 0.0, 0, 1440979200, 98, 0, 0], [1439005826, "Windows 10 Keyboard Shortcuts ", 0.0, 0, 1439164800, 48, 0, 1], [1127384349, "Renataitagyb port", 0.0, 0, 1440979200, 148, 0, 0], [1614953931, "Remember The Milk Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1247745800, "marybelectrolytes", 0.0, 0, 1392681600, 34, 0, 3], [1849870205, "Arabic keyboard", 0.0, 0, 1423440000, 48, 0, 131], [1902726447, "marybhistology", 0.0, 0, 1389657600, 70, 0, 32], [3014758900, "Cucumber w Capybara", 0.0, 0, 1380672000, 29, 0, 0], [119714158, "Chrome Windows keyboard shortcuts", 0.0, 0, 1392336000, 76, 0, 0], [2095832712, "marybconcepts", 0.0, 0, 1392681600, 63, 0, 0], [1615416392, "Vimium keyboard shortcuts", 5.0, 1, 1392336000, 38, 0, 0], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [769951638, "pr\u00f3ba 3. alap mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [1262620338, "Eclipse keyboard shortcuts", 0.0, 0, 1400457600, 28, 0, 0], [1325939856, "pr\u00f3ba 2. alap egyik v. mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [2204307626, "marybupperlimb", 0.0, 0, 1384732800, 39, 0, 1], [3440390949, "Gmail Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1236098686, "Asana keyboard shortcuts", 0.0, 0, 1393459200, 35, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

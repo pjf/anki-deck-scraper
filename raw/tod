@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[223549278, "Bibelkunde NT (5) Kreuzestod", 0.0, 0, 1452643200, 20, 0, 0], [1362116560, "Callan 1 English Metod - Basic 1", 0.0, 0, 1452038400, 122, 0, 0], [308482818, "INTRODUCCI\u00d3N A LA TEOLOG\u00cdA Y AL M\u00c9TODO TEOL\u00d3GICO", 0.0, 0, 1449619200, 145, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [1209854733, "Introducci\u00f3n al m\u00e9todo teol\u00f3gico ", 0.0, 0, 1449619200, 14, 0, 0], [1750151939, "introducci\u00f3n al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449532800, 113, 0, 0], [100543929, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 119, 0, 0], [550655679, "M\u00e9todo Teol\u00f3gico", 0.0, 0, 1449532800, 102, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [1596050101, "Introduccion al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449619200, 132, 0, 0], [1213414736, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 134, 0, 0], [293016194, "Biol 192 Lab - Platyhelminthes, Nematoda, Annelida", 0.0, 0, 1445385600, 28, 0, 0], [636105689, "Information about Trematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 57, 0, 0], [1728674862, "For the group: Path all up to today", 0.0, 0, 1432684800, 540, 0, 368], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 0.0, 0, 1425686400, 36, 35, 0], [971658824, "Information about cestodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 122, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [636549812, "Information about Nematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 199, 0, 0], [1529069472, "Metodos diagnostico de car calcetas", 0.0, 0, 1423699200, 27, 0, 7], [980793069, "UK NUR 221 Toddler development", 0.0, 0, 1416182400, 43, 0, 0], [1938143068, "Pravdepodonostni metody", 0.0, 0, 1420156800, 61, 1, 51], [1262731104, "Esperanto: de Universala Esperanto Metodo", 0.0, 0, 1430092800, 79, 0, 10]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tod</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

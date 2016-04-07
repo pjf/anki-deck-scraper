@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2628085601, "3500 most common english words mazo para hispanoparlantes", 3.5, 2, 1345852800, 3508, 0, 0], [472904097, "Early pregnancy care for Karen", 0.0, 0, 1454112000, 28, 0, 0], [66993717, "nephrology for charlotte", 0.0, 0, 1452816000, 30, 0, 0], [613166278, "Neonatology for charlotte", 0.0, 0, 1452816000, 25, 0, 0], [188644036, "German-spanish mazo para hispanoparlantes de alem\u00e1n", 5.0, 1, 1345852800, 7699, 0, 0], [32583162, "child health for charlotte", 0.0, 0, 1452816000, 62, 0, 0], [1674091371, "infection for charlotte", 0.0, 0, 1452816000, 11, 0, 0], [84076651, "respiratory and oncology for charlotte", 0.0, 0, 1452816000, 79, 0, 0], [2028459617, "French-spanish mazo de franc\u00e9s para hispanoparlantes", 3.6, 5, 1345852800, 6517, 0, 0], [1828043888, "endocrine for charlotte", 0.0, 0, 1452816000, 17, 0, 0], [666176673, "MSK for Charlotte", 0.0, 0, 1452816000, 57, 0, 0], [1068573573, "Block 4 Charles Johnson", 0.0, 0, 1453507200, 1408, 0, 943], [825931430, "surgery for charlotte", 0.0, 0, 1452816000, 79, 0, 0], [518937572, "Bri's OB final test- pearls", 0.0, 0, 1452038400, 91, 0, 8], [532025335, "Bri's OB CM Test 2 Pearls", 0.0, 0, 1450051200, 121, 0, 15], [1773843941, "CVS - AFEM PEARLS", 0.0, 0, 1449705600, 26, 0, 6], [1293166461, "Carlos Apple", 0.0, 0, 1448150400, 106, 0, 0], [780875591, "carlos duran", 0.0, 0, 1448236800, 122, 0, 0], [1702122304, "Huettes kleine Fibel f\u00fcr Karlsruhe", 0.0, 0, 1444608000, 16, 2, 20], [2097795866, "USask PHPM - Early Childhood Development", 0.0, 0, 1443484800, 43, 0, 4], [392669899, "Deck for early cancer bio lectures", 0.0, 0, 1443571200, 87, 0, 0], [29001817, "GI CM Nephro 2 Pearls", 0.0, 0, 1444262400, 69, 0, 70], [853024041, "Carla deck 1", 0.0, 0, 1439424000, 23, 0, 0], [1914956553, "Carlos 13.2.", 0.0, 0, 1418515200, 115, 0, 0], [1569823211, "Nearly all adjectives, adverbs, verbs and nouns in japanese ", 3.0, 2, 1409788800, 2989, 3, 0], [2721859417, "Econ 222 midterm3 quiz (Marlow)", 0.0, 0, 1345852800, 29, 0, 0], [1093586330, "Carlos 3.3", 0.0, 0, 1412035200, 138, 0, 0], [2710934401, "BUSINESS, WORK AND TIME - TEACHER CARLOS", 0.0, 0, 1378771200, 24, 0, 0], [842494840, "Carlos 4.", 0.0, 0, 1412985600, 111, 0, 0], [4221653766, "charlie", 0.0, 0, 1368403200, 331, 0, 44], [1211632134, "Carlos 9.3.", 0.0, 0, 1414281600, 124, 0, 0], [1240254838, "Carlos 2.2.", 0.0, 0, 1410739200, 153, 0, 0], [1986373007, "Carlos 10.1.", 0.0, 0, 1414627200, 142, 0, 0], [987057128, "Carlos \u00f3rai 2.", 0.0, 0, 1417737600, 11, 0, 0], [1412339024, "Carlos 10.2.", 0.0, 0, 1414627200, 173, 0, 0], [1668731633, "Carlos 4.2.", 0.0, 0, 1413590400, 125, 0, 0], [4266220010, "Charlie's Numbers", 0.0, 0, 1351209600, 11, 0, 0], [748760378, "Carlos 2.1.", 0.0, 0, 1410652800, 112, 0, 0], [1764366504, "Carlos 10.4.", 0.0, 0, 1416614400, 9, 0, 0], [1664601859, "Carlos 4.3.", 0.0, 0, 1413676800, 126, 0, 0], [2884385106, "Econ 222 midterm2 from notes (Marlow)", 0.0, 0, 1345852800, 39, 0, 0], [366216958, "Carlos \u00f3rai", 0.0, 0, 1417737600, 39, 0, 0], [2123609188, "Carlos 11.1.", 0.0, 0, 1416009600, 121, 0, 0], [2079526890, "Mazo de portugu\u00e9s para hispanoparlantes", 4.0, 1, 1409788800, 5136, 0, 0], [1981886344, "Carlos 10.3.", 0.0, 0, 1414800000, 131, 0, 0], [526202495, "Carlos 3.2.", 0.0, 0, 1411862400, 126, 0, 0], [418443811, "Carlos 2.", 0.0, 0, 1410566400, 93, 0, 0], [2239759502, "Econ 222 final quiz (Marlow)", 0.0, 0, 1345852800, 80, 0, 1], [1552619125, "Carlos 11.2.", 0.0, 0, 1416096000, 135, 0, 0], [1330894158, "Econ 222 midterm2 quiz (Marlow)", 0.0, 0, 1345852800, 31, 0, 0], [855800187, "Parliment of India", 0.0, 0, 1345852800, 31, 0, 0], [198493190, "Carlos 14.2.", 0.0, 0, 1420329600, 224, 0, 0], [517260480, "Carlos 9.1.", 0.0, 0, 1414108800, 129, 0, 0], [4255363072, "ANA CLARA - TEACHER CARLOS", 0.0, 0, 1378771200, 11, 0, 3], [324882456, "Carlos 1", 0.0, 0, 1410048000, 164, 0, 0], [1848897344, "Carlos 4.1.s", 0.0, 0, 1413072000, 120, 0, 0], [1137906421, "Not tonight darling, I have a backache", 0.0, 0, 1426550400, 26, 0, 6], [1675483329, "Carlos 9.2.", 0.0, 0, 1414108800, 123, 0, 0], [461123207, "marlin french", 0.0, 0, 1431561600, 326, 0, 0], [21372190, "Carlos 2.3.", 0.0, 0, 1410912000, 28, 0, 0], [1701817784, "Carlos 13.1.", 0.0, 0, 1418515200, 232, 0, 0], [1063041458, "Carlos 11.4.", 0.0, 0, 1416614400, 68, 0, 0], [1730215302, "Carlos 14.1.", 0.0, 0, 1420329600, 164, 0, 0], [452050769, "Carlos 3.", 0.0, 0, 1411776000, 118, 0, 0], [1700776853, "Carlos 14.3.", 0.0, 0, 1420329600, 205, 0, 0], [303974579, "Carlos kar\u00e1csonyi", 0.0, 0, 1419120000, 41, 0, 0], [1403851709, "Carlos 13.3.", 0.0, 0, 1418601600, 221, 0, 0], [623750102, "Parliamo Italiano One Chapter 4", 0.0, 0, 1415577600, 148, 148, 0], [2088687225, "Carlos 11.3.", 0.0, 0, 1416614400, 129, 0, 0], [1709250682, "Econ 222 midterm1 quiz (Marlow)", 0.0, 0, 1345852800, 21, 0, 1], [1674884688, "Carlos 9.4.", 0.0, 0, 1414281600, 59, 0, 0], [933077044, "Carlos 11.5.", 0.0, 0, 1416960000, 79, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Arl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

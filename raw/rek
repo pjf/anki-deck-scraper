@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[727443726, "Swedish-Greek svenska-grekiska \u03a3\u03bf\u03c5\u03b7\u03b4\u03b9\u03ba\u03ac-\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", 0.0, 0, 1454457600, 163, 0, 0], [398472219, "Jarek Mariolka", 0.0, 0, 1454976000, 702, 0, 0], [868308979, "Anielski - rekcja", 0.0, 0, 1394496000, 80, 0, 0], [2036962902, "J-Bridge vol.1 S01-L01 vocabulary by Tarek", 0.0, 0, 1390435200, 48, 0, 0], [682572489, "J-Bridge vol.1 S01-L10 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1160937867, "Kanji p. 34-39 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [883207925, "J-Bridge vol.1 S01-L03 vocabulary by Tarek", 0.0, 0, 1390435200, 26, 0, 0], [1019875083, "Kanji p. 28-33 by Tarek", 0.0, 0, 1390435200, 27, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [407141259, "mirek english me", 0.0, 0, 1428364800, 31, 1, 0], [388553362, "J-Bridge vol.1 S01-L08 vocabulary by Tarek", 0.0, 0, 1390435200, 43, 0, 0], [227406271, "Kanji p. 50-55 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [249950571, "Kanji p. 40-45 by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1488284162, "Kanji p. 46-49 by Tarek", 0.0, 0, 1390435200, 20, 0, 0], [588719185, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [1887378255, "J-Bridge vol.1 S01-L04 vocabulary by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [1854461120, "Rektion der Verben PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [2047919017, "Kanji p. 16-21 by Tarek", 0.0, 0, 1390521600, 34, 0, 0], [1447068878, "isp for marek", 0.0, 0, 1430870400, 929, 0, 2], [763571865, "\u00c9lelmiszerek", 0.0, 0, 1399075200, 50, 50, 0], [902581425, "J-Bridge vol.1 S01-L12 vocabulary by Tarek", 0.0, 0, 1390435200, 35, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [377734551, "Kanji p. 22-27 by Tarek", 0.0, 0, 1390435200, 23, 0, 0], [1545705273, "J-Bridge vol.1 S01-L07 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [601013022, "Kanji p. 02-09 by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [379225846, "J-Bridge vol.1 S01-L05 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [1119085080, "J-Bridge vol.1 S01-L09 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [253387486, "J-Bridge vol.1 S02-14 vocabulary by Tarek", 0.0, 0, 1391126400, 52, 0, 0], [2042851476, "J-Bridge vol.1 S01-L02 vocabulary by Tarek", 0.0, 0, 1390435200, 36, 0, 0], [1013713068, "J-Bridge vol.1 S01-L11 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1638815855, "J-Bridge vol.1 S01-L13 vocabulary by Tarek", 0.0, 0, 1390435200, 52, 0, 0], [1232651803, "J-Bridge vol.1 S01-L06 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [858641764, "Kanji p. 10-15 by Tarek", 0.0, 0, 1390435200, 33, 0, 0], [2359722318, "Direkt Neu PL-DE (K. Pajewski)", 0.0, 0, 1345852800, 1435, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rek</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

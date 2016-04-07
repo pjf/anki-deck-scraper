@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [769888587, "Immunology add-on for Comprehensive USMLE Step 1 Review", 0.0, 0, 1400716800, 205, 0, 1], [2201805440, "1000 Most Common Thai Words [TH,EN,DE,MP3,HiddenPhonetic]", 3.33, 3, 1352764800, 1000, 0, 0], [3074067052, "Hoch Middle Egyptian Lesson3 Biliterals (Bi-consonantal) ", 0.0, 0, 1363392000, 25, 0, 25], [407131161, "Gallbladder - Path3", 0.0, 0, 1453334400, 6, 0, 0], [194405312, "DD Step 1 Anki Cards", 0.0, 0, 1452038400, 1621, 0, 4], [2823000019, "Hoch Middle Egyptian Lesson1 Vocabulary Hoch1b", 0.0, 0, 1363392000, 17, 0, 17], [3587957214, "Hoch Middle Egyptian Lesson7 Vocabulary Hoch7v", 0.0, 0, 1363651200, 64, 0, 64], [815410995, "SM16 - Wedding day blues", 0.0, 0, 1452470400, 33, 0, 0], [1421987679, "Gli elenchi del Buddha", 0.0, 0, 1451260800, 58, 0, 0], [982139209, "Pahlavi (Middle Persian) Sentences", 0.0, 0, 1451174400, 45, 0, 114], [3071021884, "Hoch Middle Egyptian Lesson6 Vocabulary Hoch6v", 0.0, 0, 1363392000, 68, 0, 68], [1383472342, "Hoch Middle Egyptian Lesson3 Vocabulary Hoch3v", 0.0, 0, 1363392000, 56, 0, 55], [150327819, "Hoch Middle Egyptian Lesson2  Determinatives  Hoch2dt", 0.0, 0, 1363392000, 109, 0, 109], [514286361, "DANA 5001: Tooth Eruption and Shedding ", 0.0, 0, 1449705600, 55, 0, 4], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [766710398, "CSIM2 - MoDD 1", 0.0, 0, 1448496000, 61, 0, 0], [2819536122, "Hoch5a Hoch Middle Egyptian Lesson 5a", 0.0, 0, 1367020800, 26, 0, 52], [930322475, "CSIM2 - MoDD 2", 0.0, 0, 1448582400, 119, 0, 0], [3325452890, "Hoch 4t Section 41 Transposition  Middle Egyptian Lesson 4  ", 0.0, 0, 1363910400, 19, 0, 19], [1923569782, "Hoch Middle Egyptian Lesson2 Vocabulary Hoch2v", 0.0, 0, 1363392000, 37, 0, 37], [1073450896, "Japanese Newspaper 4560 Additional News", 0.0, 0, 1443657600, 106, 3, 0], [1336744833, "Hoch Middle Egyptian Lesson6 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 14, 0, 14], [3706604012, "Hoch Middle Egyptian Lesson8 Vocabulary Hoch8v", 0.0, 0, 1363651200, 45, 0, 45], [1049242109, "Hoch Middle Egyptian Lesson4 Vocabulary Hoch4v", 0.0, 0, 1363392000, 44, 0, 42], [3797575858, "Hoch Middle Egyptian Lesson7 Biliterals (Bi-consonantal) Hoc", 0.0, 0, 1363651200, 12, 0, 12], [1096340037, "Hoch Middle Egyptian Lesson4 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 21, 0, 20], [1364259030, "PATH II - 10 gauge shotgun (add a piont to test I)", 0.0, 0, 1444348800, 462, 0, 30], [721237265, "Gall bladder, pancreas and liver", 0.0, 0, 1443916800, 108, 0, 0], [1318695946, "Gallbladder/ Biliary System", 0.0, 0, 1444348800, 52, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [1981600699, "DDO Paediatrics - jaundice ", 0.0, 0, 1409616000, 10, 0, 0], [1744772251, "AQA GCSE Chemistry Unit 2 (Additional): Higher Tier", 5.0, 1, 1409356800, 196, 0, 12], [766650431, "Heart, Middle Mediastinum, & Superior Mediastinum CSUS ", 0.0, 0, 1440374400, 19, 0, 20], [1287676704, "DDO Gastrointestinal emergencies - UGIT bleeding", 0.0, 0, 1415232000, 9, 0, 0], [966013175, "Latin III Waddill CHSSJA", 0.0, 0, 1439510400, 25, 0, 0], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1395877206, "PaddyPower PBL Bones", 0.0, 0, 1424995200, 93, 0, 0], [1445692196, "DDO pulmonary - respiratory distress", 0.0, 0, 1412899200, 15, 0, 0], [1542098516, "Thai middle class consonants3-MF tones", 0.0, 0, 1430611200, 19, 0, 0], [1985493935, "CP PHX Ladder company officer 2014", 0.0, 0, 1406160000, 37, 0, 0], [336637613, "Thai Middle Class Consonants practice", 0.0, 0, 1430006400, 48, 0, 0], [2873816220, "DDO Spinal injuries", 0.0, 0, 1379980800, 83, 0, 26], [412245188, "Ukulele Added Tone Chords", 0.0, 0, 1435795200, 57, 0, 0], [293366210, "DDO Paediatrics - acquired heart disease ", 0.0, 0, 1409616000, 25, 0, 0], [914857336, "Anatomy: Middle Mediastinum", 0.0, 0, 1383091200, 38, 0, 76], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [1609465290, "Yiddish Kartlekh", 0.0, 0, 1413936000, 596, 0, 49], [798453957, "UQ MBBS 1 PBL 12 Hidden in the Crypts", 0.0, 0, 1395532800, 79, 0, 0], [662906786, "UT.6.01x Embedded Systems course  study and recap deck", 0.0, 0, 1397865600, 668, 0, 162], [661457316, "K4 \u2013 Billeddiagnostik Columna Thoracalis", 0.0, 0, 1400544000, 146, 0, 57], [242930703, "oddechowy", 0.0, 0, 1434585600, 232, 0, 0], [1618224007, "DDO Paediatrics - Neonatal intubation ", 0.0, 0, 1409616000, 5, 0, 0], [2700750037, "OHSU vs. Buddy Ullman:  CSF Block 1", 5.0, 1, 1385510400, 464, 0, 1], [336799997, "K4 \u2013 Billeddiagnostik OE", 0.0, 0, 1398988800, 360, 0, 129], [1829451406, "DDO Pulmonary - haemoptysis", 0.0, 0, 1412899200, 12, 0, 0], [3331306369, "Yiddish: Yiddish Vokh Edition", 0.0, 0, 1377043200, 41, 0, 0], [1031385855, "Middle Mediastinum ", 0.0, 0, 1382659200, 34, 0, 35], [396021209, "DDO - Gastro - inflammatory bowel disease", 0.0, 0, 1415923200, 23, 0, 0], [391943279, "NeuroScience Modules E,F,G (more chapters added daily)", 0.0, 0, 1445904000, 693, 0, 262], [130334926, "DDO JD ACS", 0.0, 0, 1377475200, 59, 0, 0], [1848688826, "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0441\u043b\u043e\u0436\u0435\u043d\u0438\u044f/Addition Table (zapominaiki_ru)", 0.0, 0, 1383091200, 81, 0, 162], [675411337, "DDO Gastrointestinal emergencies - disorders presenting prim", 0.0, 0, 1415232000, 39, 0, 0], [818909923, "Blynyddoedd", 0.0, 0, 1398211200, 30, 0, 0], [1412468881, "DDO Gastrointestinal Emergencies - Hepatic disorders, jaundi", 0.0, 0, 1415232000, 34, 0, 0], [618993474, "DDO Gastrointestinal Emergencies - Acute abdominal pain", 0.0, 0, 1415232000, 9, 0, 0], [2585046631, "GreenDragon Addition001", 0.0, 0, 1362355200, 400, 0, 0], [946643853, "DDO Paediatrics - fever and serious bacterial illness ", 0.0, 0, 1409616000, 17, 0, 0], [1039075883, "Gallbladder/Pancreas Pathology", 0.0, 0, 1424736000, 94, 0, 3], [278322741, "K4 \u2013 Billeddiagnostik UE", 0.0, 0, 1400198400, 193, 0, 61], [184070046, "DDO Gastro - viral hepatitis and jaundice", 0.0, 0, 1415836800, 8, 0, 0], [236331332, "DDO Gastrointestinal Emergencies - Oesophageal emergencies", 0.0, 0, 1415232000, 21, 0, 0], [2028296135, "Thai middle class consonants 6-MR tones", 0.0, 0, 1430438400, 11, 0, 0], [1352766967, "aadd123", 0.0, 0, 1348876800, 53, 0, 0], [1748419404, "pediatriearnaudf", 0.0, 0, 1387238400, 252, 0, 0], [1054680101, "DDO Paediatrics - Renal emergencies in infants and children ", 0.0, 0, 1409616000, 38, 0, 0], [387368074, "psychiatriearnaudf", 0.0, 0, 1387238400, 423, 0, 0], [1780815113, "(Chinese) Steve Jobs' Stanford Commencement Address Part 2", 0.0, 0, 1364256000, 65, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [1025960484, "HSBC Bridge Precision Bidding", 0.0, 0, 1428192000, 103, 0, 0], [492161525, "DD", 0.0, 0, 1375920000, 23, 0, 1], [1249368459, "Middle Egyptian - Ockinga", 0.0, 0, 1345852800, 78, 0, 0], [96637746, "Buddhismus_Schrift_1xx", 5.0, 1, 1426982400, 161, 327, 0], [1246520238, "DDO Gastrointestinal Emergencies - Lower GIT bleeding", 0.0, 0, 1415232000, 5, 0, 0], [2101303225, "Middle School Words: English-Korean", 0.0, 0, 1423094400, 800, 0, 0], [1639629623, "DDO Paediatrics - the child with diabetes ", 0.0, 0, 1409616000, 21, 0, 0], [104728904, "206 added to overview", 0.0, 0, 1423353600, 0, 0, 0], [980793069, "UK NUR 221 Toddler development", 0.0, 0, 1416182400, 43, 0, 0], [4259368331, "Buddhism", 0.0, 0, 1382313600, 52, 0, 0], [2361589138, "Bladder Control and Sexual Function", 0.0, 0, 1370217600, 8, 0, 0], [230258579, "Eddy's Bahasa Indonesia", 0.0, 0, 1399075200, 554, 2, 19], [2143754235, "DDO Paediatrics - GIT bleeding in children", 0.0, 0, 1409616000, 22, 0, 0], [1715236593, "DDO Gastro - hepatic failure", 0.0, 0, 1415836800, 10, 0, 0], [127426306, "DDO Paediatrics - neonatal resusc ", 0.0, 0, 1409616000, 13, 0, 0], [2577666731, "Single Digit Addition Flash Cards", 0.0, 0, 1345852800, 100, 0, 0], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [4116727170, "Squirrel (uncontested) bidding system notes", 0.0, 0, 1375056000, 395, 0, 0], [2032385308, "DDO Paediatrics - UTIs in infants and children ", 0.0, 0, 1409616000, 25, 0, 0], [660973988, "DDO Paediatrics - seizures and status epilepticus ", 0.0, 0, 1409616000, 1, 0, 0], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [1190652733, "DDO Paediatrics - evaluation of child with special health ca", 0.0, 0, 1409616000, 5, 0, 0], [1024632897, "DDO Paediatrics - Hypoglycaemia and metabolic emergencies ", 0.0, 0, 1409616000, 40, 0, 0], [4270519617, "New Kanji Added (Han tu moi)", 0.0, 0, 1345852800, 278, 0, 0], [2641013883, "Addition001", 0.0, 0, 1362355200, 400, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [3219718543, "Cory Ladd's Fret Deck", 0.0, 0, 1345852800, 29, 0, 29], [3528248506, "Addition Facts: Zero to Twenty", 0.0, 0, 1373760000, 441, 0, 0], [1342572945, "DDO Paediatrics - altered mental status in children ", 0.0, 0, 1409616000, 6, 0, 0], [3937514505, "DDO JD Low prob chest pain", 0.0, 0, 1377475200, 24, 0, 0], [4064467436, "(Chinese) Steve Jobs' Stanford Commencement Address Part 3", 0.0, 0, 1364256000, 63, 0, 0], [1951050529, "K4 \u2013 Billeddiagnostik Columna Cervicalis", 0.0, 0, 1400716800, 128, 0, 70], [764446605, "IP Network addresses", 0.0, 0, 1421280000, 71, 1, 0], [2090616830, "Thai_Deutsch Buddhismus_160", 5.0, 1, 1421020800, 160, 325, 0], [1128149815, "DDO Paediatrics - congenital heart disease ", 0.0, 0, 1409616000, 39, 0, 3], [725419078, "Thai Middle Class Consonants practice 2-Mid and Low tones", 0.0, 0, 1430524800, 28, 0, 0], [1901804925, "DDO Paediatrics - disorders of the mouth and tongue ", 0.0, 0, 1409616000, 9, 0, 2], [587806734, "Thai middle class consonants 5-M,H", 0.0, 0, 1430611200, 15, 0, 0], [1686575120, "Thai middle class consonants 4-LMF tones mix", 0.0, 0, 1430611200, 16, 0, 0], [591534824, "DDO Paediatrics - acute abdominal pain in children ", 0.0, 0, 1409616000, 53, 0, 2], [2732772896, "Hoch Middle Egyptian Lesson5 Vocabulary Hoch5v", 0.0, 0, 1363392000, 60, 0, 60], [1472406605, "Yiddish Farm 2013", 0.0, 0, 1370217600, 119, 0, 0], [1590089197, "Thai middle class consonants 7-all tones mix", 0.0, 0, 1430438400, 13, 0, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [669525207, "Steve Jobs Stanford Commencement Address in Chinese - Part 1", 0.0, 0, 1364256000, 66, 0, 0], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [1844458588, "ophtalmoarnaudf", 0.0, 0, 1387238400, 246, 0, 0], [1994335754, "DDO Paediatrics - SIDS and ALTEs ", 0.0, 0, 1409616000, 1, 0, 0], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0], [1838548842, "JK Bladder Pathology", 0.0, 0, 1414108800, 45, 0, 18], [850771992, "Dogs and Cats Neuro and Sudden Death", 0.0, 0, 1420243200, 583, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dd</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

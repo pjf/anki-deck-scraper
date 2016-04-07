@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3695737370, "ANGLISTYKA UJ ADVANCED ENGLISH ERNIE (www.anglista.edu.pl)", 0.0, 0, 1345852800, 7827, 0, 0], [1953074658, "Adv. HEENT Assessment", 0.0, 0, 1453852800, 92, 0, 38], [212996995, "Advaced French Visual Picture Memory", 0.0, 0, 1444521600, 211, 208, 214], [356158293, "Advanced English vocabulary with Dutch translation", 2.0, 1, 1365638400, 1079, 0, 169], [368253253, "Thai Language: Beginner - Advanced", 4.0, 4, 1345852800, 1469, 477, 43], [1345714607, "German vocab Lower Intermediate to Advanced", 4.0, 7, 1345852800, 1216, 0, 0], [642048276, "Advanced Computer Architecture 2015", 0.0, 0, 1452556800, 34, 0, 0], [1057073103, "Intermediate-advanced english with phonetic transcription", 0.0, 0, 1453852800, 2018, 3, 82], [1794843139, "Vocabulary - Intermediate and Advanced - GRE", 0.0, 0, 1452297600, 474, 0, 0], [525444776, "Advanced English - PowerVocab (Common Words)", 0.0, 0, 1451347200, 21, 0, 0], [3483780124, "Intermediate-Adv. Thai Vocab (Mono/Bi Lingual opt.) \u0e01\u0e32\u0e19\u0e15\u0e4c", 0.0, 0, 1416182400, 664, 662, 0], [1210778195, "Advanced French Visual Picture Memory Vocabulary (2)", 0.0, 0, 1444521600, 200, 200, 279], [1778936506, "Verbal Advantage Review Test L1", 0.0, 0, 1451001600, 35, 0, 97], [1634265599, "advanced vocabulary in use", 0.0, 0, 1450396800, 78, 0, 0], [1723810543, "ETS word 3rd (adverb)", 0.0, 0, 1452038400, 63, 0, 0], [394151686, "English vocabulary intermediate - advanced", 0.0, 0, 1446076800, 667, 1265, 572], [92037046, "czech english adjectives and adverbs", 0.0, 0, 1448755200, 397, 0, 0], [131102136, "Advanced Computer Architecture CS 4380", 0.0, 0, 1446508800, 117, 0, 7], [1034591649, "czech english adjectives and adverbs", 0.0, 0, 1448755200, 397, 0, 0], [1912983973, "English - Advanced - Dennis School ", 0.0, 0, 1445558400, 331, 0, 0], [1805378729, "C# Language Advanced Concepts", 0.0, 0, 1446422400, 35, 0, 23], [1500498673, "Marathi 4. Adverbs & Adjectives", 0.0, 0, 1447632000, 451, 7, 1], [2073788814, "The Advantages of Multilingualism", 0.0, 0, 1447977600, 9, 0, 0], [2020162015, "Ann's Intermediate to Advanced Flashcards", 0.0, 0, 1448496000, 88, 0, 1], [1882959752, "GiveMeFluency Advanced Spanish Vocabulary-Audio-in progress", 0.0, 0, 1448150400, 16, 16, 0], [418661945, "Biofisica - HIDRODINAMICA - 1\u00ba Teste - MedVet", 0.0, 0, 1447200000, 46, 0, 0], [1184972756, "The Advantages of Multilingualism", 0.0, 0, 1448496000, 16, 0, 0], [623833251, "Biofisica - HIDROSTATICA - 1\u00ba Teste - MedVet ", 0.0, 0, 1447200000, 64, 0, 0], [1715094364, "Spanish sentences 575 verbs  (advanced)", 5.0, 1, 1439078400, 3025, 0, 1], [1274644414, "575 Advanced Spanish Verbs with 3, 4 or 5 usage sentences", 4.88, 8, 1431043200, 3025, 0, 1], [602483982, "Scuba Diving - PADI Open and Advanced Open Water Review", 0.0, 0, 1444003200, 67, 0, 3], [148235029, "Objective Advanced Units 2 - 25", 0.0, 0, 1447545600, 285, 1, 0], [929715644, "Global Advanced Flashcards Unit\u00e0 1", 0.0, 0, 1439856000, 141, 0, 0], [1445388799, "spanish-russian-spanish adverbios", 0.0, 0, 1345852800, 205, 0, 0], [916263482, "Adverbien mit Pr\u00e4positionen", 0.0, 0, 1445472000, 43, 0, 0], [264388322, "Advanced French Vocabulary BHS", 0.0, 0, 1435017600, 15, 0, 0], [596550787, "Modern Greek adverb phrases", 0.0, 0, 1432857600, 28, 0, 0], [1010356796, "Hebrew Advanced", 0.0, 0, 1431734400, 610, 0, 0], [1842534569, "DVSA Show me, Tell me", 2.0, 1, 1441152000, 19, 0, 0], [1352196666, "Verbal Advantage L3", 0.0, 0, 1418428800, 50, 0, 97], [855766342, "Global Advanced -  Flashcards Unit\u00e0 3", 0.0, 0, 1440892800, 134, 0, 0], [1344569661, "Adverbes \"-ment\" 1 ", 0.0, 0, 1436918400, 20, 5, 0], [1626564289, "Global Advanced -  Flashcards Unit\u00e0 2", 0.0, 0, 1440201600, 182, 0, 0], [1569823211, "Nearly all adjectives, adverbs, verbs and nouns in japanese ", 3.0, 2, 1409788800, 2989, 3, 0], [721309006, "Japanese Adverbs (50 cards from Namiko Abe's Useful Japanese", 0.0, 0, 1414800000, 51, 5, 0], [1470697926, "KDVP Chemistry Definitions 2014", 0.0, 0, 1417046400, 98, 0, 0], [138884053, "English Collocations in Use -Advanced", 0.0, 0, 1437609600, 39, 0, 0], [2123869526, "Advanced TOPIK vocab", 0.0, 0, 1382054400, 302, 0, 0], [1990107497, "ADV 206 Final", 0.0, 0, 1430352000, 107, 0, 0], [164072122, "Verbal Advantage L4", 0.0, 0, 1418428800, 50, 0, 97], [946348845, "Advance English vocab 2000 with Chinese", 0.0, 0, 1357344000, 2151, 0, 0], [1040874254, "Advanced vocabulary 18 pol-eng", 0.0, 0, 1414368000, 10, 0, 0], [1405065715, "Various English words (intermediate/advanced level) [EN-PL]", 0.0, 0, 1379462400, 156, 0, 0], [235922595, "Advanced Hungarian", 0.0, 0, 1345852800, 105, 0, 0], [321557041, "Verbal Advantage L7", 0.0, 0, 1418428800, 50, 0, 97], [1821535466, "Advanced Spanish Vocabulary", 3.4, 5, 1345852800, 1002, 0, 0], [1571260298, "Sz\u00f3rakosgat\u00f3 angol - New English File Advanced SB Unit 3 GrV", 5.0, 1, 1422835200, 90, 0, 9], [71941426, "English Vocabulary - Intermediate/ Advanced (Hebrew)", 0.0, 0, 1393804800, 439, 0, 0], [3703677513, "Meithai - Zeitangaben, Zeitadverbien, ect.", 0.0, 0, 1383782400, 141, 0, 0], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [1424177099, "ADV BK2.-2 W\u00f6rter", 0.0, 0, 1345852800, 1, 0, 0], [559745105, "MSA 8.39 - Medical Advances", 0.0, 0, 1426636800, 34, 0, 0], [374124616, "Basic_Adverb", 0.0, 0, 1416268800, 23, 24, 24], [1776376631, "Verbal Advantage Lv10", 0.0, 0, 1418428800, 50, 0, 97], [1289570095, "Advanced German Vocabulary with good definitions", 3.0, 3, 1361836800, 1826, 0, 0], [1621954555, "Marathi - adverbs", 0.0, 0, 1403654400, 84, 0, 0], [1512181493, "English - Swedish Advanced", 0.0, 0, 1399939200, 77, 0, 0], [3192676274, "Dvlpmt des organisations", 0.0, 0, 1384387200, 21, 0, 0], [486064400, "4 Morae Adverbs ", 0.0, 0, 1418428800, 87, 0, 2], [1792861712, "Advanced Academic Preparation (AAP) Vocabulary", 0.0, 0, 1434499200, 383, 0, 0], [345816955, "Hebrew <-> English, intermediate advanced, Bet Plus upwards", 0.0, 0, 1408060800, 1710, 0, 0], [1548440426, "Verbal Advantage L6", 0.0, 0, 1418428800, 50, 0, 97], [1296196004, "Advanced Communications Week 1-8", 0.0, 0, 1431734400, 968, 0, 0], [759807376, "Cantonese: Adverbs/Frequency", 0.0, 0, 1426550400, 29, 0, 0], [4220235310, "200  adverbos populais", 0.0, 0, 1381708800, 89, 0, 0], [706636782, "Advanced Communications (Part 2)", 0.0, 0, 1431734400, 565, 0, 0], [930927347, "Michel Thomas Russian Advanced", 0.0, 0, 1351987200, 436, 0, 0], [2749225995, "\u0e44\u0e21\u0e44\u0e17\u0e22 - Adjektive, Adverbien, Pr\u00e4positionen ", 0.0, 0, 1383782400, 334, 0, 0], [752939189, "Steve's Turkish Deck (adverbs & conjuctions)", 0.0, 0, 1395273600, 159, 0, 0], [1945848499, "Conquer Adverbs Like a Native!\u2122", 0.0, 0, 1432252800, 174, 347, 1], [3468129663, "Korean Frequency List (Advanced)", 0.0, 0, 1383436800, 2643, 0, 0], [1332453173, "2014.07.13 Resident Rights Advocacy", 0.0, 0, 1405296000, 1, 0, 0], [1770957805, "Verbal Advantage (audio)", 5.0, 3, 1398902400, 648, 647, 0], [1013597134, "04Adverbs", 0.0, 0, 1406764800, 24, 0, 0], [3218575928, "Altgriechisch Adverbien + Grammatik", 0.0, 0, 1362009600, 125, 0, 0], [482990969, "Verbal Advantage L9", 0.0, 0, 1418428800, 50, 0, 97], [2084402966, "BC English Advanced Level 8", 0.0, 0, 1383004800, 98, 97, 0], [225888124, "Advancement Manual", 0.0, 0, 1392076800, 199, 0, 0], [3976616033, "Michel Thomas Russian Advanced", 5.0, 1, 1351900800, 436, 0, 0], [2805922402, "Advanced 4 - Group 411", 0.0, 0, 1386115200, 132, 0, 0], [929103746, "2015 Advanced Music Theory Rudiments for TLG", 0.0, 0, 1420761600, 141, 0, 17], [423203513, "Japanese basic adverbs and adjectives (mostly from JTMW)", 0.0, 0, 1413244800, 108, 0, 0], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [104993479, "Advanced 2 ", 0.0, 0, 1379635200, 143, 0, 0], [24816765, "English Advanced Vocabulary for Reading", 1.0, 1, 1398297600, 2, 0, 0], [3544876649, "Villaviciosa Advanced English Level 8 deck 1", 0.0, 0, 1383004800, 95, 91, 14], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [163292577, "Adverbss", 0.0, 0, 1424649600, 47, 0, 0], [4020148685, "Adverbien u. Konjunktionen in Esperanto", 0.0, 0, 1345852800, 35, 0, 0], [2580211415, "Advancement", 0.0, 0, 1379203200, 165, 0, 0], [3157230824, "Advanced translation \u9ad8\u7ea7\u7ffb\u8bd1", 0.0, 0, 1385337600, 63, 0, 2], [882565543, "Various Advanced Words and Phrases PL - ENG", 0.0, 0, 1453248000, 1264, 0, 0], [1051104765, "Advanced Latin American Spanish", 0.0, 0, 1379376000, 148, 0, 0], [3047909828, "Semi-Advanced Chinese Vocabulary Words", 3.5, 2, 1367452800, 715, 678, 0], [1034600627, "Kedvenc szavaim (n\u00e9met-magyar)", 0.0, 0, 1411257600, 231, 0, 219], [484622525, "Verbal Advantage L5", 0.0, 0, 1418428800, 50, 0, 97], [974519861, "French Vocabulary \u2013 Advanced", 0.0, 0, 1434412800, 139, 0, 0], [1737612793, "Microbiology Lab Dva", 0.0, 0, 1417651200, 22, 0, 0], [1168553579, "Nahuatlahtolli: Adverbios y conexiones ", 0.0, 0, 1414540800, 76, 76, 0], [1847312547, "Spanish intermediate/advanced 3900+ sentences update 1", 0.0, 0, 1411344000, 3891, 0, 1], [1348923868, "Verbal Advantage L1", 0.0, 0, 1418428800, 50, 0, 97], [1085394575, "Verbal Advantage L2", 0.0, 0, 1418428800, 50, 0, 97], [5202515, "Verbal Advantage L8", 0.0, 0, 1418428800, 50, 0, 97], [15015852, "Advanced English for Spanish Speakers with Audio", 1.0, 1, 1367193600, 2, 0, 0], [424341285, "Advanced English x Portuguese", 0.0, 0, 1412121600, 45, 0, 0], [634249952, "advanced spanish vocabulary. random words but pretty advance", 0.0, 0, 1431561600, 49, 0, 3], [1773575851, "Cambridge Part II Physics: Advanced Quantum Physics ", 0.0, 0, 1413504000, 44, 0, 80], [3446979417, "BC English Advanced level 7", 0.0, 0, 1372809600, 408, 399, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dv</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

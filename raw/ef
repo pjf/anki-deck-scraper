@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[889021449, "Anatomy Lab Everything before axial lecture", 0.0, 0, 1454976000, 90, 0, 0], [2424917263, "\u90fd\u9053\u5e9c\u770c (Prefectures of Japan)", 3.0, 2, 1384819200, 47, 2, 96], [1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [189208333, "Respiratory Pathologies: Pleural Effusions", 0.0, 0, 1454889600, 12, 0, 0], [1304674102, "SI Prefixes and Symbols (BIPM) Cloze", 0.0, 0, 1395532800, 20, 0, 1], [2080271721, "[VectorMaps] Regions and prefectures of Japan", 4.56, 9, 1368662400, 54, 0, 101], [542937390, "15000 Useful phrases English & German", 0.0, 0, 1439596800, 15525, 8, 0], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [6517124, "La Rochefoucauld's Maxims (French-English)", 0.0, 0, 1427500800, 504, 5, 0], [324680302, "a good reference to learn javascript", 0.0, 0, 1454457600, 128, 0, 0], [553346658, "Joseph's N3 Vocabulary Deck with Japanese Definitions", 5.0, 4, 1450224000, 1644, 3, 0], [1028528798, "Medical French - Defense Language Institute LSK", 5.0, 2, 1418342400, 640, 629, 0], [856922372, "Prefectures in Japan", 5.0, 3, 1394928000, 55, 0, 55], [1095090628, "they saw the house before them", 0.0, 0, 1453680000, 23, 0, 0], [363625331, "Yi\u011fit Efe - Ba\u015flang\u0131\u00e7 Seviyesi \u0130ngilizce", 0.0, 0, 1453766400, 141, 299, 176], [1150776840, "PMBOK 47 Process Definitions - PMP", 0.0, 0, 1453334400, 46, 0, 0], [1808735822, "Schulp\u00e4dagogik II Definitionen ", 0.0, 0, 1454371200, 87, 0, 0], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [1689870121, "Deck A2/ EFL 112/ Unit 3 Forest fires", 0.0, 0, 1453075200, 31, 0, 0], [40821529, "Useful Everyday German Words", 0.0, 0, 1452124800, 36, 0, 0], [691431494, "OCR A-level Physics Unit 4 definitions", 0.0, 0, 1452384000, 40, 0, 0], [1520978235, "Funktions-Verb-Gef\u00fcge", 0.0, 0, 1453334400, 25, 0, 0], [917992777, "MW neuromuscular disorder and reflexes", 0.0, 0, 1452988800, 40, 0, 3], [1591191899, "Schulp\u00e4dagogik Definitionen", 0.0, 0, 1454544000, 135, 0, 0], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [1128164353, "Deck A2/ EFL 112/ Unit 2 Leadership behavior", 0.0, 0, 1453075200, 9, 0, 0], [10497898, "Deck A1/EFL 111/ Unit 1 Urban planning", 0.0, 0, 1453075200, 19, 0, 0], [399673653, "MW Neuro Spinal cord reflexes", 0.0, 0, 1452988800, 19, 0, 3], [1885763725, "Josue toefl", 0.0, 0, 1454976000, 279, 0, 2], [1761105160, "Bibelkunde NT (6) - Frauen und \u00c4mter und kath. Briefe", 0.0, 0, 1452816000, 14, 0, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [359675195, "TP- Doctor Deck - MUSM Host Defense Phase", 0.0, 0, 1450051200, 456, 0, 292], [1506716023, "Bibelkunde NT 2 - Kleine Paulus Briefe", 0.0, 0, 1452556800, 11, 0, 0], [880791866, "Bibelkunde NT 4 - Korintherbriefe", 0.0, 0, 1452556800, 11, 0, 0], [1075465080, "Toefl for persian (Farsi) students", 0.0, 0, 1451520000, 1891, 0, 0], [378400787, "SZF - Die Befragung", 0.0, 0, 1449878400, 5, 0, 0], [1478517548, "Attacks and Defenses Block 1", 0.0, 0, 1452556800, 565, 0, 10], [447833305, "English Phonology Distinctive Features (simple definitions)", 0.0, 0, 1450483200, 20, 8, 15], [692131272, "Urologi/nefrologi", 0.0, 0, 1450656000, 233, 0, 17], [454773329, "pacemakers and defibrillators", 0.0, 0, 1451692800, 10, 0, 0], [2067226150, "NEF Unit 3", 0.0, 0, 1449619200, 56, 0, 0], [1668927411, "NEF Unit 7A", 0.0, 0, 1449619200, 48, 0, 0], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [1464270135, "SI Prefixes and Symbols (BIPM)", 0.0, 0, 1395532800, 21, 0, 1], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [830113883, "Gregg Shorthand Simplified Brief Forms", 0.0, 0, 1449360000, 181, 0, 0], [964541747, "Most common TOEFL words", 3.5, 2, 1380844800, 2466, 0, 0], [237445818, "Into English 1 U3 useful words", 5.0, 1, 1449792000, 20, 0, 0], [1825731269, "\u8003\u7814\u7ea2\u5b9d\u4e66bdefg", 0.0, 0, 1446681600, 724, 0, 0], [866541936, "Russian to English Most Common 10K With Audio and Defs", 0.0, 0, 1446163200, 9203, 9184, 2], [1286095362, "Deutsch Goethe a1 schreiben Teil 3 Brief ", 0.0, 0, 1448064000, 19, 3, 2], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [1740603545, "Alefba erste vier Lektionen", 0.0, 0, 1446595200, 296, 0, 0], [1232752935, "JMT2015 UEF", 0.0, 0, 1447113600, 175, 8, 16], [2138821507, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF, verbs", 0.0, 0, 1386460800, 243, 0, 0], [1894908809, "Gef\u00e4\u00dfe des Halses", 0.0, 0, 1447632000, 8, 0, 0], [1882959752, "GiveMeFluency Advanced Spanish Vocabulary-Audio-in progress", 0.0, 0, 1448150400, 16, 16, 0], [670574567, "CB - Group and Situational Effects", 0.0, 0, 1447113600, 37, 0, 0], [1239529011, "The Most Important Words Of TPO for TOEFL", 4.0, 2, 1444262400, 1207, 36, 55], [1708037740, "400 must have words for the TOEFL ", 5.0, 1, 1444521600, 402, 438, 19], [1346912511, "The highly efficient GRE Anki deck", 5.0, 5, 1448928000, 569, 570, 568], [1988434165, "400 TOEFL Words", 4.11, 9, 1345852800, 399, 0, 0], [170812004, "Reflexive Verben", 0.0, 0, 1444176000, 20, 0, 0], [535675942, "Math notation and basic definitions", 0.0, 0, 1442707200, 60, 0, 25], [80667733, "STEFAN", 0.0, 0, 1444694400, 619, 1858, 661], [2427803041, "Essential Words for TOEFL", 0.0, 0, 1357948800, 460, 0, 0], [1304657501, "Ulpan Ezion Verbs alef4", 0.0, 0, 1442880000, 162, 0, 0], [1818432832, "GTO reflex", 0.0, 0, 1444780800, 65, 0, 0], [1936200620, "Notes on Effective Java", 0.0, 0, 1430179200, 66, 0, 0], [1882136918, "Useful Phrases", 0.0, 0, 1444608000, 47, 8, 15], [1278483705, "Basic uro-nefro", 0.0, 0, 1445472000, 98, 0, 11], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [1609924661, "Phrasal Verbs (English definition)", 0.0, 0, 1435104000, 216, 0, 0], [2007192107, "Japanese prefectures and regions", 0.0, 0, 1443312000, 54, 0, 0], [3642015721, "Toefl - Persian Explanation", 3.75, 4, 1354838400, 2814, 0, 0], [633891512, "\u65e0\u8001\u5e08TOEFL\u8bcd\u6c47\u7ea2\u5b9d\u4e66", 0.0, 0, 1420416000, 2629, 2613, 7], [1830650241, "VOA 1500 - Definitions and Examples", 5.0, 1, 1439769600, 2928, 0, 1], [152479176, "Emergency pharmacology roots suffixes prefixes abbreviations", 0.0, 0, 1441238400, 55, 0, 0], [1564115074, "Mike's Definitive GRE Study List", 0.0, 0, 1439424000, 3677, 387, 0], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [721309006, "Japanese Adverbs (50 cards from Namiko Abe's Useful Japanese", 0.0, 0, 1414800000, 51, 5, 0], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [970054618, "Host Defense", 0.0, 0, 1429056000, 15, 0, 0], [924406949, "Gef\u00e4\u00dfchirurgieMUI", 0.0, 0, 1428883200, 100, 0, 0], [1470697926, "KDVP Chemistry Definitions 2014", 0.0, 0, 1417046400, 98, 0, 0], [1850261885, "Useful Kanji", 0.0, 0, 1377388800, 260, 0, 2], [274460702, "Immunodeficineices ", 0.0, 0, 1427241600, 42, 0, 10], [523354007, "Useful Indoensian Classifiers (google translate audio)", 0.0, 0, 1435363200, 19, 19, 0], [831030283, "Massachusetts Paramedic Adult Medication Refrence", 0.0, 0, 1439769600, 30, 0, 0], [915948300, "Lojban Gismu with Simplified Definitions", 0.0, 0, 1360886400, 100, 0, 13], [130756328, "KUMC Immune Deficiencies", 0.0, 0, 1415318400, 22, 0, 0], [524093883, "Gef\u00fchle und keine Gef\u00fchle der GfK", 0.0, 0, 1418774400, 225, 0, 0], [349972243, "SQL Server - useful notes", 0.0, 0, 1406073600, 6, 0, 0], [40490366, "Essential Words for the TOEFL [Organized]", 4.5, 2, 1345852800, 450, 0, 0], [1758492284, "Vocabulaire du vox allemand : das Gef\u00fchl", 0.0, 0, 1431129600, 41, 0, 0], [1837953188, "Essential Words for the TOEFL [Persian]", 4.0, 10, 1345852800, 450, 0, 0], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1539092241, "Essential Words for the TOEFL EN-FA [Persian] + examples", 4.67, 6, 1404345600, 446, 768, 0], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1835485847, "Effects on Injury on Tissue 2 Lab VIJ", 0.0, 0, 1413072000, 18, 0, 31], [2379175505, "Treble clef for guitar", 4.0, 1, 1362441600, 23, 0, 23], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [316328350, "Stateful Cards", 0.0, 0, 1411603200, 2, 0, 0], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [1947726076, "Patolog\u00edas / Nefro / Enfermer\u00eda 2do a\u00f1o 1er cuatrimestre  Ho", 0.0, 0, 1401926400, 27, 0, 0], [46515489, "patent law cases enablement/written desc indefiniteness 112", 0.0, 0, 1437609600, 119, 0, 0], [1511842624, "Uyghur words and useful phrases", 0.0, 0, 1423008000, 645, 0, 0], [1289570095, "Advanced German Vocabulary with good definitions", 3.0, 3, 1361836800, 1826, 0, 0], [2794844738, "French-Farsi - verbs of Reflets1 book to Persian", 0.0, 0, 1358553600, 313, 0, 0], [2007936468, "400 must have words for the TOEFL", 0.0, 0, 1431734400, 400, 0, 4], [1016425582, "Freunde treffen II", 0.0, 0, 1398211200, 7, 7, 8], [1621122732, "Spanish useful words and phrases", 0.0, 0, 1406937600, 130, 0, 0], [518152011, "OCR Physics AS Definitions (Selective)", 0.0, 0, 1395619200, 86, 0, 0], [3419165202, "IFR Refresher", 0.0, 0, 1361923200, 287, 0, 30], [4021495842, "French - Farsi -- Words of \"Reflets 1\"", 0.0, 0, 1358553600, 1584, 0, 0], [3053287388, "Reflux Esophagitis and Esophageal Cancer", 0.0, 0, 1376611200, 61, 0, 18], [1274719409, "Ti telefono stasera", 0.0, 0, 1385510400, 50, 50, 0], [1618678641, "Nahuatlahtolli: reflexivos", 0.0, 0, 1414540800, 67, 67, 0], [218593487, "Das gef\u00e4llt mir ", 0.0, 0, 1433980800, 37, 37, 55], [2024905629, "Jason - deck with Japanese definitions", 0.0, 0, 1425427200, 9872, 19302, 9550], [39751402, "1 fluidosssssdsfdsfsdfwef", 0.0, 0, 1404172800, 23, 0, 0], [504358078, "Hebrew AlefBet (TeachMeHebrew.com)", 5.0, 2, 1354924800, 22, 22, 0], [1526808570, "Genetics before Population Lecture", 0.0, 0, 1410307200, 204, 0, 3], [1208573437, "Histology Exam 2 - Smith, Schaefer", 0.0, 0, 1379462400, 298, 0, 193], [928009335, "Test default FS ", 0.0, 0, 1410652800, 1, 0, 0], [1148532217, "toefl", 0.0, 0, 1409961600, 522, 0, 0], [3259196780, "Lista kanji N2 (definiciones en espa\u00f1ol)", 0.0, 0, 1360108800, 2184, 0, 0], [1735603669, "Jeff's Anatomy", 0.0, 0, 1432080000, 3536, 0, 2925], [109750668, "After Effects CC (GER)", 0.0, 0, 1420416000, 24, 0, 1], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [2019139365, "Useful Phrases, Conversational Turn-taking", 0.0, 0, 1431388800, 489, 0, 1], [854246212, "Esperanto - Czech: Lernu - Useful phrases/U\u017eite\u010dn\u00e9 fr\u00e1ze", 0.0, 0, 1396742400, 400, 0, 0], [2263746587, "Deutsche Geschichte - Zeittafel (Stefan Jacob)", 4.0, 1, 1345852800, 336, 0, 0], [923599107, "INVERCORPEFS", 0.0, 0, 1387238400, 68, 0, 0], [1389857821, "Lebensohl och svar efter X p\u00e5 1l\u00e4get.", 0.0, 0, 1420502400, 12, 0, 0], [1930180302, "IELTS,TOEFL  Vocabulary", 3.0, 2, 1357344000, 2316, 0, 0], [119891572, "rowan som histology (definition only - no visuals) BLOCK 1", 0.0, 0, 1407888000, 36, 0, 9], [970139383, "Nayef's French Vocabulary Deck", 0.0, 0, 1403049600, 261, 0, 0], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [1653962653, "Personal TOEFL Vocab", 0.0, 0, 1428796800, 321, 82, 12], [2790171650, "Vocabulary for TOEFL PBT", 4.5, 2, 1345852800, 450, 25, 0], [935777228, "KW-NEF-Intermediate", 0.0, 0, 1411776000, 209, 30, 0], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [1227610045, "HSC4652 Beneficence ", 0.0, 0, 1426550400, 69, 0, 0], [1152343697, "Unregelm\u00e4ssige Formen im Indefinido", 0.0, 0, 1367712000, 38, 0, 0], [2048938643, "WCMC Host Defense/HD 2013 Deck", 0.0, 0, 1389052800, 1053, 0, 174], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [2138161124, "AR5 symboler og definisjoner", 0.0, 0, 1369785600, 54, 0, 0], [658454950, "Vertiefte Themen der Bauphysik II", 0.0, 0, 1406073600, 167, 0, 6], [569066907, "Useful sentences in Persian II", 0.0, 0, 1416268800, 69, 0, 0], [2977877472, "Medical Spanish (Colombian) - Defense Language Institute LSK", 4.33, 3, 1418342400, 640, 637, 0], [2583486943, "Biblical Hebrew Verb No-Prefix Forms", 0.0, 0, 1345852800, 36, 0, 0], [1564545850, "Freunde treffen", 0.0, 0, 1398211200, 20, 20, 21], [2862657820, "500 German Theological Vocabulary by Siliakus (and Ziefle)", 3.0, 1, 1345852800, 450, 0, 0], [2686851535, "B\u00e4rnd\u00fctsch - Br\u00fcef", 0.0, 0, 1348531200, 39, 0, 0], [1774074550, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF", 0.0, 0, 1386460800, 1549, 0, 0], [1881020705, "Danish Useful Words", 0.0, 0, 1400198400, 28, 0, 0], [3637902536, "Prefixes of the Russian Language", 0.0, 0, 1345852800, 21, 0, 0], [1949775918, "Spinal Cord 2 Reflexes", 0.0, 0, 1424563200, 24, 0, 1], [1102872731, "Step 3 Flashcards Wustljeff", 0.0, 0, 1404777600, 244, 0, 0], [822363740, "Simple kanji deck - English definition and on'yomi", 0.0, 0, 1422057600, 2136, 0, 0], [405705484, "Japanees Verbs (129 cards from Namako Abe's Useful Japanese ", 0.0, 0, 1414800000, 129, 5, 0], [87357587, "Useful sentences III", 4.0, 1, 1430438400, 54, 0, 0], [1813316762, "\u738b\u7389\u6885TOEFL\u8bcd\u6c47\u53d1\u97f3\u7248 by forumfly [added voices by Kai]", 5.0, 7, 1408233600, 5232, 5246, 416], [1709074644, "ENGLISH DEFINITIONS BL", 0.0, 0, 1417305600, 292, 26, 0], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [1907856341, "UPJS Biological Reference Ranges", 0.0, 0, 1402185600, 44, 0, 0], [3735369741, "504 - TOEFL", 0.0, 0, 1357948800, 533, 0, 0], [247828814, "Useful sentences in Persian", 0.0, 0, 1416182400, 82, 0, 0], [2639768625, "Japanese Prefectures", 4.33, 12, 1353542400, 47, 0, 47], [2020634774, "Effects of Injury on Tissues 2 VIJ", 0.0, 0, 1413072000, 24, 0, 22], [2613296470, "500 Words for TOEFL iBT Stirling 2010", 0.0, 0, 1383696000, 500, 0, 97], [1663500573, "Medical Persian Farsi Iran - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [933777057, "ENGLISH DEFINITIONS AL", 0.0, 0, 1420588800, 85, 7, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ef</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

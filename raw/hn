@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1470114103, "Klausurtechnik f\u00fcr das Jura-Studium", 5.0, 2, 1438041600, 62, 0, 6], [877590109, "Anglais technique ENSM semestre 2", 0.0, 0, 1454457600, 145, 25, 6], [986229768, "Biomedizinische Technik TU Dresden", 5.0, 1, 1454544000, 85, 0, 0], [540693182, "MUI_2012_hno", 0.0, 0, 1454630400, 9, 0, 0], [852919416, "Oberfl\u00e4chen und Schichttechnik", 0.0, 0, 1454716800, 35, 0, 0], [1469361875, "Saidehntairee", 0.0, 0, 1454112000, 292, 0, 94], [476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [907578404, "John Williams White First Greek Book", 0.0, 0, 1453420800, 52, 0, 0], [1557524851, "SBFV - Trainer C - Schnelligkeitsausdauertraining", 0.0, 0, 1453852800, 20, 0, 1], [18065717, "Boschn\u00e9met", 0.0, 0, 1454630400, 11, 0, 0], [1504008975, "Technisches Management Kapitel 3", 0.0, 0, 1453161600, 1, 0, 0], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [1359180267, "E-Technik", 0.0, 0, 1377820800, 30, 0, 0], [1068573573, "Block 4 Charles Johnson", 0.0, 0, 1453507200, 1408, 0, 943], [539511836, "John's Virgils Aeneid Common Vocab (1-50) ", 0.0, 0, 1452211200, 52, 0, 0], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [1627483294, "Greek to GCSE - John Taylor", 5.0, 1, 1376438400, 1568, 0, 0], [2018730100, "King John's Rule", 0.0, 0, 1452124800, 81, 0, 0], [553580184, "Q: Skills for Success Unit 3 Technology ", 0.0, 0, 1447027200, 30, 0, 0], [1701466422, "rechnugswesen klausur vorbereitung", 0.0, 0, 1448841600, 9, 0, 0], [1857569652, "Bible Quiz 43: John", 0.0, 0, 1345852800, 112, 0, 0], [1550139598, "ILC 1 John 3:1-8, 11, 13-18 ", 0.0, 0, 1448928000, 15, 0, 0], [1605666493, "Bible Quiz 63 II John", 0.0, 0, 1345852800, 9, 0, 0], [1741626735, "ILC 1 John 1:4-10 ", 0.0, 0, 1448928000, 7, 0, 0], [626299242, "ILC 1 John 2:1-5, 9-12, 15-17, 28-29 ", 0.0, 0, 1448928000, 14, 0, 0], [68813638, "MKL Getriebe und Verzahnungen", 0.0, 0, 1447545600, 88, 0, 30], [674964730, "Pharmazie - Ringvorlesung: pharmazeutische Technologie", 0.0, 0, 1449878400, 45, 0, 2], [1002186992, "ILC 1 John 5:2-8, 14, 17, 21 ", 0.0, 0, 1448928000, 10, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [225464438, "ILC 1 John 4:4, 7-8, 11, 18-21 ", 0.0, 0, 1448928000, 8, 0, 0], [1326720965, "Dictionary of An Introduction to Ancient Greek C.A Luschnig", 0.0, 0, 1397260800, 458, 0, 0], [888717216, "Bible Quiz 62 I John", 0.0, 0, 1345852800, 59, 0, 0], [97313721, "Deutsch Goethe wohnen", 0.0, 0, 1445299200, 53, 0, 31], [1552894770, "VIT - Rechnertechnik", 0.0, 0, 1444089600, 10, 0, 5], [115131360, "Calc Techniques", 0.0, 0, 1441756800, 5, 0, 6], [1991381241, "John Updike's \"Back from Vacation\"", 0.0, 0, 1443052800, 15, 0, 0], [1886213578, "TouroCOM OMM Year 1 Practical Techniques", 0.0, 0, 1442188800, 139, 1, 230], [1967624257, "Learn spoken English with John Medina's book Brain Rules", 0.0, 0, 1441756800, 36, 36, 0], [559257662, "Intro Pohnpeian", 0.0, 0, 1444953600, 240, 82, 112], [1420022603, "Sterile Technique", 0.0, 0, 1439856000, 6, 0, 0], [1725447480, "Technische Systeme", 0.0, 0, 1439596800, 5, 0, 0], [2674931632, "Bible Quiz 64 III John", 0.0, 0, 1345852800, 10, 0, 0], [2022834759, "Anatomy & Techniques", 0.0, 0, 1389225600, 217, 0, 0], [1310607487, "Updated FACEM study cards John Daly", 0.0, 0, 1433462400, 209, 0, 5], [1714404382, "UPB_Umrechnung", 0.0, 0, 1367193600, 25, 0, 0], [98651661, "Technische Anweisungen", 0.0, 0, 1435017600, 14, 0, 0], [1468059189, "Surgical Technology Anatomy 122", 0.0, 0, 1430870400, 80, 0, 80], [1522011268, "MKL Technische Systeme", 0.0, 0, 1437004800, 97, 0, 0], [1405315187, "Amateur Radio 2014-2018 Technician Question Pool", 0.0, 0, 1399334400, 426, 0, 3], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1940818164, "powszechna historia prawa", 0.0, 0, 1434758400, 68, 0, 0], [1764017645, "Michta technology", 0.0, 0, 1400371200, 81, 0, 0], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [1737489605, "hnss8", 0.0, 0, 1396310400, 35, 0, 8], [1090373559, "Verfahrenstechnik - Pumpen #1", 0.0, 0, 1406073600, 7, 0, 0], [1514091672, "hnss3", 0.0, 0, 1396310400, 44, 0, 3], [614601180, "Chinese Ethnic Minorities", 0.0, 0, 1374451200, 58, 0, 67], [803535162, "frxprnsp6hno", 0.0, 0, 1371081600, 111, 0, 0], [1173480265, "Powszechna historia ustroju", 0.0, 0, 1434758400, 227, 0, 0], [1180653090, "DatURechnernetze", 0.0, 0, 1413676800, 23, 0, 0], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [1512132038, "technical words", 0.0, 0, 1438387200, 10, 2, 8], [32898097, "Johnio", 0.0, 0, 1424304000, 5, 0, 0], [1848647599, "hnss6", 0.0, 0, 1396310400, 101, 0, 1], [768426120, "Verfahrenstechnik - Pumpen #2", 0.0, 0, 1406073600, 1, 0, 0], [166674709, "UPB_F\u00fcgetechnik_A", 0.0, 0, 1422403200, 134, 0, 72], [120226396, "Rechnernetze SS2015 KIT", 0.0, 0, 1438300800, 108, 0, 4], [1316468123, "johnio_08", 0.0, 0, 1427328000, 11, 0, 0], [2057585343, "Biochem, Unit 4; Recombinant DNA Technology", 0.0, 0, 1414108800, 40, 0, 0], [644233243, "johnio_05", 0.0, 0, 1426809600, 14, 0, 0], [863606079, "Softwaretechnik 2 am KIT WS1415", 0.0, 0, 1429315200, 675, 0, 2], [144985236, "Technische Informatik am KIT", 0.0, 0, 1364601600, 78, 0, 4], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [244928826, "johnio_05_trenbarre", 0.0, 0, 1424563200, 19, 0, 0], [279520484, "For James and Kim - CHN Authentic Listening", 0.0, 0, 1420329600, 266, 262, 0], [1463500101, "Technical Vocabulary List", 0.0, 0, 1389312000, 1099, 0, 0], [1980397294, "Energie Technik Uni Duisburg-Essen", 0.0, 0, 1390867200, 85, 0, 74], [1548568877, "KOST Rechnung", 0.0, 0, 1359936000, 84, 0, 25], [1615845661, "hnss12", 0.0, 0, 1396828800, 38, 0, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [181873587, "Digitaltechnik am KIT vom WS12/13", 0.0, 0, 1375315200, 254, 0, 0], [884264361, "John Salter's Biology, Chemistry, and Maths deck", 0.0, 0, 1398297600, 3323, 0, 140], [1214176603, "Hahn (Classical Tibetan, Vocabulary)", 0.0, 0, 1370908800, 2016, 0, 0], [1600751078, "WerkstofftechnikMarkH", 0.0, 0, 1402617600, 72, 0, 61], [747195982, "hnss5", 0.0, 0, 1396310400, 33, 0, 5], [30412199, "hnss14", 0.0, 0, 1396828800, 39, 0, 4], [1991674589, "FTS4 Rechnungswesen", 0.0, 0, 1420761600, 72, 0, 12], [1719952422, "Johns English Study From China", 0.0, 0, 1433548800, 837, 0, 0], [1178607352, "Bible Chapter Summary - NT-04, John", 0.0, 0, 1427068800, 22, 0, 0], [1745635677, "hnss13", 0.0, 0, 1396828800, 65, 0, 50], [2079157096, "Rosyjski, kuchnia", 0.0, 0, 1370390400, 269, 0, 0], [1160544581, "hnss15", 0.0, 0, 1396828800, 76, 0, 32], [3636259653, "S\u00e4uren, Basen & Salze / Chem. Rechnen f\u00fcr Biologen WS2013", 0.0, 0, 1383868800, 69, 0, 0], [1868462313, "English vocabulary used in technical books", 0.0, 0, 1418083200, 48, 0, 0], [253151767, "Produktionstechnik II TU Berlin", 0.0, 0, 1437523200, 94, 0, 10], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [1489638250, "Rechnernetze am KIT SoSe 2013", 0.0, 0, 1375315200, 324, 0, 0], [48929203, "Acronyms used within St John Ambulance Australia", 0.0, 0, 1424217600, 9, 0, 0], [404266064, "Cantonese: Technology", 0.0, 0, 1426550400, 59, 0, 0], [1510756841, "BKR, Bankrechnen f\u00fcr Bankkaufleute 2013/14 Teil 1", 0.0, 0, 1390262400, 38, 0, 0], [1628940778, "FH Technikum Wien - Audiotechnik", 0.0, 0, 1422230400, 38, 0, 9], [189033275, "DeathNoteWords", 0.0, 0, 1419984000, 158, 139, 0], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [895628574, "hnss4", 0.0, 0, 1396310400, 16, 0, 0], [1700635556, "johnson thai", 0.0, 0, 1386892800, 42, 41, 42], [1702850920, "MMT Medieninformatik Einf\u00fchrung (HHN WS14)", 0.0, 0, 1423094400, 100, 0, 1], [2117999136, "Begegnungen A2 Kapitel 7 (Wohnen) Deutsch-Russisch", 0.0, 0, 1416268800, 91, 0, 0], [3553975077, "Geb\u00e4udetechnik Fragenkatalog", 0.0, 0, 1358812800, 79, 0, 0], [737595128, "Verfahrenstechnik - R\u00fchrwerke", 0.0, 0, 1406073600, 8, 0, 0], [869698129, "hnss2", 0.0, 0, 1396310400, 37, 0, 0], [1888646581, "HNO TU M\u00fcnchen", 0.0, 0, 1392076800, 141, 1, 0], [348135565, "Messtechnik", 0.0, 0, 1444348800, 12, 0, 4], [1343901539, "Rechnerorganisation am KIT vom SS12", 0.0, 0, 1375315200, 373, 0, 0], [340550950, "Verfahrenstechnik - Trockner", 0.0, 0, 1406073600, 7, 0, 0], [413584434, "For Kim and James - Chn Vocab List", 0.0, 0, 1420329600, 301, 0, 0], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [1646853473, "SIP1 ohne Doppelten", 3.78, 9, 1418083200, 3756, 0, 494], [232208188, "hnssforamina", 0.0, 0, 1396310400, 12, 0, 12], [1294088285, "Verfahrens- & Umwelttechnik Beuth", 0.0, 0, 1399420800, 216, 0, 127], [1279230702, "SRL Mishna Berajot Berachot Berakhot", 0.0, 0, 1398988800, 65, 0, 0], [2066762825, "Automatisierungstechnik I TU Berlin", 0.0, 0, 1427155200, 64, 0, 52], [1480295689, "johnio_06", 0.0, 0, 1427328000, 10, 0, 0], [1017242423, "FHB L22: Special Circulations: Cutaneous & Splanchnic", 0.0, 0, 1422403200, 10, 0, 10], [785914382, "Software Technik II am KIT", 0.0, 0, 1394668800, 15, 0, 2], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [1946361943, "FPI 1 - schnell", 0.0, 0, 1392336000, 1893, 0, 355], [949535210, "hnss11", 0.0, 0, 1396483200, 56, 0, 4], [113314019, "johnio_04", 0.0, 0, 1424563200, 13, 0, 0], [679765693, "Verfahrenstechnik - Str\u00f6mungstechnik", 0.0, 0, 1406073600, 4, 0, 0], [42604096, "hnss9", 0.0, 0, 1396310400, 76, 0, 48], [2468380623, "Wohnen", 0.0, 0, 1383955200, 9, 0, 0], [1574376799, "hnss1", 0.0, 0, 1396310400, 40, 0, 0], [612722953, "hnss10", 0.0, 0, 1396483200, 55, 0, 10], [114367886, "IK Fragenkatalog (Industrielle Kommunikationstechnik)", 0.0, 0, 1345852800, 129, 0, 8], [1619967939, "Technisches Englisch", 0.0, 0, 1399852800, 345, 429, 2], [1829998215, "Schaltungstechnik", 0.0, 0, 1435536000, 16, 0, 4], [477375737, "John's Class Deck", 0.0, 0, 1405987200, 1, 0, 0], [1728902028, "Verfahrenstechnik - Mechanisches Trennen", 0.0, 0, 1406073600, 4, 0, 0], [60121242, "johnio_02", 0.0, 0, 1424304000, 10, 0, 0], [1637201598, "Construction Technology, Bridges.", 0.0, 0, 1394409600, 46, 5, 35], [372344843, "Verfahrenstechnik - W\u00e4rmetechnik", 0.0, 0, 1406073600, 11, 0, 0], [1082326752, "aufgeschnappt", 0.0, 0, 1454630400, 441, 0, 0], [2077295616, "Voc Anglais \"Science, New Technologie and Astronautics\"", 0.0, 0, 1360886400, 76, 0, 0], [191566794, "johnio_01", 0.0, 0, 1424304000, 15, 0, 0], [1794977921, "1~100 (John)", 0.0, 0, 1425513600, 100, 0, 0], [799008857, "hnss7", 0.0, 0, 1396310400, 37, 0, 0], [1236766336, "Johnio_09", 0.0, 0, 1429056000, 17, 0, 0], [1274124755, "johnio_03", 0.0, 0, 1424390400, 13, 0, 0], [836950014, "FACEM 1 john daly", 0.0, 0, 1426204800, 68, 0, 3], [181118241, "SIP5a - HNO", 0.0, 0, 1401580800, 152, 0, 0], [722472136, "CHN-1020 Dict\u00e9e Lecon 18", 0.0, 0, 1427846400, 1, 0, 0], [935299159, "John Salter's Biology, Chemistry, and Maths deck", 0.0, 0, 1394150400, 1583, 0, 51], [1739663871, "Rechnernetze am KIT", 0.0, 0, 1374537600, 108, 0, 4], [4092068, "Verfahrenstechnik - Arbeitssicherheit", 0.0, 0, 1406073600, 12, 0, 0], [745630987, "johnio_07", 0.0, 0, 1427328000, 11, 0, 0], [579467499, "Gross Block 2- Big John", 0.0, 0, 1413849600, 294, 0, 0], [1417747720, "technische Projektanalyse", 0.0, 0, 1423353600, 0, 0, 0], [3982942927, "Anatomie splanchnologie", 0.0, 0, 1369526400, 726, 0, 12], [3221703753, "amarakosha-visheShyanighna", 0.0, 0, 1368403200, 1038, 0, 0], [4060294887, "Intermediate Technical Japanese vocabulary", 0.0, 0, 1387152000, 1407, 3, 1], [864958802, "ethnography CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 21, 0, 0], [1840186109, "Daniella Kohn's Manual Limba Romana Pentru Straini", 0.0, 0, 1401062400, 631, 573, 144], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [558890796, "zprop ohne werkstoffkunde demi", 0.0, 0, 1378080000, 221, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Hn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

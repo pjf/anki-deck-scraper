@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1220268813, "VHDL Glossary", 0.0, 0, 1454544000, 248, 0, 1], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [734973444, "Bible Quiz 51 Colossians", 0.0, 0, 1345852800, 64, 0, 0], [739507647, "V\u0161eobecn\u00e9 znalosti", 0.0, 0, 1452643200, 5, 0, 0], [1207523922, "Los bomberos comieron mi gato", 0.0, 0, 1451865600, 55, 0, 0], [1923241106, "R\u00edos mas caudalosos del mundo", 0.0, 0, 1449792000, 112, 0, 0], [1895693095, "Harry Potter y la piedra filosofal - Spanish - Chapter 2", 0.0, 0, 1451088000, 120, 0, 1], [2102412040, "Harry Potter y la piedra filosofal - Spanish - Chapter 1", 0.0, 0, 1448409600, 153, 0, 1], [2060964926, "Glossary of stoicism terms", 0.0, 0, 1450137600, 56, 0, 0], [1538264353, "Nova Scotia Plants glossary", 0.0, 0, 1444608000, 399, 0, 0], [407403537, "CFA level 3 glossary", 0.0, 0, 1448323200, 820, 11, 37], [1293166461, "Carlos Apple", 0.0, 0, 1448150400, 106, 0, 0], [780875591, "carlos duran", 0.0, 0, 1448236800, 122, 0, 0], [1746010856, "los amigos falsos r/e", 0.0, 0, 1448323200, 55, 0, 0], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [771522129, "A Sanskrit Manual Course (1+2) Glossary", 0.0, 0, 1450742400, 4398, 2, 53], [323511961, "Health Assessment Chp 24 Musculoskeletal", 0.0, 0, 1445731200, 119, 0, 0], [406808447, "Google Go Tour by DataGallos", 0.0, 0, 1447027200, 26, 0, 0], [45084451, "UTSW Musculoskeletal block", 0.0, 0, 1448064000, 393, 0, 23], [2069321917, "Lithuanian 2015 - Raugyklos g., level 1. Words.", 0.0, 0, 1444176000, 47, 0, 0], [97481091, "Tysk gloset Weitblick kapitel 1 German-Norwegian", 0.0, 0, 1443052800, 130, 0, 0], [2143571650, "Los Paises Hispanos, 8th grade Spanish", 0.0, 0, 1444003200, 22, 0, 0], [99183628, "ISTQB Glossary - Test Analyst", 0.0, 0, 1442880000, 269, 0, 0], [86924670, "blackblossom", 0.0, 0, 1396828800, 51, 0, 156], [1914956553, "Carlos 13.2.", 0.0, 0, 1418515200, 115, 0, 0], [2010112756, "SOCO Espa\u00f1ol - Los N\u00fameros", 0.0, 0, 1437955200, 63, 0, 0], [108378900, "Wichtige Philosophische Begriffe des Altgriechischen", 0.0, 0, 1435017600, 226, 0, 0], [2153165638, "English greek glossar 1", 0.0, 0, 1378857600, 417, 0, 0], [1481802008, "Franska glosor, French words in Swedish", 0.0, 0, 1436486400, 56, 0, 0], [1571963302, "Pueblos", 0.0, 0, 1411689600, 10, 10, 0], [70758968, "Angielski kolos 2", 0.0, 0, 1433116800, 111, 0, 1], [1420583073, "Schl\u00fcssels\u00e4tze der Altgriechischen Philosophie", 0.0, 0, 1435017600, 96, 0, 0], [1325409801, "History of Philosophy Final", 0.0, 0, 1432771200, 82, 162, 3], [650313559, "Golosa Book II", 0.0, 0, 1431907200, 880, 0, 0], [1093586330, "Carlos 3.3", 0.0, 0, 1412035200, 138, 0, 0], [2710934401, "BUSINESS, WORK AND TIME - TEACHER CARLOS", 0.0, 0, 1378771200, 24, 0, 0], [842494840, "Carlos 4.", 0.0, 0, 1412985600, 111, 0, 0], [1211632134, "Carlos 9.3.", 0.0, 0, 1414281600, 124, 0, 0], [1240254838, "Carlos 2.2.", 0.0, 0, 1410739200, 153, 0, 0], [22015729, "Farma 3 rok kolos 2", 0.0, 0, 1435968000, 180, 0, 0], [1986373007, "Carlos 10.1.", 0.0, 0, 1414627200, 142, 0, 0], [2017257931, "1907SchlOsieGU2013 ", 0.0, 0, 1373414400, 180, 0, 3], [840622926, "SOCO Espa\u00f1ol - Articulos de Oficina", 0.0, 0, 1437955200, 22, 0, 0], [2059308505, "MSA_SS+U1-4_Glossary", 0.0, 0, 1422576000, 1320, 555, 7], [374147771, "SOCO Espa\u00f1ol - Las Diversiones, La Ciudad y Los Edificios", 0.0, 0, 1437955200, 55, 0, 0], [223852644, "Sueco castiliano / Espa\u00f1ol glossario", 0.0, 0, 1425513600, 31, 0, 0], [987057128, "Carlos \u00f3rai 2.", 0.0, 0, 1417737600, 11, 0, 0], [1412339024, "Carlos 10.2.", 0.0, 0, 1414627200, 173, 0, 0], [1668731633, "Carlos 4.2.", 0.0, 0, 1413590400, 125, 0, 0], [207392097, "Persian-Farsi - DLIFLC - GLOSS - \"An Epidemic Disease\"", 0.0, 0, 1417305600, 205, 0, 0], [375758396, "ClosedBook SO 330", 0.0, 0, 1429747200, 181, 0, 0], [748760378, "Carlos 2.1.", 0.0, 0, 1410652800, 112, 0, 0], [1764366504, "Carlos 10.4.", 0.0, 0, 1416614400, 9, 0, 0], [1886498013, "Znalost terminologie oboru \u010desk\u00fd jazyk (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 121, 0, 0], [1664601859, "Carlos 4.3.", 0.0, 0, 1413676800, 126, 0, 0], [104861841, "Philosophical Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 28, 0, 0], [43068708, "Persian-Farsi - DLIFLC - GLOSS - Judgment", 0.0, 0, 1417305600, 145, 0, 0], [569437139, "Persian-Farsi - DLIFLC - GLOSS - An Apartment For Rent", 0.0, 0, 1417305600, 131, 0, 0], [4184751756, "Eksamensgloser", 0.0, 0, 1368403200, 82, 0, 0], [411344612, "Glossary for Mosby's Paramedic", 0.0, 0, 1437696000, 2789, 0, 0], [366216958, "Carlos \u00f3rai", 0.0, 0, 1417737600, 39, 0, 0], [1033790309, "Glossaire Comic", 0.0, 0, 1426204800, 86, 0, 0], [2123609188, "Carlos 11.1.", 0.0, 0, 1416009600, 121, 0, 0], [1960412739, "English greek glossar 2", 0.0, 0, 1378857600, 66, 0, 0], [1981886344, "Carlos 10.3.", 0.0, 0, 1414800000, 131, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [526202495, "Carlos 3.2.", 0.0, 0, 1411862400, 126, 0, 0], [1241596817, "German Greek Glossar b1 level", 0.0, 0, 1378684800, 1169, 0, 0], [31175455, "Scala Glossary of Terms", 5.0, 1, 1417132800, 124, 0, 1], [418443811, "Carlos 2.", 0.0, 0, 1410566400, 93, 0, 0], [814604981, "glossaire des termes douaniers internationaux ", 0.0, 0, 1421366400, 165, 0, 0], [1552619125, "Carlos 11.2.", 0.0, 0, 1416096000, 135, 0, 0], [770812077, "Golosa Book II", 0.0, 0, 1431907200, 880, 0, 0], [296613539, "tysk_dansk_gloser_500", 0.0, 0, 1388102400, 503, 0, 0], [198493190, "Carlos 14.2.", 0.0, 0, 1420329600, 224, 0, 0], [517260480, "Carlos 9.1.", 0.0, 0, 1414108800, 129, 0, 0], [4255363072, "ANA CLARA - TEACHER CARLOS", 0.0, 0, 1378771200, 11, 0, 3], [324882456, "Carlos 1", 0.0, 0, 1410048000, 164, 0, 0], [1848897344, "Carlos 4.1.s", 0.0, 0, 1413072000, 120, 0, 0], [1675483329, "Carlos 9.2.", 0.0, 0, 1414108800, 123, 0, 0], [1742777566, "Dogs and Cats Weight Loss and Poor Performance", 0.0, 0, 1420243200, 301, 0, 0], [1445468014, "Hindi Samachar Glossary", 0.0, 0, 1345852800, 573, 0, 0], [1797843304, "Philosophy Quiz Bowl", 0.0, 0, 1422835200, 43, 0, 0], [21372190, "Carlos 2.3.", 0.0, 0, 1410912000, 28, 0, 0], [1701817784, "Carlos 13.1.", 0.0, 0, 1418515200, 232, 0, 0], [3297184995, "Path 1 - Musculoskeletal (Ryan's)", 0.0, 0, 1345852800, 38, 0, 1], [973512964, "El Se\u00f1or de los Anillos - Libro 1 - German/Spanish", 0.0, 0, 1425340800, 190, 0, 0], [1063041458, "Carlos 11.4.", 0.0, 0, 1416614400, 68, 0, 0], [273648179, "Persian-Farsi - DLIFLC - GLOSS - \"A New Style of Shopping\"", 0.0, 0, 1417305600, 108, 0, 0], [1730215302, "Carlos 14.1.", 0.0, 0, 1420329600, 164, 0, 0], [1111429788, "Glossary", 0.0, 0, 1402272000, 63, 0, 0], [452050769, "Carlos 3.", 0.0, 0, 1411776000, 118, 0, 0], [1925528289, "Essential Thai Glossary - Revised", 0.0, 0, 1454198400, 6056, 24, 138], [1700776853, "Carlos 14.3.", 0.0, 0, 1420329600, 205, 0, 0], [1359907483, "Farmacolog\u00eda II Ejemplos de interacciones 1er parcial", 0.0, 0, 1364169600, 10, 0, 0], [352737308, "Mandarin gloss words", 0.0, 0, 1377648000, 708, 0, 0], [303974579, "Carlos kar\u00e1csonyi", 0.0, 0, 1419120000, 41, 0, 0], [890240350, "Genki 1 glossary for JP1101", 0.0, 0, 1348790400, 184, 0, 0], [1403851709, "Carlos 13.3.", 0.0, 0, 1418601600, 221, 0, 0], [2088687225, "Carlos 11.3.", 0.0, 0, 1416614400, 129, 0, 0], [2068929282, "DS TUM WS2014/15 Glossar", 0.0, 0, 1421971200, 236, 1, 11], [63683038, "Harry Potter in Hindi Glossary", 0.0, 0, 1345852800, 271, 0, 0], [675669178, "Citations philosophie terminale", 0.0, 0, 1431129600, 21, 0, 0], [1358673525, "Colloquial Gujarati Glossary", 0.0, 0, 1405641600, 1117, 0, 15], [816885892, "Los N\u0169meros de 0 a 100", 0.0, 0, 1345852800, 100, 0, 0], [1674884688, "Carlos 9.4.", 0.0, 0, 1414281600, 59, 0, 0], [3690720131, "Glosario Economia de la Empresa", 0.0, 0, 1345852800, 64, 0, 0], [2629571547, "Posicion de los elementos en la tabla periodica", 0.0, 0, 1383955200, 118, 0, 118], [933077044, "Carlos 11.5.", 0.0, 0, 1416960000, 79, 0, 0], [821704340, "English for Russians (Philosophical anthropology edition)", 5.0, 1, 1426636800, 1810, 0, 0], [2887175275, "Abiturglossar Deutsch f\u00fcr polnische Lerner PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 254, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Los</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

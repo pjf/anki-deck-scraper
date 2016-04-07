@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1901155898, "introduction to the nervous system", 0.0, 0, 1454803200, 78, 0, 0], [692239742, "structure of the nervous system", 0.0, 0, 1454803200, 36, 0, 0], [316207615, "HAII Midterm 1 - Cranial Nerves", 0.0, 0, 1454889600, 45, 0, 1], [506616187, "Windows Server 70-411", 0.0, 0, 1454284800, 179, 1, 1], [525444776, "Advanced English - PowerVocab (Common Words)", 0.0, 0, 1451347200, 21, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [1325646945, "Sopica syst\u00e8me nerveux", 0.0, 0, 1453248000, 20, 0, 1], [508547589, "Human rights (from Malala Yousafzai interview)", 0.0, 0, 1452902400, 15, 15, 6], [1288080496, "Citologia Pr\u00e1tica - Tecido Nervoso", 0.0, 0, 1451865600, 64, 0, 48], [1193596505, "Higher Functions of the Nervous System", 0.0, 0, 1449014400, 46, 0, 6], [766471892, "SZF - Qualitative Interviews", 0.0, 0, 1449878400, 9, 0, 0], [669416141, "Anatomie - Nervensystem", 0.0, 0, 1449878400, 21, 0, 0], [1323391467, "USCIS Naturalization Interview and English Test", 0.0, 0, 1427241600, 160, 19, 0], [1533405180, "ODOM: Medical Risk Assessment, Interviewing, and Med Hx", 0.0, 0, 1449619200, 79, 0, 4], [138943107, "Spinal Cord & Spinal Nerves", 5.0, 1, 1449014400, 101, 0, 29], [904904278, "Liste de sberves en pr\u00e9position fran\u00e7ais - espagnol", 0.0, 0, 1449532800, 105, 0, 0], [96595505, "Brain & Cranial Nerves", 0.0, 0, 1449014400, 83, 0, 27], [1317821984, "c++ interview quesitons", 0.0, 0, 1445299200, 589, 0, 238], [1009629345, "Autonomic Nervous System", 0.0, 0, 1449014400, 31, 0, 7], [1965238542, "1000 k\u00e9rd\u00e9s angol service a", 0.0, 0, 1447804800, 243, 0, 0], [805615255, "Nerven des Halses", 0.0, 0, 1447632000, 6, 0, 0], [1300878464, "1000 k\u00e9rd\u00e9s angol service b", 0.0, 0, 1447804800, 188, 0, 0], [4186458196, "Musical Interval Training", 4.0, 1, 1381795200, 216, 0, 0], [866043193, "Social Studies overview of Government_EC", 0.0, 0, 1445385600, 120, 0, 0], [1495060148, "Rhodin Nerves EM histo", 0.0, 0, 1444521600, 42, 0, 42], [364080194, "Direito Administrativo - Interven\u00e7\u00e3o do Estado - TLP", 0.0, 0, 1431302400, 14, 0, 0], [2143509951, "Java Web Services Certification", 0.0, 0, 1442534400, 182, 0, 0], [1459919581, "Flervariabelanalys", 0.0, 0, 1442534400, 239, 0, 24], [794994494, "Cranial Nerves for Beth", 0.0, 0, 1444694400, 137, 0, 0], [1975355015, "HSF: Back Muscle Innervation and Function", 0.0, 0, 1444003200, 16, 0, 0], [1621453015, "Nervous system (Wong)", 0.0, 0, 1443052800, 50, 0, 0], [1178030090, "Hirnnerven", 0.0, 0, 1434844800, 60, 0, 0], [900483564, "Cranial nerve CS", 0.0, 0, 1440460800, 81, 0, 25], [1468623806, "Nervous system", 0.0, 0, 1442620800, 31, 0, 0], [1469536693, "human phys: nervous system king usfca adb", 0.0, 0, 1443398400, 71, 0, 0], [1373793750, "Marrs CV Overview", 0.0, 0, 1441756800, 45, 0, 0], [1388443283, "MTH - Sensory Innervation to Hand", 0.0, 0, 1440028800, 13, 0, 13], [2037226027, "DLI Joint Service Study Guide", 0.0, 0, 1439251200, 204, 0, 0], [1694030544, "Nervous system", 0.0, 0, 1406419200, 54, 0, 0], [1391731184, "Pupil and Optic Nerve", 0.0, 0, 1424563200, 22, 0, 3], [669757205, "Posterior Mediastinum, Autonomic Nervous System", 0.0, 0, 1440374400, 47, 0, 42], [1831927300, "WU2019 - Superficial Back, Nerves, Radiology", 0.0, 0, 1439510400, 47, 0, 14], [1129430024, "Lei 8.112/90 - Servidor p\u00fablico federal", 0.0, 0, 1430956800, 25, 0, 0], [915248866, "UML DPT Terms List: Cranial Nerves", 0.0, 0, 1423353600, 38, 0, 34], [5683534, "Interval 8 - Chris", 0.0, 0, 1383004800, 17, 0, 15], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [1233442668, "Development of the Nervous System", 0.0, 0, 1424563200, 32, 0, 5], [180446828, "Cranial Nerves - Role in Eating/Drinking, Swallowing, Speech", 0.0, 0, 1438732800, 17, 0, 0], [1132873061, "M\u00f6llers - The company and its products and services", 0.0, 0, 1438214400, 27, 0, 0], [2044931013, "Interview Prep", 0.0, 0, 1421971200, 254, 0, 0], [3468774072, "Interval 10 Stuff", 0.0, 0, 1385078400, 14, 0, 11], [349972243, "SQL Server - useful notes", 0.0, 0, 1406073600, 6, 0, 0], [3395099349, "Penn Med Interval 2", 0.0, 0, 1380758400, 28, 0, 20], [1268003167, "Interval 4 Thorax", 0.0, 0, 1381104000, 14, 0, 11], [96867093, "AME PROCESSO DO TRABALHO - SERVI\u00c7OS AUXILIARES DA JT", 0.0, 0, 1409788800, 34, 0, 0], [1957763276, "GAL81 - L\u00f6schwasserversorgung", 0.0, 0, 1433635200, 32, 0, 0], [428692755, "Anatomy Terms: Blood Supply and Nerve Path", 0.0, 0, 1437091200, 19, 0, 0], [54710468, "Interval 6 - Spine", 0.0, 0, 1382313600, 34, 0, 26], [1189084931, "Arquitetura cliente-servidor", 0.0, 0, 1437696000, 8, 0, 0], [533170176, "persisk undervisning med Nina", 0.0, 0, 1413244800, 78, 0, 0], [1371127401, "Interviewing Patients", 0.0, 0, 1413417600, 31, 0, 0], [623986129, "Service Oriented Architecture (SOA)", 0.0, 0, 1437696000, 18, 0, 0], [1149372936, "Immuno Overview", 0.0, 0, 1358726400, 23, 0, 0], [1039165213, "MSU ANTR 350 Fall 2014 - Nervous System General", 0.0, 0, 1412553600, 30, 0, 4], [782634910, "Ukulele Intervals", 0.0, 0, 1435795200, 52, 0, 0], [134561151, "ESFT Assessment Methods & Interventions", 0.0, 0, 1436313600, 25, 0, 0], [160820336, "SHB Exam 3: Development of the Nervous System", 0.0, 0, 1417305600, 71, 0, 54], [3696062251, "Nerve Muscle Physiology", 0.0, 0, 1379635200, 82, 0, 3], [504647912, "BSHo Obs & Gyn Path: Cervical Ca, Ovarian Ca, Dysmenorrho", 0.0, 0, 1401580800, 30, 0, 0], [1646024503, "WMS - Cranial nerves ", 0.0, 0, 1390608000, 47, 0, 1], [1024868833, "OS1 Cranial Nerves", 0.0, 0, 1388793600, 16, 0, 2], [1215187650, "Labour and Conservatives (UK)", 0.0, 0, 1399507200, 65, 0, 0], [1183291079, "MSU ANTR 350 Fall 2014 - Cranial Nerves Groups", 0.0, 0, 1412553600, 24, 0, 9], [845527755, "B&B 03.05.15 Nervous System Injury and Repair", 0.0, 0, 1425600000, 22, 0, 0], [1057681180, "GA-2 Cranial Nerves - Basic", 0.0, 0, 1414368000, 22, 0, 11], [3439860879, "Foreign Service Institute Swedish Units 1-4", 0.0, 0, 1371081600, 350, 0, 0], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [1081415022, "B&B 02.12.15 Neurobiology of Peripheral Nerve", 0.0, 0, 1424044800, 32, 0, 1], [282809961, "Les grandes r\u00e9gions du cerveau en 3D - neurologie", 0.0, 0, 1390867200, 27, 0, 1], [1038402109, "Random Interview Words", 0.0, 0, 1422489600, 225, 0, 0], [988266460, "jobbintervjuet - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [290491956, "Sensory Receptors and the Peripheral Nervous System", 0.0, 0, 1380672000, 50, 0, 0], [3392029540, "37C - Cranial Nerve Images", 0.0, 0, 1384560000, 16, 0, 0], [1691256090, "CTB II- Nerve Conduction and Synapses", 0.0, 0, 1411948800, 17, 0, 2], [1068845476, "Ukelele Intervals", 0.0, 0, 1435622400, 52, 0, 0], [707544955, "Nerves - MECH2901 Anatomy and Physiology for Engineers", 0.0, 0, 1410480000, 12, 0, 0], [1842504228, "MSU ANTR 350 Fall 2014 - Cranial Nerves Discrete", 0.0, 0, 1412553600, 67, 0, 0], [1587772743, "Interval 8--Anterior/lateral Leg", 0.0, 0, 1383177600, 27, 0, 26], [795025977, "Nervi spinali - Anatomia (UniPD MED 3-4)", 0.0, 0, 1362268800, 28, 0, 0], [1671149819, "LECOM ANATOMY CRANIAL NERVES ", 0.0, 0, 1412726400, 29, 0, 26], [13083552, "OSU - Neuro - Nerve Anatomy", 0.0, 0, 1423094400, 51, 0, 65], [4037245045, "37C - Cranial Nerves", 0.0, 0, 1384560000, 76, 0, 0], [4031016556, "penn med anatomy Interval 1", 0.0, 0, 1380758400, 55, 0, 22], [162285217, "       14 Muskelsygdomme, Myasteni og nervebet\u00e6ndelse", 0.0, 0, 1420070400, 37, 0, 21], [104728904, "206 added to overview", 0.0, 0, 1423353600, 0, 0, 0], [221085830, "10 Diencephalon, limbiske sys, autonomt nervsystem", 0.0, 0, 1415145600, 29, 0, 33], [1593544044, "Interval 10--Neck", 0.0, 0, 1384905600, 13, 0, 12], [1091818207, "Interval3- ducts and stuff", 0.0, 0, 1380758400, 22, 0, 13], [1082244531, "Cranial Nerves Anatomy Exam II", 0.0, 0, 1412121600, 195, 0, 2], [1749548332, "Histology Lecture Weeks 6-9 (Nerve - Blood II)", 0.0, 0, 1381104000, 172, 0, 5], [977102681, "Interval 5", 0.0, 0, 1381363200, 68, 0, 37], [1003871939, "MCM Test 3: 8.14 Nerve Tissue (Heck)", 0.0, 0, 1408492800, 61, 0, 0], [116478246, "RLR #87 \u2013 Fluency Interview & the Schwah Sound", 0.0, 0, 1421193600, 30, 30, 0], [1666859832, "Interval 7 arm and axilla", 0.0, 0, 1382918400, 31, 0, 37], [804370823, "Nervous system", 0.0, 0, 1428451200, 470, 0, 0], [1880771261, "Nervesystemets udvikling, meninges og ventrikelsystemet", 0.0, 0, 1409875200, 22, 0, 1], [2423763141, "Cranial Nerves, Speech Emphasis", 0.0, 0, 1345852800, 74, 0, 0], [212924380, "Sejt \u00e9s szervbiok\u00e9mia I", 0.0, 0, 1422403200, 75, 0, 0], [964209750, "Interval 9--Hand", 0.0, 0, 1383609600, 19, 0, 18], [462375589, "37C - Nervous System", 0.0, 0, 1384560000, 85, 0, 0], [1536680833, "nerve regeneration", 0.0, 0, 1417478400, 24, 0, 6], [198433008, "U.S. Presidents Dates of Service", 0.0, 0, 1408406400, 50, 0, 0], [2010189000, "Histology Nerve", 0.0, 0, 1407196800, 27, 0, 30], [1460954641, "Fuller Cervical interactive", 0.0, 0, 1424649600, 37, 0, 9], [1951050529, "K4 \u2013 Billeddiagnostik Columna Cervicalis", 0.0, 0, 1400716800, 128, 0, 70], [1677108138, "Anatomy: Nerve Lesions 12/12", 0.0, 0, 1418515200, 43, 0, 0], [737995763, "Jenna's Cranial Nerve Deck", 0.0, 0, 1413936000, 40, 0, 0], [2161294631, "AF2 dissektion 8 - kar, nerver og andre strukturer", 0.0, 0, 1345852800, 37, 0, 74], [312776716, "Autonomic Nervous System", 0.0, 0, 1410048000, 20, 0, 1], [1290753172, "Nervous You are; FORCE a powerful ally indeed", 0.0, 0, 1378339200, 971, 0, 244], [1971855870, "Upper limb Muscle actions and innervations", 0.0, 0, 1411862400, 17, 0, 0], [1733504599, "Intervals - GuitarOS by Fretboard Anatomy", 0.0, 0, 1422403200, 170, 0, 170], [1696362650, "Guitar Fretboard Intervals", 3.0, 1, 1345852800, 180, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Erv</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

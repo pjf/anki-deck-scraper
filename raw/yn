@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[880373388, "Gynaecology problems for Karen ", 0.0, 0, 1454112000, 90, 0, 0], [1791528899, "Lipid and fatty acid synthesis", 0.0, 0, 1454716800, 7, 0, 0], [1076652170, "amino acid syntthesis", 0.0, 0, 1454716800, 5, 0, 0], [593546569, "Thermodynamics", 0.0, 0, 1453334400, 56, 0, 0], [691308250, "Trident OB gyn", 0.0, 0, 1452643200, 17, 0, 0], [1737960691, "Angielski-medycyna", 0.0, 0, 1452384000, 128, 0, 0], [1214884963, "OB/GYN CM 3", 0.0, 0, 1452038400, 174, 0, 124], [1902544577, "CVS - Syncope", 0.0, 0, 1452124800, 2, 0, 0], [1168886521, "OB/Gyn", 0.0, 0, 1450137600, 492, 0, 58], [1743201350, "CVS - brugada syndrome", 0.0, 0, 1452124800, 4, 0, 2], [2000308879, "CM OB/GYN 2", 0.0, 0, 1449964800, 217, 0, 202], [1358745200, "obgyn", 0.0, 0, 1449014400, 88, 0, 0], [1921475781, "Ideologie, doktryny polityczne (oprac. Bog.Piet.)", 0.0, 0, 1448928000, 64, 0, 0], [1341236757, "Nynorsk sonans", 0.0, 0, 1443657600, 22, 3, 0], [178692786, "ODOM: Head and Neck Exam of Oral Cavity and Oropharynx", 0.0, 0, 1449532800, 77, 0, 34], [1869547261, "El arabya bayna yadayk 1/2", 0.0, 0, 1446163200, 190, 1, 0], [8477291, "OB/GYN Patho 4", 0.0, 0, 1448323200, 166, 0, 207], [1232637648, "Spanish Synonyms GL", 0.0, 0, 1447632000, 239, 0, 1], [1344126503, "OBGYN Steph", 0.0, 0, 1447804800, 2130, 0, 51], [807003656, "EN OB/GYN CM 1", 0.0, 0, 1448928000, 122, 0, 130], [752007058, "OB/GYN Cell Bio/Physio 3", 0.0, 0, 1448236800, 80, 0, 78], [2005246453, "4MB3 Obs & Gynae", 0.0, 0, 1449273600, 241, 0, 0], [49880928, "Nynorsk verb", 0.0, 0, 1443657600, 113, 3, 0], [1344654951, "Synaptic transmission", 0.0, 0, 1443744000, 19, 0, 0], [1100085563, "miriam-hemodynamics", 0.0, 0, 1444521600, 96, 2, 82], [1114281850, "Fluidsystemdynamik I (SoSe 2015)", 0.0, 0, 1443484800, 149, 0, 136], [2080576766, "Protein Synthesis, Folding, + Degradation", 0.0, 0, 1439942400, 36, 0, 0], [678779340, "Nynorsk verb-b\u00f8ying sonans", 0.0, 0, 1443657600, 112, 3, 0], [1540866098, "Cambridge Part II Physics: Optics and Electrodynamics ", 0.0, 0, 1413504000, 43, 0, 79], [1557620138, "B1: OMM Dynamic Motion Practical", 0.0, 0, 1441411200, 12, 0, 0], [626640506, "Pharmacodynamics", 0.0, 0, 1439942400, 36, 0, 14], [1893134816, "Protein Synth/Gene Expression", 0.0, 0, 1441238400, 28, 0, 0], [1118965325, "Pattern Dynamics - a Pattern Language for the 21st Century", 0.0, 0, 1442188800, 65, 0, 0], [187075054, "MCP Lecture 20 Synaptic Transmission", 0.0, 0, 1440547200, 89, 0, 7], [850441621, "MCP Lecture 22 - Synaptic Physiology", 0.0, 0, 1440633600, 76, 0, 16], [1543493246, "Obs Gyn MS3 2015", 0.0, 0, 1440633600, 767, 0, 305], [1877153096, "Voc :  \" el arabya bayna yadayk \" ---Arabe / Fran\u00e7ais ( 2/2)", 0.0, 0, 1430265600, 77, 1, 0], [790318599, "syncope I and II", 0.0, 0, 1441324800, 36, 0, 0], [774471132, "gyne quiz", 0.0, 0, 1423612800, 9, 0, 0], [64808226, "Adult II Week 9 - Hemodynamics", 0.0, 0, 1416268800, 45, 0, 10], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [1281684242, "Areo dynamik \u00f8vekort (danish)", 0.0, 0, 1420502400, 1, 0, 0], [4247660659, "neck larynx pharynx ACA", 0.0, 0, 1385424000, 28, 0, 0], [1098212805, "AMC Gynecologie obstetrique Geneve 2014", 0.0, 0, 1432425600, 125, 0, 4], [1714660676, "B&B 02.26.15 Parietal Lobe Syndromes", 0.0, 0, 1425427200, 30, 0, 1], [1583349231, "Biochem Chapter 22: Protein synthesis", 0.0, 0, 1430697600, 24, 3, 2], [330556350, "Biochem, Unit 4; Dynamic Mutations, Uniparental Disomy, and ", 0.0, 0, 1414108800, 65, 0, 0], [92286361, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1416441600, 43, 0, 0], [631530298, "Real Estate Dynamics", 0.0, 0, 1424736000, 184, 0, 0], [1388417611, "Metabolic Syndrome/Diabetes", 0.0, 0, 1411776000, 52, 0, 0], [414394398, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1417651200, 43, 0, 0], [24662280, "Gy\u00f3gyn\u00f6v\u00e9ny", 0.0, 0, 1430870400, 0, 0, 0], [152207854, "CVA Necturus Head and Pharyngeal Muscles", 0.0, 0, 1382659200, 10, 0, 0], [504647912, "BSHo Obs & Gyn Path: Cervical Ca, Ovarian Ca, Dysmenorrho", 0.0, 0, 1401580800, 30, 0, 0], [2004372912, "BSHo Gyn - Abnormal Uterine Bleeding", 0.0, 0, 1394928000, 29, 0, 1], [818909923, "Blynyddoedd", 0.0, 0, 1398211200, 30, 0, 0], [1729132601, "English 329 Syntax", 0.0, 0, 1402012800, 41, 0, 13], [1989616354, "Primary Aerodynamics", 0.0, 0, 1359936000, 12, 0, 0], [499451121, "Lec 13 Synthesizing and Interpreting Scientific Evidence", 0.0, 0, 1414540800, 14, 0, 0], [1651585859, "Alex Neuro Synet", 0.0, 0, 1413936000, 25, 0, 28], [1691256090, "CTB II- Nerve Conduction and Synapses", 0.0, 0, 1411948800, 17, 0, 2], [3357114987, "Path Lab 5: Hemodynamic Disorders", 0.0, 0, 1372291200, 24, 0, 26], [576770939, "Computational Fluid Dynamics for Engineers", 0.0, 0, 1432512000, 133, 0, 48], [1706529172, "Anatomy: Pharynx/Larynx 10.30", 0.0, 0, 1415577600, 85, 0, 13], [400985285, "Statistik und Thermodynamik", 0.0, 0, 1392249600, 142, 0, 345], [1238636042, "OB GYN PEDS NEO", 0.0, 0, 1426032000, 393, 0, 5], [1503753850, "Gynecologic Pathology 3/Ovarian Cancer", 0.0, 0, 1431475200, 66, 0, 24], [326615286, "Biochem Chapter 16: Photosynthesis", 0.0, 0, 1430697600, 31, 3, 2], [1559958794, "Long QT Syndrome", 0.0, 0, 1418428800, 21, 0, 0], [597321259, "MDTI 01.09.15 Hemodynamic Disorders", 0.0, 0, 1420934400, 53, 0, 0], [242307405, "BSHo Gyn Menopause and PMB", 0.0, 0, 1396742400, 22, 0, 0], [1560487780, "Bruce Cynthia Phys 101", 0.0, 0, 1365379200, 19, 0, 37], [1304733696, "FHB Small Group: Hemodynamics", 0.0, 0, 1422489600, 7, 0, 5], [381666314, "Brainstem 3 Syndromes", 0.0, 0, 1425081600, 22, 0, 0], [1004482801, "BIOSCI 50 - LMC Payne - Unit 03 Deck", 0.0, 0, 1395792000, 178, 0, 12], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [1440962064, "B&B 02.19.15 Cerebellar Syndromes", 0.0, 0, 1425427200, 20, 0, 0], [442194200, "CofO2 - 10 - Haemodynamics", 0.0, 0, 1345852800, 18, 0, 0], [160337673, "BIOSCI 50 - LMC Payne - Unit 04 Deck", 0.0, 0, 1397606400, 188, 0, 21], [351332519, "MDTI Hemodynamic Disorder Pathology", 0.0, 0, 1421020800, 28, 0, 5], [995808633, "English Synonyms Jon", 0.0, 0, 1345852800, 35, 0, 0], [1222317, "SIP5a - Gyn\u00e4kologie", 0.0, 0, 1401580800, 245, 0, 0], [3828632470, "Syntax in Linguistics", 0.0, 0, 1345852800, 16, 0, 0], [892076312, "Flynn Vocab", 0.0, 0, 1397433600, 0, 0, 0], [320677583, "Metasyntactic Encryption Variables", 0.0, 0, 1394755200, 16, 0, 0], [795779909, "SIP 3 - Block 15 (Gyn)", 0.0, 0, 1403222400, 48, 0, 1], [1860671939, "BSHo Gyn - Contraception ", 0.0, 0, 1394928000, 26, 0, 1], [2851914854, "frxprnsp6gyn", 0.0, 0, 1371081600, 206, 0, 0], [1662909579, "SS UNM SOM HSF&D Weeks 9 Neck, pharynx, larynx", 0.0, 0, 1413849600, 802, 0, 529], [124822964, "BIOSCI 50 - LMC Payne - Unit 02 Deck", 0.0, 0, 1393200000, 231, 0, 38], [1238493521, "Gynecologic Pathology 2", 0.0, 0, 1431475200, 63, 0, 18], [2040725097, "FINAL FLYNN", 0.0, 0, 1400025600, 0, 0, 0], [1230039843, "Qing Dynasty Flashcards", 0.0, 0, 1393200000, 57, 0, 0], [2122422057, "Flynn Vocab", 0.0, 0, 1397433600, 30, 0, 0], [1499954558, "marwanounet-gyn", 0.0, 0, 1449014400, 235, 0, 20], [505855120, "Maynooth Immunology Third year", 0.0, 0, 1417132800, 149, 0, 0], [962317657, "BIOSCI 50 - LMC Payne - Unit 05 Deck", 0.0, 0, 1399420800, 256, 0, 21], [1384552553, "OB/ GYN/ PEDS", 0.0, 0, 1425427200, 309, 0, 3], [3853494186, "37C - Neck Larynx and Pharynx", 0.0, 0, 1385510400, 28, 0, 0], [261932662, "Anatomy: Nasopharynx 11/5", 0.0, 0, 1415491200, 48, 0, 0], [838287247, "Spinal cord syndromes", 0.0, 0, 1424563200, 31, 0, 8], [1255379113, "Flynn Vocab Groups", 0.0, 0, 1398211200, 15, 0, 0], [244841319, "Fyzika 2 - Mechanika a termodynamika (Pomi)", 4.0, 1, 1409443200, 101, 0, 97], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [471503410, "German Synonyms", 0.0, 0, 1360022400, 54, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

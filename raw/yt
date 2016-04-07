@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[889021449, "Anatomy Lab Everything before axial lecture", 0.0, 0, 1454976000, 90, 0, 0], [1621569193, "selfstudythai.com vocabulary w/audio from VOA articles 1-85", 0.0, 0, 1406764800, 5392, 1748, 0], [1809024443, "Python Basics", 0.0, 0, 1454025600, 25, 0, 0], [172142717, "PHD cytokines from Scribes and FA ", 0.0, 0, 1453248000, 24, 0, 0], [371011205, "Recombinant Cytokines and Clinical Uses", 0.0, 0, 1453075200, 9, 0, 0], [560595400, "Japanese - Everything v2.0", 0.0, 0, 1453334400, 576, 1, 0], [1120113808, "Python 3 Tutorial", 0.0, 0, 1444521600, 124, 0, 1], [2091312412, "Repetytorium 6-klasisty. Pearson. Dzial 5", 0.0, 0, 1452038400, 124, 0, 0], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1028983649, "Big band Rhythm guitar voicings", 0.0, 0, 1452384000, 111, 0, 111], [1140888189, "Analytical Chemistry", 5.0, 1, 1449360000, 15, 0, 10], [539377625, "selfstudythai.com vocabulary w/audio from VOA articles 1-10", 0.0, 0, 1399852800, 1420, 354, 0], [1239012207, "Python - Built in functions, Keywords, Types", 2.0, 1, 1440892800, 350, 0, 0], [1921916628, "Ctytqg", 0.0, 0, 1445644800, 25, 0, 0], [1619309805, "SZIE N\u00f6v\u00e9nytermeszt\u00e9stani alapsimeretek - Maglista", 0.0, 0, 1446768000, 40, 0, 0], [771821991, "Biol 192 Land Plants from Anthophyta", 0.0, 0, 1444694400, 184, 0, 4], [1799661367, "Yt- och materialkemi CTH", 0.0, 0, 1442966400, 252, 0, 35], [1673911644, "Reading Rhythm Ear Deck - GuitarOS by FretboardAnatomy.com ", 4.0, 1, 1422403200, 32, 22, 24], [1830316972, "Biol 192 Land Plants pre Anthophyta", 0.0, 0, 1444694400, 203, 0, 36], [1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [1594174040, "nauka czytania dla dzieci polish", 0.0, 0, 1442793600, 3, 40, 16], [1021974894, "Think Python Vocabulary", 4.5, 2, 1402876800, 450, 0, 0], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [169738438, "Human Anatomy I, Chapter 2 Everything, Thoracic Wall", 0.0, 0, 1440979200, 109, 0, 17], [1657789477, "Layton's Coptic in Twenty Lessons", 3.0, 1, 1345852800, 616, 0, 0], [1952483701, "Cytoskelleton Deck", 0.0, 0, 1440028800, 23, 0, 0], [2045548240, "Algunos ejercicios de Python", 0.0, 0, 1417651200, 219, 0, 0], [4143849910, "HMS.IMP.Lymphocyte.Traffic.Migration", 0.0, 0, 1364947200, 12, 0, 0], [2059731982, "Leukocyte Extravasation and Phagocytosis", 0.0, 0, 1360627200, 39, 0, 0], [910918558, "Boldog kar\u00e1csonyt! (en)", 0.0, 0, 1410566400, 50, 49, 0], [3158338551, "Chemokines and Cytokines - Innate", 0.0, 0, 1377561600, 43, 0, 0], [1247745800, "marybelectrolytes", 0.0, 0, 1392681600, 34, 0, 3], [363099240, "Cardiac thru arrythmias", 0.0, 0, 1426723200, 644, 0, 180], [4125514695, "meb1cyto1", 0.0, 0, 1382832000, 56, 0, 3], [810454988, " Block 1 - Electrolyte and fluid balance", 0.0, 0, 1388361600, 37, 0, 4], [352829501, "AC II - Analytik", 0.0, 0, 1411603200, 56, 0, 5], [1425078886, "GuitarOS Reading Rhythms 'Eye' Deck - FretboardAnatomy.com ", 0.0, 0, 1422921600, 49, 49, 98], [908890679, "Czytanie", 0.0, 0, 1420934400, 115, 0, 0], [973375470, "Tashelhayt", 0.0, 0, 1427155200, 1355, 1343, 1238], [173433318, "KLP-pytania (bie\u017c\u0105ce, rozszerzone)", 0.0, 0, 1424736000, 43, 0, 0], [1801603017, "Clayton Croy Basic Greek lesson 7 Vocabulary", 0.0, 0, 1411689600, 14, 0, 0], [837998242, "Mythology Quiz Bowl", 0.0, 0, 1422835200, 35, 0, 0], [629797400, "HMS.HG.Cytogenetics", 0.0, 0, 1354665600, 23, 0, 3], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [28459231, "PHYT8001 Wk 6 Quiz. This is a quick made up of week six.", 0.0, 0, 1428796800, 30, 0, 0], [3280779758, "150 sytuacji j\u0119zykowych PL-DE (matura) - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 150, 0, 0], [1118390533, "Krytosemenne - poznavani", 0.0, 0, 1402012800, 147, 0, 148], [893697752, "Boldog kar\u00e1csonyt! (it)", 0.0, 0, 1410566400, 50, 49, 0], [1109612396, "dasha daythorax", 0.0, 0, 1422316800, 84, 0, 85], [902604370, "GuitarOS Reading Rhythms Two - Eye Deck - FretboardAnatomy.c", 0.0, 0, 1425859200, 75, 75, 150], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [1429915215, "MDTI 01.15.15 Hemolytic Anemia", 0.0, 0, 1421366400, 51, 0, 10], [1453046109, "Immunology Cytokines, Surface Molecules, Acronyms", 0.0, 0, 1418428800, 53, 0, 0], [2130868865, "Norse Creation Mythology", 0.0, 0, 1415404800, 30, 0, 0], [51975584, "Python code quiz", 4.0, 1, 1396396800, 211, 0, 0], [2027819738, "Python for Java developers", 0.0, 0, 1350864000, 83, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [2732046431, "C&TB 2013 (L2): Cytoskeleton", 0.0, 0, 1377561600, 62, 0, 7], [707693633, "Histo B1 - cytoskeleton", 0.0, 0, 1410739200, 19, 0, 21], [3341204081, "Python/Django", 0.0, 0, 1384819200, 143, 0, 0], [1746096413, "Boldog kar\u00e1csonyt!", 0.0, 0, 1387670400, 50, 49, 0], [1805962202, "Layton's Coptic in 20 Lessons - Chapters", 0.0, 0, 1397779200, 345, 0, 0], [559724750, "hemolytic anemia", 0.0, 0, 1421452800, 57, 0, 2], [1183286491, "pytania deutsch syjka", 0.0, 0, 1408147200, 25, 0, 0], [937917443, "Python Truth Tables LPTHW Ex27", 0.0, 0, 1391040000, 34, 0, 0], [818450135, "Hanzi -Grayto", 0.0, 0, 1357516800, 66, 0, 0], [1917082991, "Cytokines", 0.0, 0, 1395964800, 31, 0, 0], [290298801, "Learn Python the Hard Way - Exercise 37", 0.0, 0, 1400630400, 38, 0, 0], [2281776028, "Yt och material", 0.0, 0, 1381363200, 32, 0, 0], [1223227363, "Anything Goes Chinese Lesson 17", 0.0, 0, 1390780800, 92, 0, 0], [300251853, "Everything Learned from the Book \"Running Lean\"", 0.0, 0, 1400976000, 321, 0, 81], [1966591620, "Python Symbols and Keywords LPTHW Ex22", 0.0, 0, 1391040000, 52, 0, 0], [1810942538, "BUSM Neuro: Cytology Lectures", 0.0, 0, 1387152000, 15, 0, 0], [531747341, "parazyty-praktyk", 0.0, 0, 1400630400, 35, 0, 38], [1966896566, "Mythologia", 0.0, 0, 1411430400, 349, 0, 0], [3201067748, "pyth_my_den", 0.0, 0, 1353628800, 1, 0, 0], [1737181506, "Anatomy Shambhava Yoga HYTT 200", 0.0, 0, 1405296000, 51, 0, 0], [985193042, "Vitaminok - Szerep, hi\u00e1nyt\u00fcnetek", 0.0, 0, 1423699200, 12, 0, 0], [646738116, "Python Programming Language", 4.0, 1, 1399334400, 151, 0, 164]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

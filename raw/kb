@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[771218080, "Tema 34 BKB", 0.0, 0, 1448236800, 10, 0, 0], [787513018, "Tema 28 BKB", 0.0, 0, 1448236800, 12, 0, 0], [1796613796, "Tema 33 BKB", 0.0, 0, 1448236800, 10, 0, 0], [56454531, "Tema 35 BKB ", 0.0, 0, 1448236800, 10, 0, 0], [1512461686, "Tema 31 BKB", 0.0, 0, 1448236800, 12, 0, 0], [1108004459, "Tema 30 BKB", 0.0, 0, 1448236800, 10, 0, 0], [786746622, "ATSU-SOMA_NMSKB_Class of 2019", 0.0, 0, 1448409600, 830, 0, 254], [413086357, "Tema 29 BKB", 0.0, 0, 1448236800, 12, 0, 0], [126656311, "Tema 32 BKB", 0.0, 0, 1448236800, 12, 0, 0], [1388702291, "Tema 27 BKB", 0.0, 0, 1448236800, 12, 0, 0], [2016827836, "KBB deck, anatomi, patoloji", 0.0, 0, 1443830400, 2428, 0, 361], [1141938841, "BKBV1", 0.0, 0, 1444348800, 120, 0, 0], [1386947410, "teck akbari", 0.0, 0, 1442361600, 130, 112, 1], [86924670, "blackblossom", 0.0, 0, 1396828800, 51, 0, 156], [1625510225, "Polymer Chemistry and Physics (KBT025)", 0.0, 0, 1420761600, 44, 0, 6], [1097945115, "SKB TU Berlin - Chinesisch A1.1 (2015)", 0.0, 0, 1436918400, 220, 183, 0], [431021649, "Colores 2.   Ford\u00edt\u00e1si gyakorlat a Colores 2. megold\u00e1sokb\u00f3l", 0.0, 0, 1407974400, 17, 0, 0], [902482244, "magyar - angol kezdoknek  kb 2000 words", 0.0, 0, 1434326400, 1935, 0, 0], [50755379, "Solid State KBT100", 0.0, 0, 1414022400, 7, 0, 0], [269843821, "KBT265", 0.0, 0, 1427328000, 20, 0, 5], [1870252532, "BKB Lesson 16", 0.0, 0, 1414972800, 40, 0, 0], [1523231890, "AEKB", 0.0, 0, 1391212800, 382, 0, 8], [773856807, "Portuguese Backbone", 0.0, 0, 1354665600, 19, 19, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

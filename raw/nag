@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[546862538, "Management Chapter 3,4,5", 0.0, 0, 1454371200, 69, 0, 0], [125752323, "Modern Database Management flash cards for final exam study.", 0.0, 0, 1402358400, 57, 117, 7], [1039535471, "Management Chapter 1 and 2", 0.0, 0, 1453852800, 54, 0, 0], [1374527835, "SIAM Supplier Integration and Management", 0.0, 0, 1453939200, 4, 0, 0], [154959223, "Qualit\u00e4tsmanagement 1", 0.0, 0, 1453161600, 17, 0, 0], [1296528197, "Bauphysik II- Dr\u00e4nagen", 0.0, 0, 1454025600, 30, 0, 0], [1504008975, "Technisches Management Kapitel 3", 0.0, 0, 1453161600, 1, 0, 0], [420867799, "Devanagari Script (Nepali)", 0.0, 0, 1449532800, 62, 0, 0], [379728389, "US Navy Operational Risk Management", 0.0, 0, 1450137600, 8, 0, 0], [972921164, "Management's first lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 24, 0, 0], [1399457752, "Nagoya YWCA \u4e2d\u7d1aVocab", 0.0, 0, 1449187200, 534, 0, 0], [355292019, "Nagoya YWCA \u4e2d\u7d1a\u306e\u6f22\u5b57", 0.0, 0, 1449187200, 739, 0, 0], [521212613, "46b Management ", 0.0, 0, 1449878400, 222, 3, 4], [1033037446, "Modern Database Management Mid Term Study", 0.0, 0, 1400025600, 52, 0, 5], [614792066, "ELEC4320 Asset Management and Condition Monitoring", 0.0, 0, 1449187200, 77, 0, 12], [1132056661, "USask PHPM - Emergency Health Management", 0.0, 0, 1443484800, 76, 0, 1], [131047773, "Devanagari basic alphabet", 0.0, 0, 1442361600, 49, 0, 0], [1849369642, "VIT - Projektmanagement", 0.0, 0, 1444089600, 41, 0, 4], [644650830, "Operations Management (part 1)", 0.0, 0, 1414195200, 275, 0, 0], [4272712811, "Vorbereitung Personalmanagement", 0.0, 0, 1376870400, 48, 0, 2], [1065931444, "Nagoya YWCA \u521d\u7d1aII \u3051\u3044\u3054", 0.0, 0, 1435449600, 26, 0, 0], [1013594208, "Projekt und Org Management POM SS15 - TUM", 0.0, 0, 1437955200, 212, 1, 22], [2010204117, "Ustensiles de m\u00e9nage", 0.0, 0, 1425686400, 0, 0, 0], [1181795061, "WS2014_IP_Topalov_Teil_3_Kostenmanagement", 0.0, 0, 1422489600, 73, 0, 0], [416154597, "Vorbereitung Veranstaltungsmanagement", 0.0, 0, 1376870400, 65, 37, 1], [114855411, "Earthquake, water & hope (Nepalese Transliteration & Devanag", 0.0, 0, 1430611200, 13, 0, 0], [1370770438, "Homenagem \u00e0s 21 Formas da M\u00e3e Libertadora", 0.0, 0, 1407369600, 7, 0, 0], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [497101181, "STANAG 3rd level", 0.0, 0, 1443398400, 122, 6, 35], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [143442514, "Fragen / Anworten Leadership Change Management", 0.0, 0, 1345852800, 7, 0, 1], [1574511326, "Management Consulting TU Clausthal", 0.0, 0, 1398211200, 226, 0, 24], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [2931826538, "Vorbereitung Grundlagen des Hotelmanagements", 0.0, 0, 1376870400, 52, 0, 0], [936024898, "Nagy vocabulaires", 0.0, 0, 1431475200, 151, 0, 0], [1559426192, "Strategisches Management TU Clausthal", 0.0, 0, 1410825600, 433, 0, 50], [659102374, "Personalmanagement Tourismus & Hospitality", 0.0, 0, 1374105600, 148, 0, 0], [1444847747, "naganuma1", 0.0, 0, 1345852800, 3, 0, 0], [1960924198, "Usinagem", 0.0, 0, 1431734400, 70, 0, 76], [1991394856, "Earthquake, water & hope (Nepalese Devanagari & Transliterat", 0.0, 0, 1430611200, 13, 0, 0], [178137368, "Nagoya YWCA \u521d\u7d1a2", 0.0, 0, 1428710400, 629, 0, 0], [377406306, "Nagoya YWCA \u521d\u7d1a\uff11", 0.0, 0, 1423699200, 996, 0, 0], [2065018530, "IPMA Projektmanagement Level D", 0.0, 0, 1345852800, 272, 0, 0], [1435013078, "NUR 412 Management Test 1", 0.0, 0, 1424044800, 34, 0, 0], [1453908785, "Projektmanagement FU Hagen", 0.0, 0, 1428278400, 46, 0, 0], [3516621390, "Devanagari numeral digits to Arabic numeral digits", 3.0, 1, 1375142400, 10, 0, 0], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [550121301, "Community Health - Disaster Management", 0.0, 0, 1406764800, 59, 0, 3], [1289904250, "Les t\u00e2ches m\u00e9nag\u00e8res", 0.0, 0, 1369094400, 49, 0, 0], [3518047851, "Vorbereitung Yield Management", 0.0, 0, 1376870400, 38, 0, 4], [1312704755, "Yield Management Tourismus & Hospitality", 0.0, 0, 1370822400, 143, 0, 3], [1452595631, "WS2014_IP_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 44, 0, 0], [1309279685, "WS2014_I&P_Topalov_Teil_5_Performance_Management", 0.0, 0, 1422489600, 86, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nag</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

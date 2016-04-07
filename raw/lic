@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2112782806, "Police, law, surveillance", 0.0, 0, 1454976000, 19, 19, 12], [1680286867, "Multiplication Table 2x1 through 20x20 Spreadsheet-built", 4.57, 7, 1395446400, 380, 0, 0], [1212956977, "Policia Nacional SC", 5.0, 1, 1448755200, 3783, 0, 469], [1378991278, "\u00d6ffentliches Recht TUHH", 0.0, 0, 1453766400, 18, 0, 0], [1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [3461391870, "Croy A Primer of Biblical Greek (w/ Audio), all chapters", 0.0, 0, 1378771200, 488, 465, 0], [1737581396, "Scottish Gaelic Adjectives", 0.0, 0, 1453766400, 139, 135, 167], [670484589, "Jura M\u00fcndliche Pr\u00fcfung 1. Staatsexamen", 0.0, 0, 1452124800, 283, 0, 6], [1554982961, "Biblical Hebrew Verbs (Oak Hill College)", 0.0, 0, 1410825600, 384, 0, 383], [1083883813, "Tablas de multiplicar 1 -12", 0.0, 0, 1417392000, 120, 337, 126], [2087980298, "Scottish Gaelic Verbs", 0.0, 0, 1453680000, 124, 214, 104], [1620071018, "Scottish Gaelic Feminine Nouns", 0.0, 0, 1453420800, 171, 278, 283], [443527319, "SFD Policies and Procedures", 0.0, 0, 1453593600, 57, 0, 0], [350293354, "Food (Englishaholic)", 0.0, 0, 1450828800, 33, 0, 0], [1478936314, "Scottish Gaelic Masculine Nouns", 0.0, 0, 1453420800, 307, 427, 411], [1274417947, "Taiwan Driver's License - English - Motorcycle - 2015/07", 0.0, 0, 1441929600, 1606, 0, 323], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [856255493, "Prep deck for the licensing exam in PA", 0.0, 0, 1451952000, 0, 0, 0], [388789441, "TLU 4th Grade Multiplication Review", 0.0, 0, 1452124800, 3, 0, 0], [2060842191, "Multiplication Tables 0-15 ", 5.0, 1, 1449014400, 234, 0, 0], [728568177, "245 diab\u00e8te complications aigues", 0.0, 0, 1449964800, 10, 0, 0], [1410818429, "Policy Based Routing Sim", 0.0, 0, 1451952000, 1, 0, 0], [1304486133, "245- Diabete complications chroniques", 0.0, 0, 1450051200, 14, 0, 0], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [1246083285, "Licence 1 PsychoPatho - Paris8", 0.0, 0, 1450656000, 65, 0, 0], [1424147843, "Biblical hebrew (z polskim t\u0142umaczeniem)", 0.0, 0, 1448668800, 737, 0, 0], [256483708, "Alfabeto Cir\u00edlico - Alfabeto Latino", 0.0, 0, 1449187200, 47, 0, 1], [486546841, "Math Multiplication Table (big)", 0.0, 0, 1446163200, 400, 0, 0], [198545612, "USask PHPM - Public Health Basics", 0.0, 0, 1448064000, 75, 0, 5], [1381733097, "USask PHPM - Policy", 0.0, 0, 1448064000, 11, 0, 0], [413473480, "Mississippi Driver's License", 0.0, 0, 1449014400, 121, 0, 0], [1139068131, "Biblical Hebrew Grammar (Oak Hill College)", 0.0, 0, 1356566400, 251, 0, 0], [986536761, "Folic Acid Metabolism", 0.0, 0, 1447459200, 45, 0, 0], [650180769, "Public Health exam 1 Seana", 0.0, 0, 1447372800, 141, 0, 11], [1243201706, "Biblical greek (z polskim t\u0142umaczeniem)", 0.0, 0, 1448064000, 1058, 0, 0], [1759554282, "12 x 12 multiplication table", 0.0, 0, 1443052800, 169, 0, 0], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [522985317, "Les 99 noms d'Allah et leurs explications.", 0.0, 0, 1447113600, 96, 1, 0], [1190018287, "\u010cesko-anglick\u00fd slovn\u00edk z\u00e1kladn\u00edch term\u00edn\u016f z oboru pru\u017enosti ", 0.0, 0, 1445040000, 190, 0, 0], [2083023461, "IGCSE Edexcel Physics Unit 1 Alice", 0.0, 0, 1446595200, 30, 3, 19], [300594540, "Lecture 5.1 Tricarboxylic Cycle", 0.0, 0, 1444694400, 60, 0, 0], [1750829628, "Gochin DNA Replication Repair Recombination", 0.0, 0, 1441324800, 104, 0, 18], [97481091, "Tysk gloset Weitblick kapitel 1 German-Norwegian", 0.0, 0, 1443052800, 130, 0, 0], [1413590935, "Swedish driver license (English)", 5.0, 1, 1440460800, 216, 0, 133], [2135578217, "Europa stolice (polish)", 5.0, 1, 1442275200, 48, 0, 0], [428748620, "USask PHPM - Public Health ethics", 0.0, 0, 1443484800, 2, 0, 0], [394609033, "VIT - BWL der \u00f6ffentlichen Verwaltung", 0.0, 0, 1444176000, 76, 0, 15], [83429468, "UPB_Gr\u00e4sslich2", 0.0, 0, 1440028800, 87, 0, 16], [1247701499, "FinnFACEM - Endo-metabolic", 0.0, 0, 1439424000, 49, 0, 39], [2118389807, "Taiwan Driver's License - Chinese - Car - 2015/08", 0.0, 0, 1441929600, 1431, 0, 369], [2711974027, "Basics of Biblical Hebrew Pratico and Van Pelt", 3.5, 2, 1345852800, 490, 0, 0], [1115628571, "Carson Biblical Theology Section 1", 0.0, 0, 1443398400, 35, 0, 0], [1233993344, "LATINISMOS -con una explicaci\u00f3n o traducci\u00f3n en espa\u00f1ol-", 0.0, 0, 1439251200, 149, 3, 1], [124654375, "Taiwan Driver's License - English - Car - 2015/08", 0.0, 0, 1441929600, 1427, 0, 371], [1218362948, "Private Pilot License", 5.0, 1, 1345852800, 205, 0, 43], [1295811490, "Taiwan Driver's License - Chinese - Motorcycle - 2015/08", 0.0, 0, 1442016000, 1611, 0, 323], [1129430024, "Lei 8.112/90 - Servidor p\u00fablico federal", 0.0, 0, 1430956800, 25, 0, 0], [400361969, "Question droit public g\u00e9n\u00e9ral", 0.0, 0, 1435276800, 59, 0, 0], [214519432, "Ber\u00fchmte Pers\u00f6nlichkeiten", 0.0, 0, 1441411200, 37, 8, 15], [759150430, "anglictina flex", 0.0, 0, 1431993600, 7910, 0, 0], [2093064714, "Biblical Hebrew consonants and vowels", 0.0, 0, 1426032000, 55, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1104180760, "Estado, Governo e Administra\u00e7\u00e3o P\u00fablica", 0.0, 0, 1438214400, 19, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1856212368, "Cyrylica Gra\u017cdanka", 0.0, 0, 1345852800, 187, 0, 70], [1288087026, "Bielick\u00fd II. ro\u010dn\u00edk", 0.0, 0, 1399680000, 551, 0, 0], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [1231117270, "AME ADM/GEST\u00c3O P\u00daBLICA - RESOLU\u00c7\u00c3O 70 CNJ", 0.0, 0, 1408320000, 23, 0, 0], [228111984, "Stolice pa\u0144stw \u015bwiata", 0.0, 0, 1345852800, 161, 0, 0], [776956959, "AME ADM/GEST\u00c3O P\u00daBLICA", 0.0, 0, 1431302400, 28, 0, 0], [1321651212, "USask PHPM - Public Health", 0.0, 0, 1391212800, 234, 0, 14], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [1805361268, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 5.0, 1, 1365638400, 393, 222, 393], [1388417611, "Metabolic Syndrome/Diabetes", 0.0, 0, 1411776000, 52, 0, 0], [1256549076, "Van Pelt & Pratico Biblical Hebrew Vocab 1-200", 0.0, 0, 1423094400, 200, 0, 0], [161888663, "Tkach--Licensure: Church History Dates", 0.0, 0, 1390867200, 77, 0, 0], [1718848058, "QX Hydraulic system", 0.0, 0, 1411430400, 44, 0, 0], [3427128723, "Great Thinkers of Catholicism", 3.0, 1, 1345852800, 625, 0, 0], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [2001843700, "MHCHS Edexcel Unit 2: Topic 4 Nazi Domestic Policies 1933-39", 0.0, 0, 1388016000, 52, 0, 0], [1874297142, "Licencia de Armas", 0.0, 0, 1409616000, 400, 0, 0], [3565060462, "Alice1", 0.0, 0, 1354233600, 76, 0, 0], [961215878, "Communications in Conflict Resolution", 0.0, 0, 1427068800, 50, 0, 0], [572935623, "Tablas De Multiplicar", 0.0, 0, 1401580800, 100, 0, 1], [4214826034, "Biblical Hebrew ch 3-5", 0.0, 0, 1345852800, 34, 0, 0], [1003864234, "Akkadian (Caplice & Snell)", 0.0, 0, 1345852800, 103, 0, 0], [423814050, "Van Pelt & Pratico Biblical Hebrew Vocab 1001-1101", 0.0, 0, 1424304000, 100, 0, 0], [1535956551, "Catholic Prayers and Scriptures", 0.0, 0, 1390953600, 46, 0, 0], [1745554320, "Direito Administrativo - Bens P\u00fablicos - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1822287745, "APers\u00f6nlichkeitsst\u00f6rung", 0.0, 0, 1401408000, 43, 0, 6], [2841590704, "Biblical Hebrew 201 UofA", 0.0, 0, 1382313600, 267, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [512970025, "DalMed2018 - Publicly Shared Test Deck - Kember", 0.0, 0, 1414368000, 3, 0, 1], [724242811, "Basics of Biblical Hebrew Vocab (PVP)", 0.0, 0, 1425686400, 520, 0, 0], [1946792962, "rowan som biochemistry block 1 lecture 3 replication", 0.0, 0, 1409270400, 90, 0, 23], [206147857, "Biblical Greek (Koine) - Swedish", 0.0, 0, 1345852800, 1126, 0, 0], [2231258951, "zadek anglictina", 0.0, 0, 1359936000, 1, 0, 0], [2617319445, "Biblical Hebrew Vocab (Oak Hill College)", 5.0, 2, 1357689600, 1268, 0, 1268], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [2731661353, "Symbolic Logic @ SCCC", 0.0, 0, 1345852800, 28, 0, 0], [2031114929, "A1. Lesson 11. Meble, wyposa\u017cenie mieszkania, liczba mnoga", 0.0, 0, 1423094400, 33, 33, 30], [3327932949, "Kristallographie I (haupts\u00e4chlich Geometrie)", 0.0, 0, 1389744000, 172, 0, 0], [1471773110, "English Clich\u00e9s / \u82f1\u8a9e\u306e\u30af\u30ea\u30b7\u30a7 (\u6163\u7528\u53e5)", 0.0, 0, 1398211200, 1, 0, 1], [1859036909, "Multiplication Table 2-20", 2.0, 1, 1375747200, 380, 0, 0], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [1381998996, "Orgo 16 Electrophilic Aromatic Substitution EAS", 0.0, 0, 1424217600, 32, 0, 22], [3266517886, "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0443\u043c\u043d\u043e\u0436\u0435\u043d\u0438\u044f/Multiplication Table (zapominaiki_ru)", 5.0, 1, 1383091200, 81, 0, 162], [63574913, "Tkach--Licensure: WSC", 0.0, 0, 1390867200, 58, 0, 0], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [1006688406, "Multiplication Facts: Zero to Twelve", 0.0, 0, 1373760000, 169, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [4164914521, "Herzlichen Gl\u00fcckwunsch", 0.0, 0, 1382054400, 33, 0, 0], [632602298, "MHCHS Edexcel Unit 2: Weimar Republic 1918-33", 0.0, 0, 1383091200, 86, 0, 0], [23276562, "Elementary Biblical Hebrew Vocab (GWC) - with audio", 0.0, 0, 1365638400, 393, 222, 393], [477405248, "[Pool] \u4f53\u306e\u90e8\u5206 \u300c\u304b\u3089\u3060\u306e\u3076\u3076\u3093\u300d (Lichaamsdelen)", 4.0, 1, 1361318400, 34, 0, 0], [2936450995, "Meithai - Allt\u00e4gliches", 5.0, 1, 1383782400, 189, 0, 0], [1283875542, "Van Pelt & Pratico Biblical Hebrew Vocab 1101-1200", 0.0, 0, 1424304000, 100, 0, 0], [2373410558, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [2806365568, "Betriebliche Informationssysteme", 0.0, 0, 1350432000, 0, 0, 0], [1946195018, "Complementary Deck for Basics of Biblical Greek", 0.0, 0, 1419552000, 228, 0, 0], [979729172, "Van Pelt & Pratico Biblical Hebrew Vocab 801 - 1000", 0.0, 0, 1424304000, 200, 0, 0], [1210680970, "Genki I Kanji + zus\u00e4tzliche Kanji ", 0.0, 0, 1391558400, 381, 0, 0], [1241511378, "Fiche 9 - La cause: application classique", 0.0, 0, 1404777600, 9, 0, 0], [1044011339, "Taiwan Driving Licences - Motorcycle", 0.0, 0, 1396137600, 583, 0, 236], [1948782630, "Farbliche Phraseologismen DE-DE (Germanistik Olm\u00fctz)", 0.0, 0, 1345852800, 105, 0, 0], [1376682585, "application of nhle notes", 0.0, 0, 1434499200, 93, 0, 0], [2018715158, "kanji licenta jap mnn an 3", 0.0, 0, 1428364800, 1466, 3, 1], [254220455, "Biochem chapter 20: DNA replication and repair", 0.0, 0, 1430697600, 35, 3, 2], [1117297550, "Simple multiplication table (1-10)", 3.0, 1, 1420416000, 55, 0, 0], [1024632897, "DDO Paediatrics - Hypoglycaemia and metabolic emergencies ", 0.0, 0, 1409616000, 40, 0, 0], [1070569986, "Pers\u00f6nlichkeitspsychologie", 0.0, 0, 1419120000, 73, 0, 1], [1974332316, "HR-POLICY", 0.0, 0, 1426550400, 193, 0, 0], [318765770, "Multiplication001", 0.0, 0, 1362355200, 400, 0, 0], [2133640786, "Taules de multiplicar del 1 al 10", 0.0, 0, 1418515200, 100, 0, 0], [2083987818, "AME CONSTITUCIONAL - APLICA\u00c7\u00c3O DAS NORMAS CONSTITUCIONAIS", 0.0, 0, 1409702400, 15, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [2536601410, "Biblical Hebrew Verbs PVP (Oak Hill College)", 0.0, 0, 1368662400, 384, 0, 383], [3555664940, "Set of Biblical Hebrew Cards", 0.0, 0, 1345852800, 987, 0, 0], [2583486943, "Biblical Hebrew Verb No-Prefix Forms", 0.0, 0, 1345852800, 36, 0, 0], [405506694, "Hexadecimal Multiplication Table", 0.0, 0, 1415836800, 224, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [314589184, "Public Health and Administration", 0.0, 0, 1401062400, 161, 0, 0], [31671055, "Van Pelt & Pratico Biblical Hebrew Vocab 201-500", 0.0, 0, 1423094400, 300, 0, 0], [1080414520, "Major Methods: 10-Spliced Surprise (Mark B Davies) 1", 0.0, 0, 1409788800, 80, 0, 70], [2132192140, "DaF Vokabeln, schrifftlicher Ausdr\u00fcck", 0.0, 0, 1414454400, 30, 0, 0], [1313003293, "Natural Math pattern-based multiplication - Off Diagonal", 0.0, 0, 1345852800, 4, 0, 0], [2878122477, "Natural Math pattern-based multiplication - squares", 0.0, 0, 1345852800, 6, 0, 0], [2866766582, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [1728197940, "The police", 0.0, 0, 1426118400, 13, 0, 3], [2011066103, "DNA Replication", 0.0, 0, 1410134400, 88, 0, 13], [368654935, "Direito Administrativo - Organiza\u00e7\u00e3o da Adm P\u00fablica - TLP", 0.0, 0, 1431302400, 14, 0, 0], [2863578862, "Caplice's Akkadian", 0.0, 0, 1410998400, 350, 0, 0], [643009011, "Ross Biblical Hebrew (w/ audio)", 5.0, 1, 1378944000, 454, 456, 0], [9612081, "Van Pelt & Pratico Biblical Hebrew Vocab 501-800", 0.0, 0, 1423094400, 300, 0, 0], [1940171104, "Al's public admin vocab", 0.0, 0, 1399420800, 462, 0, 0], [3581950317, "Biblical Poetry", 0.0, 0, 1345852800, 25, 0, 0], [1307122021, "Biochem, Unit 4; Complicating factors & Multifactorial Inher", 0.0, 0, 1414108800, 64, 0, 0], [1930556491, "A1. Lesson 5. Liczby, wiek, kraje", 0.0, 0, 1422662400, 72, 50, 0], [479413205, "Natural Math pattern-based multiplication - Fours", 0.0, 0, 1345852800, 8, 0, 0], [508924940, "Brazilska Portugalstina - Anglictina/Cestina", 0.0, 0, 1345852800, 1768, 0, 0], [3962900935, "Elementary Biblical Hebrew Vocab (GWC)", 4.0, 1, 1358899200, 393, 0, 393], [1576637920, "Russian cyrillic part deux", 5.0, 2, 1345852800, 33, 31, 33], [876234524, "Basics of Biblical Hebrew", 0.0, 0, 1387411200, 794, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lic</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

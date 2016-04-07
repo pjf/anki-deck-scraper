@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [1524653052, "Prawo rzymskie - ustawy", 0.0, 0, 1441756800, 0, 0, 0], [421006043, "Prawo rzymskie - paremie", 0.0, 0, 1441756800, 120, 0, 0], [341482045, "Prawo rzymskie - warunki i terminy", 0.0, 0, 1441756800, 13, 0, 0], [627545037, "Prawo rzymskie - prawo rzeczowe", 0.0, 0, 1441756800, 152, 0, 0], [165493922, "Historia ustroju i prawa polskiego", 0.0, 0, 1441756800, 321, 0, 0], [1143296168, "Historia ustroju i prawa polskiego - notatki", 0.0, 0, 1441756800, 226, 0, 0], [287170399, "Art / Drawing Fundamentals", 0.0, 0, 1428192000, 1117, 0, 540], [556666730, "Drawing Hiragana", 0.0, 0, 1409529600, 104, 104, 0], [1940818164, "powszechna historia prawa", 0.0, 0, 1434758400, 68, 0, 0], [1292167770, "trawienny", 0.0, 0, 1434585600, 311, 0, 0], [3148739918, "\u0412\u043e\u0442 \u0438 \u043c\u044b 2  - potrawy", 0.0, 0, 1380758400, 40, 0, 0], [1190933409, "Chi\u0144ski - Pawel Krawczyk", 0.0, 0, 1426291200, 626, 333, 245], [728682383, "Prawo rzymskie", 0.0, 0, 1429833600, 152, 0, 0], [1111556497, "prawo cywilne", 0.0, 0, 1414454400, 454, 0, 35]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Raw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

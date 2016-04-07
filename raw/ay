@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2136150393, "Hiragana + Audio + essential words (the easiest /kawaii way)", 4.44, 16, 1432252800, 87, 87, 77], [403704239, "Arabic verbs and nouns umm Maymoonah 7", 0.0, 0, 1454371200, 48, 1, 0], [209927296, "Hayat U11", 0.0, 0, 1454198400, 302, 0, 0], [236290031, "Hayat U10", 0.0, 0, 1454198400, 893, 0, 0], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [89323017, "Headway Plus Elementary & Pre Intermediate EN-FA (98ia.com)", 0.0, 0, 1424649600, 2433, 1776, 573], [1965620257, "Mary Kay!", 0.0, 0, 1454630400, 44, 0, 0], [1833750820, "Bayerische K\u00f6nige und Ministerpr\u00e4sidenten 1799-1933", 0.0, 0, 1454716800, 31, 0, 0], [2093993949, "Mots du Coran ( De Bayinah \u00e0 sabih )", 0.0, 0, 1453161600, 190, 1, 0], [40821529, "Useful Everyday German Words", 0.0, 0, 1452124800, 36, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [14855591, "Algorithmist's Malayalam abugida (\"alphabet\") ", 0.0, 0, 1447804800, 70, 52, 0], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [179050914, "medical vocabulary 11 - a day in the life", 0.0, 0, 1452384000, 58, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [373534082, "My Everyday Russian Kris", 0.0, 0, 1451520000, 25, 0, 3], [1211009901, "Thyroid-AY", 0.0, 0, 1452729600, 9, 0, 0], [815410995, "SM16 - Wedding day blues", 0.0, 0, 1452470400, 33, 0, 0], [2110044394, "English Everyday Idioms (english - russian)", 0.0, 0, 1452384000, 363, 33, 37], [625878654, "Easy Malay Words", 0.0, 0, 1451952000, 230, 0, 0], [203584197, "Japanese - Days of the Week v2.0", 0.0, 0, 1453334400, 7, 1, 0], [2009624202, "HEADWAY Intermediate Magyar-Angol - by Nandika", 4.67, 3, 1431820800, 1355, 1325, 4], [1056742136, "90 Day Challenge - Russian - Day 01", 0.0, 0, 1417478400, 40, 29, 3], [2140735574, "Tokemo Malay (Beginner/Elementary)", 5.0, 1, 1405296000, 2842, 2827, 1228], [348404039, "SM06 - Protect the Melody of Love: Usagi Plays Cupid", 0.0, 0, 1451606400, 28, 0, 0], [2046571628, "Geography Essays for the Leaving Cert", 1.0, 1, 1429401600, 289, 0, 44], [1627483294, "Greek to GCSE - John Taylor", 5.0, 1, 1376438400, 1568, 0, 0], [1404847287, "okay", 0.0, 0, 1450569600, 611, 0, 0], [500178169, "Basic Greek in 30 Minutes A Day, Part 1, James Found", 5.0, 4, 1449532800, 384, 0, 0], [1403693810, "X-rays - Unit 4 - Pelvis - MMA", 0.0, 0, 1448064000, 154, 0, 18], [1817251492, "bacgay1", 0.0, 0, 1449360000, 61, 63, 64], [1588765839, "medical vocabulay 19 - family history", 0.0, 0, 1452384000, 101, 0, 0], [1257873489, "bacgay", 0.0, 0, 1449360000, 65, 67, 68], [72579331, "ign 1103 holidays", 0.0, 0, 1452384000, 30, 0, 0], [647532939, "HEADWAY - Pre-Intermediate (4th ed) (Czech-English) by Qvasa", 4.29, 7, 1426464000, 841, 0, 0], [544484200, "The Indonesian Way Module 1", 0.0, 0, 1444694400, 256, 254, 0], [1822068808, "The Indonesian Way Module 3", 0.0, 0, 1444694400, 269, 267, 0], [1059684257, "ayeeeeeeeeeee", 0.0, 0, 1450137600, 42, 10, 8], [804481434, "\u00fcnnepek holidays celebration", 0.0, 0, 1449360000, 85, 170, 4], [893298781, "Malay Sentences Level 12", 0.0, 0, 1448668800, 24, 1, 0], [759214485, "Malay Sentences Level 5", 0.0, 0, 1448668800, 27, 1, 0], [1974263871, "Malay Sentences Level 1", 0.0, 0, 1448668800, 9, 1, 0], [1893565534, "jaymclinical", 0.0, 0, 1448928000, 289, 0, 1], [519991911, "Malay Sentences Level 11", 0.0, 0, 1448668800, 19, 1, 0], [1082059924, "laundryday", 0.0, 0, 1448755200, 220, 0, 0], [1204688718, "Malay Sentences Level 2", 0.0, 0, 1448668800, 15, 1, 0], [1106483072, "Malay Sentences Level 8 ", 0.0, 0, 1448496000, 15, 1, 0], [1869547261, "El arabya bayna yadayk 1/2", 0.0, 0, 1446163200, 190, 1, 0], [1067533339, "Malay Sentences Level 3", 0.0, 0, 1448668800, 16, 1, 0], [2122590746, "The Indonesian Way Module 2", 0.0, 0, 1444694400, 249, 247, 0], [1221625160, "Malay Sentences Level 7 ", 0.0, 0, 1448496000, 15, 1, 0], [1073687042, "Hayat U9", 0.0, 0, 1447977600, 976, 0, 0], [1530846159, "The Indonesian Way Module 6", 0.0, 0, 1444694400, 202, 201, 0], [165920787, "PlasticJaySS", 0.0, 0, 1446422400, 84, 0, 3], [1299014329, "The Indonesian Way Module 4", 0.0, 0, 1444694400, 203, 203, 0], [1464056258, "Malay Sentences Level 4", 0.0, 0, 1448668800, 9, 1, 0], [1239962540, "The Indonesian Way Module 8", 0.0, 0, 1444694400, 242, 241, 0], [23083473, "Malay Sentences Level 9 ", 0.0, 0, 1448496000, 36, 1, 0], [1143447528, "The Indonesian Way Module 7", 0.0, 0, 1444694400, 139, 136, 0], [2029205048, "jacobson days months seasons weather", 0.0, 0, 1448841600, 36, 0, 0], [764593856, "Xray lecture Gross", 0.0, 0, 1443484800, 21, 0, 0], [3481490, "Orthozjay", 0.0, 0, 1446595200, 104, 0, 3], [1708031668, "EntJaySS", 0.0, 0, 1446422400, 95, 0, 5], [612729342, "UrologyJaySS", 0.0, 0, 1446336000, 192, 0, 0], [1599065640, "OpthoJaySS", 0.0, 0, 1446422400, 99, 0, 1], [1804095998, "Sculptures d'Orsay", 5.0, 1, 1447200000, 110, 0, 37], [1537040886, "Binisaya Lessons", 0.0, 0, 1446681600, 197, 0, 0], [327275789, "Arabic verbs and nouns umm Maymoonah 6", 0.0, 0, 1452038400, 64, 1, 0], [592492009, "The Indonesian Way Module 5", 0.0, 0, 1444694400, 236, 236, 0], [16021226, "Europe : drapeaux, pays, capitales", 5.0, 1, 1443312000, 45, 0, 90], [1638458635, "U.S. paramedic Airway questions", 0.0, 0, 1444780800, 74, 0, 0], [1747722389, "Vocab #1 Maycock (SAT Words) Part 1/2", 0.0, 0, 1444176000, 35, 0, 0], [1439509063, "Anan's Malaysian Medical Normal Value", 0.0, 0, 1445126400, 71, 0, 0], [917970188, "Say it Better in English [EVA02]", 0.0, 0, 1443744000, 180, 0, 360], [336833342, "Vocab #1 Maycock (SAT Words) Part 2/2", 0.0, 0, 1444262400, 35, 0, 0], [645502059, "Airway medications paramedic school", 0.0, 0, 1441756800, 99, 0, 0], [1705527545, "20 Casual, Everyday French Phrases You Oughta Know", 0.0, 0, 1437004800, 20, 0, 3], [192062583, "Algorithmist's Malayalam-English Tatoeba Sentences", 0.0, 0, 1443744000, 472, 28, 30], [756412799, "Arabic verbs and nouns umm Maymoonah 5", 0.0, 0, 1445385600, 46, 0, 0], [103890101, "HEADWAY - Elementary 4th edition (Czech-English) by Qvasa", 5.0, 5, 1428624000, 1121, 0, 0], [712381125, "Hayat Dictionary", 0.0, 0, 1454198400, 6021, 0, 0], [770653585, "Hayat U8", 0.0, 0, 1442966400, 121, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [1430344105, "Pays du monde", 4.0, 1, 1433376000, 197, 0, 197], [2096292786, "Hayat U7", 0.0, 0, 1441324800, 921, 0, 0], [292565072, "Arabic verbs and nouns umm Maymoonah 1", 0.0, 0, 1422835200, 65, 0, 0], [1404505877, "All sentences from Paul Graham's essay \"What you can't say\"", 0.0, 0, 1441497600, 371, 0, 0], [2259686687, "\u8ff7\u4f60\u5ee3\u64ad\u5287 (Mini Radio Plays)", 0.0, 0, 1345852800, 582, 0, 0], [1877153096, "Voc :  \" el arabya bayna yadayk \" ---Arabe / Fran\u00e7ais ( 2/2)", 0.0, 0, 1430265600, 77, 1, 0], [2729101526, "JLPT N1 Kai Vocab Day 7 for Kate", 1.0, 1, 1376352000, 51, 0, 0], [2886872180, "Chinese in 10 Days (The Commercial Press), book 1, new words", 0.0, 0, 1345852800, 222, 222, 0], [2965291644, "JLPT N1 Kai Vocab Day 12 for Kate", 1.0, 1, 1376870400, 53, 0, 0], [517276898, "Hayden's Random Medical Trivia", 0.0, 0, 1440028800, 1090, 0, 136], [1657789477, "Layton's Coptic in Twenty Lessons", 3.0, 1, 1345852800, 616, 0, 0], [1030127241, "Rocket Spanish - 20 a day", 0.0, 0, 1401235200, 623, 0, 0], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 4.9, 10, 1431820800, 1325, 1300, 4], [640450662, "First 3 days of genetics", 0.0, 0, 1438819200, 164, 0, 0], [3414320282, "Malay For Everyone", 0.0, 0, 1376179200, 534, 0, 0], [1728674862, "For the group: Path all up to today", 0.0, 0, 1432684800, 540, 0, 368], [3381943471, "Hebrew - Kitah Hay", 0.0, 0, 1375228800, 100, 0, 0], [706720256, "RLR #93 \u2013 Wordplay with Names & Big Bang Theory", 0.0, 0, 1424908800, 30, 30, 0], [1415648227, "Hayat U6", 0.0, 0, 1439424000, 852, 0, 0], [1763965279, "English for Runaways", 0.0, 0, 1414540800, 20, 0, 0], [979471370, "Jumbucks 2000 JQXZ Scrabble Power Plays", 0.0, 0, 1345852800, 2044, 0, 0], [1750562363, "Everyday English. At the party (dialogue)", 0.0, 0, 1432684800, 18, 0, 0], [1577497098, "Japanese Days and Dates", 5.0, 1, 1432598400, 64, 64, 64], [1573416671, "JP RANZCOG MAY 2011", 0.0, 0, 1419206400, 97, 0, 0], [3567230475, "Playing cards, unicode signs", 0.0, 0, 1345852800, 4, 0, 0], [1974021586, "Malaysia Medical Common Practice Abbreviation", 0.0, 0, 1434585600, 233, 0, 0], [222467389, "JLPT N1 Kai Vocab Day 6 for Kate", 0.0, 0, 1376265600, 48, 0, 0], [1654882624, "Arabic verbs and nouns umm Maymoonah 4", 5.0, 1, 1440460800, 95, 0, 0], [873428466, "Fay's Five Question Quizzes", 0.0, 0, 1393113600, 71, 0, 0], [1966655807, "Business English. B2. Delaying in negotiations", 0.0, 0, 1429660800, 10, 0, 0], [1236250788, "Baudelaire Paysage", 0.0, 0, 1406851200, 13, 0, 0], [1782503090, "Arabic verbs and nouns umm Maymoonah 2", 0.0, 0, 1424908800, 82, 0, 0], [469373690, "mediastinum upper airways", 0.0, 0, 1387238400, 102, 0, 58], [634337459, "CTCFL Oxford Multimedia Roleplay Vocab", 0.0, 0, 1432771200, 210, 0, 0], [1570416332, "Dutch to English Days and Months (with sound)", 0.0, 0, 1409443200, 32, 32, 0], [1023489371, "Headway Upper-Intermediate - Unit 10", 0.0, 0, 1369008000, 35, 102, 29], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1096503806, "natxo_every_day", 0.0, 0, 1429660800, 23, 0, 0], [93980248, "Japanese everyday words and phrases, translated into Russian", 5.0, 1, 1350777600, 113, 105, 21], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [3869834479, "Ayamo Path", 0.0, 0, 1385424000, 2685, 0, 763], [500385810, "Gateway to Shariah", 0.0, 0, 1392076800, 186, 0, 9], [973375470, "Tashelhayt", 0.0, 0, 1427155200, 1355, 1343, 1238], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 5.0, 1, 1445904000, 1398, 2796, 1], [3427473876, "Ayamo Microbiology", 0.0, 0, 1385424000, 1032, 0, 318], [1106118172, "Headway Upper-Intermediate - Unit 9", 0.0, 0, 1369008000, 68, 150, 56], [1801603017, "Clayton Croy Basic Greek lesson 7 Vocabulary", 0.0, 0, 1411689600, 14, 0, 0], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [1248838077, "KW-Headway", 0.0, 0, 1411776000, 316, 72, 0], [1337952012, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Web 1.0\"", 0.0, 0, 1422403200, 21, 0, 6], [1643257269, "ITB, IFL Bayreuth - Fragen zum Themenfeld \"Bin\u00e4re Gr\u00f6\u00dfen\"", 0.0, 0, 1422403200, 21, 0, 2], [1219743521, "Ayamo Behavioral Science", 0.0, 0, 1385424000, 93, 0, 14], [1535956551, "Catholic Prayers and Scriptures", 0.0, 0, 1390953600, 46, 0, 0], [1717226383, "Business English. B1. How to say no", 0.0, 0, 1427328000, 13, 0, 0], [602925765, "HeadWay-UpperIntermediate-Unit1", 0.0, 0, 1362873600, 108, 0, 0], [238861646, "Bahasa Malaysia basic vocabulary", 0.0, 0, 1437696000, 245, 1, 0], [2246466820, "Jumbucks Even More 3600 Scrabble Power Plays", 0.0, 0, 1345852800, 6165, 0, 0], [1075206352, "mayamaya", 0.0, 0, 1403136000, 53, 0, 0], [290249568, "Week 4, Day 1, Elzie Muscle", 0.0, 0, 1417046400, 149, 0, 13], [1104700215, "JLPT N1 Kai Vocab Day 13 for Kate", 0.0, 0, 1376956800, 28, 0, 0], [458039561, "Gamilaraay", 0.0, 0, 1421193600, 105, 0, 0], [361316574, "GCSE OCR Gateway Biology", 0.0, 0, 1449705600, 636, 0, 18], [1157070907, "A2. Expressions with way (lesson 6)", 0.0, 0, 1423785600, 6, 0, 0], [1109612396, "dasha daythorax", 0.0, 0, 1422316800, 84, 0, 85], [24992588, "Maya Syllabary", 5.0, 1, 1399939200, 384, 0, 384], [1773510323, "Mayan Medical Aid", 0.0, 0, 1429228800, 683, 0, 0], [1517529642, "HeadWay-UpperIntermediate-Unit2", 0.0, 0, 1362873600, 137, 0, 0], [968446625, "ITB, IFL Bayreuth - Fragen zum Themenfeld Codierung", 0.0, 0, 1422403200, 20, 0, 4], [1155287049, "Gay-Kussac Anglais 2e partie1", 0.0, 0, 1394409600, 38, 0, 0], [2116464920, "HD4 Tuesday 3-25-14", 0.0, 0, 1395792000, 104, 0, 77], [2132743142, "Modern Greek - proverbs & sayings", 0.0, 0, 1432857600, 27, 0, 0], [2032575116, "Gay-Lussac Anglais 2e partie1", 0.0, 0, 1394409600, 38, 0, 0], [1312755261, "UBC MD 2018 - Grays Collection", 0.0, 0, 1415750400, 349, 0, 675], [728110983, "The Colemak Keyboard layout", 0.0, 0, 1429142400, 17, 3, 2], [849929019, "HEADWAY - Intermediate 3rd edition (Czech-English) by Qvasa", 4.2, 5, 1428624000, 1348, 0, 0], [244185108, "Everyday English. At the party (text)", 0.0, 0, 1432684800, 18, 14, 4], [3945431845, "Say it better in English.", 0.0, 0, 1360886400, 54, 0, 106], [970139383, "Nayef's French Vocabulary Deck", 0.0, 0, 1403049600, 261, 0, 0], [3575334093, "MBBS 1 Week 28 - Birthday Party", 0.0, 0, 1349654400, 106, 0, 20], [1682798932, "Arabic verbs and nouns umm Maymoonah 3", 0.0, 0, 1427155200, 47, 0, 0], [1004482801, "BIOSCI 50 - LMC Payne - Unit 03 Deck", 0.0, 0, 1395792000, 178, 0, 12], [983608919, "TheBayOfAvi", 1.0, 1, 1393459200, 181, 0, 223], [816429027, "RNLCPCforjay", 0.0, 0, 1424908800, 19, 0, 11], [369119730, "Ayamo Biochem", 0.0, 0, 1385424000, 612, 0, 285], [1687066301, "Counties of Norway", 3.0, 2, 1388361600, 20, 0, 22], [1740940736, "Ayamo Embryology", 0.0, 0, 1385424000, 264, 0, 125], [3240296319, "say-it japanese choronghi", 0.0, 0, 1369526400, 2614, 0, 1237], [743158036, "days of the week", 0.0, 0, 1410048000, 8, 0, 0], [1122240330, " JH BIOS E-1B Lecture 2B -- Gene expression assays", 0.0, 0, 1391299200, 15, 0, 24], [160337673, "BIOSCI 50 - LMC Payne - Unit 04 Deck", 0.0, 0, 1397606400, 188, 0, 21], [487100034, "RLR #81 - Holiday Season", 0.0, 0, 1417564800, 33, 33, 0], [2672625866, "sanskrit avyaya-s", 0.0, 0, 1368403200, 330, 0, 0], [1435274021, "Ghanaian Names based on the day of the week", 0.0, 0, 1392076800, 14, 0, 0], [1973420773, "SaraYale This deck is for my students.", 0.0, 0, 1410134400, 501, 500, 0], [2132223383, "HEADWAY Upper Intermediate Magyar-Angol - by Nandika", 5.0, 2, 1431820800, 1092, 1081, 4], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [3560355112, "Kriyat Binayim", 0.0, 0, 1345852800, 5, 0, 0], [1805962202, "Layton's Coptic in 20 Lessons - Chapters", 0.0, 0, 1397779200, 345, 0, 0], [1289573275, "RPDCPCfirstforjay", 0.0, 0, 1425168000, 28, 0, 3], [2969260020, "Ayamo Anatomy", 0.0, 0, 1385424000, 352, 0, 259], [615861518, "Spinal Cord 1 Pathways", 0.0, 0, 1424563200, 26, 0, 0], [2039480685, "Pharmacology Day2", 0.0, 0, 1408838400, 24, 0, 2], [1577195011, "KJV Ephesians complete 1 Scripture Verse per Day", 0.0, 0, 1420156800, 155, 0, 1], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1849056938, "Kobayashi", 0.0, 0, 1396915200, 30, 0, 0], [1417308208, "SHB Exam 3: Ascending Spinal Cord Pathways", 0.0, 0, 1417824000, 44, 0, 43], [2870713586, "JLPT N1 Kai Vocab Day 9 for Kate", 0.0, 0, 1376524800, 46, 0, 0], [818450135, "Hanzi -Grayto", 0.0, 0, 1357516800, 66, 0, 0], [124822964, "BIOSCI 50 - LMC Payne - Unit 02 Deck", 0.0, 0, 1393200000, 231, 0, 38], [1234450863, "beet - Raymond Murphy: English Grammar in Use - Re-uploaded", 0.0, 0, 1430697600, 228, 26, 10], [439313427, "EveryDayChinese", 0.0, 0, 1425513600, 286, 0, 0], [1982100597, "Master Hiragana [Stroke Diagrams, Audio, 3-Way Notes]", 5.0, 1, 1399161600, 104, 104, 71], [290298801, "Learn Python the Hard Way - Exercise 37", 0.0, 0, 1400630400, 38, 0, 0], [1306348628, "Kate's JLPT N1 Kai Vocab Day 2 *For Kate*", 0.0, 0, 1375747200, 61, 0, 0], [1782582509, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Logik\"", 0.0, 0, 1422403200, 21, 0, 11], [4018399782, "Bahasa Melayu", 0.0, 0, 1345852800, 16, 0, 0], [545086398, "Headway Pre-Intermediate the Third edition Unit 1 hun eng", 0.0, 0, 1422835200, 84, 0, 0], [82968314, "How to be a poker player", 0.0, 0, 1418688000, 70, 0, 0], [571278459, "Everyday Chinese Words", 0.0, 0, 1374451200, 93, 92, 14], [3981603394, "Finnish Sentence of the Day", 4.33, 3, 1345852800, 570, 0, 0], [47991658, "APWH Review Yay", 0.0, 0, 1431561600, 486, 0, 0], [3064043740, "Jumbucks Top 3600 Scrabble Power Plays", 0.0, 0, 1345852800, 3600, 0, 0], [1314366259, "Pharmacology Day1", 0.0, 0, 1408838400, 25, 0, 0], [302486479, "A2 German essay phrases", 0.0, 0, 1360281600, 101, 0, 0], [1117461855, "JLPT N1 Kai Vocab Day 4 for Kate", 1.0, 1, 1375920000, 83, 0, 0], [505855120, "Maynooth Immunology Third year", 0.0, 0, 1417132800, 149, 0, 0], [509177649, "UQ MBBS 1 PBL 6 He Doesn't Listen to a Word I Say", 0.0, 0, 1395532800, 57, 0, 0], [962317657, "BIOSCI 50 - LMC Payne - Unit 05 Deck", 0.0, 0, 1399420800, 256, 0, 21], [669847017, "ITB,  IFL Bayreuth - Fragen zum Themenfeld Zahlensysteme", 0.0, 0, 1422403200, 29, 0, 17], [1476852978, "ITB, IFL Bayreuth - Fragen zum Themenfeld ODR", 0.0, 0, 1422403200, 14, 0, 19], [1665321850, "Gamilaraay Pronouns", 0.0, 0, 1425254400, 49, 44, 49], [281819247, "X-Ray Photoelectron Spectroscopy ", 0.0, 0, 1387411200, 11, 0, 7], [1332064546, "S2R -- Kayce", 0.0, 0, 1423180800, 118, 0, 0], [260085151, "Some 20s lingo phrases to use every day!", 0.0, 0, 1424822400, 137, 3, 1], [572418030, "urinalysisforjay", 0.0, 0, 1424995200, 40, 0, 1], [851871548, "Physiology Test 2 Essays", 0.0, 0, 1395792000, 12, 0, 0], [872250656, "Peter Gray's Psychology (6th ed.)", 4.67, 3, 1358553600, 560, 0, 0], [3649522441, "New Headway Intermediate English-Hungarian lesson 1", 5.0, 1, 1359504000, 102, 0, 0], [1990182595, "Malay for Adults, taught by Yahya Hamid", 5.0, 2, 1448755200, 1757, 0, 0], [1453454751, "Holiday Danish", 0.0, 0, 1401062400, 122, 0, 0], [511416532, "Investopedia - Term of the Day", 0.0, 0, 1420675200, 232, 0, 5]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ay</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

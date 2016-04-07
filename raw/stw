@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[530972367, "14 Panstwo LRM PP", 0.0, 0, 1345852800, 267, 260, 0], [618312178, "Partie polit., NGO, spo\u0142ecze\u0144stwo obywatelskie", 0.0, 0, 1449360000, 80, 0, 0], [217397429, "S\u0142owotw\u00f3rstwo A - matura", 0.0, 0, 1448841600, 74, 0, 0], [1215685568, "Poj\u0119cia z dzia\u0142u \"Spo\u0142ecze\u0144stwo\" ", 0.0, 0, 1448236800, 97, 0, 0], [1782708909, "s\u0142owotw\u00f3rstwo B,C i D - matura ", 0.0, 0, 1448841600, 91, 0, 0], [488996754, "Mmstw2015", 0.0, 0, 1445212800, 129, 0, 2], [1615442811, "Prawoznawstwo - Uniwersytet Warszawski Prawo I rok", 0.0, 0, 1442448000, 355, 0, 1], [162860371, "Angielski. A1. Pa\u0144stwa i narodowo\u015bci", 0.0, 0, 1435622400, 28, 28, 13], [503132046, "spoleczenstwo", 0.0, 0, 1412208000, 69, 0, 0], [228111984, "Stolice pa\u0144stw \u015bwiata", 0.0, 0, 1345852800, 161, 0, 0], [290932340, "\u9032\u884c\u4e2d\u3000(Wurstwasser)", 0.0, 0, 1413072000, 6, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [461857530, "\u3060\u3051\uff08Wurstwasser\uff09", 0.0, 0, 1413417600, 4, 0, 0], [1539473837, "\u7bc4\u56f2\u306e\u59cb\u307e\u308a\u3068\u7d42\u308f\u308a\u30fc\u305d\u306e\u969b\u3060\u3000\uff08Wurstwasser) \t", 0.0, 0, 1413072000, 6, 0, 0], [1868087783, "history of japan postwar", 5.0, 1, 1399334400, 251, 0, 0], [286694361, "\u5f8c\u3067\u3000\uff08Wurstwasser\uff09", 0.0, 0, 1413072000, 5, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Stw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

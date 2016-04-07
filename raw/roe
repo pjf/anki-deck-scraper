@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[638673681, "English Dutch, photo's, Take it Easy, unit 3 Groep 7", 5.0, 1, 1454889600, 40, 40, 40], [1407732007, "English Take it Easy, groep 7, unit 2, with pictures", 0.0, 0, 1448841600, 42, 0, 39], [2138511782, "AP Microeconomics Terms", 0.0, 0, 1450656000, 273, 0, 26], [415230069, "Gastroenterologi", 0.0, 0, 1450137600, 464, 0, 54], [1781327787, "Farmakologi - gastroenterologi", 0.0, 0, 1449360000, 6, 0, 0], [1666280420, "Gastroenterologia", 0.0, 0, 1442966400, 10, 0, 0], [245189997, "Ballstothe ReproEndo", 0.0, 0, 1440720000, 856, 0, 28], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [1778820534, "GroepT7_1__Les_8_9_10__NL2ES", 0.0, 0, 1390780800, 377, 0, 0], [298326510, "Examen de Gastroenterologia Terapeutica", 0.0, 0, 1432166400, 43, 0, 8], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [306544415, "GroepT7_1__Les_8_9_10__ES2NL", 0.0, 0, 1390780800, 247, 0, 0], [1185600625, "Microeconomics 304k Sibley", 1.0, 1, 1414627200, 3, 0, 0], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [4083876071, "CVO Roeselare study words", 0.0, 0, 1381104000, 30, 0, 0], [576684508, "CUVIROEX2SG", 0.0, 0, 1396310400, 70, 0, 142], [3078424777, "Mankiw - Macroeconomics", 0.0, 0, 1368403200, 16, 0, 0], [4120341371, "Chinese Jeroen", 0.0, 0, 1345852800, 580, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Roe</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

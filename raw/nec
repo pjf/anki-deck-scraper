@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[644505140, "Head and Neck muscle anatomy", 0.0, 0, 1453939200, 427, 0, 681], [691609258, "Anatomy II head and neck ", 0.0, 0, 1454025600, 42, 0, 38], [1005261862, "mirkinecek ", 0.0, 0, 1452902400, 200, 1, 0], [1772370345, "mirkinecek ", 0.0, 0, 1452902400, 120, 1, 0], [2029776806, "mirkinecek ", 0.0, 0, 1452902400, 91, 1, 0], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [1545587171, "Head and Neck Anatomy/Imaging", 0.0, 0, 1449187200, 114, 0, 106], [729800644, "NECO\u7814\u4fee_git", 0.0, 0, 1449705600, 9, 0, 0], [178692786, "ODOM: Head and Neck Exam of Oral Cavity and Oropharynx", 0.0, 0, 1449532800, 77, 0, 34], [1558463044, "Head and Neck - MMA", 0.0, 0, 1444694400, 387, 0, 62], [1701177940, "Head and neck anatomy", 0.0, 0, 1442448000, 320, 0, 862], [637318382, "KUMC B&B Anatomy Face/Neck/Infratemporal Fossa", 0.0, 0, 1443052800, 261, 0, 262], [2297788233, "Common German Conversation Connectors", 2.25, 4, 1345852800, 92, 0, 0], [598415298, "Head and Neck 1 for Beth", 0.0, 0, 1444694400, 57, 0, 0], [1361700302, "High-yield English-Spanish connectors", 0.0, 0, 1438041600, 91, 3, 1], [1727842825, "Health Assessment Chapter 21 Heart and Neck", 0.0, 0, 1443571200, 84, 0, 0], [607132059, "Connective tissue ", 0.0, 0, 1443052800, 62, 0, 0], [938157854, "Neck and Optic Canal", 0.0, 0, 1444176000, 351, 0, 304], [1335407539, "HeadNeckLab", 0.0, 0, 1443657600, 31, 0, 30], [228328181, "MTH - Histo: Connective Tissue", 0.0, 0, 1440460800, 14, 0, 0], [91537764, "Connective tissue", 0.0, 0, 1441238400, 25, 0, 10], [893650156, "Spanish conversational connectors ", 5.0, 1, 1403308800, 95, 0, 0], [321353496, "box info up to connective tissue", 0.0, 0, 1440806400, 511, 0, 3], [1094736228, "High yield English-Italian connectors", 0.0, 0, 1438041600, 91, 3, 1], [445553325, "Health Assessment Chp 15 Head and Neck", 0.0, 0, 1442016000, 49, 0, 0], [2001002563, "FinnFACEM - Trm: Head & Neck", 0.0, 0, 1439424000, 36, 6, 10], [387278495, "CVA Necturus Axial Trunk Muscles", 0.0, 0, 1382659200, 5, 0, 0], [2008554590, "Anatomy Lab 2: Laminectomy", 0.0, 0, 1412121600, 63, 0, 18], [609187803, "LECOM ANATOMY NECK", 0.0, 0, 1412726400, 199, 0, 176], [2057657198, "Conversational Connectors English - German", 5.0, 1, 1413763200, 446, 0, 0], [1529639272, "rowan som histology block 1 lecture 2 connective tissue", 0.0, 0, 1409270400, 125, 0, 151], [4247660659, "neck larynx pharynx ACA", 0.0, 0, 1385424000, 28, 0, 0], [1098212805, "AMC Gynecologie obstetrique Geneve 2014", 0.0, 0, 1432425600, 125, 0, 4], [1528061287, "UCSF Anatomy Neck", 0.0, 0, 1411257600, 46, 0, 35], [4055306648, "Neck and fasia triangles updated", 0.0, 0, 1378944000, 67, 0, 0], [152207854, "CVA Necturus Head and Pharyngeal Muscles", 0.0, 0, 1382659200, 10, 0, 0], [1531742625, "Connective Tissue", 0.0, 0, 1414108800, 86, 0, 0], [1550772180, "HMS.HB.Cranial.Neck", 0.0, 0, 1353369600, 57, 0, 56], [514289067, "Week 1 Epithelium & Connective Tissue", 0.0, 0, 1409443200, 74, 0, 0], [543715289, "Surface Anatomy - Neck Thorax and Abdomen", 0.0, 0, 1411257600, 1, 0, 0], [299042074, "Test share deck - connective tissues", 0.0, 0, 1423440000, 41, 0, 0], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [1503753850, "Gynecologic Pathology 3/Ovarian Cancer", 0.0, 0, 1431475200, 66, 0, 24], [620746859, "LSQ grammaire Langue des signes SignEcriture 2015 ", 0.0, 0, 1428192000, 313, 0, 314], [1593544044, "Interval 10--Neck", 0.0, 0, 1384905600, 13, 0, 12], [610087013, "(5 str) Bass guitar - Learn the neck positions with pics", 0.0, 0, 1360108800, 54, 0, 54], [420811625, "German Connecting Phrases", 3.0, 1, 1414886400, 95, 0, 0], [904977388, "Gineco hc", 0.0, 0, 1395446400, 18, 0, 9], [2624109645, "CVA Felis Tongue and Neck Muscles", 0.0, 0, 1382659200, 15, 0, 0], [874659177, "Notation & Guitar Neck Learning by ReinOwader", 0.0, 0, 1428796800, 84, 0, 0], [2935077510, "CVA Necturus Forlimb and Pectoral Girdle Muscles", 0.0, 0, 1382659200, 10, 0, 0], [3778104706, "Neck fascia and triangles", 0.0, 0, 1378944000, 67, 0, 0], [1021804519, "CVA Necturus Pelvis and Hind Limb Muscles", 0.0, 0, 1382659200, 8, 0, 0], [327520335, "lecom head and neck embryo", 0.0, 0, 1413590400, 91, 0, 89], [2480210990, "Path Lab 1: Cell Death and Patterns of Necrosis", 0.0, 0, 1372291200, 36, 0, 43], [146040994, "Anatomy 03 brachial plexus, neck, axilla", 0.0, 0, 1412640000, 77, 0, 43], [1946757060, "Ballstothe Anatomy 2: A-Neck-Trick Boogaloo", 0.0, 0, 1415836800, 760, 0, 49], [1180977066, "Connecteurs rh\u00e9toriques fran\u00e7ais ", 0.0, 0, 1427673600, 15, 0, 0], [1662909579, "SS UNM SOM HSF&D Weeks 9 Neck, pharynx, larynx", 0.0, 0, 1413849600, 802, 0, 529], [1841327384, "MS2 Head and Neck Anatomy", 0.0, 0, 1424563200, 293, 0, 0], [1238493521, "Gynecologic Pathology 2", 0.0, 0, 1431475200, 63, 0, 18], [2133756636, "pritzker connective 1", 0.0, 0, 1408147200, 8, 0, 5], [3853494186, "37C - Neck Larynx and Pharynx", 0.0, 0, 1385510400, 28, 0, 0], [1291007777, "HMS.HB.Visceral.Head.Neck", 0.0, 0, 1352764800, 17, 0, 34], [982902655, "fuck anatomy- oral cavity, radiology, implants, neck", 0.0, 0, 1411948800, 140, 0, 81], [709742492, "Histology - Connective Tissue", 0.0, 0, 1408752000, 54, 0, 0], [2241868908, "HMS.HB.Superficial.Head.Neck", 0.0, 0, 1352937600, 37, 0, 28], [2638410465, "Anatomy - head and neck", 0.0, 0, 1380499200, 38, 0, 0], [900914860, "German Conversation Connectors", 5.0, 1, 1417564800, 88, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nec</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

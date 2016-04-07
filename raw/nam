@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1862159170, "100 most common radicals with exmaples and colloquial names", 0.0, 0, 1453766400, 100, 0, 0], [1965697482, "Vietnamese Core 100 - Basic words (EN  VI with audio)", 0.0, 0, 1437004800, 202, 109, 116], [768777742, "Arabic Practice - Country Names", 0.0, 0, 1442275200, 52, 0, 0], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [593546569, "Thermodynamics", 0.0, 0, 1453334400, 56, 0, 0], [582427189, "Vietnamese for Jesse 2", 0.0, 0, 1453680000, 20, 21, 25], [1251668868, "\u4eba\u540d\u7528\u6f22\u5b57 Jinmeiyoukanji (Full Names+Single Names)", 4.0, 2, 1345852800, 2530, 0, 0], [1630697137, "Vietnamese Deck", 0.0, 0, 1453334400, 20, 1, 25], [1437384824, "713 Common Names and Mnemonics", 0.0, 0, 1430352000, 713, 1, 4], [1211566416, "Vietnamese Deck", 0.0, 0, 1451433600, 24, 26, 24], [1408849907, "Vietnamese to English vocab and practice", 0.0, 0, 1448064000, 1569, 0, 0], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [1195639534, "pharma - medikamentennamen Orepropper", 0.0, 0, 1452038400, 408, 1, 7], [2356446605, "Japanese Names \u4eba\u540d\u7528\u6f22\u5b57 ", 0.0, 0, 1345852800, 8779, 0, 0], [1356480554, "Japanese radical names", 0.0, 0, 1449619200, 214, 0, 0], [1299834324, "Country Names in Chinese", 0.0, 0, 1447977600, 202, 0, 0], [1621958370, "Arabic Animal Names (Vocabulary) (Vowel Signs)", 0.0, 0, 1422144000, 102, 61, 0], [1861211878, "Esame Fisica 1 (In aggiornamento)", 0.0, 0, 1445990400, 23, 0, 35], [418661945, "Biofisica - HIDRODINAMICA - 1\u00ba Teste - MedVet", 0.0, 0, 1447200000, 46, 0, 0], [2104828365, "Vietnamese food", 0.0, 0, 1447200000, 6, 0, 0], [190023156, "Inorganic Naming of Certain Ions", 0.0, 0, 1446249600, 84, 0, 3], [366585647, "d\u00e0nh cho h\u1ecdc vi\u00ean tr\u01b0\u1eddng v\u0103n h\u00f3a nh\u1eadt b\u1ea3n nam \u0111inh", 0.0, 0, 1447977600, 310, 0, 0], [1602390546, "HTML Color Names", 0.0, 0, 1446336000, 141, 0, 0], [1459097955, "Vietnamese Quick & Dirty 30 (EN  VI)", 0.0, 0, 1445126400, 60, 38, 45], [204920277, "Japanese Names - Top 500 Names in Japan", 3.5, 2, 1345852800, 634, 0, 0], [837203531, "Trivialnamen / Funktionelle Gruppen", 0.0, 0, 1443052800, 68, 0, 68], [1100085563, "miriam-hemodynamics", 0.0, 0, 1444521600, 96, 2, 82], [1114281850, "Fluidsystemdynamik I (SoSe 2015)", 0.0, 0, 1443484800, 149, 0, 136], [1540866098, "Cambridge Part II Physics: Optics and Electrodynamics ", 0.0, 0, 1413504000, 43, 0, 79], [345592498, "Bullfrog Names 2014 CIM", 0.0, 0, 1440979200, 69, 0, 68], [1557620138, "B1: OMM Dynamic Motion Practical", 0.0, 0, 1441411200, 12, 0, 0], [626640506, "Pharmacodynamics", 0.0, 0, 1439942400, 36, 0, 14], [498506379, "Boerma Instituut's Flower Name Deck", 0.0, 0, 1441324800, 30, 0, 30], [614090542, "Terry's Vietnamese Vocabulary", 0.0, 0, 1439251200, 223, 110, 0], [528520607, "Sistemi Dinamici (mod 2) - Unina", 0.0, 0, 1430611200, 60, 3, 160], [1118965325, "Pattern Dynamics - a Pattern Language for the 21st Century", 0.0, 0, 1442188800, 65, 0, 0], [2363454232, "JLPT 1K Kanji Vocabulary Vietnamese", 0.0, 0, 1345852800, 1426, 0, 0], [767478384, "Bullfrog Names 2014", 0.0, 0, 1440979200, 69, 0, 68], [1944478349, "JLPT N2 Grammar Vietnamese", 5.0, 1, 1345852800, 173, 0, 0], [857340550, "Vocabulary from Vietnamese book", 0.0, 0, 1439251200, 37, 19, 0], [129986190, "Chemical elements \u2014 number, name, symbol, mass", 4.0, 1, 1435795200, 118, 0, 0], [64808226, "Adult II Week 9 - Hemodynamics", 0.0, 0, 1416268800, 45, 0, 10], [721309006, "Japanese Adverbs (50 cards from Namiko Abe's Useful Japanese", 0.0, 0, 1414800000, 51, 5, 0], [706720256, "RLR #93 \u2013 Wordplay with Names & Big Bang Theory", 0.0, 0, 1424908800, 30, 30, 0], [1266651913, "Guitar Note Names w/audio - GuitarOS by Fretboard Anatomy", 0.0, 0, 1445644800, 47, 47, 0], [341723441, "Greek Names of OT Books", 0.0, 0, 1393632000, 50, 0, 0], [145838376, "Friends S2E19 English - Vietnamese", 0.0, 0, 1415318400, 71, 0, 43], [1281684242, "Areo dynamik \u00f8vekort (danish)", 0.0, 0, 1420502400, 1, 0, 0], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [330556350, "Biochem, Unit 4; Dynamic Mutations, Uniparental Disomy, and ", 0.0, 0, 1414108800, 65, 0, 0], [309828683, "OC I Hiersemann: Trivialnamen", 0.0, 0, 1406764800, 126, 0, 123], [1852159544, "Surya Namaskara A / Sun Salutation A", 0.0, 0, 1430956800, 7, 0, 7], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [710811884, "English to Vietnamese", 0.0, 0, 1420502400, 572, 0, 0], [631530298, "Real Estate Dynamics", 0.0, 0, 1424736000, 184, 0, 0], [3647951132, "Assimil Ingl\u00e9s Perfeccionamiento [Voces Reales]", 0.0, 0, 1385683200, 1, 1, 0], [814546657, "Common English mistakes made by Vietnamese speakers", 0.0, 0, 1430524800, 13, 0, 1], [883613638, "Latin Names of Books of the Bible", 0.0, 0, 1393632000, 81, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [1410871371, "UC Berkeley Vietnamese 1A Words", 0.0, 0, 1418860800, 793, 0, 0], [2572316465, "2011 Earthquake and Tsunami Japanese News Vocabulary", 0.0, 0, 1345852800, 88, 0, 0], [439180243, "DotA Names", 0.0, 0, 1400803200, 223, 0, 0], [1989616354, "Primary Aerodynamics", 0.0, 0, 1359936000, 12, 0, 0], [3357114987, "Path Lab 5: Hemodynamic Disorders", 0.0, 0, 1372291200, 24, 0, 26], [180657130, "Proper Names", 0.0, 0, 1421971200, 15, 0, 0], [576770939, "Computational Fluid Dynamics for Engineers", 0.0, 0, 1432512000, 133, 0, 48], [1532824972, "Spezialzeichen mit Namen in Deutsch", 0.0, 0, 1392422400, 39, 38, 0], [400985285, "Statistik und Thermodynamik", 0.0, 0, 1392249600, 142, 0, 345], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [1995886513, "AnnaMichael", 0.0, 0, 1420243200, 5, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [597321259, "MDTI 01.09.15 Hemodynamic Disorders", 0.0, 0, 1420934400, 53, 0, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1232970070, "Hebrew Names of Old Testament Books", 0.0, 0, 1393632000, 35, 0, 0], [1516982614, "Transparent UI Code with Namespaces", 0.0, 0, 1426118400, 9, 0, 0], [1304733696, "FHB Small Group: Hemodynamics", 0.0, 0, 1422489600, 7, 0, 5], [1607641001, "102 Basic Vietnamese Words and Phrases", 5.0, 1, 1415145600, 104, 112, 15], [1580719399, "An Introduction to New Testament Greek by James Swetnam", 0.0, 0, 1436832000, 1029, 0, 0], [1548842830, "Vietnamese-English 22000", 0.0, 0, 1426291200, 21717, 0, 3], [442194200, "CofO2 - 10 - Haemodynamics", 0.0, 0, 1345852800, 18, 0, 0], [1741373124, "Country codes (top-level domain names)", 0.0, 0, 1391212800, 247, 0, 0], [3096419492, "Naming Binary Compounds, Polyatomic Ions, and Acids", 0.0, 0, 1360454400, 22, 0, 0], [351332519, "MDTI Hemodynamic Disorder Pathology", 0.0, 0, 1421020800, 28, 0, 5], [1435274021, "Ghanaian Names based on the day of the week", 0.0, 0, 1392076800, 14, 0, 0], [1255481624, "premier cours de vietnamien 2012-2013 UJVF", 0.0, 0, 1370822400, 33, 2, 0], [447787544, "Japanese First Names", 5.0, 1, 1345852800, 107, 0, 0], [331029510, "Vietnamese Phrases - English to Vietnamese", 0.0, 0, 1433548800, 221, 0, 0], [1335948703, "Japanese Surnames", 0.0, 0, 1404432000, 496, 0, 0], [1927607765, "names of fruit in Thai/English", 0.0, 0, 1364860800, 1, 0, 1], [2002345501, "Korean TOPIK vocab - Edit of the original deck of same name", 5.0, 1, 1427241600, 7627, 0, 0], [3342602701, "Vietnamese with pictures", 0.0, 0, 1368489600, 42, 0, 42], [3351948672, "In Slovak language, names of countries, languages, etc.", 0.0, 0, 1360886400, 40, 0, 0], [1681483519, "DM_R10 Namen von Ionen", 5.0, 1, 1416441600, 25, 0, 0], [1720512425, "aloisvietnamese", 0.0, 0, 1417305600, 202, 2, 3], [1523899258, "Top 200 Japanese surnames", 2.0, 1, 1345852800, 200, 0, 0], [573650371, "LANAMAX LANAMAXLANAMAX", 0.0, 0, 1421107200, 84, 0, 0], [913533588, "Surya Namaskara B / Sun Salutation B", 0.0, 0, 1430956800, 8, 0, 8], [405705484, "Japanees Verbs (129 cards from Namako Abe's Useful Japanese ", 0.0, 0, 1414800000, 129, 5, 0], [2047708283, "arabic vocabulary - names of animals", 0.0, 0, 1345852800, 61, 0, 0], [1098528865, "Basic Vietnamese Picture Vocabulary", 0.0, 0, 1404086400, 374, 0, 299], [2145504296, "Das Zuhause (Deutsch-Vietnamesisch)", 0.0, 0, 1418342400, 316, 0, 0], [1524699968, "amarakosha-vanam", 0.0, 0, 1368403200, 1450, 0, 0], [244841319, "Fyzika 2 - Mechanika a termodynamika (Pomi)", 4.0, 1, 1409443200, 101, 0, 97]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nam</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2108644558, "Respiratory Pathologies: Pulmonary Edema", 0.0, 0, 1454889600, 5, 0, 0], [1076559576, "Respiratory Pathologies: Pulmonary Embolism", 0.0, 0, 1454889600, 5, 0, 0], [1567450136, "Respiratory Pathologies: Pulmonary Hypertension", 0.0, 0, 1454889600, 9, 0, 0], [1239798232, "Wear and Tear preliminary", 0.0, 0, 1454803200, 121, 0, 35], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [201400806, "Teach Yourself Hindi Dictionary", 5.0, 2, 1361232000, 3025, 0, 0], [769993852, "German-Icelandic from Wiktionary", 0.0, 0, 1453939200, 2073, 0, 0], [73545654, "SM32 - Umino's Resolve: I'll Protect Naru", 0.0, 0, 1454630400, 30, 0, 0], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [786822650, "Narcotics, Recreational Drug Fact-sheets AAL", 0.0, 0, 1454025600, 79, 29, 278], [975290645, "Japanese Slang Dictionary \u65e5\u672c\u8a9e \u4fd7\u8a9e \u8f9e\u5178", 4.17, 6, 1358726400, 1079, 1071, 0], [673403093, "SM23 - Wish Upon a Star: Naru's First Love", 0.0, 0, 1453420800, 40, 0, 0], [425300093, "SM24 - Naru's Tears: Nephrite Dies for Love", 0.0, 0, 1453593600, 20, 0, 0], [293367340, "A Frequency Dictionary of French (Complete)", 5.0, 2, 1449100800, 5000, 0, 0], [725244839, "pulmonary embolism", 0.0, 0, 1451692800, 5, 0, 0], [2043423277, "Final Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 240, 0, 44], [1139088506, "Test 1 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 285, 0, 31], [1536392535, "Test 2 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 258, 0, 0], [507639030, "Mastronarde Principal Parts", 0.0, 0, 1447459200, 203, 0, 213], [1182673372, "Mastronarde Principal Parts Greek->English", 0.0, 0, 1447200000, 1146, 2, 3], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [1374719523, "Ancient Egyptian Allen Dictionary", 0.0, 0, 1404345600, 1069, 0, 1453], [1456519393, "MNT Klasse 10 - Klassenarbeit Nr. 1", 0.0, 0, 1447891200, 66, 0, 0], [12765425, "Diccionario de griego moderno", 0.0, 0, 1445904000, 16644, 0, 1], [1326720965, "Dictionary of An Introduction to Ancient Greek C.A Luschnig", 0.0, 0, 1397260800, 458, 0, 0], [210097518, "Histology Urinary System (Palacky)", 0.0, 0, 1446681600, 48, 0, 2], [397206132, "IV-Controlling - Seminar und \u00dcbung 1", 0.0, 0, 1445126400, 12, 0, 0], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [735547011, "A Dictionary of Basic Japanese Grammar", 4.44, 9, 1345852800, 193, 0, 0], [1020068324, "Oxford Picture Dictionary Interactive. M4R4M", 4.86, 7, 1404950400, 3800, 3797, 3801], [1036714221, "Quran Frequency Dictionary", 0.0, 0, 1445126400, 3349, 1, 0], [1799993955, "Urinary System for Histology Exam III", 0.0, 0, 1446508800, 111, 0, 18], [1840934371, "Culinary Terms", 4.0, 1, 1441238400, 109, 0, 0], [133807911, "Levantine Arabic Dictionary", 4.67, 3, 1453248000, 3630, 0, 0], [2106178206, "Trilaminar Embryo", 0.0, 0, 1445990400, 92, 0, 0], [652328447, "A-I GENKI dictionary", 0.0, 0, 1443916800, 470, 0, 0], [1275945354, "Kidney and Urinary Tract Pathology", 0.0, 0, 1441670400, 102, 0, 48], [712381125, "Hayat Dictionary", 0.0, 0, 1454198400, 6021, 0, 0], [519361022, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Food", 0.0, 0, 1407628800, 15, 0, 15], [1944554978, "Peace Corps Darija Dictionary (Script)", 0.0, 0, 1409702400, 748, 0, 0], [1445692196, "DDO pulmonary - respiratory distress", 0.0, 0, 1412899200, 15, 0, 0], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [914650256, "narz\u0105dy zmys\u0142\u00f3w", 0.0, 0, 1434499200, 351, 0, 0], [162860371, "Angielski. A1. Pa\u0144stwa i narodowo\u015bci", 0.0, 0, 1435622400, 28, 28, 13], [1186576037, "Goldstein Narcotics", 0.0, 0, 1424563200, 16, 0, 0], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [1721938209, "Coptic Flashcards based on Smith's Dictionary", 0.0, 0, 1413936000, 2100, 0, 1], [486583935, "HMS.IHP.Pulmonary.III", 0.0, 0, 1359417600, 22, 0, 13], [1630878898, "Lidepla - English Dictionary (Lidepla - Inglish Lexikon)", 0.0, 0, 1360886400, 8118, 0, 0], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [1591737039, "ASL SignWriting to picture dictionary 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [779168285, "Izpit_voditelj_colna-2del-MORNARSKA_DELA_IN_VESCINE ", 0.0, 0, 1414281600, 55, 0, 7], [637951266, "Cardiopulmonary Drugs for CP Exam II", 0.0, 0, 1415923200, 31, 0, 4], [130811188, "HMS.IHP.Pulmonary.V.A", 0.0, 0, 1359417600, 28, 0, 9], [3510053319, "Veterinary Radiology Boards", 0.0, 0, 1345852800, 720, 0, 19], [1829451406, "DDO Pulmonary - haemoptysis", 0.0, 0, 1412899200, 12, 0, 0], [483148098, "WiSo Klassenarbeit", 0.0, 0, 1389916800, 130, 0, 130], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [1385977020, "Jiraiya VS Pain fight vocab - NARUTO (english-japanese)", 5.0, 1, 1409788800, 206, 3, 0], [1477173991, "Med School Pulmonary ", 0.0, 0, 1426982400, 124, 0, 60], [3962080912, "RGBM Week 3 Urinary Dysfn ", 0.0, 0, 1358294400, 59, 0, 9], [1425674783, "S\u0142ownictwo polsko-francuskie - do podr\u0119cznika Sc\u00e9nario 1", 0.0, 0, 1427932800, 523, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1014771277, "Klinische Seminar", 0.0, 0, 1391817600, 135, 0, 0], [1402847964, "PORT by Bernardo Feitosa", 0.0, 0, 1395187200, 29, 0, 0], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [869153932, "A Pali-English Dictionary (Complete)", 0.0, 0, 1424822400, 15732, 0, 15], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [249304494, "PSU Pulmonary 2015", 0.0, 0, 1429660800, 815, 0, 131], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [649847594, "Histology: Female Reproductive System: Leonard", 0.0, 0, 1352764800, 91, 0, 21], [3289770169, "Kotoba  Dicctionary words", 0.0, 0, 1363219200, 454, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [379170858, "POSC by Bernardo Feitosa", 0.0, 0, 1395187200, 89, 0, 0], [309714382, "A Thai-English Dictionary (Revised Edition)", 0.0, 0, 1454198400, 5747, 24, 138], [1230410428, "Spanish-Russian dictionary of adjectives (part 1)", 0.0, 0, 1345852800, 539, 0, 0], [936544387, "Roman Monarchy Deck", 0.0, 0, 1413504000, 100, 0, 0], [3096419492, "Naming Binary Compounds, Polyatomic Ions, and Acids", 0.0, 0, 1360454400, 22, 0, 0], [2032728557, "Cuestionario de Evaluacion de Proyectos 1", 0.0, 0, 1417564800, 11, 0, 0], [899473772, "ASL picture dictionary to SignWriting 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [572875536, "COM1002 Maths Binary Relations", 0.0, 0, 1432166400, 13, 0, 0], [524823056, "Hexadecimal to Binary Bit Patterns ", 0.0, 0, 1345852800, 15, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [402099813, "Polish-Russian dictionary", 0.0, 0, 1405123200, 966, 0, 0], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [49518835, "Adult II Week 5 - Alt. in Pulmonary Gas Exchange", 0.0, 0, 1412121600, 55, 0, 7], [678830273, "HMS.IHP.Pulmonary.II", 0.0, 0, 1359417600, 21, 0, 7], [3509651624, "HMS.IHP.Pulmonary.I", 0.0, 0, 1359417600, 24, 0, 5], [3623013922, "Spanish-Russian dictionary of adjectives (part 2)", 0.0, 0, 1345852800, 554, 0, 0], [897997716, "narodowo\u015bci", 0.0, 0, 1416096000, 28, 0, 0], [1155004753, "HISTB by Bernardo Feitosa", 0.0, 0, 1395187200, 157, 0, 6], [1356299823, "Ophtalm/Otologie-Seminar", 0.0, 0, 1430697600, 35, 0, 5], [1658973289, "Jon's Veterinary Notes", 0.0, 0, 1384387200, 487, 0, 1], [943233527, "Tema 03. Farmacolog\u00eda II. Analg\u00e9sicos narc\u00f3ticos y opioides", 0.0, 0, 1363910400, 57, 0, 0], [2068644928, "Bridie pulmonary infection", 0.0, 0, 1383264000, 14, 0, 0], [907248884, "Histology Renal and Urinary System ", 0.0, 0, 1351555200, 48, 0, 10], [1200636963, "English Monarchs", 0.0, 0, 1353456000, 45, 0, 0], [157755053, "DIP by Bernardo Feitosa", 0.0, 0, 1395187200, 28, 0, 0], [1040047446, "Embryological Proficiency on the Urinary System", 0.0, 0, 1351728000, 51, 0, 11], [208097760, "CofO2 - 13 - Pulmonary Circulation", 0.0, 0, 1345852800, 16, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nar</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

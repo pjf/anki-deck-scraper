@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[240081041, "acquafontalba", 0.0, 0, 1454284800, 8, 0, 0], [1918716669, "FAR Federal Acquisition Regulation", 0.0, 0, 1453161600, 40, 0, 0], [2135625293, "Pathology MCQ's", 0.0, 0, 1450742400, 525, 0, 0], [1835500524, "Physiology MCQ's", 0.0, 0, 1450742400, 491, 0, 0], [640417798, "IIIC MCQ Medisin NTNU", 0.0, 0, 1449187200, 55, 0, 1], [1247510722, "FANZCA Exam MCQs", 0.0, 0, 1446681600, 3434, 0, 1895], [771506002, "Medisin NTNU MCQ IIIC 2009-2012", 0.0, 0, 1443484800, 623, 0, 34], [778409241, "PARTS OF FEDERAL ACQUISITION REGULATIONS ", 0.0, 0, 1444694400, 41, 0, 0], [699994759, "Louvre sculptures grecques salles 13 14 15", 0.0, 0, 1445644800, 38, 0, 42], [34799596, "Kjeksitime IICD MCQ", 5.0, 1, 1392854400, 1461, 0, 146], [293366210, "DDO Paediatrics - acquired heart disease ", 0.0, 0, 1409616000, 25, 0, 0], [192225840, "Medisin NTNU MCQ IIAB 2007-2011", 0.0, 0, 1359676800, 1293, 0, 66], [1263804757, "JP's MRANZCOG MCQ 2", 0.0, 0, 1419206400, 152, 0, 0], [107408257, "MCQ7", 0.0, 0, 1419206400, 150, 0, 0], [2346645, "MCQ 4", 0.0, 0, 1419206400, 150, 0, 0], [1249874425, "MCQ 5", 0.0, 0, 1419206400, 152, 0, 0], [2059861412, "MCQ 8", 0.0, 0, 1419206400, 147, 0, 0], [1549390998, "JP's MRANZCOG MCQ 3", 0.0, 0, 1419206400, 150, 0, 0], [1580302344, "Ferengi Rules of Acquisition", 0.0, 0, 1415750400, 116, 0, 0], [1311108596, "T6 - MCQ-fr\u00e5gor - L\u00e4karprogrammet Lund/Malm\u00f6/Hbg", 0.0, 0, 1389398400, 209, 0, 0], [2661693494, "Kull10_ICD_MCQ", 0.0, 0, 1345852800, 184, 0, 4], [1417476520, "Acquired disorders of hemostasis", 0.0, 0, 1420761600, 22, 0, 0], [1510804069, "DNS MCQs", 0.0, 0, 1423267200, 148, 0, 37], [1245210712, "MCQ 6", 0.0, 0, 1419206400, 149, 0, 0], [3796780214, "MCQ IIAB", 0.0, 0, 1357689600, 692, 0, 7], [2128390243, "IIAB NTNU Medisin MCQ", 0.0, 0, 1367539200, 986, 0, 0], [1381279150, "Acquired disorders", 0.0, 0, 1420848000, 28, 0, 0], [1278477214, "RANZCOG MCQ 1", 0.0, 0, 1419206400, 181, 0, 0], [1386365975, "Medisin NTNU MCQ IICD IIDC 2008-2012", 0.0, 0, 1392768000, 1461, 0, 146], [1021557545, "ANZCA Primary Examination MCQs", 0.0, 0, 1417219200, 2171, 0, 2477]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cq</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

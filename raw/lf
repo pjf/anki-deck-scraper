@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1621569193, "selfstudythai.com vocabulary w/audio from VOA articles 1-85", 0.0, 0, 1406764800, 5392, 1748, 0], [189636759, "SM29 - Too Many Girlfriends", 0.0, 0, 1454284800, 34, 0, 0], [201400806, "Teach Yourself Hindi Dictionary", 5.0, 2, 1361232000, 3025, 0, 0], [912720120, "FST 100B Olfaction and Sensation", 0.0, 0, 1453939200, 98, 0, 0], [680848062, "Basic Kanji: 18 radicals... half of ALL kanji!", 0.0, 0, 1452038400, 18, 6, 35], [444007946, "Psych Shelf First Aid Review", 0.0, 0, 1449100800, 229, 0, 0], [1516834323, "JLPT4 Half Arsed Traveller Japanese ", 0.0, 0, 1450224000, 517, 492, 100], [539377625, "selfstudythai.com vocabulary w/audio from VOA articles 1-10", 0.0, 0, 1399852800, 1420, 354, 0], [149534155, "Deitel Java How to Program Chapter 4 (Self Exercises)", 0.0, 0, 1448409600, 29, 0, 0], [1729915144, "Deitel Java How to Program Chapter 3 (Self Exercises)", 0.0, 0, 1448409600, 31, 0, 0], [256483708, "Alfabeto Cir\u00edlico - Alfabeto Latino", 0.0, 0, 1449187200, 47, 0, 1], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [1484353484, "Rules of golf", 0.0, 0, 1448150400, 21, 0, 0], [89810865, "LEA Intro Second Half", 0.0, 0, 1447977600, 101, 0, 108], [1451463040, "Biochemick\u00e9 vzorce (1. LF UK)", 0.0, 0, 1445385600, 206, 0, 0], [1629957357, "Deutsch - LFN Lingua Franca Nova", 0.0, 0, 1443312000, 375, 0, 0], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 0.0, 0, 1454025600, 1381, 1119, 100], [345592498, "Bullfrog Names 2014 CIM", 0.0, 0, 1440979200, 69, 0, 68], [1398539982, "Alfabeto Hiragana Completo", 5.0, 1, 1435536000, 71, 0, 0], [1347764519, "Pediatrics Shelf Exam ", 4.83, 6, 1436313600, 715, 0, 218], [767478384, "Bullfrog Names 2014", 0.0, 0, 1440979200, 69, 0, 68], [179496770, "ASL V First half", 0.0, 0, 1440720000, 46, 0, 38], [2051412754, "M\u00f6llers - Introducing Yourself", 0.0, 0, 1411257600, 68, 0, 0], [1843110602, "Zelfstandig naamwoorden Russisch", 0.0, 0, 1418515200, 45, 0, 0], [853225513, "German Vocabulary per Towerofbabelfish", 0.0, 0, 1345852800, 108, 0, 102], [381859838, "Adjektiven+sein mit Pr\u00e4positionen tschechisch-deutsch byWolf", 0.0, 0, 1411603200, 62, 0, 0], [1427731002, "Self share_kron", 0.0, 0, 1434326400, 498, 0, 1], [1251241046, "EE4840 Biophotonics NTU first half", 0.0, 0, 1398384000, 225, 0, 16], [3899009929, "Dermatology Self Study for Physical Assessment", 0.0, 0, 1367798400, 32, 0, 15], [859382514, "LF I.2.1 Puls u. Blutdruck", 0.0, 0, 1431993600, 47, 0, 0], [1829492608, "hilfreich! ", 0.0, 0, 1397952000, 12, 12, 13], [314055767, "Nauka perskiego alfabetu z wymow\u0105", 0.0, 0, 1438128000, 64, 0, 1], [314335866, "rowan som block 1 fundamentals 1 self study cell signalling", 0.0, 0, 1409702400, 17, 0, 2], [1149385472, "Zelfstandig naamwoorden Russisch mv", 0.0, 0, 1424476800, 42, 0, 0], [3519896584, "Michelle Poop Alfalfa", 0.0, 0, 1372032000, 17, 0, 23], [772913647, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Uluslararas\u0131 Fonetik Alfabe", 0.0, 0, 1368662400, 26, 0, 0], [3810223180, "Teach Yourself Finnish Vocabulary", 0.0, 0, 1345852800, 937, 0, 0], [804520060, "FinalforNick", 0.0, 0, 1387411200, 51, 0, 71], [1556392406, "anthro 2nd half", 0.0, 0, 1432166400, 51, 0, 1], [1491508458, "to myself", 0.0, 0, 1433980800, 39, 0, 11], [1383349401, "self-improvement", 0.0, 0, 1389657600, 33, 0, 0], [3570948043, "Meithai - Verben und Hilfsverben", 0.0, 0, 1383782400, 210, 0, 0], [3477974631, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Ulusal Fonetik Alfabe", 0.0, 0, 1368662400, 40, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [2028303710, "\u015cava alfabeto por Esperanto", 0.0, 0, 1345852800, 28, 0, 0], [2062190850, "Kezdo Nemet - Delfin", 0.0, 0, 1345852800, 2185, 0, 0], [2099599232, "Nursing assessment 2nd half", 0.0, 0, 1431907200, 65, 0, 0], [3509237023, "DELF-Voci", 0.0, 0, 1362268800, 35, 0, 0], [1108650894, "P\u0159edlo\u017eky-Pr\u00e4positionen tschechisch-deutsch by Wolf", 0.0, 0, 1411603200, 105, 0, 0], [694080319, "Qing 2nd half", 0.0, 0, 1396396800, 200, 0, 0], [3184920527, "Handball IHF Regelfragenkatalog (Fassung 18.05.2012 )", 0.0, 0, 1388016000, 332, 0, 0], [1193840984, "Teach Yourself Zulu", 0.0, 0, 1391817600, 24, 26, 2], [3543965585, "Fulfulde - English", 4.0, 1, 1374364800, 20, 0, 0], [1703891276, "OPP exam 1 first half  LECOM", 0.0, 0, 1410048000, 43, 0, 5], [2287579771, "FMSHELF", 5.0, 1, 1377734400, 482, 0, 0], [715259813, "HMS.Human.Body.First.Half", 0.0, 0, 1352419200, 589, 0, 410]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

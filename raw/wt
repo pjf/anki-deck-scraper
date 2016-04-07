@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1858499615, "HSWT 1 Geo", 0.0, 0, 1452729600, 7, 0, 0], [1563764546, "Sailor Moon Super S Special 1 - Crybaby Usagi's Growth Diary", 0.0, 0, 1451692800, 22, 0, 0], [1015313647, "Salish 2 Example Sentences - Sn\u0294aw\u0294awtn 2: Level 2, Book 2", 0.0, 0, 1449014400, 1016, 769, 982], [1743113559, "WTFanki", 0.0, 0, 1447545600, 751, 0, 0], [662359146, "BSN iGCSE Biology unit 3 growth and development", 0.0, 0, 1447200000, 3, 3, 3], [693302190, "FWT", 0.0, 0, 1445212800, 299, 0, 55], [1588995680, "Learn to Read Greek Ch. 11 - DWT", 0.0, 0, 1403481600, 66, 0, 0], [1221497907, "Church Growth Test 1 Review Sheet", 0.0, 0, 1423526400, 75, 0, 0], [133427349, "Learn to Read Greek Ch. 7 - DWT", 0.0, 0, 1401840000, 72, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [1600751078, "WerkstofftechnikMarkH", 0.0, 0, 1402617600, 72, 0, 61], [1217198920, "Learn to Read Greek Ch. 5 - DWT", 0.0, 0, 1401148800, 64, 0, 0], [2105092537, "MCM Test 3: BSC Cancer and Aging: Uncontrolled Cell Growth", 0.0, 0, 1408492800, 50, 0, 0], [435561375, "Learn to Read Greek Ch. 3 - DWT", 0.0, 0, 1400284800, 82, 0, 0], [569416862, "Learn to Read Greek Ch. 1 - DWT", 0.0, 0, 1400112000, 34, 0, 0], [2562004261, "LearningLawTogether - Tort", 0.0, 0, 1398643200, 140, 0, 0], [1976568397, "LearningLawTogether - Criminal", 0.0, 0, 1398643200, 115, 0, 0], [744429963, "LearningLawTogether - EU MCT Practice", 0.0, 0, 1393459200, 83, 0, 0], [1784815955, "Growth of Flowering Plants", 0.0, 0, 1402012800, 176, 0, 0], [1817192715, "Learn to Read Greek Ch. 9 - DWT", 0.0, 0, 1402358400, 69, 0, 0], [895576189, "LearningLawTogether - Equity & Trusts", 0.0, 0, 1398643200, 111, 0, 0], [1197003868, "Bible Scriptures NWT", 0.0, 0, 1381276800, 34, 0, 0], [1096257400, "Physik UniBW-WT-ITE", 0.0, 0, 1397174400, 79, 0, 3], [673963158, "LearningLawTogether - EU", 0.0, 0, 1392768000, 241, 0, 0], [575904246, "LearningLawTogether - Land", 0.0, 0, 1398643200, 122, 0, 0], [1341867074, "Newtonian", 0.0, 0, 1357689600, 67, 0, 0], [169802889, "LearningLawTogether - Contract", 0.0, 0, 1398643200, 77, 0, 0], [145146692, "RLR #91 - Growth Mindset", 5.0, 1, 1423612800, 31, 31, 0], [4220422161, "LearningLawTogether - Con & Ad", 0.0, 0, 1385337600, 41, 0, 0], [4165979750, "Bible Scriptures (NWT)", 5.0, 2, 1355443200, 219, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Wt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

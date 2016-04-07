@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1920868040, "Labour and pregancy for Karen ", 0.0, 0, 1454112000, 136, 0, 0], [2103573310, "Deutsch: All 200 Irregular Base Verbs of German with Hints", 0.0, 0, 1433808000, 200, 208, 307], [160559158, "Ukraine - Deutsch - unregelm\u00e4\u00dfige Verben", 0.0, 0, 1454976000, 36, 0, 0], [2080271721, "[VectorMaps] Regions and prefectures of Japan", 4.56, 9, 1368662400, 54, 0, 101], [1181770964, "fmpregnancy", 0.0, 0, 1454544000, 131, 0, 0], [472904097, "Early pregnancy care for Karen", 0.0, 0, 1454112000, 28, 0, 0], [1863759406, "English Irregular Verbs in Context \u266a (for Russian Speakers)", 2.0, 1, 1452902400, 1119, 1753, 0], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [1846932484, "English Italian - Assimil words, Idiom, irregular verbs", 0.0, 0, 1452384000, 2622, 0, 0], [1918716669, "FAR Federal Acquisition Regulation", 0.0, 0, 1453161600, 40, 0, 0], [859226608, "German irregular verbs with spanish notes and translation", 0.0, 0, 1345852800, 456, 0, 0], [1100753655, "verbos irregulares nona", 0.0, 0, 1453507200, 122, 0, 0], [516718034, "Irregular Verbs English - ODO", 0.0, 0, 1452211200, 148, 0, 36], [1912052294, "AKELT The top 90 irregular past tense English verbs", 0.0, 0, 1452384000, 65, 0, 0], [630991076, "JS EN irregular verbs", 0.0, 0, 1452902400, 287, 0, 0], [737514179, "norske sterke verb - tsjekkisk (norwegian irregular verbs)", 0.0, 0, 1345852800, 139, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [2033132535, "English Irregular Verbs (russian translation and sound)", 0.0, 0, 1450915200, 308, 250, 41], [927574364, "PEG: English Irregular Verbs (past simple)", 0.0, 0, 1450742400, 100, 100, 0], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [1865728688, "Brasil - Estados, Capitais e Regi\u00f5es", 0.0, 0, 1451606400, 26, 0, 27], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [830113883, "Gregg Shorthand Simplified Brief Forms", 0.0, 0, 1449360000, 181, 0, 0], [39669938, "Irregular verbs english [english/portuguese]", 0.0, 0, 1446508800, 148, 3, 9], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [691498425, "Muskulatur der Regio Femoralis Anterior", 0.0, 0, 1447804800, 7, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [1243640311, "English Irregular Verbs 114 Pron LV", 0.0, 0, 1448064000, 114, 0, 0], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [1933691201, "CCO - pregnancy", 0.0, 0, 1447286400, 79, 0, 0], [1608083244, "Irregular verbs (hard) CZ-ENG", 0.0, 0, 1446768000, 92, 0, 0], [1736531235, "Irregular Verb  English - Polish", 0.0, 0, 1442534400, 207, 240, 219], [2772515877, "English Irregular Verbs with Phonetic", 3.88, 8, 1345852800, 311, 0, 0], [761438201, "PCOM 2019 M1 Cell Cycle Regulation", 0.0, 0, 1446163200, 41, 0, 3], [870991221, "Adjektive mit unregelm\u00e4\u00dfiger Steigerung", 0.0, 0, 1448409600, 41, 0, 0], [842374952, "Spanish words / espa\u00f1ol preguntas ", 0.0, 0, 1446076800, 15, 0, 1], [1958702363, "unregelm\u00e4\u00dfiger Verben", 0.0, 0, 1447804800, 149, 0, 0], [1929025612, "Past Simple V2 - Irregular Verbs - English - Hebrew", 0.0, 0, 1448150400, 151, 0, 0], [1691419018, "Nederlands voltooide tijd freq. onregelmatige werkwoorden ", 0.0, 0, 1446595200, 60, 0, 0], [238566799, "Irregular verbs 115 ige magyar (hun) \u00e9s angol (eng)", 5.0, 1, 1443484800, 115, 114, 2], [1720345077, "English Irregular Verbs with Phonetic And Audio [Persian]", 5.0, 1, 1421193600, 311, 679, 1], [1906684131, "Irregular verbs FULL audio, SPANISH translation", 0.0, 0, 1443398400, 156, 432, 1], [887264496, "Human Anatomy I, Chapter 1 Objectives, Pectoral Region", 5.0, 1, 1440892800, 42, 0, 9], [778409241, "PARTS OF FEDERAL ACQUISITION REGULATIONS ", 0.0, 0, 1444694400, 41, 0, 0], [1372516784, "Lektorat - angielski - czasowniki nieregularne EN-EN (UAM)", 1.0, 2, 1345852800, 176, 0, 0], [238350962, "English Irregular Verbs with Audio", 0.0, 0, 1439769600, 103, 231, 0], [2031618672, "Regional Anatomy Practice Questions - Kathy Durham Anatomy", 0.0, 0, 1443398400, 25, 0, 1], [1140146145, "English Irregular Verbs", 0.0, 0, 1439769600, 103, 231, 0], [1662019283, "Regular Expressions", 0.0, 0, 1443916800, 26, 0, 0], [1540660086, "80 irregular verbs", 0.0, 0, 1446768000, 172, 0, 1], [1062157855, "Gluteal region", 0.0, 0, 1442793600, 36, 0, 0], [1220626222, "Gross 1 Deep Back and Occipital region", 0.0, 0, 1443484800, 152, 0, 32], [2007192107, "Japanese prefectures and regions", 0.0, 0, 1443312000, 54, 0, 0], [896754528, "Colision Regulations Russian", 3.0, 1, 1442188800, 15, 0, 0], [462941866, "Eye, Orbit, Orbital Region, & Eyeball. CSUS Bio 122", 0.0, 0, 1440374400, 10, 0, 21], [1871404054, "Tongue, Oral Cavity, Submandibular Region ", 0.0, 0, 1441324800, 13, 0, 20], [1529369157, "Sterke verb - Norwegian irregular verbs", 0.0, 0, 1345852800, 70, 0, 0], [747726143, "Anton Preterite Irregular", 0.0, 0, 1420761600, 24, 0, 0], [1681440103, "KW-IrregularVerbs", 0.0, 0, 1411776000, 462, 0, 0], [1535471826, "AME Regimento Interno - TRT RS", 0.0, 0, 1438560000, 241, 0, 0], [1019738748, "regelkringen bvj havo-4 begrippen", 0.0, 0, 1431993600, 13, 0, 1], [602935779, "preguntas de ADR 5", 0.0, 0, 1433808000, 1670, 0, 0], [325360280, "REGIMENTO INTERNO TRT RS", 0.0, 0, 1438560000, 82, 0, 0], [2001386934, "Verbos_Irregulares_6789", 0.0, 0, 1396051200, 55, 0, 0], [2764593551, "Glycolysis Regulation", 0.0, 0, 1354752000, 53, 0, 28], [103566467, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - U (Sammy)", 4.0, 1, 1411948800, 13, 0, 0], [1324382159, "irregular verbs ", 0.0, 0, 1403481600, 130, 0, 1], [472138918, "AME Regimento Interno - TRT MG", 5.0, 1, 1432339200, 227, 0, 0], [609130370, "Preguntas de parasitologia", 0.0, 0, 1413331200, 342, 0, 1], [1751457864, "Latijn onregelmatige werkwoorden", 0.0, 0, 1395360000, 245, 0, 0], [796084146, "Irregular verbs [t\u0142um - I,II,III] MPT pre-int", 0.0, 0, 1356480000, 103, 103, 0], [1997565813, "Verbi irregolari (passato prossimo)", 5.0, 1, 1391126400, 50, 100, 0], [1177723414, "Deutch - Polish irregular verbs", 0.0, 0, 1380844800, 27, 0, 0], [2231661921, "RGBM Week 3 Pregnancy I", 0.0, 0, 1358553600, 100, 0, 18], [1654530713, "Portugues irregular verbs (port-en)", 0.0, 0, 1417824000, 249, 0, 3], [1915236931, "Gene Expression and Regulation Exam 1.2", 0.0, 0, 1408752000, 36, 0, 0], [1639485195, "ENG-SPA. REGULAR VERBS. VERBOS REGULARES", 4.0, 1, 1432857600, 260, 260, 257], [1262422519, "CPA REG", 0.0, 0, 1387843200, 387, 0, 0], [1486376263, "BSHo Obs - Hypertension in Pregnancy", 0.0, 0, 1394928000, 19, 0, 1], [1742229320, "OSU - MSK - Gluteal Region and Posterior Thigh", 0.0, 0, 1418342400, 80, 0, 41], [2877826283, "Regular expressions", 0.0, 0, 1380672000, 17, 0, 0], [790852825, "preguntas de ADR 3 2010", 0.0, 0, 1433808000, 406, 0, 0], [848504498, "BUSM - Anatomy - Bones Shoulder region", 0.0, 0, 1377043200, 68, 0, 2], [1332437227, "Irregular verbs gaby", 0.0, 0, 1396224000, 140, 0, 0], [2094185308, "Verbe irregulier anglais fran\u00e7ais", 0.0, 0, 1432598400, 125, 7, 3], [1393714679, "preguntas de ADR 2 2010", 0.0, 0, 1433808000, 490, 0, 0], [813839112, "Participios irregulares en B\u00falgaro", 0.0, 0, 1433635200, 26, 0, 0], [783078663, "RGBM Week 3-4 Pregnancy III", 0.0, 0, 1358899200, 121, 0, 5], [1410177756, "Les r\u00e9gions fran\u00e7aises (French regions) + maps", 2.33, 3, 1362441600, 27, 0, 27], [225769466, "Regina_2014-04-14", 0.0, 0, 1399852800, 31, 0, 0], [1280755311, "OTH4412 UF Chapter 8 Muscles of the Shoulder Region", 0.0, 0, 1422316800, 52, 0, 0], [4182676126, "Common English Irregular Verbs [Persian]", 1.0, 2, 1345852800, 104, 0, 0], [1355137499, "Regular Expressions (Regex)", 3.0, 3, 1358380800, 21, 0, 0], [842729777, "Villanova Regression Methods - part 1", 0.0, 0, 1424563200, 48, 0, 49], [1098381252, "Icelandic - \u00f3reglulegar sagnir (\u00fet.)", 4.5, 2, 1410307200, 99, 0, 0], [3162140784, "German Irregular Verbs", 0.0, 0, 1380931200, 101, 0, 0], [389395173, "DSRI Unit 7  Multiple Linear Regression", 5.0, 1, 1415145600, 19, 0, 3], [1837271219, "Niederl\u00e4ndisch unregelm\u00e4\u00dfige Verben", 0.0, 0, 1411084800, 59, 0, 0], [27733396, "Deutsch Unregelm\u00e4ssige Verben Partizip II - Spanish-Catalan", 0.0, 0, 1422144000, 67, 0, 63], [1519272241, "ENG-SPA. IRREGULAR VERBS", 3.0, 2, 1432857600, 207, 207, 202], [1919783927, "Nepravideln\u00e1 slovesa - Unregelm\u00e4\u00dfige Verben", 0.0, 0, 1410480000, 70, 0, 1], [3756779099, "Latin irregular verb conjugations", 0.0, 0, 1366156800, 102, 0, 0], [2127945496, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - E (Sammy)", 0.0, 0, 1410998400, 12, 0, 0], [2174270357, "RGBM Week 3 Pregnancy II", 0.0, 0, 1358899200, 101, 0, 7], [2850714102, "Irregular verbs [I,t\u0142um - II,III] MPT pre-int", 0.0, 0, 1356480000, 103, 103, 0], [1968109689, "Irregural verbs", 0.0, 0, 1407110400, 77, 0, 2], [480877093, "Unregelm\u00e4\u00dfige Verben nach Ablaut (Sammy) a - a", 0.0, 0, 1410998400, 8, 0, 0], [2863804033, "MIT 21F.101 Chinese I Regular", 0.0, 0, 1345852800, 402, 0, 0], [3557073292, "Gluteal Region Dr. Chen", 0.0, 0, 1351814400, 30, 0, 24], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [1565695384, "Spanish verbs - regular future", 0.0, 0, 1395360000, 18, 0, 0], [55260522, "bvj havo-4 basisstof 1 regelkringen en homeostase", 0.0, 0, 1431993600, 13, 0, 3], [1428568118, "Italian wine producing regions", 0.0, 0, 1345852800, 69, 0, 0], [514969579, "Han lectures regarding ER, Golgi, Mitochondria, and Lysosome", 0.0, 0, 1408838400, 41, 0, 10], [1896096233, "Preguntas Hematolog\u00eda 4\u00ba Grado UAM", 0.0, 0, 1434844800, 908, 0, 0], [3301862686, "Single-malt Scotch whisky by region", 0.0, 0, 1382227200, 89, 0, 0], [1928327134, "Biochem Chapter 19: Regulation of Mammalian Fuel Metabolism", 0.0, 0, 1430697600, 26, 3, 2], [3185927584, "Latin regular verb conjugations", 0.0, 0, 1366156800, 210, 0, 0], [281108684, "Unregelm\u00e4\u00dfige Verben nach Ablaut A - O (Sammy)", 0.0, 0, 1410998400, 19, 0, 0], [1738791118, "French - Farsi -- Words of AlterEgo 1 methode de francais", 1.0, 1, 1358553600, 1150, 0, 0], [1785789571, "Die Deutsche Unregelm\u00e4\u00dfige verben", 0.0, 0, 1443052800, 248, 0, 732], [1778404461, "DSRI Unit 6  Intro to Linear Regression", 5.0, 1, 1415145600, 21, 0, 6], [1871436432, "preguntas de ADR 4 2010", 0.0, 0, 1433808000, 537, 0, 0], [3184920527, "Handball IHF Regelfragenkatalog (Fassung 18.05.2012 )", 0.0, 0, 1388016000, 332, 0, 0], [1152343697, "Unregelm\u00e4ssige Formen im Indefinido", 0.0, 0, 1367712000, 38, 0, 0], [1268839265, "2014-2015 Oregon Driver's Manual, Form 37", 0.0, 0, 1395532800, 267, 0, 1], [92529641, "reggie taxi 1", 0.0, 0, 1388880000, 223, 0, 0], [1826307464, "preguntas de ADR 1 2010", 0.0, 0, 1433808000, 558, 0, 0], [1837887242, "Spanish - present tense of 50 most common irregular verbs", 0.0, 0, 1394928000, 294, 0, 0], [300969331, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H2", 0.0, 0, 1387324800, 30, 0, 0], [3680063, "Unregelmaasige Verben", 0.0, 0, 1414281600, 32, 0, 0], [1042687651, "English irregular verbs", 4.2, 5, 1379721600, 130, 0, 0], [1778096380, "RGBM Week 3 Pregnancy Pharm", 0.0, 0, 1358553600, 52, 0, 2], [982346098, "Regenerativ Energie II Universit\u00e4t Duisburg Essen II", 0.0, 0, 1390867200, 82, 0, 94], [1826967122, "Villanova Regression Methods - part 2", 0.0, 0, 1424563200, 31, 0, 20], [133484194, "\u00d3regulegra sagna", 0.0, 0, 1433203200, 99, 0, 0], [1536680833, "nerve regeneration", 0.0, 0, 1417478400, 24, 0, 6], [3097382316, "CSIM Spanisch-Deutsch A1 unregelm\u00e4\u00dfige Verben Partizip II", 0.0, 0, 1383350400, 122, 0, 0], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [706416899, "English Irregular Verbs with Phonetic [Persian]", 5.0, 1, 1345852800, 311, 0, 0], [1275490436, "China Provinces, Regions, and Capital Cities", 0.0, 0, 1345852800, 34, 0, 34], [1360184509, "More! 2 Irregular Verbs", 0.0, 0, 1427155200, 87, 0, 0], [409936192, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II", 0.0, 0, 1387411200, 40, 0, 0], [1968183720, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H1", 0.0, 0, 1387324800, 30, 0, 0], [2522743621, "German Irregular Verbs, Pr\u00e4teritum und Perfekt", 4.0, 1, 1373587200, 38, 0, 0], [2530617883, "RGBM Week 3-4 Pregnancy IV + Genetics", 0.0, 0, 1358899200, 88, 0, 5], [2278634640, "Month of the Gregorian Year", 0.0, 0, 1357084800, 12, 0, 0], [173126312, "Regionale Geologie Uni T\u00fcbingen", 0.0, 0, 1425513600, 30, 0, 0], [978238095, "BSprA Spa 1-3 2014 Irregulares", 0.0, 0, 1415232000, 91, 0, 0], [621053856, "Biologie 3. Informationsverarbeitung und Regelung", 0.0, 0, 1346284800, 88, 0, 34], [1906467288, "Regenerativ Energie II Universit\u00e4t Duisburg Essen", 0.0, 0, 1390867200, 55, 0, 44], [312070164, "Spanish verbs - regular imperfect", 0.0, 0, 1395360000, 18, 0, 0], [1211895976, "Villanova Regression Methods - part 3", 0.0, 0, 1424563200, 39, 0, 12], [856701627, "Italian Regions [Regioni d'Italia]", 0.0, 0, 1427241600, 20, 0, 25], [1796744286, "English irregular verbs", 2.5, 2, 1427328000, 100, 100, 0], [2811752271, "Common English Irregular Verbs", 0.0, 0, 1356480000, 125, 7, 0], [628514035, "verbi italiani irregolari", 5.0, 1, 1360022400, 2840, 0, 0], [1906841688, "Spanish verbs - regular present", 0.0, 0, 1395360000, 18, 0, 0], [1396383988, "German irregular verbs (full list)", 0.0, 0, 1395705600, 131, 0, 0], [3250953306, "Irregular German Verbs", 0.0, 0, 1345852800, 568, 0, 0], [2092761875, "German irregular verbs", 0.0, 0, 1379289600, 162, 0, 0], [1839955209, "Aggregate Medical Spanish", 0.0, 0, 1396051200, 1276, 587, 0], [992405429, "CSIM Spanisch-Deutsch A2 unregelm\u00e4\u00dfige Verben Partizip II H3", 0.0, 0, 1387324800, 30, 0, 0], [592931210, "Regions of European Countries (with maps and capitals)", 2.0, 2, 1402963200, 92, 0, 95]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Reg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

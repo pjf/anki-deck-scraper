@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[906766464, "Najwazniejsze slowka ENG --> PL    PART I", 0.0, 0, 1453075200, 50, 0, 0], [1552432975, "S\u0142\u00f3wka czeskie, lektorat ", 0.0, 0, 1447804800, 161, 0, 1], [1146826440, "Rozm\u00f3wki polsko-rosyjskie PL-RU (UAM)", 3.5, 4, 1345852800, 1033, 0, 0], [1560671031, "S\u0142\u00f3wka na niemiecki - ruch w mie\u015bcie 1", 0.0, 0, 1447891200, 22, 0, 0], [600328520, "WKU Chinese Traditions", 0.0, 0, 1443571200, 155, 0, 0], [943180556, "Angielski_Slowka", 0.0, 0, 1421971200, 671, 0, 0], [975025588, "Wk. 1, Inter. 1, Soko Gakuen", 0.0, 0, 1397952000, 54, 0, 0], [569577739, "MSK Wk 2 Review", 0.0, 0, 1439164800, 57, 0, 1], [1635772555, "MSK Wk 1 Review Tbat", 0.0, 0, 1439164800, 107, 0, 1], [389832814, "MSK Wk 3 Review", 0.0, 0, 1439769600, 82, 0, 1], [369923304, "grama1slowka japo", 0.0, 0, 1403136000, 72, 0, 0], [1550197877, "bimm116 wk 10", 0.0, 0, 1355270400, 49, 0, 0], [203330382, "UPB_WK2", 0.0, 0, 1395014400, 130, 0, 87], [1502550126, "bimm116 wk 05", 0.0, 0, 1355184000, 81, 0, 0], [651475745, "s\u0142\u00f3wka japo\u0144skie", 0.0, 0, 1345852800, 327, 0, 0], [470162825, "bimm116 wk 03", 0.0, 0, 1355184000, 12, 0, 0], [2061087287, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 9 cz\u0119\u015b\u0107 1", 0.0, 0, 1426809600, 52, 0, 0], [1893778085, "Angielski klasa 3 s\u0142\u00f3wka rozdzia\u0142 10 cz\u0119\u015b\u0107 2", 5.0, 1, 1427414400, 58, 0, 0], [28459231, "PHYT8001 Wk 6 Quiz. This is a quick made up of week six.", 0.0, 0, 1428796800, 30, 0, 0], [2030191713, "\u592a\u7a7a\u5c0b\u5bf6\u4e4b\u65c5 Vocab from Hawking's \"George's Cosmic Treasure Hunt\"", 0.0, 0, 1433462400, 17, 0, 0], [33828124, "grama slowka 2", 0.0, 0, 1403136000, 97, 0, 0], [1133751120, "bimm116 wk 06", 0.0, 0, 1355184000, 62, 0, 0], [2250553288, "bimm116 wk 08+09", 0.0, 0, 1355184000, 77, 0, 0], [3008060234, "bimm116 wk 04", 0.0, 0, 1355184000, 47, 0, 0], [407900018, "Longman Slowka Eng-PL", 0.0, 0, 1345852800, 2059, 0, 0], [824150389, "UPB_WKK", 0.0, 0, 1424563200, 342, 0, 143], [456055633, "UPB_WK", 0.0, 0, 1370995200, 97, 0, 100], [1686340682, "bimm116 wk 01", 0.0, 0, 1355184000, 51, 0, 0], [1657901308, "bimm116 wk 02", 0.0, 0, 1355184000, 13, 0, 0], [3984575522, "bimm116 wk 07", 0.0, 0, 1355184000, 39, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Wk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1050878605, "Aleman", 0.0, 0, 1454544000, 123, 8, 0], [2050498996, "Lingualeo_ksu", 0.0, 0, 1454976000, 1468, 0, 0], [1494427582, "Kana equivalence", 0.0, 0, 1454371200, 46, 0, 0], [930116308, "2100 Kanji l'int\u00e9grale des JLPT et Jouyou en Fran\u00e7ais", 0.0, 0, 1453939200, 2100, 0, 2202], [1839034134, "fmmale", 0.0, 0, 1454630400, 39, 0, 0], [359423088, "Angielski frazale i nie tylko", 3.0, 1, 1453334400, 481, 0, 0], [188644036, "German-spanish mazo para hispanoparlantes de alem\u00e1n", 5.0, 1, 1345852800, 7699, 0, 0], [1039626004, "TS - Analyse spectrale", 0.0, 0, 1453680000, 30, 1, 46], [1936909884, "Alem\u00e1n A1 a B1 (PBG)", 0.0, 0, 1449619200, 3843, 0, 0], [895893421, "XeH Ricardo Carballo Calero", 5.0, 3, 1453507200, 31, 0, 0], [869349854, "Deutsch: Valency - 300 Verbs with Prepositions and More", 0.0, 0, 1431993600, 666, 10, 3], [1701636491, "Animales en alem\u00e1n", 0.0, 0, 1442793600, 19, 0, 0], [4036022128, "Model Thinking (notes by Dmitriy Alexeev)", 0.0, 0, 1345852800, 81, 0, 33], [117638490, "Expresiones habituales en ing\u00e9s", 0.0, 0, 1452988800, 204, 0, 0], [1190323276, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level DALET, verbs", 0.0, 0, 1386460800, 528, 0, 0], [58726747, " german spanish declinaci\u00f3n del adjetivo aleman", 0.0, 0, 1345852800, 51, 0, 0], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [564665806, "Physiologie - Atmung Alex", 0.0, 0, 1452297600, 20, 0, 0], [1211538283, "Basic Quechua (Southern Peru Dialect)", 0.0, 0, 1451952000, 50, 5, 1], [4319702, "Wales - Valar (Swedish)", 0.0, 0, 1452124800, 17, 0, 0], [1984136141, "Pa\u00edses y capitales de Europa (espa\u00f1ol)", 0.0, 0, 1451174400, 44, 0, 47], [887133736, "Fachkundenachweis Seenotsignale DMYV Fragen", 0.0, 0, 1452556800, 60, 1, 4], [218840145, "Se\u00f1ales de tr\u00e1fico", 0.0, 0, 1450828800, 92, 0, 92], [1539461024, "243- INSUFFISANCE SURRENALE", 0.0, 0, 1450224000, 14, 0, 1], [63336262, "Business ENG_RUS lingualeo", 0.0, 0, 1447977600, 977, 0, 7], [1247020189, "Se\u00f1ales de circulaci\u00f3n en Espana - Comunidad Europea", 0.0, 0, 1451692800, 329, 0, 335], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [212652989, "formule integrale si derivate", 0.0, 0, 1449619200, 38, 17, 77], [36128031, "Verbos Ingles-Franc\u00e9s-Alem\u00e1n ", 0.0, 0, 1449532800, 35, 0, 0], [1320347145, "Medical School - Pelvic Anatomy (Male/Female)", 0.0, 0, 1445731200, 182, 0, 451], [890842472, "bioavailability and bioequivalence (for uzo)", 0.0, 0, 1449878400, 8, 0, 14], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [244975380, " Politik, Staat und Internationales", 0.0, 0, 1449705600, 20, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [359302370, "Male ad Female Reproductive Systems ANATD 502 ", 0.0, 0, 1449705600, 275, 0, 38], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [1740603545, "Alefba erste vier Lektionen", 0.0, 0, 1446595200, 296, 0, 0], [702117650, "Javier1 estudio Aleman", 0.0, 0, 1448928000, 89, 0, 0], [907305985, "Aprender Alem\u00e3o - Portugu\u00eas", 0.0, 0, 1449446400, 111, 106, 1], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [2138821507, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF, verbs", 0.0, 0, 1386460800, 243, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [1534656587, "Arabic, Palestinian dialect, Arab easy", 0.0, 0, 1447632000, 776, 0, 0], [417416744, "Infrahyoidale Muskulatur", 0.0, 0, 1447632000, 6, 0, 0], [2094258247, "Caleb GI path ", 0.0, 0, 1447027200, 150, 0, 187], [1632764161, "Muskeln der ventrolateralen Bauchwand", 0.0, 0, 1447804800, 9, 0, 0], [956449007, "Capacit\u00e0 verbale", 0.0, 0, 1447286400, 318, 0, 0], [479830396, "female repro 2- pics", 0.0, 0, 1446508800, 52, 2, 143], [1518106034, "Ariella- female repro 2- pics", 0.0, 0, 1446508800, 52, 2, 143], [1057165854, "Health Assessment Chp 26 Males/Rectum", 0.0, 0, 1445385600, 74, 0, 0], [16021226, "Europe : drapeaux, pays, capitales", 5.0, 1, 1443312000, 45, 0, 90], [2000645439, "Health Assessment Chp 27 Females", 0.0, 0, 1445385600, 81, 0, 0], [748240516, "malerepro", 0.0, 0, 1446681600, 38, 0, 0], [1254167893, "Langenscheidt - I - 2000 palavras - alem\u00e3o -  portugu\u00eas", 5.0, 1, 1428883200, 1974, 0, 0], [2025038553, "Biologie generale", 0.0, 0, 1444435200, 338, 0, 6], [750507314, "Alex and Ilya Sociology", 0.0, 0, 1444262400, 93, 0, 9], [1204849858, "AUA Med 4 Female Reproductive Pathology", 0.0, 0, 1443916800, 292, 0, 167], [1171627726, "Alex and Mum Spanish V1", 0.0, 0, 1439337600, 234, 233, 55], [1304657501, "Ulpan Ezion Verbs alef4", 0.0, 0, 1442880000, 162, 0, 0], [117701929, "Svt bac terminale s", 0.0, 0, 1434844800, 5, 0, 5], [863941301, "Portugu\u00eas - Alem\u00e3o v2", 5.0, 1, 1417046400, 2875, 5610, 1], [1195438702, "Alem\u00e3o - Portugu\u00eas ", 0.0, 0, 1442707200, 162, 32, 2], [1537038981, "Khaled u7", 0.0, 0, 1440028800, 705, 0, 0], [1263460634, "un peu de culture g\u00e9n\u00e9rale", 0.0, 0, 1439164800, 69, 3, 0], [1130110834, "Tabla de integrales inmediatas y derivadas", 0.0, 0, 1442188800, 37, 0, 74], [1616583212, "mazzo su asia medio rientale e centrale", 0.0, 0, 1386028800, 29, 0, 0], [721789011, "Pa\u00edses y Capitales del Mundo (banderas inclusive)", 5.0, 1, 1440374400, 194, 0, 248], [154621062, "Trabajos: alem\u00e1n - espa\u00f1ol", 0.0, 0, 1442793600, 15, 0, 0], [146928252, "Khaled u8", 0.0, 0, 1443312000, 852, 0, 0], [696959526, "MPaley MB1", 0.0, 0, 1439596800, 91, 0, 4], [2027359382, "La clase en alem\u00e1n", 0.0, 0, 1442793600, 29, 0, 0], [2061365536, "Alex_ydre\u00f8re", 0.0, 0, 1402272000, 28, 0, 12], [193116679, "Neuroanatomi3_Alex", 0.0, 0, 1398211200, 27, 0, 39], [873568652, "Alex_immunologi", 0.0, 0, 1402444800, 14, 0, 8], [217329638, "MPaley MBM Protein Lecture 1", 0.0, 0, 1439596800, 29, 0, 0], [618576749, "USC Dental - George Gonzalez", 0.0, 0, 1439078400, 52, 0, 9], [775317106, "Business English for Japanese Overseas Salesperson", 0.0, 0, 1438387200, 5, 4, 0], [218813209, "MPaley Nitrogen Metabolism ", 0.0, 0, 1439596800, 73, 0, 1], [247684641, "Buon Natale!", 0.0, 0, 1387756800, 50, 50, 0], [1087733470, "Khaled U4", 0.0, 0, 1434067200, 1141, 0, 0], [2587261567, "Du\u0144ski PL-DA (Aleksandra)", 0.0, 0, 1345852800, 182, 0, 0], [2133201373, "Khaled u7 1st chapters", 0.0, 0, 1439683200, 256, 0, 0], [219863352, "Biologie g\u00e9n\u00e9rale 2", 0.0, 0, 1438128000, 120, 0, 1], [808913171, "MPaley Anatomy ", 0.0, 0, 1439596800, 93, 0, 63], [800178925, "PFP Male Reproductive System", 0.0, 0, 1416268800, 34, 0, 0], [651340308, "Estados y capitales de M\u00e9xico", 0.0, 0, 1387497600, 63, 0, 32], [696907225, "Alex_fonation3", 0.0, 0, 1402272000, 18, 0, 16], [465868024, "Version Originale 4", 0.0, 0, 1434758400, 87, 0, 0], [1313997299, "Alex-Respiration1", 0.0, 0, 1393372800, 53, 0, 14], [1981097863, "Khaled U6", 0.0, 0, 1439164800, 655, 0, 0], [86647136, "MA1 - Pharmacologie sp\u00e9ciale - CV", 0.0, 0, 1353456000, 55, 0, 302], [874551096, "Khaled Type Deck", 0.0, 0, 1439164800, 1, 0, 0], [1772952760, "Alex_Lydl\u00e6re2", 0.0, 0, 1402358400, 6, 0, 7], [114855411, "Earthquake, water & hope (Nepalese Transliteration & Devanag", 0.0, 0, 1430611200, 13, 0, 0], [2057679107, "Micro Ale FCs", 0.0, 0, 1409616000, 316, 0, 21], [1410869259, "Neuroanatomi_Alex", 0.0, 0, 1398211200, 50, 0, 38], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [1354218170, "Version Originale 1&2", 0.0, 0, 1434758400, 66, 0, 0], [220360258, "Alex-V\u00e6vsl\u00e6re", 0.0, 0, 1393372800, 74, 0, 6], [723136749, "Hijri Calendar", 0.0, 0, 1420502400, 12, 0, 0], [3723561548, "Alex Anatomy EVMS", 0.0, 0, 1378944000, 129, 0, 27], [884256540, "Alem\u00e1n Ausdrucken", 0.0, 0, 1439337600, 49, 0, 0], [3173814939, "MA1 - Pharmacologie sp\u00e9ciale - SNC", 0.0, 0, 1354838400, 57, 0, 371], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [1555834117, "Female Repro", 0.0, 0, 1386806400, 35, 0, 34], [1002978114, "dakakua'ana davi: animales", 0.0, 0, 1411689600, 22, 22, 22], [1031602923, "Geologic Timescale", 0.0, 0, 1345852800, 43, 0, 0], [417291689, "Alergologia 3er parcial", 0.0, 0, 1413331200, 44, 0, 2], [205826724, "Repro Female Sexual Dysfunction 04.24.15", 0.0, 0, 1430697600, 21, 0, 4], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [2625437215, "TCM Review CALE 83 Formulas Key Signs & Symptoms", 0.0, 0, 1345852800, 83, 0, 0], [3916546620, "Academic Word List Sublist 3 to Chinese equivalents", 0.0, 0, 1426377600, 31, 0, 0], [3647951132, "Assimil Ingl\u00e9s Perfeccionamiento [Voces Reales]", 0.0, 0, 1385683200, 1, 1, 0], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [1372674744, "EVMS Alex Shoulder", 0.0, 0, 1379980800, 11, 0, 11], [4036649805, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [1108171985, "Major Scales & Modes - Spelling", 0.0, 0, 1369958400, 588, 0, 0], [267535076, "phrasale", 0.0, 0, 1371513600, 279, 0, 0], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [1209518496, "Valenci\u00e0 T6", 0.0, 0, 1428796800, 18, 0, 0], [1118731976, "Alex_fonation2", 0.0, 0, 1402272000, 14, 0, 15], [1774188283, "Khaled u5", 0.0, 0, 1435449600, 292, 0, 0], [615292734, "Version Originale 3", 0.0, 0, 1434758400, 71, 0, 0], [2058422412, "SOCO Espa\u00f1ol - N\u00fameros Ordinales", 0.0, 0, 1437955200, 20, 0, 0], [1247884378, "MA1 - Pharmacologie sp\u00e9ciale - GI", 0.0, 0, 1354492800, 16, 0, 74], [2108801542, "Alex_fonation5", 0.0, 0, 1402272000, 11, 0, 5], [826305746, "Inhaled Anesthetics", 0.0, 0, 1427068800, 28, 0, 0], [1239898578, "aleman", 0.0, 0, 1431475200, 16, 0, 0], [1848339928, "Anatomy of the Female Reproductive Tract", 0.0, 0, 1431129600, 47, 0, 8], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [490266310, "Anatomy Male Pelvis", 0.0, 0, 1351123200, 17, 0, 1], [934310325, "Repro Anatomy of the Male Repro Tract 04.20.15 ", 0.0, 0, 1430870400, 16, 0, 9], [527377599, "Khaled Proper", 0.0, 0, 1429142400, 339, 0, 0], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [1716758613, "Tema 5. Tecnolog\u00eda Farmac\u00e9utica II. Formas rectales y vagina", 0.0, 0, 1365379200, 210, 0, 0], [3023091261, "MA1 - Pharmacologie sp\u00e9ciale - Douleur", 0.0, 0, 1354492800, 20, 0, 149], [1651585859, "Alex Neuro Synet", 0.0, 0, 1413936000, 25, 0, 28], [523539246, "Paleo 1", 0.0, 0, 1345852800, 188, 0, 0], [1411431603, "ActionAlexKILL Megafon", 0.0, 0, 1407801600, 28, 0, 0], [3450331509, "Academic Word List Sublist 2 to Chinese equivalents", 0.0, 0, 1426377600, 60, 0, 0], [964984232, "Male Gonad Physiology", 0.0, 0, 1431216000, 55, 0, 2], [1124884023, "FTS4 Personalentwicklung", 0.0, 0, 1409097600, 4, 0, 0], [504358078, "Hebrew AlefBet (TeachMeHebrew.com)", 5.0, 2, 1354924800, 22, 22, 0], [1899523792, "FTS4 Personaleinsch\u00e4tzung", 0.0, 0, 1409097600, 33, 0, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [907876400, "S\u00e9curit\u00e9 sociale IFSI Beauvais ", 0.0, 0, 1396310400, 23, 0, 0], [1029485837, "Academic Word List Sublist 1 to Chinese equivalents", 0.0, 0, 1426377600, 59, 0, 0], [208899389, "Alex Neuro Medulla Spinalis", 0.0, 0, 1413936000, 47, 0, 44], [235568589, "Alex-Respiration3", 0.0, 0, 1393372800, 23, 0, 10], [602223996, "jlmMAlabmale", 0.0, 0, 1393977600, 29, 0, 32], [165309892, "Ordres de grandeur en physique (valeurs num\u00e9riques)", 0.0, 0, 1404086400, 88, 0, 11], [2068685369, "Aleph Bet copado", 0.0, 0, 1395705600, 65, 0, 0], [488877493, "jlmMALabfemale", 0.0, 0, 1393977600, 28, 0, 35], [991861971, "Culture g\u00e9n\u00e9rale et fran\u00e7ais", 0.0, 0, 1400630400, 234, 0, 0], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [1222257840, "Formale Systeme", 0.0, 0, 1416182400, 6, 0, 0], [3631445081, "Fi\u0144ski PL-FI (Aleksandra)", 3.0, 1, 1345852800, 174, 0, 0], [395054002, "Aprendendo alem\u00e3o com Anki", 1.0, 1, 1428192000, 3, 0, 0], [1020172368, "Khaled For Daily Use", 0.0, 0, 1439164800, 4483, 0, 0], [64308921, "Tema 02. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [501717298, "Patologia e Fisiopatologia Generale (UniPD MED 3-4)", 0.0, 0, 1404259200, 506, 0, 1], [1269035023, "Deutsch - Spanisch / Aleman - Espa\u00f1ol", 0.0, 0, 1409616000, 5928, 0, 0], [649847594, "Histology: Female Reproductive System: Leonard", 0.0, 0, 1352764800, 91, 0, 21], [4010897319, "RGBM Week 2 - Male GU", 0.0, 0, 1357948800, 99, 0, 0], [1991394856, "Earthquake, water & hope (Nepalese Devanagari & Transliterat", 0.0, 0, 1430611200, 13, 0, 0], [821970571, "integrale", 0.0, 0, 1419292800, 47, 0, 3], [900836268, "Male reproductive tract", 0.0, 0, 1414195200, 47, 0, 0], [1821662180, "Alex-Respiration2", 0.0, 0, 1393372800, 54, 0, 34], [549808497, "Khaled of the Levanteam", 0.0, 0, 1429142400, 813, 0, 0], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [3819130012, "Tema 2. Farmacolog\u00eda II. Anest\u00e9sicos generales", 0.0, 0, 1363910400, 45, 0, 0], [2320389082, "Guitar Chords and Scales", 0.0, 0, 1345852800, 27, 0, 15], [1353423173, "Alex_formler_plus_ekstra", 0.0, 0, 1402444800, 19, 0, 1], [3794568627, "frances_basico_jalex98", 0.0, 0, 1352592000, 16, 0, 0], [515846693, "Vocabulario espagnol fran\u00e7ais terminale", 0.0, 0, 1389744000, 358, 0, 0], [3236787963, "Alem\u00e1n-Espa\u00f1ol por elnezah", 0.0, 0, 1372723200, 1055, 0, 0], [8571675, "Histology of the Male Repro Tract", 0.0, 0, 1431129600, 35, 0, 2], [1993140760, "PFP Female Reproductive System", 0.0, 0, 1416268800, 28, 0, 0], [2092633178, "Neuroanatomi4_Alex", 0.0, 0, 1398211200, 18, 0, 31], [1400497201, "Alex_Mellem\u00f8re", 0.0, 0, 1402272000, 30, 0, 10], [1973420773, "SaraYale This deck is for my students.", 0.0, 0, 1410134400, 501, 500, 0], [3832460992, "HMS.HB.Male.Female.Reproductive.System", 0.0, 0, 1352419200, 43, 0, 49], [1009826460, "spl - Alex and Cam 01", 0.0, 0, 1416096000, 26, 26, 0], [124419539, "Neuroanatomi2_Alex", 0.0, 0, 1398211200, 59, 0, 38], [149768994, "HIsto Male Reproductive Lab AECOM", 0.0, 0, 1345852800, 20, 0, 40], [1950519440, "Portugu\u00eas - Alem\u00e3o", 0.0, 0, 1360281600, 3305, 0, 0], [1312976240, "Khaled U3", 0.0, 0, 1430524800, 898, 0, 0], [2076073194, "Thalamus, thalamocorticale forbindelse. Cerebral cortex, Tal", 0.0, 0, 1411689600, 31, 0, 15], [563368435, "Yale Japanese 110 &120 - Japanese the Spoken Language", 5.0, 1, 1402099200, 1591, 1484, 0], [3917598254, "MA1 - Pharmacologie sp\u00e9ciale - Urog\u00e9nital", 0.0, 0, 1358553600, 11, 0, 49], [1800574577, "drdale syllabus quiz practice", 0.0, 0, 1421712000, 31, 0, 0], [33560450, "Kalendarium \u017byd\u00f3w.", 0.0, 0, 1427414400, 40, 0, 0], [58419656, "Notes of the chromatic scale", 5.0, 1, 1403308800, 12, 12, 0], [148107471, "Alex_fonation1", 0.0, 0, 1402272000, 19, 0, 9], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [1419767219, "Alex_fonation4", 0.0, 0, 1402272000, 14, 0, 12], [1475967085, "Neurophysiology1BAlex", 5.0, 1, 1430784000, 298, 0, 3], [1774074550, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF", 0.0, 0, 1386460800, 1549, 0, 0], [2922742153, "ANGLAIS TERMINALE", 0.0, 0, 1354579200, 233, 0, 0], [979559117, "Repro Embryo of the Male Repro Tract 04.21.15", 0.0, 0, 1430611200, 15, 0, 1], [1091354585, "mazo-aleman-raul", 0.0, 0, 1392249600, 1432, 0, 0], [2631758615, "TCM Review 83 CALE Formulas", 0.0, 0, 1345852800, 83, 0, 0], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [1736529013, "Repro Embryo of the Female Repro Tract 04.22.15", 0.0, 0, 1430697600, 19, 0, 3], [675669178, "Citations philosophie terminale", 0.0, 0, 1431129600, 21, 0, 0], [980643105, "Earthquake, water & hope (English-Nepalese)", 0.0, 0, 1430611200, 13, 0, 0], [1280155647, "Histology of the Female Reproductive Tract", 0.0, 0, 1431129600, 33, 0, 0], [1506527026, "Alex_lydl\u00e6re1", 0.0, 0, 1402358400, 13, 0, 13], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [173126312, "Regionale Geologie Uni T\u00fcbingen", 0.0, 0, 1425513600, 30, 0, 0], [1687132434, "JK_Hypokalemia", 0.0, 0, 1398297600, 33, 0, 0], [2573842583, "psycho sociale sarah", 0.0, 0, 1383696000, 66, 0, 0], [3196517920, "MA1 - Pharmacologie sp\u00e9ciale - Respi", 0.0, 0, 1354492800, 27, 0, 136], [4058116174, "Paleo 2", 0.0, 0, 1345852800, 173, 0, 21], [1884699638, "Hematology Alex Part 1", 0.0, 0, 1392249600, 328, 0, 0], [1003400781, "Alemao para brasileiros", 0.0, 0, 1421280000, 2, 0, 0], [1949738488, "Sales Talk - 72 DHF Basic Words", 0.0, 0, 1380844800, 73, 0, 0], [1881521277, "Nahuatlahtolli: animales, animals", 0.0, 0, 1414540800, 43, 42, 0], [417803351, "Male Repro Path", 0.0, 0, 1390435200, 21, 0, 8], [1964864443, "Male Sex Hormones", 0.0, 0, 1431475200, 35, 0, 0], [1482852568, "Female Sex Hormones", 0.0, 0, 1431475200, 54, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ale</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

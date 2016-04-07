@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1470114103, "Klausurtechnik f\u00fcr das Jura-Studium", 5.0, 2, 1438041600, 62, 0, 6], [1185382950, "Bibelkunde NT (13) Markus Evangelium", 0.0, 0, 1453852800, 74, 0, 0], [100338815, "Bibelkunde NT (14) Mt Evangelium", 0.0, 0, 1453852800, 54, 0, 0], [1698601960, "Altius MCAT", 5.0, 2, 1410480000, 8463, 0, 544], [779711531, "Pathophysiology II Quiz #1 FIU MPAS ", 0.0, 0, 1453507200, 10, 0, 0], [881824847, "FIU MPAS Pharmacology quiz #1", 0.0, 0, 1453075200, 46, 0, 0], [276408827, "Pericardium diseases", 0.0, 0, 1451692800, 26, 0, 0], [1894367578, "Dongbo Niu", 0.0, 0, 1454025600, 5, 0, 0], [1107039583, "Chris Altius Shared", 0.0, 0, 1452470400, 2315, 0, 241], [2091312412, "Repetytorium 6-klasisty. Pearson. Dzial 5", 0.0, 0, 1452038400, 124, 0, 0], [1536601149, "LiuYi Basic ", 0.0, 0, 1449273600, 176, 4, 0], [917396167, "Staatsrecht im Grundstudium", 0.0, 0, 1452470400, 270, 0, 0], [1255424937, "Arteries/veins of cranium georg", 0.0, 0, 1448236800, 30, 0, 1], [343596517, "IUPUI PA Dermatology #3", 0.0, 0, 1448236800, 110, 0, 0], [288981082, "IUPUI PA Pharmacology drugs", 0.0, 0, 1446422400, 155, 0, 0], [1410212979, "EBM Quiz #2 FIU PA", 0.0, 0, 1448323200, 30, 0, 0], [164370335, "The Trivium - Grammar, Logic and Rhetoric", 0.0, 0, 1448582400, 88, 0, 0], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [2125136156, "Pericardium and Heart for Midterm 2 ", 0.0, 0, 1444521600, 76, 0, 0], [348389342, "IUPUI PA Labmed Exam 2", 0.0, 0, 1445385600, 94, 0, 0], [402770703, "IUPUI PA Labmed 3", 0.0, 0, 1445385600, 9, 0, 0], [1024557435, "Structure of the Human Body FIU Quiz I", 0.0, 0, 1444608000, 606, 0, 203], [466037064, "IUPUI PA Lab med Exam 1", 0.0, 0, 1445385600, 68, 0, 0], [1644571927, "Pericardium and Heart", 0.0, 0, 1442620800, 87, 0, 2], [1642152292, "Koreai fels\u0151fok (KGIU)", 0.0, 0, 1441929600, 610, 0, 0], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [701060023, "FIU PA school Intro and Organization of Anatomy ", 0.0, 0, 1440374400, 77, 0, 0], [854651628, "ortografia giuriato", 0.0, 0, 1443744000, 84, 15, 0], [57914007, "Yen Liu Vocabulary", 0.0, 0, 1445385600, 52, 0, 2], [1227130157, "Human Anatomy I, Pericardium and Heart", 0.0, 0, 1442793600, 87, 0, 2], [832427256, "Altius", 0.0, 0, 1405296000, 2582, 0, 1027], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [760958869, "FIU PA school Thoracic Cavity Anatomy ", 0.0, 0, 1440374400, 104, 0, 0], [866290663, "FIU PA Adrenergic Receptors ", 0.0, 0, 1441324800, 30, 0, 0], [584864654, "MTH - Antebrachium", 0.0, 0, 1440028800, 100, 0, 57], [1681908598, "FIU PA Genetic Intro Physiology ", 0.0, 0, 1440374400, 23, 0, 0], [978818750, "Perineal and Pelvic Myology FIU PA ", 0.0, 0, 1442361600, 9, 0, 0], [1031221276, "IUSM-SB Emergency Medicine for ICM II", 0.0, 0, 1439769600, 132, 0, 0], [858166903, "MTH - Posterior Antebrachium", 0.0, 0, 1440028800, 43, 0, 13], [1462431226, "bhuGIUWORLD", 0.0, 0, 1439078400, 248, 0, 0], [1855432334, "Sistema digestiu", 0.0, 0, 1434153600, 15, 0, 0], [2974210014, "Altius O chem 2 part a", 0.0, 0, 1345852800, 27, 0, 0], [997640056, "storia XII e XIII giuriato", 0.0, 0, 1383696000, 33, 0, 0], [846187480, "andriu Lojban vocabulary 1", 0.0, 0, 1395014400, 92, 0, 0], [1716899875, "Confucius Edinburgh 1.1", 0.0, 0, 1392854400, 157, 157, 13], [2831268792, "F\u00fcrs RW Kolloqium", 0.0, 0, 1351814400, 8, 0, 0], [2352461320, "PC Confucius Institute - HSK 3 ", 4.0, 1, 1359072000, 602, 0, 0], [1125422525, "Rebecca Calcium ", 0.0, 0, 1394755200, 21, 0, 0], [1084292585, "Mariusz Weso\u0142owski Angielski", 0.0, 0, 1437004800, 1, 1, 0], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [331073551, "How Horatius Held the Bridge", 0.0, 0, 1406937600, 143, 0, 0], [3379441831, "Bridie clinical colloquium ", 0.0, 0, 1382227200, 22, 0, 0], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [2325308907, "Altius O chem 3 Part A", 0.0, 0, 1345852800, 46, 0, 30], [3919710332, "E. Szabat - po\u017cegnalne kolokwium [pol-eng, eng-pol]", 0.0, 0, 1358899200, 108, 0, 0], [3497378696, "Altius bio 1 finished", 0.0, 0, 1345852800, 100, 0, 16], [1209087289, "WWU OC I/II Erker/Ravoo/Glorius Namensreaktionen", 0.0, 0, 1424563200, 62, 0, 62], [2554204149, "Gymnasium Physik 12 Maria von Linden Schule", 0.0, 0, 1350864000, 16, 0, 0], [12144696, "geografia asia centro orientale e sud est giuriato", 0.0, 0, 1391299200, 30, 0, 0], [21001566, "Celsius to Fahrenheit", 0.0, 0, 1434931200, 61, 0, 2], [2176251115, "Deutsch Allgemeinwissen Gymnasium Schweiz", 0.0, 0, 1372377600, 28, 0, 1], [374147771, "SOCO Espa\u00f1ol - Las Diversiones, La Ciudad y Los Edificios", 0.0, 0, 1437955200, 55, 0, 0], [194854317, "Chemistry 102 UIUC Tina Huang", 0.0, 0, 1391558400, 302, 16, 9], [766555004, "B Clinical Colloquium", 0.0, 0, 1382745600, 62, 0, 0], [150449225, "Literatur Gymnasium Schweiz - Homo Faber", 0.0, 0, 1372377600, 23, 0, 3], [1370226830, "Neisseria IUSM", 0.0, 0, 1377561600, 9, 0, 0], [1026315206, "Biologie Gymnasium Schweiz", 0.0, 0, 1354060800, 1030, 0, 391], [3439032730, "Chemie Gymnasium Schweiz", 0.0, 0, 1365724800, 997, 0, 476], [3926789171, "Englisch Gymnasium Schweiz", 0.0, 0, 1378080000, 3308, 55, 1], [514289067, "Week 1 Epithelium & Connective Tissue", 0.0, 0, 1409443200, 74, 0, 0], [1412793809, "Loho clinical colloquium", 0.0, 0, 1382227200, 47, 0, 0], [327888242, "Riman 2.2: Res extra commercium", 0.0, 0, 1364774400, 8, 0, 0], [426866391, "giuriato lessico base latino1", 0.0, 0, 1385856000, 74, 0, 0], [260664310, "Gram-positive bacilli IUSM", 0.0, 0, 1377561600, 59, 0, 0], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [1284899016, "BSHo Obs IUGR, fetal surveillance, small/preterm baby ", 0.0, 0, 1396483200, 30, 0, 0], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [4080329580, "Andrius Statkevicius", 0.0, 0, 1404777600, 15079, 2304, 0], [839404629, "Chemistry 102 UIUC Tina Huang", 0.0, 0, 1392336000, 228, 19, 10], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [1426319811, "biology altius 1 start up", 0.0, 0, 1345852800, 12, 0, 2], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [1615416392, "Vimium keyboard shortcuts", 5.0, 1, 1392336000, 38, 0, 0], [4046634007, "Geschichte Gymnasium Schweiz", 0.0, 0, 1354060800, 390, 0, 0], [1702903891, "Module Automatentheorie - Masterfernstudium Hochschule Trier", 0.0, 0, 1418860800, 180, 0, 253], [1491900759, "Game of Thrones (En-Dt) (by Ambrosius; April 2015)", 4.5, 2, 1430006400, 425, 0, 0], [1670831346, "Altius Bio 2 mcat", 0.0, 0, 1345852800, 58, 0, 40], [1304804067, "Altius Bio 5", 0.0, 0, 1345852800, 55, 0, 5], [3549380260, "Altius O chem 3 part b", 0.0, 0, 1345852800, 6, 0, 0], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [3337887821, "Epithelium", 0.0, 0, 1378857600, 17, 0, 11], [1752151944, "Paradigmi principali verbi latini Giuriato", 0.0, 0, 1410739200, 51, 0, 0], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [2947491164, "Geografie Gymnasium Schweiz", 0.0, 0, 1378080000, 689, 0, 165], [3647269953, "E. Szabat - pierwsze kolokwium 5 semestru [pol-eng, eng-pol]", 0.0, 0, 1359072000, 106, 0, 0], [1911028758, "Passwort Deutsch PL-DE Dariusz Swoboda", 2.0, 1, 1345852800, 1572, 0, 0], [1709577165, "Literatur Gymnasium Schweiz - Matthias Berg", 0.0, 0, 1376784000, 22, 0, 0], [1057494581, "andriu Lojban vocabulary 2", 0.0, 0, 1395187200, 51, 0, 0], [237574423, "histo final Kirangs slides- epithelium", 0.0, 0, 1417478400, 47, 0, 36], [869375754, "Histo B1 - Epithelium & Glands", 0.0, 0, 1410825600, 54, 0, 81], [2048345805, "Franz\u00f6sisch Gymnasium Schweiz", 0.0, 0, 1378080000, 4545, 39, 0], [299672262, "The Histocompendium", 0.0, 0, 1423440000, 559, 0, 710], [2750799064, "Spanisch Gymnasium Schweiz", 0.0, 0, 1378080000, 2753, 6, 1], [3596028433, "Altius Bio 3", 0.0, 0, 1345852800, 51, 0, 15], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [33560450, "Kalendarium \u017byd\u00f3w.", 0.0, 0, 1427414400, 40, 0, 0], [362803535, "patomorfologia na 1.kolokwium", 0.0, 0, 1416528000, 13, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [1374591208, "vim genius and vimtutor review", 0.0, 0, 1421020800, 81, 0, 0], [981785458, "Mathematische Grundlagen f\u00fcr Abi und Studium", 0.0, 0, 1427155200, 144, 0, 73], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [3351228323, "IUSM Microbiology streptococci", 0.0, 0, 1377129600, 59, 0, 0], [522180789, "Histology - Epithelium", 0.0, 0, 1408320000, 20, 0, 0], [3680019382, "IUSM Microbiology Staphlyococci", 0.0, 0, 1377129600, 30, 0, 0], [297105490, "biochem - liu", 0.0, 0, 1379894400, 49, 0, 24], [2664757893, "Deutsche Franz\u00f6sische Vokabeln Gymnasium (1997 - 2002)", 3.33, 3, 1362787200, 2936, 0, 0], [448536869, "01-01 Anatom\u00eda IUHI - Anatomia", 0.0, 0, 1431475200, 179, 0, 2], [1194433673, "Sean Block 5 OSF Calcium phosphate Second Crab", 0.0, 0, 1397088000, 65, 0, 15]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

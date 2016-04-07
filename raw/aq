@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [473289858, "Un paquet de test", 0.0, 0, 1447545600, 3, 0, 0], [2128172950, "NAQT literature", 0.0, 0, 1443657600, 102, 0, 0], [1744772251, "AQA GCSE Chemistry Unit 2 (Additional): Higher Tier", 5.0, 1, 1409356800, 196, 0, 12], [26730585, "Living World AQA", 0.0, 0, 1431648000, 10, 0, 0], [2508897442, "C1 AQA GCSE", 0.0, 0, 1345852800, 95, 0, 0], [2013714935, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [1410824880, "AS chemistry AQA", 0.0, 0, 1377648000, 118, 0, 0], [3922219343, "B2 AQA GCSE", 0.0, 0, 1345852800, 179, 0, 0], [738636092, "AQA AS Chemistry", 0.0, 0, 1432857600, 324, 0, 5], [2092253049, "A2 German AQA words (Einwanderung+Integration)", 0.0, 0, 1412899200, 77, 0, 0], [1062825139, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [255598995, "AQA AS Physics A", 0.0, 0, 1432857600, 262, 0, 16], [355089338, "AQA GCSE Chemistry Unit 3 (Applied): Higher Tier", 0.0, 0, 1409529600, 213, 0, 8], [1296333007, "Complete SAQs for Medical Finals - Stather et al.", 0.0, 0, 1416009600, 229, 0, 458], [1598671729, "Japanese for hotel staff (FAQ)", 0.0, 0, 1436140800, 41, 0, 0], [1535385314, "SAQs", 0.0, 0, 1429660800, 96, 1, 750], [672163108, "SAQs", 0.0, 0, 1405209600, 31, 0, 30], [1887044487, "Timonel - Aquilon II", 0.0, 0, 1345852800, 256, 0, 25], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [1227894335, "Solubility guidelines for Aqueous Solutions", 0.0, 0, 1378166400, 12, 0, 0], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [1074759505, "AS AQA Economics ", 0.0, 0, 1427846400, 239, 0, 0], [1839243772, "AQA AS Biology: Carbohydrates", 0.0, 0, 1396483200, 40, 0, 0], [333460311, "Dermaquiz for nOObs IICD", 0.0, 0, 1399593600, 174, 0, 202], [1626054154, "GCSE Spanish AQA Environment", 0.0, 0, 1345852800, 119, 0, 0], [381196515, "B1 AQA GCSE", 0.0, 0, 1345852800, 201, 0, 0], [3747080394, "SDSU ALI FAQ", 0.0, 0, 1345852800, 65, 0, 0], [14238352, "Coastal Zone AQA ", 0.0, 0, 1431302400, 36, 0, 0], [3907249446, "Paquet pour apprendre l'anglais \u00e0 remplir soi-m\u00eame", 0.0, 0, 1361145600, 3, 3, 0], [2650875686, "P2 AQA GCSE", 0.0, 0, 1345852800, 191, 0, 2], [758836864, "P1 AQA GCSE", 0.0, 0, 1345852800, 95, 0, 0], [3195365716, "GCSE Spanish AQA  Health", 0.0, 0, 1345852800, 148, 0, 0], [3363728268, "French AQA GCSE", 3.0, 2, 1345852800, 1149, 0, 0], [920202642, "C2 AQA GCSE", 0.0, 0, 1345852800, 168, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Aq</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

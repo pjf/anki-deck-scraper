@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1943613633, "Vocabulaire - Cours de Japonais par Julien Fontanier", 0.0, 0, 1454544000, 163, 3, 45], [436520825, "Vocabulaire japonais - Vanessa", 0.0, 0, 1454025600, 2, 0, 0], [1925774697, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 05. \u041d\u0430\u0447\u0430\u043b\u0430 \u0430\u043d\u0430\u043b\u0438\u0437\u0430 (zapominaiki_ru)", 0.0, 0, 1383091200, 47, 0, 94], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [1653464275, "Japonais", 0.0, 0, 1448150400, 79, 0, 0], [1795149524, "naila", 0.0, 0, 1448064000, 1, 3, 1], [1972757101, "222- Hypertension pulmonaire ", 0.0, 0, 1450051200, 6, 0, 0], [1374982851, "Genki II - Japanese-Czech by Lamanai", 0.0, 0, 1445472000, 652, 3, 0], [788074947, "Genki I - Japanese-Czech by Lamanai", 0.0, 0, 1445472000, 727, 3, 0], [2191765480, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 07. \u0413\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u044f \u0432 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435(zapominaiki)", 0.0, 0, 1383091200, 33, 0, 66], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [3708224488, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 01. \u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0447\u0438\u0441\u043b\u0430 (zapominaiki_ru)", 0.0, 0, 1383091200, 71, 0, 142], [1874622096, "tout le japonais II", 0.0, 0, 1448582400, 1134, 0, 0], [1343395843, "Vocabulaire japonais", 0.0, 0, 1439769600, 115, 0, 0], [1918917590, "\u0424\u0438\u0437\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 01. \u041c\u0435\u0445\u0430\u043d\u0438\u043a\u0430 (zapominaiki_ru)", 0.0, 0, 1383091200, 169, 0, 338], [2402655027, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 02. \u0410\u043b\u0433\u0435\u0431\u0440\u0430 (zapominaiki_ru)", 0.0, 0, 1383091200, 36, 0, 72], [1791236201, "\u042d\u043b\u0435\u043c\u0435\u043d\u0442\u044b \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u041c\u0435\u043d\u0434\u0435\u043b\u0435\u0435\u0432\u0430 (zapominaiki_ru)", 2.5, 2, 1401062400, 111, 0, 222], [2623184380, "Vocabulaire Japonais-Fran\u00e7ais", 1.0, 1, 1358121600, 5267, 0, 0], [1009418837, "Libras L\u00edngua Brasileira Sinais LibrasEscrita 2015", 0.0, 0, 1429488000, 4659, 0, 4680], [1551185211, "tout le japonais I", 0.0, 0, 1450224000, 932, 0, 0], [1236389986, "Joueurs de foot  japonais et Japon en g\u00e9n\u00e9ral", 0.0, 0, 1355097600, 22, 0, 0], [1835637667, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 04. \u0421\u0442\u0435\u043f\u0435\u043d\u0438 \u0438 \u043b\u043e\u0433\u0430\u0440\u0438\u0444\u043c\u044b (zapominaiki_ru)", 0.0, 0, 1383091200, 10, 0, 20], [6155018, "Great Wall Chinese 6 k\u00ednai-magyar", 0.0, 0, 1402012800, 31, 15, 0], [1848688826, "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0441\u043b\u043e\u0436\u0435\u043d\u0438\u044f/Addition Table (zapominaiki_ru)", 0.0, 0, 1383091200, 81, 0, 162], [1023766037, "Vipul Naik's acronyms", 0.0, 0, 1400716800, 23, 0, 0], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [969379280, "Great Wall Chinese 7 k\u00ednai-magyar", 0.0, 0, 1402012800, 32, 0, 0], [3266517886, "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0443\u043c\u043d\u043e\u0436\u0435\u043d\u0438\u044f/Multiplication Table (zapominaiki_ru)", 5.0, 1, 1383091200, 81, 0, 162], [524834689, "Vocabulaire japonais", 0.0, 0, 1356307200, 1498, 0, 0], [722824598, "Vocabulaire fran\u00e7ais-japonais", 0.0, 0, 1345852800, 7217, 6, 0], [2044489115, "Joyou Kanji (Fran\u00e7ais-Japonais)", 0.0, 0, 1345852800, 1945, 0, 0], [1091546211, "Renaissance notation ligatures", 0.0, 0, 1393286400, 8, 0, 8], [1435274021, "Ghanaian Names based on the day of the week", 0.0, 0, 1392076800, 14, 0, 0], [1381643351, "Great Wall Chinese 7 k\u00ednai-magyar", 0.0, 0, 1402012800, 43, 6, 0], [2083987818, "AME CONSTITUCIONAL - APLICA\u00c7\u00c3O DAS NORMAS CONSTITUCIONAIS", 0.0, 0, 1409702400, 15, 0, 0], [3335113453, "Vocabulaire japonais simple pour apprendre les hiragana", 0.0, 0, 1383955200, 33, 0, 0], [1113537301, "K\u00ednai", 0.0, 0, 1345852800, 193, 0, 0], [3590915808, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 03. \u0422\u0440\u0438\u0433\u043e\u043d\u043e\u043c\u0435\u0442\u0440\u0438\u044f (zapominaiki_ru)", 0.0, 0, 1383091200, 123, 0, 246], [646808114, "Joyou Kanji (Japonais-Fran\u00e7ais)", 0.0, 0, 1345852800, 1945, 0, 0], [224108184, "Vocabulaire Japonais-Fran\u00e7ais", 0.0, 0, 1345852800, 7217, 6, 0], [435527266, "\u0424\u0438\u0437\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 02. \u041e\u0441\u043d\u043e\u0432\u044b \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438 (zapominaiki_ru)", 0.0, 0, 1383091200, 110, 0, 220], [1282136959, "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430. \u0428\u043a\u043e\u043b\u0430. 06. \u0413\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u044f \u043d\u0430 \u043f\u043b\u043e\u0441\u043a\u043e\u0441\u0442\u0438 (zapominaiki)", 0.0, 0, 1383091200, 23, 0, 46]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nai</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 2, 1373328000, 32, 65, 0], [137657089, "Maternal medicine for Karen ", 0.0, 0, 1454112000, 50, 0, 0], [3695737370, "ANGLISTYKA UJ ADVANCED ENGLISH ERNIE (www.anglista.edu.pl)", 0.0, 0, 1345852800, 7827, 0, 0], [1610254447, "Netzwerk Grenchen: Lernen am Smartphone", 0.0, 0, 1454198400, 201, 39, 170], [20318160, "international relations", 0.0, 0, 1454457600, 123, 0, 0], [145405837, "Strategy and international business", 0.0, 0, 1454889600, 33, 0, 0], [2024982590, "Astronomy Midterm 2021B Western University ", 0.0, 0, 1454889600, 12, 0, 0], [125752323, "Modern Database Management flash cards for final exam study.", 0.0, 0, 1402358400, 57, 117, 7], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [400352449, "Modern Hebrew for Beginners", 0.0, 0, 1454803200, 517, 0, 0], [806643760, "Schritte international 2 -- n\u00e9met-magyar", 5.0, 1, 1380326400, 1088, 0, 0], [1077998431, "Schritte International 5", 0.0, 0, 1411603200, 244, 0, 0], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [2013855291, "Lehren und Lernen - Susi", 5.0, 1, 1453939200, 28, 0, 0], [646339611, "Lehren und Lernen Empirie - Susi", 5.0, 1, 1453939200, 10, 0, 0], [2079637790, "Dr.Bab\u00e1ri Ern\u0151 - Egyszer\u0171en n\u00e9met\u00fcl -- n\u00e9met-magyar", 4.0, 1, 1390435200, 1043, 0, 0], [1308960770, "Algorithmic and Economic Aspects of the Internet", 0.0, 0, 1453334400, 107, 0, 0], [1951052404, "Modern Standard Arabic SIA (with vowels)", 3.5, 4, 1420934400, 1859, 1, 1855], [729423771, "internal medicine minimals", 0.0, 0, 1452384000, 66, 0, 1], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [1214795661, "Modern greek for french learners", 0.0, 0, 1452556800, 249, 0, 0], [1211538283, "Basic Quechua (Southern Peru Dialect)", 0.0, 0, 1451952000, 50, 5, 1], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [428131788, "Stuttgart Lernwortschatz Ciceros Reden", 0.0, 0, 1451433600, 200, 0, 0], [830005461, "A2 Aula internacional 3", 0.0, 0, 1448409600, 266, 0, 0], [734849661, "Intermediate modern Greek vocabulary and phrases.", 0.0, 0, 1451174400, 455, 0, 1], [784874842, "\u6211\u5b66\u6c49\u8bed \u2606 CHINESISCH lernen! - Animexx ", 0.0, 0, 1452470400, 404, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [1124283949, "A2 Aula internacional 2", 0.0, 0, 1448409600, 307, 0, 0], [1829055390, "A2 Aula internacional 6", 0.0, 0, 1449705600, 263, 0, 0], [912587907, "A2 Aula internacional 1", 0.0, 0, 1448409600, 385, 0, 0], [1829966048, "Vokabeln zum Erlernen des paschtunischen Alphabets", 0.0, 0, 1450224000, 113, 3, 1], [244975380, " Politik, Staat und Internationales", 0.0, 0, 1449705600, 20, 0, 0], [307367697, "Andrea's Arabic Patterns", 0.0, 0, 1448841600, 17, 0, 0], [1970824522, "Verben zum Tagesablauf lernen", 0.0, 0, 1449100800, 14, 0, 0], [234071319, "A2 Aula internacional 4 ", 0.0, 0, 1448496000, 179, 0, 0], [1033037446, "Modern Database Management Mid Term Study", 0.0, 0, 1400025600, 52, 0, 5], [831738629, "Chinese Simplification Patterns", 0.0, 0, 1448064000, 535, 0, 0], [1805963157, "Schritte-International 2 Deutsch-Persisch", 0.0, 0, 1449446400, 457, 0, 0], [902786657, "Internal medicine", 0.0, 0, 1448236800, 192, 0, 0], [571074513, "Personal Pattern for Anki Desk", 0.0, 0, 1448236800, 0, 0, 0], [1208537735, "UP-ERN Organische Chemie", 0.0, 0, 1444608000, 94, 0, 87], [956087598, "MKL Federn", 0.0, 0, 1445731200, 83, 0, 9], [681763379, "A2 Aula internacional 5", 0.0, 0, 1448582400, 197, 0, 0], [1430824706, "Evernote Import", 0.0, 0, 1447027200, 37, 0, 0], [12765425, "Diccionario de griego moderno", 0.0, 0, 1445904000, 16644, 0, 1], [538754131, "Schritte International 1 Deutsch-Persisch", 0.0, 0, 1446854400, 527, 0, 0], [168368817, "Kn\u00f6chernde Bestandteile des Unterschenkels und des Fu\u00dfes", 0.0, 0, 1447804800, 7, 0, 0], [1145032819, "Intermediate R functions and design patterns ", 5.0, 1, 1440460800, 51, 0, 1], [866043193, "Social Studies overview of Government_EC", 0.0, 0, 1445385600, 120, 0, 0], [988334283, "Intern Content", 0.0, 0, 1443052800, 371, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1506204673, "DSF Internal medicine", 0.0, 0, 1444780800, 12, 0, 1], [609701403, "Basic R functions and design patterns", 5.0, 2, 1440460800, 40, 0, 0], [1634173722, "Internal Medicine MS3 2015", 0.0, 0, 1440633600, 581, 0, 111], [596550787, "Modern Greek adverb phrases", 0.0, 0, 1432857600, 28, 0, 0], [33225169, "UP-ERN AC 2 + Bioanorganische Chemie", 0.0, 0, 1438560000, 105, 0, 25], [552792247, "International Express (Czech-English) by Qvasa", 5.0, 4, 1428624000, 567, 0, 0], [1205039445, "Supernopea suomen kielen kurssi - Oppitunti #2", 0.0, 0, 1441411200, 130, 8, 15], [1400242676, "Fernuni Hagen, M5", 0.0, 0, 1435708800, 22, 0, 0], [1316819284, "Supernopea suomen kielen kurssi - Oppitunti #1", 0.0, 0, 1441411200, 145, 8, 15], [2119362516, "Moderna Esperanto 1: Lecionoj 1 \u011dis 16", 0.0, 0, 1439683200, 697, 0, 0], [1118965325, "Pattern Dynamics - a Pattern Language for the 21st Century", 0.0, 0, 1442188800, 65, 0, 0], [1317933205, "W-PGA18/15 Lernstoff ", 0.0, 0, 1441670400, 68, 0, 0], [1889498182, "1x1 mit Dreiecken lernen,  1x1 with Triangles", 0.0, 0, 1437955200, 81, 0, 110], [1809280561, "BBC Outernet", 0.0, 0, 1442275200, 22, 0, 7], [1266512854, "UP-ERN Mikrobiologie", 0.0, 0, 1438214400, 122, 0, 30], [502277926, "Attrezzi comuni (common tools, Italian) (by Supernatent)", 0.0, 0, 1360022400, 43, 43, 43], [1504441042, "Fyzika 5 - Modern\u00ed fyzika (Pomi)", 4.0, 1, 1409443200, 35, 0, 38], [1535471826, "AME Regimento Interno - TRT RS", 0.0, 0, 1438560000, 241, 0, 0], [2032399947, "Intern Content", 0.0, 0, 1440460800, 429, 0, 0], [846460717, "Westernu Endo Exam 1", 0.0, 0, 1439683200, 318, 0, 0], [1902666973, "Fernuni Hagen, M3", 0.0, 0, 1438300800, 20, 0, 0], [1001817568, "Asa lernt flei\u00dfig", 0.0, 0, 1420156800, 299, 0, 13], [1201049444, "Modern Greek verbs", 0.0, 0, 1432857600, 58, 0, 0], [484177174, "Armenian Vocabulary (Western)", 0.0, 0, 1390780800, 3009, 0, 0], [1945279301, "International Phonetic Alphabet (IPA) Vowels + Consonants", 0.0, 0, 1423094400, 44, 3, 1], [945132736, "aloisgreekmodern", 0.0, 0, 1417305600, 2166, 2, 3], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1070429189, "Fernuni Hagen, M3", 0.0, 0, 1438646400, 25, 0, 0], [1045179798, "Fernuni Hagen, M3", 0.0, 0, 1437523200, 23, 0, 0], [3343774935, "Modern Greek: Intermediate Level", 0.0, 0, 1358208000, 374, 0, 0], [1657116677, "Fernuni Hagen, M3", 0.0, 0, 1435017600, 8, 0, 0], [605443799, "Fernuni Hagen, M3", 0.0, 0, 1436227200, 18, 0, 0], [830499350, "Modern Greek expressions", 0.0, 0, 1432857600, 73, 0, 0], [2110258724, "Fernuni Hagen, M3", 0.0, 0, 1436400000, 15, 0, 0], [3889929163, "Readings in Modern Chinese Master Vocab list", 0.0, 0, 1426204800, 1538, 0, 0], [457810380, "UP-ERN Humanern\u00e4hrung", 0.0, 0, 1438214400, 25, 0, 16], [1830691264, "Lumina Latein Lernvokabeln - Lektion 1", 0.0, 0, 1370995200, 40, 0, 0], [1660046849, "Constellations of the Northern Sky", 0.0, 0, 1345852800, 56, 0, 55], [325360280, "REGIMENTO INTERNO TRT RS", 0.0, 0, 1438560000, 82, 0, 0], [1582271938, "Fernuni Hagen, M5", 0.0, 0, 1432857600, 33, 0, 0], [938583778, "UP-ERN Statistik", 0.0, 0, 1438214400, 54, 0, 18], [3410081359, "Welsh Grammar (Northern)", 0.0, 0, 1363824000, 1162, 0, 0], [1035591681, "Introduction to Modern Uighur", 5.0, 2, 1422921600, 936, 1291, 0], [633502529, "Schritte International 4", 0.0, 0, 1411603200, 331, 0, 0], [3374674221, "Einfache IT Systeme Lernfeld 4", 0.0, 0, 1361923200, 90, 0, 0], [1104180760, "Estado, Governo e Administra\u00e7\u00e3o P\u00fablica", 0.0, 0, 1438214400, 19, 0, 0], [352803972, "Fernuni Hagen, M3", 0.0, 0, 1433894400, 15, 0, 0], [306496301, "Georgian Alphabet (Modern)", 0.0, 0, 1434067200, 36, 0, 0], [395183397, "Fernuni Hagen, M5", 0.0, 0, 1435708800, 7, 0, 0], [307927561, "Fernuni Hagen, M3", 0.0, 0, 1434931200, 14, 0, 0], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [1757492046, "IPA (International Phonetic Alphabet) of English", 2.5, 2, 1361577600, 34, 151, 0], [1125885052, "UP-ERN Molekularbiologie", 0.0, 0, 1405555200, 33, 0, 6], [472138918, "AME Regimento Interno - TRT MG", 5.0, 1, 1432339200, 227, 0, 0], [1089015047, "Unternehmensf\u00fchrung  - Grundlagen/Planung", 0.0, 0, 1429660800, 42, 0, 0], [898464040, "D1_Griego_Moderno_Vocabulario", 0.0, 0, 1429833600, 1495, 0, 0], [1260177003, "The Northern Welsh alphabet per the BBC.", 0.0, 0, 1433203200, 28, 28, 0], [660875831, "Fernuni Hagen, M3", 0.0, 0, 1432771200, 29, 0, 0], [1473935124, "The Modern Greek Alphabet", 0.0, 0, 1391817600, 46, 24, 45], [903295133, "UP-ERN FAPIO", 0.0, 0, 1438214400, 204, 0, 73], [1205611604, "Marys IB SBWL Theories of International Trade @ WU Wien", 0.0, 0, 1397779200, 28, 0, 0], [1842283660, "Kennenlernen", 0.0, 0, 1442361600, 68, 68, 68], [785485912, "Evernote-like note type.  ", 0.0, 0, 1416528000, 1, 7, 0], [467444942, "Fernuni Hagen, M3", 0.0, 0, 1432598400, 3, 0, 0], [1080545123, "Ein Kind, Thomas Bernhard, Wortschatz", 0.0, 0, 1416614400, 35, 0, 0], [373374861, "Fernuni Hagen, M5", 0.0, 0, 1435276800, 10, 0, 0], [134856822, "Modul 4 Fernuni Hagen SS 14", 0.0, 0, 1426377600, 107, 0, 0], [548314053, "English-Esperanto Lernu.net wordlist - good wishes", 0.0, 0, 1424908800, 13, 0, 1], [1570369391, "Fernuni Hagen, M3", 0.0, 0, 1431734400, 4, 0, 0], [347882297, "Vocabulario abstracto de griego moderno", 5.0, 1, 1413158400, 167, 0, 0], [1180653090, "DatURechnernetze", 0.0, 0, 1413676800, 23, 0, 0], [295077139, "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac - \u0399\u03c3\u03c0\u03b1\u03bd\u03b9\u03ba\u03ac / Griego moderno - Espa\u00f1ol / Greek-Span.", 0.0, 0, 1427241600, 537, 0, 13], [2060831966, "Fernuni Hagen, M3", 0.0, 0, 1435536000, 16, 0, 0], [120226396, "Rechnernetze SS2015 KIT", 0.0, 0, 1438300800, 108, 0, 4], [511325138, "Fernuni Hagen, M5", 0.0, 0, 1435708800, 5, 0, 0], [1189033620, "Fernuni Hagen, M3", 0.0, 0, 1431734400, 11, 0, 0], [2131294133, "UP-ERN Mathematik - Grundlagen", 0.0, 0, 1388707200, 34, 0, 13], [1173639500, "Lernfeld 5 + 6 Industriekaufleute April 2012", 0.0, 0, 1345852800, 85, 0, 0], [1186620057, "Lernkarten", 0.0, 0, 1437523200, 1, 0, 1], [3288404636, "International alphabet (with numbers)", 5.0, 1, 1380931200, 37, 0, 0], [162662169, "Words in context - Challenges of modern society - Unit 5", 5.0, 1, 1386201600, 491, 0, 0], [763000453, "Fernuni Hagen, M3", 0.0, 0, 1431734400, 8, 0, 0], [1488104980, "HCC Government", 0.0, 0, 1428624000, 413, 7, 0], [439835422, "Fernuni Hagen, M5", 0.0, 0, 1435276800, 22, 0, 0], [219659767, "Eastern Civ Flashcards", 0.0, 0, 1393200000, 284, 0, 0], [1314284864, "Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [435355169, "Schritte International 6", 0.0, 0, 1411603200, 217, 0, 0], [482276031, "Kelsey Arabic: Patterns", 0.0, 0, 1440460800, 509, 147, 24], [2604194879, "Arabe moderne standard DEAC 2013", 1.0, 1, 1374710400, 477, 0, 0], [1036902384, "Fernuni Hagen, M3", 0.0, 0, 1433289600, 11, 0, 0], [105460797, "TU Kaiserslautern A1.2 ", 0.0, 0, 1394064000, 87, 0, 0], [1940868407, "Internal Medicine Rotation Flash Cards", 0.0, 0, 1437696000, 32, 0, 0], [1549757360, "UP-ERN Methoden der Biochemie", 0.0, 0, 1424822400, 57, 0, 11], [1289274088, "P29 Fat as a Endocrine Gland Midwestern 2015", 0.0, 0, 1430006400, 48, 0, 0], [30646768, "Schritte International 2: Deutsch-Russisch", 0.0, 0, 1435104000, 404, 0, 0], [3168762770, "Northern Moroccan Arabic Short deck", 0.0, 0, 1354579200, 255, 0, 0], [701549605, "Design Patterns", 5.0, 1, 1434412800, 23, 0, 22], [1399457871, "Tachles Modern Hebrew Lesson 3 - Shopping", 0.0, 0, 1397174400, 110, 0, 0], [1156787862, "Meithai - Zahlen und Nummern", 0.0, 0, 1383782400, 139, 0, 0], [3712856399, "International Business Test 1 Notecards", 0.0, 0, 1362873600, 21, 0, 0], [91118612, "Modern Native English", 0.0, 0, 1345852800, 1051, 0, 0], [1929654676, "Unternehmensf\u00fchrung - Organisation", 0.0, 0, 1429660800, 36, 0, 0], [3401161818, "Vormoderne", 0.0, 0, 1374969600, 125, 0, 0], [4076465073, "Pre-modern East Asia history", 0.0, 0, 1345852800, 946, 0, 0], [309835870, "Pflanzenern\u00e4hrung", 0.0, 0, 1437177600, 71, 0, 14], [1935870117, "Lernu Esperanto words", 0.0, 0, 1428624000, 377, 0, 0], [1064384797, "13A Pattern Response", 0.0, 0, 1425513600, 19, 19, 0], [2854867155, "Allgemeine Zoologie - Gewebe 1", 0.0, 0, 1385510400, 93, 0, 21], [1450984576, "UP-ERN Genetik", 0.0, 0, 1405555200, 23, 0, 3], [1333876874, "CHM EdExcel AS Italian Vocab - Youth Culture and Concerns", 0.0, 0, 1368057600, 171, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [614283834, "Corporate Governance", 0.0, 0, 1425254400, 41, 0, 0], [294619359, "US Government - Supreme Court Cases", 0.0, 0, 1418774400, 48, 0, 0], [1402847964, "PORT by Bernardo Feitosa", 0.0, 0, 1395187200, 29, 0, 0], [284200817, "CAASIC Translation Course - Maternity and Childhood Vocab", 0.0, 0, 1392508800, 238, 0, 0], [1061475370, "Patterns of Religion Vocabulary", 0.0, 0, 1422921600, 178, 0, 0], [1853658000, "Modern Greek lesson 2", 0.0, 0, 1364083200, 53, 0, 0], [1489638250, "Rechnernetze am KIT SoSe 2013", 0.0, 0, 1375315200, 324, 0, 0], [1609060974, "Fraction/Decimal (by Supernatent)", 0.0, 0, 1360022400, 151, 0, 0], [1934791809, "UP-ERN Aminos\u00e4uren", 0.0, 0, 1424563200, 25, 0, 20], [3284013354, "Death Note/ El Cuaderno del Muerte, Spanisch - Deutsch ", 0.0, 0, 1369699200, 190, 0, 0], [1123866302, "Comercio Internacional AFRFB FSSILVA", 0.0, 0, 1424390400, 301, 0, 3], [2556272748, "Schritte International 1", 0.0, 0, 1371513600, 82, 0, 0], [351777561, "Chapter 23 Patterns of Gene Inheritance", 0.0, 0, 1386806400, 35, 0, 0], [2132743142, "Modern Greek - proverbs & sayings", 0.0, 0, 1432857600, 27, 0, 0], [785696343, "UP-ERN Allgemeine Zoologie - Gewebe 2", 0.0, 0, 1388707200, 49, 0, 7], [1702903891, "Module Automatentheorie - Masterfernstudium Hochschule Trier", 0.0, 0, 1418860800, 180, 0, 253], [923490372, "Modern Greek verbs", 0.0, 0, 1432857600, 58, 0, 0], [814604981, "glossaire des termes douaniers internationaux ", 0.0, 0, 1421366400, 165, 0, 0], [441216816, "Comparative Government Vocabulary", 0.0, 0, 1425945600, 88, 0, 0], [1947947450, "Step 2 CK Internal medicine", 0.0, 0, 1409443200, 204, 0, 0], [854246212, "Esperanto - Czech: Lernu - Useful phrases/U\u017eite\u010dn\u00e9 fr\u00e1ze", 0.0, 0, 1396742400, 400, 0, 0], [40608478, "Unternehmensethik", 0.0, 0, 1429660800, 34, 0, 0], [3982865350, "Modern Greek - clothes/colors", 0.0, 0, 1389657600, 138, 0, 0], [3402529969, "Modern Greek Professions", 0.0, 0, 1364947200, 51, 0, 0], [379170858, "POSC by Bernardo Feitosa", 0.0, 0, 1395187200, 89, 0, 0], [1029609284, "Tachles Modern Hebrew Lesson 2 - Getting around", 0.0, 0, 1397174400, 76, 0, 0], [1978859589, "Malrechnen mit Feldern", 0.0, 0, 1413849600, 100, 0, 100], [401808628, "UP-ERN Experimentalphysik 2", 0.0, 0, 1405555200, 19, 0, 0], [1800014337, "Lernen zu lernen", 0.0, 0, 1429315200, 90, 0, 0], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [1410497656, "Fernuni Hagen, M3", 0.0, 0, 1431648000, 19, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [2083283530, "Tachles Modern Hebrew Lesson 4 - Restaurant", 0.0, 0, 1397174400, 79, 0, 0], [410552162, "Interna - serce", 0.0, 0, 1389744000, 50, 0, 0], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [607624640, "English-Esperanto Lernu wordlist - Common questions", 0.0, 0, 1423094400, 46, 0, 1], [551770202, "Motores de Combust\u00e3o Interna", 0.0, 0, 1419811200, 13, 0, 12], [1561624924, "Modern Greek nouns (words)", 3.0, 1, 1389744000, 106, 0, 0], [2244779098, "CMS 7 Hernias (Ryan's)", 0.0, 0, 1345852800, 74, 0, 10], [1199580110, "13B JWL Structual Pattern", 0.0, 0, 1425513600, 2, 2, 0], [125463102, "ERNSEM2", 0.0, 0, 1362873600, 974, 0, 700], [1447923075, "International Finance", 0.0, 0, 1417478400, 87, 0, 0], [639240927, "Fernuni Hagen, M3", 0.0, 0, 1430524800, 18, 0, 0], [1497362550, "AWL, Allgemeine Wirtschaftslehre BS-AN, Unternehmensformen", 0.0, 0, 1393286400, 24, 0, 0], [1454427716, "Words on red lanterns", 0.0, 0, 1441756800, 299, 0, 2], [524823056, "Hexadecimal to Binary Bit Patterns ", 0.0, 0, 1345852800, 15, 0, 0], [2476577535, "Schritte International 3", 0.0, 0, 1411603200, 382, 0, 0], [2101117442, "UP-ERN Botanik - Organisationsstufen", 0.0, 0, 1392076800, 24, 0, 6], [2480210990, "Path Lab 1: Cell Death and Patterns of Necrosis", 0.0, 0, 1372291200, 36, 0, 43], [1148252347, "D1_Griego_Moderno_Morfolog\u00eda", 0.0, 0, 1429833600, 428, 0, 0], [2539816391, "HMS.IHP.Maternal.Physiology", 0.0, 0, 1363046400, 21, 0, 0], [1564295904, "Modern Standard Arabic Basic Words with Photo", 0.0, 0, 1421539200, 74, 0, 68], [685115951, "Nursing Maternity", 0.0, 0, 1345852800, 211, 0, 0], [1333110721, "Modern  Greek lesson 3", 0.0, 0, 1389657600, 39, 0, 0], [1340022129, "UP-ERN Physikalische Chemie", 0.0, 0, 1405555200, 59, 0, 11], [1065601468, "Modern Greek verbs lesson 1-5", 0.0, 0, 1389657600, 37, 0, 0], [359916996, "UP-ERN Zellbiologie", 0.0, 0, 1405555200, 200, 0, 17], [1070407933, "Reverse Institut und Wandern", 0.0, 0, 1345852800, 284, 0, 0], [1173911205, "UP-ERN Tierphysiologie", 5.0, 1, 1423526400, 167, 0, 34], [1845402909, "Tachles Modern Hebrew Lesson 1 - Basics", 0.0, 0, 1397174400, 77, 0, 0], [1903928442, "Fernuni Hagen, M3", 0.0, 0, 1431734400, 8, 0, 0], [888138821, "B&B 03.03.15 Coma and Herniation", 0.0, 0, 1425427200, 37, 0, 4], [810351767, "Schritte International 1", 4.67, 3, 1409788800, 513, 0, 0], [1805472074, "Modern Physics", 4.0, 1, 1423699200, 9, 0, 25], [1313003293, "Natural Math pattern-based multiplication - Off Diagonal", 0.0, 0, 1345852800, 4, 0, 0], [2878122477, "Natural Math pattern-based multiplication - squares", 0.0, 0, 1345852800, 6, 0, 0], [1082580307, "Unternehmensf\u00fchrung - Personal", 0.0, 0, 1429660800, 57, 0, 0], [521752334, "UP-ERN Biochemie", 0.0, 0, 1405555200, 75, 0, 36], [4259859295, "Modern Greek - eat/drink/vegetables/fruit", 0.0, 0, 1389657600, 201, 0, 0], [1812352299, "Fernuni Hagen, M3", 0.0, 0, 1430524800, 9, 0, 0], [121789943, "Chinese Internet & Online Marketing Terms (\u7f51\u4e0a\u5e7f\u544a\u5355\u8bcd)", 0.0, 0, 1404172800, 153, 0, 0], [240406941, "Welsh for School Governors", 0.0, 0, 1389225600, 769, 0, 0], [1050440370, "UP-ERN Allgemeine Zoologie - Gewebe 1", 0.0, 0, 1389052800, 94, 0, 21], [1564429518, "Step 2 CK Internal medicine part 2", 0.0, 0, 1409443200, 340, 0, 0], [1155004753, "HISTB by Bernardo Feitosa", 0.0, 0, 1395187200, 157, 0, 6], [3416311096, "ERNSEM2 - Eksamensoppgaver", 0.0, 0, 1362873600, 31, 0, 36], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [1859344301, "Fernuni Hagen, M3", 0.0, 0, 1431475200, 16, 0, 0], [1833391825, "UP-ERN Botanik Pilze", 0.0, 0, 1392076800, 12, 0, 1], [4250507521, "Sentences in Modern Standard Arabic (with vowels) SIA", 0.0, 0, 1383696000, 345, 8, 344], [343505858, "Various Modern Greek verbs", 0.0, 0, 1420243200, 36, 0, 0], [1739663871, "Rechnernetze am KIT", 0.0, 0, 1374537600, 108, 0, 4], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [209210594, "Call of Duty 4 Modern Warfare", 0.0, 0, 1355961600, 95, 0, 0], [116353212, "Modern Documentary: Society & Development", 0.0, 0, 1421020800, 1110, 0, 0], [1786969150, "UP-ERN Humanbiologie", 0.0, 0, 1422576000, 229, 0, 25], [1065596097, "Meithai - Schule und Lernen", 5.0, 1, 1383782400, 110, 0, 0], [157755053, "DIP by Bernardo Feitosa", 0.0, 0, 1395187200, 28, 0, 0], [24939688, "UP-ERN Allgemeine Zoologie - Testat", 0.0, 0, 1389139200, 77, 0, 9], [479413205, "Natural Math pattern-based multiplication - Fours", 0.0, 0, 1345852800, 8, 0, 0], [477544038, "Lernfeld Ausbildung 3", 0.0, 0, 1420761600, 14, 0, 1], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [2887175275, "Abiturglossar Deutsch f\u00fcr polnische Lerner PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 254, 0, 0], [1710101667, "Schritte International 2", 0.0, 0, 1411603200, 404, 0, 0], [1471085542, "\u00bfComo se dice...? (cuaderno) + DuoLingo vocab + misc", 0.0, 0, 1416182400, 4947, 0, 0], [320130059, "Introduction to Modern Japanese Vocab", 0.0, 0, 1387929600, 919, 0, 0], [354552354, "Modern Greek lesson 1", 0.0, 0, 1364083200, 39, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ern</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

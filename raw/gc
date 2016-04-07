@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[412595562, "Spanish GCSE All vocabulary E-Sp", 0.0, 0, 1453161600, 923, 0, 0], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [357129981, "Edexcel IGCSE Biology Revision Cards", 0.0, 0, 1451865600, 74, 8, 82], [1627483294, "Greek to GCSE - John Taylor", 5.0, 1, 1376438400, 1568, 0, 0], [1945305240, "BSN iGCSE Biology unit 4 Nutrient cycles", 0.0, 0, 1447200000, 9, 3, 3], [2143498399, "BSN iGCSE Biology unit 3 inheritance", 0.0, 0, 1447200000, 36, 3, 3], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [999617093, "BSN iGCSE Biology Unit 2 Excretion", 0.0, 0, 1447200000, 26, 3, 3], [955669266, "BSN iGCSE Biology unit 4 human influences on the ecosystem", 0.0, 0, 1447200000, 13, 3, 3], [282522785, "Singapore GCSE 'A' Level H2 Chemistry: Organic chemistry", 0.0, 0, 1435795200, 145, 0, 0], [1541069025, "BSN iGCSE Biology unit 4 population size", 0.0, 0, 1447200000, 11, 3, 3], [662359146, "BSN iGCSE Biology unit 3 growth and development", 0.0, 0, 1447200000, 3, 3, 3], [2086525804, "BSN iGCSE Biology Unit 2 Transportation", 0.0, 0, 1447200000, 48, 3, 3], [559726571, "BSN iGCSE Biology Unit 2 Respiration", 0.0, 0, 1447200000, 18, 3, 3], [14369647, "IGCSE German", 0.0, 0, 1442361600, 1785, 0, 0], [755321781, "BSN iGCSE Biology unit 4 energy flow, food chains and webs", 0.0, 0, 1447200000, 14, 3, 3], [1886287323, "IGCSE Edexcel Physics Unit 1 Kirill", 0.0, 0, 1446595200, 28, 3, 16], [1144312688, "BSN iGCSE Biology Unit 2 Coordination and Response", 0.0, 0, 1447200000, 67, 3, 3], [2083023461, "IGCSE Edexcel Physics Unit 1 Alice", 0.0, 0, 1446595200, 30, 3, 19], [785241466, "Mgc prod 1", 0.0, 0, 1443398400, 143, 0, 0], [1516698878, "IGCSE Edexcel Physics Unit 1 Leo", 0.0, 0, 1446595200, 91, 3, 3], [426383869, "MGC production1", 0.0, 0, 1442966400, 6, 0, 0], [792264671, "Mgc prod 2", 0.0, 0, 1443398400, 30, 0, 0], [1493953511, "Instrumente des Controlling - Marketingcontrolling", 0.0, 0, 1442361600, 22, 0, 2], [1744772251, "AQA GCSE Chemistry Unit 2 (Additional): Higher Tier", 5.0, 1, 1409356800, 196, 0, 12], [3832334469, "Theological French (GCTS) - Chapter 12", 0.0, 0, 1345852800, 130, 0, 0], [2508897442, "C1 AQA GCSE", 0.0, 0, 1345852800, 95, 0, 0], [3922219343, "B2 AQA GCSE", 0.0, 0, 1345852800, 179, 0, 0], [1112834375, "Theological French (GCTS) - Chapter 3", 0.0, 0, 1345852800, 42, 0, 0], [149425360, "Theological French (GCTS) - Chapter 11", 0.0, 0, 1345852800, 100, 0, 0], [746038571, "Psychology GCSE (OCR)", 0.0, 0, 1434758400, 33, 0, 0], [558877874, "Theological French (GCTS) - Chapter 5", 0.0, 0, 1345852800, 133, 0, 0], [355089338, "AQA GCSE Chemistry Unit 3 (Applied): Higher Tier", 0.0, 0, 1409529600, 213, 0, 8], [1177884788, "Theological French (GCTS) - Chapter 7", 0.0, 0, 1345852800, 67, 0, 0], [2028067019, "CH_UPB_ECHEM_ORGCHEM", 0.0, 0, 1355097600, 36, 0, 10], [2235413745, "Theological French (GCTS) - Chapter 9", 0.0, 0, 1345852800, 107, 0, 0], [2599126460, "GCSE Geography Paper 2 case studies", 0.0, 0, 1370390400, 128, 0, 7], [841282207, "MHCHS Edexcel GCSE Unit 1 Section 1", 0.0, 0, 1371254400, 39, 0, 0], [361316574, "GCSE OCR Gateway Biology", 0.0, 0, 1449705600, 636, 0, 18], [877937827, "Theological French (GCTS) - Chapter 6", 0.0, 0, 1345852800, 85, 0, 0], [1721130065, "GCSE Spanish AQA  Relationships and Choices", 0.0, 0, 1345852800, 141, 0, 0], [2671945522, "GCSE German - Herr Crook", 0.0, 0, 1379980800, 27, 0, 0], [2026632742, "IGCSE French Vocab", 0.0, 0, 1357084800, 1382, 0, 0], [2068198357, "Edexcel Chinese (Mandarin) GCSE - Reading Vocab", 4.0, 1, 1434240000, 770, 762, 0], [3754086067, "Theological French (GCTS) - Chapter 10", 0.0, 0, 1345852800, 106, 0, 0], [2842373165, "Theological French (GCTS) - Chapter 4", 0.0, 0, 1345852800, 67, 0, 0], [1626054154, "GCSE Spanish AQA Environment", 0.0, 0, 1345852800, 119, 0, 0], [1695583997, "Theological French (GCTS) - Chapter 8", 0.0, 0, 1345852800, 165, 0, 0], [381196515, "B1 AQA GCSE", 0.0, 0, 1345852800, 201, 0, 0], [1276925019, "Edexcel GCE Mathematics: Statistics S2", 0.0, 0, 1421712000, 29, 0, 2], [2650875686, "P2 AQA GCSE", 0.0, 0, 1345852800, 191, 0, 2], [758836864, "P1 AQA GCSE", 0.0, 0, 1345852800, 95, 0, 0], [3195365716, "GCSE Spanish AQA  Health", 0.0, 0, 1345852800, 148, 0, 0], [3363728268, "French AQA GCSE", 3.0, 2, 1345852800, 1149, 0, 0], [920202642, "C2 AQA GCSE", 0.0, 0, 1345852800, 168, 0, 2]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Gc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

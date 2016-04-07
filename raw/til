@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[453772415, "Fertility for Karen", 0.0, 0, 1454112000, 52, 0, 0], [723370916, "SpanA1 Castillo", 0.0, 0, 1452988800, 1412, 8, 0], [435574377, "ITIL Foundation (2011) ", 0.0, 0, 1399334400, 239, 0, 1], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [2073788814, "The Advantages of Multilingualism", 0.0, 0, 1447977600, 9, 0, 0], [253839639, "ITIL_Foundation_Examen_2670.1_german_x40", 0.0, 0, 1446076800, 40, 0, 0], [1184972756, "The Advantages of Multilingualism", 0.0, 0, 1448496000, 16, 0, 0], [1185683711, "ITIL_Foundation_Examen_2671.1_german_x40", 0.0, 0, 1446076800, 40, 0, 0], [1717556008, "Til a\u00f0 l\u00e6ra fyrir k\u00fars um n\u00fd fasteignal\u00f6g", 0.0, 0, 1442620800, 17, 0, 0], [743454333, "Teste de compartilhamento pra turma", 0.0, 0, 1443571200, 2, 0, 2], [1562088869, "Neurobiologi til Mette", 0.0, 0, 1442880000, 541, 0, 349], [872122309, "Sygdomskort til tema D KU", 0.0, 0, 1442448000, 42, 0, 62], [2134909884, "phrases utiles en mandarin", 0.0, 0, 1436659200, 7, 8, 1], [1165583900, "School of Tourism - Israel / 2nd Temple pd till Herod Q1-3", 0.0, 0, 1441670400, 7, 0, 0], [269886570, "Heltal 1 till 100", 0.0, 0, 1439769600, 200, 0, 400], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [1272812424, "phrases et mots utiles au restaurant en mandarin", 0.0, 0, 1436659200, 10, 12, 1], [1540331253, "Utilaj frazoj - Vetero", 0.0, 0, 1427846400, 37, 37, 0], [89952534, "Utilaj frazoj - Tempo", 0.0, 0, 1427846400, 26, 25, 0], [1208268223, "Histo B1 - Cartilage", 0.0, 0, 1410739200, 57, 0, 29], [1382916317, "Utilaj frazoj - Salutoj kaj adia\u016doj", 0.0, 0, 1427846400, 30, 30, 0], [2937531267, "Islenska fyrir alla 3 (fara/vera \u00ed/\u00e1/til)", 5.0, 1, 1391990400, 62, 0, 0], [930607582, "ITIL Foundation V3  Exam; Germany", 0.0, 0, 1417305600, 40, 0, 40], [2117943457, "ITIL V3_Resumo", 0.0, 0, 1390262400, 279, 0, 0], [2828667408, "Deutsch Rhetorische Stilmittel", 0.0, 0, 1365292800, 27, 0, 0], [223852644, "Sueco castiliano / Espa\u00f1ol glossario", 0.0, 0, 1425513600, 31, 0, 0], [1064524099, "Adult II Week 5 - Care of Ventillated Pt", 0.0, 0, 1412121600, 16, 0, 6], [3268414583, "Volatile agents", 0.0, 0, 1374451200, 18, 0, 0], [1159738132, "Utilaj frazoj - Hotelo", 0.0, 0, 1427155200, 15, 15, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [227361236, "L26: Ventilation", 0.0, 0, 1423526400, 10, 0, 32], [525537379, "Utilaj frazoj - Konati\u011do", 0.0, 0, 1427155200, 27, 27, 0], [994257308, "Utilaj frazoj - Gratuloj kaj bondeziroj", 0.0, 0, 1427155200, 13, 13, 0], [4184751756, "Eksamensgloser", 0.0, 0, 1368403200, 82, 0, 0], [339385665, "Utilaj frazoj - A\u0109etado", 0.0, 0, 1427068800, 25, 25, 0], [1311265629, "Processos_Fases ITIL", 0.0, 0, 1390262400, 19, 0, 0], [356460173, "Diverse eksamenssp\u00f8rgsm\u00e5l til 8. Semester Medicin ved KU", 0.0, 0, 1369785600, 174, 0, 0], [169450341, "Utilaj frazoj - Bazaj frazoj", 0.0, 0, 1427155200, 41, 41, 0], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [996363802, "Gastric motility and secretion ", 0.0, 0, 1395360000, 57, 0, 10], [534693839, "Til Sebastian og ikke Johannes", 0.0, 0, 1386028800, 16, 0, 0], [2015743017, "Utilaj frazoj - Man\u011dado", 0.0, 0, 1427155200, 26, 26, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [529269238, "Biochem, Unit 4; Cell Motility", 0.0, 0, 1414108800, 57, 0, 0], [1551828714, "Utilaj frazoj - Voja\u011do", 0.0, 0, 1427846400, 29, 29, 0], [896726834, "ITIL Foundation Acronyms and Initials", 0.0, 0, 1406851200, 51, 0, 0], [239822382, "ITIL Foundation Questions", 0.0, 0, 1406851200, 46, 0, 0], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [739140286, "ITILv3 para Concursos", 0.0, 0, 1375401600, 45, 0, 19], [2119256779, "Utilaj frazoj - Korespondado", 0.0, 0, 1427155200, 54, 54, 0], [1480000194, "GI Physiology: motility", 0.0, 0, 1397088000, 15, 0, 1], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [1314994340, "Vocabulaire Allemand utile \u00e0 l'\u00e9crit", 0.0, 0, 1360886400, 415, 0, 0], [591594728, "Utilaj frazoj - Kutimaj demandoj", 0.0, 0, 1427155200, 46, 46, 0], [703832613, "Repro Erectile Dysfunction 04.22.15", 0.0, 0, 1430697600, 32, 0, 0], [179864438, "CofO2 - 20 - Control of Ventilation.anki", 0.0, 0, 1345852800, 26, 0, 0], [2663031286, "hittil - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 29, 58, 0], [287181510, "Deutsch / Germanistik: Stilmittel und Tropen ", 0.0, 0, 1368230400, 55, 0, 0], [599602815, "Seitlinger stille Gesellschaft MIG", 0.0, 0, 1420416000, 11, 2, 2], [1280522285, "FHB L26: Ventilation", 0.0, 0, 1423440000, 10, 0, 31], [471144806, "Lateinische Stil\u00fcbungen II", 0.0, 0, 1406160000, 221, 0, 0], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [1626240117, "ITIL Foundation V3", 0.0, 0, 1400457600, 98, 0, 0], [1389159823, "Repro Fertilization 04.24.15", 0.0, 0, 1430697600, 23, 0, 0], [1281409729, "Biochem, Unit 4; Cartilage", 0.0, 0, 1414108800, 72, 0, 0], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1604711595, "Phrases utiles fran\u00e7aises", 0.0, 0, 1396656000, 53, 0, 0], [2010032165, "Utilaj frazoj - Por ali\u011di al aran\u011do", 0.0, 0, 1427846400, 39, 39, 0], [1330415386, "anglais utile", 0.0, 0, 1392940800, 43, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Til</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

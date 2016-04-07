@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1571625319, "Seana PDI 554 Exam 1", 0.0, 0, 1454976000, 36, 0, 69], [660991814, "Respiratory Pathologies: Interstitial Lung Disease", 0.0, 0, 1454889600, 9, 0, 0], [874354790, "Sean Aula de Portuguese 2015-2016", 0.0, 0, 1453766400, 1197, 2, 18], [72433448, "Pathology Final: neoplasia, autoimmune diseases ", 0.0, 0, 1453939200, 85, 0, 28], [276408827, "Pericardium diseases", 0.0, 0, 1451692800, 26, 0, 0], [879353076, "BH203 Biology of disease", 0.0, 0, 1453766400, 94, 0, 2], [1649276016, "Microbes Infectious Disease", 0.0, 0, 1454716800, 512, 0, 1], [1578094647, "EmoryResearchEBM", 0.0, 0, 1453852800, 41, 0, 3], [6725708, "geh\u00e4useABC", 0.0, 0, 1452297600, 11, 0, 0], [1094861888, "CSIM2 - Multisystem Disease", 0.0, 0, 1449878400, 108, 0, 0], [557301682, "Bible Quiz 28: Hosea", 0.0, 0, 1345852800, 41, 0, 0], [923095544, "Bacterial and viral diseases. ", 0.0, 0, 1450569600, 32, 0, 0], [1543937746, "REN MAI - Conception Vessel- SEA OF YIN", 0.0, 0, 1450569600, 21, 0, 0], [598586940, "CSIM2 - Inherited Disease", 0.0, 0, 1448496000, 67, 0, 0], [1510507258, "CSIM2 - Endocrine Disease", 0.0, 0, 1448496000, 94, 0, 0], [807564271, "Seana Pharm final", 0.0, 0, 1449532800, 19, 0, 0], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [2126271842, "Mental Health Research Group Nepali", 0.0, 0, 1447891200, 56, 0, 0], [1942854865, "CSIM2 - Vascular Disease", 0.0, 0, 1448582400, 77, 0, 0], [677904737, "CSIM2 - Liver Disease ", 0.0, 0, 1448496000, 58, 0, 0], [650180769, "Public Health exam 1 Seana", 0.0, 0, 1447372800, 141, 0, 11], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [415808950, "Mental Health Research Group Nepali", 0.0, 0, 1447286400, 12, 0, 0], [2029205048, "jacobson days months seasons weather", 0.0, 0, 1448841600, 36, 0, 0], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [1736492939, "Ariella- infectious diseases", 0.0, 0, 1445904000, 252, 2, 161], [372019873, "1524: Sarcoid + Pleural Lung disease", 0.0, 0, 1445817600, 44, 0, 43], [1212926688, "medical vocabulary 4 - disease symptoms", 0.0, 0, 1445385600, 83, 0, 0], [558773360, "Miriam- lung disease", 0.0, 0, 1446508800, 148, 2, 149], [729904786, "Ariella- infectious diseases 2", 0.0, 0, 1446508800, 135, 2, 127], [980819691, "Genetic Diseases FA", 0.0, 0, 1445299200, 33, 0, 0], [1050921699, "miriam-diseases of infancy", 0.0, 0, 1444521600, 69, 2, 82], [1291257745, "Geography - Oceans & Seas", 5.0, 6, 1408838400, 57, 0, 57], [1707970115, "medical vocabulary 5 - diseases and complaints", 0.0, 0, 1445385600, 95, 0, 0], [1320014410, "Research Methods Matt and Ilya", 0.0, 0, 1444089600, 187, 0, 4], [1228976091, "Ali Disease CMB", 0.0, 0, 1445472000, 202, 0, 3], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [1701281367, "medical vocabulary 3 - illnesses and diseases", 0.0, 0, 1445385600, 90, 0, 0], [1571436288, "Seana Epidemiology Exam 1", 0.0, 0, 1443571200, 36, 0, 10], [2035377967, "SGU Genetics Diseases", 0.0, 0, 1441584000, 50, 0, 0], [2138285650, "Infectious Disease Exam 1", 0.0, 0, 1379548800, 267, 0, 0], [1692452302, "Seana NEURO FINAL", 0.0, 0, 1417737600, 288, 0, 188], [698299477, "GlomerularDisease_WRBIM", 0.0, 0, 1440892800, 15, 0, 0], [1845175970, " rowan som fund. 2 biochem lect. 4 neurodegenerative disease", 0.0, 0, 1411430400, 80, 0, 1], [775317106, "Business English for Japanese Overseas Salesperson", 0.0, 0, 1438387200, 5, 4, 0], [1789951069, "MB1 Diseases to know (incomplete)", 0.0, 0, 1439596800, 16, 0, 0], [1788389818, "Genetic Diseases", 5.0, 1, 1394668800, 321, 0, 0], [607065016, "Seatoun Streets", 0.0, 0, 1424304000, 17, 0, 16], [681179872, "Swansea is shit", 0.0, 0, 1420761600, 42, 0, 0], [701209337, "Seana Poop", 0.0, 0, 1417737600, 2, 0, 0], [888405182, "Lysosomal Storage Diseases", 0.0, 0, 1410739200, 31, 0, 0], [1305350601, "Histo Exam 3  Seana", 0.0, 0, 1414713600, 359, 0, 128], [293366210, "DDO Paediatrics - acquired heart disease ", 0.0, 0, 1409616000, 25, 0, 0], [264325378, "Respiratory Second Crab Sean", 0.0, 0, 1392681600, 287, 0, 65], [2777410014, "Infectious Disease Exam  HIV", 0.0, 0, 1381968000, 162, 0, 0], [356180693, "Seana Histo LECTURE Exam 2", 0.0, 0, 1424736000, 85, 0, 106], [257873271, "Seana cards", 0.0, 0, 1409270400, 35, 0, 20], [468430230, "EVMS Muscles Sean", 0.0, 0, 1379980800, 8, 0, 8], [2087312684, "Infectious Disease", 0.0, 0, 1421107200, 21, 0, 4], [650069993, "Lipoproteins and Cardiovascular Disease", 0.0, 0, 1411776000, 41, 0, 0], [228358078, "Disease Mechanisms L9-11", 0.0, 0, 1427673600, 97, 0, 23], [1337776075, "Biochem Diseases", 0.0, 0, 1409788800, 14, 0, 0], [396021209, "DDO - Gastro - inflammatory bowel disease", 0.0, 0, 1415923200, 23, 0, 0], [2603393416, "HMS.IMP.Allergic Diseases", 0.0, 0, 1365033600, 28, 0, 6], [207392097, "Persian-Farsi - DLIFLC - GLOSS - \"An Epidemic Disease\"", 0.0, 0, 1417305600, 205, 0, 0], [1563299213, "Hepatobiliary and pancreatic diseases.", 0.0, 0, 1426809600, 255, 0, 0], [1829258064, "Disease Mechanisms L7-8", 0.0, 0, 1427155200, 89, 0, 16], [195580153, "Seana Animal Science Exam 2", 0.0, 0, 1414627200, 63, 0, 1], [1493915386, "Lysosomal Storage Diseases", 0.0, 0, 1410307200, 37, 0, 0], [1211960241, "Chloe: Renal diseases", 0.0, 0, 1425945600, 19, 0, 0], [1874666423, "MCB block 3 diseases", 0.0, 0, 1414800000, 56, 0, 24], [1779092905, "Treatment of heart and vessel disease", 0.0, 0, 1417651200, 44, 0, 0], [561844761, "Seana Anatomy Unit II", 0.0, 0, 1412985600, 86, 0, 68], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [1966709982, "Sean Block 5 OSF Pancreas Second Crab", 0.0, 0, 1397088000, 62, 0, 15], [1151431366, "Infectious diseases for SMP", 0.0, 0, 1427673600, 439, 0, 43], [3652588320, "Path Lab 7: Chemical & Physical Injury; Diseases of Immunit", 0.0, 0, 1372291200, 41, 0, 48], [1415247295, "Chloe Glomerular Diseases", 0.0, 0, 1425945600, 30, 0, 0], [1751828486, "Stuff from Anatomy Exam 1 we need to know Seana", 0.0, 0, 1415318400, 56, 0, 68], [816209456, "Seana Histo LAB Exam 2", 0.0, 0, 1424736000, 51, 0, 48], [777137956, "Sean Block 5 GI 1-3 Second Crab", 0.0, 0, 1397001600, 77, 0, 30], [1340249610, "signs and systems of cardiovascular disease", 0.0, 0, 1416528000, 71, 0, 0], [1873922087, "Second Crab IMN Block 3 From Sean", 0.0, 0, 1396396800, 88, 0, 17], [2027169721, "Science and research nico", 0.0, 0, 1433203200, 236, 0, 0], [287275215, "Seana Neuro Peterson Lectures", 0.0, 0, 1410307200, 121, 0, 49], [1020133879, "MVST IB BOD Diseases (Pathology)", 0.0, 0, 1395878400, 86, 0, 0], [410962657, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [846576470, "Histo Notes Sean ", 0.0, 0, 1386288000, 179, 0, 48], [2197220727, "Infectious Disease Final Infectious Diarrhea", 0.0, 0, 1381968000, 20, 0, 0], [1470006950, "med voc 26 - Rheumatological diseases (M.)", 0.0, 0, 1387411200, 35, 0, 0], [9499298, "heart disease", 0.0, 0, 1417651200, 107, 0, 0], [3552195532, "ACVPM Infectious Diseases", 0.0, 0, 1367798400, 50, 0, 0], [1146381640, "Membrane Transport in Health and Disease", 0.0, 0, 1412121600, 56, 0, 0], [965690965, "Biochem, Unit 4; Molecular Basis of Common Diseases", 0.0, 0, 1414108800, 73, 0, 0], [2024049280, "Seasite Thai Maanii Book 2", 0.0, 0, 1405296000, 302, 302, 0], [487100034, "RLR #81 - Holiday Season", 0.0, 0, 1417564800, 33, 33, 0], [1276508168, "Seana Anatomy FINAL", 0.0, 0, 1418256000, 257, 0, 102], [1169964927, "CMSRU Fundamentals weeks 1-3 Diseases JT", 0.0, 0, 1410652800, 44, 0, 0], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [2650127004, "Guson's Infectious Disease", 0.0, 0, 1377820800, 88, 0, 0], [1315239469, "Glycogen/Lysosomal Storage Diseases", 0.0, 0, 1424995200, 16, 0, 5], [1825633400, "Bridie Med diffuse lung disease", 0.0, 0, 1382054400, 16, 0, 0], [1110655464, "Seana Histo Lab Exam 2", 0.0, 0, 1414454400, 134, 0, 79], [2130011212, "chants d'oiseaux", 0.0, 0, 1422835200, 78, 78, 0], [2013033300, "MCB block 4 diseases", 0.0, 0, 1416355200, 10, 0, 0], [200390118, "Seana ANATOMY FINAL REVIEW MATERIAL", 0.0, 0, 1418342400, 108, 0, 136], [2471863385, "HMS.HG.Common.Human.Diseases", 0.0, 0, 1355184000, 39, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [572902417, "Rowan SOM Fundamentals 2 Neurodegenerative diseases", 0.0, 0, 1410566400, 69, 0, 0], [128292423, "Sean Block 5 GI Second Crab", 0.0, 0, 1397174400, 138, 0, 53], [1777477553, "Seana Unit I stuff for Unit II exam", 0.0, 0, 1413244800, 56, 0, 68], [2482705923, "Hypersensitivity and Allergic Diseases", 0.0, 0, 1360800000, 22, 0, 0], [1566860448, "Week 3 Infectious Disease", 0.0, 0, 1409443200, 69, 0, 0], [2142144428, "HD4 Pathology Pancreas & Biliary Diseases", 0.0, 0, 1395100800, 33, 0, 15], [274125057, "HSC Biology: \"Search For Better Health\"", 0.0, 0, 1413676800, 266, 0, 5], [1128149815, "DDO Paediatrics - congenital heart disease ", 0.0, 0, 1409616000, 39, 0, 3], [1752390753, "GPSEA Exam 3", 0.0, 0, 1430179200, 14, 0, 0], [1184408790, "The O.C. - Season 1 Episode 1: Pilot [Dictation] \t", 0.0, 0, 1394409600, 434, 434, 434], [325214895, "Infectious Disease Brand/Generic", 0.0, 0, 1379548800, 58, 0, 0], [258776451, "Seana Histo cards updated as of 9-10 ", 0.0, 0, 1410393600, 135, 0, 96], [263070022, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [314787802, "Diseases of the Salivary Glands", 0.0, 0, 1376524800, 101, 0, 27], [2351651167, "Infectious Disease Exam  HIV", 0.0, 0, 1382054400, 162, 0, 0], [1346925019, "Seana Histo Lab FINAL", 0.0, 0, 1417737600, 193, 0, 165], [1512731043, "M Marks: General Medicine and Infectious Disease", 0.0, 0, 1421193600, 491, 0, 0], [2632950522, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 267, 0, 0], [267920793, "Seana Micro & Immuno FINAL", 0.0, 0, 1417996800, 182, 0, 32], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0], [3777025657, "Med heart valve disease", 0.0, 0, 1381622400, 29, 0, 0], [1194433673, "Sean Block 5 OSF Calcium phosphate Second Crab", 0.0, 0, 1397088000, 65, 0, 15]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sea</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [1989658614, "Oxidative phosphorylation and ETC", 0.0, 0, 1454803200, 12, 0, 3], [1248500644, "3000 Oxford Common Words Flashcards", 3.5, 2, 1398470400, 3377, 6754, 313], [805435183, "\u00d6kotox 2", 0.0, 0, 1453075200, 15, 0, 0], [1971370206, "drug toxicities (for uzo)", 0.0, 0, 1449878400, 32, 0, 68], [1245216435, "Oxford Brookes Kanji 13-16", 0.0, 0, 1448841600, 216, 0, 1], [1473424601, "Ringvorlesung: Pharmakologie und Toxikologie", 0.0, 0, 1448150400, 22, 0, 0], [1047642993, "Fox \u82f1\u691c3\u6025", 0.0, 0, 1446768000, 1400, 1398, 0], [389055326, "Fox \u82f1\u691c5\u6025", 0.0, 0, 1447286400, 680, 680, 0], [1980950499, "Fox \u82f1\u691c3\u6025", 0.0, 0, 1447286400, 872, 0, 0], [1020068324, "Oxford Picture Dictionary Interactive. M4R4M", 4.86, 7, 1404950400, 3800, 3797, 3801], [1670023548, "word skill oxford", 0.0, 0, 1445040000, 27, 0, 1], [300594540, "Lecture 5.1 Tricarboxylic Cycle", 0.0, 0, 1444694400, 60, 0, 0], [2117750466, "Lecture 5.2 Oxidative Phosphorylation", 0.0, 0, 1445040000, 50, 0, 0], [1910331201, "A deck of approx. 900 words", 0.0, 0, 1442620800, 901, 0, 0], [3572937583, "IELTS VOCABULARY 2 ENGLISH TO PERSIAN-OXFORD BY KAMRAN ", 4.0, 1, 1371686400, 1132, 515, 0], [321353496, "box info up to connective tissue", 0.0, 0, 1440806400, 511, 0, 3], [327830779, "American Foxtrot", 0.0, 0, 1442361600, 18, 0, 0], [643855521, "OXFORD 3000 ENGLISH to Russian", 4.0, 7, 1407628800, 4032, 3333, 0], [618052218, "Anatomy Terms: Shoulder Girdle + Proximal Humerus", 0.0, 0, 1437004800, 41, 0, 0], [1776365453, "FinnFACEM - Tox", 0.0, 0, 1439424000, 149, 2, 80], [1777473263, "Block 3 Triacylglycerols and fatty acid oxidation", 0.0, 0, 1415836800, 110, 0, 0], [1758492284, "Vocabulaire du vox allemand : das Gef\u00fchl", 0.0, 0, 1431129600, 41, 0, 0], [981106529, "Antidotes for toxic agents", 0.0, 0, 1350777600, 39, 0, 0], [634337459, "CTCFL Oxford Multimedia Roleplay Vocab", 0.0, 0, 1432771200, 210, 0, 0], [426167372, "Lecture 1 on Prostaglandins and Thromboxanes ", 0.0, 0, 1418342400, 63, 0, 20], [1427261992, "RUSVM Toxicology Exam 1", 0.0, 0, 1433980800, 140, 0, 41], [49166663, "Conduit bender parts, stub up, and pullbox quiz", 0.0, 0, 1425168000, 19, 0, 0], [2047862531, "anglais_pour_roxane", 0.0, 0, 1425859200, 0, 0, 0], [510759035, "Hiszpanski by jankoxik", 0.0, 0, 1401494400, 17, 17, 0], [1478857671, "Kid's box 2 fitxes", 0.0, 0, 1418515200, 104, 103, 104], [4036500628, "IELTS VOCABULARY ENGLISH TO PERSIAN-OXFORD BY KAMRAN FARAJI", 2.0, 2, 1358985600, 4493, 0, 0], [1918485632, "block 2 oxidative phosphorylation", 0.0, 0, 1414281600, 73, 0, 0], [751806200, "Biochem Chapter 15: Oxidative phosphorylation", 0.0, 0, 1430697600, 35, 3, 2], [45784566, "Chatterbox 2 (Czech-English) by Qvasa", 5.0, 4, 1428624000, 700, 0, 0], [499675828, "M4 beta ox", 0.0, 0, 1402099200, 12, 0, 1], [1584744148, "Renal physiology - core medicine for Oxford graduate entry", 0.0, 0, 1424304000, 230, 0, 4], [1600495101, "3000 Oxford FlashCard EN-VI", 0.0, 0, 1403136000, 3353, 3369, 7], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [165388687, "Stewart: Neurotoxins", 0.0, 0, 1424563200, 64, 0, 0], [320449039, "SLOVAK - ENGLISH (Oxford Project 3rd Edition #1) - Unit 4", 0.0, 0, 1393804800, 15, 0, 0], [1401109537, "MCM Test 3: 8.14 Oxidation and the Cell Biology of Aging DSA", 0.0, 0, 1408492800, 37, 0, 0], [668066204, "OXFORD 4032 AMERICAN WORDS WITH SOUND", 0.0, 0, 1431388800, 4032, 0, 0], [2123125255, "Chatterbox 1 (Czech-English) by Qvasa", 5.0, 4, 1428624000, 346, 0, 0], [797386794, "anglais_pour_roxane2", 0.0, 0, 1425859200, 293, 0, 0], [1738937181, "Toxicology LSU Health ", 0.0, 0, 1405987200, 162, 0, 11], [397691796, "CofO2 - 14 - Nitric Oxide", 0.0, 0, 1345852800, 21, 0, 0], [1496957243, "Environmental Health and Toxicity", 0.0, 0, 1392681600, 92, 0, 0], [1393099829, "Toxikologie_SoSe_14", 0.0, 0, 1404000000, 90, 0, 20]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ox</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

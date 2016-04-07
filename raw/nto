@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1426881144, "Ch1. Fundamentos Multimedia", 0.0, 0, 1454976000, 83, 0, 0], [1364052597, "\u7cb5\u8a9e\u8072\u8abf\u7df4\u7fd2 Cantonese Tone Practice", 5.0, 1, 1388188800, 664, 2284, 0], [1110833860, "KF, Kontof\u00fchrung 2015/16 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1454630400, 47, 0, 0], [1195399361, "Small Test English-Cantonese deck with Audio", 0.0, 0, 1454371200, 429, 426, 0], [1558401647, "Cantonese Core 100 - Basic words (EN  YUE with audio)", 3.0, 2, 1437004800, 206, 111, 116], [1755465447, "Improved Cantonese Characters", 5.0, 3, 1400716800, 4971, 0, 0], [3857923599, "Fundamentos de Investigaci\u00f3n", 0.0, 0, 1345852800, 599, 0, 1], [364245113, "DAW Entorno cliente", 0.0, 0, 1453939200, 82, 0, 1], [479111924, "L'italiano di Antonio", 0.0, 0, 1452556800, 350, 346, 347], [1763047972, "Hepokatin abipaketti: Ruotsi (Omia poimintoja)", 0.0, 0, 1452902400, 844, 1, 1], [1586327721, "Esperanto 101", 4.86, 7, 1345852800, 553, 0, 0], [947146768, "Swiss Cantons", 5.0, 1, 1440633600, 26, 20, 52], [1332981384, "Vocabulaire du livre \"Cours rationnel d'esp\u00e9ranto\"", 0.0, 0, 1452729600, 439, 0, 0], [1767355051, "Into English Unit 4b", 0.0, 0, 1449273600, 28, 0, 0], [2071256234, "IntonationPractice", 0.0, 0, 1452556800, 28, 29, 5], [1253348476, "Into English made by Clemens", 0.0, 0, 1450051200, 20, 0, 0], [1789549280, "antonia test", 0.0, 0, 1450224000, 4, 0, 1], [1365709043, "Cantonese with Audio", 0.0, 0, 1451347200, 1262, 1270, 9], [1907929471, "Puntos Elem Spanish Chapter 6", 0.0, 0, 1448755200, 164, 0, 0], [368455659, "A la barikadoj / A las barricadas (canci\u00f3n en esperanto)", 0.0, 0, 1405728000, 62, 0, 0], [2344818168, "Esperanto-English Sentences from Tatoeba (with audio)", 0.0, 0, 1374451200, 456, 456, 0], [1655467450, "1-3. Klas\u0109ambra lingva\u0135o, salutoj kaj prezentoj", 0.0, 0, 1447113600, 25, 0, 0], [1498535268, "Into English Unit 4a", 0.0, 0, 1450224000, 32, 0, 0], [237445818, "Into English 1 U3 useful words", 5.0, 1, 1449792000, 20, 0, 0], [577325571, "Into Engish, Unit 3 a", 5.0, 1, 1448409600, 36, 0, 0], [1992338504, "4. Prezentoj", 0.0, 0, 1447113600, 14, 0, 0], [1982086758, "Puntos Elem Spanish Chapter 5", 0.0, 0, 1448755200, 54, 0, 0], [1618957646, "GermanToEnglish", 0.0, 0, 1445299200, 597, 0, 0], [301398508, "DLI Toishan-Cantonese Chinese (Hoisanva, Toisanwa, Taishanhu", 0.0, 0, 1415664000, 504, 0, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 5.0, 1, 1345852800, 3527, 0, 0], [540621746, "KF, Kontof\u00fchrung 2015/16 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1447459200, 47, 0, 0], [1861211878, "Esame Fisica 1 (In aggiornamento)", 0.0, 0, 1445990400, 23, 0, 35], [324956628, "Entomology Practical 2 Cards", 0.0, 0, 1447804800, 45, 0, 42], [1403248701, "Fundamentos II franc\u00e9s-espa\u00f1ol", 0.0, 0, 1446508800, 227, 0, 0], [1971316840, "Into English 1, Unit 2_(01-07d)", 0.0, 0, 1446940800, 14, 0, 0], [1173643101, "Mandarin and Cantonese basic vocabulary", 0.0, 0, 1447718400, 43, 0, 0], [1882066650, "Into English 1, Unit 2_(01-07d)", 0.0, 0, 1446940800, 19, 0, 0], [1825385429, "Into English Unit1 c", 0.0, 0, 1444089600, 88, 0, 0], [817624922, "Oral Path - Odontogenic Tumors", 0.0, 0, 1447545600, 44, 0, 0], [394269530, "M\u00e9mento Allemand", 0.0, 0, 1444262400, 1864, 0, 3], [855347051, "Lecture 4.1 pentose phosphate and fructose metabolism", 0.0, 0, 1444089600, 57, 0, 0], [310129695, "Esperanto - Czech - Ana Pana vortaro", 0.0, 0, 1446076800, 247, 0, 0], [292604786, "Esperanto - AdE Baza Radikaro Oficiala Grupo 6 EO-NL", 0.0, 0, 1403654400, 244, 0, 0], [1108563907, "Esperanto - AdE Baza Radikaro Oficiala Grupo 4 EO-NL", 0.0, 0, 1403654400, 152, 0, 0], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 0.0, 0, 1445472000, 11, 0, 7], [1785958733, "Into English - Unit 2c", 0.0, 0, 1446940800, 31, 0, 0], [823641985, "Cantonese Quick & Dirty 30 (EN  ZH-HK)", 0.0, 0, 1443225600, 60, 38, 45], [909079147, "Esperanto - AdE Baza Radikaro Oficiala Grupo 2 EO-NL", 0.0, 0, 1403654400, 102, 0, 0], [743454333, "Teste de compartilhamento pra turma", 0.0, 0, 1443571200, 2, 0, 2], [1755359484, "Into English 1, Unit1 b", 0.0, 0, 1442620800, 11, 0, 0], [66910099, "Esperanto - AdE Baza Radikaro Oficiala Grupo 3 EO-NL", 0.0, 0, 1403654400, 122, 0, 0], [1611134273, "667 basic Esperanto-English words", 0.0, 0, 1440288000, 682, 0, 1], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 100, 0, 0], [1844711579, "Esperanto woorden en zinnen EO-NL", 4.0, 1, 1428019200, 7435, 0, 0], [2119362516, "Moderna Esperanto 1: Lecionoj 1 \u011dis 16", 0.0, 0, 1439683200, 697, 0, 0], [747726143, "Anton Preterite Irregular", 0.0, 0, 1420761600, 24, 0, 0], [3664844114, "Psicolog\u00eda del Pensamiento", 0.0, 0, 1369094400, 810, 0, 1], [1535471826, "AME Regimento Interno - TRT RS", 0.0, 0, 1438560000, 241, 0, 0], [1062238174, "Chinese antonym pairs", 0.0, 0, 1387843200, 236, 0, 0], [150653593, "Pan's Labyrinth (El laberinto del fauno)", 5.0, 2, 1368316800, 243, 0, 0], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [2066105516, "Thai Tones/Intonation (Simple)", 0.0, 0, 1408060800, 17, 0, 0], [763798048, "Cantonese FSI Dialogs with Audio and Cantonese Characters", 4.67, 3, 1409011200, 333, 334, 0], [3464954978, "Pr\u00e4positionen in Esperanto", 0.0, 0, 1345852800, 34, 0, 0], [610206214, "Grammaire Espagnol Bintou S", 0.0, 0, 1434326400, 77, 0, 0], [1016857272, "Esperanto", 0.0, 0, 1451088000, 717, 0, 3], [3299339453, "626 common Esperanto words (English)", 0.0, 0, 1345852800, 594, 0, 0], [325360280, "REGIMENTO INTERNO TRT RS", 0.0, 0, 1438560000, 82, 0, 0], [1928877568, "Schweizer Kantone DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 26, 0, 0], [2091502903, " Esperanto 50 most common verbs", 0.0, 0, 1435190400, 50, 6, 4], [4248883746, "Kurso de Esperanto (fran\u00e7ais) + Gerda malaperis", 5.0, 1, 1345852800, 858, 0, 0], [1452938654, "Esperanto Vocab", 0.0, 0, 1406937600, 18, 0, 14], [1772456217, "Esperanto Alphabet Like a Native!\u2122", 0.0, 0, 1432252800, 28, 28, 29], [472138918, "AME Regimento Interno - TRT MG", 5.0, 1, 1432339200, 227, 0, 0], [664873193, "Esperanto - AdE Baza Radikaro Oficiala Grupo 5 EO-NL", 0.0, 0, 1403654400, 156, 0, 0], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 0.0, 0, 1425686400, 36, 35, 0], [1253169459, "Cantonese Slang Deck V 0.1 Beta", 5.0, 1, 1403568000, 7659, 0, 0], [548314053, "English-Esperanto Lernu.net wordlist - good wishes", 0.0, 0, 1424908800, 13, 0, 1], [93980248, "Japanese everyday words and phrases, translated into Russian", 5.0, 1, 1350777600, 113, 105, 21], [1973161713, "Schweizer Kantone", 0.0, 0, 1376006400, 27, 0, 53], [1991131108, "U.S. States in Esperanto Like a Native!\u2122", 0.0, 0, 1432252800, 65, 130, 131], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [3647951132, "Assimil Ingl\u00e9s Perfeccionamiento [Voces Reales]", 0.0, 0, 1385683200, 1, 1, 0], [420193280, "Grammaire Anglaise Bintou S", 0.0, 0, 1434326400, 44, 0, 0], [1093674526, "Duolingo Esperanto, Checkpoint 1 -2", 0.0, 0, 1433289600, 238, 0, 0], [434523351, "Puntos de Partida Cap\u00edtulo 6", 0.0, 0, 1392422400, 109, 0, 0], [799203460, "Adult II Week 3 - Gerentology Acute Care", 0.0, 0, 1410912000, 31, 0, 2], [1657969619, "KF, Kontof\u00fchrung f\u00fcr Bankkaufleute 2015 ", 0.0, 0, 1437696000, 171, 0, 0], [241584689, "Countries in Esperanto Like a Native!\u2122", 0.0, 0, 1432252800, 196, 402, 386], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [710684309, "Esperanto - AdE Baza Radikaro Oficiala Grupo 7 EO-NL", 0.0, 0, 1403654400, 296, 0, 0], [666649180, "Esperanto", 0.0, 0, 1398297600, 702, 0, 0], [3514973533, "Reading Into A New China (vol.1) - Svenska, kap 1-9 ", 0.0, 0, 1382572800, 418, 0, 0], [560301357, "CONOCIMIENTO MEDIO 5\u00ba PRIMARIA espa\u00f1a asturias", 0.0, 0, 1373846400, 485, 0, 606], [1638028325, "Cantonese: Home", 0.0, 0, 1426550400, 10, 0, 0], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [495109510, "3000 most common Chinese characters in Cantonese", 5.0, 1, 1426550400, 2998, 0, 0], [744646156, "Esperanto b\u00e1sico em portugu\u00eas", 0.0, 0, 1409356800, 10, 0, 0], [410090323, "Anglais Bintou S", 0.0, 0, 1434326400, 1101, 0, 0], [1671145467, "Esperanto - AdE Baza Radikaro Oficiala Grupo 8 EO-NL", 0.0, 0, 1403654400, 467, 0, 0], [408033822, "More Speak Esperanto Like a Native!\u2122 1", 0.0, 0, 1431648000, 322, 644, 1], [1935870117, "Lernu Esperanto words", 0.0, 0, 1428624000, 377, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [759807376, "Cantonese: Adverbs/Frequency", 0.0, 0, 1426550400, 29, 0, 0], [2028637832, "Speak Esperanto Like a Native!\u2122 2", 0.0, 0, 1431648000, 303, 606, 1], [1497261440, "Gerontology", 0.0, 0, 1415577600, 45, 0, 0], [1665314112, "Duolingo Esperanto, Checkpoint 0 - 1", 0.0, 0, 1433116800, 134, 0, 0], [292642240, "Cantonese: Adjectives", 0.0, 0, 1426550400, 21, 0, 0], [2001703362, "Cantonese: Travel", 0.0, 0, 1426550400, 19, 0, 0], [404266064, "Cantonese: Technology", 0.0, 0, 1426550400, 59, 0, 0], [340374459, "Cantonese: School", 0.0, 0, 1426550400, 15, 0, 0], [1363045271, "CONOCIMIENTO DEL MEDIO 4\u00ba primaria, espa\u00f1a, asturias", 0.0, 0, 1375401600, 201, 0, 176], [2028303710, "\u015cava alfabeto por Esperanto", 0.0, 0, 1345852800, 28, 0, 0], [1021356683, "Speak Esperanto Like a Native!\u2122 3", 0.0, 0, 1431648000, 299, 598, 1], [1359095949, "Duolingo Esperanto, Checkpoint 2 - 3, v2", 0.0, 0, 1434499200, 677, 0, 0], [173710333, "Dakua'ana davi: sentimiento", 0.0, 0, 1411689600, 19, 19, 18], [2567625761, "2,098 frequent Esperanto words (English)", 0.0, 0, 1345852800, 1418, 0, 0], [4678556, "Esperanto Alphabet", 0.0, 0, 1405209600, 28, 27, 0], [2148398495, "Kis-Lev Esperanto HEBREW", 0.0, 0, 1345852800, 349, 0, 0], [1273386117, "Pensamiento y lenguaje", 0.0, 0, 1424304000, 110, 0, 0], [854246212, "Esperanto - Czech: Lernu - Useful phrases/U\u017eite\u010dn\u00e9 fr\u00e1ze", 0.0, 0, 1396742400, 400, 0, 0], [215620951, "Esperanto - AdE Baza Radikaro Oficiala Grupo 1 EO-NL", 0.0, 0, 1404259200, 179, 0, 0], [1018557096, "Esperanto el la Grafo", 0.0, 0, 1357516800, 244, 0, 0], [1625174620, "World of Warcraft\u2122 Esperanto Study", 0.0, 0, 1431907200, 76, 54, 1], [693053219, "Proverbaro de Esperanto", 0.0, 0, 1408924800, 2710, 0, 0], [1584894565, "More Speak Esperanto Like a Native!\u2122 3", 0.0, 0, 1431648000, 703, 1401, 1], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [1443690922, "Kurso de Esperanto", 0.0, 0, 1435190400, 679, 6, 4], [599046571, "More Speak Esperanto Like a Native!\u2122 2", 0.0, 0, 1431648000, 414, 820, 1], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [607624640, "English-Esperanto Lernu wordlist - Common questions", 0.0, 0, 1423094400, 46, 0, 1], [2658751055, "Periodontology Midterm", 0.0, 0, 1350432000, 183, 0, 6], [1631872149, "Esperanto por saliko", 0.0, 0, 1381363200, 462, 0, 0], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [275196529, "Comprehensive Esperanto Deck - Robjo", 0.0, 0, 1363046400, 26627, 0, 15], [607027796, "ANTON SPANISH", 0.0, 0, 1419552000, 768, 0, 0], [1262731104, "Esperanto: de Universala Esperanto Metodo", 0.0, 0, 1430092800, 79, 0, 10], [998955102, "Cantonese: Verbs", 0.0, 0, 1426550400, 33, 0, 0], [3636992919, "Portuguese (brazilian) antonyms", 0.0, 0, 1380672000, 114, 0, 0], [558078558, "Speak Esperanto Like a Native!\u2122 1", 0.0, 0, 1431648000, 225, 450, 1], [293061661, "Bazaj radikoj Esperanto-Esperanto", 0.0, 0, 1427068800, 2863, 0, 0], [197196282, "HMS.IMP.Into.to.Neoplasia", 0.0, 0, 1369008000, 16, 0, 0], [1106212626, "Magento 1.7 Development", 0.0, 0, 1385164800, 215, 0, 0], [445220383, "Cantonese Characters with Audio v2", 5.0, 1, 1430265600, 4976, 1859, 0], [1063724962, "M\u00f6llers - Growing into the world of work", 0.0, 0, 1412035200, 80, 0, 0], [1420856776, "Into to Cell Biology", 0.0, 0, 1408320000, 95, 0, 1], [993350107, "Verbos de movimiento en b\u00falgaro con las preposiciones", 0.0, 0, 1420070400, 20, 0, 0], [553926592, "Adjetivos - antonyms", 0.0, 0, 1384300800, 19, 0, 0], [596725836, "Esperanto-Rusa", 5.0, 2, 1363737600, 1171, 0, 0], [4020148685, "Adverbien u. Konjunktionen in Esperanto", 0.0, 0, 1345852800, 35, 0, 0], [1258757979, "Elementary Linear Algebra (Anton), sections 4.1 - 4.7", 0.0, 0, 1395532800, 44, 0, 0], [4005856339, "esperanto-espa\u00f1ol vocabulario", 0.0, 0, 1345852800, 3672, 0, 0], [183858094, "Cantonese pronunciation for the2400 most common characters i", 0.0, 0, 1415491200, 2400, 0, 0], [945295056, "Chat In Esperanto Like a Native!\u2122", 0.0, 0, 1432252800, 623, 1238, 1], [1076973157, "Entomology", 5.0, 1, 1390348800, 401, 0, 0], [142924034, "Change basic English into business", 0.0, 0, 1426291200, 11, 0, 0], [1253401024, "Vocabulary from: A Complete Grammar of Esperanto", 0.0, 0, 1423353600, 920, 0, 0], [2371125514, "Kurso de Esperanto (Czech version)", 4.0, 1, 1345852800, 679, 0, 0], [1462853146, "Cantonese Phrases & Sentences 2 - update", 0.0, 0, 1428364800, 46423, 0, 0], [1719293397, "Cantonese \u5ee3\u6771\u8a71\uff0f\u7cb5\u8a9e Beta v0.7", 5.0, 2, 1432771200, 22492, 22886, 1], [2629571547, "Posicion de los elementos en la tabla periodica", 0.0, 0, 1383955200, 118, 0, 118], [642581911, "Canto1", 0.0, 0, 1373673600, 18, 0, 0], [862600871, "Esperanto", 0.0, 0, 1384214400, 55, 0, 0], [1823049682, "Vor- und Nachsilben in Esperanto", 0.0, 0, 1345852800, 41, 0, 0], [479751735, "Esperanto - AdE Baza Radikaro Oficiala Grupo 9 EO-NL", 0.0, 0, 1403654400, 749, 0, 0], [396214265, "Cantonese: Shopping", 0.0, 0, 1426550400, 21, 0, 0], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24], [293843977, "Top 500 Most Used Words in Esperanto", 0.0, 0, 1435017600, 504, 0, 0], [1839131377, "Chinese Cantonese Idiom Deck V0.1 Beta", 5.0, 1, 1403568000, 2721, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nto</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

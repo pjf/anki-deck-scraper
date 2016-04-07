@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[379728389, "US Navy Operational Risk Management", 0.0, 0, 1450137600, 8, 0, 0], [910719449, "Nahosemenne - poznavani", 0.0, 0, 1401580800, 19, 0, 19], [2856122421, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 \u0130\u015fletme ", 0.0, 0, 1368662400, 151, 0, 0], [1552589514, "Izpit_voditelj_colna-6del-NAVIGACIJA ", 0.0, 0, 1414281600, 40, 0, 3], [3155823752, "Onavarious's Spanish Common Words", 0.0, 0, 1358121600, 10, 1, 10], [1267337793, "13240 NAVAIDS 1", 0.0, 0, 1366243200, 92, 0, 0], [3835849732, "13240 Airspace NAV", 0.0, 0, 1366070400, 59, 0, 0], [2078897088, "loter\u00eda de Navidad", 0.0, 0, 1419206400, 42, 0, 0], [1667455190, " BrzrkrKen CommNav", 0.0, 0, 1399420800, 99, 0, 7], [35950596, "13240 Nav and Time review", 0.0, 0, 1366156800, 69, 0, 0], [3881206524, "Luci e segnali di navigazione", 0.0, 0, 1361577600, 65, 0, 130], [2877041043, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C \u0130\u015fletme Soru Bankas\u0131", 0.0, 0, 1368662400, 82, 0, 0], [772913647, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Uluslararas\u0131 Fonetik Alfabe", 0.0, 0, 1368662400, 26, 0, 0], [1118390533, "Krytosemenne - poznavani", 0.0, 0, 1402012800, 147, 0, 148], [3477974631, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Ulusal Fonetik Alfabe", 0.0, 0, 1368662400, 40, 0, 0], [1924989807, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C S\u0131n\u0131f\u0131 Ulusal ve Uluslararas\u0131 ", 0.0, 0, 1368662400, 49, 0, 0], [1836679632, "Farmaka - handelsnavne. Danish.", 0.0, 0, 1399680000, 360, 0, 0], [722539914, "Master Navajo deck", 0.0, 0, 1345852800, 814, 0, 0], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [1414432418, "Georgia (GA) Navigator/CAC Test", 0.0, 0, 1394323200, 281, 0, 3], [805236247, "linux shell navigation shortcuts", 0.0, 0, 1400457600, 27, 0, 0], [2611696388, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik Sor", 0.0, 0, 1368662400, 140, 0, 31], [2482912576, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 TA B\u00f6lge kodlar\u0131", 0.0, 0, 1368662400, 84, 0, 11], [117637301, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik ", 0.0, 0, 1369440000, 172, 0, 62], [2844343903, "B\u1ed9 Thu\u1ed9c l\u00f2ng Kinh Th\u00e1nh (Navigators TMS 108)", 0.0, 0, 1345852800, 107, 0, 0], [1326135142, "Hmyz_poznavani", 4.0, 1, 1421366400, 138, 0, 197], [380369799, "serinavoci44", 0.0, 0, 1400889600, 41, 0, 0], [3046153246, "SI.SpoznavanjeOkolja.3rdGrade", 0.0, 0, 1363824000, 99, 0, 98], [3681219101, "The Navigators TMS (Topical Memory System) Bible Verses", 3.5, 2, 1355011200, 60, 0, 0], [3208536705, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B- S\u0131n\u0131f\u0131 Ulusal ve Uluslararas", 0.0, 0, 1368662400, 67, 0, 0], [926217534, "BASICRNAV", 0.0, 0, 1417478400, 13, 0, 0], [774638785, "Izpit_voditelj_colna-6del-NAVIGACIJA-oznake ", 0.0, 0, 1414281600, 42, 0, 42]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nav</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

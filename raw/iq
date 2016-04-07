@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[877590109, "Anglais technique ENSM semestre 2", 0.0, 0, 1454457600, 145, 25, 6], [1621861487, "sopica optique", 0.0, 0, 1454716800, 100, 0, 69], [1123635922, "Test physique KS", 0.0, 0, 1454457600, 1, 0, 0], [533207552, "Vocabulaire latin - fran\u00e7ais ; th\u00e9matique de l'homme", 0.0, 0, 1454284800, 182, 0, 0], [640726, "TS - Caract\u00e9ristiques des ondes", 0.0, 0, 1453680000, 36, 1, 27], [1964278869, "Obst\u00e9trique - ECN", 0.0, 0, 1452902400, 39, 0, 2], [171903151, "Cours de physique de 1S - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 16, 0, 9], [108380531, "Vocabulaire grec ancien - fran\u00e7ais ; th\u00e9matique de l'homme", 0.0, 0, 1454284800, 187, 0, 0], [186567255, "Cours de physique de seconde - Lyc\u00e9e Clemenceau - Reims", 5.0, 1, 1453593600, 28, 0, 19], [1768525984, "199-DYSPNEE AIGUE ET CHRONIQUE", 0.0, 0, 1450137600, 7, 0, 0], [188487331, "chimie organique S1", 0.0, 0, 1449964800, 10, 0, 30], [1304486133, "245- Diabete complications chroniques", 0.0, 0, 1450051200, 14, 0, 0], [1412694262, "French idioms// les expressions idiomatiques", 5.0, 1, 1446940800, 101, 99, 102], [840475842, "Module 2 - R\u00e9vision de la statistique et normes", 0.0, 0, 1449446400, 42, 0, 0], [2119554100, "Physique PTSI_Vilgenis 2015/2016", 5.0, 5, 1454198400, 208, 0, 167], [1477340124, "Madrassa Action Islamique - Niveau 3 Cours 12", 0.0, 0, 1441670400, 22, 22, 0], [1421139594, "Madrassa Action Islamique - Niveau 3 Cours 09", 0.0, 0, 1440633600, 16, 16, 0], [115131360, "Calc Techniques", 0.0, 0, 1441756800, 5, 0, 6], [33449085, "*PSI_Physique_Formules", 0.0, 0, 1441497600, 3, 0, 3], [1886213578, "TouroCOM OMM Year 1 Practical Techniques", 0.0, 0, 1442188800, 139, 1, 230], [242421592, "Madrassa Action Islamique - Niveau 3 Cours 13", 0.0, 0, 1441670400, 10, 10, 0], [1925170183, "Lexique m\u00e9dical Qu\u00e9bec", 0.0, 0, 1441497600, 1741, 0, 21], [383434309, "Classroom Portuguese in Mozambique", 0.0, 0, 1445299200, 27, 0, 0], [537674402, "Madrassa Action Islamique - Niveau 3 Cours 03", 0.0, 0, 1444262400, 19, 19, 0], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [1818443790, "Madrassa Action Islamique - Niveau 3 Cours 11", 0.0, 0, 1441670400, 6, 6, 0], [1137668229, "Madrassa Action Islamique - Niveau 3 Cours 01", 0.0, 0, 1441843200, 22, 22, 0], [140166154, "Madrassa Action Islamique - Niveau 3 Cours 08", 0.0, 0, 1440633600, 9, 9, 0], [1565398851, "Madrassa Action Islamique - Niveau 3 Cours 05", 0.0, 0, 1440633600, 24, 24, 0], [1107284048, "Madrassa Action Islamique - Niveau 3 Cours 02", 0.0, 0, 1444262400, 25, 25, 0], [1521963798, "Madrassa Action Islamique - Niveau 3 Cours 14", 0.0, 0, 1441670400, 35, 35, 0], [1420022603, "Sterile Technique", 0.0, 0, 1439856000, 6, 0, 0], [805185523, "Madrassa Action Islamique - Niveau 3 Cours 07", 0.0, 0, 1440633600, 19, 19, 0], [493124676, "Madrassa Action Islamique - Niveau 3 Cours 06", 0.0, 0, 1440633600, 18, 18, 0], [2009412915, "Madrassa Action Islamique - Niveau 3 Cours 04", 0.0, 0, 1441670400, 23, 23, 0], [1324337003, "Madrassa Action Islamique - Niveau 3 Cours 10", 0.0, 0, 1440633600, 14, 14, 0], [2022834759, "Anatomy & Techniques", 0.0, 0, 1389225600, 217, 0, 0], [201685006, "R\u00e9vision de math\u00e9matiques (6e)", 0.0, 0, 1416700800, 23, 0, 2], [1098212805, "AMC Gynecologie obstetrique Geneve 2014", 0.0, 0, 1432425600, 125, 0, 4], [2146637620, "Constantes physiologiques plasmatiques et intracellulaires", 0.0, 0, 1345852800, 11, 0, 0], [870748238, "Vocabulary - Physique - F\u00edsico (Spanish-English)", 0.0, 0, 1423612800, 134, 0, 0], [1818811195, "Vocabulaire sp\u00e9cifique anglais TOEIC", 0.0, 0, 1410134400, 868, 0, 0], [2428949188, "Anglais\u202f\u2014\u202fFran\u00e7ais th\u00e9matique", 4.28, 25, 1452988800, 10213, 10354, 5707], [2069724327, "Sardaigne - Petit lexique", 0.0, 0, 1406937600, 2, 0, 0], [838961871, "rIqaj's test deck", 0.0, 0, 1424649600, 10, 0, 0], [657794675, "canc\u00e9ro ttt syst\u00e9miques Marie", 0.0, 0, 1411948800, 14, 0, 0], [67781516, "Chinese Weiqi Terms", 0.0, 0, 1407024000, 387, 0, 128], [452169592, "changement climatique conference mercredi", 0.0, 0, 1426032000, 129, 0, 0], [308396953, "PhysiquePSI", 0.0, 0, 1394755200, 384, 0, 309], [1609855750, "Langue juridique allemande ", 0.0, 0, 1410912000, 922, 0, 0], [1305194227, "La politique et les institutions (Fr - Esp) ", 0.0, 0, 1445990400, 321, 0, 0], [165309892, "Ordres de grandeur en physique (valeurs num\u00e9riques)", 0.0, 0, 1404086400, 88, 0, 11], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [2357799636, "antique greek verbs koine / verbos griego antiguo \u03bb\u03c5\u03c9 \u03b5\u03b9\u03bc\u03b9", 0.0, 0, 1348617600, 294, 0, 0], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [1611891644, "Euskara-Frantsesa lexikoa , Lexique Basque - Francais", 0.0, 0, 1431907200, 523, 0, 0], [1753283400, "Vocabulaire de l'administration publique - Canada", 0.0, 0, 1426550400, 500, 0, 0], [3095327088, "API phon\u00e9tique fran\u00e7ais", 0.0, 0, 1345852800, 42, 0, 0], [1241511378, "Fiche 9 - La cause: application classique", 0.0, 0, 1404777600, 9, 0, 0], [26951237, "Les mol\u00e9cules organiques", 0.0, 0, 1393027200, 18, 0, 17], [632642787, "arabiq", 0.0, 0, 1408147200, 100, 0, 2], [183767228, "Sant\u00e9 publique IFSI Beauvais", 0.0, 0, 1396310400, 76, 0, 1], [1180977066, "Connecteurs rh\u00e9toriques fran\u00e7ais ", 0.0, 0, 1427673600, 15, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [1722923263, "Etats d'am\u00e9rique du sud", 0.0, 0, 1428278400, 14, 0, 30], [2058757917, "Vocabulary - Physique - Ronronia", 0.0, 0, 1423872000, 134, 0, 0], [537109525, "BA3 - Figures de rh\u00e9torique", 0.0, 0, 1399334400, 30, 0, 0], [1009575563, "La g\u00e9opolitique (18)", 0.0, 0, 1395878400, 351, 0, 0], [867360477, "Athis Afrique ", 0.0, 0, 1395705600, 19, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iq</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

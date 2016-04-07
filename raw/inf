@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1082539305, "TUM - Information Retrieval in High Dimensional Data (IRHD)", 0.0, 0, 1454889600, 113, 0, 253], [1157647987, "Einf\u00fchrung Java", 0.0, 0, 1454976000, 27, 0, 0], [848414666, "TDF 1 Einf\u00fchrung", 0.0, 0, 1454889600, 29, 0, 12], [1801858486, "fmcase24infant", 0.0, 0, 1454284800, 79, 0, 0], [493959367, "Verbs Followed By Gerunds And Infinititves", 0.0, 0, 1453939200, 100, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [1674091371, "infection for charlotte", 0.0, 0, 1452816000, 11, 0, 0], [1649276016, "Microbes Infectious Disease", 0.0, 0, 1454716800, 512, 0, 1], [4044939073, "Microbiology - Anaerobic Bacterial Infections", 0.0, 0, 1369785600, 23, 0, 14], [139351230, "Major System Inforoth", 0.0, 0, 1453161600, 110, 2, 7], [1307976761, "L13-16 autocoids, analgesics, non-steroid antiinflammaotry a", 0.0, 0, 1452384000, 58, 0, 0], [696698893, "Englisch - Deutsch by Inforoth", 0.0, 0, 1453161600, 38, 2, 7], [2088573454, "Introduction to Bioinformatic Databases and Tools", 0.0, 0, 1452470400, 11, 0, 0], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [1604840816, "nutrition info (wellness)", 0.0, 0, 1449705600, 208, 0, 0], [1308908740, "Bacterial Infections MSK Exam 1", 0.0, 0, 1452643200, 62, 0, 0], [1553177705, "information resources (for uzo)", 0.0, 0, 1449878400, 21, 0, 6], [1343750301, "Infective Carditis", 0.0, 0, 1449187200, 63, 0, 0], [158358330, "Speed Cards - 52 Spielkarten merken by inforoth", 0.0, 0, 1406764800, 52, 0, 1], [359505716, "Mal infs", 0.0, 0, 1449014400, 39, 0, 1], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [1302407699, "Info", 0.0, 0, 1447632000, 35, 0, 21], [1816213503, "XO Wireless Product info", 0.0, 0, 1446249600, 172, 0, 0], [164166150, "Social and Information Networks", 0.0, 0, 1447372800, 16, 0, 0], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [611231182, "Infectologia", 0.0, 0, 1448755200, 41, 0, 1], [417416744, "Infrahyoidale Muskulatur", 0.0, 0, 1447632000, 6, 0, 0], [307696900, "Infection and Immunity", 0.0, 0, 1447113600, 635, 0, 0], [2113297325, "set of information about pc memory", 0.0, 0, 1448409600, 27, 0, 0], [955669266, "BSN iGCSE Biology unit 4 human influences on the ecosystem", 0.0, 0, 1447200000, 13, 3, 3], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [1736492939, "Ariella- infectious diseases", 0.0, 0, 1445904000, 252, 2, 161], [1556690104, "Respiratory Infections", 0.0, 0, 1445212800, 32, 0, 2], [467115427, "Rules of Inference ", 0.0, 0, 1395273600, 21, 0, 21], [637318382, "KUMC B&B Anatomy Face/Neck/Infratemporal Fossa", 0.0, 0, 1443052800, 261, 0, 262], [729904786, "Ariella- infectious diseases 2", 0.0, 0, 1446508800, 135, 2, 127], [1802067732, "Informatica", 0.0, 0, 1447200000, 297, 0, 0], [657388935, "Einf\u00fchrung in die BWL", 0.0, 0, 1449792000, 127, 0, 7], [1050921699, "miriam-diseases of infancy", 0.0, 0, 1444521600, 69, 2, 82], [691219033, "Einf\u00fchrung Marketing", 0.0, 0, 1449792000, 126, 0, 10], [974268469, "Surgery: Surgical Infections", 0.0, 0, 1443484800, 152, 0, 0], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [1813242064, "Malattie infettive v1 Bari", 0.0, 0, 1442966400, 22, 0, 1], [1658030221, "gerund-infinitive-that_revised-Aug2015", 0.0, 0, 1443312000, 169, 0, 33], [379405852, "miriam-inflamm", 0.0, 0, 1444521600, 131, 2, 82], [58496566, "Deck para concursos da \u00e1rea de Tecnologia da Informa\u00e7\u00e3o", 4.6, 5, 1345852800, 6035, 0, 757], [735860095, "Nutrition During Infancy Exam 17/09/2015", 0.0, 0, 1442361600, 72, 0, 0], [409180839, "Infectologia", 0.0, 0, 1442966400, 7, 0, 0], [321353496, "box info up to connective tissue", 0.0, 0, 1440806400, 511, 0, 3], [380257068, "HSR InfSi1 FS 2015 Begriffe", 0.0, 0, 1438041600, 31, 0, 4], [2138285650, "Infectious Disease Exam 1", 0.0, 0, 1379548800, 267, 0, 0], [1274606527, "HIV and Opportunistic Infections", 0.0, 0, 1382054400, 38, 0, 0], [636105689, "Information about Trematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 57, 0, 0], [1084750503, "B&B 03.17.15 CSF and CNS Infections", 0.0, 0, 1426550400, 43, 0, 1], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [1038806096, "Inflammation and Healing Lab II VIJ", 0.0, 0, 1413417600, 13, 0, 29], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [1316460746, "INFO221", 0.0, 0, 1439251200, 29, 0, 0], [2084495902, "KMP_4_MUI_Infektio", 0.0, 0, 1440979200, 631, 0, 0], [1505237629, "DSRI Unit 5  Inference for Categorical Variables", 5.0, 1, 1415145600, 22, 0, 9], [63864248, " Infecciosas-MIR", 0.0, 0, 1435104000, 208, 0, 0], [363861931, "Verkehrswesen als Erg\u00e4nzungsfach Master Informatik am KIT", 0.0, 0, 1406505600, 132, 0, 54], [2659310160, "Viral Infections/HIV", 0.0, 0, 1359331200, 77, 0, 0], [3374674221, "Einfache IT Systeme Lernfeld 4", 0.0, 0, 1361923200, 90, 0, 0], [986069772, "12 Tumorer, cerebral parese, infektioner", 0.0, 0, 1416614400, 57, 0, 30], [3163682033, "Numerik f\u00fcr Informatiker am KIT", 0.0, 0, 1379030400, 12, 0, 5], [436378155, "HMS.IMP.Respiratory.Infections", 0.0, 0, 1366156800, 40, 0, 12], [2891920539, "HMS.IMP.Chronic.Inflammation", 0.0, 0, 1364342400, 26, 0, 2], [265532741, "Information about Coccidia for Micro 3403 at Weber State", 0.0, 0, 1417996800, 96, 0, 0], [215782393, "Med Micro - URT infections", 0.0, 0, 1433289600, 111, 0, 50], [906413708, "Infektiologie TU M\u00fcnchen ", 0.0, 0, 1419033600, 111, 2, 1], [1713562532, "T7Infektion", 0.0, 0, 1401062400, 92, 0, 6], [2911856595, "Microbiology - Mycology and fungal skin infections", 0.0, 0, 1369872000, 32, 0, 44], [2777410014, "Infectious Disease Exam  HIV", 0.0, 0, 1381968000, 162, 0, 0], [469545234, "Informatik I", 0.0, 0, 1398124800, 70, 0, 7], [1218067247, "JAKUB infinitiv s zu", 0.0, 0, 1422576000, 12, 0, 0], [3545061634, "Chemical Mediators of Inflammation", 0.0, 0, 1360627200, 68, 0, 0], [757050783, "Embolism, Infarction, and Septic Shock", 0.0, 0, 1360627200, 36, 0, 0], [1322013973, "A1. Lesson 2. Podstawowe informacje o Tobie", 0.0, 0, 1422403200, 23, 24, 1], [587214448, "Inform\u00e1tica", 0.0, 0, 1430956800, 42, 0, 0], [2087312684, "Infectious Disease", 0.0, 0, 1421107200, 21, 0, 4], [144985236, "Technische Informatik am KIT", 0.0, 0, 1364601600, 78, 0, 4], [971141607, "1/7 Inflammation", 0.0, 0, 1421020800, 55, 0, 3], [202392330, "Sistemas inform\u00e1ticos: DAW", 0.0, 0, 1422403200, 145, 0, 2], [2024316148, "Numerische und stochastische Grundlagen der Informatik", 0.0, 0, 1425254400, 34, 0, 68], [396021209, "DDO - Gastro - inflammatory bowel disease", 0.0, 0, 1415923200, 23, 0, 0], [3544817823, "Contract -- Undue influence", 0.0, 0, 1345852800, 9, 0, 0], [1348145784, "Sistema Informa\u00e7\u00e3o", 0.0, 0, 1437696000, 19, 0, 0], [1043059143, "Gerunds_Infinitives_Verb Words_Participles_That Clauses", 0.0, 0, 1356480000, 247, 0, 0], [277199174, "marwanounet-inf", 0.0, 0, 1449014400, 248, 0, 1], [1942481712, "meb2ekginfo", 0.0, 0, 1386806400, 92, 0, 39], [447135458, "Arquitetura e tecnologias de sistemas de informa\u00e7\u00e3o", 0.0, 0, 1437696000, 11, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [613113375, "DSRI Unit 3 Framework for Inference", 0.0, 0, 1415145600, 22, 0, 0], [2778551023, "Chemical Mediators of Inflammation", 0.0, 0, 1358640000, 30, 0, 0], [3756847175, "Informatica Teorica UniBG", 0.0, 0, 1367884800, 155, 0, 9], [2530760937, "Marketing TINF12B2", 0.0, 0, 1375315200, 99, 0, 78], [3772656056, "Chemical Mediators of Inflammation", 0.0, 0, 1359072000, 52, 0, 0], [3141433282, "Microbiology - Parasitology and Parasitic Skin Infections", 0.0, 0, 1369958400, 31, 0, 29], [178602402, "Inflammation", 0.0, 0, 1360627200, 46, 0, 0], [769317555, "Pharmacology: inflammation block", 0.0, 0, 1369008000, 110, 0, 0], [1625135861, "Einf\u00fchrung in Software Engineering TU Darmstadt WS14/15", 0.0, 0, 1423785600, 49, 0, 1], [502830267, "9. Anti-inflammatory", 0.0, 0, 1425081600, 67, 0, 64], [285679631, "Formell vs. Informell ", 0.0, 0, 1369267200, 32, 0, 0], [969427906, "Grundlagen Geoinformatik und GIS Osnabr\u00fcck", 0.0, 0, 1423353600, 236, 0, 62], [2015109480, "Grundlegende Kommandos in Emacs und info", 0.0, 0, 1429660800, 70, 0, 0], [1054680101, "DDO Paediatrics - Renal emergencies in infants and children ", 0.0, 0, 1409616000, 38, 0, 0], [409044820, "Immunity and Bacterial Infections", 0.0, 0, 1360022400, 25, 0, 0], [1806463298, "Basmatte inf\u00f6r h\u00f6gskoleprovet och h\u00f6gskolestudier.", 0.0, 0, 1414540800, 93, 0, 0], [258884761, "infectologia", 0.0, 0, 1425513600, 55, 0, 0], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [936910679, "Block 2 - Sepsis and infection", 0.0, 0, 1384387200, 24, 0, 5], [1526892868, "HMS.IMP.Acute.Inflammation", 0.0, 0, 1364601600, 35, 0, 7], [1151431366, "Infectious diseases for SMP", 0.0, 0, 1427673600, 439, 0, 43], [971658824, "Information about cestodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 122, 0, 0], [636549812, "Information about Nematodes for Micro 3403 at Weber State", 0.0, 0, 1417996800, 199, 0, 0], [786934334, "WPOS - Seguran\u00e7a da Informa\u00e7\u00e3o", 0.0, 0, 1413936000, 5, 0, 0], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [683937621, "Spanish (Infopulse A1)", 0.0, 0, 1422489600, 345, 0, 0], [1051062373, "Wirtschaftsinformatik TU KL WS1415", 0.0, 0, 1426118400, 105, 0, 18], [2055194301, "Week 3 Inflammation", 0.0, 0, 1409443200, 114, 0, 0], [1702850920, "MMT Medieninformatik Einf\u00fchrung (HHN WS14)", 0.0, 0, 1423094400, 100, 0, 1], [2211126117, "introduction to bioinformatics an der boku", 0.0, 0, 1380758400, 79, 0, 13], [787071023, "Roots, and various info to know", 0.0, 0, 1398816000, 33, 0, 3], [1675544794, "Hebrew Inflections", 0.0, 0, 1345852800, 35, 0, 0], [570514717, "UK NUR 221 Infant Development", 0.0, 0, 1416268800, 116, 0, 0], [858376870, "HMS.IMP.GI.Infections", 0.0, 0, 1366156800, 27, 0, 15], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [1578131938, "Path Lab 2: Acute Inflammation", 0.0, 0, 1372291200, 31, 0, 34], [1588475629, "Inflammation 1-2", 0.0, 0, 1420675200, 76, 0, 12], [410962657, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [2197220727, "Infectious Disease Final Infectious Diarrhea", 0.0, 0, 1381968000, 20, 0, 0], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [998551176, "Micro: Tissue Responses to Infection 10/30", 0.0, 0, 1415318400, 56, 0, 6], [2032385308, "DDO Paediatrics - UTIs in infants and children ", 0.0, 0, 1409616000, 25, 0, 0], [3552195532, "ACVPM Infectious Diseases", 0.0, 0, 1367798400, 50, 0, 0], [734819484, "HMS.IMP.Infection.Control", 0.0, 0, 1367452800, 33, 0, 2], [1709915119, "Salters-Nuffield Biology A2 - Infection, Immunity, Forensics", 0.0, 0, 1412035200, 128, 0, 0], [2806365568, "Betriebliche Informationssysteme", 0.0, 0, 1350432000, 0, 0, 0], [1901939917, "B&B 03.18.15 Pathology of CNS Infections", 0.0, 0, 1426723200, 83, 0, 12], [2476688653, "Viral Infections/HIV", 0.0, 0, 1360886400, 77, 0, 0], [559765544, "verbes + infinitif: avec \u00e0, de ou sans pr\u00e9position", 0.0, 0, 1416528000, 223, 0, 0], [147459951, "TUM Einf. Wirtschaftsinformatik 14/15", 0.0, 0, 1423958400, 107, 1, 1], [1982845136, "Ortopedi - Inf\u00f6r tentamen VT2015", 0.0, 0, 1429056000, 119, 0, 9], [1338467835, "DASI U4 Inference of Numerical Variables", 5.0, 1, 1415145600, 29, 0, 16], [2650127004, "Guson's Infectious Disease", 0.0, 0, 1377820800, 88, 0, 0], [1476521219, "MDTI 02.04.15 Infectious Arthritis", 0.0, 0, 1423094400, 41, 0, 2], [1530681727, "38C - CSIM Inflammation and Neoplasia", 0.0, 0, 1400198400, 111, 0, 0], [1422173183, "Wer wird Million\u00e4r? DE-DE Teil 1 (einfach)", 0.0, 0, 1345852800, 460, 0, 0], [1245473530, "immune/inflammation response/blood cells", 0.0, 0, 1406419200, 56, 0, 0], [549677727, "46a Infection & Clinical Practice", 0.0, 0, 1433289600, 275, 0, 2], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [3970437684, "Influence", 0.0, 0, 1345852800, 166, 0, 0], [15358249, "Mastering Medical Information", 0.0, 0, 1409270400, 89, 0, 0], [1566860448, "Week 3 Infectious Disease", 0.0, 0, 1409443200, 69, 0, 0], [1447103618, "CMBM: Immune response to microbial infection", 0.0, 0, 1391990400, 24, 0, 10], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [1015711429, "Benign and Inflammatory Dermatoses", 0.0, 0, 1410134400, 40, 0, 84], [1539093344, "Informatics ace 2015", 0.0, 0, 1430179200, 116, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [875121602, "Immunity and Infection", 0.0, 0, 1415577600, 2120, 0, 297], [1098183315, "Anglais Influencer les autres", 0.0, 0, 1399852800, 26, 0, 0], [325214895, "Infectious Disease Brand/Generic", 0.0, 0, 1379548800, 58, 0, 0], [2068644928, "Bridie pulmonary infection", 0.0, 0, 1383264000, 14, 0, 0], [1952961261, "Berechenbarkeit und Komplexit\u00e4t Informatik", 0.0, 0, 1424217600, 71, 0, 142], [37012003, "pathInfecDz", 0.0, 0, 1422230400, 122, 0, 126], [621053856, "Biologie 3. Informationsverarbeitung und Regelung", 0.0, 0, 1346284800, 88, 0, 34], [263070022, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [2351651167, "Infectious Disease Exam  HIV", 0.0, 0, 1382054400, 162, 0, 0], [506049295, "McDonald CNS Infections", 0.0, 0, 1423180800, 39, 0, 22], [1512731043, "M Marks: General Medicine and Infectious Disease", 0.0, 0, 1421193600, 491, 0, 0], [2632950522, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 267, 0, 0], [2075981724, "Chronic Inflammation", 0.0, 0, 1359331200, 54, 0, 0], [2288741695, "MHCHS Politics Key Words and Information", 0.0, 0, 1381104000, 21, 0, 0], [71886017, "HMS.IMP.Acute.Inflammation", 0.0, 0, 1364342400, 36, 0, 6]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Inf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[30758230, "Next level intermediate Module 3", 0.0, 0, 1454371200, 29, 8, 0], [1432517454, "Next level preintermediate 4", 0.0, 0, 1449878400, 20, 7, 0], [1437357054, "next level pre-intermediate 5", 0.0, 0, 1449878400, 35, 8, 0], [1023733362, "Next level pre-intermediate 8", 0.0, 0, 1449964800, 24, 10, 0], [73505269, "Next level pre-intermediate 7", 0.0, 0, 1449964800, 22, 0, 0], [79760695, "Next level intermediate Module 1", 0.0, 0, 1447113600, 12, 4, 0], [253503107, "next level Elementary Module 11", 0.0, 0, 1447113600, 28, 3, 6], [1082475512, "Next level Elementary Module 10", 0.0, 0, 1447113600, 57, 14, 8], [1987762420, "Next level Intermediate Module 2", 0.0, 0, 1447113600, 21, 10, 0], [698936420, "Next level Elementary Module 6", 0.0, 0, 1447113600, 101, 26, 40], [1107059504, "Next level Upper-intermediate Module 4", 0.0, 0, 1447113600, 23, 6, 0], [38920031, "Next level pre-intermediate 10", 0.0, 0, 1443830400, 35, 7, 0], [873074853, "Next level Elementary 9", 0.0, 0, 1443830400, 20, 0, 0], [1746058568, "Next level Elementary Module 2", 0.0, 0, 1443744000, 60, 16, 0], [774777119, "Next level Elementrary 7", 0.0, 0, 1443830400, 17, 5, 0], [2026297622, "Next level elementary 5", 0.0, 0, 1441152000, 45, 4, 0], [729249472, "Next level Elementary Module 3", 0.0, 0, 1443830400, 43, 0, 0], [929495162, "Next level pre-intermediate 3", 0.0, 0, 1443830400, 32, 0, 0], [1661841770, "Next level pre-intermediate 12", 0.0, 0, 1443830400, 23, 0, 0], [839563685, "Next level Elementary 8", 0.0, 0, 1443830400, 31, 7, 0], [2094558834, "Next level Elementary 4", 0.0, 0, 1443830400, 12, 0, 0], [1602895943, "Next level pre intermediate 2", 0.0, 0, 1441065600, 44, 8, 0], [480397531, "Next level upper-intermediate 2", 0.0, 0, 1441238400, 37, 7, 0], [1727958306, "Next level pre intermediate 9", 0.0, 0, 1441065600, 19, 8, 0], [1560185333, "Next level pre intermediate 1", 0.0, 0, 1443830400, 48, 15, 0], [844956825, "FRJ Connexions2  voc.L1 A-G", 0.0, 0, 1401753600, 85, 0, 0], [601201769, "French - Czech: Connexion 1 - Method de Francais", 0.0, 0, 1413331200, 1376, 0, 0], [531896921, "FRJ Connexions2 voc.L1 H-P ", 0.0, 0, 1401753600, 65, 0, 0], [1168553579, "Nahuatlahtolli: Adverbios y conexiones ", 0.0, 0, 1414540800, 76, 76, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nex</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

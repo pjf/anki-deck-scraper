@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[427113211, "Romana - Germana ----- Rum\u00e4nien - Deutsch", 2.0, 1, 1345852800, 2752, 19, 3214], [3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [496754387, "RO:EN  English-Romanian", 5.0, 3, 1454198400, 854, 0, 0], [1476547324, "All exported words from the Duolingo Dutch course", 0.0, 0, 1453766400, 1849, 8, 16], [1621569193, "selfstudythai.com vocabulary w/audio from VOA articles 1-85", 0.0, 0, 1406764800, 5392, 1748, 0], [423533680, "Schweizer Strommarkt Fachvokabular DE-FR", 0.0, 0, 1454544000, 318, 0, 0], [2002667426, "Genki 1 and 2 Vocabulary (Kanji / Kana / Romaji / Roumaji)", 0.0, 0, 1432166400, 799, 0, 0], [769993852, "German-Icelandic from Wiktionary", 0.0, 0, 1453939200, 2073, 0, 0], [375272252, "100 Spanish Sentences using 'venir' from 123teachme.com", 5.0, 1, 1379721600, 101, 0, 0], [172142717, "PHD cytokines from Scribes and FA ", 0.0, 0, 1453248000, 24, 0, 0], [1576479877, "cewrffgergfrewfrw gfrteg fgst\"Pseudoephedrine Dextromethorph", 0.0, 0, 1452470400, 2, 0, 0], [1699844511, "SM22 - Romance Under the Moon: Usagi's First Kiss", 0.0, 0, 1453161600, 23, 0, 0], [2846866250, "98 Spanish Sentences using \u2018ver\u2019 from 123teachme.com", 5.0, 1, 1369612800, 98, 0, 0], [406388765, "300 most common German words from over 300 German novels.", 0.0, 0, 1365292800, 296, 0, 0], [917992777, "MW neuromuscular disorder and reflexes", 0.0, 0, 1452988800, 40, 0, 3], [677598525, "Deutsch - Russisch  DB 1 (>4000)  by Rakzin Roman", 5.0, 1, 1448150400, 4201, 0, 0], [1040465699, "Francais - Roman (Francez -Rom\u00e2n)", 0.0, 0, 1453593600, 12723, 3, 5], [1092946273, "Contemporary Chinese 3 (from Lesson1 to Lesson 10)", 0.0, 0, 1451952000, 366, 0, 0], [1020037227, "Power 200: HY concept cards from Q banks:", 0.0, 0, 1450310400, 215, 0, 54], [1327437810, "Swahili daily life words, from Tanzania", 0.0, 0, 1453248000, 0, 0, 0], [1400379517, "Bible Quiz 45 Romans", 0.0, 0, 1345852800, 194, 0, 0], [508547589, "Human rights (from Malala Yousafzai interview)", 0.0, 0, 1452902400, 15, 15, 6], [373093868, "218 ET 219 - ATHEROME ET PREVENTION", 0.0, 0, 1450396800, 7, 0, 0], [1703904218, "First 50 Words from TOCFL Vocabulary list 1", 0.0, 0, 1452124800, 50, 48, 0], [973903084, "Hiragana from TextFugu", 4.5, 2, 1447027200, 104, 104, 0], [1743201350, "CVS - brugada syndrome", 0.0, 0, 1452124800, 4, 0, 2], [1431396713, "German Vocabulary from Morgen to Abend", 0.0, 0, 1447977600, 973, 988, 1229], [972921164, "Management's first lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 24, 0, 0], [1329467863, "NT511: Texts from the Gospels...", 0.0, 0, 1450483200, 44, 0, 0], [539377625, "selfstudythai.com vocabulary w/audio from VOA articles 1-10", 0.0, 0, 1399852800, 1420, 354, 0], [1488984982, "Japanese JLPT1 grammar notes from 2010 plus some bonus", 5.0, 1, 1406851200, 225, 0, 0], [617205464, "ILC Romans 10:1-21 ", 0.0, 0, 1448928000, 21, 0, 0], [2344818168, "Esperanto-English Sentences from Tatoeba (with audio)", 0.0, 0, 1374451200, 456, 456, 0], [126898923, "Thai Consonants from Thaipod101 notes", 0.0, 0, 1420502400, 44, 0, 0], [1385713147, "ILC Romans 8:1-39 ", 0.0, 0, 1448928000, 39, 0, 0], [74082975, "Vocabulary from Mncube's Xhosa Manual", 0.0, 0, 1449187200, 486, 0, 0], [876261670, "ILC Romans 11:1-36 ", 0.0, 0, 1448928000, 36, 0, 0], [534801471, "Visual Spanish Plus Sound Files from Forvo", 0.0, 0, 1431475200, 1101, 1242, 1375], [619515654, "Intermediate (B1/B2) sentences from tatoeba", 0.0, 0, 1404345600, 4312, 0, 1], [955916647, "Deutsch-Russisch. Medizin und andere. Teil 1. Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [214749738, "ILC Romans 7:1-25 ", 0.0, 0, 1448928000, 25, 0, 0], [1946547129, " english vocabulary from Le mot et l'id\u00e9e", 0.0, 0, 1446595200, 93, 0, 0], [788028301, "GRE a few words from kaplan ", 0.0, 0, 1444953600, 97, 0, 0], [1078213166, "Deutsch-Russisch. Medizin und andere. Teil 2 Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [864877511, "ILC Romans 9:1-33 ", 0.0, 0, 1448928000, 33, 0, 0], [574151262, "new words from inlingua ", 0.0, 0, 1449273600, 0, 0, 1], [1416479205, "Romani", 0.0, 0, 1448755200, 1013, 0, 0], [960840121, "Russian numbers from 1 to 1000 000", 0.0, 0, 1444694400, 38, 38, 0], [1892110989, "Japanese From Zero Course 4", 0.0, 0, 1447632000, 24, 0, 0], [445492700, "German from german lessons", 0.0, 0, 1445558400, 60, 0, 0], [1891655539, "ILC Romans 6:1-23 ", 0.0, 0, 1446336000, 23, 0, 0], [1526333469, "ILC Romans 1:1-32 ", 0.0, 0, 1446336000, 32, 0, 0], [866818089, "Kanji N4 list from Nihongo Challenge book", 0.0, 0, 1439251200, 180, 0, 0], [53854446, "ILC Romans 5:1-21 ", 0.0, 0, 1446336000, 21, 0, 0], [2051668736, "Checklists and More from Airplane Handbooks", 0.0, 0, 1447027200, 479, 0, 0], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [53168656, "Words from Norwegian course at Rosenhof Oslo", 0.0, 0, 1444780800, 10, 0, 0], [771258297, "ILC Romans 4:1-25 ", 0.0, 0, 1446336000, 25, 0, 0], [1699604690, "ILC Romans 3:1-31 ", 0.0, 0, 1446336000, 31, 0, 0], [1349748445, "Rome ep.01", 0.0, 0, 1444348800, 167, 1, 0], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [1856563647, "ILC Romans 2:1-29 ", 0.0, 0, 1446336000, 29, 0, 0], [771821991, "Biol 192 Land Plants from Anthophyta", 0.0, 0, 1444694400, 184, 0, 4], [694966111, "Aromatic R Groups", 0.0, 0, 1443398400, 3, 0, 1], [2087957154, "Neuromuscular Junction", 0.0, 0, 1443052800, 19, 0, 0], [1894601453, "Vocabulary from Elementary Turkish", 0.0, 0, 1441929600, 1169, 0, 0], [1991381241, "John Updike's \"Back from Vacation\"", 0.0, 0, 1443052800, 15, 0, 0], [1319551392, "Elektromotorni pogoni uvod ", 0.0, 0, 1444608000, 0, 0, 0], [130765854, "LLSPI:Familia Romana", 0.0, 0, 1440979200, 43, 2, 3], [1748584485, "Nederlands - Japans Romaji", 0.0, 0, 1443312000, 16, 0, 0], [964210752, "USask PHPM - Health Promotion models", 0.0, 0, 1443484800, 23, 0, 3], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 0.0, 0, 1454025600, 1381, 1119, 100], [790313954, "Hebrew From Scratch, Books 1&2 - Heb-Eng / Eng-Heb", 0.0, 0, 1441238400, 2006, 0, 0], [796385110, "Algorithmist's Kalderash Romani  Numbers 1 to 10", 0.0, 0, 1444089600, 10, 29, 31], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [1584442883, "gastromeb5", 0.0, 0, 1391299200, 58, 0, 1], [3247200399, "WCC Familia Romana Study Cards", 5.0, 1, 1378771200, 181, 0, 13], [673195899, "Week 2 Thrombosis Etc.", 0.0, 0, 1409443200, 48, 0, 0], [1404505877, "All sentences from Paul Graham's essay \"What you can't say\"", 0.0, 0, 1441497600, 371, 0, 0], [1324908207, "Gastromeb1", 0.0, 0, 1391299200, 23, 0, 0], [1615755575, "Francais - Roman", 0.0, 0, 1452643200, 11824, 3, 5], [232295320, "Anesthesia facts from CA-1 year", 0.0, 0, 1439769600, 56, 0, 0], [857340550, "Vocabulary from Vietnamese book", 0.0, 0, 1439251200, 37, 19, 0], [981979950, "Plaids en Romontsch Sursilvan", 0.0, 0, 1426377600, 3625, 0, 0], [3292865308, "All sentences from HPMoR chapters 1-9, French - English", 0.0, 0, 1360281600, 3350, 0, 0], [3643654467, "Primary Aeromedical", 0.0, 0, 1359936000, 20, 0, 0], [1669156699, "ROWAN-SOM DR. LEE BIOCHEMISTRY BLOCK 1 LECTURE 2 CHROMOSOMES", 0.0, 0, 1406505600, 147, 0, 53], [232216402, "gastromeb8", 0.0, 0, 1391299200, 13, 0, 1], [151306513, "gastromeb16", 0.0, 0, 1391299200, 17, 0, 2], [721309006, "Japanese Adverbs (50 cards from Namiko Abe's Useful Japanese", 0.0, 0, 1414800000, 51, 5, 0], [843159562, "Hebrew from scratch ", 0.0, 0, 1437264000, 1976, 0, 0], [1113893301, "Words from 09.09.2013 lesson", 0.0, 0, 1376956800, 30, 0, 0], [1089036967, "Extra vocabulary taken from the software portion of GER2000", 5.0, 1, 1422057600, 335, 0, 0], [1452223735, "Hemochromatosis/Hepatic Neoplasms Pathology", 0.0, 0, 1424736000, 60, 0, 3], [146800331, "Lab Project from Petrenko", 0.0, 0, 1438214400, 67, 0, 5], [2602021866, "Spanish-Chinese Word List from Chinese Textbook", 5.0, 1, 1385424000, 4215, 0, 0], [750146394, "Japanese Vocab from the Rosetta Stone course", 0.0, 0, 1437264000, 146, 0, 0], [1289928087, "WS2014_I&P_Romeyke", 0.0, 0, 1422835200, 112, 0, 0], [2131701582, "Bac Maths Romania", 0.0, 0, 1422316800, 148, 0, 0], [392685138, "French words from life (part 2)", 0.0, 0, 1430265600, 907, 0, 3], [595833981, "Romanian Phrases with Audio  (eng-rom)", 0.0, 0, 1406505600, 38, 38, 0], [742532064, "Ch 9 from Examkrackers MCAT Bio", 0.0, 0, 1400544000, 29, 0, 0], [1714660676, "B&B 02.26.15 Parietal Lobe Syndromes", 0.0, 0, 1425427200, 30, 0, 1], [2107342451, "TO SELMA AUDI CAROLE REID GEMMA BOWSSURGERY LOBS FROM SARAH ", 0.0, 0, 1431820800, 365, 0, 4], [1682601588, "Transitive and Intransitive verbs from \u540d\u53e4\u5c4bYWCA\u521d\u7d1a\uff12", 0.0, 0, 1442361600, 36, 0, 4], [426167372, "Lecture 1 on Prostaglandins and Thromboxanes ", 0.0, 0, 1418342400, 63, 0, 20], [696967491, "Ch 4 from jvanderh bio", 0.0, 0, 1402531200, 72, 0, 0], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 0.0, 0, 1425686400, 36, 35, 0], [1516259222, "Examples from Using Anki Flashcards", 0.0, 0, 1412985600, 1, 0, 0], [543887963, "Romanian Fluent Forever", 3.0, 1, 1411603200, 55, 53, 44], [1664667087, "Sumerian Cuneiform Signs from Volk's Reader Part 1", 0.0, 0, 1414713600, 139, 0, 276], [1270131906, "Romeu Junior ", 0.0, 0, 1430006400, 343, 0, 0], [279393304, "CAASIC terms from Islamic Thought", 0.0, 0, 1414972800, 51, 0, 0], [1895293202, "words from Nikkei Science", 0.0, 0, 1423612800, 1, 0, 0], [1856352173, "Aerodrome P & P", 0.0, 0, 1412121600, 45, 0, 0], [1261128285, "Affan Oromoo", 0.0, 0, 1407801600, 665, 0, 0], [1435905833, "Gairaigo - These are Katakana words from other languages", 5.0, 1, 1391212800, 413, 0, 0], [528478231, "German words from the news.", 0.0, 0, 1437436800, 286, 0, 114], [1388417611, "Metabolic Syndrome/Diabetes", 0.0, 0, 1411776000, 52, 0, 0], [1684064068, "French words from life (part 1)", 0.0, 0, 1430265600, 1260, 0, 3], [3256824214, "Hebrew From Scratch-Book B", 0.0, 0, 1345852800, 37, 0, 0], [1272632927, "Japo\u0144sko- polski s\u0142ownik w romaji", 0.0, 0, 1426464000, 9564, 0, 0], [2056650488, "Ch 5 from Examkrackers MCAT Bio", 0.0, 0, 1402531200, 65, 0, 0], [1539837358, "Micro exam 3 from ryan", 0.0, 0, 1428364800, 175, 0, 16], [1487584048, "Basque/Euskara Vocabulary from de Rijk", 0.0, 0, 1434672000, 237, 0, 1], [417332002, "Roman Enemies (IDs)", 0.0, 0, 1345852800, 15, 0, 0], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [1162837798, "biological terms from text2014", 0.0, 0, 1422144000, 15, 0, 0], [1384788668, "Japanese From Zero Course 2", 0.0, 0, 1418860800, 453, 12, 0], [2363166600, "Centrul Romano-Chinez", 0.0, 0, 1374624000, 148, 0, 0], [119714158, "Chrome Windows keyboard shortcuts", 0.0, 0, 1392336000, 76, 0, 0], [695067860, "Pimsleur Romanian", 0.0, 0, 1401062400, 115, 45, 1], [2851082405, "Chemie 4. Semester Organische Makromolek\u00fcle", 0.0, 0, 1346284800, 100, 0, 45], [1151396744, "Hotty from across the table", 0.0, 0, 1423699200, 7, 0, 30], [2884385106, "Econ 222 midterm2 from notes (Marlow)", 0.0, 0, 1345852800, 39, 0, 0], [2844383995, "302 EO-CN sentences FROM Tatoeba.org", 0.0, 0, 1360540800, 302, 0, 0], [1084859112, "Maanii Sentences 1-2 (From L2ST)", 0.0, 0, 1407024000, 874, 859, 0], [714303848, "VIP Romans", 0.0, 0, 1345852800, 68, 0, 0], [1906532695, "Ch 2 from jvanderh bio", 0.0, 0, 1402531200, 49, 0, 0], [2804919574, "Gastric Lymphoma, Gastrointestinal Stromal Tumor", 0.0, 0, 1376697600, 42, 0, 5], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1503659359, "\u010ce\u0161tina - Sv\u011btov\u00fd romantismus", 0.0, 0, 1411344000, 28, 0, 0], [343742594, "Japanese Kanji from courses 1-4", 0.0, 0, 1389052800, 898, 0, 0], [1676457876, "history of japan muromachi momoyama", 5.0, 1, 1399334400, 296, 0, 0], [739748120, "Roman Battles", 0.0, 0, 1345852800, 19, 0, 0], [1719952422, "Johns English Study From China", 0.0, 0, 1433548800, 837, 0, 0], [1653479555, "gastromeb12", 0.0, 0, 1391299200, 16, 0, 0], [332607362, "AAAHST7CM Imp\u00e9rio Romano", 0.0, 0, 1433289600, 26, 0, 0], [414365830, "Japo\u0144sko - polski s\u0142ownik w romanji", 0.0, 0, 1407196800, 9564, 0, 0], [572475920, "CofO2 - 2 - Haemostasis and Thrombosis", 0.0, 0, 1345852800, 46, 0, 0], [1319978335, "4.9 - Spectroscopy and Chromatography", 0.0, 0, 1417305600, 15, 0, 0], [2009350137, "Introduction to MDTI/Hemostasis/Thrombosis", 0.0, 0, 1420588800, 22, 0, 0], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [3916517434, "Health Promotions", 0.0, 0, 1380067200, 45, 0, 0], [3300683758, "Lingua Latina: Familia Romana 1-18", 5.0, 1, 1363392000, 856, 0, 0], [805559080, "Swahili-Finnish vocabulary from Mambo Vipi with extras", 0.0, 0, 1393545600, 889, 0, 0], [169136957, "Shared Korean Deck from somewhere", 0.0, 0, 1420329600, 3177, 0, 0], [1374366479, "Catalan Shit-Based Expressions, taken from TipsyPilgrim.com", 0.0, 0, 1425859200, 53, 0, 0], [1583697928, "All IPA from wikipedia", 5.0, 1, 1391731200, 182, 0, 0], [3624303732, "Words from Chinese Bible ", 5.0, 1, 1375488000, 137, 0, 0], [2030191713, "\u592a\u7a7a\u5c0b\u5bf6\u4e4b\u65c5 Vocab from Hawking's \"George's Cosmic Treasure Hunt\"", 0.0, 0, 1433462400, 17, 0, 0], [4029032846, "Beginner Slovak-Romanian Deck", 0.0, 0, 1393632000, 517, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [1751828486, "Stuff from Anatomy Exam 1 we need to know Seana", 0.0, 0, 1415318400, 56, 0, 68], [1325526981, "gastromeb13", 0.0, 0, 1391299200, 40, 0, 0], [1405218650, " Systems' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 96, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [390693465, "Networks' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 75, 0, 0], [58051672, "Roman Historians", 0.0, 0, 1345852800, 20, 0, 0], [1381998996, "Orgo 16 Electrophilic Aromatic Substitution EAS", 0.0, 0, 1424217600, 32, 0, 22], [807247783, "sentences from movies", 5.0, 2, 1394150400, 256, 256, 0], [1559958794, "Long QT Syndrome", 0.0, 0, 1418428800, 21, 0, 0], [1324037844, "MDTI 01.09.15 Thrombophilia", 0.0, 0, 1420934400, 60, 0, 0], [2845483510, "Lingua Latina Familia Romana Chapter 26", 0.0, 0, 1383264000, 88, 0, 0], [433207107, "1/9 Thrombophilia", 0.0, 0, 1421020800, 21, 0, 0], [1670616427, "Jess and Pierre omelette du fromage", 0.0, 0, 1402185600, 53, 0, 0], [1873922087, "Second Crab IMN Block 3 From Sean", 0.0, 0, 1396396800, 88, 0, 17], [2992898750, "MBBS Week 30 - From F to A", 0.0, 0, 1349740800, 109, 0, 36], [381666314, "Brainstem 3 Syndromes", 0.0, 0, 1425081600, 22, 0, 0], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [1319171566, "Gastromeb2", 0.0, 0, 1391299200, 33, 0, 0], [416597565, "Ch 8 from jvanderh bio", 0.0, 0, 1402531200, 71, 0, 0], [375040131, "Irish from Duolingo", 0.0, 0, 1440720000, 1946, 0, 0], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [1416999242, "Intrebari limba romana marcu capitolele 1-3", 0.0, 0, 1390608000, 39, 0, 0], [1440962064, "B&B 02.19.15 Cerebellar Syndromes", 0.0, 0, 1425427200, 20, 0, 0], [4260779012, "Words from the Slovenian exam (Slovenian - Polish)", 0.0, 0, 1379462400, 276, 0, 0], [1562663451, "Japanese From Zero Course 3", 0.0, 0, 1446854400, 439, 0, 0], [538793140, "Kyrgyz Vocabulary from the Gospel of Mark (LS Version)", 0.0, 0, 1426204800, 468, 0, 0], [423203513, "Japanese basic adverbs and adjectives (mostly from JTMW)", 0.0, 0, 1413244800, 108, 0, 0], [2912772557, "ChengYu - From WenDian.com.cn", 0.0, 0, 1345852800, 13279, 0, 0], [936544387, "Roman Monarchy Deck", 0.0, 0, 1413504000, 100, 0, 0], [1495604972, "Business English. B2. Absence from work", 0.0, 0, 1429315200, 14, 0, 0], [1262987351, "MCBI B1 - Genes and Chromosomes", 0.0, 0, 1410825600, 74, 0, 24], [4205426963, "Vocab from the 3 books by N. R. R. Oulton", 0.0, 0, 1355529600, 627, 0, 60], [114257872, "Ch 7 from jvanderh bio", 0.0, 0, 1402531200, 62, 0, 0], [1173549849, "gastromeb6&7", 0.0, 0, 1391299200, 66, 0, 1], [1221718167, "B&B Neuromodulation 04.06.15", 0.0, 0, 1428796800, 23, 0, 1], [1546594353, "Adjectives from Ultimate N5 Vocabulary deck", 0.0, 0, 1345852800, 126, 0, 0], [1028778786, "Ch 1 from jvanderh bio", 0.0, 0, 1402531200, 57, 0, 0], [1166255356, "Words from Pokemon Yellow JP", 0.0, 0, 1362787200, 103, 0, 0], [224611295, "Japanese Basic Verbs (mostly from JTMW)", 0.0, 0, 1413244800, 154, 0, 0], [1294444798, "Ch 3 from jvanderh bio", 0.0, 0, 1402531200, 54, 0, 0], [638782054, "gastromeb11", 0.0, 0, 1391299200, 25, 0, 0], [58419656, "Notes of the chromatic scale", 5.0, 1, 1403308800, 12, 12, 0], [1344018816, "Basic Romanian Words and Phrases", 0.0, 0, 1409443200, 99, 0, 0], [1203594462, "UK NUR 221 Exam 5 Peds Nutrition, Health Promotion, Immuniza", 0.0, 0, 1417651200, 98, 0, 0], [1175366719, "Word List from Pearson FCE Gold Plus (English - German)", 0.0, 0, 1393977600, 1886, 0, 0], [833027556, "Ch 6 from jvanderh bio", 0.0, 0, 1402531200, 66, 0, 0], [1928613788, "French words from life", 0.0, 0, 1406246400, 443, 0, 3], [2868658513, "[engoi] Russian to Romanian words and phrases with audio", 0.0, 0, 1375920000, 1045, 1037, 0], [2646036148, "German-Romanian verbs", 0.0, 0, 1345852800, 245, 0, 0], [1891435999, "Japanese from Zero - Book 1 (Written in Kana and Kanji)", 3.5, 2, 1406246400, 1370, 1221, 95], [4024441537, "Roman Women", 0.0, 0, 1345852800, 13, 0, 0], [2765295474, "List of Cognitive Biases (from Wikipedia)", 0.0, 0, 1345852800, 151, 0, 0], [205678655, "OS1 Lecture from December", 0.0, 0, 1388966400, 709, 0, 267], [1826129392, "Gastromeb4", 0.0, 0, 1391299200, 28, 0, 1], [3202783247, "Thrombosis", 0.0, 0, 1360454400, 71, 0, 0], [1264198009, "A Compilation of German Vocab - From English", 0.0, 0, 1425427200, 967, 5, 0], [1344032304, "Gastromeb3", 0.0, 0, 1391299200, 66, 0, 2], [1142282649, "BrzrkrKen AeroMed", 0.0, 0, 1399420800, 51, 0, 5], [1253401024, "Vocabulary from: A Complete Grammar of Esperanto", 0.0, 0, 1423353600, 920, 0, 0], [681619348, "Romans Chapter 8", 0.0, 0, 1430265600, 2, 0, 0], [1261241250, "Romanian", 0.0, 0, 1411603200, 55, 53, 44], [1173187157, "Klett \"Moct I\" book, vocabulary from exercise 8", 0.0, 0, 1378339200, 49, 0, 0], [405705484, "Japanees Verbs (129 cards from Namako Abe's Useful Japanese ", 0.0, 0, 1414800000, 129, 5, 0], [1873144266, "Korgan's vocabulary from 'Wer will eine kleine Katze haben?\"", 0.0, 0, 1345852800, 122, 0, 0], [1783724577, "Koine Greek grammar from Duff's Elements", 5.0, 1, 1357689600, 855, 0, 0], [300251853, "Everything Learned from the Book \"Running Lean\"", 0.0, 0, 1400976000, 321, 0, 81], [603204509, "SM Oerberg Familia Romana 1-20 latino-italiano e italiano-la", 0.0, 0, 1423267200, 948, 0, 13], [838287247, "Spinal cord syndromes", 0.0, 0, 1424563200, 31, 0, 8], [728316320, "Neuromuscular Module JC1", 0.0, 0, 1394150400, 132, 0, 4], [1133857990, "gastromeb15", 0.0, 0, 1391299200, 45, 0, 22], [1812957209, "chinese sentences from tatoeba", 0.0, 0, 1417910400, 18896, 0, 1], [932982944, "gastromeb17&18", 0.0, 0, 1391299200, 38, 0, 0], [121961141, "Greetings from the Teklimakan (Kansas U)", 5.0, 2, 1422921600, 920, 920, 0], [1575255010, "Men are from Mars, Women are from Venus", 0.0, 0, 1408492800, 13, 3, 0], [1840186109, "Daniella Kohn's Manual Limba Romana Pentru Straini", 0.0, 0, 1401062400, 631, 573, 144], [1478738415, "Dan's notes from Dime Intermediate Spanish Class", 0.0, 0, 1418169600, 1100, 0, 1314]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rom</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

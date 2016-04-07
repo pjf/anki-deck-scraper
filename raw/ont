@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[644151027, "Portuguese Phrase Book (Continental pronunciation)", 5.0, 3, 1385942400, 1111, 1111, 35], [1110833860, "KF, Kontof\u00fchrung 2015/16 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1454630400, 47, 0, 0], [220999045, "Duits - Neue Kontakte 12 VWO 6e editie", 0.0, 0, 1454630400, 931, 0, 0], [1943613633, "Vocabulaire - Cours de Japonais par Julien Fontanier", 0.0, 0, 1454544000, 163, 3, 45], [1863759406, "English Irregular Verbs in Context \u266a (for Russian Speakers)", 2.0, 1, 1452902400, 1119, 1753, 0], [240081041, "acquafontalba", 0.0, 0, 1454284800, 8, 0, 0], [749735832, "Fran\u00e7ais-Italiano Il visconte dimezzato", 0.0, 0, 1453420800, 736, 5, 1], [418015696, "Continuum - HU+Eng", 0.0, 0, 1454544000, 266, 0, 0], [859682033, "SFD Contract", 0.0, 0, 1453939200, 63, 0, 0], [359978596, "Algorithmist's Finnish Months with Audio", 0.0, 0, 1453593600, 12, 20, 16], [1092946273, "Contemporary Chinese 3 (from Lesson1 to Lesson 10)", 0.0, 0, 1451952000, 366, 0, 0], [1684758611, "MW Neuro Central Control, UMN,LMN", 0.0, 0, 1452988800, 45, 0, 7], [154193831, "PROCESOS Y CONTEXTOS EDUCATIVOS", 0.0, 0, 1451952000, 30, 0, 0], [531744294, "Let's Go - Unit 2 - Practice Card (continue)", 0.0, 0, 1449964800, 29, 29, 11], [445209496, "ASCII (including control characters)", 0.0, 0, 1450742400, 128, 4, 2], [863461558, "Bri's Pharm test 3 Contraceptives", 0.0, 0, 1448928000, 55, 0, 47], [448224390, "Kontakto vocabulario vortaro", 0.0, 0, 1447804800, 1000, 0, 0], [1292376884, "Ontan words", 1.0, 1, 1449792000, 0, 0, 0], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 5.0, 2, 1378252800, 33, 33, 33], [540621746, "KF, Kontof\u00fchrung 2015/16 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1447459200, 47, 0, 0], [2029205048, "jacobson days months seasons weather", 0.0, 0, 1448841600, 36, 0, 0], [1342688485, "Deck 1-Unit 3- Reading 4- language in contact", 0.0, 0, 1447804800, 3, 0, 0], [328660070, "Languages in Contact", 0.0, 0, 1448496000, 22, 0, 0], [817624922, "Oral Path - Odontogenic Tumors", 0.0, 0, 1447545600, 44, 0, 0], [397206132, "IV-Controlling - Seminar und \u00dcbung 1", 0.0, 0, 1445126400, 12, 0, 0], [988334283, "Intern Content", 0.0, 0, 1443052800, 371, 0, 0], [523528641, "Inglese tecnico contabile", 0.0, 0, 1443484800, 196, 6, 1], [1364259030, "PATH II - 10 gauge shotgun (add a piont to test I)", 0.0, 0, 1444348800, 462, 0, 30], [46293116, "Neural control", 0.0, 0, 1443571200, 40, 0, 0], [657930336, "english file intermediate 2n Batx Baixmontseny", 0.0, 0, 1442102400, 46, 0, 0], [1608649604, "Contraception Options_Erigo-Backsman", 0.0, 0, 1438646400, 87, 0, 0], [1493953511, "Instrumente des Controlling - Marketingcontrolling", 0.0, 0, 1442361600, 22, 0, 2], [3064863907, "Contemporary Chinese 4", 5.0, 1, 1426464000, 320, 0, 0], [916967612, "SAMS 15-01  - Contemporary Operational Art (COA)", 0.0, 0, 1432166400, 52, 0, 7], [1824417180, "culpa in contrahendo", 0.0, 0, 1441756800, 8, 0, 0], [981979950, "Plaids en Romontsch Sursilvan", 0.0, 0, 1426377600, 3625, 0, 0], [2032399947, "Intern Content", 0.0, 0, 1440460800, 429, 0, 0], [219475345, "Portuguese verbs. Front in English, back in Portuguese", 0.0, 0, 1352332800, 138, 0, 0], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [1803523206, "MPM 2: week 1 content", 0.0, 0, 1431820800, 199, 0, 0], [1370725998, "Montessori Upper El Background Knowledge - version 2", 0.0, 0, 1440028800, 95, 0, 50], [826536923, "A Course in Contemporary Chinese 1", 4.5, 2, 1412812800, 576, 538, 0], [789952687, "AME CONSTITUCIONAL - FISCALIZA\u00c7\u00c3O CONT\u00c1BIL FINANC E OR\u00c7AMENT", 0.0, 0, 1409702400, 21, 0, 0], [1570416332, "Dutch to English Days and Months (with sound)", 0.0, 0, 1409443200, 32, 32, 0], [1957037709, "Contract - Remedies for breach", 0.0, 0, 1345852800, 20, 0, 0], [2807415971, "RGBM Week 2 Contraception ", 0.0, 0, 1358035200, 69, 0, 2], [1345046498, "Contract - Offer and acceptance", 0.0, 0, 1345852800, 31, 0, 0], [4135973469, " Contract - Contents", 0.0, 0, 1345852800, 39, 0, 0], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [1031210575, "CofO2 - 12 - Control of BP and CO", 0.0, 0, 1345852800, 32, 0, 0], [873414385, "SAMS 15-01 - Strategic Context and Operational Art (SCOA)", 0.0, 0, 1432166400, 322, 0, 31], [355972131, "general facts for a 4th-6th Montessori classroom", 0.0, 0, 1436572800, 3, 0, 0], [211726377, "Contraception", 0.0, 0, 1431388800, 61, 0, 0], [1657969619, "KF, Kontof\u00fchrung f\u00fcr Bankkaufleute 2015 ", 0.0, 0, 1437696000, 171, 0, 0], [1041458108, "Contemporary Chinese Textbook 2 (Bulgarian edition)", 0.0, 0, 1359158400, 409, 370, 0], [1835830132, "Context Kanji", 0.0, 0, 1406592000, 161, 0, 0], [3544817823, "Contract -- Undue influence", 0.0, 0, 1345852800, 9, 0, 0], [4262346685, "Neue Horizonte", 0.0, 0, 1345852800, 142, 0, 0], [162662169, "Words in context - Challenges of modern society - Unit 5", 5.0, 1, 1386201600, 491, 0, 0], [261905283, "Contemporary Chinese Textbook 1 (Bulgarian edition)", 0.0, 0, 1359158400, 517, 386, 0], [4263974097, "Beginner Farsi in context", 0.0, 0, 1374796800, 41, 0, 0], [382258951, "second crab horizontal brain", 0.0, 0, 1394323200, 54, 0, 44], [4261453182, "Contract - Doctrine of Complete performance", 0.0, 0, 1345852800, 7, 0, 0], [631690278, "25.08. Karaburun Montag", 0.0, 0, 1409011200, 33, 0, 0], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [1446961703, "FOKUS - ERSTE KONTAKTE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2105092537, "MCM Test 3: BSC Cancer and Aging: Uncontrolled Cell Growth", 0.0, 0, 1408492800, 50, 0, 0], [1497261440, "Gerontology", 0.0, 0, 1415577600, 45, 0, 0], [1491064360, "Block 3 CV intro, receptors, and excitation-contraction coup", 0.0, 0, 1415836800, 128, 0, 0], [391812642, "Contract - Misrep", 0.0, 0, 1345852800, 27, 0, 0], [1084510011, "Medical Physiology 1- Control of Respiration", 0.0, 0, 1379376000, 142, 0, 4], [868694726, "monty for dummies", 0.0, 0, 1353974400, 11, 0, 0], [1410276069, "Contract - False prelims", 0.0, 0, 1345852800, 26, 0, 0], [4161480669, "Neue Horizonte Kapitel 8 Vokabeln", 0.0, 0, 1345852800, 143, 0, 0], [311149638, "block 2 hormonal control", 0.0, 0, 1414281600, 63, 0, 0], [1616511864, "Dont Think Memorize ", 0.0, 0, 1426723200, 57, 0, 0], [1598875701, "Sicherheitskontrolle", 0.0, 0, 1444348800, 30, 0, 4], [178828042, "FHB L18: Control of the Circulation", 0.0, 0, 1422057600, 9, 0, 17], [2361589138, "Bladder Control and Sexual Function", 0.0, 0, 1370217600, 8, 0, 0], [344969576, "1.Declarations and Access Control (Chechin)", 0.0, 0, 1429747200, 9, 0, 0], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [4116727170, "Squirrel (uncontested) bidding system notes", 0.0, 0, 1375056000, 395, 0, 0], [3203596474, "Control Systems", 0.0, 0, 1359504000, 1, 0, 1], [734819484, "HMS.IMP.Infection.Control", 0.0, 0, 1367452800, 33, 0, 2], [1379665052, "Kontakte 7 Kapital 8 (unfinished)", 0.0, 0, 1412726400, 26, 0, 39], [569506958, "Espresso 1 - lezione 1: primi contatti", 0.0, 0, 1392163200, 117, 0, 0], [21505615, "500FR-CNChinoisContemporainLivre02L01-L0", 0.0, 0, 1345852800, 422, 305, 0], [231263948, "Contemporary Chinese 2", 0.0, 0, 1345852800, 74, 0, 0], [2658751055, "Periodontology Midterm", 0.0, 0, 1350432000, 183, 0, 6], [179864438, "CofO2 - 20 - Control of Ventilation.anki", 0.0, 0, 1345852800, 26, 0, 0], [2316424408, "kanji in context", 0.0, 0, 1345852800, 1725, 0, 0], [3932561036, "TCM Review Acupuncture Contraindications", 0.0, 0, 1345852800, 33, 0, 0], [609924740, "Course d'orientation - Descriptions de contr\u00f4le", 0.0, 0, 1419033600, 111, 0, 111], [1860671939, "BSHo Gyn - Contraception ", 0.0, 0, 1394928000, 26, 0, 1], [1448048868, "Kanji in Context II", 0.0, 0, 1411948800, 896, 0, 0], [1768357118, "Note Type: Font", 0.0, 0, 1426464000, 4, 7, 0], [4111024141, "Contract - Frustration", 0.0, 0, 1345852800, 20, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [886341274, "QX Flight Controls", 0.0, 0, 1411430400, 30, 0, 0], [633555337, "Hugo- Dutch in three months", 0.0, 0, 1395705600, 266, 175, 0], [169802889, "LearningLawTogether - Contract", 0.0, 0, 1398643200, 77, 0, 0], [179147621, "WS2014_IP_Topalov_Teil_4_Funktionscontrolling Beschaffung un", 0.0, 0, 1422489600, 93, 0, 0], [2278634640, "Month of the Gregorian Year", 0.0, 0, 1357084800, 12, 0, 0], [1997226726, "Contabilidade AFRFB FSSILVA", 0.0, 0, 1424390400, 63, 0, 0], [403578363, "Anglais Entrer en contact avec les autres", 0.0, 0, 1399852800, 21, 0, 0], [70563720, "Contracts McC", 5.0, 1, 1418515200, 185, 0, 0], [2046126973, "Contract - Duress", 0.0, 0, 1345852800, 8, 0, 0], [574819553, "Kanji in Context", 0.0, 0, 1345852800, 1070, 0, 0], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0], [1808895784, "counters/ contadores", 0.0, 0, 1403654400, 35, 0, 0], [1084887006, "Contemporary Chinese 3", 0.0, 0, 1345852800, 184, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ont</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

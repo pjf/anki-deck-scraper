@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2123341972, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 67", 0.0, 0, 1454803200, 13, 13, 0], [1212249195, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 71", 0.0, 0, 1454803200, 4, 4, 0], [493566475, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 72", 0.0, 0, 1454803200, 11, 11, 0], [1112304797, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 68", 0.0, 0, 1454803200, 6, 6, 0], [216819736, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 69", 0.0, 0, 1454803200, 9, 9, 0], [1112137068, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 70", 0.0, 0, 1454803200, 4, 4, 0], [1292597608, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 73", 0.0, 0, 1454803200, 7, 7, 0], [518132132, "Textmining", 0.0, 0, 1454544000, 82, 0, 8], [1013028463, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 88", 0.0, 0, 1454284800, 8, 8, 0], [1118822279, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 29", 0.0, 0, 1454803200, 24, 24, 0], [164619324, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 74", 0.0, 0, 1454803200, 23, 23, 0], [193471417, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 75", 0.0, 0, 1454803200, 18, 18, 0], [1863759406, "English Irregular Verbs in Context \u266a (for Russian Speakers)", 2.0, 1, 1452902400, 1119, 1753, 0], [1823347243, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 90", 0.0, 0, 1454284800, 21, 21, 0], [1790724136, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21 \u00e0 30", 0.0, 0, 1454284800, 91, 183, 0], [1767247205, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 07", 0.0, 0, 1453593600, 10, 20, 0], [126524023, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 60", 0.0, 0, 1454284800, 19, 19, 0], [598263593, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 04", 0.0, 0, 1453593600, 11, 22, 0], [1502633560, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01 \u00e0 10", 0.0, 0, 1454284800, 103, 206, 0], [1102301837, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01", 0.0, 0, 1454198400, 10, 19, 0], [1493754415, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 05", 0.0, 0, 1453593600, 12, 24, 0], [1977964181, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 89", 0.0, 0, 1454284800, 17, 17, 0], [2028379579, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 91", 0.0, 0, 1454284800, 10, 10, 0], [1864263172, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 12", 0.0, 0, 1453334400, 10, 20, 0], [523933998, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 57", 0.0, 0, 1452729600, 9, 9, 0], [2004634169, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 10", 0.0, 0, 1453593600, 12, 24, 0], [799622335, "One World English Textbook Grammar \u4e2d\u5b66\u6821\uff11\u304b\u3089\uff13\u5e74\u751f\u306e\u82f1\u8a9e\u306e\u6587\u6cd5", 5.0, 1, 1415059200, 108, 0, 0], [302150786, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11 \u00e0 20", 0.0, 0, 1454284800, 106, 212, 0], [1475952340, "German (text-based)", 0.0, 0, 1452384000, 3275, 0, 0], [1245743488, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 13", 0.0, 0, 1453334400, 12, 24, 0], [1133867461, "SteveH Textfugu passions deck", 0.0, 0, 1451347200, 20, 0, 0], [126606944, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 03", 0.0, 0, 1453593600, 10, 20, 0], [1535345818, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 09", 0.0, 0, 1453593600, 10, 20, 0], [1346352296, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 14", 0.0, 0, 1453334400, 10, 20, 0], [731720484, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 51", 0.0, 0, 1452729600, 2, 2, 0], [1823539800, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 17", 0.0, 0, 1453334400, 12, 24, 0], [420553654, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 20", 0.0, 0, 1453334400, 10, 20, 0], [890954625, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 15", 0.0, 0, 1453334400, 10, 20, 0], [53902289, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 55", 0.0, 0, 1452729600, 4, 4, 0], [443840823, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 50", 0.0, 0, 1452729600, 3, 3, 0], [943382011, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21", 0.0, 0, 1453334400, 9, 18, 0], [1871751900, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 19", 0.0, 0, 1453334400, 10, 20, 0], [516232079, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 08", 0.0, 0, 1453593600, 10, 20, 0], [537488752, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 52", 0.0, 0, 1452729600, 11, 11, 0], [389702299, "Elementary Koine Greek, Year One, Open Texture, Gatchell", 4.8, 5, 1449878400, 159, 0, 0], [473886352, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 02", 0.0, 0, 1453593600, 10, 20, 0], [2112600177, "FST 100B SOUND & TEXTURE", 0.0, 0, 1453507200, 51, 0, 0], [108705404, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 06", 0.0, 0, 1453593600, 10, 20, 0], [1787623247, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11", 0.0, 0, 1453593600, 10, 20, 0], [1749738897, "Morseova abeceda (text, zvuk, sv\u011btlo)", 0.0, 0, 1453420800, 62, 56, 16], [2005688403, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 56", 0.0, 0, 1452729600, 8, 8, 0], [1321705254, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 58", 0.0, 0, 1452729600, 11, 11, 0], [1667677711, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 18", 0.0, 0, 1453334400, 10, 20, 0], [1225699360, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 54", 0.0, 0, 1452729600, 4, 4, 0], [401721721, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 53", 0.0, 0, 1452729600, 9, 9, 0], [740745654, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 59", 0.0, 0, 1452729600, 16, 16, 0], [1575841661, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 16", 0.0, 0, 1453334400, 12, 24, 0], [154193831, "PROCESOS Y CONTEXTOS EDUCATIVOS", 0.0, 0, 1451952000, 30, 0, 0], [973903084, "Hiragana from TextFugu", 4.5, 2, 1447027200, 104, 104, 0], [1329467863, "NT511: Texts from the Gospels...", 0.0, 0, 1450483200, 44, 0, 0], [164450921, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 40", 0.0, 0, 1448496000, 24, 24, 0], [1939657963, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 35", 0.0, 0, 1448150400, 9, 9, 0], [477795797, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 27", 0.0, 0, 1449532800, 10, 20, 0], [366130010, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 28", 0.0, 0, 1449532800, 10, 20, 0], [945792448, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 23", 0.0, 0, 1449532800, 10, 20, 0], [2128960655, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 29", 0.0, 0, 1449532800, 10, 21, 0], [1703243554, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 32", 0.0, 0, 1448150400, 13, 13, 0], [174094001, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 25", 0.0, 0, 1449532800, 10, 20, 0], [711814954, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 49", 0.0, 0, 1449532800, 7, 7, 0], [712694151, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 34", 0.0, 0, 1448150400, 6, 6, 0], [967969043, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 48", 0.0, 0, 1448496000, 12, 12, 0], [1722500951, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 47", 0.0, 0, 1448496000, 4, 4, 0], [494336494, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 24", 0.0, 0, 1449532800, 10, 20, 0], [529967601, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 22", 0.0, 0, 1449532800, 10, 20, 0], [93966752, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 30", 0.0, 0, 1449532800, 10, 18, 0], [739232840, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 44", 0.0, 0, 1448496000, 4, 4, 0], [810249417, "Speech Text template for iOS (AnkiMobile)", 5.0, 1, 1452470400, 5, 0, 0], [2106806583, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 42", 0.0, 0, 1448496000, 9, 9, 0], [1313051144, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 26", 0.0, 0, 1449532800, 8, 16, 0], [1468755628, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 28", 0.0, 0, 1447545600, 6, 6, 0], [1044914894, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 46", 0.0, 0, 1448496000, 5, 5, 0], [1139833201, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 41", 0.0, 0, 1448496000, 19, 19, 0], [520676708, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 37", 0.0, 0, 1448150400, 14, 14, 0], [1981454284, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 33", 0.0, 0, 1448150400, 8, 8, 0], [2071937304, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 43", 0.0, 0, 1448496000, 6, 6, 0], [2031591801, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 30", 0.0, 0, 1448150400, 4, 4, 0], [1846368139, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 24", 0.0, 0, 1446768000, 16, 16, 0], [1866968965, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 27", 0.0, 0, 1447545600, 23, 23, 0], [1015315881, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 39", 0.0, 0, 1448496000, 11, 11, 0], [142394550, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 31", 0.0, 0, 1448150400, 12, 12, 0], [1607606313, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 23", 0.0, 0, 1446768000, 20, 20, 0], [226739842, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 36", 0.0, 0, 1448150400, 33, 33, 0], [494756537, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 22", 0.0, 0, 1446768000, 4, 4, 0], [1786099268, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 38", 0.0, 0, 1448150400, 30, 30, 0], [1523420163, "La Madrassah - Livre niv. 3 R\u00e9cits des Proph\u00e8tes - Texte 45", 0.0, 0, 1448496000, 10, 10, 0], [1429393318, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 26", 0.0, 0, 1446768000, 13, 13, 0], [312317430, "text1", 0.0, 0, 1445817600, 55, 0, 0], [2137098690, "La Madrassa - Niveau 3 R\u00e9cits des Proph\u00e8tes - Texte 25", 0.0, 0, 1446768000, 37, 37, 0], [828992250, "text2", 0.0, 0, 1445904000, 45, 0, 0], [63398625, "Texto 3 ", 0.0, 0, 1438732800, 33, 1, 0], [369979523, "Texto 2", 0.0, 0, 1438732800, 24, 3, 0], [2905536195, "German Vocabulary: Intertextuality and Discussion", 0.0, 0, 1345852800, 88, 0, 0], [1716758457, "Texto 1 ", 0.0, 0, 1438732800, 21, 0, 0], [2602021866, "Spanish-Chinese Word List from Chinese Textbook", 5.0, 1, 1385424000, 4215, 0, 0], [3862571104, "Beginning Uyghur for English Speakers: textbook vocabulary", 5.0, 2, 1395619200, 778, 781, 0], [991907660, "STEX A&T Innere", 0.0, 0, 1429574400, 0, 0, 0], [2043979719, "Sublime Text 3 shortcuts for Windows", 0.0, 0, 1405468800, 55, 5, 0], [873414385, "SAMS 15-01 - Strategic Context and Operational Art (SCOA)", 0.0, 0, 1432166400, 322, 0, 31], [1406703083, "Revising: Hanyu Jiaocheng Chinese Course Textbook 1A", 0.0, 0, 1427760000, 1339, 286, 3], [1466173870, "MTC 2nd year New Testament Set Text Greek Vocab", 0.0, 0, 1373932800, 430, 0, 1], [1041458108, "Contemporary Chinese Textbook 2 (Bulgarian edition)", 0.0, 0, 1359158400, 409, 370, 0], [1162837798, "biological terms from text2014", 0.0, 0, 1422144000, 15, 0, 0], [1835830132, "Context Kanji", 0.0, 0, 1406592000, 161, 0, 0], [162662169, "Words in context - Challenges of modern society - Unit 5", 5.0, 1, 1386201600, 491, 0, 0], [261905283, "Contemporary Chinese Textbook 1 (Bulgarian edition)", 0.0, 0, 1359158400, 517, 386, 0], [4263974097, "Beginner Farsi in context", 0.0, 0, 1374796800, 41, 0, 0], [205388282, "Common Latex Commands", 4.0, 1, 1367366400, 248, 0, 3], [323734116, "Vivelo! textbook ", 0.0, 0, 1422576000, 966, 0, 0], [1958609786, "\u4e2d\u7d1a\u3092\u5b66\u307c\u3046 56 Textbook Vocabulary", 0.0, 0, 1427673600, 882, 0, 0], [1143157853, "Social Psychology Textbook Flashcards", 0.0, 0, 1393804800, 182, 0, 0], [1734068965, "Nestle-Aland Textual Apparatus", 0.0, 0, 1393632000, 32, 0, 0], [1407871967, "Chinese Texas Learn Basic Chinese Vocabulary", 0.0, 0, 1416873600, 556, 0, 0], [641677339, "A2. Lesson 20. At a restaurant (text)", 0.0, 0, 1425081600, 31, 31, 13], [244185108, "Everyday English. At the party (text)", 0.0, 0, 1432684800, 18, 14, 4], [1211506552, "Thermentext", 0.0, 0, 1430352000, 10, 0, 0], [2316424408, "kanji in context", 0.0, 0, 1345852800, 1725, 0, 0], [822396309, "Thalamus Cortex 1", 0.0, 0, 1424563200, 29, 0, 2], [2076073194, "Thalamus, thalamocorticale forbindelse. Cerebral cortex, Tal", 0.0, 0, 1411689600, 31, 0, 15], [1448048868, "Kanji in Context II", 0.0, 0, 1411948800, 896, 0, 0], [1103373509, "Spanish Textbook Anda I", 4.0, 1, 1366329600, 4593, 0, 0], [1175044573, "Sublime Text 3 shortcuts for Mac", 0.0, 0, 1416528000, 100, 5, 0], [2113070860, "Motor System 1 Cortex", 0.0, 0, 1424563200, 34, 0, 1], [569057320, "Text Criticism Terms", 0.0, 0, 1380585600, 51, 0, 0], [574819553, "Kanji in Context", 0.0, 0, 1345852800, 1070, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tex</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

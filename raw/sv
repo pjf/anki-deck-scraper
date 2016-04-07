@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[120195518, "Swedish Core 100 - Basic words (EN  SV with audio)", 0.0, 0, 1437004800, 202, 109, 116], [727443726, "Swedish-Greek svenska-grekiska \u03a3\u03bf\u03c5\u03b7\u03b4\u03b9\u03ba\u03ac-\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", 0.0, 0, 1454457600, 163, 0, 0], [575056472, "TDF1-2.3 Giessverfahren", 0.0, 0, 1454889600, 55, 0, 43], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 3.0, 1, 1345852800, 268, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [235461606, "Kreisverkehr Pflanzen P\u00fctz", 0.0, 0, 1452729600, 19, 0, 22], [1749738897, "Morseova abeceda (text, zvuk, sv\u011btlo)", 0.0, 0, 1453420800, 62, 56, 16], [64066910, "Sveriges landskap (Provinces of Sweden)", 1.0, 1, 1441238400, 25, 0, 0], [2009252824, "RUSVM Anesthesia Exam 1", 0.0, 0, 1449705600, 125, 0, 14], [312366217, "L\u00e4kemedelsrelaterade-problem_L\u00e4kemedelsv\u00e4rdering", 0.0, 0, 1449187200, 114, 0, 20], [1506745974, "RUSVM SAM 1 Final exam", 0.0, 0, 1449705600, 96, 0, 67], [209087730, "RUSVM SAM 1 Exam 1", 0.0, 0, 1449705600, 146, 0, 39], [749189180, "RUSVM Anesthesia FE", 0.0, 0, 1449705600, 83, 0, 43], [1202560169, "Svenska_5000", 0.0, 0, 1443571200, 4076, 0, 0], [585478513, "RUSVM SAM 1 Exam 2", 0.0, 0, 1449705600, 75, 0, 33], [2142976447, "Anatomie - svaly HK", 0.0, 0, 1445990400, 16, 0, 0], [1221654617, "St\u00e1ty sv\u011bta", 3.0, 2, 1424736000, 203, 0, 405], [635054165, "svensk grammatik p\u00e5 arabiska \u0643\u0644 \u0623\u0645\u062b\u0644\u0629 \u0643\u062a\u0627\u0628 \u0642\u0648\u0627\u0639\u062f \u0627\u0644\u0633\u0648\u064a\u062f\u064a\u0629", 0.0, 0, 1443744000, 1297, 0, 0], [1570953669, "Anatomie - svaly DK", 0.0, 0, 1445990400, 14, 0, 0], [2492101511, "Svenska Verb", 0.0, 0, 1368921600, 304, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1587961389, "Svenska_60000", 0.0, 0, 1443571200, 61064, 0, 0], [727257216, "Swedish Quick & Dirty 30 (EN  SV)", 0.0, 0, 1445731200, 60, 38, 45], [784311289, "Ord M\u00e5l-1 Svenska Arabiska \u0643\u0644\u0645\u0627\u062a \u0643\u062a\u0627\u0628 \u0645\u0648\u0644 1 \u0639\u0631\u0628\u064a \u0633\u0648\u064a\u062f\u064a \u0645\u0635\u0631\u0641\u0629", 0.0, 0, 1443571200, 1426, 23, 0], [117701929, "Svt bac terminale s", 0.0, 0, 1434844800, 5, 0, 5], [434900643, "RUSVM DI Final Exam", 0.0, 0, 1438819200, 165, 0, 158], [1331038465, "m4 kroppsvegg", 0.0, 0, 1402099200, 26, 0, 5], [2533236654, "Svenska idiomatiska uttryck", 0.0, 0, 1360627200, 1034, 0, 0], [1511495771, "RUSVM DI Quiz 2", 0.0, 0, 1439424000, 158, 0, 147], [247663123, "UPB_SvS", 0.0, 0, 1425772800, 193, 0, 78], [442363893, "Svenska C1 - Avancera Ord 8", 0.0, 0, 1392076800, 25, 0, 0], [308388292, "sv\u00e9d sz\u00f3t\u00e1rf\u00fczet", 0.0, 0, 1385856000, 335, 0, 0], [1427261992, "RUSVM Toxicology Exam 1", 0.0, 0, 1433980800, 140, 0, 41], [2945646902, "Svedese", 0.0, 0, 1345852800, 23, 0, 0], [386947606, "AneesHussainGreatestHitsVocabularyWordlist1", 0.0, 0, 1390608000, 504, 0, 0], [1703957738, "Svenska C1 - Avancera Ord 5", 0.0, 0, 1392076800, 25, 0, 0], [160578682, "Svenska C1 - Avancera Ord 6", 0.0, 0, 1392076800, 25, 0, 0], [1349130511, "Bible verses for memorization (mostly ESV)", 5.0, 1, 1411862400, 53, 0, 0], [2768706989, "Svenska idag", 0.0, 0, 1391385600, 2449, 0, 8], [3514973533, "Reading Into A New China (vol.1) - Svenska, kap 1-9 ", 0.0, 0, 1382572800, 418, 0, 0], [1198204858, "RUSVM DI Exam 1", 0.0, 0, 1434585600, 71, 0, 47], [1503659359, "\u010ce\u0161tina - Sv\u011btov\u00fd romantismus", 0.0, 0, 1411344000, 28, 0, 0], [223158646, "Svenska 2 anatomian sanastoa", 0.0, 0, 1412208000, 169, 0, 0], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [3570948043, "Meithai - Verben und Hilfsverben", 0.0, 0, 1383782400, 210, 0, 0], [1136288742, "Svenska C1 - Avancera Ord 3", 0.0, 0, 1392076800, 25, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [955100491, "Sv\u00e9d szavak", 0.0, 0, 1402272000, 83, 0, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1389857821, "Lebensohl och svar efter X p\u00e5 1l\u00e4get.", 0.0, 0, 1420502400, 12, 0, 0], [3636079083, "Svenska idiomatiska uttryck", 0.0, 0, 1358553600, 941, 0, 0], [1433279808, "Svea Rike", 0.0, 0, 1393632000, 44, 0, 42], [1799494936, "Tala Svenska A1 Lehrbuch GROA Verlag", 4.5, 2, 1392163200, 563, 0, 0], [649978878, "Svenska C1 - Avancera Ord 4", 0.0, 0, 1392076800, 25, 0, 0], [1547365431, "AnkiBac : Fiches pour le bac de SVT", 5.0, 1, 1358899200, 71, 0, 0], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [262924536, "Svenska/ryska Nordic School (Jakut)", 0.0, 0, 1431907200, 3733, 0, 0], [652069021, "Svenska C1 - Avancera Ord 7", 0.0, 0, 1392076800, 25, 0, 0], [1815379967, "Ovanligare svenska ord", 5.0, 2, 1360627200, 4972, 0, 0], [1605479694, "Svenska C1 - Avancera Ord 1", 0.0, 0, 1392076800, 25, 0, 0], [2112268535, "Szwedzki PL-SV", 0.0, 0, 1345852800, 327, 0, 0], [1720512425, "aloisvietnamese", 0.0, 0, 1417305600, 202, 2, 3], [809077151, "Svenska Adjektiv", 0.0, 0, 1368921600, 185, 0, 0], [15281160, "RUSVM Path 1 Exam 1", 0.0, 0, 1438905600, 228, 0, 13], [621053856, "Biologie 3. Informationsverarbeitung und Regelung", 0.0, 0, 1346284800, 88, 0, 34], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1446737603, "IEL Ver\u00e4nderungsverben", 0.0, 0, 1424044800, 21, 1, 21], [1875156548, "AneesHussainGreatestHitsVocabularyWordlist2", 0.0, 0, 1390608000, 974, 0, 0], [1174281065, "Svensk - Dansk", 0.0, 0, 1415145600, 50, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sv</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

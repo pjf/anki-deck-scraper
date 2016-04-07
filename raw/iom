@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[986229768, "Biomedizinische Technik TU Dresden", 5.0, 1, 1454544000, 85, 0, 0], [46260399, "Business English Idioms", 0.0, 0, 1454544000, 81, 92, 38], [1794773363, "Kanji jigoku, poziom trzeci - lekcje 1-13", 0.0, 0, 1454716800, 1040, 0, 0], [998256292, "Kanji jigoku, poziom 3 - lekcje 14-25", 0.0, 0, 1454716800, 1073, 0, 0], [1846932484, "English Italian - Assimil words, Idiom, irregular verbs", 0.0, 0, 1452384000, 2622, 0, 0], [1965130173, "Idiomatic Expressions", 0.0, 0, 1452816000, 22, 0, 0], [3923768477, "Idioms and phrasal verbs-English Grammar Digest", 3.0, 1, 1353888000, 244, 0, 0], [971642049, "English Slangs, Expressions, and Idioms", 0.0, 0, 1450742400, 29, 0, 0], [1835660651, "Investigaci\u00f3n Biom\u00e9dica 5\u00ba Medicina UAM: Ex\u00e1menes", 0.0, 0, 1452816000, 156, 0, 0], [2110044394, "English Everyday Idioms (english - russian)", 0.0, 0, 1452384000, 363, 33, 37], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1992482192, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [924105715, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [157174637, "Idiom with \"it\"", 0.0, 0, 1447891200, 11, 17, 10], [749870891, "English idioms", 0.0, 0, 1447545600, 0, 0, 0], [613098322, "JAPONES BASICO I Instituto de Idiomas US", 0.0, 0, 1454544000, 582, 5, 317], [192917626, "Idiomatik", 0.0, 0, 1448409600, 24, 3, 1], [1412694262, "French idioms// les expressions idiomatiques", 5.0, 1, 1446940800, 101, 99, 102], [1860592204, "Idioms and Phrasal verbs", 0.0, 0, 1442620800, 112, 0, 0], [1804231256, "Idiomatic phrases", 0.0, 0, 1447545600, 13, 0, 0], [2039090378, "Eitel- Business/academic English idioms", 0.0, 0, 1444262400, 125, 0, 0], [680401545, "BIOM*3200", 0.0, 0, 1445644800, 219, 0, 3], [696884755, "BIOM2402", 0.0, 0, 1446422400, 256, 0, 0], [4242456248, "English idioms with Polish translation V1.1", 0.0, 0, 1362441600, 514, 0, 0], [574244954, "Biomaterials DS2 UTHSCSA", 0.0, 0, 1445299200, 207, 0, 34], [778283311, "West End Idiomas - Communication", 0.0, 0, 1444176000, 74, 0, 74], [1905523916, "IOMB Step 2", 0.0, 0, 1440806400, 997, 0, 0], [480736072, "West End Idiomas - Clothes and Accessories ", 0.0, 0, 1440979200, 70, 0, 70], [1033671374, "USA Biomechanics: Muscle Exam 1", 0.0, 0, 1441756800, 26, 0, 0], [2006303184, "Idioms RUS-ENG", 0.0, 0, 1441756800, 16, 0, 0], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [482433625, "Nejpou\u017e\u00edvan\u011bj\u0161\u00ed fr\u00e1ze a idiomy [ENGLISH->CZECH]", 0.0, 0, 1356393600, 312, 0, 0], [1670726162, "Physiology-Biomedical Engineering Tel aviv 2014", 0.0, 0, 1416787200, 71, 0, 18], [1438545362, "4poziom kanjioszk\u00f3w", 0.0, 0, 1420848000, 1846, 0, 0], [1974215699, "RLR #97 \u2013 Sports Idioms for Your Life", 5.0, 1, 1427328000, 33, 33, 0], [2533236654, "Svenska idiomatiska uttryck", 0.0, 0, 1360627200, 1034, 0, 0], [559533426, "[Ang.pl][Idiomy] English Idioms for Poles", 0.0, 0, 1366588800, 518, 0, 0], [1396319774, "CVA Squalus Branchiomeric Muscles", 0.0, 0, 1382659200, 11, 0, 0], [1950813577, "RLR #90 - Powerful Idioms", 0.0, 0, 1423008000, 30, 30, 0], [542471855, "PCOM biomedical program", 0.0, 0, 1401580800, 62, 1, 73], [72314985, "Biologia poziom licealny, rozszerzony", 5.0, 1, 1436918400, 1340, 0, 58], [269574896, "Norwegian Idiomatic Prepositional Phrases using 'Av'", 0.0, 0, 1435622400, 40, 0, 0], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [675841085, "Cardiomyopathy", 0.0, 0, 1396915200, 54, 0, 2], [257396646, "1003 Idiome PL-DE (Edward Zys)", 0.0, 0, 1345852800, 1003, 0, 0], [3220214122, "Deutsche Idiome DE-DE (Uni Posen)", 0.0, 0, 1345852800, 500, 0, 0], [518313939, "West End Idiomas - Personal Feelings, Opinions & Experiences", 0.0, 0, 1422057600, 57, 0, 57], [2226950448, "arabic idioms, proverbs and expressions", 0.0, 0, 1345852800, 364, 0, 0], [1211513471, "Idioms and phrasal verbs", 0.0, 0, 1356480000, 597, 0, 0], [1205739504, "Poverbs&Idiom_Persian-English", 0.0, 0, 1402272000, 399, 0, 1], [480184665, "Kl. biomekanik - Klinikophold B", 0.0, 0, 1445904000, 133, 0, 0], [2136231756, "West End Idiomas - Work and Jobs", 0.0, 0, 1422057600, 86, 0, 89], [517913719, "PharmaKardioMUI", 0.0, 0, 1422230400, 176, 0, 0], [748171536, "West End Idiomas - Food and Drink", 0.0, 0, 1437609600, 131, 0, 131], [1900549045, "Idioms and collocations", 0.0, 0, 1412467200, 551, 1, 1], [127205670, "Idioms and phrases", 0.0, 0, 1417305600, 34, 0, 0], [2017968536, "Lumbar biomechanics", 0.0, 0, 1393027200, 77, 0, 21], [558607438, "North American Biomes and National Parks", 1.0, 1, 1392508800, 130, 0, 117], [439449124, "Rib biomechanics", 0.0, 0, 1393027200, 49, 0, 6], [471921478, "Dutch Idioms", 0.0, 0, 1431907200, 300, 0, 0], [2937622615, "juhiati_idioms", 0.0, 0, 1345852800, 85, 0, 0], [940439508, "RLR #94 \u2013 American Sports Idioms", 0.0, 0, 1425427200, 30, 30, 0], [1187642133, "English idioms with Polish translation", 3.0, 4, 1345852800, 514, 0, 0], [100594280, "TCM Review Formulas & Biomedical Disorders", 0.0, 0, 1345852800, 74, 0, 0], [1040705939, "IELTS less common and idioms", 4.0, 1, 1382400000, 101, 0, 28], [214108749, "West End Idiomas - Travel and Transport", 0.0, 0, 1422057600, 101, 0, 101], [94781327, "[mux] Phrases and Idioms", 0.0, 0, 1392768000, 56, 3, 4], [2254470364, "Lakehead Workplace Idioms", 0.0, 0, 1366588800, 36, 0, 0], [3636079083, "Svenska idiomatiska uttryck", 0.0, 0, 1358553600, 941, 0, 0], [3290971560, "2432 Idiome", 0.0, 0, 1345852800, 2432, 0, 0], [799188777, "English idioms", 1.0, 1, 1400025600, 207, 1, 0], [1338649980, "West End Idiomas - Education", 0.0, 0, 1423094400, 38, 0, 39], [1828479201, "West End Idiomas - The Natural World", 0.0, 0, 1425772800, 86, 0, 86], [1308185262, "05idiom", 0.0, 0, 1406764800, 43, 0, 0], [1995300730, "K4 \u2013\u00a0kl. biomekanik columna lumbalis", 0.0, 0, 1400112000, 184, 0, 74], [340603080, "PCOM Biomed program", 0.0, 0, 1400457600, 5468, 1, 2229], [336204449, "Thoraic biomechanics", 0.0, 0, 1393027200, 36, 0, 13], [1625395836, "Business English. B2. Lesson 1. Business idioms", 0.0, 0, 1429142400, 31, 0, 0], [3089905314, "American Idioms", 5.0, 1, 1345852800, 600, 0, 0], [537895049, "Biometrie TU M\u00fcnchen", 0.0, 0, 1390867200, 48, 1, 24], [3982362769, "Idioms EN<>DE (moko77)", 4.33, 3, 1345852800, 350, 0, 0], [164027345, "West End Idiomas - House and Home", 0.0, 0, 1428969600, 133, 0, 136], [551101169, "K4 \u2013\u00a0kl. biomekanik Hofte og b\u00e6kken", 0.0, 0, 1400112000, 189, 0, 81], [319607100, "German Verbal Idioms (Valparaiso University)", 4.0, 2, 1345852800, 120, 0, 0], [784651538, "polsko-hiszpa\u0144skie fiszki poziom A1 i A2", 4.5, 2, 1429660800, 1727, 0, 0], [1839131377, "Chinese Cantonese Idiom Deck V0.1 Beta", 5.0, 1, 1403568000, 2721, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iom</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

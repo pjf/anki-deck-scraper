@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[478784710, "Postacie zagranicznego \u017cycia politycznego 2015 ", 0.0, 0, 1448236800, 14, 0, 14], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [621107083, "s\u0142owniczek", 0.0, 0, 1439078400, 51, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [2425799786, "Islandzki PL-IS (Jakub Budkiewicz)", 0.0, 0, 1345852800, 1899, 0, 0], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [178762582, "Meteria\u0142oznawstwo oftalmiczne", 0.0, 0, 1434067200, 25, 0, 0], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [2031114929, "A1. Lesson 11. Meble, wyposa\u017cenie mieszkania, liczba mnoga", 0.0, 0, 1423094400, 33, 33, 30], [791888843, "G\u00f3rnicz", 0.0, 0, 1417651200, 223, 0, 0], [598151180, "Cwiczenia - Ania M", 0.0, 0, 1393804800, 1, 0, 0], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [1930556491, "A1. Lesson 5. Liczby, wiek, kraje", 0.0, 0, 1422662400, 72, 50, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Icz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

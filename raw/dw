@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[89323017, "Headway Plus Elementary & Pre Intermediate EN-FA (98ia.com)", 0.0, 0, 1424649600, 2433, 1776, 573], [506285649, "Spanisch Deutsch Grundwortschatz", 0.0, 0, 1451001600, 4695, 0, 0], [2009624202, "HEADWAY Intermediate Magyar-Angol - by Nandika", 4.67, 3, 1431820800, 1355, 1325, 4], [647532939, "HEADWAY - Pre-Intermediate (4th ed) (Czech-English) by Qvasa", 4.29, 7, 1426464000, 841, 0, 0], [1454478032, "Edwards French words", 0.0, 0, 1450051200, 2, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 6, 1372636800, 1966, 0, 0], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 5.0, 2, 1378252800, 33, 33, 33], [103890101, "HEADWAY - Elementary 4th edition (Czech-English) by Qvasa", 5.0, 5, 1428624000, 1121, 0, 0], [3626394573, "Fremdw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 462, 0, 0], [2032059928, "Deutsch-Englisch Grundwortschatz 08 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 4.9, 10, 1431820800, 1325, 1300, 4], [1588995680, "Learn to Read Greek Ch. 11 - DWT", 0.0, 0, 1403481600, 66, 0, 0], [1070593299, "Deutsch-Englisch Grundwortschatz 6-10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1694925060, "Deutsch-Englisch Grundwortschatz 04 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [377983990, "Deutsch-Englisch Grundwortschatz 24 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [133427349, "Learn to Read Greek Ch. 7 - DWT", 0.0, 0, 1401840000, 72, 0, 0], [284983128, "Deutsch-Englisch Grundwortschatz 09 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [54211442, "Deutsch-Englisch Grundwortschatz 16-20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [411258126, "Deutsch-Englisch Grundwortschatz 21 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3404056944, "Deutsch-Englisch Grundwortschatz 12 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [914039502, "Deutsch-Englisch Grundwortschatz 27 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [257396646, "1003 Idiome PL-DE (Edward Zys)", 0.0, 0, 1345852800, 1003, 0, 0], [935467202, "Englisch-Redwendungen f\u00fcr Deutsche", 4.0, 1, 1345852800, 1774, 0, 0], [1023489371, "Headway Upper-Intermediate - Unit 10", 0.0, 0, 1369008000, 35, 102, 29], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [875733011, "SEM AdWords Questions", 0.0, 0, 1433462400, 64, 0, 0], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 5.0, 1, 1445904000, 1398, 2796, 1], [1106118172, "Headway Upper-Intermediate - Unit 9", 0.0, 0, 1369008000, 68, 150, 56], [3277301784, "Deutsch-Englisch Grundwortschatz 10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2765795831, "Deutsch-Englisch Grundwortschatz 05 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [2775799465, "Deutsch-Englisch Grundwortschatz 26 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2105185697, "Hardware para Concurso", 0.0, 0, 1375401600, 94, 0, 32], [1036108615, "Deutsch-Englisch Grundwortschatz 16 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1248838077, "KW-Headway", 0.0, 0, 1411776000, 316, 72, 0], [3732930072, "Deutsch-Englisch Grundwortschatz 02 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1396602608, "Deutsch-Englisch Grundwortschatz 22 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1289274088, "P29 Fat as a Endocrine Gland Midwestern 2015", 0.0, 0, 1430006400, 48, 0, 0], [939080489, "Deutsch-Englisch Grundwortschatz 13 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [570338828, "Deutsch-Englisch Grundwortschatz 34 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [602925765, "HeadWay-UpperIntermediate-Unit1", 0.0, 0, 1362873600, 108, 0, 0], [1344867925, "Deutsch-Englisch Grundwortschatz 37 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [7280986, "Deutsch-Englisch Grundwortschatz 28 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1217198920, "Learn to Read Greek Ch. 5 - DWT", 0.0, 0, 1401148800, 64, 0, 0], [1858930839, "Deutsch-Englisch Grundwortschatz 15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 59, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [435561375, "Learn to Read Greek Ch. 3 - DWT", 0.0, 0, 1400284800, 82, 0, 0], [1517529642, "HeadWay-UpperIntermediate-Unit2", 0.0, 0, 1362873600, 137, 0, 0], [569416862, "Learn to Read Greek Ch. 1 - DWT", 0.0, 0, 1400112000, 34, 0, 0], [2563521111, "Deutsch-Englisch Grundwortschatz 32 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3619440744, "Deutsch-Englisch Grundwortschatz 33 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [4214093825, "Deutsch-Englisch Grundwortschatz 06 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [3463106713, "Deutsch-Englisch Grundwortschatz 1-5 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1987523704, "Deutsch-Englisch Grundwortschatz 31-35 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [849929019, "HEADWAY - Intermediate 3rd edition (Czech-English) by Qvasa", 4.2, 5, 1428624000, 1348, 0, 0], [1221062359, "Deutsch-Englisch Grundwortschatz 14 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2344316916, "Deutsch-Englisch Grundwortschatz 11-15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [860999906, "Vischer Grundwortschatz (Verben)", 0.0, 0, 1399420800, 829, 0, 0], [2132223383, "HEADWAY Upper Intermediate Magyar-Angol - by Nandika", 5.0, 2, 1431820800, 1092, 1081, 4], [2033509057, "Deutsch-Englisch Grundwortschatz 23 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [503761075, "Deutsch-Englisch Grundwortschatz 03 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1746947706, "Deutsch-Englisch Grundwortschatz 18 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1817192715, "Learn to Read Greek Ch. 9 - DWT", 0.0, 0, 1402358400, 69, 0, 0], [1197210740, "Deutsch-Englisch Grundwortschatz 19 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2239734893, "Deutsch-Englisch Grundwortschatz 07 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [1122527400, "Deutsch-Englisch Grundwortschatz 35 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 59, 0], [249758645, "Deutsch-Englisch Grundwortschatz 30 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3709737794, "Deutsch-Englisch Grundwortschatz 17 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1072538630, "Deutsch-Englisch Grundwortschatz 39 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [339017481, "Deutsch-Englisch Grundwortschatz 31 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [527139445, "Deutsch-Englisch Grundwortschatz 21-25 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [545086398, "Headway Pre-Intermediate the Third edition Unit 1 hun eng", 0.0, 0, 1422835200, 84, 0, 0], [3068916598, "Deutsch-Englisch Grundwortschatz 20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3913756983, "Englisch f\u00fcr Deutsche - Elementar- und Grundwortschatz", 3.67, 3, 1345852800, 2014, 0, 0], [4104007651, "Deutsch-Englisch Grundwortschatz 25 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1748401206, "Deutsch-Englisch Grundwortschatz 38 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3087069031, "Deutsch-Englisch Grundwortschatz 01 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [474334693, "Deutsch-Englisch Grundwortschatz 11 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3020836303, "Deutsch-Englisch Grundwortschatz 29 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3461687221, "Deutsch-Englisch Grundwortschatz 26-30 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [3109610524, "Baldwin Physio test #2", 0.0, 0, 1383868800, 136, 0, 131], [3649522441, "New Headway Intermediate English-Hungarian lesson 1", 5.0, 1, 1359504000, 102, 0, 0], [481753426, "Deutsch-Englisch Grundwortschatz 36 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

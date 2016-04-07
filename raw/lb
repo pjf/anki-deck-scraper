@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[240081041, "acquafontalba", 0.0, 0, 1454284800, 8, 0, 0], [1390770928, "Science 10 Climate unit (Alberta)", 0.0, 0, 1454025600, 32, 0, 0], [1277856472, "CLB", 0.0, 0, 1453248000, 79, 0, 0], [407131161, "Gallbladder - Path3", 0.0, 0, 1453334400, 6, 0, 0], [799574339, "Deutsch Oberstufe Verben mit Vorsilben", 0.0, 0, 1449187200, 32, 0, 0], [1614364983, "Heidelberg Catechism", 0.0, 0, 1451692800, 128, 0, 0], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [1030072942, "Kalbame lietuvi\u0161kai - 2015 (1)", 0.0, 0, 1445472000, 47, 0, 0], [776116990, "Grade 4 Social Studies (Alberta CANADA)", 0.0, 0, 1445472000, 16, 0, 0], [852785883, "Psych 104 - University of Alberta", 0.0, 0, 1441843200, 259, 0, 2], [1318695946, "Gallbladder/ Biliary System", 0.0, 0, 1444348800, 52, 0, 0], [1940641063, "Chemistry 10 Alberta", 0.0, 0, 1441411200, 193, 0, 0], [1919850787, "Albanian to Italian General Vocab", 0.0, 0, 1441670400, 264, 8, 0], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [688323721, "Psych 104 DECK 2 - University of Alberta", 0.0, 0, 1441843200, 416, 0, 1], [519361022, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Food", 0.0, 0, 1407628800, 15, 0, 15], [292912507, "Ital\u0173 kalbos veiksma\u017eod\u017eiai", 0.0, 0, 1435881600, 279, 0, 0], [1897233972, "Anatomy Terms: Distal Humerus + Elbow + Forearm", 0.0, 0, 1437004800, 23, 0, 0], [2002633460, "renalbjhbjhbjh", 0.0, 0, 1439424000, 215, 0, 0], [439765611, "Uni Heidelberg Innere Medizin", 0.0, 0, 1437696000, 392, 0, 9], [1967886336, "H\u00e5llbar Utveckling", 0.0, 0, 1438560000, 63, 0, 0], [2679615324, "bulgarian-intro-by-albena-and-antoaneta", 0.0, 0, 1360972800, 232, 0, 0], [1478878857, "\u0420\u0443\u0441\u0441\u043a\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0441 tylbaas.ykt.ru (by Cujoko)", 0.0, 0, 1413331200, 4956, 0, 0], [1942910676, "LBR3 -- Code III", 0.0, 0, 1405900800, 192, 0, 0], [1780009834, "French Family vocab list IB bilborough", 0.0, 0, 1413676800, 22, 0, 0], [891199554, "OSU - MSK - Elbow and Forearm", 0.0, 0, 1418601600, 81, 0, 73], [3284414008, "Macht Mit! 3 - LB Seite 48", 0.0, 0, 1383264000, 17, 0, 0], [777746044, "Basic Albanian (Albanian - English)", 3.0, 1, 1379462400, 41, 0, 0], [1604062537, "Elbflorace Saison 2014/15", 0.0, 0, 1412467200, 31, 0, 15], [1496369600, "Macht Mit! 3 - LB Seite 43", 0.0, 0, 1383264000, 17, 0, 0], [1135687090, "French present IB Bilborough", 0.0, 0, 1412726400, 18, 0, 0], [708533783, "Uni Heidelberg Klinische Pharma", 0.0, 0, 1437868800, 165, 0, 4], [1767667185, "Macht Mit! 3 - LB Seite 49", 0.0, 0, 1383264000, 8, 0, 0], [1393459002, "LBR1 -- Code II", 0.0, 0, 1405900800, 126, 0, 0], [49166663, "Conduit bender parts, stub up, and pullbox quiz", 0.0, 0, 1425168000, 19, 0, 0], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [301925772, "d\u00e9veloppement produits selbstcheck", 0.0, 0, 1423699200, 160, 0, 1], [840088535, "Uni Heidelberg Geriatrie", 0.0, 0, 1437436800, 177, 0, 0], [1039075883, "Gallbladder/Pancreas Pathology", 0.0, 0, 1424736000, 94, 0, 3], [945895634, "LBC - Arabisch 1.1", 0.0, 0, 1399161600, 104, 99, 0], [1167193889, "LBR9 -- Federal Jurisdiction and Procedure", 0.0, 0, 1405900800, 63, 0, 0], [1539792614, "Zellbiologie TUM WZW", 0.0, 0, 1364083200, 115, 0, 2], [246813038, "Elbow", 0.0, 0, 1405036800, 10, 0, 0], [662270231, "LBR6 -- Business Associations and Negotiable Instruments", 0.0, 0, 1405900800, 102, 0, 0], [2494594367, "Macht Mit! 3 - LB Seite 46", 0.0, 0, 1383264000, 16, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [1977629592, "Isl\u00e6ndische Vokalbeln mit Flektionsklassen", 0.0, 0, 1425340800, 163, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [2697006016, "Albanian", 0.0, 0, 1345852800, 152, 0, 0], [1996943672, "LBR4 -- LA Civ Pro ", 0.0, 0, 1405900800, 235, 0, 0], [298853069, "LBR7 -- Constitutional Law", 0.0, 0, 1405900800, 34, 0, 0], [1763260882, "French 211 Fall 2012 University of Alberta", 0.0, 0, 1352246400, 929, 0, 0], [1358525311, "Elbisch (Wanderer-Kampagne)", 0.0, 0, 1429401600, 51, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [1387447592, "LBR5 -- Torts", 0.0, 0, 1405900800, 61, 0, 0], [1234796290, "Allison LBP", 0.0, 0, 1424649600, 28, 0, 7], [890703107, "Albanese, Spanish 2, Unit 1, Lesson 1", 0.0, 0, 1409184000, 33, 0, 32], [359916996, "UP-ERN Zellbiologie", 0.0, 0, 1405555200, 200, 0, 17], [458639325, "LBR8 -- Criminal Law, Procedure, and Evidence", 0.0, 0, 1405900800, 49, 0, 0], [1090529908, "Macht Mit! 3 - LB Seite 45", 0.0, 0, 1383264000, 16, 0, 0], [3489887149, "Personalbogen", 0.0, 0, 1383782400, 16, 0, 0], [822644260, "Macht Mit! 3 - LB Seite 42", 0.0, 0, 1383264000, 15, 0, 0], [1217583113, "Macht Mit! 3 - LB Seite 50", 0.0, 0, 1383264000, 5, 0, 0], [3455719500, "Macht Mit! 3 - LB Seite 47", 0.0, 0, 1383264000, 19, 0, 0], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [1426176493, "Albanese, Spanish 4, Unit 1", 0.0, 0, 1409011200, 37, 0, 36], [1360361098, "LBR1 -- Code I", 0.0, 0, 1405900800, 210, 0, 0], [1513895924, "LBR8 -- Crim and Evidence", 0.0, 0, 1405900800, 69, 0, 0], [1823049682, "Vor- und Nachsilben in Esperanto", 0.0, 0, 1345852800, 41, 0, 0], [4050545614, "Macht Mit! 3 - LB Seite 44", 0.0, 0, 1383264000, 20, 0, 0], [720551039, "Zellbiologie UP Potsdam", 0.0, 0, 1405814400, 41, 0, 8]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

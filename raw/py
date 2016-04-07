@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1809024443, "Python Basics", 0.0, 0, 1454025600, 25, 0, 0], [2637721973, "07 Zakupy LRM PP", 5.0, 1, 1345852800, 182, 182, 0], [1367617029, "N\u00e1zvy a mapy souhv\u011bzd\u00ed", 0.0, 0, 1424908800, 88, 0, 88], [1120113808, "Python 3 Tutorial", 0.0, 0, 1444521600, 124, 0, 1], [710322955, "Cognitive Therapy 2015", 0.0, 0, 1450656000, 141, 0, 0], [1571045620, "First Aid and Pathoma Copy", 0.0, 0, 1452988800, 15129, 1, 2518], [1840882877, "\"diary of a wimpy kid\"s slangs & words ", 0.0, 0, 1451001600, 1691, 1, 58], [1638255177, "A verbatim copy and paste of the Bill of Rights", 0.0, 0, 1449705600, 10, 5, 0], [1774727787, "MUSC M2 Block 9 PTN: Cancer Chemotherapy", 0.0, 0, 1448928000, 116, 0, 0], [2142014422, "Happy House 2.a", 0.0, 0, 1449532800, 26, 6, 1], [1887103701, "Anti-Bacterial Chemotherapy", 0.0, 0, 1447718400, 251, 10, 101], [892779309, "korean webtoon vocab (crispyring)", 0.0, 0, 1445040000, 121, 0, 27], [1239012207, "Python - Built in functions, Keywords, Types", 2.0, 1, 1440892800, 350, 0, 0], [1021974894, "Think Python Vocabulary", 4.5, 2, 1402876800, 450, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [788936408, "MDTI 01.28.15 Cancer Chemotherapy", 0.0, 0, 1423094400, 64, 0, 4], [2045548240, "Algunos ejercicios de Python", 0.0, 0, 1417651200, 219, 0, 0], [1809544680, "10.23 Gene Therapy Zimmer", 0.0, 0, 1351036800, 0, 0, 0], [2186321458, "First page of Diary of A Wimpy Kid In Thai", 0.0, 0, 1345852800, 15, 15, 0], [3014758900, "Cucumber w Capybara", 0.0, 0, 1380672000, 29, 0, 0], [173433318, "KLP-pytania (bie\u017c\u0105ce, rozszerzone)", 0.0, 0, 1424736000, 43, 0, 0], [1190804276, "Pl-Ang Zakupy i us\u0142ugi", 0.0, 0, 1414108800, 105, 0, 0], [418912569, "Respiratory Therapy 132", 0.0, 0, 1433376000, 321, 0, 17], [1108461821, "history of japan asuka tenpyou", 5.0, 1, 1399334400, 209, 0, 0], [1652878990, "HMS.IMP.Antiviral.Therapy", 0.0, 0, 1367452800, 18, 0, 7], [1319978335, "4.9 - Spectroscopy and Chromatography", 0.0, 0, 1417305600, 15, 0, 0], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [469506270, "PY4 Exam 3", 0.0, 0, 1414627200, 304, 0, 0], [3055262302, "Gene Therapy Zimmer 10.23", 0.0, 0, 1351036800, 31, 0, 0], [3758189052, "HMS.IMP.antifungal.therapy", 0.0, 0, 1368144000, 14, 0, 7], [968942490, "Biochem, Unit 4; Gene Therapy", 0.0, 0, 1414108800, 55, 0, 0], [334819184, "Antiplatelet Anticoagulation Therapy", 0.0, 0, 1421193600, 47, 0, 0], [262042258, "Happy SAT vocabulary list ", 0.0, 0, 1388707200, 127, 0, 0], [186771768, "HMS.IMP.Pyogenic.Bacteria", 0.0, 0, 1365552000, 30, 0, 10], [51975584, "Python code quiz", 4.0, 1, 1396396800, 211, 0, 0], [393479166, "Psychopharmacology, Psychotherapy, and Neuropharmacology", 0.0, 0, 1428192000, 252, 0, 3], [1286577793, "pharmgenetherapy", 0.0, 0, 1422316800, 45, 0, 64], [2027819738, "Python for Java developers", 0.0, 0, 1350864000, 83, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [4014779236, "extrapyramidal motor system", 0.0, 0, 1370217600, 13, 0, 0], [3341204081, "Python/Django", 0.0, 0, 1384819200, 143, 0, 0], [1207242084, "PY4 Exam 3", 0.0, 0, 1414713600, 304, 0, 0], [932667572, "Chinese - Frapy", 0.0, 0, 1345852800, 844, 0, 0], [1183286491, "pytania deutsch syjka", 0.0, 0, 1408147200, 25, 0, 0], [937917443, "Python Truth Tables LPTHW Ex27", 0.0, 0, 1391040000, 34, 0, 0], [28294608, "Anatomia (ko\u015bciec  stopy)", 0.0, 0, 1345852800, 18, 0, 18], [290298801, "Learn Python the Hard Way - Exercise 37", 0.0, 0, 1400630400, 38, 0, 0], [398895724, "Behavioral Therapy Ferkauf ", 0.0, 0, 1431388800, 280, 0, 0], [1655246357, "Stupy Microbiology", 0.0, 0, 1430870400, 1661, 0, 0], [1966591620, "Python Symbols and Keywords LPTHW Ex22", 0.0, 0, 1391040000, 52, 0, 0], [2133849403, "IR spectroscopy frequencies QC CHEN orgo 2", 0.0, 0, 1427673600, 34, 0, 0], [281819247, "X-Ray Photoelectron Spectroscopy ", 0.0, 0, 1387411200, 11, 0, 7], [1551660588, "James Spanish Copy for Jan", 0.0, 0, 1386633600, 1468, 0, 0], [3201067748, "pyth_my_den", 0.0, 0, 1353628800, 1, 0, 0], [646738116, "Python Programming Language", 4.0, 1, 1399334400, 151, 0, 164]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Py</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

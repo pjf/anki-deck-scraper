@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2140532937, "Bros deck updated with errata 1,2,3,4", 5.0, 2, 1454112000, 14855, 0, 2572], [2103573310, "Deutsch: All 200 Irregular Base Verbs of German with Hints", 0.0, 0, 1433808000, 200, 208, 307], [520026553, "Business Law Exam 4 Short Answer (Carr)", 0.0, 0, 1345852800, 15, 0, 0], [1185262582, "urheberrecht-beger", 0.0, 0, 1454803200, 28, 0, 0], [1558539004, "Barron's Basic Word List: 1500 words for the PSAT, SAT, etc.", 0.0, 0, 1345852800, 1467, 0, 0], [1969149051, "Jarred Spanish 1", 0.0, 0, 1454716800, 0, 0, 0], [1790299980, "Psychologie - Zimbardo (Aufnahmepr\u00fcfung \u00d6sterreich)", 5.0, 1, 1449187200, 811, 0, 0], [1863759406, "English Irregular Verbs in Context \u266a (for Russian Speakers)", 2.0, 1, 1452902400, 1119, 1753, 0], [374273596, "Note Type: Correct It", 0.0, 0, 1417305600, 1, 7, 0], [1846932484, "English Italian - Assimil words, Idiom, irregular verbs", 0.0, 0, 1452384000, 2622, 0, 0], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [859226608, "German irregular verbs with spanish notes and translation", 0.0, 0, 1345852800, 456, 0, 0], [1100753655, "verbos irregulares nona", 0.0, 0, 1453507200, 122, 0, 0], [546073968, "Moroccan Arabic - Marrakech", 0.0, 0, 1453334400, 238, 132, 0], [516718034, "Irregular Verbs English - ODO", 0.0, 0, 1452211200, 148, 0, 36], [1912052294, "AKELT The top 90 irregular past tense English verbs", 0.0, 0, 1452384000, 65, 0, 0], [380729955, "Wiater Unterrichtsprinzipien", 0.0, 0, 1454025600, 12, 0, 0], [630991076, "JS EN irregular verbs", 0.0, 0, 1452902400, 287, 0, 0], [2129243766, "Terry Wallwork - Japanese Kangxi Radicals", 0.0, 0, 1427155200, 214, 0, 0], [737514179, "norske sterke verb - tsjekkisk (norwegian irregular verbs)", 0.0, 0, 1345852800, 139, 0, 0], [593760162, "Corrupcion y Conferencia", 0.0, 0, 1454025600, 128, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [2033132535, "English Irregular Verbs (russian translation and sound)", 0.0, 0, 1450915200, 308, 250, 41], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [700205096, "Anglais - Verbes irr\u00e9guliers - 5e - 76 verbes", 0.0, 0, 1453161600, 76, 0, 0], [1557797011, "barry roche verbs", 0.0, 0, 1452124800, 2235, 0, 126], [927574364, "PEG: English Irregular Verbs (past simple)", 0.0, 0, 1450742400, 100, 100, 0], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1245560477, "Barry Roche nouns", 0.0, 0, 1452124800, 4213, 0, 276], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [1855684416, "Barry Roche Adjectives", 0.0, 0, 1452124800, 2286, 0, 33], [1539461024, "243- INSUFFISANCE SURRENALE", 0.0, 0, 1450224000, 14, 0, 1], [1895693095, "Harry Potter y la piedra filosofal - Spanish - Chapter 2", 0.0, 0, 1451088000, 120, 0, 1], [2102412040, "Harry Potter y la piedra filosofal - Spanish - Chapter 1", 0.0, 0, 1448409600, 153, 0, 1], [1976650822, "arryhthmia", 0.0, 0, 1451692800, 6, 0, 0], [893822998, "Spanisch Deutsch Handelskorrespondenz", 0.0, 0, 1449964800, 294, 0, 0], [990412215, "merryxmas", 0.0, 0, 1451088000, 64, 1, 21], [368455659, "A la barikadoj / A las barricadas (canci\u00f3n en esperanto)", 0.0, 0, 1405728000, 62, 0, 0], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [636140641, "PASS FIRST CERRIFICATE DECK", 0.0, 0, 1449014400, 268, 0, 0], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [1450151841, "PASS FIRST CERRIFICATE DECK", 0.0, 0, 1449014400, 268, 0, 0], [39669938, "Irregular verbs english [english/portuguese]", 0.0, 0, 1446508800, 148, 3, 9], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [513904051, "Salish - English - Huckleberries", 0.0, 0, 1449360000, 33, 25, 24], [1302520146, "PL - Harry Dang", 0.0, 0, 1393977600, 2, 0, 0], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [1692445068, "L\u00e1p- \u00e9s mocs\u00e1rr\u00e9t", 0.0, 0, 1449100800, 8, 0, 0], [1243640311, "English Irregular Verbs 114 Pron LV", 0.0, 0, 1448064000, 114, 0, 0], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [1906780705, "Chinesisch  Deutsch Handelskorrespondenz", 0.0, 0, 1447200000, 114, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [1608083244, "Irregular verbs (hard) CZ-ENG", 0.0, 0, 1446768000, 92, 0, 0], [1736531235, "Irregular Verb  English - Polish", 0.0, 0, 1442534400, 207, 240, 219], [2772515877, "English Irregular Verbs with Phonetic", 3.88, 8, 1345852800, 311, 0, 0], [1423776121, "Florizarre HGE complet", 0.0, 0, 1445212800, 281, 0, 1], [314711982, "RR Block 1 (midterm)", 0.0, 0, 1447027200, 165, 0, 218], [1929025612, "Past Simple V2 - Irregular Verbs - English - Hebrew", 0.0, 0, 1448150400, 151, 0, 0], [78272541, "Florizarre T/UR", 0.0, 0, 1445126400, 82, 0, 2], [114365336, "Verbes irr\u00e9guliers en Anglais (+ traduction fr)", 4.0, 1, 1441929600, 122, 0, 0], [874270810, "Immunopharrmacology Drugs", 0.0, 0, 1444435200, 17, 0, 0], [1408519942, "Verbes irr\u00e9guliers en anglais (162) + leurs prononciations", 4.5, 2, 1448150400, 162, 163, 3], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [238566799, "Irregular verbs 115 ige magyar (hun) \u00e9s angol (eng)", 5.0, 1, 1443484800, 115, 114, 2], [1720345077, "English Irregular Verbs with Phonetic And Audio [Persian]", 5.0, 1, 1421193600, 311, 679, 1], [1906684131, "Irregular verbs FULL audio, SPANISH translation", 0.0, 0, 1443398400, 156, 432, 1], [1214989042, "Florizarre HI complet", 0.0, 0, 1445212800, 212, 0, 6], [1572647336, "Florizarre OR complet", 0.0, 0, 1445126400, 171, 0, 4], [1747649168, "Florizarre K complet", 0.0, 0, 1445126400, 105, 0, 2], [1508475733, "Florizarre ORT", 0.0, 0, 1445212800, 136, 0, 1], [458445558, "FLORIZARRE MI complet", 0.0, 0, 1445212800, 255, 0, 6], [1549299727, "Harry Potter II (English/German - Icelandic) - chapter 2", 0.0, 0, 1444780800, 129, 0, 0], [673297265, "Florizarre N Complet", 0.0, 0, 1445212800, 114, 0, 0], [1153794708, "Zuurresten leren", 0.0, 0, 1444435200, 12, 0, 0], [238350962, "English Irregular Verbs with Audio", 0.0, 0, 1439769600, 103, 231, 0], [693896995, "CLINICAL CORRELATIONS EXAM 2- MSMS", 0.0, 0, 1444435200, 74, 0, 0], [1140146145, "English Irregular Verbs", 0.0, 0, 1439769600, 103, 231, 0], [1002120426, " Finnish: ammatit ja harrastukset", 0.0, 0, 1444003200, 125, 0, 0], [824850543, "Henry VIII's marriages", 0.0, 0, 1443484800, 30, 0, 7], [1879054045, "Az els\u0151 vil\u00e1gh\u00e1bor\u00fa, a forradalmak \u00e9s a b\u00e9k\u00e9k", 0.0, 0, 1444348800, 41, 0, 0], [1102376376, "CRR Anatomy", 0.0, 0, 1446336000, 0, 0, 0], [1540660086, "80 irregular verbs", 0.0, 0, 1446768000, 172, 0, 1], [1214215549, "Pashto Curriculum Vocab", 0.0, 0, 1445644800, 5081, 0, 0], [35445751, "FLorizarre OPH complet", 0.0, 0, 1445212800, 175, 0, 35], [626671316, "Florizarre DER complet", 0.0, 0, 1445126400, 188, 0, 12], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [1333550820, "Derrick Anatomy flashcards", 0.0, 0, 1441929600, 41, 0, 44], [13825275, "Ace Correlatives Like a Native!\u2122", 0.0, 0, 1431648000, 59, 118, 1], [1246120486, "Exam 4 Fierro", 0.0, 0, 1440892800, 117, 0, 0], [614090542, "Terry's Vietnamese Vocabulary", 0.0, 0, 1439251200, 223, 110, 0], [1299366046, "Business Law Exam 3 (Carr)", 0.0, 0, 1345852800, 108, 0, 0], [1373793750, "Marrs CV Overview", 0.0, 0, 1441756800, 45, 0, 0], [412397360, "Alyawarr Sound Chart", 0.0, 0, 1441238400, 37, 37, 37], [1529369157, "Sterke verb - Norwegian irregular verbs", 0.0, 0, 1345852800, 70, 0, 0], [747726143, "Anton Preterite Irregular", 0.0, 0, 1420761600, 24, 0, 0], [1681440103, "KW-IrregularVerbs", 0.0, 0, 1411776000, 462, 0, 0], [2109067388, "Florizarre PNE", 0.0, 0, 1432166400, 218, 0, 4], [1902360338, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 14", 0.0, 0, 1416096000, 305, 0, 0], [2001386934, "Verbos_Irregulares_6789", 0.0, 0, 1396051200, 55, 0, 0], [1829964949, "Jess and Pierre baby huskies snowballs and snowflakes", 0.0, 0, 1414454400, 14, 0, 25], [649996176, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [3383967349, "CofO2 - 19 - Carriage of Gases In Blood.anki", 0.0, 0, 1345852800, 26, 0, 0], [2089114050, "Business Law Exam 4 (Carr)", 0.0, 0, 1345852800, 122, 0, 0], [1106291704, "Barrons GRE 4813 wordlist pron, EN, RU", 0.0, 0, 1399593600, 4813, 0, 0], [1595412590, "for sherry1 as minhas palavras", 0.0, 0, 1427328000, 168, 0, 0], [1324382159, "irregular verbs ", 0.0, 0, 1403481600, 130, 0, 1], [1327195309, "First Aid RR 2015", 0.0, 0, 1424044800, 463, 0, 6], [1916977296, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 9", 0.0, 0, 1412467200, 394, 0, 0], [1030473135, "Perry's Top 2K Kanji", 0.0, 0, 1345852800, 92, 0, 0], [796084146, "Irregular verbs [t\u0142um - I,II,III] MPT pre-int", 0.0, 0, 1356480000, 103, 103, 0], [1997565813, "Verbi irregolari (passato prossimo)", 5.0, 1, 1391126400, 50, 100, 0], [1177723414, "Deutch - Polish irregular verbs", 0.0, 0, 1380844800, 27, 0, 0], [604961033, "Catal\u00e0 Ferran U3 i U7", 0.0, 0, 1416268800, 40, 0, 4], [3898087522, "Business Law Exam 1 (Carr)", 0.0, 0, 1345852800, 192, 0, 2], [1450325972, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 7", 0.0, 0, 1412294400, 182, 0, 0], [363099240, "Cardiac thru arrythmias", 0.0, 0, 1426723200, 644, 0, 180], [599363894, "Florizarre ER", 0.0, 0, 1423008000, 22, 0, 0], [1222697990, "MDTI 01.26.15 Bone Marrow", 0.0, 0, 1422316800, 38, 0, 15], [1654530713, "Portugues irregular verbs (port-en)", 0.0, 0, 1417824000, 249, 0, 3], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [3826873097, "Herr Bachfischer Geschichte Emil", 0.0, 0, 1377475200, 73, 0, 0], [3663741503, "Psicolog\u00eda del Desarrollo I", 0.0, 0, 1388361600, 610, 0, 0], [912412174, "Corrected Student Sentences", 0.0, 0, 1421020800, 45, 0, 0], [1332437227, "Irregular verbs gaby", 0.0, 0, 1396224000, 140, 0, 0], [2094185308, "Verbe irregulier anglais fran\u00e7ais", 0.0, 0, 1432598400, 125, 7, 3], [504647912, "BSHo Obs & Gyn Path: Cervical Ca, Ovarian Ca, Dysmenorrho", 0.0, 0, 1401580800, 30, 0, 0], [359894192, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 12", 0.0, 0, 1415404800, 397, 0, 0], [1335542332, "Neuropsicolog\u00eda del Desarrollo", 0.0, 0, 1432684800, 837, 0, 0], [1310249536, "Jess and Pierre Reindeers", 0.0, 0, 1401753600, 15, 0, 19], [1616674533, "superredpineapple", 0.0, 0, 1426118400, 221, 0, 0], [851933985, "Jess and Pierre Rainbows", 0.0, 0, 1401667200, 36, 0, 59], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [813839112, "Participios irregulares en B\u00falgaro", 0.0, 0, 1433635200, 26, 0, 0], [244928826, "johnio_05_trenbarre", 0.0, 0, 1424563200, 19, 0, 0], [789618535, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 2", 0.0, 0, 1410566400, 95, 0, 0], [2779690080, "Business Law Exam 3 Short Answer (Carr)", 0.0, 0, 1345852800, 16, 0, 0], [4182676126, "Common English Irregular Verbs [Persian]", 1.0, 2, 1345852800, 104, 0, 0], [1423213578, "23.Sz\u00ednek,form\u00e1k,hasonl\u00f3s\u00e1gok,k\u00fcl\u00f6nbs\u00e9gek,gyakoris\u00e1g \u00e9s sorr", 0.0, 0, 1432771200, 73, 0, 0], [1569494239, "Jess and Pierre Brownies", 0.0, 0, 1402012800, 58, 0, 0], [545541702, "Catal\u00e0 3 Ferran", 0.0, 0, 1416268800, 16, 0, 0], [3162140784, "German Irregular Verbs", 0.0, 0, 1380931200, 101, 0, 0], [1687080661, "Business Law Exam 1 Short Answer (Carr)", 3.5, 2, 1345852800, 36, 0, 2], [380507128, "Florizarre QI", 0.0, 0, 1424736000, 13, 0, 1], [1738500322, "RLR #76 \u2013 Politically Correct", 0.0, 0, 1414540800, 30, 30, 0], [1519272241, "ENG-SPA. IRREGULAR VERBS", 3.0, 2, 1432857600, 207, 207, 202], [686665003, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 6", 0.0, 0, 1411084800, 252, 0, 0], [1451088925, "Carrie's English", 0.0, 0, 1353974400, 95, 59, 0], [1917250723, "Second crab terrible neuro from sean", 0.0, 0, 1394323200, 484, 0, 231], [12856329, "second crab diarrhea", 0.0, 0, 1397347200, 35, 0, 9], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [712319246, "Herr Bachfischer Geschichte Weck, Wurst, und Wein", 0.0, 0, 1377475200, 246, 0, 0], [3756779099, "Latin irregular verb conjugations", 0.0, 0, 1366156800, 102, 0, 0], [1865296975, "UH-60 A/L EPs Change 7 Current", 0.0, 0, 1445040000, 72, 0, 142], [2850714102, "Irregular verbs [I,t\u0142um - II,III] MPT pre-int", 0.0, 0, 1356480000, 103, 103, 0], [1968109689, "Irregural verbs", 0.0, 0, 1407110400, 77, 0, 2], [684527862, "Jess and Pierre orange mocha frappucino potato gems", 0.0, 0, 1410739200, 35, 0, 43], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [1105189746, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 8", 0.0, 0, 1412294400, 198, 0, 0], [694734278, "Florizarre SP", 0.0, 0, 1423526400, 17, 0, 0], [1666004492, "Clurrkshipp", 0.0, 0, 1350259200, 17, 0, 0], [1375801936, "jlm297correlate", 0.0, 0, 1394668800, 64, 0, 4], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [879005770, "Harry Potter Spanish", 0.0, 0, 1379376000, 125, 0, 0], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [2671945522, "GCSE German - Herr Crook", 0.0, 0, 1379980800, 27, 0, 0], [805584527, "em, emergency medicine, optho, arrest", 0.0, 0, 1391644800, 19, 0, 0], [1670616427, "Jess and Pierre omelette du fromage", 0.0, 0, 1402185600, 53, 0, 0], [1186393048, "Catal\u00e0 Ferran 3 + 16", 0.0, 0, 1416268800, 20, 0, 0], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [707902025, "Business English. B2. Lesson 2. Business correspondence", 0.0, 0, 1429142400, 15, 0, 0], [1844094383, "verbes irr\u00e9guliers allemands", 0.0, 0, 1403308800, 127, 0, 0], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [618932245, "F-E 16 la g\u00e9ographie (Sph\u00e8re terrestre > atmosph\u00e8re)", 0.0, 0, 1413331200, 215, 0, 0], [1812447615, "Herr Bachfischer Geschichte Von Deutschland Nach Deutschland", 1.0, 1, 1377475200, 327, 0, 0], [70549253, "Spanish Interrogatives aka Question Words", 0.0, 0, 1345852800, 24, 0, 0], [1186387197, "Chp 5: Head Clinical Correlates", 0.0, 0, 1414972800, 68, 0, 0], [2022938495, "Squidef (squirrel defense) bridge bidding notes", 0.0, 0, 1375056000, 400, 0, 0], [275772637, "corrected sentences 2", 0.0, 0, 1435276800, 51, 0, 0], [114961239, "rowan som block 1 fundamentals 1 genetics FULL RREVIEW", 0.0, 0, 1409443200, 109, 0, 4], [1419063245, "Cirrhosis Pathology", 0.0, 0, 1424736000, 33, 0, 3], [2197220727, "Infectious Disease Final Infectious Diarrhea", 0.0, 0, 1381968000, 20, 0, 0], [608701296, "Florizarre GY", 0.0, 0, 1423008000, 61, 0, 0], [4116727170, "Squirrel (uncontested) bidding system notes", 0.0, 0, 1375056000, 395, 0, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [2020000427, "Konversationsunterricht_3", 0.0, 0, 1414454400, 34, 0, 0], [659195959, "Jess and Pierre Cotton Candy", 0.0, 0, 1401667200, 12, 0, 27], [524621478, "Florizarre HI", 0.0, 0, 1423008000, 33, 0, 0], [1354923288, "Fixation of Farris Four", 0.0, 0, 1430611200, 197, 0, 4], [2031049221, "MCM Test 3: 8.15 BSC Inborn Errors of Metabolism", 0.0, 0, 1408492800, 8, 0, 0], [211697247, "Valuable Words in Barron's\"1100 words you need to know\"", 0.0, 0, 1410652800, 295, 0, 0], [796872551, "\u00d6sterreichische Politiker", 0.0, 0, 1442188800, 43, 0, 43], [2042655279, "Kanji Reading (Joyo Kanji - Torres)", 0.0, 0, 1398124800, 2135, 0, 0], [1487090107, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 11", 0.0, 0, 1412553600, 452, 0, 0], [1837887242, "Spanish - present tense of 50 most common irregular verbs", 0.0, 0, 1394928000, 294, 0, 0], [1749956687, "BSHo Obs - Miscarriage ", 0.0, 0, 1394928000, 27, 0, 0], [2785007846, "vvooccaabbuullaarryy 2", 0.0, 0, 1382832000, 250, 248, 0], [772562422, "Bio Tierreich", 0.0, 0, 1422921600, 240, 0, 29], [1007033568, "Florizarre K", 0.0, 0, 1424736000, 28, 0, 0], [3455359064, "Czech German irrergular (strong) verbs 1.0", 0.0, 0, 1383868800, 181, 0, 0], [1042687651, "English irregular verbs", 4.2, 5, 1379721600, 130, 0, 0], [680066958, "Barrons 3500 word list", 0.0, 0, 1360022400, 3403, 780, 369], [1111633942, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 4", 0.0, 0, 1411344000, 401, 0, 0], [3644943099, "Business Law Exam 2 Short Answer (Carr)", 0.0, 0, 1345852800, 17, 0, 2], [2101491162, "Ilya and Darrion Kin1001", 0.0, 0, 1411430400, 87, 0, 17], [1738952029, "Jess and Pierre fondue weird french things", 0.0, 0, 1414454400, 12, 0, 30], [3125609258, "States & Union Territories of India", 2.5, 2, 1345852800, 35, 0, 0], [816953505, "Barron's 3500 for SAT", 5.0, 2, 1358294400, 3457, 0, 0], [3139658923, "Herr Bachfischer Geschichte H\u00f6llenmaschine an Bord", 0.0, 0, 1377475200, 136, 0, 0], [981549059, "Vocab - Current issues Q1 - ICHEC - BAC1", 0.0, 0, 1390089600, 316, 0, 0], [517434860, "KinDarrion123", 0.0, 0, 1415923200, 111, 0, 10], [293635631, "Florizarre UR", 0.0, 0, 1423008000, 35, 0, 0], [63683038, "Harry Potter in Hindi Glossary", 0.0, 0, 1345852800, 271, 0, 0], [219194394, "merriam webster(my private share)", 0.0, 0, 1430611200, 60, 0, 0], [706416899, "English Irregular Verbs with Phonetic [Persian]", 5.0, 1, 1345852800, 311, 0, 0], [1360184509, "More! 2 Irregular Verbs", 0.0, 0, 1427155200, 87, 0, 0], [2522743621, "German Irregular Verbs, Pr\u00e4teritum und Perfekt", 4.0, 1, 1373587200, 38, 0, 0], [1755061822, "CRR MU anatomy", 0.0, 0, 1412208000, 70, 0, 5], [271662380, "tong hop Barron", 0.0, 0, 1362096000, 2782, 0, 0], [1850296718, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 10", 0.0, 0, 1412467200, 301, 0, 0], [978238095, "BSprA Spa 1-3 2014 Irregulares", 0.0, 0, 1415232000, 91, 0, 0], [963446172, "Catal\u00e0 Ferran unitats 3 i 4", 0.0, 0, 1418601600, 36, 0, 0], [2580745740, "BUSM Anatomy - Clinical Correlations of Back, UE, Embry", 0.0, 0, 1378080000, 83, 0, 0], [146069717, "Konversationsunterricht_2", 0.0, 0, 1414454400, 52, 0, 0], [887553676, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 13", 0.0, 0, 1415836800, 224, 0, 0], [1850657002, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 1", 0.0, 0, 1410566400, 122, 0, 0], [2401346978, "Herr Bachfischer Geschichte Unten Durch", 0.0, 0, 1377475200, 194, 0, 0], [3306700428, "Konversationsunterricht_1", 0.0, 0, 1414454400, 24, 0, 0], [249309112, "Florizarre EN", 0.0, 0, 1428105600, 155, 0, 0], [162363562, "Florizarre RH", 0.0, 0, 1423008000, 151, 0, 0], [2107956735, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 5", 0.0, 0, 1410825600, 203, 0, 0], [1202077702, "Comparative Anatomy of the Vertebrates 9thEd Kent&Carr Ch 3", 0.0, 0, 1410652800, 72, 0, 0], [2051527189, "Harry Potter II (English/German - Icelandic) - chapter 1", 5.0, 1, 1444348800, 488, 0, 0], [1783287555, "PBL Case 3 - Jenny Forrester", 0.0, 0, 1381190400, 51, 0, 1], [1796744286, "English irregular verbs", 2.5, 2, 1427328000, 100, 100, 0], [2811752271, "Common English Irregular Verbs", 0.0, 0, 1356480000, 125, 7, 0], [628514035, "verbi italiani irregolari", 5.0, 1, 1360022400, 2840, 0, 0], [4282224136, "Business Law Exam 2 (Carr)", 3.0, 2, 1345852800, 97, 0, 2], [277160478, "504 Absolutely Essential Words EN to Persian corrected audio", 3.67, 3, 1376870400, 504, 504, 0], [1396383988, "German irregular verbs (full list)", 0.0, 0, 1395705600, 131, 0, 0], [3250953306, "Irregular German Verbs", 0.0, 0, 1345852800, 568, 0, 0], [2092761875, "German irregular verbs", 0.0, 0, 1379289600, 162, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[14284501, "N\u00e4tverksfamiljen", 0.0, 0, 1449446400, 6, 0, 0], [1894538180, "cseres-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [210202527, "gyerty\u00e1nos-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [146952695, "Izpit_voditelj_colna-1del-POMORSKI_PREDPISI", 0.0, 0, 1414281600, 55, 0, 3], [1552589514, "Izpit_voditelj_colna-6del-NAVIGACIJA ", 0.0, 0, 1414281600, 40, 0, 3], [1387552567, "Izpit_voditelj_colna-3del-PRAVILA_IZOGIBANJA_TRCENJA_NA_MORJ", 0.0, 0, 1414281600, 26, 0, 2], [779168285, "Izpit_voditelj_colna-2del-MORNARSKA_DELA_IN_VESCINE ", 0.0, 0, 1414281600, 55, 0, 7], [3746661248, "Goljan Notes for USMLE", 0.0, 0, 1345852800, 508, 0, 0], [936311751, "Izpit_voditelj_colna-4del-OSNOVE_MOTOROZNANSTVA", 0.0, 0, 1414281600, 50, 0, 0], [1140509702, "BLJClinColloq ", 0.0, 0, 1409097600, 332, 0, 4], [463159399, "Kemisk milj\u00f6vetenskap", 0.0, 0, 1386720000, 161, 0, 14], [2105111136, "verbs::b\u00ed\u00f0a, dr\u00edfa, kv\u00ed\u00f0a, bj\u00f3\u00f0a, flj\u00faga, lj\u00faga", 4.0, 1, 1402876800, 75, 0, 0], [1442887919, "NMSKA final sidjhfoshjdfljshdf", 0.0, 0, 1410566400, 610, 0, 141], [3046153246, "SI.SpoznavanjeOkolja.3rdGrade", 0.0, 0, 1363824000, 99, 0, 98], [1609494797, "Izpit_voditelj_colna-5del-METEOROLOGIJA ", 0.0, 0, 1414281600, 21, 0, 1], [1102872731, "Step 3 Flashcards Wustljeff", 0.0, 0, 1404777600, 244, 0, 0], [1417396937, "GoljanGIandBleeding", 0.0, 0, 1407024000, 546, 0, 0], [774638785, "Izpit_voditelj_colna-6del-NAVIGACIJA-oznake ", 0.0, 0, 1414281600, 42, 0, 42]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lj</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[63966141, "Adjektiv", 0.0, 0, 1453161600, 48, 0, 0], [1791629332, "Unit 3: School Subjects & Adjectives", 0.0, 0, 1453161600, 38, 0, 0], [1737581396, "Scottish Gaelic Adjectives", 0.0, 0, 1453766400, 139, 135, 167], [601588002, "Lqsd sdofji ksdjfhskjd", 0.0, 0, 1453939200, 140, 0, 332], [58726747, " german spanish declinaci\u00f3n del adjetivo aleman", 0.0, 0, 1345852800, 51, 0, 0], [1855684416, "Barry Roche Adjectives", 0.0, 0, 1452124800, 2286, 0, 33], [1949898796, "dhksjxjdjsjjjse", 0.0, 0, 1449100800, 500, 0, 1], [92037046, "czech english adjectives and adverbs", 0.0, 0, 1448755200, 397, 0, 0], [1096303402, "ck bgdbvgy vvzdgbcdj", 0.0, 0, 1450915200, 341, 0, 40], [1732464077, "Ukrainian most common Adjectives (UA-ENG; ENG-UA)", 5.0, 2, 1429401600, 125, 125, 0], [1034591649, "czech english adjectives and adverbs", 0.0, 0, 1448755200, 397, 0, 0], [1500498673, "Marathi 4. Adverbs & Adjectives", 0.0, 0, 1447632000, 451, 7, 1], [1678890178, "Japanische Adjektive VHS-WI H73090", 0.0, 0, 1446076800, 60, 0, 0], [870991221, "Adjektive mit unregelm\u00e4\u00dfiger Steigerung", 0.0, 0, 1448409600, 41, 0, 0], [896136496, "German Adjective Endings", 0.0, 0, 1446595200, 154, 0, 2], [1415111778, "DJS Biology H II Test 2", 0.0, 0, 1445990400, 31, 0, 0], [1308505872, "Japanese Vocab - Basic Adjectives", 0.0, 0, 1445990400, 25, 0, 0], [197736293, "Deutsch Goethe Adjektive mit Gegenteil ", 0.0, 0, 1448064000, 36, 3, 2], [2014784814, "Japanese Adjectives PRA", 0.0, 0, 1439164800, 110, 0, 0], [1987010801, "Adjetibos con \"B\" larga", 0.0, 0, 1440720000, 105, 0, 0], [1262224552, "Describing graphs DJ", 0.0, 0, 1444089600, 51, 0, 0], [583105927, "Adjectivos Espanoles de Ser CJO", 0.0, 0, 1442448000, 85, 0, 53], [1323026872, "Salateb10", 0.0, 0, 1445385600, 140, 0, 9], [22218332, "AP Japanese Adjectives Set 2", 0.0, 0, 1440460800, 25, 8, 15], [1607964113, "jacobson6adjectives", 0.0, 0, 1442102400, 32, 0, 0], [1329070651, "German Adjectives", 0.0, 0, 1345852800, 221, 0, 0], [1341577645, "Japanese Adjectives", 0.0, 0, 1438214400, 35, 0, 0], [1569823211, "Nearly all adjectives, adverbs, verbs and nouns in japanese ", 3.0, 2, 1409788800, 2989, 3, 0], [381859838, "Adjektiven+sein mit Pr\u00e4positionen tschechisch-deutsch byWolf", 0.0, 0, 1411603200, 62, 0, 0], [1269608461, "Marathi adjectives - simple", 0.0, 0, 1403654400, 80, 0, 0], [1423455720, "German Verbs and Adjectives with prepositions", 0.0, 0, 1429660800, 143, 0, 0], [1100815964, "Nahuatlahtolil: Adjectives", 0.0, 0, 1414368000, 103, 101, 0], [1540239470, "Adjektive", 0.0, 0, 1383782400, 29, 0, 0], [1159746774, "Django Framework", 0.0, 0, 1396915200, 10, 0, 0], [3469155384, "amu polish adj", 0.0, 0, 1364342400, 34, 0, 0], [2138997147, "Ven\u00e4j\u00e4n adjektiivien vertailuasteet", 0.0, 0, 1419292800, 31, 0, 0], [1432616342, "Turkish Adjectives", 0.0, 0, 1345852800, 17, 0, 0], [642102559, "German articles and adjective endings", 5.0, 1, 1360368000, 48, 0, 0], [1541853171, "D\u00e4ggdjur Sanna", 4.0, 1, 1423094400, 39, 0, 39], [1533879605, "adjectifs de personnalit\u00e9 n\u00e9gatifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 66, 0, 0], [1913121146, "02 DE FRITZ computer / adjective", 0.0, 0, 1392595200, 187, 0, 0], [489643493, "German adjective endings", 0.0, 0, 1423699200, 62, 0, 0], [261154551, "adjectifs de personnalit\u00e9 positifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 72, 0, 0], [2028939378, "Max revel condorcet 2", 0.0, 0, 1425427200, 7, 0, 0], [283576710, "Personality Adjectives", 4.0, 1, 1423180800, 19, 0, 0], [308425927, "03Adjectives", 0.0, 0, 1406764800, 72, 0, 0], [2749225995, "\u0e44\u0e21\u0e44\u0e17\u0e22 - Adjektive, Adverbien, Pr\u00e4positionen ", 0.0, 0, 1383782400, 334, 0, 0], [292642240, "Cantonese: Adjectives", 0.0, 0, 1426550400, 21, 0, 0], [254403026, "\u5f62\u5bb9\u8a5e\u300c\u3051\u3044\u3088\u3046\u3057\u300d (Adjectieven - Adjectives)", 0.0, 0, 1417392000, 84, 0, 0], [2403694515, "Persian (Farsi) Adjectives", 0.0, 0, 1379548800, 474, 0, 0], [1955258544, "Steve's Turkish Deck (adjectives)", 0.0, 0, 1395273600, 307, 0, 0], [1799998678, "Top 100 Korean Adjectives", 0.0, 0, 1407456000, 100, 0, 0], [1745621996, "Korgan's common German adjectives", 3.5, 2, 1345852800, 16, 0, 0], [1736555901, "PHZH Quest CAE Prep Common Adjective Collection", 0.0, 0, 1414713600, 12, 0, 0], [1230410428, "Spanish-Russian dictionary of adjectives (part 1)", 0.0, 0, 1345852800, 539, 0, 0], [2064299443, "Marathi - adjectives - intermediate", 0.0, 0, 1403654400, 30, 0, 0], [423203513, "Japanese basic adverbs and adjectives (mostly from JTMW)", 0.0, 0, 1413244800, 108, 0, 0], [501499100, "L3 - Adjectieven", 0.0, 0, 1390348800, 70, 0, 0], [1585581476, "Kr\u00e4ldjur Sanna", 0.0, 0, 1423180800, 6, 0, 7], [3341204081, "Python/Django", 0.0, 0, 1384819200, 143, 0, 0], [1546594353, "Adjectives from Ultimate N5 Vocabulary deck", 0.0, 0, 1345852800, 126, 0, 0], [1022111111, "MDJC Judo Terminology", 0.0, 0, 1384387200, 353, 0, 1], [1442887919, "NMSKA final sidjhfoshjdfljshdf", 0.0, 0, 1410566400, 610, 0, 141], [1401658787, "German Duolingo Plus with 6,500 word (adj50)", 5.0, 1, 1434931200, 4801, 0, 0], [297920192, "Altgriechisch Nomen \u00fc Adjektive", 3.0, 1, 1362009600, 808, 0, 0], [553926592, "Adjetivos - antonyms", 0.0, 0, 1384300800, 19, 0, 0], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [3623013922, "Spanish-Russian dictionary of adjectives (part 2)", 0.0, 0, 1345852800, 554, 0, 0], [1921987784, "French adjectives", 0.0, 0, 1412467200, 211, 0, 0], [809077151, "Svenska Adjektiv", 0.0, 0, 1368921600, 185, 0, 0], [2793929001, "105 portuguese adjectives", 0.0, 0, 1381708800, 132, 0, 0], [428171829, "dakua'ana davi v. adjetivos", 0.0, 0, 1411689600, 13, 13, 12], [1812974201, "N2 200 Adj", 0.0, 0, 1423958400, 166, 0, 0], [577464514, "German - Adjective words (Ukr)", 0.0, 0, 1419638400, 2, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dj</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

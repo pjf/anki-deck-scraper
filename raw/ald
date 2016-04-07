@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1829276931, "BaldyBunch Dani Afr Week1", 0.0, 0, 1454025600, 52, 52, 0], [1833052782, "B\u00f3khald og skattskil", 0.0, 0, 1453507200, 20, 0, 0], [441418890, "Methoden 7 kowi Uhlemann greifswald", 0.0, 0, 1452211200, 19, 0, 0], [1689009828, "Eucarist\u00eda (Gustavo Balderas Soto)", 0.0, 0, 1449705600, 87, 0, 0], [282238661, "Eucarist\u00eda (Gustavo Balderas Soto)", 0.0, 0, 1449705600, 13, 0, 0], [1835494817, "statistik 5 uhlemann greifswald", 0.0, 0, 1447891200, 20, 0, 13], [530808356, "statistik 4 uhlemann greifswald", 0.0, 0, 1447891200, 21, 0, 16], [1747372356, "Statistik 1 Uhlemann Greifswald", 0.0, 0, 1446595200, 20, 0, 0], [799719567, "Statistik 2 uhleman Greifswald", 0.0, 0, 1447891200, 23, 0, 10], [1925856187, "methoden 4 uni greifswald", 0.0, 0, 1446595200, 20, 0, 0], [796385110, "Algorithmist's Kalderash Romani  Numbers 1 to 10", 0.0, 0, 1444089600, 10, 29, 31], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 0.0, 0, 1424217600, 20, 20, 0], [1452703727, "Afrikaans Exam Work (Baldy Bunch)", 0.0, 0, 1437091200, 101, 101, 0], [870727920, "Afrikaans Numbers (Baldy Bunch)", 0.0, 0, 1437091200, 70, 70, 0], [1123097461, "Afrkaans Negatives (Baldy Bunch)", 0.0, 0, 1436918400, 52, 34, 0], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [1384956353, "McDonald: MS", 0.0, 0, 1422921600, 39, 0, 4], [1322621374, "Creative Arts Test1 Drama FD (Baldy Bunch)", 0.0, 0, 1425945600, 6, 0, 0], [838976538, "Afrikaans Conjunctions (Baldy Bunch)", 0.0, 0, 1437091200, 44, 123, 0], [1368943848, "Maths Facts (Baldy Bunch Homeschool)", 0.0, 0, 1416700800, 48, 0, 0], [1859521142, "Creative Arts Test 1 Dance FD (Baldy Bunch)", 0.0, 0, 1425945600, 26, 0, 0], [1180429794, "McDonald 12/7/2015", 0.0, 0, 1421193600, 34, 0, 6], [725326782, "Afr HF Vocab Words 2 (Baldy Bunch)", 0.0, 0, 1427673600, 10, 10, 0], [1213322278, "English Test Deck 2 (Baldy Bunch)", 0.0, 0, 1423526400, 18, 0, 0], [1529126688, "Neuro McDonald Head Injury", 0.0, 0, 1421712000, 34, 0, 13], [158747140, "Neuro McDonald Ischemia", 0.0, 0, 1421625600, 32, 0, 4], [2211969297, "MBBS 1 Week 31 - Emerald City", 0.0, 0, 1350172800, 102, 0, 27], [628989051, "Afr HF Vocab Words 1 (Baldy Bunch)", 0.0, 0, 1427673600, 9, 9, 0], [1075975738, "Afr HF Sentences 1 (Baldy Bunch)", 0.0, 0, 1427673600, 11, 11, 0], [400080736, "McDonald: CNS tumors", 0.0, 0, 1423612800, 30, 0, 18], [285999610, "Afrikaans gender (Baldy Bunch)", 0.0, 0, 1437264000, 12, 24, 0], [506049295, "McDonald CNS Infections", 0.0, 0, 1423180800, 39, 0, 22], [3109610524, "Baldwin Physio test #2", 0.0, 0, 1383868800, 136, 0, 131], [1822253716, "1-2-3 Tarot Sentences by Donald Tyson", 0.0, 0, 1423353600, 78, 0, 78]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ald</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

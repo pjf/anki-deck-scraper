@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [1585004278, "Politikwissenschaften M1 WS 15/16", 0.0, 0, 1454976000, 44, 0, 0], [1480731014, "soft tissue injury", 0.0, 0, 1454803200, 80, 0, 0], [1481839018, "AKELT TOP 200 MISSPELLED WORDS", 0.0, 0, 1453248000, 208, 201, 0], [1663345793, "Mexican slang - Chrissy 1/23", 0.0, 0, 1453593600, 326, 3, 1], [1699844511, "SM22 - Romance Under the Moon: Usagi's First Kiss", 0.0, 0, 1453161600, 23, 0, 0], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [947146768, "Swiss Cantons", 5.0, 1, 1440633600, 26, 20, 52], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [397694561, "Fixed-Income Markets: Issuance, Trading, and Funding (R. 53)", 0.0, 0, 1451088000, 17, 0, 0], [2020009036, "CVS - aortic dissection", 0.0, 0, 1449705600, 11, 0, 0], [1968565138, "Security for CISSP", 0.0, 0, 1446076800, 288, 0, 0], [413473480, "Mississippi Driver's License", 0.0, 0, 1449014400, 121, 0, 0], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [353300711, "miriam-tissue", 0.0, 0, 1444521600, 62, 2, 82], [1344654951, "Synaptic transmission", 0.0, 0, 1443744000, 19, 0, 0], [1648141761, "miriam-tissue repair", 0.0, 0, 1444521600, 58, 2, 82], [1843161047, "Issues class", 0.0, 0, 1443398400, 12, 0, 0], [607132059, "Connective tissue ", 0.0, 0, 1443052800, 62, 0, 0], [1584106381, "B1: soft tissue", 0.0, 0, 1441411200, 14, 0, 0], [228328181, "MTH - Histo: Connective Tissue", 0.0, 0, 1440460800, 14, 0, 0], [91537764, "Connective tissue", 0.0, 0, 1441238400, 25, 0, 10], [17505518, "Anatomy lecture ch. 6 bone tissue", 0.0, 0, 1443830400, 23, 0, 0], [1915605482, "Soft tissue tumors MSK", 0.0, 0, 1440547200, 26, 0, 34], [321353496, "box info up to connective tissue", 0.0, 0, 1440806400, 511, 0, 3], [376688634, "aloisspanish", 0.0, 0, 1417305600, 163, 2, 3], [187075054, "MCP Lecture 20 Synaptic Transmission", 0.0, 0, 1440547200, 89, 0, 7], [661189597, "Economic issues nico", 0.0, 0, 1433203200, 268, 0, 0], [2231312730, "Javisst! - Lektion 1-6", 0.0, 0, 1359072000, 621, 0, 0], [130437953, "JH Rat Disssection", 0.0, 0, 1399593600, 46, 0, 6], [2804383900, "Histology Lymph Tissue", 0.0, 0, 1351123200, 28, 0, 0], [1558864285, "ILM Tissue Staining", 0.0, 0, 1409443200, 18, 0, 0], [1529639272, "rowan som histology block 1 lecture 2 connective tissue", 0.0, 0, 1409270400, 125, 0, 151], [1348792774, "geissech\u00e4s6", 0.0, 0, 1415750400, 28, 0, 0], [1716169553, "Angol - Issm\u00e9tl\u00e9s - 1.", 0.0, 0, 1437264000, 171, 0, 0], [621631940, "Adolescent Health Issues-Erigo-Backsman", 0.0, 0, 1438387200, 87, 0, 0], [1144782560, "Basic Tissues Exam 1", 0.0, 0, 1423612800, 357, 0, 4], [1835485847, "Effects on Injury on Tissue 2 Lab VIJ", 0.0, 0, 1413072000, 18, 0, 31], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [2176251115, "Deutsch Allgemeinwissen Gymnasium Schweiz", 0.0, 0, 1372377600, 28, 0, 1], [1571818393, "Angol - Issm\u00e9tl\u00e9s - 2.", 0.0, 0, 1437264000, 94, 0, 0], [376905944, "Allgemeinwissen Schweiz", 0.0, 0, 1362268800, 255, 0, 0], [920073123, "socialissues", 0.0, 0, 1365465600, 198, 0, 0], [1531742625, "Connective Tissue", 0.0, 0, 1414108800, 86, 0, 0], [735818947, "Muscle tissue histo lecture", 0.0, 0, 1409702400, 39, 0, 1], [1370226830, "Neisseria IUSM", 0.0, 0, 1377561600, 9, 0, 0], [514289067, "Week 1 Epithelium & Connective Tissue", 0.0, 0, 1409443200, 74, 0, 0], [776184665, "HMS.IMP.Cells.Tissue.Immune", 0.0, 0, 1364342400, 20, 0, 6], [1443981745, "BB 02.12.15 NMJ Transmission", 0.0, 0, 1424304000, 31, 0, 0], [646328235, "MID2 up to date missing some derm but otherwise totally comp", 0.0, 0, 1424908800, 468, 0, 81], [69701301, "geissech\u00e4s3", 0.0, 0, 1415750400, 53, 0, 0], [2057840245, "Droit p\u00e9nal suisse (ECG)", 0.0, 0, 1425340800, 24, 0, 0], [4274950988, "Grundkenntnisse Japanisch 1 - Kanji", 0.0, 0, 1380240000, 15, 0, 15], [1484754259, "\u767e\u4eba\u4e00\u9996\u304b\u308b\u305f Hyakunin isshu karuta ", 5.0, 3, 1364428800, 100, 0, 0], [928140404, "Wallangues / Altissia Pronunciation English", 0.0, 0, 1386633600, 53, 0, 0], [299042074, "Test share deck - connective tissues", 0.0, 0, 1423440000, 41, 0, 0], [1877436951, "neuroanatomy -melissa", 0.0, 0, 1428451200, 19, 0, 2], [101538968, "Blissymbols by MM", 0.0, 0, 1427587200, 1973, 0, 2041], [83746521, "Hackprentissage", 0.0, 0, 1369699200, 1, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [1643887006, "Miss Bala", 5.0, 2, 1368316800, 100, 0, 73], [810972721, "geissech\u00e4s4", 0.0, 0, 1415750400, 42, 0, 0], [1263169432, "English Misspelled Words", 4.0, 1, 1356480000, 182, 180, 0], [55260522, "bvj havo-4 basisstof 1 regelkringen en homeostase", 0.0, 0, 1431993600, 13, 0, 3], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [3963018481, "Ethical and Legal Issues in Medicine (HBM)", 0.0, 0, 1377043200, 75, 0, 0], [973582349, "disse - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395273600, 30, 60, 0], [376622019, "geissech\u00e4s5", 0.0, 0, 1415750400, 29, 0, 0], [2040082470, "geissech\u00e4s1", 0.0, 0, 1411776000, 42, 0, 0], [920911041, "Einf\u00fchrung in die Kognitionswissenschaft 2", 0.0, 0, 1359936000, 247, 0, 0], [1667159144, "Biochem, Unit 4; Bone Tissue", 0.0, 0, 1414108800, 101, 0, 0], [2122130615, "MCV 2018 Basic Tissues", 0.0, 0, 1418256000, 50, 0, 50], [998551176, "Micro: Tissue Responses to Infection 10/30", 0.0, 0, 1415318400, 56, 0, 6], [584841751, "Commission europ\u00e9enne DEUE", 0.0, 0, 1397347200, 4, 0, 0], [1003871939, "MCM Test 3: 8.14 Nerve Tissue (Heck)", 0.0, 0, 1408492800, 61, 0, 0], [1091546211, "Renaissance notation ligatures", 0.0, 0, 1393286400, 8, 0, 8], [1543044327, "Die Nacht von Lissabon", 0.0, 0, 1414800000, 54, 0, 0], [2438989451, "Grundkenntnisse Japanisch 1 - Vokabeln", 0.0, 0, 1380240000, 102, 0, 0], [590826154, "Berlitz Exploring the Issues HUN_ENG", 0.0, 0, 1388448000, 146, 0, 0], [1597134098, "Ogura Hyakunin Isshu", 0.0, 0, 1418515200, 100, 0, 200], [662887611, "Kapitel 5 Tissue", 0.0, 0, 1364342400, 18, 0, 0], [487525540, "sandra and melissa", 0.0, 0, 1420329600, 61, 0, 3], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [1715145526, "Max*/Matiar/Ameer Cell and Tissue Injury", 0.0, 0, 1377820800, 44, 0, 25], [26259884, "Cell Tissue and Biology Final Exam (Lab)", 1.0, 1, 1413244800, 244, 0, 0], [1559867382, "7jours - Pandas, Sotchi, la Suisse", 0.0, 0, 1396137600, 50, 0, 0], [1070555104, "geissech\u00e4s2", 0.0, 0, 1411776000, 28, 0, 0], [981549059, "Vocab - Current issues Q1 - ICHEC - BAC1", 0.0, 0, 1390089600, 316, 0, 0], [1257784623, "FHB L2: Neurotransmission & Autonomic NS", 0.0, 0, 1420502400, 17, 0, 24], [639380537, "Voc Anglais Dissertation ", 0.0, 0, 1361318400, 140, 0, 0], [2132075769, "Week 1 Muscle and Peripheral Neural Tissue", 0.0, 0, 1409443200, 18, 0, 0], [2161294631, "AF2 dissektion 8 - kar, nerver og andre strukturer", 0.0, 0, 1345852800, 37, 0, 74], [3264013397, "A&P Exam #2: Cell Anatomy, Tissues, Bones", 0.0, 0, 1382745600, 0, 0, 0], [709742492, "Histology - Connective Tissue", 0.0, 0, 1408752000, 54, 0, 0], [2316163379, "CRM- Storage and use of Human tissue ", 0.0, 0, 1367539200, 11, 0, 1], [615269984, "IMC 501 - Epithelial Tissue", 0.0, 0, 1407196800, 107, 0, 34], [2020634774, "Effects of Injury on Tissues 2 VIJ", 0.0, 0, 1413072000, 24, 0, 22], [1405009676, "aloisswedish", 0.0, 0, 1417305600, 496, 2, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iss</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

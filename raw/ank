@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[993866228, "NihongoShark.com Blank Vocabulary Deck", 0.0, 0, 1425168000, 1, 0, 1], [1110833860, "KF, Kontof\u00fchrung 2015/16 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1454630400, 47, 0, 0], [1230337683, "Awesome Anatomy Anki deck 1.3 (aby_baby)", 5.0, 4, 1453420800, 1980, 40, 370], [662847082, "Similar Hanzi Pairs Ranked by Most Common", 0.0, 0, 1449100800, 416, 576, 1], [1970401628, "Marcio ... Meu anki", 0.0, 0, 1454716800, 220, 0, 0], [1738476925, "Brocencephalon Anki deck (FA+Path+Pharm)", 5.0, 1, 1453852800, 15696, 0, 2718], [226084984, "Goban Note Type for Anki SGF Plugin", 4.5, 2, 1449014400, 9, 0, 5], [304508311, "AA Endocrine Anki", 0.0, 0, 1454112000, 36, 0, 52], [976133416, "A test set meant to start working with Anki", 0.0, 0, 1454025600, 13, 0, 19], [1111466194, "100 Most Common German Words - GermanAnkiDecks.com", 0.0, 0, 1386201600, 100, 0, 0], [254260021, "Uni Frankfurt Sinologie L3 DE Pinyin Hanzi", 5.0, 1, 1452729600, 50, 0, 0], [474818579, "P\u00fctz Pflanzenkrankheiten", 0.0, 0, 1452816000, 19, 0, 0], [194405312, "DD Step 1 Anki Cards", 0.0, 0, 1452038400, 1621, 0, 4], [206033178, "Anki\u306e\u57fa\u790e\u77e5\u8b58", 0.0, 0, 1452384000, 104, 0, 0], [1075892172, "Uni Frankfurt Sinologie L1 DE Pinyin Hanzi", 5.0, 1, 1452729600, 35, 0, 0], [1020037227, "Power 200: HY concept cards from Q banks:", 0.0, 0, 1450310400, 215, 0, 54], [17443078, "Uni Frankfurt Sinologie L2 DE Pinyin Hanzi", 5.0, 1, 1452729600, 58, 0, 0], [1745961245, "Ortskundepr\u00fcfung Krankentransport Hamburg", 0.0, 0, 1452988800, 47, 0, 0], [78045525, "Staaten, L\u00e4nder, States und \u00dcberseegebiete (Anki2)", 1.0, 1, 1384732800, 323, 2, 950], [1076421898, "Anatomy Ankle Muscles", 0.0, 0, 1449619200, 117, 0, 48], [810249417, "Speech Text template for iOS (AnkiMobile)", 5.0, 1, 1452470400, 5, 0, 0], [571074513, "Personal Pattern for Anki Desk", 0.0, 0, 1448236800, 0, 0, 0], [540621746, "KF, Kontof\u00fchrung 2015/16 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1447459200, 47, 0, 0], [1947809580, "Anki Panki my Hanky", 0.0, 0, 1446681600, 233, 0, 19], [525500214, "SPEL suftlank core vocabulary", 0.0, 0, 1446163200, 1077, 0, 0], [1743113559, "WTFanki", 0.0, 0, 1447545600, 751, 0, 0], [1346912511, "The highly efficient GRE Anki deck", 5.0, 5, 1448928000, 569, 570, 568], [314566160, "Anki polityka", 0.0, 0, 1445558400, 36, 0, 0], [1461628421, "Pathoma Anki 2015", 0.0, 0, 1441152000, 92, 0, 52], [1671772629, "uworldqbank medicine", 0.0, 0, 1440979200, 1111, 0, 6], [1935070056, "Micro anki cards V2", 0.0, 0, 1442016000, 332, 0, 5], [674452450, "dokumentarni akreditiv i bankarska garancija", 0.0, 0, 1441756800, 32, 0, 0], [1001905065, "BBC Food banks", 0.0, 0, 1442275200, 27, 0, 7], [1338419429, "The Ultimate CFA Level 1 Anki Deck", 5.0, 1, 1438300800, 1400, 8, 209], [431059496, "hankuko2_direction", 0.0, 0, 1432252800, 22, 28, 22], [2040022550, "hankuko", 0.0, 0, 1431820800, 6, 6, 6], [121814823, "shankiewankipanks", 0.0, 0, 1414454400, 93, 0, 54], [3383967349, "CofO2 - 19 - Carriage of Gases In Blood.anki", 0.0, 0, 1345852800, 26, 0, 0], [1856212368, "Cyrylica Gra\u017cdanka", 0.0, 0, 1345852800, 187, 0, 70], [1605348409, "Military Rates and Ranks", 0.0, 0, 1414454400, 71, 0, 72], [1997340223, "Anki pathology Md6 MSK", 0.0, 0, 1415232000, 231, 0, 210], [2797148898, "CofO2 - 21 - Pharmacology of Respiration.anki", 0.0, 0, 1345852800, 23, 0, 0], [2713183883, "GVA, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute komplett", 0.0, 0, 1376006400, 244, 0, 0], [1516259222, "Examples from Using Anki Flashcards", 0.0, 0, 1412985600, 1, 0, 0], [3009949032, "Gabe's French Deck (Anki en Fran\u00e7ais sans Anglais)", 3.2, 5, 1345852800, 4089, 0, 2267], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [1657969619, "KF, Kontof\u00fchrung f\u00fcr Bankkaufleute 2015 ", 0.0, 0, 1437696000, 171, 0, 0], [344807918, "GVA 2015 ZWP, Geld- und Verm\u00f6gensanlage f\u00fcr Bankkaufleute", 0.0, 0, 1437696000, 92, 0, 0], [439513413, "OSU - MSK - Lower Leg and Ankle Joint", 0.0, 0, 1418342400, 90, 0, 55], [4220110423, "Neuro Exam 4 Anki", 0.0, 0, 1370476800, 94, 0, 141], [510759035, "Hiszpanski by jankoxik", 0.0, 0, 1401494400, 17, 17, 0], [3574305592, "Rimske pravo - sedmistrankovy soubor", 0.0, 0, 1362441600, 133, 0, 0], [450525684, "block 2 legs, ankle, feet", 0.0, 0, 1414281600, 112, 0, 0], [978173653, "MBChB 3 Glasgow Uni Anki cards ", 0.0, 0, 1390953600, 855, 0, 113], [1898004627, "Hanky Code", 0.0, 0, 1367712000, 76, 0, 52], [2877041043, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C \u0130\u015fletme Soru Bankas\u0131", 0.0, 0, 1368662400, 82, 0, 0], [217144510, "UTH HIsto Anki Last Week", 0.0, 0, 1382140800, 323, 0, 77], [478140722, "CofO2 - Microanatomy.anki", 0.0, 0, 1345852800, 50, 0, 0], [1189529087, "Banking, Markets, Stock Exchange, Finance English-Russian", 0.0, 0, 1408233600, 5078, 0, 0], [1395881924, "hankuko3_number", 0.0, 0, 1433203200, 33, 33, 33], [133254136, "Verankerungen im Tragwerk aus Beton und Mauerwerk", 0.0, 0, 1406073600, 16, 0, 0], [635765833, "TW COMBANK Deck", 0.0, 0, 1433203200, 525, 1, 27], [1510756841, "BKR, Bankrechnen f\u00fcr Bankkaufleute 2013/14 Teil 1", 0.0, 0, 1390262400, 38, 0, 0], [2444930906, "CMS 4 - Ankle & Foot (Ryan's)", 0.0, 0, 1345852800, 37, 0, 2], [1699055358, "Immunology Anki Cards", 0.0, 0, 1416528000, 209, 0, 234], [395054002, "Aprendendo alem\u00e3o com Anki", 1.0, 1, 1428192000, 3, 0, 0], [214234931, "Kanji in italiano per ankiweb (Jouyou kanji)", 0.0, 0, 1452470400, 2622, 3, 0], [1009874510, "US Military - Rank & Insignia", 0.0, 0, 1419292800, 38, 0, 36], [3786791111, "Datenbanksysteme bei Prof. Dr. B\u00f6hm am KIT (2013)", 4.0, 1, 1374537600, 60, 0, 0], [1013797125, "WI13Datenbanken1", 5.0, 1, 1413936000, 49, 0, 41], [1547365431, "AnkiBac : Fiches pour le bac de SVT", 5.0, 1, 1358899200, 71, 0, 0], [204789917, "Note Type for wanikanitoanki.com", 4.0, 1, 1424995200, 1, 0, 1], [179864438, "CofO2 - 20 - Control of Ventilation.anki", 0.0, 0, 1345852800, 26, 0, 0], [3138630010, "Anki", 1.0, 1, 1366934400, 1, 0, 0], [2034657489, "Italian-Lithuanian/English Anki deck v.2", 0.0, 0, 1431302400, 3328, 0, 0], [1434563486, "JS Anki deck by Sivers", 5.0, 2, 1426377600, 351, 0, 0], [898810736, "General Medicine Ankiweb", 0.0, 0, 1407715200, 6, 0, 0], [1794062026, "Sample Anki deck - General English and IELTS questions", 0.0, 0, 1416614400, 18, 0, 1], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [236469441, "zgibankaBled", 0.0, 0, 1363132800, 98, 98, 0], [2602425662, "D - PL, Deutsch - Polnisch querbeet, mieszanka", 0.0, 0, 1360713600, 428, 0, 0], [3078424777, "Mankiw - Macroeconomics", 0.0, 0, 1368403200, 16, 0, 0], [2048370279, "Benjamin Franklin's 13 Virtues", 0.0, 0, 1406332800, 13, 5, 0], [970552610, "Pharma Frankfurt", 5.0, 1, 1383436800, 428, 0, 0], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 0.0, 0, 1345852800, 806, 0, 0], [245659716, "ANKI", 0.0, 0, 1413158400, 354, 0, 1965], [1311117475, "\u82f1\u8a9eBoost! \u2010 Blank Deck\uff08\u7a7a\u767d\u306e\u5358\u8a9e\u5e33\uff09", 0.0, 0, 1413072000, 1, 3, 2], [4124362349, "AnkiBac : Fiches pour le bac d'Histoire", 5.0, 1, 1358899200, 47, 0, 0], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ank</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

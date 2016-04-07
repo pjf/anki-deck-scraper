@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[778135515, "Sopica thorax MAJ", 0.0, 0, 1452902400, 53, 0, 8], [107207870, "Thorax and Abdomen MMA", 0.0, 0, 1447027200, 217, 0, 11], [201607898, "Health Assessment Chapter 19 Thorax and Lungs", 0.0, 0, 1443571200, 59, 0, 0], [629577173, "Thorax", 0.0, 0, 1440547200, 109, 0, 30], [1020875525, "Kanji Praxi 2\u3000\uff11\uff0eTest", 0.0, 0, 1428278400, 90, 0, 0], [793705624, "CT scans of thorax at various levels", 0.0, 0, 1423958400, 5, 0, 13], [1268003167, "Interval 4 Thorax", 0.0, 0, 1381104000, 14, 0, 11], [377600425, "Thorax: Lower respiratory tract. 9.7.13", 0.0, 0, 1373414400, 21, 0, 23], [1102886196, "thorax imaging session 3", 0.0, 0, 1422662400, 42, 0, 51], [1564327545, "Thorax Lecom", 0.0, 0, 1410134400, 147, 0, 20], [4069436210, "Wiki The Thorax", 0.0, 0, 1345852800, 54, 0, 37], [543715289, "Surface Anatomy - Neck Thorax and Abdomen", 0.0, 0, 1411257600, 1, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [1109612396, "dasha daythorax", 0.0, 0, 1422316800, 84, 0, 85], [3682081450, "  Thorax wall and boundaries, surface anatomy and breast. 9.", 0.0, 0, 1373414400, 36, 0, 40], [1488017107, "CofO2 - 3 - Circulation of Thorax", 0.0, 0, 1345852800, 43, 0, 0], [1888174505, "ANAT: THORAX", 0.0, 0, 1422835200, 144, 0, 42], [1506175587, "MC Gross Anatomy Exam 2 - Thorax", 0.0, 0, 1412294400, 102, 0, 0], [405816537, "SS UNM SOM HSF&D Week 4 Thorax MINIMAL", 0.0, 0, 1413849600, 570, 0, 276], [1445649843, "Kanji Praxis 2 \uff13.Test", 0.0, 0, 1428278400, 190, 0, 0], [20234077, "Block 3 thorax anatomy", 0.0, 0, 1415836800, 120, 0, 0], [1060245718, "Kanji Praxis 2 2.Test", 0.0, 0, 1428278400, 172, 0, 0], [230198547, "Praxis math flashcards for both Praxis I and II exams", 0.0, 0, 1357344000, 400, 0, 185]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rax</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

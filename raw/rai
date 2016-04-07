@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[232401491, "English-Ukrainian", 0.0, 0, 1429574400, 1167, 0, 0], [3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [160559158, "Ukraine - Deutsch - unregelm\u00e4\u00dfige Verben", 0.0, 0, 1454976000, 36, 0, 0], [849454182, "3000 English sentences with ukrainian translates", 5.0, 4, 1430870400, 3353, 3392, 47], [530238957, "SBFV - Trainer C - Kinder und Jugendtraining", 0.0, 0, 1453852800, 7, 0, 0], [1699867374, "SBFV - Trainer C - Methodik P\u00e4dagogik", 0.0, 0, 1453852800, 7, 0, 0], [1791761336, "Polski - ukrainski zdanie", 0.0, 0, 1430870400, 2426, 2369, 47], [331742207, "4000 Essential English Words, extraits 2 (fr)", 0.0, 0, 1443484800, 184, 183, 187], [157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [611382206, "IMS II: Brain sciences I", 0.0, 0, 1453852800, 943, 0, 316], [1557524851, "SBFV - Trainer C - Schnelligkeitsausdauertraining", 0.0, 0, 1453852800, 20, 0, 1], [1454340636, "SBFV - Trainer C - Koordinationstraining", 0.0, 0, 1453852800, 8, 0, 0], [398944184, "L16 Gout/Migraine Drugs", 0.0, 0, 1452384000, 15, 0, 0], [910004888, "SBFV - Trainer C - Ausdauer", 0.0, 0, 1453680000, 19, 0, 0], [1642358939, "Rails & Gems", 0.0, 0, 1453161600, 17, 0, 0], [1413496812, "Ariella- Spec Path brain tumors", 0.0, 0, 1450742400, 113, 2, 129], [512634474, "Ukrainien sans peine assimil Ukrainien/ fran\u00e7ais", 0.0, 0, 1443398400, 676, 6, 6], [153746441, "Brain-driven psychological concepts and tendencies", 5.0, 1, 1442793600, 272, 0, 9], [42467525, "4000 Essential English Words, extraits 3 (fr)", 0.0, 0, 1443225600, 302, 301, 305], [35536644, "Java Training", 0.0, 0, 1445731200, 1, 0, 0], [452110246, "German Gender Rules and Tips III (Valparaiso University)", 5.0, 1, 1345852800, 90, 0, 0], [993389931, "4000 Essential English Words, extraits 1 (fr)", 0.0, 0, 1443484800, 142, 140, 145], [1207893780, "German Gender Rules and Tips Sample Words (Valparaiso U)", 0.0, 0, 1405123200, 38, 0, 0], [1732464077, "Ukrainian most common Adjectives (UA-ENG; ENG-UA)", 5.0, 2, 1429401600, 125, 125, 0], [502842769, "German Gender Rules and Tips I (Valparaiso University)", 0.0, 0, 1345852800, 33, 0, 0], [96595505, "Brain & Cranial Nerves", 0.0, 0, 1449014400, 83, 0, 27], [1821426174, "Ukrainian Prepositions (picts+audio) ENG-UA / UA-ENG", 3.67, 3, 1430870400, 29, 29, 29], [332542285, "MD6 Brain Tumors", 0.0, 0, 1448582400, 58, 0, 98], [4186458196, "Musical Interval Training", 4.0, 1, 1381795200, 216, 0, 0], [1750037289, "German Gender Rules and Tips Sample Words I (Valparaiso U)", 0.0, 0, 1405123200, 42, 0, 0], [765517752, "Blood Supply, CSF, Supporting Structures of Brain", 0.0, 0, 1425859200, 135, 0, 17], [1541593467, "Ukrainian Numerals (Num-UA/UA-Num) + AUDIO", 5.0, 1, 1436572800, 77, 77, 0], [1793735628, "Kids - Facts on Heart and Brain", 0.0, 0, 1443312000, 37, 0, 0], [168724376, "Animal Phys Exam 2 Brain", 0.0, 0, 1445817600, 0, 0, 0], [352894725, "German Gender Rules and Tips Sample Words II (Valparaiso U)", 0.0, 0, 1405123200, 24, 0, 0], [940233116, "ARC Sheep Brain Practical", 0.0, 0, 1442016000, 192, 0, 192], [914673492, "BRAINS", 0.0, 0, 1443312000, 905, 0, 174], [215599725, "Brain and Behavior", 0.0, 0, 1443225600, 1086, 0, 309], [1967624257, "Learn spoken English with John Medina's book Brain Rules", 0.0, 0, 1441756800, 36, 36, 0], [1674576176, "Vrai ou Faux Market Midterms", 0.0, 0, 1445299200, 41, 0, 0], [580614262, "Procedural Skills Training", 0.0, 0, 1439769600, 65, 0, 3], [1190284708, "Ukrainian Beginner 2015", 0.0, 0, 1439164800, 535, 0, 0], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 5.0, 1, 1433721600, 2000, 6, 4], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [958302064, "Pronunciation trainer and minimal pairs", 0.0, 0, 1412467200, 101, 133, 65], [3225276328, "neuroanatomy images Brain and Behavior MSSM", 0.0, 0, 1379548800, 115, 0, 228], [1935085027, "Ear training (chords)", 0.0, 0, 1392163200, 56, 56, 0], [598599126, "B&B 02.16.15 Brainstem 2", 0.0, 0, 1424304000, 27, 0, 0], [190522232, "Judesiai ir raumenys bendrai", 0.0, 0, 1431820800, 124, 0, 135], [1203310645, "Basic Ukrainian", 0.0, 0, 1432166400, 33, 0, 0], [1979462628, "Personality Traits (50) Russian - English", 0.0, 0, 1405900800, 51, 0, 0], [1435905833, "Gairaigo - These are Katakana words from other languages", 5.0, 1, 1391212800, 413, 0, 0], [395602024, "B&B 03.18.15 Traumatic Brain Injury", 0.0, 0, 1426723200, 32, 0, 3], [987057128, "Carlos \u00f3rai 2.", 0.0, 0, 1417737600, 11, 0, 0], [2362460778, "German Gender Rules and Tips II (Valparaiso University) ", 0.0, 0, 1345852800, 56, 0, 0], [1385977020, "Jiraiya VS Pain fight vocab - NARUTO (english-japanese)", 5.0, 1, 1409788800, 206, 3, 0], [815348653, "Brainstem/Spinal cord Anatomy", 0.0, 0, 1396310400, 24, 0, 44], [851933985, "Jess and Pierre Rainbows", 0.0, 0, 1401667200, 36, 0, 59], [1245179265, "\u00f3rai 01.17.", 0.0, 0, 1421539200, 98, 0, 0], [465424610, "Vocab allemand litt\u00e9raire", 0.0, 0, 1432684800, 50, 0, 0], [1648076025, "Brain Development", 0.0, 0, 1423353600, 9, 0, 2], [2008361287, "B&B 02.16.15 Brainstem 1", 0.0, 0, 1424304000, 27, 0, 7], [1341834637, "Ukrainian RU-UA", 0.0, 0, 1442793600, 50, 0, 0], [1772058951, "Lumbosacral sprain", 0.0, 0, 1393027200, 76, 0, 11], [382258951, "second crab horizontal brain", 0.0, 0, 1394323200, 54, 0, 44], [1015555060, "Guitar C Major Scales Training by ReinOwader", 0.0, 0, 1420502400, 96, 0, 0], [1956131795, "My Rails decks", 0.0, 0, 1409270400, 25, 0, 0], [1282100945, "Ukulele Training", 0.0, 0, 1437609600, 710, 0, 0], [366216958, "Carlos \u00f3rai", 0.0, 0, 1417737600, 39, 0, 0], [1466072080, "B3 Brain stem cross sections", 0.0, 0, 1424649600, 88, 0, 13], [1463436288, "37C - Brain", 0.0, 0, 1384560000, 32, 0, 0], [2456638077, "Blood supply of the brain", 0.0, 0, 1380672000, 42, 0, 0], [944068597, "Brain and Behavior Exam 3 MSSM", 0.0, 0, 1383264000, 344, 0, 46], [598477482, "Brain - MECH2901 Anatomy and Physiology for Engineers", 0.0, 0, 1410480000, 37, 0, 0], [1336368121, "Craig's general medicine", 0.0, 0, 1413158400, 539, 0, 5], [1137195514, "Thoraic spine pain", 0.0, 0, 1393027200, 57, 0, 10], [3905715188, "UMMS Brain Track 3 Psychiatry Flashcards (Disorders & Pharm)", 0.0, 0, 1361664000, 374, 0, 0], [1335125837, "B&B Intro to brain and behavior", 0.0, 0, 1424131200, 18, 0, 0], [1018732333, "Straight facts, homie", 0.0, 0, 1397260800, 26, 0, 4], [1181834904, "500 English words(pic and audio) (Ukrainian Translation)", 5.0, 2, 1425254400, 248, 234, 268], [3012218579, "UMMS Psychiatry Drugs (Brain Track 3 Comprehensive)", 0.0, 0, 1361664000, 161, 0, 0], [1791119831, "TICA Training", 0.0, 0, 1413936000, 144, 0, 0], [3928737864, "RGBM Week 2 - Craig Lectures", 0.0, 0, 1357948800, 105, 0, 5], [700513741, "Brain and Behavior Lectures MSSM", 0.0, 0, 1379548800, 397, 0, 16], [2053053692, "Brailleovo p\u00edsmo - \u010desk\u00e9", 0.0, 0, 1424736000, 61, 0, 0], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [381666314, "Brainstem 3 Syndromes", 0.0, 0, 1425081600, 22, 0, 0], [2886797054, "37C - Brain images", 0.0, 0, 1384560000, 121, 0, 0], [1064912793, "Rails Tutorial Step by Step", 0.0, 0, 1412812800, 36, 0, 5], [289989226, "German x English vocabulary trainer", 0.0, 0, 1390521600, 3254, 0, 0], [21505615, "500FR-CNChinoisContemporainLivre02L01-L0", 0.0, 0, 1345852800, 422, 305, 0], [1907076338, "AME CONSTITUCIONAL - COMPET STF, STJ, TRF, J.FEDERAIS, JT", 0.0, 0, 1422748800, 65, 0, 0], [3413446272, "Souverains de France", 0.0, 0, 1345852800, 111, 0, 0], [1455173337, "Akkordtrainer_002_U1", 0.0, 0, 1432598400, 360, 360, 360], [3932561036, "TCM Review Acupuncture Contraindications", 0.0, 0, 1345852800, 33, 0, 0], [1738554413, "MSU ANTR 350 Fall 2014 - Brain and Meninges", 0.0, 0, 1412553600, 78, 0, 35], [1431714277, "brain", 0.0, 0, 1406419200, 14, 0, 0], [2077622138, "Fran\u00e7ais : mots litt\u00e9raires et soutenus ", 0.0, 0, 1403740800, 193, 192, 3], [2581765541, "Brain and Behavior Exam 2 lectures MSSM", 0.0, 0, 1382140800, 723, 0, 167], [336204449, "Thoraic biomechanics", 0.0, 0, 1393027200, 36, 0, 13], [1989129343, "Thoraic spine pain part 2", 0.0, 0, 1393027200, 56, 0, 28], [1048818901, "Wine training", 5.0, 1, 1447113600, 135, 0, 0], [1840186109, "Daniella Kohn's Manual Limba Romana Pentru Straini", 0.0, 0, 1401062400, 631, 573, 144], [319607100, "German Verbal Idioms (Valparaiso University)", 4.0, 2, 1345852800, 120, 0, 0], [346153275, "TICA Training", 0.0, 0, 1392076800, 40, 0, 0], [1880867968, "WCMC Brain and Mind/BAM (-anatomy) 2013 Deck", 0.0, 0, 1389052800, 1173, 0, 317], [1682547802, "Brain and Behavior Anatomy", 0.0, 0, 1411776000, 944, 0, 1291], [2471957626, "American English Braille Grades 1 & 2", 0.0, 0, 1357084800, 254, 0, 206], [538352026, "Ukrainian consonants ", 0.0, 0, 1427587200, 21, 21, 0], [1585920690, "Ukrainian vowels", 0.0, 0, 1427587200, 11, 11, 0], [2364660320, "Ukraine Alphabet", 0.0, 0, 1361750400, 33, 33, 66], [2143430041, "Ukrainian most common verbs", 5.0, 3, 1418688000, 111, 111, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rai</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

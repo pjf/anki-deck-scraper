@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2039517568, "Spaans::extra::Verbos (ES-NL) (CVO Leuven)", 0.0, 0, 1453161600, 702, 38, 1], [129547646, "YAAA", 0.0, 0, 1454630400, 20, 0, 20], [1330095377, "Maanee Books 1-4 (\u0e1b.1-2) ALL Vocabulary", 0.0, 0, 1452643200, 1992, 371, 37], [1322911027, "Spaans::jaar 2 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1347, 4, 23], [486775437, "Spaans::jaar 3 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 874, 138, 15], [1036819372, "aa20", 0.0, 0, 1454284800, 40, 0, 21], [1007827763, "French prepositions in sentences by Isaac", 0.0, 0, 1452816000, 41, 0, 29], [786822650, "Narcotics, Recreational Drug Fact-sheets AAL", 0.0, 0, 1454025600, 79, 29, 278], [304508311, "AA Endocrine Anki", 0.0, 0, 1454112000, 36, 0, 52], [670484589, "Jura M\u00fcndliche Pr\u00fcfung 1. Staatsexamen", 0.0, 0, 1452124800, 283, 0, 6], [636146339, "Spaans::Jaar 1 [volledig] (CVO Leuven)", 0.0, 0, 1453161600, 1125, 11, 7], [1627794714, "SPAATZ Questions Aerospace", 0.0, 0, 1452384000, 64, 0, 0], [1452906807, "Korean Hangul with Audio, Examples, Aids AAL", 0.0, 0, 1430438400, 40, 100, 6], [78045525, "Staaten, L\u00e4nder, States und \u00dcberseegebiete (Anki2)", 1.0, 1, 1384732800, 323, 2, 950], [499477650, "Opetus.tv - Lukion Orgaaninen Kemia ", 0.0, 0, 1413763200, 246, 0, 23], [1223629287, "FS4 Dive pool Tunnel AA", 0.0, 0, 1451347200, 30, 0, 56], [399006903, "Sik6 Faan6! Read menus in Hong Kong!", 0.0, 0, 1425945600, 101, 0, 0], [1423766455, "Pathomaa Skin", 0.0, 0, 1424131200, 26, 0, 198], [1674273219, "AA metabolism", 0.0, 0, 1447459200, 57, 0, 0], [1390416563, "#SaamInAfrika", 0.0, 0, 1449014400, 1, 0, 0], [1082721284, "AAS Final", 0.0, 0, 1449792000, 39, 0, 0], [917396167, "Staatsrecht im Grundstudium", 0.0, 0, 1452470400, 270, 0, 0], [244975380, " Politik, Staat und Internationales", 0.0, 0, 1449705600, 20, 0, 0], [377998483, "Spaans::jaar 4 [gedeeltelijk] (CVO Leuven)", 5.0, 3, 1452643200, 289, 3, 18], [416332806, "AAS FINAL", 0.0, 0, 1449878400, 6, 0, 0], [773916945, " Staatsformen", 0.0, 0, 1449705600, 0, 0, 0], [1875760931, "Al Kitaab Part Two Ch.9", 0.0, 0, 1447804800, 20, 0, 0], [979141060, "Pathomaa MSK", 4.0, 1, 1424131200, 36, 0, 308], [188273183, "Aachen WGP 2015", 0.0, 0, 1445385600, 34, 0, 0], [1062151237, "AAA flashcard", 0.0, 0, 1448236800, 13, 0, 0], [1740812666, "Serbian Eng Tatoeba Sentences (Optimized for Srp-Eng) AAL", 0.0, 0, 1434153600, 737, 26, 103], [1383689425, "VIT - Staatsrecht", 0.0, 0, 1444521600, 110, 0, 0], [1813907694, "Paal Verbs", 0.0, 0, 1441152000, 74, 0, 0], [785093514, "MAARNG OCS Knowledge", 0.0, 0, 1441756800, 84, 30, 0], [493100310, "Maanden Frans - Nederlands en vv", 0.0, 0, 1442966400, 24, 5, 0], [1346799433, "Norsk privatist Jostein Christensen og Asbj\u00f8rn Aag", 0.0, 0, 1441670400, 77, 3, 34], [208971974, "Serbian Eng Tatoeba Sentences (Optimized for Eng-Srp) AAL", 0.0, 0, 1434153600, 668, 26, 103], [2090338423, "UVM COM Readiness Exam", 0.0, 0, 1439769600, 66, 0, 21], [1438844343, "Top-50 Spaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 1054, 1, 1], [1800426974, "Mike Ferm's Amino Acid Flashcards", 0.0, 0, 1440201600, 20, 0, 20], [969623283, "KOCAA", 0.0, 0, 1445212800, 572, 1715, 614], [1298348092, "keukenmateriaal 6", 0.0, 0, 1417392000, 20, 0, 20], [1843110602, "Zelfstandig naamwoorden Russisch", 0.0, 0, 1418515200, 45, 0, 0], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 0.0, 0, 1424217600, 20, 20, 0], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [1176697844, "Top-50 Italiaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 900, 1, 1], [1521042867, "nederlandse woorden\u3000 naar \u65e5\u672c\u8a9e\u306e\u5358\u8a9e", 0.0, 0, 1437350400, 4, 0, 0], [974687590, "al kitaab part 2 ch 6 part 1", 0.0, 0, 1418169600, 30, 0, 0], [1452703727, "Afrikaans Exam Work (Baldy Bunch)", 0.0, 0, 1437091200, 101, 101, 0], [102815146, "AAAHST7CM Cristianismo", 0.0, 0, 1433289600, 6, 0, 0], [1585104738, "schildermateriaal 4", 0.0, 0, 1417392000, 16, 0, 16], [448589567, "al kitaab part 2 ch 5 part 2", 0.0, 0, 1418169600, 18, 0, 0], [653346137, "cvo-db-1-Spaanse woordenschat", 2.0, 1, 1363478400, 946, 0, 0], [389581395, "keukenmateriaal 7", 0.0, 0, 1417392000, 23, 0, 23], [961228438, "Haag Spring Vocab 2", 0.0, 0, 1396828800, 42, 0, 0], [1478878857, "\u0420\u0443\u0441\u0441\u043a\u043e-\u044f\u043a\u0443\u0442\u0441\u043a\u0438\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0441 tylbaas.ykt.ru (by Cujoko)", 0.0, 0, 1413331200, 4956, 0, 0], [863215043, "keukenmateriaal 2", 0.0, 0, 1417392000, 20, 0, 20], [16983990, "Matematik, esaars", 0.0, 0, 1418947200, 272, 0, 381], [870727920, "Afrikaans Numbers (Baldy Bunch)", 0.0, 0, 1437091200, 70, 70, 0], [875329109, "Medication Sheet (NSU Tampa AA)", 0.0, 0, 1345852800, 40, 0, 0], [201043233, "AAA Prov\u00e9rbios", 0.0, 0, 1395792000, 3, 0, 0], [436440844, "keukenmateriaal", 0.0, 0, 1417392000, 20, 0, 20], [1140711545, "AAAHST7CM Sociedades Produtoras", 0.0, 0, 1433289600, 20, 0, 0], [911133545, "Rosyjski 1 SGH - zaawansowany RU-PL M. Bobrowski", 0.0, 0, 1345852800, 1953, 0, 0], [969754090, "CAASIC Translation Course - Diplomacy Vocab", 0.0, 0, 1414972800, 83, 0, 0], [1123097461, "Afrkaans Negatives (Baldy Bunch)", 0.0, 0, 1436918400, 52, 34, 0], [2059901047, "al kitaab part 2 ch 2 part 1", 0.0, 0, 1418169600, 28, 0, 0], [279393304, "CAASIC terms from Islamic Thought", 0.0, 0, 1414972800, 51, 0, 0], [499983284, "ACV Verbindungen Aachen", 0.0, 0, 1345852800, 12, 0, 12], [1803144712, "schildermateriaal 1", 0.0, 0, 1417392000, 20, 0, 20], [273001681, "Afrikaans Tydwoorde (Baldy Bunch)", 0.0, 0, 1436918400, 30, 27, 0], [397541033, "Deutsch Minimalpaare", 0.0, 0, 1415664000, 94, 174, 0], [291032457, "Al Kitaab part 2 Chapter 4 part 2 vocab", 0.0, 0, 1415318400, 19, 0, 0], [1388763952, "CVO 1ste jaar spaans 2014-2015", 0.0, 0, 1417305600, 542, 0, 0], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 4.0, 1, 1345852800, 500, 0, 0], [3658743123, "Radikaalilaatikko", 0.0, 0, 1380672000, 264, 0, 0], [1679024823, "AAAHST7CM Civiliza\u00e7\u00f5es Urbanas", 0.0, 0, 1433289600, 20, 0, 0], [1071915221, "keukenmateriaal 4", 0.0, 0, 1417392000, 20, 0, 20], [838976538, "Afrikaans Conjunctions (Baldy Bunch)", 0.0, 0, 1437091200, 44, 123, 0], [874089227, "al kitaab part 2 ch 3 part 2", 0.0, 0, 1418169600, 14, 0, 0], [689763928, "La polis Atene e Spartaa dorotee", 0.0, 0, 1443744000, 31, 0, 0], [1792861712, "Advanced Academic Preparation (AAP) Vocabulary", 0.0, 0, 1434499200, 383, 0, 0], [1164261014, "Afrikaans general vocabulary ", 0.0, 0, 1390521600, 4, 0, 0], [491428126, "Dutch - Persian, Opmaat Book Words", 0.0, 0, 1415923200, 83, 0, 0], [277619113, "al kitaab part 2 Ch. 2 part 2 vocab", 0.0, 0, 1418169600, 19, 0, 0], [1084859112, "Maanii Sentences 1-2 (From L2ST)", 0.0, 0, 1407024000, 874, 859, 0], [1377705351, "[Pool] \u6708\u306e\u65e5\u300c\u304c\u3064\u306e\u3072\u300d (Dagen van de maand)", 0.0, 0, 1414368000, 31, 0, 0], [1149385472, "Zelfstandig naamwoorden Russisch mv", 0.0, 0, 1424476800, 42, 0, 0], [634036802, "al kitaab 2 ch. 5 part 1 vocab", 0.0, 0, 1416614400, 41, 0, 0], [4028206235, "Rosyjski 2 SGH - zaawansowany PL-RU A. Kierczy\u0144ska", 0.0, 0, 1345852800, 2935, 0, 0], [2051944389, "Jaap Chinees", 0.0, 0, 1400889600, 5067, 0, 0], [682125525, "opt241aaaaa", 0.0, 0, 1413417600, 129, 0, 149], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [3625433144, "Kitaab I", 0.0, 0, 1345852800, 1996, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [1352766967, "aadd123", 0.0, 0, 1348876800, 53, 0, 0], [332607362, "AAAHST7CM Imp\u00e9rio Romano", 0.0, 0, 1433289600, 26, 0, 0], [1510458734, "Medical Abbreviations (NSU Tampa AA)", 0.0, 0, 1345852800, 798, 0, 0], [458039561, "Gamilaraay", 0.0, 0, 1421193600, 105, 0, 0], [284200817, "CAASIC Translation Course - Maternity and Childhood Vocab", 0.0, 0, 1392508800, 238, 0, 0], [484621442, "Afrikaans words and phrases (English - Afrikaans)", 5.0, 1, 1425340800, 171, 0, 0], [2841667976, "Nederlands - Italiaans en Italiaans - Nederlands", 3.0, 1, 1345852800, 4208, 0, 0], [424886887, "USLC KASP UP1 AAP", 0.0, 0, 1345852800, 25, 0, 0], [806698911, "schildermateriaal 3", 0.0, 0, 1417392000, 20, 0, 20], [370487512, "keukenmateriaal 8", 0.0, 0, 1417392000, 3, 0, 3], [952502197, "ltl bilsaa", 0.0, 0, 1417219200, 113, 0, 225], [1849070772, "CAASIC Translation Course - Elections Vocab", 0.0, 0, 1391990400, 184, 0, 0], [166340117, "keukenmateriaal 3", 0.0, 0, 1417392000, 20, 0, 20], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [1169028882, "Spaans::jaar 1::Neerland\u00e9s - Espa\u00f1ol (visual)", 5.0, 3, 1452643200, 1100, 1090, 1311], [265306572, "Al kitaab part 2 ch 9.1", 0.0, 0, 1426118400, 48, 0, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [1216570947, "AA SPM 2014", 0.0, 0, 1412812800, 917, 0, 55], [1633026698, "Al kitaab 2 ch 9.2", 0.0, 0, 1426118400, 48, 0, 0], [1849993262, "CAASIC random group of fusha terms", 0.0, 0, 1414972800, 389, 9, 16], [2147178489, "Persoonlijk voornaamwoorden Russisch", 0.0, 0, 1417996800, 53, 0, 0], [2043413582, "AAA Cultura Portuguesa", 0.0, 0, 1395792000, 7, 0, 1], [477405248, "[Pool] \u4f53\u306e\u90e8\u5206 \u300c\u304b\u3089\u3060\u306e\u3076\u3076\u3093\u300d (Lichaamsdelen)", 4.0, 1, 1361318400, 34, 0, 0], [1920309896, "Al Kitaab Part 2 Ch. 4 part 1 vocab", 0.0, 0, 1415318400, 37, 0, 0], [2199807236, "Francuski \u015brednioz. + zaawansowany PL-FR Teresa Tomaszewska", 5.0, 1, 1345852800, 1335, 0, 0], [729162741, "schildermateriaal 2", 0.0, 0, 1417392000, 20, 0, 20], [408123031, "AAAHST7CM Sociedades Recoletoras", 0.0, 0, 1433289600, 20, 0, 0], [2024049280, "Seasite Thai Maanii Book 2", 0.0, 0, 1405296000, 302, 302, 0], [449548536, "CS1 - Knowledge Engineering Maastricht", 0.0, 0, 1414108800, 89, 0, 0], [473577757, "Russian Basic Grammar Sentences AAL", 0.0, 0, 1430438400, 498, 523, 6], [1248979209, "Al kitaab part 2 ch 1 part 2", 0.0, 0, 1418947200, 20, 0, 0], [2621774113, "cvo-db-1-Spaanse werkwoorden - tegenwoordige tijd", 0.0, 0, 1363478400, 41, 0, 0], [1807547114, "Haag Uber Spring Midterm Vocab", 0.0, 0, 1395532800, 753, 0, 0], [1628348537, "keukenmateriaal 5", 0.0, 0, 1417392000, 20, 0, 20], [1266799307, "Zaawansowany angielski", 0.0, 0, 1345852800, 67, 0, 0], [1898438041, "aaabbb", 0.0, 0, 1396828800, 4432, 0, 0], [285999610, "Afrikaans gender (Baldy Bunch)", 0.0, 0, 1437264000, 12, 24, 0], [2785007846, "vvooccaabbuullaarryy 2", 0.0, 0, 1382832000, 250, 248, 0], [2068256311, "240.04&05.AmblyopiaAssessment", 0.0, 0, 1393200000, 17, 0, 35], [3680063, "Unregelmaasige Verben", 0.0, 0, 1414281600, 32, 0, 0], [815761363, "AAAHST7CM Gr\u00e9cia Antiga", 0.0, 0, 1433289600, 25, 0, 0], [875972997, "al kitaab part 2 ch 6 part 2", 0.0, 0, 1418169600, 27, 0, 0], [358997867, "Staatsrecht", 0.0, 0, 1358380800, 2, 0, 0], [857568720, "al kitaab part 2 ch 3 part 1", 0.0, 0, 1418169600, 34, 0, 0], [1187097806, "aafp3 3rd deck", 0.0, 0, 1410739200, 22, 0, 0], [476926342, "cvo-db-1-Spaanse getallen", 0.0, 0, 1363478400, 46, 0, 0], [890525795, "Kitaab II", 0.0, 0, 1345852800, 909, 0, 0], [1038872844, "Maanee Books 1-2 (\u0e1b.1)  ALL Vocabulary", 5.0, 3, 1359590400, 1024, 375, 0], [1665321850, "Gamilaraay Pronouns", 0.0, 0, 1425254400, 49, 44, 49], [3427099204, "AAAFC - Revolu\u00e7\u00f5es S\u00e9c. XVII - XVIII", 0.0, 0, 1369958400, 8, 0, 0], [1570847601, "AAA Geometria ", 0.0, 0, 1395792000, 3, 0, 0], [257321850, "al kitaab part 2 ch 1 vocab part one", 0.0, 0, 1410480000, 15, 0, 0], [2633097238, "Kitaab III", 0.0, 0, 1345852800, 3330, 0, 0], [4262659230, "Taal Vitaal: Nederlands <> Duits", 0.0, 0, 1373500800, 2493, 2482, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Aa</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

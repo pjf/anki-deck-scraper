@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3138861285, "Vocabulary with Kanji Mnemonics", 4.67, 6, 1432425600, 1548, 0, 1], [1009423643, "Respiratory Pathologies: Pneumonia", 0.0, 0, 1454889600, 10, 0, 0], [102832936, "AWLS mnemonics", 0.0, 0, 1453939200, 6, 0, 65], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [663719920, "Biochemistry - Rosonina Test 1", 0.0, 0, 1454284800, 323, 0, 119], [479111924, "L'italiano di Antonio", 0.0, 0, 1452556800, 350, 346, 347], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 0.0, 0, 1421107200, 101, 0, 0], [990960330, "Bible Quiz 52 I Thessalonians", 0.0, 0, 1345852800, 56, 0, 0], [1545067402, "oceanography-Earths structure and plate techtonics ", 0.0, 0, 1453852800, 18, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 0.0, 0, 1421107200, 102, 0, 1], [84136945, "Most common church-slavonic words csl-sk/en/ru", 0.0, 0, 1453593600, 20, 1, 7], [1437384824, "713 Common Names and Mnemonics", 0.0, 0, 1430352000, 713, 1, 4], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [1998013663, "Latin-Estonian", 0.0, 0, 1451174400, 337, 0, 0], [1789549280, "antonia test", 0.0, 0, 1450224000, 4, 0, 1], [1768525984, "199-DYSPNEE AIGUE ET CHRONIQUE", 0.0, 0, 1450137600, 7, 0, 0], [486606871, "Electronics Vocabs 2 Pr V.1", 0.0, 0, 1450569600, 714, 0, 0], [1304486133, "245- Diabete complications chroniques", 0.0, 0, 1450051200, 14, 0, 0], [1288543488, "Telephoning", 0.0, 0, 1449619200, 10, 0, 0], [2114320058, "5. Koni, ekkoni, konatoj", 0.0, 0, 1447113600, 24, 0, 0], [614792066, "ELEC4320 Asset Management and Condition Monitoring", 0.0, 0, 1449187200, 77, 0, 12], [2055255418, "Veronica", 0.0, 0, 1444089600, 9, 0, 0], [1138822339, "BIOL 200 Yoni", 0.0, 0, 1443571200, 182, 0, 0], [226038635, "Veronica 3B", 0.0, 0, 1444780800, 16, 0, 0], [1120551019, "Veronica 3B", 0.0, 0, 1444089600, 20, 0, 0], [1319551392, "Elektromotorni pogoni uvod ", 0.0, 0, 1444608000, 0, 0, 0], [4269065416, "Bible Quiz 14: II Chronicles", 0.0, 0, 1345852800, 155, 0, 0], [2107680498, "Stritch Pharmacology-Serotonin and dopamine", 0.0, 0, 1440633600, 85, 0, 3], [93786151, "MKL Dimensionierung", 0.0, 0, 1438732800, 80, 0, 19], [2980560471, "Bible Quiz 13: I Chronicles", 0.0, 0, 1345852800, 91, 0, 0], [1583581689, "Pneumoniae (bacteria)", 0.0, 0, 1439942400, 83, 0, 0], [1713587535, "JMC Audio: 205 Electronics Notes", 0.0, 0, 1440201600, 277, 0, 4], [743619055, "JMC Audio: 206 Introduction to Electronic Music Notes", 0.0, 0, 1440201600, 145, 0, 4], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [168543266, "False Friends - Cognates - Ronronia", 0.0, 0, 1424131200, 262, 0, 0], [1251241046, "EE4840 Biophotonics NTU first half", 0.0, 0, 1398384000, 225, 0, 16], [1996382212, "Dar Comboni", 0.0, 0, 1405036800, 513, 0, 0], [1942521403, "RLR #84 - How to Revolutionize Your English with Podcasts", 0.0, 0, 1418947200, 34, 32, 0], [550335668, "Estonian", 0.0, 0, 1375228800, 118, 0, 0], [2891920539, "HMS.IMP.Chronic.Inflammation", 0.0, 0, 1364342400, 26, 0, 2], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 0.0, 0, 1345852800, 769, 0, 0], [1384794163, "Vocaboli ed espressioni giapponesi", 0.0, 0, 1430006400, 525, 377, 0], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [552307912, "IPA - Pulmonic Consonants (with audio)", 0.0, 0, 1433894400, 42, 40, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [83815045, "Bible Quiz 53 II Thessalonians", 0.0, 0, 1345852800, 27, 0, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 0.0, 0, 1345852800, 641, 0, 0], [1511588172, "B&B Neuropharmacology of Serotonin 04.08.15", 0.0, 0, 1428796800, 28, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1665477013, "Precambrian Tectonics", 0.0, 0, 1396310400, 33, 0, 0], [3215187357, "STANDARD ARABIC - Dar Comboni and much more", 3.0, 1, 1372464000, 4258, 0, 0], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [1817933893, "Koinonia Hsinchu Matthew 5-7 Study Guide", 0.0, 0, 1345852800, 27, 0, 0], [809845326, "Florizarre moniquoring cardiaque", 0.0, 0, 1424995200, 148, 0, 2], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [1434898721, "Estonio AJ", 0.0, 0, 1417910400, 41, 0, 46], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [561646050, "Acute & Chronic Leukemia ", 0.0, 0, 1392854400, 38, 0, 8], [608844046, "Pesticide and Drug Poisoning VIJ", 0.0, 0, 1413072000, 27, 0, 6], [1137906421, "Not tonight darling, I have a backache", 0.0, 0, 1426550400, 26, 0, 6], [678268388, "FH Technikum Wien - Bachelor Elektronik - 3. Semester", 0.0, 0, 1415318400, 70, 0, 13], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 0.0, 0, 1345852800, 335, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [1491742854, "latino: casi complementi terminazioni", 0.0, 0, 1381622400, 31, 0, 0], [1451992170, "Helping out da jabroni!", 0.0, 0, 1429660800, 14, 0, 17], [836072956, "HTLinn Elektronik Vokabelliste", 0.0, 0, 1414972800, 799, 0, 0], [368864221, "JAKUB Sport a konicky", 0.0, 0, 1422576000, 98, 0, 0], [758105674, "37C - Mnemonics - Arm", 0.0, 0, 1388534400, 19, 0, 0], [857304128, "Electronics", 0.0, 0, 1381190400, 169, 0, 2], [1552160807, "Vocabulary - Human Body - Ronronia", 0.0, 0, 1423872000, 88, 0, 0], [994086081, "Tectonics Chapter 6", 0.0, 0, 1392076800, 18, 0, 0], [1662783036, "Guitar Harmonics - 21 arpeggios with notes and diagrams", 0.0, 0, 1390867200, 22, 0, 22], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [1341867074, "Newtonian", 0.0, 0, 1357689600, 67, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [305407165, "M\u00f6llers - Telephoning", 0.0, 0, 1438214400, 75, 0, 0], [2058757917, "Vocabulary - Physique - Ronronia", 0.0, 0, 1423872000, 134, 0, 0], [2075981724, "Chronic Inflammation", 0.0, 0, 1359331200, 54, 0, 0], [1268076678, "T\u00e9trades Harmonisation Maj/Min/MinHarmo", 0.0, 0, 1359331200, 147, 0, 0], [856701627, "Italian Regions [Regioni d'Italia]", 0.0, 0, 1427241600, 20, 0, 25], [1138623396, "Estonian Vocabulary and Expressions", 5.0, 1, 1358726400, 1693, 0, 0], [1975673825, "Electronics: Resistor Color Coding", 5.0, 1, 1391904000, 17, 0, 30]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Oni</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

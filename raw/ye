@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[678926200, "HAII Midterm 1 - eye and orbit", 0.0, 0, 1454889600, 151, 0, 5], [1022264668, "Pathology for Second-Year Med Students", 4.5, 2, 1437696000, 3605, 0, 563], [1833750820, "Bayerische K\u00f6nige und Ministerpr\u00e4sidenten 1799-1933", 0.0, 0, 1454716800, 31, 0, 0], [116713276, "BBC French Year 1", 0.0, 0, 1454803200, 476, 0, 0], [363625331, "Yi\u011fit Efe - Ba\u015flang\u0131\u00e7 Seviyesi \u0130ngilizce", 0.0, 0, 1453766400, 141, 299, 176], [1202052791, "Yee", 0.0, 0, 1452729600, 238, 0, 1], [452505990, "\u77e5\u8bc6\u70b9\u7c7b\u578b(Basic)\u5361\u7247\u6a21\u677f 2.0\u2014\u2014Leaflyer", 0.0, 0, 1451692800, 1, 0, 7], [247778088, "Jvnguyen", 0.0, 0, 1452816000, 1438, 0, 1695], [389702299, "Elementary Koine Greek, Year One, Open Texture, Gatchell", 4.8, 5, 1449878400, 159, 0, 0], [1047375404, "Angol, k\u00f6nyvt\u00e1ros szakmai idegen nyelv", 0.0, 0, 1429920000, 379, 0, 180], [1218856674, "Year 8 Vocabulary Unit 6", 0.0, 0, 1453766400, 0, 1, 0], [1653734475, "EKK Szem\u00e9lyek", 0.0, 0, 1452556800, 58, 0, 0], [1591402773, "Year 9 Kanji revision", 5.0, 1, 1451952000, 81, 0, 0], [1503983074, "Year 11", 0.0, 0, 1451692800, 554, 8, 15], [116931179, "Year 10", 0.0, 0, 1451692800, 396, 8, 15], [1833735996, "N\u00e9met nyelvvizsga felk\u00e9sz\u00fcl\u00e9s", 0.0, 0, 1451088000, 111, 0, 0], [1694528215, "Mineralogia di base (primo anno Geolo)/First year mineralogy", 0.0, 0, 1451865600, 13, 0, 0], [24438696, "44b Fourth Year ", 0.0, 0, 1449878400, 4014, 3, 372], [906562128, "angol nyelvtanfolyam pack", 0.0, 0, 1450742400, 374, 1, 6], [1667660515, "\u9519\u9898\u6a21\u677f\u2014\u2014Leaflyer", 5.0, 1, 1449273600, 1, 0, 2], [1658418547, "Debreceni Egyetem Turizmus  szak Turizmus rendszere", 0.0, 0, 1451347200, 44, 0, 0], [47760362, "ny sziklagyep", 0.0, 0, 1449014400, 26, 0, 0], [1244935159, "homoki gyepek_t_s", 0.0, 0, 1449014400, 29, 0, 0], [198795287, "Lucfenyvesek n\u00f6v\u00e9nyei", 0.0, 0, 1449014400, 2, 0, 0], [530357092, "Ear and Eye ANATD 502", 0.0, 0, 1449705600, 219, 5, 49], [1854429431, "First Year Latin vocabulary", 0.0, 0, 1449360000, 91, 0, 0], [1059684257, "ayeeeeeeeeeee", 0.0, 0, 1450137600, 42, 10, 8], [2120185857, "Angol nyelvtan ", 0.0, 0, 1448928000, 141, 1, 5], [1881011264, "DMU year 1", 0.0, 0, 1448150400, 7556, 0, 3181], [167413132, "Portuguese to English Top 1000 Verbs! Aww yeah!!!", 4.0, 1, 1445040000, 999, 0, 0], [1519438498, "Year 7 Vocabulary 16", 0.0, 0, 1447632000, 10, 1, 0], [2143913127, "rendhagy\u00f3 ig\u00e9k gy\u00fcjtem\u00e9nye", 0.0, 0, 1451433600, 63, 0, 0], [1894538180, "cseres-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [1958422548, "TOMMYE", 0.0, 0, 1448409600, 17, 17, 0], [2000330827, "Year 8 Vocabulary 9", 0.0, 0, 1445817600, 38, 1, 0], [530801281, "Year 7 Vocabulary 10", 0.0, 0, 1447632000, 25, 1, 0], [445609231, "OMM Year 2 Exam 1 Flashcards", 0.0, 0, 1449792000, 288, 0, 127], [1280962225, "z\u00e1rt sziklagyepek", 0.0, 0, 1449014400, 4, 0, 0], [920488936, "Hagym\u00e1s-gum\u00f3s n\u00f6v\u00e9nyek", 0.0, 0, 1449014400, 6, 0, 0], [659138369, "Year 7 Vocabulary 13", 0.0, 0, 1447632000, 16, 1, 0], [1196261512, "Year 8 Vocabulary 4", 0.0, 0, 1445817600, 27, 1, 0], [671590892, "Year 7 Vocabulary 14", 0.0, 0, 1447632000, 13, 1, 0], [210202527, "gyerty\u00e1nos-t\u00f6lgyes aljn\u00f6v\u00e9nyzet", 0.0, 0, 1449014400, 5, 0, 0], [1104532766, "Year 7 Vocabulary 6", 0.0, 0, 1446422400, 16, 1, 0], [2007539878, "Henle First Year Latin vocabulary", 0.0, 0, 1449273600, 91, 0, 0], [596632874, "Year 8 Vocabulary 8", 0.0, 0, 1445817600, 20, 1, 0], [1008436113, "French Vocabulary (Stanford First-Year)", 0.0, 0, 1445385600, 445, 0, 0], [1828084252, "Year 7 Vocabulary 1", 0.0, 0, 1446422400, 13, 1, 0], [954361518, "Year 7 Vocabulary 7", 0.0, 0, 1446422400, 24, 1, 0], [1478004864, "Year 7 Vocabulary 3", 0.0, 0, 1446249600, 17, 1, 0], [59584363, "Year 7 Vocabulary 8", 0.0, 0, 1447632000, 33, 1, 0], [304863926, "Year 10 list 19", 0.0, 0, 1444608000, 20, 8, 15], [157953776, "Year 7 Vocabulary 15", 0.0, 0, 1447632000, 17, 1, 0], [2068038013, "Year 7 Vocabulary 18", 0.0, 0, 1447632000, 2, 1, 0], [862702137, "Year 7 Vocabulary 5", 0.0, 0, 1446422400, 19, 1, 0], [1280184749, "Year 7 Vocabulary 12", 0.0, 0, 1447632000, 11, 1, 0], [653450150, "Year 7 Vocabulary 2", 0.0, 0, 1446422400, 16, 1, 0], [764328873, "Year 7 Vocabulary 17", 0.0, 0, 1447632000, 9, 1, 0], [773213575, "Year 8 Vocabulary 1", 0.0, 0, 1445817600, 24, 1, 0], [793081156, "Year 8 Vocabulary 10", 0.0, 0, 1445817600, 34, 1, 0], [780194264, "Year 7 Vocabulary 11", 0.0, 0, 1447632000, 16, 1, 0], [1555941361, "Year 7 Vocabulary 4", 0.0, 0, 1446422400, 16, 1, 0], [697017973, "Year 10 list 7", 0.0, 0, 1443744000, 20, 8, 15], [841435606, "Year 10 list 16", 0.0, 0, 1444608000, 20, 8, 15], [1675278509, "Year 8 Vocabulary 2", 0.0, 0, 1445817600, 38, 1, 0], [414962567, "Year 10 list 3", 0.0, 0, 1443744000, 20, 8, 15], [1612444275, "Year 10 list 2", 0.0, 0, 1443744000, 25, 8, 15], [1180035810, "Year 8 Vocabulary 5", 0.0, 0, 1445817600, 32, 1, 0], [1052004734, "Year 10 list 14", 0.0, 0, 1444003200, 60, 8, 15], [7215717, "Eye Anatomy - Kathy Durham - Anatomy and Physiology LCCC", 0.0, 0, 1443398400, 30, 0, 14], [1868817771, "Year 10 list 13", 0.0, 0, 1444003200, 20, 8, 15], [836592930, "Year 10 'Tiba di bandara'", 0.0, 0, 1444003200, 39, 8, 15], [513256009, "Year 10 list 6", 0.0, 0, 1443744000, 20, 8, 15], [38141759, "Year 8 Vocabulary 11", 0.0, 0, 1445817600, 29, 1, 0], [2023256165, "Year 8 Vocabulary 3", 0.0, 0, 1445817600, 22, 1, 0], [1877820612, "Year 10 list 1", 0.0, 0, 1443744000, 20, 8, 15], [726977606, "First Year Russian - Chapter Five", 0.0, 0, 1442707200, 88, 0, 0], [1536369983, "Year 10 list 4", 0.0, 0, 1443744000, 20, 8, 15], [1120000051, "Year 10 list 17", 0.0, 0, 1444608000, 20, 8, 15], [1886213578, "TouroCOM OMM Year 1 Practical Techniques", 0.0, 0, 1442188800, 139, 1, 230], [705874353, "Year 10 list 12", 0.0, 0, 1444003200, 20, 8, 15], [1540899448, "Year 10 list 11", 0.0, 0, 1444003200, 20, 8, 15], [57914007, "Yen Liu Vocabulary", 0.0, 0, 1445385600, 52, 0, 2], [1940952690, "First Year Greek", 0.0, 0, 1443398400, 40, 0, 0], [1251394375, "Year 10 list 5", 0.0, 0, 1443744000, 20, 8, 15], [1839133213, "Ch8 rocks Year8", 0.0, 0, 1434585600, 67, 0, 31], [981144701, "Year 10 list 15", 0.0, 0, 1444003200, 59, 8, 15], [1846408645, "Year One Russian - Chapter Three", 0.0, 0, 1442707200, 176, 0, 0], [1709578496, "Year 10 list 10", 5.0, 1, 1444003200, 20, 8, 15], [492223280, "Year One Russian - Chapter Two", 0.0, 0, 1442707200, 103, 0, 0], [1495944401, "Year One Russian - Chapter One", 0.0, 0, 1442707200, 161, 0, 0], [2141583295, "Year 10 'Please and Don't'", 0.0, 0, 1444003200, 19, 8, 15], [1902933988, "Year 10 list 9", 0.0, 0, 1444003200, 20, 8, 15], [606206889, "Year 10 list 8", 0.0, 0, 1444003200, 20, 8, 15], [462941866, "Eye, Orbit, Orbital Region, & Eyeball. CSUS Bio 122", 0.0, 0, 1440374400, 10, 0, 21], [1050598537, "First Year Russian - Chapter Four", 0.0, 0, 1442707200, 117, 0, 0], [1650842893, "Year 10 list 20", 0.0, 0, 1444608000, 20, 8, 15], [1643541463, "Health Assessment Chp 16 Eyes", 0.0, 0, 1442275200, 121, 0, 0], [1093977457, "Myers Psychology Chapter 2", 0.0, 0, 1380067200, 162, 0, 0], [1846207509, "Year 8 Chapter 8 section 1 rocks", 4.0, 1, 1435017600, 13, 0, 7], [232295320, "Anesthesia facts from CA-1 year", 0.0, 0, 1439769600, 56, 0, 0], [1567123653, "Myers Psychology Chapter 1", 0.0, 0, 1440460800, 18, 0, 0], [1906995119, "egyesultnemet", 0.0, 0, 1396483200, 4783, 0, 0], [161722515, "the large yellow house at the top of the hill", 0.0, 0, 1436486400, 3, 0, 0], [17052446, "Magyar \u00fczleti nyelvk\u00f6nyv 1. fejezet", 0.0, 0, 1439942400, 31, 0, 0], [1105889109, "Eye Histology", 0.0, 0, 1407974400, 93, 0, 89], [1964765979, "Year8Chapter7QuestionsPart1", 0.0, 0, 1431993600, 15, 0, 3], [902863535, "Myers Psychology Chapter 6", 0.0, 0, 1383523200, 147, 0, 14], [936608058, "16.Szem\u00e9lyes kapcsolatok", 0.0, 0, 1432771200, 69, 0, 0], [1785669958, "Dogs and Cats Abnormal Urination (3rd year vet)", 0.0, 0, 1420243200, 683, 0, 0], [828985163, "Dogs and Cats Respiratory block (3rd year vet)", 0.0, 0, 1405036800, 738, 0, 0], [203711690, "Myers Psychology Chapter 4", 0.0, 0, 1383091200, 34, 0, 0], [932547474, "Biochem 1st year MWU", 0.0, 0, 1387411200, 106, 0, 5], [1080483066, "3rd Year- News Reading Vocab (Chinese to English)", 0.0, 0, 1388188800, 135, 0, 0], [1279504135, "Year 1 Bristol Medicine - 2", 0.0, 0, 1420329600, 1366, 0, 410], [1444111887, "Moore College Greek (1st year)", 0.0, 0, 1392681600, 433, 0, 0], [1234347618, "Leukemias, lymphomas, myelomas and other WBC neoplasias", 0.0, 0, 1426723200, 104, 0, 13], [1042111234, "44b Third Year", 0.0, 0, 1437609600, 2329, 3, 17], [2090268205, "4th Year Medicine", 0.0, 0, 1426809600, 108, 0, 4], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1425078886, "GuitarOS Reading Rhythms 'Eye' Deck - FretboardAnatomy.com ", 0.0, 0, 1422921600, 49, 49, 98], [287300946, "Step up medicine for 3rd year rotations", 0.0, 0, 1435536000, 89, 0, 0], [238222841, "N\u00e9met sz\u00f6vegkoh\u00e9zi\u00f3s elemek (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 101, 0, 0], [140993710, "\u00d8ye to the people", 0.0, 0, 1401494400, 280, 0, 169], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [1466173870, "MTC 2nd year New Testament Set Text Greek Vocab", 0.0, 0, 1373932800, 430, 0, 1], [1174141980, "N\u00e9met szavak_Nyelvtani ABC+saj\u00e1t", 0.0, 0, 1453075200, 190, 0, 20], [1842015400, "Sang-il Yeo's Vocabulary", 0.0, 0, 1378252800, 9, 8, 3], [246789243, "3rd Year- News Listening (Chinese to English)", 0.0, 0, 1388102400, 504, 0, 0], [276091597, "Horses (3rd year vet semester 1)", 0.0, 0, 1405036800, 961, 0, 3], [1600869470, "Histology Dyes", 0.0, 0, 1407456000, 8, 0, 0], [1713975098, "44b second year ", 0.0, 0, 1437696000, 785, 3, 23], [1309685567, "Cattle Semester 2 3rd year vet", 0.0, 0, 1420243200, 743, 0, 0], [2224535992, "Myers Psychology Chapter 5", 0.0, 0, 1383091200, 53, 0, 0], [1230855862, "Stanford First-year Russian", 0.0, 0, 1417824000, 353, 0, 0], [1535956551, "Catholic Prayers and Scriptures", 0.0, 0, 1390953600, 46, 0, 0], [597786444, "ANU Japanese 1st year", 0.0, 0, 1406851200, 35, 0, 0], [803864204, "rowan som year 1 block 1 fundamentals 1 peter tatum ", 0.0, 0, 1410220800, 1642, 0, 852], [561664438, "CR PBL year 2", 0.0, 0, 1432857600, 169, 0, 0], [20445874, "Hydrology and Gases - Year 9 - Mr Shepherd", 0.0, 0, 1406764800, 42, 0, 0], [1378319355, "Year 8 Chapter 8 section 2 sedimentary rocks", 0.0, 0, 1435017600, 43, 0, 16], [390178449, "Maori based on Whitireia year 1-3", 0.0, 0, 1454198400, 1480, 0, 3], [213720337, "END OF YEAR SCIENCE EXAM (Francais)", 0.0, 0, 1432252800, 207, 0, 47], [4054819301, "37C - Eyes & Ears images", 0.0, 0, 1384560000, 28, 0, 0], [776189815, "Bell PCOM Eye 1/18/2015", 0.0, 0, 1421539200, 30, 0, 14], [902604370, "GuitarOS Reading Rhythms Two - Eye Deck - FretboardAnatomy.c", 0.0, 0, 1425859200, 75, 75, 150], [1933092637, "SOAS Arabic plurals 1st year", 0.0, 0, 1389052800, 115, 0, 0], [116832626, "Athis moyen orient", 0.0, 0, 1395705600, 13, 0, 0], [848708176, "OSU Korean Vocab for year one", 0.0, 0, 1409788800, 447, 0, 0], [1585006350, "Pigs Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 326, 0, 0], [1688686749, "medicine year one", 0.0, 0, 1435881600, 15384, 4, 1115], [1024950298, "22.T\u00e9rbeli elhelyezked\u00e9s", 0.0, 0, 1432771200, 61, 0, 0], [608942902, "K\u00f6rnyezetbotanika-N\u00f6v\u00e9nyfelismer\u00e9s", 0.0, 0, 1388448000, 210, 0, 329], [1144675687, "Year8Chapter7QuestionsPart2", 0.0, 0, 1431993600, 23, 0, 4], [1283254359, "Moore College Greek (2nd year)", 0.0, 0, 1392681600, 736, 0, 0], [2065005722, "angol nyelvtan", 0.0, 0, 1406419200, 88, 0, 8], [1003472919, "Hungarian -> Yellow Submarine - The Beatles", 0.0, 0, 1369008000, 66, 167, 34], [152665989, "Year8Chapter7QuestionsPart3", 0.0, 0, 1434067200, 15, 0, 1], [970139383, "Nayef's French Vocabulary Deck", 0.0, 0, 1403049600, 261, 0, 0], [547614562, "Horses 2 (3rd year vet)", 0.0, 0, 1420243200, 682, 0, 3], [568000845, "Anatomy first year", 0.0, 0, 1420761600, 367, 0, 0], [1195219241, "rowan som OMM exam 1 year 1", 0.0, 0, 1411516800, 58, 0, 11], [1454644509, "arabic verbs (as-suffa 1st years) smiah", 0.0, 0, 1397692800, 105, 0, 210], [1654528544, "Cattle (3rd year vet)", 0.0, 0, 1405036800, 955, 0, 0], [1721881968, "rowan som fundamentals 2 year 1", 0.0, 0, 1412035200, 1167, 1, 236], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [2024058962, "Church figures, laws, and lawyers", 0.0, 0, 1345852800, 17, 0, 0], [1865324583, "Small Ruminants Semester 1 (3rd year vet)", 0.0, 0, 1405036800, 770, 0, 3], [1797313650, "K\u00e9mia 1. t\u00e9maz\u00e1r\u00f3 egyenletek 10a", 0.0, 0, 1415145600, 9, 0, 0], [2032728557, "Cuestionario de Evaluacion de Proyectos 1", 0.0, 0, 1417564800, 11, 0, 0], [1789792344, "Imperial GE Medicine Year 1 Support Systems", 0.0, 0, 1431561600, 328, 0, 9], [1106297812, "Dogs and Cats Orthopaedics (3rd year vet)", 0.0, 0, 1405036800, 270, 0, 0], [1376176075, "B3 Histology: Ear and Eye", 0.0, 0, 1424390400, 108, 0, 107], [146560091, "Dogs and Cats (Semester 1 3rd year vet)", 0.0, 0, 1405036800, 1943, 0, 4], [1166255356, "Words from Pokemon Yellow JP", 0.0, 0, 1362787200, 103, 0, 0], [3643348538, "Jonny and Julie's SOAS Korean 1st year", 0.0, 0, 1347062400, 3458, 0, 0], [1174620494, "Hematopathology Myeloproliferative Disorders", 0.0, 0, 1422576000, 60, 0, 7], [1692388822, "rowan som year 1 fundamentals 3", 0.0, 0, 1412899200, 155, 0, 66], [566988211, "2nd Year MT Cambridge Chinese", 0.0, 0, 1388188800, 1058, 0, 0], [3976312541, "YesJapan~! Words", 0.0, 0, 1345852800, 1853, 0, 0], [82968314, "How to be a poker player", 0.0, 0, 1418688000, 70, 0, 0], [1850664544, "UMN Med Year 1 Spring", 0.0, 0, 1428537600, 4205, 1, 4327], [1678335031, "3rd Year \u7ffb\u8bd1\uff08English to chinese)", 5.0, 2, 1428537600, 2328, 0, 0], [1053058235, "3rd year-Interpreting Vocab", 0.0, 0, 1388102400, 194, 0, 0], [505855120, "Maynooth Immunology Third year", 0.0, 0, 1417132800, 149, 0, 0], [2278634640, "Month of the Gregorian Year", 0.0, 0, 1357084800, 12, 0, 0], [375104279, "myEnglish02", 0.0, 0, 1345852800, 596, 0, 99], [1052103645, "WMS - Anatomy - Eyes ", 0.0, 0, 1390608000, 36, 0, 5], [1317758454, "Small Ruminants 2 (3rd year vet)", 0.0, 0, 1420243200, 427, 0, 0], [3676876386, "Taiwan Junior High School English Vocab Year 1", 0.0, 0, 1345852800, 544, 0, 0], [993692056, "rowan som year 1 OMM exam 1", 0.0, 0, 1412035200, 171, 0, 40], [1261136290, "Year 1 Kanji", 5.0, 1, 1407110400, 246, 0, 0], [2875167399, "CHINA101R_1st-Year Chinese", 0.0, 0, 1345852800, 148, 0, 0], [1241144567, "YEAR 2 - 1st Exams", 0.0, 0, 1420243200, 2924, 0, 1254]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ye</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

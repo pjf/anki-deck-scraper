@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3138861285, "Vocabulary with Kanji Mnemonics", 4.67, 6, 1432425600, 1548, 0, 1], [102832936, "AWLS mnemonics", 0.0, 0, 1453939200, 6, 0, 65], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 0.0, 0, 1421107200, 101, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 0.0, 0, 1421107200, 102, 0, 1], [1437384824, "713 Common Names and Mnemonics", 0.0, 0, 1430352000, 713, 1, 4], [1031568672, "Commnication and the media", 0.0, 0, 1451779200, 59, 0, 0], [1684758611, "MW Neuro Central Control, UMN,LMN", 0.0, 0, 1452988800, 45, 0, 7], [219393525, "1BMNE English1 howest", 0.0, 0, 1451779200, 556, 0, 0], [364954159, "MN111", 0.0, 0, 1452124800, 43, 0, 5], [74082975, "Vocabulary from Mncube's Xhosa Manual", 0.0, 0, 1449187200, 486, 0, 0], [4259015, "Study french - MNK", 0.0, 0, 1449532800, 5, 0, 0], [1072699862, "Morse sonore lumineux mn\u00e9no fr", 0.0, 0, 1447632000, 59, 59, 4], [1456519393, "MNT Klasse 10 - Klassenarbeit Nr. 1", 0.0, 0, 1447891200, 66, 0, 0], [1407286083, "\u8003\u7814\u7ea2\u5b9d\u4e66hijklmn", 0.0, 0, 1446681600, 671, 0, 0], [1481150198, "DMNB Foundations Deck for the Class of 2019.", 0.0, 0, 1442275200, 404, 0, 40], [1899842757, "Hiszpa\u0144ski dla mnie", 0.0, 0, 1443830400, 801, 0, 0], [402769586, "tmnt2", 0.0, 0, 1442016000, 33, 0, 0], [323570304, "tmnt1", 0.0, 0, 1441929600, 66, 0, 0], [58682745, "UCSF Anatomy Vertebral column and spinal cord", 0.0, 0, 1411257600, 50, 0, 39], [1342690825, "mnslabslides", 0.0, 0, 1398902400, 21, 0, 42], [2394407234, "bozomnevek", 0.0, 0, 1385510400, 48, 0, 0], [1874463535, "Back, Vertebral Column, and Spinal Cord", 0.0, 0, 1377043200, 184, 0, 14], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [699701924, "mns9", 0.0, 0, 1398902400, 32, 0, 3], [147446962, "spanyol sorsz\u00e1mnevek", 0.0, 0, 1403568000, 10, 0, 0], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [2554204149, "Gymnasium Physik 12 Maria von Linden Schule", 0.0, 0, 1350864000, 16, 0, 0], [275643094, "mns6", 0.0, 0, 1398902400, 44, 0, 0], [816548053, "Sipan Vertebral Column", 0.0, 0, 1423094400, 55, 0, 23], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [661457316, "K4 \u2013 Billeddiagnostik Columna Thoracalis", 0.0, 0, 1400544000, 146, 0, 57], [2123745578, "mnslabanatomy", 0.0, 0, 1398902400, 38, 0, 54], [33654209, "mns17", 0.0, 0, 1398902400, 22, 0, 2], [2176251115, "Deutsch Allgemeinwissen Gymnasium Schweiz", 0.0, 0, 1372377600, 28, 0, 1], [1667455190, " BrzrkrKen CommNav", 0.0, 0, 1399420800, 99, 0, 7], [1561065271, "mns2-4", 0.0, 0, 1398902400, 46, 0, 3], [150449225, "Literatur Gymnasium Schweiz - Homo Faber", 0.0, 0, 1372377600, 23, 0, 3], [1026315206, "Biologie Gymnasium Schweiz", 0.0, 0, 1354060800, 1030, 0, 391], [3439032730, "Chemie Gymnasium Schweiz", 0.0, 0, 1365724800, 997, 0, 476], [1411490472, "patent law cases omnibus ", 0.0, 0, 1437609600, 849, 0, 0], [3926789171, "Englisch Gymnasium Schweiz", 0.0, 0, 1378080000, 3308, 55, 1], [1616056971, "Irish library course autumn 2014", 0.0, 0, 1420934400, 21, 17, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [67031527, "DMNB Microbiology Drugs", 0.0, 0, 1417305600, 66, 0, 0], [1973687009, "mns15", 0.0, 0, 1398902400, 28, 0, 0], [1024093773, "Vertebral Column (CSUS Bio 122)", 0.0, 0, 1424995200, 25, 0, 39], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1044639594, "mns23", 0.0, 0, 1399075200, 22, 0, 1], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [1436825948, "mns25", 0.0, 0, 1399075200, 45, 0, 2], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [713231071, "mns10", 0.0, 0, 1398902400, 34, 0, 1], [501071452, "MNE 1", 0.0, 0, 1411862400, 1828, 0, 234], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [2031114929, "A1. Lesson 11. Meble, wyposa\u017cenie mieszkania, liczba mnoga", 0.0, 0, 1423094400, 33, 33, 30], [906640172, "mns18-20", 0.0, 0, 1399075200, 76, 0, 17], [4046634007, "Geschichte Gymnasium Schweiz", 0.0, 0, 1354060800, 390, 0, 0], [650628182, "mns21", 0.0, 0, 1399075200, 34, 0, 1], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [1024299709, "MN01-13", 0.0, 0, 1345852800, 463, 0, 0], [1873922087, "Second Crab IMN Block 3 From Sean", 0.0, 0, 1396396800, 88, 0, 17], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [1406492400, "Pharmnootropics", 0.0, 0, 1422230400, 27, 0, 46], [1947140391, "mns12-14", 0.0, 0, 1398902400, 81, 0, 3], [2947491164, "Geografie Gymnasium Schweiz", 0.0, 0, 1378080000, 689, 0, 165], [1064002894, "mns7", 0.0, 0, 1398902400, 37, 0, 0], [1709577165, "Literatur Gymnasium Schweiz - Matthias Berg", 0.0, 0, 1376784000, 22, 0, 0], [2018715158, "kanji licenta jap mnn an 3", 0.0, 0, 1428364800, 1466, 3, 1], [585473221, "mns1", 0.0, 0, 1398902400, 31, 0, 0], [2048345805, "Franz\u00f6sisch Gymnasium Schweiz", 0.0, 0, 1378080000, 4545, 39, 0], [1270313685, "Zack IMN Glycolysis", 0.0, 0, 1390348800, 117, 0, 54], [141065481, "mns5", 0.0, 0, 1398902400, 41, 0, 1], [363703241, "Zach-Second Crab-IMN Block 3", 0.0, 0, 1396396800, 228, 0, 54], [2750799064, "Spanisch Gymnasium Schweiz", 0.0, 0, 1378080000, 2753, 6, 1], [1755397674, "mns24", 0.0, 0, 1399075200, 33, 0, 2], [553416206, "MNE15meb1", 0.0, 0, 1379462400, 25, 0, 0], [762620281, "mns25", 0.0, 0, 1399075200, 10, 0, 0], [1995300730, "K4 \u2013\u00a0kl. biomekanik columna lumbalis", 0.0, 0, 1400112000, 184, 0, 74], [1642768184, "LMU MMN WS1415", 0.0, 0, 1423440000, 6, 0, 0], [758105674, "37C - Mnemonics - Arm", 0.0, 0, 1388534400, 19, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [1850664544, "UMN Med Year 1 Spring", 0.0, 0, 1428537600, 4205, 1, 4327], [1951050529, "K4 \u2013 Billeddiagnostik Columna Cervicalis", 0.0, 0, 1400716800, 128, 0, 70], [190901643, "mns16", 0.0, 0, 1398902400, 32, 0, 10], [256808133, "mns8", 0.0, 0, 1398902400, 60, 0, 4], [541858251, "MNEMO ZAKLADKI OD ", 0.0, 0, 1429747200, 9, 0, 1], [456036743, "mns22", 0.0, 0, 1399075200, 30, 0, 2], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [1359870019, "mns11", 0.0, 0, 1398902400, 29, 0, 0], [2664757893, "Deutsche Franz\u00f6sische Vokabeln Gymnasium (1997 - 2002)", 3.33, 3, 1362787200, 2936, 0, 0], [7181972, "Francais Perspectives A2 Zlimnig", 0.0, 0, 1410739200, 406, 0, 3], [1437672836, "Tabla Periodica de Elementos Quimicos.Mnemotecnia", 0.0, 0, 1423353600, 58, 0, 24]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

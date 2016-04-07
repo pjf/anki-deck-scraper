@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[160608290, "Chinese Beginner Sentences (Traditional and Simplified)", 5.0, 1, 1367107200, 866, 0, 0], [1862159170, "100 most common radicals with exmaples and colloquial names", 0.0, 0, 1453766400, 100, 0, 0], [2966538659, "Chinese Radicals (Study-Ready; Simplified-Oriented)", 4.5, 2, 1345852800, 214, 0, 0], [1044119361, "Kanji Radical (Primitive)", 4.71, 14, 1454198400, 214, 0, 0], [764428933, "Kanji - Grado 2 - EOI Malaga", 0.0, 0, 1454889600, 47, 0, 0], [548685329, "Chinese-English: audio, hsk, cpod, sentences, radicals", 4.5, 6, 1453507200, 16498, 1163, 0], [545958596, "Greek by radio, lessons 1-75 Russian and English Translation", 5.0, 1, 1436918400, 6955, 0, 1], [127562610, "Chinese sentences and audio, Traditional and Simplified", 4.33, 3, 1453161600, 8141, 8063, 1], [2129243766, "Terry Wallwork - Japanese Kangxi Radicals", 0.0, 0, 1427155200, 214, 0, 0], [1554952324, "Kanji - Grado 1 - EOI Malaga", 5.0, 3, 1454889600, 80, 0, 0], [1207542311, "Canada exam radio amateur", 0.0, 0, 1453507200, 972, 0, 0], [2046316927, "Biology Grade 12 study for exam", 0.0, 0, 1451347200, 80, 0, 5], [933520754, "2nd grade English - Kagan Bilek_2. S\u0131n\u0131f \u0130ngilizce", 0.0, 0, 1452816000, 230, 493, 215], [1123992319, "93 radiculalgie et sd canalaire", 0.0, 0, 1452643200, 10, 0, 0], [680848062, "Basic Kanji: 18 radicals... half of ALL kanji!", 0.0, 0, 1452038400, 18, 6, 35], [1592801622, "radim sentences 19-1", 0.0, 0, 1453248000, 461, 0, 0], [388789441, "TLU 4th Grade Multiplication Review", 0.0, 0, 1452124800, 3, 0, 0], [397694561, "Fixed-Income Markets: Issuance, Trading, and Funding (R. 53)", 0.0, 0, 1451088000, 17, 0, 0], [701288839, "Latin Paradigms", 0.0, 0, 1451260800, 43, 0, 84], [189887305, "US Amateur Radio - General [good July 2015 - June 2019 ]", 0.0, 0, 1434240000, 462, 0, 1], [1823894976, "Spoonfed Chinese Traditional Taiwan Characters", 5.0, 3, 1449360000, 8142, 8106, 0], [709701652, "Ex\u00e1menes Otros A\u00f1os Radiolog\u00eda Especial 5\u00ba Medicina UAM", 0.0, 0, 1450742400, 114, 0, 0], [1186796683, "Im\u00e1genes Examen Pr\u00e1ctico Radiolog\u00eda UAM 5\u00ba 2015", 0.0, 0, 1449014400, 318, 0, 322], [809992848, "SM03 - Talk Radio", 0.0, 0, 1451174400, 25, 0, 0], [1196097129, "US Amateur Radio - Extra [good July 2012 - June 2016 ]", 0.0, 0, 1437436800, 702, 0, 12], [552909006, "Radims Study Worksheet - 14122015", 0.0, 0, 1450137600, 0, 0, 0], [1783143577, "Simplified-Traditional Hanzi Characters", 0.0, 0, 1449792000, 2580, 0, 1], [840951212, "Characters & Radicals", 5.0, 1, 1444780800, 74, 0, 0], [312366217, "L\u00e4kemedelsrelaterade-problem_L\u00e4kemedelsv\u00e4rdering", 0.0, 0, 1449187200, 114, 0, 20], [1635324686, "(en-uk) School vocabulary 1-4 grade", 0.0, 0, 1449964800, 944, 0, 0], [1356480554, "Japanese radical names", 0.0, 0, 1449619200, 214, 0, 0], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [1431465548, "Characters & Radicals", 0.0, 0, 1454371200, 298, 0, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 5.0, 1, 1345852800, 3527, 0, 0], [2615412118, "PAVC book 1-2-3 (bopomofo \u2013 traditional Chinese)", 0.0, 0, 1368489600, 1998, 0, 0], [658233789, "jojorad2", 0.0, 0, 1446681600, 4, 0, 0], [114365336, "Verbes irr\u00e9guliers en Anglais (+ traduction fr)", 4.0, 1, 1441929600, 122, 0, 0], [1262502616, "Heisig's traditional Chinese book 1", 0.0, 0, 1441324800, 1500, 0, 0], [1074213142, "Lingue - Tradu\u00e7\u00f5es", 0.0, 0, 1443744000, 4, 2, 0], [842457706, "All 214 Chinese Radicals", 0.0, 0, 1438128000, 214, 5, 0], [776116990, "Grade 4 Social Studies (Alberta CANADA)", 0.0, 0, 1445472000, 16, 0, 0], [292604786, "Esperanto - AdE Baza Radikaro Oficiala Grupo 6 EO-NL", 0.0, 0, 1403654400, 244, 0, 0], [1108563907, "Esperanto - AdE Baza Radikaro Oficiala Grupo 4 EO-NL", 0.0, 0, 1403654400, 152, 0, 0], [1025229047, "German Level 2 Grade 2", 0.0, 0, 1444262400, 43, 0, 0], [612444686, "Radiology", 0.0, 0, 1442620800, 25, 0, 0], [2117320203, "Block 2 ICM Radiology", 0.0, 0, 1444867200, 116, 0, 147], [909079147, "Esperanto - AdE Baza Radikaro Oficiala Grupo 2 EO-NL", 0.0, 0, 1403654400, 102, 0, 0], [1089325367, "Personal Pronouns, 8th grade Spanish", 0.0, 0, 1444003200, 51, 0, 0], [1879054045, "Az els\u0151 vil\u00e1gh\u00e1bor\u00fa, a forradalmak \u00e9s a b\u00e9k\u00e9k", 0.0, 0, 1444348800, 41, 0, 0], [2143571650, "Los Paises Hispanos, 8th grade Spanish", 0.0, 0, 1444003200, 22, 0, 0], [66910099, "Esperanto - AdE Baza Radikaro Oficiala Grupo 3 EO-NL", 0.0, 0, 1403654400, 122, 0, 0], [2080576766, "Protein Synthesis, Folding, + Degradation", 0.0, 0, 1439942400, 36, 0, 0], [600328520, "WKU Chinese Traditions", 0.0, 0, 1443571200, 155, 0, 0], [99824376, "FinnFACEM - Radiology", 0.0, 0, 1439424000, 10, 0, 4], [1978859972, "NATO Radio Alphabet (with images)", 0.0, 0, 1441929600, 26, 0, 25], [119043320, "Radiologia", 0.0, 0, 1444521600, 66, 6, 35], [993582222, "Radioamatorski kod Q", 0.0, 0, 1441411200, 150, 0, 0], [949548458, "Canadian HAM radio study guide", 0.0, 0, 1441411200, 28, 0, 0], [1233993344, "LATINISMOS -con una explicaci\u00f3n o traducci\u00f3n en espa\u00f1ol-", 0.0, 0, 1439251200, 149, 3, 1], [2259686687, "\u8ff7\u4f60\u5ee3\u64ad\u5287 (Mini Radio Plays)", 0.0, 0, 1345852800, 582, 0, 0], [1831927300, "WU2019 - Superficial Back, Nerves, Radiology", 0.0, 0, 1439510400, 47, 0, 14], [1642351538, "Moore College Hebrew Strong Verb Paradigms", 0.0, 0, 1391731200, 243, 0, 0], [703583131, "Path to Paradise 1", 0.0, 0, 1441238400, 392, 0, 72], [2107227786, "Radiology Unit 2", 0.0, 0, 1425340800, 388, 0, 128], [1405315187, "Amateur Radio 2014-2018 Technician Question Pool", 0.0, 0, 1399334400, 426, 0, 3], [789517822, "NUW Radar Data Study Notes. Phases 1-5.", 5.0, 1, 1396742400, 122, 0, 0], [1731623376, "Radiation Oncology & Treatment", 0.0, 0, 1422403200, 46, 0, 4], [1308545632, "Jpnproject239 Radicals #7", 0.0, 0, 1380758400, 41, 0, 0], [527898890, "achieving a grade B", 5.0, 1, 1420588800, 60, 0, 62], [108558577, "Radioamador", 0.0, 0, 1416960000, 234, 0, 0], [964984056, "Traditional Chinese - 600 most frequent characters", 0.0, 0, 1345852800, 728, 0, 0], [2856122421, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 \u0130\u015fletme ", 0.0, 0, 1368662400, 151, 0, 0], [3300089744, "Jpnproject239 Radicals #4", 0.0, 0, 1380758400, 34, 0, 0], [135221183, "Dr. Bradley's Lectures", 0.0, 0, 1430179200, 60, 0, 72], [664873193, "Esperanto - AdE Baza Radikaro Oficiala Grupo 5 EO-NL", 0.0, 0, 1403654400, 156, 0, 0], [1205611604, "Marys IB SBWL Theories of International Trade @ WU Wien", 0.0, 0, 1397779200, 28, 0, 0], [1663415567, "UCONN Med Radiology", 0.0, 0, 1384041600, 268, 0, 66], [1373748119, "GreekVocabforAdam", 0.0, 0, 1345852800, 338, 0, 0], [1062947887, "Maradonas magi - Kappitel 1 (Norwegian)", 0.0, 0, 1435536000, 52, 0, 0], [1842909181, "PS First Grade High Frequency Words", 0.0, 0, 1427932800, 113, 113, 0], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [635670360, "Grade 3 joyou kanji", 0.0, 0, 1428105600, 86, 0, 0], [448046253, "One Piece Kanji With Radical Decomposition", 0.0, 0, 1430956800, 207, 1, 1], [3510053319, "Veterinary Radiology Boards", 0.0, 0, 1345852800, 720, 0, 19], [665313153, "MHCHS Key Slave Trading Events", 0.0, 0, 1363737600, 62, 0, 0], [3658743123, "Radikaalilaatikko", 0.0, 0, 1380672000, 264, 0, 0], [93117126, "Simplified radicals matched with images", 0.0, 0, 1345852800, 214, 0, 200], [2097316121, "arquiteturadecomputadores", 0.0, 0, 1375315200, 37, 0, 17], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [2309623596, "Koine Greek Verb Paradigms", 0.0, 0, 1345852800, 138, 0, 0], [710684309, "Esperanto - AdE Baza Radikaro Oficiala Grupo 7 EO-NL", 0.0, 0, 1403654400, 296, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [793708270, "Stock Options Trading", 0.0, 0, 1428364800, 299, 0, 0], [617029375, "Diagnostic Imaging: Radiology Test 2", 0.0, 0, 1405382400, 44, 0, 11], [2877041043, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C \u0130\u015fletme Soru Bankas\u0131", 0.0, 0, 1368662400, 82, 0, 0], [498745213, "Cold War - the end - grade 10", 0.0, 0, 1429142400, 27, 0, 0], [1812196990, "History - grade 9 - post-WWI,Weimar,NS - only 1 direction", 0.0, 0, 1402876800, 71, 0, 8], [1671145467, "Esperanto - AdE Baza Radikaro Oficiala Grupo 8 EO-NL", 0.0, 0, 1403654400, 467, 0, 0], [772913647, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Uluslararas\u0131 Fonetik Alfabe", 0.0, 0, 1368662400, 26, 0, 0], [407085285, "Chinese Radicals", 0.0, 0, 1345852800, 214, 0, 0], [596912035, "Radiology", 0.0, 0, 1393804800, 2, 0, 0], [1768940236, "block 2 radiology", 0.0, 0, 1387238400, 39, 0, 49], [1532330251, "Submarine Brad Biochem 1", 0.0, 0, 1422316800, 156, 0, 10], [3177655134, "heart radiologh", 0.0, 0, 1379289600, 14, 0, 0], [200627492, "Paradigme", 0.0, 0, 1431820800, 16, 0, 0], [1629993535, "History - grade 9 - post-WWI,Weimar,National Socialism", 0.0, 0, 1402531200, 71, 0, 8], [3477974631, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 Ulusal Fonetik Alfabe", 0.0, 0, 1368662400, 40, 0, 0], [1761568971, "Cold War - grade 10", 0.0, 0, 1420070400, 35, 0, 9], [1924989807, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C S\u0131n\u0131f\u0131 Ulusal ve Uluslararas\u0131 ", 0.0, 0, 1368662400, 49, 0, 0], [1590235002, "Two German states (Cold War) - grade 10", 0.0, 0, 1420070400, 7, 0, 0], [1217533270, "Jpnproject239 Radicals #5", 0.0, 0, 1380758400, 31, 0, 0], [2126514171, "UCONN Medical and Dental OS2 Updated Radiology Deck", 0.0, 0, 1397260800, 134, 0, 50], [1896096233, "Preguntas Hematolog\u00eda 4\u00ba Grado UAM", 0.0, 0, 1434844800, 908, 0, 0], [293184036, "RealLife Radio #70 \u2013 Kindness", 0.0, 0, 1410912000, 31, 31, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [215620951, "Esperanto - AdE Baza Radikaro Oficiala Grupo 1 EO-NL", 0.0, 0, 1404259200, 179, 0, 0], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [1752151944, "Paradigmi principali verbi latini Giuriato", 0.0, 0, 1410739200, 51, 0, 0], [1584744148, "Renal physiology - core medicine for Oxford graduate entry", 0.0, 0, 1424304000, 230, 0, 4], [1489289375, "PS Second Grade High Frequency Words", 0.0, 0, 1427932800, 87, 87, 0], [2062115923, "NS-Geschichte - Dienstgrade in der Wehrmacht und in der SS", 0.0, 0, 1345852800, 25, 0, 0], [311208489, "13240 Emergency (non radar)", 0.0, 0, 1368489600, 86, 0, 0], [186061344, "The Most Common Chinese Radicals by Zhangpengpeng", 0.0, 0, 1408752000, 118, 0, 0], [2611696388, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 C Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik Sor", 0.0, 0, 1368662400, 140, 0, 31], [1522608590, "Divina commedia - Paradiso", 0.0, 0, 1366934400, 21, 0, 0], [2482912576, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 TA B\u00f6lge kodlar\u0131", 0.0, 0, 1368662400, 84, 0, 11], [117637301, " Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B Amat\u00f6r Telsiz S\u0131nav\u0131 Teknik ", 0.0, 0, 1369440000, 172, 0, 62], [1552099412, "Japanese Radicals 4 - 6 stroke", 5.0, 2, 1400976000, 85, 0, 0], [2073864457, "HISD Second Grade High Frequency Words", 0.0, 0, 1427932800, 299, 299, 0], [824411599, "IAFs for Whidbey radar approaches", 0.0, 0, 1425859200, 22, 0, 0], [27140185, "Anatomy II- Radiology", 0.0, 0, 1415577600, 86, 0, 16], [3850185205, "Remembering the Traditional Hanzi Book 2", 0.0, 0, 1345852800, 1536, 0, 0], [1129137831, "Latin 8th grade personal pronouns", 0.0, 0, 1414540800, 36, 0, 0], [1264835141, "Paramedic CCSF drug list for bradycardias 2014", 0.0, 0, 1416700800, 20, 0, 0], [1379126153, "Prado Practical Spanish Grammar", 0.0, 0, 1393718400, 1158, 0, 0], [1223764558, "chinese wiki grammar points with simpl and trad", 0.0, 0, 1417996800, 1949, 0, 1], [293061661, "Bazaj radikoj Esperanto-Esperanto", 0.0, 0, 1427068800, 2863, 0, 0], [438728818, "Mandarin Radicals with Pinyin and English", 0.0, 0, 1425340800, 214, 0, 0], [944262782, "Japanese Radicals 1 - 3 stroke", 0.0, 0, 1400976000, 57, 0, 0], [1968135341, "Kanji Radicals", 0.0, 0, 1392336000, 212, 0, 0], [1060764380, "Drug Parade", 0.0, 0, 1390694400, 239, 0, 0], [848648756, "UCONN Med/Dent HB2 Anatomy Radiology", 0.0, 0, 1414281600, 268, 0, 67], [1082920264, "Japanese Radiological Terms", 0.0, 0, 1416355200, 396, 0, 0], [1393940142, "RealLife Radio #68", 0.0, 0, 1409702400, 30, 30, 0], [3338743476, "chinese traditional intermediate by mingrong", 0.0, 0, 1359763200, 5950, 1854, 0], [3046153246, "SI.SpoznavanjeOkolja.3rdGrade", 0.0, 0, 1363824000, 99, 0, 98], [1080438538, "Jpnproject239 Radicals #3", 0.0, 0, 1380758400, 35, 0, 0], [1672767733, "Kanji Dark [RTK/Heisig Deconstructed] (radical sort/decomposition)", 4.25, 4, 1431388800, 1940, 0, 0], [1771137642, "Latin 8th grade noun endings", 0.0, 0, 1414540800, 29, 0, 0], [1826094754, "AME PROCESSO DO TRABALHO - PARTES E PROCURADORES", 0.0, 0, 1409788800, 13, 0, 0], [1450352132, "Highest Frequency Chengyu with Cloze Sentences (Traditional)", 0.0, 0, 1394236800, 240, 0, 0], [420276627, "Chinese slash fics with trad and simpl", 0.0, 0, 1417996800, 11622, 0, 1], [2616033812, "Jpnproject239 Radicals #6", 0.0, 0, 1380758400, 36, 0, 0], [982902655, "fuck anatomy- oral cavity, radiology, implants, neck", 0.0, 0, 1411948800, 140, 0, 81], [3208536705, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 A-B- S\u0131n\u0131f\u0131 Ulusal ve Uluslararas", 0.0, 0, 1368662400, 67, 0, 0], [341438465, "Basis for Business - Unit 9 - At a trade fair", 0.0, 0, 1370131200, 94, 0, 0], [1229965821, "Jpnproject239 Radicals #1", 0.0, 0, 1380758400, 35, 0, 0], [1268076678, "T\u00e9trades Harmonisation Maj/Min/MinHarmo", 0.0, 0, 1359331200, 147, 0, 0], [3121773115, "Programmierparadigmen am KIT vom WS12/13", 0.0, 0, 1375315200, 363, 0, 1], [1466252106, "Radio", 0.0, 0, 1397174400, 214, 0, 83], [862185921, "MDTI 01.23.15 High-Grade Lymphoma", 0.0, 0, 1422921600, 58, 0, 5], [479751735, "Esperanto - AdE Baza Radikaro Oficiala Grupo 9 EO-NL", 0.0, 0, 1403654400, 749, 0, 0], [1912944761, "English 3rd grade - Z\u0160 \u010cechtice", 0.0, 0, 1426723200, 131, 0, 0], [3379015373, "Jpnproject239 Radicals #2", 0.0, 0, 1380758400, 35, 0, 0], [2471957626, "American English Braille Grades 1 & 2", 0.0, 0, 1357084800, 254, 0, 206], [2213227198, "Slightly Upgraded core6k", 0.0, 0, 1360022400, 6016, 5929, 0], [302498235, "History - grade 10 - WW2 ", 0.0, 0, 1430784000, 32, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rad</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

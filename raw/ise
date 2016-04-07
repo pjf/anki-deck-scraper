@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[660991814, "Respiratory Pathologies: Interstitial Lung Disease", 0.0, 0, 1454889600, 9, 0, 0], [72433448, "Pathology Final: neoplasia, autoimmune diseases ", 0.0, 0, 1453939200, 85, 0, 28], [276408827, "Pericardium diseases", 0.0, 0, 1451692800, 26, 0, 0], [879353076, "BH203 Biology of disease", 0.0, 0, 1453766400, 94, 0, 2], [1649276016, "Microbes Infectious Disease", 0.0, 0, 1454716800, 512, 0, 1], [752966962, "ARViseDeijsman", 0.0, 0, 1453161600, 105, 0, 0], [63357708, "SM12 - Cruise Blues", 0.0, 0, 1452124800, 24, 0, 0], [1094861888, "CSIM2 - Multisystem Disease", 0.0, 0, 1449878400, 108, 0, 0], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [923095544, "Bacterial and viral diseases. ", 0.0, 0, 1450569600, 32, 0, 0], [598586940, "CSIM2 - Inherited Disease", 0.0, 0, 1448496000, 67, 0, 0], [1510507258, "CSIM2 - Endocrine Disease", 0.0, 0, 1448496000, 94, 0, 0], [149534155, "Deitel Java How to Program Chapter 4 (Self Exercises)", 0.0, 0, 1448409600, 29, 0, 0], [1729915144, "Deitel Java How to Program Chapter 3 (Self Exercises)", 0.0, 0, 1448409600, 31, 0, 0], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [1007876205, "cuisine fran\u00e7aise -sauce- ", 0.0, 0, 1448755200, 14, 0, 14], [1942854865, "CSIM2 - Vascular Disease", 0.0, 0, 1448582400, 77, 0, 0], [677904737, "CSIM2 - Liver Disease ", 0.0, 0, 1448496000, 58, 0, 0], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [1783114103, "cuisine fran\u00e7aise -ustensile-", 0.0, 0, 1448755200, 10, 0, 10], [1750597866, "IUPUI PA Infectious Disease #2", 0.0, 0, 1447027200, 238, 0, 0], [1736492939, "Ariella- infectious diseases", 0.0, 0, 1445904000, 252, 2, 161], [372019873, "1524: Sarcoid + Pleural Lung disease", 0.0, 0, 1445817600, 44, 0, 43], [1212926688, "medical vocabulary 4 - disease symptoms", 0.0, 0, 1445385600, 83, 0, 0], [558773360, "Miriam- lung disease", 0.0, 0, 1446508800, 148, 2, 149], [729904786, "Ariella- infectious diseases 2", 0.0, 0, 1446508800, 135, 2, 127], [980819691, "Genetic Diseases FA", 0.0, 0, 1445299200, 33, 0, 0], [1466626645, "English - Polish 2000 top frequent words (ISEL)", 3.33, 6, 1345852800, 2000, 0, 0], [1050921699, "miriam-diseases of infancy", 0.0, 0, 1444521600, 69, 2, 82], [1707970115, "medical vocabulary 5 - diseases and complaints", 0.0, 0, 1445385600, 95, 0, 0], [1228976091, "Ali Disease CMB", 0.0, 0, 1445472000, 202, 0, 3], [2054286697, "IUPUI PA Infectious Disease", 0.0, 0, 1443571200, 202, 0, 0], [2143571650, "Los Paises Hispanos, 8th grade Spanish", 0.0, 0, 1444003200, 22, 0, 0], [1658030221, "gerund-infinitive-that_revised-Aug2015", 0.0, 0, 1443312000, 169, 0, 33], [1701281367, "medical vocabulary 3 - illnesses and diseases", 0.0, 0, 1445385600, 90, 0, 0], [2035377967, "SGU Genetics Diseases", 0.0, 0, 1441584000, 50, 0, 0], [2138285650, "Infectious Disease Exam 1", 0.0, 0, 1379548800, 267, 0, 0], [698299477, "GlomerularDisease_WRBIM", 0.0, 0, 1440892800, 15, 0, 0], [1845175970, " rowan som fund. 2 biochem lect. 4 neurodegenerative disease", 0.0, 0, 1411430400, 80, 0, 1], [1789951069, "MB1 Diseases to know (incomplete)", 0.0, 0, 1439596800, 16, 0, 0], [546947974, "An\u00e1lise e Projeto com UML (Modelagem)", 0.0, 0, 1410912000, 17, 0, 2], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 5.0, 1, 1392940800, 183, 0, 257], [1788389818, "Genetic Diseases", 5.0, 1, 1394668800, 321, 0, 0], [703583131, "Path to Paradise 1", 0.0, 0, 1441238400, 392, 0, 72], [1503179457, "Pharm revised", 0.0, 0, 1345852800, 198, 0, 0], [955923484, "An\u00e1lise e Projeto com UML (Levantando requisitos)", 0.0, 0, 1410912000, 7, 0, 4], [888405182, "Lysosomal Storage Diseases", 0.0, 0, 1410739200, 31, 0, 0], [293366210, "DDO Paediatrics - acquired heart disease ", 0.0, 0, 1409616000, 25, 0, 0], [292596001, "An\u00e1lise e Projeto com UML (Diagrama de Classes)", 0.0, 0, 1410912000, 6, 0, 3], [2777410014, "Infectious Disease Exam  HIV", 0.0, 0, 1381968000, 162, 0, 0], [1348520325, "HMS.IHP.Exercise", 0.0, 0, 1360886400, 13, 0, 3], [420193280, "Grammaire Anglaise Bintou S", 0.0, 0, 1434326400, 44, 0, 0], [2087312684, "Infectious Disease", 0.0, 0, 1421107200, 21, 0, 4], [650069993, "Lipoproteins and Cardiovascular Disease", 0.0, 0, 1411776000, 41, 0, 0], [228358078, "Disease Mechanisms L9-11", 0.0, 0, 1427673600, 97, 0, 23], [1337776075, "Biochem Diseases", 0.0, 0, 1409788800, 14, 0, 0], [396021209, "DDO - Gastro - inflammatory bowel disease", 0.0, 0, 1415923200, 23, 0, 0], [2603393416, "HMS.IMP.Allergic Diseases", 0.0, 0, 1365033600, 28, 0, 6], [207392097, "Persian-Farsi - DLIFLC - GLOSS - \"An Epidemic Disease\"", 0.0, 0, 1417305600, 205, 0, 0], [1200511839, "WiSe2013 - Prozessdatentechnik - Allgemeine Fragen", 0.0, 0, 1390089600, 33, 0, 3], [1607499809, "Aronson's Memorised Deck Stack", 0.0, 0, 1435190400, 104, 0, 53], [997975627, "GlyphStudy Collier&Manley Chapter 8 - Exercise", 0.0, 0, 1345852800, 75, 0, 150], [1563299213, "Hepatobiliary and pancreatic diseases.", 0.0, 0, 1426809600, 255, 0, 0], [1829258064, "Disease Mechanisms L7-8", 0.0, 0, 1427155200, 89, 0, 16], [1410177756, "Les r\u00e9gions fran\u00e7aises (French regions) + maps", 2.33, 3, 1362441600, 27, 0, 27], [1493915386, "Lysosomal Storage Diseases", 0.0, 0, 1410307200, 37, 0, 0], [1211960241, "Chloe: Renal diseases", 0.0, 0, 1425945600, 19, 0, 0], [1874666423, "MCB block 3 diseases", 0.0, 0, 1414800000, 56, 0, 24], [105460797, "TU Kaiserslautern A1.2 ", 0.0, 0, 1394064000, 87, 0, 0], [646328235, "MID2 up to date missing some derm but otherwise totally comp", 0.0, 0, 1424908800, 468, 0, 81], [1483270442, "Les verbes francaises", 0.0, 0, 1391558400, 147, 0, 0], [1779092905, "Treatment of heart and vessel disease", 0.0, 0, 1417651200, 44, 0, 0], [2406856458, "Analise e Melhoria de Processos ENAP", 0.0, 0, 1369612800, 46, 0, 0], [1151431366, "Infectious diseases for SMP", 0.0, 0, 1427673600, 439, 0, 43], [3652588320, "Path Lab 7: Chemical & Physical Injury; Diseases of Immunit", 0.0, 0, 1372291200, 41, 0, 48], [205344329, "GlyphStudy Collier&Manley Chapter 4 - Exercise", 0.0, 0, 1345852800, 71, 0, 142], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [1415247295, "Chloe Glomerular Diseases", 0.0, 0, 1425945600, 30, 0, 0], [1201322335, "GlyphStudy Collier&Manley Chapter 6 - Exercise", 0.0, 0, 1345852800, 82, 0, 164], [2805478563, "R\u00e9gions Francaises ", 0.0, 0, 1345852800, 106, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [3524369849, "MHCHS Edexcel Unit 2: Topic 2 Rise of the Nazi Party 1918-33", 0.0, 0, 1383091200, 41, 0, 0], [1551033204, "SGU clinical photogrphic disector images ", 0.0, 0, 1416787200, 249, 0, 92], [4038902201, "Slownik ISEL 1500 Popular Phrases. Polish - English + sound", 4.0, 3, 1360108800, 1500, 2975, 0], [1340249610, "signs and systems of cardiovascular disease", 0.0, 0, 1416528000, 71, 0, 0], [245886519, "Ven\u00e4j\u00e4_verbin j\u00e4lkeisen substantiivin sija", 0.0, 0, 1418601600, 48, 0, 0], [1020133879, "MVST IB BOD Diseases (Pathology)", 0.0, 0, 1395878400, 86, 0, 0], [309714382, "A Thai-English Dictionary (Revised Edition)", 0.0, 0, 1454198400, 5747, 24, 138], [410962657, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [2197220727, "Infectious Disease Final Infectious Diarrhea", 0.0, 0, 1381968000, 20, 0, 0], [1564168149, "GlyphStudy Collier&Manley Chapter 7 - Exercise", 0.0, 0, 1345852800, 61, 0, 122], [1470006950, "med voc 26 - Rheumatological diseases (M.)", 0.0, 0, 1387411200, 35, 0, 0], [9499298, "heart disease", 0.0, 0, 1417651200, 107, 0, 0], [728780826, "Dirty Heart Histo Surprise 3", 0.0, 0, 1417564800, 174, 0, 0], [59073739, "[mux] Pronunciation excercise", 4.0, 1, 1392768000, 76, 192, 1], [1777295143, "Reisen", 0.0, 0, 1416182400, 104, 0, 0], [3552195532, "ACVPM Infectious Diseases", 0.0, 0, 1367798400, 50, 0, 0], [1267149337, "all words + memrise", 0.0, 0, 1418256000, 2099, 0, 1], [510333870, "arabic-verbs-as suffa-yr1-revised (smiah)", 0.0, 0, 1397779200, 105, 0, 210], [1267302442, "An\u00e1lise Pol\u00edtica", 0.0, 0, 1399248000, 11, 0, 4], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [1146381640, "Membrane Transport in Health and Disease", 0.0, 0, 1412121600, 56, 0, 0], [965690965, "Biochem, Unit 4; Molecular Basis of Common Diseases", 0.0, 0, 1414108800, 73, 0, 0], [34639855, "arabic-vocabs-as suffa-yr1-post mocks-revised (smiah)", 0.0, 0, 1397779200, 155, 0, 310], [3580487384, "GlyphStudy Collier&Manley Chapter 5 - Exercise", 0.0, 0, 1345852800, 88, 0, 176], [533559436, "HMS.IHP.Cardio.Focused.Exercise.II", 0.0, 0, 1360886400, 13, 0, 0], [2141799388, "Mini 3 Biochemistry - Carbohydrates (unfinised)", 0.0, 0, 1399939200, 50, 0, 0], [2919093348, "Iserman Russian", 0.0, 0, 1378252800, 1645, 3, 0], [728354230, "An\u00e1lise e Projeto com UML (Diagrama de Casos de Uso - Desenh", 0.0, 0, 1410912000, 8, 0, 5], [1169964927, "CMSRU Fundamentals weeks 1-3 Diseases JT", 0.0, 0, 1410652800, 44, 0, 0], [819144192, "JK_Interstitial Pulmonary Diseases", 0.0, 0, 1400198400, 60, 0, 14], [2650127004, "Guson's Infectious Disease", 0.0, 0, 1377820800, 88, 0, 0], [1315239469, "Glycogen/Lysosomal Storage Diseases", 0.0, 0, 1424995200, 16, 0, 5], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [337405555, "An\u00e1lise e Projeto com UML", 0.0, 0, 1410912000, 14, 0, 5], [1825633400, "Bridie Med diffuse lung disease", 0.0, 0, 1382054400, 16, 0, 0], [2130011212, "chants d'oiseaux", 0.0, 0, 1422835200, 78, 78, 0], [2013033300, "MCB block 4 diseases", 0.0, 0, 1416355200, 10, 0, 0], [1925528289, "Essential Thai Glossary - Revised", 0.0, 0, 1454198400, 6056, 24, 138], [2471863385, "HMS.HG.Common.Human.Diseases", 0.0, 0, 1355184000, 39, 0, 0], [572902417, "Rowan SOM Fundamentals 2 Neurodegenerative diseases", 0.0, 0, 1410566400, 69, 0, 0], [1497856473, "Reisen am Rhein", 0.0, 0, 1403222400, 51, 50, 67], [290298801, "Learn Python the Hard Way - Exercise 37", 0.0, 0, 1400630400, 38, 0, 0], [2482705923, "Hypersensitivity and Allergic Diseases", 0.0, 0, 1360800000, 22, 0, 0], [1566860448, "Week 3 Infectious Disease", 0.0, 0, 1409443200, 69, 0, 0], [1080414520, "Major Methods: 10-Spliced Surprise (Mark B Davies) 1", 0.0, 0, 1409788800, 80, 0, 70], [2142144428, "HD4 Pathology Pancreas & Biliary Diseases", 0.0, 0, 1395100800, 33, 0, 15], [1128149815, "DDO Paediatrics - congenital heart disease ", 0.0, 0, 1409616000, 39, 0, 3], [798342403, "Circumcised pulmonology 2", 0.0, 0, 1424995200, 167, 0, 8], [1173187157, "Klett \"Moct I\" book, vocabulary from exercise 8", 0.0, 0, 1378339200, 49, 0, 0], [1519737691, "Ruotsin ep\u00e4s\u00e4\u00e4nn\u00f6lliset verbit", 0.0, 0, 1376092800, 108, 0, 0], [4102788222, "bulgarian-intro-denise", 0.0, 0, 1373500800, 582, 0, 0], [839019034, "Thai tone pronunciation practise", 0.0, 0, 1399507200, 94, 94, 0], [325214895, "Infectious Disease Brand/Generic", 0.0, 0, 1379548800, 58, 0, 0], [103972532, "An\u00e1lise e Projeto com UML (Orienta\u00e7\u00e3o a Objetos)", 0.0, 0, 1410912000, 18, 0, 4], [263070022, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 280, 0, 0], [1604711595, "Phrases utiles fran\u00e7aises", 0.0, 0, 1396656000, 53, 0, 0], [314787802, "Diseases of the Salivary Glands", 0.0, 0, 1376524800, 101, 0, 27], [2351651167, "Infectious Disease Exam  HIV", 0.0, 0, 1382054400, 162, 0, 0], [769838833, "Angielski frazeologiczny 1500 zwrot\u00f3w z ISEL", 5.0, 1, 1400284800, 1571, 0, 0], [1512731043, "M Marks: General Medicine and Infectious Disease", 0.0, 0, 1421193600, 491, 0, 0], [2632950522, "Infectious Disease Exam 1", 0.0, 0, 1379635200, 267, 0, 0], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0], [3777025657, "Med heart valve disease", 0.0, 0, 1381622400, 29, 0, 0], [3528052324, "Heiseg's remembering the kanji", 1.0, 1, 1345852800, 3007, 0, 0], [555748726, "Comptabilit\u00e9 fran\u00e7aise", 0.0, 0, 1394668800, 52, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ise</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

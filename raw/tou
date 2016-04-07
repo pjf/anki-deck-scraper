@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2026362372, "TOURO WEC: PD QUIZ 2 VITALS", 0.0, 0, 1453593600, 64, 0, 0], [1553234095, "Nombres en toutes lettres", 0.0, 0, 1452643200, 141, 0, 0], [1022941611, "Keeping in touch in the 21st century", 0.0, 0, 1448755200, 34, 0, 0], [39016254, "65 Touhou Characters v1.2", 0.0, 0, 1438473600, 65, 13, 108], [1684488345, "Touchstone 3B", 0.0, 0, 1446854400, 90, 0, 14], [406808447, "Google Go Tour by DataGallos", 0.0, 0, 1447027200, 26, 0, 0], [2116807737, "Touchstone 3B", 0.0, 0, 1446854400, 90, 0, 14], [1886213578, "TouroCOM OMM Year 1 Practical Techniques", 0.0, 0, 1442188800, 139, 1, 230], [1473934134, "Israel Tourism school", 0.0, 0, 1442793600, 165, 0, 0], [3465980039, "Tournadre - Manual of Standard Tibetan (Vocab)", 5.0, 5, 1345852800, 1403, 1448, 48], [702151998, "Back Muscles Block 1 TOURO", 0.0, 0, 1440115200, 36, 0, 33], [1343086485, "Touro Shared", 0.0, 0, 1439856000, 1, 0, 1], [1165583900, "School of Tourism - Israel / 2nd Temple pd till Herod Q1-3", 0.0, 0, 1441670400, 7, 0, 0], [1874622096, "tout le japonais II", 0.0, 0, 1448582400, 1134, 0, 0], [607065016, "Seatoun Streets", 0.0, 0, 1424304000, 17, 0, 16], [610206214, "Grammaire Espagnol Bintou S", 0.0, 0, 1434326400, 77, 0, 0], [2004259926, "ALittlebitouphadya", 0.0, 0, 1396742400, 282, 0, 15], [100778796, "Daniele Touchstone 1B", 0.0, 0, 1427932800, 14, 0, 3], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [707715810, "ERICA TOUCHSTONE 1A", 0.0, 0, 1427673600, 55, 0, 6], [1551185211, "tout le japonais I", 0.0, 0, 1450224000, 932, 0, 0], [420193280, "Grammaire Anglaise Bintou S", 0.0, 0, 1434326400, 44, 0, 0], [1183162881, "sp4tour", 0.0, 0, 1358380800, 84, 0, 0], [410090323, "Anglais Bintou S", 0.0, 0, 1434326400, 1101, 0, 0], [1709337783, "Les transports et le tourisme", 0.0, 0, 1397692800, 403, 0, 0], [659102374, "Personalmanagement Tourismus & Hospitality", 0.0, 0, 1374105600, 148, 0, 0], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [1692851696, "RLR #79 \u2013 How to Be Tough in English", 0.0, 0, 1416441600, 30, 30, 0], [1511127903, "Le Tourisme", 0.0, 0, 1412812800, 770, 0, 15], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [1312704755, "Yield Management Tourismus & Hospitality", 0.0, 0, 1370822400, 143, 0, 3], [752917627, "Jorland TOUCHSTONE 1 A", 0.0, 0, 1412812800, 48, 0, 14]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tou</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

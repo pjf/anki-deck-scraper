@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [144959338, "Vocabulary for the NT2 course at Moore College (2016)", 0.0, 0, 1453334400, 490, 1, 2], [1554982961, "Biblical Hebrew Verbs (Oak Hill College)", 0.0, 0, 1410825600, 384, 0, 383], [204452366, "Vocabulary for the Hebrew 1 course at Moore College (2016)", 0.0, 0, 1453334400, 367, 1, 2], [34744015, "Vocabulary for the Greek 1 course at Moore College (2016)", 0.0, 0, 1453334400, 619, 1, 2], [286274576, "NT Greek Grammar (Oak Hill College)", 0.0, 0, 1355875200, 267, 0, 0], [1100926520, "Kanji da leggere Saito", 0.0, 0, 1449187200, 249, 0, 0], [1039488963, "USask PHPM - Legal", 0.0, 0, 1448064000, 34, 0, 0], [1139068131, "Biblical Hebrew Grammar (Oak Hill College)", 0.0, 0, 1356566400, 251, 0, 0], [1096582102, "Cocktail recipes covered by a NW US Bartending College", 0.0, 0, 1447632000, 127, 0, 0], [1560716191, "Dr Cook at Austin Community College", 0.0, 0, 1449446400, 69, 0, 12], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [382953328, "Legisla\u021bia rutier\u0103 - Obliga\u021bii", 0.0, 0, 1445817600, 96, 0, 0], [1344105746, "Legisla\u021bia rutier\u0103 - Indicatoare rutiere", 0.0, 0, 1444608000, 281, 0, 42], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [4257771924, "Isabel-akad-college (chemie)", 0.0, 0, 1382745600, 936, 0, 172], [1175897401, "Moore College 2015 Greek 1A", 5.0, 1, 1436745600, 552, 1, 2], [1642351538, "Moore College Hebrew Strong Verb Paradigms", 0.0, 0, 1391731200, 243, 0, 0], [1887596031, "Spanisch - Deutsch Colegas 1 Unidad 1", 0.0, 0, 1416441600, 253, 0, 0], [695189831, "Moore College Hebrew 1 (2013)", 0.0, 0, 1391731200, 364, 0, 0], [1444111887, "Moore College Greek (1st year)", 0.0, 0, 1392681600, 433, 0, 0], [2049968104, "Legal English for Russian Speakers", 2.5, 2, 1359417600, 77, 0, 0], [2315988852, "Chemie 1. Semester Grundlegende Ph\u00e4nomene chemischer Reaktio", 0.0, 0, 1346284800, 105, 0, 34], [570118083, "Japanese I Class Collin College", 0.0, 0, 1392336000, 26, 0, 0], [1227640507, "Cambridge College Crests", 0.0, 0, 1394236800, 31, 0, 31], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [439513413, "OSU - MSK - Lower Leg and Ankle Joint", 0.0, 0, 1418342400, 90, 0, 55], [492381866, "Legsilacao Tributaria AFRFB FSSILVA", 0.0, 0, 1424390400, 552, 0, 4], [450525684, "block 2 legs, ankle, feet", 0.0, 0, 1414281600, 112, 0, 0], [130936522, "Prazke legendy nouns stories 1-5 verbs", 0.0, 0, 1421625600, 41, 0, 0], [2856400611, "Gross Anatomy: leg and dorsum of the foot", 0.0, 0, 1352419200, 69, 0, 48], [1098381252, "Icelandic - \u00f3reglulegar sagnir (\u00fet.)", 4.5, 2, 1410307200, 99, 0, 0], [1004742049, "Isabel-akad-college (BIO)", 0.0, 0, 1382745600, 2503, 0, 437], [622276517, "Anatomy forearm and leg", 0.0, 0, 1418083200, 78, 0, 16], [235530406, "Moore College - Greek 1A & 1B Grammar", 0.0, 0, 1413244800, 207, 0, 0], [2015109480, "Grundlegende Kommandos in Emacs und info", 0.0, 0, 1429660800, 70, 0, 0], [979288377, "Moore Theological College Greek 1 2014", 0.0, 0, 1411430400, 621, 0, 0], [1570434912, "Physiologie 1. Semester College Sutherland", 0.0, 0, 1420588800, 8, 0, 3], [2617319445, "Biblical Hebrew Vocab (Oak Hill College)", 5.0, 2, 1357689600, 1268, 0, 1268], [1774109710, "Marys IB SBWL Political and Legal Systems @ WU Wien", 0.0, 0, 1397779200, 18, 0, 0], [1561812428, "AME CONSTITUCIONAL - PROCESSO LEGISLATIVO", 0.0, 0, 1409702400, 37, 0, 0], [1737203563, "Moore College Hebrew Masorah Vocabs", 0.0, 0, 1391817600, 28, 0, 0], [1587772743, "Interval 8--Anterior/lateral Leg", 0.0, 0, 1383177600, 27, 0, 26], [3640721565, "OCR Greek AS Word List Produced by Eaton College", 0.0, 0, 1345852800, 782, 0, 0], [1796690392, "Prazke legendy nouns stories 6-10 verbs", 0.0, 0, 1421625600, 47, 0, 0], [1283254359, "Moore College Greek (2nd year)", 0.0, 0, 1392681600, 736, 0, 0], [88061418, "Moore College Hebrew Sight Words", 0.0, 0, 1391731200, 32, 0, 0], [3963018481, "Ethical and Legal Issues in Medicine (HBM)", 0.0, 0, 1377043200, 75, 0, 0], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [1913902378, "Legal Capacity Counseling", 0.0, 0, 1390435200, 34, 0, 0], [1522047480, "Anatomy Exam 2", 0.0, 0, 1413849600, 820, 0, 224], [1951398672, "Moore College Greek Principal Parts", 0.0, 0, 1391731200, 30, 0, 0], [802492964, "Collegiate English words", 1.0, 1, 1365811200, 4983, 0, 0], [1201091878, "Latein (Hessenkollege WZ)", 0.0, 0, 1392768000, 390, 0, 0], [2536601410, "Biblical Hebrew Verbs PVP (Oak Hill College)", 0.0, 0, 1368662400, 384, 0, 383], [1295100998, "Prazke legendy nouns stories 6-10", 0.0, 0, 1421884800, 79, 0, 0], [133484194, "\u00d3regulegra sagna", 0.0, 0, 1433203200, 99, 0, 0], [1078083574, "NT Greek Verbs (Oak Hill College) ", 4.0, 1, 1345852800, 547, 0, 0], [505610409, "Prazke legendy nouns stories 1-5", 0.0, 0, 1421884800, 86, 0, 0], [4020140781, "OCR Greek AS Word List Produced by Eton College", 0.0, 0, 1363392000, 782, 0, 0], [248203364, "CVA Felis Leg Muscles ", 0.0, 0, 1382659200, 10, 0, 0], [906962639, "Legislacao Aduaneira AFRFB FSSILVA", 0.0, 0, 1424390400, 358, 0, 0], [220844358, "AME CONSTITUCIONAL - PODER LEGISLATIVO", 0.0, 0, 1409702400, 56, 0, 0], [335003715, "Introduction to College Algebra", 2.0, 1, 1410048000, 99, 0, 101], [637711189, "38b leg", 0.0, 0, 1389052800, 33, 0, 0], [1539003116, "NT Greek Vocab (Oak Hill College)", 4.5, 2, 1357689600, 1218, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Leg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

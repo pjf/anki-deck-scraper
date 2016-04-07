@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[601588002, "Lqsd sdofji ksdjfhskjd", 0.0, 0, 1453939200, 140, 0, 332], [1673501578, "hgfkj", 0.0, 0, 1452902400, 1, 0, 0], [485615724, "Blackjack Deck", 0.0, 0, 1449619200, 199, 0, 0], [1927353686, "Biokjemi UiB", 0.0, 0, 1442016000, 711, 0, 119], [1505533135, "God's Vital Word KJV 1200+ Scripture Verse", 0.0, 0, 1441152000, 573, 0, 1], [1016327239, "adsfl;asjflkasjdflkj", 0.0, 0, 1440028800, 204, 0, 0], [845570625, "James KJV Bible", 0.0, 0, 1435190400, 32, 0, 0], [34799596, "Kjeksitime IICD MCQ", 5.0, 1, 1392854400, 1461, 0, 146], [1210257143, "lakjsdklasjdaklsjd", 0.0, 0, 1392336000, 38, 0, 0], [1364471469, "KJV Bible - Selected Verses", 0.0, 0, 1432512000, 3661, 0, 1], [574165243, "KJO2(1-40)", 0.0, 0, 1426204800, 111, 3, 0], [975197307, "Komplexe Systeme", 0.0, 0, 1391904000, 16, 0, 15], [271731087, "Medisinsk biokjemi", 0.0, 0, 1395014400, 506, 0, 0], [891239743, "\u00e5 kjenne - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385769600, 28, 54, 0], [1577195011, "KJV Ephesians complete 1 Scripture Verse per Day", 0.0, 0, 1420156800, 155, 0, 1], [1720346249, "jllkj", 0.0, 0, 1361923200, 31, 0, 0], [3210390911, "Blackjack basic strategy", 0.0, 0, 1360454400, 320, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kj</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

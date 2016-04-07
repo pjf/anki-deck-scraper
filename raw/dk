@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1930521267, "OZDK1", 0.0, 0, 1452816000, 34, 0, 0], [1008609618, "DK top 500 verbs with conjugation and audio", 5.0, 1, 1453939200, 515, 523, 20], [1743115155, "Ortop\u00e6dkirurgi", 0.0, 0, 1452211200, 80, 0, 41], [1349616068, "Draci pohadky", 0.0, 0, 1451520000, 793, 10, 15], [1570953669, "Anatomie - svaly DK", 0.0, 0, 1445990400, 14, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1124028935, "Adk+Pr\u00c4p", 0.0, 0, 1414454400, 6, 0, 0], [371904777, "DK MCB1 Block 1", 0.0, 0, 1400371200, 207, 0, 29], [1210257143, "lakjsdklasjdaklsjd", 0.0, 0, 1392336000, 38, 0, 0], [2425799786, "Islandzki PL-IS (Jakub Budkiewicz)", 0.0, 0, 1345852800, 1899, 0, 0], [1539647086, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Artnamn", 0.0, 0, 1421193600, 15, 0, 15], [293191251, "Histo Block 1 DK", 0.0, 0, 1400716800, 213, 0, 7], [116000069, "klasjdkasjdlkasjd", 0.0, 0, 1386979200, 136, 0, 0], [1602415894, "lkajsdkalsjdkl", 0.0, 0, 1387411200, 222, 0, 0], [401467222, "Floristutbildarna bildkort - Fotografi till Blommors namn", 0.0, 0, 1421193600, 15, 0, 15], [4274950988, "Grundkenntnisse Japanisch 1 - Kanji", 0.0, 0, 1380240000, 15, 0, 15], [316536517, "How To Learn Greek ch. 10 - MDK", 0.0, 0, 1402876800, 59, 0, 0], [1081494816, "Hudkurs", 0.0, 0, 1395360000, 313, 0, 325], [328967435, "HGBDKLNAKM", 0.0, 0, 1425686400, 584, 0, 188], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [767742056, "Floristutbildarna - Blomma bildkort (Flower flash cards)", 0.0, 0, 1421193600, 0, 0, 0], [928527528, "Floristutbildarna bildkort - Ifyllnadsfr\u00e5gor: Sl\u00e4ktnamn", 0.0, 0, 1421193600, 15, 0, 15], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1807012994, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [769951638, "pr\u00f3ba 3. alap mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [324182624, "PODKLNAKM", 0.0, 0, 1425686400, 59, 0, 38], [433318797, "Learn To Read Greek Ch. 4 - MDK", 0.0, 0, 1400716800, 89, 0, 0], [596943555, "Floristutbildarna bildkort - Svenska till Engelska", 0.0, 0, 1421193600, 15, 0, 15], [2438989451, "Grundkenntnisse Japanisch 1 - Vokabeln", 0.0, 0, 1380240000, 102, 0, 0], [1325939856, "pr\u00f3ba 2. alap egyik v. mindk\u00e9t ir\u00e1nyba", 0.0, 0, 1403654400, 10, 0, 0], [348106769, "Learn to Read Greek Ch. 6 - MDK", 0.0, 0, 1401667200, 54, 0, 0], [4013789911, "mera hindi shabdkosh", 0.0, 0, 1345852800, 1444, 0, 0], [1435884116, "Anat Blk 1 - AUC DK", 0.0, 0, 1400889600, 343, 0, 12], [639562009, "PIDKLNAKM ", 0.0, 0, 1426032000, 377, 0, 188], [541858251, "MNEMO ZAKLADKI OD ", 0.0, 0, 1429747200, 9, 0, 1], [5886143, "Floristutbildarna bildkort - Engelska till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [1507656170, "klajsdklasjdkl", 0.0, 0, 1387411200, 217, 0, 0], [1025899636, "GEODKLNAKM", 0.0, 0, 1425686400, 138, 0, 10], [560009782, "How To Learn Greek 2 - MDK", 0.0, 0, 1400112000, 36, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Dk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

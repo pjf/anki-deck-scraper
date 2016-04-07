@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3138861285, "Vocabulary with Kanji Mnemonics", 4.67, 6, 1432425600, 1548, 0, 1], [1316906536, "Clinical melia", 0.0, 0, 1454889600, 21, 0, 0], [627398253, "Clinical Assessment II", 0.0, 0, 1454976000, 288, 0, 56], [428194897, "Quranic Arabic Verses word for word SIA (+ audio)", 5.0, 6, 1423353600, 561, 326, 895], [1862654683, "Introduction to Clinical Skills", 5.0, 1, 1437696000, 733, 23, 8], [102832936, "AWLS mnemonics", 0.0, 0, 1453939200, 6, 0, 65], [742262713, "Physics Chapter 2 UTD Mechanics", 0.0, 0, 1453507200, 4, 0, 2], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [1479426732, "\u0141acina - s\u0142ownictwo i gramatyka", 0.0, 0, 1452902400, 615, 0, 0], [191727706, "Physics Chapter 1 UTD Mechanics", 0.0, 0, 1453507200, 7, 0, 11], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 0.0, 0, 1421107200, 101, 0, 0], [371011205, "Recombinant Cytokines and Clinical Uses", 0.0, 0, 1453075200, 9, 0, 0], [668500265, "French B ACS Communication et medias", 0.0, 0, 1453420800, 38, 0, 0], [1545067402, "oceanography-Earths structure and plate techtonics ", 0.0, 0, 1453852800, 18, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 0.0, 0, 1421107200, 102, 0, 1], [1308478640, "Quranic Verb Concordance", 0.0, 0, 1453334400, 50, 1, 1], [84136945, "Most common church-slavonic words csl-sk/en/ru", 0.0, 0, 1453593600, 20, 1, 7], [1437384824, "713 Common Names and Mnemonics", 0.0, 0, 1430352000, 713, 1, 4], [1031568672, "Commnication and the media", 0.0, 0, 1451779200, 59, 0, 0], [1572689904, "Fe_15_1 Aircraft electronics", 0.0, 0, 1453161600, 46, 0, 0], [869835120, "SM15 - Usagi's Panic: Rei's First Date", 0.0, 0, 1452384000, 34, 0, 0], [695189072, "CVS - arrhythmogenic right ventricular cardiomyopathy", 0.0, 0, 1452124800, 11, 0, 3], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [486606871, "Electronics Vocabs 2 Pr V.1", 0.0, 0, 1450569600, 714, 0, 0], [618337748, "Clinical Assessment Fall Term", 0.0, 0, 1450137600, 176, 0, 0], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [1022510556, "Edexcel Chemistry unit 4 organic esters Sydney", 0.0, 0, 1448928000, 6, 0, 4], [1893565534, "jaymclinical", 0.0, 0, 1448928000, 289, 0, 1], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [478784710, "Postacie zagranicznego \u017cycia politycznego 2015 ", 0.0, 0, 1448236800, 14, 0, 14], [1479920864, "Mobile communications MAC ", 0.0, 0, 1449273600, 11, 0, 0], [901113318, "Vocabulari de \"Les vacances du petit Nicolas\", A2", 0.0, 0, 1448150400, 123, 0, 0], [75770421, "USask PHPM - Communication", 0.0, 0, 1448064000, 4, 0, 1], [359805094, "USask PHPM - Infectious Diseases and Communicable Diseases", 0.0, 0, 1448064000, 354, 0, 3], [1301323420, "Biogenic Amines", 0.0, 0, 1447459200, 31, 0, 0], [2024458624, "FOR NICOLE AND REIKA ORGO TEST 2", 0.0, 0, 1446163200, 127, 0, 175], [737687039, "Niclas Engene Ch. 18", 0.0, 0, 1446249600, 83, 0, 10], [282522785, "Singapore GCSE 'A' Level H2 Chemistry: Organic chemistry", 0.0, 0, 1435795200, 145, 0, 0], [1352891910, "Microbiology - Pathogenic Staphylococcus spp.", 0.0, 0, 1369958400, 24, 0, 16], [1200765609, "Njemacke Recenice 1", 0.0, 0, 1445558400, 76, 0, 0], [190023156, "Inorganic Naming of Certain Ions", 0.0, 0, 1446249600, 84, 0, 3], [817624922, "Oral Path - Odontogenic Tumors", 0.0, 0, 1447545600, 44, 0, 0], [2055255418, "Veronica", 0.0, 0, 1444089600, 9, 0, 0], [1524498453, "minimals micro- clinical bacteriology debrecen uni. ", 0.0, 0, 1447632000, 102, 0, 0], [1704739009, "niclas engene test 2 ", 0.0, 0, 1444953600, 126, 0, 11], [254705020, "Njemacke Recenice 12", 0.0, 0, 1445558400, 63, 0, 0], [1196048773, "homeostasis and communication", 0.0, 0, 1445904000, 24, 0, 0], [456272525, "Njemacke Recenice 11", 0.0, 0, 1445558400, 45, 0, 0], [1608655747, "Njemacke Recenice 4", 0.0, 0, 1445558400, 50, 0, 0], [1076965160, "The Longman Communication 1000 (S1 W1)(to Persian Farsi)", 5.0, 1, 1394236800, 1130, 1127, 0], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 0.0, 0, 1445472000, 11, 0, 7], [1748869348, "Clinical Procedure Test 2", 0.0, 0, 1444348800, 126, 0, 0], [2011551767, "Njemacke Recenice 3", 0.0, 0, 1445558400, 75, 0, 0], [226038635, "Veronica 3B", 0.0, 0, 1444780800, 16, 0, 0], [778283311, "West End Idiomas - Communication", 0.0, 0, 1444176000, 74, 0, 74], [693896995, "CLINICAL CORRELATIONS EXAM 2- MSMS", 0.0, 0, 1444435200, 74, 0, 0], [523528641, "Inglese tecnico contabile", 0.0, 0, 1443484800, 196, 6, 1], [1120551019, "Veronica 3B", 0.0, 0, 1444089600, 20, 0, 0], [1534523847, "Njemacke Recenice 2", 0.0, 0, 1445558400, 95, 0, 0], [158069611, "Clinical Anatomy", 0.0, 0, 1443312000, 62, 0, 0], [246819871, "Njemacke Recenice 10", 0.0, 0, 1445558400, 67, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [1033671374, "USA Biomechanics: Muscle Exam 1", 0.0, 0, 1441756800, 26, 0, 0], [817788923, "Dominic System", 0.0, 0, 1441929600, 100, 0, 0], [621107083, "s\u0142owniczek", 0.0, 0, 1439078400, 51, 0, 0], [4269065416, "Bible Quiz 14: II Chronicles", 0.0, 0, 1345852800, 155, 0, 0], [2980560471, "Bible Quiz 13: I Chronicles", 0.0, 0, 1345852800, 91, 0, 0], [60056755, "mjenica", 0.0, 0, 1441756800, 60, 0, 0], [693369416, "Exam Prep - Clinical Cases", 0.0, 0, 1441411200, 52, 0, 0], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [648391718, "Clinical Notes for Upper Extremity ", 0.0, 0, 1380412800, 18, 0, 0], [2122077329, "34330 Mobile Communication", 0.0, 0, 1442275200, 83, 0, 0], [1362145984, "RACP Clinical Exam Flashcards", 0.0, 0, 1442016000, 919, 0, 26], [1525951972, "Deutsch Warum nicht? W\u00f6rterlist", 0.0, 0, 1442448000, 1180, 5, 0], [1713587535, "JMC Audio: 205 Electronics Notes", 0.0, 0, 1440201600, 277, 0, 4], [388127225, "Bio 122 Unit 3 Clinical Questions, CSUS Bio 122", 0.0, 0, 1440374400, 47, 0, 33], [661189597, "Economic issues nico", 0.0, 0, 1433203200, 268, 0, 0], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 5.0, 1, 1392940800, 183, 0, 257], [743619055, "JMC Audio: 206 Introduction to Electronic Music Notes", 0.0, 0, 1440201600, 145, 0, 4], [129743167, "Nick APUSH", 0.0, 0, 1440720000, 374, 0, 57], [1907661654, "vrijednosni papiri i \u010dek (mjenica je posebno!)", 0.0, 0, 1441756800, 13, 0, 0], [480737624, "Quranic fusha", 0.0, 0, 1441065600, 264, 0, 0], [1406202232, "Marys English Business Communication EBC1 @ WU Wien", 0.0, 0, 1387065600, 154, 0, 0], [269385901, "NICE Guidelines UK Antibiotics fist line - Shatrick", 0.0, 0, 1433289600, 27, 0, 0], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [1736492226, "Clinical Science 2", 0.0, 0, 1384646400, 56, 0, 3], [1995317130, "Clinical Med 2", 0.0, 0, 1432166400, 37, 0, 34], [1405315187, "Amateur Radio 2014-2018 Technician Question Pool", 0.0, 0, 1399334400, 426, 0, 3], [1251241046, "EE4840 Biophotonics NTU first half", 0.0, 0, 1398384000, 225, 0, 16], [1341214217, "Clinical Examination Flash Cards UQ MBBS OSCEs", 0.0, 0, 1400630400, 21, 0, 0], [3567230475, "Playing cards, unicode signs", 0.0, 0, 1345852800, 4, 0, 0], [2891920539, "HMS.IMP.Chronic.Inflammation", 0.0, 0, 1364342400, 26, 0, 2], [1664129032, "Elettrotecnica", 0.0, 0, 1429056000, 50, 0, 60], [663296248, "Organic Test 1 (IR Spec, Proton NMR, Mass Spec)", 0.0, 0, 1360972800, 46, 0, 0], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [814445013, "Elitarne s\u0142ownictwo", 0.0, 0, 1345852800, 79, 0, 0], [3379441831, "Bridie clinical colloquium ", 0.0, 0, 1382227200, 22, 0, 0], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [1170312568, "Health nico", 0.0, 0, 1433203200, 541, 0, 0], [633971926, "Deutsch - warum nicht? Part 2, verbs with past forms ", 0.0, 0, 1416182400, 103, 0, 0], [614601180, "Chinese Ethnic Minorities", 0.0, 0, 1374451200, 58, 0, 67], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [1144118175, "TU Wien - Plastik, Nichtmetalle (308.860)", 0.0, 0, 1425340800, 177, 0, 46], [247449384, "Communicate in Greek 1", 0.0, 0, 1442880000, 173, 0, 1], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [1512132038, "technical words", 0.0, 0, 1438387200, 10, 2, 8], [3175257845, "CofO2 - 7 - Lung Mechanics", 0.0, 0, 1345852800, 26, 0, 0], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [552307912, "IPA - Pulmonic Consonants (with audio)", 0.0, 0, 1433894400, 42, 40, 0], [2038046131, "HMS.HG.Clinical.Testing", 0.0, 0, 1354924800, 31, 0, 9], [766555004, "B Clinical Colloquium", 0.0, 0, 1382745600, 62, 0, 0], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [1448084576, "Clinical Medicine Visual Exam", 0.0, 0, 1429574400, 170, 0, 175], [1425674783, "S\u0142ownictwo polsko-francuskie - do podr\u0119cznika Sc\u00e9nario 1", 0.0, 0, 1427932800, 523, 0, 0], [2017968536, "Lumbar biomechanics", 0.0, 0, 1393027200, 77, 0, 21], [1463500101, "Technical Vocabulary List", 0.0, 0, 1389312000, 1099, 0, 0], [961215878, "Communications in Conflict Resolution", 0.0, 0, 1427068800, 50, 0, 0], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [1886498013, "Znalost terminologie oboru \u010desk\u00fd jazyk (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 121, 0, 0], [1098274703, "Clinical word meanings", 0.0, 0, 1388534400, 27, 0, 0], [549933209, "HMS.IMP.HIV.Clinical", 0.0, 0, 1367452800, 12, 0, 8], [439449124, "Rib biomechanics", 0.0, 0, 1393027200, 49, 0, 6], [1412793809, "Loho clinical colloquium", 0.0, 0, 1382227200, 47, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [804520060, "FinalforNick", 0.0, 0, 1387411200, 51, 0, 71], [960592027, "Berenice francais", 0.0, 0, 1386633600, 1, 0, 1], [1683761891, "Clinical exam study cards", 0.0, 0, 1409097600, 242, 0, 175], [114144256, "Hittite Cuneiform Syllabary (Unicode)", 0.0, 0, 1401321600, 112, 0, 0], [1296196004, "Advanced Communications Week 1-8", 0.0, 0, 1431734400, 968, 0, 0], [1694513283, "IOC-Empresa i Iniciativa Emprenedora-Unitat 2", 0.0, 0, 1357430400, 56, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1665477013, "Precambrian Tectonics", 0.0, 0, 1396310400, 33, 0, 0], [115263812, "Environment nico", 0.0, 0, 1433203200, 206, 0, 0], [2560638307, "nice", 0.0, 0, 1354233600, 168, 0, 0], [706636782, "Advanced Communications (Part 2)", 0.0, 0, 1431734400, 565, 0, 0], [1868462313, "English vocabulary used in technical books", 0.0, 0, 1418083200, 48, 0, 0], [853802430, "Lecture Clinical Medicine Exam 5", 0.0, 0, 1430697600, 268, 0, 128], [1637924049, "FHB Small Group: Pulmonary Mechanics", 0.0, 0, 1423180800, 7, 0, 12], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [56051044, "bioorganic chemistry and organic chemistry", 0.0, 0, 1388966400, 183, 0, 425], [138025739, "Nicotine", 0.0, 0, 1428883200, 21, 0, 0], [795800357, "IOC-Empresa i Iniciativa Emprenedora-Unitat 1", 0.0, 0, 1357430400, 32, 0, 0], [3259196780, "Lista kanji N2 (definiciones en espa\u00f1ol)", 0.0, 0, 1360108800, 2184, 0, 0], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [1272333488, "Chp 4: Neck Clinical Correlates", 0.0, 0, 1414368000, 31, 0, 0], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [1551033204, "SGU clinical photogrphic disector images ", 0.0, 0, 1416787200, 249, 0, 92], [1570813080, "Clinical Anatomy Bio 122 CSUS", 0.0, 0, 1425254400, 29, 0, 49], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [1860451976, "Organic chemistry mechanisms", 4.0, 1, 1391731200, 27, 0, 61], [2027169721, "Science and research nico", 0.0, 0, 1433203200, 236, 0, 0], [186771768, "HMS.IMP.Pyogenic.Bacteria", 0.0, 0, 1365552000, 30, 0, 10], [1840460391, "HMS.IMP.Clinical.Pathology", 0.0, 0, 1370131200, 15, 0, 8], [1186387197, "Chp 5: Head Clinical Correlates", 0.0, 0, 1414972800, 68, 0, 0], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [1683626442, "Key to Quranic Arabic", 0.0, 0, 1422662400, 214, 0, 214], [787323135, "HSC Biology: \"Communication\"", 0.0, 0, 1413676800, 198, 0, 11], [1876091882, "Quranic Arabic Vocabulary SIA", 5.0, 3, 1421884800, 1506, 1, 1580], [561646050, "Acute & Chronic Leukemia ", 0.0, 0, 1392854400, 38, 0, 8], [251395435, "Nicholls Orgo section 3", 0.0, 0, 1396828800, 117, 0, 222], [1017242423, "FHB L22: Special Circulations: Cutaneous & Splanchnic", 0.0, 0, 1422403200, 10, 0, 10], [597263597, "Organic Molecules and Reactions", 5.0, 1, 1353801600, 277, 0, 219], [239088165, "communicating / relationsips", 0.0, 0, 1400371200, 60, 0, 0], [3702909821, "clinical point selection", 0.0, 0, 1374364800, 56, 0, 0], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [1516370227, "UQ MBBSIII Cardiovascular Clinical", 0.0, 0, 1400630400, 139, 0, 1], [98362632, "UQ MBBS III Respiratory Clinical", 0.0, 0, 1400630400, 199, 0, 58], [138165640, "Marys English Business Communication EBC2 @ WU Wien", 0.0, 0, 1397779200, 90, 0, 0], [771982753, "Gross anatomy clinicals part 3 pgs 40 - 60", 0.0, 0, 1412121600, 81, 0, 0], [1796482068, "Quranic Surahs", 0.0, 0, 1421193600, 114, 0, 1], [2724741871, "IOC-Empresa i Iniciativa Emprenedora-Unitat 3", 0.0, 0, 1357430400, 71, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [276844028, "The Longman Communication 2000 (S2 W2)(to Persian Farsi)", 4.0, 1, 1394236800, 1129, 1114, 0], [720779136, "Nick's Ap World History Deck", 0.0, 0, 1423180800, 1061, 0, 0], [686893280, "Organic Chem I", 0.0, 0, 1421193600, 19, 0, 12], [791888843, "G\u00f3rnicz", 0.0, 0, 1417651200, 223, 0, 0], [549677727, "46a Infection & Clinical Practice", 0.0, 0, 1433289600, 275, 0, 2], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [2791311197, "Nicene Creed", 4.0, 1, 1364947200, 31, 0, 0], [244963074, "Pre-Clinical Medical School", 0.0, 0, 1345852800, 281, 0, 62], [212194138, "Interpersonal Communication", 0.0, 0, 1396137600, 148, 0, 0], [439343183, "FHB Small Group: Cardiac Mechanics", 0.0, 0, 1422230400, 4, 0, 7], [1039995539, "Neurology Clinical UQ MBBS III", 0.0, 0, 1400630400, 298, 0, 7], [368864221, "JAKUB Sport a konicky", 0.0, 0, 1422576000, 98, 0, 0], [3165517474, "A Word List for Quranic Arabic Lessons", 0.0, 0, 1384905600, 425, 0, 850], [2038399718, "Obecn\u011b teoretick\u00e9 ot\u00e1zky z \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419379200, 61, 0, 3], [758105674, "37C - Mnemonics - Arm", 0.0, 0, 1388534400, 19, 0, 0], [600801458, "Marys English Business Communication EBC3 @ WU Wien", 0.0, 0, 1426204800, 133, 0, 0], [313325777, "UQ MBBS III Rheumatology and Orthopaedics Clinical", 0.0, 0, 1400630400, 89, 0, 56], [857304128, "Electronics", 0.0, 0, 1381190400, 169, 0, 2], [1685434962, "Clinical Medicine", 0.0, 0, 1408320000, 44, 0, 0], [1864222712, "MUSC M1 Block 2 Clinical and Joints", 0.0, 0, 1414540800, 79, 0, 0], [336204449, "Thoraic biomechanics", 0.0, 0, 1393027200, 36, 0, 13], [1251390776, "nichiyou", 0.0, 0, 1429833600, 30, 0, 1], [994086081, "Tectonics Chapter 6", 0.0, 0, 1392076800, 18, 0, 0], [1662783036, "Guitar Harmonics - 21 arpeggios with notes and diagrams", 0.0, 0, 1390867200, 22, 0, 22], [1187029592, "Clinical Med Exam 2", 0.0, 0, 1412726400, 135, 0, 0], [3350419028, "MSU CHM Preclinical Medical School Subjects", 0.0, 0, 1346889600, 8584, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [2580745740, "BUSM Anatomy - Clinical Correlations of Back, UE, Embry", 0.0, 0, 1378080000, 83, 0, 0], [2075981724, "Chronic Inflammation", 0.0, 0, 1359331200, 54, 0, 0], [4060294887, "Intermediate Technical Japanese vocabulary", 0.0, 0, 1387152000, 1407, 3, 1], [1975673825, "Electronics: Resistor Color Coding", 5.0, 1, 1391904000, 17, 0, 30], [504653915, "English communication", 0.0, 0, 1406764800, 6, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nic</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

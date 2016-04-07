@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1151816691, "Deutsch Wortschatz (Kurs)", 1.0, 1, 1454284800, 0, 0, 0], [1802224060, "Wortschatz - Stufe C1/C2 - L\u00fcckentest DE-DE Marcin Perli\u0144ski", 4.5, 2, 1345852800, 483, 0, 0], [1627794714, "SPAATZ Questions Aerospace", 0.0, 0, 1452384000, 64, 0, 0], [428131788, "Stuttgart Lernwortschatz Ciceros Reden", 0.0, 0, 1451433600, 200, 0, 0], [506285649, "Spanisch Deutsch Grundwortschatz", 0.0, 0, 1451001600, 4695, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 6, 1372636800, 1966, 0, 0], [527680422, "Spanisch, erweiterter Wortschatz", 0.0, 0, 1445040000, 1806, 1889, 116], [1713718176, "Katzenverwandte", 0.0, 0, 1448668800, 0, 0, 0], [262089195, "Grund- und Aufbauwortschatz Griechisch", 0.0, 0, 1446508800, 682, 0, 0], [978441788, "Seem\u00e4nnisch und Segelwortschatz Deutsch-Deutsch", 0.0, 0, 1446940800, 301, 3, 1], [2032059928, "Deutsch-Englisch Grundwortschatz 08 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [451932869, "berliner platz 21", 0.0, 0, 1431648000, 112, 106, 56], [753311336, "berliner platz K29", 0.0, 0, 1431129600, 93, 102, 38], [2066265122, "Berliner Platz PL-DE Maciej Karpi\u0144ski", 0.0, 0, 1345852800, 679, 0, 0], [1940932610, "Genki 2 und zusatz", 0.0, 0, 1413331200, 747, 0, 0], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [1070593299, "Deutsch-Englisch Grundwortschatz 6-10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1694925060, "Deutsch-Englisch Grundwortschatz 04 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [377983990, "Deutsch-Englisch Grundwortschatz 24 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [251118466, "B1 Zertifikat Wortschatz", 0.0, 0, 1432339200, 224, 0, 0], [284983128, "Deutsch-Englisch Grundwortschatz 09 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [54211442, "Deutsch-Englisch Grundwortschatz 16-20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [411258126, "Deutsch-Englisch Grundwortschatz 21 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3404056944, "Deutsch-Englisch Grundwortschatz 12 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [999895102, "FMS3 Path Katz review", 0.0, 0, 1387238400, 270, 0, 90], [1080545123, "Ein Kind, Thomas Bernhard, Wortschatz", 0.0, 0, 1416614400, 35, 0, 0], [914039502, "Deutsch-Englisch Grundwortschatz 27 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1116844981, "berliner platz K30", 0.0, 0, 1431129600, 143, 152, 17], [3277301784, "Deutsch-Englisch Grundwortschatz 10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2765795831, "Deutsch-Englisch Grundwortschatz 05 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2775799465, "Deutsch-Englisch Grundwortschatz 26 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1036108615, "Deutsch-Englisch Grundwortschatz 16 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3732930072, "Deutsch-Englisch Grundwortschatz 02 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1396602608, "Deutsch-Englisch Grundwortschatz 22 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [939080489, "Deutsch-Englisch Grundwortschatz 13 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [570338828, "Deutsch-Englisch Grundwortschatz 34 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1488367520, " Kanji Genki 1 + Zusatz", 0.0, 0, 1390780800, 481, 0, 0], [1344867925, "Deutsch-Englisch Grundwortschatz 37 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [7280986, "Deutsch-Englisch Grundwortschatz 28 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1858930839, "Deutsch-Englisch Grundwortschatz 15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 59, 0], [1868818749, "Natur Wortschatz", 0.0, 0, 1430611200, 77, 0, 0], [1254606429, "On y va! Der Franz\u00f6sischkurs A2 - Le\u00e7on 1 Wortschatz", 0.0, 0, 1388966400, 156, 0, 0], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 5.0, 1, 1373241600, 2049, 0, 0], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1880639603, "berliner platz 3 verben mit praposition", 0.0, 0, 1431216000, 58, 9, 0], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [2563521111, "Deutsch-Englisch Grundwortschatz 32 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3619440744, "Deutsch-Englisch Grundwortschatz 33 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [4214093825, "Deutsch-Englisch Grundwortschatz 06 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3463106713, "Deutsch-Englisch Grundwortschatz 1-5 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1987523704, "Deutsch-Englisch Grundwortschatz 31-35 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [1221062359, "Deutsch-Englisch Grundwortschatz 14 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1378013427, "berliner platz K32", 0.0, 0, 1431129600, 51, 60, 0], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [107556865, "Zusatz Karten zur Vorlesung", 0.0, 0, 1405296000, 34, 0, 5], [2344316916, "Deutsch-Englisch Grundwortschatz 11-15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [1165783275, "Wortschatz B1 Beziehungen", 0.0, 0, 1436832000, 13, 0, 0], [860999906, "Vischer Grundwortschatz (Verben)", 0.0, 0, 1399420800, 829, 0, 0], [2033509057, "Deutsch-Englisch Grundwortschatz 23 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [503761075, "Deutsch-Englisch Grundwortschatz 03 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1746947706, "Deutsch-Englisch Grundwortschatz 18 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [698219353, "Wortschatz bis B2", 0.0, 0, 1400198400, 1736, 0, 0], [1197210740, "Deutsch-Englisch Grundwortschatz 19 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2239734893, "Deutsch-Englisch Grundwortschatz 07 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1122527400, "Deutsch-Englisch Grundwortschatz 35 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 59, 0], [249758645, "Deutsch-Englisch Grundwortschatz 30 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [929451176, "Genki 2 + Zusatz", 5.0, 1, 1411084800, 755, 0, 0], [3709737794, "Deutsch-Englisch Grundwortschatz 17 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1072538630, "Deutsch-Englisch Grundwortschatz 39 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [339017481, "Deutsch-Englisch Grundwortschatz 31 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [527139445, "Deutsch-Englisch Grundwortschatz 21-25 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [2039425129, "DaF Vokabeln, generelles Wortschatz Liste.", 0.0, 0, 1414454400, 19, 0, 0], [3068916598, "Deutsch-Englisch Grundwortschatz 20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3913756983, "Englisch f\u00fcr Deutsche - Elementar- und Grundwortschatz", 3.67, 3, 1345852800, 2014, 0, 0], [4104007651, "Deutsch-Englisch Grundwortschatz 25 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1873144266, "Korgan's vocabulary from 'Wer will eine kleine Katze haben?\"", 0.0, 0, 1345852800, 122, 0, 0], [1748401206, "Deutsch-Englisch Grundwortschatz 38 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3087069031, "Deutsch-Englisch Grundwortschatz 01 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [13664420, "berliner platz K31", 0.0, 0, 1431129600, 96, 105, 19], [463554429, "berliner platz K28", 0.0, 0, 1431129600, 145, 154, 59], [474334693, "Deutsch-Englisch Grundwortschatz 11 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3020836303, "Deutsch-Englisch Grundwortschatz 29 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3461687221, "Deutsch-Englisch Grundwortschatz 26-30 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [481753426, "Deutsch-Englisch Grundwortschatz 36 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1663301406, "Deutsch Oberstufe Wortschatz", 0.0, 0, 1449100800, 135, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Atz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

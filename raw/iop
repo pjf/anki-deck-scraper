@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[43010628, "azertyuiopqsdfghjklmwxcvbn", 0.0, 0, 1450915200, 51, 0, 0], [734344617, "biopharm and delivery systems (for uzo)", 0.0, 0, 1449878400, 18, 0, 26], [2043423277, "Final Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 240, 0, 44], [1139088506, "Test 1 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 285, 0, 31], [1536392535, "Test 2 Cardiopulmonary 3 RTH", 0.0, 0, 1449792000, 258, 0, 0], [2116137046, "kololo", 0.0, 0, 1440028800, 918, 0, 0], [2124085616, "Adult II Week 2 - Perioperative Pt", 0.0, 0, 1410912000, 69, 0, 18], [1251241046, "EE4840 Biophotonics NTU first half", 0.0, 0, 1398384000, 225, 0, 16], [2059883340, "Biopsychologie Assessement Semester 1", 0.0, 0, 1425427200, 104, 0, 98], [2005023180, "minimals biophysics debrecen", 0.0, 0, 1381017600, 34, 0, 0], [637951266, "Cardiopulmonary Drugs for CP Exam II", 0.0, 0, 1415923200, 31, 0, 4], [3433177573, "new minimals biophysics", 0.0, 0, 1384646400, 46, 0, 92], [501717298, "Patologia e Fisiopatologia Generale (UniPD MED 3-4)", 0.0, 0, 1404259200, 506, 0, 1], [830428026, "cardiopulm", 0.0, 0, 1428710400, 1163, 0, 381], [1291755436, "Ven\u00e4j\u00e4n sanastoa_2_yliopistoven\u00e4j\u00e4", 0.0, 0, 1398556800, 160, 0, 0], [1216635170, "PhysioPhysio", 0.0, 0, 1389139200, 16, 0, 18], [1342934597, "Ven\u00e4j\u00e4n sanastoa_1_yliopistoven\u00e4j\u00e4", 0.0, 0, 1398556800, 213, 0, 0], [559319598, "Biopsychology", 0.0, 0, 1422921600, 179, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Iop</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

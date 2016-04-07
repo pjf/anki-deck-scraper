@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[475767360, "Musc. pt mgmt 2: intro to joint moilization", 0.0, 0, 1454803200, 35, 0, 0], [416261728, "fmGU", 0.0, 0, 1454803200, 151, 0, 0], [1818231285, "EPI 547 omgomgomgomgomg", 0.0, 0, 1449360000, 300, 0, 37], [646500506, "IamGod", 0.0, 0, 1448323200, 47, 0, 0], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [785241466, "Mgc prod 1", 0.0, 0, 1443398400, 143, 0, 0], [426383869, "MGC production1", 0.0, 0, 1442966400, 6, 0, 0], [792264671, "Mgc prod 2", 0.0, 0, 1443398400, 30, 0, 0], [4201858380, "PIT Foliensatz 5 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 3, 0, 1], [472138918, "AME Regimento Interno - TRT MG", 5.0, 1, 1432339200, 227, 0, 0], [397824393, "PIT Foliensatz 3 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [710892813, "MGM EXAM 2 RAHUL", 0.0, 0, 1379203200, 60, 0, 2], [1736002107, "PIT Foliensatz 2 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [689535261, "MMG Block I UW SMPH", 0.0, 0, 1412121600, 153, 0, 0], [2130043778, "TREMG - Lei 4737", 0.0, 0, 1417910400, 64, 0, 0], [3017697245, "MGIS 461", 0.0, 0, 1351728000, 178, 0, 27], [3357634910, "PIT Foliensatz 7 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [427933807, "PIT Foliensatz 6 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [1286577793, "pharmgenetherapy", 0.0, 0, 1422316800, 45, 0, 64], [3282215094, "PIT Foliensatz 4 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 4, 0, 0], [149505682, "PIT Foliensatz 1 Prjktmgmt Ortner WH-Fragen", 0.0, 0, 1345852800, 7, 0, 1], [1091213712, "mgis 461 final", 0.0, 0, 1355961600, 70, 0, 2], [1821144825, "MGA Exam 3", 0.0, 0, 1412467200, 682, 0, 27], [1919216108, "NMGI 3", 0.0, 0, 1427932800, 164, 0, 64], [2457436619, "rahul's MGM exam 2 cards", 0.0, 0, 1379203200, 0, 0, 0], [1137468158, "MGIS", 0.0, 0, 1345852800, 252, 0, 7], [132701820, "TREMG - Lei 9504", 0.0, 0, 1418947200, 24, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

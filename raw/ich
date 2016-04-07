@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[852919416, "Oberfl\u00e4chen und Schichttechnik", 0.0, 0, 1454716800, 35, 0, 0], [1546413252, "Kunstgeschichte", 0.0, 0, 1454803200, 100, 0, 101], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [1790299980, "Psychologie - Zimbardo (Aufnahmepr\u00fcfung \u00d6sterreich)", 5.0, 1, 1449187200, 811, 0, 0], [1378991278, "\u00d6ffentliches Recht TUHH", 0.0, 0, 1453766400, 18, 0, 0], [1629769194, "D\u00e9partements et r\u00e9gions fran\u00e7ais \u2013 Enrichi", 1.0, 1, 1385078400, 125, 221, 334], [1996227193, "MUI_2012_Gerichtsmedizin", 0.0, 0, 1454630400, 141, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [670484589, "Jura M\u00fcndliche Pr\u00fcfung 1. Staatsexamen", 0.0, 0, 1452124800, 283, 0, 6], [380729955, "Wiater Unterrichtsprinzipien", 0.0, 0, 1454025600, 12, 0, 0], [231723347, "Geschichte der Psychologie by LG", 0.0, 0, 1452643200, 269, 0, 15], [397583456, "Bibelkunde NT Gleichnisse", 0.0, 0, 1452470400, 29, 0, 0], [1592170734, "Hygiene und Unfallverh\u00fctung  im Haushaltsbereich", 0.0, 0, 1452211200, 29, 0, 0], [687092981, "Wichtige Ionen/S\u00e4uren/Basen ", 0.0, 0, 1452211200, 43, 0, 0], [417635412, "Bibelkunde AT (7) - Geschichte Israels", 0.0, 0, 1453161600, 17, 0, 0], [703681848, "Bibelkunde NT (9) - Nachgereichte Karten", 0.0, 0, 1453680000, 13, 0, 0], [2131914953, "P\u00fctz Teichpflanzen", 0.0, 0, 1452816000, 14, 0, 24], [1324744196, "when to use which spanish tense", 0.0, 0, 1451606400, 9, 0, 9], [80452994, "Einf\u00fchrung in wissenschaftliches Arbeiten", 0.0, 0, 1452124800, 135, 0, 17], [490384714, "Kunstgeschichte_Grundlagen", 0.0, 0, 1450137600, 59, 2, 68], [1608720885, "SZF - Die Stichprobe", 0.0, 0, 1449878400, 11, 0, 0], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [1507927698, "Betriebswirtschaftliche Grundlagen", 0.0, 0, 1449360000, 85, 0, 23], [4169815589, "Daten der Weltgeschichte", 5.0, 2, 1384819200, 971, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [1320303589, "Vocabulario Sicher! b2.1 Lektion 1", 0.0, 0, 1446854400, 90, 0, 0], [2118193639, "Tu Vung Dong Du - Nghich Dao", 0.0, 0, 1447891200, 417, 0, 1], [1394650898, "Vocabulario Sicher! b2.1 Lektion 2", 0.0, 0, 1446854400, 94, 0, 0], [92317000, "Zeit,Zahlen VHS-WI H73090 Japansich", 0.0, 0, 1446249600, 159, 0, 0], [38866731, "MKL Dichtungen", 0.0, 0, 1447545600, 65, 0, 8], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [1505753053, "Umich MCDB 310 Exam 1 Notecards ", 0.0, 0, 1443916800, 74, 0, 0], [261505705, "Fiche 28", 0.0, 0, 1406160000, 8, 0, 0], [394609033, "VIT - BWL der \u00f6ffentlichen Verwaltung", 0.0, 0, 1444176000, 76, 0, 15], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [83429468, "UPB_Gr\u00e4sslich2", 0.0, 0, 1440028800, 87, 0, 16], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [1940615372, "Fiche ECN 2014 JM", 4.0, 2, 1406592000, 5086, 0, 342], [1354603406, "Erdgeschichte", 0.0, 0, 1382140800, 26, 0, 0], [1525951972, "Deutsch Warum nicht? W\u00f6rterlist", 0.0, 0, 1442448000, 1180, 5, 0], [1424126401, "brezhoneg micher", 0.0, 0, 1437264000, 15, 0, 15], [116927851, "Persich-Deutsch Setzen", 5.0, 1, 1436918400, 391, 0, 0], [913646384, "Mehr \u00fcber mich", 0.0, 0, 1441756800, 52, 52, 63], [108378900, "Wichtige Philosophische Begriffe des Altgriechischen", 0.0, 0, 1435017600, 226, 0, 0], [162623957, "forme geometriche by 853722", 0.0, 0, 1440028800, 8, 0, 0], [3986074186, "Autokennzeichen (Deutschland)", 5.0, 1, 1345852800, 555, 0, 0], [214519432, "Ber\u00fchmte Pers\u00f6nlichkeiten", 0.0, 0, 1441411200, 37, 8, 15], [812435175, "Fiche 26", 0.0, 0, 1406160000, 5, 0, 0], [3249304571, "Schweizer Autokennzeichen", 0.0, 0, 1357948800, 26, 0, 0], [4056558772, "Sicherheit", 5.0, 1, 1374537600, 28, 0, 9], [840494124, "serinaf\u00fcrdichfranz2", 0.0, 0, 1385078400, 60, 0, 0], [2071666777, "Fiche 8 - La l\u00e9sion", 0.0, 0, 1404777600, 4, 0, 0], [1764017645, "Michta technology", 0.0, 0, 1400371200, 81, 0, 0], [184248024, "DM_R13 Wichtige S\u00e4uren", 0.0, 0, 1416441600, 15, 0, 0], [2611380741, "serinaf\u00fcrdichfranz14", 0.0, 0, 1385078400, 39, 0, 0], [1190152740, "serinaf\u00fcrdichfranzblablablabla", 0.0, 0, 1385078400, 38, 0, 0], [1228405207, "jittaichousa deck", 0.0, 0, 1393891200, 115, 0, 0], [1273282345, "Geschichte der Sportp\u00e4dagogik", 0.0, 0, 1424649600, 2, 0, 0], [633971926, "Deutsch - warum nicht? Part 2, verbs with past forms ", 0.0, 0, 1416182400, 103, 0, 0], [3343929880, "serinaf\u00fcrdichfranz13", 0.0, 0, 1385078400, 81, 0, 0], [1144118175, "TU Wien - Plastik, Nichtmetalle (308.860)", 0.0, 0, 1425340800, 177, 0, 46], [520106245, "serinaf\u00fcrdichfranz16", 0.0, 0, 1385078400, 81, 0, 0], [200973892, "UP: Klausur Sportgeschichte 2", 0.0, 0, 1417046400, 12, 0, 0], [3826873097, "Herr Bachfischer Geschichte Emil", 0.0, 0, 1377475200, 73, 0, 0], [1977695303, "Franz\u00f6sich DE-FR A1-A2-B1-B2 (ILS)", 0.0, 0, 1345852800, 1923, 0, 0], [3095561588, "serinaf\u00fcrdichfranz3", 0.0, 0, 1385078400, 44, 0, 0], [1829492608, "hilfreich! ", 0.0, 0, 1397952000, 12, 12, 13], [1950064968, "Fiche 18", 0.0, 0, 1405382400, 11, 0, 0], [3622385600, "Vorbereitung Yield Management WICHTIGE BEGRIFFE", 0.0, 0, 1379980800, 64, 0, 0], [1950425595, "zichanpinggu-jidian", 0.0, 0, 1425340800, 1133, 0, 205], [2447914481, "serinaf\u00fcrdichfranz7", 0.0, 0, 1385078400, 38, 0, 0], [3955369874, "Japanologie Uni Frankfurt Geschichte+Landeskunde", 0.0, 0, 1345852800, 138, 0, 18], [347587182, "AWP 1 (vielleicht auch 2 mit drin)", 0.0, 0, 1397174400, 104, 0, 11], [977165661, "1000 Basic Chichewa Words and Phrases", 0.0, 0, 1433980800, 425, 0, 0], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [448281788, "serinaf\u00fcrdichfranz17", 0.0, 0, 1385078400, 92, 0, 0], [2119468400, "Michel Thomas Russian Foundation", 0.0, 0, 1352160000, 268, 0, 0], [1370370876, "michta prezentacje ", 0.0, 0, 1400284800, 132, 0, 0], [1730790366, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1430870400, 73, 0, 0], [2338652152, "serinaf\u00fcrdichfranz1", 0.0, 0, 1385078400, 38, 0, 0], [133951269, "Erdgeschichte Uni T\u00fcbingen", 0.0, 0, 1425513600, 195, 0, 0], [1681887992, "zichanpinggu-jianzhu", 0.0, 0, 1425340800, 1316, 0, 42], [2362033690, "serinaf\u00fcrdichfranz5", 0.0, 0, 1385078400, 45, 0, 0], [3519896584, "Michelle Poop Alfalfa", 0.0, 0, 1372032000, 17, 0, 23], [1884953442, "Sicherheiten Geno", 0.0, 0, 1393891200, 16, 0, 0], [969503576, "Elektronik - Bezeichn.  Kabel/Leitungen harmonisiert/genormt", 0.0, 0, 1422489600, 54, 0, 0], [1478857671, "Kid's box 2 fitxes", 0.0, 0, 1418515200, 104, 103, 104], [1552100630, "Fiche 19", 0.0, 0, 1405468800, 9, 0, 0], [4134086798, "serinaf\u00fcrdichfranz1", 0.0, 0, 1385078400, 38, 0, 0], [1822287745, "APers\u00f6nlichkeitsst\u00f6rung", 0.0, 0, 1401408000, 43, 0, 6], [1233998827, "Fiche 21", 0.0, 0, 1405468800, 9, 0, 0], [18259943, "Michael's Syriac for vocab building", 0.0, 0, 1365033600, 2564, 0, 2557], [1129473997, "serinaf\u00fcrdichfranz15", 0.0, 0, 1385078400, 25, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [16758016, "Geschichtsdaten AKSA", 0.0, 0, 1370649600, 82, 0, 0], [1365848358, "serinaf\u00fcrdichfranz30", 0.0, 0, 1385078400, 23, 0, 0], [930927347, "Michel Thomas Russian Advanced", 0.0, 0, 1351987200, 436, 0, 0], [2987390966, "Herr Bachfischer Geschichte Der Rote Schipullover", 0.0, 0, 1377475200, 19, 0, 0], [587061671, "TUM300 wichtigste Wirkstoffgruppen", 0.0, 0, 1432771200, 176, 0, 0], [712319246, "Herr Bachfischer Geschichte Weck, Wurst, und Wein", 0.0, 0, 1377475200, 246, 0, 0], [1532824972, "Spezialzeichen mit Namen in Deutsch", 0.0, 0, 1392422400, 39, 38, 0], [3755836748, "serinaf\u00fcrdichfranz19", 0.0, 0, 1385078400, 15, 0, 0], [2006013534, "UP: Klausur Sportgeschichte", 0.0, 0, 1416268800, 18, 0, 0], [1273006630, "Fiche 29", 0.0, 0, 1406160000, 1, 0, 0], [2074500225, "Fiche 11", 0.0, 0, 1405209600, 9, 0, 0], [669256560, "Fiche 15", 0.0, 0, 1405296000, 3, 0, 0], [302687588, "Fiche 31", 0.0, 0, 1406160000, 12, 0, 0], [3327932949, "Kristallographie I (haupts\u00e4chlich Geometrie)", 0.0, 0, 1389744000, 172, 0, 0], [1471773110, "English Clich\u00e9s / \u82f1\u8a9e\u306e\u30af\u30ea\u30b7\u30a7 (\u6163\u7528\u53e5)", 0.0, 0, 1398211200, 1, 0, 1], [4046634007, "Geschichte Gymnasium Schweiz", 0.0, 0, 1354060800, 390, 0, 0], [2465020309, "serinaf\u00fcrdichfranz4", 0.0, 0, 1385078400, 66, 0, 0], [2682292314, "serinaf\u00fcrdichfranz9", 0.0, 0, 1385078400, 10, 0, 0], [1647138982, "zichanpinggu-pinggu", 0.0, 0, 1425340800, 855, 0, 102], [781700335, "Seitlinger GesbR Gesellschaft b\u00fcrgerlichen Rechts", 5.0, 1, 1452038400, 28, 2, 22], [3159046110, "Meithai - Haushalt und Einrichtung", 5.0, 1, 1383782400, 133, 0, 0], [4288707613, "Bewysreg multichoice vrae en antwoorde", 0.0, 0, 1384646400, 279, 0, 0], [1995886513, "AnnaMichael", 0.0, 0, 1420243200, 5, 0, 0], [2733190355, "serinaf\u00fcrdichfranz12", 0.0, 0, 1385078400, 47, 0, 0], [2141764219, "Basiswissen und Definitionen im Bereich CSV", 0.0, 0, 1416355200, 11, 0, 0], [1598875701, "Sicherheitskontrolle", 0.0, 0, 1444348800, 30, 0, 4], [1017660878, "Richard Young", 0.0, 0, 1407283200, 193, 0, 0], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [897380538, "Fiche 25", 0.0, 0, 1406160000, 5, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [1147465737, "Fiche 13", 0.0, 0, 1405209600, 8, 0, 0], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1812447615, "Herr Bachfischer Geschichte Von Deutschland Nach Deutschland", 1.0, 1, 1377475200, 327, 0, 0], [4164914521, "Herzlichen Gl\u00fcckwunsch", 0.0, 0, 1382054400, 33, 0, 0], [2263746587, "Deutsche Geschichte - Zeittafel (Stefan Jacob)", 4.0, 1, 1345852800, 336, 0, 0], [1923357321, "serinaf\u00fcrdichfranz6", 0.0, 0, 1385078400, 11, 0, 0], [651645232, "Muendicher Ausdruecke Deutsch B1", 0.0, 0, 1412380800, 133, 0, 0], [1662948761, "Think and Grow rich", 0.0, 0, 1395014400, 15, 0, 0], [277564484, "zichanpinggu-caiwu", 0.0, 0, 1425340800, 1598, 0, 75], [477405248, "[Pool] \u4f53\u306e\u90e8\u5206 \u300c\u304b\u3089\u3060\u306e\u3076\u3076\u3093\u300d (Lichaamsdelen)", 4.0, 1, 1361318400, 34, 0, 0], [2507909018, "900 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3wek rosyjskich PL-RU (Dydek)", 0.0, 0, 1345852800, 900, 0, 0], [2936450995, "Meithai - Allt\u00e4gliches", 5.0, 1, 1383782400, 189, 0, 0], [299548013, "Meithai - Schrift- und Sonderzeichen", 5.0, 1, 1383782400, 109, 0, 0], [2062115923, "NS-Geschichte - Dienstgrade in der Wehrmacht und in der SS", 0.0, 0, 1345852800, 25, 0, 0], [3976616033, "Michel Thomas Russian Advanced", 5.0, 1, 1351900800, 436, 0, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [2373410558, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [1547365431, "AnkiBac : Fiches pour le bac de SVT", 5.0, 1, 1358899200, 71, 0, 0], [923043453, "Pszichol\u00f3gia fogalmak", 0.0, 0, 1430006400, 361, 0, 0], [2806365568, "Betriebliche Informationssysteme", 0.0, 0, 1350432000, 0, 0, 0], [2020000427, "Konversationsunterricht_3", 0.0, 0, 1414454400, 34, 0, 0], [1045299930, "Fiche 36", 0.0, 0, 1406678400, 13, 0, 0], [251395435, "Nicholls Orgo section 3", 0.0, 0, 1396828800, 117, 0, 222], [449548536, "CS1 - Knowledge Engineering Maastricht", 0.0, 0, 1414108800, 89, 0, 0], [1210680970, "Genki I Kanji + zus\u00e4tzliche Kanji ", 0.0, 0, 1391558400, 381, 0, 0], [1241511378, "Fiche 9 - La cause: application classique", 0.0, 0, 1404777600, 9, 0, 0], [523153197, "wichtige norwegische verben", 0.0, 0, 1408924800, 125, 0, 0], [1948782630, "Farbliche Phraseologismen DE-DE (Germanistik Olm\u00fctz)", 0.0, 0, 1345852800, 105, 0, 0], [796872551, "\u00d6sterreichische Politiker", 0.0, 0, 1442188800, 43, 0, 43], [2041195638, "Chinesische Geschichte", 3.0, 1, 1401408000, 30, 0, 0], [50031653, "Fiche 40", 0.0, 0, 1407888000, 17, 0, 0], [1420927573, "Fiche 20", 0.0, 0, 1405468800, 6, 0, 0], [2194324572, "serinaf\u00fcrdichfranz18", 0.0, 0, 1385078400, 85, 0, 0], [3308080288, "Deutsche Sprichw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 82, 0, 0], [3491343740, "serinaf\u00fcrdichfranz11", 0.0, 0, 1385078400, 20, 0, 0], [1070569986, "Pers\u00f6nlichkeitspsychologie", 0.0, 0, 1419120000, 73, 0, 1], [389212717, "Fiche 7 - les clauses abusives", 0.0, 0, 1404777600, 7, 0, 0], [864970024, "serinaf\u00fcrdichfranz14", 0.0, 0, 1385078400, 21, 0, 0], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [772562422, "Bio Tierreich", 0.0, 0, 1422921600, 240, 0, 29], [3612079865, "serinaf\u00fcrdichfranz8", 0.0, 0, 1385078400, 56, 0, 0], [1112279117, "UP: Klausur Sportgeschichte 3", 0.0, 0, 1417046400, 10, 0, 0], [647780106, "Fiche 16", 0.0, 0, 1405296000, 4, 0, 0], [1139718185, "Fiche 37", 0.0, 0, 1406678400, 6, 0, 0], [400488745, "Spanish Michel Thomas Basic CD 1", 0.0, 0, 1345852800, 41, 0, 0], [84101695, "serinaf\u00fcrdichfranz10", 0.0, 0, 1385078400, 17, 0, 0], [706848221, "Fiche 27", 0.0, 0, 1406160000, 6, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [1287160472, "Fiche 34", 0.0, 0, 1406678400, 11, 0, 0], [2132192140, "DaF Vokabeln, schrifftlicher Ausdr\u00fcck", 0.0, 0, 1414454400, 30, 0, 0], [2123586634, "Fiche 44", 0.0, 0, 1407888000, 4, 0, 0], [3139658923, "Herr Bachfischer Geschichte H\u00f6llenmaschine an Bord", 0.0, 0, 1377475200, 136, 0, 0], [981549059, "Vocab - Current issues Q1 - ICHEC - BAC1", 0.0, 0, 1390089600, 316, 0, 0], [174464096, "Diederich - Latin", 0.0, 0, 1398643200, 1475, 0, 3], [1678297586, "Fiche 39", 0.0, 0, 1406678400, 16, 0, 0], [2866766582, "Unvergessliches Chinesisch (Stufe A, 3. Auflage)", 0.0, 0, 1362182400, 108, 102, 0], [1447179076, "OC II - wichtige Verbindungen", 0.0, 0, 1425081600, 125, 0, 117], [1251390776, "nichiyou", 0.0, 0, 1429833600, 30, 0, 1], [1334092685, "Fiche 14", 0.0, 0, 1405296000, 7, 0, 0], [1594314128, "Fiche 33", 0.0, 0, 1406678400, 11, 0, 0], [88779786, "Fiche 35", 0.0, 0, 1406678400, 5, 0, 0], [1338850422, "Fiche 17", 0.0, 0, 1405296000, 3, 0, 0], [1730553500, "Fiche 4", 0.0, 0, 1404604800, 8, 0, 0], [1583330267, "Fiche 41", 0.0, 0, 1407888000, 12, 0, 0], [4067753948, "WiChi 1. Semester", 0.0, 0, 1345852800, 470, 0, 0], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [391445633, "Michelle_Pio_PMBOK", 0.0, 0, 1412035200, 285, 0, 14], [4092068, "Verfahrenstechnik - Arbeitssicherheit", 0.0, 0, 1406073600, 12, 0, 0], [1999980993, "Fiche 10", 0.0, 0, 1405209600, 7, 0, 0], [67767441, "Fiche 43", 0.0, 0, 1407888000, 5, 0, 0], [991242465, "Fiche 30", 0.0, 0, 1406160000, 4, 0, 0], [1480091754, "Fiche 23", 0.0, 0, 1406160000, 3, 0, 0], [2097210765, "Fiche 42", 0.0, 0, 1407888000, 7, 0, 0], [1292880669, "Verpakung/ Gewichte", 0.0, 0, 1383955200, 21, 0, 0], [1423316936, "Michta food", 0.0, 0, 1400371200, 93, 0, 0], [2464261146, "Heterocyclen1 (Michi)", 0.0, 0, 1385510400, 51, 0, 64], [146069717, "Konversationsunterricht_2", 0.0, 0, 1414454400, 52, 0, 0], [2022526304, "Fiche 32", 0.0, 0, 1406160000, 6, 0, 0], [746503976, "Fiche 12", 0.0, 0, 1405209600, 7, 0, 0], [2401346978, "Herr Bachfischer Geschichte Unten Durch", 0.0, 0, 1377475200, 194, 0, 0], [3306700428, "Konversationsunterricht_1", 0.0, 0, 1414454400, 24, 0, 0], [190885517, "Fiche 22", 0.0, 0, 1406160000, 15, 0, 0], [402198864, "Micha's flashcards for Cognitive Science", 0.0, 0, 1393027200, 65, 0, 4], [1156950944, "Fiche 45", 0.0, 0, 1407888000, 2, 0, 0], [1843623067, "Fiche 24", 0.0, 0, 1406160000, 8, 0, 0], [4124362349, "AnkiBac : Fiches pour le bac d'Histoire", 5.0, 1, 1358899200, 47, 0, 0], [1129877673, "Fiche 38", 0.0, 0, 1406678400, 5, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ich</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

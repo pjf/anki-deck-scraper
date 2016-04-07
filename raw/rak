@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[546073968, "Moroccan Arabic - Marrakech", 0.0, 0, 1453334400, 238, 132, 0], [677598525, "Deutsch - Russisch  DB 1 (>4000)  by Rakzin Roman", 5.0, 1, 1448150400, 4201, 0, 0], [591908342, "Histo Praktikum Block 3", 0.0, 0, 1450224000, 82, 0, 87], [955916647, "Deutsch-Russisch. Medizin und andere. Teil 1. Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [1078213166, "Deutsch-Russisch. Medizin und andere. Teil 2 Rakzin Roman", 0.0, 0, 1448150400, 858, 0, 0], [298864061, "Das Neue Praktische Chinesisch (Band 1-3)", 3.67, 3, 1345852800, 1925, 0, 0], [525716758, "Charakter & Temperament (German to English)", 0.0, 0, 1442966400, 20, 0, 0], [1761928544, "Charakter & Temperament (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [2095062719, "Charakter & Temperament", 0.0, 0, 1442793600, 20, 0, 0], [3440773539, "amarakosha - xatra", 0.0, 0, 1368403200, 893, 0, 0], [860142072, "FOKUS - CHARAKTER - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [965654470, "amarakosha-shabda-nATya", 0.0, 0, 1368403200, 524, 0, 0], [1495115426, "Murakami Vocab Complete", 0.0, 0, 1381104000, 45, 0, 0], [1571260298, "Sz\u00f3rakosgat\u00f3 angol - New English File Advanced SB Unit 3 GrV", 5.0, 1, 1422835200, 90, 0, 9], [2505827312, "amarakosha-brahma", 0.0, 0, 1368403200, 386, 0, 0], [719431520, "UJK Gramatyka Praktyczna", 0.0, 0, 1387238400, 205, 0, 0], [1906977856, "YMCA JP2-B Hirake Vocabulary Deck", 0.0, 0, 1413072000, 743, 0, 0], [1245300071, "Fin\u0161tina - p\u0159eklady a praktick\u00e9", 0.0, 0, 1401667200, 647, 0, 0], [2225182956, "amarakosha - anya", 0.0, 0, 1368403200, 2253, 0, 0], [2297332991, "\u200c\u0905\u092e\u0930\u0915\u094b\u0936\u0903 \u0938\u094d\u0935\u0930\u094d\u0917\u0928\u0930\u0915\u0938\u0942\u091a\u093f\u0903 (Amarakosha Sanskrit thesaurus)", 0.0, 0, 1368403200, 705, 0, 0], [687398620, "9 parakliniske unders\u00f8gelser - apoplexi", 0.0, 0, 1414972800, 41, 0, 28], [2738924753, "amarakosha-purashaila", 0.0, 0, 1368403200, 218, 0, 0], [988037432, "15.Szabadid\u0151 \u00e9s sz\u00f3rakoz\u00e1s2", 0.0, 0, 1434758400, 137, 0, 0], [2729163186, "Arakawa under the bridge op2", 0.0, 0, 1345852800, 22, 22, 0], [366931883, "amarakosha-bhuu", 0.0, 0, 1368403200, 161, 0, 0], [378718613, "Murakami Vocab", 0.0, 0, 1378944000, 39, 0, 0], [1279230702, "SRL Mishna Berajot Berachot Berakhot", 0.0, 0, 1398988800, 65, 0, 0], [1643394981, "amarakosha-dhii", 0.0, 0, 1368403200, 250, 0, 0], [1588923401, "amarakosha-dikkAla", 0.0, 0, 1368403200, 212, 0, 0], [2773731154, "amarakosha-vAri", 0.0, 0, 1368403200, 432, 0, 0], [138083253, "15.Szabadid\u0151 \u00e9s sz\u00f3rakoz\u00e1s", 0.0, 0, 1432771200, 179, 0, 0], [1472546935, "amarakosha-simhAdi", 0.0, 0, 1368403200, 531, 0, 0], [1237023776, "amarakosha-shUdra", 0.0, 0, 1368403200, 353, 0, 0], [673123972, "Deutsch-Spanisch Charaktereigenschaften", 0.0, 0, 1368230400, 37, 0, 0], [1302812641, "amarakosha-vaishya", 0.0, 0, 1368403200, 869, 0, 0], [2267783523, "Murakami 2 deck", 0.0, 0, 1379376000, 20, 0, 0], [1524699968, "amarakosha-vanam", 0.0, 0, 1368403200, 1450, 0, 0], [531747341, "parazyty-praktyk", 0.0, 0, 1400630400, 35, 0, 38], [2184215972, "amarakosha - vyoma-teja", 0.0, 0, 1368403200, 255, 0, 0], [3221703753, "amarakosha-visheShyanighna", 0.0, 0, 1368403200, 1038, 0, 0], [666018500, "Sz\u00f3rakosgat\u00f3 angol - Introductory verbs Hun-Eng", 0.0, 0, 1422835200, 25, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Rak</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

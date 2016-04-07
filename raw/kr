@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[232401491, "English-Ukrainian", 0.0, 0, 1429574400, 1167, 0, 0], [799011251, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 1-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [1091674831, " Mikro\u00f6konomie Interdisziplin\u00e4r Uni due WS 15/16", 0.0, 0, 1454544000, 175, 0, 63], [465319475, "Ga\u00e1l Ott\u00f3: Kreat\u00edv kezd\u0151 angol - Kik\u00e9rdez\u0151 CD-t\u00e1r - [en-hu]", 4.2, 5, 1435104000, 2371, 2339, 0], [603588771, "MUI_2012_mikrobiologie", 0.0, 0, 1454630400, 34, 0, 0], [160559158, "Ukraine - Deutsch - unregelm\u00e4\u00dfige Verben", 0.0, 0, 1454976000, 36, 0, 0], [849454182, "3000 English sentences with ukrainian translates", 5.0, 4, 1430870400, 3353, 3392, 47], [1791761336, "Polski - ukrainski zdanie", 0.0, 0, 1430870400, 2426, 2369, 47], [215126033, "Kruzo 2500 most frequent russian-english \u0440\u0443\u0441\u0441\u043a\u0438\u0439-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439", 5.0, 1, 1410825600, 2497, 0, 0], [1651511513, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 3-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [611119115, "SBFV - Trainer C - Kraft und Beweglichkeit", 0.0, 0, 1453680000, 23, 0, 0], [2015783523, "Animals English-German Krzysztof Sobczak GIM", 0.0, 0, 1452124800, 72, 0, 0], [1975311293, "Bibelkunde NT (11) Vorgeschichte Lk/Mt und \u2020 Kreuzesworte", 0.0, 0, 1453680000, 15, 0, 0], [223549278, "Bibelkunde NT (5) Kreuzestod", 0.0, 0, 1452643200, 20, 0, 0], [861251979, "3 PT Nomenclatuur: hout- en kruidachtigen", 0.0, 0, 1453593600, 19, 0, 0], [474818579, "P\u00fctz Pflanzenkrankheiten", 0.0, 0, 1452816000, 19, 0, 0], [235461606, "Kreisverkehr Pflanzen P\u00fctz", 0.0, 0, 1452729600, 19, 0, 22], [373534082, "My Everyday Russian Kris", 0.0, 0, 1451520000, 25, 0, 3], [620029648, "Kreat\u00edv ANGOL kezd\u0151 VIII.", 5.0, 3, 1451865600, 659, 1, 4], [407142078, "Kreat\u00edv ANGOL kezd\u0151 VII.", 5.0, 6, 1454889600, 593, 1, 4], [1745961245, "Ortskundepr\u00fcfung Krankentransport Hamburg", 0.0, 0, 1452988800, 47, 0, 0], [650472367, "Makro\u00f6konomie", 0.0, 0, 1450742400, 91, 0, 0], [512634474, "Ukrainien sans peine assimil Ukrainien/ fran\u00e7ais", 0.0, 0, 1443398400, 676, 6, 6], [492070811, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 2-\u044f", 0.0, 0, 1439769600, 1000, 0, 0], [1243037384, "Krung Terms", 0.0, 0, 1450310400, 186, 0, 0], [1716597667, "4000 Essential English Words 1 [en-pl] M4R4M_KrisZet", 5.0, 2, 1421452800, 600, 1805, 634], [1732464077, "Ukrainian most common Adjectives (UA-ENG; ENG-UA)", 5.0, 2, 1429401600, 125, 125, 0], [528335417, "Krieg und Frieden", 0.0, 0, 1449705600, 3, 0, 0], [869748009, "Endokrinologi", 0.0, 0, 1451952000, 36, 0, 0], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [1821426174, "Ukrainian Prepositions (picts+audio) ENG-UA / UA-ENG", 3.67, 3, 1430870400, 29, 29, 29], [505455431, "Kreativ Angol Gyakorlo Hun-Eng", 0.0, 0, 1447804800, 178, 0, 0], [954041552, "Mikrobiologi 6. Semester", 0.0, 0, 1447113600, 141, 0, 276], [130198145, "4000 Essential English Words 3 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 599, 1803, 634], [163213347, "Kreat\u00edv ANGOL kezd\u0151 III.", 5.0, 3, 1451865600, 1155, 1, 4], [771522129, "A Sanskrit Manual Course (1+2) Glossary", 0.0, 0, 1450742400, 4398, 2, 53], [1541593467, "Ukrainian Numerals (Num-UA/UA-Num) + AUDIO", 5.0, 1, 1436572800, 77, 77, 0], [2856318920, "S\u0141OWNIK TERMIN\u00d3W KRYSTALOGRAFICZNYCH ANG-PL", 0.0, 0, 1345852800, 1797, 0, 262], [2105295996, "suhAsa's sanskrit verse collection", 0.0, 0, 1446854400, 263, 0, 0], [1145125698, "Bel pawol Kreyol", 0.0, 0, 1444867200, 41, 40, 1], [809884496, "Enokrina systemet", 0.0, 0, 1446768000, 29, 0, 0], [1910544005, "krecikson", 0.0, 0, 1443484800, 66, 0, 0], [1092511409, "Mufrodat Akrab Nahwu Awal", 0.0, 0, 1443830400, 794, 0, 118], [665141412, "Sanskrit Verbs' Roots", 0.0, 0, 1450742400, 1256, 2, 53], [1241707753, "DSM 2.1 Mikrobiologi", 0.0, 0, 1444953600, 71, 0, 0], [1102138843, "Krecikson4", 0.0, 0, 1444003200, 100, 0, 0], [1603427253, "4000 Essential English Words 6 [en-pl] M4R4M_KrisZet", 5.0, 1, 1421712000, 600, 1806, 635], [1780470501, "Fachkraft f\u00fcr Schutz und Sicherheit an der Max-Eyth-Schule", 0.0, 0, 1449792000, 287, 0, 2], [1150984029, "Kreat\u00edv ANGOL kezd\u0151 I.", 4.88, 8, 1451865600, 380, 1, 4], [459099955, "Samskritasubodhinii", 0.0, 0, 1443139200, 2151, 1762, 0], [674452450, "dokumentarni akreditiv i bankarska garancija", 0.0, 0, 1441756800, 32, 0, 0], [387478415, "Sanskrit verb roots \u0938\u0902\u0938\u094d\u0915\u0943\u0924\u0947 \u092a\u093e\u0923\u093f\u0928\u0940\u092f-\u0927\u093e\u0924\u0941\u092a\u093e\u0920\u0903", 0.0, 0, 1368403200, 2551, 0, 0], [1527770264, "Slang kr\u00f3tkofalarski", 0.0, 0, 1441411200, 630, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [675295706, "Kruzo russian-english \u0440\u0443\u0441\u0441\u043a\u0438\u0439-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u0437\u044b", 5.0, 1, 1410739200, 1049, 0, 0], [1190284708, "Ukrainian Beginner 2015", 0.0, 0, 1439164800, 535, 0, 0], [1266512854, "UP-ERN Mikrobiologie", 0.0, 0, 1438214400, 122, 0, 30], [1029691044, "Kreat\u00edv ANGOL kezd\u0151 V.", 5.0, 2, 1451865600, 862, 1, 4], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 5.0, 1, 1433721600, 2000, 6, 4], [1018844964, "Sanskrit Basic", 0.0, 0, 1450742400, 880, 2, 53], [1427731002, "Self share_kron", 0.0, 0, 1434326400, 498, 0, 1], [1473286273, "JP->KR \u52d5\u8a5e", 0.0, 0, 1432166400, 250, 0, 0], [1331038465, "m4 kroppsvegg", 0.0, 0, 1402099200, 26, 0, 5], [1019738748, "regelkringen bvj havo-4 begrippen", 0.0, 0, 1431993600, 13, 0, 1], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [639604528, "MakroHBRS", 0.0, 0, 1437091200, 8, 0, 2], [603433062, "Kruzo deutsch - russisch (\u043d\u0435\u043c\u0435\u0446\u043a\u0438\u0439 - \u0440\u0443\u0441\u0441\u043a\u0438\u0439) A1 \u0444\u0440\u0430\u0437\u044b", 0.0, 0, 1410739200, 540, 0, 0], [860142072, "FOKUS - CHARAKTER - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [1969222554, "Endokrin", 0.0, 0, 1433203200, 129, 0, 13], [1441898832, "Mikrobil\u00e4\u00e4kkeiden tyyppiaineita", 0.0, 0, 1410307200, 13, 0, 0], [2050548852, "German Body words (Ukr)", 0.0, 0, 1419638400, 19, 0, 0], [2000428504, "Mikrobiologi og immunologi", 0.0, 0, 1403395200, 654, 0, 0], [742532064, "Ch 9 from Examkrackers MCAT Bio", 0.0, 0, 1400544000, 29, 0, 0], [1512212857, "Uk\u0142ad kr\u0105\u017cenia", 0.0, 0, 1416441600, 35, 0, 0], [1217276842, "das Thema Kriminalitaet fuer Deutsch-Russisch", 0.0, 0, 1403136000, 107, 0, 0], [1203310645, "Basic Ukrainian", 0.0, 0, 1432166400, 33, 0, 0], [2106387811, "BrzrkrKen Airspace", 0.0, 0, 1399420800, 120, 0, 0], [2076680406, "Mikrobil\u00e4\u00e4kkeet", 0.0, 0, 1410307200, 135, 0, 0], [92286361, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1416441600, 43, 0, 0], [943880653, "Kreat\u00edv ANGOL kezd\u0151 VI.", 5.0, 4, 1454889600, 1273, 1, 4], [414394398, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1417651200, 43, 0, 0], [1667455190, " BrzrkrKen CommNav", 0.0, 0, 1399420800, 99, 0, 7], [1164305399, "Gastronomie PL-DE Krzysztof Nowaczek", 0.0, 0, 1345852800, 1233, 0, 0], [3690356038, "\u0938\u0902\u0938\u094d\u0915\u0943\u0924\u0936\u092c\u094d\u0926\u093e\u0903 - Misc Samskrit words", 0.0, 0, 1384387200, 688, 0, 0], [2056650488, "Ch 5 from Examkrackers MCAT Bio", 0.0, 0, 1402531200, 65, 0, 0], [775457847, "Angol Kreat\u00edv - v\u00e1logat\u00e1s 1", 0.0, 0, 1392076800, 142, 0, 0], [3122753139, "FOKUS - CAFE JULIA 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1341834637, "Ukrainian RU-UA", 0.0, 0, 1442793600, 50, 0, 0], [2851082405, "Chemie 4. Semester Organische Makromolek\u00fcle", 0.0, 0, 1346284800, 100, 0, 45], [670987890, "Makro\u00f6konomie II", 0.0, 0, 1430697600, 39, 0, 46], [59154720, "Kriminalpsychologie", 0.0, 0, 1404691200, 104, 0, 38], [2212265387, "HR \u00cdslenska stig 1 - Sigr\u00ed\u00f0ur Kristinsd\u00f3ttir", 0.0, 0, 1367366400, 29, 0, 0], [2297332991, "\u200c\u0905\u092e\u0930\u0915\u094b\u0936\u0903 \u0938\u094d\u0935\u0930\u094d\u0917\u0928\u0930\u0915\u0938\u0942\u091a\u093f\u0903 (Amarakosha Sanskrit thesaurus)", 0.0, 0, 1368403200, 705, 0, 0], [1446961703, "FOKUS - ERSTE KONTAKTE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1801751937, "kraje i miasta", 0.0, 0, 1416096000, 47, 0, 0], [3688309102, "Deutsch-Kroatisch", 0.0, 0, 1387324800, 1509, 0, 0], [3601541250, "FOKUS - HAUS - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [183062921, "Egzamin kr\u00f3tkofalarski 2014 (Marcin Perli\u0144ski)", 0.0, 0, 1427068800, 453, 0, 28], [2111047297, "Kristalloptik", 0.0, 0, 1389744000, 31, 0, 1], [1101386476, "Krishingner Human Anatomy 3/1/15", 0.0, 0, 1425254400, 219, 0, 214], [819860801, "Kruzo deutsch - russisch (\u043d\u0435\u043c\u0435\u0446\u043a\u0438\u0439 - \u0440\u0443\u0441\u0441\u043a\u0438\u0439) A1 \u043b\u0435\u043a\u0441\u0438\u043a\u0430", 4.0, 1, 1410739200, 1392, 0, 0], [166664600, "Kreat\u00edv ANGOL kezd\u0151 IV.", 5.0, 4, 1451865600, 650, 1, 4], [2113156618, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1118390533, "Krytosemenne - poznavani", 0.0, 0, 1402012800, 147, 0, 148], [1510756841, "BKR, Bankrechnen f\u00fcr Bankkaufleute 2013/14 Teil 1", 0.0, 0, 1390262400, 38, 0, 0], [3327932949, "Kristallographie I (haupts\u00e4chlich Geometrie)", 0.0, 0, 1389744000, 172, 0, 0], [1181834904, "500 English words(pic and audio) (Ukrainian Translation)", 5.0, 2, 1425254400, 248, 234, 268], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [55260522, "bvj havo-4 basisstof 1 regelkringen en homeostase", 0.0, 0, 1431993600, 13, 0, 3], [709517551, "BrzrkrkKen Instruments", 0.0, 0, 1397001600, 285, 0, 0], [58161266, "German - Unit 10 words (Ukr)", 0.0, 0, 1419638400, 23, 0, 0], [179142362, "Kreat\u00edv ANGOL kezd\u0151 II.", 5.0, 6, 1451865600, 785, 1, 4], [1049648964, "4000 Essential English Words 4 [en-pl] M4R4M_KrisZet", 4.0, 1, 1421452800, 600, 1806, 635], [2935021729, "Twelve Nid\u0101nas, Tibetan-English-Russian-Sanskrit-Pali", 0.0, 0, 1383091200, 12, 0, 0], [395300029, "FOKUS - BERUFE - KRZYSZTOF SOBCZAK", 0.0, 0, 1414540800, 72, 0, 0], [471251243, "Seosan Korean 01 ENG to KR", 0.0, 0, 1365638400, 18, 0, 0], [1556256894, "FOKUS - IM UNTERRICHT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [621523048, "mikrobiologia 2", 0.0, 0, 1395619200, 219, 0, 0], [420376188, "FOKUS - EXAKT 02 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [585675142, "Mikrobio TU M\u00fcnchen", 0.0, 0, 1392076800, 255, 1, 0], [1178338219, "German - Unit 11 words (Ukr)", 0.0, 0, 1419897600, 32, 0, 0], [656592191, "BrzrkrKen 5&9", 0.0, 0, 1399420800, 213, 0, 0], [2568609589, "FOKUS - KLEINE DEUTSCHMUSIK - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [2375869398, "FOKUS - FAMILIE - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2013419104, "FOKUS - CAFE JULIA 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [3833446595, "FOKUS - M\u00d6BEL - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2130457020, "German - Verbs words (Ukr)", 0.0, 0, 1419638400, 16, 0, 0], [1204098998, "FOKUS - EXAKT 01 - Krzysztof Sobczak", 0.0, 0, 1391299200, 144, 0, 0], [2047421145, "BrzrkrKen SightsSensors", 0.0, 0, 1399420800, 100, 0, 37], [2672625866, "sanskrit avyaya-s", 0.0, 0, 1368403200, 330, 0, 0], [1162165422, "mikro 3", 0.0, 0, 1398988800, 184, 0, 0], [768787499, "FOKUS - FARBEN UND ZEIT - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1585581476, "Kr\u00e4ldjur Sanna", 0.0, 0, 1423180800, 6, 0, 7], [840096368, "BrzrkrKen Sys", 0.0, 0, 1399420800, 129, 0, 20], [3560355112, "Kriyat Binayim", 0.0, 0, 1345852800, 5, 0, 0], [2779070537, "FOKUS - SPRACHMITTEL 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [2217022793, "FOKUS - SPRACHMITTEL 3 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1509488747, "Mikrobiologie UI12", 0.0, 0, 1389139200, 86, 0, 21], [1839615397, "Kreuzwortr\u00e4tsel", 0.0, 0, 1417996800, 119, 0, 0], [1190933409, "Chi\u0144ski - Pawel Krawczyk", 0.0, 0, 1426291200, 626, 333, 245], [297046662, "Kredit, Kreditgesch\u00e4ft f\u00fcr Bankkaufleute 11. Klasse komplett", 0.0, 0, 1377475200, 122, 0, 0], [975757236, "Kruzo russian(english)-espa\u00f1ol \u0440\u0443\u0441\u0441\u043a\u0438\u0439-\u0438\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439 \u0438\u0437 \u043f\u0438\u043c\u0441\u043b\u0435\u0440\u0430", 0.0, 0, 1410739200, 514, 0, 0], [1343712279, "mikrobiologia klasyfikacja", 0.0, 0, 1394928000, 139, 0, 0], [578119116, "BrzrkrKen AeroD", 0.0, 0, 1399420800, 78, 0, 6], [119736089, "Kreat\u00edv n\u00e9met kezd\u0151 0104 A", 0.0, 0, 1400457600, 94, 0, 0], [2105847600, "BrzrkrKen Gunnery", 0.0, 0, 1399420800, 404, 0, 25], [298828756, "KR->JP\u52d5\u8a5e", 0.0, 0, 1432166400, 250, 0, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [3998843373, "Seosan Korean 01 KR to ENG", 0.0, 0, 1365638400, 18, 0, 0], [3273053765, "\"Beginning Sanskrit\" cumulative vocabulary", 5.0, 1, 1414281600, 1325, 0, 1], [4207131672, "S\u0142u\u017cby RL - skr\u00f3ty", 0.0, 0, 1357430400, 70, 0, 0], [1396675159, "Krewni i Powinowaci", 0.0, 0, 1402099200, 48, 0, 0], [1142282649, "BrzrkrKen AeroMed", 0.0, 0, 1399420800, 51, 0, 5], [385414420, "1 ko\u0142o mikro", 0.0, 0, 1394409600, 92, 0, 0], [910212181, "BrzrkrKen Wx", 0.0, 0, 1399420800, 340, 0, 0], [2042640723, "Kreat\u00edv n\u00e9met alap - szavak", 0.0, 0, 1379721600, 30, 0, 0], [856377176, "Sanskrit made imple", 5.0, 1, 1372118400, 66, 0, 0], [1858009284, "Neurobiologi2014-makroskopiskopdeling", 0.0, 0, 1409702400, 47, 0, 47], [780098291, "Krishingner Human Anatomy Pt2 4/24/15", 0.0, 0, 1429920000, 317, 0, 456], [2056957519, "deutsch b1 ukr", 0.0, 0, 1405468800, 61, 0, 0], [1202670334, "K4 \u2013 R\u00f8ntgen beskrivelse", 0.0, 0, 1398988800, 33, 0, 1], [2090701210, "Phrases to build  krey\u00f2l vocabulary", 0.0, 0, 1399593600, 1, 0, 0], [989055389, "FOKUS - SPRACHMITTEL 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 72, 0, 0], [1930556491, "A1. Lesson 5. Liczby, wiek, kraje", 0.0, 0, 1422662400, 72, 50, 0], [2132289785, "Mikrobiologia umb wyk\u0142adowe G(-)", 0.0, 0, 1396915200, 57, 0, 0], [2047197427, "4000 Essential English Words 2 [en-pl] M4R4M_KrisZet", 3.0, 1, 1424390400, 599, 1800, 632], [318762154, "javascript skr5e", 5.0, 1, 1406851200, 932, 0, 7], [538352026, "Ukrainian consonants ", 0.0, 0, 1427587200, 21, 21, 0], [1585920690, "Ukrainian vowels", 0.0, 0, 1427587200, 11, 11, 0], [2364660320, "Ukraine Alphabet", 0.0, 0, 1361750400, 33, 33, 66], [253751894, "4000 Essential English Words 5 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 600, 1806, 635], [577464514, "German - Adjective words (Ukr)", 0.0, 0, 1419638400, 2, 0, 0], [659214089, "Examkrackers MCAT Gen Chem", 0.0, 0, 1410998400, 365, 0, 0], [2145570129, "Krause Histology Screenshots Block1", 0.0, 0, 1411430400, 274, 0, 269], [2143430041, "Ukrainian most common verbs", 5.0, 3, 1418688000, 111, 111, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Kr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

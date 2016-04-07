@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1564343998, "GreenForest Level II", 0.0, 0, 1448236800, 1143, 0, 642], [2100366629, "Haeufigkeit und Reihenfolge (English to German)", 0.0, 0, 1444176000, 40, 0, 0], [756321324, "Haeufigkeit und Reihenfolge (German to English)", 0.0, 0, 1444176000, 40, 0, 0], [2080518810, "dakua'ana davi: enfermedades", 0.0, 0, 1411689600, 15, 15, 14], [40678794, "Terminologia Enfermeria Hospital Italiano de Bs As", 0.0, 0, 1402444800, 59, 0, 0], [1947726076, "Patolog\u00edas / Nefro / Enfermer\u00eda 2do a\u00f1o 1er cuatrimestre  Ho", 0.0, 0, 1401926400, 27, 0, 0], [773988618, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda II", 0.0, 0, 1392768000, 82, 0, 0], [1337952012, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Web 1.0\"", 0.0, 0, 1422403200, 21, 0, 6], [1643257269, "ITB, IFL Bayreuth - Fragen zum Themenfeld \"Bin\u00e4re Gr\u00f6\u00dfen\"", 0.0, 0, 1422403200, 21, 0, 2], [725566744, "otuhapohoewnhfao;enfopewbhfopiguh", 0.0, 0, 1420329600, 128, 0, 0], [1383795806, "HI, Enfermer\u00eda 2do 2ero, comunitaria, 1er parcial", 0.0, 0, 1403308800, 39, 0, 0], [587222901, "Nebenfach TheoMed Anatomie I", 0.0, 0, 1392163200, 136, 0, 21], [2888255356, "NeurofragenfuerJen", 0.0, 0, 1368921600, 143, 0, 66], [176735327, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369872000, 60, 0, 0], [968446625, "ITB, IFL Bayreuth - Fragen zum Themenfeld Codierung", 0.0, 0, 1422403200, 20, 0, 4], [72405212, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Biof\u00edsica I", 0.0, 0, 1392768000, 34, 0, 0], [275159176, "Patolog\u00edas / Digestivo 2do a\u00f1o 1er cuatrimestre Enfermer\u00eda", 0.0, 0, 1401926400, 47, 0, 0], [1687086932, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405209600, 120, 0, 0], [1929106954, "Examen de Enfermedades Cronico degenerativas", 0.0, 0, 1432166400, 29, 0, 9], [216610219, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405296000, 126, 0, 0], [1131894875, "HI, Enfermer\u00eda 2do 1ero, comunitaria, 1er parcial...", 0.0, 0, 1403481600, 81, 0, 0], [281512280, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / B\u00e1sica I", 0.0, 0, 1369612800, 23, 0, 0], [614071473, "1ero 2do Enfermeria Salud Mental Hospital Italiano", 0.0, 0, 1402444800, 12, 0, 0], [1783612208, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369094400, 60, 0, 0], [841235653, "HI, Enfermer\u00eda 2do 2do, comunitaria, 2do parcial", 0.0, 0, 1403308800, 39, 0, 0], [1941773617, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Antropolog\u00eda", 0.0, 0, 1392768000, 23, 0, 0], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1782582509, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Logik\"", 0.0, 0, 1422403200, 21, 0, 11], [271751464, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda", 0.0, 0, 1369872000, 156, 0, 2], [669847017, "ITB,  IFL Bayreuth - Fragen zum Themenfeld Zahlensysteme", 0.0, 0, 1422403200, 29, 0, 17], [1476852978, "ITB, IFL Bayreuth - Fragen zum Themenfeld ODR", 0.0, 0, 1422403200, 14, 0, 19]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Enf</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1039626004, "TS - Analyse spectrale", 0.0, 0, 1453680000, 30, 1, 46], [1416285029, "JMC Audio: 207 Music Production Analysis Notes", 0.0, 0, 1453939200, 444, 0, 0], [1140888189, "Analytical Chemistry", 5.0, 1, 1449360000, 15, 0, 10], [2142976447, "Anatomie - svaly HK", 0.0, 0, 1445990400, 16, 0, 0], [1570953669, "Anatomie - svaly DK", 0.0, 0, 1445990400, 14, 0, 0], [1459919581, "Flervariabelanalys", 0.0, 0, 1442534400, 239, 0, 24], [1991673161, "Funktionalanalysis (final)", 0.0, 0, 1443830400, 247, 0, 91], [292483435, "English 325 Conversation Analysis", 0.0, 0, 1402012800, 34, 0, 0], [1963511318, "Real Analysis", 0.0, 0, 1441497600, 101, 0, 185], [99183628, "ISTQB Glossary - Test Analyst", 0.0, 0, 1442880000, 269, 0, 0], [1151979525, "Analyse", 0.0, 0, 1416268800, 57, 0, 99], [419443158, "Funktionalanalysis", 0.0, 0, 1439769600, 98, 0, 91], [412397360, "Alyawarr Sound Chart", 0.0, 0, 1441238400, 37, 37, 37], [1310607487, "Updated FACEM study cards John Daly", 0.0, 0, 1433462400, 209, 0, 5], [1097077993, "Real Analysis", 0.0, 0, 1425427200, 186, 0, 287], [888240161, "The Language and Tools of Financial Analysis (Coursera)", 0.0, 0, 1436400000, 72, 0, 0], [2021429671, "Analysis und Lineare Algebra", 0.0, 0, 1436572800, 49, 0, 198], [2780247271, "Alya English", 0.0, 0, 1345852800, 3030, 50, 121], [352829501, "AC II - Analytik", 0.0, 0, 1411603200, 56, 0, 5], [1008771921, "Funktionalanalysis", 0.0, 0, 1421366400, 230, 0, 265], [1390372234, "sozialstrukturanalyse ", 0.0, 0, 1422576000, 275, 0, 9], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [401628011, "Water Analysis for my friend, Courtney", 5.0, 1, 1432080000, 52, 0, 5], [106533309, "Geometrische Analysis", 0.0, 0, 1389139200, 96, 0, 118], [915414763, "Computergest\u00fctzte Datenanalyse", 0.0, 0, 1423267200, 46, 0, 73], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 5.0, 1, 1412380800, 43, 0, 15], [1106908168, "JMC Audio 207 \"Music Production Analysis\" Notes", 0.0, 0, 1428969600, 182, 0, 0], [2132392039, "Algorithm Analysis First Exam", 0.0, 0, 1394755200, 50, 0, 18], [920221620, "Finite Element Analysis", 0.0, 0, 1400371200, 24, 0, 60], [836950014, "FACEM 1 john daly", 0.0, 0, 1426204800, 68, 0, 3], [485381930, "Protocol Analysis CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 18, 0, 0], [1417747720, "technische Projektanalyse", 0.0, 0, 1423353600, 0, 0, 0], [572418030, "urinalysisforjay", 0.0, 0, 1424995200, 40, 0, 1]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Aly</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

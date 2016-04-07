@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1768993625, "Network Engineering (Huawei)", 0.0, 0, 1454457600, 155, 0, 0], [1216676381, "Network Engineering (Cisco and Huawei)", 0.0, 0, 1454457600, 249, 0, 0], [976133416, "A test set meant to start working with Anki", 0.0, 0, 1454025600, 13, 0, 19], [339515789, "Studienweg 1 Vorkurs 1", 0.0, 0, 1452816000, 45, 0, 0], [2129243766, "Terry Wallwork - Japanese Kangxi Radicals", 0.0, 0, 1427155200, 214, 0, 0], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [1985647355, "Networking: A Top Down Approach", 0.0, 0, 1450310400, 18, 0, 0], [495049975, "Networking Deck", 0.0, 0, 1449792000, 177, 0, 0], [1624440617, "BEC Higher Work", 0.0, 0, 1449619200, 25, 0, 0], [1941489787, "Speaksuli working words ", 0.0, 0, 1451865600, 26, 0, 0], [552909006, "Radims Study Worksheet - 14122015", 0.0, 0, 1450137600, 0, 0, 0], [1053790538, "Glassworks vocab 1", 0.0, 0, 1449619200, 25, 0, 3], [164166150, "Social and Information Networks", 0.0, 0, 1447372800, 16, 0, 0], [1065390308, "Deck 19- listening 4- chapter 7- working", 0.0, 0, 1449014400, 10, 0, 0], [1215022603, "Great works of art", 5.0, 11, 1443139200, 657, 7, 658], [1620660318, "Chinese Link: Elementary & Intermediate (work in progress)", 0.0, 0, 1364256000, 1256, 0, 0], [1452703727, "Afrikaans Exam Work (Baldy Bunch)", 0.0, 0, 1437091200, 101, 101, 0], [993463737, "Latin Work 2015", 0.0, 0, 1430092800, 515, 0, 0], [362118501, "skorka i pochodne na weterynarie", 0.0, 0, 1434499200, 217, 0, 0], [2710934401, "BUSINESS, WORK AND TIME - TEACHER CARLOS", 0.0, 0, 1378771200, 24, 0, 0], [1159746774, "Django Framework", 0.0, 0, 1396915200, 10, 0, 0], [2514596951, "Basis for Business - Unit 3 - Work and leisure", 0.0, 0, 1368316800, 181, 0, 0], [2136231756, "West End Idiomas - Work and Jobs", 0.0, 0, 1422057600, 86, 0, 89], [1842630470, "Workflow e gerenciamento eletr\u00f4nico de documentos", 0.0, 0, 1445990400, 10, 0, 0], [1935448309, "TerryWallwork - Jouyou Jp Kanji Grades 1-6 & Second School", 0.0, 0, 1427155200, 2136, 0, 0], [613113375, "DSRI Unit 3 Framework for Inference", 0.0, 0, 1415145600, 22, 0, 0], [2186875272, "French - Workplace vocabulary", 0.0, 0, 1381795200, 50, 0, 0], [2075888486, "Marathi - language, study & work", 0.0, 0, 1403654400, 13, 0, 0], [1253846491, "Elevated Work Platform ", 0.0, 0, 1404604800, 30, 0, 0], [228326862, "Picked up at Work", 4.0, 1, 1444348800, 724, 0, 0], [390693465, "Networks' (2A) lesson from french school TELECOM Nancy", 0.0, 0, 1386547200, 75, 0, 0], [681564479, "VLS (work in progress)", 0.0, 0, 1401580800, 18, 0, 0], [420762274, "Common workplace expressions", 0.0, 0, 1426291200, 7, 0, 0], [863920351, "Datorkommunikation ETS052", 0.0, 0, 1412985600, 95, 0, 2], [2254470364, "Lakehead Workplace Idioms", 0.0, 0, 1366588800, 36, 0, 0], [1495604972, "Business English. B2. Absence from work", 0.0, 0, 1429315200, 14, 0, 0], [1542720299, "ED Job & work vocabulary Polish-English", 0.0, 0, 1348531200, 75, 0, 0], [1721426337, "WMS - Group work emergency cases", 0.0, 0, 1390608000, 34, 0, 8], [400847432, "Cams - hwork one", 0.0, 0, 1434931200, 40, 0, 0], [2437004623, "Computer Networks", 0.0, 0, 1361404800, 35, 0, 1], [1063724962, "M\u00f6llers - Growing into the world of work", 0.0, 0, 1412035200, 80, 0, 0], [2050155518, "MCB4 - cancer the works", 0.0, 0, 1427846400, 121, 0, 47], [3807377409, "Works of Art", 0.0, 0, 1383782400, 305, 0, 262], [490820644, "Business English. B1. Criticizing colleagues at work", 0.0, 0, 1427328000, 24, 0, 0], [1598661035, "Max is a dork", 0.0, 0, 1428883200, 46, 0, 0], [401094247, "RLR #86 \u2013 New York English & the Qu'ran", 0.0, 0, 1420675200, 30, 30, 0], [764446605, "IP Network addresses", 0.0, 0, 1421280000, 71, 1, 0], [389279585, "Verbal Workout GRE 4th edition (\u0634\u062e\u0635\u06cc \u0633\u0627\u0632\u06cc \u0634\u062f\u0647)", 0.0, 0, 1430697600, 573, 573, 568], [1436914378, "UQ MBBS 1 PBL 7 Starting Work", 0.0, 0, 1395532800, 55, 0, 0], [1290066901, "Introduction to Networking start-midterm", 0.0, 0, 1350518400, 29, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ork</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

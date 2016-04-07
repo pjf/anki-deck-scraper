@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [1620904083, "Mandarin Chinese Rosetta Stone Companion", 4.25, 4, 1404518400, 3689, 0, 0], [976133416, "A test set meant to start working with Anki", 0.0, 0, 1454025600, 13, 0, 19], [857799064, "Rosetta Stone Japanese Level 1 Unit 3 Lesson 1", 0.0, 0, 1450915200, 53, 0, 0], [1971273965, "12-11-test-set-99899", 0.0, 0, 1449878400, 232, 0, 66], [1608487705, "Set of Hebrew words preparing to menunanim exam", 0.0, 0, 1451001600, 185, 268, 0], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 4.0, 1, 1345852800, 250, 0, 0], [251395753, "Vocabulari de \"Jus de chaussettes\", A2 (franc\u00e8s-catal\u00e0)", 0.0, 0, 1448150400, 120, 0, 0], [1596931381, "Rosetta Stone Spanisch 1: Deutsch ->Spanisch \u00dcbersetzung", 0.0, 0, 1387065600, 517, 0, 0], [2113297325, "set of information about pc memory", 0.0, 0, 1448409600, 27, 0, 0], [614792066, "ELEC4320 Asset Management and Condition Monitoring", 0.0, 0, 1449187200, 77, 0, 12], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [1340402116, "Set 1", 0.0, 0, 1444780800, 25, 0, 0], [1570045430, "Seth Med Spanish", 0.0, 0, 1443225600, 59, 0, 8], [50297673, "Settimana & date - italiano-giapponese", 0.0, 0, 1444780800, 57, 0, 0], [97481091, "Tysk gloset Weitblick kapitel 1 German-Norwegian", 0.0, 0, 1443052800, 130, 0, 0], [783923803, "Rosetta Stone German Level 1 Vocab", 2.75, 4, 1345852800, 313, 0, 0], [1002120426, " Finnish: ammatit ja harrastukset", 0.0, 0, 1444003200, 125, 0, 0], [732544763, "Duitse voorzetsels op frequentie (SETL)", 0.0, 0, 1438992000, 132, 1, 1], [22218332, "AP Japanese Adjectives Set 2", 0.0, 0, 1440460800, 25, 8, 15], [1438844343, "Top-50 Spaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 1054, 1, 1], [947852770, "ZBLL algorithms: H Set", 0.0, 0, 1440374400, 48, 0, 48], [1863838836, "Rosetta Stone Japanese Level 1 Unit 2 Vocabulary", 0.0, 0, 1436572800, 113, 0, 0], [116927851, "Persich-Deutsch Setzen", 5.0, 1, 1436918400, 391, 0, 0], [1418354487, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok birtokos esetben", 0.0, 0, 1396742400, 26, 0, 0], [2031686677, "Rosetta Stone Hindi", 0.0, 0, 1418601600, 271, 227, 1], [1176697844, "Top-50 Italiaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 900, 1, 1], [2674369776, "Cinta Bahasa Buku 2A: Set #1", 0.0, 0, 1355443200, 50, 0, 0], [1396276182, "Rosetta Stone German Level 2 Unit 3 Vocab", 0.0, 0, 1345852800, 62, 0, 0], [422812024, "Egyptian Demotic - Setne Khaemwast", 0.0, 0, 1432684800, 494, 0, 495], [831030283, "Massachusetts Paramedic Adult Medication Refrence", 0.0, 0, 1439769600, 30, 0, 0], [750146394, "Japanese Vocab from the Rosetta Stone course", 0.0, 0, 1437264000, 146, 0, 0], [758063752, "Rosetta Stone German Level 2 Unit 1 Vocab", 0.0, 0, 1345852800, 73, 0, 0], [2236930544, "Rosetta Stone German Level 1 Unit 1 Vocab", 0.0, 0, 1345852800, 79, 0, 0], [81833519, "Rosetta Stone German Level 2 Vocab", 2.5, 2, 1345852800, 270, 0, 0], [580568420, "Vocabulario tomado de Rosetta Stone El Ru I", 0.0, 0, 1400112000, 266, 0, 1], [485323808, "Rosetta stone \u30c9\u30a4\u30c4\u8a9e(German) Level 4", 0.0, 0, 1371254400, 266, 0, 0], [1466173870, "MTC 2nd year New Testament Set Text Greek Vocab", 0.0, 0, 1373932800, 430, 0, 1], [3102821065, "Jumbucks 4000 JQXZ Scrabble Bingo Sets", 0.0, 0, 1345852800, 3877, 0, 0], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [460373699, "Rosetta Stone - Korean", 0.0, 0, 1403222400, 44, 0, 0], [918976351, "MM Block 2 P-sets pt 1", 0.0, 0, 1413676800, 106, 0, 7], [40608478, "Unternehmensethik", 0.0, 0, 1429660800, 34, 0, 0], [1159701486, "MM Block 2 P-sets pt 2", 0.0, 0, 1413676800, 34, 0, 2], [2852042313, "Med Chem 3 Final Ilies Oncology Study Set", 0.0, 0, 1354924800, 142, 0, 0], [1951579551, "Rosetta Stone German Level 1 Unit 4 Vocab", 0.0, 0, 1345852800, 78, 0, 0], [1885331270, "Rosetta Stone Japanese Level 1 Unit 1 Vocabulary", 0.0, 0, 1429833600, 76, 0, 0], [3245135572, "Rosetta stone \u30c9\u30a4\u30c4\u8a9e(German) Level 3", 0.0, 0, 1371254400, 319, 0, 0], [3816457520, "Jumbucks 22,000 Scrabble FHKVWY Bingo Sets", 0.0, 0, 1345852800, 22247, 0, 0], [2307302081, "Rosetta Stone German Level 1 Unit 3 Vocab", 0.0, 0, 1345852800, 81, 0, 0], [3555664940, "Set of Biblical Hebrew Cards", 0.0, 0, 1345852800, 987, 0, 0], [1017821002, "Persian - Setting a Table for a Party", 0.0, 0, 1417564800, 176, 0, 0], [3484058259, "Changing your mindset", 0.0, 0, 1374969600, 9, 0, 0], [43978039, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok r\u00e9szes esetben", 0.0, 0, 1396742400, 27, 0, 0], [3879180183, "Rosetta Stone German Level 2 Unit 2 Vocab", 0.0, 0, 1345852800, 47, 0, 0], [2563735641, "Rosetta Stone German Level 2 Unit 4 Vocab", 0.0, 0, 1345852800, 86, 0, 0], [3916791803, "Rosetta Stone German Level 1 Unit 2 Vocab", 0.0, 0, 1345852800, 75, 0, 0], [1519737691, "Ruotsin ep\u00e4s\u00e4\u00e4nn\u00f6lliset verbit", 0.0, 0, 1376092800, 108, 0, 0], [145146692, "RLR #91 - Growth Mindset", 5.0, 1, 1423612800, 31, 31, 0], [1453764190, "ATmega instruction set", 0.0, 0, 1385510400, 131, 0, 0], [1312356000, "Jumbucks Top 3600 Scrabble Bingo Sets", 0.0, 0, 1345852800, 3600, 0, 0], [728392663, "Hiragana to Katakana (Basic set)", 4.5, 2, 1416614400, 46, 0, 0], [263726934, "Rosetta Stone Mandarin", 1.0, 1, 1428105600, 908, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Set</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

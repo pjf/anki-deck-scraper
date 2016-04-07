@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1923796073, "fmcase12cough", 0.0, 0, 1454284800, 120, 0, 0], [2048458785, "Sopica MCF", 0.0, 0, 1453852800, 16, 0, 0], [1801858486, "fmcase24infant", 0.0, 0, 1454284800, 79, 0, 0], [1436069194, "fmcase21fever", 0.0, 0, 1454284800, 158, 0, 0], [1037252197, "fmcase29dementia", 0.0, 0, 1454284800, 93, 0, 0], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [163612115, "MCAT", 0.0, 0, 1453766400, 19, 0, 0], [1739227015, "MEC MCAT 1021", 0.0, 0, 1453766400, 13311, 0, 3162], [2096349358, "JMC Audio: 302 Acoustic Design Notes", 0.0, 0, 1453939200, 14, 0, 1], [825115765, "Blood and Lymph KUMC", 5.0, 1, 1454371200, 1276, 10, 1148], [1331106589, "Back-up of MCAT -Meg", 0.0, 0, 1451520000, 658, 0, 6], [370168034, "Biochemistry and Biology MCAT", 5.0, 1, 1452211200, 368, 0, 8], [1702998371, "fmcase22stroke", 0.0, 0, 1454284800, 130, 0, 0], [1698601960, "Altius MCAT", 5.0, 2, 1410480000, 8463, 0, 544], [1416285029, "JMC Audio: 207 Music Production Analysis Notes", 0.0, 0, 1453939200, 444, 0, 0], [658252404, "Dunal MCAT", 0.0, 0, 1452470400, 723, 0, 164], [1088921031, "EmoryPharmCardiac", 0.0, 0, 1453852800, 40, 0, 3], [813247029, "GI RMC 2016 Week 1", 0.0, 0, 1452643200, 222, 0, 0], [2098692931, "MCAT B/BC SAM", 0.0, 0, 1452556800, 265, 0, 11], [2145038306, "Manvir's Ochem Mcat 2015", 0.0, 0, 1452729600, 39, 0, 5], [933889867, "KWilliams MCAT 2015 Complete Review", 0.0, 0, 1449187200, 1394, 0, 54], [2135625293, "Pathology MCQ's", 0.0, 0, 1450742400, 525, 0, 0], [579568041, "ID part 2 KUMC", 0.0, 0, 1449705600, 320, 10, 260], [1145667213, "Semester 1 - Block 3 - MCB", 0.0, 0, 1449792000, 1, 0, 2], [1835500524, "Physiology MCQ's", 0.0, 0, 1450742400, 491, 0, 0], [1902423061, "McDougall European IR IDs", 0.0, 0, 1450137600, 52, 0, 1], [1980638616, "ID part 2222 KUMC", 0.0, 0, 1449705600, 1871, 10, 1448], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [640417798, "IIIC MCQ Medisin NTNU", 0.0, 0, 1449187200, 55, 0, 1], [455862510, "MCS 70-410", 0.0, 0, 1449532800, 66, 0, 0], [363399048, "MCAT Review for Z", 0.0, 0, 1449100800, 1337, 0, 11], [679056481, "Semester 1 - Block 1 - MCB", 0.0, 0, 1449792000, 51, 0, 77], [1893565534, "jaymclinical", 0.0, 0, 1448928000, 289, 0, 1], [2064286028, "JMC Audio 302 \"Acoustic Design\" Notes", 0.0, 0, 1449532800, 242, 0, 59], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [353786463, "MCAT ", 0.0, 0, 1453766400, 210, 0, 0], [1247510722, "FANZCA Exam MCQs", 0.0, 0, 1446681600, 3434, 0, 1895], [1195515640, "MCAT 132 Behavioral Sciences - Connor Fraser", 5.0, 1, 1452211200, 165, 0, 2], [1971368105, "KUMC Anti-viral drugs", 5.0, 1, 1446681600, 37, 10, 8], [637318382, "KUMC B&B Anatomy Face/Neck/Infratemporal Fossa", 0.0, 0, 1443052800, 261, 0, 262], [771506002, "Medisin NTNU MCQ IIIC 2009-2012", 0.0, 0, 1443484800, 623, 0, 34], [944071788, "MCAT PHYSICS", 0.0, 0, 1438732800, 368, 0, 113], [1666119595, "Test 2 PMCY 4200/62000", 0.0, 0, 1444953600, 150, 0, 33], [1505753053, "Umich MCDB 310 Exam 1 Notecards ", 0.0, 0, 1443916800, 74, 0, 0], [2060571881, "Connor Fraser MCAT Version 2", 5.0, 5, 1434412800, 1988, 0, 148], [1964180103, "RMC_PreStudy_CMB", 0.0, 0, 1441929600, 98, 0, 0], [1800719006, "MCP Lecture 21 Muscles", 0.0, 0, 1440633600, 59, 0, 5], [1543469553, "MCP Lecture 17", 0.0, 0, 1440547200, 75, 0, 12], [1915831994, "KUMC GenNeo Pharmacology", 0.0, 0, 1444262400, 60, 0, 0], [1300809618, "MCP Lecture 18 Ion Channels + APs", 0.0, 0, 1440547200, 54, 0, 15], [753138164, "MCAT GEN CHEMISTRY", 0.0, 0, 1438819200, 337, 0, 94], [111002387, "IRMC", 0.0, 0, 1440720000, 14, 0, 0], [541673256, "JMC Audio: 209 Producing Live Sound Notes", 0.0, 0, 1440201600, 38, 0, 3], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [187075054, "MCP Lecture 20 Synaptic Transmission", 0.0, 0, 1440547200, 89, 0, 7], [1713587535, "JMC Audio: 205 Electronics Notes", 0.0, 0, 1440201600, 277, 0, 4], [850441621, "MCP Lecture 22 - Synaptic Physiology", 0.0, 0, 1440633600, 76, 0, 16], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [893288405, "RMC_CMB_Week 1", 0.0, 0, 1441670400, 144, 0, 0], [609325913, "JMC Audio: 209 Studio II Notes", 0.0, 0, 1453939200, 6, 0, 3], [917150695, "MCP Lecture 15 Notecards", 0.0, 0, 1440460800, 111, 0, 18], [743619055, "JMC Audio: 206 Introduction to Electronic Music Notes", 0.0, 0, 1440201600, 145, 0, 4], [194559740, "MS IMC1 C07", 0.0, 0, 1345852800, 56, 0, 0], [1247148175, "AMC pediatrie Geneve 2014", 0.0, 0, 1432425600, 78, 0, 5], [34799596, "Kjeksitime IICD MCQ", 5.0, 1, 1392854400, 1461, 0, 146], [371904777, "DK MCB1 Block 1", 0.0, 0, 1400371200, 207, 0, 29], [1639609313, "Programmieren II MC-Fragen", 0.0, 0, 1360108800, 121, 0, 0], [130756328, "KUMC Immune Deficiencies", 0.0, 0, 1415318400, 22, 0, 0], [771489746, "AUC MCB1 Nucleobases", 0.0, 0, 1410393600, 5, 0, 5], [1931985251, "IMC 501 Week 1 deck", 0.0, 0, 1407542400, 635, 0, 113], [1234925254, "WCMC Human Structure & Function (HSF) 2013 Flashcards", 0.0, 0, 1389052800, 1582, 0, 245], [1828033881, "MCM Test 3: General Review", 0.0, 0, 1408492800, 73, 0, 0], [802958366, "UMMCpharmAntifungals", 0.0, 0, 1421712000, 30, 0, 3], [1002894246, "MC IMC1 C01", 0.0, 0, 1345852800, 28, 0, 0], [1401321967, "Spanish 51 LMC Flashcards (Incomplete)", 0.0, 0, 1345852800, 398, 0, 0], [742532064, "Ch 9 from Examkrackers MCAT Bio", 0.0, 0, 1400544000, 29, 0, 0], [1098212805, "AMC Gynecologie obstetrique Geneve 2014", 0.0, 0, 1432425600, 125, 0, 4], [1138564201, "Physical Diagnosis RMC M1 Spring", 0.0, 0, 1432080000, 60, 0, 6], [1594855394, "MCBI B1 - Amino Acids/proteins", 0.0, 0, 1410825600, 84, 0, 70], [2094478473, "block 2 McDermott DNA", 0.0, 0, 1414281600, 71, 0, 0], [1010324672, "Cmcb 17", 0.0, 0, 1414195200, 37, 0, 0], [1570185936, "nemcina", 0.0, 0, 1431129600, 824, 0, 0], [1137841923, "AMC psychiatrie Geneve 2014", 0.0, 0, 1432425600, 70, 0, 0], [192225840, "Medisin NTNU MCQ IIAB 2007-2011", 0.0, 0, 1359676800, 1293, 0, 66], [1843162970, "WCMC MPS I: Epi & Biostats Module", 0.0, 0, 1389052800, 89, 0, 5], [503641399, "MC3 Oncology Stuctures", 0.0, 0, 1355097600, 74, 0, 76], [1263804757, "JP's MRANZCOG MCQ 2", 0.0, 0, 1419206400, 152, 0, 0], [1906977856, "YMCA JP2-B Hirake Vocabulary Deck", 0.0, 0, 1413072000, 743, 0, 0], [1384956353, "McDonald: MS", 0.0, 0, 1422921600, 39, 0, 4], [107408257, "MCQ7", 0.0, 0, 1419206400, 150, 0, 0], [414116081, "UMMCicmblock4", 0.0, 0, 1420761600, 196, 0, 13], [2056650488, "Ch 5 from Examkrackers MCAT Bio", 0.0, 0, 1402531200, 65, 0, 0], [1125917841, "MCB-2 Transcription & Translation", 0.0, 0, 1414368000, 38, 0, 2], [687742573, "G2MS MCP 2", 0.0, 0, 1410307200, 1499, 0, 157], [975168797, "JMC Audio: 201 Introduction to the Audio Industry Notes", 0.0, 0, 1428969600, 77, 0, 2], [1985318972, "MCM Test 3: 8.11 DNA Damage and Repair", 0.0, 0, 1408492800, 84, 0, 0], [902528566, "MCAT and Other - University of Houston asdfgh", 0.0, 0, 1433289600, 1766, 7, 34], [2346645, "MCQ 4", 0.0, 0, 1419206400, 150, 0, 0], [622134442, "IMC 501 muscles", 0.0, 0, 1407283200, 70, 0, 14], [975471369, "MCAT", 0.0, 0, 1437696000, 2008, 0, 122], [1874666423, "MCB block 3 diseases", 0.0, 0, 1414800000, 56, 0, 24], [1447781038, "KC's MCFM Unit 3", 0.0, 0, 1418688000, 34, 0, 6], [359991714, "MCD practice", 0.0, 0, 1425513600, 199, 0, 0], [1180429794, "McDonald 12/7/2015", 0.0, 0, 1421193600, 34, 0, 6], [470894463, "McKinley Adult School Japanese 1", 0.0, 0, 1345852800, 368, 655, 65], [1830509715, "MC IMC1 C09", 0.0, 0, 1345852800, 91, 0, 0], [447866834, "MCM Test 3: 8.13 Tools of Cell and Molecular Biology", 0.0, 0, 1408492800, 33, 0, 0], [3924251294, "Med Micro Test 2 - UMMC", 0.0, 0, 1382400000, 388, 0, 0], [43580625, "MCB1 Final Exam Review", 0.0, 0, 1418256000, 35, 0, 14], [743278963, "Marys AMC II @ WU Wien", 0.0, 0, 1387065600, 177, 0, 0], [3140345696, "MCB 150 part 7", 0.0, 0, 1378425600, 13, 0, 6], [1051587711, "Anatomy decks week 1 IMC 501", 0.0, 0, 1407542400, 209, 0, 23], [1083145942, "RMC CMB CTJ", 0.0, 0, 1410825600, 477, 0, 0], [1347313863, "MCM Test 3: 8.12 Cell Death and Adaptations", 0.0, 0, 1408492800, 115, 0, 0], [1249874425, "MCQ 5", 0.0, 0, 1419206400, 152, 0, 0], [2105092537, "MCM Test 3: BSC Cancer and Aging: Uncontrolled Cell Growth", 0.0, 0, 1408492800, 50, 0, 0], [442460260, "MCBI B1 - Nucleotides/Nucleic acids", 0.0, 0, 1410825600, 69, 0, 40], [361433238, "MCAT Bio Chad Cards", 0.0, 0, 1361491200, 168, 0, 101], [2039920252, "MS IMC1 C03", 0.0, 0, 1345852800, 57, 0, 0], [1599950914, "AUC MCB1 - Amino Acids", 0.0, 0, 1410393600, 25, 0, 20], [2475853179, "Deutschtest 2 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1529126688, "Neuro McDonald Head Injury", 0.0, 0, 1421712000, 34, 0, 13], [2059861412, "MCQ 8", 0.0, 0, 1419206400, 147, 0, 0], [158747140, "Neuro McDonald Ischemia", 0.0, 0, 1421625600, 32, 0, 4], [1549390998, "JP's MRANZCOG MCQ 3", 0.0, 0, 1419206400, 150, 0, 0], [1670831346, "Altius Bio 2 mcat", 0.0, 0, 1345852800, 58, 0, 40], [1311108596, "T6 - MCQ-fr\u00e5gor - L\u00e4karprogrammet Lund/Malm\u00f6/Hbg", 0.0, 0, 1389398400, 209, 0, 0], [2661693494, "Kull10_ICD_MCQ", 0.0, 0, 1345852800, 184, 0, 4], [736427267, "Chemistry MCAT", 0.0, 0, 1388361600, 1, 0, 0], [77732751, "JMC Audio: Assessment 2 - Music Concepts Test B Revision", 0.0, 0, 1428969600, 67, 47, 62], [850562032, "MCB2S2B4", 0.0, 0, 1417910400, 162, 0, 0], [1510804069, "DNS MCQs", 0.0, 0, 1423267200, 148, 0, 37], [1004482801, "BIOSCI 50 - LMC Payne - Unit 03 Deck", 0.0, 0, 1395792000, 178, 0, 12], [1728786006, "URMC Pharmacology ", 0.0, 0, 1432771200, 441, 0, 6], [2122130615, "MCV 2018 Basic Tissues", 0.0, 0, 1418256000, 50, 0, 50], [1629947410, "JMC Audio: 202 Audio & Acoustic Theory", 0.0, 0, 1428969600, 134, 0, 14], [720554102, "MCAT Biology", 0.0, 0, 1346544000, 0, 0, 0], [1245210712, "MCQ 6", 0.0, 0, 1419206400, 149, 0, 0], [1003871939, "MCM Test 3: 8.14 Nerve Tissue (Heck)", 0.0, 0, 1408492800, 61, 0, 0], [1898578597, "Learning and Memory Aging, MCI", 0.0, 0, 1425340800, 36, 0, 5], [1276006970, "MCV 2018 Blood Vessels & GI Tract", 0.0, 0, 1418256000, 10, 0, 12], [1906003245, "JMC Audio: 204 Studio I Notes", 0.0, 0, 1428969600, 18, 0, 0], [1886128943, "MCBI B1 - Strictly Amino Acids", 0.0, 0, 1410825600, 20, 0, 22], [160337673, "BIOSCI 50 - LMC Payne - Unit 04 Deck", 0.0, 0, 1397606400, 188, 0, 21], [2119169139, "MCB-1 Amino Acids & Nucleotides", 0.0, 0, 1414368000, 31, 0, 29], [1827302929, "MCBI B1 - Genetics", 0.0, 0, 1410825600, 111, 0, 80], [1262987351, "MCBI B1 - Genes and Chromosomes", 0.0, 0, 1410825600, 74, 0, 24], [400080736, "McDonald: CNS tumors", 0.0, 0, 1423612800, 30, 0, 18], [2031049221, "MCM Test 3: 8.15 BSC Inborn Errors of Metabolism", 0.0, 0, 1408492800, 8, 0, 0], [1109438359, "MCV 2018 Cell Basics", 0.0, 0, 1418256000, 15, 0, 17], [2173531084, "UMMC Microbiology Test 3", 0.0, 0, 1385337600, 156, 0, 0], [3796780214, "MCQ IIAB", 0.0, 0, 1357689600, 692, 0, 7], [2389360471, "MS IMC1 C02", 0.0, 0, 1345852800, 23, 0, 0], [2128390243, "IIAB NTNU Medisin MCQ", 0.0, 0, 1367539200, 986, 0, 0], [744429963, "LearningLawTogether - EU MCT Practice", 0.0, 0, 1393459200, 83, 0, 0], [1506175587, "MC Gross Anatomy Exam 2 - Thorax", 0.0, 0, 1412294400, 102, 0, 0], [2048938643, "WCMC Host Defense/HD 2013 Deck", 0.0, 0, 1389052800, 1053, 0, 174], [321932587, "MCB-1 Modes of Inheritance", 0.0, 0, 1414368000, 65, 0, 19], [1106908168, "JMC Audio 207 \"Music Production Analysis\" Notes", 0.0, 0, 1428969600, 182, 0, 0], [2041005964, "MCB11 - block1", 0.0, 0, 1421107200, 117, 0, 89], [413625194, "Nepravidelna nemcina", 0.0, 0, 1422576000, 78, 0, 0], [1401109537, "MCM Test 3: 8.14 Oxidation and the Cell Biology of Aging DSA", 0.0, 0, 1408492800, 37, 0, 0], [1237617214, "MCM Test 3: 8.15 Skin Pathologies (Gomez)", 0.0, 0, 1408492800, 13, 0, 0], [2051855505, "MCM Test 3: 8.15 Angiogenesis", 0.0, 0, 1408492800, 57, 0, 0], [3259698232, "All elementary-level Kanji plus JLPT 2 (MCV MCV)", 0.0, 0, 1379203200, 1161, 0, 0], [2050155518, "MCB4 - cancer the works", 0.0, 0, 1427846400, 121, 0, 47], [2013033300, "MCB block 4 diseases", 0.0, 0, 1416355200, 10, 0, 0], [1278477214, "RANZCOG MCQ 1", 0.0, 0, 1419206400, 181, 0, 0], [1908956266, "Deutschtest 1 DE-DE (DaF) Marcin Perli\u0144ski", 5.0, 1, 1345852800, 125, 0, 0], [1604917464, "mc steroids with media", 0.0, 0, 1351555200, 167, 0, 89], [860664106, "MCAT (T-Bezie)", 0.0, 0, 1407196800, 53, 0, 3], [665403172, "UMMCantibiocsPharmblock4", 0.0, 0, 1420848000, 125, 0, 13], [124822964, "BIOSCI 50 - LMC Payne - Unit 02 Deck", 0.0, 0, 1393200000, 231, 0, 38], [1233320512, "MCBII B2", 0.0, 0, 1422489600, 21, 0, 18], [406735170, "KUMC Medical Spanish 1", 0.0, 0, 1395100800, 193, 0, 0], [1938196840, "MCB Block 3 Proteins", 0.0, 0, 1414540800, 79, 0, 0], [1582881215, "MCM Test 3: 8.12 Cellular DIfferentiation", 0.0, 0, 1408492800, 18, 0, 0], [1564177407, "MS IMC1 C10", 0.0, 0, 1345852800, 66, 0, 0], [886881374, "MS IMC1 C04", 0.0, 0, 1345852800, 5, 0, 0], [287844216, "MCB II Block II Money Questions", 0.0, 0, 1423872000, 233, 0, 0], [3362595847, "MS IMC1 C08", 0.0, 0, 1345852800, 25, 0, 0], [798342403, "Circumcised pulmonology 2", 0.0, 0, 1424995200, 167, 0, 8], [472804988, "JAKUB nemcina nepravidelna", 0.0, 0, 1422576000, 78, 0, 0], [122287696, "RVUCOM MCM.19 Mendelian Inheritance (Heck)", 0.0, 0, 1407283200, 31, 0, 5], [2129334108, "MCBM as of 12/13", 0.0, 0, 1386979200, 894, 0, 0], [271515139, "MCSA", 0.0, 0, 1405209600, 538, 0, 0], [1386365975, "Medisin NTNU MCQ IICD IIDC 2008-2012", 0.0, 0, 1392768000, 1461, 0, 146], [1729882426, "MTH MCAT General Chemistry", 0.0, 0, 1387324800, 319, 0, 3], [1761192626, "UMMCpathblock4", 0.0, 0, 1420675200, 1, 0, 1], [962317657, "BIOSCI 50 - LMC Payne - Unit 05 Deck", 0.0, 0, 1399420800, 256, 0, 21], [1801078486, "Amc Menu Items", 0.0, 0, 1401667200, 76, 0, 0], [712974683, "MS IMC1 C05", 0.0, 0, 1345852800, 6, 0, 0], [1951360938, "MCV 2018 Gross Anatomy", 0.0, 0, 1418256000, 18, 0, 7], [506049295, "McDonald CNS Infections", 0.0, 0, 1423180800, 39, 0, 22], [2593014401, "Spanish 50 LMC Flashcards", 0.0, 0, 1345852800, 891, 0, 0], [2093547553, "MS IMC1 C06", 0.0, 0, 1345852800, 36, 0, 0], [1049956735, "pharmcnsdrugs ", 0.0, 0, 1422316800, 21, 0, 34], [70563720, "Contracts McC", 5.0, 1, 1418515200, 185, 0, 0], [615269984, "IMC 501 - Epithelial Tissue", 0.0, 0, 1407196800, 107, 0, 34], [886533041, "Nemcina s usmevem", 0.0, 0, 1407024000, 414, 0, 0], [1880867968, "WCMC Brain and Mind/BAM (-anatomy) 2013 Deck", 0.0, 0, 1389052800, 1173, 0, 317], [1021557545, "ANZCA Primary Examination MCQs", 0.0, 0, 1417219200, 2171, 0, 2477], [659214089, "Examkrackers MCAT Gen Chem", 0.0, 0, 1410998400, 365, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

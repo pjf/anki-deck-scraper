@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1454198400, 49, 0, 6], [2012775973, "USMLE #1", 0.0, 0, 1454889600, 127, 0, 22], [1552417346, "Random Math/ML/or prob stuff I need to study", 0.0, 0, 1454025600, 8, 0, 2], [769888587, "Immunology add-on for Comprehensive USMLE Step 1 Review", 0.0, 0, 1400716800, 205, 0, 1], [334572462, "ML 2011 Stanford Coursera", 0.0, 0, 1454025600, 187, 0, 130], [1050987777, "SM11 - Nightmare in Dreamland", 0.0, 0, 1452124800, 34, 0, 0], [2051797561, "Shatrick - USMLE Step 1", 0.0, 0, 1450051200, 1228, 0, 0], [564738875, "amlimorti2", 0.0, 0, 1448928000, 27, 27, 0], [778951354, "jvttlus USMLE Step 2 CK", 0.0, 0, 1442534400, 590, 0, 0], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [1943546827, "Lawl fml", 0.0, 0, 1448496000, 314, 10, 259], [1602390546, "HTML Color Names", 0.0, 0, 1446336000, 141, 0, 0], [881459517, "wendy usmle", 0.0, 0, 1444521600, 447, 0, 1009], [847232626, "USMLE Step 3", 0.0, 0, 1442620800, 13, 0, 0], [1611072343, "Physik Formeln deutsch MLK - physics fomula (in german)", 0.0, 0, 1389744000, 23, 0, 80], [97513332, "USMLE deck (3/8/15)", 0.0, 0, 1425859200, 2414, 0, 235], [3475558167, "Biochemistry & Genetics USMLE Step I Flashcards", 0.0, 0, 1363046400, 137, 0, 0], [1226859474, "5060mlp.h.a.r.m", 0.0, 0, 1439078400, 198, 0, 0], [546947974, "An\u00e1lise e Projeto com UML (Modelagem)", 0.0, 0, 1410912000, 17, 0, 2], [915248866, "UML DPT Terms List: Cranial Nerves", 0.0, 0, 1423353600, 38, 0, 34], [591639332, "ML PD part 2", 0.0, 0, 1397347200, 204, 0, 0], [703987976, "M9 Fragensammlung 03431", 0.0, 0, 1404777600, 40, 0, 0], [1788487462, "M9 Fragensammlung 03428", 0.0, 0, 1404777600, 30, 0, 0], [955923484, "An\u00e1lise e Projeto com UML (Levantando requisitos)", 0.0, 0, 1410912000, 7, 0, 4], [1572092156, "Molecular Tests - AML", 0.0, 0, 1406764800, 59, 0, 0], [292596001, "An\u00e1lise e Projeto com UML (Diagrama de Classes)", 0.0, 0, 1410912000, 6, 0, 3], [1282648470, "USMLE biochem", 0.0, 0, 1384905600, 26, 0, 3], [415036397, "ML Stanford Online Class 2011", 0.0, 0, 1345852800, 193, 0, 130], [1703730426, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 2", 0.0, 0, 1366329600, 83, 0, 0], [3661679341, "MLMedfoundations 1 Exam 3 Biochemistry", 0.0, 0, 1381795200, 78, 0, 0], [783831938, "Comprehensive USMLE Step 1 Review (based on 2013 First Aid)", 4.83, 12, 1400112000, 1713, 0, 121], [3746661248, "Goljan Notes for USMLE", 0.0, 0, 1345852800, 508, 0, 0], [1422432959, "MLK", 0.0, 0, 1395705600, 73, 0, 0], [16353437, "Microbiology Exam 1 MLS", 0.0, 0, 1409529600, 84, 0, 87], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [3983893876, "UW USMLE STEP1 ", 0.0, 0, 1370649600, 56, 0, 0], [3431085932, "Czech-Polish, book Chcete Mluvit \u010cesky, lesson 1", 0.0, 0, 1366329600, 90, 0, 0], [551127350, "ML-Ph-UAB", 0.0, 0, 1425254400, 54, 0, 0], [18763790, "Tracey's USMLE Deck", 0.0, 0, 1403568000, 2029, 0, 161], [2118567816, "MBBS III USMLE extras", 0.0, 0, 1350259200, 350, 0, 0], [1353423173, "Alex_formler_plus_ekstra", 0.0, 0, 1402444800, 19, 0, 1], [728354230, "An\u00e1lise e Projeto com UML (Diagrama de Casos de Uso - Desenh", 0.0, 0, 1410912000, 8, 0, 5], [1982004101, "high yield topics usmle 1", 0.0, 0, 1427500800, 85, 0, 6], [1246787470, "UML-ORTHO-2", 0.0, 0, 1414195200, 125, 0, 43], [337405555, "An\u00e1lise e Projeto com UML", 0.0, 0, 1410912000, 14, 0, 5], [2012137078, "M9 Fragensammlung 03430", 0.0, 0, 1404777600, 39, 0, 0], [246059310, "100 Punkte Baumliste", 0.0, 0, 1411516800, 111, 0, 0], [1184516372, "Probleml\u00f6sung, Kommunikation und Leadership", 0.0, 0, 1406073600, 57, 0, 9], [1319526945, "M9 Fragensammlung 03429", 0.0, 0, 1404777600, 31, 0, 0], [1312713440, "HTML German ", 5.0, 1, 1415750400, 151, 0, 0], [819636228, "UCLML", 0.0, 0, 1430265600, 69, 0, 63], [492134088, "UML DPT Ortho Final", 0.0, 0, 1418860800, 83, 0, 56], [3511739323, "UML para Concurso", 0.0, 0, 1375401600, 53, 0, 50], [32758786, "UML DPT Anatomy ", 0.0, 0, 1418515200, 722, 0, 131], [1563357219, "USMLE Step 1", 0.0, 0, 1391817600, 0, 0, 0], [83654606, "ML MedFoundations 2 Exam 1", 0.0, 0, 1385424000, 392, 0, 0], [2744515901, "Randomly Selected Lojban non-gismu brivla", 0.0, 0, 1345852800, 62, 0, 0], [103972532, "An\u00e1lise e Projeto com UML (Orienta\u00e7\u00e3o a Objetos)", 0.0, 0, 1410912000, 18, 0, 4], [1698064219, "USMLE Step 2 Modified", 0.0, 0, 1345852800, 508, 0, 0], [564635706, "USMLE CKMTB", 5.0, 1, 1421712000, 380, 0, 37]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ml</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

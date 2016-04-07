@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2136150393, "Hiragana + Audio + essential words (the easiest /kawaii way)", 4.44, 16, 1432252800, 87, 87, 77], [317970103, "SSE 4000 Essential English Words (all books)", 4.71, 21, 1434067200, 3871, 3859, 3863], [644151027, "Portuguese Phrase Book (Continental pronunciation)", 5.0, 3, 1385942400, 1111, 1111, 35], [1719657434, "4000 Essential English Words 5 [en-en] M4R4M", 4.15, 13, 1434585600, 600, 1801, 601], [265890089, "4000 Essential English Words 2 [en-en] M4R4M", 4.5, 16, 1434585600, 602, 1804, 602], [95214920, "4000 Essential English Words 6 [en-en] M4R4M", 4.55, 11, 1434585600, 601, 1798, 600], [2036878990, "50 Essential Spanish Verbs", 5.0, 2, 1428969600, 850, 0, 0], [735471551, "4000 Essential English Words 1 [en-en] M4R4M", 4.3, 20, 1434585600, 600, 1800, 600], [1869931834, "4000 Essential English Words 3 [en-en] M4R4M", 4.73, 15, 1434585600, 600, 1798, 600], [1677199951, "4000 Essential English Words 4 [en-en] M4R4M", 4.23, 13, 1434585600, 600, 1801, 601], [1141157836, "4000 Essential English Words 1 [EN-FA] 98iA.Com", 5.0, 1, 1421625600, 600, 1834, 650], [1794956578, "Edible weeds and wild herb identification", 5.0, 1, 1417478400, 280, 0, 271], [276529460, "Neuronal potentials", 0.0, 0, 1454803200, 57, 0, 0], [1093401415, "504 Absolutely Essential Words", 0.0, 0, 1454716800, 629, 674, 36], [2079747250, "Essential German for English Speakers", 0.0, 0, 1446249600, 613, 624, 613], [1585500611, ".:Arti:. 504 Absolutely Essential Words EN to Persian V2.7", 4.84, 25, 1454544000, 756, 664, 592], [167031957, "Antimicrobial Prophylaxis", 0.0, 0, 1452643200, 12, 0, 0], [100042589, "Therapeutic Antibodies", 0.0, 0, 1453075200, 14, 0, 0], [1037252197, "fmcase29dementia", 0.0, 0, 1454284800, 93, 0, 0], [1898344648, "4000 Essential English Words (all books) [en-en] M4R4M", 4.74, 54, 1434585600, 3599, 10765, 3589], [331742207, "4000 Essential English Words, extraits 2 (fr)", 0.0, 0, 1443484800, 184, 183, 187], [1281843764, "Semester 3 Levantine", 0.0, 0, 1454025600, 319, 0, 0], [692469788, "Autoantibodies", 0.0, 0, 1452384000, 23, 0, 0], [418015696, "Continuum - HU+Eng", 0.0, 0, 1454544000, 266, 0, 0], [587159031, "Calcos semanticos", 0.0, 0, 1453852800, 33, 0, 0], [1923103392, "190-LED Sd des antiphospholipides", 0.0, 0, 1452643200, 13, 0, 0], [469242575, "Authentic Japanese Unit 4:\u8aad\u3093\u3067\u307f\u3088\u3046", 0.0, 0, 1453075200, 73, 0, 0], [1307976761, "L13-16 autocoids, analgesics, non-steroid antiinflammaotry a", 0.0, 0, 1452384000, 58, 0, 0], [546644078, "Antibiotika", 0.0, 0, 1450137600, 1, 0, 0], [217769720, "Counties of Ireland", 0.0, 0, 1437868800, 32, 0, 32], [1524684465, "Paintings", 0.0, 0, 1451952000, 17, 0, 17], [744441926, "Identifiactions of amino acids and proteins. ", 0.0, 0, 1452902400, 0, 0, 0], [2062278632, "4000 Essential English Words \u2013 Book 1, by Paul Nation", 3.33, 3, 1415750400, 600, 1801, 644], [367358924, "Anticipate / Predict", 0.0, 0, 1451692800, 82, 0, 0], [736548038, "Antimykotika", 0.0, 0, 1451433600, 32, 0, 0], [1301664229, "Farmakologi - antibiotika", 0.0, 0, 1451952000, 15, 0, 1], [1681790993, "Authentic Japanese Unit 4:\u8aad\u3080\u524d\u306b", 0.0, 0, 1452124800, 39, 0, 0], [1850561512, "4000 Essential English Words \u2013 Book 5, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1547992436, "4000 Essential English Words \u2013 Book 6, by Paul Nation", 0.0, 0, 1415750400, 601, 1801, 645], [373093868, "218 ET 219 - ATHEROME ET PREVENTION", 0.0, 0, 1450396800, 7, 0, 0], [2089276886, "4000 Essential English Words \u2013 Book 4, by Paul Nation", 0.0, 0, 1415750400, 600, 1801, 645], [1366124074, "4000 Essential English Words \u2013 Book 3, by Paul Nation", 0.0, 0, 1415750400, 599, 1798, 644], [1235929114, "Barron's Essential TOEIC Unit 1 - English - Chinese", 0.0, 0, 1451865600, 12, 26, 3], [1351032480, "Expresiones Argentinas - Espa\u00f1ol", 0.0, 0, 1450742400, 114, 3, 2], [531744294, "Let's Go - Unit 2 - Practice Card (continue)", 0.0, 0, 1449964800, 29, 29, 11], [2090663515, "Symbols for Some Derived SI Quantities", 0.0, 0, 1395532800, 10, 0, 9], [942432728, "Authentic Japanese Unit 3. (\u8aad\u3093\u3060\u3042\u3068\u3067)", 0.0, 0, 1449619200, 57, 0, 0], [42467525, "4000 Essential English Words, extraits 3 (fr)", 0.0, 0, 1443225600, 302, 301, 305], [1716597667, "4000 Essential English Words 1 [en-pl] M4R4M_KrisZet", 5.0, 2, 1421452800, 600, 1805, 634], [8616450, "Units for Some Derived SI Quantities", 0.0, 0, 1448928000, 10, 0, 9], [993389931, "4000 Essential English Words, extraits 1 (fr)", 0.0, 0, 1443484800, 142, 140, 145], [626034578, "1_inlingua_Essential Chinese ", 0.0, 0, 1449187200, 190, 191, 133], [460308175, "EN-FA-EN Longman Essential Word", 0.0, 0, 1449100800, 498, 475, 1], [475097444, "4000 Essential English Words \u2013 Book 2, by Paul Nation", 0.0, 0, 1415750400, 600, 1798, 643], [155189359, "Authentic Japanese Unit 3:\u8aad\u3067\u898b\u3088\u3046", 0.0, 0, 1449619200, 128, 0, 0], [201218025, "Authentic Japanese Unit 2 (\u8aad\u3080\u524d\u306b)", 0.0, 0, 1448928000, 31, 0, 0], [770116513, "504 Absolutly Essential Words EN to Persian Farsi ", 4.0, 6, 1370044800, 504, 494, 0], [1887103701, "Anti-Bacterial Chemotherapy", 0.0, 0, 1447718400, 251, 10, 101], [511780523, "Authentic Japanese Unit 1 \uff08\u8aad\u3080\u524d\u306b\uff09", 0.0, 0, 1447200000, 76, 0, 0], [115255341, "Japanese Counting Systems Version 1.01 (mostly JTMW)", 0.0, 0, 1424736000, 65, 0, 0], [1086079857, "Authentic Japanese Unit 3:\u8aad\u3080\u307e\u3044\u306b", 0.0, 0, 1449619200, 16, 0, 0], [1007273388, "LPI - Linux Essentials ", 4.5, 2, 1441843200, 73, 0, 0], [246005258, "patent law cases anticipation 102", 0.0, 0, 1434067200, 101, 0, 0], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [130198145, "4000 Essential English Words 3 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 599, 1803, 634], [1130761305, "Authentic Japanese Unit 2 (\u8aad\u3093\u3067\u307f\u3088\u3046)", 0.0, 0, 1448928000, 82, 0, 0], [122114918, "absolutely essential words 504-main", 0.0, 0, 1445904000, 450, 0, 0], [412406351, "Authentic Japanese Unit 1:\u8aad\u3080\u3042\u3068\u3067", 0.0, 0, 1447200000, 88, 0, 0], [1535176984, "absolutely essential words 504-2", 0.0, 0, 1445904000, 16, 0, 0], [1971368105, "KUMC Anti-viral drugs", 5.0, 1, 1446681600, 37, 10, 8], [2134889551, "TOEIC Barron's 600 Essential Words (English - Chinese)", 3.33, 3, 1435968000, 596, 596, 0], [1310643497, "Essential Guide to Marketing Planning -in swedish", 0.0, 0, 1445731200, 80, 3, 1], [1372144121, "Berufsorientierung", 0.0, 0, 1445904000, 15, 0, 0], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [2029355477, "600 essential TOEIC - Polish", 0.0, 0, 1442188800, 625, 653, 601], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [133807911, "Levantine Arabic Dictionary", 4.67, 3, 1453248000, 3630, 0, 0], [2427803041, "Essential Words for TOEFL", 0.0, 0, 1357948800, 460, 0, 0], [1102705181, "Antineoplastic Drugs", 0.0, 0, 1444435200, 32, 0, 0], [1634048091, "Voyages 1 Unti\u00e9 2", 0.0, 0, 1445385600, 177, 0, 0], [1202262232, "miriam- pharm: anti-cancer", 0.0, 0, 1445212800, 138, 2, 82], [2003785165, "600 essential TOEIC-CURIOUS (full) ", 5.0, 2, 1411862400, 625, 653, 601], [2013833104, "absolutely essential words 504-1", 0.0, 0, 1445904000, 448, 0, 0], [1603427253, "4000 Essential English Words 6 [en-pl] M4R4M_KrisZet", 5.0, 1, 1421712000, 600, 1806, 635], [724171188, "Authentic Japanese Unit 1 (yondemiyou)", 0.0, 0, 1442188800, 61, 0, 0], [732544763, "Duitse voorzetsels op frequentie (SETL)", 0.0, 0, 1438992000, 132, 1, 1], [911206921, "Pronuntiation Buchstaben", 0.0, 0, 1439424000, 29, 32, 1], [1411565654, "FPP MSS Antineoplastic Drugs", 0.0, 0, 1440720000, 44, 0, 50], [1205039445, "Supernopea suomen kielen kurssi - Oppitunti #2", 0.0, 0, 1441411200, 130, 8, 15], [353580872, "Meine Identit\u00e4t in Jesus (1/3)", 0.0, 0, 1441843200, 9, 0, 0], [1316819284, "Supernopea suomen kielen kurssi - Oppitunti #1", 0.0, 0, 1441411200, 145, 8, 15], [1219873391, "Antidepressants (Australia)", 0.0, 0, 1426291200, 19, 0, 0], [1061613207, "Triola Essential Statistics", 0.0, 0, 1440115200, 42, 0, 0], [108270676, "Die Zahlen (1-20) mit Pronuntiation", 0.0, 0, 1439510400, 20, 23, 1], [1098857072, "Anti-fungals", 0.0, 0, 1434240000, 7, 0, 0], [269385901, "NICE Guidelines UK Antibiotics fist line - Shatrick", 0.0, 0, 1433289600, 27, 0, 0], [1328721049, "Unc_som_2018-Antibacterial Agents 9/8/2014", 0.0, 0, 1410480000, 32, 0, 0], [974624387, " Antipsic\u00f3ticos", 0.0, 0, 1363651200, 47, 0, 0], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [398209432, "rowan som physiology block 1 lecture 2 action potentials", 0.0, 0, 1408579200, 58, 0, 37], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [931243965, "Anti-virals", 0.0, 0, 1434240000, 14, 0, 0], [1557796816, "Authentic Japanese: Unit 4 Kanji", 0.0, 0, 1400630400, 28, 0, 0], [1471864600, "UK NUR 210 EXAM 4 Antivirals/antifungals", 0.0, 0, 1418774400, 38, 0, 0], [1038296488, "MSF Fdn3-Antibiotics", 0.0, 0, 1416528000, 58, 0, 0], [382408377, "Nouveaux anticoagulants", 0.0, 0, 1437955200, 33, 0, 0], [107011403, "Goldstein Antianxiety", 0.0, 0, 1422921600, 36, 0, 1], [40490366, "Essential Words for the TOEFL [Organized]", 4.5, 2, 1345852800, 450, 0, 0], [802958366, "UMMCpharmAntifungals", 0.0, 0, 1421712000, 30, 0, 3], [1837953188, "Essential Words for the TOEFL [Persian]", 4.0, 10, 1345852800, 450, 0, 0], [2142646778, "Antibacterial Agents 9/8/2014", 0.0, 0, 1410480000, 32, 0, 0], [1454212428, " Antibody Structure and Function", 0.0, 0, 1417392000, 18, 0, 0], [981106529, "Antidotes for toxic agents", 0.0, 0, 1350777600, 39, 0, 0], [1539092241, "Essential Words for the TOEFL EN-FA [Persian] + examples", 4.67, 6, 1404345600, 446, 768, 0], [2016524648, "Goldstein Antidepressants", 0.0, 0, 1424390400, 20, 0, 3], [1401086358, "Med Micro - Antibacterial Drugs", 0.0, 0, 1431907200, 31, 0, 2], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 1.0, 1, 1437696000, 558, 1567, 902], [1540235022, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [1720792647, "Antibiotics", 0.0, 0, 1434240000, 25, 0, 0], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [569391809, "Brookes Essential Kanji 101-202", 0.0, 0, 1416873600, 101, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [3849258162, "Substantivos 1 (SLC)", 0.0, 0, 1384300800, 21, 0, 0], [134561151, "ESFT Assessment Methods & Interventions", 0.0, 0, 1436313600, 25, 0, 0], [586237856, "Shatrick - Autoantibodies", 0.0, 0, 1425686400, 32, 0, 0], [2014063205, "UK NUR 210 EXAM 4 Antibiotics", 0.0, 0, 1418774400, 123, 0, 0], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [562594872, "Rowan SOM fund 2 Immunology Antibody-mediated Immunity ", 0.0, 0, 1411257600, 86, 0, 0], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [675411337, "DDO Gastrointestinal emergencies - disorders presenting prim", 0.0, 0, 1415232000, 39, 0, 0], [279520484, "For James and Kim - CHN Authentic Listening", 0.0, 0, 1420329600, 266, 262, 0], [1064524099, "Adult II Week 5 - Care of Ventillated Pt", 0.0, 0, 1412121600, 16, 0, 6], [1559376688, "Tema 07. Farmacolog\u00eda II. Antipsic\u00f3ticos", 0.0, 0, 1363910400, 47, 0, 0], [504419527, "Anf\u00e4nger Deutsch Espanol Argentinien", 0.0, 0, 1400544000, 121, 0, 0], [682191539, "Investointi- ja rahoitussuunnittelu", 0.0, 0, 1414627200, 262, 0, 0], [227361236, "L26: Ventilation", 0.0, 0, 1423526400, 10, 0, 32], [1503659359, "\u010ce\u0161tina - Sv\u011btov\u00fd romantismus", 0.0, 0, 1411344000, 28, 0, 0], [248162568, "mbchb2012, essentials, week 0, basic terms", 0.0, 0, 1350604800, 34, 0, 0], [1652878990, "HMS.IMP.Antiviral.Therapy", 0.0, 0, 1367452800, 18, 0, 7], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [502830267, "9. Anti-inflammatory", 0.0, 0, 1425081600, 67, 0, 64], [1127076328, "Essential Turkish phrases and vocabular w/audio", 0.0, 0, 1399075200, 263, 254, 0], [499451121, "Lec 13 Synthesizing and Interpreting Scientific Evidence", 0.0, 0, 1414540800, 14, 0, 0], [1480793413, "Authentic Japanese: Unit 4 Vocab", 0.0, 0, 1400630400, 166, 0, 0], [1525425934, "Antibiotics", 0.0, 0, 1424217600, 42, 0, 4], [1098525878, "Convention Agreements between Marty and Ally", 0.0, 0, 1429574400, 333, 0, 0], [2049495529, "Guntram et Silke vocabulaire TinTin, vendanges", 0.0, 0, 1358121600, 536, 0, 0], [804954227, "Ministry Essentials - Concepts and Verses", 0.0, 0, 1413158400, 5, 0, 0], [3262093404, "ID Antibiotics Review", 4.0, 1, 1378425600, 62, 0, 0], [117748903, "Cellular Genetic Basis of Antibodies", 0.0, 0, 1415491200, 54, 0, 0], [2501147782, "HMS.IMP.Antigen.Receptors", 0.0, 0, 1364601600, 14, 0, 8], [604114941, "dakua'ana davi: sentidos", 0.0, 0, 1411689600, 14, 14, 12], [3758189052, "HMS.IMP.antifungal.therapy", 0.0, 0, 1368144000, 14, 0, 7], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [2101781583, "Anti-parasitics", 0.0, 0, 1434240000, 10, 0, 0], [1666502221, "Essential Spanish Vebs", 0.0, 0, 1431043200, 52, 0, 1], [386575990, "SPU MFT Theories I - Final Exam - Experiential / Whitaker ", 0.0, 0, 1417305600, 12, 0, 0], [83746521, "Hackprentissage", 0.0, 0, 1369699200, 1, 0, 0], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [2092285392, "part 2 antibioticszzz", 0.0, 0, 1386979200, 25, 0, 0], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [862350585, "5212 essential words for ESL", 0.0, 0, 1427241600, 6910, 0, 0], [603282619, "Counties", 3.0, 2, 1399593600, 47, 0, 47], [139155333, "rowan som micro 6 fundamentals 2 antibody med. imm.", 0.0, 0, 1411430400, 16, 0, 1], [1643107045, "CTB Cardiac Action Potentials", 0.0, 0, 1412726400, 57, 0, 0], [120237169, "UConn Medical and Dental OS2 Anatomy Identification", 0.0, 0, 1397088000, 383, 0, 349], [1800968064, "Antibacterial I, II, III", 0.0, 0, 1425254400, 234, 0, 0], [3870596228, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [455017909, "Stewart Anticonvulsants", 0.0, 0, 1422835200, 30, 0, 0], [173710333, "Dakua'ana davi: sentimiento", 0.0, 0, 1411689600, 19, 19, 18], [334819184, "Antiplatelet Anticoagulation Therapy", 0.0, 0, 1421193600, 47, 0, 0], [619551680, "RFC test 2, 3 letter identifiers", 0.0, 0, 1392336000, 72, 0, 0], [1049648964, "4000 Essential English Words 4 [en-pl] M4R4M_KrisZet", 4.0, 1, 1421452800, 600, 1806, 635], [245886519, "Ven\u00e4j\u00e4_verbin j\u00e4lkeisen substantiivin sija", 0.0, 0, 1418601600, 48, 0, 0], [1446862305, "Chloe's Antiarrhythmics", 0.0, 0, 1424304000, 70, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [2357799636, "antique greek verbs koine / verbos griego antiguo \u03bb\u03c5\u03c9 \u03b5\u03b9\u03bc\u03b9", 0.0, 0, 1348617600, 294, 0, 0], [3086613896, "504 Absolutly Essential Words Persian Farsi (reversed)", 3.33, 3, 1370044800, 504, 494, 0], [2056436029, "antibiotics", 0.0, 0, 1386892800, 32, 0, 0], [1207310504, "antidotesforfatduck", 0.0, 0, 1416700800, 26, 0, 0], [2093531433, "rowan som fundamentals 2 lecture 4 antigens", 0.0, 0, 1411430400, 51, 0, 35], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [63164369, "Accounting 1 Chapters 1 and 2", 0.0, 0, 1379894400, 46, 0, 0], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [505046135, "Counties of Scotland", 1.0, 1, 1388361600, 32, 0, 34], [3429009219, "Substantivos 5 (SLC)", 0.0, 0, 1384300800, 22, 0, 0], [1687066301, "Counties of Norway", 3.0, 2, 1388361600, 20, 0, 22], [3280365539, "Tema 04. Farmacolog\u00eda II. Antiepil\u00e9pticos", 0.0, 0, 1363910400, 58, 0, 0], [2874912834, "English Counties", 1.0, 1, 1367107200, 91, 0, 91], [567362415, "Special cases for antifungals and antiparasites", 0.0, 0, 1400198400, 13, 0, 4], [1281809217, "Ven\u00e4j\u00e4 substantiiveja joilla erityispiirteit\u00e4", 0.0, 0, 1419379200, 83, 0, 0], [334899838, "HMS.IMP.Antibiotics.I", 4.0, 1, 1366675200, 19, 0, 15], [1554715885, "Ohio Counties", 0.0, 0, 1357689600, 88, 0, 89], [1882475838, "HMS.IMP.Antigen.Receptors.I", 0.0, 0, 1364601600, 11, 0, 7], [917840131, "Anti-coagulant, anti-platelet", 0.0, 0, 1421539200, 53, 0, 8], [179864438, "CofO2 - 20 - Control of Ventilation.anki", 0.0, 0, 1345852800, 26, 0, 0], [1057658858, "MSA 8.37 - Dentistry and Health Consultation", 0.0, 0, 1426636800, 29, 0, 0], [387858305, "Tema 08. Farmacolog\u00eda II. Antidepresivos", 0.0, 0, 1363910400, 50, 0, 0], [402452301, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1420329600, 111, 0, 0], [1213392237, "HMS.IMP.Antibiotics.III", 0.0, 0, 1366675200, 14, 0, 10], [3649124981, "Tema 05. Farmacolog\u00eda II. Antiparkinsonianos", 0.0, 0, 1363910400, 71, 0, 0], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1491742854, "latino: casi complementi terminazioni", 0.0, 0, 1381622400, 31, 0, 0], [1966450662, "Unindentified", 0.0, 0, 1420416000, 53, 0, 0], [1280522285, "FHB L26: Ventilation", 0.0, 0, 1423440000, 10, 0, 31], [815761363, "AAAHST7CM Gr\u00e9cia Antiga", 0.0, 0, 1433289600, 25, 0, 0], [1859863893, "37d antibiotics", 0.0, 0, 1407110400, 42, 0, 1], [2085651118, "Spanish Basic Essentials", 0.0, 0, 1428710400, 19, 0, 0], [1925528289, "Essential Thai Glossary - Revised", 0.0, 0, 1454198400, 6056, 24, 138], [2821654719, "Substantivos 4 (SLC)", 0.0, 0, 1384300800, 29, 0, 0], [1634256924, "Fondamenti di Matematica - Unina", 0.0, 0, 1421798400, 285, 0, 376], [665403172, "UMMCantibiocsPharmblock4", 0.0, 0, 1420848000, 125, 0, 13], [2111317989, "Dentistry Chemistry", 0.0, 0, 1387411200, 10, 0, 25], [710618479, "Block 9 - Pharma - Antibiotika", 0.0, 0, 1388620800, 57, 0, 61], [1850993315, " Antidepresivos v2.0", 0.0, 0, 1363651200, 50, 0, 0], [3028692523, "Mark Piper's Accounting Made Simple", 0.0, 0, 1364947200, 57, 0, 0], [1231143841, "01. Antiparasitic Drugs", 0.0, 0, 1430870400, 81, 0, 66], [1582881215, "MCM Test 3: 8.12 Cellular DIfferentiation", 0.0, 0, 1408492800, 18, 0, 0], [1365254519, "Antigen Presentation", 0.0, 0, 1358899200, 24, 0, 0], [342774585, "Nahuatlahtolli: sustantivos, nouns", 0.0, 0, 1414540800, 282, 277, 0], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [2705313833, "HMS.IMP.Antibiotics.II", 0.0, 0, 1366675200, 15, 0, 14], [3323343851, "Substantivos 3 (SLC)", 0.0, 0, 1384300800, 14, 0, 0], [1468173820, "Substantivos 2 - Corpo (SLC)", 0.0, 0, 1384300800, 32, 0, 0], [635506708, "Block 3 Pharm Antibiotics 1", 0.0, 0, 1431302400, 48, 0, 42], [1516925807, "Antibiotics - IDIT Exam 3", 0.0, 0, 1423440000, 7, 5, 5], [1952370828, "Tanti auguri!", 0.0, 0, 1384905600, 10, 10, 9], [1936862882, "Brookes Essential Kanji 203-304", 0.0, 0, 1417478400, 101, 0, 0], [350157959, "Farmacolog\u00eda II Antiparkinsonianos", 0.0, 0, 1363824000, 59, 0, 0], [691258206, "farmakologie - antivirotika", 0.0, 0, 1421366400, 5, 0, 0], [169510866, "Brookes Essential Kanji 1-100", 0.0, 0, 1416268800, 100, 0, 0], [1182700720, "T Cell Activation and Differentiation ", 0.0, 0, 1424649600, 66, 0, 89], [1606619238, "TU BS MB01 \u00dcbungsaufgaben & Essentials", 0.0, 0, 1426550400, 76, 0, 31], [715857700, "pharmantiviral", 0.0, 0, 1422230400, 52, 0, 74], [155607280, "Counties of Washington State", 1.0, 1, 1393286400, 39, 0, 40], [431823313, "Antibiotics & antivirals", 0.0, 0, 1422921600, 271, 0, 0], [2291369257, "Essential Unix Shell Commands", 5.0, 1, 1360281600, 44, 0, 0], [879289052, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1419984000, 110, 0, 0], [2047197427, "4000 Essential English Words 2 [en-pl] M4R4M_KrisZet", 3.0, 1, 1424390400, 599, 1800, 632], [277160478, "504 Absolutely Essential Words EN to Persian corrected audio", 3.67, 3, 1376870400, 504, 504, 0], [623527083, "spanish-russian-spanish sustantivos I", 0.0, 0, 1345852800, 498, 0, 0], [253751894, "4000 Essential English Words 5 [en-pl] M4R4M_KrisZet", 0.0, 0, 1421452800, 600, 1806, 635]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Nti</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

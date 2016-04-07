@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[321858763, "Body Parts: Pictures to English and Japanese", 5.0, 1, 1408924800, 50, 0, 50], [2091336733, "Animals: Pictures to English and Japanese", 2.0, 1, 1414195200, 150, 0, 150], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [1987978169, "French Basic Picture Vocabulary", 0.0, 0, 1444521600, 403, 403, 464], [212996995, "Advaced French Visual Picture Memory", 0.0, 0, 1444521600, 211, 208, 214], [1409514856, "625 Word German Deck / Picture Words & Minimal Pairs", 0.0, 0, 1445385600, 559, 646, 470], [201400806, "Teach Yourself Hindi Dictionary", 5.0, 2, 1361232000, 3025, 0, 0], [1199078757, "JMdict complete", 0.0, 0, 1454889600, 174463, 3, 1], [587147604, "Household Objects: Pictures to English and Japanese", 5.0, 1, 1396569600, 108, 0, 1], [1167280182, "Japanese Travel Pictures", 0.0, 0, 1423958400, 50, 0, 50], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [1479426732, "\u0141acina - s\u0142ownictwo i gramatyka", 0.0, 0, 1452902400, 615, 0, 0], [975290645, "Japanese Slang Dictionary \u65e5\u672c\u8a9e \u4fd7\u8a9e \u8f9e\u5178", 4.17, 6, 1358726400, 1079, 1071, 0], [799031475, "Japanese Space Pictures", 0.0, 0, 1425168000, 50, 0, 50], [2107766673, "Japanese and English School Pictures", 0.0, 0, 1436227200, 50, 0, 0], [775784491, "Best Picture Oscar Nominees", 0.0, 0, 1451952000, 8, 0, 0], [367358924, "Anticipate / Predict", 0.0, 0, 1451692800, 82, 0, 0], [1210778195, "Advanced French Visual Picture Memory Vocabulary (2)", 0.0, 0, 1444521600, 200, 200, 279], [293367340, "A Frequency Dictionary of French (Complete)", 5.0, 2, 1449100800, 5000, 0, 0], [549472165, "Japanese Sports Pictures", 0.0, 0, 1422057600, 50, 0, 50], [438566190, "JMdict common words", 0.0, 0, 1451865600, 23298, 17, 5], [965641886, "Vegetable Pictures With English and Japanese", 0.0, 0, 1425168000, 50, 0, 50], [1407732007, "English Take it Easy, groep 7, unit 2, with pictures", 0.0, 0, 1448841600, 42, 0, 39], [146421747, "Flower pictures", 0.0, 0, 1437177600, 37, 0, 37], [733910527, "500 English words(with pictures and audio)", 4.4, 10, 1395964800, 248, 234, 268], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [1625541380, "Health and Medical Pictures with English and Japanese", 0.0, 0, 1435017600, 50, 0, 0], [205202471, "Prepositions (place/direction) pictures", 0.0, 0, 1448236800, 71, 0, 41], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [1374719523, "Ancient Egyptian Allen Dictionary", 0.0, 0, 1404345600, 1069, 0, 1453], [1077141005, "Picture-Russian-Hebrew", 0.0, 0, 1446249600, 30, 0, 30], [1821426174, "Ukrainian Prepositions (picts+audio) ENG-UA / UA-ENG", 3.67, 3, 1430870400, 29, 29, 29], [1326720965, "Dictionary of An Introduction to Ancient Greek C.A Luschnig", 0.0, 0, 1397260800, 458, 0, 0], [629972372, "French 500 coloured words with pictures and audio", 4.88, 8, 1433203200, 491, 480, 487], [735547011, "A Dictionary of Basic Japanese Grammar", 4.44, 9, 1345852800, 193, 0, 0], [1020068324, "Oxford Picture Dictionary Interactive. M4R4M", 4.86, 7, 1404950400, 3800, 3797, 3801], [1036714221, "Quran Frequency Dictionary", 0.0, 0, 1445126400, 3349, 1, 0], [1182353132, "Spanish 101 and 102 vocabulary. Audio. Pictures. ", 0.0, 0, 1443052800, 645, 1279, 360], [709042057, "250 English Words with pictures and audio", 5.0, 1, 1439769600, 248, 235, 269], [1799447477, "Spanish 250 (Pictures and Audio) ", 0.0, 0, 1439769600, 246, 244, 267], [1540096397, "Japanese and English Food Pictures", 0.0, 0, 1443916800, 50, 0, 50], [133807911, "Levantine Arabic Dictionary", 4.67, 3, 1453248000, 3630, 0, 0], [652328447, "A-I GENKI dictionary", 0.0, 0, 1443916800, 470, 0, 0], [649448465, "S\u0142ownictwo do kursu podr\u0119cznika Campaign 2", 0.0, 0, 1451865600, 178, 6, 35], [496909115, "OKC 1000 Pictures", 0.0, 0, 1441843200, 980, 983, 983], [419619521, "Japanese picture", 5.0, 2, 1424649600, 477, 213, 1508], [1121198374, "Master-System 0-99 in Pictures", 0.0, 0, 1442966400, 100, 0, 0], [712381125, "Hayat Dictionary", 0.0, 0, 1454198400, 6021, 0, 0], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [211849752, "Dermatology pictures (Notts)", 0.0, 0, 1353888000, 155, 0, 155], [1944554978, "Peace Corps Darija Dictionary (Script)", 0.0, 0, 1409702400, 748, 0, 0], [1408455745, "Parallel Dict Sentence-hint-Word Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [634687222, "TMS 180-4: Walking in Victory", 0.0, 0, 1440374400, 36, 0, 0], [1944071542, "Japanese and English Fruit Pictures", 0.0, 0, 1425168000, 40, 0, 40], [759150430, "anglictina flex", 0.0, 0, 1431993600, 7910, 0, 0], [2118427638, "Intermediate German for Fiction Reading: Deck 1", 0.0, 0, 1422748800, 370, 0, 0], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [814445013, "Elitarne s\u0142ownictwo", 0.0, 0, 1345852800, 79, 0, 0], [1721938209, "Coptic Flashcards based on Smith's Dictionary", 0.0, 0, 1413936000, 2100, 0, 1], [1630878898, "Lidepla - English Dictionary (Lidepla - Inglish Lexikon)", 0.0, 0, 1360886400, 8118, 0, 0], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 0.0, 0, 1425686400, 36, 35, 0], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [1591737039, "ASL SignWriting to picture dictionary 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [1219524780, "Intermediate German for Fiction Reading: Deck 3", 0.0, 0, 1430006400, 479, 0, 0], [1691928540, "Fish pictures", 0.0, 0, 1397952000, 254, 0, 222], [2091072845, "ICT2621", 0.0, 0, 1431561600, 42, 2, 0], [3571861319, "OCR AS-History Dictatorship and Democracy in Nazi Germany.", 0.0, 0, 1366761600, 378, 0, 0], [2311532194, "Tech Support 1", 0.0, 0, 1345852800, 157, 0, 0], [1425674783, "S\u0142ownictwo polsko-francuskie - do podr\u0119cznika Sc\u00e9nario 1", 0.0, 0, 1427932800, 523, 0, 0], [961215878, "Communications in Conflict Resolution", 0.0, 0, 1427068800, 50, 0, 0], [2691006055, "Victor's Thai frequent phrases.", 0.0, 0, 1378857600, 928, 918, 0], [943656632, "Histo Lab Pictures", 0.0, 0, 1381276800, 111, 0, 122], [2231258951, "zadek anglictina", 0.0, 0, 1359936000, 1, 0, 0], [16856431, "CWRU Oral Histology Pathology picture ID", 0.0, 0, 1352764800, 269, 0, 0], [1167193889, "LBR9 -- Federal Jurisdiction and Procedure", 0.0, 0, 1405900800, 63, 0, 0], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [101436112, "MUICT BW", 0.0, 0, 1408060800, 568, 32, 1], [1326461296, "IBA Official Cocktails: Recipes and Pictures", 0.0, 0, 1418169600, 75, 0, 73], [945312694, "LA Bar Federal Jurisdiction and Procedure", 0.0, 0, 1373932800, 4, 0, 0], [1827831691, "Fuck thats a lot of pictures", 0.0, 0, 1423526400, 199, 0, 82], [869153932, "A Pali-English Dictionary (Complete)", 0.0, 0, 1424822400, 15732, 0, 15], [1663933043, "ICT", 0.0, 0, 1401494400, 152, 0, 7], [309714382, "A Thai-English Dictionary (Revised Edition)", 0.0, 0, 1454198400, 5747, 24, 138], [1933018644, "marbearpictures", 0.0, 0, 1392768000, 24, 0, 27], [1743815443, "Parallel Dict Word-Url Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [1230410428, "Spanish-Russian dictionary of adjectives (part 1)", 0.0, 0, 1345852800, 539, 0, 0], [3785814717, "Histo Lab pictures.", 0.0, 0, 1381104000, 111, 0, 122], [1886128943, "MCBI B1 - Strictly Amino Acids", 0.0, 0, 1410825600, 20, 0, 22], [624676379, "MHCHS Edexcel Unit 2: Topic 3 The Nazi Dictatorship 1933-39", 0.0, 0, 1387929600, 59, 0, 0], [1861195000, "Telecephalon Pictures BUSM", 0.0, 0, 1420934400, 171, 0, 3], [899473772, "ASL picture dictionary to SignWriting 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [402099813, "Polish-Russian dictionary", 0.0, 0, 1405123200, 966, 0, 0], [1517491647, "AEDICT notepad", 0.0, 0, 1345852800, 22, 0, 0], [1503887740, "MUICT RS", 0.0, 0, 1408320000, 186, 32, 1], [1182257644, "Kanji by pict o graphix", 0.0, 0, 1406678400, 81, 0, 136], [1940738651, "English pictures", 0.0, 0, 1387152000, 532, 10, 518], [3342602701, "Vietnamese with pictures", 0.0, 0, 1368489600, 42, 0, 42], [3623013922, "Spanish-Russian dictionary of adjectives (part 2)", 0.0, 0, 1345852800, 554, 0, 0], [214864764, "Japanese Math Pictures", 0.0, 0, 1423958400, 50, 0, 26], [1368421739, "MUICT AWL", 0.0, 0, 1432252800, 570, 32, 1], [722472136, "CHN-1020 Dict\u00e9e Lecon 18", 0.0, 0, 1427846400, 1, 0, 0], [1730403830, "MDTI pictures", 0.0, 0, 1423008000, 35, 0, 47], [1098528865, "Basic Vietnamese Picture Vocabulary", 0.0, 0, 1404086400, 374, 0, 299], [1184408790, "The O.C. - Season 1 Episode 1: Pilot [Dictation] \t", 0.0, 0, 1394409600, 434, 434, 434], [2870257275, "TCM Review Big Picture Point Location", 0.0, 0, 1345852800, 121, 0, 0], [508924940, "Brazilska Portugalstina - Anglictina/Cestina", 0.0, 0, 1345852800, 1768, 0, 0], [94804403, "Intermediate German for Fiction Reading: Deck 2", 0.0, 0, 1426809600, 245, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ict</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[806643760, "Schritte international 2 -- n\u00e9met-magyar", 5.0, 1, 1380326400, 1088, 0, 0], [1077998431, "Schritte International 5", 0.0, 0, 1411603200, 244, 0, 0], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [1663345793, "Mexican slang - Chrissy 1/23", 0.0, 0, 1453593600, 326, 3, 1], [1107039583, "Chris Altius Shared", 0.0, 0, 1452470400, 2315, 0, 241], [1674909651, "Chrono Trigger script. Japanese <-> English retranslation", 4.67, 3, 1372464000, 4701, 0, 0], [1390035042, "ochrona art 5 zastrzezone", 0.0, 0, 1452643200, 1, 0, 0], [685352992, "Pchrona tajne art 5", 0.0, 0, 1452643200, 7, 0, 0], [1165508146, "Brazilian Portuguese Basic Vocabulary (Chris Reall)", 0.0, 0, 1449878400, 144, 1, 1], [1616191947, "Franz\u00f6sisch f\u00fcr Fortgeschrittene", 0.0, 0, 1452124800, 0, 0, 0], [306130418, "Agatha Christie \u2013 And then there were none", 0.0, 0, 1452643200, 105, 3, 0], [1439843162, "Beginners' French (Chris Reall)", 0.0, 0, 1449878400, 408, 1, 1], [753974259, "Speaksuli Christmas words", 0.0, 0, 1451865600, 14, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [1768525984, "199-DYSPNEE AIGUE ET CHRONIQUE", 0.0, 0, 1450137600, 7, 0, 0], [1816054900, "French Intermediate (Chris Reall)", 0.0, 0, 1449878400, 1096, 1, 1], [644576688, "Beginners' Italian (Chris Reall)", 0.0, 0, 1447891200, 180, 1, 1], [1304486133, "245- Diabete complications chroniques", 0.0, 0, 1450051200, 14, 0, 0], [756468068, "Entrereneurship for Chris", 0.0, 0, 1449100800, 66, 0, 93], [803672550, "Polnisches Alphabet DE-PL mit Audio und Lautschrift", 0.0, 0, 1447804800, 51, 96, 5], [1286095362, "Deutsch Goethe a1 schreiben Teil 3 Brief ", 0.0, 0, 1448064000, 19, 3, 2], [1805963157, "Schritte-International 2 Deutsch-Persisch", 0.0, 0, 1449446400, 457, 0, 0], [833452978, "Beginners' Dutch (Chris Reall)", 0.0, 0, 1447891200, 309, 1, 1], [1884736848, "Deutsch Goethe a1 schreiben Teil 2 Formular ", 0.0, 0, 1448064000, 10, 3, 2], [538754131, "Schritte International 1 Deutsch-Persisch", 0.0, 0, 1446854400, 527, 0, 0], [337171345, "Chris's flashcards (USC dental)", 0.0, 0, 1447286400, 127, 0, 6], [1637427641, "Schritte Plus 4", 0.0, 0, 1443398400, 323, 0, 0], [1066201748, "Chronologie Histoire-G\u00e9o", 0.0, 0, 1442966400, 65, 0, 0], [1313352696, "Japanisch - Schritt f\u00fcr Schritt - Band 1 - Vokabeln", 5.0, 2, 1414454400, 374, 0, 0], [4027475114, "Leading People To Christ", 3.0, 2, 1357689600, 37, 0, 0], [1346799433, "Norsk privatist Jostein Christensen og Asbj\u00f8rn Aag", 0.0, 0, 1441670400, 77, 3, 34], [570471959, "MKL Schraubenverbindungen", 0.0, 0, 1439337600, 96, 0, 16], [4269065416, "Bible Quiz 14: II Chronicles", 0.0, 0, 1345852800, 155, 0, 0], [2980560471, "Bible Quiz 13: I Chronicles", 0.0, 0, 1345852800, 91, 0, 0], [1945979818, "Mandarin Chinese Christian Vocabulary", 0.0, 0, 1441756800, 113, 52, 0], [1444798994, "Schritt fuer Schritt Voc", 0.0, 0, 1437350400, 46, 0, 0], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [1669156699, "ROWAN-SOM DR. LEE BIOCHEMISTRY BLOCK 1 LECTURE 2 CHROMOSOMES", 0.0, 0, 1406505600, 147, 0, 53], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [589100008, "Lesen, h\u00f6ren, schreiben, sprechen", 0.0, 0, 1383955200, 15, 0, 0], [5683534, "Interval 8 - Chris", 0.0, 0, 1383004800, 17, 0, 15], [1620951378, "TMS 180-5: Sharing Christ with Others", 0.0, 0, 1440374400, 36, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1452223735, "Hemochromatosis/Hepatic Neoplasms Pathology", 0.0, 0, 1424736000, 60, 0, 3], [633502529, "Schritte International 4", 0.0, 0, 1411603200, 331, 0, 0], [1860004285, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [2891920539, "HMS.IMP.Chronic.Inflammation", 0.0, 0, 1364342400, 26, 0, 2], [1118647766, "Christian Nepali Language", 0.0, 0, 1402012800, 89, 0, 0], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [1044805400, "Deutsch English Mundbildschrift MouthWriting 2014", 0.0, 0, 1431216000, 94, 0, 68], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [119714158, "Chrome Windows keyboard shortcuts", 0.0, 0, 1392336000, 76, 0, 0], [435355169, "Schritte International 6", 0.0, 0, 1411603200, 217, 0, 0], [1726818476, "Chris Exam #1", 0.0, 0, 1432684800, 9, 0, 1], [30646768, "Schritte International 2: Deutsch-Russisch", 0.0, 0, 1435104000, 404, 0, 0], [928702512, "Chris math conversions", 0.0, 0, 1432684800, 16, 0, 1], [1319978335, "4.9 - Spectroscopy and Chromatography", 0.0, 0, 1417305600, 15, 0, 0], [2383383395, "Personenbeschreibung", 0.0, 0, 1370217600, 25, 0, 0], [2556272748, "Schritte International 1", 0.0, 0, 1371513600, 82, 0, 0], [2017564521, "Japanisch im Sauseschritt", 0.0, 0, 1431216000, 643, 0, 0], [96637746, "Buddhismus_Schrift_1xx", 5.0, 1, 1426982400, 161, 327, 0], [1058342831, "Path Lab 3: Chronic & Granulomatous Inflammation", 0.0, 0, 1372291200, 33, 0, 35], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [299548013, "Meithai - Schrift- und Sonderzeichen", 5.0, 1, 1383782400, 109, 0, 0], [561646050, "Acute & Chronic Leukemia ", 0.0, 0, 1392854400, 38, 0, 8], [145047688, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [1262987351, "MCBI B1 - Genes and Chromosomes", 0.0, 0, 1410825600, 74, 0, 24], [506531760, "christine is a parasite", 1.0, 1, 1425945600, 30, 0, 7], [2476577535, "Schritte International 3", 0.0, 0, 1411603200, 382, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [3498738356, "Max*/Matiar/Ameer Chronic Inflammation (lecture)", 0.0, 0, 1379289600, 0, 0, 0], [58419656, "Notes of the chromatic scale", 5.0, 1, 1403308800, 12, 12, 0], [1106332502, "Hueber Schritte Plus 1 A1/1 (German-English)", 4.0, 1, 1388707200, 409, 340, 0], [810351767, "Schritte International 1", 4.67, 3, 1409788800, 513, 0, 0], [2132192140, "DaF Vokabeln, schrifftlicher Ausdr\u00fcck", 0.0, 0, 1414454400, 30, 0, 0], [1915502510, "Neugriechisch -  Maria Christmann-Petropoulou ", 4.0, 1, 1402617600, 536, 520, 191], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [976229959, "Mundbildschrift 2014", 0.0, 0, 1431216000, 84, 0, 63], [77170492, "Japanisch - Schritt f\u00fcr Schritt - Band 2 - Vokabeln", 4.5, 2, 1418688000, 416, 0, 0], [3586539164, "Max*/Matiar/Ameer Chronic Inflammation", 0.0, 0, 1379289600, 26, 0, 11], [2075981724, "Chronic Inflammation", 0.0, 0, 1359331200, 54, 0, 0], [845510785, "Schritte 10", 0.0, 0, 1400371200, 57, 0, 0], [1710101667, "Schritte International 2", 0.0, 0, 1411603200, 404, 0, 0], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 5.0, 1, 1345852800, 113, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Chr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

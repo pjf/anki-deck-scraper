@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1583779826, "Droit des affaires - Introduction", 0.0, 0, 1454889600, 15, 0, 1], [1460664383, "Droit des affaires - Partie 1/Chapitre 1", 0.0, 0, 1454889600, 10, 0, 0], [989205601, "Introduction au droit des affaires", 0.0, 0, 1454889600, 33, 0, 0], [635407797, "fmthyroid", 0.0, 0, 1454803200, 52, 0, 0], [1307976761, "L13-16 autocoids, analgesics, non-steroid antiinflammaotry a", 0.0, 0, 1452384000, 58, 0, 0], [1436671682, "R\u00e9vision Droit GOL 29 maggle", 0.0, 0, 1452556800, 34, 0, 4], [1211009901, "Thyroid-AY", 0.0, 0, 1452729600, 9, 0, 0], [920672749, "241-HYPOTHYROIDIE", 0.0, 0, 1450137600, 13, 0, 0], [330262636, "Droi administratif S3", 0.0, 0, 1449619200, 56, 0, 0], [1134079481, "Fran\u00e7ais - espagnol droit et institutions ", 0.0, 0, 1445990400, 494, 0, 0], [1288444002, "Sources_du_droit_du_travail_fr", 0.0, 0, 1444867200, 8, 0, 0], [1015112342, "ENG-SPA- DO ANDROIDS DREAM WITH ELECTRICIAN SHEEPS?", 0.0, 0, 1432857600, 181, 223, 172], [1776608159, "Java Android", 0.0, 0, 1423440000, 14, 0, 47], [1408455745, "Parallel Dict Sentence-hint-Word Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [1287676704, "DDO Gastrointestinal emergencies - UGIT bleeding", 0.0, 0, 1415232000, 9, 0, 0], [400361969, "Question droit public g\u00e9n\u00e9ral", 0.0, 0, 1435276800, 59, 0, 0], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1333375367, "First Aid Gastrointestinal Questions", 5.0, 1, 1435795200, 247, 0, 14], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [715281609, "BB 02.10.15 Intro to Neuroanatomy/Neuroimaging", 0.0, 0, 1423785600, 22, 0, 17], [675411337, "DDO Gastrointestinal emergencies - disorders presenting prim", 0.0, 0, 1415232000, 39, 0, 0], [1412468881, "DDO Gastrointestinal Emergencies - Hepatic disorders, jaundi", 0.0, 0, 1415232000, 34, 0, 0], [618993474, "DDO Gastrointestinal Emergencies - Acute abdominal pain", 0.0, 0, 1415232000, 9, 0, 0], [2804919574, "Gastric Lymphoma, Gastrointestinal Stromal Tumor", 0.0, 0, 1376697600, 42, 0, 5], [236331332, "DDO Gastrointestinal Emergencies - Oesophageal emergencies", 0.0, 0, 1415232000, 21, 0, 0], [2057840245, "Droit p\u00e9nal suisse (ECG)", 0.0, 0, 1425340800, 24, 0, 0], [784243122, "Steroids", 0.0, 0, 1423267200, 22, 0, 1], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [3238299878, "Droit du travail-France", 0.0, 0, 1382054400, 71, 0, 3], [1021517482, "N4-N5 FOR droid", 0.0, 0, 1395619200, 1303, 0, 0], [1246520238, "DDO Gastrointestinal Emergencies - Lower GIT bleeding", 0.0, 0, 1415232000, 5, 0, 0], [1743815443, "Parallel Dict Word-Url Template (Android)", 0.0, 0, 1345852800, 1, 0, 0], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [1231804262, "2013 Keele Med 2.1 Thyroid (Yr2 Term 1)", 0.0, 0, 1420156800, 12, 0, 2], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [1604917464, "mc steroids with media", 0.0, 0, 1351555200, 167, 0, 89], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Roi</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

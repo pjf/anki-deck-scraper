@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[465319475, "Ga\u00e1l Ott\u00f3: Kreat\u00edv kezd\u0151 angol - Kik\u00e9rdez\u0151 CD-t\u00e1r - [en-hu]", 4.2, 5, 1435104000, 2371, 2339, 0], [790616899, "AcDec Social Studies Part II", 0.0, 0, 1453766400, 4, 0, 0], [2023842678, "BHACDEC Econ Economists", 0.0, 0, 1453852800, 8, 0, 0], [433953678, "BHACDEC Econ Equations", 0.0, 0, 1453852800, 8, 0, 0], [623347520, "BHACDEC Econ competition", 0.0, 0, 1453852800, 12, 0, 0], [713237776, "UCD FST100A", 0.0, 0, 1452988800, 242, 0, 7], [1902423061, "McDougall European IR IDs", 0.0, 0, 1450137600, 52, 0, 1], [1096303402, "ck bgdbvgy vvzdgbcdj", 0.0, 0, 1450915200, 341, 0, 40], [1505753053, "Umich MCDB 310 Exam 1 Notecards ", 0.0, 0, 1443916800, 74, 0, 0], [34799596, "Kjeksitime IICD MCQ", 5.0, 1, 1392854400, 1461, 0, 146], [1311971137, "zhemecdmarkers", 0.0, 0, 1411171200, 30, 0, 0], [427874023, "SCWCD - OCPWCD - OCEWCD", 0.0, 0, 1353542400, 45, 0, 0], [2094478473, "block 2 McDermott DNA", 0.0, 0, 1414281600, 71, 0, 0], [1384956353, "McDonald: MS", 0.0, 0, 1422921600, 39, 0, 4], [359991714, "MCD practice", 0.0, 0, 1425513600, 199, 0, 0], [1180429794, "McDonald 12/7/2015", 0.0, 0, 1421193600, 34, 0, 6], [2091616430, "B&B OCD 04.11.15", 0.0, 0, 1428796800, 19, 0, 0], [1529126688, "Neuro McDonald Head Injury", 0.0, 0, 1421712000, 34, 0, 13], [158747140, "Neuro McDonald Ischemia", 0.0, 0, 1421625600, 32, 0, 4], [1297838862, "CD marker", 0.0, 0, 1425945600, 24, 0, 0], [2661693494, "Kull10_ICD_MCQ", 0.0, 0, 1345852800, 184, 0, 4], [400080736, "McDonald: CNS tumors", 0.0, 0, 1423612800, 30, 0, 18], [333460311, "Dermaquiz for nOObs IICD", 0.0, 0, 1399593600, 174, 0, 202], [400488745, "Spanish Michel Thomas Basic CD 1", 0.0, 0, 1345852800, 41, 0, 0], [1386365975, "Medisin NTNU MCQ IICD IIDC 2008-2012", 0.0, 0, 1392768000, 1461, 0, 146], [37012003, "pathInfecDz", 0.0, 0, 1422230400, 122, 0, 126], [506049295, "McDonald CNS Infections", 0.0, 0, 1423180800, 39, 0, 22]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cd</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

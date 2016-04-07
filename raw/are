@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[98793788, "Softwarequalit\u00e4t_WS15_16", 0.0, 0, 1454544000, 71, 0, 0], [137657089, "Maternal medicine for Karen ", 0.0, 0, 1454112000, 50, 0, 0], [1920868040, "Labour and pregancy for Karen ", 0.0, 0, 1454112000, 136, 0, 0], [888135785, "Software Engineering", 0.0, 0, 1454371200, 428, 9, 202], [261251709, "Methoden des Software Engineering", 0.0, 0, 1454630400, 315, 3, 46], [2132185048, "Sopica appareil digestif", 0.0, 0, 1454716800, 43, 0, 4], [880373388, "Gynaecology problems for Karen ", 0.0, 0, 1454112000, 90, 0, 0], [1868164812, "Acute Care", 0.0, 0, 1454889600, 55, 0, 3], [472904097, "Early pregnancy care for Karen", 0.0, 0, 1454112000, 28, 0, 0], [1159215668, "Sopica appareil digestif ok ", 0.0, 0, 1454716800, 42, 0, 4], [262824215, "Sopica appareil circulatoire fini !", 0.0, 0, 1453680000, 32, 0, 4], [453772415, "Fertility for Karen", 0.0, 0, 1454112000, 52, 0, 0], [2089134556, "Scott Shared Deck", 0.0, 0, 1453420800, 225, 0, 0], [1829750423, "Area Studies Semester 2", 0.0, 0, 1454025600, 98, 0, 0], [1277969778, "Oncology for karen", 0.0, 0, 1454112000, 31, 0, 0], [737230959, "ANC for Karen", 0.0, 0, 1454112000, 151, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 5.0, 1, 1345852800, 4353, 0, 0], [865230832, "Sopica appareil respiratoire", 0.0, 0, 1453852800, 14, 0, 5], [1100753655, "verbos irregulares nona", 0.0, 0, 1453507200, 122, 0, 0], [677620877, "Software Engineering", 5.0, 1, 1453161600, 351, 9, 158], [398472219, "Jarek Mariolka", 0.0, 0, 1454976000, 702, 0, 0], [1050987777, "SM11 - Nightmare in Dreamland", 0.0, 0, 1452124800, 34, 0, 0], [1359459429, "Levantarea Studies Part Deux", 0.0, 0, 1453248000, 48, 0, 0], [1107039583, "Chris Altius Shared", 0.0, 0, 1452470400, 2315, 0, 241], [1339836131, "Russe CMA de Paris E1 E2 Interm\u00e9diare Avanc\u00e9", 5.0, 1, 1431993600, 1808, 1554, 0], [539849601, "we are the world", 0.0, 0, 1451260800, 9, 0, 0], [1353934357, "HSR Software Engineering 1 HS2015", 5.0, 1, 1452211200, 51, 0, 15], [1447851791, "Sexual health for Karen", 0.0, 0, 1454112000, 55, 0, 0], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [811803516, "are you even in this class?", 0.0, 0, 1450051200, 170, 0, 7], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [592852969, "German - English Vocabulary around Shakespeare's Macbeth", 0.0, 0, 1449619200, 19, 0, 1], [39987571, "JuliaJared", 0.0, 0, 1449187200, 54, 112, 28], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [1328133479, "Rare Classical Characters", 0.0, 0, 1451088000, 151, 0, 0], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [542094415, "software security", 0.0, 0, 1447200000, 1, 0, 0], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [524956515, "Emergency Care and Transportation for the Sick and Injured", 4.33, 3, 1431388800, 2077, 0, 0], [609859235, "Higghg", 0.0, 0, 1447804800, 78, 0, 0], [356285820, "F453 - Chapter 2 - The function are purpose of translators", 0.0, 0, 1447372800, 37, 0, 0], [441158767, "Goethe a1 trennbare verben", 0.0, 0, 1447977600, 34, 3, 21], [464803713, "Korean Present Tense Verbs_Clare", 0.0, 0, 1446595200, 17, 0, 0], [1558887663, "Korean Nouns_Clare", 0.0, 0, 1446595200, 26, 0, 0], [557722288, "Korean Time_Clare", 0.0, 0, 1446595200, 31, 0, 0], [1718654904, "Novell Netware Test 1", 0.0, 0, 1444089600, 71, 0, 0], [101784762, "Korean Questions_Clare", 0.0, 0, 1446595200, 7, 0, 0], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [967420854, "German transparent words", 0.0, 0, 1446336000, 114, 0, 0], [1755512479, "Vasco/Basque/Euskera 1 - Vocabulario lugares", 0.0, 0, 1443398400, 40, 0, 1], [1681815053, "BBC Are models too skiny?", 0.0, 0, 1442275200, 5, 0, 7], [1472084088, "Pugillares", 0.0, 0, 1445990400, 507, 0, 0], [1344105746, "Legisla\u021bia rutier\u0103 - Indicatoare rutiere", 0.0, 0, 1444608000, 281, 0, 42], [1266989783, "BBC The three-parent baby", 0.0, 0, 1442275200, 38, 0, 7], [421006043, "Prawo rzymskie - paremie", 0.0, 0, 1441756800, 120, 0, 0], [238875433, "UK Postcode Areas", 0.0, 0, 1442016000, 124, 0, 0], [1569591119, "MathCounts: prepare for USA middle school competition", 0.0, 0, 1422489600, 59, 0, 0], [774673559, "UGA Math 2250 Cantarella Background Material", 0.0, 0, 1439856000, 19, 0, 38], [1275764118, "DLI MSA Semester 2 Area Studies", 0.0, 0, 1439251200, 115, 0, 11], [1343086485, "Touro Shared", 0.0, 0, 1439856000, 1, 0, 1], [1256673416, "Math 2250 Cantarella Chapter 2 Limits", 0.0, 0, 1439856000, 15, 0, 30], [1653425099, "Areas Studies", 0.0, 0, 1439596800, 40, 0, 0], [1628677163, "N400: Critical Care", 0.0, 0, 1418256000, 282, 0, 0], [1349019795, "(Russian) Biology tables to prepare for exam", 0.0, 0, 1433980800, 38, 0, 0], [1427731002, "Self share_kron", 0.0, 0, 1434326400, 498, 0, 1], [1775459514, "Carebears 2", 0.0, 0, 1437696000, 350, 0, 0], [1417347301, "ALLEMAND GAUVRY SHARE", 0.0, 0, 1426032000, 83, 0, 0], [1089036967, "Extra vocabulary taken from the software portion of GER2000", 5.0, 1, 1422057600, 335, 0, 0], [2036962902, "J-Bridge vol.1 S01-L01 vocabulary by Tarek", 0.0, 0, 1390435200, 48, 0, 0], [2001386934, "Verbos_Irregulares_6789", 0.0, 0, 1396051200, 55, 0, 0], [359041611, "Danger areas", 0.0, 0, 1433894400, 15, 0, 0], [682572489, "J-Bridge vol.1 S01-L10 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [986069772, "12 Tumorer, cerebral parese, infektioner", 0.0, 0, 1416614400, 57, 0, 30], [971750740, "Common words used in software development", 0.0, 0, 1422489600, 19, 0, 0], [96867093, "AME PROCESSO DO TRABALHO - SERVI\u00c7OS AUXILIARES DA JT", 0.0, 0, 1409788800, 34, 0, 0], [1281684242, "Areo dynamik \u00f8vekort (danish)", 0.0, 0, 1420502400, 1, 0, 0], [2021429671, "Analysis und Lineare Algebra", 0.0, 0, 1436572800, 49, 0, 198], [969203422, "testando o share", 0.0, 0, 1428710400, 1, 0, 0], [1160937867, "Kanji p. 34-39 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [1727372431, "LMP Shared Golgi Deck", 0.0, 0, 1384387200, 26, 0, 0], [883207925, "J-Bridge vol.1 S01-L03 vocabulary by Tarek", 0.0, 0, 1390435200, 26, 0, 0], [1019875083, "Kanji p. 28-33 by Tarek", 0.0, 0, 1390435200, 27, 0, 0], [412448834, "Adult II Week 6 - Cardiac patient care", 0.0, 0, 1412553600, 68, 0, 14], [330556350, "Biochem, Unit 4; Dynamic Mutations, Uniparental Disomy, and ", 0.0, 0, 1414108800, 65, 0, 0], [1639485195, "ENG-SPA. REGULAR VERBS. VERBOS REGULARES", 4.0, 1, 1432857600, 260, 260, 257], [1982074715, "Russian-English Word List Pre-Intermediate 1 (are filling)", 4.2, 5, 1429228800, 181, 0, 160], [562378633, "AneesHussain Squares & Cubes List", 0.0, 0, 1429142400, 40, 0, 0], [1168297484, "Test Static Image SHARED", 0.0, 0, 1382918400, 1, 0, 0], [1435905833, "Gairaigo - These are Katakana words from other languages", 5.0, 1, 1391212800, 413, 0, 0], [597159811, "EMT ASUMH Prehospital Emergency Care 10th Editi", 0.0, 0, 1437696000, 1940, 0, 0], [3138033219, "english_ychebotarev", 0.0, 0, 1371859200, 540, 0, 0], [1795039665, "Minera\u00e7\u00e3o de dados/ Data Warehouse", 0.0, 0, 1437696000, 21, 0, 0], [799203460, "Adult II Week 3 - Gerentology Acute Care", 0.0, 0, 1410912000, 31, 0, 2], [397541033, "Deutsch Minimalpaare", 0.0, 0, 1415664000, 94, 174, 0], [1789479049, "Career", 0.0, 0, 1402272000, 130, 0, 0], [863606079, "Softwaretechnik 2 am KIT WS1415", 0.0, 0, 1429315200, 675, 0, 2], [813839112, "Participios irregulares en B\u00falgaro", 0.0, 0, 1433635200, 26, 0, 0], [1064524099, "Adult II Week 5 - Care of Ventillated Pt", 0.0, 0, 1412121600, 16, 0, 6], [2105185697, "Hardware para Concurso", 0.0, 0, 1375401600, 94, 0, 32], [388553362, "J-Bridge vol.1 S01-L08 vocabulary by Tarek", 0.0, 0, 1390435200, 43, 0, 0], [1467173143, "Engenharia de Software para Concurso", 0.0, 0, 1375401600, 131, 0, 44], [1102873658, "Spanish shared deck for download", 0.0, 0, 1378166400, 596, 0, 16], [115917412, "General software development and computer science questions.", 0.0, 0, 1353110400, 18, 0, 0], [1469515134, "TestShare", 0.0, 0, 1428364800, 19, 0, 0], [227406271, "Kanji p. 50-55 by Tarek", 0.0, 0, 1390435200, 28, 0, 0], [249950571, "Kanji p. 40-45 by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [1184665498, "Russisch-Nederlands jaar 2 CVO Roeselare 2014-2015 VDL", 0.0, 0, 1411776000, 150, 0, 0], [1625135861, "Einf\u00fchrung in Software Engineering TU Darmstadt WS14/15", 0.0, 0, 1423785600, 49, 0, 1], [1488284162, "Kanji p. 46-49 by Tarek", 0.0, 0, 1390435200, 20, 0, 0], [309055347, "Nahuatlahtolli: lugares places", 0.0, 0, 1414540800, 115, 111, 0], [2240863993, "This is a test deck share", 0.0, 0, 1359763200, 320, 0, 0], [1887378255, "J-Bridge vol.1 S01-L04 vocabulary by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [2047919017, "Kanji p. 16-21 by Tarek", 0.0, 0, 1390521600, 34, 0, 0], [1894427810, "(FJFI, CZE) Teorie Kodovani (Mares 2015)", 0.0, 0, 1433030400, 82, 0, 157], [512970025, "DalMed2018 - Publicly Shared Test Deck - Kember", 0.0, 0, 1414368000, 3, 0, 1], [1447068878, "isp for marek", 0.0, 0, 1430870400, 929, 0, 2], [169136957, "Shared Korean Deck from somewhere", 0.0, 0, 1420329600, 3177, 0, 0], [82405618, "UOC-Ing_software-GLOSARIO", 0.0, 0, 1411084800, 40, 0, 1], [260717031, "Lineare Algebra", 0.0, 0, 1433203200, 107, 0, 138], [299042074, "Test share deck - connective tissues", 0.0, 0, 1423440000, 41, 0, 0], [538739052, "MSA_Area_Studies_I", 0.0, 0, 1416268800, 162, 1, 107], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [902581425, "J-Bridge vol.1 S01-L12 vocabulary by Tarek", 0.0, 0, 1390435200, 35, 0, 0], [937506456, "GrabBag2 Shared", 0.0, 0, 1410307200, 102, 0, 43], [1831207946, "Shakespeare and Language", 0.0, 0, 1424822400, 23, 6, 0], [363299717, "Italian Session2 Class3 - Fare (to do)", 0.0, 0, 1406160000, 7, 0, 0], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [377734551, "Kanji p. 22-27 by Tarek", 0.0, 0, 1390435200, 23, 0, 0], [1545705273, "J-Bridge vol.1 S01-L07 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [1876183848, "Software Evolution am KIT", 0.0, 0, 1398643200, 55, 0, 0], [1374179978, "3MB Acute Care", 0.0, 0, 1430265600, 35, 0, 0], [404598367, "Savarese deck", 0.0, 0, 1429747200, 348, 0, 0], [994096650, "Algebra - Mares [FJFI]", 0.0, 0, 1412121600, 33, 0, 63], [59972112, "6270 Care of Adults - Finals flashcards", 0.0, 0, 1386633600, 136, 0, 20], [1516982614, "Transparent UI Code with Namespaces", 0.0, 0, 1426118400, 9, 0, 0], [601013022, "Kanji p. 02-09 by Tarek", 0.0, 0, 1390435200, 45, 0, 0], [379225846, "J-Bridge vol.1 S01-L05 vocabulary by Tarek", 0.0, 0, 1390435200, 46, 0, 0], [1588348088, "Liniare Algebra", 0.0, 0, 1413849600, 99, 0, 186], [891486961, "shared doraco 32", 0.0, 0, 1386115200, 6121, 0, 0], [1504200766, "Savarese Green OMT Book", 0.0, 0, 1418774400, 574, 0, 2], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [459635168, "Savarese Review Dec", 0.0, 0, 1416960000, 35, 0, 0], [1013188669, "Perfect Squares and Roots 1 to 30", 0.0, 0, 1404777600, 60, 0, 0], [3129183098, "SMP 85", 0.0, 0, 1384214400, 36, 0, 29], [785914382, "Software Technik II am KIT", 0.0, 0, 1394668800, 15, 0, 2], [1815379967, "Ovanligare svenska ord", 5.0, 2, 1360627200, 4972, 0, 0], [4083876071, "CVO Roeselare study words", 0.0, 0, 1381104000, 30, 0, 0], [608484568, "Chess Board Squares", 5.0, 1, 1426636800, 64, 0, 65], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [295453703, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [2010065826, "TU Darmstadt - Software Engineering in industrial practice", 0.0, 0, 1400889600, 68, 0, 0], [3741544605, "German shared deck for download", 0.0, 0, 1378166400, 245, 0, 4], [792930644, "Elementare Differentialgeometrie", 0.0, 0, 1377820800, 192, 0, 26], [361454676, "Camille Shared 2014", 0.0, 0, 1394668800, 198, 0, 0], [1282503779, "Italian Session2 Class3 - fare (to do)", 0.0, 0, 1405987200, 7, 0, 0], [1119085080, "J-Bridge vol.1 S01-L09 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [253387486, "J-Bridge vol.1 S02-14 vocabulary by Tarek", 0.0, 0, 1391126400, 52, 0, 0], [895362682, "English shared deck for downlaod", 0.0, 0, 1378166400, 826, 0, 1], [799600781, "A Level History: 1920s Red Scare", 0.0, 0, 1401667200, 21, 0, 0], [2042851476, "J-Bridge vol.1 S01-L02 vocabulary by Tarek", 0.0, 0, 1390435200, 36, 0, 0], [3782205513, "French phrases I want to share with Brenda", 0.0, 0, 1362441600, 9, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [2878122477, "Natural Math pattern-based multiplication - squares", 0.0, 0, 1345852800, 6, 0, 0], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [219194394, "merriam webster(my private share)", 0.0, 0, 1430611200, 60, 0, 0], [209210594, "Call of Duty 4 Modern Warfare", 0.0, 0, 1355961600, 95, 0, 0], [568191158, "6270 Care of Adults CVA flashcards", 0.0, 0, 1386633600, 29, 0, 2], [978238095, "BSprA Spa 1-3 2014 Irregulares", 0.0, 0, 1415232000, 91, 0, 0], [292120856, "Embedded Systems Software Design", 0.0, 0, 1421971200, 59, 0, 23], [1290753172, "Nervous You are; FORCE a powerful ally indeed", 0.0, 0, 1378339200, 971, 0, 244], [3127960623, "Russian shared deck", 0.0, 0, 1378166400, 130, 128, 6], [1013713068, "J-Bridge vol.1 S01-L11 vocabulary by Tarek", 0.0, 0, 1390435200, 25, 0, 0], [2032463039, "Tunnelt\u00e5gf\u00f6rare TutF Block3", 0.0, 0, 1345852800, 56, 0, 1], [1638815855, "J-Bridge vol.1 S01-L13 vocabulary by Tarek", 0.0, 0, 1390435200, 52, 0, 0], [1434445275, "Komponentenbasierte Software Architektur - KIT Hummel", 0.0, 0, 1405987200, 58, 0, 6], [1575255010, "Men are from Mars, Women are from Venus", 0.0, 0, 1408492800, 13, 3, 0], [1232651803, "J-Bridge vol.1 S01-L06 vocabulary by Tarek", 0.0, 0, 1390435200, 49, 0, 0], [858641764, "Kanji p. 10-15 by Tarek", 0.0, 0, 1390435200, 33, 0, 0], [2210956358, "Software Design Patterns", 5.0, 2, 1360886400, 67, 0, 0], [4144850662, "Software Unit Testing", 0.0, 0, 1360627200, 29, 0, 0], [1643399766, "Software Testing Terminology", 0.0, 0, 1424822400, 51, 0, 0], [1259584055, "Business English. B1. Speaking about your career", 0.0, 0, 1427414400, 19, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Are</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[583519006, "Pharmakologie und Toxikologie f\u00fcr Naturwissenschaftler", 0.0, 0, 1454198400, 130, 0, 1], [1610254447, "Netzwerk Grenchen: Lernen am Smartphone", 0.0, 0, 1454198400, 201, 39, 170], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen; ", 0.0, 0, 1453334400, 95, 0, 0], [788864383, "TS - Diffraction - Interf\u00e9rences - Doppler", 0.0, 0, 1453680000, 20, 1, 42], [736344514, "Dates pour r\u00e9ussir le bac et briller en societ\u00e9 ;)", 0.0, 0, 1454284800, 166, 0, 0], [2013855291, "Lehren und Lernen - Susi", 5.0, 1, 1453939200, 28, 0, 0], [895893421, "XeH Ricardo Carballo Calero", 5.0, 3, 1453507200, 31, 0, 0], [646339611, "Lehren und Lernen Empirie - Susi", 5.0, 1, 1453939200, 10, 0, 0], [428131788, "Stuttgart Lernwortschatz Ciceros Reden", 0.0, 0, 1451433600, 200, 0, 0], [1076967965, "NEUROLOGY CLERKSHIP", 0.0, 0, 1450051200, 626, 0, 92], [1121901553, "Neuro NYU Clerkship", 0.0, 0, 1450483200, 414, 0, 165], [784874842, "\u6211\u5b66\u6c49\u8bed \u2606 CHINESISCH lernen! - Animexx ", 0.0, 0, 1452470400, 404, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 5.0, 1, 1454889600, 2441, 4877, 371], [1516834323, "JLPT4 Half Arsed Traveller Japanese ", 0.0, 0, 1450224000, 517, 492, 100], [1047725462, "Japanisch f\u00fcr Sch\u00fcler - Kanji - 2. Auflage", 0.0, 0, 1430524800, 199, 0, 0], [1829966048, "Vokabeln zum Erlernen des paschtunischen Alphabets", 0.0, 0, 1450224000, 113, 3, 1], [189029874, "B\u00fchler Leitfaden f\u00fcr den Elementarkursus des Sanskrit", 5.0, 1, 1448582400, 165, 0, 0], [1970824522, "Verben zum Tagesablauf lernen", 0.0, 0, 1449100800, 14, 0, 0], [1153794708, "Zuurresten leren", 0.0, 0, 1444435200, 12, 0, 0], [1459919581, "Flervariabelanalys", 0.0, 0, 1442534400, 239, 0, 24], [748240516, "malerepro", 0.0, 0, 1446681600, 38, 0, 0], [2135694393, "Differenzielle Psychologie Uni Bielefeld Kandler", 0.0, 0, 1441324800, 215, 0, 111], [1973010626, "Sisler", 0.0, 0, 1444262400, 120, 0, 20], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 0.0, 0, 1454025600, 1381, 1119, 100], [1693496524, "Uci ms1 '14 histo lec 2 butler", 0.0, 0, 1407456000, 18, 0, 18], [1317933205, "W-PGA18/15 Lernstoff ", 0.0, 0, 1441670400, 68, 0, 0], [979649563, "SystemicSclerosis_WRBIM", 0.0, 0, 1438819200, 12, 0, 5], [1889498182, "1x1 mit Dreiecken lernen,  1x1 with Triangles", 0.0, 0, 1437955200, 81, 0, 110], [2003390821, "\u0130ng-Tr kelimeler", 0.0, 0, 1440460800, 37718, 0, 0], [2051412754, "M\u00f6llers - Introducing Yourself", 0.0, 0, 1411257600, 68, 0, 0], [1001817568, "Asa lernt flei\u00dfig", 0.0, 0, 1420156800, 299, 0, 13], [1290123940, "Famous Wrestlers", 0.0, 0, 1435017600, 201, 0, 185], [999503923, "Allergy and Immunology", 0.0, 0, 1421107200, 12, 0, 1], [66242386, "TEOG 2. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 90, 85, 0], [1830691264, "Lumina Latein Lernvokabeln - Lektion 1", 0.0, 0, 1370995200, 40, 0, 0], [1132873061, "M\u00f6llers - The company and its products and services", 0.0, 0, 1438214400, 27, 0, 0], [3374674221, "Einfache IT Systeme Lernfeld 4", 0.0, 0, 1361923200, 90, 0, 0], [136593977, "Anatomy -GI Embryology (Kessler)", 0.0, 0, 1412035200, 19, 0, 0], [2063952661, "TEOG 6. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1391990400, 536, 473, 0], [1965976203, "UK NUR 221 Exam 4 Preschoolers", 0.0, 0, 1416182400, 27, 0, 0], [1842283660, "Kennenlernen", 0.0, 0, 1442361600, 68, 68, 68], [548314053, "English-Esperanto Lernu.net wordlist - good wishes", 0.0, 0, 1424908800, 13, 0, 1], [417291689, "Alergologia 3er parcial", 0.0, 0, 1413331200, 44, 0, 2], [256313490, "heller - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [1097205574, "Multiple Sclerosis", 0.0, 0, 1426896000, 25, 0, 4], [1173639500, "Lernfeld 5 + 6 Industriekaufleute April 2012", 0.0, 0, 1345852800, 85, 0, 0], [1186620057, "Lernkarten", 0.0, 0, 1437523200, 1, 0, 1], [2603393416, "HMS.IMP.Allergic Diseases", 0.0, 0, 1365033600, 28, 0, 6], [11404197, "Miami miller neuro final", 0.0, 0, 1427155200, 259, 0, 449], [1883210017, "Pediatric Clerkship", 0.0, 0, 1345852800, 171, 0, 46], [1935870117, "Lernu Esperanto words", 0.0, 0, 1428624000, 377, 0, 0], [542142986, "TEOG 7. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1389225600, 346, 0, 0], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 4.43, 7, 1451520000, 2200, 0, 0], [1297127955, "Leren bij kinderen en adolescenten sheets", 0.0, 0, 1403222400, 189, 0, 8], [1566694372, "Italian Session2 Class3 - Volere (to want)", 0.0, 0, 1406160000, 7, 0, 0], [3896435989, "bearoff doppler", 0.0, 0, 1362096000, 21, 0, 21], [869654914, "RussianAccelleratorCards", 0.0, 0, 1389398400, 99, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [1659770434, "\u015fehirler, plakalar\u0131 ve alan kodlar\u0131", 0.0, 0, 1356912000, 14, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [1963764618, "Dutch to English Phrases for Travelers (with sound)", 0.0, 0, 1409443200, 261, 261, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [980793069, "UK NUR 221 Toddler development", 0.0, 0, 1416182400, 43, 0, 0], [854246212, "Esperanto - Czech: Lernu - Useful phrases/U\u017eite\u010dn\u00e9 fr\u00e1ze", 0.0, 0, 1396742400, 400, 0, 0], [1001128266, "Anatomy -GI Embryology (Kessler)", 0.0, 0, 1412726400, 19, 0, 0], [426380464, "Miller ortho review", 0.0, 0, 1423526400, 152, 0, 0], [2655015627, "Radyo Amat\u00f6r Telsiz S\u0131nav\u0131 \u00dclkelerin DX kodlar\u0131", 0.0, 0, 1368662400, 12, 0, 0], [1800014337, "Lernen zu lernen", 0.0, 0, 1429315200, 90, 0, 0], [1353423173, "Alex_formler_plus_ekstra", 0.0, 0, 1402444800, 19, 0, 1], [801708684, "Hieratic M\u00f6ller", 0.0, 0, 1404345600, 229, 0, 1004], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [607624640, "English-Esperanto Lernu wordlist - Common questions", 0.0, 0, 1423094400, 46, 0, 1], [1778090163, "T\u00fcrkisch-Deutsch: S\u00e4tze / T\u00fcrk\u00e7e-Almanca: S\u00f6zler", 0.0, 0, 1402358400, 104, 0, 0], [1804328645, "Eksamensoppgaver 4A (mangler 2012/13)", 0.0, 0, 1411948800, 503, 0, 25], [1321705211, "Try! N4 JLPT Grammar Scheduler", 0.0, 0, 1424908800, 50, 0, 0], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [2138161124, "AR5 symboler og definisjoner", 0.0, 0, 1369785600, 54, 0, 0], [1063724962, "M\u00f6llers - Growing into the world of work", 0.0, 0, 1412035200, 80, 0, 0], [2129143511, "Scleroderma", 0.0, 0, 1422921600, 70, 0, 4], [2482705923, "Hypersensitivity and Allergic Diseases", 0.0, 0, 1360800000, 22, 0, 0], [1614998227, "TEOG 4. S\u0131n\u0131f \u0130ngilizce Kelimeler", 0.0, 0, 1388966400, 166, 0, 0], [1460954641, "Fuller Cervical interactive", 0.0, 0, 1424649600, 37, 0, 9], [1060534595, "begge deler - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395532800, 28, 56, 0], [938809702, "Rechtzeitig vor der Albenvorcon zum Albisch lernen", 0.0, 0, 1424822400, 102, 29, 0], [1065596097, "Meithai - Schule und Lernen", 5.0, 1, 1383782400, 110, 0, 0], [305407165, "M\u00f6llers - Telephoning", 0.0, 0, 1438214400, 75, 0, 0], [477544038, "Lernfeld Ausbildung 3", 0.0, 0, 1420761600, 14, 0, 1], [1217073216, "C# f\u00fcr Java Entwickler", 0.0, 0, 1367712000, 85, 0, 0], [2887175275, "Abiturglossar Deutsch f\u00fcr polnische Lerner PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 254, 0, 0], [4067994379, "Surgery Clerkship Quick Review", 0.0, 0, 1345852800, 478, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ler</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[215365929, "All in One Kanji Deck (Heisig's RTK Order)", 4.57, 7, 1452384000, 3787, 0, 0], [1725372458, "JLPT (1-4) Vocabulary in Heisig's RTK Order (reading)", 0.0, 0, 1454371200, 7098, 3, 2], [768323641, "JLPT (1-4) Vocabulary in Heisig's RTK Order (writing)", 0.0, 0, 1454371200, 7098, 3, 2], [27685291, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s fogalmak", 0.0, 0, 1453161600, 21, 0, 0], [1705736809, "Korean hangul to hanja using Heisig's RTK keywords", 0.0, 0, 1406073600, 331, 0, 0], [977481713, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 3.", 0.0, 0, 1453161600, 5, 0, 0], [1997499017, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 1.", 0.0, 0, 1453161600, 22, 0, 0], [826340229, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 6.", 0.0, 0, 1453161600, 5, 0, 0], [625010219, "Sportk\u00fcstenschifferschein Segel+Motor", 5.0, 1, 1452384000, 489, 0, 2], [477187773, "RTK Heisig 1301-1500", 0.0, 0, 1452988800, 200, 0, 137], [1188809436, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 4.", 0.0, 0, 1453161600, 3, 0, 0], [1503671037, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 7.", 0.0, 0, 1453161600, 6, 0, 0], [887070855, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 5.", 0.0, 0, 1453161600, 3, 0, 0], [843234024, "RTK 1 Improved Keywords and Stories", 0.0, 0, 1399680000, 3138, 0, 0], [1285741551, "Danish - Dansk RTK Heisigs Remembering the Kanji 7. version", 0.0, 0, 1450396800, 2200, 0, 0], [1909571498, "ME GTK V\u00e1llalatfinansz\u00edroz\u00e1s k\u00e9pletek 2.", 0.0, 0, 1453161600, 28, 0, 0], [809047702, "Angielski dla pocz\u0105tkuj\u0105cych. Posiadanie (have got, has got)", 0.0, 0, 1437436800, 21, 21, 9], [972027116, "RTK 1 Improved Keywords Skeleton", 0.0, 0, 1394409600, 3029, 0, 0], [713498644, "N\u00e9met szavak - \u00c9tkez\u00e9s", 0.0, 0, 1448582400, 30, 0, 0], [2101396492, "Angielski dla pocz\u0105tkuj\u0105cych. Pomieszczenia,przyimki miejsca", 0.0, 0, 1441152000, 31, 31, 7], [1146781341, "francuski - ubrania, kolory, tkaniny", 0.0, 0, 1447545600, 73, 0, 0], [1913327869, "Od samego pocz\u0105tku", 0.0, 0, 1445904000, 179, 205, 1], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 5.0, 1, 1345852800, 3007, 0, 0], [894849112, "Heisig RTK 16th edition", 0.0, 0, 1443657600, 2253, 0, 0], [1427483779, "Heisig's Remember the Kanji (RTK) 1+3 Kanji to keyword", 5.0, 1, 1439856000, 3006, 3, 1650], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 2.5, 2, 1345852800, 500, 0, 0], [1782080739, "RTK Heisig 509-766", 0.0, 0, 1395705600, 258, 0, 206], [1527770264, "Slang kr\u00f3tkofalarski", 0.0, 0, 1441411200, 630, 0, 0], [1143296168, "Historia ustroju i prawa polskiego - notatki", 0.0, 0, 1441756800, 226, 0, 0], [1418354487, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok birtokos esetben", 0.0, 0, 1396742400, 26, 0, 0], [801648998, "wszystkie kanjioszki", 0.0, 0, 1420848000, 3909, 0, 0], [1268296467, "Le travail - kartka", 0.0, 0, 1424131200, 47, 0, 0], [2098183903, "Korean hanja to hangul based on Heisig's RTK part II", 0.0, 0, 1406073600, 1699, 0, 0], [3587513003, "HISTO - TK.T\u0141USZCZOWA ", 0.0, 0, 1351814400, 18, 0, 0], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [161888663, "Tkach--Licensure: Church History Dates", 0.0, 0, 1390867200, 77, 0, 0], [1628315334, "Surface Chemistry KTK095", 0.0, 0, 1414454400, 130, 0, 9], [2120354766, "Zestaw dla pocz\u0105tkuj\u0105cych", 0.0, 0, 1425600000, 497, 0, 0], [1413518980, "TOEIC5-1(RTK)", 0.0, 0, 1417219200, 696, 0, 0], [1515824238, "RTK 1 Heisig 509-766", 0.0, 0, 1395705600, 258, 0, 206], [146067812, "colores 1.1. bemutatkoz\u00e1s", 0.0, 0, 1404345600, 44, 0, 0], [183062921, "Egzamin kr\u00f3tkofalarski 2014 (Marcin Perli\u0144ski)", 0.0, 0, 1427068800, 453, 0, 28], [4080329580, "Andrius Statkevicius", 0.0, 0, 1404777600, 15079, 2304, 0], [946472850, "Heisig's RTK Deck 11111111111111111111", 0.0, 0, 1359331200, 460, 0, 0], [63574913, "Tkach--Licensure: WSC", 0.0, 0, 1390867200, 58, 0, 0], [1875361678, "chinese TKD", 0.0, 0, 1345852800, 70, 0, 0], [1002764210, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok prepoz\u00edci\u00f3kkal", 0.0, 0, 1396742400, 29, 0, 0], [2654705267, "Heisig's Remember the Kanji (RTK) 1+3", 4.27, 15, 1348099200, 3007, 0, 0], [2438776091, "RTK 1-3 w/top 2 community stories (recognition)", 0.0, 0, 1366588800, 3007, 0, 0], [43978039, "N\u00e9met -  Vonatkoz\u00f3 n\u00e9vm\u00e1sok r\u00e9szes esetben", 0.0, 0, 1396742400, 27, 0, 0], [560010623, "RTK1 Z&S", 5.0, 1, 1411948800, 1340, 0, 0], [1672767733, "Kanji Dark [RTK/Heisig Deconstructed] (radical sort/decomposition)", 4.25, 4, 1431388800, 1940, 0, 0], [1721368816, "Heisig RTK 6th Edition German", 5.0, 1, 1402704000, 2199, 0, 0], [204707956, "Nanomaterials Chemistry (KTK041)", 0.0, 0, 1420761600, 44, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

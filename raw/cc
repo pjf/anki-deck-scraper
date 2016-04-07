@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1812780301, "Diabetes Review for CCFP Exam 2016", 0.0, 0, 1454284800, 16, 0, 0], [704800637, "zzxxccv1", 0.0, 0, 1454889600, 10, 10, 0], [180623737, "DCC Core Latin", 5.0, 1, 1447977600, 997, 0, 0], [2041494066, "800\u30d9\u30fc\u30b7\u30c3\u30af\u82f1\u5358\u8a9e[CC4.0]", 0.0, 0, 1441756800, 843, 0, 0], [959990126, "CCI TTUHSC SON Exam 1", 0.0, 0, 1453680000, 64, 0, 11], [546073968, "Moroccan Arabic - Marrakech", 0.0, 0, 1453334400, 238, 132, 0], [1922011662, "Bible Quiz 21: Ecclesiastes", 0.0, 0, 1345852800, 73, 0, 0], [145456411, "TCC BIO 1224 CHAPTER 3 SUGAR/CARBS", 0.0, 0, 1453334400, 13, 0, 0], [680228202, "TCC BIO 1224 CHAPTER 3", 0.0, 0, 1453334400, 71, 0, 0], [1788664578, "TCC Histology AO", 0.0, 0, 1452556800, 24, 0, 0], [289954030, "TCC BIO 1224 CHAPTER 3 PROTEINS/ AMINO ACIDS", 0.0, 0, 1453334400, 13, 0, 0], [624193237, "Espa\u00f1ol en directo - Libro 1 - Lecciones 1 - 10", 5.0, 2, 1451865600, 417, 0, 2], [78768156, "FCC - Element 3 - Flash 1-Sided", 0.0, 0, 1450483200, 600, 0, 0], [1132584003, "FCC - Element 1 - Flash 2-Sided", 0.0, 0, 1450483200, 144, 0, 0], [308482818, "INTRODUCCI\u00d3N A LA TEOLOG\u00cdA Y AL M\u00c9TODO TEOL\u00d3GICO", 0.0, 0, 1449619200, 145, 0, 0], [1565454452, "FCC - Element 3 - Flash 2-Sided", 0.0, 0, 1450483200, 600, 0, 0], [1720808958, "Introduccion al metodo teologico-FARIAS", 0.0, 0, 1449619200, 84, 0, 0], [1209854733, "Introducci\u00f3n al m\u00e9todo teol\u00f3gico ", 0.0, 0, 1449619200, 14, 0, 0], [1987212152, "FCC - Element 3 - Multiple Choice", 0.0, 0, 1450483200, 600, 0, 0], [1413605198, "FCC - Element 1 - Multiple Choice", 0.0, 0, 1450483200, 144, 0, 0], [1750151939, "introducci\u00f3n al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449532800, 113, 0, 0], [553580184, "Q: Skills for Success Unit 3 Technology ", 0.0, 0, 1447027200, 30, 0, 0], [329202566, "TCC Biochem Final Review", 0.0, 0, 1450051200, 150, 0, 0], [1804717950, "FCC - Element 1 - Flash 1-Sided", 0.0, 0, 1450483200, 144, 0, 0], [100543929, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 119, 0, 0], [1407806901, "Introduccion y Metodo Teologico", 0.0, 0, 1449619200, 198, 0, 0], [1086313520, "Lao - occupations", 0.0, 0, 1447113600, 31, 31, 0], [1596050101, "Introduccion al m\u00e9todo teol\u00f3gico", 0.0, 0, 1449619200, 132, 0, 0], [84558776, "Acc 13", 0.0, 0, 1444694400, 71, 0, 0], [1310572539, "USask PHPM - Occupational Health", 0.0, 0, 1448064000, 72, 0, 0], [1213414736, "Introducci\u00f3n al M\u00e9todo Teol\u00f3gico ", 0.0, 0, 1449532800, 134, 0, 0], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [903348913, "Acc 15", 0.0, 0, 1444694400, 161, 0, 0], [1933691201, "CCO - pregnancy", 0.0, 0, 1447286400, 79, 0, 0], [563926778, "ACCA p5", 0.0, 0, 1445990400, 124, 0, 0], [1850429718, "ccent prep", 0.0, 0, 1441152000, 204, 0, 0], [12765425, "Diccionario de griego moderno", 0.0, 0, 1445904000, 16644, 0, 1], [1352891910, "Microbiology - Pathogenic Staphylococcus spp.", 0.0, 0, 1369958400, 24, 0, 16], [1795586005, "Acc 15", 0.0, 0, 1444694400, 161, 0, 0], [498464068, "CCIEv5 v0.1", 0.0, 0, 1444867200, 44, 1, 5], [202862275, "Basic Latin Amer Spanish Imperative Sentences (TTS accurate)", 4.67, 3, 1442275200, 313, 0, 1], [2052038414, "ACC Unix II Midterm ", 0.0, 0, 1445040000, 44, 0, 1], [1967592565, "medical vocabulary 7 - injuries and accidents", 0.0, 0, 1445385600, 86, 0, 0], [7215717, "Eye Anatomy - Kathy Durham - Anatomy and Physiology LCCC", 0.0, 0, 1443398400, 30, 0, 14], [774696041, "polyatomic ions for nvcc general chemistry", 0.0, 0, 1444089600, 39, 0, 0], [177270371, "Acc 14", 0.0, 0, 1444694400, 104, 0, 0], [1256114336, "Glands - Kathy Durham Anaomty and Physiology LCCC", 0.0, 0, 1443398400, 8, 0, 9], [1771730673, "LCCC Kathy Durham Anatomy and Physiology 1", 0.0, 0, 1443398400, 235, 0, 1], [1825977089, "Ear Anatomy - Anatomy and Physiology 1 Kathy Durham LCCC", 0.0, 0, 1443398400, 20, 0, 15], [2121108311, "Acc 16", 0.0, 0, 1444694400, 80, 0, 0], [480736072, "West End Idiomas - Clothes and Accessories ", 0.0, 0, 1440979200, 70, 0, 70], [3766718249, "Conditional & Future Lat Am Spanish Sentences (TTS accurate)", 5.0, 3, 1442275200, 161, 0, 1], [1042126164, "OCCH Series 7 Exam", 0.0, 0, 1442361600, 26, 0, 0], [118629900, "CCMPG - Badr - Ann\u00e9e 1 - Trimestre 1", 0.0, 0, 1443571200, 31, 31, 0], [258692435, "CCENT prep 2", 0.0, 0, 1441238400, 85, 0, 0], [1094232123, "BBC The cost of live-saving vaccines", 0.0, 0, 1442275200, 30, 0, 7], [1220626222, "Gross 1 Deep Back and Occipital region", 0.0, 0, 1443484800, 152, 0, 32], [889344812, "TCC TRI 1 ANATOMY QUIZ 1", 0.0, 0, 1442793600, 66, 0, 55], [104283205, "Vaccines", 0.0, 0, 1360022400, 46, 0, 0], [234665786, "Muscles - Kathy Durham Anatomy and Physiology LCCC", 0.0, 0, 1443398400, 45, 0, 31], [1921980249, "Koine Case Ending Charts (Nom, Gen, Dat, Acc)", 0.0, 0, 1409443200, 53, 0, 0], [3247200399, "WCC Familia Romana Study Cards", 5.0, 1, 1378771200, 181, 0, 13], [1233993344, "LATINISMOS -con una explicaci\u00f3n o traducci\u00f3n en espa\u00f1ol-", 0.0, 0, 1439251200, 149, 3, 1], [519361022, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Food", 0.0, 0, 1407628800, 15, 0, 15], [2077687484, "Primera lecci\u00f3n de palabras y verbos de B\u00falgaro", 0.0, 0, 1420070400, 206, 0, 0], [2636432883, "JPN1 BCC Genki", 0.0, 0, 1345852800, 140, 0, 0], [1548575602, "TY A09 Accessories ", 0.0, 0, 1440201600, 12, 12, 12], [1586715527, "Horizantes tercera edic\u00edon lecci\u00f3n 2", 0.0, 0, 1416787200, 87, 0, 0], [1444511388, "Vaccines", 0.0, 0, 1434240000, 12, 0, 0], [1025909456, " 13 lecci\u00f3n de palabras y verbos de b\u00falgaro. En la granja", 0.0, 0, 1433635200, 37, 0, 0], [600237834, "1171 Most Common Thai words  according to thai-language.com", 0.0, 0, 1396396800, 1171, 0, 0], [1606225729, "Math 1530 NESCC", 0.0, 0, 1433808000, 0, 0, 0], [481439045, "Soccer Rules for High School Referees NFHS MIAA EMSOA 2015", 0.0, 0, 1440028800, 4, 0, 0], [113335674, "Duod\u00e9cima lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 80, 0, 0], [458992617, "CCSF Paramedic Program Dosages", 0.0, 0, 1419897600, 45, 0, 0], [595904963, "D\u00e9cima lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 16, 0, 0], [63864248, " Infecciosas-MIR", 0.0, 0, 1435104000, 208, 0, 0], [2096308653, "Und\u00e9cima lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 81, 0, 0], [1529944059, "Novena lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 81, 0, 0], [3106940525, "A2 History: CCEA. William III and the Glorious Revolution", 0.0, 0, 1367020800, 40, 0, 0], [1780190006, "Rebecca's Anatomy - Exam 2", 0.0, 0, 1415318400, 418, 0, 0], [1166254470, "TCC GENERAL PATHOLOGY TRI 1 FIRST MIDTERM MATERIAL", 0.0, 0, 1423440000, 169, 0, 0], [1125422525, "Rebecca Calcium ", 0.0, 0, 1394755200, 21, 0, 0], [2131712329, "MINNA NO NIHONGO Espa\u00f1il lecci\u00f3n 32", 0.0, 0, 1430006400, 43, 0, 1], [326062621, "Grit and success", 0.0, 0, 1432598400, 10, 9, 0], [582786015, "S\u00e9ptima lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 38, 0, 0], [2024823894, "Segunda lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 301, 0, 0], [265532741, "Information about Coccidia for Micro 3403 at Weber State", 0.0, 0, 1417996800, 96, 0, 0], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [1749276562, "The 20 common amino ccids", 0.0, 0, 1345852800, 45, 0, 20], [1119746901, "My first 400 words according to HSK", 0.0, 0, 1352764800, 9, 0, 0], [154629047, "Tema 01. Farmacolog\u00eda II. Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [897101145, "Rebecca's Immuno Exam 2", 0.0, 0, 1418688000, 161, 0, 0], [1274148750, "MDTI Exam 2 Week 1 - Rebecca", 0.0, 0, 1422316800, 170, 0, 29], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 0, 1430956800, 60, 60, 119], [1917396830, "Octava lecci\u00f3n de palabras y verbos de b\u00falgaro", 0.0, 0, 1433635200, 101, 0, 0], [1345046498, "Contract - Offer and acceptance", 0.0, 0, 1345852800, 31, 0, 0], [2197907882, "Neramsinxxx (histoire erg)", 0.0, 0, 1382745600, 759, 0, 3], [760157573, "IFA31 - CCNA Chapter 3", 0.0, 0, 1412640000, 41, 0, 0], [3647951132, "Assimil Ingl\u00e9s Perfeccionamiento [Voces Reales]", 0.0, 0, 1385683200, 1, 1, 0], [2533611188, "Road to Success", 0.0, 0, 1363564800, 165, 0, 0], [448758779, "meb2cc2", 0.0, 0, 1386806400, 33, 0, 0], [2004744819, "Rebecca's Biochem ", 0.0, 0, 1410739200, 235, 0, 12], [1530047381, "Rebecca limbs and back ", 0.0, 0, 1394755200, 98, 0, 0], [1734787822, "MOAT 1501 Recce All", 0.0, 0, 1426118400, 64, 0, 65], [347088350, "CCNP SWITCH", 0.0, 0, 1364428800, 409, 0, 0], [1588752497, "IFA31 - CCNA Chapter 7 [ger->eng]", 0.0, 0, 1416268800, 22, 0, 0], [2146255070, "Rebecca's Anatomy", 0.0, 0, 1412640000, 531, 0, 1], [333444030, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Say Where You Go", 0.0, 0, 1407628800, 22, 0, 22], [1488104980, "HCC Government", 0.0, 0, 1428624000, 413, 7, 0], [92714881, "IFA31 - CCNA Chapter 9 [eng->ger]", 0.0, 0, 1418601600, 14, 0, 0], [133122027, "Espagnol Assimil, lecciones 1-12", 0.0, 0, 1358294400, 235, 0, 0], [655341600, "CPharm 1 Vcom-cc", 0.0, 0, 1430697600, 96, 0, 84], [40883493, "Rebecca's Micro Exam 2", 0.0, 0, 1418688000, 334, 0, 4], [1942928090, "SCC PAS State 2015 Floriculture", 0.0, 0, 1422489600, 187, 0, 35], [1291679612, "Sexta lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 22, 0, 0], [3168762770, "Northern Moroccan Arabic Short deck", 0.0, 0, 1354579200, 255, 0, 0], [1278688262, "Marys Controlling und Key Account Management @ WU Wien", 0.0, 0, 1387065600, 108, 0, 71], [4234732413, "Low Intermediate Latin Amer Spanish Sentences (TTS accurate)", 4.17, 6, 1431043200, 1083, 0, 1], [530012840, "Introducci\u00f3n al An\u00e1lisis de Datos", 0.0, 0, 1345852800, 207, 0, 0], [1740295918, "Fantunes bridge system according to Bill Jacobs book", 0.0, 0, 1409097600, 142, 0, 0], [551794637, "For Rebecca", 0.0, 0, 1394755200, 43, 0, 0], [1297843873, "IFA31 - CCNA Chapter 2", 0.0, 0, 1412640000, 59, 0, 0], [1911061442, "CCNP Route: Chapter 2 review", 4.0, 2, 1370304000, 38, 0, 0], [845300491, "Rebecca's Embryology", 0.0, 0, 1410739200, 199, 0, 1], [95933989, "CAnatomy 1 VCOM-CC", 0.0, 0, 1430352000, 165, 0, 149], [869654914, "RussianAccelleratorCards", 0.0, 0, 1389398400, 99, 0, 0], [568527357, "14 lecci\u00f3n de palabras y verbos de b\u00falgaro. La cocina, el ja", 0.0, 0, 1433635200, 78, 0, 0], [696556963, "Rebecca's Immuno Exam 1", 0.0, 0, 1416355200, 234, 0, 0], [1508231824, "Farmacolog\u00eda II Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [1965549451, "Cuarta lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 32, 0, 0], [1135952215, "Accumulations", 0.0, 0, 1360540800, 26, 0, 0], [2130644645, "DCC Core Vocab Ancient Greek", 0.0, 0, 1435708800, 520, 0, 0], [2731661353, "Symbolic Logic @ SCCC", 0.0, 0, 1345852800, 28, 0, 0], [109750668, "After Effects CC (GER)", 0.0, 0, 1420416000, 24, 0, 1], [641437681, "IFA31 - CCNA Chapter 8 [eng->ger]", 0.0, 0, 1418515200, 27, 0, 0], [2201066381, "HMS.IMP.Vaccines", 0.0, 0, 1368144000, 18, 0, 9], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [2137381372, "MDTI Exam 1 - Rebecca", 0.0, 0, 1421539200, 483, 0, 47], [1113084046, "Becca's Heisig Deck", 0.0, 0, 1345852800, 164, 0, 0], [3372643843, "ccc dsfasdfdsfds", 0.0, 0, 1347494400, 0, 0, 0], [1897755412, "IFA31 - CCNA Chapter 0 [eng->ger]", 0.0, 0, 1411430400, 49, 0, 0], [185486220, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Identify People", 0.0, 0, 1407628800, 19, 0, 20], [1409466940, "IFA31 - CCNA Chapter 1 [eng->ger]", 0.0, 0, 1411430400, 62, 0, 0], [1554900756, "ceccisummer3", 0.0, 0, 1373500800, 13, 0, 0], [1558573541, "IFA31 - CCNA Chapter 8 [ger->eng]", 0.0, 0, 1418601600, 27, 0, 0], [828445577, "MSA 8.36 - Common Ailments and Accidental Injuries", 0.0, 0, 1426636800, 35, 0, 0], [1305954967, "unit2occgenei", 0.0, 0, 1380412800, 216, 3, 0], [1359953649, "Rebecca's Epi", 0.0, 0, 1416355200, 61, 0, 4], [3289770169, "Kotoba  Dicctionary words", 0.0, 0, 1363219200, 454, 0, 0], [1465318532, "Focus on Success Unit2", 0.0, 0, 1389830400, 1276, 1129, 0], [1787653609, "IFA31 - CCNA Chapter 6 [ger->eng]", 0.0, 0, 1416268800, 28, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [344969576, "1.Declarations and Access Control (Chechin)", 0.0, 0, 1429747200, 9, 0, 0], [63164369, "Accounting 1 Chapters 1 and 2", 0.0, 0, 1379894400, 46, 0, 0], [307667533, "Collins Ecclesiastical Latin Primer Vocabulary", 0.0, 0, 1434153600, 461, 0, 0], [1622552499, "IFA31 - CCNA Chapter 9 [ger->eng]", 0.0, 0, 1418601600, 14, 0, 0], [1911125568, "CCIE RnS", 0.0, 0, 1425859200, 27, 0, 0], [868237633, "Accent Rules (Ancient Greek)", 0.0, 0, 1387238400, 23, 0, 0], [1861206461, "Rebecca's Genetics", 0.0, 0, 1410739200, 192, 0, 0], [274916296, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Describe How You Fe", 0.0, 0, 1407628800, 20, 0, 20], [3778510939, "Accumulative deck", 0.0, 0, 1376611200, 30, 0, 0], [99458648, "240.07.Accomodation", 0.0, 0, 1393200000, 14, 0, 33], [1370883174, "AME DIREITO DO TRABALHO - CCP", 0.0, 0, 1409788800, 15, 0, 0], [21923560, "Rebecca immunology", 0.0, 0, 1402358400, 97, 0, 0], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [1264835141, "Paramedic CCSF drug list for bradycardias 2014", 0.0, 0, 1416700800, 20, 0, 0], [693137547, "Rebecca's Anatomy - Exam 3", 0.0, 0, 1418601600, 423, 0, 2], [2046380736, "Rebecca's CTB", 0.0, 0, 1410739200, 384, 0, 4], [802323314, "MOAT 1501 Recce Air", 0.0, 0, 1426118400, 30, 0, 31], [2785007846, "vvooccaabbuullaarryy 2", 0.0, 0, 1382832000, 250, 248, 0], [2077668066, "A-Team Morocco", 0.0, 0, 1413158400, 1458, 0, 0], [551576667, " 15 lecci\u00f3n de b\u00falgaro, palabras calle, jugueter\u00eda y parque", 0.0, 0, 1433635200, 58, 0, 0], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [1203881656, "IFA31 - CCNA Chapter 6 [eng->ger]", 0.0, 0, 1416268800, 28, 0, 0], [893763699, "MDTI Exam 2 Week 3 - Rebecca", 0.0, 0, 1423353600, 188, 0, 23], [1801781780, "TCC_ENG_111", 0.0, 0, 1370822400, 46, 0, 0], [1359907483, "Farmacolog\u00eda II Ejemplos de interacciones 1er parcial", 0.0, 0, 1364169600, 10, 0, 0], [874720863, "Moroccan Arabic Vocabulary", 0.0, 0, 1359849600, 1100, 0, 558], [36464446, "IFA31 - CCNA Chapter 4", 0.0, 0, 1414022400, 43, 0, 0], [1352632641, "IFA31 - CCNA Chapter 7 [eng->ger]", 0.0, 0, 1416268800, 22, 0, 0], [3028692523, "Mark Piper's Accounting Made Simple", 0.0, 0, 1364947200, 57, 0, 0], [1800860927, "IFA31 - CCNA Chapter 5", 0.0, 0, 1414022400, 33, 0, 0], [1530024286, "MDTI Exam 2 Week 2 - Rebecca", 0.0, 0, 1423094400, 231, 0, 19], [1416059262, "Rebecca's Micro Exam 1", 0.0, 0, 1416355200, 379, 0, 1], [1568498907, "meb2cc3", 0.0, 0, 1386806400, 17, 0, 0], [18123966, "meb2cc4", 0.0, 0, 1386806400, 24, 0, 0], [440775007, "Spinal cord, back muscles, sub-occipital (CSUS Bio 122)", 0.0, 0, 1424995200, 12, 0, 12], [1720439963, "Tercera lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 120, 2, 0], [3351228323, "IUSM Microbiology streptococci", 0.0, 0, 1377129600, 59, 0, 0], [2037787941, "Quinta lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 73, 0, 0], [3680019382, "IUSM Microbiology Staphlyococci", 0.0, 0, 1377129600, 30, 0, 0], [323198497, "Segunda parte primera lecci\u00f3n palabras verbos b\u00falgaros ", 0.0, 0, 1420070400, 287, 0, 0], [70563720, "Contracts McC", 5.0, 1, 1418515200, 185, 0, 0], [2090293558, "RLR #96 \u2013 Kickass Habits & British Accents", 5.0, 1, 1426636800, 31, 31, 0], [1362190984, "rowan som fund 2 micro lecture 9 vaccines & autoimmunity", 0.0, 0, 1412035200, 2, 0, 3], [205208556, "Spanish: Destinos Lecciones 1-26", 0.0, 0, 1345852800, 964, 0, 0], [3312796214, "CCNA 640-802 full deck", 0.0, 0, 1364515200, 837, 0, 0], [2895118218, "Microbiology - Streptococcus and Enterococcus", 0.0, 0, 1369958400, 42, 0, 10]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

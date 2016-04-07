@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1316906536, "Clinical melia", 0.0, 0, 1454889600, 21, 0, 0], [3191897553, "Italiano - Arabo (avanzato)", 0.0, 0, 1345852800, 1678, 0, 1], [1284364645, "Italian provinces and more", 1.0, 1, 1413504000, 110, 0, 110], [907578404, "John Williams White First Greek Book", 0.0, 0, 1453420800, 52, 0, 0], [1921686402, "Italian Presidents of the Republic (with pics)", 0.0, 0, 1454371200, 12, 0, 12], [1846932484, "English Italian - Assimil words, Idiom, irregular verbs", 0.0, 0, 1452384000, 2622, 0, 0], [749735832, "Fran\u00e7ais-Italiano Il visconte dimezzato", 0.0, 0, 1453420800, 736, 5, 1], [479111924, "L'italiano di Antonio", 0.0, 0, 1452556800, 350, 346, 347], [72104535, "Italian Core 100 - Basic words (EN  IT with audio)", 0.0, 0, 1436918400, 202, 109, 116], [650535631, "Italian IPA", 0.0, 0, 1444262400, 58, 156, 2], [1391288357, "Italian words", 0.0, 0, 1452643200, 1171, 0, 0], [989254413, "\u041c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b - \u0421\u0430\u0439\u043d \u0411\u0430\u0439\u043d\u0430 \u0423\u0443, 2-\u0440 \u041d\u043e\u043c [with Mongolian audio]", 0.0, 0, 1430006400, 1220, 1222, 0], [1267581783, "Volcanoes (English-Italian)", 0.0, 0, 1452384000, 92, 92, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [101329176, "\u041c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b - \u0421\u0430\u0439\u043d \u0411\u0430\u0439\u043d\u0430 \u0423\u0443, 1-\u0440 \u041d\u043e\u043c [with Mongolian audio]", 0.0, 0, 1430006400, 970, 966, 0], [991942067, "Progetto italiano1", 0.0, 0, 1452902400, 888, 908, 256], [933889867, "KWilliams MCAT 2015 Complete Review", 0.0, 0, 1449187200, 1394, 0, 54], [501608235, "Italian", 0.0, 0, 1449014400, 105, 2, 1], [1288779357, "Italian Sentences for Beginners", 5.0, 2, 1451088000, 1426, 1451, 133], [1165508146, "Brazilian Portuguese Basic Vocabulary (Chris Reall)", 0.0, 0, 1449878400, 144, 1, 1], [1695398958, "Italian Eating Important Words", 0.0, 0, 1450656000, 66, 10, 64], [60552006, "Italian1", 0.0, 0, 1449964800, 102, 0, 0], [364571018, "B\u00edblia - 2 Tim\u00f3teo", 0.0, 0, 1451260800, 83, 0, 0], [1997224931, "ItalianoPlus unit\u00e0 1", 0.0, 0, 1448323200, 170, 8, 107], [644576688, "Beginners' Italian (Chris Reall)", 0.0, 0, 1447891200, 180, 1, 1], [324017063, "ItalianoPlus unit\u00e0 6", 0.0, 0, 1448323200, 180, 8, 172], [39987571, "JuliaJared", 0.0, 0, 1449187200, 54, 112, 28], [1722260176, "ItalianoPlus unit\u00e0 4", 0.0, 0, 1448323200, 197, 8, 92], [734076001, "mammalia a'la t\u00e1rsul\u00e1sok", 0.0, 0, 1449014400, 19, 0, 0], [1298899682, "Common Italian Phrases 2", 3.0, 1, 1444262400, 45, 8, 16], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [1295897566, "HSK 1 a 3 Cinese-Italiano; Italiano - Cinese", 0.0, 0, 1436227200, 708, 32, 3], [1559464861, "ItalianoPlus unit\u00e0 3", 0.0, 0, 1448323200, 113, 8, 118], [876151891, "1unit\u00e0 LIA", 0.0, 0, 1444953600, 233, 0, 0], [92219272, "Path III- bring on the genitalia", 0.0, 0, 1446854400, 171, 0, 1], [421637738, "ItalianoPlus unit\u00e0 5", 0.0, 0, 1448323200, 157, 8, 143], [850284821, "Italian musical terms", 0.0, 0, 1443052800, 34, 0, 4], [1172048112, "Italian", 0.0, 0, 1442793600, 3398, 0, 0], [383232938, "ItalianoPlus unit\u00e0 2", 0.0, 0, 1448323200, 117, 8, 112], [224232870, "Insamschool Progetto Italiano Unita2", 0.0, 0, 1446768000, 61, 0, 0], [270217324, "High yield English-Italian vocab", 0.0, 0, 1438041600, 1259, 3, 1], [125889549, "First 625 Italian words", 0.0, 0, 1442880000, 325, 320, 323], [1247154178, "Il cinese per gli italiani vol. 2 - Lezione 7", 0.0, 0, 1443830400, 35, 2, 0], [375163220, "Italiano Lesce NIP", 0.0, 0, 1453334400, 305, 312, 292], [1173330307, "Italian \u53f3\u8111\u610f\u5927\u5229\u8bed8000\u53e5 \u6d78\u6ce1\u8bad\u7ec3", 0.0, 0, 1444435200, 8403, 120, 150], [1163563815, "English - Real Italian Sentences", 0.0, 0, 1427587200, 62, 3, 0], [654227327, "AVALIA\u00c7\u00c3O", 0.0, 0, 1447113600, 4, 0, 0], [1073996599, "Il cinese per gli italiani vol. 2 - Lezione 8", 0.0, 0, 1443830400, 33, 2, 0], [1621593492, "Italiano 4a 4b SGTSR", 0.0, 0, 1453420800, 242, 251, 144], [1116947017, "Italian Quick & Dirty 30 (EN  IT)", 0.0, 0, 1445126400, 60, 38, 45], [741701325, "Il cinese per gli italiani vol. 2 - Lezione 2", 0.0, 0, 1443312000, 38, 2, 0], [1136524582, "Italiano - lezione 1", 0.0, 0, 1443657600, 69, 0, 0], [2072613093, "Shopping in Italian", 3.0, 1, 1442016000, 15, 20, 0], [367229321, "Il cinese per gli italiani vol. 2 - Lezione 6", 0.0, 0, 1443830400, 31, 2, 0], [50297673, "Settimana & date - italiano-giapponese", 0.0, 0, 1444780800, 57, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [1230975085, "Insamschool, Ro-It Progetto Italiano A1, Benvenuti, Unita 1", 0.0, 0, 1446768000, 226, 0, 0], [1057958866, "Il cinese per gli italiani vol. 2 - Lezione 5", 0.0, 0, 1443312000, 46, 2, 0], [1542691095, "Neurons and Glia", 0.0, 0, 1444521600, 160, 0, 0], [2036220378, "Italiano - grammatica", 0.0, 0, 1443657600, 30, 0, 0], [1946663683, "Italiano - lezione 2", 0.0, 0, 1443657600, 111, 0, 0], [125731314, "3a 3b italiano SGTSR", 0.0, 0, 1453161600, 209, 249, 157], [470747188, "Il cinese per gli italiani vol. 2 - Lezione 1", 0.0, 0, 1443312000, 37, 2, 0], [450487343, "Miembros de la familia (Q'anjob'al, kanjobal)", 0.0, 0, 1447200000, 12, 1, 3], [520764292, "Italiano - z\u00e1kladn\u00ed v\u011bty a fr\u00e1ze", 0.0, 0, 1443657600, 10, 0, 0], [943350254, "Italiano - lezione 0", 0.0, 0, 1443657600, 57, 0, 0], [130765854, "LLSPI:Familia Romana", 0.0, 0, 1440979200, 43, 2, 3], [1318695946, "Gallbladder/ Biliary System", 0.0, 0, 1444348800, 52, 0, 0], [1912926621, "Il cinese per gli italiani vol. 2 - Lezione 3", 0.0, 0, 1443312000, 39, 2, 0], [1625731516, "Il cinese per gli italiani vol. 2 - Lezione 4", 0.0, 0, 1443312000, 48, 2, 0], [77765265, "Kodama 3 - Alian\u00e7a Brasil Jap\u00e3o", 0.0, 0, 1438646400, 185, 0, 0], [1094736228, "High yield English-Italian connectors", 0.0, 0, 1438041600, 91, 3, 1], [177628288, "Italian Section8 - Words", 0.0, 0, 1408233600, 52, 0, 0], [1919850787, "Albanian to Italian General Vocab", 0.0, 0, 1441670400, 264, 8, 0], [3247200399, "WCC Familia Romana Study Cards", 5.0, 1, 1378771200, 181, 0, 13], [1219873391, "Antidepressants (Australia)", 0.0, 0, 1426291200, 19, 0, 0], [3445436255, "TERSILIA 3A", 0.0, 0, 1376956800, 27, 0, 16], [732678483, "PVP Vocabulary with Williams's Audio", 0.0, 0, 1426118400, 489, 489, 0], [830065314, "Futurelearn/Univ. Ea. Anglia \"Teaching Computing\" Vocab.", 0.0, 0, 1442188800, 32, 0, 0], [502277926, "Attrezzi comuni (common tools, Italian) (by Supernatent)", 0.0, 0, 1360022400, 43, 43, 43], [412170853, "Schweizerdeutsch (Z\u00fcrit\u00fc\u00fctsch) Z\u00dc-DE JuliaSt", 0.0, 0, 1345852800, 260, 0, 0], [1176697844, "Top-50 Italiaanse werkwoorden (SETL)", 0.0, 0, 1437782400, 900, 1, 1], [616788147, "Brazilian Slang", 0.0, 0, 1393545600, 19, 3, 1], [3462300877, "Mongolian sentences: past, present, & future with audio", 0.0, 0, 1374364800, 96, 120, 0], [2102532288, "Auxiliary Verbs", 0.0, 0, 1439942400, 53, 0, 0], [928000207, "BB 02.11.15 Neurons and Glia", 0.0, 0, 1423785600, 35, 0, 4], [3106940525, "A2 History: CCEA. William III and the Glorious Revolution", 0.0, 0, 1367020800, 40, 0, 0], [96867093, "AME PROCESSO DO TRABALHO - SERVI\u00c7OS AUXILIARES DA JT", 0.0, 0, 1409788800, 34, 0, 0], [1740838429, "Medschool Immunology For Eliana2", 0.0, 0, 1421884800, 413, 0, 87], [545938803, "liens familiaux en mandarin", 0.0, 0, 1436659200, 13, 14, 1], [212761990, "Jillian's Pharm Flashcards", 0.0, 0, 1432771200, 65, 0, 2], [1621919814, "La familia", 0.0, 0, 1400112000, 49, 146, 1], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 0.0, 0, 1345852800, 769, 0, 0], [3177394410, "Airline Alliances", 0.0, 0, 1375056000, 59, 0, 0], [40678794, "Terminologia Enfermeria Hospital Italiano de Bs As", 0.0, 0, 1402444800, 59, 0, 0], [680505527, "moja talia piotr kamila", 0.0, 0, 1361232000, 427, 0, 0], [1090394765, "Domande per esame patente nautica oltre 12 miglia", 0.0, 0, 1362355200, 533, 0, 86], [1082512189, "Chinese Liao Liao 1-3", 0.0, 0, 1345852800, 998, 560, 0], [355742372, "Inglese per Italiani", 0.0, 0, 1411257600, 187, 3, 0], [688386484, "Biochem, Unit 4; The structure of Neurons and Glia", 0.0, 0, 1414108800, 75, 0, 0], [2375007277, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 1", 0.0, 0, 1363305600, 390, 0, 0], [1197618719, "julia language", 0.0, 0, 1403827200, 34, 0, 0], [1296521467, "Mongolian verbs and project/health-related vocabulary", 0.0, 0, 1345852800, 812, 0, 0], [1153306594, "Italian Section2 Class4", 0.0, 0, 1406937600, 22, 0, 0], [223852644, "Sueco castiliano / Espa\u00f1ol glossario", 0.0, 0, 1425513600, 31, 0, 0], [773988618, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda II", 0.0, 0, 1392768000, 82, 0, 0], [372494404, "Youlia Russe B1", 0.0, 0, 1434672000, 189, 0, 4], [2068674741, "Italian Session2 Class3 - Prendere (to take)", 0.0, 0, 1405987200, 14, 0, 0], [3122753139, "FOKUS - CAFE JULIA 2 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [1563299213, "Hepatobiliary and pancreatic diseases.", 0.0, 0, 1426809600, 255, 0, 0], [418024624, "Talk Italian", 0.0, 0, 1413936000, 179, 0, 0], [110743854, "English for Italians - Common mistakes", 1.0, 1, 1345852800, 24, 0, 0], [858645037, "Italian Conjunctions", 0.0, 0, 1370476800, 15, 0, 0], [1172295329, "Vini Italiani DOCG", 0.0, 0, 1345852800, 73, 0, 0], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 0.0, 0, 1345852800, 641, 0, 0], [1333876874, "CHM EdExcel AS Italian Vocab - Youth Culture and Concerns", 0.0, 0, 1368057600, 171, 0, 0], [3054511886, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 2", 0.0, 0, 1363305600, 79, 0, 0], [1566694372, "Italian Session2 Class3 - Volere (to want)", 0.0, 0, 1406160000, 7, 0, 0], [2548009715, "Italian DOC Wines and provinces", 5.0, 1, 1345852800, 307, 0, 0], [3300683758, "Lingua Latina: Familia Romana 1-18", 5.0, 1, 1363392000, 856, 0, 0], [1850810292, "Italian russian", 5.0, 1, 1360022400, 2656, 0, 0], [2841667976, "Nederlands - Italiaans en Italiaans - Nederlands", 3.0, 1, 1345852800, 4208, 0, 0], [48929203, "Acronyms used within St John Ambulance Australia", 0.0, 0, 1424217600, 9, 0, 0], [3633341875, "NEPA Italiano Beginners", 0.0, 0, 1375228800, 75, 87, 92], [176735327, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369872000, 60, 0, 0], [2820141108, "NEPA Italiano", 0.0, 0, 1374796800, 61, 70, 46], [390489048, "hospital italiano primer a\u00f1o segundo semestre b\u00e1sica II", 0.0, 0, 1380585600, 24, 0, 0], [637005002, "Most used Phrases in English language (Brazilian answers)  ", 0.0, 0, 1415750400, 615, 619, 0], [363299717, "Italian Session2 Class3 - Fare (to do)", 0.0, 0, 1406160000, 7, 0, 0], [2100972, "Verbi Giapponese Italiano N5", 0.0, 0, 1408060800, 101, 0, 0], [72405212, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Biof\u00edsica I", 0.0, 0, 1392768000, 34, 0, 0], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [1674814311, "aloisitalian", 0.0, 0, 1417305600, 257, 2, 3], [1687086932, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405209600, 120, 0, 0], [1324037844, "MDTI 01.09.15 Thrombophilia", 0.0, 0, 1420934400, 60, 0, 0], [2845483510, "Lingua Latina Familia Romana Chapter 26", 0.0, 0, 1383264000, 88, 0, 0], [433207107, "1/9 Thrombophilia", 0.0, 0, 1421020800, 21, 0, 0], [1428568118, "Italian wine producing regions", 0.0, 0, 1345852800, 69, 0, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [1928327134, "Biochem Chapter 19: Regulation of Mammalian Fuel Metabolism", 0.0, 0, 1430697600, 26, 3, 2], [214234931, "Kanji in italiano per ankiweb (Jouyou kanji)", 0.0, 0, 1452470400, 2622, 3, 0], [3845490638, "IACYM - Mi Nueva Alianza con Dios", 0.0, 0, 1379289600, 24, 0, 0], [120950666, "Italian Unit 1 5-Minute Italian", 0.0, 0, 1404604800, 40, 0, 0], [491217223, "Italian Section8 - Phrases", 0.0, 0, 1408233600, 3, 0, 0], [397553777, "Aviation civile : SSLIA", 0.0, 0, 1411084800, 25, 0, 0], [134908722, "Delia elementary french", 0.0, 0, 1432684800, 426, 5, 2], [26019856, "Australia: A practical handbook", 0.0, 0, 1400716800, 10, 10, 0], [2080898329, "Italian Section2 Class3 - Prendere (to take)", 0.0, 0, 1406160000, 8, 0, 0], [687583912, "rowan som histology block 1 lecture 1 epithelial visuals", 0.0, 0, 1408579200, 57, 0, 88], [2013419104, "FOKUS - CAFE JULIA 1 - Krzysztof Sobczak", 0.0, 0, 1384646400, 144, 0, 0], [4036197163, "Italiano-Giapponese", 0.0, 0, 1345852800, 2691, 0, 0], [216610219, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405296000, 126, 0, 0], [1499230852, "Vitigni Italiani", 0.0, 0, 1345852800, 94, 0, 0], [281512280, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / B\u00e1sica I", 0.0, 0, 1369612800, 23, 0, 0], [799949918, "Italian Tatoeba Sentences (Native Translations)", 5.0, 1, 1419465600, 61918, 10, 2], [2084294695, "Italian Phrases", 0.0, 0, 1414713600, 95, 0, 0], [614071473, "1ero 2do Enfermeria Salud Mental Hospital Italiano", 0.0, 0, 1402444800, 12, 0, 0], [193272018, "Brazilian Portuguese Duolingo", 0.0, 0, 1433376000, 149, 27, 0], [1011923924, "SM latino Oerb italiano", 0.0, 0, 1423353600, 1918, 0, 13], [1371455762, "Mots de liaison espagnol", 0.0, 0, 1358553600, 57, 0, 0], [1783612208, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369094400, 60, 0, 0], [1467350211, "Italian Unit 3A 5 Minute Italian", 0.0, 0, 1404604800, 23, 0, 0], [2034657489, "Italian-Lithuanian/English Anki deck v.2", 0.0, 0, 1431302400, 3328, 0, 0], [3636992919, "Portuguese (brazilian) antonyms", 0.0, 0, 1380672000, 114, 0, 0], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 0.0, 0, 1345852800, 335, 0, 0], [1941773617, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Antropolog\u00eda", 0.0, 0, 1392768000, 23, 0, 0], [317708448, "glaucomaforamelia", 0.0, 0, 1386460800, 67, 0, 53], [246396759, "Che taglia porta?", 0.0, 0, 1384905600, 50, 50, 0], [900665022, "Italian Section2 - Words", 0.0, 0, 1407369600, 35, 0, 0], [1282503779, "Italian Session2 Class3 - fare (to do)", 0.0, 0, 1405987200, 7, 0, 0], [1943877126, "Liaisons conjugu\u00e9es", 0.0, 0, 1393027200, 5, 0, 5], [2014343877, "Italian Section 8 - Rules", 0.0, 0, 1408233600, 11, 0, 0], [1077496304, "Neurons and Glia UCI SOM", 0.0, 0, 1398297600, 27, 0, 9], [3047365728, "Liao Liao 1-5", 3.0, 1, 1345852800, 1063, 560, 0], [133392835, "Italian Section2 Class3 - Avere (to have)", 0.0, 0, 1406160000, 10, 0, 0], [658544900, "Mendelian Inheritance", 0.0, 0, 1414108800, 37, 0, 0], [2222581120, "Deutsche S\u00e4tze f\u00fcr Italiener / Frasi in tedesco per italiani", 0.0, 0, 1364860800, 4046, 0, 0], [1223810403, "Portuguese (brazilian) verbs", 0.0, 0, 1380672000, 209, 0, 0], [1397331425, "Italiano-Russo", 0.0, 0, 1418947200, 41, 0, 0], [484825637, "Italian first 400", 3.33, 3, 1345852800, 3408, 0, 2012], [3303751511, "Liver, Biliary Tract, Pancreas", 0.0, 0, 1372550400, 257, 0, 28], [1342321054, "Italian Basic Words", 0.0, 0, 1409702400, 333, 0, 0], [1680921791, "Italian Section2 Class3 - Words", 0.0, 0, 1405987200, 31, 0, 0], [137528301, "Brazilian Portuguese Verb Conjugations", 0.0, 0, 1402012800, 154, 0, 1], [1004866733, "1000 most common words in italian [IT-ENG]", 0.0, 0, 1362355200, 1152, 0, 0], [623750102, "Parliamo Italiano One Chapter 4", 0.0, 0, 1415577600, 148, 148, 0], [1021175094, "Italian Unit 2 5-Minute Italian", 0.0, 0, 1404604800, 57, 0, 0], [2862657820, "500 German Theological Vocabulary by Siliakus (and Ziefle)", 3.0, 1, 1345852800, 450, 0, 0], [833233083, "Brazilian States", 1.0, 1, 1366070400, 33, 0, 59], [1179659875, "italian", 0.0, 0, 1358035200, 10, 0, 0], [1182761429, "Basic Brazilian Portuguese ", 0.0, 0, 1374451200, 1057, 641, 475], [2142144428, "HD4 Pathology Pancreas & Biliary Diseases", 0.0, 0, 1395100800, 33, 0, 15], [1009598247, "RLR #74 - Australian Slang & Expressions", 0.0, 0, 1413331200, 30, 30, 0], [677547147, "Italian Section2 Class3 - Avere", 0.0, 0, 1405987200, 10, 0, 0], [122287696, "RVUCOM MCM.19 Mendelian Inheritance (Heck)", 0.0, 0, 1407283200, 31, 0, 5], [1315489305, "Espresso1/10 + 2/1-7 Italian italiano", 4.0, 4, 1394496000, 472, 470, 197], [271751464, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda", 0.0, 0, 1369872000, 156, 0, 2], [1957884998, "Italian Verbs", 0.0, 0, 1345852800, 1293, 0, 0], [1824432068, "Australian Postal Abbreviations", 1.0, 1, 1401580800, 9, 0, 0], [273534547, "Piazza d'Italia", 0.0, 0, 1387238400, 39, 0, 0], [603204509, "SM Oerberg Familia Romana 1-20 latino-italiano e italiano-la", 0.0, 0, 1423267200, 948, 0, 13], [3049014207, "Italian wines with English Descriptions", 0.0, 0, 1345852800, 19, 0, 0], [775187124, "B&B 02.18.15 Basal Ganglia Anatomy", 0.0, 0, 1424476800, 37, 0, 5], [615269984, "IMC 501 - Epithelial Tissue", 0.0, 0, 1407196800, 107, 0, 34], [1728590955, "meb1lecmendelian", 0.0, 0, 1382832000, 29, 0, 0], [856701627, "Italian Regions [Regioni d'Italia]", 0.0, 0, 1427241600, 20, 0, 25], [628514035, "verbi italiani irregolari", 5.0, 1, 1360022400, 2840, 0, 0], [3516884108, "Jouyou kanji in italiano", 5.0, 1, 1380585600, 2622, 0, 0], [51079941, "English-Italian Sentences", 1.0, 1, 1410393600, 62, 0, 0], [2026758, "Australian HSC Beginner's Japanese: 1365 Vocabulary", 0.0, 0, 1439164800, 1365, 0, 0], [1963279095, "Mi Familia", 0.0, 0, 1428710400, 19, 0, 0], [1381804725, "Italian x English vocabulary", 0.0, 0, 1390262400, 2282, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lia</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

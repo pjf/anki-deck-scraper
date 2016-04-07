@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1855818143, "Hanyu Shuiping Kaoshi (HSK) (all 5000 words, high quality)", 3.75, 4, 1454544000, 4995, 0, 0], [2024982590, "Astronomy Midterm 2021B Western University ", 0.0, 0, 1454889600, 12, 0, 0], [453772415, "Fertility for Karen", 0.0, 0, 1454112000, 52, 0, 0], [1907499016, "14 High-Priority Dates", 5.0, 1, 1453852800, 17, 0, 0], [738342931, "11 High-Priority Places", 0.0, 0, 1453852800, 12, 0, 0], [1039595143, "Portuguese 100 most common words - Brigham Young University", 0.0, 0, 1451865600, 100, 0, 0], [1405702896, "Pathophysiology at Ponce Health Sciences University", 0.0, 0, 1437696000, 1003, 0, 68], [1761918179, "PHARM block I- LSD in City Park", 0.0, 0, 1453939200, 252, 0, 68], [1840914772, "Henry III's Minority Rule 1216-1232", 0.0, 0, 1452124800, 38, 0, 0], [313274273, "SM04 - Slim City", 0.0, 0, 1451347200, 36, 0, 0], [452110246, "German Gender Rules and Tips III (Valparaiso University)", 5.0, 1, 1345852800, 90, 0, 0], [402209759, "Affinity Designer Tip in Korean", 0.0, 0, 1448928000, 35, 0, 0], [349807101, "ODOM: Anatomic Landmarks of Oral Cavity and Variations (2)", 0.0, 0, 1449619200, 106, 0, 26], [694202418, "Sejong university 1-1", 0.0, 0, 1449532800, 17, 14, 14], [2097137197, "ODOM: Anatomic Landmarks of Oral Cavity and Variations of No", 0.0, 0, 1449532800, 25, 0, 28], [890842472, "bioavailability and bioequivalence (for uzo)", 0.0, 0, 1449878400, 8, 0, 14], [1715120102, "Postacie polskiego \u017cycia politycznego 2015", 0.0, 0, 1448236800, 27, 0, 26], [1921475781, "Ideologie, doktryny polityczne (oprac. Bog.Piet.)", 0.0, 0, 1448928000, 64, 0, 0], [606825834, "MPSI4 Janson Food Insecurity DL Fran\u00e7ais>Anglais", 0.0, 0, 1448928000, 33, 25, 21], [502842769, "German Gender Rules and Tips I (Valparaiso University)", 0.0, 0, 1345852800, 33, 0, 0], [1968565138, "Security for CISSP", 0.0, 0, 1446076800, 288, 0, 0], [1137442361, "Historyczne postacie \u017cycia politycznego w Polsce i na \u015bwieci", 0.0, 0, 1448236800, 22, 0, 22], [178692786, "ODOM: Head and Neck Exam of Oral Cavity and Oropharynx", 0.0, 0, 1449532800, 77, 0, 34], [478784710, "Postacie zagranicznego \u017cycia politycznego 2015 ", 0.0, 0, 1448236800, 14, 0, 14], [542094415, "software security", 0.0, 0, 1447200000, 1, 0, 0], [1560716191, "Dr Cook at Austin Community College", 0.0, 0, 1449446400, 69, 0, 12], [405497812, "Abdominal, Pelvic, and Lower Extremity Anatomy", 0.0, 0, 1449100800, 1215, 0, 151], [1706485872, "Upper extremity", 0.0, 0, 1448323200, 77, 0, 0], [1775726463, "Education and creativity", 0.0, 0, 1453161600, 34, 34, 3], [307696900, "Infection and Immunity", 0.0, 0, 1447113600, 635, 0, 0], [2077872612, "Heisig's Remember the Kanji 1-3 w/top 2 community stories", 4.45, 11, 1345852800, 3007, 0, 0], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [365554340, "AMS 131 - Intro to Probability Theory Midterm", 0.0, 0, 1445731200, 98, 0, 110], [2102564519, "Sociology 201 University of Calgary", 0.0, 0, 1444176000, 341, 0, 1], [314566160, "Anki polityka", 0.0, 0, 1445558400, 36, 0, 0], [952778173, "Queen's University Psychology 100", 0.0, 0, 1442620800, 461, 0, 0], [852785883, "Psych 104 - University of Alberta", 0.0, 0, 1441843200, 259, 0, 2], [1786209157, "Anatomy - Upper Extremity", 0.0, 0, 1441324800, 0, 0, 1], [1175836498, "Open University A276 Learning Vocab", 0.0, 0, 1442016000, 18, 0, 0], [900932091, "Open University A276 Learning Vocab Block 1", 0.0, 0, 1443571200, 144, 0, 0], [760958869, "FIU PA school Thoracic Cavity Anatomy ", 0.0, 0, 1440374400, 104, 0, 0], [648391718, "Clinical Notes for Upper Extremity ", 0.0, 0, 1380412800, 18, 0, 0], [1104790470, "Lower Extremity Anatomy - Terminology Part 1", 0.0, 0, 1441324800, 14, 0, 0], [1871404054, "Tongue, Oral Cavity, Submandibular Region ", 0.0, 0, 1441324800, 13, 0, 20], [688323721, "Psych 104 DECK 2 - University of Alberta", 0.0, 0, 1441843200, 416, 0, 1], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 5.0, 1, 1392940800, 183, 0, 257], [2105889522, "Marshall University EoM Unit 1", 0.0, 0, 1439251200, 75, 0, 0], [96285500, "DASI U2 Probability & Distributions", 5.0, 1, 1415145600, 20, 0, 0], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [3217084975, "electricity physics hebrew", 0.0, 0, 1352246400, 24, 0, 9], [177211777, "CMBM Hypersensitivity II, III", 0.0, 0, 1391990400, 19, 0, 6], [2905536195, "German Vocabulary: Intertextuality and Discussion", 0.0, 0, 1345852800, 88, 0, 0], [2578445178, "HMS.IMP.Neoplasia.Morbidity", 0.0, 0, 1370390400, 10, 0, 3], [99967194, "English B1/B2 Reality", 0.0, 0, 1434412800, 16, 16, 3], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [609682449, "CFA L2 Equity - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 48, 0, 11], [1979462628, "Personality Traits (50) Russian - English", 0.0, 0, 1405900800, 51, 0, 0], [1189619765, "Organ-Specific Autoimmunity (AI)", 0.0, 0, 1359763200, 38, 0, 0], [562594872, "Rowan SOM fund 2 Immunology Antibody-mediated Immunity ", 0.0, 0, 1411257600, 86, 0, 0], [2362460778, "German Gender Rules and Tips II (Valparaiso University) ", 0.0, 0, 1345852800, 56, 0, 0], [2099271277, "Personality", 0.0, 0, 1428969600, 37, 0, 1], [1059913121, "rowan som fund 2 micro lecture 8 type 3-4 hypersensitivity", 0.0, 0, 1412035200, 46, 0, 6], [902528566, "MCAT and Other - University of Houston asdfgh", 0.0, 0, 1433289600, 1766, 7, 34], [154179345, "mucosal immunity REAL", 0.0, 0, 1385164800, 29, 0, 34], [1075153491, "Nursing Community Midterm 1", 0.0, 0, 1402790400, 37, 0, 4], [1490106323, "Personality Disorders", 0.0, 0, 1426550400, 15, 0, 14], [3309183093, "mucosal immunity", 0.0, 0, 1385078400, 0, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [2008058704, "Usability Engineering", 0.0, 0, 1366070400, 1, 0, 0], [2191004342, "StudentCafe Comunity on Google+", 0.0, 0, 1362441600, 17, 0, 0], [33721637, "Interpreting in the Community", 0.0, 0, 1429056000, 34, 0, 0], [283576710, "Personality Adjectives", 4.0, 1, 1423180800, 19, 0, 0], [1506569139, "Max*/Matiar/Ameer Autoimmunity", 0.0, 0, 1379289600, 25, 0, 8], [786381198, "SS UNM SOM HSF&D Weeks 8 Cranial cavity and superficial face", 0.0, 0, 1413849600, 310, 0, 178], [596224132, "Mini 3 Anatomy - Oral Cavity / Abdominal Wall", 0.0, 0, 1399420800, 362, 0, 0], [409044820, "Immunity and Bacterial Infections", 0.0, 0, 1360022400, 25, 0, 0], [1715696218, "New City Catechism", 0.0, 0, 1357689600, 52, 0, 0], [284200817, "CAASIC Translation Course - Maternity and Childhood Vocab", 0.0, 0, 1392508800, 238, 0, 0], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [659102374, "Personalmanagement Tourismus & Hospitality", 0.0, 0, 1374105600, 148, 0, 0], [502266647, "OSGi modularty based on OSGi Modularity - Tutorial  Lars Vog", 0.0, 0, 1434499200, 65, 0, 0], [162483807, "SAMS 15-01 - Morality and War (M&W)", 0.0, 0, 1432166400, 43, 0, 2], [54778688, "Probability and Statistics (Temple University) Deck", 0.0, 0, 1424217600, 68, 0, 5], [996363802, "Gastric motility and secretion ", 0.0, 0, 1395360000, 57, 0, 10], [1950172218, "Business - Quality Systems", 0.0, 0, 1400371200, 39, 7, 32], [2211969297, "MBBS 1 Week 31 - Emerald City", 0.0, 0, 1350172800, 102, 0, 27], [2061971660, "HMS.IMP.Intro.Adapative.Immunity", 0.0, 0, 1364601600, 23, 0, 0], [539834462, "Personality Test 1", 0.0, 0, 1380240000, 7, 0, 0], [2058082134, "Week 2 Immunity", 0.0, 0, 1409443200, 132, 0, 0], [3775262467, "HMS.IMP.T.Cell.Mediated.Immunity", 0.0, 0, 1364947200, 19, 0, 2], [529269238, "Biochem, Unit 4; Cell Motility", 0.0, 0, 1414108800, 57, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [1227894335, "Solubility guidelines for Aqueous Solutions", 0.0, 0, 1378166400, 12, 0, 0], [1913902378, "Legal Capacity Counseling", 0.0, 0, 1390435200, 34, 0, 0], [373237261, "niemiecki polityczny", 0.0, 0, 1345852800, 180, 0, 0], [1777635479, "General Relativity study cards", 0.0, 0, 1382572800, 22, 0, 44], [2734101689, "List of Personality Disorders", 0.0, 0, 1364947200, 14, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1709915119, "Salters-Nuffield Biology A2 - Infection, Immunity, Forensics", 0.0, 0, 1412035200, 128, 0, 0], [1480000194, "GI Physiology: motility", 0.0, 0, 1397088000, 15, 0, 1], [3549899981, "HMS.IMP.Humoral.Immunity", 0.0, 0, 1364947200, 19, 0, 3], [3158098502, "Logic, Probability, and Applied Epistemology", 0.0, 0, 1345852800, 224, 0, 0], [1281809217, "Ven\u00e4j\u00e4 substantiiveja joilla erityispiirteit\u00e4", 0.0, 0, 1419379200, 83, 0, 0], [1763260882, "French 211 Fall 2012 University of Alberta", 0.0, 0, 1352246400, 929, 0, 0], [1952398056, "IATA airport and city codes", 1.0, 1, 1350086400, 10125, 0, 0], [193498820, "Activation of Adaptive (Specific) Immunity", 0.0, 0, 1417392000, 16, 0, 0], [1654771278, "Histology 2 SCT 3 Debrecen University", 0.0, 0, 1418601600, 87, 0, 0], [2438776091, "RTK 1-3 w/top 2 community stories (recognition)", 0.0, 0, 1366588800, 3007, 0, 0], [677356972, "Thoracic cavity and heart lectures", 0.0, 0, 1410307200, 71, 0, 0], [728537128, "rowan som fund 2 micro lecture 7 type 1-2 hypersensitivity", 0.0, 0, 1412035200, 1, 0, 2], [2055762311, "University of Cincinnati Karp Exam 2", 0.0, 0, 1393200000, 89, 0, 0], [685115951, "Nursing Maternity", 0.0, 0, 1345852800, 211, 0, 0], [895576189, "LearningLawTogether - Equity & Trusts", 0.0, 0, 1398643200, 111, 0, 0], [404672408, "Rheum - Autoimmunity, Arthritis, Lab Tests", 0.0, 0, 1360886400, 86, 0, 31], [742197873, "nursing community midterm 2", 0.0, 0, 1402790400, 52, 0, 8], [2482705923, "Hypersensitivity and Allergic Diseases", 0.0, 0, 1360800000, 22, 0, 0], [1035520583, "Fudan University Level D", 0.0, 0, 1426118400, 77, 0, 0], [69671615, "Community Week 8", 0.0, 0, 1406764800, 8, 0, 2], [311822124, "Beginner Chinese for students at Dalarna University", 0.0, 0, 1425772800, 74, 3, 3], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [1413399398, "HMS.IMP.Innate.Immunity", 0.0, 0, 1364342400, 13, 0, 9], [550121301, "Community Health - Disaster Management", 0.0, 0, 1406764800, 59, 0, 3], [953036848, "quality", 0.0, 0, 1402444800, 18, 0, 0], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [1060891267, "Autoimmunity (AI)", 0.0, 0, 1359676800, 38, 0, 0], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57], [875121602, "Immunity and Infection", 0.0, 0, 1415577600, 2120, 0, 297], [982902655, "fuck anatomy- oral cavity, radiology, implants, neck", 0.0, 0, 1411948800, 140, 0, 81], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [1496957243, "Environmental Health and Toxicity", 0.0, 0, 1392681600, 92, 0, 0], [1312704755, "Yield Management Tourismus & Hospitality", 0.0, 0, 1370822400, 143, 0, 3], [1952489352, "Upper extremity UCI SOM", 0.0, 0, 1397692800, 315, 0, 324], [1941205062, "How schools kill creativity?", 0.0, 0, 1425859200, 33, 0, 0], [1362190984, "rowan som fund 2 micro lecture 9 vaccines & autoimmunity", 0.0, 0, 1412035200, 2, 0, 3], [319607100, "German Verbal Idioms (Valparaiso University)", 4.0, 2, 1345852800, 120, 0, 0], [1866623593, "Afryka- mapa polityczna", 3.5, 4, 1418256000, 107, 0, 55], [1647842708, "A Level History: 1920s Prosperity in USA", 0.0, 0, 1401667200, 36, 0, 0], [934768534, "Oral Cavity and Teeth", 0.0, 0, 1395532800, 7, 0, 0], [1908858212, "UNC_SOM_2018-cell mediated immunity", 0.0, 0, 1410480000, 42, 0, 0], [207415160, "Rationality and Biases [@jackkinsella]", 0.0, 0, 1404691200, 374, 0, 39], [1837557938, "Anatomy: Upper Extremity Chapter", 0.0, 0, 1418688000, 83, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ity</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

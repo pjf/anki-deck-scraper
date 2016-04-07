@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2023842678, "BHACDEC Econ Economists", 0.0, 0, 1453852800, 8, 0, 0], [2110907278, "BH202 Marine biology ", 0.0, 0, 1453334400, 335, 0, 61], [879353076, "BH203 Biology of disease", 0.0, 0, 1453766400, 94, 0, 2], [433953678, "BHACDEC Econ Equations", 0.0, 0, 1453852800, 8, 0, 0], [623347520, "BHACDEC Econ competition", 0.0, 0, 1453852800, 12, 0, 0], [271464539, "SpinalCordBHU", 0.0, 0, 1450396800, 131, 0, 0], [884854774, "PNSBHU", 0.0, 0, 1450396800, 113, 0, 0], [1881669435, "PedsNeuroBHU", 0.0, 0, 1449964800, 127, 0, 0], [366637327, "NMJBHU", 0.0, 0, 1450396800, 114, 0, 0], [381082666, "BHS AP Japanese", 0.0, 0, 1445385600, 906, 0, 0], [1262233856, "nItishatakam of bhartrhari", 0.0, 0, 1446854400, 110, 0, 0], [27841478, "Bhuuworldgi", 0.0, 0, 1438992000, 373, 0, 0], [264388322, "Advanced French Vocabulary BHS", 0.0, 0, 1435017600, 15, 0, 0], [1661508943, "BHS AP Japanese Verbs", 0.0, 0, 1441670400, 128, 8, 15], [1928388055, "Bhupulmuworld", 0.0, 0, 1438732800, 135, 0, 0], [202088773, "bhuhemonc", 0.0, 0, 1439683200, 202, 0, 0], [781408106, "rheumbhu", 0.0, 0, 1439337600, 157, 0, 0], [518858648, "fluidsbhu", 0.0, 0, 1439510400, 127, 0, 0], [1061435538, "endocrineuworldbhu", 0.0, 0, 1439164800, 162, 0, 0], [375829934, "endocrinebhu", 0.0, 0, 1439078400, 244, 0, 0], [1462431226, "bhuGIUWORLD", 0.0, 0, 1439078400, 248, 0, 0], [1813881592, "neurobhu", 0.0, 0, 1439251200, 198, 0, 0], [1847856783, "pulmbhu56789", 0.0, 0, 1438560000, 207, 0, 0], [69706268, "Library of Congress Classification System (BHLP)", 0.0, 0, 1410825600, 61, 0, 0], [1902726447, "marybhistology", 0.0, 0, 1389657600, 70, 0, 32], [1378151980, "BHD: endocrine to rheum", 0.0, 0, 1424217600, 1953, 0, 899], [174968363, "Seitlinger GmbH", 0.0, 0, 1452038400, 76, 2, 57], [1993635381, "HBH English-German", 0.0, 0, 1415664000, 86, 0, 0], [725566744, "otuhapohoewnhfao;enfopewbhfopiguh", 0.0, 0, 1420329600, 128, 0, 0], [1782579964, "HBH English-English", 0.0, 0, 1415664000, 86, 0, 0], [507907460, "BHS Manuscripts top ten (Oak Hill)", 0.0, 0, 1393891200, 10, 0, 10], [647482650, "BHD neuro cards", 0.0, 0, 1424217600, 1698, 0, 711], [366931883, "amarakosha-bhuu", 0.0, 0, 1368403200, 161, 0, 0], [450261711, "Lombhullat\u00f3", 0.0, 0, 1431388800, 213, 0, 0], [1737181506, "Anatomy Shambhava Yoga HYTT 200", 0.0, 0, 1405296000, 51, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Bh</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1202695133, "Ch3. Expresi\u00f3n Sonora", 0.0, 0, 1454976000, 57, 0, 0], [1091674831, " Mikro\u00f6konomie Interdisziplin\u00e4r Uni due WS 15/16", 0.0, 0, 1454544000, 175, 0, 63], [238065775, "Autonomous communities of Spain with locator maps in Spanish", 0.0, 0, 1454976000, 17, 0, 1], [2071543425, "Japanese Onomatopoeia and Mimetic Words by Onomato Project", 5.0, 1, 1454544000, 85, 0, 84], [165719974, "Vocabulaire Farsi - Francais ( avec prononciation)", 0.0, 0, 1454457600, 53, 0, 0], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [2024982590, "Astronomy Midterm 2021B Western University ", 0.0, 0, 1454889600, 12, 0, 0], [2023842678, "BHACDEC Econ Economists", 0.0, 0, 1453852800, 8, 0, 0], [1308960770, "Algorithmic and Economic Aspects of the Internet", 0.0, 0, 1453334400, 107, 0, 0], [3483780124, "Intermediate-Adv. Thai Vocab (Mono/Bi Lingual opt.) \u0e01\u0e32\u0e19\u0e15\u0e4c", 0.0, 0, 1416182400, 664, 662, 0], [1674909651, "Chrono Trigger script. Japanese <-> English retranslation", 4.67, 3, 1372464000, 4701, 0, 0], [1838530892, "Part 1 CGT Interim Exam - Economics", 0.0, 0, 1452556800, 62, 14, 1], [650472367, "Makro\u00f6konomie", 0.0, 0, 1450742400, 91, 0, 0], [2137546472, "Japanese Personal Pronouns JTMW (version 1.03)", 0.0, 0, 1424217600, 30, 0, 0], [1031995971, "Francuski w biznesie i ekonomii  KUL 2014/15 v 2015-01-11", 0.0, 0, 1425340800, 424, 488, 0], [447833305, "English Phonology Distinctive Features (simple definitions)", 0.0, 0, 1450483200, 20, 8, 15], [656717484, "Bible Quiz 05: Deuteronomy", 0.0, 0, 1345852800, 156, 0, 0], [1448010580, "Kanji 1 - nihongonogakusei", 0.0, 0, 1452384000, 10, 0, 0], [2138511782, "AP Microeconomics Terms", 0.0, 0, 1450656000, 273, 0, 26], [1652625283, "Honorific and Humble Verbs (\u656c\u8a9e Keigo / \u8b19\u8b72\u8a9e Kenjyougo) \t", 0.0, 0, 1435276800, 19, 0, 0], [480846157, "Economia Final 18/12/2015", 0.0, 0, 1449273600, 0, 0, 0], [670444394, "Economic Indicators - Portugal", 0.0, 0, 1447977600, 23, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 0.0, 0, 1447286400, 108, 0, 78], [133728276, "Trigonometry", 0.0, 0, 1447372800, 24, 0, 0], [1351792369, "Scienze e geografia astronomica", 0.0, 0, 1447286400, 748, 0, 0], [1009629345, "Autonomic Nervous System", 0.0, 0, 1449014400, 31, 0, 7], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [1072699862, "Morse sonore lumineux mn\u00e9no fr", 0.0, 0, 1447632000, 59, 59, 4], [440922935, "Public Economics - Melbourne University 2015", 0.0, 0, 1446854400, 13, 0, 1], [1125875207, "Korean Pronouns", 0.0, 0, 1444435200, 64, 0, 0], [1408519942, "Verbes irr\u00e9guliers en anglais (162) + leurs prononciations", 4.5, 2, 1448150400, 162, 163, 3], [183795164, "Vasco/Basque/Euskera 1 - Pronombres y posesivos", 0.0, 0, 1443398400, 17, 0, 1], [1330372651, "Algorithmist's Norwegian Pronouns with Audio", 0.0, 0, 1446940800, 18, 29, 29], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 0.0, 0, 1445472000, 14, 0, 0], [401749660, "Spanish personal pronouns", 0.0, 0, 1444003200, 51, 0, 0], [1066201748, "Chronologie Histoire-G\u00e9o", 0.0, 0, 1442966400, 65, 0, 0], [1697662351, "Monoatomic Anions", 0.0, 0, 1442361600, 10, 0, 0], [678612558, "onomatopee by 853722", 0.0, 0, 1440028800, 15, 0, 0], [1995920833, "Onomatopoeia Japanese - Englisch", 1.0, 1, 1440028800, 97, 0, 0], [1089325367, "Personal Pronouns, 8th grade Spanish", 0.0, 0, 1444003200, 51, 0, 0], [221232868, "Thai words, writing and pronounciation", 0.0, 0, 1443571200, 0, 0, 0], [1585554799, "Monoatomic Anions", 0.0, 0, 1442361600, 11, 0, 0], [1260439295, "Abdominal Sonography, Ch 9 The Vascular System ", 0.0, 0, 1443744000, 69, 0, 0], [2119362516, "Moderna Esperanto 1: Lecionoj 1 \u011dis 16", 0.0, 0, 1439683200, 697, 0, 0], [661189597, "Economic issues nico", 0.0, 0, 1433203200, 268, 0, 0], [3952890737, "Arabic Personal Pronouns", 0.0, 0, 1383350400, 12, 0, 0], [669757205, "Posterior Mediastinum, Autonomic Nervous System", 0.0, 0, 1440374400, 47, 0, 42], [171286370, "Personal Pronomen mit Konjugation von Verb ,,sein\"", 0.0, 0, 1439510400, 9, 12, 1], [1051400183, "Diencephalons neuroendokrine funktion, det autonome nervesys", 0.0, 0, 1415836800, 25, 0, 25], [3208497039, "\u5c0a\u656c\u8a9e\u30fb\u8b19\u8b72\u8a9e Honorific/Humble Language (Keigo)", 0.0, 0, 1368316800, 46, 0, 0], [1313225282, "Economic Development DRXL2012", 0.0, 0, 1352505600, 353, 0, 0], [1058850517, "Economie, commerce et finances (10) ", 0.0, 0, 1445990400, 533, 0, 0], [1387798213, "Tablice chronologiczne: Polska (1918-1948)", 0.0, 0, 1433376000, 78, 0, 0], [1977809133, "TY A01 Pronouns", 0.0, 0, 1438646400, 6, 6, 6], [1860004285, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [940243165, "Dutch birds -- sounds, appearance and taxonomy", 5.0, 2, 1429660800, 92, 129, 128], [650333509, "Slovenian personal pronounces - Osebni zaimki", 0.0, 0, 1438214400, 16, 0, 16], [70467787, "Taxonomy of Fishes", 0.0, 0, 1434585600, 623, 0, 0], [1500292005, "Autonomic Drugs", 0.0, 0, 1432080000, 42, 0, 67], [3627387850, "HMS.IMP.Zoonotic", 0.0, 0, 1366675200, 39, 0, 16], [1171571432, "pulmonology", 0.0, 0, 1421107200, 15, 0, 5], [2073304818, "Discussions based on Bloom's Taxonomy 2", 0.0, 0, 1425686400, 9, 0, 0], [722528446, "Tablice chronologiczne: \u015awiat (1918-1947)", 0.0, 0, 1433376000, 60, 0, 0], [92286361, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1416441600, 43, 0, 0], [2968269403, "Korgan's German personal pronouns", 5.0, 1, 1345852800, 14, 0, 0], [1811186782, "Marathi - pronouns", 0.0, 0, 1403654400, 39, 0, 0], [414394398, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1417651200, 43, 0, 0], [1164305399, "Gastronomie PL-DE Krzysztof Nowaczek", 0.0, 0, 1345852800, 1233, 0, 0], [1417607433, "pulmonology", 0.0, 0, 1422057600, 159, 0, 0], [960880826, "Gesundheits\u00f6konomie TU M\u00fcnchen", 0.0, 0, 1419033600, 121, 2, 1], [171871073, "block 2 autonomic NS", 0.0, 0, 1414281600, 106, 0, 0], [100439255, "Industriell ekonomi LMT968 Chalmers", 0.0, 0, 1421280000, 33, 0, 14], [560301357, "CONOCIMIENTO MEDIO 5\u00ba PRIMARIA espa\u00f1a asturias", 0.0, 0, 1373846400, 485, 0, 606], [448274928, "English 330 Phonology", 0.0, 0, 1402012800, 163, 0, 13], [2238522367, "Japanese Honorifics", 0.0, 0, 1371081600, 244, 0, 0], [670987890, "Makro\u00f6konomie II", 0.0, 0, 1430697600, 39, 0, 46], [1172824577, "Japanese Pronouncing Times (JTMW)", 0.0, 0, 1413158400, 29, 0, 0], [750898269, "study German pronounciation", 0.0, 0, 1386720000, 178, 181, 0], [1274719409, "Ti telefono stasera", 0.0, 0, 1385510400, 50, 50, 0], [675395408, "Economie (NB, anglais-fran\u00e7ais)", 0.0, 0, 1432339200, 58, 0, 0], [2013358771, "Fonetika a fonologie \u010de\u0161tiny (PLIN st\u00e1tnice) [CS]", 0.0, 0, 1419033600, 145, 0, 6], [341198269, "Jurga's Lithuanian Prononunciation Deck", 0.0, 0, 1421366400, 42, 42, 33], [916756453, "Industriell Ekonomi", 0.0, 0, 1394150400, 758, 34, 19], [1363045271, "CONOCIMIENTO DEL MEDIO 4\u00ba primaria, espa\u00f1a, asturias", 0.0, 0, 1375401600, 201, 0, 176], [542717096, "Grundlagen Psychologie und Ergonomie", 0.0, 0, 1422230400, 140, 0, 0], [3853161371, "Trigonometry Acrostics", 0.0, 0, 1408838400, 71, 0, 49], [462165587, "Obras e Autores Lus\u00f3fonos (baralho teste)", 0.0, 0, 1390953600, 3, 0, 0], [3535203096, "Micro.Zoonotic.LAF", 0.0, 0, 1367193600, 43, 0, 15], [854640697, "Trigonometry", 0.0, 0, 1407283200, 29, 0, 51], [1955777759, "The Undercover Economist Vocab ENG-GER", 0.0, 0, 1425340800, 75, 75, 0], [221085830, "10 Diencephalon, limbiske sys, autonomt nervsystem", 0.0, 0, 1415145600, 29, 0, 33], [1185600625, "Microeconomics 304k Sibley", 1.0, 1, 1414627200, 3, 0, 0], [2066922271, "AP Economics", 0.0, 0, 1414368000, 41, 0, 1], [1938143068, "Pravdepodonostni metody", 0.0, 0, 1420156800, 61, 1, 51], [1496649049, "Economic Development", 0.0, 0, 1410739200, 34, 0, 20], [1874397604, "Pulmonology For PSU Hershey Spring 15", 0.0, 0, 1429660800, 331, 0, 467], [1764561151, "Tammy", 0.0, 0, 1386633600, 2093, 0, 0], [300516680, "Conceptos de macro econom\u00eda Ciencias Pol\u00edticas USC", 0.0, 0, 1421625600, 128, 0, 1], [1547213783, "MSU CHM Autonomic Pharm 2012 ", 0.0, 0, 1345852800, 248, 0, 0], [609787157, "Pulmonology through sleep disorders", 0.0, 0, 1428537600, 390, 0, 128], [145047688, "Chrono trigger", 0.0, 0, 1391385600, 2, 0, 0], [1074759505, "AS AQA Economics ", 0.0, 0, 1427846400, 239, 0, 0], [3320445851, "Eli's Economish Deck", 0.0, 0, 1367884800, 348, 0, 8], [1129137831, "Latin 8th grade personal pronouns", 0.0, 0, 1414540800, 36, 0, 0], [630110042, "Pronomes possessivos (SLC)", 0.0, 0, 1384300800, 6, 0, 0], [3078424777, "Mankiw - Macroeconomics", 0.0, 0, 1368403200, 16, 0, 0], [3166970026, "English  Phonology and Phonetics", 0.0, 0, 1345852800, 112, 0, 4], [2900858820, "Autonomic", 0.0, 0, 1379203200, 46, 0, 0], [761366390, "Phonological Processes (for speech pathology)", 0.0, 0, 1347321600, 120, 0, 0], [1257784623, "FHB L2: Neurotransmission & Autonomic NS", 0.0, 0, 1420502400, 17, 0, 24], [798342403, "Circumcised pulmonology 2", 0.0, 0, 1424995200, 167, 0, 8], [3001803639, "German relative pronouns", 0.0, 0, 1360368000, 16, 0, 0], [211188473, "Taketori monogatari translation", 0.0, 0, 1351296000, 26, 0, 0], [3690720131, "Glosario Economia de la Empresa", 0.0, 0, 1345852800, 64, 0, 0], [131909448, "BOOK Q&A - Freakonomics", 0.0, 0, 1367107200, 27, 0, 0], [1665321850, "Gamilaraay Pronouns", 0.0, 0, 1425254400, 49, 44, 49], [312776716, "Autonomic Nervous System", 0.0, 0, 1410048000, 20, 0, 1], [1496084951, "A Level History: 1920s Economic Problems in USA", 0.0, 0, 1401667200, 45, 0, 0], [1398545191, "Arabic possessive (attached) pronouns", 0.0, 0, 1383350400, 12, 0, 0], [1176829237, "V\u00e5r Ekonomi", 0.0, 0, 1394150400, 98, 0, 0], [525963268, "N3 Vocab Nihonogosomatome", 0.0, 0, 1430697600, 60, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ono</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

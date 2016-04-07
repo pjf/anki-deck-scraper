@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1226689493, "[VectorMaps] The United States of America", 4.8, 20, 1368662400, 50, 0, 50], [477508551, "Beginner Latin American Spanish Sentences", 5.0, 10, 1437868800, 1224, 0, 1], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [124215149, "Hammersmith yr 1 French Mulvahil ", 0.0, 0, 1454889600, 218, 0, 26], [335616092, "SM27 - Mercury's Mental Match", 0.0, 0, 1454025600, 28, 0, 0], [1818542201, "Minister Deutschlands - Kabinett Merkel III - by inforoth", 4.5, 2, 1406764800, 16, 0, 20], [120847549, "Tweede Kamer - Kabinet-Rutte II ", 0.0, 0, 1453852800, 14, 0, 14], [1146639988, "Summer's Agency and Partnership", 0.0, 0, 1453939200, 32, 0, 0], [3461391870, "Croy A Primer of Biblical Greek (w/ Audio), all chapters", 0.0, 0, 1378771200, 488, 465, 0], [1050322009, "Colloquial Spanish of Latin America", 5.0, 1, 1427846400, 607, 0, 0], [173107807, "SM20 - The summer, the beach, youth and ghosts", 0.0, 0, 1452902400, 27, 0, 0], [1328119904, "Javatermer", 0.0, 0, 1453075200, 105, 0, 0], [3052747002, "lyrics of several songs (using enumeration model)", 0.0, 0, 1345852800, 28, 0, 0], [1597339571, "Kabinett Merkel III", 0.0, 0, 1392681600, 16, 0, 20], [956222301, "anglais commerce maxime", 0.0, 0, 1452470400, 37, 0, 0], [158358330, "Speed Cards - 52 Spielkarten merken by inforoth", 0.0, 0, 1406764800, 52, 0, 1], [990412215, "merryxmas", 0.0, 0, 1451088000, 64, 1, 21], [605377097, "Oktat\u00e1si alapismeretek \u00e9retts\u00e9gi k\u00e9rd\u00e9sek", 0.0, 0, 1451779200, 1101, 0, 0], [1133583396, "mai wen jing emerge", 0.0, 0, 1452384000, 30, 0, 0], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [524956515, "Emergency Care and Transportation for the Sick and Injured", 4.33, 3, 1431388800, 2077, 0, 0], [702141744, "Capital Cities of Central America and Caribbean Islands", 0.0, 0, 1381881600, 39, 0, 0], [1967371805, "Merkf\u00e4higkeit", 0.0, 0, 1447200000, 100, 0, 0], [1164698742, "EMERSON TTU EXAM2", 0.0, 0, 1446076800, 25, 0, 0], [202862275, "Basic Latin Amer Spanish Imperative Sentences (TTS accurate)", 4.67, 3, 1442275200, 313, 0, 1], [1541593467, "Ukrainian Numerals (Num-UA/UA-Num) + AUDIO", 5.0, 1, 1436572800, 77, 77, 0], [1619309805, "SZIE N\u00f6v\u00e9nytermeszt\u00e9stani alapsimeretek - Maglista", 0.0, 0, 1446768000, 40, 0, 0], [1411068180, "MERPCBMEEP1.0", 0.0, 0, 1447027200, 612, 0, 159], [1132056661, "USask PHPM - Emergency Health Management", 0.0, 0, 1443484800, 76, 0, 1], [1986318382, "BBC Summer-born kids", 0.0, 0, 1445472000, 16, 0, 7], [1672129383, "American Heritage Fish Final 2", 0.0, 0, 1439424000, 89, 0, 0], [631250742, "Primer examen imagenologia", 0.0, 0, 1444003200, 30, 0, 10], [1048178121, "OncEmergencies_WRBIM", 0.0, 0, 1441670400, 13, 0, 0], [2154341697, "Khmer Alphabet", 0.0, 0, 1381622400, 68, 0, 68], [531080883, "The First Hebrew Primer", 0.0, 0, 1439510400, 560, 0, 0], [327830779, "American Foxtrot", 0.0, 0, 1442361600, 18, 0, 0], [1329427257, "Emergency Med MS3 2015", 0.0, 0, 1440633600, 295, 0, 103], [152479176, "Emergency pharmacology roots suffixes prefixes abbreviations", 0.0, 0, 1441238400, 55, 0, 0], [268376408, "South American States with Capitals and Flags", 0.0, 0, 1428969600, 15, 8, 17], [860055, "American Heritage Fish Final 1", 0.0, 0, 1439424000, 123, 0, 0], [2077687484, "Primera lecci\u00f3n de palabras y verbos de B\u00falgaro", 0.0, 0, 1420070400, 206, 0, 0], [698299477, "GlomerularDisease_WRBIM", 0.0, 0, 1440892800, 15, 0, 0], [822002835, "MIP Block II - Anding Emerges", 0.0, 0, 1440633600, 65, 0, 37], [1031221276, "IUSM-SB Emergency Medicine for ICM II", 0.0, 0, 1439769600, 132, 0, 0], [2886872180, "Chinese in 10 Days (The Commercial Press), book 1, new words", 0.0, 0, 1345852800, 222, 222, 0], [1897233972, "Anatomy Terms: Distal Humerus + Elbow + Forearm", 0.0, 0, 1437004800, 23, 0, 0], [618052218, "Anatomy Terms: Shoulder Girdle + Proximal Humerus", 0.0, 0, 1437004800, 41, 0, 0], [2010112756, "SOCO Espa\u00f1ol - Los N\u00fameros", 0.0, 0, 1437955200, 63, 0, 0], [992045422, "mycommerce", 0.0, 0, 1437523200, 11, 1, 1], [1287676704, "DDO Gastrointestinal emergencies - UGIT bleeding", 0.0, 0, 1415232000, 9, 0, 0], [3674821632, "Emergencies in Xhosa", 0.0, 0, 1351036800, 16, 0, 0], [729292332, "Homer Odyssey Vocabulary", 0.0, 0, 1425513600, 296, 0, 1], [1302447741, "Alzheimer", 0.0, 0, 1437523200, 16, 0, 0], [2038858168, "DDO Gastrointestinal Emergencies - Hernias, anorectal disord", 0.0, 0, 1415232000, 1, 0, 0], [1231963447, "Boeing 727 momery items (Emergency Checklist)", 0.0, 0, 1435276800, 13, 89, 8], [557214482, "North American Bird Habitats", 0.0, 0, 1394064000, 32, 0, 32], [1625510225, "Polymer Chemistry and Physics (KBT025)", 0.0, 0, 1420761600, 44, 0, 6], [193901374, "American History II", 0.0, 0, 1437523200, 64, 0, 0], [2992188991, "Customer Development - Lean Start up", 0.0, 0, 1345852800, 13, 0, 0], [1058850517, "Economie, commerce et finances (10) ", 0.0, 0, 1445990400, 533, 0, 0], [1809544680, "10.23 Gene Therapy Zimmer", 0.0, 0, 1351036800, 0, 0, 0], [1648295721, "UW Madison Summer Uyghur", 5.0, 1, 1437436800, 788, 0, 0], [1136693500, "Summer Term 2015", 0.0, 0, 1433376000, 82, 0, 0], [3163682033, "Numerik f\u00fcr Informatiker am KIT", 0.0, 0, 1379030400, 12, 0, 5], [1396319774, "CVA Squalus Branchiomeric Muscles", 0.0, 0, 1382659200, 11, 0, 0], [2734115783, "CofO2 - 17 - Glomerular and Tubular Function", 0.0, 0, 1345852800, 29, 0, 0], [1834084273, "Latin for Americans I -- Core Vocabulary", 0.0, 0, 1435968000, 91, 0, 1], [3188126366, "3Khmer", 0.0, 0, 1434844800, 7565, 0, 436], [2033554292, "UPB_Polymer", 0.0, 0, 1357344000, 32, 0, 28], [4074625280, "United States of America", 0.0, 0, 1383782400, 51, 0, 51], [120546062, "DDO Gastrointestinal Emergencies - Pancreatitis and Cholecys", 0.0, 0, 1415232000, 51, 0, 0], [17092719, "Vocabulary for Bridge AEP Reading Class Summer 2014", 0.0, 0, 1405987200, 20, 0, 0], [3417245737, "cecisummer7", 0.0, 0, 1373500800, 12, 0, 0], [1664667087, "Sumerian Cuneiform Signs from Volk's Reader Part 1", 0.0, 0, 1414713600, 139, 0, 276], [225717476, "Becker Summer Bridge 2014", 0.0, 0, 1404345600, 20, 0, 0], [40678794, "Terminologia Enfermeria Hospital Italiano de Bs As", 0.0, 0, 1402444800, 59, 0, 0], [763313120, "merk", 0.0, 0, 1410307200, 26, 0, 0], [597159811, "EMT ASUMH Prehospital Emergency Care 10th Editi", 0.0, 0, 1437696000, 1940, 0, 0], [1947726076, "Patolog\u00edas / Nefro / Enfermer\u00eda 2do a\u00f1o 1er cuatrimestre  Ho", 0.0, 0, 1401926400, 27, 0, 0], [348069426, "TH-67 Emergency Procedures", 0.0, 0, 1345852800, 67, 0, 0], [573537612, "conf\u00e9rence climat mercredi", 0.0, 0, 1426032000, 55, 0, 0], [51206747, "English Minimal Pairs (General American)", 0.0, 0, 1432512000, 24, 48, 48], [741180850, "L1 - Numerals and some numbers", 0.0, 0, 1390348800, 94, 0, 0], [773988618, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda II", 0.0, 0, 1392768000, 82, 0, 0], [100439255, "Industriell ekonomi LMT968 Chalmers", 0.0, 0, 1421280000, 33, 0, 14], [2024316148, "Numerische und stochastische Grundlagen der Informatik", 0.0, 0, 1425254400, 34, 0, 68], [2058422412, "SOCO Espa\u00f1ol - N\u00fameros Ordinales", 0.0, 0, 1437955200, 20, 0, 0], [675411337, "DDO Gastrointestinal emergencies - disorders presenting prim", 0.0, 0, 1415232000, 39, 0, 0], [558607438, "North American Biomes and National Parks", 1.0, 1, 1392508800, 130, 0, 117], [1412468881, "DDO Gastrointestinal Emergencies - Hepatic disorders, jaundi", 0.0, 0, 1415232000, 34, 0, 0], [1242812777, "Al's emergencies", 0.0, 0, 1431993600, 34, 0, 0], [618993474, "DDO Gastrointestinal Emergencies - Acute abdominal pain", 0.0, 0, 1415232000, 9, 0, 0], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [1156787862, "Meithai - Zahlen und Nummern", 0.0, 0, 1383782400, 139, 0, 0], [1061109357, "SUMMERISALMOSTOVER!", 0.0, 0, 1403136000, 8, 0, 17], [4234732413, "Low Intermediate Latin Amer Spanish Sentences (TTS accurate)", 4.17, 6, 1431043200, 1083, 0, 1], [2075729741, "Emergency Medicine RDH", 0.0, 0, 1407715200, 16, 0, 0], [236331332, "DDO Gastrointestinal Emergencies - Oesophageal emergencies", 0.0, 0, 1415232000, 21, 0, 0], [14463074, "Analisi Numerica", 0.0, 0, 1379116800, 360, 0, 656], [327888242, "Riman 2.2: Res extra commercium", 0.0, 0, 1364774400, 8, 0, 0], [2186248703, "cecisummer5", 0.0, 0, 1373500800, 10, 0, 0], [1255205287, "Ven\u00e4j\u00e4n pehme\u00e4\u00e4n merkkiin loppuvat substantiivit", 0.0, 0, 1419292800, 105, 0, 0], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [1054680101, "DDO Paediatrics - Renal emergencies in infants and children ", 0.0, 0, 1409616000, 38, 0, 0], [1424113499, "Merpx flash", 0.0, 0, 1431129600, 2560, 0, 1287], [1383795806, "HI, Enfermer\u00eda 2do 2ero, comunitaria, 1er parcial", 0.0, 0, 1403308800, 39, 0, 0], [940439508, "RLR #94 \u2013 American Sports Idioms", 0.0, 0, 1425427200, 30, 30, 0], [452169592, "changement climatique conference mercredi", 0.0, 0, 1426032000, 129, 0, 0], [3055262302, "Gene Therapy Zimmer 10.23", 0.0, 0, 1351036800, 31, 0, 0], [2895865017, "cecisummer2", 0.0, 0, 1373500800, 14, 0, 0], [263725589, "Web Engineering KIT Nussbaumer", 0.0, 0, 1393891200, 130, 0, 6], [1415247295, "Chloe Glomerular Diseases", 0.0, 0, 1425945600, 30, 0, 0], [1123866302, "Comercio Internacional AFRFB FSSILVA", 0.0, 0, 1424390400, 301, 0, 3], [176735327, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369872000, 60, 0, 0], [719361048, "Polymer Science", 0.0, 0, 1387411200, 23, 0, 39], [1301096019, "Historie, geo og trivia::Romersk_og_bysantinsk_keiserrekke", 0.0, 0, 1391644800, 43, 0, 9], [390489048, "hospital italiano primer a\u00f1o segundo semestre b\u00e1sica II", 0.0, 0, 1380585600, 24, 0, 0], [2451250379, "Phonemes of American English and their transcription", 0.0, 0, 1345852800, 101, 0, 0], [1246520238, "DDO Gastrointestinal Emergencies - Lower GIT bleeding", 0.0, 0, 1415232000, 5, 0, 0], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [608942902, "K\u00f6rnyezetbotanika-N\u00f6v\u00e9nyfelismer\u00e9s", 0.0, 0, 1388448000, 210, 0, 329], [72405212, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Biof\u00edsica I", 0.0, 0, 1392768000, 34, 0, 0], [2211969297, "MBBS 1 Week 31 - Emerald City", 0.0, 0, 1350172800, 102, 0, 27], [805584527, "em, emergency medicine, optho, arrest", 0.0, 0, 1391644800, 19, 0, 0], [507968900, "Sommerkurs 2011", 0.0, 0, 1345852800, 145, 0, 0], [275159176, "Patolog\u00edas / Digestivo 2do a\u00f1o 1er cuatrimestre Enfermer\u00eda", 0.0, 0, 1401926400, 47, 0, 0], [3221490585, "Tibetan numerals", 0.0, 0, 1382918400, 114, 0, 0], [1687086932, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405209600, 120, 0, 0], [221958654, "MSA 8.38 - Medical Emergencies", 0.0, 0, 1426636800, 26, 0, 0], [476449916, "Renal up through glomerulonephritis", 0.0, 0, 1431734400, 589, 0, 60], [1554900756, "ceccisummer3", 0.0, 0, 1373500800, 13, 0, 0], [1821364457, "Sommer Kanji", 0.0, 0, 1420329600, 220, 0, 0], [232435977, "Alle Minister Deutschlands \"Kabinett Merkel II\"", 0.0, 0, 1358035200, 17, 0, 0], [787070478, "cecisummer4", 0.0, 0, 1373500800, 12, 0, 0], [4058171290, "cecisummer8", 0.0, 0, 1373500800, 12, 0, 0], [1937288674, "cecisummer9", 0.0, 0, 1373500800, 10, 0, 0], [3116360426, "Neuro 1 - deel1, H6: het ruggenmerg", 0.0, 0, 1353456000, 22, 0, 0], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [1000990906, "Breakdown of the Bicameral", 0.0, 0, 1394323200, 6, 0, 0], [1753874442, "Web Engineering KIT Nussbaumer WS13/14", 0.0, 0, 1393891200, 61, 0, 0], [3346328277, "Drug Devices and Consumers Final", 0.0, 0, 1368576000, 309, 0, 1], [311208489, "13240 Emergency (non radar)", 0.0, 0, 1368489600, 86, 0, 0], [307667533, "Collins Ecclesiastical Latin Primer Vocabulary", 0.0, 0, 1434153600, 461, 0, 0], [317039549, "Neuro Vertigo Summerson", 0.0, 0, 1421625600, 33, 0, 1], [3728071546, "cecisummer1", 0.0, 0, 1373500800, 14, 0, 0], [216610219, "2do 1ero Comunitaria Enfermer\u00eda Hospital Italiano Bs As", 0.0, 0, 1405296000, 126, 0, 0], [234428322, "Emergency Medicine LSU Health Shreveport", 0.0, 0, 1396224000, 207, 0, 5], [1763772201, "QX emergency procedures", 0.0, 0, 1411430400, 22, 0, 0], [1132025673, "N\u00e9mer - Vonzatok", 0.0, 0, 1405123200, 50, 0, 0], [1309884544, "13 ALS, traumer, Parkinsons, demyeliserende sygdomme", 0.0, 0, 1417996800, 25, 0, 19], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [1131894875, "HI, Enfermer\u00eda 2do 1ero, comunitaria, 1er parcial...", 0.0, 0, 1403481600, 81, 0, 0], [281512280, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / B\u00e1sica I", 0.0, 0, 1369612800, 23, 0, 0], [614071473, "1ero 2do Enfermeria Salud Mental Hospital Italiano", 0.0, 0, 1402444800, 12, 0, 0], [3831679823, "cecisummer6", 0.0, 0, 1373500800, 16, 0, 0], [1783612208, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Microbiolog\u00eda", 0.0, 0, 1369094400, 60, 0, 0], [1338467835, "DASI U4 Inference of Numerical Variables", 5.0, 1, 1415145600, 29, 0, 16], [841235653, "HI, Enfermer\u00eda 2do 2do, comunitaria, 2do parcial", 0.0, 0, 1403308800, 39, 0, 0], [56697303, "Native North American Art", 0.0, 0, 1389398400, 56, 0, 41], [1024632897, "DDO Paediatrics - Hypoglycaemia and metabolic emergencies ", 0.0, 0, 1409616000, 40, 0, 0], [2675737595, "Ed's Rutgers Summer 2012 French For Reading Deck", 0.0, 0, 1345852800, 333, 0, 1], [1941773617, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Antropolog\u00eda", 0.0, 0, 1392768000, 23, 0, 0], [1484014046, "DDO Gastrointestinal Emergencies - Acute and chronic constip", 0.0, 0, 1415232000, 7, 0, 0], [3225670671, "Shelmerdine Latin", 0.0, 0, 1345852800, 660, 0, 0], [1721426337, "WMS - Group work emergency cases", 0.0, 0, 1390608000, 34, 0, 8], [1078583120, "Summer Term 2015 actual summer", 0.0, 0, 1433376000, 83, 0, 0], [131079141, "Neuro diagrams mer", 0.0, 0, 1423094400, 118, 0, 21], [4013789911, "mera hindi shabdkosh", 0.0, 0, 1345852800, 1444, 0, 0], [3516621390, "Devanagari numeral digits to Arabic numeral digits", 3.0, 1, 1375142400, 10, 0, 0], [668066204, "OXFORD 4032 AMERICAN WORDS WITH SOUND", 0.0, 0, 1431388800, 4032, 0, 0], [1051104765, "Advanced Latin American Spanish", 0.0, 0, 1379376000, 148, 0, 0], [1186601459, "cecisummer10", 0.0, 0, 1373500800, 11, 0, 0], [1570982511, "Drugs Devices and Consumers Exam 1", 0.0, 0, 1361232000, 227, 0, 0], [1280119221, "A - F (17) Le commerce et les affaires", 0.0, 0, 1416355200, 457, 0, 0], [1408336002, "3x3x3 Summer variation", 0.0, 0, 1421020800, 27, 0, 27], [1726074925, "Drugs Devices and Consumers Exam 2", 0.0, 0, 1365033600, 258, 0, 0], [710055052, "Primer parcial temas selectos", 0.0, 0, 1425427200, 202, 0, 0], [3089905314, "American Idioms", 5.0, 1, 1345852800, 600, 0, 0], [219194394, "merriam webster(my private share)", 0.0, 0, 1430611200, 60, 0, 0], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [816885892, "Los N\u0169meros de 0 a 100", 0.0, 0, 1345852800, 100, 0, 0], [1748605390, "Psicofarmacologia per residents de primer any psiquia mar", 0.0, 0, 1430611200, 171, 0, 0], [271751464, "Hospital Italiano / Enfermer\u00eda I a\u00f1o / Anatom\u00eda", 0.0, 0, 1369872000, 156, 0, 2], [1311279548, "Egyptian-American Slang", 0.0, 0, 1424044800, 751, 35, 70], [3916604735, "David Chalmers - Constructing the World", 0.0, 0, 1380412800, 120, 0, 0], [657635120, "UCSD Chem 6A Summer 2013", 0.0, 0, 1372809600, 129, 0, 0], [2709737504, "Psicolog\u00eda Social primer parcial", 0.0, 0, 1345852800, 558, 0, 0], [323198497, "Segunda parte primera lecci\u00f3n palabras verbos b\u00falgaros ", 0.0, 0, 1420070400, 287, 0, 0], [305282287, "DDO Gastrointestinal Emergencies - Peptic ulcer disease and ", 0.0, 0, 1415232000, 4, 0, 0], [1739730520, "North American Scrabble - 3s with hooks (OTCWL14)", 0.0, 0, 1428105600, 765, 0, 0], [1085241879, "Khmer School Book 1, Selected Words", 0.0, 0, 1408147200, 1101, 0, 0], [2471957626, "American English Braille Grades 1 & 2", 0.0, 0, 1357084800, 254, 0, 206]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mer</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

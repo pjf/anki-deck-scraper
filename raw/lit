@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[98793788, "Softwarequalit\u00e4t_WS15_16", 0.0, 0, 1454544000, 71, 0, 0], [1585004278, "Politikwissenschaften M1 WS 15/16", 0.0, 0, 1454976000, 44, 0, 0], [1855818143, "Hanyu Shuiping Kaoshi (HSK) (all 5000 words, high quality)", 3.75, 4, 1454544000, 4995, 0, 0], [1301023985, "Army Military Justice Exam Study Guide", 0.0, 0, 1454284800, 34, 0, 0], [453772415, "Fertility for Karen", 0.0, 0, 1454112000, 52, 0, 0], [847810205, "Barbers Hill Lang Lit", 0.0, 0, 1453852800, 58, 0, 0], [1841733775, "Spanish.colombia and literature", 0.0, 0, 1453507200, 847, 0, 0], [434514182, " Literary Studies Uni due WS 15/16", 0.0, 0, 1454544000, 262, 0, 3], [154959223, "Qualit\u00e4tsmanagement 1", 0.0, 0, 1453161600, 17, 0, 0], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 4.0, 1, 1449964800, 280, 0, 0], [357737392, "Politics related words", 0.0, 0, 1453075200, 87, 0, 0], [3074067052, "Hoch Middle Egyptian Lesson3 Biliterals (Bi-consonantal) ", 0.0, 0, 1363392000, 25, 0, 25], [286862392, "Europe des nationalit\u00e9s ", 0.0, 0, 1452729600, 59, 0, 0], [1639905203, "Berlitz German", 0.0, 0, 1451952000, 149, 0, 0], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [766471892, "SZF - Qualitative Interviews", 0.0, 0, 1449878400, 9, 0, 0], [231499112, "Lithuanian grammar basics for Germans", 0.0, 0, 1449792000, 146, 0, 1], [847681038, "Histoire de la litt\u00e9rature", 0.0, 0, 1449187200, 90, 0, 3], [618312178, "Partie polit., NGO, spo\u0142ecze\u0144stwo obywatelskie", 0.0, 0, 1449360000, 80, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 0.0, 0, 1363392000, 29, 0, 29], [130457105, "SZF - Arten von Qualitativer Forschung:", 0.0, 0, 1449878400, 11, 0, 3], [890842472, "bioavailability and bioequivalence (for uzo)", 0.0, 0, 1449878400, 8, 0, 14], [1715120102, "Postacie polskiego \u017cycia politycznego 2015", 0.0, 0, 1448236800, 27, 0, 26], [1921475781, "Ideologie, doktryny polityczne (oprac. Bog.Piet.)", 0.0, 0, 1448928000, 64, 0, 0], [244975380, " Politik, Staat und Internationales", 0.0, 0, 1449705600, 20, 0, 0], [341836791, "deutschland for Berlitz beginners", 0.0, 0, 1449100800, 89, 0, 0], [1521872999, "Matematik polit", 0.0, 0, 1447459200, 157, 0, 0], [184424174, "soci\u00e1ln\u00ed politika", 0.0, 0, 1449532800, 11, 0, 0], [1137442361, "Historyczne postacie \u017cycia politycznego w Polsce i na \u015bwieci", 0.0, 0, 1448236800, 22, 0, 22], [478784710, "Postacie zagranicznego \u017cycia politycznego 2015 ", 0.0, 0, 1448236800, 14, 0, 14], [1762696266, "China Domestic Politics Study Deck", 0.0, 0, 1449014400, 56, 15, 5], [1276033024, "11.4 Politik Syrien Konflikt ", 0.0, 0, 1449014400, 12, 0, 3], [398319582, "RW111 Rentabilit\u00e4tskennzahlen", 0.0, 0, 1446768000, 13, 0, 0], [365554340, "AMS 131 - Intro to Probability Theory Midterm", 0.0, 0, 1445731200, 98, 0, 110], [1687476569, "Global Politics 2I03 Midterm", 0.0, 0, 1445472000, 34, 0, 0], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 5.0, 1, 1345852800, 3007, 0, 0], [1336744833, "Hoch Middle Egyptian Lesson6 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 14, 0, 14], [314566160, "Anki polityka", 0.0, 0, 1445558400, 36, 0, 0], [348197263, "ITL Literacy Midterm ", 0.0, 0, 1444608000, 58, 0, 0], [2069321917, "Lithuanian 2015 - Raugyklos g., level 1. Words.", 0.0, 0, 1444176000, 47, 0, 0], [3797575858, "Hoch Middle Egyptian Lesson7 Biliterals (Bi-consonantal) Hoc", 0.0, 0, 1363651200, 12, 0, 12], [1096340037, "Hoch Middle Egyptian Lesson4 Biliterals (Bi-consonantal)", 0.0, 0, 1363392000, 21, 0, 20], [2128172950, "NAQT literature", 0.0, 0, 1443657600, 102, 0, 0], [1791224433, "Calcolo delle Probabilit\u00e0 - Unina", 0.0, 0, 1421020800, 160, 0, 365], [1287654549, "rugalita_imperativo_practice", 0.0, 0, 1381622400, 80, 0, 0], [683848162, "[CAN 134] British Political Vocabulary", 0.0, 0, 1442793600, 34, 0, 0], [152564020, "chinese literary reading", 0.0, 0, 1390780800, 75, 0, 0], [1320724950, "Wylie transliteration cards", 0.0, 0, 1438041600, 34, 0, 0], [1710142487, "Literary Spanish vocabulary", 0.0, 0, 1434672000, 144, 1, 0], [96285500, "DASI U2 Probability & Distributions", 5.0, 1, 1415145600, 20, 0, 0], [3956640015, "P&T Contraception Obesity Menopause Infertility", 0.0, 0, 1361836800, 195, 0, 0], [1318997802, "Rapid literacy in Chinese by ZhangPengPeng", 0.0, 0, 1408752000, 750, 0, 0], [2905536195, "German Vocabulary: Intertextuality and Discussion", 0.0, 0, 1345852800, 88, 0, 0], [1581722002, "Sistema Politico Brasileiro", 0.0, 0, 1438214400, 24, 0, 0], [863259931, "Complete Lithuanian chpt 1-3", 0.0, 0, 1437609600, 106, 0, 0], [2004259926, "ALittlebitouphadya", 0.0, 0, 1396742400, 282, 0, 15], [114855411, "Earthquake, water & hope (Nepalese Transliteration & Devanag", 0.0, 0, 1430611200, 13, 0, 0], [1822038576, "Logika obliczeniowa Politechnika Pozna\u0144ska", 0.0, 0, 1422662400, 35, 0, 0], [1937739136, "French literary words and phrases", 0.0, 0, 1416700800, 1586, 0, 1], [1605348409, "Military Rates and Ranks", 0.0, 0, 1414454400, 71, 0, 72], [2490553851, "Politik 4. Internationale Wirtschaftsbeziehungen", 0.0, 0, 1346284800, 34, 0, 1], [3731621889, "Literatur Gymnasium Schweiz - An Inspector calls", 0.0, 0, 1376784000, 34, 0, 1], [814445013, "Elitarne s\u0142ownictwo", 0.0, 0, 1345852800, 79, 0, 0], [1843008578, "Literatur Gymnasium Schweiz - The Great Gatsby", 0.0, 0, 1376784000, 41, 0, 5], [99967194, "English B1/B2 Reality", 0.0, 0, 1434412800, 16, 16, 3], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 2.0, 1, 1409788800, 32, 0, 0], [1217276842, "das Thema Kriminalitaet fuer Deutsch-Russisch", 0.0, 0, 1403136000, 107, 0, 0], [551778084, "Fred's dirty little pie hole ", 0.0, 0, 1417132800, 269, 0, 285], [24031468, "A2 politics ", 0.0, 0, 1431907200, 50, 0, 0], [1979462628, "Personality Traits (50) Russian - English", 0.0, 0, 1405900800, 51, 0, 0], [3479950638, "CSUN ART 305 Art & Mass Media: a Visual Literacy", 0.0, 0, 1383782400, 38, 1, 36], [1750666916, "Surgical Instruments - RVU Military", 0.0, 0, 1399334400, 45, 0, 57], [17013189, "Vasculitis", 0.0, 0, 1396742400, 47, 0, 30], [1165058891, "Lumbosacral plexus, thigh, popliteal fossa (CSUS Bio 122)", 0.0, 0, 1424995200, 51, 0, 57], [1945907316, "Politik 2. Wirtschaftspolitik in der Sozialen Marktwirtschaf", 0.0, 0, 1346284800, 88, 0, 7], [324717788, "Japanese Literature midterm", 0.0, 0, 1381190400, 85, 0, 0], [952732568, "Modalit\u00e9 fran\u00e7ais-anglais", 0.0, 0, 1429920000, 21, 0, 3], [2099271277, "Personality", 0.0, 0, 1428969600, 37, 0, 1], [150449225, "Literatur Gymnasium Schweiz - Homo Faber", 0.0, 0, 1372377600, 23, 0, 3], [465424610, "Vocab allemand litt\u00e9raire", 0.0, 0, 1432684800, 50, 0, 0], [1164364191, "Czech history - very little", 0.0, 0, 1437955200, 27, 0, 0], [1533879605, "adjectifs de personnalit\u00e9 n\u00e9gatifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 66, 0, 0], [1490106323, "Personality Disorders", 0.0, 0, 1426550400, 15, 0, 14], [3686521939, "Dish Satellite Basics", 0.0, 0, 1345852800, 32, 0, 0], [1765252652, "17.Politika \u00e9s t\u00e1rsadalom", 0.0, 0, 1432771200, 197, 0, 0], [2008058704, "Usability Engineering", 0.0, 0, 1366070400, 1, 0, 0], [261154551, "adjectifs de personnalit\u00e9 positifs anglais fran\u00e7ais", 0.0, 0, 1424131200, 72, 0, 0], [338959619, "literary tibetan", 0.0, 0, 1411516800, 93, 0, 0], [283576710, "Personality Adjectives", 4.0, 1, 1423180800, 19, 0, 0], [30392134, "Brett'sLiteraryDevices", 0.0, 0, 1410393600, 25, 0, 0], [1738500322, "RLR #76 \u2013 Politically Correct", 0.0, 0, 1414540800, 30, 30, 0], [524310036, "\u4e09\u5e74\u751f\u3000\u6f22\u5b57\u3000\u6587\u7ae0 with a little bit of upper level  ", 0.0, 0, 1392595200, 286, 0, 0], [2865601803, "Literatur Gymnasium Schweiz - Chopin, The Awakening", 0.0, 0, 1366675200, 38, 0, 1], [657534545, "rugalita_convers_spanish", 0.0, 0, 1358899200, 322, 0, 0], [4239984840, "Literatur Gymnasium Schweiz - Der Sandmann", 0.0, 0, 1372377600, 40, 0, 1], [24273593, "Literatur Gymnasium Schweiz - Fr\u00e4ulein von Scuderi", 0.0, 0, 1372377600, 28, 0, 2], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [647617831, "Literatur Gymnasium Schweiz - Lorca, bodas de sangre", 0.0, 0, 1366243200, 66, 0, 2], [659102374, "Personalmanagement Tourismus & Hospitality", 0.0, 0, 1374105600, 148, 0, 0], [669714020, "Literary Terms 76-100", 0.0, 0, 1398729600, 24, 0, 0], [1464857021, "Spondylitis", 0.0, 0, 1423267200, 24, 0, 9], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [1774109710, "Marys IB SBWL Political and Legal Systems @ WU Wien", 0.0, 0, 1397779200, 18, 0, 0], [162483807, "SAMS 15-01 - Morality and War (M&W)", 0.0, 0, 1432166400, 43, 0, 2], [54778688, "Probability and Statistics (Temple University) Deck", 0.0, 0, 1424217600, 68, 0, 5], [2984064221, "Literatur Gymnasium Schweiz - Kabale und Liebe", 0.0, 0, 1372377600, 25, 0, 1], [341198269, "Jurga's Lithuanian Prononunciation Deck", 0.0, 0, 1421366400, 42, 42, 33], [3961896819, "Literatur Gymnasium Schweiz - Nathan der Weise", 0.0, 0, 1372377600, 30, 0, 3], [1087276344, "Literary Terms 26-50", 0.0, 0, 1396915200, 24, 0, 0], [1052634842, "CRM- Qualitative ", 0.0, 0, 1367625600, 15, 0, 2], [1305194227, "La politique et les institutions (Fr - Esp) ", 0.0, 0, 1445990400, 321, 0, 0], [1738587413, "Words for Berlitz English 8", 0.0, 0, 1434499200, 269, 0, 88], [3726225845, "Arabic Literature", 0.0, 0, 1345852800, 1400, 0, 0], [996363802, "Gastric motility and secretion ", 0.0, 0, 1395360000, 57, 0, 10], [1550271225, "Lietuvi\u0173-pranc\u016bz\u0173 Lituanien-fran\u00e7ais Lithuanian-French LT-FR", 1.0, 1, 1365120000, 3932, 0, 0], [84034400, "Begegnungen A2 Kapitel 8 (Politik und Technik) Deutsch-Russisch", 0.0, 0, 1416268800, 144, 0, 0], [1950172218, "Business - Quality Systems", 0.0, 0, 1400371200, 39, 7, 32], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [771160467, "Berlitz. \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u0434\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a, \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u043a\u0443\u0440\u0441", 0.0, 0, 1414627200, 33, 0, 0], [539834462, "Personality Test 1", 0.0, 0, 1380240000, 7, 0, 0], [529269238, "Biochem, Unit 4; Cell Motility", 0.0, 0, 1414108800, 57, 0, 0], [1043093901, "Klinische Chemie Diabetes Mellitus TU M\u00fcnchen", 0.0, 0, 1401840000, 40, 1, 0], [1227894335, "Solubility guidelines for Aqueous Solutions", 0.0, 0, 1378166400, 12, 0, 0], [1805095678, "Crisis & politics vocabulary for Greek", 0.0, 0, 1439596800, 254, 0, 0], [1009874510, "US Military - Rank & Insignia", 0.0, 0, 1419292800, 38, 0, 36], [1991394856, "Earthquake, water & hope (Nepalese Devanagari & Transliterat", 0.0, 0, 1430611200, 13, 0, 0], [373237261, "niemiecki polityczny", 0.0, 0, 1345852800, 180, 0, 0], [2421341351, "Literatur Gymnasium Schweiz - Romulus der Grosse", 0.0, 0, 1372377600, 25, 0, 1], [2071190312, "Literatur Gymnasium Schweiz - Le Horla", 0.0, 0, 1376784000, 24, 0, 1], [3616467183, "rugalita_verbs_conjugation", 0.0, 0, 1381622400, 94, 0, 0], [2734101689, "List of Personality Disorders", 0.0, 0, 1364947200, 14, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1480000194, "GI Physiology: motility", 0.0, 0, 1397088000, 15, 0, 1], [794093121, "DDO Gastrointestinal Emergencies - Diverticulitis, bowel obs", 0.0, 0, 1415232000, 9, 0, 0], [3158098502, "Logic, Probability, and Applied Epistemology", 0.0, 0, 1345852800, 224, 0, 0], [1709577165, "Literatur Gymnasium Schweiz - Matthias Berg", 0.0, 0, 1376784000, 22, 0, 0], [590826154, "Berlitz Exploring the Issues HUN_ENG", 0.0, 0, 1388448000, 146, 0, 0], [804206907, "Abitur 2012 Biologie, Politik, Chemie", 0.0, 0, 1346371200, 1419, 0, 398], [796872551, "\u00d6sterreichische Politiker", 0.0, 0, 1442188800, 43, 0, 43], [2034657489, "Italian-Lithuanian/English Anki deck v.2", 0.0, 0, 1431302400, 3328, 0, 0], [553037824, "Literary Terms 1-100", 0.0, 0, 1402876800, 99, 0, 1], [774267502, "Literary Terms 1-25", 0.0, 0, 1395619200, 25, 0, 1], [1214097576, "MDTI 02.02.15 Rheumatology Vasculitis", 0.0, 0, 1422921600, 40, 0, 6], [1838209091, "Venezuela division politica, estados y zonas", 0.0, 0, 1423353600, 35, 0, 35], [1195191974, "Rheum - Vasculitis, Myositis", 0.0, 0, 1361145600, 54, 0, 18], [1268556378, "Arabisch-Deutsch (Politik)", 0.0, 0, 1375833600, 3740, 0, 0], [4227812116, "Literatur Gymnasium Schweiz - Le Malentendu", 0.0, 0, 1376784000, 36, 0, 2], [1790222231, "F-A Politics and citizenship", 0.0, 0, 1416355200, 771, 0, 0], [2553104926, "Literatur Gymnasium Schweiz - Die schwarze Spinne", 0.0, 0, 1372377600, 26, 0, 1], [202820247, "BsHO O&G - Infertility, ART, multiple pregnancy ", 0.0, 0, 1399593600, 23, 0, 0], [2077622138, "Fran\u00e7ais : mots litt\u00e9raires et soutenus ", 0.0, 0, 1403740800, 193, 192, 3], [4120116537, "Grundlagen des Hotelmanagements Tourismus & Hospitality", 0.0, 0, 1374105600, 76, 0, 2], [953036848, "quality", 0.0, 0, 1402444800, 18, 0, 0], [3792186076, "Politik 3. Internationale Sicherheits- und Friedenspolitik", 0.0, 0, 1346284800, 155, 0, 0], [578009757, "ELA 10-1 Literary Terms 51-75", 0.0, 0, 1398124800, 25, 0, 0], [2954949998, "Hotelbetriebswirtschaft Tourismus & Hospitality", 0.0, 0, 1374105600, 92, 111, 4], [2287611566, "Literatur Gymnasium Schweiz - M\u00e1rquez, Cr\u00f3nica de una muerte", 0.0, 0, 1367366400, 38, 0, 1], [1312704755, "Yield Management Tourismus & Hospitality", 0.0, 0, 1370822400, 143, 0, 3], [2288741695, "MHCHS Politics Key Words and Information", 0.0, 0, 1381104000, 21, 0, 0], [1009575563, "La g\u00e9opolitique (18)", 0.0, 0, 1395878400, 351, 0, 0], [1866623593, "Afryka- mapa polityczna", 3.5, 4, 1418256000, 107, 0, 55], [751058518, "Comparative Politics of Southeast Asia Map Quiz Study Deck", 0.0, 0, 1423440000, 39, 0, 39], [207415160, "Rationality and Biases [@jackkinsella]", 0.0, 0, 1404691200, 374, 0, 39], [555748726, "Comptabilit\u00e9 fran\u00e7aise", 0.0, 0, 1394668800, 52, 0, 4]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lit</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

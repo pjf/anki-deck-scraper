@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[171512949, "fmHTN", 0.0, 0, 1454630400, 29, 0, 0], [1923796073, "fmcase12cough", 0.0, 0, 1454284800, 120, 0, 0], [184711679, "fmwhealth", 0.0, 0, 1454544000, 106, 0, 0], [1181770964, "fmpregnancy", 0.0, 0, 1454544000, 131, 0, 0], [635407797, "fmthyroid", 0.0, 0, 1454803200, 52, 0, 0], [416261728, "fmGU", 0.0, 0, 1454803200, 151, 0, 0], [1839034134, "fmmale", 0.0, 0, 1454630400, 39, 0, 0], [1707494061, "fmdiabetes", 0.0, 0, 1454630400, 79, 0, 0], [516551440, "fmwomen", 0.0, 0, 1454544000, 123, 0, 0], [1801858486, "fmcase24infant", 0.0, 0, 1454284800, 79, 0, 0], [1436069194, "fmcase21fever", 0.0, 0, 1454284800, 158, 0, 0], [1037252197, "fmcase29dementia", 0.0, 0, 1454284800, 93, 0, 0], [1461099747, "fmcasemusculoskeletal", 0.0, 0, 1454284800, 192, 0, 0], [724804547, "Chemie Strukturformeln FFM Chemie f\u00fcr Mediziner", 0.0, 0, 1454025600, 190, 0, 191], [1702998371, "fmcase22stroke", 0.0, 0, 1454284800, 130, 0, 0], [1215113751, "SFMOMA Study", 0.0, 0, 1453161600, 471, 0, 473], [2014309273, "Blood and lymphatics FMED", 0.0, 0, 1450310400, 262, 0, 0], [1998341887, "Endocrinology FMED Y2T1", 0.0, 0, 1450051200, 243, 0, 0], [1250487222, "Spanisch FFM 12.12.15", 0.0, 0, 1449878400, 90, 0, 1], [1871453242, "HIstology FMED Y2T1", 0.0, 0, 1450137600, 184, 0, 0], [1943546827, "Lawl fml", 0.0, 0, 1448496000, 314, 10, 259], [152609928, "NFM Rotation", 0.0, 0, 1443484800, 24, 9, 0], [1096697184, "Army Operational Terms & Graphics", 0.0, 0, 1443225600, 258, 0, 185], [1840953234, "Study Guide for Army FM 3-0 Operations", 0.0, 0, 1443657600, 165, 0, 0], [989617981, "HD AMS SFM B1", 0.0, 0, 1440201600, 23, 0, 0], [130692000, "Pathology for USTFMS", 0.0, 0, 1442275200, 169, 0, 0], [302566100, "FMS Genetic Disorders", 0.0, 0, 1439596800, 60, 0, 0], [1779553958, "MFM Exam ", 0.0, 0, 1413763200, 28, 0, 7], [1210961567, "Barish FMSIV", 0.0, 0, 1370476800, 61, 0, 0], [2818657883, "Barish FMSII Anatomy (Spine & Cardiothoracic)", 0.0, 0, 1370476800, 30, 0, 0], [999895102, "FMS3 Path Katz review", 0.0, 0, 1387238400, 270, 0, 90], [1447781038, "KC's MCFM Unit 3", 0.0, 0, 1418688000, 34, 0, 6], [1115095655, "Barish FMSIII Anatomy (Abdominal)", 0.0, 0, 1370476800, 47, 0, 0], [286627840, "MFM", 0.0, 0, 1417478400, 143, 0, 41], [2292808473, "FMS II", 0.0, 0, 1378425600, 172, 0, 33], [2240249348, "FMS-3: Pathology", 0.0, 0, 1384646400, 49, 0, 0], [1832731190, "FMIP Microbiology IC1", 0.0, 0, 1424304000, 608, 0, 55], [1848416341, "FMIP Pathology IC1", 0.0, 0, 1424304000, 303, 0, 6], [4241598156, "FMS-3: Pharmacology", 0.0, 0, 1384646400, 31, 0, 0], [2302930015, "FMS-3: Microbiology", 0.0, 0, 1384646400, 59, 0, 0], [248480030, "FMIP Immunology for IC1", 0.0, 0, 1424304000, 145, 0, 51], [1263364038, "Barish FMSII", 0.0, 0, 1370476800, 222, 0, 2], [2287579771, "FMSHELF", 5.0, 1, 1377734400, 482, 0, 0], [1908521258, "Barish FMSIII", 0.0, 0, 1370476800, 305, 0, 0], [1886335200, "Barish FMSI", 0.0, 0, 1370476800, 172, 0, 3]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Fm</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

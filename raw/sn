@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [1432655733, "Stopping by Woods on a Snowy Evening-Robert Frost", 0.0, 0, 1449878400, 16, 0, 0], [109046978, "Lesn\u00ed \u0161k\u016fdci 1 v02", 0.0, 0, 1451174400, 28, 0, 0], [1881669435, "PedsNeuroBHU", 0.0, 0, 1449964800, 127, 0, 0], [1061530592, "ENT SN", 0.0, 0, 1448755200, 67, 0, 0], [1015313647, "Salish 2 Example Sentences - Sn\u0294aw\u0294awtn 2: Level 2, Book 2", 0.0, 0, 1449014400, 1016, 769, 982], [1945305240, "BSN iGCSE Biology unit 4 Nutrient cycles", 0.0, 0, 1447200000, 9, 3, 3], [2143498399, "BSN iGCSE Biology unit 3 inheritance", 0.0, 0, 1447200000, 36, 3, 3], [1833979614, "Ophthalmology SN", 0.0, 0, 1448841600, 11, 0, 0], [386176438, "Dermatology SN", 0.0, 0, 1446508800, 73, 0, 0], [999617093, "BSN iGCSE Biology Unit 2 Excretion", 0.0, 0, 1447200000, 26, 3, 3], [955669266, "BSN iGCSE Biology unit 4 human influences on the ecosystem", 0.0, 0, 1447200000, 13, 3, 3], [1541069025, "BSN iGCSE Biology unit 4 population size", 0.0, 0, 1447200000, 11, 3, 3], [502935930, "Psychiatry SN", 0.0, 0, 1447718400, 81, 0, 0], [716416852, "SNER L1 ETHOLOGIE", 0.0, 0, 1447372800, 40, 0, 0], [662359146, "BSN iGCSE Biology unit 3 growth and development", 0.0, 0, 1447200000, 3, 3, 3], [2086525804, "BSN iGCSE Biology Unit 2 Transportation", 0.0, 0, 1447200000, 48, 3, 3], [169864257, "HCE SN", 0.0, 0, 1446768000, 88, 0, 0], [559726571, "BSN iGCSE Biology Unit 2 Respiration", 0.0, 0, 1447200000, 18, 3, 3], [755321781, "BSN iGCSE Biology unit 4 energy flow, food chains and webs", 0.0, 0, 1447200000, 14, 3, 3], [1144312688, "BSN iGCSE Biology Unit 2 Coordination and Response", 0.0, 0, 1447200000, 67, 3, 3], [216396281, "BSN Y7 Science 2015/2016 Unit 7B", 0.0, 0, 1444608000, 74, 0, 0], [2023391460, "ISN Idioma de Se\u00f1as de Nicaragua SignoEscritura 2015", 0.0, 0, 1428796800, 1537, 0, 1539], [1907661654, "vrijednosni papiri i \u010dek (mjenica je posebno!)", 0.0, 0, 1441756800, 13, 0, 0], [145963288, "SNU Korean Level III - Chapter 10", 0.0, 0, 1375401600, 40, 0, 0], [1829964949, "Jess and Pierre baby huskies snowballs and snowflakes", 0.0, 0, 1414454400, 14, 0, 25], [1434207652, "SNU Korean Level III - Chapter 4", 0.0, 0, 1366502400, 58, 0, 0], [3859266767, "SNU Korean Level III - Chapter 17", 0.0, 0, 1382054400, 52, 0, 0], [3173814939, "MA1 - Pharmacologie sp\u00e9ciale - SNC", 0.0, 0, 1354838400, 57, 0, 371], [533170176, "persisk undervisning med Nina", 0.0, 0, 1413244800, 78, 0, 0], [297376608, "HSNR QM", 0.0, 0, 1412985600, 25, 1, 1], [154629047, "Tema 01. Farmacolog\u00eda II. Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [926224351, "SNU Korean Level III - Chapter 8", 0.0, 0, 1369267200, 62, 0, 0], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [599218560, "SNU Korean Level III - Chapter 26", 0.0, 0, 1390435200, 56, 0, 0], [522544564, "patent law cases obviousness 103", 0.0, 0, 1437609600, 395, 0, 0], [2910846820, "SNU Korean Level III - Chapter 14", 0.0, 0, 1382659200, 48, 0, 0], [30965350, "Magnus Osnes", 0.0, 0, 1380931200, 92, 0, 189], [1003864234, "Akkadian (Caplice & Snell)", 0.0, 0, 1345852800, 103, 0, 0], [203268522, "SNU Korean Level III - Chapter 15", 0.0, 0, 1383264000, 40, 0, 0], [252212980, "HSNR FL", 0.0, 0, 1412985600, 7, 1, 5], [969427906, "Grundlagen Geoinformatik und GIS Osnabr\u00fcck", 0.0, 0, 1423353600, 236, 0, 62], [1380081262, "SNU Korean Level III - Chapter 9", 0.0, 0, 1373846400, 50, 0, 0], [1194837694, "SNU Korean Level III - Chapter 25", 0.0, 0, 1390435200, 52, 0, 0], [2286463404, "SNU Korean Level III - Chapter 16", 0.0, 0, 1382054400, 62, 0, 0], [1466124812, "SNU Korean Level III - Chapter 28", 0.0, 0, 1390435200, 60, 0, 0], [2051401135, "Spindel Swedish vocabulary (Snoogles' Swedish vocab +extra)", 0.0, 0, 1416873600, 2429, 0, 0], [2493042107, "SNU Korean Level III - Chapter 19", 0.0, 0, 1383609600, 44, 0, 0], [3730387021, "SNU Korean Level III - Chapter 12", 0.0, 0, 1377820800, 48, 0, 0], [1508231824, "Farmacolog\u00eda II Introducci\u00f3n al SNC", 0.0, 0, 1363910400, 102, 0, 10], [1235203236, "Hassn Learn German", 0.0, 0, 1406937600, 5, 0, 0], [1159498295, "Japanese Mindsnacks", 5.0, 1, 1409788800, 263, 3, 0], [3525784978, "Moser, Magnus Osnes", 0.0, 0, 1380931200, 19, 0, 43], [936311751, "Izpit_voditelj_colna-4del-OSNOVE_MOTOROZNANSTVA", 0.0, 0, 1414281600, 50, 0, 0], [4242706138, "SNYDER SOCIAL PSYCHOLOGY TEST 4", 0.0, 0, 1386201600, 82, 0, 0], [3001640188, "SNU Korean Level III - Chapter 6", 0.0, 0, 1367798400, 42, 0, 0], [1836679632, "Farmaka - handelsnavne. Danish.", 0.0, 0, 1399680000, 360, 0, 0], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [2763627563, "Alger, Magnus Osnes", 0.0, 0, 1380931200, 44, 0, 86], [3644428051, "SNU Korean Level III - Chapter 5", 0.0, 0, 1366675200, 48, 0, 0], [1932092857, "SNU Korean Level III - Chapter 2", 0.0, 0, 1364428800, 68, 0, 0], [1209267614, "Chinese Characters SNU Beginner", 0.0, 0, 1395100800, 23, 0, 0], [1697091757, "SNS sushi kaburimaki", 0.0, 0, 1436918400, 7, 0, 7], [2279589440, "SNU Korean Level III - Chapter 11", 0.0, 0, 1375401600, 42, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [3745368357, "Fisk, Magnus Osnes", 0.0, 0, 1380931200, 43, 0, 92], [12815549, "SNU Korean Level III - Chapter 20", 0.0, 0, 1384300800, 48, 0, 0], [879581836, "SNU Korean Level II", 0.0, 0, 1364515200, 1509, 0, 0], [2491100568, "SNU Korean Level III - Chapter 7", 0.0, 0, 1368662400, 66, 0, 0], [52274113, "SNU Korean Level III - Chapter 23", 0.0, 0, 1387152000, 54, 0, 0], [488809474, "Math Sec 5 SN", 0.0, 0, 1426377600, 33, 0, 0], [3450987865, "SNU Korean Level III - Chapter 13", 0.0, 0, 1382400000, 86, 0, 0], [2925910463, "Fugl, Magnus Osnes", 0.0, 0, 1381363200, 52, 0, 103], [182834143, "HSNR IA", 0.0, 0, 1412985600, 33, 1, 2], [1566827315, "Son 116, exam 1 CSN", 0.0, 0, 1377734400, 68, 0, 0], [1880263679, "SNU Korean Level III - Chapter 22", 0.0, 0, 1386201600, 52, 0, 0], [2499805006, "SNU Korean Level III - Chapter 1", 0.0, 0, 1364428800, 44, 0, 0], [1099784376, "SNU Korean Level III - Chapter 18", 0.0, 0, 1383264000, 46, 0, 0], [2030693060, "SNU Korean Level III - Chapter 3", 0.0, 0, 1365379200, 82, 0, 0], [509177649, "UQ MBBS 1 PBL 6 He Doesn't Listen to a Word I Say", 0.0, 0, 1395532800, 57, 0, 0], [1630954056, "Magnus Osnes, Magnus Osnes, Magnus Osnes", 0.0, 0, 1381190400, 69, 0, 167], [1956669759, "SNU Korean Level III - Chapter 21", 0.0, 0, 1385596800, 56, 0, 0], [158344546, "Snoogles' Swedish vocabulary", 4.5, 2, 1345852800, 2266, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Sn</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[3142086355, "German B2 Level Vocabulary from \"Lesetraining B2\", etc", 4.5, 2, 1383004800, 1480, 0, 0], [302939103, "[Nederlands/Dutch] Chemische elementen/Chemical elements", 0.0, 0, 1443657600, 118, 1, 92], [1476547324, "All exported words from the Duolingo Dutch course", 0.0, 0, 1453766400, 1849, 8, 16], [1989658614, "Oxidative phosphorylation and ETC", 0.0, 0, 1454803200, 12, 0, 3], [1558539004, "Barron's Basic Word List: 1500 words for the PSAT, SAT, etc.", 0.0, 0, 1345852800, 1467, 0, 0], [913280093, "LacVietCards", 4.5, 2, 1403395200, 3354, 6708, 310], [953269262, "Japanese Core 10k +Pics +Audio +Pitch", 4.57, 14, 1444867200, 9567, 19136, 9569], [1666805772, "TCA cycle pharmacy keele", 5.0, 1, 1454803200, 13, 0, 1], [356158293, "Advanced English vocabulary with Dutch translation", 2.0, 1, 1365638400, 1079, 0, 169], [638673681, "English Dutch, photo's, Take it Easy, unit 3 Groep 7", 5.0, 1, 1454889600, 40, 40, 40], [335616092, "SM27 - Mercury's Mental Match", 0.0, 0, 1454025600, 28, 0, 0], [729345299, "TCB Largest Migration in Human History", 0.0, 0, 1454716800, 25, 0, 0], [1880481633, "Dutch Core 100 - Basic words (EN  NL with audio)", 0.0, 0, 1436832000, 202, 109, 116], [1812032714, "Deutch:4000 German words by frequency with Google example t", 0.0, 0, 1438041600, 4214, 4222, 0], [145326421, "Bash Terminal Shortcuts", 0.0, 0, 1452988800, 41, 0, 0], [280585373, "Numbers 0 to 100 English-Dutch (to learn the Dutch numbers!)", 0.0, 0, 1453248000, 101, 0, 1], [145456411, "TCC BIO 1224 CHAPTER 3 SUGAR/CARBS", 0.0, 0, 1453334400, 13, 0, 0], [680228202, "TCC BIO 1224 CHAPTER 3", 0.0, 0, 1453334400, 71, 0, 0], [915160001, "2_Nima_Dutch for foreigners", 0.0, 0, 1453334400, 1926, 219, 6], [1788664578, "TCC Histology AO", 0.0, 0, 1452556800, 24, 0, 0], [289954030, "TCC BIO 1224 CHAPTER 3 PROTEINS/ AMINO ACIDS", 0.0, 0, 1453334400, 13, 0, 0], [389702299, "Elementary Koine Greek, Year One, Open Texture, Gatchell", 4.8, 5, 1449878400, 159, 0, 0], [571619549, "Outcomes c1", 0.0, 0, 1453075200, 150, 0, 0], [1808598082, "German Phrases - tCb26man", 0.0, 0, 1451174400, 1, 0, 0], [319131686, "Nederlands onregelmatige werkwoorden, Dutch irregular verbs", 0.0, 0, 1450310400, 164, 0, 0], [398271053, "Sketchy complete", 4.33, 3, 1449360000, 841, 0, 1385], [388909500, "SM14 - Match Point for Sailor Moon", 0.0, 0, 1452297600, 31, 0, 0], [1085600304, "rowan som fundamentals 2 microbiology LECTURE 2 MHC TCR", 0.0, 0, 1410307200, 60, 0, 26], [2071465633, "daily dutch ", 0.0, 0, 1449792000, 518, 0, 0], [1266628384, "nolas kitchen menue", 0.0, 0, 1449446400, 69, 66, 0], [329202566, "TCC Biochem Final Review", 0.0, 0, 1450051200, 150, 0, 0], [1932801897, "In the Kitchen", 0.0, 0, 1448841600, 36, 0, 0], [381398147, "Anno's Dutch (Tatoeba Sentence) Deck\t", 5.0, 1, 1346112000, 3731, 0, 0], [351011424, "NTNU MTC Intensive Course - Book 1 - Chapter 1 - Part 1", 0.0, 0, 1449187200, 32, 45, 86], [833452978, "Beginners' Dutch (Chris Reall)", 0.0, 0, 1447891200, 309, 1, 1], [597350353, "Alter Ego 5 - pages 32/33 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1445731200, 24, 20, 0], [615562332, "Dutch Quick & Dirty 30 (EN  NL)", 0.0, 0, 1443225600, 60, 38, 45], [1825069896, "NTNU MTC Chapter 3", 0.0, 0, 1444176000, 41, 0, 0], [10278944, "Mitchell Spanish deck", 5.0, 3, 1440460800, 129, 18, 0], [292904133, "Alter Ego 5 - pages 28/29 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1445299200, 32, 23, 0], [1015922922, "TC - Kapitel 4", 0.0, 0, 1444089600, 10, 0, 0], [583371233, "Alter Ego 5 - pages 16/17 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1444867200, 48, 29, 0], [1458057343, "NTNU MTC Chapter 4", 0.0, 0, 1444176000, 37, 0, 0], [1718612437, "Alter Ego 5 - pages 18/19 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1444867200, 46, 32, 0], [822564642, "NTNU MTC Chapter 2", 0.0, 0, 1444176000, 37, 0, 0], [371239211, "Alter Ego 5 - pages 30/31 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1445644800, 24, 16, 0], [2960499733, "Dutch Top 2000 words", 0.0, 0, 1345852800, 2284, 0, 0], [355778091, "Alter Ego 5 - pages 42/43 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1447027200, 30, 20, 0], [605209248, "NPM 2 outcome measures (unit 1)", 0.0, 0, 1444694400, 89, 0, 0], [319982982, "Alter Ego 5 - pages 34/35 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1445904000, 29, 17, 0], [1801117060, "TC - Kapitel 13", 0.0, 0, 1444089600, 10, 0, 5], [1591672796, "Top notch EN to Fa", 0.0, 0, 1444867200, 1722, 0, 0], [966802854, "TC - Kapitel 3", 0.0, 0, 1444089600, 10, 0, 0], [1463782152, "TC - Kapitel 10", 0.0, 0, 1444089600, 10, 0, 1], [1887918966, "NTNU MTC Chapter 1", 0.0, 0, 1444176000, 43, 0, 0], [1068569084, "Alter Ego 5 - pages 40/41 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1446076800, 36, 26, 0], [1525868014, "Alter Ego 5 - pages 22/23 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1444867200, 27, 19, 0], [1127040122, "Stritch Cardiovascular", 0.0, 0, 1445472000, 239, 0, 3], [745206623, "TC - Kapitel 12", 0.0, 0, 1444089600, 10, 0, 0], [2059487354, "nyitcom exam 2", 0.0, 0, 1442534400, 47, 0, 0], [1586638814, "\u53f0\u7063\u6559\u80b2\u90e8\u5e38\u7528\u570b\u5b57", 3.33, 3, 1404259200, 4808, 0, 4808], [1166769531, "Alter Ego 5 - pages 26/27 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1445212800, 33, 27, 0], [734332708, "TC - Kapitel 1", 0.0, 0, 1444089600, 10, 0, 0], [795302720, "OTC Exam 1", 0.0, 0, 1442707200, 337, 0, 7], [78219437, "VIM shortcuts", 0.0, 0, 1443657600, 11, 0, 0], [2052190299, "TC - Kapitel 14", 0.0, 0, 1444089600, 10, 0, 1], [1524526736, "TC - Kapitel 2", 0.0, 0, 1444089600, 10, 0, 0], [806418773, "immunology BCR and TCR signaling", 0.0, 0, 1442880000, 38, 0, 10], [238875433, "UK Postcode Areas", 0.0, 0, 1442016000, 124, 0, 0], [1443959440, "Alter Ego 5 - pages 20/21 fran\u00e7ais-tch\u00e8que", 0.0, 0, 1444867200, 33, 21, 0], [1301254094, "TC - Kapitel 11", 0.0, 0, 1444089600, 10, 0, 1], [2107680498, "Stritch Pharmacology-Serotonin and dopamine", 0.0, 0, 1440633600, 85, 0, 3], [1183283276, "TC - Kapitel 5", 0.0, 0, 1444089600, 10, 0, 4], [254682225, "Dutch \u53f3\u8111\u8377\u5170\u8bed8000\u53e5 \u6d78\u6ce1\u8bad\u7ec3", 0.0, 0, 1444435200, 8403, 120, 150], [889344812, "TCC TRI 1 ANATOMY QUIZ 1", 0.0, 0, 1442793600, 66, 0, 55], [59802978, "Windows 10 Microsoft Edge shortcuts", 3.0, 1, 1439164800, 35, 0, 0], [1218758649, "Stritch Pharmacology-NSAIDs", 0.0, 0, 1440720000, 75, 0, 3], [790313954, "Hebrew From Scratch, Books 1&2 - Heb-Eng / Eng-Heb", 0.0, 0, 1441238400, 2006, 0, 0], [172090763, "TY A02 Kitchen ", 0.0, 0, 1438646400, 10, 10, 10], [395736849, "Sublime Keyboard Shortcuts - Windows/Linux", 0.0, 0, 1441065600, 54, 0, 0], [1820537461, "Stritch Pharmacology-Neuromuscular relaxants", 0.0, 0, 1440633600, 52, 0, 3], [100297296, "stritch pharmacology-cholinergics", 0.0, 0, 1440374400, 73, 0, 3], [673195899, "Week 2 Thrombosis Etc.", 0.0, 0, 1409443200, 48, 0, 0], [625029814, "Chem 103 - Ions and Periodic Table etc", 0.0, 0, 1412726400, 107, 0, 0], [1439005826, "Windows 10 Keyboard Shortcuts ", 0.0, 0, 1439164800, 48, 0, 1], [1414849158, "Planes, motions, etc lecture", 0.0, 0, 1440547200, 62, 0, 0], [831434309, "Stritch Pharmacology-Local Anesthetics", 0.0, 0, 1440720000, 37, 0, 3], [206507225, "MTC - Greek 2 :: More than 50", 0.0, 0, 1424822400, 67, 1, 2], [3987413013, "TCM Review Formula Kings", 0.0, 0, 1345852800, 22, 0, 0], [1313090174, "Matches for World Cup Brazil 2014", 0.0, 0, 1386460800, 64, 0, 0], [760788138, "Stritch Pharmacology-Opioid Analgesics", 0.0, 0, 1440633600, 34, 0, 3], [1076980328, "Stritch Pharmacology-General Anesthetics", 0.0, 0, 1440720000, 36, 0, 3], [843159562, "Hebrew from scratch ", 0.0, 0, 1437264000, 1976, 0, 0], [2007657608, "Brookes, Vocab, is good, shake hands, etc.", 0.0, 0, 1414800000, 43, 0, 0], [1491048570, "TY A03 Kitchen Objects", 0.0, 0, 1438646400, 8, 8, 8], [2248880549, "TCM Review Maciocia Point Prescriptions", 0.0, 0, 1345852800, 63, 0, 0], [1614953931, "Remember The Milk Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1166254470, "TCC GENERAL PATHOLOGY TRI 1 FIRST MIDTERM MATERIAL", 0.0, 0, 1423440000, 169, 0, 0], [1907294248, "Last stretch!", 0.0, 0, 1397088000, 131, 0, 20], [940243165, "Dutch birds -- sounds, appearance and taxonomy", 5.0, 2, 1429660800, 92, 129, 128], [634337459, "CTCFL Oxford Multimedia Roleplay Vocab", 0.0, 0, 1432771200, 210, 0, 0], [907867893, "Mitchel 3F", 0.0, 0, 1423440000, 27, 56, 0], [1177723414, "Deutch - Polish irregular verbs", 0.0, 0, 1380844800, 27, 0, 0], [493004830, "Anatomy - Fetal circulation, etc.", 0.0, 0, 1412899200, 51, 0, 2], [1570416332, "Dutch to English Days and Months (with sound)", 0.0, 0, 1409443200, 32, 32, 0], [3696922563, "FND2 cards anatomy, histo, pharm, cancer, etc", 0.0, 0, 1350518400, 12, 0, 0], [1721788321, "Hat\u00e1stan 2. OTC", 0.0, 0, 1419638400, 59, 0, 0], [2625437215, "TCM Review CALE 83 Formulas Key Signs & Symptoms", 0.0, 0, 1345852800, 83, 0, 0], [1353699972, "TCM Review CAM Basic Point Rx", 0.0, 0, 1345852800, 57, 0, 0], [2065817272, "Dutch (CVO Module 1)", 0.0, 0, 1350691200, 1715, 0, 0], [213299794, "TCR and T Cell Maturation", 0.0, 0, 1424649600, 97, 0, 39], [2043979719, "Sublime Text 3 shortcuts for Windows", 0.0, 0, 1405468800, 55, 5, 0], [3256824214, "Hebrew From Scratch-Book B", 0.0, 0, 1345852800, 37, 0, 0], [1435582198, "Dutch to English Basic Phrases (with sound)", 0.0, 0, 1409443200, 37, 37, 0], [1466173870, "MTC 2nd year New Testament Set Text Greek Vocab", 0.0, 0, 1373932800, 430, 0, 1], [93117126, "Simplified radicals matched with images", 0.0, 0, 1345852800, 214, 0, 200], [347088350, "CCNP SWITCH", 0.0, 0, 1364428800, 409, 0, 0], [301925772, "d\u00e9veloppement produits selbstcheck", 0.0, 0, 1423699200, 160, 0, 1], [1630139002, "Mitchel 3E", 0.0, 0, 1423440000, 28, 58, 0], [119714158, "Chrome Windows keyboard shortcuts", 0.0, 0, 1392336000, 76, 0, 0], [491428126, "Dutch - Persian, Opmaat Book Words", 0.0, 0, 1415923200, 83, 0, 0], [3882925778, "Persian greetings, gestures etc. (Persian - Polish)", 0.0, 0, 1379462400, 28, 0, 0], [351890062, "TCM Review CAM Extended Point Rx", 0.0, 0, 1345852800, 42, 0, 0], [1350839493, "Gmail Shortcut (on Windows)", 0.0, 0, 1427414400, 72, 0, 0], [2191004342, "StudentCafe Comunity on Google+", 0.0, 0, 1362441600, 17, 0, 0], [471921478, "Dutch Idioms", 0.0, 0, 1431907200, 300, 0, 0], [1541766241, "Common Masora Parva Abbreviations Hebrew MTC 2013", 0.0, 0, 1361145600, 29, 0, 0], [1210442727, "TCR Development and Maturation ", 0.0, 0, 1424649600, 84, 0, 48], [1922897734, "aloisdutch", 0.0, 0, 1417305600, 238, 2, 3], [799122703, "MTC NT3 Greek Vocab version 2", 0.0, 0, 1401235200, 1006, 0, 0], [100594280, "TCM Review Formulas & Biomedical Disorders", 0.0, 0, 1345852800, 74, 0, 0], [1615416392, "Vimium keyboard shortcuts", 5.0, 1, 1392336000, 38, 0, 0], [2560734270, "TCM Review Extra Points Location", 0.0, 0, 1345852800, 40, 0, 0], [858052399, "dakua'ana davi: kitchen", 0.0, 0, 1411689600, 17, 17, 14], [136682947, "TCM Review Pulse Diagnosis", 0.0, 0, 1345852800, 17, 0, 0], [1963764618, "Dutch to English Phrases for Travelers (with sound)", 0.0, 0, 1409443200, 261, 261, 0], [903758353, "Diagnostics for TCM", 0.0, 0, 1424304000, 328, 0, 26], [112394026, "Google Docs shortcuts for Mac", 0.0, 0, 1416873600, 118, 5, 0], [547681559, "FTCE Professional Education Test Prep", 0.0, 0, 1434585600, 478, 0, 0], [465249195, "TCM Review Formula Pulses", 0.0, 0, 1345852800, 83, 0, 0], [316602744, "Dutch-Russian Neiweu 1", 4.0, 1, 1390780800, 434, 0, 0], [3301862686, "Single-malt Scotch whisky by region", 0.0, 0, 1382227200, 89, 0, 0], [117768731, "OTC and Pharmacogenomics", 0.0, 0, 1429574400, 76, 0, 61], [1649482475, "m4 - etc", 0.0, 0, 1402099200, 21, 0, 1], [649610078, "Mitchel's Hebrew Vocabulary (1A-5S)", 0.0, 0, 1383264000, 1432, 0, 0], [805236247, "linux shell navigation shortcuts", 0.0, 0, 1400457600, 27, 0, 0], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [2932400150, "TCM Review Functions of Organs CAM", 0.0, 0, 1345852800, 62, 0, 0], [922500239, "Pro Tools Shortcuts", 0.0, 0, 1445472000, 79, 0, 79], [545615075, "Chinese TC L4", 0.0, 0, 1396915200, 185, 0, 0], [2126805285, "Mitchel's Hebrew Vocab (1A - 5BB) (Complete)", 0.0, 0, 1389657600, 1988, 0, 0], [2139299562, "TCF KT FR-CS-FR", 0.0, 0, 1392854400, 27, 0, 0], [1262620338, "Eclipse keyboard shortcuts", 0.0, 0, 1400457600, 28, 0, 0], [2649777831, "Mitchell's Spanish Deck", 0.0, 0, 1345852800, 1175, 0, 0], [1635858878, "word shortcuts", 0.0, 0, 1419465600, 38, 0, 0], [1148631605, "MTC - Greek 1A & 1B 2014", 0.0, 0, 1410825600, 438, 0, 0], [3932561036, "TCM Review Acupuncture Contraindications", 0.0, 0, 1345852800, 33, 0, 0], [3440390949, "Gmail Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1508715355, "Google Docs shortcuts for Windows", 0.0, 0, 1409270400, 139, 5, 0], [1366894931, "Test Deck for Burke and Hatcher", 0.0, 0, 1410307200, 13, 0, 4], [1801781780, "TCC_ENG_111", 0.0, 0, 1370822400, 46, 0, 0], [1447342046, "Eclipse shortcuts ", 0.0, 0, 1407283200, 91, 4, 34], [1559867382, "7jours - Pandas, Sotchi, la Suisse", 0.0, 0, 1396137600, 50, 0, 0], [3351948672, "In Slovak language, names of countries, languages, etc.", 0.0, 0, 1360886400, 40, 0, 0], [1406271395, "Fundamentals 2 TCM Review", 0.0, 0, 1345852800, 26, 0, 0], [2105085313, "M4 TCA", 0.0, 0, 1402099200, 24, 0, 3], [1029475086, "hat\u00e1stan 3. OTC", 0.0, 0, 1419638400, 41, 0, 0], [1175044573, "Sublime Text 3 shortcuts for Mac", 0.0, 0, 1416528000, 100, 5, 0], [773822861, "Nola's Kitchen -- menu for the best Cajun food in Taiwan!", 0.0, 0, 1416355200, 69, 66, 0], [2231031207, "TCM Review Shang Han Lung", 0.0, 0, 1345852800, 19, 0, 0], [2631758615, "TCM Review 83 CALE Formulas", 0.0, 0, 1345852800, 83, 0, 0], [633555337, "Hugo- Dutch in three months", 0.0, 0, 1395705600, 266, 175, 0], [1432429643, "Dannii's QTC Greek", 0.0, 0, 1393459200, 306, 0, 0], [347320395, "PTCE Flashcards 2014", 0.0, 0, 1413763200, 681, 0, 0], [2808982211, "TCM Review Zang Fu Diagnosis CAM", 0.0, 0, 1345852800, 95, 0, 0], [1236098686, "Asana keyboard shortcuts", 0.0, 0, 1393459200, 35, 0, 0], [4192047854, "TCM Review Formula Ingredients 6 or less", 0.0, 0, 1345852800, 60, 0, 0], [2870257275, "TCM Review Big Picture Point Location", 0.0, 0, 1345852800, 121, 0, 0], [1028493176, "TISANE + ? (OTCWL 2014)", 0.0, 0, 1426896000, 24, 0, 0], [4103149021, "TCM Review Point Indications", 0.0, 0, 1345852800, 156, 0, 0], [352964077, "ETC", 0.0, 0, 1409616000, 150, 0, 19], [1945045249, "hat\u00e1stan 1. OTC", 0.0, 0, 1419638400, 201, 0, 0], [991824144, "Top Notch English", 3.5, 2, 1427760000, 3445, 1210, 0], [1739730520, "North American Scrabble - 3s with hooks (OTCWL14)", 0.0, 0, 1428105600, 765, 0, 0], [1828322799, "French-Dutch SELOR 8000 words + reverse", 5.0, 1, 1388275200, 7543, 0, 0], [342115584, "Korean Kitchen", 0.0, 0, 1395360000, 54, 0, 52], [1203542828, "French-Dutch SELOR 8000 words", 4.14, 7, 1345852800, 8074, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

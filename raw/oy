@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1360487529, "JLPT Joyo Kanji N4\u30fbWriting Practice", 0.0, 0, 1454544000, 40, 0, 0], [3461391870, "Croy A Primer of Biblical Greek (w/ Audio), all chapters", 0.0, 0, 1378771200, 488, 465, 0], [1947234588, "wear and tear for the boys", 0.0, 0, 1453852800, 36, 0, 5], [541754233, "Anatomy", 0.0, 0, 1449878400, 302, 0, 235], [1399457752, "Nagoya YWCA \u4e2d\u7d1aVocab", 0.0, 0, 1449187200, 534, 0, 0], [1340908953, "Voyages, Unit\u00e9 6", 0.0, 0, 1448409600, 174, 0, 0], [355292019, "Nagoya YWCA \u4e2d\u7d1a\u306e\u6f22\u5b57", 0.0, 0, 1449187200, 739, 0, 0], [319013065, "Voyages 1 unite 10 Florian Altenburger", 0.0, 0, 1447804800, 273, 0, 0], [1170259496, "Voyages 1, Unit\u00e9 7", 0.0, 0, 1447804800, 97, 0, 0], [272666332, "Voyages 1 Unit\u00e9 3", 0.0, 0, 1448409600, 150, 0, 0], [936645857, "French/English in the Media : Employment", 0.0, 0, 1444176000, 288, 0, 0], [160049642, "Voyages 1 Unit\u00e9 9", 0.0, 0, 1447804800, 139, 0, 0], [535541696, "Royal Marines Trivia", 0.0, 0, 1445126400, 29, 0, 0], [761928951, "Voyage Unit\u00e9 6", 0.0, 0, 1448409600, 174, 0, 0], [1012981177, "Voyage \u00danite 3 ", 0.0, 0, 1445385600, 150, 0, 0], [1558444186, "Presupuesto Empresarial OyM", 0.0, 0, 1445558400, 20, 0, 0], [1210521771, "Voyages 1 Unit\u00e9 5", 0.0, 0, 1445385600, 158, 0, 0], [1350477406, "Voyages 1 Unit\u00e9 1", 0.0, 0, 1444262400, 198, 0, 0], [1634048091, "Voyages 1 Unti\u00e9 2", 0.0, 0, 1445385600, 177, 0, 0], [1099485630, "simons yoyo chinese lesson 1 ", 0.0, 0, 1443830400, 2, 3, 1], [1065931444, "Nagoya YWCA \u521d\u7d1aII \u3051\u3044\u3054", 0.0, 0, 1435449600, 26, 0, 0], [1536913770, "\u0423\u043a\u0440\u0430\u0457\u043d\u043e-\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u043e\u0437\u043c\u043e\u0432\u043d\u0438\u043a \u0437 \u0441\u0430\u0439\u0442\u0443 uk.wikivoyage.org", 0.0, 0, 1435795200, 219, 256, 47], [1344872557, "UQ MBBS 1 PBL 3 Blue is for Boys", 0.0, 0, 1395532800, 50, 0, 0], [1734883124, "Joyce Goppert Shona Vocab", 0.0, 0, 1435968000, 624, 0, 0], [1929163880, "Voyage Neu A1 - Klett Verlag", 0.0, 0, 1401580800, 1874, 0, 0], [635670360, "Grade 3 joyou kanji", 0.0, 0, 1428105600, 86, 0, 0], [1801603017, "Clayton Croy Basic Greek lesson 7 Vocabulary", 0.0, 0, 1411689600, 14, 0, 0], [911678134, "Joy of Code #3 and #4", 0.0, 0, 1411776000, 11, 0, 11], [1676457876, "history of japan muromachi momoyama", 5.0, 1, 1399334400, 296, 0, 0], [116832626, "Athis moyen orient", 0.0, 0, 1395705600, 13, 0, 0], [537392164, "Anatamoy Histology (Tissue) and Embryonic Development", 0.0, 0, 1425168000, 41, 0, 0], [2044489115, "Joyou Kanji (Fran\u00e7ais-Japonais)", 0.0, 0, 1345852800, 1945, 0, 0], [178137368, "Nagoya YWCA \u521d\u7d1a2", 0.0, 0, 1428710400, 629, 0, 0], [377406306, "Nagoya YWCA \u521d\u7d1a\uff11", 0.0, 0, 1423699200, 996, 0, 0], [2032728557, "Cuestionario de Evaluacion de Proyectos 1", 0.0, 0, 1417564800, 11, 0, 0], [2042655279, "Kanji Reading (Joyo Kanji - Torres)", 0.0, 0, 1398124800, 2135, 0, 0], [219301475, "Moyzis Deck for Human Genome", 0.0, 0, 1409961600, 69, 0, 1], [4031746778, "Loyola Biology", 0.0, 0, 1384300800, 607, 0, 0], [646808114, "Joyou Kanji (Japonais-Fran\u00e7ais)", 0.0, 0, 1345852800, 1945, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Oy</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

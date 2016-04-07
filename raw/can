@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1364052597, "\u7cb5\u8a9e\u8072\u8abf\u7df4\u7fd2 Cantonese Tone Practice", 5.0, 1, 1388188800, 664, 2284, 0], [477508551, "Beginner Latin American Spanish Sentences", 5.0, 10, 1437868800, 1224, 0, 1], [1850331009, "MP Cancer Stuff", 0.0, 0, 1454976000, 47, 0, 0], [1195399361, "Small Test English-Cantonese deck with Audio", 0.0, 0, 1454371200, 429, 426, 0], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [1558401647, "Cantonese Core 100 - Basic words (EN  YUE with audio)", 3.0, 2, 1437004800, 206, 111, 116], [1755465447, "Improved Cantonese Characters", 5.0, 3, 1400716800, 4971, 0, 0], [980800905, "AQA GCSE Earthquakes, Volcanoes and Tsunamis AQA(Case Study)", 0.0, 0, 1454371200, 5, 0, 0], [546073968, "Moroccan Arabic - Marrakech", 0.0, 0, 1453334400, 238, 132, 0], [1663345793, "Mexican slang - Chrissy 1/23", 0.0, 0, 1453593600, 326, 3, 1], [1922706184, "Canadian Capitals", 0.0, 0, 1453939200, 13, 3, 0], [1207542311, "Canada exam radio amateur", 0.0, 0, 1453507200, 972, 0, 0], [1267581783, "Volcanoes (English-Italian)", 0.0, 0, 1452384000, 92, 92, 0], [632799882, "CFP Canada: Introduction to Retirement Planning", 0.0, 0, 1452297600, 24, 0, 0], [947146768, "Swiss Cantons", 5.0, 1, 1440633600, 26, 20, 52], [1123992319, "93 radiculalgie et sd canalaire", 0.0, 0, 1452643200, 10, 0, 0], [1365709043, "Cantonese with Audio", 0.0, 0, 1451347200, 1262, 1270, 9], [566759793, "Farmakologi - immunsuppresiva og cancerkemoterapi", 0.0, 0, 1450656000, 21, 0, 1], [368455659, "A la barikadoj / A las barricadas (canci\u00f3n en esperanto)", 0.0, 0, 1405728000, 62, 0, 0], [1797577864, "CSIM2 - Cancer", 0.0, 0, 1448582400, 114, 0, 0], [1774727787, "MUSC M2 Block 9 PTN: Cancer Chemotherapy", 0.0, 0, 1448928000, 116, 0, 0], [192468623, "Parmely w/cancer", 0.0, 0, 1450051200, 83, 10, 60], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [901113318, "Vocabulari de \"Les vacances du petit Nicolas\", A2", 0.0, 0, 1448150400, 123, 0, 0], [301398508, "DLI Toishan-Cantonese Chinese (Hoisanva, Toisanwa, Taishanhu", 0.0, 0, 1415664000, 504, 0, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 5.0, 1, 1345852800, 3527, 0, 0], [1809133183, "USask PHPM - Cancer screening and epidemiology", 0.0, 0, 1448064000, 22, 0, 2], [609859235, "Higghg", 0.0, 0, 1447804800, 78, 0, 0], [1173643101, "Mandarin and Cantonese basic vocabulary", 0.0, 0, 1447718400, 43, 0, 0], [812605889, "ACA CSIM 2 CANCER", 0.0, 0, 1447286400, 217, 0, 0], [601430429, "Mozambican Slang", 0.0, 0, 1445299200, 75, 0, 0], [776116990, "Grade 4 Social Studies (Alberta CANADA)", 0.0, 0, 1445472000, 16, 0, 0], [823641985, "Cantonese Quick & Dirty 30 (EN  ZH-HK)", 0.0, 0, 1443225600, 60, 38, 45], [392669899, "Deck for early cancer bio lectures", 0.0, 0, 1443571200, 87, 0, 0], [1202262232, "miriam- pharm: anti-cancer", 0.0, 0, 1445212800, 138, 2, 82], [1672129383, "American Heritage Fish Final 2", 0.0, 0, 1439424000, 89, 0, 0], [938157854, "Neck and Optic Canal", 0.0, 0, 1444176000, 351, 0, 304], [799476298, "Cancer Bio, Module 2", 0.0, 0, 1441065600, 24, 0, 0], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [774673559, "UGA Math 2250 Cantarella Background Material", 0.0, 0, 1439856000, 19, 0, 38], [949548458, "Canadian HAM radio study guide", 0.0, 0, 1441411200, 28, 0, 0], [327830779, "American Foxtrot", 0.0, 0, 1442361600, 18, 0, 0], [788936408, "MDTI 01.28.15 Cancer Chemotherapy", 0.0, 0, 1423094400, 64, 0, 4], [1256673416, "Math 2250 Cantarella Chapter 2 Limits", 0.0, 0, 1439856000, 15, 0, 30], [1404505877, "All sentences from Paul Graham's essay \"What you can't say\"", 0.0, 0, 1441497600, 371, 0, 0], [683848162, "[CAN 134] British Political Vocabulary", 0.0, 0, 1442793600, 34, 0, 0], [793705624, "CT scans of thorax at various levels", 0.0, 0, 1423958400, 5, 0, 13], [268376408, "South American States with Capitals and Flags", 0.0, 0, 1428969600, 15, 8, 17], [860055, "American Heritage Fish Final 1", 0.0, 0, 1439424000, 123, 0, 0], [763798048, "Cantonese FSI Dialogs with Audio and Cantonese Characters", 4.67, 3, 1409011200, 333, 334, 0], [557214482, "North American Bird Habitats", 0.0, 0, 1394064000, 32, 0, 32], [193901374, "American History II", 0.0, 0, 1437523200, 64, 0, 0], [1414206868, "Identify Canadian coins and their denomination", 0.0, 0, 1432512000, 28, 0, 6], [1933399475, "RLR #88 \u2013 West African English ", 5.0, 2, 1421798400, 30, 30, 0], [2002154682, "CAnatomy Written 2", 0.0, 0, 1434067200, 41, 0, 47], [1256908716, "Lung Cancer", 0.0, 0, 1352332800, 27, 0, 0], [1834084273, "Latin for Americans I -- Core Vocabulary", 0.0, 0, 1435968000, 91, 0, 1], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 0.0, 0, 1425686400, 36, 35, 0], [1253169459, "Cantonese Slang Deck V 0.1 Beta", 5.0, 1, 1403568000, 7659, 0, 0], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 0, 1430956800, 60, 60, 119], [3696922563, "FND2 cards anatomy, histo, pharm, cancer, etc", 0.0, 0, 1350518400, 12, 0, 0], [572259576, "CAnatomy 2", 0.0, 0, 1433548800, 58, 0, 62], [974867521, "OMM patient with cancer", 0.0, 0, 1393027200, 44, 0, 0], [2027784644, "Pathophys of Ovarian Cancer", 0.0, 0, 1431561600, 53, 0, 0], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [1297936826, "Chronic Gastritis and Gastric Cancer", 0.0, 0, 1376784000, 50, 0, 9], [51206747, "English Minimal Pairs (General American)", 0.0, 0, 1432512000, 24, 48, 48], [1047140265, "NUR 414 Cancer", 0.0, 0, 1424736000, 50, 0, 0], [1376268026, "A1. Lesson 18. Hobby", 0.0, 0, 1424217600, 24, 24, 9], [1638028325, "Cantonese: Home", 0.0, 0, 1426550400, 10, 0, 0], [334737434, "Oral Cancer (Messadi)", 0.0, 0, 1389830400, 70, 0, 4], [558607438, "North American Biomes and National Parks", 1.0, 1, 1392508800, 130, 0, 117], [495109510, "3000 most common Chinese characters in Cantonese", 5.0, 1, 1426550400, 2998, 0, 0], [3168762770, "Northern Moroccan Arabic Short deck", 0.0, 0, 1354579200, 255, 0, 0], [983695202, "Transport Canada TP 11919 (PSTAR)- Student Pilot Permit or P", 0.0, 0, 1360972800, 192, 0, 1], [2372739227, "Seminario Rab\u00ednico Latinoamericano/Talmud/Sedarom/Brajot001", 0.0, 0, 1383436800, 61, 0, 0], [3053287388, "Reflux Esophagitis and Esophageal Cancer", 0.0, 0, 1376611200, 61, 0, 18], [406540368, "Max*/Matiar/Ameer Cancer", 0.0, 0, 1379808000, 106, 0, 35], [657794675, "canc\u00e9ro ttt syst\u00e9miques Marie", 0.0, 0, 1411948800, 14, 0, 0], [759807376, "Cantonese: Adverbs/Frequency", 0.0, 0, 1426550400, 29, 0, 0], [940439508, "RLR #94 \u2013 American Sports Idioms", 0.0, 0, 1425427200, 30, 30, 0], [2105092537, "MCM Test 3: BSC Cancer and Aging: Uncontrolled Cell Growth", 0.0, 0, 1408492800, 50, 0, 0], [95933989, "CAnatomy 1 VCOM-CC", 0.0, 0, 1430352000, 165, 0, 149], [2806828525, "Etruscan alphabet", 0.0, 0, 1359244800, 37, 0, 37], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [292642240, "Cantonese: Adjectives", 0.0, 0, 1426550400, 21, 0, 0], [2001703362, "Cantonese: Travel", 0.0, 0, 1426550400, 19, 0, 0], [404266064, "Cantonese: Technology", 0.0, 0, 1426550400, 59, 0, 0], [340374459, "Cantonese: School", 0.0, 0, 1426550400, 15, 0, 0], [3970436026, "HMS.IMP.Cancer.Viruses", 0.0, 0, 1370131200, 18, 0, 17], [4266277634, "HMS.IMP.Biology.Cancer.2", 0.0, 0, 1369008000, 17, 0, 13], [1658493557, "Can't Stand", 0.0, 0, 1345852800, 17, 10, 0], [2451250379, "Phonemes of American English and their transcription", 0.0, 0, 1345852800, 101, 0, 0], [1503753850, "Gynecologic Pathology 3/Ovarian Cancer", 0.0, 0, 1431475200, 66, 0, 24], [1519635985, "Most common sites of Cancer metastasis", 0.0, 0, 1390867200, 12, 0, 0], [887707950, "Genetics of breast cancer", 0.0, 0, 1431475200, 29, 0, 0], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [914384441, "Prime Ministers of Canada", 0.0, 0, 1401062400, 27, 0, 0], [1753283400, "Vocabulaire de l'administration publique - Canada", 0.0, 0, 1426550400, 500, 0, 0], [659195959, "Jess and Pierre Cotton Candy", 0.0, 0, 1401667200, 12, 0, 27], [2116198153, "Cancer Screening Canada", 0.0, 0, 1390867200, 2, 0, 0], [3259188396, "Cancer", 0.0, 0, 1382400000, 14, 0, 0], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [5489026, "2013 Keele Med 2.2 Cancer (Yr2 Term 2)", 0.0, 0, 1420156800, 13, 0, 0], [1035756223, "USask PHPM - CanMeds Roles", 0.0, 0, 1443398400, 4, 0, 0], [998955102, "Cantonese: Verbs", 0.0, 0, 1426550400, 33, 0, 0], [56697303, "Native North American Art", 0.0, 0, 1389398400, 56, 0, 41], [1670903604, "HMS.IMP.Cancer.Molecular.Path", 0.0, 0, 1370563200, 16, 0, 12], [445220383, "Cantonese Characters with Audio v2", 5.0, 1, 1430265600, 4976, 1859, 0], [2050155518, "MCB4 - cancer the works", 0.0, 0, 1427846400, 121, 0, 47], [874720863, "Moroccan Arabic Vocabulary", 0.0, 0, 1359849600, 1100, 0, 558], [665403172, "UMMCantibiocsPharmblock4", 0.0, 0, 1420848000, 125, 0, 13], [668066204, "OXFORD 4032 AMERICAN WORDS WITH SOUND", 0.0, 0, 1431388800, 4032, 0, 0], [1494163897, "Can;t remember what dis 1 is", 0.0, 0, 1420761600, 139, 0, 1], [63262519, "Childhood cancers", 0.0, 0, 1411257600, 32, 0, 0], [1051104765, "Advanced Latin American Spanish", 0.0, 0, 1379376000, 148, 0, 0], [526748859, "200 Cancer questions for all to demolish this exam ", 0.0, 0, 1428624000, 234, 0, 17], [183858094, "Cantonese pronunciation for the2400 most common characters i", 0.0, 0, 1415491200, 2400, 0, 0], [376944437, "Etruscan Art", 0.0, 0, 1386720000, 1, 0, 1], [3089905314, "American Idioms", 5.0, 1, 1345852800, 600, 0, 0], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [1462853146, "Cantonese Phrases & Sentences 2 - update", 0.0, 0, 1428364800, 46423, 0, 0], [1719293397, "Cantonese \u5ee3\u6771\u8a71\uff0f\u7cb5\u8a9e Beta v0.7", 5.0, 2, 1432771200, 22492, 22886, 1], [1311279548, "Egyptian-American Slang", 0.0, 0, 1424044800, 751, 35, 70], [113340701, "Canc\u00e9ro Hug oChapitre 1-15", 0.0, 0, 1387238400, 175, 0, 0], [154048518, "OSU - Neuro - Skull Foramen, Fossa, and Canals", 0.0, 0, 1421280000, 64, 0, 11], [3722058742, "HMS.IMP.Biology.Cancer.1", 0.0, 0, 1369008000, 19, 0, 12], [642581911, "Canto1", 0.0, 0, 1373673600, 18, 0, 0], [464457748, "Canadian Postal Abbreviations", 1.0, 1, 1401580800, 13, 0, 0], [1890834391, "CFA Aerial Pumper Mills Tui scania ", 0.0, 0, 1404604800, 22, 0, 0], [1482579965, "25 Largest African Countries - Map Quiz", 0.0, 0, 1401321600, 27, 0, 25], [2051342523, "AUC cancer", 0.0, 0, 1427155200, 37, 0, 6], [1739730520, "North American Scrabble - 3s with hooks (OTCWL14)", 0.0, 0, 1428105600, 765, 0, 0], [396214265, "Cantonese: Shopping", 0.0, 0, 1426550400, 21, 0, 0], [2471957626, "American English Braille Grades 1 & 2", 0.0, 0, 1357084800, 254, 0, 206], [1839131377, "Chinese Cantonese Idiom Deck V0.1 Beta", 5.0, 1, 1403568000, 2721, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Can</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

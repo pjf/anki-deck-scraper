@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1911281669, "A 3.000 leggyakoribb angol sz\u00f3", 0.0, 0, 1452556800, 2630, 0, 0], [116713276, "BBC French Year 1", 0.0, 0, 1454803200, 476, 0, 0], [377055827, "BB", 0.0, 0, 1454457600, 87, 0, 33], [1185715360, "CP2019bb", 0.0, 0, 1452643200, 187, 0, 0], [731004346, "\u570b\u4e2d\u55ae\u5b57\u9032\u968e 800 \u62fc\u5b57\u5361 junior high 800 vocabulary Scrabble", 0.0, 0, 1447718400, 796, 794, 0], [702141744, "Capital Cities of Central America and Caribbean Islands", 0.0, 0, 1381881600, 39, 0, 0], [1012870475, "BBC Lifts", 0.0, 0, 1445385600, 25, 0, 7], [2075911918, "BBC The meaning of clothes", 0.0, 0, 1445472000, 23, 0, 7], [337648845, "BB2", 0.0, 0, 1445731200, 852, 0, 160], [2016827836, "KBB deck, anatomi, patoloji", 0.0, 0, 1443830400, 2428, 0, 361], [1986318382, "BBC Summer-born kids", 0.0, 0, 1445472000, 16, 0, 7], [1681815053, "BBC Are models too skiny?", 0.0, 0, 1442275200, 5, 0, 7], [150000781, "BBC Does your CV shine?", 0.0, 0, 1445472000, 14, 0, 7], [1266989783, "BBC The three-parent baby", 0.0, 0, 1442275200, 38, 0, 7], [998729854, "BBC Is a game just a game?", 0.0, 0, 1442275200, 19, 0, 7], [1418483849, "BBC The story about coffee", 0.0, 0, 1442275200, 38, 0, 7], [1094232123, "BBC The cost of live-saving vaccines", 0.0, 0, 1442275200, 30, 0, 7], [809280648, "BBC Why did Singapore ban gum?", 0.0, 0, 1442275200, 48, 0, 7], [2103574239, "BBC The bitter taste of sugar", 0.0, 0, 1442275200, 24, 0, 7], [1001905065, "BBC Food banks", 0.0, 0, 1442275200, 27, 0, 7], [152479176, "Emergency pharmacology roots suffixes prefixes abbreviations", 0.0, 0, 1441238400, 55, 0, 0], [1809280561, "BBC Outernet", 0.0, 0, 1442275200, 22, 0, 7], [1618767460, "LAM Mouse Virus", 0.0, 0, 1407888000, 219, 0, 0], [1754505716, "THER Exam 2 AbbyO", 0.0, 0, 1440633600, 347, 0, 19], [1344872557, "UQ MBBS 1 PBL 3 Blue is for Boys", 0.0, 0, 1395532800, 50, 0, 0], [979471370, "Jumbucks 2000 JQXZ Scrabble Power Plays", 0.0, 0, 1345852800, 2044, 0, 0], [928000207, "BB 02.11.15 Neurons and Glia", 0.0, 0, 1423785600, 35, 0, 4], [356695260, "UQ MBBS1 PBL2 It's Just Indigestion", 0.0, 0, 1395532800, 144, 0, 2], [497779833, "UQ MBBS 1 PBL 8 War and Peace", 0.0, 0, 1395532800, 44, 0, 3], [1581633273, "BBoD Histo", 0.0, 0, 1398816000, 68, 0, 76], [1341214217, "Clinical Examination Flash Cards UQ MBBS OSCEs", 0.0, 0, 1400630400, 21, 0, 0], [1974021586, "Malaysia Medical Common Practice Abbreviation", 0.0, 0, 1434585600, 233, 0, 0], [1481797526, "UQ MBBS 1 PBL 10 Vincent is off Colour", 0.0, 0, 1395532800, 64, 0, 6], [1884589265, "AP Style State Abbreviations", 0.0, 0, 1406073600, 51, 0, 0], [1260177003, "The Northern Welsh alphabet per the BBC.", 0.0, 0, 1433203200, 28, 28, 0], [1233762177, "vocabbie_japanese", 0.0, 0, 1398729600, 9, 0, 0], [274465222, "KCOM - Dr. Robbins cases Neuro I block", 0.0, 0, 1430265600, 101, 1, 192], [3595942198, "MBB Summative 2 - JJF ", 0.0, 0, 1368230400, 425, 0, 241], [905989576, "Balin BBB 1/12/2015", 0.0, 0, 1421193600, 31, 0, 4], [798453957, "UQ MBBS 1 PBL 12 Hidden in the Crypts", 0.0, 0, 1395532800, 79, 0, 0], [1516397919, "BBoD Block 3", 0.0, 0, 1401408000, 329, 0, 207], [1581782216, "MBB Summative 1 - JJF", 0.0, 0, 1365465600, 218, 0, 100], [1769880216, "GKT MBBS5 notes ", 0.0, 0, 1431734400, 139, 0, 10], [715281609, "BB 02.10.15 Intro to Neuroanatomy/Neuroimaging", 0.0, 0, 1423785600, 22, 0, 17], [4117913563, "Az 50 leggyakoribb n\u00e9met ige (\u00d6t \u00e9v - \u00f6t nyelv)", 0.0, 0, 1357862400, 50, 0, 0], [2942580985, "UQ MBBS 1 PBL 13", 0.0, 0, 1370822400, 99, 0, 1], [1376268026, "A1. Lesson 18. Hobby", 0.0, 0, 1424217600, 24, 24, 9], [336400966, "BB PBL", 0.0, 0, 1432857600, 142, 0, 0], [2753501751, "UQ MBBS 1 Histology Semester 2", 0.0, 0, 1395532800, 149, 0, 236], [1443981745, "BB 02.12.15 NMJ Transmission", 0.0, 0, 1424304000, 31, 0, 0], [988773582, "Map Caribbean Islands", 3.0, 2, 1355961600, 28, 0, 1], [988266460, "jobbintervjuet - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [2246466820, "Jumbucks Even More 3600 Scrabble Power Plays", 0.0, 0, 1345852800, 6165, 0, 0], [3102821065, "Jumbucks 4000 JQXZ Scrabble Bingo Sets", 0.0, 0, 1345852800, 3877, 0, 0], [1510458734, "Medical Abbreviations (NSU Tampa AA)", 0.0, 0, 1345852800, 798, 0, 0], [1102185141, "BB drugs", 0.0, 0, 1424822400, 32, 0, 0], [399005380, "IAU 20 aminos by groups with mneumonics and abbreviations", 0.0, 0, 1382832000, 37, 0, 0], [1541766241, "Common Masora Parva Abbreviations Hebrew MTC 2013", 0.0, 0, 1361145600, 29, 0, 0], [1845781229, "KYCOM Rx Abbv", 0.0, 0, 1411430400, 27, 0, 0], [5863628, "hobbys", 0.0, 0, 1398211200, 18, 18, 17], [1762168852, "UQ MBBS 1 PBL 4 Breathless", 0.0, 0, 1395532800, 86, 0, 0], [932759414, "Peter Rabbits Encyclopaedia of recipes", 0.0, 0, 1428364800, 1548, 0, 2003], [477054748, "MBB Anatomy EMV", 0.0, 0, 1397433600, 269, 0, 183], [937506456, "GrabBag2 Shared", 0.0, 0, 1410307200, 102, 0, 43], [1286284367, "KCOM - Dr. Robbins Cases (Neuro Block II)", 0.0, 0, 1423872000, 112, 1, 214], [2211969297, "MBBS 1 Week 31 - Emerald City", 0.0, 0, 1350172800, 102, 0, 27], [370844235, "Bubba Gump's FOH Top 10", 0.0, 0, 1424649600, 10, 0, 0], [2067961893, "UQ MBBS 1 PBL 5 A Nasty Cough", 0.0, 0, 1395532800, 86, 0, 0], [1045625989, "Hobbys", 0.0, 0, 1413936000, 59, 59, 61], [1615194005, "MBBS 1 Week 27 - It's the Two of Us", 0.0, 0, 1349481600, 129, 0, 48], [2992898750, "MBBS Week 30 - From F to A", 0.0, 0, 1349740800, 109, 0, 36], [2118567816, "MBBS III USMLE extras", 0.0, 0, 1350259200, 350, 0, 0], [107339191, "UQ MBBS1 Semester 1 Histology", 0.0, 0, 1395532800, 125, 0, 188], [3575334093, "MBBS 1 Week 28 - Birthday Party", 0.0, 0, 1349654400, 106, 0, 20], [1124494805, "MBBS 1 Week 33 - Jack and his Spots", 0.0, 0, 1349395200, 68, 0, 31], [839385032, "Newcastle MBBS Stage 2 - CSIM", 0.0, 0, 1399766400, 1005, 0, 4], [3221112066, "Peter UEA MBBS Yr 1-4 (1.2)", 0.0, 0, 1360022400, 9307, 5, 1346], [1571795634, "Gastroenterology Clinical UQ MBBS III ", 0.0, 0, 1400630400, 230, 0, 30], [1516370227, "UQ MBBSIII Cardiovascular Clinical", 0.0, 0, 1400630400, 139, 0, 1], [98362632, "UQ MBBS III Respiratory Clinical", 0.0, 0, 1400630400, 199, 0, 58], [2126805285, "Mitchel's Hebrew Vocab (1A - 5BB) (Complete)", 0.0, 0, 1389657600, 1988, 0, 0], [1500411413, "UQ MBBS 1 PBL 8 Not Even a Dribble", 0.0, 0, 1395532800, 90, 0, 19], [780627802, "BBM CBL FINALLLLLLL", 0.0, 0, 1406160000, 143, 0, 21], [1917551990, "UQ MBBS 1 PBL 17 Smash and Burn", 0.0, 0, 1395532800, 43, 0, 6], [3816457520, "Jumbucks 22,000 Scrabble FHKVWY Bingo Sets", 0.0, 0, 1345852800, 22247, 0, 0], [327137949, "UQ MBBS 1 PBL 11", 0.0, 0, 1370822400, 66, 0, 0], [1898438041, "aaabbb", 0.0, 0, 1396828800, 4432, 0, 0], [2785007846, "vvooccaabbuullaarryy 2", 0.0, 0, 1382832000, 250, 248, 0], [1254039965, "Peter Rabbits Recent Favourite Recipes", 0.0, 0, 1428364800, 287, 0, 35], [1039995539, "Neurology Clinical UQ MBBS III", 0.0, 0, 1400630400, 298, 0, 7], [313325777, "UQ MBBS III Rheumatology and Orthopaedics Clinical", 0.0, 0, 1400630400, 89, 0, 56], [1364481455, "US Postal Abbreviations", 3.67, 3, 1405814400, 55, 0, 0], [1017614436, "Robbie's Comprehensive Spanish Deck", 0.0, 0, 1392768000, 7864, 0, 49], [3917326353, "MBBS Week 32 - Just my Annual Checkup Dr!", 0.0, 0, 1350172800, 81, 0, 17], [3064043740, "Jumbucks Top 3600 Scrabble Power Plays", 0.0, 0, 1345852800, 3600, 0, 0], [509177649, "UQ MBBS 1 PBL 6 He Doesn't Listen to a Word I Say", 0.0, 0, 1395532800, 57, 0, 0], [1824432068, "Australian Postal Abbreviations", 1.0, 1, 1401580800, 9, 0, 0], [464457748, "Canadian Postal Abbreviations", 1.0, 1, 1401580800, 13, 0, 0], [1436914378, "UQ MBBS 1 PBL 7 Starting Work", 0.0, 0, 1395532800, 55, 0, 0], [1312356000, "Jumbucks Top 3600 Scrabble Bingo Sets", 0.0, 0, 1345852800, 3600, 0, 0], [1739730520, "North American Scrabble - 3s with hooks (OTCWL14)", 0.0, 0, 1428105600, 765, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Bb</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

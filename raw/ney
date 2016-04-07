@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1543605227, "Kidney Physiology questions about Homeostasis", 0.0, 0, 1449532800, 61, 0, 12], [1472796448, "Edexcel Chemistry Unit 4 organic triglycerides Sydney", 0.0, 0, 1448928000, 15, 0, 5], [1022510556, "Edexcel Chemistry unit 4 organic esters Sydney", 0.0, 0, 1448928000, 6, 0, 4], [2080897934, "Edexcel Chemistry unit 4 Sydney", 0.0, 0, 1448928000, 384, 0, 87], [599351576, "Short and Sweet Path Questions deck made from Repro/Kidney ", 0.0, 0, 1445299200, 49, 0, 11], [1275945354, "Kidney and Urinary Tract Pathology", 0.0, 0, 1441670400, 102, 0, 48], [1073860645, "Kidneys", 0.0, 0, 1442620800, 24, 0, 0], [1584659462, "Diaphragm, Liver, Gall Bladder, Kidneys, Posterior Abdominal", 0.0, 0, 1440374400, 20, 0, 24], [298539925, "Assessing Kidney Function", 0.0, 0, 1441756800, 11, 0, 0], [2026167464, "Chapter 17 Physiology of the Kidneys", 0.0, 0, 1432684800, 16, 0, 0], [730142465, "Courtney wants, Courtney gets", 0.0, 0, 1434326400, 62, 0, 36], [1726688279, "Leaving Cert Chemistry for Courtney", 0.0, 0, 1432080000, 282, 0, 35], [1208876092, "Geography leaving cert for Courtney", 0.0, 0, 1432166400, 896, 0, 129], [526354263, "ED Money vocabulary Polish-English", 0.0, 0, 1425772800, 77, 0, 0], [401628011, "Water Analysis for my friend, Courtney", 5.0, 1, 1432080000, 52, 0, 5], [1634283011, "Lecom embryo kidney", 0.0, 0, 1411862400, 39, 0, 22], [1316378259, "Mawhinney Genetics Lectures", 0.0, 0, 1411430400, 140, 0, 0], [570858257, "A2. Lesson 14. Sydney", 0.0, 0, 1424908800, 24, 24, 0], [287844216, "MCB II Block II Money Questions", 0.0, 0, 1423872000, 233, 0, 0], [827714409, "Business English. B1. Common English expressions about money", 0.0, 0, 1427500800, 8, 0, 0], [1845645316, "CofO2 - 16 - Kidney", 0.0, 0, 1345852800, 39, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ney</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

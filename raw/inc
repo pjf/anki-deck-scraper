@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[942922371, "Genki 1 & 2, Incl Genki 1 Supplementary Vocab", 4.13, 16, 1345852800, 1369, 0, 0], [1284364645, "Italian provinces and more", 1.0, 1, 1413504000, 110, 0, 110], [43473203, "Persona 4 Japanese/English inc. audio", 0.0, 0, 1453161600, 2060, 4104, 0], [626697504, "ASL Browser with 4500 Signs including video", 4.5, 2, 1380067200, 4585, 0, 0], [1317415526, "\u0422\u0435\u0440\u043c\u0438\u043d\u044b PRINCE2 (En-Ru)", 0.0, 0, 1454112000, 123, 0, 0], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [3066506982, "Chinese provinces and more", 4.75, 4, 1359158400, 33, 28, 33], [728984990, "Chiro Principles II Test 1", 0.0, 0, 1452729600, 12, 0, 0], [64066910, "Sveriges landskap (Provinces of Sweden)", 1.0, 1, 1441238400, 25, 0, 0], [397694561, "Fixed-Income Markets: Issuance, Trading, and Funding (R. 53)", 0.0, 0, 1451088000, 17, 0, 0], [447833305, "English Phonology Distinctive Features (simple definitions)", 0.0, 0, 1450483200, 20, 8, 15], [445209496, "ASCII (including control characters)", 0.0, 0, 1450742400, 128, 4, 2], [748023513, "JLPT N3 Kanji and Vocab English (some German included) Miri", 5.0, 1, 1446940800, 1887, 0, 0], [507639030, "Mastronarde Principal Parts", 0.0, 0, 1447459200, 203, 0, 213], [1182673372, "Mastronarde Principal Parts Greek->English", 0.0, 0, 1447200000, 1146, 2, 3], [1441898979, "Prince Eiken 1", 0.0, 0, 1452556800, 187, 0, 0], [1195349525, "Flashcard Anglais DOA Saint-Vincent Soignies UNIT 1-2-3-4", 0.0, 0, 1446940800, 230, 225, 4], [1331864142, "Viral Incubation Periods", 0.0, 0, 1447545600, 18, 10, 8], [1745066759, "Prince2_Foundation_MusterFragen_Komplex-B_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [82677516, "Prince2_Foundation_MusterFragen_Komplex-A_x75_german", 0.0, 0, 1446076800, 75, 0, 0], [1821520709, "Map of Asian States Includes Capitals and Flags", 0.0, 0, 1428969600, 49, 8, 61], [334275188, "Principles of Science Hannah", 0.0, 0, 1444780800, 104, 0, 0], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [721789011, "Pa\u00edses y Capitales del Mundo (banderas inclusive)", 5.0, 1, 1440374400, 194, 0, 248], [1584961659, "trgova\u010dko pravo zagreb markovinovi\u0107 - BK, incoterms, FA", 0.0, 0, 1442361600, 37, 0, 0], [2248232206, "N\u00e9met alapsz\u00f3kincs", 2.5, 2, 1348272000, 1997, 0, 0], [1789951069, "MB1 Diseases to know (incomplete)", 0.0, 0, 1439596800, 16, 0, 0], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 5.0, 1, 1392940800, 183, 0, 257], [2057005770, "Principles of Medicine", 0.0, 0, 1439251200, 114, 0, 0], [1644983890, "Note Type: Incremental Video", 0.0, 0, 1419724800, 1, 7, 0], [46523033, "(CZ czech \u010desk\u00fd) (slovak slovensk\u00fd) SK <-> EN (en) Da Vinci", 0.0, 0, 1345852800, 713, 0, 0], [867320286, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1427500800, 104, 0, 0], [1642480002, "Principles of Surgery - UniSR", 0.0, 0, 1399075200, 198, 0, 6], [1481797526, "UQ MBBS 1 PBL 10 Vincent is off Colour", 0.0, 0, 1395532800, 64, 0, 6], [1401321967, "Spanish 51 LMC Flashcards (Incomplete)", 0.0, 0, 1345852800, 398, 0, 0], [570283553, "USask PHPM - CoreCompDivInc", 0.0, 0, 1399420800, 0, 0, 0], [746685063, "Note Type: Incremental Reading", 3.5, 2, 1417910400, 1, 7, 0], [1063173856, "CBI Incoming Team Study Deck", 0.0, 0, 1423612800, 277, 0, 0], [1982292827, "JP Principles of Medicine 1", 0.0, 0, 1408060800, 76, 0, 0], [1751497983, "JLPT Grammar Deck N5-N3 (incomplete)", 0.0, 0, 1393632000, 36, 0, 0], [683595098, "Finnish- first 400 words included", 4.0, 1, 1421020800, 1215, 0, 0], [3684459441, "HMS.HG.Principles.Genetics", 0.0, 0, 1354492800, 17, 0, 12], [2548009715, "Italian DOC Wines and provinces", 5.0, 1, 1345852800, 307, 0, 0], [1666337911, "Hoofdsteden van Nederlandse provincies", 0.0, 0, 1345852800, 12, 0, 0], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [1253228986, "Kcom Princibles cardiac ECG", 0.0, 0, 1397347200, 343, 0, 161], [68946285, "Vocabeln - N\u00e9met sz\u00f3kincsem (magyar-n\u00e9met)", 0.0, 0, 1428883200, 67, 0, 0], [1503109249, "Personal Grammar List For Korean (Incomplete)", 0.0, 0, 1405209600, 50, 0, 0], [1817933893, "Koinonia Hsinchu Matthew 5-7 Study Guide", 0.0, 0, 1345852800, 27, 0, 0], [1140509702, "BLJClinColloq ", 0.0, 0, 1409097600, 332, 0, 4], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [1375309025, "principaux verbes avec pr\u00e9position Anglais-Fran\u00e7ais", 0.0, 0, 1428537600, 117, 0, 0], [663758758, "CFA L2 Fixed Income - \u5c39\u51ef\u54f2", 0.0, 0, 1427846400, 33, 0, 21], [37296923, "AME CONSTITUCIONAL - PRINC\u00cdPIOS FUNDAMENTAIS", 0.0, 0, 1409788800, 5, 0, 0], [3804262200, "NT Greek Verbs with all Principal Parts", 0.0, 0, 1373500800, 293, 0, 0], [1752151944, "Paradigmi principali verbi latini Giuriato", 0.0, 0, 1410739200, 51, 0, 0], [1941182989, "BSHo Gyn Prolapse and Incontinence", 0.0, 0, 1396396800, 21, 0, 0], [1951398672, "Moore College Greek Principal Parts", 0.0, 0, 1391731200, 30, 0, 0], [1201041586, "IELTS 1499 (570 AWL included) EN-RUS", 0.0, 0, 1398124800, 1499, 0, 0], [1871478532, "Erwin Tschirner - N\u00e9met sz\u00f3kincs 1-600 sz\u00f3", 0.0, 0, 1357862400, 600, 0, 0], [1920283289, "MBI-2309 (2010, incomplete)", 0.0, 0, 1345852800, 145, 0, 1], [2055762311, "University of Cincinnati Karp Exam 2", 0.0, 0, 1393200000, 89, 0, 0], [520478565, "Pharmacokinetic Principles Pharmacokinetic Principles Pharma", 0.0, 0, 1412121600, 4, 0, 4], [4105518009, "Petite Prince (first 8 pages) - Russian", 0.0, 0, 1379894400, 500, 0, 0], [1961469242, "N\u00e9met sz\u00f3kincsem", 3.0, 2, 1396483200, 4783, 0, 0], [1275490436, "China Provinces, Regions, and Capital Cities", 0.0, 0, 1345852800, 34, 0, 34], [1153179671, "Provinces and Capitals of China", 3.0, 3, 1381708800, 34, 0, 0], [1457602678, "Nederland Provincies", 0.0, 0, 1419379200, 12, 0, 12], [572904172, "General Principles of Screening", 0.0, 0, 1390867200, 16, 0, 0], [1838387453, "Erwin Tschirner: Angol sz\u00f3kincs + Best of English - [en-hu]", 4.62, 29, 1452384000, 4081, 8162, 3], [1704650437, "N\u00e9met alapsz\u00f3kincs 2.", 0.0, 0, 1367798400, 2065, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Inc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

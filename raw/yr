@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1657050324, "Islenska fyrir alla", 0.0, 0, 1453334400, 907, 0, 0], [2700445208, "13 Przyroda LRM PP", 0.0, 0, 1345852800, 284, 277, 0], [124215149, "Hammersmith yr 1 French Mulvahil ", 0.0, 0, 1454889600, 218, 0, 26], [635407797, "fmthyroid", 0.0, 0, 1454803200, 52, 0, 0], [1578094647, "EmoryResearchEBM", 0.0, 0, 1453852800, 41, 0, 3], [1211009901, "Thyroid-AY", 0.0, 0, 1452729600, 9, 0, 0], [920672749, "241-HYPOTHYROIDIE", 0.0, 0, 1450137600, 13, 0, 0], [3052747002, "lyrics of several songs (using enumeration model)", 0.0, 0, 1345852800, 28, 0, 0], [1579844521, "Skyrim Vocabulary", 0.0, 0, 1430524800, 219, 3, 1], [1276033024, "11.4 Politik Syrien Konflikt ", 0.0, 0, 1449014400, 12, 0, 3], [892779309, "korean webtoon vocab (crispyring)", 0.0, 0, 1445040000, 121, 0, 27], [1717556008, "Til a\u00f0 l\u00e6ra fyrir k\u00fars um n\u00fd fasteignal\u00f6g", 0.0, 0, 1442620800, 17, 0, 0], [1470326566, "ELTE N\u00f6v\u00e9nyrendszertan gyakorlat", 0.0, 0, 1444003200, 78, 0, 79], [156942115, "yr 2 pink", 0.0, 0, 1441497600, 153, 0, 0], [150653593, "Pan's Labyrinth (El laberinto del fauno)", 5.0, 2, 1368316800, 243, 0, 0], [540406260, "AshleyRS1", 0.0, 0, 1430352000, 158, 0, 16], [1793795215, "\u5bf9\u9762\u7684\u5973\u5b69\u770b\u8fc7\u6765 - lyrics", 0.0, 0, 1345852800, 22, 0, 0], [1856212368, "Cyrylica Gra\u017cdanka", 0.0, 0, 1345852800, 187, 0, 70], [4249555588, "CecelyRUSSIANDATES", 0.0, 0, 1369872000, 18, 0, 0], [520072464, "2013 Keele Med 2.2 Drugs (Yr2 Term 2)", 0.0, 0, 1420156800, 23, 0, 0], [3428008707, "Thackston Introduction to Syriac", 0.0, 0, 1365206400, 709, 0, 436], [1938962501, "Spj\u00f6ld fyrir n\u00e1mskei\u00f0 Ve\u00f0r\u00e9ttur, fj\u00f6leignarh\u00fas og h\u00fasaleiga", 0.0, 0, 1425859200, 27, 0, 0], [2937531267, "Islenska fyrir alla 3 (fara/vera \u00ed/\u00e1/til)", 5.0, 1, 1391990400, 62, 0, 0], [158562446, "Syriac OT Peshitta by Word Frequency", 0.0, 0, 1393459200, 1665, 0, 1661], [276173231, "2013 Keele Med 2.2 Endocrine Pancreas (Yr2 Term 1)", 0.0, 0, 1420156800, 20, 0, 4], [1337952012, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Web 1.0\"", 0.0, 0, 1422403200, 21, 0, 6], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [1643257269, "ITB, IFL Bayreuth - Fragen zum Themenfeld \"Bin\u00e4re Gr\u00f6\u00dfen\"", 0.0, 0, 1422403200, 21, 0, 2], [18259943, "Michael's Syriac for vocab building", 0.0, 0, 1365033600, 2564, 0, 2557], [174798233, "2013 Keele Med 2.2 Immunology (Yr2 Term 2)", 0.0, 0, 1420156800, 11, 0, 1], [1761443214, "AshleyRS2", 0.0, 0, 1430352000, 53, 0, 0], [968446625, "ITB, IFL Bayreuth - Fragen zum Themenfeld Codierung", 0.0, 0, 1422403200, 20, 0, 4], [1278958368, "New Testament Syriac", 3.0, 1, 1364860800, 1780, 0, 887], [777040445, "UoN Yr4 Surgery Vivas", 0.0, 0, 1403395200, 272, 0, 50], [2066064891, "Kyrillisches Alphabet (Serbisch)", 0.0, 0, 1362700800, 30, 0, 0], [3221112066, "Peter UEA MBBS Yr 1-4 (1.2)", 0.0, 0, 1360022400, 9307, 5, 1346], [510333870, "arabic-verbs-as suffa-yr1-revised (smiah)", 0.0, 0, 1397779200, 105, 0, 210], [538793140, "Kyrgyz Vocabulary from the Gospel of Mark (LS Version)", 0.0, 0, 1426204800, 468, 0, 0], [34639855, "arabic-vocabs-as suffa-yr1-post mocks-revised (smiah)", 0.0, 0, 1397779200, 155, 0, 310], [440911762, "AshleyRS", 0.0, 0, 1430352000, 83, 0, 10], [4014779236, "extrapyramidal motor system", 0.0, 0, 1370217600, 13, 0, 0], [5489026, "2013 Keele Med 2.2 Cancer (Yr2 Term 2)", 0.0, 0, 1420156800, 13, 0, 0], [699302915, "2.1 Drugs (Keele Medicine Yr 2 Term 1 Drugs)", 0.0, 0, 1414368000, 17, 0, 0], [1231804262, "2013 Keele Med 2.1 Thyroid (Yr2 Term 1)", 0.0, 0, 1420156800, 12, 0, 2], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1782582509, "ITB,  IFL Bayreuth - Fragen zum Themenfeld \"Logik\"", 0.0, 0, 1422403200, 21, 0, 11], [527765080, "Syrian Colloquial Arabic - Chapter II", 5.0, 1, 1429920000, 163, 162, 0], [3907633940, "Troch\u0119 podstawowych wyraz\u00f3w z 1000 najcz\u0119\u015bciej u\u017cywanych s\u0142\u00f3", 0.0, 0, 1443830400, 939, 0, 0], [669847017, "ITB,  IFL Bayreuth - Fragen zum Themenfeld Zahlensysteme", 0.0, 0, 1422403200, 29, 0, 17], [1476852978, "ITB, IFL Bayreuth - Fragen zum Themenfeld ODR", 0.0, 0, 1422403200, 14, 0, 19], [1819837037, "Einstein 2nd yr ICM final", 0.0, 0, 1345852800, 254, 0, 0], [53113254, "Syrian Colloquial Arabic - Chapter III", 5.0, 1, 1429920000, 241, 247, 0], [1576637920, "Russian cyrillic part deux", 5.0, 2, 1345852800, 33, 31, 33]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Yr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[2007394494, "TalkEnglish Offline Package  M4R4M", 4.0, 2, 1408579200, 612, 0, 1], [167023255, "Let's Talk Hebrew Vocabulary", 0.0, 0, 1453334400, 66, 0, 57], [1761174017, "EKK Uralkod\u00f3k", 0.0, 0, 1452556800, 50, 0, 0], [2133136749, "Fall 2015 Condensed Alkene Reactions", 0.0, 0, 1449014400, 12, 0, 24], [809992848, "SM03 - Talk Radio", 0.0, 0, 1451174400, 25, 0, 0], [1151734453, "business small talk", 0.0, 0, 1448236800, 34, 0, 0], [1799661367, "Yt- och materialkemi CTH", 0.0, 0, 1442966400, 252, 0, 35], [634687222, "TMS 180-4: Walking in Victory", 0.0, 0, 1440374400, 36, 0, 0], [418024624, "Talk Italian", 0.0, 0, 1413936000, 179, 0, 0], [1394867056, "Talking to Toddlers Lesson 9 Vocabulary", 0.0, 0, 1398729600, 14, 0, 0], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [2007932029, "Oxford Tech Talk Pre internediate CPNV English Fan\u00e7ais", 0.0, 0, 1392940800, 1485, 0, 0], [3561358062, "Ochem Exam 2 Alkene Reactions", 0.0, 0, 1380931200, 16, 0, 15], [913002896, "Dutch words and phrazes from skype talks with colleague ", 0.0, 0, 1391817600, 49, 0, 0], [182729602, "RLR #78 \u2013 How to Talk About Hair", 0.0, 0, 1415836800, 30, 30, 0], [153841974, "Malk Kanji", 0.0, 0, 1416700800, 3007, 0, 0], [702002752, "Japanese TED talk w/ video clips, sentence diagrams", 0.0, 0, 1431475200, 82, 82, 163], [1949738488, "Sales Talk - 72 DHF Basic Words", 0.0, 0, 1380844800, 73, 0, 0], [1679567787, "JWalker - Spanish Deck", 5.0, 1, 1409702400, 8457, 587, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Alk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

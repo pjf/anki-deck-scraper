@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1426881144, "Ch1. Fundamentos Multimedia", 0.0, 0, 1454976000, 83, 0, 0], [831167744, "Ultimate kanji-reading deck  (kanji + words + statistics)", 5.0, 4, 1446940800, 25380, 0, 0], [523650169, "Ultimate JLPT N5 Vocabulary Deck v1.2", 3.8, 10, 1345852800, 689, 0, 0], [167031957, "Antimicrobial Prophylaxis", 0.0, 0, 1452643200, 12, 0, 0], [261823898, "Ultimate Geography v. 1.0", 4.0, 3, 1426204800, 309, 3, 568], [1668783345, "Ultimate JLPT N4 Vocabulary Deck v1.0", 3.67, 3, 1345852800, 689, 0, 0], [715012449, "2-digit Times Table", 0.0, 0, 1428624000, 7894, 1, 37], [1731406480, "Mapa \u015bwiata na podstawie Ultimate Geography v. 1.0", 0.0, 0, 1452038400, 309, 3, 568], [3043279898, "Bible Quiz 55 II Timothy", 0.0, 0, 1345852800, 48, 0, 0], [736548038, "Antimykotika", 0.0, 0, 1451433600, 32, 0, 0], [70904498, "SM09 - Time bomb", 0.0, 0, 1451606400, 22, 0, 0], [1302832056, "Timonel", 0.0, 0, 1449964800, 31, 0, 4], [234145886, "Baltimore Catechism No3", 0.0, 0, 1392768000, 1400, 0, 0], [364571018, "B\u00edblia - 2 Tim\u00f3teo", 0.0, 0, 1451260800, 83, 0, 0], [1521181522, "Selected Physical Constants (TIMSS 1995)", 0.0, 0, 1395360000, 13, 0, 2], [419405569, "Smart Time 2 [unit 1]", 0.0, 0, 1449619200, 7, 0, 0], [1638255177, "A verbatim copy and paste of the Bill of Rights", 0.0, 0, 1449705600, 10, 5, 0], [235147699, "Timo\u2019s All-In-One Chinese", 4.29, 14, 1445299200, 8292, 7965, 2496], [1766288894, "Prepositions (time)", 0.0, 0, 1447545600, 30, 0, 7], [90105830, "Timo's 5000 Most Common French Words", 0.0, 0, 1448064000, 4999, 5629, 0], [897279254, "once upon a time ", 0.0, 0, 1444694400, 27, 0, 0], [557722288, "Korean Time_Clare", 0.0, 0, 1446595200, 31, 0, 0], [2401376321, "AP World History Original Ultimate Set from Quizlet", 5.0, 1, 1367971200, 1481, 0, 0], [113518784, "Japanese Relative Time Words Version 1.01 (JTMW)", 0.0, 0, 1424390400, 118, 0, 0], [908907374, "Brookes Ultimate Japanese Vocab Deck v1.7", 0.0, 0, 1449705600, 889, 0, 1], [1180373593, "Business English. B1. Time phrases 2", 0.0, 0, 1428537600, 13, 0, 0], [50297673, "Settimana & date - italiano-giapponese", 0.0, 0, 1444780800, 57, 0, 0], [1940156985, "Bio timeline fam", 0.0, 0, 1445212800, 12, 0, 0], [1740812666, "Serbian Eng Tatoeba Sentences (Optimized for Srp-Eng) AAL", 0.0, 0, 1434153600, 737, 26, 103], [208971974, "Serbian Eng Tatoeba Sentences (Optimized for Eng-Srp) AAL", 0.0, 0, 1434153600, 668, 26, 103], [1024263426, "Hebrew In Time", 0.0, 0, 1442707200, 23, 0, 4], [1338419429, "The Ultimate CFA Level 1 Anki Deck", 5.0, 1, 1438300800, 1400, 8, 209], [34799596, "Kjeksitime IICD MCQ", 5.0, 1, 1392854400, 1461, 0, 146], [268620646, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [582786015, "S\u00e9ptima lecci\u00f3n de palabras y verbos b\u00falgaros", 0.0, 0, 1420070400, 38, 0, 0], [2710934401, "BUSINESS, WORK AND TIME - TEACHER CARLOS", 0.0, 0, 1378771200, 24, 0, 0], [1830428379, "Ultimate Kana", 0.0, 0, 1435104000, 208, 104, 0], [634337459, "CTCFL Oxford Multimedia Roleplay Vocab", 0.0, 0, 1432771200, 210, 0, 0], [1031602923, "Geologic Timescale", 0.0, 0, 1345852800, 43, 0, 0], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [35950596, "13240 Nav and Time review", 0.0, 0, 1366156800, 69, 0, 0], [1807278502, "LXX Greek Vocabulary - 100 Times or More", 0.0, 0, 1363392000, 546, 0, 0], [919087923, "13240 Airspace Time", 0.0, 0, 1366070400, 19, 0, 0], [1172824577, "Japanese Pronouncing Times (JTMW)", 0.0, 0, 1413158400, 29, 0, 0], [2014547000, "Business English. B1. Time phrases", 0.0, 0, 1427241600, 18, 0, 0], [1887044487, "Timonel - Aquilon II", 0.0, 0, 1345852800, 256, 0, 25], [1519497694, "Techniki Multimedialne - kolokwium zaliczeniowe", 0.0, 0, 1359072000, 72, 0, 8], [1481070479, "Tema 09. Farmacolog\u00eda II. Psicoestimulantes", 0.0, 0, 1363910400, 50, 0, 0], [1676730179, "Electrical Estimating Chapter 3", 0.0, 0, 1424822400, 52, 0, 0], [533890708, "\u0938\u092e\u092f\u0903 - Time", 0.0, 0, 1378857600, 62, 0, 0], [349062188, "Marathi - time", 0.0, 0, 1403654400, 27, 0, 0], [1724837242, "Times Tables", 0.0, 0, 1413590400, 50, 0, 0], [568608005, "Electrical Estimating Chapter 2", 0.0, 0, 1424649600, 59, 0, 0], [1681251175, "TIME\u5355\u63111000+\u7247\u6311200\uff08\u4e71\u5e8f\uff09", 4.5, 2, 1420588800, 1252, 1207, 7], [173710333, "Dakua'ana davi: sentimiento", 0.0, 0, 1411689600, 19, 19, 18], [931352610, "Optimal A1 Kapitel 9", 0.0, 0, 1421280000, 52, 0, 0], [591594728, "Utilaj frazoj - Kutimaj demandoj", 0.0, 0, 1427155200, 46, 46, 0], [1546594353, "Adjectives from Ultimate N5 Vocabulary deck", 0.0, 0, 1345852800, 126, 0, 0], [3810533592, "Bible Quiz 54 I Timothy", 0.0, 0, 1345852800, 65, 0, 0], [714191061, "Bauphysikalische Optimierung von Hochbaukonstruktionen", 0.0, 0, 1406073600, 152, 0, 9], [3609594007, "MHCHS Timeline of British Empire 1492-1763", 0.0, 0, 1370131200, 26, 0, 0], [774176087, "Aprendendo Latim", 0.0, 0, 1428796800, 7, 0, 0], [659810376, "German vocabulary Optimal A1", 0.0, 0, 1345852800, 657, 0, 0], [81212837, "Real-time Systems", 0.0, 0, 1426032000, 35, 0, 0], [1550608419, "Metzer's Koine Greek Vocab, 46-49 times frequency", 0.0, 0, 1409270400, 25, 0, 0], [349714788, "Ultimate Geography v. 1.0", 4.75, 12, 1404345600, 309, 3, 568]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tim</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

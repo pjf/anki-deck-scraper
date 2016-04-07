@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1695134078, "Kanjis LLCE 2 Bordeaux 3 1er Semestre", 0.0, 0, 1453248000, 381, 0, 1], [1342086679, "Comportements sociaux et tabous", 0.0, 0, 1453420800, 30, 0, 0], [1359459429, "Levantarea Studies Part Deux", 0.0, 0, 1453248000, 48, 0, 0], [1325646945, "Sopica syst\u00e8me nerveux", 0.0, 0, 1453248000, 20, 0, 1], [1007273388, "LPI - Linux Essentials ", 4.5, 2, 1441843200, 73, 0, 0], [1072699862, "Morse sonore lumineux mn\u00e9no fr", 0.0, 0, 1447632000, 59, 59, 4], [16021226, "Europe : drapeaux, pays, capitales", 5.0, 1, 1443312000, 45, 0, 90], [1674576176, "Vrai ou Faux Market Midterms", 0.0, 0, 1445299200, 41, 0, 0], [395736849, "Sublime Keyboard Shortcuts - Windows/Linux", 0.0, 0, 1441065600, 54, 0, 0], [2102532288, "Auxiliary Verbs", 0.0, 0, 1439942400, 53, 0, 0], [1033203112, "Tmux", 0.0, 0, 1431907200, 20, 0, 0], [382408377, "Nouveaux anticoagulants", 0.0, 0, 1437955200, 33, 0, 0], [96867093, "AME PROCESSO DO TRABALHO - SERVI\u00c7OS AUXILIARES DA JT", 0.0, 0, 1409788800, 34, 0, 0], [545938803, "liens familiaux en mandarin", 0.0, 0, 1436659200, 13, 14, 1], [3153208076, "Russian alphabet part deux", 0.0, 0, 1345852800, 33, 33, 0], [7067965, "[mux] Phrasal Verbs", 0.0, 0, 1392768000, 31, 0, 4], [3053287388, "Reflux Esophagitis and Esophageal Cancer", 0.0, 0, 1376611200, 61, 0, 18], [1555184885, "Linux", 1.0, 1, 1345852800, 1, 0, 0], [1950743421, "Bash Command Line For Linux", 5.0, 1, 1398729600, 245, 0, 0], [1345191673, "Th\u00e9orie des jeux", 0.0, 0, 1411344000, 36, 0, 0], [2960797504, "Intermediate French part deux", 0.0, 0, 1345852800, 3439, 1, 0], [94781327, "[mux] Phrases and Idioms", 0.0, 0, 1392768000, 56, 3, 4], [814604981, "glossaire des termes douaniers internationaux ", 0.0, 0, 1421366400, 165, 0, 0], [1375309025, "principaux verbes avec pr\u00e9position Anglais-Fran\u00e7ais", 0.0, 0, 1428537600, 117, 0, 0], [271466778, "Traitements anti-tumoraux syst\u00e9miques Hugo", 0.0, 0, 1387238400, 43, 0, 0], [59073739, "[mux] Pronunciation excercise", 4.0, 1, 1392768000, 76, 192, 1], [805236247, "linux shell navigation shortcuts", 0.0, 0, 1400457600, 27, 0, 0], [79948938, "Plans fran\u00e7ais g\u00e9n\u00e9raux  2014 1S4", 0.0, 0, 1402617600, 24, 0, 0], [2130011212, "chants d'oiseaux", 0.0, 0, 1422835200, 78, 78, 0], [1041114497, "World Flags part deux", 0.0, 0, 1345852800, 204, 0, 204], [1582951118, "signaux", 0.0, 0, 1427241600, 28, 0, 0], [426802809, "[mux] Common Mistakes", 0.0, 0, 1392768000, 36, 0, 0], [1938903213, "[mux] My Words", 0.0, 0, 1392768000, 626, 617, 22], [1576637920, "Russian cyrillic part deux", 5.0, 2, 1345852800, 33, 31, 33]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ux</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

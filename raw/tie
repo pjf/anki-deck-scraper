@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1460664383, "Droit des affaires - Partie 1/Chapitre 1", 0.0, 0, 1454889600, 10, 0, 0], [238065775, "Autonomous communities of Spain with locator maps in Spanish", 0.0, 0, 1454976000, 17, 0, 1], [220999045, "Duits - Neue Kontakte 12 VWO 6e editie", 0.0, 0, 1454630400, 931, 0, 0], [1500961552, "FST 100B FOOD PROPERTIES Intro/sight", 0.0, 0, 1452988800, 59, 0, 0], [217769720, "Counties of Ireland", 0.0, 0, 1437868800, 32, 0, 32], [1874254267, "Latitudes and longitudes of some major cities", 0.0, 0, 1450828800, 43, 0, 0], [306130418, "Agatha Christie \u2013 And then there were none", 0.0, 0, 1452643200, 105, 3, 0], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [2090663515, "Symbols for Some Derived SI Quantities", 0.0, 0, 1395532800, 10, 0, 9], [8616450, "Units for Some Derived SI Quantities", 0.0, 0, 1448928000, 10, 0, 9], [1756751815, "Zeichen der Stiefografie - Rationale Stenografie by Inforoth", 0.0, 0, 1407369600, 35, 0, 36], [618312178, "Partie polit., NGO, spo\u0142ecze\u0144stwo obywatelskie", 0.0, 0, 1449360000, 80, 0, 0], [1971370206, "drug toxicities (for uzo)", 0.0, 0, 1449878400, 32, 0, 68], [807702906, "   Tiere", 0.0, 0, 1449705600, 0, 0, 0], [1927464468, "tiens francois", 0.0, 0, 1446336000, 1046, 0, 3], [702141744, "Capital Cities of Central America and Caribbean Islands", 0.0, 0, 1381881600, 39, 0, 0], [1569987066, "Legisla\u021bia rutier\u0103 pentru oprire,sta\u021bionare,dep\u0103\u0219ire,parcare", 0.0, 0, 1444608000, 84, 0, 0], [1009076816, "Cities of the World", 0.0, 0, 1439942400, 100, 0, 0], [1926053810, "medical vocabulary 10 - dialog with pediatric patient", 0.0, 0, 1445385600, 0, 0, 0], [115295782, "medical vocabulary 9 - patient examination", 0.0, 0, 1445385600, 105, 0, 0], [1372144121, "Berufsorientierung", 0.0, 0, 1445904000, 15, 0, 0], [382953328, "Legisla\u021bia rutier\u0103 - Obliga\u021bii", 0.0, 0, 1445817600, 96, 0, 0], [1344105746, "Legisla\u021bia rutier\u0103 - Indicatoare rutiere", 0.0, 0, 1444608000, 281, 0, 42], [668737899, "Legisla\u021bia rutier\u0103 - Vitez\u0103/Sanc\u021biuni \u0219i infrac\u021biuni", 0.0, 0, 1445817600, 135, 0, 0], [571772907, "Outpatient Medicine", 0.0, 0, 1422144000, 212, 0, 53], [1813242064, "Malattie infettive v1 Bari", 0.0, 0, 1442966400, 22, 0, 1], [732544763, "Duitse voorzetsels op frequentie (SETL)", 0.0, 0, 1438992000, 132, 1, 1], [323123866, "Daily Activities Japanese (Hiragana)", 0.0, 0, 1442793600, 20, 0, 0], [280861795, "Nederlands in actie - Vocabulaire hoofdstuk 1", 0.0, 0, 1433980800, 73, 0, 0], [1744772251, "AQA GCSE Chemistry Unit 2 (Additional): Higher Tier", 5.0, 1, 1409356800, 196, 0, 12], [2021362761, "Fran\u00e7ais-Pr\u00e9paration entretien embauche", 0.0, 0, 1395446400, 112, 0, 13], [1045776765, "Micro/ID Properties of Bacteria", 0.0, 0, 1414022400, 74, 0, 0], [1424504824, "El Tiempo y El Clima Griego", 0.0, 0, 1399852800, 91, 89, 83], [614601180, "Chinese Ethnic Minorities", 0.0, 0, 1374451200, 58, 0, 67], [412448834, "Adult II Week 6 - Cardiac patient care", 0.0, 0, 1412553600, 68, 0, 14], [1371127401, "Interviewing Patients", 0.0, 0, 1413417600, 31, 0, 0], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [898656837, "Taloustieteen oppihistoria", 0.0, 0, 1414713600, 209, 0, 0], [974867521, "OMM patient with cancer", 0.0, 0, 1393027200, 44, 0, 0], [1142936968, "Projektierung", 0.0, 0, 1450569600, 28, 0, 6], [276236720, "Grundlagen des Experimentierens", 0.0, 0, 1363219200, 35, 0, 0], [355089338, "AQA GCSE Chemistry Unit 3 (Applied): Higher Tier", 0.0, 0, 1409529600, 213, 0, 8], [357861700, "Fotgeschrittene Objektorientierung am KIT", 0.0, 0, 1429315200, 113, 0, 8], [348774256, "Glasgow Medicine MBChB5 Specialties (Joseph Colclough) ", 0.0, 0, 1421625600, 828, 0, 154], [755561656, "Cities", 0.0, 0, 1430438400, 21, 0, 0], [1689662198, "Marys Handelsmarketing Einstiegstest @ WU Wien", 0.0, 0, 1387065600, 16, 0, 0], [188666059, "Nederlands in actie - Vocabulaire hoofdstuk 2", 0.0, 0, 1434844800, 86, 0, 0], [1681679218, "Tiere ", 0.0, 0, 1445385600, 43, 43, 42], [635226191, "RLR #80 \u2013 Big Cities", 0.0, 0, 1416960000, 30, 30, 0], [332652595, "\u30a2\u30af\u30c6\u30a3\u30d6\u6f22\u5b57\u300c\u30a2\u30af\u30c6\u30a3\u30d6\u304b\u3093\u3058\u300d (Actieve Kanji - Active Kanji)", 0.0, 0, 1424736000, 181, 0, 0], [1583998190, "Meithai - Tiere und Pflanzen", 5.0, 1, 1383782400, 212, 0, 0], [254403026, "\u5f62\u5bb9\u8a5e\u300c\u3051\u3044\u3088\u3046\u3057\u300d (Adjectieven - Adjectives)", 0.0, 0, 1417392000, 84, 0, 0], [2013004872, "Congenital Abnormalities of the Gastrointestinal System", 0.0, 0, 1376611200, 77, 0, 13], [1825918024, "dakua'ana davi: lugar y tiempo", 0.0, 0, 1411689600, 21, 21, 0], [603282619, "Counties", 3.0, 2, 1399593600, 47, 0, 47], [1155287049, "Gay-Kussac Anglais 2e partie1", 0.0, 0, 1394409600, 38, 0, 0], [482888005, "Micro/ID Properties of Bacteria", 0.0, 0, 1414022400, 11, 0, 0], [1024339122, "spelling activities 1", 0.0, 0, 1417305600, 20, 19, 0], [1488447512, "Politik 1. Demokratie und sozialer Rechtsstaat ", 0.0, 0, 1346284800, 186, 0, 2], [2032575116, "Gay-Lussac Anglais 2e partie1", 0.0, 0, 1394409600, 38, 0, 0], [243661881, "Albanese, Spanish 2, Lecci\u00f3n Preliminar, Activities", 0.0, 0, 1407628800, 11, 0, 11], [958247672, "Conceptos basicos (Espacio y tiempo) Es El Ru", 0.0, 0, 1399852800, 101, 295, 1], [859572799, "Seitlinger Aktiengesellschaft AG", 0.0, 0, 1452038400, 15, 2, 12], [505046135, "Counties of Scotland", 1.0, 1, 1388361600, 32, 0, 34], [1687066301, "Counties of Norway", 3.0, 2, 1388361600, 20, 0, 22], [3280365539, "Tema 04. Farmacolog\u00eda II. Antiepil\u00e9pticos", 0.0, 0, 1363910400, 58, 0, 0], [2874912834, "English Counties", 1.0, 1, 1367107200, 91, 0, 91], [501499100, "L3 - Adjectieven", 0.0, 0, 1390348800, 70, 0, 0], [1754841355, "El Tiempo y El Clima Ruso", 0.0, 0, 1400112000, 86, 85, 83], [1554715885, "Ohio Counties", 0.0, 0, 1357689600, 88, 0, 89], [1043224149, "m\u00e9tier anglais", 0.0, 0, 1410048000, 226, 0, 0], [772562422, "Bio Tierreich", 0.0, 0, 1422921600, 240, 0, 29], [658454950, "Vertiefte Themen der Bauphysik II", 0.0, 0, 1406073600, 167, 0, 6], [1504507701, "ITB, IFL Bayreuth - Fragen zum Themenfeld Objektorientierung", 0.0, 0, 1422403200, 19, 0, 12], [1173911205, "UP-ERN Tierphysiologie", 5.0, 1, 1423526400, 167, 0, 34], [1275490436, "China Provinces, Regions, and Capital Cities", 0.0, 0, 1345852800, 34, 0, 34], [196533754, "spelling activities 2", 0.0, 0, 1423526400, 68, 67, 0], [1909731135, "People Celebrities", 0.0, 0, 1391817600, 283, 0, 273], [155607280, "Counties of Washington State", 1.0, 1, 1393286400, 39, 0, 40], [178632289, "Humanities", 0.0, 0, 1431043200, 41, 0, 13]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Tie</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

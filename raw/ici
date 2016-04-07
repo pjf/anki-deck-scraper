@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[137657089, "Maternal medicine for Karen ", 0.0, 0, 1454112000, 50, 0, 0], [748570187, "Official KanjiDamage deck", 4.55, 29, 1439078400, 1757, 0, 2020], [1212956977, "Policia Nacional SC", 5.0, 1, 1448755200, 3783, 0, 469], [902262048, "Forensic Medicine Lab", 0.0, 0, 1454112000, 44, 0, 44], [1087757076, "Leticia e Marco (Senten\u00e7as em Japon\u00eas)", 0.0, 0, 1453852800, 94, 0, 0], [1077705993, "Hungarian - english official words, administration", 0.0, 0, 1453075200, 79, 0, 0], [729423771, "internal medicine minimals", 0.0, 0, 1452384000, 66, 0, 1], [443527319, "SFD Policies and Procedures", 0.0, 0, 1453593600, 57, 0, 0], [1980254882, "Molecular Medicine of the Heart: Cardiac Hypertrophy Lecture", 0.0, 0, 1450137600, 29, 0, 0], [367358924, "Anticipate / Predict", 0.0, 0, 1451692800, 82, 0, 0], [25428484, "Leticia e Marco(Japaneses)", 0.0, 0, 1454457600, 93, 0, 0], [336635594, "MEDICINA CONCURSO TOP", 0.0, 0, 1454544000, 991, 0, 813], [1031301995, "Farmakologi - lungemedicin", 0.0, 0, 1451952000, 6, 0, 4], [1356244406, "uw medicine", 0.0, 0, 1449964800, 25, 0, 2], [1835660651, "Investigaci\u00f3n Biom\u00e9dica 5\u00ba Medicina UAM: Ex\u00e1menes", 0.0, 0, 1452816000, 156, 0, 0], [2046625108, "CFA Level I Official Acronyms", 0.0, 0, 1451433600, 22, 0, 0], [1028983649, "Big band Rhythm guitar voicings", 0.0, 0, 1452384000, 111, 0, 111], [1823753834, "Finnish municipalities: names and coats of arms v1", 0.0, 0, 1452124800, 495, 0, 313], [729148967, "Molecular Medicine of the Heart: Heart Failure Lecture", 0.0, 0, 1450137600, 33, 0, 0], [315984667, "German past participles", 0.0, 0, 1449014400, 40, 0, 0], [709701652, "Ex\u00e1menes Otros A\u00f1os Radiolog\u00eda Especial 5\u00ba Medicina UAM", 0.0, 0, 1450742400, 114, 0, 0], [2060964926, "Glossary of stoicism terms", 0.0, 0, 1450137600, 56, 0, 0], [49279557, "CSIM bloque 4 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [1421616660, "Molecular Medicine of the Heart: Kass and MacLellan Lectures", 0.0, 0, 1450137600, 11, 0, 0], [280722472, "CSIM bloque 7 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [2091559483, "Molecular Medicine of the Heart: Signal Transduction Lecture", 0.0, 0, 1450137600, 41, 0, 0], [1971370206, "drug toxicities (for uzo)", 0.0, 0, 1449878400, 32, 0, 68], [900035623, "CSIM bloque 8 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 5, 0, 0], [1465769763, "CSIM bloque 2 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 19, 0, 0], [1123680097, "CSIM bloque 5 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [902786657, "Internal medicine", 0.0, 0, 1448236800, 192, 0, 0], [1588783731, "CSIM bloque 3 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 15, 0, 0], [611463110, "CSIM bloque 1 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 16, 0, 0], [699206800, "Bogazici - Memoria", 0.0, 0, 1449878400, 16, 0, 0], [246005258, "patent law cases anticipation 102", 0.0, 0, 1434067200, 101, 0, 0], [803761861, "CSIM bloque 6 de participio II de verbos irregulares alem\u00e1n", 0.0, 0, 1449187200, 17, 0, 0], [68232036, "IMMS Anatomy Phase 1 UoS Medicine", 0.0, 0, 1446595200, 202, 0, 35], [1653083252, "Histology Module UoS Phase 1 Medicine", 0.0, 0, 1446595200, 202, 0, 203], [957666449, "CSIM2 - Chest Medicine ", 0.0, 0, 1448582400, 64, 0, 0], [2119128765, "Transfer pricing sp\u00f8rgsm\u00e5l", 0.0, 0, 1445817600, 54, 0, 1], [1346912511, "The highly efficient GRE Anki deck", 5.0, 5, 1448928000, 569, 570, 568], [787218078, "Deck para estudar urologia na faculdade de medicina.", 0.0, 0, 1445817600, 11, 0, 0], [292604786, "Esperanto - AdE Baza Radikaro Oficiala Grupo 6 EO-NL", 0.0, 0, 1403654400, 244, 0, 0], [1506204673, "DSF Internal medicine", 0.0, 0, 1444780800, 12, 0, 1], [1108563907, "Esperanto - AdE Baza Radikaro Oficiala Grupo 4 EO-NL", 0.0, 0, 1403654400, 152, 0, 0], [304710106, "USask PHPM - Preventive medicine clinical guidelines", 0.0, 0, 1448064000, 40, 0, 0], [590070108, "Companion Animal and Equine Medicine Exam 2", 0.0, 0, 1444089600, 559, 0, 0], [909079147, "Esperanto - AdE Baza Radikaro Oficiala Grupo 2 EO-NL", 0.0, 0, 1403654400, 102, 0, 0], [1671772629, "uworldqbank medicine", 0.0, 0, 1440979200, 1111, 0, 6], [1015112342, "ENG-SPA- DO ANDROIDS DREAM WITH ELECTRICIAN SHEEPS?", 0.0, 0, 1432857600, 181, 223, 172], [1634173722, "Internal Medicine MS3 2015", 0.0, 0, 1440633600, 581, 0, 111], [66910099, "Esperanto - AdE Baza Radikaro Oficiala Grupo 3 EO-NL", 0.0, 0, 1403654400, 122, 0, 0], [571772907, "Outpatient Medicine", 0.0, 0, 1422144000, 212, 0, 53], [845586802, "Superficial Back", 0.0, 0, 1444089600, 26, 0, 1], [1917095458, "Official KanjiDamage deck REORDERED", 4.33, 15, 1439078400, 1757, 0, 2020], [528520607, "Sistemi Dinamici (mod 2) - Unina", 0.0, 0, 1430611200, 60, 3, 160], [1955373860, "TJ/RO - Fabricio", 0.0, 0, 1439683200, 72, 0, 0], [1839306580, "Dominant 7th Drop 2 Voicings for Guitar", 0.0, 0, 1382054400, 768, 0, 0], [1031221276, "IUSM-SB Emergency Medicine for ICM II", 0.0, 0, 1439769600, 132, 0, 0], [1831927300, "WU2019 - Superficial Back, Nerves, Radiology", 0.0, 0, 1439510400, 47, 0, 14], [1751733129, "Muskeln Anatomy Medicin", 0.0, 0, 1437436800, 38, 0, 36], [1667317484, "Atti teroristici ", 0.0, 0, 1433808000, 173, 0, 0], [1198153315, "Evidence Based Medicine", 1.0, 1, 1440374400, 224, 0, 95], [439892164, "Fe deficiency & chronic inflammation anemias", 0.0, 0, 1421452800, 37, 0, 0], [2057005770, "Principles of Medicine", 0.0, 0, 1439251200, 114, 0, 0], [2045548240, "Algunos ejercicios de Python", 0.0, 0, 1417651200, 219, 0, 0], [1211848224, "History Of Medicine (ALL)", 0.0, 0, 1409184000, 181, 0, 0], [451793219, "Quarter 3 medicine cards", 0.0, 0, 1437350400, 78, 0, 0], [3217084975, "electricity physics hebrew", 0.0, 0, 1352246400, 24, 0, 9], [1405315187, "Amateur Radio 2014-2018 Technician Question Pool", 0.0, 0, 1399334400, 426, 0, 3], [274460702, "Immunodeficineices ", 0.0, 0, 1427241600, 42, 0, 10], [2003942615, "Peter Medicine Main", 0.0, 0, 1345852800, 4761, 5, 705], [130756328, "KUMC Immune Deficiencies", 0.0, 0, 1415318400, 22, 0, 0], [583544130, "CMedicine 4", 0.0, 0, 1435276800, 141, 0, 24], [1728413148, "Health and medicine", 0.0, 0, 1385164800, 272, 0, 0], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [1997599450, "Business English. B1. Phrases for reacting to criticism", 0.0, 0, 1427500800, 13, 0, 0], [244364670, "Segundo cuatrimestre cuarto medicina murcia", 0.0, 0, 1426896000, 43, 0, 21], [643467024, "FCC Technician License Exam", 0.0, 0, 1428192000, 425, 0, 3], [1674997190, "VETERIN\u00c6RMEDICIN GENETIK kap 10", 0.0, 0, 1345852800, 3, 0, 1], [664873193, "Esperanto - AdE Baza Radikaro Oficiala Grupo 5 EO-NL", 0.0, 0, 1403654400, 156, 0, 0], [2630890195, " Tema 11.2 Farmacolog\u00eda  II Insuficiencia card\u00edaca", 0.0, 0, 1369440000, 79, 0, 4], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [1978470649, "Prepociciones En El Ru Es", 0.0, 0, 1400112000, 17, 49, 3], [2384806480, "Cours Ici-Japon", 0.0, 0, 1376265600, 82, 7, 0], [1279504135, "Year 1 Bristol Medicine - 2", 0.0, 0, 1420329600, 1366, 0, 410], [840622926, "SOCO Espa\u00f1ol - Articulos de Oficina", 0.0, 0, 1437955200, 22, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [481217570, "History of Medicine", 0.0, 0, 1409270400, 237, 0, 0], [1051051280, "US Amateur Radio - Technician [good through June 2018]", 5.0, 1, 1406332800, 426, 0, 3], [36597270, "Anatomy for Medicine SMP", 0.0, 0, 1427673600, 462, 0, 56], [2090268205, "4th Year Medicine", 0.0, 0, 1426809600, 108, 0, 4], [3630884239, "VETERIN\u00c6RMEDICIN GENETIK kap 11", 0.0, 0, 1345852800, 9, 0, 6], [3095475105, "Mauricio_Deck2_English", 0.0, 0, 1353456000, 18, 0, 4], [438178952, "MDTI 01.15.15 DNA Metabolism B12 Folate Deficiency", 0.0, 0, 1421366400, 46, 0, 4], [287300946, "Step up medicine for 3rd year rotations", 0.0, 0, 1435536000, 89, 0, 0], [1291211976, "VETERIN\u00c6RMEDICIN GENETIK kap 8", 0.0, 0, 1345852800, 3, 0, 1], [374147771, "SOCO Espa\u00f1ol - Las Diversiones, La Ciudad y Los Edificios", 0.0, 0, 1437955200, 55, 0, 0], [1687833411, "HD4 Path Transfusion Medicine", 0.0, 0, 1395446400, 46, 0, 8], [3427128723, "Great Thinkers of Catholicism", 3.0, 1, 1345852800, 625, 0, 0], [2170034113, "HMS.IMP.Superficial.Fungi ", 0.0, 0, 1368144000, 13, 0, 13], [1982292827, "JP Principles of Medicine 1", 0.0, 0, 1408060800, 76, 0, 0], [1437323903, "US Amateur Radio - Technician [good from July 1 2014]", 0.0, 0, 1399075200, 425, 0, 0], [2001843700, "MHCHS Edexcel Unit 2: Topic 4 Nazi Domestic Policies 1933-39", 0.0, 0, 1388016000, 52, 0, 0], [1448084576, "Clinical Medicine Visual Exam", 0.0, 0, 1429574400, 170, 0, 175], [710684309, "Esperanto - AdE Baza Radikaro Oficiala Grupo 7 EO-NL", 0.0, 0, 1403654400, 296, 0, 0], [348774256, "Glasgow Medicine MBChB5 Specialties (Joseph Colclough) ", 0.0, 0, 1421625600, 828, 0, 154], [813839112, "Participios irregulares en B\u00falgaro", 0.0, 0, 1433635200, 26, 0, 0], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [1043059143, "Gerunds_Infinitives_Verb Words_Participles_That Clauses", 0.0, 0, 1356480000, 247, 0, 0], [359204226, "Transfusion Medicine and Cellular Engineering", 0.0, 0, 1422316800, 51, 0, 6], [2576976235, "Villaviciosa upper-intermediate English Level 5 Module 7", 4.0, 1, 1345852800, 92, 92, 0], [3247401211, "All Cards CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 361, 0, 0], [1362574592, "Sleep medicine", 0.0, 0, 1426896000, 23, 0, 0], [1940868407, "Internal Medicine Rotation Flash Cards", 0.0, 0, 1437696000, 32, 0, 0], [3457317948, "fuzzy logic CGSC 4001 5001 Artificial Intelligence ", 0.0, 0, 1345852800, 31, 0, 0], [1671145467, "Esperanto - AdE Baza Radikaro Oficiala Grupo 8 EO-NL", 0.0, 0, 1403654400, 467, 0, 0], [1778232209, "catmeowmedicine", 0.0, 0, 1437696000, 26, 0, 0], [2075729741, "Emergency Medicine RDH", 0.0, 0, 1407715200, 16, 0, 0], [1793848848, "Tropical Medicine", 0.0, 0, 1367193600, 54, 0, 8], [786381198, "SS UNM SOM HSF&D Weeks 8 Cranial cavity and superficial face", 0.0, 0, 1413849600, 310, 0, 178], [1694513283, "IOC-Empresa i Iniciativa Emprenedora-Unitat 2", 0.0, 0, 1357430400, 56, 0, 0], [4080329580, "Andrius Statkevicius", 0.0, 0, 1404777600, 15079, 2304, 0], [447389129, "Wind-Damp Dispelling Medicinals", 0.0, 0, 1431907200, 4, 0, 0], [356460173, "Diverse eksamenssp\u00f8rgsm\u00e5l til 8. Semester Medicin ved KU", 0.0, 0, 1369785600, 174, 0, 0], [853802430, "Lecture Clinical Medicine Exam 5", 0.0, 0, 1430697600, 268, 0, 128], [347852514, "MBChB4 Finals surgery and medicine update-Joseph Colclough", 0.0, 0, 1423785600, 882, 0, 73], [78580708, "Epidemiology - Bristol Medicine", 0.0, 0, 1400716800, 66, 0, 9], [2557057917, "Aprender chino mandarin - Ejercicio 01", 0.0, 0, 1345852800, 29, 30, 0], [795800357, "IOC-Empresa i Iniciativa Emprenedora-Unitat 1", 0.0, 0, 1357430400, 32, 0, 0], [1336368121, "Craig's general medicine", 0.0, 0, 1413158400, 539, 0, 5], [1326461296, "IBA Official Cocktails: Recipes and Pictures", 0.0, 0, 1418169600, 75, 0, 73], [2567975989, "English Intermediate Villaviciosa level 4 ALL DECKS COMBINED", 0.0, 0, 1345852800, 235, 244, 0], [3259196780, "Lista kanji N2 (definiciones en espa\u00f1ol)", 0.0, 0, 1360108800, 2184, 0, 0], [2958105566, "Family Medicine cards ", 0.0, 0, 1361404800, 516, 0, 50], [1688686749, "medicine year one", 0.0, 0, 1435881600, 15384, 4, 1115], [560591616, "Medicin 2. semester Kandidat 2013 KU", 0.0, 0, 1424822400, 197, 0, 0], [1999693713, "Clive Staples Lewis - The Chronicles of Narnia. The Magician", 0.0, 0, 1415664000, 52, 0, 1], [790415016, "Medicine Harvey T", 0.0, 0, 1421020800, 807, 0, 8], [805584527, "em, emergency medicine, optho, arrest", 0.0, 0, 1391644800, 19, 0, 0], [3963018481, "Ethical and Legal Issues in Medicine (HBM)", 0.0, 0, 1377043200, 75, 0, 0], [738857991, "Mauricio_Deck1_English", 0.0, 0, 1353456000, 20, 2, 7], [1947947450, "Step 2 CK Internal medicine", 0.0, 0, 1409443200, 204, 0, 0], [215620951, "Esperanto - AdE Baza Radikaro Oficiala Grupo 1 EO-NL", 0.0, 0, 1404259200, 179, 0, 0], [934388483, "Drugs - Bristol Medicine", 0.0, 0, 1400716800, 62, 0, 0], [2074879029, "Proficiency Gold", 0.0, 0, 1412553600, 438, 0, 0], [1584744148, "Renal physiology - core medicine for Oxford graduate entry", 0.0, 0, 1424304000, 230, 0, 4], [220883930, "Medicine LOBs Gemma Bowsher", 0.0, 0, 1431820800, 824, 0, 18], [352654971, "Marys IB SBWL Participants that Make IB Happen @ WU Wien", 0.0, 0, 1397779200, 36, 0, 0], [1071836490, "UOC-Ing-software-Modulo_2-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 21, 0, 6], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [234428322, "Emergency Medicine LSU Health Shreveport", 0.0, 0, 1396224000, 207, 0, 5], [608844046, "Pesticide and Drug Poisoning VIJ", 0.0, 0, 1413072000, 27, 0, 6], [3921342398, "English Intermediate Villaviciosa level 5 ALL DECKS COMBINED", 0.0, 0, 1345852800, 211, 211, 0], [1789792344, "Imperial GE Medicine Year 1 Support Systems", 0.0, 0, 1431561600, 328, 0, 9], [3371074380, "Mauricio_Deck_5_English", 0.0, 0, 1353456000, 9, 0, 8], [3544876649, "Villaviciosa Advanced English Level 8 deck 1", 0.0, 0, 1383004800, 95, 91, 14], [3456984580, "VETERIN\u00c6RMEDICIN GENETIK kap 7", 0.0, 0, 1345852800, 9, 0, 0], [263162320, "Elektriciteit, magnetisme en golven", 0.0, 0, 1399507200, 153, 0, 308], [699302915, "2.1 Drugs (Keele Medicine Yr 2 Term 1 Drugs)", 0.0, 0, 1414368000, 17, 0, 0], [479582741, "AF2 dissektion 8 - superficielle muskler", 0.0, 0, 1345852800, 14, 0, 29], [2059216211, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion", 0.0, 0, 1411084800, 14, 0, 1], [2506139498, "Max*/Matiar/Ameer Immunodeficiency and Vaccines", 0.0, 0, 1379289600, 30, 0, 17], [898810736, "General Medicine Ankiweb", 0.0, 0, 1407715200, 6, 0, 0], [2724741871, "IOC-Empresa i Iniciativa Emprenedora-Unitat 3", 0.0, 0, 1357430400, 71, 0, 0], [3115547237, "Histology Block 1 Lecture Tulane School of Medicine", 0.0, 0, 1354406400, 190, 0, 106], [1275224540, "08. og 09. Semester KU medicin", 0.0, 0, 1424822400, 866, 0, 0], [1450143754, "logic CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 29, 0, 0], [575714160, "L\u00e9ka\u0159sk\u00e1 terminologie HK receptura (neofici\u00e1ln\u00ed)", 0.0, 0, 1429574400, 61, 0, 0], [607634260, "VETERIN\u00c6RMEDICIN GENETIK kap 19", 0.0, 0, 1345852800, 10, 0, 5], [993350107, "Verbos de movimiento en b\u00falgaro con las preposiciones", 0.0, 0, 1420070400, 20, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [1723693797, "Villaviciosa  English Level 6 FCE deck 1", 0.0, 0, 1383004800, 91, 91, 26], [1564630260, "Vocabulaire Ici-Japon", 0.0, 0, 1376352000, 120, 0, 0], [490820644, "Business English. B1. Criticizing colleagues at work", 0.0, 0, 1427328000, 24, 0, 0], [1369657574, "UOC-Ing_software-Modulo_1-Ejercicios_Autoevaluacion_JS", 0.0, 0, 1411171200, 17, 0, 1], [1685434962, "Clinical Medicine", 0.0, 0, 1408320000, 44, 0, 0], [1994285899, "QX Icing", 0.0, 0, 1411430400, 11, 0, 0], [3953277099, "Histology Block 1 Lecture and Lab Tulane School of Medicine", 0.0, 0, 1354406400, 198, 0, 114], [1564429518, "Step 2 CK Internal medicine part 2", 0.0, 0, 1409443200, 340, 0, 0], [601546695, "Medicin", 0.0, 0, 1409529600, 240, 0, 46], [2629571547, "Posicion de los elementos en la tabla periodica", 0.0, 0, 1383955200, 118, 0, 118], [1545521657, "M\u00e9decine et sant\u00e9 - Medicine and health", 0.0, 0, 1429920000, 219, 0, 0], [1772699421, "Peter Medicine 2", 0.0, 0, 1345852800, 43, 0, 0], [569057320, "Text Criticism Terms", 0.0, 0, 1380585600, 51, 0, 0], [1496957243, "Environmental Health and Toxicity", 0.0, 0, 1392681600, 92, 0, 0], [1613544830, "Mauricio_Deck4_English", 0.0, 0, 1353456000, 8, 0, 0], [456769742, "MDTI 01.14.15 Iron Flow Deficiency Inflammation", 0.0, 0, 1421366400, 61, 0, 2], [1512731043, "M Marks: General Medicine and Infectious Disease", 0.0, 0, 1421193600, 491, 0, 0], [2576899571, " Tema 11.1  Farmacolog\u00eda II  Insuficiencia  card\u00edaca ", 0.0, 0, 1369440000, 124, 0, 0], [935160095, "Villaviciosa  English Level 6 FCE deck 2 ", 0.0, 0, 1386806400, 735, 732, 79], [2241868908, "HMS.HB.Superficial.Head.Neck", 0.0, 0, 1352937600, 37, 0, 28], [1040047446, "Embryological Proficiency on the Urinary System", 0.0, 0, 1351728000, 51, 0, 11], [479751735, "Esperanto - AdE Baza Radikaro Oficiala Grupo 9 EO-NL", 0.0, 0, 1403654400, 749, 0, 0], [1928248558, "AME CONSTITUCIONAL - PODER JUDICI\u00c1RIO", 0.0, 0, 1408320000, 16, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ici</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

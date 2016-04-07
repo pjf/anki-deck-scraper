@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1565134200, " English sentences with meanings", 4.0, 1, 1430870400, 1040, 1080, 47], [1657071561, "malayalam meanings", 0.0, 0, 1454630400, 29, 0, 0], [17052897, "Verwaltungsrecht", 0.0, 0, 1454544000, 45, 0, 0], [1852060079, "Pr\u00fcfungsfragen Psychotherapie", 0.0, 0, 1453680000, 1869, 0, 0], [476466998, "Fertigungstechnik_TU_DD", 0.0, 0, 1454716800, 86, 0, 0], [2069190049, "Pinyin - Initials - Multiple recordings per initial", 0.0, 0, 1453248000, 21, 156, 2], [157646339, "SBFV - Trainer C - Allgemeine Trainingslehre", 0.0, 0, 1453852800, 7, 0, 0], [378748332, "Material och tillverkningsteknik - L\u00f6dning och svetsning", 0.0, 0, 1452816000, 15, 0, 0], [959663640, "Material och tillverkningsteknik - Korrosion", 0.0, 0, 1452816000, 40, 0, 0], [971642049, "English Slangs, Expressions, and Idioms", 0.0, 0, 1450742400, 29, 0, 0], [1524684465, "Paintings", 0.0, 0, 1451952000, 17, 0, 17], [509132394, "Pinyin - Finals - Multiple recordings per final", 0.0, 0, 1453248000, 36, 272, 2], [502604144, "Material och tillverkningsteknik - V\u00e4rmebehandling", 0.0, 0, 1452816000, 19, 0, 0], [677556554, "Material och tillverkningsteknik - Sk\u00e4rande bearbetning", 0.0, 0, 1452816000, 37, 0, 0], [1799294398, "Material och tillverkningsteknik - Gjutning", 0.0, 0, 1452729600, 19, 0, 3], [1245707298, "Material och tillverkningsteknik - Plastisk bearbetning", 0.0, 0, 1452816000, 35, 0, 2], [3052747002, "lyrics of several songs (using enumeration model)", 0.0, 0, 1345852800, 28, 0, 0], [1028983649, "Big band Rhythm guitar voicings", 0.0, 0, 1452384000, 111, 0, 111], [1840882877, "\"diary of a wimpy kid\"s slangs & words ", 0.0, 0, 1451001600, 1691, 1, 58], [685586927, "Anatomie - Verdauungsorgane", 0.0, 0, 1450569600, 32, 0, 2], [1951598413, "SZF - Der Forschungsprozess", 0.0, 0, 1449878400, 13, 0, 0], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 5.0, 1, 1345852800, 500, 0, 0], [412754450, "Anatomie: Lage- und Richtungsbezeichnungen", 0.0, 0, 1445904000, 29, 0, 0], [167534623, "Verwaltungsrecht", 0.0, 0, 1449360000, 30, 0, 0], [896136496, "German Adjective Endings", 0.0, 0, 1446595200, 154, 0, 2], [1892045477, "Bildungswissenschaft", 0.0, 0, 1446854400, 249, 0, 0], [1271245595, "Korean Go/Baduk terms and their English meanings", 0.0, 0, 1445904000, 99, 0, 0], [201607898, "Health Assessment Chapter 19 Thorax and Lungs", 0.0, 0, 1443571200, 59, 0, 0], [1381407630, "Aeusseres Erscheinungsbild (English to German)", 0.0, 0, 1443484800, 20, 0, 0], [1265839292, "\u00c4usseres Erscheinungsbild (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [237003537, "VIT - Verwaltungsrecht", 0.0, 0, 1444262400, 37, 0, 0], [1943442678, "Thoracic Wall, Lungs, Breathing (UNIT 2: Lec 1)\t", 0.0, 0, 1440374400, 76, 0, 96], [1271643379, "\u00c4usseres Erscheinungsbild", 0.0, 0, 1442793600, 20, 0, 0], [731806839, "Rettungssanit\u00e4ter 2015", 0.0, 0, 1443484800, 112, 0, 0], [2025053178, "\u00c4usseres Erscheinungsbild (German to English)", 0.0, 0, 1444176000, 20, 0, 0], [1857819914, "Aeusseres Erscheinungsbild (German to English)", 0.0, 0, 1443484800, 20, 0, 0], [1816380541, "[Ambrosius] IHK-Pr\u00fcfung Versicherungsfachfrau (Jan.2016)", 0.0, 0, 1453334400, 1264, 6, 4], [1723929337, "Urdu Words (Meanings and Spellings)", 0.0, 0, 1442275200, 202, 0, 0], [3993503662, "Bible Quiz 11: I Kings", 0.0, 0, 1345852800, 134, 0, 0], [1839306580, "Dominant 7th Drop 2 Voicings for Guitar", 0.0, 0, 1382054400, 768, 0, 0], [1735204367, "Learnings on how to be a great VainGlory hero", 0.0, 0, 1441324800, 12, 0, 0], [3987413013, "TCM Review Formula Kings", 0.0, 0, 1345852800, 22, 0, 0], [1591457982, "UK Road Signs & Meanings", 0.0, 0, 1438646400, 167, 0, 0], [416154597, "Vorbereitung Veranstaltungsmanagement", 0.0, 0, 1376870400, 65, 37, 1], [3889929163, "Readings in Modern Chinese Master Vocab list", 0.0, 0, 1426204800, 1538, 0, 0], [1273495136, "Entwicklungsbiologie Klausurfragen", 0.0, 0, 1436227200, 48, 0, 3], [363861931, "Verkehrswesen als Erg\u00e4nzungsfach Master Informatik am KIT", 0.0, 0, 1406505600, 132, 0, 54], [2099614052, "Pr\u00fcfungsfragen", 0.0, 0, 1437523200, 575, 0, 571], [1062612586, "Prime Ministers and Kings of England, Britain and the UK", 0.0, 0, 1386547200, 134, 0, 0], [832177589, "Tarot card meanings", 0.0, 0, 1432425600, 78, 0, 78], [904083717, "Deutsche Lebens-Rettungs-Gesellschaft (DLRG) DE-DE Pr\u00fcfung", 0.0, 0, 1345852800, 456, 0, 0], [1260702230, "Gal81-Verbrennungslehre", 0.0, 0, 1433203200, 41, 0, 0], [3611799994, "Guide to Dakini Land condensed meaning headings", 0.0, 0, 1370649600, 9, 0, 0], [2721145059, "Veranstaltungsmanagement Tourismus & Hospitality", 0.0, 0, 1373932800, 124, 64, 1], [1787841904, "DGVT Zwischenpr\u00fcfungsfragen", 0.0, 0, 1397606400, 17, 0, 0], [642102559, "German articles and adjective endings", 5.0, 1, 1360368000, 48, 0, 0], [858632958, "Surface Anatomy - Doctoring - Lungs & Heart", 0.0, 0, 1410307200, 18, 0, 0], [518313939, "West End Idiomas - Personal Feelings, Opinions & Experiences", 0.0, 0, 1422057600, 57, 0, 57], [2003638348, "Beschaffungscontrolling", 0.0, 0, 1429660800, 40, 0, 2], [2395256866, "UConn Arabic Verb Form Meanings", 0.0, 0, 1345852800, 10, 0, 0], [3633153965, "CofO2 - 5 - Anatomy of the Lungs", 0.0, 0, 1345852800, 33, 0, 12], [713475378, "Algorithmische Methoden f\u00fcr schwere Optimierungsprobleme KIT", 0.0, 0, 1429315200, 497, 0, 146], [2520473800, "Anatomy:  Lungs, Superior and Posterior Mediastinums", 0.0, 0, 1383091200, 36, 0, 38], [4133970918, "Bible Quiz 12: II Kings", 0.0, 0, 1345852800, 130, 0, 0], [3882925778, "Persian greetings, gestures etc. (Persian - Polish)", 0.0, 0, 1379462400, 28, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [1098274703, "Clinical word meanings", 0.0, 0, 1388534400, 27, 0, 0], [489643493, "German adjective endings", 0.0, 0, 1423699200, 62, 0, 0], [1991674589, "FTS4 Rechnungswesen", 0.0, 0, 1420761600, 72, 0, 12], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 4.0, 1, 1453075200, 275, 0, 0], [3885513429, "German noun endings indicating gender", 0.0, 0, 1360368000, 58, 0, 0], [3261573635, "Finnish noun case endings", 0.0, 0, 1374969600, 10, 0, 0], [2132743142, "Modern Greek - proverbs & sayings", 0.0, 0, 1432857600, 27, 0, 0], [828118545, "IEL Mathe Ordnungszahlen", 0.0, 0, 1414713600, 20, 1, 0], [2942358981, "Guitar fretboard strings 1-6, frets 1-12", 5.0, 1, 1345852800, 78, 0, 0], [1131053439, "Anatomy - Bone Markings", 0.0, 0, 1386460800, 18, 0, 0], [2066762825, "Automatisierungstechnik I TU Berlin", 0.0, 0, 1427155200, 64, 0, 52], [237574423, "histo final Kirangs slides- epithelium", 0.0, 0, 1417478400, 47, 0, 36], [679765693, "Verfahrenstechnik - Str\u00f6mungstechnik", 0.0, 0, 1406073600, 4, 0, 0], [903431582, "Kazakh case endings", 0.0, 0, 1345852800, 60, 0, 0], [2054990576, "Laudius voedingsadviseur Les 3", 0.0, 0, 1430179200, 10, 0, 0], [295100408, "q1thingsb", 0.0, 0, 1411603200, 34, 0, 0], [1829998215, "Schaltungstechnik", 0.0, 0, 1435536000, 16, 0, 4], [543705077, "BUSM Anatomy - Bone Markings", 0.0, 0, 1376870400, 19, 0, 0], [752026676, "AC II - \u00dcbungsaufgaben", 0.0, 0, 1411603200, 77, 0, 55], [1738952029, "Jess and Pierre fondue weird french things", 0.0, 0, 1414454400, 12, 0, 30], [1076382311, "British Bird Songs", 0.0, 0, 1393891200, 50, 50, 0], [1771137642, "Latin 8th grade noun endings", 0.0, 0, 1414540800, 29, 0, 0], [1779560351, "Chinese Readings for 2,200 General-Use Kanji", 4.0, 1, 1376784000, 2484, 0, 0], [2043750814, "NIHONGO KANTAN: Kanji Meanings", 0.0, 0, 1431302400, 136, 0, 0], [1086834172, "q1thingsa", 0.0, 0, 1411603200, 9, 0, 1], [2068600701, "OC I Hiersemann: BDEs und Bindungsl\u00e4ngen", 0.0, 0, 1406764800, 20, 0, 0], [1439992440, "\u65e5\u672c\u8a9e\u3067\u6c17\u6301\u3061\u3092\u4f1d\u3048\u308b\u3002 Express Your Feelings In Japanese", 4.29, 7, 1345852800, 627, 0, 0], [1606619238, "TU BS MB01 \u00dcbungsaufgaben & Essentials", 0.0, 0, 1426550400, 76, 0, 31], [121961141, "Greetings from the Teklimakan (Kansas U)", 5.0, 2, 1422921600, 920, 920, 0], [1446737603, "IEL Ver\u00e4nderungsverben", 0.0, 0, 1424044800, 21, 1, 21], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 0.0, 0, 1377475200, 160, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ngs</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1322346338, "Ariella- cardio 2 (ICM) ", 0.0, 0, 1450742400, 83, 2, 128], [453997893, "AUC ICM 4.1", 0.0, 0, 1444780800, 484, 0, 73], [2117320203, "Block 2 ICM Radiology", 0.0, 0, 1444867200, 116, 0, 147], [1604218788, "ICM3 Q2", 0.0, 0, 1443484800, 79, 0, 2], [387022111, "Med 2 Deck", 0.0, 0, 1426118400, 3069, 0, 363], [1943820151, "ICM", 0.0, 0, 1441670400, 192, 0, 212], [118118656, "ICM3 Q2", 0.0, 0, 1433635200, 73, 0, 5], [1031221276, "IUSM-SB Emergency Medicine for ICM II", 0.0, 0, 1439769600, 132, 0, 0], [510272023, "ICM OSCEs Med 3 AUA", 0.0, 0, 1432598400, 2, 0, 0], [981106529, "Antidotes for toxic agents", 0.0, 0, 1350777600, 39, 0, 0], [414116081, "UMMCicmblock4", 0.0, 0, 1420761600, 196, 0, 13], [742523825, "CICM 2nd part exam", 0.0, 0, 1403481600, 191, 0, 4], [1053976220, "ICM3 Deck", 0.0, 0, 1429488000, 1, 0, 0], [2673849101, "Autacoids", 0.0, 0, 1350777600, 108, 0, 0], [1745693937, "The REAL ICM QUIZ 1 Semester III ", 0.0, 0, 1435017600, 101, 0, 110], [3451058793, "Drug metabolism", 0.0, 0, 1350777600, 31, 0, 0], [1819837037, "Einstein 2nd yr ICM final", 0.0, 0, 1345852800, 254, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Icm</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

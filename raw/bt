@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1751525754, "Deutsch - Russisch (Vokabular eines beliebten Lehrbuchs)", 0.0, 0, 1453766400, 826, 0, 3], [208726283, "iBT\u65b0\u6258\u798f\u9547\u9b42\u5355\u8bcd1.7\u7248(\u4e71\u5e8f)", 5.0, 1, 1420502400, 1469, 1466, 7], [442267222, "Strafrecht bt", 0.0, 0, 1448323200, 154, 0, 6], [892779309, "korean webtoon vocab (crispyring)", 0.0, 0, 1445040000, 121, 0, 27], [1302808731, "Schreibtraining B1 Deutsch", 0.0, 0, 1412380800, 59, 0, 0], [1625510225, "Polymer Chemistry and Physics (KBT025)", 0.0, 0, 1420761600, 44, 0, 6], [1243980526, "Delta's key to toefl ibt - persian", 4.5, 2, 1445126400, 2056, 0, 7], [1253262999, "DDO Pulmonary - BTS pneumothorax guidelines (not tintinalli)", 0.0, 0, 1412553600, 19, 0, 1], [2790171650, "Vocabulary for TOEFL PBT", 4.5, 2, 1345852800, 450, 25, 0], [50755379, "Solid State KBT100", 0.0, 0, 1414022400, 7, 0, 0], [1836386156, "Annas Farbtest Colors", 0.0, 0, 1427587200, 61, 0, 61], [269843821, "KBT265", 0.0, 0, 1427328000, 20, 0, 5], [1050060791, "\u00d6kologie der Tropen und Subtropen, UniBe", 0.0, 0, 1403049600, 230, 0, 4], [1749071173, "Spanish Subtitles Corpus 1-2000", 0.0, 0, 1402444800, 4204, 0, 0], [1843634391, "ibt Amir", 0.0, 0, 1402444800, 9, 0, 0], [2209220497, "Siebte Stunde", 0.0, 0, 1370217600, 20, 0, 0], [2613296470, "500 Words for TOEFL iBT Stirling 2010", 0.0, 0, 1383696000, 500, 0, 97]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Bt</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

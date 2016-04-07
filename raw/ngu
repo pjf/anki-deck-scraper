@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1158491752, "LSE Lengua de Signos Espa\u00f1ola SignoEscritura 2015", 0.0, 0, 1429142400, 7824, 0, 7836], [528082071, "U6: LANGUAGES", 0.0, 0, 1454889600, 18, 0, 0], [2050498996, "Lingualeo_ksu", 0.0, 0, 1454976000, 1468, 0, 0], [1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0], [1355101412, "Thai Language Basic Vocabulary", 0.0, 0, 1454544000, 97, 0, 0], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [224192691, "AnjouInterlangues_JP_2015_2016_N3", 0.0, 0, 1454371200, 9, 0, 0], [2754914665, "55k WordNet Definitions & Sentences (Monolingual, Bilingual)", 5.0, 3, 1431388800, 56741, 0, 0], [1028528798, "Medical French - Defense Language Institute LSK", 5.0, 2, 1418342400, 640, 629, 0], [368253253, "Thai Language: Beginner - Advanced", 4.0, 4, 1345852800, 1469, 477, 43], [1821450608, " Introduction Linguistics Uni Due WS 15/16", 0.0, 0, 1454457600, 193, 0, 39], [1790724136, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21 \u00e0 30", 0.0, 0, 1454284800, 91, 183, 0], [1767247205, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 07", 0.0, 0, 1453593600, 10, 20, 0], [598263593, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 04", 0.0, 0, 1453593600, 11, 22, 0], [1502633560, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01 \u00e0 10", 0.0, 0, 1454284800, 103, 206, 0], [1102301837, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 01", 0.0, 0, 1454198400, 10, 19, 0], [1493754415, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 05", 0.0, 0, 1453593600, 12, 24, 0], [1864263172, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 12", 0.0, 0, 1453334400, 10, 20, 0], [2004634169, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 10", 0.0, 0, 1453593600, 12, 24, 0], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [556117785, "Medical Polish - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 639, 0], [302150786, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11 \u00e0 20", 0.0, 0, 1454284800, 106, 212, 0], [1245743488, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 13", 0.0, 0, 1453334400, 12, 24, 0], [1705736809, "Korean hangul to hanja using Heisig's RTK keywords", 0.0, 0, 1406073600, 331, 0, 0], [2530965591, "Hangul (Korean Alphabet)", 4.69, 13, 1361577600, 40, 40, 0], [3483780124, "Intermediate-Adv. Thai Vocab (Mono/Bi Lingual opt.) \u0e01\u0e32\u0e19\u0e15\u0e4c", 0.0, 0, 1416182400, 664, 662, 0], [126606944, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 03", 0.0, 0, 1453593600, 10, 20, 0], [1452906807, "Korean Hangul with Audio, Examples, Aids AAL", 0.0, 0, 1430438400, 40, 100, 6], [1535345818, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 09", 0.0, 0, 1453593600, 10, 20, 0], [554051060, "Cherokee Language Meetup - Tsalagi", 0.0, 0, 1453593600, 277, 25, 87], [1346352296, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 14", 0.0, 0, 1453334400, 10, 20, 0], [1823539800, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 17", 0.0, 0, 1453334400, 12, 24, 0], [420553654, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 20", 0.0, 0, 1453334400, 10, 20, 0], [890954625, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 15", 0.0, 0, 1453334400, 10, 20, 0], [1336599947, "Medical Brazilian Portuguese - Defense Language Institute", 0.0, 0, 1418169600, 640, 540, 0], [247778088, "Jvnguyen", 0.0, 0, 1452816000, 1438, 0, 1695], [943382011, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 21", 0.0, 0, 1453334400, 9, 18, 0], [1871751900, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 19", 0.0, 0, 1453334400, 10, 20, 0], [516232079, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 08", 0.0, 0, 1453593600, 10, 20, 0], [473886352, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 02", 0.0, 0, 1453593600, 10, 20, 0], [108705404, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 06", 0.0, 0, 1453593600, 10, 20, 0], [1787623247, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 11", 0.0, 0, 1453593600, 10, 20, 0], [1667677711, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 18", 0.0, 0, 1453334400, 10, 20, 0], [3275191993, "Deck Data, Languages, Chinese", 0.0, 0, 1395619200, 1145, 0, 0], [1575841661, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 16", 0.0, 0, 1453334400, 12, 24, 0], [492085346, "Medical Russian - Defense Language Institute DLI LSK ", 0.0, 0, 1418169600, 640, 541, 0], [63336262, "Business ENG_RUS lingualeo", 0.0, 0, 1447977600, 977, 0, 7], [327544976, "English to Nepali Language Learning", 0.0, 0, 1449532800, 303, 0, 0], [775128629, "Collective nouns in English language", 0.0, 0, 1425427200, 360, 5, 0], [1223183969, "LSF dictionnaire Langue signes fran\u00e7aise 2014 SignEcriture", 0.0, 0, 1426377600, 952, 0, 951], [708030049, "Medical Tigrinya - Defense Language Institute LSK", 0.0, 0, 1345852800, 640, 640, 0], [477795797, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 27", 0.0, 0, 1449532800, 10, 20, 0], [366130010, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 28", 0.0, 0, 1449532800, 10, 20, 0], [945792448, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 23", 0.0, 0, 1449532800, 10, 20, 0], [626034578, "1_inlingua_Essential Chinese ", 0.0, 0, 1449187200, 190, 191, 133], [2128960655, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 29", 0.0, 0, 1449532800, 10, 21, 0], [174094001, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 25", 0.0, 0, 1449532800, 10, 20, 0], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [565675009, "JW Language (EN-ZH)", 5.0, 1, 1444867200, 3595, 3595, 0], [494336494, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 24", 0.0, 0, 1449532800, 10, 20, 0], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [1805378729, "C# Language Advanced Concepts", 0.0, 0, 1446422400, 35, 0, 23], [529967601, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 22", 0.0, 0, 1449532800, 10, 20, 0], [93966752, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 30", 0.0, 0, 1449532800, 10, 18, 0], [525761337, "Unit 3- reading 1- when does language learning begin?", 0.0, 0, 1449014400, 21, 0, 0], [1399723001, "Medical Hatian Creole - Defense Language Institute (DLI LSK)", 0.0, 0, 1418169600, 640, 541, 0], [1313051144, "La Madrassah - Livre niv. 2 Langue Arabe - Texte 26", 0.0, 0, 1449532800, 8, 16, 0], [1003092620, "0_inlingua Portuguese starter pack - Basic Expressions ", 0.0, 0, 1449187200, 17, 17, 2], [740038143, "Cinta Bahasa Indonesian Language School Book 1, Part 1", 0.0, 0, 1447545600, 190, 0, 0], [574151262, "new words from inlingua ", 0.0, 0, 1449273600, 0, 0, 1], [1021662717, "FSL Filipino sign language Lexicon in SignWriting 2014", 0.0, 0, 1428192000, 825, 0, 826], [1585112771, "LinguaPortuguesa", 0.0, 0, 1446595200, 10, 0, 0], [2073788814, "The Advantages of Multilingualism", 0.0, 0, 1447977600, 9, 0, 0], [638437865, "Omaha language cooking vocabulary", 0.0, 0, 1448409600, 28, 3, 26], [1342688485, "Deck 1-Unit 3- Reading 4- language in contact", 0.0, 0, 1447804800, 3, 0, 0], [328660070, "Languages in Contact", 0.0, 0, 1448496000, 22, 0, 0], [1012227265, "Sarus: The Shadow Tongue", 0.0, 0, 1407024000, 392, 392, 393], [1184972756, "The Advantages of Multilingualism", 0.0, 0, 1448496000, 16, 0, 0], [363270366, "English MHS Language Devices 2015", 0.0, 0, 1447286400, 23, 0, 0], [1074213142, "Lingue - Tradu\u00e7\u00f5es", 0.0, 0, 1443744000, 4, 2, 0], [1651643456, "Inguinal - Human Anatomy I", 0.0, 0, 1444262400, 92, 0, 2], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 0.0, 0, 1445472000, 14, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [1429538167, "Don't get dengue 3", 0.0, 0, 1445040000, 299, 0, 6], [719411748, "The JET Programme Japanese Language Course - Beginner Vol. 1", 0.0, 0, 1444089600, 160, 0, 0], [1168204195, "Growingup Chinese", 0.0, 0, 1436313600, 0, 1, 1], [1629957357, "Deutsch - LFN Lingua Franca Nova", 0.0, 0, 1443312000, 375, 0, 0], [2068975378, "LSPY Lengua de Se\u00f1as Paraguaya Signo Escritura 2015", 0.0, 0, 1429401600, 1597, 0, 1618], [999523887, "Deutsch - Interlingua", 0.0, 0, 1443312000, 1717, 0, 0], [689655830, "LSBF LSFB Dictionnaire Langue des signes de Belgique francop", 0.0, 0, 1426377600, 1872, 0, 1873], [1118965325, "Pattern Dynamics - a Pattern Language for the 21st Century", 0.0, 0, 1442188800, 65, 0, 0], [1871404054, "Tongue, Oral Cavity, Submandibular Region ", 0.0, 0, 1441324800, 13, 0, 20], [2901600193, "Top spanish verbs - Binlingue - Top verbes espagnole", 0.0, 0, 1345852800, 134, 0, 0], [1106819144, "North Korean Language", 4.0, 1, 1367712000, 44, 0, 0], [495162571, "RLR #83 - Body Language", 5.0, 1, 1418774400, 30, 30, 0], [1341912134, "Shum Language learning", 0.0, 0, 1415404800, 18, 0, 18], [600237834, "1171 Most Common Thai words  according to thai-language.com", 0.0, 0, 1396396800, 1171, 0, 0], [1596741857, "Georgian language word study ", 0.0, 0, 1396483200, 772, 0, 0], [2109526826, "Cree Language of the Plains page 1", 0.0, 0, 1389657600, 49, 49, 50], [3208497039, "\u5c0a\u656c\u8a9e\u30fb\u8b19\u8b72\u8a9e Honorific/Humble Language (Keigo)", 0.0, 0, 1368316800, 46, 0, 0], [3218060776, "IOC-Llenguatge de Marques i Sistemes de Gesti\u00f3-Unitat 2", 0.0, 0, 1357430400, 20, 0, 0], [888240161, "The Language and Tools of Financial Analysis (Coursera)", 0.0, 0, 1436400000, 72, 0, 0], [1652335286, "Nix programming language", 0.0, 0, 1404345600, 9, 0, 0], [730535744, "IOC-Llenguatge de Marques i Sistemes de Gesti\u00f3-Unitat 1", 0.0, 0, 1357430400, 17, 0, 0], [581745386, "LSM Maltese Sign Language dictionary in SignWriting 2014", 0.0, 0, 1428883200, 451, 0, 455], [2098183903, "Korean hanja to hangul based on Heisig's RTK part II", 0.0, 0, 1406073600, 1699, 0, 0], [1118647766, "Christian Nepali Language", 0.0, 0, 1402012800, 89, 0, 0], [89126766, "LizPolishLanguage", 0.0, 0, 1407628800, 168, 0, 0], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 0.0, 0, 1345852800, 769, 0, 0], [3248915342, "Language API - Clojure", 0.0, 0, 1345852800, 732, 0, 0], [2678657383, "IOC-Llenguatge de Marques i Sistemes de Gesti\u00f3-Unitat 3", 0.0, 0, 1357430400, 16, 0, 0], [1591737039, "ASL SignWriting to picture dictionary 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [1326383042, "English to German complete sentences for language learning", 0.0, 0, 1417824000, 47, 0, 0], [1009418837, "Libras L\u00edngua Brasileira Sinais LibrasEscrita 2015", 0.0, 0, 1429488000, 4659, 0, 4680], [1435905833, "Gairaigo - These are Katakana words from other languages", 5.0, 1, 1391212800, 413, 0, 0], [1197618719, "julia language", 0.0, 0, 1403827200, 34, 0, 0], [993930594, "European Countries, Capitals, and Languages", 0.0, 0, 1360195200, 21, 0, 0], [822231631, "InLingua Lesson - Lesson 22InLingua Lesson - Lesson 22InLing", 0.0, 0, 1386979200, 67, 0, 0], [1499728063, "Linguapolis Niveau 2 Nederlands cursus - Engels", 0.0, 0, 1410825600, 613, 0, 1], [66304203, "Ngu phap trung cap", 0.0, 0, 1424649600, 174, 2, 0], [923796402, "Thai Language Flashcards", 0.0, 0, 1416700800, 105, 67, 102], [1772402224, "Japanese the Written Language Chapter 18 Kanji", 0.0, 0, 1383350400, 38, 0, 0], [2075888486, "Marathi - language, study & work", 0.0, 0, 1403654400, 13, 0, 0], [30699219, "Georgian language study Tbilisi", 0.0, 0, 1345852800, 61, 0, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 0.0, 0, 1345852800, 641, 0, 0], [3300683758, "Lingua Latina: Familia Romana 1-18", 5.0, 1, 1363392000, 856, 0, 0], [276988754, "rdoliveira79 Unilinguas", 0.0, 0, 1434499200, 2, 0, 0], [1426603065, "Linguistics Term 1", 0.0, 0, 1424217600, 485, 0, 0], [928140404, "Wallangues / Altissia Pronunciation English", 0.0, 0, 1386633600, 53, 0, 0], [395703761, "LSQ dictionnaire Langue Signes Qu\u00e9b\u00e9coise 2014 Sign\u00c9criture", 0.0, 0, 1431129600, 4234, 0, 4255], [344019523, "LSA Lengua de Se\u00f1as Argentina SignoEscritura 2015", 0.0, 0, 1428796800, 1564, 0, 1568], [1609855750, "Langue juridique allemande ", 0.0, 0, 1410912000, 922, 0, 0], [781035279, "Creole la langue ", 0.0, 0, 1431129600, 42, 0, 0], [637005002, "Most used Phrases in English language (Brazilian answers)  ", 0.0, 0, 1415750400, 615, 619, 0], [1831207946, "Shakespeare and Language", 0.0, 0, 1424822400, 23, 6, 0], [620746859, "LSQ grammaire Langue des signes SignEcriture 2015 ", 0.0, 0, 1428192000, 313, 0, 314], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [1953889433, "Vocabulaire \" J'aime la langue Arabe\" Niveau 1", 0.0, 0, 1421107200, 140, 0, 0], [2845483510, "Lingua Latina Familia Romana Chapter 26", 0.0, 0, 1383264000, 88, 0, 0], [3698073712, "SOAS Japan Foundation Language and Culture A1", 0.0, 0, 1384300800, 207, 121, 0], [1768013860, "Ngu phap 1 kyu", 0.0, 0, 1424649600, 107, 0, 0], [1273386117, "Pensamiento y lenguaje", 0.0, 0, 1424304000, 110, 0, 0], [2227356, "Vocabulaire anglais/fran\u00e7ais Wallangues B2", 0.0, 0, 1390089600, 247, 0, 0], [1762079208, "Maltese language", 0.0, 0, 1399334400, 3373, 0, 0], [2069611544, "natural language processing CGSC4001 CGSC5001 AI", 0.0, 0, 1345852800, 51, 0, 0], [4072137607, "lengua 6\u00ba primaria, numerales, indefinidos, acentos hiato", 0.0, 0, 1385337600, 7, 0, 0], [53815650, "Universal Markup Language", 0.0, 0, 1416096000, 7, 0, 14], [2624109645, "CVA Felis Tongue and Neck Muscles", 0.0, 0, 1382659200, 15, 0, 0], [3012205386, "IOC-Llenguatge de Marques i Sistemes de Gesti\u00f3-Unitat 4", 0.0, 0, 1357430400, 19, 0, 0], [3828632470, "Syntax in Linguistics", 0.0, 0, 1345852800, 16, 0, 0], [899473772, "ASL picture dictionary to SignWriting 2015 sign language", 0.0, 0, 1431993600, 253, 0, 527], [1177816532, "haywood &nahmad a new arabic grammar of the written language", 0.0, 0, 1428192000, 836, 1, 57], [1070683839, "Linguapolis Niveau 3 Nederlands cursus - Engels", 0.0, 0, 1410825600, 335, 0, 1], [2823915896, "Japanese the Written Language Chapter 17 Kanji", 0.0, 0, 1381363200, 31, 0, 0], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 0.0, 0, 1345852800, 335, 0, 0], [563368435, "Yale Japanese 110 &120 - Japanese the Spoken Language", 5.0, 1, 1402099200, 1591, 1484, 0], [2977877472, "Medical Spanish (Colombian) - Defense Language Institute LSK", 4.33, 3, 1418342400, 640, 637, 0], [884911308, "Linguistik 1.2", 0.0, 0, 1372982400, 156, 0, 0], [3351948672, "In Slovak language, names of countries, languages, etc.", 0.0, 0, 1360886400, 40, 0, 0], [2706219531, "Linguistics Methodology CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 15, 0, 0], [1279910633, "Roots of the Russian Language", 2.5, 2, 1345852800, 333, 0, 0], [3518109344, "Georgian language study", 3.0, 1, 1345852800, 58, 0, 0], [3442359436, "Vocabulaire anglais/fran\u00e7ais Wallangues B2", 0.0, 0, 1385769600, 211, 0, 0], [1998147463, "Vala Language", 0.0, 0, 1353888000, 47, 0, 0], [3637902536, "Prefixes of the Russian Language", 0.0, 0, 1345852800, 21, 0, 0], [1901804925, "DDO Paediatrics - disorders of the mouth and tongue ", 0.0, 0, 1409616000, 9, 0, 2], [52638816, "Japanese the Spoken Language Lesson 18A Vocabulary", 0.0, 0, 1400198400, 37, 0, 0], [3634875858, "Thai Language Solutions Bangkok", 0.0, 0, 1425513600, 1524, 0, 11], [1948398170, "An Introductory Course in Thai Language & Culture", 0.0, 0, 1409097600, 30, 0, 0], [1914290576, "Dogma Through Korean Language", 0.0, 0, 1369785600, 53, 0, 0], [3935849612, "Languagedan English Corner", 0.0, 0, 1345852800, 2, 0, 0], [396805417, "Jonathan Hall's language flash card template", 0.0, 0, 1424476800, 1, 1, 5], [546988, "B&B 02.26.15 Language Disorders", 0.0, 0, 1425427200, 36, 0, 0], [3477767488, "Foreign Language Institute (FSI) Finnish, Unit 1 Vocabulary", 5.0, 1, 1345852800, 58, 0, 0], [646738116, "Python Programming Language", 4.0, 1, 1399334400, 151, 0, 164], [3217044479, "Japanese the Written Language Chapter 19 Kanji", 0.0, 0, 1383350400, 0, 0, 0], [314029032, "Portugu\u00eas - Figuras de Linguagem", 0.0, 0, 1416960000, 31, 0, 0], [1663500573, "Medical Persian Farsi Iran - Defense Language Institute LSK", 0.0, 0, 1418169600, 640, 640, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ngu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

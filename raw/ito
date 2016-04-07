@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1748849213, "Direito constitucional para concursos", 5.0, 1, 1435968000, 216, 0, 11], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 5.0, 1, 1453075200, 25, 3, 25], [84435293, "Citologia Pr\u00e1tica - Tecido Muscular", 0.0, 0, 1451865600, 43, 0, 39], [1288080496, "Citologia Pr\u00e1tica - Tecido Nervoso", 0.0, 0, 1451865600, 64, 0, 48], [778389744, "Direito penal para concursos - Parte geral", 5.0, 1, 1439164800, 175, 0, 17], [1939080703, "Spanish verbs in presente, pret\u00e9rito, imperfecto", 5.0, 1, 1453852800, 329, 326, 0], [399702278, "Parasitology Slide Test 1", 0.0, 0, 1449705600, 59, 0, 60], [3131765, "Parasitology Slide Test 2", 0.0, 0, 1449705600, 130, 0, 136], [766394314, "Parasitology Test 4", 0.0, 0, 1449705600, 105, 0, 0], [547350661, "Parasitology Test 3 ", 0.0, 0, 1449705600, 111, 0, 0], [1100926520, "Kanji da leggere Saito", 0.0, 0, 1449187200, 249, 0, 0], [1810052805, "KSUCVM Parasitology Exam III", 0.0, 0, 1448841600, 579, 0, 74], [1317821984, "c++ interview quesitons", 0.0, 0, 1445299200, 589, 0, 238], [81251048, "Parasitology", 0.0, 0, 1445126400, 50, 0, 3], [614792066, "ELEC4320 Asset Management and Condition Monitoring", 0.0, 0, 1449187200, 77, 0, 12], [814511766, "citologia e histologia", 0.0, 0, 1446595200, 135, 0, 15], [2047978292, "KSUCVM Parasitology Exam II", 0.0, 0, 1446336000, 713, 0, 164], [535730469, "*KSUCVM Parasitology Exam #1", 5.0, 1, 1442102400, 532, 0, 16], [364080194, "Direito Administrativo - Interven\u00e7\u00e3o do Estado - TLP", 0.0, 0, 1431302400, 14, 0, 0], [166684103, "Distritos de Portugal", 0.0, 0, 1441756800, 0, 0, 0], [313674920, "Parasito", 0.0, 0, 1442793600, 19, 0, 19], [2260936875, "Provinces and Territories of Canada", 4.2, 5, 1345852800, 14, 0, 14], [717269752, "KSUCVM Dat New Parasitology Exam 1", 0.0, 0, 1442793600, 667, 0, 52], [2532981480, "HMS.IMP.Parasitology3", 0.0, 0, 1368144000, 15, 0, 22], [502336517, "AME CONSTITUCIONAL - DIREITOS E DEVERES INDIVID E COLETIV", 0.0, 0, 1409702400, 77, 0, 0], [405527987, "KSUCVM Parasitology Exam 1", 0.0, 0, 1441497600, 16, 0, 0], [2010852611, "Direito do trabalho", 0.0, 0, 1402963200, 19, 0, 0], [1176956506, "AME CONSTITUCIONAL - 3 DIREITOS E GARANTIAS FUNDAMENTAIS", 0.0, 0, 1408320000, 40, 0, 0], [393774022, "Auditoria - Receita ", 0.0, 0, 1436227200, 27, 0, 0], [252383924, "Pasado aoristo (pret\u00e9rito perfecto) de verbos b\u00falgaros", 0.0, 0, 1420070400, 171, 0, 0], [1729052897, "Physiology Midterm 3 by cyitoh", 0.0, 0, 1418169600, 40, 0, 8], [2004259926, "ALittlebitouphadya", 0.0, 0, 1396742400, 282, 0, 15], [955923484, "An\u00e1lise e Projeto com UML (Levantando requisitos)", 0.0, 0, 1410912000, 7, 0, 4], [609130370, "Preguntas de parasitologia", 0.0, 0, 1413331200, 342, 0, 1], [175688941, "Direito do consumidor para concursos", 5.0, 1, 1437004800, 60, 0, 0], [2425531570, "HMS.IMP.Parasitology1", 0.0, 0, 1368144000, 38, 0, 8], [1382763881, "Direito Administrativo - Agentes P\u00fablicos e Lei 8112 - TLP", 0.0, 0, 1431302400, 92, 0, 0], [763304737, "FAS Espa\u00f1olas - Ej\u00e9rcito de Tierra: Distintivos y Emblemas", 0.0, 0, 1435536000, 61, 0, 63], [614617536, "Direito Administrativo", 4.0, 2, 1423094400, 218, 0, 0], [1128149440, "AME DIREITO DO TRABALHO - PROTE\u00c7\u00c3O AO TRABALHO DA MULHER", 0.0, 0, 1409702400, 19, 0, 0], [1724180525, "auditory ron1", 0.0, 0, 1395964800, 17, 0, 18], [1335608706, "Direito Previdenci\u00e1rio", 1.0, 1, 1423526400, 43, 0, 0], [3141433282, "Microbiology - Parasitology and Parasitic Skin Infections", 0.0, 0, 1369958400, 31, 0, 29], [1745554320, "Direito Administrativo - Bens P\u00fablicos - TLP", 0.0, 0, 1431302400, 3, 0, 0], [1623245882, "Direito Constitucional", 0.0, 0, 1423094400, 18, 0, 0], [1690864852, "AME CONSTITUCIONAL - DIREITOS SOCIAIS", 0.0, 0, 1409702400, 15, 0, 0], [1402847964, "PORT by Bernardo Feitosa", 0.0, 0, 1395187200, 29, 0, 0], [680182586, "Provinces and Territories of Canada 2.0", 0.0, 0, 1433030400, 13, 3, 16], [1836650620, "AME DIREITO DO TRABALHO - PROTE\u00c7\u00c3O AO TRABALHO DO MENOR", 0.0, 0, 1409702400, 15, 0, 0], [3018723782, "kakitori deck ", 0.0, 0, 1381104000, 7754, 0, 0], [514969579, "Han lectures regarding ER, Golgi, Mitochondria, and Lysosome", 0.0, 0, 1408838400, 41, 0, 10], [1528423709, "Provinces and Territories of Canada (improved)", 1.0, 1, 1421452800, 13, 4, 40], [280337788, "Legisla\u00e7\u00e3o - Direito Administrativo e Aquavi\u00e1rio", 0.0, 0, 1406246400, 129, 0, 19], [379170858, "POSC by Bernardo Feitosa", 0.0, 0, 1395187200, 89, 0, 0], [342176769, "Mansito", 0.0, 0, 1399852800, 287, 0, 0], [168221731, "Auditory System 1", 0.0, 0, 1425168000, 39, 0, 4], [2259379665, "Max*/Matiar/Ameer Mitochondria and cell energy", 0.0, 0, 1377820800, 9, 0, 3], [1416999242, "Intrebari limba romana marcu capitolele 1-3", 0.0, 0, 1390608000, 39, 0, 0], [204789917, "Note Type for wanikanitoanki.com", 4.0, 1, 1424995200, 1, 0, 1], [966647983, "Direito Ambiental", 0.0, 0, 1423526400, 26, 0, 0], [204374310, "HMS.IMP.Parasitology2", 0.0, 0, 1368144000, 21, 0, 18], [1370883174, "AME DIREITO DO TRABALHO - CCP", 0.0, 0, 1409788800, 15, 0, 0], [1738858094, "AME CONSTITUCIONAL - DIREITOS DE NACIONALIDADE", 0.0, 0, 1409702400, 8, 0, 0], [918818089, "Auditoria AFRFB FSSILVA", 0.0, 0, 1424390400, 913, 0, 0], [1773671064, "Mures-Intrebari capitol 1", 0.0, 0, 1400198400, 25, 0, 0], [69541209, "Afasilva_TI_Direito", 0.0, 0, 1406160000, 17, 0, 0], [358957647, "Direito Administrativo - Contratos e Lei 8666 - TLP", 0.0, 0, 1431302400, 11, 0, 0], [2407783082, "Direito Constitucional Intro", 0.0, 0, 1360022400, 21, 0, 0], [1003245145, "Direito Civil", 0.0, 0, 1360022400, 14, 0, 0], [3125609258, "States & Union Territories of India", 2.5, 2, 1345852800, 35, 0, 0], [11378703, "AME CONSTITUCIONAL - DIREITOS POL\u00cdTICOS", 5.0, 1, 1409702400, 13, 0, 0], [2145853152, "High Yield Citow", 0.0, 0, 1393718400, 41, 0, 1], [1155004753, "HISTB by Bernardo Feitosa", 0.0, 0, 1395187200, 157, 0, 6], [1496553487, "Direito Administrativo - Atos Administrativos - TLP", 0.0, 0, 1431302400, 10, 0, 0], [368654935, "Direito Administrativo - Organiza\u00e7\u00e3o da Adm P\u00fablica - TLP", 0.0, 0, 1431302400, 14, 0, 0], [1417500049, "AME DIREITO DO TRABALHO - DURA\u00c7\u00c3O DO TRABALHO", 0.0, 0, 1409702400, 16, 0, 0], [1481437660, "Direito Administrativo - Processo Administrativo - TLP", 0.0, 0, 1431302400, 12, 0, 0], [516919906, "Direito Constitucional - TLP", 0.0, 0, 1431302400, 44, 0, 0], [1912056599, "Direito Adm.", 0.0, 0, 1410048000, 74, 0, 2], [1852869301, "AME DIREITO DO TRABALHO", 0.0, 0, 1431302400, 164, 0, 0], [253334733, "Direito Previdenciario AFRFB FSSILVA", 5.0, 1, 1424390400, 335, 0, 16], [157755053, "DIP by Bernardo Feitosa", 0.0, 0, 1395187200, 28, 0, 0], [1263846556, "Direito Empresarial", 0.0, 0, 1413244800, 32, 0, 0], [1833447909, "AME DIREITO DO TRABALHO - AVISO PR\u00c9VIO", 0.0, 0, 1409702400, 18, 0, 0], [667455953, "AME DIREITO DO TRABALHO - DIREITOS CONST DOS TRABALHADORES", 0.0, 0, 1409788800, 36, 0, 0], [642686081, "VI VI editor commands", 0.0, 0, 1428364800, 68, 1, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Ito</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

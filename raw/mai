@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1047375404, "Angol, k\u00f6nyvt\u00e1ros szakmai idegen nyelv", 0.0, 0, 1429920000, 379, 0, 180], [572190097, "Card mai wen jing ", 0.0, 0, 1449273600, 20, 0, 0], [1262557294, "Mai wen jing Res", 0.0, 0, 1452384000, 18, 0, 0], [1133583396, "mai wen jing emerge", 0.0, 0, 1452384000, 30, 0, 0], [1543937746, "REN MAI - Conception Vessel- SEA OF YIN", 0.0, 0, 1450569600, 21, 0, 0], [929780355, "h mai wen jing ", 0.0, 0, 1452384000, 395, 0, 0], [1119555963, "MairoVergara", 3.0, 1, 1447804800, 216, 0, 0], [1948253509, "Mai wen jing  DI", 0.0, 0, 1452384000, 253, 0, 0], [136629347, "MairoVergara", 0.0, 0, 1444867200, 136, 0, 0], [1070561672, "Endo Mai Wen Jing", 0.0, 0, 1446249600, 264, 0, 0], [567354356, "Deck de frases pro curso de Ingl\u00eas do Mairo Vergara", 4.0, 1, 1442793600, 1, 0, 0], [122114918, "absolutely essential words 504-main", 0.0, 0, 1445904000, 450, 0, 0], [1223709352, "Renal Mai Wen Jing", 0.0, 0, 1452384000, 227, 0, 0], [2122582555, "Neuro mai wen jing", 0.0, 0, 1447632000, 384, 0, 0], [385368639, "Mai Wen Jing OSCE", 0.0, 0, 1446508800, 52, 0, 0], [118781189, "HSC Biology: \"Maintaining A Balance\"", 0.0, 0, 1413676800, 227, 0, 20], [610206214, "Grammaire Espagnol Bintou S", 0.0, 0, 1434326400, 77, 0, 0], [1731235554, "CFA Level 3 - Main Deck", 0.0, 0, 1439856000, 502, 0, 76], [3139955438, "CHM MSU Digestive GI Domain Week 1", 0.0, 0, 1378252800, 903, 0, 414], [2003942615, "Peter Medicine Main", 0.0, 0, 1345852800, 4761, 5, 705], [348992547, "Basic K'Mai", 0.0, 0, 1405468800, 819, 0, 0], [833681621, "Thai CMU 1", 0.0, 0, 1345852800, 1399, 0, 0], [420193280, "Grammaire Anglaise Bintou S", 0.0, 0, 1434326400, 44, 0, 0], [1031458716, "russe grammaire ", 0.0, 0, 1431302400, 58, 6, 30], [3792573652, "Aramaic 500-100 B.C.", 0.0, 0, 1345852800, 203, 0, 0], [1350839493, "Gmail Shortcut (on Windows)", 0.0, 0, 1427414400, 72, 0, 0], [1090065095, "Hausa (mainly audio)", 0.0, 0, 1415404800, 40, 40, 31], [2686553722, "Ressources Humaines RH", 0.0, 0, 1382054400, 63, 0, 9], [3855154695, "Targumic Aramaic", 0.0, 0, 1345852800, 235, 0, 4], [4124013528, "CHM MSU Cardio Domain Week 3", 0.0, 0, 1378252800, 444, 0, 241], [620746859, "LSQ grammaire Langue des signes SignEcriture 2015 ", 0.0, 0, 1428192000, 313, 0, 314], [2576541527, "Almen Histologi Spot", 0.0, 0, 1385164800, 190, 0, 190], [286676280, "Maintaining Homeostasis VIJ", 0.0, 0, 1412726400, 17, 0, 4], [1741373124, "Country codes (top-level domain names)", 0.0, 0, 1391212800, 247, 0, 0], [931350440, "Neramsinxxx (franz grammaire)", 0.0, 0, 1382745600, 442, 0, 0], [518276061, "200 Palavras mais comuns em 44 frases", 0.0, 0, 1426464000, 45, 0, 0], [3440390949, "Gmail Keyboard Shortcuts", 0.0, 0, 1345852800, 13, 0, 0], [1877504189, "The human body - le corps humain", 0.0, 0, 1429920000, 261, 0, 0], [3318112904, "CHM MSU Cardio Domain Week 2", 0.0, 0, 1378252800, 207, 0, 112], [1718760326, "Grammaire Mina", 0.0, 0, 1424736000, 99, 0, 120], [421545986, "As 1000 Palavras mais usadas em Ingl\u00eas com \u00e1udio", 5.0, 1, 1390521600, 1007, 1007, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mai</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

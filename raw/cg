@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[480153165, "Physio Cardio- ECG", 0.0, 0, 1453161600, 46, 0, 54], [1838530892, "Part 1 CGT Interim Exam - Economics", 0.0, 0, 1452556800, 62, 14, 1], [1817251492, "bacgay1", 0.0, 0, 1449360000, 61, 63, 64], [1257873489, "bacgay", 0.0, 0, 1449360000, 65, 67, 68], [954526056, "MGCR211 Financial Accounting \u2013 McGill Fall 2015", 0.0, 0, 1447977600, 0, 0, 0], [1177701474, "ECG Deck 1", 0.0, 0, 1442188800, 21, 0, 77], [1285383127, "hiraganacgmds", 5.0, 1, 1442275200, 32, 0, 0], [1601495136, "FinnFACEM - ECG", 0.0, 0, 1439424000, 27, 0, 16], [823073062, "ECG Final", 0.0, 0, 1441152000, 57, 0, 0], [1062414566, "Sentan\u00e7ascgmds", 0.0, 0, 1442275200, 12, 0, 0], [1026767992, "pathophys (ECG)", 0.0, 0, 1382572800, 57, 0, 17], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [1555573719, "CGSH Level 5", 0.0, 0, 1398384000, 827, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [1516640332, "CGSH Level 6", 0.0, 0, 1398384000, 770, 0, 0], [2013072054, "CGSH Level 3", 0.0, 0, 1398384000, 223, 0, 0], [3265996758, "Cognitive Historical Analysis CGSC2002 Methods CogSci", 0.0, 0, 1345852800, 15, 0, 0], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [3247401211, "All Cards CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 361, 0, 0], [1163453434, "productionSystems CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 32, 0, 0], [104861841, "Philosophical Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 28, 0, 0], [3457317948, "fuzzy logic CGSC 4001 5001 Artificial Intelligence ", 0.0, 0, 1345852800, 31, 0, 0], [1217898473, "All Cards CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 346, 0, 0], [662638511, "Neuroscience Methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 47, 0, 0], [1050489305, "Lectures 11-12, ECG", 0.0, 0, 1392681600, 50, 0, 9], [2057840245, "Droit p\u00e9nal suisse (ECG)", 0.0, 0, 1425340800, 24, 0, 0], [1172295329, "Vini Italiani DOCG", 0.0, 0, 1345852800, 73, 0, 0], [1253228986, "Kcom Princibles cardiac ECG", 0.0, 0, 1397347200, 343, 0, 161], [3644830517, "ethology CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 15, 0, 0], [1305954967, "unit2occgenei", 0.0, 0, 1380412800, 216, 3, 0], [2069611544, "natural language processing CGSC4001 CGSC5001 AI", 0.0, 0, 1345852800, 51, 0, 0], [3194272635, "ECG MM", 0.0, 0, 1372550400, 71, 0, 14], [641629831, "CGSH Level 4", 0.0, 0, 1398384000, 378, 0, 0], [3489705191, "Levels of Explanation in Science CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1601979276, "Cardio ECG", 0.0, 0, 1409788800, 63, 0, 1], [1450143754, "logic CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 29, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [1480877501, "RACGP exam study (Loz)", 0.0, 0, 1415232000, 206, 0, 17], [2706219531, "Linguistics Methodology CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 15, 0, 0], [546729483, "Making Science Presentations CGSC2002 Methods in CogSci", 0.0, 0, 1345852800, 16, 0, 0], [3631503816, "Writing Scientific Papers CGSC2002 Methods Cognitive Science", 0.0, 0, 1345852800, 31, 0, 0], [3669094370, "CofO2 - 15 - ECG", 0.0, 0, 1345852800, 46, 0, 0], [485381930, "Protocol Analysis CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 18, 0, 0], [1666774821, "WCG's GRE Words", 0.0, 0, 1345852800, 445, 0, 0], [2713449531, "psychology methods CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 92, 0, 0], [864958802, "ethnography CGSC2002 Methods in Cognitive Science", 0.0, 0, 1345852800, 21, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Cg</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

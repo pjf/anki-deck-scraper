@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1048568800, "EmoryPharmRespiratory", 0.0, 0, 1453852800, 21, 0, 3], [1736214400, "Seri omran", 0.0, 0, 1449878400, 728, 1, 1], [777172438, "Pain Mrchanisms", 5.0, 1, 1449014400, 25, 0, 6], [1450277920, "Seri omomi (omran)", 0.0, 0, 1449878400, 1482, 1, 1], [1632765452, "Jack & Diane, Mr. Callahan", 0.0, 0, 1449187200, 24, 0, 14], [1774271696, "TMRNA", 0.0, 0, 1442707200, 77, 0, 0], [1460451190, "TMR", 0.0, 0, 1442361600, 27, 0, 0], [1584164042, "TMrep", 0.0, 0, 1442620800, 52, 0, 0], [3572937583, "IELTS VOCABULARY 2 ENGLISH TO PERSIAN-OXFORD BY KAMRAN ", 4.0, 1, 1371686400, 1132, 515, 0], [98018760, "Mr. Northcutt's English 2", 0.0, 0, 1439683200, 5, 0, 5], [1714404382, "UPB_Umrechnung", 0.0, 0, 1367193600, 25, 0, 0], [663296248, "Organic Test 1 (IR Spec, Proton NMR, Mass Spec)", 0.0, 0, 1360972800, 46, 0, 0], [847974395, "mr high yield", 0.0, 0, 1429315200, 99, 0, 6], [1171578497, "Biology Practical 2 for Mrs. Kirk", 0.0, 0, 1417996800, 256, 0, 137], [654967835, "Cymraeg", 0.0, 0, 1424131200, 217, 0, 0], [1093461534, "Mr. Davis 2013-2014 English II H Vocabulary + Sentences", 0.0, 0, 1398729600, 592, 0, 0], [1263804757, "JP's MRANZCOG MCQ 2", 0.0, 0, 1419206400, 152, 0, 0], [1892279791, "Acids and Bases - Mr Shepherd", 0.0, 0, 1402617600, 26, 0, 0], [2028296135, "Thai middle class consonants 6-MR tones", 0.0, 0, 1430438400, 11, 0, 0], [4036500628, "IELTS VOCABULARY ENGLISH TO PERSIAN-OXFORD BY KAMRAN FARAJI", 2.0, 2, 1358985600, 4493, 0, 0], [20445874, "Hydrology and Gases - Year 9 - Mr Shepherd", 0.0, 0, 1406764800, 42, 0, 0], [1214408553, "Childhood Viruses MMR", 0.0, 0, 1418688000, 46, 0, 0], [1717616228, "MRANZCOG FEB 2011", 0.0, 0, 1419206400, 120, 0, 0], [1549390998, "JP's MRANZCOG MCQ 3", 0.0, 0, 1419206400, 150, 0, 0], [1470756702, "MRANZCOG FEB 2010", 0.0, 0, 1419206400, 123, 0, 0], [1267149337, "all words + memrise", 0.0, 0, 1418256000, 2099, 0, 1], [393988316, "MRANZCOG FEB 2008", 0.0, 0, 1419206400, 116, 0, 0], [790418934, "H nmr spectra", 0.0, 0, 1406419200, 6, 0, 0], [2066332373, "Midterm Notecards for Mrs. Weber's Clas", 0.0, 0, 1428969600, 85, 0, 144]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mr</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

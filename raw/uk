@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[232401491, "English-Ukrainian", 0.0, 0, 1429574400, 1167, 0, 0], [644201386, "1000 English words 10 x szybsza nauka z Symonem", 2.0, 1, 1432944000, 50, 50, 0], [3274643976, "Francouz\u0161tina nejen pro samouky - Lekce 19 - 32 (\u010desk\u00e9)", 0.0, 0, 1372032000, 1091, 0, 0], [160559158, "Ukraine - Deutsch - unregelm\u00e4\u00dfige Verben", 0.0, 0, 1454976000, 36, 0, 0], [849454182, "3000 English sentences with ukrainian translates", 5.0, 4, 1430870400, 3353, 3392, 47], [1791761336, "Polski - ukrainski zdanie", 0.0, 0, 1430870400, 2426, 2369, 47], [724804547, "Chemie Strukturformeln FFM Chemie f\u00fcr Mediziner", 0.0, 0, 1454025600, 190, 0, 191], [2711667391, "12 Nauka LRM PP", 0.0, 0, 1345852800, 250, 248, 0], [1331188420, "Beginning Japanese (Otsuka)", 5.0, 1, 1453248000, 267, 3, 2], [1646233599, "Birds of Great Britain, with images and sounds", 4.0, 1, 1445731200, 593, 15, 593], [3399102657, "CZ - \u0160pan\u011bl\u0161tina pro samouky", 5.0, 1, 1345852800, 3728, 0, 0], [976133416, "A test set meant to start working with Anki", 0.0, 0, 1454025600, 13, 0, 19], [61203353, "Bibelkunde NT (12) Lukas Ev.", 0.0, 0, 1453766400, 34, 0, 0], [2103093843, "Taylor Moderniteit in Meervoud hoofdstuk 1 t/m 3", 0.0, 0, 1453420800, 14, 0, 0], [1251668868, "\u4eba\u540d\u7528\u6f22\u5b57 Jinmeiyoukanji (Full Names+Single Names)", 4.0, 2, 1345852800, 2530, 0, 0], [419605426, "Taylor Moderniteit in Meervoud hoofdstuk 4 t/m 6", 0.0, 0, 1453420800, 1, 0, 0], [1544335887, "Taylor Moderniteit in Meervoud hoofdstuk 7 t/m 13", 0.0, 0, 1453420800, 8, 0, 0], [1749738897, "Morseova abeceda (text, zvuk, sv\u011btlo)", 0.0, 0, 1453420800, 62, 56, 16], [1295665503, "D\u011bjiny um\u011bn\u00ed PedfUK I", 0.0, 0, 1452643200, 905, 0, 888], [889511856, "1945 H\u00e1n t\u1ef1 v\u1edbi \u00e2m H\u00e1n Vi\u1ec7t + c\u00e1c t\u1eeb li\u00ean quan t\u1eeb Tanos.uk", 0.0, 0, 1451347200, 1945, 0, 1], [451218904, "Leukemier", 0.0, 0, 1452038400, 27, 0, 0], [512634474, "Ukrainien sans peine assimil Ukrainien/ fran\u00e7ais", 0.0, 0, 1443398400, 676, 6, 6], [260716601, "Think Again: How to Reason and Argue (Coursera/Duke)", 0.0, 0, 1410912000, 131, 0, 0], [499477650, "Opetus.tv - Lukion Orgaaninen Kemia ", 0.0, 0, 1413763200, 246, 0, 23], [1221791992, "Francouz\u0161tina nejen pro samouky - Lekce 1 - 16 (\u010desk\u00e9)", 0.0, 0, 1365724800, 971, 0, 0], [1732464077, "Ukrainian most common Adjectives (UA-ENG; ENG-UA)", 5.0, 2, 1429401600, 125, 125, 0], [1635324686, "(en-uk) School vocabulary 1-4 grade", 0.0, 0, 1449964800, 944, 0, 0], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [2102628608, "Hoofdstuk 1 BSS", 0.0, 0, 1447286400, 14, 0, 3], [1821426174, "Ukrainian Prepositions (picts+audio) ENG-UA / UA-ENG", 3.67, 3, 1430870400, 29, 29, 29], [1363974035, "Shin nihongo no chukyu", 0.0, 0, 1454457600, 230, 0, 0], [586814757, "KUK OREA 1-1", 0.0, 0, 1448236800, 57, 0, 0], [1878785042, "Hoofdstuk 2 BSS", 0.0, 0, 1447286400, 14, 0, 2], [1541593467, "Ukrainian Numerals (Num-UA/UA-Num) + AUDIO", 5.0, 1, 1436572800, 77, 77, 0], [1271245595, "Korean Go/Baduk terms and their English meanings", 0.0, 0, 1445904000, 99, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [1451463040, "Biochemick\u00e9 vzorce (1. LF UK)", 0.0, 0, 1445385600, 206, 0, 0], [1002120426, " Finnish: ammatit ja harrastukset", 0.0, 0, 1444003200, 125, 0, 0], [714215906, "Inuktitut Syllabics", 0.0, 0, 1345852800, 120, 0, 0], [3228451621, "Bible Quiz 42: Luke", 0.0, 0, 1345852800, 147, 0, 0], [1667671630, "kemia lukio kurssi 1", 0.0, 0, 1440460800, 180, 0, 0], [238875433, "UK Postcode Areas", 0.0, 0, 1442016000, 124, 0, 0], [1594174040, "nauka czytania dla dzieci polish", 0.0, 0, 1442793600, 3, 40, 16], [1912810372, "LUKAS VOC", 0.0, 0, 1444262400, 1236, 1229, 0], [280861795, "Nederlands in actie - Vocabulaire hoofdstuk 1", 0.0, 0, 1433980800, 73, 0, 0], [1298935544, "UKCOM M1", 0.0, 0, 1438905600, 1487, 0, 112], [1842534569, "DVSA Show me, Tell me", 2.0, 1, 1441152000, 19, 0, 0], [990786538, "Logik und diskrete Strukturen Multiple Choice Uni Stuttgart ", 0.0, 0, 1424217600, 69, 0, 141], [1298348092, "keukenmateriaal 6", 0.0, 0, 1417392000, 20, 0, 20], [87825824, "LSI Japanisch Aufbaukurs", 0.0, 0, 1374796800, 506, 0, 0], [1190284708, "Ukrainian Beginner 2015", 0.0, 0, 1439164800, 535, 0, 0], [818194423, "Ukulele Basic Chords", 0.0, 0, 1435795200, 35, 0, 0], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 5.0, 1, 1433721600, 2000, 6, 4], [1687157957, "Konstruktion utmattning", 0.0, 0, 1437264000, 32, 0, 5], [1214596043, "Konstruktion Lager", 0.0, 0, 1437264000, 23, 0, 0], [269385901, "NICE Guidelines UK Antibiotics fist line - Shatrick", 0.0, 0, 1433289600, 27, 0, 0], [1345688103, "Ukelele Chords, Basic", 0.0, 0, 1435622400, 35, 0, 0], [2248026594, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1345852800, 305, 0, 0], [1591457982, "UK Road Signs & Meanings", 0.0, 0, 1438646400, 167, 0, 0], [431059496, "hankuko2_direction", 0.0, 0, 1432252800, 22, 28, 22], [1536913770, "\u0423\u043a\u0440\u0430\u0457\u043d\u043e-\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u043e\u0437\u043c\u043e\u0432\u043d\u0438\u043a \u0437 \u0441\u0430\u0439\u0442\u0443 uk.wikivoyage.org", 0.0, 0, 1435795200, 219, 256, 47], [2674369776, "Cinta Bahasa Buku 2A: Set #1", 0.0, 0, 1355443200, 50, 0, 0], [389581395, "keukenmateriaal 7", 0.0, 0, 1417392000, 23, 0, 23], [2040022550, "hankuko", 0.0, 0, 1431820800, 6, 6, 6], [2103840294, "Opetus.tv - Lukion Fysiikka 1", 0.0, 0, 1413763200, 186, 0, 9], [863215043, "keukenmateriaal 2", 0.0, 0, 1417392000, 20, 0, 20], [877088800, "UK NUR 210 Exam 1", 0.0, 0, 1418774400, 201, 0, 0], [1471864600, "UK NUR 210 EXAM 4 Antivirals/antifungals", 0.0, 0, 1418774400, 38, 0, 0], [2059731982, "Leukocyte Extravasation and Phagocytosis", 0.0, 0, 1360627200, 39, 0, 0], [181378789, "nauka pol/ang", 0.0, 0, 1428624000, 119, 32, 1], [2008757247, "UK NUR 210 Exam 2", 0.0, 0, 1418774400, 287, 0, 0], [1062612586, "Prime Ministers and Kings of England, Britain and the UK", 0.0, 0, 1386547200, 134, 0, 0], [1993710075, "UK NUR 221 Exam 3 CVA stroke", 0.0, 0, 1414713600, 36, 0, 0], [2050548852, "German Body words (Ukr)", 0.0, 0, 1419638400, 19, 0, 0], [1947895716, "Azbuka CZ", 0.0, 0, 1393977600, 33, 0, 0], [84990243, "UK NUR 221 Exam 3 Nutrition", 0.0, 0, 1414713600, 35, 0, 0], [552387600, "Tzuk Eitan vocabulary", 0.0, 0, 1406160000, 47, 0, 0], [1965976203, "UK NUR 221 Exam 4 Preschoolers", 0.0, 0, 1416182400, 27, 0, 0], [436440844, "keukenmateriaal", 0.0, 0, 1417392000, 20, 0, 20], [3302145396, "Shuujuku Kanji", 0.0, 0, 1345852800, 1598, 0, 0], [412245188, "Ukulele Added Tone Chords", 0.0, 0, 1435795200, 57, 0, 0], [1512212857, "Uk\u0142ad kr\u0105\u017cenia", 0.0, 0, 1416441600, 35, 0, 0], [245915709, "Datenstrukturen und Algorithmen", 0.0, 0, 1425081600, 85, 0, 187], [727979834, "UK NUR 210 Exam 4 Microbiology/Immunology", 0.0, 0, 1418774400, 83, 0, 0], [1234347618, "Leukemias, lymphomas, myelomas and other WBC neoplasias", 0.0, 0, 1426723200, 104, 0, 13], [782634910, "Ukulele Intervals", 0.0, 0, 1435795200, 52, 0, 0], [1203310645, "Basic Ukrainian", 0.0, 0, 1432166400, 33, 0, 0], [1065562328, "Espanjan preteriti ja imperfekti -harjoituksia", 0.0, 0, 1426377600, 95, 0, 0], [92286361, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1416441600, 43, 0, 0], [1267179880, "Flashfinals - flashcards for UK medical school exams", 5.0, 1, 1452988800, 2596, 3, 82], [2014063205, "UK NUR 210 EXAM 4 Antibiotics", 0.0, 0, 1418774400, 123, 0, 0], [414394398, "Uk\u0142ad naczyniowy/krwiono\u015bny", 0.0, 0, 1417651200, 43, 0, 0], [314055767, "Nauka perskiego alfabetu z wymow\u0105", 0.0, 0, 1438128000, 64, 0, 1], [1037064831, "Ukulele Fretboard", 0.0, 0, 1435795200, 26, 0, 0], [1971975259, "Tanuki J-J Sentences (full kanji)", 0.0, 0, 1409097600, 7130, 0, 0], [1936407992, "UK NUR 210 Pathopharm Exam 3 Diabetes", 0.0, 0, 1418774400, 101, 0, 0], [583554653, "NL3 - hoofdstuk 4", 0.0, 0, 1391472000, 54, 0, 0], [1390372234, "sozialstrukturanalyse ", 0.0, 0, 1422576000, 275, 0, 9], [1247732190, "Grundlagen der landwirtschaftlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [548276201, "NL3 - hoofdstuk 3", 0.0, 0, 1391472000, 130, 0, 0], [1071915221, "keukenmateriaal 4", 0.0, 0, 1417392000, 20, 0, 20], [1341834637, "Ukrainian RU-UA", 0.0, 0, 1442793600, 50, 0, 0], [1215187650, "Labour and Conservatives (UK)", 0.0, 0, 1399507200, 65, 0, 0], [1681546141, "UK NUR 221 EXAM 1", 0.0, 0, 1411344000, 135, 0, 0], [881035969, "MDTI 01.27.15 Acute Leukemias", 0.0, 0, 1422403200, 49, 0, 5], [188666059, "Nederlands in actie - Vocabulaire hoofdstuk 2", 0.0, 0, 1434844800, 86, 0, 0], [2187513478, "kanji 2 per maruko", 0.0, 0, 1369353600, 60, 0, 0], [290001679, "UK NUR 221 Exam 5 Peds G&D School Age/Adolescent", 0.0, 0, 1417651200, 60, 0, 0], [1282100945, "Ukulele Training", 0.0, 0, 1437609600, 710, 0, 0], [1108461821, "history of japan asuka tenpyou", 5.0, 1, 1399334400, 209, 0, 0], [1812432048, "UK NUR 210 Exam 4 Skin disorders", 0.0, 0, 1418774400, 28, 0, 0], [1132826902, "Leukoplakia,oral carinoma", 0.0, 0, 1376524800, 32, 0, 7], [388983195, "Lukion yhteiskuntaoppi kurssi 1 termit", 0.0, 0, 1418601600, 338, 0, 0], [1611662936, "Strukturgeologie", 0.0, 0, 1389744000, 139, 0, 0], [1909287957, "Grundlagen der landwirtschaftlichen Produktion #3", 0.0, 0, 1405382400, 14, 0, 0], [2008211883, "Grundlagen der forstlichen Produktion #1", 0.0, 0, 1405382400, 15, 0, 0], [253151767, "Produktionstechnik II TU Berlin", 0.0, 0, 1437523200, 94, 0, 10], [1395881924, "hankuko3_number", 0.0, 0, 1433203200, 33, 33, 33], [942290944, "\u00c4\u00e4nt\u00e4misharjoitukset - termien selitykset", 0.0, 0, 1419292800, 14, 0, 0], [1068845476, "Ukelele Intervals", 0.0, 0, 1435622400, 52, 0, 0], [370487512, "keukenmateriaal 8", 0.0, 0, 1417392000, 3, 0, 3], [1727517314, "Higher Education (UK)", 0.0, 0, 1399507200, 54, 0, 0], [603282619, "Counties", 3.0, 2, 1399593600, 47, 0, 47], [2002696927, "UK NUR 210 Pathopharm Exam 3 Acid-Base", 0.0, 0, 1418774400, 41, 0, 0], [831345451, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1351123200, 284, 0, 0], [1434812234, "UK Spelling Keywords", 0.0, 0, 1417132800, 298, 294, 0], [1181834904, "500 English words(pic and audio) (Ukrainian Translation)", 5.0, 2, 1425254400, 248, 234, 268], [166340117, "keukenmateriaal 3", 0.0, 0, 1417392000, 20, 0, 20], [1420150903, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny II", 0.0, 0, 1419120000, 477, 0, 14], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [323317504, "Patobiochemie 3", 0.0, 0, 1387238400, 15, 0, 0], [58161266, "German - Unit 10 words (Ukr)", 0.0, 0, 1419638400, 23, 0, 0], [980793069, "UK NUR 221 Toddler development", 0.0, 0, 1416182400, 43, 0, 0], [353525130, "Grundlagen der forstlichen Produktion #3", 0.0, 0, 1405382400, 16, 0, 0], [1989623521, "farma leki z ukladow", 0.0, 0, 1434931200, 242, 0, 0], [17502813, "Grundlagen der landwirtschaftlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [570514717, "UK NUR 221 Infant Development", 0.0, 0, 1416268800, 116, 0, 0], [1412756056, "UK NUR 300/301 FULL SEMESTER", 0.0, 0, 1443398400, 780, 0, 0], [549451882, "\u0160v\u00e9d\u0161tina pro samouky", 0.0, 0, 1359590400, 78, 0, 0], [1178338219, "German - Unit 11 words (Ukr)", 0.0, 0, 1419897600, 32, 0, 0], [1348886481, "CZ - \u0160pan\u011bl\u0161tina pro samouky - prvn\u00edch 20 lekc\u00ed", 0.0, 0, 1419033600, 725, 0, 0], [2346689345, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 1-4", 0.0, 0, 1351123200, 305, 0, 0], [1331089496, "Uk\u0142ad wsp\u00f3\u0142czulny", 0.0, 0, 1432944000, 50, 0, 0], [1256842907, "Super Goukaku Japanese Grammar JLPT 1 and JLPT 2", 0.0, 0, 1362614400, 517, 0, 0], [3314776797, "per maruko kanji 1", 0.0, 0, 1369526400, 282, 0, 0], [561646050, "Acute & Chronic Leukemia ", 0.0, 0, 1392854400, 38, 0, 8], [3199823782, "N\u011bm\u010dina pro samouky", 0.0, 0, 1356652800, 46, 0, 0], [1077288109, "UK NUR 221 Exam 3 spinal cord injuries", 0.0, 0, 1414713600, 14, 0, 0], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [2130457020, "German - Verbs words (Ukr)", 0.0, 0, 1419638400, 16, 0, 0], [783807610, "UK NUR 210 Pathopharm Exam 3 F&E", 0.0, 0, 1418774400, 50, 0, 0], [2061238142, "1 kyu muzukashi kotoba", 0.0, 0, 1424649600, 2630, 1067, 441], [87833031, "Ru\u0161tina pro samouky by Qvasa ", 5.0, 5, 1428624000, 2840, 0, 0], [4052180344, "Induktion", 0.0, 0, 1358812800, 18, 0, 0], [714191061, "Bauphysikalische Optimierung von Hochbaukonstruktionen", 0.0, 0, 1406073600, 152, 0, 9], [1325604750, "pr\u00f3ba 4. lyukas sz\u00f6veg", 0.0, 0, 1403654400, 5, 0, 0], [1628348537, "keukenmateriaal 5", 0.0, 0, 1417392000, 20, 0, 20], [1855294914, "Grundlagen der forstlichen Produktion #2", 0.0, 0, 1405382400, 15, 0, 0], [141246269, "UK Road Signs ", 5.0, 1, 1426464000, 152, 0, 151], [313300394, "chuukyuu kara jyoukyuu e no kotoba", 0.0, 0, 1401494400, 226, 0, 0], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 5.0, 3, 1381276800, 46, 51, 46], [1420173537, "NL3 - hoofdstuk 5", 0.0, 0, 1391472000, 55, 0, 0], [1203594462, "UK NUR 221 Exam 5 Peds Nutrition, Health Promotion, Immuniza", 0.0, 0, 1417651200, 98, 0, 0], [803765059, "Grundlagen der landwirtschaftlichen Produktion #4", 0.0, 0, 1405382400, 13, 0, 0], [1222522004, "Ukelele Fretboard", 0.0, 0, 1435363200, 26, 0, 0], [1076382311, "British Bird Songs", 0.0, 0, 1393891200, 50, 50, 0], [1233812917, "Anatomia (uk\u0142ad pokarmowy)", 0.0, 0, 1345852800, 16, 0, 16], [1684900806, "Chemie 3. Semester Vom Rohstoff zum Systheseprodukt", 0.0, 0, 1346284800, 97, 0, 55], [2873911578, "Bible Quiz 35: Habakkuk", 0.0, 0, 1345852800, 9, 0, 0], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [2161294631, "AF2 dissektion 8 - kar, nerver og andre strukturer", 0.0, 0, 1345852800, 37, 0, 74], [4044495351, "Portugalstina pro samouky Leda", 0.0, 0, 1345852800, 809, 0, 0], [2056957519, "deutsch b1 ukr", 0.0, 0, 1405468800, 61, 0, 0], [205482022, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 9-12", 0.0, 0, 1351123200, 309, 0, 0], [426389722, "PedF UK - Obecn\u00e9 a \u010desk\u00e9 d\u011bjiny I", 0.0, 0, 1414540800, 544, 0, 0], [1561384318, "UK edible plants", 3.0, 2, 1372118400, 53, 0, 53], [1223298723, "NL3 - hoofdstuk 2", 0.0, 0, 1391472000, 45, 0, 0], [2126523346, "UK NUR 221 Exam 3 Cardio", 0.0, 0, 1414713600, 42, 0, 0], [3017541861, "Minna No Nihongo Chuukyuu 1 le\u00e7ons 5-8", 0.0, 0, 1345852800, 284, 0, 0], [2050023423, "Produkters kemi", 0.0, 0, 1400716800, 151, 0, 1], [1524628867, "Historia Sztuki. \u015aredniowiecze cz. 1", 0.0, 0, 1398124800, 211, 0, 223], [880517544, "Kukta suomi", 0.0, 0, 1393891200, 129, 0, 0], [538352026, "Ukrainian consonants ", 0.0, 0, 1427587200, 21, 21, 0], [1585920690, "Ukrainian vowels", 0.0, 0, 1427587200, 11, 11, 0], [2364660320, "Ukraine Alphabet", 0.0, 0, 1361750400, 33, 33, 66], [577464514, "German - Adjective words (Ukr)", 0.0, 0, 1419638400, 2, 0, 0], [2143430041, "Ukrainian most common verbs", 5.0, 3, 1418688000, 111, 111, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Uk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

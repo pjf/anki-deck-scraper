@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[184711679, "fmwhealth", 0.0, 0, 1454544000, 106, 0, 0], [1159269129, "Umweltschutz im Haushalt", 0.0, 0, 1453680000, 20, 0, 19], [516551440, "fmwomen", 0.0, 0, 1454544000, 123, 0, 0], [635256693, "MW Kinesiology II", 0.0, 0, 1453507200, 149, 0, 7], [1935090034, "Japanese Verb Conjugations and Combinations JTMW (v.1.04)", 0.0, 0, 1421539200, 328, 0, 0], [563967761, "Japanese General Grammar JTMW (version 1.03)", 0.0, 0, 1421107200, 96, 0, 0], [1704324531, "MW Neuro Somatosensory system", 0.0, 0, 1452988800, 49, 0, 3], [1222482928, "MW Neuro Pain", 0.0, 0, 1452988800, 37, 0, 3], [917992777, "MW neuromuscular disorder and reflexes", 0.0, 0, 1452988800, 40, 0, 3], [399673653, "MW Neuro Spinal cord reflexes", 0.0, 0, 1452988800, 19, 0, 3], [1684758611, "MW Neuro Central Control, UMN,LMN", 0.0, 0, 1452988800, 45, 0, 7], [188798441, "MW Neuro SCI", 0.0, 0, 1452988800, 39, 0, 5], [43010628, "azertyuiopqsdfghjklmwxcvbn", 0.0, 0, 1450915200, 51, 0, 0], [2137546472, "Japanese Personal Pronouns JTMW (version 1.03)", 0.0, 0, 1424217600, 30, 0, 0], [496526742, "Japanese Ko-so-a-do Words JTMW (version 1.031)", 0.0, 0, 1423699200, 71, 0, 0], [1187096186, "Japanese Particles and Combination Words JTMW (version 1.04)", 1.0, 1, 1423440000, 90, 0, 0], [688744349, "Baumwolle", 0.0, 0, 1449532800, 5, 0, 0], [1860754667, "Anatomie - Atemwege", 0.0, 0, 1449878400, 18, 0, 0], [115255341, "Japanese Counting Systems Version 1.01 (mostly JTMW)", 0.0, 0, 1424736000, 65, 0, 0], [295624835, "Umwelt", 0.0, 0, 1447977600, 60, 0, 0], [113518784, "Japanese Relative Time Words Version 1.01 (JTMW)", 0.0, 0, 1424390400, 118, 0, 0], [449237102, "Exam P MW", 0.0, 0, 1441929600, 100, 0, 159], [1843110602, "Zelfstandig naamwoorden Russisch", 0.0, 0, 1418515200, 45, 0, 0], [1607748225, "MMWW: BW", 0.0, 0, 1435881600, 85, 0, 0], [422812024, "Egyptian Demotic - Setne Khaemwast", 0.0, 0, 1432684800, 494, 0, 495], [932547474, "Biochem 1st year MWU", 0.0, 0, 1387411200, 106, 0, 5], [11144840, "Welt und Umwelt", 0.0, 0, 1448668800, 59, 59, 68], [196593780, "Japanese Kinship Terms JTMW (version 1.02)", 0.0, 0, 1421107200, 31, 0, 0], [1149385472, "Zelfstandig naamwoorden Russisch mv", 0.0, 0, 1424476800, 42, 0, 0], [1172824577, "Japanese Pronouncing Times (JTMW)", 0.0, 0, 1413158400, 29, 0, 0], [567061978, "MMWR Jan-March 2013", 0.0, 0, 1390780800, 67, 0, 0], [1293707292, "GMW", 0.0, 0, 1407196800, 104, 0, 0], [173234559, "Horticulture TTU Plowman MWF", 0.0, 0, 1423440000, 302, 0, 9], [2147178489, "Persoonlijk voornaamwoorden Russisch", 0.0, 0, 1417996800, 53, 0, 0], [1294088285, "Verfahrens- & Umwelttechnik Beuth", 0.0, 0, 1399420800, 216, 0, 127], [423203513, "Japanese basic adverbs and adjectives (mostly from JTMW)", 0.0, 0, 1413244800, 108, 0, 0], [24062369, "SMWC Nutrition Final 2015", 0.0, 0, 1429920000, 217, 0, 0], [224611295, "Japanese Basic Verbs (mostly from JTMW)", 0.0, 0, 1413244800, 154, 0, 0], [1119294196, "Japanese Verb Conjugations and Combinations JTMW (vs 1.05)", 0.0, 0, 1430006400, 338, 0, 0], [589006827, "Anatomy Winter 2013 MWU", 0.0, 0, 1387411200, 18, 0, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Mw</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

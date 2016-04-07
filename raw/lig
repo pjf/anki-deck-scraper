@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+    Anki - friendly, intelligent flashcards
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/login" class="mitem3">Log in</a>
+                                <a href="/account/register" class="mitem3">Sign up</a>
+                    </td>
+                    </tr>
+                </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<script src="/static/js/shared.js?1"></script>
+<script>
+shared.files = [[1420604129, "Inleiding Business Intelligence", 0.0, 0, 1454889600, 24, 0, 0], [1879098786, "ManjiJapanese : : Core 2000 Step 01\u25c4LIGHT WEIGHT [\uff0b\uff45\uff58\uff54\uff52\uff41\uff53 ]", 0.0, 0, 1408752000, 270, 0, 1], [864562542, "ManjiJapanese : : Core 2000 Step 02\u25c4LIGHT WEIGHT [\uff0b\uff45\uff58\uff54\uff52\uff41\uff53 ]", 0.0, 0, 1410480000, 240, 0, 1], [3645353967, "Morse Code Sound and Lights", 4.0, 2, 1419638400, 59, 59, 0], [1557524851, "SBFV - Trainer C - Schnelligkeitsausdauertraining", 0.0, 0, 1453852800, 20, 0, 1], [782991501, "ManjiJapanese : : Core 2000 Step 03\u25c4LIGHT WEIGHT [\uff0b\uff45\uff58\uff54\uff52\uff41\uff53 ]", 0.0, 0, 1410480000, 200, 0, 1], [916574908, "NDLS Soulign\u00e9", 0.0, 0, 1449619200, 860, 0, 0], [269635312, "Grundlagen der Straff\u00e4lligenhilfe", 0.0, 0, 1448668800, 11, 0, 0], [382953328, "Legisla\u021bia rutier\u0103 - Obliga\u021bii", 0.0, 0, 1445817600, 96, 0, 0], [1021788144, "Gross 1 Bones and ligaments of back", 0.0, 0, 1443484800, 76, 0, 28], [1409585306, "JFBP volume 1, voor nederlandstaligen", 5.0, 1, 1426723200, 591, 0, 0], [2749208589, "Kollokvie-1 - Dermatologi premaligne og maligne tumores", 0.0, 0, 1369872000, 91, 0, 83], [849315646, "CRJ 200 Autoflight", 0.0, 0, 1430697600, 43, 0, 0], [760479445, "proposal writing CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 33, 0, 0], [1353874807, "FRCPA WHO malignancy deck JW", 0.0, 0, 1438473600, 82, 0, 1], [2868710392, "agents CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 44, 0, 0], [424289942, "commonsense reasoning CGSC4001 5001 Artificial Intelligence", 0.0, 0, 1345852800, 58, 0, 0], [2712408810, "computer vision CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 39, 0, 0], [3247401211, "All Cards CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 361, 0, 0], [3457317948, "fuzzy logic CGSC 4001 5001 Artificial Intelligence ", 0.0, 0, 1345852800, 31, 0, 0], [1061475370, "Patterns of Religion Vocabulary", 0.0, 0, 1422921600, 178, 0, 0], [1475994804, "Floristutbildarna bildkort - Svenska till Vetenskapligt namn", 0.0, 0, 1421193600, 15, 0, 15], [195819848, "NASWI Flight Planning flash cards as perpared by AC3 Cooper.", 0.0, 0, 1409011200, 455, 0, 0], [1154448190, "Floristutbildarna bildkort - Vetenskapligt namn till Svenska", 0.0, 0, 1421193600, 15, 0, 15], [211193742, "Brad Malkovsky Christianity and World Religions", 0.0, 0, 1345852800, 47, 0, 0], [21730105, "QX Annunciator Lights", 0.0, 0, 1411430400, 52, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1091546211, "Renaissance notation ligatures", 0.0, 0, 1393286400, 8, 0, 8], [1211343102, "HD4 Heme Malignant Transformation 3-28-14", 0.0, 0, 1396051200, 32, 0, 18], [1815379967, "Ovanligare svenska ord", 5.0, 2, 1360627200, 4972, 0, 0], [1408116126, "FRCPath Part II: Malignant Haematology", 0.0, 0, 1411257600, 276, 0, 2], [1450143754, "logic CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 29, 0, 0], [1314817729, "search CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 56, 0, 0], [886341274, "QX Flight Controls", 0.0, 0, 1411430400, 30, 0, 0], [563711567, "World Religions that are not Christianity", 0.0, 0, 1422835200, 17, 0, 0], [2213227198, "Slightly Upgraded core6k", 0.0, 0, 1360022400, 6016, 5929, 0]];
+shared.decks = 1;
+</script>
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button onclick="shared.search();return false;">Search</button>
+</div>
+    <script>
+        $("#q").keyup(function(event) {
+            if (event.keyCode==13) {
+                shared.search();
+            }
+        });
+    </script>
+
+<h1>Lig</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
