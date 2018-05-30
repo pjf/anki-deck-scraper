@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ioc
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ioc</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[368059637, "Biochem final vitamins", 0.0, 0, 1517443200, 35, 0, 7], [942480782, "Molekularbiologie und Biochemie der Gene Altfragen Graz", 0.0, 0, 1485388800, 26, 0, 3], [1117191127, "biochem (cellular/genetics)", 0.0, 0, 1483228800, 102, 0, 7], [1077254526, "Biochemistry: Glycolysis", 0.0, 0, 1493683200, 44, 0, 15], [928939018, "Biochem bullets", 0.0, 0, 1527465600, 281, 0, 0], [673435538, "Biochem: Cell cycle regulation and apoptosis", 1.0, 0, 1512259200, 104, 0, 0], [1897635674, "Parker Biochemistry I - Unit 1", 0.0, 0, 1525996800, 42, 0, 4], [824904676, "PMU Medics 2nd Year BioChem ", 0.0, 0, 1527638400, 1300, 0, 298], [1210868954, "Biochimica strutturale", 0.0, 0, 1518652800, 951, 1, 755], [1851784330, "Nanomaterials in Chemical and Biochemical Engineering 5", 1.0, 0, 1526515200, 285, 0, 2], [1060628183, "Biochemie BS von Amins\u00f6uren und H\u00e4m", 0.0, 0, 1520985600, 44, 0, 4], [111020471, "Biochem 2 Bath", 0.0, 0, 1525219200, 339, 0, 2], [195221235, "Biochem: Intro to Hormones", 0.0, 0, 1512259200, 125, 0, 0], [1082305883, "USMLE First Aid Biochemistry Diseases ", 0.0, 0, 1497916800, 121, 0, 0], [1381630660, "Biochemistry", 0.0, 0, 1524096000, 51, 0, 34], [194847344, "MRT Einf\u00fchrung in die Biochemie ", 0.0, 0, 1485993600, 187, 40, 326], [782641286, "Biochem: transcription and translation", 0.0, 0, 1508025600, 122, 0, 0], [535286983, "Biochemistry", 0.0, 0, 1512345600, 14, 0, 7], [1771451455, "Biochemistry 2", 0.0, 0, 1512345600, 146, 0, 45], [237762455, "intro.biochem. formulas", 0.0, 0, 1526774400, 66, 0, 66], [873328643, "Biochem: Blood clotting", 0.0, 0, 1513036800, 193, 0, 0], [640510142, "Biochemistry - DNA replication and repair", 1.0, 0, 1512604800, 6, 0, 0], [459150205, "Nathna Suek: MCAT - Biochem", 0.0, 0, 1524787200, 57, 0, 18], [1008281179, "033118_Step_1_Review (Biochemistry)", 0.0, 0, 1522540800, 20, 0, 63], [1278745315, "Biochemistry Metabolism 1: Anki God", 0.0, 0, 1511049600, 998, 0, 445], [78992894, "MCAT - Biochem", 0.0, 0, 1499644800, 338, 0, 5], [492229412, "Biochem Exam 2 - Amino Acid Metabolism", 0.0, 0, 1507507200, 122, 0, 0], [1644674298, "Biochemistry- Glucogenesis ", 0.0, 0, 1498608000, 14, 0, 0], [1068103079, "Biochemestry ", 0.0, 0, 1491868800, 95, 47, 199], [1238419030, "Bros Biochem/Immuno", 0.0, 0, 1521936000, 1753, 0, 230], [343420894, "Parker Biochemistry I - Functional Groups", 0.0, 0, 1525996800, 19, 0, 0], [390017312, "Bio/Biochem", 0.0, 0, 1464739200, 109, 0, 16], [929019560, "General Biochemistry - CHEM 341 - CSUSM - Ch. 2-9", 0.0, 0, 1494374400, 162, 0, 4], [1654814790, "L 46 biochem ", 0.0, 0, 1523923200, 63, 0, 0], [1809659928, "Biochemie TCC", 0.0, 0, 1520985600, 34, 0, 0], [1876325444, "Biochemistry Block 1: ANKI God", 0.0, 0, 1511049600, 1066, 0, 168], [826224470, "Biochem of retina", 0.0, 0, 1522713600, 52, 0, 9], [586362643, "MRT BIOCHEMIE1", 0.0, 0, 1481673600, 152, 0, 150], [885861607, "Biochemie PPP", 0.0, 0, 1520985600, 34, 0, 0], [1072648904, "Biochem: Carbohydrates", 0.0, 0, 1508112000, 64, 0, 0], [761887773, "Biochemistry by west", 0.0, 0, 1519603200, 228, 0, 40], [482738761, "khalid kaplan biochem", 0.0, 0, 1526169600, 157, 0, 56], [949977388, "Biochem Examples", 0.0, 0, 1526947200, 29, 0, 0], [65708594, "Biochemie - Aminos\u00e4urentrainer", 0.0, 0, 1491091200, 130, 0, 37], [1344699913, "NSF - Cells and tissues - Biochem - Carbohydrates 1", 0.0, 0, 1515196800, 32, 0, 4], [1944279504, "NSF - Cells and tissues - Biochem - Carbohydrates 2", 0.0, 0, 1515196800, 25, 0, 1], [1019109882, "Biochemie Enzymkatalyse ", 0.0, 0, 1520985600, 64, 0, 3], [1939534420, "Biochem Altius", 0.0, 0, 1518998400, 102, 0, 5], [646508968, "Biochemistry", 0.0, 0, 1526342400, 49, 0, 4], [1166629820, "Biochemistry Flashcards Francis", 0.0, 0, 1526601600, 37, 0, 18], [628319430, "Biochemistry", 0.0, 0, 1517356800, 32, 0, 0], [1674355422, "Biochem: TCA cycle", 0.0, 0, 1506470400, 51, 0, 0], [1174606143, "Biochem KT ", 0.0, 0, 1524182400, 41, 0, 4], [1284511098, "Metabolic Biochemistry Sarah", 0.0, 0, 1481068800, 144, 0, 98], [1106716820, "Biochemistry mcat for osamede", 0.0, 0, 1467158400, 3, 0, 0], [160013138, "Biochemistry- oxidative phosphrylation", 0.0, 0, 1498608000, 17, 0, 0], [740480485, "BB_Biochem", 0.0, 0, 1522713600, 409, 0, 0], [332118387, "IPAP 18-2 Biochem AMINO ACIDS", 0.0, 0, 1525824000, 60, 0, 20], [1282648470, "USMLE biochem", 0.0, 0, 1384905600, 26, 0, 3], [2081300483, "Biochemie 2 Vitamine", 0.0, 0, 1495756800, 21, 0, 0], [1668182403, "Biochemistry- Glycolysis", 0.0, 0, 1498608000, 23, 0, 0], [2068746114, "Biochem: Pentose Phosphate Pathway", 0.0, 0, 1508112000, 21, 0, 0], [1926785808, "Biochemistry revision questions and answers.", 0.0, 0, 1506038400, 1309, 0, 110], [2111665450, "Biochemistry- Fatty Acid Metabolism", 0.0, 0, 1498608000, 19, 0, 0], [1776715541, "Biochemistry 2 Practice Questions Fall 2016", 0.0, 0, 1483056000, 243, 0, 246], [1221361125, " Biochem", 0.0, 0, 1470268800, 86, 0, 0], [794122363, "BIOCHEMIE f\u00fcr Jana", 0.0, 0, 1523923200, 98, 0, 6], [612384274, "biochem 1-5 DNA and RNA", 0.0, 0, 1525305600, 44, 0, 0], [1172714116, "Biochemistry Natasha USMLE", 0.0, 0, 1467331200, 141, 0, 6], [1136337520, "iPap biochem pictures DNA", 0.0, 0, 1525392000, 7, 0, 7], [669588556, "Biochem: Protein Function ", 2.0, 0, 1503273600, 54, 0, 0], [1309921964, "Biochemistry Citric Acid Cycle ", 1.0, 0, 1486339200, 37, 0, 1], [76483578, "WFSOM CSP Anki jsimps Biochem Immunology Microbiology", 0.0, 0, 1501718400, 2990, 0, 1069], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [1664640454, "Biochem: Enzymes", 0.0, 0, 1504569600, 68, 0, 0], [373145591, "First Aid 2015: Biochemistry", 0.0, 0, 1483488000, 496, 0, 0], [1351988320, "fa biochemistry ak2016", 1.0, 1, 1481673600, 2362, 0, 940], [773121909, "General Biochemistry - CHEM 341 - CSUSM", 0.0, 0, 1494115200, 364, 0, 10], [770291676, "biochem  structures", 0.0, 0, 1513814400, 108, 0, 108], [1171207459, "Biochimie chapitre 02", 0.0, 0, 1503100800, 6, 0, 0], [282127863, "Barry University Biochemistry II  BMS 528 Graham Shaw, Ph.D.", 0.0, 0, 1460764800, 1006, 0, 582], [606402422, "Biochemie KMP2 Tiziana Klawitter", 2.0, 0, 1431129600, 954, 0, 94], [211691442, "Biochemie, essentielle Aminos\u00e4uren", 0.0, 0, 1472688000, 44, 0, 38], [1095254711, "VG's Biochemistry: Carbohydrate Metabolism", 0.0, 0, 1408752000, 29, 0, 7], [201877655, "biochemistry review", 0.0, 0, 1434240000, 1309, 0, 157], [1143319786, "Racioc\u00ednio L\u00f3gico", 1.0, 0, 1381536000, 133, 0, 252], [1990597922, "Biochem: intro to amino acids ", 1.0, 0, 1503360000, 91, 0, 0], [1628779167, "Biochemistry Weeks 2&3", 1.0, 0, 1462060800, 34, 0, 0], [1205338224, "BIO 325 Biochemistry Review", 1.0, 0, 1454284800, 188, 0, 32], [405282978, "Biochemistry Amino Acids ", 1.0, 0, 1473984000, 60, 0, 39], [149328520, "Biochem", 0.0, 0, 1423785600, 992, 0, 56], [515261347, "DIT Biochemistry", 0.0, 0, 1448928000, 44, 0, 24], [1336288913, "Medical Biochemistry (ECU1)", 0.0, 0, 1386633600, 384, 0, 93], [1134753433, "kaplan biochemistry", 0.0, 0, 1480032000, 544, 47, 236], [733713145, "Biochemistry Exam 1", 0.0, 0, 1410480000, 139, 0, 38], [196592170, "First Aid Biochemistry M321", 1.0, 0, 1388707200, 101, 0, 3], [3475558167, "Biochemistry & Genetics USMLE Step I Flashcards", 0.0, 0, 1363046400, 137, 0, 0], [1324667770, "Biochemistry-RT", 0.0, 0, 1469059200, 156, 0, 8], [370168034, "Biochemistry and Biology MCAT", 0.0, 0, 1452211200, 368, 0, 8], [2032267259, "USMLE World biochemistry", 0.0, 0, 1475971200, 171, 2, 56], [1311412834, "Biochem First Aid 2016", 4.0, 0, 1455062400, 64, 0, 68], [2002945619, "Nottingham GEM Biochemistry & Physiology", 2.0, 0, 1391644800, 2718, 0, 487], [3282835125, "MIT OCW - Biology - Biochemistry", 13.0, 1, 1348790400, 141, 0, 104], [1250948, "Step 1 Quick Review: Physiology, Anatomy, Biochem, Biostats", 0.0, 0, 1437696000, 1121, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

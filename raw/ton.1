@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ton
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ton</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1558401647, "Cantonese Core 100 - Basic words (EN  YUE with audio)", 1.0, 1, 1437004800, 206, 111, 116], [1113981006, "English Tongue-twisters", 0.0, 0, 1527379200, 44, 44, 0], [614155794, "Basic English Antonyms (Adjectives)", 0.0, 0, 1527206400, 60, 5, 0], [793795754, "Basic English Antonyms (Verbs)", 0.0, 0, 1527206400, 48, 0, 0], [2060062170, "Axial Skeleton (Skull)", 0.0, 0, 1518739200, 35, 0, 104], [1364052597, "\u7cb5\u8a9e\u8072\u8abf\u7df4\u7fd2 Cantonese Tone Practice", 2.0, 0, 1388188800, 664, 2284, 0], [1620904083, "Mandarin Chinese Rosetta Stone Companion", 4.0, 1, 1404518400, 3689, 0, 0], [103532822, "autonomic drugs", 0.0, 0, 1521072000, 100, 0, 28], [127435420, "Axial Skeleton (CC bio 168)", 1.0, 0, 1519430400, 46, 0, 156], [530575081, "Lukion biologia, hermoston kortteja", 0.0, 0, 1516924800, 15, 0, 0], [455663865, "TouchStone 3 Book [ English-persian]farsi-\u0641\u0627\u0631\u0633\u06cc", 0.0, 0, 1521244800, 311, 41, 344], [1468513778, "Neumann Chapter 10. Axial Skeleton: Muscle and Joint", 0.0, 0, 1524009600, 46, 0, 44], [1121509242, "NSF - Forelimb - Axial skeleton", 0.0, 0, 1523145600, 69, 0, 22], [1749466316, "Harry Potter and the Philosopher's Stone", 0.0, 0, 1525132800, 101, 0, 0], [1788757789, "Dalton - All Arabic Vocabulary", 0.0, 0, 1527033600, 9008, 5752, 27], [939363251, "Tongan Deck", 0.0, 0, 1527033600, 1351, 0, 0], [1079910004, "Word Smart 1 - The Princeton Review", 1.0, 0, 1525478400, 239, 0, 340], [254905351, "Autonomic Pharmacology", 0.0, 0, 1495152000, 32, 0, 0], [19662092, "Japanese Vocab SeatonT", 0.0, 0, 1522886400, 2535, 0, 0], [2028386107, "Astronomy Southampton Uni", 0.0, 0, 1525478400, 24, 0, 0], [1839568968, " hsk 1&2 avec son et couleur en fonction des tons", 0.0, 0, 1517443200, 225, 204, 0], [1826646204, "DANA5002: Test 2 Anatomy of the oral cavity and tongue", 0.0, 0, 1518998400, 91, 0, 3], [1415765048, "  Neumann Chapter 9. Axial Skeleton: Osteo and Arthro", 0.0, 0, 1523232000, 67, 0, 63], [476608355, "Breton - Phrases et expressions usuelles", 1.0, 0, 1513123200, 91, 0, 0], [882799504, "CYO 1030 Cytokeleton", 0.0, 0, 1523577600, 29, 0, 0], [1631211276, "ketones and aldehydes katriel sahlstrom", 0.0, 0, 1525564800, 33, 0, 100], [2022473543, "NSF - Axial skeleton practical", 0.0, 0, 1520640000, 28, 0, 8], [2048232468, "Pharmacology 04 Autonomic Agents (Demler 2018)", 0.0, 0, 1499299200, 81, 0, 0], [1136034357, "Parker DAA Vertebral, rib cage and appendicular skeleton", 0.0, 0, 1526947200, 212, 0, 27], [1791764055, "TouchStone 1 Book [ English-persian]farsi-\u0641\u0627\u0631\u0633\u06cc", 1.0, 0, 1521244800, 461, 10, 423], [1557422377, "chapitre 5 : cin\u00e9matique et dynamique newtonienne", 0.0, 0, 1516579200, 20, 0, 30], [292642240, "Cantonese: Adjectives", 0.0, 0, 1426550400, 21, 0, 0], [1846796871, "DANA5002: Craniofacial Skeleton", 0.0, 0, 1516060800, 105, 0, 29], [1616471032, "Spanish - Roll of the Tongue (Collins)", 0.0, 0, 1522454400, 57, 0, 0], [210719021, "Hamilton_Sketchy_Pharm", 0.0, 0, 1522281600, 102, 0, 2611], [142672861, "Basic Estonian words (with pictures and pronunciation)", 0.0, 0, 1521590400, 28, 28, 28], [1132191407, "The Skeleton Complete", 0.0, 0, 1506470400, 112, 0, 28], [1826417526, "Chord Tones", 0.0, 0, 1498262400, 98, 0, 0], [566838647, "Cantonese", 0.0, 0, 1507766400, 1926, 3554, 9], [1150367629, "CCEA Physics AS1 definitons", 0.0, 0, 1458691200, 40, 0, 0], [1275694856, "NSF - Head - (L1) Skeleton of the head ", 0.0, 0, 1520985600, 71, 0, 54], [699329711, "Mandarin Tone Pair Drills", 0.0, 0, 1518825600, 92, 88, 0], [646677157, "HENRION TS - P4 - Cin\u00e9matique et dynamique newtonnienne", 0.0, 0, 1512604800, 20, 0, 30], [1580348800, "Most frequent 100 radicals in Cantonese", 0.0, 0, 1489881600, 100, 57, 81], [1803419242, "Proton nmr shift values (ppm)", 0.0, 0, 1485907200, 0, 0, 0], [310746814, "Chinese Words 15000 Tonypony", 0.0, 0, 1516406400, 5072, 0, 0], [1941948407, "NSF - Hindlimb - (L7) Axial skeleton ", 0.0, 0, 1520553600, 62, 0, 35], [946873464, "Breton - les contraire - oppos\u00e9s", 0.0, 0, 1526083200, 46, 0, 0], [1317821984, "c++ interview quesitons", 1.0, 0, 1445299200, 589, 0, 238], [1767241260, "Guyton & Hall Body Fluids & Kidneys", 0.0, 0, 1519603200, 134, 0, 297], [2086141714, "National Gallery of Art, Washington DC, Highlights", 0.0, 0, 1499558400, 42, 0, 42], [1189993667, "Guyton & Hall Metabolism & Temperature Regulation", 0.0, 0, 1519603200, 43, 0, 93], [1871159634, "Guyton & Hall Endocrinology and Reproduction", 0.0, 0, 1519603200, 154, 0, 322], [539181411, "Guyton & Hall Sports Physiology", 0.0, 0, 1519603200, 10, 0, 21], [495109510, "3000 most common Chinese characters in Cantonese", 4.0, 0, 1426550400, 2998, 0, 0], [1311799277, "Osteopathic Principles and Practice - LECOM@SetonHill", 0.0, 0, 1470528000, 52, 0, 23], [675073788, "Fruits and vegetables in Estonian", 0.0, 0, 1522713600, 10, 10, 10], [1128504133, "IB 131L #2: Appendicular Skeleton, Joints, CT", 0.0, 0, 1506124800, 429, 0, 42], [81519873, "NSF - Endocrine (L5) - Growth Hormone and Melatonin", 0.0, 0, 1524182400, 67, 0, 28], [1657789477, "Layton's Coptic in Twenty Lessons", 2.0, 0, 1345852800, 616, 0, 0], [1575978422, "Korean-Korean TOPIK Antonyms", 2.0, 0, 1498348800, 248, 246, 0], [1429782100, "Tonality Cells", 0.0, 0, 1489881600, 420, 0, 959], [1195399361, "Small Test English-Cantonese deck with Audio", 0.0, 0, 1454371200, 429, 426, 0], [1732346523, "580 english opposites [antonyms] with audio", 0.0, 0, 1513987200, 573, 687, 0], [238598849, "IB 131L #1: Axial Skeleton, Bone & Cartilage", 0.0, 0, 1506124800, 292, 0, 25], [1863838836, "Rosetta Stone Japanese Level 1 Unit 2 Vocabulary", 0.0, 0, 1436572800, 113, 0, 0], [1755465447, "Improved Cantonese Characters", 3.0, 0, 1400716800, 4971, 0, 0], [2072166077, "Thai Tone Rules and Tone Marks", 0.0, 0, 1497312000, 15, 0, 0], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 2.0, 0, 1345852800, 3007, 0, 0], [3218831318, "BUSM childhood developmental milestones", 0.0, 0, 1376870400, 33, 0, 0], [497560822, "300 Most Frequent Cantonese Characters", 0.0, 0, 1489881600, 300, 57, 81], [1341867074, "Newtonian", 0.0, 0, 1357689600, 67, 0, 0], [1542219923, "Cantonese conversational phrases with audio", 0.0, 0, 1475280000, 41, 50, 17], [1062238174, "Chinese antonym pairs", 0.0, 0, 1387843200, 236, 0, 0], [1253169459, "Cantonese Slang Deck V 0.1 Beta", 1.0, 0, 1403568000, 7659, 0, 0], [924105715, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [894322788, "Autonomic Drugs Pharma COMPLETE First Aid 2016 Deck Yieldski", 0.0, 0, 1501459200, 86, 0, 325], [238065775, "Autonomous communities of Spain with locator maps in Spanish", 3.0, 0, 1454976000, 17, 0, 1], [1271195516, "Anatomy - Upper Extremity - LECOM@SetonHill", 0.0, 0, 1470528000, 148, 0, 127], [460373699, "Rosetta Stone - Korean", 0.0, 0, 1403222400, 44, 0, 0], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 1.0, 0, 1425686400, 36, 35, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 0.0, 0, 1345852800, 3527, 0, 0], [1258757979, "Elementary Linear Algebra (Anton), sections 4.1 - 4.7", 0.0, 0, 1395532800, 44, 0, 0], [1885331270, "Rosetta Stone Japanese Level 1 Unit 1 Vocabulary", 0.0, 0, 1429833600, 76, 0, 0], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [550335668, "Estonian", 0.0, 0, 1375228800, 118, 0, 0], [1529419090, "Cantonese Jyutping with Audio", 1.0, 0, 1460851200, 605, 605, 0], [1462853146, "Cantonese Phrases & Sentences 2 - update", 1.0, 1, 1428364800, 46423, 0, 0], [998955102, "Cantonese: Verbs", 0.0, 0, 1426550400, 33, 0, 0], [944084565, "Childhood Milestones for Step II", 0.0, 0, 1471737600, 24, 0, 8], [1839131377, "Chinese Cantonese Idiom Deck V0.1 Beta", 1.0, 0, 1403568000, 2721, 0, 0], [1992482192, "Keniston's Spanish Idioms", 0.0, 0, 1450656000, 782, 8, 1], [1073265637, "Cantonese cognates with audio", 0.0, 0, 1475280000, 113, 122, 17], [485323808, "Rosetta stone \u30c9\u30a4\u30c4\u8a9e(German) Level 4", 0.0, 0, 1371254400, 266, 0, 0], [2023426251, "Kuch - Cell Membranes, Organelles, and Cytoskeleton", 0.0, 0, 1503619200, 34, 0, 2], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 1.0, 0, 1345852800, 100, 0, 0], [763798048, "Cantonese FSI Dialogs with Audio and Cantonese Characters", 3.0, 0, 1409011200, 333, 334, 0], [1596931381, "Rosetta Stone Spanisch 1: Deutsch ->Spanisch \u00dcbersetzung", 1.0, 0, 1387065600, 517, 0, 0], [1365709043, "Cantonese with Audio", 1.0, 0, 1451347200, 1262, 1270, 9], [479111924, "L'italiano di Antonio", 4.0, 1, 1452556800, 350, 346, 347], [1138623396, "Estonian Vocabulary and Expressions", 1.0, 0, 1358726400, 1693, 0, 0], [1074863166, "Botony NCERT", 10.0, 0, 1460851200, 660, 4, 1], [108881221, "TS - R\u00e9actions par \u00e9change de proton Acide Base", 2.0, 0, 1456099200, 21, 1, 25], [823641985, "Cantonese Quick & Dirty 30 (EN  ZH-HK)", 0.0, 0, 1443225600, 60, 38, 45], [951524269, "Thai Tones", 2.0, 0, 1460764800, 617, 611, 0], [445220383, "Cantonese Characters with Audio v2", 1.0, 0, 1430265600, 4976, 1859, 0], [904404443, "Breton - Apprentissage vocabulaire et expressions simples", 1.0, 0, 1527033600, 763, 0, 0], [263726934, "Rosetta Stone Mandarin", 0.0, 1, 1428105600, 908, 0, 0], [344765330, "autonomic nervous system", 0.0, 0, 1505088000, 42, 0, 9], [1719293397, "Cantonese \u5ee3\u6771\u8a71\uff0f\u7cb5\u8a9e Beta v0.7", 5.0, 0, 1432771200, 22492, 22886, 1], [3245135572, "Rosetta stone \u30c9\u30a4\u30c4\u8a9e(German) Level 3", 0.0, 0, 1371254400, 319, 0, 0], [794224686, "2- Axial Skeleton", 1.0, 0, 1481155200, 112, 0, 117], [849955173, "Tone pair practice with audio", 4.0, 0, 1463702400, 798, 1115, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

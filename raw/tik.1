@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Tik
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Tik</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[220365512, "Geoinformatik 4", 0.0, 0, 1526342400, 6, 0, 0], [877858368, "Chemie 8 die Kinetik chemischer Reaktionen", 0.0, 0, 1518825600, 5, 0, 2], [1683193265, "Wirkstoffe Pharma DD (pr\u00fcfungsrelevant und ohne Antibiotika)", 0.0, 0, 1517184000, 257, 0, 0], [549315593, "Genetik ", 0.0, 0, 1527465600, 173, 0, 38], [656867813, "Matematik 2b", 0.0, 0, 1527552000, 3, 0, 0], [290099633, "metode & statistikk spm", 0.0, 0, 1527552000, 135, 0, 12], [1105572066, "Statistik Kennwerte", 0.0, 0, 1517961600, 24, 0, 19], [1070467799, "Maturita matematika te\u00f3ria", 0.0, 0, 1524960000, 19, 0, 0], [1804521785, "Geoinformatik 7-10", 0.0, 0, 1526342400, 20, 0, 0], [1586514871, "Geoinformatik 5", 0.0, 0, 1526342400, 5, 0, 0], [1879010795, "Geoinformatik 3", 0.0, 0, 1526342400, 5, 0, 0], [1295590915, "Geoinformatik 2", 0.0, 0, 1526342400, 3, 0, 0], [1519890360, "Geoinformatik 0", 0.0, 0, 1526342400, 13, 0, 0], [1956707932, "Chemie 6 Energetik chemischer Reaktionen", 0.0, 0, 1518825600, 40, 0, 4], [1728568492, "Fachinformatiker Lernkarten - Netzwerkprotokolle", 0.0, 0, 1520553600, 177, 0, 0], [579309247, "Fachinformatiker Lernkarten - Einfache IT Systeme", 0.0, 0, 1520553600, 68, 0, 0], [1460805658, "WBH: GDI und TGI Grundlagen der Informatik ", 0.0, 0, 1510185600, 53, 0, 24], [24366290, "Lungen Prop\u00e4deutikumfragen", 0.0, 0, 1524700800, 133, 0, 3], [1115644572, "Statistik Interferenz Unifr", 0.0, 0, 1521936000, 121, 0, 5], [547863902, "MLU Stochastik", 0.0, 0, 1477353600, 411, 0, 299], [1107042959, "Partikeltechnik KIT", 0.0, 0, 1523491200, 32, 0, 23], [736786115, "Informatik A (Algorithmen und Datenstrukturen)", 1.0, 0, 1495670400, 105, 0, 0], [1559331821, "Matemaatika \u00fcleminekueksam", 0.0, 0, 1526947200, 98, 0, 129], [1055561731, "SSM2 Statistik MUW", 0.0, 0, 1489622400, 135, 0, 63], [1553821852, "Esperanto Gramatika Manlibro (rus)", 2.0, 0, 1515456000, 226, 0, 0], [1676059787, "Logistik 1", 0.0, 0, 1512345600, 210, 0, 0], [1101359729, "\u00fcbung - der artikel - deutsch - speyer - tatiana", 0.0, 0, 1524009600, 33, 0, 0], [1961219050, "Kameralistik / Doppik", 0.0, 0, 1521763200, 18, 0, 0], [280041292, "primaAnkommen Mathematik 5-7, Kapitel 3 Geometrie", 0.0, 0, 1498435200, 105, 0, 59], [66604692, "Politik Lk Abi19, 11.1 GAK (Schillerschule)", 2.0, 0, 1515888000, 206, 0, 37], [1945550501, "Statistik", 0.0, 0, 1499385600, 123, 0, 78], [2095751451, "Hasso-Plattner-Institute Mathematik II", 0.0, 0, 1524009600, 34, 0, 47], [703421381, "Questions regarding Technische Informatik", 0.0, 0, 1485561600, 71, 9, 90], [240445060, "Fachinformatiker Lernkarten - WISO", 0.0, 0, 1520553600, 55, 0, 0], [1695711358, "Fachinformatiker systemintegration GA1 Fragen", 0.0, 0, 1524355200, 103, 0, 0], [2098700990, "IHI30 - Antibiotika", 0.0, 0, 1520899200, 47, 0, 0], [1045413587, "Statistika", 0.0, 0, 1522195200, 159, 0, 159], [472838067, "Humangenetik TU M\u00fcnchen", 0.0, 0, 1392076800, 84, 1, 0], [400985285, "Statistik und Thermodynamik", 0.0, 0, 1392249600, 142, 0, 345], [2131294133, "UP-ERN Mathematik - Grundlagen", 0.0, 0, 1388707200, 34, 0, 13], [1140152416, "Block 5 Humangenetik Erkrankungen", 0.0, 0, 1526169600, 23, 0, 0], [2026608329, "Fachinformatiker Lernkarten", 1.0, 0, 1520553600, 440, 0, 1], [822187914, "Informatik Bachelor Betriebssysteme und Rechnernetze", 0.0, 0, 1500422400, 407, 0, 98], [483978387, "Norsk for deg: Leksjon 07 (I butikken)", 0.0, 0, 1485907200, 151, 0, 0], [683308669, "MUW Pharmakologie Antibiotika", 0.0, 0, 1484092800, 102, 0, 24], [1727042238, "Latein Grammatik ", 0.0, 0, 1463356800, 21, 1, 1], [1553237450, "Artikeltest DE-DE", 0.0, 0, 1469059200, 195, 8, 16], [879289052, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1419984000, 110, 0, 0], [1885081400, "Stochastische Integration und Finanzmathematik", 0.0, 0, 1418342400, 255, 0, 303], [144985236, "Technische Informatik am KIT", 0.0, 0, 1364601600, 78, 0, 4], [804206907, "Abitur 2012 Biologie, Politik, Chemie", 0.0, 0, 1346371200, 1419, 0, 398], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [1097445777, "Germanistik DaF - \"W\u00f6rter zur Wahl\" - PL-DE - Slips", 0.0, 0, 1345852800, 1559, 0, 0], [1948782630, "Farbliche Phraseologismen DE-DE (Germanistik Olm\u00fctz)", 0.0, 0, 1345852800, 105, 0, 0], [1268556378, "Arabisch-Deutsch (Politik)", 0.0, 0, 1375833600, 3740, 0, 0], [266964598, "Einf\u00fchrung in die Wirtschaftsinformatik", 0.0, 1, 1465171200, 145, 0, 0], [287181510, "Deutsch / Germanistik: Stilmittel und Tropen ", 0.0, 0, 1368230400, 55, 0, 0], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [748769854, "Deutsche Grammatik Nebens\u00e4tze", 0.0, 0, 1454976000, 14, 0, 0], [1278943104, "deutsch grammatik", 0.0, 0, 1471478400, 59, 0, 1], [402452301, "Meduni Wien Pharmakologie Block 9 Antibiotika", 0.0, 0, 1420329600, 111, 0, 0], [99251831, "Ungarisch - Deutsch: Vokabel, Grammatik, Ausdr\u00fccke", 0.0, 0, 1385337600, 1669, 0, 0], [2425969234, "Latein - Medizinische Terminologie_Grammatik", 1.0, 0, 1378166400, 90, 0, 0], [4109044851, "Der gro\u00dfe Artikeltest DE-DE (DaF) Marcin Perli\u0144ski", 12.0, 1, 1345852800, 1063, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

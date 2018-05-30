@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Net
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Net</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1152969534, "Korean DLI Unit 1 Net", 0.0, 0, 1480291200, 303, 606, 0], [825564092, "Revolucion genetica", 0.0, 0, 1516492800, 38, 0, 5], [877858368, "Chemie 8 die Kinetik chemischer Reaktionen", 0.0, 0, 1518825600, 5, 0, 2], [883298973, "Chemistry 1: Kinetics", 0.0, 0, 1519776000, 35, 0, 0], [11794805, "genetica part 2 ", 0.0, 0, 1527292800, 37, 0, 11], [1570478383, "geneticnot", 0.0, 0, 1527206400, 0, 0, 0], [1185096314, "geneticnot", 0.0, 0, 1527206400, 0, 0, 0], [549315593, "Genetik ", 0.0, 0, 1527465600, 173, 0, 38], [1117191127, "biochem (cellular/genetics)", 0.0, 0, 1483228800, 102, 0, 7], [143364122, "IMS Topic 10 - Clinical Genetics ", 0.0, 0, 1517097600, 159, 0, 5], [660656434, "CLIN MED: Nutrition and Genetics", 0.0, 0, 1527552000, 271, 0, 136], [158582510, "Korean DLI Unit 4 Net", 1.0, 0, 1480291200, 311, 622, 0], [928061069, "The most excelling glossolalia which pertaineth to Cymbeline", 0.0, 0, 1527465600, 606, 0, 0], [1434977729, "L24 - Synaptic Network Integration", 0.0, 0, 1526774400, 19, 0, 0], [499548538, "Korean DLI Unit 5 Net", 1.0, 0, 1480896000, 334, 667, 0], [1568154824, "\u53e4\u8bd7\u5341\u4e5d\u9996 Nineteen Old Poems (in Chinese)", 3.0, 0, 1505606400, 19, 0, 0], [1157827252, "Korean DLI unit 2 net", 0.0, 0, 1480291200, 304, 608, 0], [1575465595, "genetica 15 ", 0.0, 0, 1526601600, 5, 0, 2], [702083039, "Korean DLI Unit 7 Net", 0.0, 0, 1493510400, 292, 584, 0], [28629690, "OCR Biology A- Genetics of Living Systems ", 0.0, 0, 1526256000, 37, 0, 0], [1239943485, "Medical Genetics PreMed", 0.0, 0, 1493510400, 34, 0, 0], [1596726937, "A&P 1 Module 1: Genetics", 0.0, 0, 1525824000, 103, 0, 0], [881488127, "Pestana vignettes", 0.0, 0, 1500508800, 284, 0, 0], [164584990, "Genetics (Katie and Ben) ", 0.0, 0, 1495152000, 242, 1, 86], [202141102, "ZWNETM ", 0.0, 0, 1520812800, 96, 0, 24], [721426530, "Fernuni Hagen 1866 Sicherheit Internet I", 0.0, 0, 1517184000, 54, 0, 0], [1328522151, "Fernuni Hagen 1868 Sicherheit Internet I - Erg\u00e4nzungen", 0.0, 0, 1517270400, 67, 0, 0], [659148263, "IPAP 18-2 Microbial Genetics", 0.0, 0, 1527033600, 57, 0, 3], [786095881, "Data Communications and Networks 2", 0.0, 0, 1525824000, 92, 0, 2], [1391952699, "Deutsch: Phonetic Alphabet of Germany", 2.0, 0, 1431043200, 32, 40, 0], [849963748, "Planets!  \u661f\u7403\uff01", 0.0, 0, 1523750400, 19, 0, 0], [1728568492, "Fachinformatiker Lernkarten - Netzwerkprotokolle", 0.0, 0, 1520553600, 177, 0, 0], [833398322, "Data Networks Final Exam Review", 1.0, 0, 1520467200, 92, 0, 2], [700675690, "Computer Networking", 0.0, 0, 1512518400, 34, 0, 1], [1376128012, "E-pathology: Genetics & molecular", 0.0, 0, 1523923200, 198, 0, 4], [588542997, "Thai 1000 Common Words (incl. Audio, Phonetics, Examples)", 0.0, 0, 1512518400, 1000, 999, 0], [1995702592, "EMC DNB : citoyennet\u00e9s ", 0.0, 0, 1523059200, 11, 0, 0], [1507505716, "Genetics Unit 4 IWU", 0.0, 0, 1524528000, 118, 0, 23], [1381919741, "Genetics", 0.0, 0, 1416700800, 836, 0, 290], [1865834206, "Computer & Network Architecture HS2016", 0.0, 0, 1474588800, 18, 0, 3], [728645971, "Netzwerk-Englisch", 0.0, 0, 1486857600, 443, 0, 0], [1673932350, "Genetics - Chromosomes & Mutations", 0.0, 0, 1522800000, 295, 0, 0], [1195370531, "Networks Test 2 CEGEP", 0.0, 0, 1525046400, 127, 0, 0], [2129719118, "Korean DLI Unit 3 Net", 1.0, 0, 1480291200, 292, 584, 0], [861947847, "Korean DLI Unit 9 Net", 0.0, 0, 1493510400, 312, 624, 0], [370756515, "Genetics", 0.0, 0, 1525824000, 103, 0, 0], [371336985, "Networks test 1 cegep", 0.0, 0, 1526256000, 194, 0, 19], [707064198, "Genetics Exam 3", 0.0, 0, 1523491200, 29, 0, 0], [247322247, "Pediatr\u00eda NETITO", 0.0, 0, 1507420800, 69, 0, 22], [1014031087, "Farsi/Persian travel vocabulary (inspired by Lonely Planet)", 0.0, 0, 1486425600, 1618, 0, 0], [1753095623, "Network Authentication Methods - CompTIA A+, Net+, Sec+", 0.0, 0, 1491523200, 19, 0, 0], [328238723, "Networking and security", 0.0, 0, 1517097600, 203, 0, 0], [660291792, "IP and Networking course", 0.0, 0, 1504051200, 2, 0, 0], [1484235914, "Computer Networking Kurose Ross 6th Ed. Deutsch (HHN WS14)", 0.0, 0, 1426377600, 168, 0, 1], [789291262, "Metabolism, enzymes and enzymes kinetics ", 0.0, 0, 1493596800, 1365, 0, 223], [1672406615, "Phonetic Alphabet", 0.0, 0, 1525219200, 26, 0, 0], [417066352, "List of TCP and UDP port numbers and descriptions", 0.0, 0, 1470787200, 3139, 0, 0], [274058837, "Genetic disorders exam 2", 0.0, 0, 1398556800, 30, 0, 0], [3878367480, "Medical genetics UU Fall 2013", 0.0, 0, 1410912000, 139, 0, 0], [606036988, "DBIO5002: Test 2 genetics Yu", 0.0, 0, 1523577600, 31, 0, 2], [673666615, "TAMUSA Computer Networks Study Guide - Final", 1.0, 0, 1494201600, 82, 0, 2], [766972333, "NATO phonetic alphabet", 0.0, 0, 1440460800, 26, 0, 0], [1030339572, "CompTIA Network+ questions", 2.0, 0, 1455667200, 108, 0, 0], [719972847, "Net TCP/IP PowerShell Cmdlets", 0.0, 0, 1501113600, 14, 0, 0], [849525320, "Fisica classica (meccanica termodinamica elettromagnetismo)", 0.0, 0, 1469059200, 209, 0, 191], [693098397, "Mechanisms & Genetics of Diabetes", 0.0, 0, 1519948800, 7, 0, 0], [379568830, "Korean DLI Unit 6 Net", 1.0, 0, 1480896000, 299, 598, 0], [1189080343, "Genetics", 1.0, 0, 1491868800, 84, 47, 207], [1985647355, "Networking: A Top Down Approach", 0.0, 0, 1450310400, 18, 0, 0], [161585723, "Network+ starter set", 1.0, 0, 1498089600, 207, 0, 2], [472838067, "Humangenetik TU M\u00fcnchen", 0.0, 0, 1392076800, 84, 1, 0], [1164694374, "B04 Genexpression Epigenetics", 0.0, 0, 1522022400, 157, 0, 34], [1349651357, "L3 pharmacokinetics", 0.0, 0, 1505692800, 63, 0, 3], [1122094775, "FBS - Pharmacology: Pharmacokinetics and Dynamics", 0.0, 0, 1508457600, 128, 0, 36], [225928375, "Computer Networks TopDownApproach -ENGLISH", 3.0, 0, 1482105600, 167, 0, 0], [1807682490, "Korean DLI Unit 8 Net", 0.0, 0, 1493510400, 302, 604, 0], [1140152416, "Block 5 Humangenetik Erkrankungen", 0.0, 0, 1526169600, 23, 0, 0], [822187914, "Informatik Bachelor Betriebssysteme und Rechnernetze", 0.0, 0, 1500422400, 407, 0, 98], [1866419357, "The Phonetic Alphabet", 0.0, 0, 1484006400, 38, 0, 0], [1810041243, "Esperanto-Deutsch lernu.net 1", 0.0, 0, 1487980800, 54, 0, 0], [1522401148, "Biochemistry Quick USMLE Genetic Diseases ", 0.0, 0, 1448236800, 10, 0, 0], [764446605, "IP Network addresses", 0.0, 0, 1421280000, 71, 1, 0], [104232870, "Network+ Fiber Connections", 0.0, 0, 1508371200, 6, 0, 0], [843895609, "LX0-104: Configuring Basic Networking", 0.0, 0, 1458950400, 40, 0, 0], [1287798009, "Fundamentals of Interconnecting Network Devices \u2013 C246", 0.0, 0, 1491696000, 38, 0, 10], [1757492046, "IPA (International Phonetic Alphabet) of English", 1.0, 1, 1361577600, 34, 151, 0], [36998113, "Kodansha Kanji Learner's Course Expanded Vocab and Phonetics", 2.0, 0, 1483488000, 2300, 19, 10], [1639957723, "NATO phonetic alphabet with audio", 2.0, 0, 1500595200, 26, 26, 26], [1751789256, "Russian Phonetic Alphabet for HAM", 0.0, 0, 1396828800, 35, 35, 0], [266859180, "English - Hungarian Dictionary 1. THE PLANETS", 0.0, 1, 1456099200, 32, 0, 0], [1057073103, "Intermediate-advanced english with phonetic transcription", 0.0, 0, 1453852800, 2018, 3, 82], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 3.0, 0, 1381276800, 46, 51, 46], [1857740579, "SGU genetics T2", 1.0, 0, 1478649600, 185, 0, 39], [813821183, "Netzwerk A2.2 Deutsch-Persisch", 0.0, 0, 1446854400, 570, 0, 0], [1216676381, "Network Engineering (Cisco and Huawei)", 0.0, 0, 1454457600, 249, 0, 0], [1519220551, "IPA sounds of english, list of phonetic sounds.", 0.0, 0, 1345852800, 59, 0, 0], [1554039941, "Network+ N10-006", 3.0, 0, 1469836800, 343, 0, 85], [798405329, "usmle step 1 labs, genetics, math, etc by shadmani", 0.0, 0, 1501977600, 40, 0, 55], [763809717, "CompTIA N10-006 Network+ Acronyms Complete", 1.0, 0, 1465344000, 288, 0, 0], [1768993625, "Network Engineering (Huawei)", 0.0, 0, 1454457600, 155, 0, 0], [41905004, "HSC Physics: Motors & Generators - Magnetic Flux & EMF", 0.0, 0, 1475712000, 12, 0, 0], [2144904925, "Glyphs for Tarot - Elements, Planets, Zodiac", 1.0, 0, 1458604800, 27, 0, 1], [3166970026, "English  Phonology and Phonetics", 0.0, 0, 1345852800, 112, 0, 4], [1291832412, "1000 Most Common Thai Words [EN, DE, MP3, Phonetic]", 1.0, 1, 1352764800, 1000, 0, 0], [1945279301, "International Phonetic Alphabet (IPA) Vowels + Consonants", 0.0, 0, 1423094400, 44, 3, 1], [121789943, "Chinese Internet & Online Marketing Terms (\u7f51\u4e0a\u5e7f\u544a\u5355\u8bcd)", 0.0, 0, 1404172800, 153, 0, 0], [2201805440, "1000 Most Common Thai Words [TH,EN,DE,MP3,HiddenPhonetic]", 2.0, 1, 1352764800, 1000, 0, 0], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 1.0, 0, 1409443200, 106, 0, 127], [706416899, "English Irregular Verbs with Phonetic [Persian]", 4.0, 0, 1345852800, 311, 0, 0], [3475558167, "Biochemistry & Genetics USMLE Step I Flashcards", 0.0, 0, 1363046400, 137, 0, 0], [2772515877, "English Irregular Verbs with Phonetic", 10.0, 2, 1345852800, 311, 0, 0], [976506290, "NATO phonetic alphabet", 7.0, 0, 1433376000, 26, 0, 0], [623579314, "Phonetic Chinese character list ", 0.0, 0, 1477958400, 425, 0, 0], [1632755991, "4350 English Words more written on Internet, Tv, Media ", 0.0, 0, 1479859200, 4350, 4386, 1]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Esi
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Esi</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[454706848, "Propulsion 4.2 compressor design", 0.0, 0, 1527120000, 28, 0, 40], [1413963822, "Propulsion 4.4 Turbine design", 0.0, 0, 1527120000, 32, 0, 42], [602342198, "Chinesisch-Deutsch - Angelehnt an den Kurs von Langenscheidt", 0.0, 0, 1527552000, 561, 561, 0], [963664909, "expresiones de tiempo y frecuencia en alem\u00e1n", 0.0, 0, 1527206400, 87, 0, 0], [526423274, "Philip's 12 designated essay", 0.0, 0, 1523059200, 263, 0, 0], [300872328, "CSC440 Design - Quiz 2", 0.0, 0, 1522108800, 0, 0, 0], [2014174755, "Oral Pathology: Vesiculobullous + erosive diseases ", 0.0, 0, 1527552000, 51, 0, 77], [1426491121, "Oral Pathology: White lesions ", 0.0, 0, 1527465600, 98, 0, 73], [1789929870, "Cardiovascular Anesthesia Exam I", 0.0, 0, 1527465600, 42, 0, 13], [516324025, "Kanji JLPT Livello N4 (181 attivi) e N5 (103 sospesi)", 0.0, 0, 1345852800, 284, 0, 0], [1543152118, "Bible Quiz 49 Ephesians", 0.0, 0, 1526601600, 78, 0, 0], [1192112567, "Europ\u00e4isches Portugiesisch lernen, Stapel B1.1", 1.0, 0, 1483488000, 1000, 0, 0], [1954447283, "Understanding anesthesiology", 0.0, 0, 1518307200, 277, 0, 38], [313035662, "histology: blood, blood cells, hematopoiesis", 0.0, 0, 1507507200, 23, 0, 0], [442752559, "A Primer of Ecclesiastical Latin", 0.0, 0, 1507939200, 1203, 0, 0], [492467300, "Anaesthesia_pg", 1.0, 0, 1492646400, 400, 4, 367], [41387044, "Design and innovation", 0.0, 0, 1515456000, 22, 0, 17], [435233280, "UP Chinesisch Vokabeln", 0.0, 0, 1523491200, 143, 0, 0], [597175618, "Europ\u00e4isches Portugiesisch lernen, Stapel B1.2", 0.0, 0, 1483488000, 1106, 0, 0], [900770530, "DANA5002: Test 2 local anesthesia of max and mand", 0.0, 0, 1521504000, 65, 0, 7], [660349151, "ARLS Medicina Resid\u00eancia - Cl\u00ednica", 2.0, 0, 1520726400, 10328, 0, 409], [27036207, "Anesthesia Drugs", 0.0, 1, 1497571200, 69, 0, 0], [1040288768, "KUMC Anesthesia Final", 0.0, 0, 1505952000, 58, 0, 0], [291616264, "Indonesian Core 100 - Basic words (EN  ID with audio)", 0.0, 0, 1436918400, 202, 109, 116], [1969014748, "Design Thinking ", 0.0, 0, 1520467200, 3, 0, 0], [982872339, "Indonesian Most Frequent Words - Top 2,000", 0.0, 0, 1515542400, 2000, 0, 0], [1578245371, "Malay-Indonesian frequency vocab", 0.0, 0, 1518566400, 2000, 0, 0], [1638238740, "IM Residency Deck", 0.0, 0, 1517788800, 661, 0, 27], [1691898457, "Vietnamesisch (HU Berlin)", 0.0, 0, 1499299200, 820, 0, 0], [1644674298, "Biochemistry- Glucogenesis ", 0.0, 0, 1498608000, 14, 0, 0], [2754780898, "Bahasa Jepang - Indonesia", 0.0, 0, 1345852800, 7196, 0, 0], [1912633763, "Absite: Anesthesia", 0.0, 0, 1485302400, 57, 0, 0], [1835736099, "ARLS Medicina Resid\u00eancia - Pediatria", 1.0, 0, 1520726400, 1187, 0, 118], [1739889213, "Chinesisch A1 - L\u00f3ng chinesisch f\u00fcr Anf\u00e4nger", 0.0, 0, 1510531200, 64, 63, 57], [1284148503, "FDINT 212 Countries Capitals and Presidents", 0.0, 0, 1525478400, 18, 0, 18], [2077090019, "Ecclesiastical Latin Pronunciation", 2.0, 0, 1500595200, 53, 45, 0], [685501496, "Resid\u00eancia medicina 2017 cirurgia clinica medica nefro gastr", 0.0, 0, 1488758400, 57, 0, 3], [644929467, "Anesthesia", 0.0, 0, 1509148800, 145, 0, 0], [613100555, "Broad Categories of Skin Lesions", 1.0, 0, 1402617600, 23, 0, 44], [1960277553, "Embryology - Gametogenesis", 0.0, 0, 1524614400, 45, 0, 9], [826194397, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.1", 2.0, 0, 1483488000, 996, 0, 0], [742807902, "ARLS Medicina Resid\u00eancia - Preventiva", 1.0, 0, 1520726400, 335, 0, 23], [1364945697, "Design Patterns by russian", 0.0, 1, 1511136000, 26, 0, 80], [537619140, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.2", 1.0, 0, 1483488000, 1016, 0, 0], [795284398, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.3", 1.0, 0, 1483488000, 1008, 0, 0], [1614502297, "Bahasa Indonesia - 3 Weeks of Beginner Speaking", 0.0, 0, 1487203200, 280, 0, 0], [973561653, "Music synthesis", 0.0, 0, 1515110400, 5, 0, 0], [1682864027, "Vietnamesisch Lektion 1 ", 0.0, 0, 1526256000, 61, 0, 0], [1434585081, "Designm\u00f6nster TDA550 & TDA552", 0.0, 0, 1521936000, 16, 0, 27], [2014664463, "Indonesian 625", 0.0, 0, 1513555200, 400, 400, 399], [344066703, "Default Hotkeys for Affinity Designer", 0.0, 0, 1522022400, 116, 0, 0], [206163506, "OCR Biology A - Photosynthesis", 0.0, 0, 1525392000, 51, 0, 5], [543876163, "Spanish 350_Pa\u00edses-Capitales-Presidentes", 0.0, 0, 1524528000, 19, 0, 19], [2485307055, "Chinesisch f\u00fcr Deutsche 1+2", 14.0, 2, 1345852800, 2260, 0, 0], [2122658701, "vocaboli ed espressioni inglesi", 0.0, 0, 1515110400, 1296, 0, 0], [1146823798, "History of Graphic Design Final Flashcards", 0.0, 0, 1525132800, 125, 0, 123], [387177534, "Atresia", 0.0, 0, 1526860800, 127, 0, 0], [2098618292, "TUM - Industrial Design 1 - Designer ", 0.0, 0, 1518739200, 60, 0, 72], [1891929068, "Anesthesia and Analgesia - ACLAM", 0.0, 0, 1494374400, 139, 0, 0], [1569389573, "Indonesian everyday words", 0.0, 0, 1520208000, 95, 0, 0], [843113437, "Anesthesia Drug Cards", 0.0, 0, 1480636800, 602, 0, 0], [1354505445, "36 Verben Deutsch_Portugiesisch (Brasil)", 0.0, 0, 1486684800, 36, 4, 2], [1354772496, "Pain and analgesia", 0.0, 0, 1462924800, 108, 0, 3], [516269398, "DBIO5003: Final child obesity", 0.0, 0, 1525392000, 29, 0, 0], [1196344531, "ARLS Medicina Resid\u00eancia - Ginecologia e Obstetr\u00edcia", 4.0, 0, 1520726400, 1353, 0, 130], [1779156690, "NSF - Reproduction - (L4) Embryogenesis and placentation", 0.0, 0, 1524355200, 59, 0, 13], [1187462059, "1.3 Vulvar and Vaginal Lesions", 0.0, 0, 1514851200, 12, 0, 16], [2034030453, "Bayesian Statistics", 0.0, 0, 1501459200, 48, 0, 143], [1317821984, "c++ interview quesitons", 1.0, 0, 1445299200, 589, 0, 238], [1663414529, "some expresions with Shit", 0.0, 0, 1521849600, 11, 0, 0], [1984115318, "CONTRASTE DE HIP\u00d3TESIS MIR", 0.0, 0, 1506038400, 17, 0, 0], [331666956, "Portugiesisch-Deutsch: Ol\u00e1 Portugal 1-12  (A 1.1 bis 1.4)", 0.0, 0, 1520812800, 1369, 0, 0], [592492009, "The Indonesian Way Module 5", 0.0, 0, 1444694400, 236, 236, 0], [1041674457, "Ajay00Desi-Neuro I", 0.0, 0, 1521676800, 187, 0, 121], [117638490, "Expresiones habituales en ing\u00e9s", 0.0, 0, 1452988800, 204, 0, 0], [1844423344, "Bible Quiz 21 Ecclesiastes", 0.0, 0, 1524268800, 73, 0, 0], [1850137490, "Anesthesia for Neurosurgery", 0.0, 0, 1506902400, 36, 0, 0], [1902285300, "Chinesisch Deutsch some vocab", 1.0, 0, 1458864000, 389, 0, 0], [1346104436, "Cinta Bahasa Indonesian Language School book 1 lesson 10-17", 0.0, 0, 1470614400, 162, 162, 0], [103907806, "Resistors", 0.0, 0, 1489017600, 200, 0, 0], [1043183618, "HSK-3-4-Chinesisch", 2.0, 0, 1506038400, 626, 626, 626], [612983623, "Anesthesia Drugs", 0.0, 0, 1441065600, 32, 0, 0], [1156943416, "Chinesisch einmal ganz anders Band 1", 1.0, 0, 1522713600, 1154, 1105, 0], [198433008, "U.S. Presidents Dates of Service", 0.0, 0, 1408406400, 50, 0, 0], [1384853290, "\u21925800 Indonesian sentences sorted by difficulty [with audio]", 4.0, 1, 1477526400, 5890, 5594, 81], [1104691069, "ARLS Medicina Resid\u00eancia - Cirurgia", 3.0, 0, 1520726400, 952, 0, 124], [2889581819, "Presidents of the United States", 0.0, 0, 1354320000, 44, 0, 0], [2024965655, "Musculoskeletal nerves lesion with clinical findings ", 0.0, 0, 1495152000, 23, 0, 6], [1479638559, "Deutsch-Chinesisch (Zhongguohua 1)", 0.0, 0, 1486771200, 1142, 1138, 2], [1106829931, "VCE Japanese Second Language Study Design Vocabulary List", 0.0, 0, 1492732800, 1025, 0, 0], [1325026073, "U.S. Presidents expanded version", 2.0, 0, 1467936000, 44, 3, 43], [1514866887, "MEDICINA PREVENTIVA PARA RESID\u00caNCIA M\u00c9DICA 2016", 1.0, 0, 1498435200, 582, 1, 151], [3759788117, "Indonesian GL Course", 0.0, 0, 1345852800, 1279, 0, 0], [1074269585, "Indonesian Words", 0.0, 0, 1502928000, 175, 0, 0], [907800030, "Chinesisch Deutsch Handelskorrespondenz", 0.0, 0, 1458864000, 238, 0, 0], [1299014329, "The Indonesian Way Module 4", 0.0, 0, 1444694400, 203, 203, 0], [1456375411, "Bahasa Indonesia beginners deck, nearly 1500 words", 0.0, 0, 1463702400, 1476, 0, 0], [969647708, "US Presidents", 0.0, 0, 1501545600, 45, 0, 43], [232295320, "Anesthesia facts from CA-1 year", 0.0, 0, 1439769600, 56, 0, 0], [2111824845, "Indonesian Quick & Dirty 30 (EN  ID)", 0.0, 0, 1445126400, 60, 38, 45], [346111925, "Deutsch - Chinesisch HSK5+", 0.0, 0, 1498953600, 1440, 0, 0], [1738310209, "Indonesian-English 20000", 0.0, 1, 1426377600, 19484, 0, 3], [1202033519, "Object Oriented Design Patterns", 0.0, 0, 1468454400, 30, 0, 0], [2474573896, "Lektorat - angielski w biznesie PL-EN (UAM)", 0.0, 0, 1345852800, 160, 0, 0], [1145032819, "Intermediate R functions and design patterns ", 2.0, 0, 1440460800, 51, 0, 1], [1351032480, "Expresiones Argentinas - Espa\u00f1ol", 0.0, 0, 1450742400, 114, 3, 2], [1975673825, "Electronics: Resistor Color Coding", 2.0, 0, 1391904000, 17, 0, 30], [609701403, "Basic R functions and design patterns", 3.0, 0, 1440460800, 40, 0, 0], [1530326097, "Anesthesia MS3 2015", 0.0, 0, 1440633600, 332, 0, 35], [1143447528, "The Indonesian Way Module 7", 0.0, 0, 1444694400, 139, 136, 0], [1822068808, "The Indonesian Way Module 3", 0.0, 0, 1444694400, 269, 267, 0], [913036949, "L\u00f3ng - Chinesisch f\u00fcr Anf\u00e4nger (A1+A2): Vokabelkarten", 1.0, 0, 1368144000, 497, 0, 0], [1305023098, "Cinta Bahasa Indonesian Language School book 1 lesson 1-9 ", 1.0, 0, 1470614400, 188, 187, 0], [1530846159, "The Indonesian Way Module 6", 0.0, 0, 1444694400, 202, 201, 0], [1239962540, "The Indonesian Way Module 8", 1.0, 0, 1444694400, 242, 241, 0], [1596122672, "Chinesisch Deutsch Teil 2", 0.0, 0, 1458864000, 151, 0, 0], [2032024923, "A1. Lesson 12. Dni tygodnia, miesi\u0105ce, czasowniki", 0.0, 0, 1423094400, 39, 39, 0], [2116883197, "Cisco Certified Design Associate preparation deck", 0.0, 0, 1425340800, 98, 0, 2], [2122590746, "The Indonesian Way Module 2", 1.0, 0, 1444694400, 249, 247, 0], [1690017237, "Embryology: gametogenesis", 0.0, 0, 1472774400, 26, 0, 0], [4056431555, "Devavanipravesika", 1.0, 0, 1345852800, 1395, 0, 0], [1655951526, "HSK 6 Vokabeln Chinesisch-Deutsch", 2.0, 0, 1405641600, 5003, 0, 0], [1780456213, "Chinesisch  Deutsch Teil 1", 0.0, 0, 1447200000, 462, 0, 0], [238233695, "Gluconeogenesis", 0.0, 0, 1454716800, 12, 0, 2], [1613132385, "Bahasa Indonesia Intensif; IALA Jakarta", 0.0, 0, 1516233600, 407, 0, 0], [3328994809, "Anesthesiology Board Review Cards", 0.0, 0, 1351641600, 422, 0, 2], [736035713, "Bible Quiz 01: Genesis", 0.0, 0, 1345852800, 327, 0, 0], [3740518603, "Python - libs, snippets, design patterns, good practices, ..", 0.0, 0, 1359676800, 79, 0, 0], [1058124335, "FBS - Immunology: Lymphopoiesis", 0.0, 0, 1505001600, 32, 0, 4], [2087959279, "U.S. Presidents (/w pics)", 5.0, 0, 1453161600, 44, 0, 43], [479032374, "Principles of Nurse Anesthesia II", 0.0, 0, 1478649600, 576, 0, 12], [4085479325, "Presidentes do Brasil (Brazil Presidents)", 0.0, 0, 1353456000, 38, 0, 38], [449392994, "3500 Indonesian words", 0.0, 0, 1467158400, 3489, 1638, 37], [701549605, "Design Patterns", 1.0, 0, 1434412800, 23, 0, 22], [363625331, "Yi\u011fit Efe - Ba\u015flang\u0131\u00e7 Seviyesi \u0130ngilizce", 0.0, 0, 1453766400, 141, 299, 176], [544484200, "The Indonesian Way Module 1", 2.0, 0, 1444694400, 256, 254, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

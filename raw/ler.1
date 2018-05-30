@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ler
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ler</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1523667167, "Propellers ", 0.0, 0, 1527120000, 34, 0, 42], [522667248, "INGLESE - TRAVELLING (L) / THE TRAVELLER (C)", 0.0, 0, 1511827200, 109, 0, 0], [313291451, "Clerkships", 0.0, 0, 1519084800, 5544, 0, 540], [1640225815, "Lernwortschatz 3", 0.0, 0, 1527638400, 60, 0, 0], [2074544729, "Lernwortschatz 10", 0.0, 0, 1527638400, 91, 0, 0], [870197891, "Lernwortschatz 2", 0.0, 0, 1527638400, 149, 0, 0], [1440396476, "Lernwortschatz 4", 0.0, 0, 1527638400, 98, 0, 0], [108383731, "Lernwortschatz 5", 0.0, 0, 1527638400, 68, 0, 0], [1887818969, "Lernwortschatz 7", 0.0, 0, 1527638400, 75, 0, 0], [34986935, "Lernwortschatz 6", 0.0, 0, 1527638400, 106, 0, 0], [750856442, "Lernwortschatz 8", 0.0, 0, 1527638400, 129, 0, 0], [1292226608, "HENRION TS - P5 - Les lois de Kepler", 0.0, 0, 1516406400, 13, 0, 29], [652743141, "NYS Senior Court Clerk Exam: Family", 0.0, 0, 1521072000, 1292, 0, 3], [360979757, "OBGYN Clerkship - Aakash Gandhi", 0.0, 0, 1516147200, 718, 0, 41], [1752829911, "Besuch von franz\u00f6sischen Muttersprachlerinnen", 0.0, 0, 1522800000, 2935, 0, 0], [1071225154, "Temel Kelimeler", 0.0, 0, 1527465600, 130, 0, 0], [1395489763, "S5e - A02 - parler de son emploi du temps", 0.0, 0, 1521763200, 17, 0, 0], [1192112567, "Europ\u00e4isches Portugiesisch lernen, Stapel B1.1", 1.0, 0, 1483488000, 1000, 0, 0], [131084658, "YDS \u0130ngilizce den  T\u00fcrk\u00e7e'ye \u0130simler ve T\u00fcrevleri  ", 0.0, 0, 1485734400, 1150, 1145, 1], [597175618, "Europ\u00e4isches Portugiesisch lernen, Stapel B1.2", 0.0, 0, 1483488000, 1106, 0, 0], [658487177, "Neurology clerkship shelf exam", 0.0, 0, 1515369600, 44, 0, 0], [2090124998, "EMED Clerkship", 0.0, 0, 1516492800, 205, 0, 22], [1728568492, "Fachinformatiker Lernkarten - Netzwerkprotokolle", 0.0, 0, 1520553600, 177, 0, 0], [797011294, "HENRION TS - P3 - diffraction interferences doppler", 0.0, 0, 1524096000, 20, 0, 41], [579309247, "Fachinformatiker Lernkarten - Einfache IT Systeme", 0.0, 0, 1520553600, 68, 0, 0], [2048232468, "Pharmacology 04 Autonomic Agents (Demler 2018)", 0.0, 0, 1499299200, 81, 0, 0], [907937850, "Teor\u00eda Taller de Mecanizado", 1.0, 0, 1520208000, 54, 0, 6], [398224979, "Lerne Spanisch A1 ", 0.0, 0, 1485907200, 478, 0, 0], [757973337, "Examen euskera ahalera", 0.0, 0, 1521331200, 7, 0, 0], [826194397, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.1", 2.0, 0, 1483488000, 996, 0, 0], [2015314113, "FBS - Immunology: Tolerance and Autoimmunity", 0.0, 0, 1506729600, 32, 0, 5], [1261466733, "Makro101 Formler", 0.0, 0, 1525910400, 70, 0, 0], [1520117746, "Tyler Johnson Medical Scribe Exam Prep (573)", 0.0, 0, 1525737600, 573, 0, 0], [537619140, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.2", 1.0, 0, 1483488000, 1016, 0, 0], [795284398, "Europ\u00e4isches Portugiesisch lernen, Stapel A2.3", 1.0, 0, 1483488000, 1008, 0, 0], [1136088641, "VWL lernen FL", 1.0, 0, 1519776000, 49, 0, 0], [1241654371, "Clerkship", 0.0, 0, 1521504000, 5543, 0, 908], [66604692, "Politik Lk Abi19, 11.1 GAK (Schillerschule)", 2.0, 0, 1515888000, 206, 0, 37], [95940310, "TS - chap 6 - les lois de Kepler", 0.0, 0, 1517356800, 12, 0, 29], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 1.0, 0, 1459555200, 1819, 1223, 100], [1044022573, "Clerkship decks ", 0.0, 0, 1521763200, 5543, 0, 896], [1229648657, "F\u00edsica y Qu\u00edmica Bachillerato", 0.0, 0, 1524355200, 124, 0, 4], [134311655, "YDS \u0130ngilizce den T\u00fcrk\u00e7e'ye \u0130simler ve T\u00fcrevleri", 0.0, 0, 1508371200, 1150, 1145, 1], [1225247596, "40 le\u00e7ons pour parler japonais - 11-20", 0.0, 0, 1521849600, 129, 0, 0], [2084311663, "40 le\u00e7ons pour parler japonais - 21 -30", 0.0, 0, 1521849600, 183, 0, 0], [143535057, "Lernwortschatz 1", 0.0, 0, 1527638400, 115, 0, 0], [240445060, "Fachinformatiker Lernkarten - WISO", 0.0, 0, 1520553600, 55, 0, 0], [2086141714, "National Gallery of Art, Washington DC, Highlights", 0.0, 0, 1499558400, 42, 0, 42], [579585577, "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 - \u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439 Rus\u00e7a-T\u00fcrk\u00e7e kelimeler(\u0441\u043b\u043e\u0432)", 0.0, 0, 1526947200, 303, 0, 0], [474595048, "Europako, Espainiako eta Euskadiko biztanleria eta jarduera ", 0.0, 0, 1520294400, 84, 0, 0], [1796885671, "ANGLAIS VENTE BAC PRO ANIMALERIE", 0.0, 0, 1521072000, 16, 0, 0], [1994930736, "Lerntherapie", 0.0, 0, 1520899200, 38, 0, 0], [1877628120, "Pharmacology 03 Antineoplastics (Demler 2018) (v. 3)", 0.0, 0, 1498953600, 116, 0, 0], [987915451, "Traveller pre-intermediate kifejez\u00e9sek 1- 2", 0.0, 0, 1510012800, 58, 0, 0], [256313490, "heller - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1385424000, 28, 56, 0], [1271480889, "FBS - Immunology: Allergies and Asthma", 0.0, 0, 1509062400, 28, 0, 1], [101198641, "Top 50 Italiaanse werkwoorden van www.sneleentaalleren", 0.0, 0, 1413936000, 50, 0, 0], [1883210017, "Pediatric Clerkship", 0.0, 0, 1345852800, 171, 0, 46], [1707664428, "Clerkship Uworld Step 2 CK decks", 2.0, 0, 1497830400, 1247, 0, 4], [1038485603, "YDS \u0130ngilizce den  T\u00fcrk\u00e7e'ye Filler ve T\u00fcrevleri", 0.0, 0, 1485907200, 1056, 1054, 0], [2026608329, "Fachinformatiker Lernkarten", 1.0, 0, 1520553600, 440, 0, 1], [1810041243, "Esperanto-Deutsch lernu.net 1", 0.0, 0, 1487980800, 54, 0, 0], [947164600, "Vocab from Extra Deutsch Lernen Series", 2.0, 0, 1501113600, 403, 371, 398], [248703432, "Clerkship deck", 0.0, 0, 1501200000, 5544, 0, 972], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [1060534595, "begge deler - Norwegian Bokm\u00e5l / English - Thirduncle1", 0.0, 0, 1395532800, 28, 56, 0], [1963764618, "Dutch to English Phrases for Travelers (with sound)", 0.0, 0, 1409443200, 261, 261, 0], [1649210258, "Ich m\u00f6chte Persisch lernen", 1.0, 0, 1464134400, 365, 0, 0], [1321705211, "Try! N4 JLPT Grammar Scheduler", 0.0, 0, 1424908800, 50, 0, 0], [4067994379, "Surgery Clerkship Quick Review", 0.0, 0, 1345852800, 478, 0, 0], [1681522557, "Thaischrift schreiben lernen_Vokabeln D_TH V_2xxx", 1.0, 0, 1463097600, 2441, 4877, 378], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [1547244936, "UWSOM Surgery Clerkship", 0.0, 0, 1465862400, 751, 0, 8], [2887175275, "Abiturglossar Deutsch f\u00fcr polnische Lerner PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 254, 0, 0], [1292164272, "Sprachkurs: Ich m\u00f6chte Persisch lernen", 0.0, 0, 1461024000, 249, 0, 0], [976861398, "[Ambrosius] Dt-Tr S\u00e4tze / T\u00fcrk\u00e7e-Almanca C\u00fcmleler (Jan.2018)", 0.0, 0, 1515456000, 209, 0, 0], [834558896, "T\u00fcrk\u00e7e / \u0130ngilizce C\u00fcmleler", 1.0, 0, 1467763200, 16, 0, 0], [1362206552, "UW surgery clerkship pages 1-25", 0.0, 0, 1456963200, 467, 0, 170], [1076967965, "NEUROLOGY CLERKSHIP", 0.0, 0, 1450051200, 626, 0, 92], [2037763804, "Traveller Pre-Intermediate 1a-1e (hungarian)", 1.0, 0, 1477785600, 294, 11, 44], [1889498182, "1x1 mit Dreiecken lernen,  1x1 with Triangles", 1.0, 0, 1437955200, 81, 0, 110], [970818623, "Traveller B1+ 3a-b English- Hungarian - by szatti", 0.0, 0, 1478390400, 271, 1, 6], [1516834323, "JLPT4 Half Arsed Traveller Japanese ", 1.0, 0, 1450224000, 517, 492, 100], [2088650455, "Preflop hand ranges from Ed Miller's book, The Course", 1.0, 0, 1473811200, 169, 0, 0], [486678063, "Psych clerkship", 1.0, 0, 1461974400, 379, 0, 3], [1354129669, "Die Kanji lernen und behalten 1 (Neue Folge) mit Geschichten", 15.0, 1, 1483142400, 2200, 0, 0], [358994270, "Half Arsed Traveller Japanese", 0.0, 0, 1462320000, 2147, 1445, 100], [1995547787, "Clerkship Decks", 7.0, 0, 1467763200, 5544, 10, 901], [2012104525, "Spanska. Komplett med bilder, ljudfiler och minnesregler. ", 0.0, 0, 1469404800, 923, 928, 448]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

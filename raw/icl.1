@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Icl
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Icl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[422597422, "German  English advanced words from newspaper articles", 1.0, 0, 1492905600, 474, 0, 0], [714669414, "German: 2000 nouns with articles", 0.0, 0, 1498780800, 1844, 1844, 0], [1513045707, "Physics - Particle Physics", 4.0, 0, 1513641600, 58, 0, 9], [1200630108, "AQA AS physics PARTICLES", 0.0, 0, 1515974400, 20, 0, 0], [231177695, "Bible Quiz 13 I Chronicles", 0.0, 0, 1523404800, 91, 0, 0], [109445640, "German  French advanced words from newspaper articles", 0.0, 0, 1492905600, 408, 0, 0], [1187096186, "Japanese Particles and Combination Words JTMW (version 1.04)", 0.0, 1, 1423440000, 90, 0, 0], [2078718766, "Eco Article Emissionq", 0.0, 0, 1526688000, 93, 0, 0], [65497037, "AQA A-level Physics: Particles", 0.0, 1, 1522800000, 20, 0, 0], [427032041, "German article suffixes", 0.0, 0, 1484611200, 40, 0, 7], [1841366223, "FANZCA Landmark articles summary", 0.0, 0, 1482969600, 38, 0, 7], [1579910450, "Bible Quiz 14 II Chronicles", 0.0, 0, 1523404800, 155, 0, 0], [1512683700, "\u6c11\u6cd5\u6761\u6587\u4e38\u899a\u3048 Japanese Civil Law ArticleNumber->Article Anki", 0.0, 0, 1491091200, 1106, 0, 0], [2068493433, "Greek Article Chart", 0.0, 0, 1409443200, 41, 0, 0], [642102559, "German articles and adjective endings", 1.0, 0, 1360368000, 48, 0, 0], [49546865, "Japanese Particle Grammar Rules", 0.0, 0, 1474416000, 38, 25, 6], [1090984984, "German articles", 0.0, 0, 1518566400, 81, 0, 0], [1906889399, "United States Constitution - amendments and articles", 0.0, 0, 1471132800, 49, 6, 6], [1211599594, "Japanese Particles \u52a9\u8a5e", 1.0, 0, 1388966400, 1088, 0, 0], [539377625, "selfstudythai.com vocabulary w/audio from VOA articles 1-10", 0.0, 0, 1399852800, 1420, 354, 0], [1621569193, "selfstudythai.com vocabulary w/audio from VOA articles 1-85", 1.0, 0, 1406764800, 5392, 1748, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

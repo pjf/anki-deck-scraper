@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Nto
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Nto</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1979580696, "60 Most common Esperanto verbs", 0.0, 0, 1527552000, 55, 0, 0], [1290222776, "1000 palabras en esperanto y espa\u00f1ol", 0.0, 0, 1511481600, 1000, 0, 0], [797997987, "CIV Quinto English", 0.0, 0, 1523491200, 14, 0, 0], [1558401647, "Cantonese Core 100 - Basic words (EN  YUE with audio)", 1.0, 1, 1437004800, 206, 111, 116], [614155794, "Basic English Antonyms (Adjectives)", 0.0, 0, 1527206400, 60, 5, 0], [793795754, "Basic English Antonyms (Verbs)", 0.0, 0, 1527206400, 48, 0, 0], [231218048, "Embalses Pinto", 1.0, 0, 1513814400, 32, 0, 0], [866043544, "Constituci\u00f3n Pinto", 0.0, 0, 1517011200, 114, 0, 0], [1364052597, "\u7cb5\u8a9e\u8072\u8abf\u7df4\u7fd2 Cantonese Tone Practice", 2.0, 0, 1388188800, 664, 2284, 0], [924771694, "Esperanto-Rusa \u0431\u043e\u043b\u0435\u0435 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f", 2.0, 0, 1515024000, 1171, 0, 0], [1622149500, "Fuerzas y movimiento", 0.0, 0, 1525824000, 16, 0, 0], [1197783004, "Kontof\u00fchrung, KF 2017/18 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1510617600, 80, 0, 0], [228873406, "Frases em Esperanto", 0.0, 0, 1492905600, 47, 0, 0], [403775418, "regimento web trt", 0.0, 0, 1521244800, 2, 0, 0], [1000797088, "Introducci\u00f3n a los tratamientos psicodin\u00e1micos, experienc..", 0.0, 0, 1518048000, 1057, 0, 0], [1171157609, "PICANTOVICH", 0.0, 0, 1526860800, 14, 0, 0], [886199927, "CONCURSO DE SANTOS ELIZEU", 1.0, 0, 1520380800, 275, 38, 277], [652066519, "Gaseoductos Pinto", 0.0, 0, 1521763200, 133, 0, 0], [447713486, "Geograf\u00eda Pinto", 0.0, 0, 1513728000, 57, 0, 0], [716027608, "700 palabras esperanto-espa\u00f1ol", 0.0, 0, 1511481600, 730, 0, 0], [1319831305, "Ecosistemas Pinto", 0.0, 0, 1525132800, 288, 0, 0], [14619882, "Literatura del Renacimiento y del Barroco", 0.0, 0, 1521244800, 67, 0, 1], [1951581791, "Desenvolvimento Concurso", 0.0, 0, 1484438400, 62, 0, 0], [1933879762, "Santos2", 0.0, 0, 1524528000, 0, 0, 0], [1901257389, "PERI5001: fundamentals of periodontology", 0.0, 0, 1516406400, 97, 0, 4], [1067122162, "Engenharia de Software - Gerenciamento e planejamento ", 0.0, 0, 1510876800, 28, 0, 0], [1412202936, "Ayuntamiento de SantaCruz", 0.0, 0, 1525392000, 21, 0, 0], [292642240, "Cantonese: Adjectives", 0.0, 0, 1426550400, 21, 0, 0], [1553821852, "Esperanto Gramatika Manlibro (rus)", 2.0, 0, 1515456000, 226, 0, 0], [1677724419, "Esp\u00e9ranto - Fran\u00e7ais : Les 3000 mots les plus fr\u00e9quents", 1.0, 0, 1514332800, 3000, 0, 0], [510911265, "Sanitario Pinto", 0.0, 0, 1520380800, 278, 0, 0], [1763778327, "Izaki bizidunen antolaketa", 0.0, 0, 1520294400, 50, 0, 0], [566838647, "Cantonese", 0.0, 0, 1507766400, 1926, 3554, 9], [368526368, "Kontof\u00fchrung, KF 2018 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1517097600, 20, 0, 0], [1580348800, "Most frequent 100 radicals in Cantonese", 0.0, 0, 1489881600, 100, 57, 81], [1093875440, "Repasa los alimentos", 0.0, 0, 1524182400, 25, 0, 0], [193697986, "Sucesos hist\u00f3ricos, movimientos m.00", 0.0, 0, 1518393600, 33, 0, 0], [52148553, "CLIN MED: Into to Pharm", 0.0, 0, 1526256000, 273, 0, 73], [1611134273, "667 basic Esperanto-English words", 0.0, 0, 1469318400, 682, 0, 1], [1021356683, "Speak Esperanto Like a Native!\u2122 3", 0.0, 0, 1431648000, 299, 598, 1], [390915860, "Los alimentos", 0.0, 0, 1507507200, 22, 0, 0], [1868798853, "Esperanto (rus) \u043a\u043e\u043b\u043e\u0434\u0430 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0438\u0437 \u0443\u0447\u0435\u0431\u043d\u0438\u043a\u0430 \u041a\u043e\u043b\u043a\u0435\u0440\u0430", 3.0, 0, 1515456000, 1184, 0, 0], [2567625761, "2,098 frequent Esperanto words (English)", 0.0, 0, 1345852800, 1418, 0, 0], [408033822, "More Speak Esperanto Like a Native!\u2122 1", 0.0, 0, 1431648000, 322, 644, 1], [370763401, "Parasitologia M\u00e9dica UFMG - Entomologia. Gustavo Melo (153).", 0.0, 0, 1522627200, 179, 0, 31], [394269530, "M\u00e9mento Allemand", 0.0, 0, 1444262400, 1864, 0, 3], [2068746114, "Biochem: Pentose Phosphate Pathway", 0.0, 0, 1508112000, 21, 0, 0], [1168820782, "administrativo ponto 01", 0.0, 0, 1523836800, 76, 0, 6], [495109510, "3000 most common Chinese characters in Cantonese", 4.0, 0, 1426550400, 2998, 0, 0], [1842487223, "Native Immersion #29: W. African English, Football, Azonto", 0.0, 0, 1525219200, 30, 30, 0], [817249751, "Canto - Owen & Alex", 0.0, 0, 1523750400, 152, 0, 0], [522817356, "Esperanto to English ordered by Wikipedia Usage Frequency v1", 3.0, 0, 1478044800, 61907, 0, 0], [1762608734, "INGL\u00caS - Viagens - Cozinha, Alimentos e Bebidas", 0.0, 0, 1509062400, 80, 0, 0], [1584894565, "More Speak Esperanto Like a Native!\u2122 3", 0.0, 0, 1431648000, 703, 1401, 1], [2091502903, " Esperanto 50 most common verbs", 0.0, 0, 1435190400, 50, 6, 4], [284283638, "1K quest\u00f5es Direito Regimento Interno TRE", 0.0, 0, 1505174400, 119, 0, 0], [1575978422, "Korean-Korean TOPIK Antonyms", 2.0, 0, 1498348800, 248, 246, 0], [2075313989, "(GM5) Or\u00e7amento p\u00fablico na CF/88", 1.0, 0, 1508716800, 39, 0, 0], [1810041243, "Esperanto-Deutsch lernu.net 1", 0.0, 0, 1487980800, 54, 0, 0], [1087095779, "Legfontosabb angol szavak kezd\u0151knek", 3.0, 0, 1463443200, 222, 221, 0], [1195399361, "Small Test English-Cantonese deck with Audio", 0.0, 0, 1454371200, 429, 426, 0], [1732346523, "580 english opposites [antonyms] with audio", 0.0, 0, 1513987200, 573, 687, 0], [1755465447, "Improved Cantonese Characters", 3.0, 0, 1400716800, 4971, 0, 0], [430513890, "Fundamentos de Psicobiolog\u00eda segundo parcial", 0.0, 0, 1345852800, 1135, 0, 0], [497560822, "300 Most Frequent Cantonese Characters", 0.0, 0, 1489881600, 300, 57, 81], [1763047972, "Hepokatin abipaketti: Ruotsi (Omia poimintoja)", 0.0, 0, 1481673600, 845, 1, 1], [1710270489, "Kanji para recordar - Suplemento", 1.0, 0, 1503273600, 157, 0, 0], [1542219923, "Cantonese conversational phrases with audio", 0.0, 0, 1475280000, 41, 50, 17], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 1.0, 0, 1445472000, 11, 0, 7], [693053219, "Proverbaro de Esperanto", 2.0, 0, 1408924800, 2710, 0, 0], [1062238174, "Chinese antonym pairs", 0.0, 0, 1387843200, 236, 0, 0], [293061661, "Bazaj radikoj Esperanto-Esperanto", 0.0, 0, 1427068800, 2863, 0, 0], [1253169459, "Cantonese Slang Deck V 0.1 Beta", 1.0, 0, 1403568000, 7659, 0, 0], [1823049682, "Vor- und Nachsilben in Esperanto", 0.0, 0, 1345852800, 41, 0, 0], [945295056, "Chat In Esperanto Like a Native!\u2122", 0.0, 0, 1432252800, 623, 1238, 1], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [142924034, "Change basic English into business", 1.0, 0, 1426291200, 11, 0, 0], [2028637832, "Speak Esperanto Like a Native!\u2122 2", 0.0, 0, 1431648000, 303, 606, 1], [599046571, "More Speak Esperanto Like a Native!\u2122 2", 0.0, 0, 1431648000, 414, 820, 1], [4678556, "Esperanto Alphabet", 0.0, 0, 1405209600, 28, 27, 0], [782441179, "Esp\u00e9ranto - Fran\u00e7ais", 2.0, 2, 1476057600, 1354, 0, 0], [1232140683, "Cantonese Level 1 Phrases from CantoDict.", 1.0, 0, 1425686400, 36, 35, 0], [1665314112, "Duolingo Esperanto, Checkpoint 0 - 1", 1.0, 0, 1433116800, 134, 0, 0], [1359095949, "Duolingo Esperanto, Checkpoint 2 - 3, v2", 1.0, 0, 1434499200, 677, 0, 0], [1093674526, "Duolingo Esperanto, Checkpoint 1 -2", 1.0, 0, 1433289600, 238, 0, 0], [1639351711, "General Esperanto - English Vocabulary", 0.0, 0, 1471996800, 759, 0, 1], [1618957646, "GermanToEnglish", 0.0, 0, 1445299200, 597, 0, 0], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [1866953369, "Taiwan Grades 1-8 w/Cantonese Jyutping and Cangjie Codes", 0.0, 0, 1345852800, 3527, 0, 0], [293843977, "Top 500 Most Used Words in Esperanto", 0.0, 0, 1435017600, 504, 0, 0], [1258757979, "Elementary Linear Algebra (Anton), sections 4.1 - 4.7", 0.0, 0, 1395532800, 44, 0, 0], [1420856776, "Into to Cell Biology", 1.0, 0, 1408320000, 95, 0, 1], [196530514, "Les 26 cantons et chefs-lieu de la SUISSE", 1.0, 1, 1409788800, 26, 0, 56], [1529419090, "Cantonese Jyutping with Audio", 1.0, 0, 1460851200, 605, 605, 0], [1462853146, "Cantonese Phrases & Sentences 2 - update", 1.0, 1, 1428364800, 46423, 0, 0], [998955102, "Cantonese: Verbs", 0.0, 0, 1426550400, 33, 0, 0], [1839131377, "Chinese Cantonese Idiom Deck V0.1 Beta", 1.0, 0, 1403568000, 2721, 0, 0], [275196529, "Comprehensive Esperanto Deck - Robjo", 0.0, 0, 1363046400, 26627, 0, 15], [1073265637, "Cantonese cognates with audio", 0.0, 0, 1475280000, 113, 122, 17], [1586327721, "Esperanto 101", 17.0, 0, 1345852800, 553, 0, 0], [3299339453, "626 common Esperanto words (English)", 2.0, 0, 1345852800, 594, 0, 0], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 1.0, 0, 1345852800, 100, 0, 0], [763798048, "Cantonese FSI Dialogs with Audio and Cantonese Characters", 3.0, 0, 1409011200, 333, 334, 0], [1365709043, "Cantonese with Audio", 1.0, 0, 1451347200, 1262, 1270, 9], [479111924, "L'italiano di Antonio", 4.0, 1, 1452556800, 350, 346, 347], [123274652, "A Complete Grammar of Esperanto", 0.0, 0, 1464912000, 926, 0, 0], [74558346, "529 PALAVRAS FREQUENTES (RADICAIS) ESPERANTO X PORTUGU\u00caS", 0.0, 0, 1471478400, 529, 8, 0], [146748447, "Esperanto Duolingo worlds", 0.0, 0, 1468195200, 1737, 8, 0], [823641985, "Cantonese Quick & Dirty 30 (EN  ZH-HK)", 0.0, 0, 1443225600, 60, 38, 45], [558078558, "Speak Esperanto Like a Native!\u2122 1", 0.0, 0, 1431648000, 225, 450, 1], [445220383, "Cantonese Characters with Audio v2", 1.0, 0, 1430265600, 4976, 1859, 0], [93980248, "Japanese everyday words and phrases, translated into Russian", 1.0, 1, 1350777600, 113, 105, 21], [4005856339, "esperanto-espa\u00f1ol vocabulario", 1.0, 0, 1345852800, 3672, 0, 0], [2344818168, "Esperanto-English Sentences from Tatoeba (with audio)", 1.0, 0, 1374451200, 456, 456, 0], [1262731104, "Esperanto: de Universala Esperanto Metodo", 1.0, 0, 1430092800, 79, 0, 10], [1422927348, "Fundamentos de Psicobiolog\u00eda primer parcial", 0.0, 0, 1345852800, 598, 0, 0], [3857923599, "Fundamentos de Investigaci\u00f3n", 0.0, 0, 1345852800, 599, 0, 1], [1719293397, "Cantonese \u5ee3\u6771\u8a71\uff0f\u7cb5\u8a9e Beta v0.7", 5.0, 0, 1432771200, 22492, 22886, 1], [1636859722, "Esperanto bildo vortaro", 0.0, 1, 1465430400, 2110, 2, 2135], [596725836, "Esperanto-Rusa", 7.0, 0, 1363737600, 1171, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

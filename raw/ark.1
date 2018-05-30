@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ark
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ark</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[174064441, "NihongoShark.com Pre-Loaded Vocabulary Deck", 25.0, 1, 1425168000, 3992, 3989, 1960], [1637374940, "ESL_Vocab Mark ESL", 0.0, 0, 1521504000, 614, 600, 543], [1956010956, "NihongoShark.com Kanji Deck", 138.0, 9, 1447459200, 2200, 3, 2202], [341651504, "KELLYSU_MARKETING_NOTES", 0.0, 0, 1521072000, 65, 0, 5], [1633375863, "AWL 2017 Marketing", 0.0, 0, 1497830400, 24, 0, 0], [1229789317, "Mikro arbetsmarknad", 0.0, 0, 1527724800, 8, 0, 4], [1897635674, "Parker Biochemistry I - Unit 1", 0.0, 0, 1525996800, 42, 0, 4], [1805202130, "Parker Biology of Cells and Tissues - Unit 1", 0.0, 0, 1525996800, 20, 0, 0], [1066597463, "Parker Biology of Cells and Tissues - Lab 1", 0.0, 0, 1526083200, 41, 0, 10], [1740232923, "Market Book - Business English", 0.0, 0, 1472601600, 720, 1, 4], [1242148203, "NihongoShark Kenny\u2019s Study", 0.0, 0, 1514678400, 2200, 0, 2200], [1126253275, "NihongoShark 2000 Step 01", 0.0, 0, 1522800000, 400, 49, 26], [1359721900, "Markets", 0.0, 0, 1521504000, 19, 0, 0], [1961799144, "KELLYSU_MARKETING_QUESTIONS", 0.0, 0, 1521072000, 24, 0, 0], [1919153980, "ANKI/DLCO - Marketing", 0.0, 0, 1520121600, 20, 0, 20], [2076028505, "Benchmark #1 Study Guide (may need alterations)", 0.0, 0, 1522195200, 32, 0, 0], [489640620, "Landmark trials", 0.0, 0, 1525132800, 292, 0, 23], [1136034357, "Parker DAA Vertebral, rib cage and appendicular skeleton", 0.0, 0, 1526947200, 212, 0, 27], [343420894, "Parker Biochemistry I - Functional Groups", 0.0, 0, 1525996800, 19, 0, 0], [1711018076, "Hochschule Reutlingen - Marketing I", 0.0, 0, 1524960000, 44, 0, 33], [281682430, "Hochschule Reutlingen - Marktforschung I", 0.0, 0, 1524960000, 17, 0, 12], [558607438, "North American Biomes and National Parks", 0.0, 1, 1460246400, 135, 0, 117], [1644784024, "Marketing I", 0.0, 0, 1498435200, 245, 0, 31], [2106223612, "Kanji Learner's Course Vocabulary w/Important Marked", 1.0, 0, 1470787200, 7139, 0, 0], [163026006, "Concluding remarks of VTM 317", 0.0, 0, 1523491200, 61, 0, 0], [691219033, "Einf\u00fchrung Marketing", 0.0, 0, 1449792000, 126, 0, 10], [1818042827, "Marketing", 0.0, 0, 1521504000, 24, 0, 0], [2067178435, "Bible Quiz 41 Mark", 0.0, 0, 1525219200, 60, 0, 0], [1399790064, "Markdown\u5c0f\u767d\u8bed\u6cd5", 0.0, 0, 1525046400, 13, 0, 0], [1417396078, "Landmark US Cases", 0.0, 0, 1518393600, 268, 0, 0], [993866228, "NihongoShark.com Blank Vocabulary Deck", 4.0, 0, 1425168000, 1, 0, 1], [1292845215, "People's Park \u4eba\u6c11\u516c\u56ed", 0.0, 0, 1524182400, 22, 0, 0], [388283792, "Pharmacology of Parkinson's disease", 0.0, 0, 1522195200, 15, 0, 0], [1876028187, "NihongoShark.com: Kanji Reversed", 0.0, 0, 1520294400, 2200, 0, 2200], [1841366223, "FANZCA Landmark articles summary", 0.0, 0, 1482969600, 38, 0, 7], [821709530, "Parker Development and Applied Anatomy - Exam 1", 0.0, 0, 1526342400, 123, 0, 2], [1111193189, "Parker Medical Terminology", 0.0, 0, 1526342400, 42, 0, 0], [518795558, "Gunnemark_minilex_ru_swe", 0.0, 0, 1345852800, 576, 0, 0], [551879768, "Financial Markets and Institutions ", 0.0, 0, 1498435200, 479, 0, 0], [1100720513, "Deck_Mark", 0.0, 0, 1524182400, 125, 0, 0], [606658683, "16/17 Foundations of Marketing (MKT1001-STD)", 0.0, 0, 1479859200, 24, 0, 0], [2072166077, "Thai Tone Rules and Tone Marks", 0.0, 0, 1497312000, 15, 0, 0], [410308095, "Shariahprogram Arabic 2014 Theory + Sarf (no tarkeeb)", 1.0, 0, 1398038400, 119, 0, 194], [927656533, "Marketing Foundations", 0.0, 0, 1477526400, 0, 0, 0], [53815650, "Universal Markup Language", 0.0, 0, 1416096000, 7, 0, 14], [1748173955, "The Role of Global Capital Markets (Coursera)", 2.0, 0, 1439337600, 99, 0, 0], [1001565183, "Starke Verben", 1.0, 0, 1445472000, 194, 0, 0], [1987438464, "Starka och oregelbunda verb p\u00e5 svenska", 0.0, 0, 1501804800, 118, 0, 0], [3028692523, "Mark Piper's Accounting Made Simple", 0.0, 0, 1364947200, 57, 0, 0], [1013834166, "Markdown", 3.0, 0, 1398643200, 23, 0, 0], [1119951510, "Elder Futhark Runes", 0.0, 0, 1456963200, 24, 0, 0], [121789943, "Chinese Internet & Online Marketing Terms (\u7f51\u4e0a\u5e7f\u544a\u5355\u8bcd)", 0.0, 0, 1404172800, 153, 0, 0], [907316357, "AP Art History - Mrs. Park", 0.0, 0, 1461283200, 284, 0, 411]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

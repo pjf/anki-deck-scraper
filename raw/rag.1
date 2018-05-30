@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Rag
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Rag</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[806564029, "Hiragana", 0.0, 0, 1525219200, 102, 0, 0], [942480782, "Molekularbiologie und Biochemie der Gene Altfragen Graz", 0.0, 0, 1485388800, 26, 0, 3], [811051580, "Medizinische Fragen ", 0.0, 0, 1527206400, 142, 0, 0], [1848491717, "FLA Gold Fragen", 0.0, 0, 1523577600, 298, 0, 0], [2136150393, "Hiragana + Audio + essential words (the easiest /kawaii way)", 29.0, 4, 1432252800, 87, 87, 77], [157887429, "Hiragana part 2 A Ka", 0.0, 0, 1522454400, 10, 0, 0], [1323651826, "TUHH Thermodynamik II Fragenteil", 0.0, 0, 1521072000, 72, 0, 130], [1047820230, "Pragm\u00e1tica Lecturas 1", 0.0, 0, 1523491200, 142, 0, 0], [93336016, "Grundlagen Vertragsrecht", 0.0, 0, 1523145600, 132, 0, 0], [595918280, "Sportbootf\u00fchrerschein See (SBF-SEE) Pr\u00fcfungsfragen ", 0.0, 0, 1492560000, 285, 0, 0], [1692833737, "Anatomy - Pelvic Diaphragm, Pelvis, and Perineum", 0.0, 0, 1508976000, 45, 0, 51], [150973497, "Turbo-Fragen", 0.0, 0, 1522454400, 66, 0, 14], [24366290, "Lungen Prop\u00e4deutikumfragen", 0.0, 0, 1524700800, 133, 0, 3], [2109709108, "Ironie tragique et d\u00e9voilement dans INcendies", 0.0, 0, 1521676800, 0, 0, 0], [1513983653, "Hiragana_Katakana", 0.0, 0, 1509926400, 92, 0, 0], [949532971, "Hiragana Set 1 - Characters", 0.0, 0, 1476748800, 5, 0, 0], [978901593, "Japanische Silben: Kana (Hiragana und Katakana)", 0.0, 0, 1525564800, 284, 134, 99], [728392663, "Hiragana to Katakana (Basic set)", 2.0, 0, 1416614400, 46, 0, 0], [773229465, "Hiragana", 1.0, 0, 1484784000, 104, 104, 0], [1328991645, "Pragm\u00e1tica Lecturas 2", 0.0, 0, 1525564800, 134, 0, 0], [57822303, "Altfragen 2 Diplompr\u00fcfung", 1.0, 0, 1524960000, 151, 0, 3], [678011029, "SBF Binnen Pr\u00fcfungsfragen", 2.0, 0, 1469059200, 312, 0, 86], [1065124151, "Hemorragia digestiva", 0.0, 0, 1520985600, 5, 0, 0], [742396121, "Thermodynamik I Fragenkatalog", 0.0, 0, 1488844800, 87, 0, 177], [1644450408, "Hiragana part 4 A Ka Sa Ta", 0.0, 0, 1522454400, 20, 0, 0], [97871893, "JapanesePod101.com Hiragana [2/3]", 0.0, 0, 1485043200, 10000, 6306, 0], [454663294, "Deutsch Goethe A1 Sprechen: Fragen", 0.0, 0, 1447977600, 67, 3, 69], [4081021230, "SSM1 Altfragen", 1.0, 0, 1381881600, 166, 0, 1], [1995197730, "Hiragana Basic JapanesePod101.com with sound", 0.0, 0, 1508630400, 79, 79, 0], [1632090287, "Hiragana + Katakana w/ Audio & Stroke Order", 23.0, 1, 1475366400, 226, 226, 117], [676313274, "Hiragana Katakana output", 0.0, 0, 1412121600, 123, 0, 0], [1211599508, "Pragm\u00e1tica Examen Datos + Memo", 0.0, 0, 1527033600, 70, 0, 0], [1045629517, "Thu'um - Dragon Language of Skyrim", 1.0, 0, 1489968000, 646, 0, 0], [1910146538, "JapanesePod101.com Hiragana [1/3]", 0.0, 0, 1485043200, 10000, 6437, 0], [1695711358, "Fachinformatiker systemintegration GA1 Fragen", 0.0, 0, 1524355200, 103, 0, 0], [1787964842, "D\u00e9mocraties Fragilis\u00e9s,exp\u00e9rience social ", 0.0, 0, 1522454400, 9, 0, 0], [236872688, "\u3072\u3089\u304c\u306a(hiragana)", 0.0, 0, 1504224000, 73, 0, 0], [2052035901, "Remembering The Kana - Hiragana ", 0.0, 0, 1484092800, 9, 0, 0], [1475243160, "\u3072\u3089\u304c\u306a  (Japanese Hiragana)", 0.0, 0, 1479945600, 72, 0, 72], [391685785, "Zertifizierungsfragen", 0.0, 0, 1524787200, 172, 0, 0], [798044400, "Physik_Altfragen_Pharmazie_Wien", 0.0, 0, 1494460800, 94, 0, 0], [1675414593, "THE FIRE OF THE DRAGONS BREATH", 0.0, 0, 1524096000, 22, 23, 0], [2136719736, "SKS Fragenkatalog", 1.0, 0, 1483488000, 637, 0, 6], [2183294427, "Japanese Basic Hiragana", 42.0, 1, 1384128000, 46, 46, 0], [1868705618, "Hiragana 1", 0.0, 0, 1497830400, 100, 100, 100], [1030729566, "JapanesePod101.com Hiragana [3/3]", 0.0, 0, 1485043200, 10669, 7040, 0], [1156495779, "Hiragana 2 Katakana", 0.0, 0, 1485475200, 46, 3, 0], [627583804, "Write (draw) Hiragana", 0.0, 0, 1485907200, 104, 0, 0], [989060399, "katakana/hiragana with stroke diagrams and audio", 0.0, 0, 1458691200, 3059, 0, 0], [2029968563, "JLPT N2 Vocabulary - Kanji to Hiragana", 0.0, 0, 1486166400, 1519, 0, 0], [239821247, "SBF See Pr\u00fcfungsfragen", 1.0, 0, 1485216000, 307, 0, 78], [60022419, "Hiragana (Japanese Kana)", 0.0, 0, 1497830400, 73, 0, 0], [569396575, "JLPT N1 Vocabulary - Kanji to Hiragana", 0.0, 0, 1486166400, 3183, 0, 0], [1398539982, "Alfabeto Hiragana Completo", 8.0, 0, 1435536000, 71, 0, 0], [820255134, "Hiragana", 0.0, 0, 1503100800, 51, 0, 0], [843221611, "Complete Hiragana practice deck", 3.0, 0, 1442016000, 104, 104, 0], [2013427942, "Japanese numbers in hiragana", 0.0, 3, 1502928000, 0, 0, 0], [1619246873, "SIP1kombiFragen", 1.0, 3, 1371254400, 303, 0, 178], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 1.0, 0, 1453075200, 275, 0, 0], [4185046271, "Japanese Ten-Ten and Maru Hiragana", 0.0, 0, 1384128000, 25, 25, 0], [1942577716, "JF Nihongo Hiragana Vocabulary", 0.0, 0, 1444953600, 74, 0, 0], [1928021410, "Japanisch Vokabeln +Hiragana VHS-WI H73090", 0.0, 0, 1456963200, 193, 0, 0], [226553655, "Japanische Hiragana (\u3072\u3089\u304c\u306a)", 0.0, 0, 1454457600, 100, 0, 0], [2090954252, "Japanese Hiragana Flashcards", 1.0, 0, 1468800000, 50, 0, 0], [1288746562, "Hiragana Mnemonics (sourced tofugu.com)", 2.0, 0, 1472601600, 46, 3, 47], [125313500, "Japanese Hiragana/Katakana", 0.0, 0, 1448236800, 206, 0, 0], [1329881206, "Pr\u00fcfungsfragen HPP", 1.0, 0, 1503446400, 540, 0, 8], [706183245, "N5 JLPT Kanji english+hiragana", 0.0, 0, 1451433600, 79, 0, 0], [1979569449, "N4 JLPT Vocabulary english+hiragana", 0.0, 0, 1451433600, 632, 0, 0], [3335113453, "Vocabulaire japonais simple pour apprendre les hiragana", 0.0, 0, 1383955200, 33, 0, 0], [236327623, "Hiragana vs Katakana", 1.0, 0, 1345852800, 71, 0, 71], [1830393105, "hiragana", 0.0, 0, 1412553600, 104, 104, 0], [556666730, "Drawing Hiragana", 0.0, 1, 1409529600, 104, 104, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 1.0, 0, 1421107200, 102, 0, 1], [34491717, "Hiragana", 0.0, 0, 1432857600, 104, 107, 0], [716108583, "Hiragana com palavras", 5.0, 1, 1471996800, 75, 26, 2374], [762445223, "Japon\u00eas - Sistema de escrita Hiragana e Katakana", 1.0, 0, 1505088000, 206, 0, 0], [195754716, "Japanese Hiragana", 7.0, 0, 1411689600, 104, 104, 0], [883169541, "Hiragana deck with stroke diagram", 5.0, 0, 1436227200, 46, 0, 1], [4038968061, "Dragunkin course vocabulary Eng & Rus", 1.0, 0, 1345852800, 385, 0, 0], [722065315, "Hiragana with stroke diagrams and audio", 44.0, 4, 1356998400, 104, 104, 46]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

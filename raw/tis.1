@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Tis
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Tis</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[19583294, "TwittDNB Orthographe (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 6, 0, 0], [1782774898, "TwittDNB conjugaison (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 14, 0, 0], [1666743841, "TwittDNB grammaire (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 11, 0, 0], [208708574, "TwittDNB lecture (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 18, 0, 0], [448461818, "TwittDNB grammaire 2 (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 12, 0, 0], [609534457, "TwittDNB vocabulaire (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 17, 0, 0], [962366096, "#TwittDNB Orthographe 2 (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 10, 0, 0], [1357645930, "\u2727 Scottish Gaelic \u2727 Part 1 - Vocab", 3.0, 0, 1513296000, 1358, 1297, 0], [1573760455, "Programming Practise and Applications", 0.0, 0, 1511222400, 153, 0, 85], [1392389977, "Literatura no Brasil - CB, Quinhentismo e Barroco", 0.0, 0, 1527206400, 35, 0, 0], [1250245863, "Precalculus, Probability, and Statistics - Concepts/Terms", 2.0, 0, 1496793600, 104, 0, 40], [147820090, "TissueEng - Scaffolds", 0.0, 0, 1522800000, 163, 0, 18], [938743742, "\u2727 Scottish Gaelic \u2727 Part 2 - Little by Little", 0.0, 0, 1513296000, 1554, 1605, 0], [419854746, "R\u00e9vision : Statistiques \u00e0 deux variables", 0.0, 0, 1522972800, 4, 0, 3], [1805202130, "Parker Biology of Cells and Tissues - Unit 1", 0.0, 0, 1525996800, 20, 0, 0], [39558017, "British Sign Language", 0.0, 0, 1506384000, 36, 0, 17], [842369499, "Statistiques du groupe", 0.0, 0, 1522022400, 10, 0, 0], [290099633, "metode & statistikk spm", 0.0, 0, 1527552000, 135, 0, 12], [1105572066, "Statistik Kennwerte", 0.0, 0, 1517961600, 24, 0, 19], [831167744, "Ultimate kanji-reading deck  (kanji + words + statistics)", 13.0, 0, 1468022400, 25387, 0, 0], [2145687218, "british politics", 0.0, 0, 1515024000, 226, 0, 0], [1662338184, "Basic Statistics", 0.0, 0, 1520035200, 20, 0, 0], [1066597463, "Parker Biology of Cells and Tissues - Lab 1", 0.0, 0, 1526083200, 41, 0, 10], [384776131, "Native Immersion #37\u2013 Kickass Habits and British Accents", 0.0, 0, 1525392000, 31, 31, 0], [1703458522, "Epidemiology/Biostatistics COMPLETE First Aid 2016 Yieldski", 0.0, 0, 1500768000, 126, 0, 151], [1154459026, "Statistics with R by Nicole Radziwill  DataGallos", 0.0, 0, 1445299200, 181, 0, 72], [488160195, "British Pronunciation Guide  (RP)", 0.0, 0, 1526342400, 44, 2, 0], [343559677, "Mathematical Statistics", 0.0, 0, 1511049600, 122, 0, 116], [1115644572, "Statistik Interferenz Unifr", 0.0, 0, 1521936000, 121, 0, 5], [1185285155, "Statistics", 0.0, 0, 1526428800, 803, 0, 344], [2080825778, "TissueEng - Cells", 0.0, 0, 1522800000, 135, 0, 1], [1199566332, "Kuch organized sketchy through hepatitis", 0.0, 0, 1524528000, 105, 0, 1873], [1737465043, "FVSA introductory module - Connective tissue histology", 0.0, 0, 1500508800, 40, 0, 6], [2056046050, "Thematisch Frans", 0.0, 0, 1500336000, 1870, 0, 0], [878647822, "GLOMERULONEFRITIS MIR ", 0.0, 0, 1514505600, 40, 0, 0], [1055561731, "SSM2 Statistik MUW", 0.0, 0, 1489622400, 135, 0, 63], [689750946, "IPAP 2-18 A&P I 2-4 Nervous Tissue", 0.0, 0, 1527033600, 81, 0, 85], [588590431, "Juan Mejia Tissue Bio", 0.0, 0, 1519776000, 195, 0, 53], [666360799, "Na Tuislean: Scottish Gaelic Cases", 0.0, 0, 1518307200, 202, 0, 0], [1945550501, "Statistik", 0.0, 0, 1499385600, 123, 0, 78], [1701624840, "Machine Learning and Statistics", 0.0, 0, 1488499200, 93, 0, 0], [1344699913, "NSF - Cells and tissues - Biochem - Carbohydrates 1", 0.0, 0, 1515196800, 32, 0, 4], [1944279504, "NSF - Cells and tissues - Biochem - Carbohydrates 2", 0.0, 0, 1515196800, 25, 0, 1], [609359826, "Medical Statistics & Epidemiology ", 0.0, 0, 1492473600, 36, 0, 3], [981566332, "FANZCA statistics, trials & EBM", 0.0, 0, 1515110400, 34, 0, 0], [93812551, "\u2727 Scottish Gaelic \u2727 Part 3 - The Little Letter 150", 0.0, 0, 1513296000, 1665, 1811, 0], [395356182, "Kroatisch Anf\u00e4nger", 0.0, 0, 1508630400, 62, 0, 0], [243952894, "Chapter 9 A.P muscles and muscle tissue", 0.0, 0, 1523145600, 50, 0, 0], [848131886, "E-pathology: Soft tissue, bones, joints", 0.0, 0, 1514937600, 176, 0, 49], [1640010869, "Repro Changes across a life span- STIs/STDs", 0.0, 0, 1519689600, 70, 0, 0], [2034030453, "Bayesian Statistics", 0.0, 0, 1501459200, 48, 0, 143], [2078482557, "TIS_Animal", 0.0, 0, 1520208000, 7, 7, 7], [848095154, "IB 131L #5: Brain, Cranial Nerves, Spine; Nervous Tissue", 0.0, 0, 1508630400, 243, 0, 32], [1960445226, "histology: Nervous Tissue, Nervous System", 0.0, 0, 1507507200, 48, 0, 1], [1664347553, "Histology: Muscle Tissue", 0.0, 0, 1507507200, 23, 0, 1], [849525320, "Fisica classica (meccanica termodinamica elettromagnetismo)", 0.0, 0, 1469059200, 209, 0, 191], [26259884, "Cell Tissue and Biology Final Exam (Lab)", 0.0, 1, 1413244800, 244, 0, 0], [1045413587, "Statistika", 0.0, 0, 1522195200, 159, 0, 159], [400985285, "Statistik und Thermodynamik", 0.0, 0, 1392249600, 142, 0, 345], [369991532, "Politische Geographie", 0.0, 0, 1522281600, 63, 0, 0], [2095099456, "Epidemiology and Biostatistics", 1.0, 0, 1490227200, 121, 10, 160], [705914243, "FA Musculoskeletal, Skin, Connective Tissue ak2016", 0.0, 0, 1482278400, 1243, 0, 337], [1565946279, "All British birds listed on wikipedia with images", 0.0, 0, 1481673600, 546, 0, 1], [1248770510, "StEOP_Pharmazeutische_Wissenschaften", 0.0, 0, 1485820800, 781, 0, 87], [448990814, "FBS - Microbiology: Viral Hepatitis", 0.0, 0, 1510272000, 40, 0, 0], [1557416117, "connective tissue", 0.0, 0, 1474416000, 52, 0, 21], [2048065462, "Advanced Statistics", 1.0, 0, 1509062400, 630, 0, 342], [115334323, "British English IPA pronunciation drill", 2.0, 0, 1491436800, 1000, 1003, 0], [137263250, "Cells, Tissues, and Membranes", 0.0, 0, 1501459200, 40, 0, 0], [1076382311, "British Bird Songs", 1.0, 0, 1393891200, 50, 50, 0], [271217532, "BSL British sign language dictionary in SignWriting 2014", 0.0, 0, 1426377600, 645, 0, 646], [2087980298, "Scottish Gaelic Verbs", 1.0, 0, 1453680000, 124, 214, 104], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [1885081400, "Stochastische Integration und Finanzmathematik", 0.0, 0, 1418342400, 255, 0, 303], [54778688, "Probability and Statistics (Temple University) Deck", 0.0, 0, 1424217600, 68, 0, 5], [1910277426, "Basic statistical terms and intuition ", 2.0, 0, 1442707200, 186, 0, 23], [3688309102, "Deutsch-Kroatisch", 0.0, 0, 1387324800, 1509, 0, 0], [886422072, "Neuro Drugs USMLE Step 1 NSpottiswoode", 0.0, 0, 1468368000, 49, 0, 6], [2090293558, "RLR #96 \u2013 Kickass Habits & British Accents", 3.0, 0, 1426636800, 31, 31, 0], [537702457, "DANA5001: Connective tissue", 1.0, 0, 1503360000, 31, 0, 0], [1276925019, "Edexcel GCE Mathematics: Statistics S2", 0.0, 0, 1421712000, 29, 0, 2], [1238180328, "HSKK Beginner/Junior Practise Sentences", 1.0, 0, 1464134400, 34, 8, 15], [1737581396, "Scottish Gaelic Adjectives", 0.0, 0, 1453766400, 139, 135, 167], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [927750374, "Data Analysis and Statistical Inference U1 Intro to data", 2.0, 0, 1412380800, 43, 0, 15], [173032343, "Theoretische Mechanik", 0.0, 0, 1421884800, 15, 0, 15], [1620071018, "Scottish Gaelic Feminine Nouns", 0.0, 0, 1453420800, 171, 278, 283], [1478936314, "Scottish Gaelic Masculine Nouns", 0.0, 0, 1453420800, 307, 427, 411], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 1.0, 0, 1409443200, 106, 0, 127], [1495159797, "British English Phonemes", 1.0, 0, 1468281600, 44, 0, 44], [904404443, "Breton - Apprentissage vocabulaire et expressions simples", 1.0, 0, 1527033600, 763, 0, 0], [981785458, "Mathematische Grundlagen f\u00fcr Abi und Studium", 0.0, 0, 1427155200, 144, 0, 73], [1359925876, "Theoretische Physik: Quantenmechanik", 0.0, 0, 1392249600, 84, 0, 271], [1679447346, "Cambridge Part II Physics: Thermal and Statistical Physics", 0.0, 0, 1413504000, 35, 0, 30]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

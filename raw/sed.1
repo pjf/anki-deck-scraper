@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Sed
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Sed</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[917129877, "1000 most frequently used English words for Persian speakers", 0.0, 0, 1527120000, 946, 946, 0], [2134488481, "5000 Most Frequently Used Spanish Words(Based on Movie Subs)", 36.0, 4, 1515888000, 5000, 4980, 4999], [959982048, "english 601 most used words by nk ", 0.0, 0, 1525392000, 601, 597, 730], [893324022, "5000 most frequently used French words \u2014 with images", 72.0, 8, 1526169600, 5000, 4994, 16907], [1520423974, "\u2022 4000 most frequently used german words [Neri]", 7.0, 0, 1516838400, 4012, 8562, 0], [960887126, "Currently used vocabulary HSK 5 and HSK 6", 1.0, 0, 1499990400, 351, 0, 0], [445849005, "20,000 Chinese sentences (based on the other decks)", 9.0, 1, 1410307200, 15905, 15905, 0], [1247821833, "500 most used Polish adjectives", 0.0, 0, 1511222400, 444, 0, 0], [593464734, "5000 Most Frequently Used Arabic Words w/ Audio", 13.0, 1, 1483488000, 5293, 5131, 81], [170207949, "Bovert Whittaker\u2019s WogBased Anatomy", 0.0, 0, 1525478400, 597, 0, 258], [1438324573, "Thai consonants -- based on \"Forever Fluent\"", 0.0, 0, 1497312000, 44, 0, 43], [1160309431, "Japanese Minimal Pairs (based from Fluent Forever)", 0.0, 0, 1508371200, 101, 202, 0], [800576106, "Condensed Matter ", 1.0, 0, 1477353600, 11, 0, 1], [1564742924, "Kodansha Kanji Learner's Course with vocab \u2013 revised", 4.0, 1, 1526256000, 2300, 0, 0], [1596230137, "Most used Dutch words with English translation+ audio", 4.0, 0, 1517356800, 1088, 906, 0], [1137638800, "Italian-German Commonly Used Words", 0.0, 0, 1512518400, 704, 0, 0], [586045655, "MCAT: Missed BS Questions", 0.0, 0, 1519689600, 146, 0, 0], [1793264601, "Antibiotics from condensed review", 0.0, 0, 1513036800, 62, 0, 0], [1857415598, "1000 most used Polish verbs", 0.0, 0, 1511222400, 960, 0, 0], [2114845293, "Native Immersion #7- Hospitals, Sickness, and Getting Pissed", 0.0, 0, 1513123200, 30, 30, 0], [1643377287, "JLPT5 Half Arsed Traveller Japanese - Romajidesu", 1.0, 0, 1459555200, 1819, 1223, 100], [530275805, "Embryology for oksana, who has blessed my life", 0.0, 0, 1526688000, 124, 0, 30], [1774632599, "Internal Medicine - based on UWorld, Step up to Medicine", 0.0, 0, 1517356800, 533, 0, 34], [1977132570, "Frello.org - Most used 600 French words", 1.0, 0, 1484092800, 2, 0, 0], [455559937, "Uworld missed questions", 0.0, 0, 1522108800, 892, 0, 6], [2032459239, "Scrambled - A Frequency Dictionary of Russian revised", 1.0, 1, 1519776000, 5374, 10366, 3], [1475952340, "German (text-based)", 0.0, 0, 1491350400, 3855, 0, 1], [468622242, "5000 most common french words (based on Timo's) withoutMedia", 1.0, 0, 1522713600, 4999, 0, 0], [958255962, "German-Spanish vocabulary to be used for book \"Con gusto\" ", 0.0, 0, 1518739200, 1077, 0, 0], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 2.0, 0, 1392940800, 183, 0, 257], [1876028187, "NihongoShark.com: Kanji Reversed", 0.0, 0, 1520294400, 2200, 0, 2200], [1704088933, "Most Used Darija", 1.0, 0, 1497312000, 262, 134, 248], [42291369, "Frequently used", 0.0, 0, 1521936000, 308, 0, 0], [480347234, "High Yield Anatomy Block 4 revised", 0.0, 0, 1509580800, 266, 0, 81], [557767438, "Most Used English Words to Brazilian Portuguese", 0.0, 0, 1500422400, 4349, 0, 0], [1115163064, "Top 1000 most used Spanish Words", 0.0, 0, 1521417600, 920, 0, 0], [1249624144, "Learning How To Learn (Based on a Coursera course )", 1.0, 1, 1422403200, 56, 5, 0], [1658030221, "gerund-infinitive-that_revised-Aug2015", 0.0, 0, 1443312000, 169, 0, 33], [1833450203, "Most used Dutch words with English translation+ audio", 2.0, 0, 1491696000, 915, 753, 17], [2075465891, "The 100 most used past verbs in english", 0.0, 0, 1489104000, 136, 0, 0], [1844907166, "Uworld missed qs", 1.0, 0, 1485216000, 410, 40, 138], [476937617, "Greek letters used in mathematics, science, and engineering", 0.0, 0, 1500854400, 25, 0, 0], [1816170931, "100 irregular verbs more used in english(EnglishxPortuguese)", 1.0, 0, 1491177600, 128, 128, 0], [759973684, "English for Paramedics Eng - PL + reversed", 0.0, 0, 1488585600, 217, 6, 35], [1287158017, "Turkish & English commonly used words and phrases", 0.0, 0, 1499644800, 367, 0, 213], [1529305451, "Embryology based on Objectives, Human Anatomy I", 0.0, 0, 1441152000, 96, 0, 0], [594062916, "Half Arsed Traveller Japanese - Romajidesu grammar", 0.0, 0, 1433721600, 88, 0, 64], [522019049, "Top 1500 most frequent keywords used in the EP: EN-CZ", 0.0, 0, 1458000000, 1499, 0, 0], [1313003293, "Natural Math pattern-based multiplication - Off Diagonal", 0.0, 0, 1345852800, 4, 0, 0], [1371290927, "JLPT N5 Vocabulary Deck\t(FRONT AND REVERSED)", 0.0, 0, 1467676800, 654, 641, 2], [1332710792, "Hebrew from Scratch Alef & Beit (Revised + Audio)", 2.0, 0, 1526515200, 1900, 2108, 34], [1086701101, "Most Used English Words Part 1", 0.0, 0, 1459296000, 200, 200, 0], [637005002, "Most used Phrases in English language (Brazilian answers)  ", 0.0, 0, 1415750400, 615, 619, 0], [293843977, "Top 500 Most Used Words in Esperanto", 0.0, 0, 1435017600, 504, 0, 0], [1122190930, "Periodic Table with Atomic Data Revised", 0.0, 0, 1460505600, 118, 0, 0], [1913226324, "Paul Thomas Commonly Used Drugs", 1.0, 0, 1454630400, 263, 0, 5], [390178449, "Maori based on Whitireia year 1-3", 0.0, 0, 1454198400, 1480, 0, 3], [2017456166, "New TOEIC Frequently-used Vocabulary", 1.0, 0, 1407801600, 896, 2, 7], [2098183903, "Korean hanja to hangul based on Heisig's RTK part II", 0.0, 0, 1406073600, 1699, 0, 0], [3086613896, "504 Absolutly Essential Words Persian Farsi (reversed)", 1.0, 1, 1370044800, 504, 494, 0], [1868462313, "English vocabulary used in technical books", 0.0, 0, 1418083200, 48, 0, 0], [1516834323, "JLPT4 Half Arsed Traveller Japanese ", 1.0, 0, 1450224000, 517, 492, 100], [1092230283, "CAE course based on Ready for CAE", 0.0, 0, 1433548800, 1, 0, 1], [667027175, "Persian Vocab Picture-Based", 0.0, 0, 1479772800, 95, 101, 92], [1908144038, "Top 100 used Spanish Phrases", 3.0, 3, 1429574400, 78, 0, 0], [1466387404, "500 Top Used Words English/Ingl\u00eas - Potugu\u00eas", 3.0, 2, 1345852800, 498, 0, 0], [358994270, "Half Arsed Traveller Japanese", 0.0, 0, 1462320000, 2147, 1445, 100], [783831938, "Comprehensive USMLE Step 1 Review (based on 2013 First Aid)", 26.0, 1, 1400112000, 1713, 0, 121], [936321607, "Common Medical English Terms (basic and reversed)", 0.0, 0, 1471910400, 103, 3, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

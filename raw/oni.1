@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Oni
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Oni</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1437384824, "713 Common Names and Mnemonics", 1.0, 0, 1430352000, 713, 1, 4], [1992620406, "D\u00e9colonisation Inde", 0.0, 0, 1521676800, 3, 1, 3], [1659799294, "Klingonisch Grundwortschatz", 0.0, 0, 1527379200, 666, 0, 0], [1641756649, "Latino coniugazioni 1a e 2a sostantivi + verbi e aggettivi", 0.0, 0, 1519603200, 56, 0, 0], [244453735, "Lukion biologia, hormonit", 0.0, 0, 1516924800, 31, 0, 0], [162219372, "iHE_[Electronics]", 0.0, 0, 1520985600, 12, 12, 11], [1610664623, "Sonia Sadot ", 0.0, 0, 1519862400, 30, 0, 0], [688219118, "GRE with Mnemonics Part I", 0.0, 0, 1524528000, 23, 0, 0], [2071920935, "GRE with Mnemonics Part II", 0.0, 0, 1524528000, 21, 0, 0], [588777614, "dal film alcune espressioni", 0.0, 0, 1522972800, 33, 0, 0], [388171297, "Sokoni Audio Flashcards", 0.0, 0, 1522627200, 16, 16, 0], [2051018276, "Zoologie : poissons (par l'homme macaroni)", 0.0, 0, 1524441600, 84, 0, 84], [2109709108, "Ironie tragique et d\u00e9voilement dans INcendies", 0.0, 0, 1521676800, 0, 0, 0], [728151161, "Therapeutic Drug Monitoring", 0.0, 0, 1525132800, 71, 0, 0], [231177695, "Bible Quiz 13 I Chronicles", 0.0, 0, 1523404800, 91, 0, 0], [348165745, "Phonic of Burmese Consonants", 0.0, 0, 1492992000, 33, 33, 33], [300348242, "ECNi Monia", 0.0, 0, 1488758400, 1341, 0, 400], [1557422377, "chapitre 5 : cin\u00e9matique et dynamique newtonienne", 0.0, 0, 1516579200, 20, 0, 30], [2136321800, "Hist\u00f3ria do Brasil Pr\u00e9-Colonial", 0.0, 0, 1526688000, 38, 0, 0], [1695477702, "GRE with Mnemonics Part I (Week 1 - Created by Me)", 0.0, 0, 1524614400, 20, 0, 0], [826447170, "Zoologie : amphibiens (par l'homme Macaroni)", 0.0, 0, 1523491200, 16, 0, 16], [967536493, "Zoologie : reptiles (par l'homme Macaroni)", 0.0, 0, 1524355200, 46, 0, 46], [1283132351, "Mnemonic Major System (German)", 0.0, 1, 1507161600, 100, 0, 0], [1453431351, "Bible Quiz 52 I Thessalonians", 0.0, 0, 1526601600, 56, 0, 0], [1156008701, "Bible Quiz 53 II Thessalonians", 0.0, 0, 1526601600, 27, 0, 0], [142672861, "Basic Estonian words (with pictures and pronunciation)", 0.0, 0, 1521590400, 28, 28, 28], [1205876494, "GRE with Mnemonics Part III", 0.0, 0, 1524528000, 20, 0, 0], [256890417, "Zoologie : archosauriens-oiseaux (par l'homme Macaroni)", 0.0, 0, 1524355200, 203, 0, 206], [2122658701, "vocaboli ed espressioni inglesi", 0.0, 0, 1515110400, 1296, 0, 0], [1123207380, "Paper Reading about condition monitoring", 0.0, 0, 1524009600, 4, 0, 2], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [1895640724, "Reasoning MCAT Bailly ", 0.0, 0, 1515024000, 41, 0, 3], [661687139, "PERI5001: test2 Chronic perio", 0.0, 0, 1520899200, 43, 0, 2], [262927784, "OCR Biology A- Biotechnology and Cloning", 0.0, 0, 1526256000, 67, 0, 0], [2117853286, "Digital Electronics Study Deck", 0.0, 0, 1484352000, 12, 0, 0], [445739196, "Industrial Electronics", 0.0, 0, 1507507200, 25, 0, 0], [938503062, "Algorithmist's Hebrew alephbet with mnemonics", 0.0, 0, 1506816000, 22, 22, 0], [552307912, "IPA - Pulmonic Consonants (with audio)", 1.0, 0, 1433894400, 42, 40, 0], [675073788, "Fruits and vegetables in Estonian", 0.0, 0, 1522713600, 10, 10, 10], [2073612777, "Bufonidae Only", 0.0, 0, 1520899200, 32, 32, 0], [2051888923, "Ear Training: Dissonant Intervals (harmonic)", 1.0, 0, 1500940800, 63, 63, 0], [546849015, "Industrial electronics N3", 0.0, 0, 1521936000, 86, 0, 0], [1579910450, "Bible Quiz 14 II Chronicles", 0.0, 0, 1523404800, 155, 0, 0], [1506210354, "All in one Kanji - RTK order (new ed: modified mnemonic)", 0.0, 0, 1523491200, 3793, 0, 0], [1374364724, "Chemistry Nomenclature: Binary Ionic and Polyatomic ions", 0.0, 0, 1509926400, 43, 0, 0], [467968552, "Mr. Bartlett's phonics for B and D class", 0.0, 0, 1464912000, 34, 34, 32], [856701627, "Italian Regions [Regioni d'Italia]", 0.0, 0, 1427241600, 20, 0, 25], [81519873, "NSF - Endocrine (L5) - Growth Hormone and Melatonin", 0.0, 0, 1524182400, 67, 0, 28], [744898790, "RLR #84- How to Revolutionize Your English with Podcasts", 3.0, 0, 1496361600, 34, 32, 0], [667231643, "Native Immersion #25- Revolutionize Your Eng with Podcasts", 0.0, 0, 1510704000, 34, 32, 0], [1411715460, "FBS - Immunology: Chronic Inflammation", 0.0, 0, 1506556800, 28, 0, 5], [494639392, "Mnemonic Major System (English)", 0.0, 0, 1507161600, 100, 0, 0], [1072572095, "Electronics formulae", 0.0, 0, 1473984000, 15, 1, 35], [249766512, "Electronics", 0.0, 0, 1507593600, 56, 0, 0], [1341867074, "Newtonian", 0.0, 0, 1357689600, 67, 0, 0], [1838695842, "Dan - Equipment and Monitoring 2017", 0.0, 0, 1501459200, 775, 0, 54], [157597621, "Electronic Principles Student Assessment Questions", 0.0, 0, 1454544000, 420, 0, 1], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [1345646860, "Embryonic Germ Layers", 0.0, 0, 1467590400, 31, 0, 3], [1248679079, "(FI) Hormonit ja muuta liittyv\u00e4\u00e4", 0.0, 0, 1459814400, 39, 0, 1], [1462717480, "Communications Electronics - Frenzel", 0.0, 0, 1455321600, 58, 0, 0], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 2.0, 0, 1345852800, 769, 0, 0], [3215187357, "STANDARD ARABIC - Dar Comboni and much more", 1.0, 1, 1372464000, 4258, 0, 0], [1288746562, "Hiragana Mnemonics (sourced tofugu.com)", 2.0, 0, 1472601600, 46, 3, 47], [550335668, "Estonian", 0.0, 0, 1375228800, 118, 0, 0], [1975673825, "Electronics: Resistor Color Coding", 2.0, 0, 1391904000, 17, 0, 30], [479111924, "L'italiano di Antonio", 4.0, 1, 1452556800, 350, 346, 347], [1138623396, "Estonian Vocabulary and Expressions", 1.0, 0, 1358726400, 1693, 0, 0], [1106402124, "HSC Chemistry Module 3 - Chemical Monitoring and Management", 1.0, 0, 1474070400, 99, 3, 6], [683172726, "Japanese Katakana Mnemonics (version 1.03)", 1.0, 1, 1421107200, 101, 0, 0], [1134367630, "Japanese Hiragana Mnemonics (version 1.02)", 1.0, 0, 1421107200, 102, 0, 1], [1662783036, "Guitar Harmonics - 21 arpeggios with notes and diagrams", 0.0, 0, 1390867200, 22, 0, 22], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 3.0, 0, 1345852800, 641, 0, 0], [1055883172, "Electronic Component Symbols", 1.0, 1, 1471910400, 91, 0, 3], [294568398, "JMC Audio: 306 Applied Electronics Notes", 0.0, 0, 1479081600, 958, 0, 337], [857304128, "Electronics", 1.0, 0, 1381190400, 169, 0, 2], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 1.0, 0, 1345852800, 335, 0, 0], [2032755489, "Major Mnemonic Memory System", 1.0, 0, 1472774400, 152, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Orm
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Orm</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1749467508, "Performance", 0.0, 0, 1527120000, 30, 0, 34], [568289247, "Uniform acoounts for insurance company", 0.0, 0, 1527638400, 4, 0, 0], [220365512, "Geoinformatik 4", 0.0, 0, 1526342400, 6, 0, 0], [88550706, "Latein - Stammformen", 0.0, 0, 1527206400, 44, 0, 0], [63060942, "Differential formulae", 0.0, 0, 1527552000, 24, 0, 48], [1774374023, "Informationsmanagement", 0.0, 0, 1525132800, 35, 0, 0], [184683359, "Chemie Strukturformeln - Vorklinik Universit\u00e4t Szeged", 0.0, 0, 1527292800, 366, 0, 458], [1340112412, "NORMAS DA CORREGEDORIA GERAL DA JUSTI\u00c7A - Prazos", 0.0, 0, 1506816000, 0, 0, 0], [1533767140, "Grundlagen der Elektrotechnik 2 Formeln", 1.0, 0, 1491091200, 26, 0, 25], [2915332392, "[VectorMaps] Countries of the World", 52.0, 1, 1368835200, 194, 0, 388], [1751755257, "24% of the 2015 MCAT Information", 0.0, 0, 1482883200, 101, 0, 28], [1461579132, "106 Common Japanese Verbs and their Different Forms", 2.0, 0, 1421366400, 108, 0, 0], [244453735, "Lukion biologia, hormonit", 0.0, 0, 1516924800, 31, 0, 0], [1226689493, "[VectorMaps] The United States of America", 39.0, 0, 1368662400, 50, 0, 50], [195221235, "Biochem: Intro to Hormones", 0.0, 0, 1512259200, 125, 0, 0], [1748804463, "Akkadian-Caplice-01-Cuneiform", 0.0, 0, 1516492800, 12, 0, 14], [765143173, "Chinese (Mandarin, simplified) Ted Talk in video form, split", 0.0, 0, 1512864000, 303, 303, 0], [1089843027, "Geology 1250 - Alluvial Formations", 0.0, 0, 1521158400, 17, 0, 8], [1201359001, "Geology 1250 - Aeolian Formations", 0.0, 0, 1521158400, 14, 0, 3], [1779620060, "Formules Trigonom\u00e9trie TSTI2D", 0.0, 0, 1514851200, 10, 0, 2], [1085875687, "Geology 1250 - Glacial Formations", 0.0, 0, 1521158400, 53, 0, 16], [237762455, "intro.biochem. formulas", 0.0, 0, 1526774400, 66, 0, 66], [570054012, "Normal labor and birth complications week 11 ", 0.0, 0, 1525132800, 27, 0, 0], [1804521785, "Geoinformatik 7-10", 0.0, 0, 1526342400, 20, 0, 0], [68367269, "formation de cellule du SNC cossu denis", 0.0, 0, 1526947200, 33, 0, 33], [1586514871, "Geoinformatik 5", 0.0, 0, 1526342400, 5, 0, 0], [1879010795, "Geoinformatik 3", 0.0, 0, 1526342400, 5, 0, 0], [1494952491, "STI2D-Formules", 0.0, 0, 1520035200, 13, 0, 2], [1295590915, "Geoinformatik 2", 0.0, 0, 1526342400, 3, 0, 0], [1519890360, "Geoinformatik 0", 0.0, 0, 1526342400, 13, 0, 0], [1905299353, "Formula Phrases Like a Native!\u2122", 0.0, 0, 1432252800, 99, 98, 1], [485281153, "Finnish-English core 900 (informal language)", 0.0, 0, 1524009600, 872, 0, 0], [1864484882, "GCSE Physics Formulae", 0.0, 0, 1513123200, 24, 0, 0], [1728568492, "Fachinformatiker Lernkarten - Netzwerkprotokolle", 0.0, 0, 1520553600, 177, 0, 0], [1021366803, "\u65e5\u672c\u8a9e \u3066\u5f62 Japanese te-form ", 0.0, 0, 1520640000, 0, 0, 0], [373510159, "Information Theory", 0.0, 0, 1526428800, 84, 0, 37], [579309247, "Fachinformatiker Lernkarten - Einfache IT Systeme", 0.0, 0, 1520553600, 68, 0, 0], [1460805658, "WBH: GDI und TGI Grundlagen der Informatik ", 0.0, 0, 1510185600, 53, 0, 24], [297961722, "Tort Reform Chapter 1", 0.0, 0, 1522886400, 36, 0, 0], [2140110463, "Metformin Sketchy Pharm ", 0.0, 0, 1511222400, 33, 0, 0], [1289289661, "1K quest\u00f5es Direito Normas Servidores P\u00fablicos", 0.0, 0, 1505174400, 258, 0, 0], [1390372225, "\u65e5\u672c\u8a9e Deutsch A1 Verben \u308b+\u3066-Form (Niveau A2)", 1.0, 0, 1501200000, 36, 0, 0], [1741780893, "Harvard Russian AAB Lesson 5 verb forms", 0.0, 0, 1525478400, 27, 0, 0], [921063667, "Formules trigo", 0.0, 0, 1505260800, 25, 0, 7], [1635444619, "2.1 Reproductive Hormones: Overview & Polycystic Ovary Syndr", 0.0, 0, 1514851200, 30, 0, 36], [2071295643, "HENRION TS - C4 - aspects macro et micro transformation", 0.0, 0, 1522886400, 14, 0, 19], [923498709, "Formules d\u00e9riv\u00e9es TSTI2D", 0.0, 0, 1514851200, 17, 0, 5], [1680144108, "Calculus2 formulas PBSC", 0.0, 0, 1506470400, 44, 0, 88], [1968450919, "Seguran\u00e7a da informa\u00e7\u00e3o V1", 0.0, 0, 1505779200, 52, 0, 0], [736786115, "Informatik A (Algorithmen und Datenstrukturen)", 1.0, 0, 1495670400, 105, 0, 0], [153510524, "Stammformen Latein", 0.0, 0, 1461110400, 236, 0, 0], [1556470858, "SAT Physics Formulas", 0.0, 0, 1506902400, 57, 0, 57], [1261466733, "Makro101 Formler", 0.0, 0, 1525910400, 70, 0, 0], [1198384374, "The key concepts and formulae of financial risk and return", 0.0, 0, 1489017600, 16, 0, 5], [750217993, "Phille-Latein Stammformen L1-23", 0.0, 0, 1512432000, 200, 0, 0], [1412131864, "Normas da Corregedoria Geral de Justi\u00e7a de S\u00e3o Paulo", 0.0, 0, 1509840000, 49, 0, 0], [36856676, "chemistry 4th form fractional distillation", 0.0, 0, 1525996800, 17, 0, 0], [1420099251, "OCR Biology A - Hormonal communication", 1.0, 0, 1525392000, 54, 0, 3], [1476363674, "English History The reforms of Gracchi", 0.0, 0, 1520294400, 15, 0, 0], [601615265, "English History The reform attemps from Marius to Sulla", 0.0, 0, 1520294400, 11, 0, 0], [1674726102, "Key Formulas BTEC Personal and Business Finance Unit 3", 0.0, 0, 1522800000, 32, 0, 0], [2063062323, "Seminary Book of Mormon -Term 1 Scripture Mastery flashcards", 0.0, 0, 1520812800, 12, 0, 0], [1059074289, "Seminary Book of Mormon -Term 2 Scripture Mastery flashcards", 0.0, 0, 1520812800, 12, 0, 0], [76998193, "Inform\u00e1tica", 0.0, 0, 1508803200, 30, 0, 51], [1201145296, "M13 - Informations- und Wissensmanagement", 0.0, 0, 1522800000, 104, 0, 0], [547410169, "Seguran\u00e7a da Informa\u00e7\u00e3o 01 - Principios B\u00e1sicos.", 0.0, 0, 1511481600, 45, 0, 0], [1436001522, "Principles of information security - key terms", 0.0, 0, 1519084800, 109, 0, 4], [143835265, "Hormones", 0.0, 0, 1525219200, 30, 0, 1], [1924049440, "13 - deformity correction", 0.0, 0, 1526169600, 3, 0, 4], [1617864040, "Abnormal Psychology Chapter 1", 1.0, 0, 1484956800, 80, 0, 0], [703421381, "Questions regarding Technische Informatik", 0.0, 0, 1485561600, 71, 9, 90], [1851429633, "Abnormal Psych Final", 0.0, 0, 1524528000, 153, 0, 88], [455083929, "Abnormal Psych Final Children", 0.0, 0, 1524528000, 43, 0, 0], [144991301, "Hormones", 0.0, 0, 1526342400, 34, 0, 0], [611942993, "Stammformen Griechisch Herr Kampert", 0.0, 0, 1481760000, 41, 0, 0], [737218001, "INFORM\u00c1TICA - GPMR", 0.0, 0, 1498953600, 321, 0, 421], [240445060, "Fachinformatiker Lernkarten - WISO", 0.0, 0, 1520553600, 55, 0, 0], [1695711358, "Fachinformatiker systemintegration GA1 Fragen", 0.0, 0, 1524355200, 103, 0, 0], [1884072740, "Psycho 3 - Personnalit\u00e9 normale et pathologique", 0.0, 0, 1521158400, 4, 0, 0], [1429416700, "Qur'anic Vocabulary: all word forms, translations & examples", 28.0, 1, 1496620800, 15634, 0, 0], [800311006, "Endocrine System - Hormones", 0.0, 0, 1476835200, 21, 0, 0], [1176536473, "PMI PMP Tes formulas", 0.0, 0, 1497916800, 28, 0, 0], [1361428844, "FCC - Seguran\u00e7a da Informa\u00e7\u00e3o", 1.0, 0, 1488499200, 58, 0, 2], [1234661148, "No\u00e7\u00f5es de Inform\u00e1tica", 2.0, 0, 1458345600, 214, 5, 41], [535094950, "Cranial Nerves and Testing/Normal Results", 0.0, 0, 1484784000, 12, 0, 1], [1374733720, "surgery form 123", 0.0, 0, 1525132800, 146, 0, 3], [855995966, "TS - Aspect micro et macro d'une transformation chimique", 0.0, 0, 1485475200, 14, 1, 20], [444235847, "BLOCK 5 HISTO PIMP SESH - ALL FORMATIVE EXAMS", 0.0, 0, 1522627200, 42, 0, 50], [342736623, "BLOCK 5 IMAGING PIMP SESH - ALL FORMATIVE EXAMS", 0.0, 0, 1522627200, 44, 0, 44], [1260868085, "Comprehensive Danish (English - Formatted)", 0.0, 0, 1451692800, 139, 3, 4], [1460254598, "Electrical Engineering formulie", 1.0, 0, 1487289600, 613, 0, 1410], [2026608329, "Fachinformatiker Lernkarten", 1.0, 0, 1520553600, 440, 0, 1], [822187914, "Informatik Bachelor Betriebssysteme und Rechnernetze", 0.0, 0, 1500422400, 407, 0, 98], [81519873, "NSF - Endocrine (L5) - Growth Hormone and Melatonin", 0.0, 0, 1524182400, 67, 0, 28], [403726681, "MCAT Hormones", 0.0, 0, 1522368000, 29, 0, 0], [2157658310, "[VectorMaps] Special wards of Tokyo, Japan", 7.0, 0, 1368662400, 23, 0, 46], [2080271721, "[VectorMaps] Regions and prefectures of Japan", 17.0, 2, 1368662400, 54, 0, 101], [707599154, "Formules primitives TSTI2D", 0.0, 0, 1514851200, 16, 0, 3], [795656998, "Chemistry Formulae and Equasions", 0.0, 0, 1391731200, 81, 0, 81], [1072572095, "Electronics formulae", 0.0, 0, 1473984000, 15, 1, 35], [1707818090, "Gregg Shorthand Anniversary Brief Forms", 1.0, 0, 1526860800, 320, 0, 0], [1105814570, "Japanese verbs ~te form", 1.0, 0, 1474588800, 38, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [599668177, "Japanese verbs for beginners with all useful forms", 0.0, 0, 1474243200, 49, 0, 0], [2211126117, "introduction to bioinformatics an der boku", 0.0, 0, 1380758400, 79, 0, 13], [1169230958, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 0, 1422403200, 22, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [1146308947, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 0, 1422403200, 22, 0, 0], [1248679079, "(FI) Hormonit ja muuta liittyv\u00e4\u00e4", 0.0, 0, 1459814400, 39, 0, 1], [650996056, "8- Veins and Hormones", 0.0, 0, 1481155200, 64, 0, 119], [830113883, "Gregg Shorthand Simplified Brief Forms", 0.0, 0, 1449360000, 181, 0, 0], [1226246037, "Basic Integration Formulas", 0.0, 0, 1456704000, 18, 17, 37], [739118182, "Trig formulas for Calc 2", 0.0, 0, 1457395200, 29, 0, 58], [144985236, "Technische Informatik am KIT", 0.0, 0, 1364601600, 78, 0, 4], [205151831, "Hormone", 0.0, 0, 1456272000, 48, 0, 0], [584427261, "Chord Formulas - Fretboard Anatomy", 1.0, 0, 1416182400, 22, 0, 0], [901317790, "Calculus: trig formulas", 0.0, 0, 1464998400, 21, 0, 38], [1926932313, "Algebra formulas", 0.0, 0, 1475798400, 3, 0, 2], [1926481003, "PhpStorm Keyboard Shortcuts", 1.0, 0, 1466208000, 82, 6, 0], [1271917279, "Grundformen deutscher Verben DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 112, 0, 0], [1831020488, "GuitarOS Chord Formulas - FretboardAnatomy.com ", 0.0, 1, 1422403200, 22, 0, 0], [333716190, "PSY 280 (Abnormal Psychology MSU)", 0.0, 0, 1449705600, 199, 0, 0], [1611072343, "Physik Formeln deutsch MLK - physics fomula (in german)", 0.0, 0, 1389744000, 23, 0, 80], [2087673883, "Main Probability Distribution Formulas", 1.0, 0, 1458345600, 10, 0, 10], [2011119902, "Python for Informatics: Exploring Information", 0.0, 0, 1404172800, 57, 0, 3], [1336776677, "Z-Transforms", 0.0, 0, 1458000000, 24, 3, 73], [629786883, "Calculus 2 Identities and formulas for chapter 8", 0.0, 0, 1457481600, 38, 0, 0], [822880123, "Electrical Formulas", 0.0, 0, 1457395200, 25, 0, 24], [266964598, "Einf\u00fchrung in die Wirtschaftsinformatik", 0.0, 1, 1465171200, 145, 0, 0], [1489610345, "Formation of the Earth - Intro to Geology at Hunter College", 0.0, 0, 1475020800, 29, 0, 0], [2111876096, "Powers of two form 2^0 to 2^16", 0.0, 0, 1477267200, 17, 0, 0], [1061963553, "Westminster Shorter Catechism w/ clean Formatting and Fields", 3.0, 0, 1407888000, 107, 0, 0], [795199608, "HSK all 5,000 words (better formating)", 0.0, 0, 1448150400, 4997, 0, 0], [1741503681, "ACT Geometry Facts & Formulas", 0.0, 0, 1432512000, 33, 0, 11], [3278857411, "Theoretische Informatik (Hammer, Uni Bielefeld)", 0.0, 0, 1359936000, 99, 0, 0], [1322013973, "A1. Lesson 2. Podstawowe informacje o Tobie", 0.0, 0, 1422403200, 23, 24, 1], [2125224563, "Clinical and Abnormal Psychology", 0.0, 0, 1460332800, 156, 3, 3], [724804547, "Chemie Strukturformeln FFM Chemie f\u00fcr Mediziner", 0.0, 0, 1454025600, 190, 0, 191], [121639039, "Arabic letters(the different forms+audio)", 0.0, 0, 1387670400, 112, 28, 0], [713042814, "AB Calculus Formula Test", 0.0, 0, 1460246400, 73, 17, 123], [1743538575, "AP Calculus BC Formula List", 4.0, 0, 1398643200, 70, 0, 111], [1877416647, "information technology", 0.0, 0, 1457740800, 203, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

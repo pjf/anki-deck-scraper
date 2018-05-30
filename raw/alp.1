@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Alp
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Alp</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1170385191, "Uyghur Alphabet", 0.0, 0, 1523491200, 32, 0, 32], [1731826998, "Tamil Alphabet With Sounds", 0.0, 0, 1511395200, 31, 31, 0], [1786575646, "Danish Alphabet", 0.0, 0, 1507248000, 0, 0, 0], [915791690, "arabic alphabet", 0.0, 0, 1520812800, 28, 0, 0], [1206843361, "English Alphabet by R.M.R ", 0.0, 0, 1511395200, 26, 52, 52], [186821855, "Thai Alphabet - all consonants and vowels", 0.0, 0, 1516838400, 95, 103, 44], [1594377773, "Thai Alphabet", 0.0, 0, 1516579200, 44, 44, 88], [2126970155, "alphus5", 0.0, 0, 1521590400, 39, 0, 0], [1294905393, "Ukrainian Alphabet", 0.0, 0, 1516147200, 33, 2, 1], [693970164, "Translation of 10000 words from Spanish to English (Alpha)", 0.0, 0, 1526083200, 9980, 0, 0], [449484737, "DANA5002: Scalp and Muscles of Facial Expression", 0.0, 0, 1516579200, 142, 0, 17], [1420931293, "Hebrew Alphabet with vowels", 2.0, 0, 1357689600, 44, 46, 49], [1391952699, "Deutsch: Phonetic Alphabet of Germany", 2.0, 0, 1431043200, 32, 40, 0], [3396002907, "Russian Alphabet with Handwritten and Print fonts and sounds", 16.0, 3, 1378252800, 33, 33, 33], [1057413479, "Latein Cursus A Lektion 13 Vokabeln + Personalpronomen", 1.0, 0, 1507507200, 42, 0, 0], [633024332, "Greek alphabet with modern pronunciation", 0.0, 0, 1526342400, 24, 24, 48], [325289877, "Alphf13 Sixi\u00e8me Chapitre 12 Sym\u00e9trie axiale", 0.0, 0, 1520467200, 6, 0, 0], [159535920, "Farsi (Persian) Alphabet with large text", 1.0, 0, 1484179200, 32, 39, 53], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 1.0, 0, 1449964800, 280, 0, 0], [463067145, "English alphabet with pictures and pronunciation", 0.0, 0, 1526256000, 32, 64, 32], [146298993, "Armenian Alphabet (with audio)", 0.0, 0, 1516579200, 40, 40, 0], [1398723539, "Thai for Beginners - Alphabet (Benjawan Poomsan Becker)", 0.0, 0, 1513036800, 86, 84, 0], [673050262, "Albanian Alphabet ", 0.0, 0, 1517961600, 36, 40, 36], [757773906, "Mnemonically coded Thai alphabet v2", 0.0, 0, 1400457600, 85, 0, 0], [1743234246, "Shavian (Shaw) Alphabet", 0.0, 0, 1526860800, 48, 0, 48], [1672406615, "Phonetic Alphabet", 0.0, 0, 1525219200, 26, 0, 0], [2135374336, "Basic Korean Alphabet", 0.0, 0, 1500940800, 15, 0, 0], [373883699, "Runikblue Alphabet Practice", 0.0, 0, 1522972800, 21, 0, 3], [1959222771, "Stimmen alpiner Brutv\u00f6gel", 0.0, 0, 1525651200, 43, 43, 42], [766972333, "NATO phonetic alphabet", 0.0, 0, 1440460800, 26, 0, 0], [728483843, "Thai Alphabet", 0.0, 0, 1419897600, 72, 72, 0], [1471705736, "Greek Alphabet for Classics 2800 UWO", 0.0, 0, 1483488000, 48, 0, 0], [1846494394, "Polish Alphabet", 0.0, 0, 1495411200, 32, 0, 0], [1556151339, "Alphf13 Sixi\u00e8me Chapitre 13 Triangles ", 1.0, 0, 1526428800, 21, 0, 0], [1866419357, "The Phonetic Alphabet", 0.0, 0, 1484006400, 38, 0, 0], [1591156021, "English Alphabet & Numbers to 1,000,000", 6.0, 0, 1507248000, 109, 176, 140], [894772915, "Armenian Alphabet", 1.0, 0, 1497830400, 77, 0, 0], [223940926, "Kannada Alphabet", 0.0, 1, 1478044800, 3, 0, 0], [1133686153, "Russian alphabet", 0.0, 0, 1493769600, 33, 0, 0], [481136043, "Yiddish alphabet", 0.0, 0, 1506643200, 41, 0, 0], [502842769, "German Gender Rules and Tips I (Valparaiso University)", 1.0, 0, 1345852800, 33, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 1.0, 0, 1363392000, 29, 0, 29], [327777705, "Russian Alphabet and Reading Basics ", 0.0, 0, 1496275200, 790, 713, 0], [1748074213, "Greek Alphabet Using HTML", 0.0, 0, 1473465600, 48, 0, 0], [1757492046, "IPA (International Phonetic Alphabet) of English", 1.0, 1, 1361577600, 34, 151, 0], [3153208076, "Russian alphabet part deux", 0.0, 0, 1345852800, 33, 33, 0], [2073252978, "Thai Alphabet", 0.0, 0, 1504051200, 44, 44, 0], [2362460778, "German Gender Rules and Tips II (Valparaiso University) ", 1.0, 0, 1345852800, 56, 0, 0], [1013806846, "Russian alphabet by Alexandr Adlov", 0.0, 0, 1502755200, 31, 31, 0], [655306343, "georgian alphabet with pronunciation (audio)", 0.0, 0, 1500854400, 36, 70, 34], [2134833623, "English alphabet - CERT", 0.0, 0, 1476489600, 26, 26, 0], [1750037289, "German Gender Rules and Tips Sample Words I (Valparaiso U)", 0.0, 0, 1405123200, 42, 0, 0], [1639957723, "NATO phonetic alphabet with audio", 2.0, 0, 1500595200, 26, 26, 26], [14855591, "Algorithmist's Malayalam abugida (\"alphabet\") ", 2.0, 0, 1447804800, 70, 52, 0], [599749778, "thai alphabet audio", 0.0, 0, 1463356800, 44, 68, 182], [1751789256, "Russian Phonetic Alphabet for HAM", 0.0, 0, 1396828800, 35, 35, 0], [1815594017, "Myanmar Alphabets (33 Consonants)", 0.0, 0, 1413417600, 33, 33, 33], [1813496625, "Urdu Alphabet", 0.0, 0, 1394064000, 40, 0, 3], [1380734913, "Tibetan Alphabet - Basic", 0.0, 1, 1434240000, 44, 0, 0], [3740461780, "Learn Korean alphabet (in Russian)", 0.0, 1, 1357603200, 39, 0, 0], [4678556, "Esperanto Alphabet", 0.0, 0, 1405209600, 28, 27, 0], [908156980, "Tibetan Alphabet", 0.0, 1, 1408406400, 19, 19, 0], [319607100, "German Verbal Idioms (Valparaiso University)", 3.0, 0, 1345852800, 120, 0, 0], [1709622773, "Arabic Alphabet by Muna Osman ", 20.0, 3, 1345852800, 28, 112, 28], [1349214960, "Japanese Alphabet - B\u1ea3ng ch\u1eef c\u00e1i", 0.0, 0, 1431734400, 208, 230, 1], [678926238, "La Madrassah - Livre niv. 1 Alphabet", 0.0, 0, 1454284800, 28, 28, 0], [1561449410, "Spr\u00e5k_misc::Iranian Farsi (Persian) Alphabet", 1.0, 0, 1391644800, 32, 0, 0], [3537574602, "English Alphabet", 4.0, 0, 1381190400, 52, 26, 0], [173302831, "Hebrew Alefbet (Alphabet) Hebrew Letters Front", 0.0, 0, 1476316800, 44, 0, 0], [806709884, "Spanish Alphabet with Audio", 1.0, 0, 1457481600, 27, 37, 2], [590919050, "Classical Armenian Alphabet", 1.0, 0, 1345852800, 36, 35, 0], [1945279301, "International Phonetic Alphabet (IPA) Vowels + Consonants", 0.0, 0, 1423094400, 44, 3, 1], [347792404, "Thai_Alphabet", 2.0, 0, 1424908800, 44, 44, 44], [1005842297, "Hindi Alphabet and More", 1.0, 0, 1420502400, 42, 0, 0], [560285445, "Gregg Shorthand Alphabet", 1.0, 0, 1469059200, 38, 0, 49], [1416656412, "Ancient Greek Alphabet", 0.0, 0, 1419120000, 30, 1, 1], [1101926137, "Alphabets of the Local Languages of India", 0.0, 1, 1456185600, 836, 24, 138], [306496301, "Georgian Alphabet (Modern)", 0.0, 0, 1434067200, 36, 0, 0], [1202100329, "Persian alphabet", 0.0, 0, 1504915200, 32, 22, 0], [2798464655, "Deutsches Alphabet/Buchstabieralphabet - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 41, 0, 0], [2530965591, "Hangul (Korean Alphabet)", 32.0, 2, 1361577600, 40, 40, 0], [2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 1, 1373328000, 32, 65, 0], [1853742640, "Caz's French Alphabet / Alphabet francais (w/ audio)", 0.0, 0, 1478044800, 35, 40, 9], [452110246, "German Gender Rules and Tips III (Valparaiso University)", 2.0, 0, 1345852800, 90, 0, 0], [677222421, "Arabic Alphabet with IPA", 0.0, 0, 1419206400, 121, 30, 1], [1078219236, "Experimentalphysik I ", 1.0, 0, 1479686400, 109, 0, 74], [804708859, "Russian Alphabet v2", 2.0, 0, 1417046400, 33, 33, 1], [976506290, "NATO phonetic alphabet", 7.0, 0, 1433376000, 26, 0, 0], [450594567, "The Greek Alphabet", 15.0, 2, 1480982400, 48, 5, 55]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

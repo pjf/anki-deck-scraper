@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Sef
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Sef</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[542937390, "15000 Useful phrases English & German", 0.0, 1, 1439596800, 15525, 8, 0], [2048834600, "10 Useful Spanish Verbs to Boost Your Vocabulary", 0.0, 0, 1501027200, 10, 0, 10], [2099999939, "56 of the Most Useful Phrasal Verbs in English JRAF", 0.0, 0, 1522195200, 48, 0, 0], [1525759545, "Omniglot Useful Irish phrases", 1.0, 0, 1480723200, 107, 114, 0], [1881020705, "Danish Useful Words", 0.0, 0, 1400198400, 28, 0, 0], [1816465295, "[K-E] TTMIK 54 Fun & Useful Korean Phrases", 0.0, 0, 1526342400, 54, 0, 0], [247828814, "Useful sentences in Persian", 1.0, 0, 1416182400, 82, 0, 0], [569066907, "Useful sentences in Persian II", 0.0, 0, 1416268800, 69, 0, 0], [797298652, "1700 useful word for TOEFL", 0.0, 0, 1504224000, 1733, 4216, 2570], [357515149, "English Useful Random Words - Portuguese", 0.0, 0, 1499212800, 39, 0, 0], [1621122732, "Spanish useful words and phrases", 0.0, 0, 1406937600, 130, 0, 0], [599668177, "Japanese verbs for beginners with all useful forms", 0.0, 0, 1474243200, 49, 0, 0], [1737606876, "Useful phrases (108) EN-RU", 1.0, 0, 1473638400, 107, 0, 35], [721309006, "Japanese Adverbs (50 cards from Namiko Abe's Useful Japanese", 0.0, 0, 1414800000, 51, 5, 0], [87357587, "Useful sentences III", 2.0, 0, 1430438400, 54, 0, 0], [1610029180, "Obscure but useful english vocab, logical fallacies and CBT", 0.0, 0, 1473033600, 544, 0, 74], [1761061888, "Esperanto-English - Usefuk Phrases - Lernu", 0.0, 0, 1375056000, 412, 0, 0], [226925925, "Useful Words ", 0.0, 0, 1472601600, 305, 0, 24], [1119978186, "IELTS Useful Words and Phrases", 0.0, 0, 1468800000, 232, 35, 51], [405705484, "Japanees Verbs (129 cards from Namako Abe's Useful Japanese ", 0.0, 0, 1414800000, 129, 5, 0], [781183934, "Toefl very useful word with image for persian farsi", 2.0, 3, 1477958400, 713, 664, 595]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

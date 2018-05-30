@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Req
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Req</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1126003944, "German-English top 1000 words - usage frequency (with audio)", 11.0, 2, 1362096000, 1154, 1131, 0], [917129877, "1000 most frequently used English words for Persian speakers", 0.0, 0, 1527120000, 946, 946, 0], [2134488481, "5000 Most Frequently Used Spanish Words(Based on Movie Subs)", 36.0, 4, 1515888000, 5000, 4980, 4999], [1409355905, "12,500 Most Frequent Words english - russin", 15.0, 0, 1460332800, 21708, 11934, 2], [2004030225, "Requirements Engineering", 0.0, 0, 1525478400, 161, 0, 53], [893324022, "5000 most frequently used French words \u2014 with images", 72.0, 8, 1526169600, 5000, 4994, 16907], [645917822, "Frequency Deck Kken", 0.0, 0, 1485820800, 1902, 1898, 1975], [514255425, "Turkish - 2,000 Most Frequent Words", 0.0, 0, 1526688000, 2165, 0, 0], [488514297, "Frequency", 0.0, 0, 1525219200, 138, 0, 0], [1520423974, "\u2022 4000 most frequently used german words [Neri]", 7.0, 0, 1516838400, 4012, 8562, 0], [528880752, "Syns 200-800 in Frequency Order", 0.0, 0, 1524960000, 601, 0, 0], [982872339, "Indonesian Most Frequent Words - Top 2,000", 0.0, 0, 1515542400, 2000, 0, 0], [593464734, "5000 Most Frequently Used Arabic Words w/ Audio", 13.0, 1, 1483488000, 5293, 5131, 81], [1578245371, "Malay-Indonesian frequency vocab", 0.0, 0, 1518566400, 2000, 0, 0], [1068041855, "Collins Word Frequency 1 stars", 2.0, 0, 1492387200, 7715, 34, 49], [558148003, "Fluent Forever 625 High Frequency Words en-ipa-es", 0.0, 1, 1487462400, 208, 1, 211], [1099886411, "Afrikaans High Frequency Words 1 (Baldy Baunch)", 1.0, 0, 1424217600, 20, 20, 0], [1647469208, "Japanese Kanji Frequency Ordered", 1.0, 0, 1420329600, 2198, 0, 1], [1778762466, "Kings Hebrew Frequency", 0.0, 0, 1515110400, 1880, 0, 0], [362213365, "Hindi Top 1900 Frequency List (Comprehension)", 0.0, 0, 1508112000, 1898, 1441, 0], [800597601, "Requirements Engineering Flashcards", 0.0, 0, 1516060800, 61, 1, 9], [1580348800, "Most frequent 100 radicals in Cantonese", 0.0, 0, 1489881600, 100, 57, 81], [1546229992, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 4-\u044f", 0.0, 0, 1523232000, 1000, 999, 0], [2032459239, "Scrambled - A Frequency Dictionary of Russian revised", 1.0, 1, 1519776000, 5374, 10366, 3], [1332711174, "Chinese HSK 5000 Frequency Order", 1.0, 1, 1500163200, 4991, 0, 0], [70283838, "A Frequency Dictionary of Russian", 2.0, 1, 1505001600, 7688, 0, 0], [406418331, "Barron's 800 High-Frequency GRE Word List + voice", 0.0, 0, 1524960000, 811, 801, 0], [2567625761, "2,098 frequent Esperanto words (English)", 0.0, 0, 1345852800, 1418, 0, 0], [1006070354, "Japanese frequency 3000", 0.0, 0, 1490054400, 5998, 0, 0], [492070811, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 2-\u044f", 0.0, 0, 1523232000, 1000, 999, 0], [3784598, "Vietnamese Frequency Words", 0.0, 0, 1494115200, 833, 0, 0], [653061995, "Deutsch: 4000 German Words by Frequency", 68.0, 5, 1432425600, 4214, 4222, 0], [2110961546, "Perguntas frequentes em entrevistas", 0.0, 0, 1520380800, 26, 0, 0], [709592109, "Italian Frequency (1-100)", 0.0, 0, 1498003200, 99, 0, 0], [42291369, "Frequently used", 0.0, 0, 1521936000, 308, 0, 0], [964984056, "Traditional Chinese - 600 most frequent characters", 0.0, 0, 1345852800, 728, 0, 0], [158562446, "Syriac OT Peshitta by Word Frequency", 0.0, 0, 1393459200, 1665, 0, 1661], [522817356, "Esperanto to English ordered by Wikipedia Usage Frequency v1", 3.0, 0, 1478044800, 61907, 0, 0], [1393222349, "\u21921000 german verbs sorted by frequency", 0.0, 0, 1492473600, 1000, 54, 1076], [1719355618, "1000 frequentiewoorden frans MB", 0.0, 0, 1507680000, 1012, 0, 0], [1101604155, "1.000+ most frequent Hebrew Words", 1.0, 0, 1438214400, 716, 0, 1], [1880775452, "Turkish Frequency List", 1.0, 0, 1454025600, 500, 0, 0], [908288272, "5000 Spanish Most Frequent Words", 0.0, 0, 1526688000, 9985, 0, 0], [1101204068, "80 Percent Greek Vocabulary by Frequency", 3.0, 0, 1345852800, 1099, 0, 0], [838015428, "CCNP - Tareq Musmar CCIE SEC #30689", 0.0, 0, 1383350400, 133, 0, 0], [497560822, "300 Most Frequent Cantonese Characters", 0.0, 0, 1489881600, 300, 57, 81], [2099247622, "Anki - High Frequency Spanish Words", 0.0, 0, 1490572800, 292, 0, 0], [1651511513, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 3-\u044f", 0.0, 0, 1523232000, 1000, 1004, 0], [133895080, "Khan Academy: AlgebraI (requires Latex)", 0.0, 0, 1500768000, 159, 0, 329], [522019049, "Top 1500 most frequent keywords used in the EP: EN-CZ", 0.0, 0, 1458000000, 1499, 0, 0], [3635715246, "Lojban rafsi (frequency order)", 0.0, 0, 1345852800, 2741, 0, 0], [719453886, "Spanish frequency list 121-150", 0.0, 0, 1413763200, 30, 0, 0], [784209925, "Spanish frequent  400 words ", 1.0, 0, 1448064000, 173, 0, 168], [1233554734, "Lojban big_list (sorted by frequency)", 0.0, 0, 1365379200, 1986, 0, 0], [425187372, "Frequente onregelmatige werkwoorden", 0.0, 0, 1454025600, 50, 0, 0], [229067761, "American English, Word Frequency - 1,500 to 2,000", 1.0, 0, 1459468800, 34, 35, 38], [3468129663, "Korean Frequency List (Advanced)", 0.0, 0, 1383436800, 2643, 0, 0], [1612493375, "Korean Frequency List (Intermediate)", 0.0, 0, 1363046400, 1894, 0, 0], [1398663823, "Serbian most frequent words ", 1.0, 0, 1424044800, 293, 5, 0], [1576084290, "Ukrainian top 2000 frequency words uk-eng / eng-uk", 1.0, 0, 1433721600, 2000, 6, 4], [2017456166, "New TOEIC Frequently-used Vocabulary", 1.0, 0, 1407801600, 896, 2, 7], [1046557073, "Thai vocabulary frequency 4000", 0.0, 0, 1418947200, 4000, 3996, 0], [732544763, "Duitse voorzetsels op frequentie (SETL)", 1.0, 0, 1438992000, 132, 1, 1], [3304607063, "Most frequent German words", 0.0, 1, 1360540800, 6, 0, 0], [74558346, "529 PALAVRAS FREQUENTES (RADICAIS) ESPERANTO X PORTUGU\u00caS", 0.0, 0, 1471478400, 529, 8, 0], [575877943, "HSK 4 high-frequency vocabularies", 0.0, 0, 1455408000, 85, 0, 0], [2395172077, "Greek New Testament Vocabulary - Descending by Frequency", 1.0, 0, 1363392000, 5393, 0, 0], [1812032714, "Deutch:4000 German words by frequency with Google example t", 0.0, 0, 1438041600, 4214, 4222, 0], [1450352132, "Highest Frequency Chengyu with Cloze Sentences (Traditional)", 1.0, 0, 1394236800, 240, 0, 0], [1782424087, "Barrons 333 - High Frequency Words", 0.0, 0, 1465171200, 333, 0, 0], [1334773426, "Barron's 800 High-Frequency GRE Word List", 0.0, 0, 1465171200, 817, 0, 0], [799011251, "Kruzo Russian-English most frequent words x1000 \u0447\u0430\u0441\u0442\u044c 1-\u044f", 0.0, 0, 1523232000, 1000, 1003, 0], [833665190, "Algorithmist's Latvian words by frequency :1-100 with audio", 0.0, 0, 1482537600, 100, 100, 0], [337303121, "Collins Word Frequency 2 stars", 1.0, 0, 1479600000, 3045, 0, 12], [376016963, "Fouchon's Spanish Frequency Deck", 0.0, 0, 1451692800, 1279, 0, 0], [1780892331, "English - Russian most frequency words part 2 (933 words)", 0.0, 0, 1455667200, 933, 894, 0], [711291878, "6,000 Most Frequent Characters (Traditional)", 7.0, 0, 1481068800, 6000, 39, 53], [259636754, "300 High Frequency Sight Words - 65% of Written English", 0.0, 0, 1389657600, 300, 296, 0], [1914704575, "3000 ENGLISH WORDS MORE SPOKEN(www.wordfrequency.info)", 0.0, 0, 1464220800, 3000, 3032, 1], [293367340, "A Frequency Dictionary of French (Complete)", 3.0, 0, 1449100800, 5000, 0, 0], [207626872, "English - Russian most frequency words part 1 (555 words)", 1.0, 0, 1455667200, 555, 547, 0], [1466626645, "English - Polish 2000 top frequent words (ISEL)", 7.0, 2, 1345852800, 2000, 0, 0], [1975966926, "The 6500 Most Frequent Irish Words with Audio Pronunciations", 2.0, 2, 1466294400, 6453, 0, 0], [994693053, "Deutsch: 4000 German Words by Frequency (no audio)", 6.0, 0, 1432425600, 4214, 8, 0], [702979067, "Jp Yomi - Words by Yomi Frequency w/ Kanji Info, Stats", 3.0, 0, 1459900800, 25349, 0, 0], [386349101, "Arabic Frequency List 1-5000", 5.0, 1, 1390608000, 5000, 0, 0], [742978041, "Arabic Frequency List (Top 5,000 words in order)", 23.0, 3, 1459900800, 5293, 0, 0], [522422521, "English deck for the Russians. 5000 the most frequent words.", 12.0, 0, 1387497600, 4321, 3774, 0], [215126033, "Kruzo 2500 most frequent russian-english \u0440\u0443\u0441\u0441\u043a\u0438\u0439-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439", 6.0, 0, 1410825600, 2497, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

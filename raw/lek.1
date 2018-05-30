@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Lek
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Lek</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[942480782, "Molekularbiologie und Biochemie der Gene Altfragen Graz", 0.0, 0, 1485388800, 26, 0, 3], [1123386806, "Chemie Elektrochemie 12", 0.0, 0, 1518825600, 7, 0, 5], [1533767140, "Grundlagen der Elektrotechnik 2 Formeln", 1.0, 0, 1491091200, 26, 0, 25], [1251540030, "Altgriechisch-Deutsch Kantharos Vokabeln Lektionen 1-40", 4.0, 0, 1461628800, 1058, 14, 86], [1198641852, "Norsk for deg: Leksjon 01 (Hei, hei!)", 0.0, 0, 1485907200, 104, 0, 0], [1884373082, "AlKitaab fii Taallum al Arabia Lektionen 1-5", 1.0, 0, 1494806400, 190, 0, 0], [332830064, "Elekrochemische Energiespeicherung in Batterien", 0.0, 0, 1522886400, 32, 0, 34], [1186906072, "Menschen A2.1 lektion 1-6", 0.0, 0, 1491696000, 251, 3, 7], [990967424, "Norsk for deg: Leksjon 04 (God tur!)", 0.0, 0, 1485907200, 161, 0, 0], [777055830, "Norsk for deg: Leksjon 08 (Hva er klokka?)", 0.0, 0, 1485907200, 202, 0, 0], [1057413479, "Latein Cursus A Lektion 13 Vokabeln + Personalpronomen", 1.0, 0, 1507507200, 42, 0, 0], [1562489055, "Minna no Nihongo Buch Vokabeln Lektion 43-50 (Intermediate)", 0.0, 0, 1519776000, 208, 0, 0], [1126186000, "Latein Campus Lektion 11-20", 0.0, 0, 1519776000, 290, 0, 0], [423775979, "Latein Campus lektion 3", 1.0, 0, 1507420800, 50, 0, 0], [23944524, "Minna no Nihongo Buch Vokabeln Lektion 15-42 (Intermediate)", 0.0, 0, 1519776000, 650, 0, 0], [1060171623, "Latein Campus lektion 5", 1.0, 0, 1507420800, 38, 0, 0], [1783661466, "Norsk for deg: Leksjon 03 (Takk for maten!)", 0.0, 0, 1485907200, 161, 0, 0], [1388863624, "Latein Campus lektion 2", 1.0, 1, 1507420800, 43, 0, 0], [1682864027, "Vietnamesisch Lektion 1 ", 0.0, 0, 1526256000, 61, 0, 0], [1070241313, "Kairos neu 1 Vokabeln Deutsch/Altgriechisch Lektion 16-20", 0.0, 0, 1480636800, 85, 0, 0], [572721131, "Norsk for deg: Leksjon 02 (Hvem er dette?)", 0.0, 0, 1485907200, 67, 0, 0], [931937950, "AlKitaab fii Taallum al Arabia Lektionen 6-9", 0.0, 0, 1495152000, 100, 0, 0], [318242269, "Minna no Nihongo Buch Vokabeln Lektion 1-14 (Anf\u00e4nger)", 0.0, 0, 1519689600, 30, 0, 0], [857860490, "Koko k1 Latinum B - Lektionen 1 - 21", 0.0, 0, 1476662400, 785, 0, 0], [1775426550, "Lektorat NIEMIECKI B1 2018", 0.0, 0, 1519689600, 53, 0, 0], [1867864721, "Kantharosvokabeln-Lektionen_40-60", 0.0, 0, 1506556800, 420, 0, 0], [1008067202, "RJ - Lekce 0 slov\u00ed\u010dka", 0.0, 0, 1520985600, 17, 0, 0], [1609465290, "Yiddish Kartlekh", 0.0, 0, 1413936000, 596, 0, 49], [1288865803, "Kairos neu 1 Vokabeln Deutsch/Altgriechisch Lektion 1 bis 5", 0.0, 0, 1479945600, 60, 0, 0], [1372516784, "Lektorat - angielski - czasowniki nieregularne EN-EN (UAM)", 1.0, 1, 1345852800, 176, 0, 0], [2031083333, "Grundkurs der modernen japanischen Sprache Lektionsvokabeln", 0.0, 0, 1445558400, 1602, 0, 0], [1517415045, "Norsk for deg: Leksjon 06 (Hytte til leie)", 0.0, 0, 1485907200, 207, 0, 0], [678605184, "Norsk for deg: Leksjon 05 (Alt i orden!)", 0.0, 0, 1485907200, 113, 0, 0], [483978387, "Norsk for deg: Leksjon 07 (I butikken)", 0.0, 0, 1485907200, 151, 0, 0], [1829066962, "Latein Campus lektion 4", 1.0, 0, 1507420800, 47, 0, 0], [1958833775, "Latein Campus lektion 1", 1.0, 0, 1507420800, 41, 0, 0], [797767724, "Et \u00e5r i Norge - Lektion 5", 0.0, 0, 1456099200, 85, 0, 0], [1196391144, "Et \u00e5r i Norge - Lektion 1", 1.0, 0, 1444176000, 72, 0, 0], [1668510559, "Japanisch Aktiv Kanji [Lektion 1-25] Universit\u00e4t Heidelberg", 0.0, 0, 1501113600, 1350, 0, 0], [2115485069, "Et \u00e5r i Norge - Lektion 2", 0.0, 0, 1444176000, 100, 0, 0], [1269077888, "Kairos neu 1 Vokabeln Deutsch/Altgriechisch Lektion 6 bis 10", 0.0, 0, 1479945600, 85, 0, 0], [1281073831, "Sprechen Sie Deutsch? A1 CZ-DE lekce 1-4", 1.0, 0, 1455235200, 259, 0, 0], [480928451, "Et \u00e5r i Norge - Lektion 4", 1.0, 0, 1448409600, 70, 0, 0], [1883295354, "Et \u00e5r i Norge - Lektion 6", 0.0, 0, 1456099200, 71, 0, 0], [2474573896, "Lektorat - angielski w biznesie PL-EN (UAM)", 0.0, 0, 1345852800, 160, 0, 0], [3740044081, "Lektorat - angielski dla pocz\u0105tkuj\u0105cych PL-EN (UAM)", 1.0, 1, 1345852800, 500, 0, 0], [1165707242, "English-Russian vocabulary by Oleksandr Bolshov", 1.0, 0, 1416614400, 1133, 0, 0], [3658430794, "Lektorat - niemiecki dla \u015bredniozaawansowanych (PWR)", 0.0, 0, 1345852800, 720, 0, 0], [38511318, "AlKitaab fii Taallum al Arabia Lektionen 10-13", 1.0, 0, 1499040000, 103, 0, 0], [966381304, "Kairos neu 1 Vokabeln Deutsch/Altgriechisch Lektion 11-15", 0.0, 0, 1480118400, 89, 0, 0], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 1.0, 0, 1409443200, 106, 0, 127], [2029250081, "Et \u00e5r i Norge - Lektion 3", 0.0, 0, 1445385600, 85, 0, 0], [2100191266, "Vokabeln Via R\u00e1pida Lektionen 1-3", 0.0, 0, 1472342400, 293, 0, 0], [3274643976, "Francouz\u0161tina nejen pro samouky - Lekce 19 - 32 (\u010desk\u00e9)", 0.0, 0, 1372032000, 1091, 0, 0], [352749172, "BCM Anatomy for Rachael Muschalek", 0.0, 1, 1467417600, 4483, 3, 804], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 1.0, 0, 1345852800, 806, 0, 0], [2201794347, "Lektorat - francuski dla pocz\u0105tkuj\u0105cych PL-FR (UAM)", 0.0, 0, 1345852800, 828, 0, 0], [2553774463, "Lektorat - angielski dla \u015bredniozaawansowanych PL-EN (UAM)", 1.0, 0, 1345852800, 500, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

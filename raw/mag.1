@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Mag
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Mag</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1591333067, "~600 Spanish Words w/Images (1300 Cards) - Intermediate", 0.0, 0, 1525651200, 737, 435, 1252], [3225276328, "neuroanatomy images Brain and Behavior MSSM", 0.0, 0, 1379548800, 115, 0, 228], [228902574, "Pharmazie Wien Imaging PR Saukel Vortest", 0.0, 0, 1516838400, 131, 0, 166], [1606353562, "Ingl\u00e9s 2: 250 palabras comunes con pronunciaciones y imagene", 0.0, 0, 1527206400, 266, 265, 266], [201758755, "Japanese Core 2000 - Complete 01-09 - no images/audio", 1.0, 0, 1513814400, 3992, 0, 0], [1758197267, "Japanese Genki I Grammar, native speaker audio, images", 13.0, 1, 1504483200, 345, 217, 217], [748570187, "Official KanjiDamage deck", 57.0, 4, 1439078400, 1757, 0, 2020], [604394229, "Fundamentals of Diagnostic Imaging - Week 1 Quiz", 0.0, 0, 1525996800, 16, 0, 0], [91635244, "(vanha merirosvo) \u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Magyar-Orosz", 0.0, 0, 1519516800, 12517, 0, 0], [893324022, "5000 most frequently used French words \u2014 with images", 72.0, 8, 1526169600, 5000, 4994, 16907], [29177561, "NSF - Head - (L14) Imaging of the head ", 0.0, 0, 1524355200, 20, 0, 17], [2085646944, "SGU Path Images Test 3", 0.0, 0, 1526083200, 88, 0, 88], [1071078088, "2017 Robbins Review of Pathology image illustration", 1.0, 0, 1483142400, 9, 2, 18], [1682644805, "SGU Micro Images Test 3", 0.0, 0, 1525651200, 8, 0, 8], [513219602, "Brasil: Estados e Capitais (Com imagens)", 0.0, 0, 1515110400, 27, 0, 0], [305671777, "RADD5001: Tet 3 Advanced imaging 2", 0.0, 0, 1524614400, 60, 0, 14], [3837585903, "Zertifikat Deutsch - B1, p\u00e9ld\u00e1kkal -- n\u00e9met-magyar", 14.0, 1, 1378425600, 3539, 0, 0], [813142337, "Pharmazie Wien Imaging VO Ogris (Stand 01/18)", 0.0, 0, 1516838400, 38, 0, 66], [1703679925, "INGL\u00caS - Pron\u00fancia e Compreens\u00e3o - Phrasal Verbs com Imagens", 0.0, 0, 1508371200, 189, 188, 182], [1064579211, "Ingl\u00eas 2: 250 palavras comuns com pronuncias e imagens", 1.0, 0, 1525392000, 255, 253, 254], [718686062, "Anatomy Bones - High Quality images + cloze (latin language)", 1.0, 0, 1488067200, 391, 1, 454], [706941726, "Pharmazie Wien Imaging VO Saukel-Teil", 0.0, 0, 1517270400, 26, 0, 38], [130794657, "50 key history dates with images", 1.0, 1, 1512950400, 48, 0, 45], [425182478, "[HUNGARIAN AUDIO] HEADWAY Preintermediate Magyar-Angol", 0.0, 0, 1524009600, 1325, 2615, 0], [1974046441, "BLOCK 6 HISTO & IMAGING PIMP SESH", 0.0, 0, 1526083200, 51, 0, 56], [239634361, "AusBlick 2 Wortschatz (n\u00e9met-magyar) ", 0.0, 0, 1525392000, 1554, 0, 0], [1775340736, "AnatomiaUNINTA - Digest\u00f3rio - Est\u00f4mago", 1.0, 0, 1524355200, 23, 0, 23], [855591991, "SGU Path Images Test I", 0.0, 0, 1520726400, 39, 0, 39], [553596721, "Magadhi (Pali) and Sanskrit", 1.0, 0, 1479945600, 20881, 29, 149], [931596070, "Fiches du Grand Manuel du Tage Mage", 0.0, 0, 1519084800, 856, 0, 5], [1823695293, "RADD5001: Test 3 Advanced imaging 1", 0.0, 0, 1524614400, 29, 0, 1], [1562341649, "magoosh-en-fa", 0.0, 0, 1512864000, 961, 0, 0], [1124298719, "Top 1000 Spanish Words with Images and Audio", 1.0, 0, 1525737600, 938, 938, 932], [3576927908, "Headway upper intermediate magyar-angol", 0.0, 0, 1357084800, 1103, 0, 0], [849525320, "Fisica classica (meccanica termodinamica elettromagnetismo)", 0.0, 0, 1469059200, 209, 0, 191], [501164858, "KanjiDamage", 0.0, 0, 1509753600, 1757, 0, 2020], [115744947, "English Take it easy groep 7, unit 2 with images and audio", 0.0, 0, 1456444800, 42, 42, 39], [1382731075, "Klimageographie Maya", 0.0, 0, 1522281600, 32, 0, 0], [403005234, "504 Essential Words EN to Persian/Farsi [full images]", 20.0, 2, 1481414400, 713, 664, 596], [127045376, "Ondes \u00e9lectromagn\u00e9tiques", 0.0, 0, 1525132800, 7, 0, 0], [1624746129, "Diagnostic Imaging", 0.0, 0, 1513036800, 723, 0, 429], [945449837, "Frutas (em ingl\u00eas / portugu\u00eas) com imagens e audio ", 0.0, 0, 1496707200, 69, 70, 63], [1470587625, "100 palavras comuns em ingl\u00eas com frases, imagens e \u00e1udios.", 4.0, 0, 1518134400, 100, 200, 100], [2208213442, "Deutsch Perfekt 1 (n\u00e9met-magyar)", 0.0, 0, 1527206400, 1000, 1005, 816], [342736623, "BLOCK 5 IMAGING PIMP SESH - ALL FORMATIVE EXAMS", 0.0, 0, 1522627200, 44, 0, 44], [1980162332, "Imaging Final", 0.0, 0, 1523923200, 365, 0, 105], [2956513523, "Deutsch Perfekt 4 (magyar-n\u00e9met)", 1.0, 0, 1527206400, 998, 916, 621], [79976995, "Imagina Vocabulario Lecciones 1 a 10 (ingl\u00e9s-espa\u00f1ol)", 0.0, 0, 1475798400, 1418, 0, 3], [501146452, "magic points harrison", 0.0, 0, 1501632000, 731, 0, 6], [633439748, "HEADWAY Preintermediate Magyar-Angol - by Nandika", 77.0, 5, 1431820800, 1325, 1300, 4], [1565946279, "All British birds listed on wikipedia with images", 0.0, 0, 1481673600, 546, 0, 1], [258588433, "Magoosh GRE JH", 16.0, 0, 1476230400, 1070, 0, 0], [1046649364, "Imagine Chest", 0.0, 0, 1524614400, 30, 0, 7], [1108091550, "Kitchen items with images", 0.0, 0, 1490745600, 24, 0, 24], [114060567, "Japanese Core 2000 Step 01 Listening Sentence Vocab + Images", 113.0, 4, 1449014400, 400, 405, 235], [267529800, "New Headway Elementary 4thed Unit12. mp3 (magyar-angol)", 4.0, 0, 1464048000, 61, 61, 0], [2074213003, "Genki 1 Lesson 1 Vocabulary (Audio+Images+Pitch+Furigana)", 5.0, 0, 1492560000, 54, 73, 67], [848345734, "english - turkish with images and audios", 6.0, 1, 1439424000, 419, 396, 410], [1195683162, "New Headway Elementary 4thed Unit04. mp3 (magyar-angol)", 3.0, 0, 1463529600, 101, 101, 0], [1947926432, "English Take it easy, groep 7, unit 3 with images and audio", 0.0, 0, 1456444800, 40, 40, 40], [1653315432, "New Headway Elementary 4thed Unit05. mp3 (magyar-angol)", 3.0, 0, 1463529600, 84, 84, 0], [1343533818, "Deutsch Perfekt 5 (n\u00e9met-magyar)", 0.0, 0, 1527206400, 1006, 943, 678], [305763356, "angol-magyar B2", 0.0, 0, 1457827200, 519, 1, 6], [1854773597, "New Headway Elementary 4thed Unit06. mp3 (magyar-angol)", 3.0, 0, 1463529600, 104, 104, 0], [620498828, "Magyar - lengyel", 0.0, 0, 1499990400, 614, 0, 0], [1280452904, "New Headway Elementary 4thed Unit09. mp3 (magyar-angol)", 3.0, 0, 1463961600, 117, 117, 0], [890993360, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1389139200, 39, 0, 22], [2886797054, "37C - Brain images", 0.0, 0, 1384560000, 121, 0, 0], [291483295, "Polish-English PL-EN S\u0142\u00f3wka (audio+image) [Lelum Polelum]", 1.0, 0, 1496102400, 1119, 1044, 1044], [800780602, "german major system in images", 0.0, 0, 1445126400, 100, 0, 100], [1971078966, "Magoosh GRE vocabulary improved by Adhocmaster", 0.0, 0, 1504051200, 1069, 0, 0], [2740946938, "Headway intermediate magyar-angol", 1.0, 0, 1357084800, 1400, 0, 0], [671136347, "Magoosh GRE 1000 with audio", 2.0, 0, 1518480000, 999, 994, 0], [2049147843, "usmle step 1 images", 0.0, 0, 1501977600, 245, 0, 910], [53791103, "Magyar-Angol Duolingo", 0.0, 0, 1461196800, 617, 13, 0], [321641660, "Pok\u00e9mon (Pokemon) with images, types, evolutions & Japanese", 2.0, 0, 1469836800, 151, 0, 151], [703318393, "angol-magyar szavak", 0.0, 0, 1451692800, 235, 217, 4], [56464517, "k\u00f6zel 8000 magyar - angol mondatp\u00e1r", 1.0, 0, 1437264000, 7904, 0, 0], [1888902361, "Angol magyar szavak k\u00f6nyvolvas\u00e1sb\u00f3l...", 0.0, 0, 1461456000, 1483, 1263, 6], [888858991, "prepositions angol-magyar (english-hungarian)", 1.0, 0, 1433894400, 466, 0, 0], [1625356087, "New Headway Elementary 4thed Unit11. mp3 (magyar-angol)", 3.0, 0, 1464048000, 46, 46, 0], [550547103, "New Headway Elementary 4thed Unit10. mp3 (magyar-angol)", 3.0, 0, 1464048000, 76, 76, 0], [1387061179, "New Headway Elementary 4thed Unit03. mp3 (magyar-angol)", 3.0, 0, 1463097600, 78, 78, 0], [2134439881, "Magoosh GRE vocabulary improved by Adhocmaster", 0.0, 0, 1503446400, 1069, 0, 0], [1158410944, "Magyar-angol", 0.0, 0, 1442188800, 985, 0, 0], [1612009031, "KATAKANA (with images)", 0.0, 0, 1476748800, 51, 8, 66], [902482244, "magyar - angol kezdoknek  kb 2000 words", 0.0, 0, 1434326400, 1935, 0, 0], [149985131, "angol magyar", 0.0, 0, 1443052800, 1287, 0, 0], [161249463, "Angol-magyar", 0.0, 0, 1444089600, 1227, 0, 1], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 1.0, 0, 1373241600, 2049, 0, 0], [41905004, "HSC Physics: Motors & Generators - Magnetic Flux & EMF", 0.0, 0, 1475712000, 12, 0, 0], [96133927, "Deutsch perfekt 1. (n\u00e9met-magyar)", 0.0, 0, 1366848000, 1005, 0, 110], [1034600627, "Kedvenc szavaim (n\u00e9met-magyar)", 0.0, 0, 1411257600, 231, 0, 219], [842615593, "N\u00e9met-Magyar 1000K\u00e9rd\u00e9s1000V\u00e1lasz", 0.0, 0, 1405987200, 3061, 0, 0], [1216359033, "New Headway Elementary 4thed Unit02. mp3 (magyar-angol)", 3.0, 0, 1463097600, 89, 89, 0], [1118800592, "New Headway Elementary 4thed Unit07. mp3 (magyar-angol)", 3.0, 0, 1463961600, 106, 106, 0], [923526725, "czech gram voc image", 0.0, 0, 1453593600, 1363, 9, 1271], [1187524518, "Czech with image", 0.0, 0, 1462579200, 769, 9, 834], [266219988, "New Headway Elementary 4thed Irregular verbs (angol-magyar)", 4.0, 0, 1471651200, 62, 73, 44], [745758380, "K\u00f6z\u00e9pszint\u0171 angol-magyar sz\u00f3t\u00e1r 4000 szavas", 1.0, 0, 1397433600, 4145, 0, 0], [93117126, "Simplified radicals matched with images", 4.0, 0, 1345852800, 214, 0, 200], [288484324, "Zertifikat Deutsch magyar-n\u00e9met", 0.0, 1, 1357084800, 1277, 0, 0], [862328629, "KanjiDamage Edited", 0.0, 0, 1456790400, 1760, 6, 382], [2820284005, "Deutsch Perfekt 3 (magyar-nemet)", 0.0, 0, 1527206400, 1000, 967, 740], [432283234, "Headway elementary magyar-angol", 2.0, 0, 1357084800, 1194, 0, 0], [1700510583, "Regions of New Zealand +Territories of Australia (w. images)", 2.0, 0, 1453075200, 25, 3, 25], [1259825472, "37C - Skull images", 2.0, 0, 1384041600, 157, 0, 0], [1897586375, "Angol-Magyar m\u0171szaki sz\u00f3szedet ", 1.0, 0, 1461369600, 395, 20, 43], [1160174865, "Hasznos Kifejez\u00e9sek N\u00e9met-Magyar", 0.0, 0, 1405987200, 471, 0, 0], [1545587171, "Head and Neck Anatomy/Imaging", 0.0, 0, 1449187200, 114, 0, 106], [13133232, "Schritte international 1 -- n\u00e9met-magyar", 0.0, 0, 1379030400, 1266, 0, 0], [1531315157, "Fyzika 3 - Elekt\u0159ina a magnetismus (Pomi)", 1.0, 0, 1409443200, 106, 0, 127], [125702405, "1100 - NB - En2Fa [full images]", 4.0, 0, 1443312000, 1104, 1100, 1106], [3266016108, "Zertifikat Deutsch n\u00e9met-magyar", 1.0, 0, 1357084800, 2897, 0, 0], [1010203052, "Basic vocabulary for children - Image + sound", 7.0, 0, 1461888000, 108, 89, 119], [348408661, "Headway elementary magyar-angol audioval", 4.0, 0, 1465862400, 1194, 1066, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 10.0, 1, 1372636800, 1966, 0, 0], [1326554907, "Penzugyi  szakkifejezesek Eng-Hun Angol-Magyar", 0.0, 0, 1471910400, 530, 20, 44], [1090735165, "Magoosh GRE Flashcards", 0.0, 0, 1465171200, 983, 0, 0], [2009624202, "HEADWAY Intermediate Magyar-Angol - by Nandika", 29.0, 1, 1431820800, 1355, 1325, 4], [1052499941, "Sz\u00f3k\u00e1rty\u00e1im a k\u00f6z\u00e9pfok\u00faig magyar-n\u00e9met (Deutsch)", 0.0, 0, 1429488000, 798, 0, 0], [781183934, "Toefl very useful word with image for persian farsi", 2.0, 3, 1477958400, 713, 664, 595], [806643760, "Schritte international 2 -- n\u00e9met-magyar", 1.0, 0, 1380326400, 1088, 0, 0], [238566799, "Irregular verbs 115 ige magyar (hun) \u00e9s angol (eng)", 10.0, 0, 1443484800, 115, 114, 2], [144517517, "504 En2Fa [full images]", 62.0, 3, 1443312000, 713, 664, 595], [1269351514, "Basic English-Russian with images", 5.0, 5, 1422316800, 1062, 1062, 1062], [600101024, "Japanese Core 2000 Step 09 Listening Sentence Vocab + Images", 8.0, 0, 1427328000, 398, 404, 237], [2021905542, "Japanese Core 2000 Step 06 Listening Sentence Vocab + Images", 10.0, 0, 1449014400, 399, 405, 250], [3535495155, "Deutsch Perfekt 2 (n\u00e9met-magyar)", 2.0, 0, 1527206400, 1016, 1009, 820], [1270167750, "New Headway Elementary 4thed Unit01. mp3 (magyar-angol)", 3.0, 0, 1463097600, 129, 129, 0], [1917095458, "Official KanjiDamage deck REORDERED", 24.0, 2, 1439078400, 1757, 0, 2020], [1316862101, "1100 NB - ENGLISH to PERSIAN ( farsi ) - v3 [full images]", 28.0, 4, 1449100800, 1104, 1100, 1113], [1840240741, "Egy h\u00edj\u00e1n  h\u00fasz - Twenty but one angol - magyar audioval", 10.0, 1, 1465084800, 3143, 3042, 44], [1856422935, "Japanese Core 2000 Step 02 Listening Sentence Vocab + Images", 27.0, 0, 1449014400, 399, 404, 236], [169595438, "Japanese Core 2000 Step 04 Listening Sentence Vocab + Images", 11.0, 0, 1449014400, 400, 405, 235], [1752619191, "Japanese Core 2000 Step 03 Listening Sentence Vocab + Images", 19.0, 1, 1449014400, 400, 406, 235], [2079637790, "Dr.Bab\u00e1ri Ern\u0151 - Egyszer\u0171en n\u00e9met\u00fcl -- n\u00e9met-magyar", 1.0, 0, 1390435200, 1043, 0, 0], [2132223383, "HEADWAY Upper Intermediate Magyar-Angol - by Nandika", 42.0, 3, 1431820800, 1092, 1081, 4], [1894902572, "Japanese Core 2000 Step 07 Listening Sentence Vocab + Images", 8.0, 0, 1427155200, 400, 406, 237], [1139792512, "Japanese Core 2000 Step 10 Listening Sentence Vocab + Images", 15.0, 1, 1427328000, 398, 404, 245], [427252884, "Japanese Core 2000 Step 08 Listening Sentence Vocab + Images", 12.0, 1, 1427155200, 400, 406, 237], [239020548, "Japanese Core 2000 Step 05 Listening Sentence Vocab + Images", 8.0, 0, 1449014400, 398, 404, 245], [3786232147, "Kanji Damage", 17.0, 3, 1345852800, 1760, 0, 231], [2680787138, "Start! Neu, N\u00e9met I. -- n\u00e9met-magyar", 3.0, 0, 1380672000, 1659, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ale
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ale</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[440311235, "l'enc\u00e9phale cossu denis", 0.0, 0, 1527120000, 52, 0, 52], [130365922, "Sueco Espa\u00f1ol ordinales", 0.0, 0, 1520467200, 24, 0, 0], [963664909, "expresiones de tiempo y frecuencia en alem\u00e1n", 0.0, 0, 1527206400, 87, 0, 0], [1840362351, "HENRION TS - C3 - repr\u00e9sentation spatiale des mol\u00e9cules", 0.0, 0, 1518566400, 14, 0, 12], [1450366103, "Malezas", 0.0, 0, 1527638400, 120, 0, 120], [494930321, "AlemaoEme", 0.0, 0, 1524787200, 27, 26, 9], [505303129, "Female Reproductive Histology", 0.0, 0, 1455235200, 72, 0, 167], [2086346304, "Alexandreh", 0.0, 0, 1527552000, 37, 0, 0], [1210868954, "Biochimica strutturale", 0.0, 0, 1518652800, 951, 1, 755], [2103007660, "FBS - Histology: Female Reproductive System", 0.0, 0, 1511568000, 41, 0, 23], [441101239, "Alex's unofficial UPT Tandem Emergency Procedures", 0.0, 0, 1525046400, 37, 0, 0], [1702049652, "Capitales du monde", 0.0, 0, 1514678400, 195, 0, 248], [410447184, "Les phrases lib\u00e9ratrices des constellations familiales", 0.0, 0, 1511481600, 25, 5, 0], [2091133726, "ENFERMEDADES PULMONARES INTERSTICIALES", 1.0, 0, 1516579200, 55, 0, 0], [1715555473, "Verbs of Morasha Ulpan Jerusalem", 0.0, 0, 1526256000, 310, 0, 0], [1509649255, "HENRION TS - C1 - analyse spectrale", 0.0, 0, 1524096000, 30, 0, 45], [1207413174, "100 Verbos em Alem\u00e3o", 0.0, 0, 1514073600, 100, 0, 0], [1286615068, "Math Terminale S", 0.0, 0, 1517616000, 267, 0, 137], [2132865565, "Male Pelvis and Genitalia", 0.0, 0, 1515801600, 12, 0, 0], [2118836017, "G\u00e9n\u00e9tique m\u00e9dicale ", 0.0, 0, 1525478400, 334, 0, 3], [888162570, "Conjugaciones Verbales Espa\u00f1ol", 0.0, 0, 1519257600, 41, 0, 0], [930116308, "2169 Kanji l'int\u00e9grale des JLPT et Jouyou en Fran\u00e7ais", 4.0, 0, 1468540800, 2169, 0, 2222], [1633305961, "Caleb's Insurance Prep", 0.0, 0, 1516492800, 15, 0, 0], [1210573838, "Histoire terminale USA", 0.0, 0, 1518566400, 53, 0, 0], [44929363, "Histoire, la seconde guerre mondiale", 0.0, 0, 1522540800, 13, 0, 0], [214337006, "Capitales des pays du monde", 1.0, 0, 1488585600, 197, 0, 49], [131283137, "anatomy semester 1 pelvic floor *alex*", 0.0, 0, 1519776000, 68, 0, 80], [1397341996, "AlefBet \u0430\u043b\u0444\u0430\u0432\u0438\u0442 ", 0.0, 0, 1526428800, 22, 22, 0], [960424525, "espanhol lalelilo", 0.0, 0, 1517529600, 40, 34, 0], [1930905898, "Fran\u00e7ais-Anglais: Le Chalet S01E01", 0.0, 0, 1525046400, 468, 468, 468], [591966598, "Histoire DNB : la premi\u00e8re guerre mondiale", 0.0, 0, 1523059200, 11, 0, 0], [990598095, "Tejidos Animales", 0.0, 0, 1519084800, 31, 0, 0], [2067811412, "Salesforce Basics", 0.0, 0, 1470787200, 59, 0, 0], [1628354939, "Sistema digestivo de los animales", 0.0, 0, 1523836800, 61, 0, 0], [757973337, "Examen euskera ahalera", 0.0, 0, 1521331200, 7, 0, 0], [325289877, "Alphf13 Sixi\u00e8me Chapitre 12 Sym\u00e9trie axiale", 0.0, 0, 1520467200, 6, 0, 0], [1931045639, "alem\u00e3o - portugues", 0.0, 0, 1485475200, 148, 5, 2], [1611125253, "Histoire terminale chine", 0.0, 0, 1518566400, 86, 0, 0], [1707828199, "Alexander Family Spanish Deck", 0.0, 0, 1520812800, 233, 231, 0], [1858893547, "HaLeYtAxOnOmY", 0.0, 0, 1526256000, 121, 0, 0], [857391031, "Analyse finale", 0.0, 0, 1524700800, 35, 0, 0], [1461905371, "Ethique 7 - M\u00e9decine p\u00e9rinatale", 0.0, 0, 1521158400, 4, 0, 0], [1112546639, "T\u00e9cnicas de Intervenci\u00f3n Cognitivo-Conductuales", 0.0, 0, 1432684800, 1213, 0, 0], [1873953196, "Personales Spanish", 0.0, 0, 1520726400, 9, 0, 0], [1687351452, "Adverbios Aleman Espa\u00f1ol +600 palabras", 0.0, 0, 1512950400, 674, 0, 0], [1062069381, "Compendiu de specialitati medico-chirurgicale, vol. I-II", 3.0, 0, 1517184000, 3560, 0, 1], [51936449, "900 substantivos alem\u00e3o-portugu\u00eas", 0.0, 0, 1469491200, 900, 0, 1], [502837045, "ICM Male GU", 0.0, 0, 1525219200, 119, 0, 78], [543876163, "Spanish 350_Pa\u00edses-Capitales-Presidentes", 0.0, 0, 1524528000, 19, 0, 19], [671740929, "SVT Terminale S", 0.0, 0, 1497225600, 26, 0, 7], [1409365802, "Ethique 1 - Qu'est ce que l'Ethique m\u00e9dicale", 0.0, 0, 1521158400, 4, 0, 0], [403915610, "Geological Timescale", 0.0, 0, 1524960000, 13, 0, 0], [78357130, "TS - repr\u00e9sentation spatiale des mol\u00e9cules", 0.0, 0, 1485475200, 14, 1, 13], [188644036, "German-spanish mazo para hispanoparlantes de alem\u00e1n", 2.0, 0, 1345852800, 7699, 0, 0], [1950897953, "FBS - Histology: Male Reproductive System", 0.0, 0, 1511481600, 52, 0, 20], [190071908, "Biology-Kaley", 0.0, 0, 1520035200, 16, 0, 0], [23500206, "Words of Morasha Ulpan Jerusalem", 0.0, 0, 1526256000, 345, 0, 0], [148344388, "Piano grand staff, key, and scale fingering basics MacFarren", 0.0, 0, 1499644800, 147, 0, 73], [1159849956, "Espanhol - calend\u00e1rio", 0.0, 0, 1521244800, 1, 0, 0], [1936909884, "Alem\u00e1n A1 a B1 (PBG)", 3.0, 1, 1457568000, 3834, 0, 0], [1590214583, "TC5-CELL-Female Reproductive", 0.0, 0, 1520467200, 60, 0, 46], [1165988901, "TC5-CELL-Male reproductive", 0.0, 0, 1520467200, 35, 0, 9], [178716297, "Capitales du Monde", 1.0, 1, 1488326400, 193, 5, 0], [593635229, "DLI Levantine Curriculum Khaled and Habib", 3.0, 0, 1465344000, 7777, 0, 0], [49484400, "A1-B1 catal\u00e0-alemany / Katalanisch-Deutsch revisat i ampliat", 0.0, 0, 1525046400, 5207, 0, 0], [840435393, "Joe's Ear: intervals, chords, scales (mp3 version)", 0.0, 0, 1517702400, 146, 367, 0], [603478066, "56 verbos em alem\u00e3o/portugu\u00eas  Akkusativ Parte 4.4 ", 0.0, 0, 1490918400, 56, 56, 77], [1514968248, "Valencias quimica", 0.0, 0, 1518912000, 19, 0, 0], [1069946099, "henrion Pour bien d\u00e9buter la Terminale S - Chimie", 0.0, 0, 1524096000, 51, 18, 89], [518542151, "E-pathology: Urinary, Male Genital, & Nephropathology", 0.0, 0, 1514937600, 316, 0, 69], [1884072740, "Psycho 3 - Personnalit\u00e9 normale et pathologique", 0.0, 0, 1521158400, 4, 0, 0], [2000875203, "Alex these are chem cards", 0.0, 0, 1524096000, 144, 0, 0], [1264062319, "Capitales du monde (Wikip\u00e9dia - fran\u00e7ais) recto-verso", 1.0, 0, 1489104000, 208, 0, 0], [1796885671, "ANGLAIS VENTE BAC PRO ANIMALERIE", 0.0, 0, 1521072000, 16, 0, 0], [525106199, "Paralegal Rice Course Chapter 4 Terms", 0.0, 0, 1522886400, 180, 0, 0], [628888330, "VocabRayAlexMey", 0.0, 0, 1526428800, 36, 0, 0], [1107498989, "r\u00e9vision ivan 3 culture g\u00e9n\u00e9rale", 0.0, 0, 1512604800, 1307, 0, 12], [38170876, "A l_\u00e9tude Droit p\u00e9nal Principes, loi p\u00e9nale, peines(2017-06-", 0.0, 0, 1496534400, 24, 0, 28], [938503062, "Algorithmist's Hebrew alephbet with mnemonics", 0.0, 0, 1506816000, 22, 22, 0], [52799680, "ANKI/DLCO - Sales", 0.0, 0, 1520121600, 20, 0, 20], [1416461656, "Large Scale Ecology", 0.0, 0, 1526256000, 83, 0, 0], [616250045, "Physique Terminale S", 0.0, 0, 1497225600, 29, 0, 14], [586482987, "Dale Carnegie's Principles on how to Win Friends", 0.0, 0, 1490054400, 18, 0, 0], [117638490, "Expresiones habituales en ing\u00e9s", 0.0, 0, 1452988800, 204, 0, 0], [1503155689, "Animales", 0.0, 0, 1524182400, 16, 0, 0], [218588822, "Alem\u00e1n B1+, B2 Blanco", 1.0, 0, 1457654400, 2998, 0, 0], [817249751, "Canto - Owen & Alex", 0.0, 0, 1523750400, 152, 0, 0], [1912193951, "30 verbos esenciales en ingl\u00e9s", 0.0, 0, 1466726400, 41, 0, 0], [1030156010, "Kids Spelling Bee - For Cam And Alex", 0.0, 0, 1493856000, 122, 0, 0], [849830876, "Alex - hotel items", 0.0, 0, 1510099200, 39, 0, 0], [1521712807, "Alex MCAT All", 0.0, 0, 1498003200, 3527, 0, 342], [1591234036, "Deklinationen - German declinations - Alem\u00e1n declinaciones", 1.0, 0, 1517961600, 48, 48, 0], [1977963573, "histology male repro", 0.0, 0, 1526515200, 8, 0, 0], [178105796, "Vocabulaire grec ancien - fran\u00e7ais ; la vie sociale", 0.0, 0, 1509148800, 278, 0, 0], [1895422730, "Geologic Time Scale: Epochs", 0.0, 0, 1486080000, 19, 0, 0], [71281032, "Vocabulaire latin - fran\u00e7ais ; la vie sociale", 1.0, 0, 1509321600, 403, 0, 0], [1537049015, "alem\u00e1n para principiantes con audio", 4.0, 0, 1519862400, 591, 0, 0], [952259938, "Unit 11-13 Levantine Curriculum Khaled", 0.0, 0, 1464825600, 2454, 0, 0], [90471387, "BiblicalHebrewAaleftbet", 0.0, 0, 1474761600, 26, 0, 0], [2058422412, "SOCO Espa\u00f1ol - N\u00fameros Ordinales", 0.0, 0, 1437955200, 20, 0, 0], [1013806846, "Russian alphabet by Alexandr Adlov", 0.0, 0, 1502755200, 31, 31, 0], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [2320389082, "Guitar Chords and Scales", 1.0, 0, 1345852800, 27, 0, 15], [225191508, "Scripture Memory (Alexandra Lee)", 0.0, 0, 1486771200, 288, 0, 0], [651340308, "Estados y capitales de M\u00e9xico", 1.0, 0, 1387497600, 63, 0, 32], [1204849858, "AUA Med 4 Female Reproductive Pathology", 0.0, 0, 1443916800, 292, 0, 167], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [1269035023, "Deutsch - Spanisch / Aleman - Espa\u00f1ol", 0.0, 0, 1409616000, 5928, 0, 0], [515014304, "Colloquial Palestinian Arabic with audio", 0.0, 0, 1468281600, 1036, 861, 0], [1183581419, "ALEMAN.TestDaf", 0.0, 0, 1475798400, 2109, 5, 0], [226658771, "Pour bien commencer la Terminale S - Physique", 0.0, 0, 1466553600, 24, 1, 28], [1263460634, "un peu de culture g\u00e9n\u00e9rale", 0.0, 0, 1439164800, 69, 3, 0], [2486524692, "Yogalehrerausbildung (Yoga Vidya, 2-j) Wiederholungsfragen", 1.0, 0, 1453075200, 275, 0, 0], [1475967085, "Neurophysiology1BAlex", 1.0, 0, 1430784000, 298, 0, 3], [675669178, "Citations philosophie terminale", 0.0, 0, 1431129600, 21, 0, 0], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [563368435, "Yale Japanese 110 &120 - Japanese the Spoken Language", 1.0, 0, 1402099200, 1591, 1484, 0], [1332710792, "Hebrew from Scratch Alef & Beit (Revised + Audio)", 2.0, 0, 1526515200, 1900, 2108, 34], [721789011, "Pa\u00edses y Capitales del Mundo (banderas inclusive)", 2.0, 0, 1440374400, 194, 0, 248], [1339858769, "2000 Sentences with Persian Equivalents", 0.0, 0, 1479945600, 1701, 4, 3], [907305985, "Aprender Alem\u00e3o - Portugu\u00eas", 0.0, 0, 1449446400, 111, 106, 1], [639896254, "Nahuatlahtolli: Animales", 1.0, 0, 1464566400, 43, 42, 0], [2050498996, "Lingualeo_ksu", 0.0, 0, 1454976000, 1468, 0, 0], [173302831, "Hebrew Alefbet (Alphabet) Hebrew Letters Front", 0.0, 0, 1476316800, 44, 0, 0], [2922742153, "ANGLAIS TERMINALE", 0.0, 0, 1354579200, 233, 0, 0], [515846693, "Vocabulario espagnol fran\u00e7ais terminale", 0.0, 0, 1389744000, 358, 0, 0], [775317106, "Business English for Japanese Overseas Salesperson", 0.0, 0, 1438387200, 5, 4, 0], [351620648, "Hebrew from Scratch aleph & bet (w/ english-hebrew)", 1.0, 0, 1456099200, 2006, 0, 0], [1355053692, "Logic: Logical equivalence laws", 1.0, 0, 1455580800, 20, 0, 0], [16021226, "Europe : drapeaux, pays, capitales", 5.0, 0, 1443312000, 45, 0, 90], [1604142449, "Capitales du monde", 1.0, 0, 1476489600, 194, 0, 0], [1364993416, "AlexiaC: Biology Unit 2: Cell Cycle, Cell Division (Mitosis)", 0.0, 0, 1505088000, 20, 0, 0], [1868563797, "Pour bien commencer la terminale S - chimie", 0.0, 0, 1466467200, 51, 19, 90], [3916546620, "Academic Word List Sublist 3 to Chinese equivalents", 1.0, 0, 1426377600, 31, 0, 0], [3794568627, "frances_basico_jalex98", 0.0, 0, 1352592000, 16, 0, 0], [359423088, "Angielski frazale i nie tylko", 0.0, 0, 1453334400, 481, 0, 0], [1029485837, "Academic Word List Sublist 1 to Chinese equivalents", 0.0, 0, 1426377600, 59, 0, 0], [1190323276, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level DALET, verbs", 1.0, 0, 1386460800, 528, 0, 0], [63336262, "Business ENG_RUS lingualeo", 0.0, 0, 1447977600, 977, 0, 7], [587728244, "Unit 06-10 Levantine Curriculum Khaled", 0.0, 0, 1464825600, 2837, 0, 0], [1454752678, "Unit 02 Levantine Curriculum Khaled", 0.0, 0, 1464825600, 612, 0, 0], [58726747, " german spanish declinaci\u00f3n del adjetivo aleman", 0.0, 0, 1345852800, 51, 0, 0], [1979125844, "Khaled Mass Upload", 2.0, 1, 1464825600, 9118, 0, 0], [1231313502, "Joe's Ear: intervals, chords, scales", 6.0, 0, 1488499200, 146, 367, 0], [950498841, "SVT terminale S Plantes", 0.0, 0, 1478995200, 1, 0, 0], [749237861, "Histoire des relations internationales I", 0.0, 0, 1478995200, 193, 0, 17], [165309892, "Ordres de grandeur en physique (valeurs num\u00e9riques)", 0.0, 0, 1404086400, 88, 0, 11], [1774074550, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF", 2.0, 0, 1386460800, 1549, 0, 0], [368241411, "jazz chords to scales", 0.0, 0, 1478908800, 239, 0, 0], [1320347145, "Medical School - Pelvic Anatomy (Male/Female)", 0.0, 0, 1445731200, 182, 0, 451], [2138821507, "Hebrew-Russian (\u0418\u0432\u0440\u0438\u0442-\u0420\u0443\u0441\u0441\u043a\u0438\u0439) level ALEF, verbs", 0.0, 0, 1386460800, 243, 0, 0], [852624783, "AlexiaC: Biology Unit 2: Cell Division and Meiosis ", 0.0, 0, 1505088000, 2, 0, 0], [869349854, "Deutsch: Valency - 300 Verbs with Prepositions and More", 1.0, 0, 1431993600, 666, 10, 3], [863941301, "Portugu\u00eas - Alem\u00e3o v2", 1.0, 0, 1417046400, 2875, 5610, 1], [1950519440, "Portugu\u00eas - Alem\u00e3o", 0.0, 0, 1360281600, 3305, 0, 0], [1981416035, "TS - Analyse spectrale et nomenclature", 0.0, 0, 1510704000, 30, 0, 45], [58419656, "Notes of the chromatic scale", 5.0, 0, 1403308800, 12, 12, 0], [1254167893, "Langenscheidt - I - 2000 palavras - alem\u00e3o -  portugu\u00eas", 10.0, 0, 1428883200, 1974, 0, 0], [134773420, "Unit 01 Levantine Curriculum Khaled", 0.0, 0, 1464825600, 388, 0, 0], [991861971, "Culture g\u00e9n\u00e9rale et fran\u00e7ais", 0.0, 0, 1400630400, 234, 0, 0], [504358078, "Hebrew AlefBet (TeachMeHebrew.com)", 5.0, 1, 1354924800, 22, 22, 0], [352749172, "BCM Anatomy for Rachael Muschalek", 0.0, 1, 1467417600, 4483, 3, 804], [1984136141, "Pa\u00edses y capitales de Europa (espa\u00f1ol)", 3.0, 0, 1451174400, 44, 0, 47], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [3450331509, "Academic Word List Sublist 2 to Chinese equivalents", 0.0, 0, 1426377600, 60, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

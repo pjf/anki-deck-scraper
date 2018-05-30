@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Oll
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Oll</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[19583294, "TwittDNB Orthographe (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 6, 0, 0], [1782774898, "TwittDNB conjugaison (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 14, 0, 0], [1666743841, "TwittDNB grammaire (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 11, 0, 0], [208708574, "TwittDNB lecture (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 18, 0, 0], [448461818, "TwittDNB grammaire 2 (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 12, 0, 0], [609534457, "TwittDNB vocabulaire (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 17, 0, 0], [962366096, "#TwittDNB Orthographe 2 (coll\u00e8ge Matisse)", 0.0, 0, 1527292800, 10, 0, 0], [1527479046, "Ruffec_college_VDC_Maths_trigonometrie", 0.0, 0, 1512518400, 10, 0, 0], [1282406431, "Collated list of Icelandic words", 2.0, 0, 1522713600, 1064, 0, 0], [4157389275, "643 Spanish verbs each followed by 1 example sentence", 3.0, 0, 1516579200, 1187, 1187, 0], [259984996, "PTE Academic Collocation List", 0.0, 0, 1526947200, 2463, 0, 0], [773387489, "Ruffec_college_VDC_Maths_pythagore", 0.0, 0, 1512518400, 24, 0, 0], [787996136, "MOBIO-Colloq", 0.0, 0, 1527638400, 115, 0, 36], [1862159170, "100 most common radicals with exmaples and colloquial names", 10.0, 3, 1453766400, 100, 0, 0], [286274576, "NT Greek Grammar (Oak Hill College)", 2.0, 0, 1355875200, 267, 0, 0], [1221512164, "English collocations in use", 7.0, 1, 1454198400, 1391, 0, 0], [1728568492, "Fachinformatiker Lernkarten - Netzwerkprotokolle", 0.0, 0, 1520553600, 177, 0, 0], [75429329, "Vocabulaire de latin au coll\u00e8ge (cycle 4) fran\u00e7ais", 0.0, 0, 1516492800, 918, 0, 0], [1435803967, "JURISPRUD\u00caNCIA STJ 2017 COLLMANN", 1.0, 0, 1520380800, 368, 0, 51], [1030183705, "20 Java Collections Interview Questions", 1.0, 0, 1485475200, 24, 0, 0], [1514274662, "Math\u00e9matique coll\u00e8ge 3e", 2.0, 0, 1494720000, 101, 0, 21], [1068041855, "Collins Word Frequency 1 stars", 2.0, 0, 1492387200, 7715, 34, 49], [1004096280, "\u0627\u0644\u0641\u064a\u0651\u0629 \u0627\u0644\u0623\u0641\u0639\u0627\u0644 Ebrahim College", 0.0, 0, 1515110400, 167, 0, 0], [760754928, "Vocabulaire de latin au coll\u00e8ge (3e) fran\u00e7ais", 0.0, 0, 1516579200, 333, 0, 0], [1616471032, "Spanish - Roll of the Tongue (Collins)", 0.0, 0, 1522454400, 57, 0, 0], [1593573421, "Spanish - Verb Conjugations (Collins)", 0.0, 0, 1522454400, 49, 0, 0], [147876494, "JURISPRUD\u00caNCIA STJ 2016 COLLMANN", 0.0, 0, 1520380800, 413, 0, 5], [1692622977, "[E] 263 Flags Collection (with picture)", 0.0, 0, 1525046400, 263, 0, 263], [161775988, "COCA 20000 with Collins and Audio", 0.0, 0, 1523145600, 16515, 16515, 0], [1566017923, "Bortolli", 0.0, 0, 1521244800, 167, 0, 0], [1134825683, "JURISPRUD\u00caNCIA STF 2016 COLLMANN", 0.0, 0, 1520380800, 293, 0, 3], [291862973, "JURISPRUD\u00caNCIA STF 2017 COLLMANN", 0.0, 0, 1520380800, 188, 0, 8], [1900549045, "Idioms and collocations", 0.0, 0, 1412467200, 551, 1, 1], [821533188, "Vocabulaire de latin au coll\u00e8ge (4e) fran\u00e7ais", 9.0, 0, 1516579200, 389, 0, 0], [78134197, "Nahuatlahtolli 3", 1.0, 0, 1410739200, 8, 8, 0], [633425826, "Vocabulaire de latin au coll\u00e8ge (5e) fran\u00e7ais", 0.0, 0, 1516579200, 209, 0, 0], [1971903735, "ms_Schaum'sCollegePhysics", 0.0, 0, 1522454400, 26, 0, 42], [1169266798, "English collocation", 0.0, 0, 1433289600, 99, 7, 0], [1322911027, "Spaans::jaar 2 [volledig] (CVO Leuven)", 2.0, 0, 1481241600, 1346, 12, 38], [1532996898, "English Collocation", 0.0, 0, 1508112000, 10, 0, 10], [71055134, "Character Text for colloquial Chinese Chapter 1 vocabulary", 1.0, 0, 1489881600, 34, 0, 0], [344436300, "Character Text for colloquial Chinese Chapter 2 vocabulary", 1.0, 0, 1489881600, 32, 0, 0], [1086956662, "Character Text for colloquial Chinese Chapter 3 vocabulary", 1.0, 0, 1489881600, 42, 0, 0], [1972783121, "nahuatlahtolli 1", 1.0, 0, 1410739200, 10, 10, 0], [1439888274, "Collocations", 4.0, 0, 1485475200, 114, 353, 151], [701679375, "Nahuatlahtolli: Objetos y otros verbos", 1.0, 0, 1464566400, 73, 72, 0], [1901580808, "Tom Pollards", 0.0, 0, 1526169600, 9, 0, 0], [10217464, "Phrases and collocations for C1 and C2 Italian students", 0.0, 0, 1516752000, 498, 0, 0], [607213898, "nahuatlahtolli 4", 0.0, 0, 1410739200, 9, 9, 0], [938588889, "Emma Holliday", 2.0, 0, 1499299200, 2463, 0, 265], [3475645843, "Backgammon 3rd roll starting with 64S", 3.0, 1, 1359504000, 139, 0, 270], [718478142, "English Collocations", 0.0, 0, 1434499200, 335, 0, 0], [1554982961, "Biblical Hebrew Verbs (Oak Hill College)", 0.0, 0, 1410825600, 384, 0, 383], [34744015, "Vocabulary for the Greek 1 course at Moore College (2016)", 0.0, 0, 1453334400, 619, 1, 2], [756754957, "nahuatlahtolli 5", 0.0, 0, 1410739200, 10, 10, 0], [1500117815, "nahuatlahtolli 2", 0.0, 0, 1410739200, 9, 9, 0], [1895074323, "Nahuatlahtolli: Comida/food", 0.0, 0, 1464566400, 67, 67, 0], [378060293, "Collins Speaking for IELTS - Unit 1", 1.0, 0, 1464912000, 24, 27, 41], [527765080, "Syrian Colloquial Arabic - Chapter II", 2.0, 0, 1429920000, 163, 162, 0], [1139068131, "Biblical Hebrew Grammar (Oak Hill College)", 0.0, 0, 1356566400, 251, 0, 0], [515014304, "Colloquial Palestinian Arabic with audio", 0.0, 0, 1468281600, 1036, 861, 0], [1539003116, "NT Greek Vocab (Oak Hill College)", 7.0, 0, 1357689600, 1218, 0, 0], [747291776, "Nahuatlahtolli: Frases", 1.0, 0, 1464566400, 72, 70, 0], [636146339, "Spaans::Jaar 1 [volledig] (CVO Leuven)", 0.0, 0, 1487376000, 1125, 19, 22], [1879857585, "Nahuatlahtolli: Reflexivo", 1.0, 0, 1464566400, 65, 64, 0], [1050322009, "Colloquial Spanish of Latin America", 2.0, 0, 1427846400, 607, 0, 0], [2120131827, "Nahuatlahtolli: sujetos", 0.0, 0, 1464566400, 282, 277, 0], [506901471, "Nahuatlahtolli: Intransitivos", 1.0, 0, 1464566400, 113, 112, 0], [1175897401, "Moore College 2015 Greek 1A", 1.0, 0, 1436745600, 552, 1, 2], [1358673525, "Colloquial Gujarati Glossary", 0.0, 0, 1405641600, 1117, 0, 15], [1553186460, "Nahuatlahtolli: Gente", 0.0, 0, 1464566400, 66, 61, 0], [1196634261, "Minerals - Intro to Geology Hunter College", 1.0, 0, 1475020800, 51, 0, 0], [335003715, "Introduction to College Algebra", 2.0, 2, 1410048000, 99, 0, 101], [639896254, "Nahuatlahtolli: Animales", 1.0, 0, 1464566400, 43, 42, 0], [2617319445, "Biblical Hebrew Vocab (Oak Hill College)", 5.0, 0, 1357689600, 1268, 0, 1268], [490820644, "Business English. B1. Criticizing colleagues at work", 0.0, 0, 1427328000, 24, 0, 0], [2050638272, "English collocation in use", 0.0, 1, 1451088000, 341, 36, 4], [1489610345, "Formation of the Earth - Intro to Geology at Hunter College", 0.0, 0, 1475020800, 29, 0, 0], [802492964, "Collegiate English words", 1.0, 1, 1365811200, 4983, 0, 0], [53113254, "Syrian Colloquial Arabic - Chapter III", 1.0, 0, 1429920000, 241, 247, 0], [1078083574, "NT Greek Verbs (Oak Hill College) ", 1.0, 0, 1345852800, 547, 0, 0], [204452366, "Vocabulary for the Hebrew 1 course at Moore College (2016)", 0.0, 0, 1508716800, 367, 0, 0], [94041200, "Imperial College Clinical Medicine", 0.0, 0, 1461628800, 839, 0, 11], [944144472, "English Collocations", 1.0, 0, 1407024000, 804, 0, 0], [775128629, "Collective nouns in English language", 0.0, 0, 1425427200, 360, 5, 0], [493959367, "Verbs Followed By Gerunds And Infinititves", 0.0, 0, 1453939200, 100, 0, 0], [567995105, "Cambridge English Collocation in Use- Intermediate", 23.0, 2, 1462147200, 1218, 0, 0], [337303121, "Collins Word Frequency 2 stars", 1.0, 0, 1479600000, 3045, 0, 12], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 1.0, 0, 1377475200, 160, 0, 0], [1691513071, "College entrance examination English\uff08\u9ad8\u8003\u82f1\u8bed\u8bcd\u6c47\uff09", 0.0, 0, 1468886400, 2658, 2663, 68], [3429722075, "AJ's Intermediate Turkish Grammar (Follows the DLI course)", 1.0, 0, 1380585600, 490, 0, 0], [981198882, "Khmer-English - Collection of  - Tim", 3.0, 0, 1461974400, 758, 677, 671], [1757256705, "NT Greek Principal Parts (Oak Hill College)", 0.0, 0, 1479772800, 59, 0, 0], [470513395, "Dermatologie icono coll\u00e8ge", 1.0, 0, 1479859200, 185, 0, 221], [486775437, "Spaans::jaar 3 [volledig] (CVO Leuven)", 0.0, 0, 1457913600, 874, 146, 30], [2110385802, "Cambridge English Collocations In Use- Advanced", 15.0, 1, 1464566400, 1055, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>
