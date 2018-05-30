@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ted
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ted</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1290591096, "10 000 Turkish sentences sorted from easiest to hardest[1/2]", 8.0, 2, 1496102400, 5007, 5007, 0], [1282406431, "Collated list of Icelandic words", 2.0, 0, 1522713600, 1064, 0, 0], [1162908183, "\u2192 Danish 8 000 sentences sorted from easiest to hardest", 12.0, 0, 1485216000, 8191, 8247, 81], [1301955498, "\u219210 000 Finnish sentences sorted from easiest to hardest pt1", 6.0, 0, 1477180800, 3000, 3056, 81], [785874566, "10 000 german sentences sorted from easiest to hardest [1/3]", 21.0, 0, 1510185600, 4000, 7512, 0], [257529691, "\u2192 6500 Icelandic sentences sorted by difficulty [with audio]", 6.0, 0, 1485216000, 6641, 6570, 81], [1555716615, "13 000 Russian sentences sorted from easiest to hardest[1/3]", 43.0, 2, 1512259200, 2486, 4713, 0], [1713927804, "15000 Italian sentences sorted from easy to hard \u2014 part2", 12.0, 1, 1487894400, 5000, 4761, 77], [1499129716, "\u219210 000 Finnish sentences sorted from easiest to hardest pt2", 2.0, 0, 1477180800, 7000, 7050, 81], [1107132943, "CS - Bandaging updated 26.05.2018", 0.0, 0, 1527292800, 35, 0, 10], [526423274, "Philip's 12 designated essay", 0.0, 0, 1523059200, 263, 0, 0], [1416412430, "16000 French sentences sorted from easiest to hardest [3/3]", 1.0, 0, 1492646400, 6001, 6055, 77], [857652111, "Intergrated Chinese", 0.0, 0, 1526947200, 60, 0, 0], [1199783350, "16000 French sentences sorted from easiest to hardest [2/3]", 0.0, 0, 1485734400, 6001, 6055, 77], [1507807456, "English Comics Deck [marzian] - v 1.0 - Updated 19/08/2014", 1.0, 0, 1408492800, 782, 3, 918], [1590074519, "15000 Italian sentences sorted from easy to hard \u2014 part1", 32.0, 1, 1498262400, 5000, 8024, 0], [1169967797, "10 000 Spanish sentences sorted from easiest to hardest[1/2]", 38.0, 3, 1513468800, 2993, 5840, 0], [1056833747, "\u21927500 english sentences sorted from easiest to hardest pt.2", 0.0, 0, 1498780800, 3793, 3745, 0], [241481292, "1000 Korean sentences sorted from easiest to hardest", 0.0, 0, 1527379200, 1000, 1000, 0], [2125180343, "\u219213 000 Polish sentences sorted from easy to hard \u2014 part2", 2.0, 0, 1485734400, 8643, 8523, 77], [47487003, "Backend (Java, JEE, Spring and related technologies)", 3.0, 0, 1486512000, 1172, 0, 0], [957909609, "13 000 Russian sentences sorted from easiest to hardest[2/3]", 1.0, 0, 1486425600, 4500, 4554, 77], [264187905, "\u2192 6500 Czech sentences sorted by difficulty [with audio]", 5.0, 1, 1477353600, 6014, 5996, 81], [62601322, "\u2192 Dutch 10 000 sentences sorted from the easiest to hardest", 15.0, 2, 1502236800, 12106, 11384, 0], [2141233552, "Japanese Core 2000 Sorted w/ Audio", 8.0, 0, 1489363200, 2007, 3970, 0], [1226689493, "[VectorMaps] The United States of America", 39.0, 0, 1368662400, 50, 0, 50], [209865065, "10000 Swedish sentences sorted from easiest to hardest [1/2]", 13.0, 0, 1485648000, 3002, 3056, 77], [1275370902, "10000 Swedish sentences sorted from easiest to hardest [2/2]", 6.0, 0, 1485648000, 6786, 6840, 77], [1892364086, "15000 Italian sentences sorted from easy to hard \u2014 part3", 6.0, 0, 1487894400, 5000, 4794, 77], [1171637419, "10 000 Spanish sentences sorted from easiest to hardest[2/2]", 2.0, 0, 1485561600, 6998, 7052, 77], [1303247795, "3000 beginner russian sentences - sorted by difficulty", 5.0, 0, 1512259200, 2796, 5592, 0], [176237954, "\u2192 6000 Greek sentences sorted by difficulty [with audio]", 6.0, 0, 1499472000, 6199, 6021, 0], [60798677, "Human Development/Embryology, Stem Cells, & Related Lectures", 0.0, 0, 1506038400, 102, 0, 51], [1749257236, "Abbreviated Drug Suffixes", 0.0, 0, 1484438400, 12, 0, 1], [765143173, "Chinese (Mandarin, simplified) Ted Talk in video form, split", 0.0, 0, 1512864000, 303, 303, 0], [1625330240, "Aanbestedingsrecht ", 0.0, 0, 1522368000, 19, 0, 0], [1121978582, "FBS - Pharmacology: Sympathetics (Corrected)", 0.0, 0, 1512604800, 56, 0, 22], [564631047, "COMLEX Integrated plan review ", 0.0, 0, 1526515200, 58, 0, 0], [953519248, "Modern States - CLEP History of the United States I", 0.0, 0, 1518480000, 770, 0, 0], [470110863, "621 Distributed Scheduling", 0.0, 0, 1526860800, 15, 0, 0], [601544200, "10 000 german sentences sorted from easiest to hardest [3/3]", 10.0, 0, 1498348800, 2907, 5585, 0], [1443197328, "10 000 Turkish sentences sorted from easiest to hardest[2/2]", 0.0, 0, 1487894400, 7000, 6985, 77], [1753930048, "Neuroscience-Cranial Nerves (Corrected)", 0.0, 0, 1480809600, 80, 0, 14], [1905613190, "\u21927500 english sentences sorted from easiest to hardest", 1.0, 1, 1498694400, 2998, 2961, 0], [841136188, "Integrated Chinese, Cheng & Tsui, Books 1 and 2", 0.0, 1, 1505606400, 1023, 0, 0], [1686202195, "AH - Sheep breeds (Updated 13/03/2018)", 0.0, 0, 1520985600, 22, 0, 28], [1514500217, "Updated Medicine Anki", 0.0, 0, 1502236800, 2104, 0, 752], [392737825, "Respiratory Integrated Drugs", 0.0, 0, 1508716800, 49, 0, 3], [548021961, "Vocaboli tedesco", 0.0, 0, 1486339200, 3, 0, 0], [24543207, "tedesco - italiano", 0.0, 0, 1506470400, 119, 43, 3], [1499188121, "10 000 german sentences sorted from easiest to hardest [2/3]", 6.0, 0, 1498348800, 4004, 7617, 0], [1220317572, "Pestana Updated Deck", 0.0, 0, 1509321600, 773, 0, 13], [1529703377, "Illustrated Everyday Expressions with Stories (Books 1-2)", 4.0, 1, 1493942400, 600, 1199, 600], [1423879629, "Illustrated Everyday Expressions with Stories 1 - Vietnamese", 0.0, 0, 1526601600, 300, 300, 603], [1695477702, "GRE with Mnemonics Part I (Week 1 - Created by Me)", 0.0, 0, 1524614400, 20, 0, 0], [1368627258, "InheritedSyndromes Natasha USMLE", 0.0, 0, 1467331200, 71, 0, 6], [1785358737, "bio 1500 bush/schul test 7 updated ", 0.0, 0, 1525219200, 50, 0, 3], [1724648766, "Hemostasis and Related Disorders", 0.0, 0, 1506643200, 283, 0, 24], [505681351, "15000 Portuguese sentences sorted from easy to hard \u2014 part1", 15.0, 1, 1502841600, 5000, 7756, 0], [1924469390, "iHE_Materials (updated)", 0.0, 0, 1524096000, 10, 10, 10], [1145370017, "automated controls 1", 0.0, 1, 1524787200, 21, 0, 4], [66861415, "RACP Inherited syndromes", 0.0, 0, 1520640000, 175, 0, 51], [1084832216, "15000 Portuguese sentences sorted from easy to hard \u2014 part2", 5.0, 0, 1502841600, 10000, 9871, 0], [1089240419, "16000 French sentences sorted from easiest to hardest [1/3]", 81.0, 7, 1522627200, 3500, 6786, 0], [2102559841, "Integrated Chinese Level 1 Vocab (Made by Triceratops)", 3.0, 0, 1510963200, 799, 1529, 2], [1688786699, "Distributed Computing Part 1", 0.0, 0, 1507766400, 53, 0, 0], [1494081427, "Body Parts and Related Terms in Japanese", 0.0, 0, 1526947200, 550, 0, 0], [1366897289, "Scrum Foundations - Updated for The Scrum Guide\u2122 2016", 0.0, 0, 1487894400, 42, 0, 0], [1936187819, "GCHS - Spanish 2 Honors - Unidad 4 - Las Rutinas (updated)", 0.0, 0, 1516320000, 82, 33, 3], [1685320937, "13 000 Russian sentences sorted from easiest to hardest[3/3]", 3.0, 0, 1486425600, 5250, 5304, 77], [395209241, "Hindi Religious Terms (Corrected)", 0.0, 0, 1495497600, 202, 202, 170], [1566239899, "Repro Concerns Womans health- Sexually transmitted Viruses", 0.0, 0, 1519689600, 90, 0, 0], [840634922, "The 100 most common English words, translated to Bulgarian.", 0.0, 0, 1441238400, 0, 8, 15], [277160478, "504 Absolutely Essential Words EN to Persian corrected audio", 2.0, 1, 1376870400, 504, 504, 0], [707994711, "\u2192 2800 Hindi sentences sorted by difficulty [with audio]", 5.0, 2, 1477699200, 2848, 2275, 81], [807598953, "GCHS - Spanish 4 Honors - Unidad 4 - Infinitivo (updated)", 0.0, 0, 1517443200, 20, 14, 0], [3775262467, "HMS.IMP.T.Cell.Mediated.Immunity", 0.0, 0, 1364947200, 19, 0, 2], [1235193643, "Toefl Writting Templated", 0.0, 0, 1482624000, 51, 42, 63], [2036344821, "\u219213 000 Polish sentences sorted from easy to hard \u2014 part1", 4.0, 0, 1467676800, 5000, 5005, 1], [818220303, "Integrated Chinese Textbook Characters Lesson 8-20", 2.0, 0, 1487894400, 574, 0, 0], [87617578, "United States Senators - 2017", 1.0, 0, 1491264000, 152, 0, 151], [1663232257, "AQA AS Physics (started: 2015)", 0.0, 0, 1496793600, 231, 0, 83], [536081221, "Brian's Selected SAT Vocabulary", 1.0, 0, 1401926400, 162, 0, 0], [272627659, "Andrew's HSK Deck (edited for me)", 0.0, 0, 1486771200, 5001, 21, 120], [1471495994, "Mental Health (updated)", 0.0, 0, 1510617600, 648, 0, 5], [1442776235, "10000 Hungarian sentences sorted from easiest to hardest pt2", 1.0, 0, 1485302400, 7000, 7048, 77], [1028705571, "organic chemistry med studies related  ", 1.0, 0, 1498608000, 131, 0, 97], [274941159, "Diabetic Drugs (updated)", 0.0, 0, 1504224000, 68, 0, 0], [424296884, "LH Pre-Intermediate Vocabulary (Updated)", 0.0, 0, 1499212800, 1769, 1769, 260], [1093877854, "Hebrew - Cook and Holmstedt L1-30/R1-6", 1.0, 0, 1505865600, 335, 0, 0], [1851399003, "Basic English - Romanian with basic phrase - all transalted ", 0.0, 0, 1464566400, 557, 556, 300], [1260868085, "Comprehensive Danish (English - Formatted)", 0.0, 0, 1451692800, 139, 3, 4], [1393222349, "\u21921000 german verbs sorted by frequency", 0.0, 0, 1492473600, 1000, 54, 1076], [1565946279, "All British birds listed on wikipedia with images", 0.0, 0, 1481673600, 546, 0, 1], [676861726, "Technology, virtuality, augmented reality", 1.0, 0, 1487376000, 24, 24, 5], [1572543752, "Hungarian english words related authority ", 0.0, 1, 1461628800, 79, 12, 0], [1384853290, "\u21925800 Indonesian sentences sorted by difficulty [with audio]", 4.0, 1, 1477526400, 5890, 5594, 81], [356880668, "English Irregular verbs (translated to Spanish)", 0.0, 0, 1525132800, 60, 0, 0], [914714233, "Brosencephalon updated with errata 1,2,3,4", 6.0, 0, 1501891200, 15697, 0, 2711], [2889581819, "Presidents of the United States", 0.0, 0, 1354320000, 44, 0, 0], [2029107991, "United States of America: US States, Maps, Flags, Capitals", 3.0, 0, 1497830400, 51, 0, 65], [339496614, "Fluent Forever updated deck msmclaugh", 0.0, 0, 1492387200, 1, 5, 1], [1310494528, "Scrum Foundations - Updated for The Scrum Guide\u2122 2016", 0.0, 0, 1487894400, 42, 0, 0], [566762343, "Most Repeated Vocabulary in IELTS Reading Tests", 2.0, 0, 1472169600, 285, 592, 76], [2045178917, "\u00c9tudes en Langue Fran\u00e7aise - English/French 7000 c. Updated", 9.0, 1, 1525651200, 7001, 0, 0], [1296908173, "FBS - Immunology: Cell-Mediated Immune Responses", 0.0, 0, 1508976000, 35, 0, 4], [731368649, "Frontend (JavaScript related technologies)", 3.0, 0, 1486339200, 681, 0, 0], [1521181522, "Selected Physical Constants (TIMSS 1995)", 0.0, 0, 1395360000, 13, 0, 2], [958412884, "Updated Allez Viens", 0.0, 0, 1450828800, 1076, 1075, 19], [3277764868, "Polish Verbs Conjugated", 0.0, 1, 1345852800, 572, 0, 0], [585019807, "Major United States cities", 1.0, 0, 1475280000, 260, 39, 314], [589330498, "An Integrated Approach to Japanese, Full Vocab", 3.0, 0, 1451606400, 1658, 0, 0], [998742738, "Irregular verbs in dutch-french, sorted by priority", 0.0, 0, 1469491200, 140, 0, 0], [690247199, "Integrated Chinese Level 2 Part 1 Vocabulary", 0.0, 1, 1370390400, 82, 0, 0], [1296521467, "Mongolian verbs and project/health-related vocabulary", 0.0, 0, 1345852800, 812, 0, 0], [1233554734, "Lojban big_list (sorted by frequency)", 0.0, 0, 1365379200, 1986, 0, 0], [1202033519, "Object Oriented Design Patterns", 0.0, 0, 1468454400, 30, 0, 0], [1085241879, "Khmer School Book 1, Selected Words", 1.0, 0, 1408147200, 1101, 0, 0], [1068757702, "Essential Words for the TOEFL-Payesh [Edited]", 2.0, 2, 1437696000, 558, 1567, 902], [1747850479, "United States (US) States and Capitals", 0.0, 0, 1458777600, 50, 3, 40], [740967428, "Jouyou kanji & related compounds ", 2.0, 0, 1444176000, 14942, 0, 0], [1719308279, "nbme 15, 16, 17, 18, 19 selected questions and explanations", 3.0, 0, 1501977600, 382, 0, 961], [862328629, "KanjiDamage Edited", 0.0, 0, 1456790400, 1760, 6, 382], [1229540823, "\u2192 3500 Romanian sentences sorted by difficulty [with audio]", 5.0, 0, 1477008000, 3530, 3545, 81], [1176610991, "Integrated Chinese Companion Deck", 0.0, 1, 1473292800, 91, 55, 7], [2010249398, "Integrated Chinese Vocabulary Level 1 Part 1", 0.0, 1, 1471737600, 87, 8, 91], [1189391739, "Chinese vocabulary (Intergrated Chinese)", 2.0, 1, 1470700800, 1036, 1, 1], [1906889399, "United States Constitution - amendments and articles", 0.0, 0, 1471132800, 49, 6, 6], [366025473, "termini base tedesco-italiano", 0.0, 0, 1478131200, 80, 0, 0], [1139381831, "Manu Basel - \u9ad8\u60a6\u4eae - HSK 1-2 -reedited", 0.0, 0, 1426032000, 300, 558, 243], [1709183482, "Integrated Chinese Vocabulary", 4.0, 2, 1360108800, 271, 0, 0], [86263563, "Illustrated Everyday Expressions with Stories", 6.0, 0, 1505001600, 40, 40, 80], [1073268897, "Integrated Chinese Simplified and Traditional Characters", 1.0, 0, 1480636800, 401, 0, 0], [1400776770, "\u2192 5000 Norwegian sentences sorted by difficulty [with audio]", 3.0, 0, 1477353600, 5169, 5134, 81], [912412174, "Corrected Student Sentences", 0.0, 0, 1421020800, 45, 0, 0], [93980248, "Japanese everyday words and phrases, translated into Russian", 1.0, 1, 1350777600, 113, 105, 21], [1994329768, "1100+ words upper intermediate English translated to Spanish", 1.0, 0, 1423008000, 1182, 1182, 36], [1476547324, "All exported words from the Duolingo Dutch course", 3.0, 1, 1453766400, 1849, 8, 16], [1364471469, "KJV Bible - Selected Verses", 0.0, 0, 1432512000, 3661, 0, 1], [1079835550, "Medical School Anatomy Deck - Abdomen - GI/Renal (Updated)", 0.0, 0, 1470700800, 335, 0, 596], [2966538659, "Chinese Radicals (Study-Ready; Simplified-Oriented)", 5.0, 0, 1345852800, 214, 0, 0], [1096999243, "10000 Hungarian sentences sorted from easiest to hardest pt1", 2.0, 0, 1485302400, 3000, 3041, 77]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ari
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ari</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1055164593, "Pimsleurs Mandarin Chinese", 4.0, 0, 1486339200, 182, 378, 86], [1743333108, "Veterinarian Vocabulary", 0.0, 0, 1498694400, 55, 0, 0], [1902973955, "Todd's Mandarin Flashcards", 0.0, 0, 1524614400, 191, 191, 0], [292817591, "Vocabulario Coreano 2", 0.0, 0, 1510963200, 72, 0, 0], [1294477939, "Bacarin de Almada Coutinho", 0.0, 0, 1520899200, 13, 0, 0], [1546703997, "Mental Arithmetic Practice", 6.0, 1, 1428624000, 40099, 1, 37], [1576168562, "ExcelMandarin Book 1 \uff0d Characters: Listening and Writing", 0.0, 0, 1524614400, 337, 337, 0], [1453016136, "ExcelMandarin Book 1 \uff0d Words: Listening and Writing", 0.0, 0, 1524528000, 196, 177, 0], [1559612469, "vocabulario", 0.0, 0, 1525478400, 59, 0, 0], [630722091, "Maria Full of Grace (\"Telenovela\" method)", 0.0, 0, 1525305600, 35, 0, 29], [1752815120, "Shanghainese (LTL Mandarin School)", 0.0, 0, 1516665600, 2136, 2036, 0], [231305422, "Minna vocabulario 1", 0.0, 0, 1523404800, 35, 3, 0], [1254756010, "Hungarian Verb List", 0.0, 0, 1517702400, 1826, 0, 0], [1445590439, "Vocabulario Espa\u00f1ol", 0.0, 0, 1519516800, 1676, 0, 0], [1848818773, "Medical Mandarin Chinese - Defense Language Institute LSK", 5.0, 0, 1418169600, 640, 640, 0], [1620904083, "Mandarin Chinese Rosetta Stone Companion", 4.0, 1, 1404518400, 3689, 0, 0], [852525535, "AnatomiaUNINTA-Respirat\u00f3rio-Cavidade Nasal; Faringe; Laringe", 1.0, 0, 1521849600, 16, 0, 16], [419854746, "R\u00e9vision : Statistiques \u00e0 deux variables", 0.0, 0, 1522972800, 4, 0, 3], [1679622788, "Vocabulario del JLPT 5 (espa\u00f1ol)", 4.0, 1, 1391731200, 731, 0, 0], [2137075066, "Ca' Foscari 2.\u65b0\u3059\u3089\u3059\u3089", 0.0, 0, 1525478400, 1675, 0, 0], [821168690, "GLOSARIO OTORRINOLARINGOLOGIA", 0.0, 0, 1494633600, 40, 0, 0], [540859367, "Norwegian-Hungarian (by I)", 1.0, 0, 1488672000, 430, 0, 0], [765143173, "Chinese (Mandarin, simplified) Ted Talk in video form, split", 0.0, 0, 1512864000, 303, 303, 0], [1231838792, "Vocabulario Coreano 3", 0.0, 0, 1510963200, 79, 0, 75], [500130008, "Vocabulario chile volvera a ser campeon", 0.0, 0, 1521244800, 40, 0, 40], [223991011, "Vocabulario Italiano- Espa\u00f1ol 2000 palabras", 0.0, 2, 1492041600, 1985, 0, 4], [1305910512, "Actuarial Exam 4/C", 1.0, 0, 1486252800, 170, 0, 246], [454931396, "Adelante Vocabulario Unidad2", 0.0, 0, 1514937600, 109, 0, 0], [264879945, "Mario Vergara - Ingl\u00eas", 0.0, 0, 1514937600, 225, 0, 0], [1122328192, "intro to Mandarim", 0.0, 0, 1524441600, 21, 0, 20], [994111468, "muskarinische Acetylcholin-Rezeptoren, Adrenorezeptoren", 0.0, 0, 1520553600, 25, 0, 0], [1528138425, "Japon\u00e9s Vocabulario y Gram\u00e1tica N2 y N1 definitivo (PBG)", 0.0, 0, 1515369600, 8800, 0, 6], [1348087088, "Provinces of the People's Republic of China (in Mandarin)", 0.0, 0, 1509494400, 34, 32, 34], [623421114, "NSF - Reproduction - (L2) Ovarian Cycles to fertilisation", 0.0, 0, 1524355200, 79, 0, 53], [1273348057, "NSF - Reproduction - (L1) Ovarian Cycle", 0.0, 0, 1524355200, 41, 0, 10], [1022681773, "Metodo Universitario - Cinese Italiano", 0.0, 0, 1491868800, 1, 1, 7], [9567757, "Envariabelanalys 2, LaTeX", 0.0, 0, 1515283200, 18, 0, 31], [2138562439, "EasyMandarin vocab", 0.0, 0, 1522368000, 559, 0, 0], [989272223, "7.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 26, 0, 0], [91349337, "Vocabulario ingles - espa\u00f1ol con la pronunciacion", 1.0, 0, 1496880000, 2915, 0, 0], [231537709, "Adelante Vocabulario Unidad9", 0.0, 0, 1515110400, 117, 0, 0], [771941117, "Basics of Ancient Ugaritic\u2014Verbs", 0.0, 0, 1520208000, 93, 0, 0], [1401673359, "Basics of Ancient Ugaritic\u2014Vocab", 0.0, 0, 1520208000, 567, 0, 0], [648658554, "multivariate", 0.0, 0, 1524009600, 20, 0, 0], [718527931, "Vocabulario Culto de Espa\u00f1ol", 2.0, 0, 1503964800, 666, 0, 9], [490897052, "English for Portuguese Book O Poder das frases-Intermediario", 1.0, 0, 1488844800, 283, 0, 0], [1942720869, "Vocabulario Chino Mandar\u00edn Benjamin", 1.0, 0, 1522800000, 280, 0, 0], [2072111958, "Vocabulario Coreano 1", 0.0, 0, 1510963200, 51, 0, 0], [17746933, "002 UNIT 5 FNI VOCABULARIO", 0.0, 0, 1519689600, 83, 0, 0], [1582742928, "Suomen Mestari 1 - suomea - \u0440\u0443\u0441\u0441\u043a\u0438\u0439", 3.0, 0, 1486339200, 1775, 0, 0], [1372457643, "Darija - Verbs", 0.0, 0, 1510876800, 123, 0, 0], [489886064, "Jordan's Mandarin Deck", 0.0, 0, 1508976000, 1535, 20, 0], [697918796, "Mandarin Chinese Core 100 - Basic words (EN  ZH with audio)", 1.0, 0, 1437436800, 202, 109, 116], [1125237850, "Vocabulario Coreano Util", 0.0, 0, 1510963200, 66, 0, 5], [583842063, "Vocabulario Tema 10 parte I Biolog\u00eda: Catabolismo", 0.0, 0, 1519516800, 19, 0, 0], [1263081049, "Tunisian Arabic (Darija) Comic Strips with native audio", 0.0, 0, 1524787200, 27, 70, 27], [1067122162, "Engenharia de Software - Gerenciamento e planejamento ", 0.0, 0, 1510876800, 28, 0, 0], [1553913628, "Vocabulario Tema 9 Biolog\u00eda: El n\u00facleo y la divisi\u00f3n celular", 1.0, 0, 1519516800, 23, 0, 0], [1719738556, "Vocabulario B\u00e1sico", 0.0, 0, 1524441600, 134, 0, 3], [1060586195, "Mandarin Pronunciation System (includes IPA)", 0.0, 0, 1526515200, 159, 0, 0], [1592487062, "HSK 1 a 6 - Mandarim > Portugu\u00eas do Brasil - (com \u00e1udios)", 21.0, 1, 1479427200, 5000, 5000, 0], [744967887, "Deck variado com frases", 0.0, 0, 1523491200, 154, 154, 0], [287721365, "Listinha do Shariban1", 0.0, 0, 1523923200, 74, 0, 0], [815854049, "Listinha do Shariban2", 0.0, 0, 1523923200, 11, 0, 0], [1067106735, "8.The most common german words.German-Hungarin", 0.0, 0, 1426204800, 81, 0, 0], [425182478, "[HUNGARIAN AUDIO] HEADWAY Preintermediate Magyar-Angol", 0.0, 0, 1524009600, 1325, 2615, 0], [288732258, "Bulgarian", 0.0, 0, 1516233600, 412, 0, 0], [1399400438, "Photography the sunny 16 rule and its variants", 0.0, 0, 1491868800, 14, 0, 0], [1597017324, "Amharic Alphabet: \"Fidel\" (With IPA & Transliteration)", 1.0, 0, 1449964800, 280, 0, 0], [1392746304, "Hungarian Core 100 - Basic words (EN  HU with audio)", 4.0, 1, 1436832000, 202, 109, 116], [17691185, "Adelante Vocabulario Unidad1", 0.0, 0, 1514937600, 124, 0, 0], [176931325, "MandarinBanana", 0.0, 0, 1483401600, 2190, 0, 226], [1002637353, "FANZCA - Professional Statements summaries", 0.0, 0, 1472515200, 42, 0, 0], [1715562140, "Bulgarian Pronouns and Grammar", 0.0, 0, 1520380800, 55, 0, 0], [208072188, "Bulgarian Verbs", 0.0, 0, 1520380800, 18, 0, 0], [1690538773, "Bulgarian Content Words", 0.0, 0, 1520380800, 11, 0, 0], [436465560, "Engenharia de Software", 0.0, 0, 1493337600, 46, 0, 0], [525807633, "poriferos, cnidarios...", 0.0, 0, 1521158400, 225, 0, 9], [729978386, "Suomen Mestari 1 - Suomea - English", 0.0, 0, 1424649600, 850, 0, 0], [530520142, "Adelante Vocabulario Unidad3", 0.0, 0, 1514937600, 139, 0, 0], [510911265, "Sanitario Pinto", 0.0, 0, 1520380800, 278, 0, 0], [988804296, "Arirang Basic Korean Conversation", 1.0, 0, 1512432000, 65, 0, 0], [1457450846, "Korean vocabularie", 0.0, 0, 1497830400, 2275, 0, 4], [1532555957, "MandarinX Mandarin Chinese for Business", 0.0, 0, 1494201600, 80, 0, 0], [601615265, "English History The reform attemps from Marius to Sulla", 0.0, 0, 1520294400, 11, 0, 0], [1802762264, "6.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 78, 0, 0], [699329711, "Mandarin Tone Pair Drills", 0.0, 0, 1518825600, 92, 88, 0], [643263283, "Barro Branco - Direito ADM - Questionarios", 0.0, 0, 1519862400, 1, 0, 0], [334578364, "Barro Branco - Direito ADM - Questionarios", 0.0, 0, 1520294400, 20, 0, 0], [141464639, "Bulgarian Core 100 - Basic words (EN  BG with audio)", 3.0, 0, 1436745600, 202, 107, 116], [131175967, "Mandarin Chinese Q&A with audio - HSKK Basic level", 0.0, 0, 1523318400, 115, 117, 0], [720464930, "Ingl\u00eas com cita\u00e7\u00f5es por Mario Vergara", 0.0, 0, 1482796800, 37, 0, 0], [1919521373, "Lab 2 - Porifera and Cnidaria", 0.0, 0, 1516579200, 53, 0, 29], [134298054, "Adelante Vocabulario Unidad4", 0.0, 0, 1515110400, 103, 0, 0], [966720746, "Adelante Vocabulario Unidad5", 0.0, 0, 1515110400, 126, 0, 0], [1050202766, "Adelante Vocabulario Unidad8", 0.0, 0, 1515110400, 110, 0, 0], [1877992074, "Duolingo Hungarian Beginner: Phrases - Ine. Case: Audio", 3.0, 0, 1517875200, 842, 1488, 0], [1880950554, "2.3 Ovarian Cysts & Epithelial Ovarian Cancer", 0.0, 0, 1514851200, 28, 0, 24], [468297238, "Sueco Espa\u00f1ol vocabulario cat\u00f3lico", 0.0, 0, 1520121600, 44, 0, 0], [425306038, "Ingl\u00eas - Portugu\u00eas 1500 frases variadas", 0.0, 0, 1489276800, 606, 70, 38], [1205151406, "Coloca\u00e7\u00e3o pronominal na L\u00edngua Portuguesa  (by mario)", 1.0, 0, 1445472000, 14, 0, 0], [1112563579, "Bible Quiz 38 Zechariah", 0.0, 0, 1525219200, 52, 0, 0], [1258164089, "ExcelMandarin Characters: Recognition", 0.0, 0, 1524268800, 335, 110, 0], [1955403315, "NSF - CNS - Ear & Hearing", 0.0, 0, 1519084800, 72, 0, 29], [549048615, "12.The most common german words.German-Hungaria3", 0.0, 0, 1426204800, 67, 0, 0], [1945979818, "Mandarin Chinese Christian Vocabulary", 0.0, 0, 1441756800, 113, 52, 0], [840634922, "The 100 most common English words, translated to Bulgarian.", 0.0, 0, 1441238400, 0, 8, 15], [1077705993, "Hungarian - english official words, administration", 1.0, 1, 1453075200, 79, 0, 0], [643903412, "ExcelMandarin Book 1 \uff0d Words: Recognition", 0.0, 0, 1524528000, 196, 177, 0], [226110233, "ExcelMandarin Book 1 \uff0d Characters: Recognition", 0.0, 0, 1524614400, 337, 337, 0], [903855358, "Sueco Espa\u00f1ol vocabulario cat\u00f3lico", 0.0, 0, 1520467200, 97, 0, 0], [2035269560, "The 40 Sounds of Mandarin Chinese | IPA Flash Deck", 1.0, 0, 1517961600, 40, 40, 38], [1322490701, "Algorithmist's Finnish Suomen Mestari Lesson 1 with Audio ", 0.0, 0, 1472342400, 87, 131, 62], [834896712, "ESPA Nivel 1 Unidad 4, vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 83, 83, 0], [2095870356, "AnatomiaUNINTA - Digest\u00f3rio - Cavidade Oral e Faringe", 1.0, 0, 1524268800, 24, 0, 24], [236381308, "[K-E] Daily Korean Vocabularies for Foreigners (Part I)", 0.0, 0, 1526169600, 774, 0, 0], [1263188624, "ESPA Nivel 2 Unidad 3. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 99, 98, 0], [1112090281, "RADD5001: Test 3 caries", 0.0, 0, 1524700800, 27, 0, 2], [1442776235, "10000 Hungarian sentences sorted from easiest to hardest pt2", 1.0, 0, 1485302400, 7000, 7048, 77], [167527344, "LTLHYKYSCRMS (LTL Mandarin School)", 0.0, 0, 1495497600, 679, 667, 0], [1704088933, "Most Used Darija", 1.0, 0, 1497312000, 262, 134, 248], [1574353409, "Moderately Modest Mandarin Sexy Time", 0.0, 0, 1473638400, 18, 38, 86], [289805497, "Vocabulario serbio - espa\u00f1ol // Serbian - Spanish Vocabulary", 0.0, 0, 1521936000, 1891, 0, 0], [1817537971, "ESPA Nivel 1 Unidad 2. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 41, 41, 0], [1155182997, "Frances B1.2 Vocabulario", 0.0, 0, 1467072000, 4, 0, 0], [1158907686, "ESPA Nivel 1, Unidad 3. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 62, 62, 0], [79976995, "Imagina Vocabulario Lecciones 1 a 10 (ingl\u00e9s-espa\u00f1ol)", 0.0, 0, 1475798400, 1418, 0, 3], [1127879404, "GLOSARIO GASTROENTEROLOGIA", 0.0, 0, 1494633600, 47, 0, 0], [885148678, "2.The most common german words.Hungarian-German", 1.0, 1, 1424563200, 54, 0, 0], [424307471, "Caribean", 0.0, 0, 1474156800, 23, 0, 23], [1119152233, "B1 8a English - Hungarian", 0.0, 0, 1469145600, 100, 1, 4], [1572543752, "Hungarian english words related authority ", 0.0, 1, 1461628800, 79, 12, 0], [1408274232, "english file intermediate unit 1 hungarian", 0.0, 0, 1466208000, 208, 0, 0], [735118080, "OPOSICIONES GEOGRAF\u00cdA E HISTORIA. VOCABULARIO TEMA 1", 0.0, 0, 1505865600, 20, 0, 0], [1822519370, "Diccionario Visual de Arte", 0.0, 0, 1496880000, 500, 0, 498], [1253364478, "Ingles vocabulario basico 1000 palabras", 0.0, 0, 1429747200, 835, 0, 0], [515215498, "4350 vocabulario Ingl\u00e9s, ordenado seg\u00fan palabras m\u00e1s comunes", 0.0, 1, 1460764800, 4350, 0, 0], [51186338, "Mandarin Vocabulary", 0.0, 0, 1456531200, 207, 0, 0], [322206547, "ESPA Nivel 2 Unidad 2. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 66, 66, 0], [1054635811, "Spanish-Polish vocab and various phrases", 0.0, 0, 1409961600, 260, 0, 0], [2349811380, "Chinese Mandarin Pinyin rules", 0.0, 0, 1355961600, 21, 0, 0], [195601326, "Amharic-English Flashcards", 0.0, 0, 1454889600, 971, 0, 0], [409348245, "New English File Elementary Words (English-Hungarian)", 0.0, 0, 1383350400, 960, 0, 0], [279689760, "9.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 112, 0, 0], [1997052714, "[F\u00edsica] Termologia (by Mario)", 0.0, 0, 1455321600, 21, 0, 5], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [198370262, "Darija", 0.0, 0, 1448668800, 1061, 442, 79], [410308095, "Shariahprogram Arabic 2014 Theory + Sarf (no tarkeeb)", 1.0, 0, 1398038400, 119, 0, 194], [1819355888, "Mandarin Chinese HSK1 - 5 Vocabulary with Audio", 1.0, 0, 1490918400, 3933, 2592, 1], [1972321539, "\u30a4\u30bf\u30ea\u30a2\u3067\u5b66\u3076\u65e5\u672c\u8a9e\u3000\uff36\uff4f\uff4c\uff0e\uff11 (Saito Mariko, Giapponese per italiani 1)", 0.0, 0, 1491436800, 1098, 0, 0], [1545089320, "ESPA Nivel 2 Unidad 1. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 35, 35, 0], [2004450396, "Biologie der Zelle Charite", 1.0, 0, 1364860800, 563, 0, 0], [1127889387, "11.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 84, 0, 0], [568480842, "English vocabularies technical", 0.0, 0, 1465430400, 79, 0, 0], [2146361167, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1350950400, 580, 0, 0], [2487070487, "Bulgarian Lesson 2", 0.0, 0, 1385078400, 80, 0, 0], [88480202, "Reconhecimento de Fun\u00e7\u00f5es Org\u00e2nicas  (by Mario)", 1.0, 0, 1445472000, 11, 0, 7], [3775930868, "Bulgarian Lesson 10", 0.0, 0, 1385078400, 23, 0, 0], [1860774131, "5.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 72, 0, 0], [2055372714, "Hungarian Rov\u00e1s\u00edr\u00e1s", 4.0, 0, 1451174400, 52, 0, 54], [1958437499, "Chinese mandarin basic vocabulary", 0.0, 0, 1437436800, 1078, 0, 0], [2068198357, "Edexcel Chinese (Mandarin) GCSE - Reading Vocab", 1.0, 0, 1434240000, 770, 762, 0], [48505565, "English - Hungarian Dictionary 1. THE UNIVERSE", 0.0, 1, 1455408000, 25, 0, 0], [3825293842, "New English File Upper Intermediate Words(English-Hungarian)", 0.0, 0, 1426204800, 255, 0, 0], [2375007277, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 1", 0.0, 0, 1363305600, 390, 0, 0], [1846355525, "Basic arithmetics for children", 0.0, 0, 1476230400, 765, 0, 0], [266859180, "English - Hungarian Dictionary 1. THE PLANETS", 0.0, 1, 1456099200, 32, 0, 0], [38423894, "Mandarin Chinese Grammar", 0.0, 0, 1503446400, 1430, 19, 0], [114508291, "Hungarian-English 25000", 1.0, 1, 1426377600, 25280, 0, 3], [1718126588, "ESPA Nivel 2 Unidad 4. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 131, 129, 0], [1924746534, "Verb auxiliaries", 0.0, 0, 1504310400, 59, 0, 0], [3984871790, "Bulgarian Lesson 3", 0.0, 0, 1385078400, 38, 0, 0], [3150532499, "Bulgarian Lesson 6", 0.0, 0, 1385078400, 93, 0, 0], [2750629478, "Hungarian-French basic words", 0.0, 0, 1345852800, 504, 182, 25], [875693297, "Basic Mandarin", 0.0, 0, 1475107200, 904, 0, 0], [3795203828, "New English File Pre-Intermediate Words (English-Hungarian)", 0.0, 0, 1383436800, 598, 0, 0], [1997565813, "Verbi irregolari (passato prossimo)", 1.0, 0, 1391126400, 50, 100, 0], [888858991, "prepositions angol-magyar (english-hungarian)", 1.0, 0, 1433894400, 466, 0, 0], [329800646, "\u5909\u4f53\u4eee\u540d Hentaigana Variant Kana", 0.0, 0, 1417046400, 347, 0, 0], [286218860, "Spanish - Bulgarian (MySpanish)", 1.0, 0, 1499212800, 1575, 0, 0], [3682081450, "  Thorax wall and boundaries, surface anatomy and breast. 9.", 0.0, 0, 1373414400, 36, 0, 40], [1334488629, "Pimsleur Hungarian", 0.0, 1, 1502064000, 206, 0, 0], [2081796392, "A variety of Japanese sentences", 5.0, 0, 1438128000, 9679, 0, 0], [3054511886, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 2", 1.0, 1, 1363305600, 79, 0, 0], [87694775, "Medina Book 1 - Vocabulario", 0.0, 0, 1479772800, 502, 501, 0], [270583170, "[F\u00edsica] Calorimetria (by Mario)", 0.0, 0, 1455321600, 16, 0, 8], [1113713506, "New Headway Intermediate 4th edition - Hungarian [gubus] ", 1.0, 0, 1445904000, 1398, 2796, 1], [1011054469, "Suomen Mestari 2 - suomea - \u0440\u0443\u0441\u0441\u043a\u0438\u0439", 1.0, 0, 1485907200, 912, 0, 0], [1784738072, "Verbs in Bulgarian. Most common verbs in different conjug.", 0.0, 0, 1504483200, 439, 0, 0], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 1.0, 0, 1373241600, 2049, 0, 0], [843008528, "Bulgarian Lesson 4", 0.0, 0, 1385078400, 76, 0, 0], [263335429, "Bulgarian Lesson 8", 0.0, 0, 1385078400, 166, 0, 0], [2473346403, "Bulgarian Lesson 7", 0.0, 0, 1385078400, 76, 0, 0], [3320353144, "Bulgarian Lesson 5", 0.0, 0, 1385078400, 145, 0, 0], [1064707712, "10.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 81, 0, 0], [4137470458, "Bulgarian Lesson 9", 0.0, 0, 1385078400, 32, 0, 0], [1666431979, "Vasco/Basque/Euskera 1 - Vocabulario b\u00e1sico", 0.0, 0, 1443398400, 20, 0, 1], [1012673030, "3.The most common german words.Hungarian-German", 0.0, 1, 1424563200, 67, 0, 0], [178023466, "Plant Idents - Various Plants", 0.0, 0, 1444089600, 20, 0, 21], [3516621390, "Devanagari numeral digits to Arabic numeral digits", 1.0, 1, 1375142400, 10, 0, 0], [1741486205, "12.The most common german words.German-Hungarian", 0.0, 1, 1426204800, 122, 0, 0], [177410465, "Hungarian Unit 1 - 4 Vocabulary", 1.0, 0, 1413504000, 258, 0, 0], [441249167, "Feste und Feiertage - deutsch-ungarisch", 0.0, 0, 1456099200, 103, 0, 0], [435677418, "vocabulario ingles-espa clase", 0.0, 0, 1453852800, 350, 0, 0], [1755512479, "Vasco/Basque/Euskera 1 - Vocabulario lugares", 0.0, 0, 1443398400, 40, 0, 1], [253334733, "Direito Previdenciario AFRFB FSSILVA", 1.0, 0, 1424390400, 335, 0, 16], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 1, 1430956800, 60, 60, 119], [368276300, "english file intermediate unit 2 hungarian", 0.0, 1, 1466208000, 95, 0, 0], [3649522441, "New Headway Intermediate English-Hungarian lesson 1", 1.0, 1, 1359504000, 102, 0, 0], [1624092445, "Migration words hungarian english Migr\u00e1ci\u00f3s szavak angol", 1.0, 0, 1461628800, 109, 12, 0], [36387055, "Pronunciation Practice for Mandarin Chinese", 0.0, 0, 1477267200, 35, 35, 0], [1717445806, "Swedish vocabularies for German speaking persons", 1.0, 0, 1444262400, 645, 0, 0], [438728818, "Mandarin Radicals with Pinyin and English", 0.0, 0, 1425340800, 214, 0, 0], [2175577455, "Bulgarian Lesson 12", 0.0, 0, 1385078400, 194, 0, 0], [196757232, "20,000 + mandarin sentences plus annotations", 0.0, 0, 1391904000, 22349, 0, 0], [1405065715, "Various English words (intermediate/advanced level) [EN-PL]", 0.0, 0, 1379462400, 156, 0, 0], [331794875, "4.The most common 2000 german words.German-Hungarian", 0.0, 1, 1424563200, 35, 0, 0], [1485090438, "Como se diz em ingl\u00eas - Mario Vergara", 1.0, 0, 1469145600, 10, 10, 0], [515846693, "Vocabulario espagnol fran\u00e7ais terminale", 0.0, 0, 1389744000, 358, 0, 0], [474724357, "Computer Science - Various", 0.0, 0, 1502064000, 754, 0, 140], [1892382296, "Mandarin Phonology and Pinyin", 0.0, 0, 1473292800, 214, 0, 6], [793705624, "CT scans of thorax at various levels", 0.0, 0, 1423958400, 5, 0, 13], [111282358, "German-Hungarian", 0.0, 1, 1424563200, 46, 0, 0], [716867950, "English-Bulgarian Bulgarian-English Vocabulary", 0.0, 0, 1455235200, 320, 0, 0], [1230635908, "Nihongo Somatome N3 vocabulario_esa\u00f1ol(quetzalli)", 0.0, 0, 1382745600, 1397, 0, 0], [3828115217, "Bulgarian Lesson 11", 0.0, 0, 1385078400, 39, 0, 0], [2701788669, "Deutsch - Ungarisch / German - Hungarian", 2.0, 0, 1345852800, 1016, 0, 0], [420867799, "Devanagari Script (Nepali)", 2.0, 0, 1449532800, 62, 0, 0], [2037763804, "Traveller Pre-Intermediate 1a-1e (hungarian)", 1.0, 0, 1477785600, 294, 11, 44], [1381721808, "(2) NEY VASCONCELLOS - 4.000 Palavras: DICIONARIO", 0.0, 0, 1465257600, 600, 1841, 637], [15980387, "Russian-Hungarian words", 1.0, 1, 1436400000, 131, 0, 0], [17072185, "Bulgarian Lesson 1", 2.0, 0, 1385078400, 23, 0, 0], [714515294, "sanskrit - devanagari script", 0.0, 0, 1456790400, 57, 0, 0], [241060352, "Amharic_ILRI", 0.0, 0, 1445472000, 317, 316, 314], [17264954, "Mandarin (Taiwan's variant) vocabulary 7324 words", 0.0, 0, 1423785600, 7324, 0, 0], [1787478525, "Chinese (Mandarin) Quick & Dirty 30 (EN  ZH)", 0.0, 0, 1443225600, 60, 38, 45], [575877943, "HSK 4 high-frequency vocabularies", 0.0, 0, 1455408000, 85, 0, 0], [1801954614, "English-Hungarian Grammar sample sentences", 0.0, 0, 1472515200, 2423, 1, 6], [1945194311, "Tagesablauf - deutsch-ungarisch", 0.0, 0, 1456099200, 117, 0, 0], [970818623, "Traveller B1+ 3a-b English- Hungarian - by szatti", 0.0, 0, 1478390400, 271, 1, 6], [274293001, "Mario Vergara site", 7.0, 0, 1458864000, 2418, 2116, 0], [1915502510, "Neugriechisch -  Maria Christmann-Petropoulou ", 1.0, 0, 1402617600, 536, 520, 191], [1589501113, "Vocabulario chino ManuelB", 0.0, 0, 1459555200, 1538, 0, 0], [370202981, "arianpour IELTS vocab class", 0.0, 0, 1448496000, 1206, 35, 67], [475330361, "Mandarin sentences business casual", 0.0, 1, 1452643200, 9750, 0, 0], [1875520915, "FSI II Hungarian Basic Sentences (with audio)", 3.0, 0, 1406592000, 929, 930, 0], [1798068131, "ESPA Nivel 1 Unidad 1. Vocabulario ingl\u00e9s-espa\u00f1ol", 0.0, 0, 1478131200, 19, 19, 0], [1014873762, "Devanagari Hindi Script", 1.0, 1, 1455148800, 49, 48, 0], [125135140, "vocabulario jlpt n5 em frases", 0.0, 0, 1490313600, 171, 9, 38], [628514035, "verbi italiani irregolari", 2.0, 0, 1360022400, 2840, 0, 0], [507768052, "FSI II Hungarian Vocab", 2.0, 0, 1406592000, 1044, 1, 0], [4005856339, "esperanto-espa\u00f1ol vocabulario", 1.0, 0, 1345852800, 3672, 0, 0], [430263280, "Vocabulario - Minna no Nihongo I", 6.0, 0, 1462838400, 703, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 10.0, 1, 1372636800, 1966, 0, 0], [99251831, "Ungarisch - Deutsch: Vokabel, Grammatik, Ausdr\u00fccke", 0.0, 0, 1385337600, 1669, 0, 0], [2028485834, "B1 8b English - Hungarian", 0.0, 0, 1469318400, 133, 1, 6], [965319305, "English-Hungarian Grammar sample", 1.0, 1, 1467072000, 1011, 1, 6], [263726934, "Rosetta Stone Mandarin", 0.0, 1, 1428105600, 908, 0, 0], [1490825592, "D\u00e9finitions Clinique IED Paris 8", 0.0, 0, 1479600000, 58, 0, 0], [1339836131, "Russe CMA de Paris E1 E2 Interm\u00e9diare Avanc\u00e9", 2.0, 0, 1485734400, 2224, 1770, 0], [124854924, "FSI Hungarian I Vocab & Basic Sentences (with audio)", 6.0, 0, 1405900800, 2129, 2130, 0], [1944554978, "Peace Corps Darija Dictionary (Script)", 0.0, 0, 1409702400, 748, 0, 0], [3158689986, "W\u0142oski - s\u0142ownictwo podstawowe PL-IT (Mariola Kowalewska)", 0.0, 0, 1345852800, 1081, 0, 0], [3777398049, "Bulgarian Foods", 0.0, 0, 1385078400, 83, 0, 0], [1096999243, "10000 Hungarian sentences sorted from easiest to hardest pt1", 2.0, 0, 1485302400, 3000, 3041, 77]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

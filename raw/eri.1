@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Eri
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Eri</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[351264281, "anterior triangle of the neck", 0.0, 0, 1527206400, 102, 0, 31], [1713512877, "Orthodontics Final: Lecture Material, Pt. II", 0.0, 0, 1511827200, 524, 0, 91], [792532510, "SQl Queries", 0.0, 0, 1510790400, 123, 0, 0], [1743333108, "Veterinarian Vocabulary", 0.0, 0, 1498694400, 55, 0, 0], [1627262533, "ENGINEERING", 0.0, 0, 1527638400, 7, 0, 0], [833679283, "AQA AS physics MATERIALS", 0.0, 0, 1515974400, 19, 0, 0], [1526252324, "Eric Eric Eric", 0.0, 0, 1526342400, 0, 0, 0], [795015158, "Real Sentences Series 2", 0.0, 0, 1523923200, 2356, 2356, 0], [1016625552, " Real Sentences Series 3", 0.0, 0, 1523923200, 2019, 2019, 0], [257082609, " Real Sentences Series 4", 0.0, 0, 1523923200, 3022, 3022, 0], [633362247, "Real Sentences Series 5", 0.0, 0, 1523923200, 2536, 2536, 0], [1770056221, "Fonts \u2013 characteristics & history of popular typefaces", 3.0, 0, 1496707200, 47, 0, 0], [477508551, "Beginner Latin American Spanish Sentences", 24.0, 1, 1516579200, 1224, 1216, 0], [7338092, "GCHS - Spanish 2H - Preterito", 0.0, 0, 1517529600, 28, 0, 0], [1108368630, "Anglais CPGE COUPERIN +", 0.0, 0, 1522281600, 5537, 0, 0], [1851784330, "Nanomaterials in Chemical and Biochemical Engineering 5", 1.0, 0, 1526515200, 285, 0, 2], [1942058312, "Remembering the Kanji Vol. 1, 4th Edition (plus extra)", 0.0, 0, 1519948800, 3000, 0, 0], [91635244, "(vanha merirosvo) \u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Magyar-Orosz", 0.0, 0, 1519516800, 12517, 0, 0], [803910281, "Elementary Function Derivatives", 0.0, 0, 1502409600, 14, 0, 28], [1389021344, "1/2 meridians final extra credit", 0.0, 0, 1523059200, 22, 0, 44], [1226689493, "[VectorMaps] The United States of America", 39.0, 0, 1368662400, 50, 0, 50], [2004030225, "Requirements Engineering", 0.0, 0, 1525478400, 161, 0, 53], [1752829911, "Besuch von franz\u00f6sischen Muttersprachlerinnen", 0.0, 0, 1522800000, 2935, 0, 0], [1749433712, "Comprehensive Periodic Table of the Elements", 9.0, 1, 1468540800, 118, 0, 116], [952094571, "Heisig - Remebering the Kanji Vol1 (1-100)", 9.0, 1, 1413417600, 100, 0, 0], [425787547, "PERI5001: Labs 2-5", 0.0, 0, 1524700800, 41, 0, 7], [1000797088, "Introducci\u00f3n a los tratamientos psicodin\u00e1micos, experienc..", 0.0, 0, 1518048000, 1057, 0, 0], [305664437, "Common American Phrases", 1.0, 0, 1507161600, 2130, 0, 0], [1846476276, "Bacteriolog\u00eda UCM 2B ", 2.0, 0, 1524873600, 235, 0, 4], [114804041, "Development: covering iOS, linux admin, algorithms and more ", 0.0, 0, 1479859200, 57, 1, 2], [2105110930, "Geriatria", 0.0, 0, 1513036800, 141, 0, 6], [112034804, "Software Engineering", 0.0, 0, 1491350400, 1394, 27, 2287], [1523940861, "2. Project Characteristics and Measuring Success", 0.0, 0, 1525132800, 28, 0, 0], [892986835, "FINRA Series 7", 0.0, 0, 1500508800, 922, 0, 19], [1467379054, "(vanha merirosvo) \u041d\u0435\u043c\u0435\u0446\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Deutsch-Russisch", 0.0, 0, 1519516800, 1676, 0, 0], [1458579141, "The Number One Characteristic of Successful Learners", 1.0, 0, 1519344000, 33, 33, 0], [1942695264, "iHE_L28_Materials", 0.0, 0, 1523923200, 10, 10, 10], [1497793466, "AnatomiaUNINTA - Cardiovascular - Membros Superiores", 2.0, 0, 1521158400, 12, 0, 12], [231157213, "(vanha merirosvo) \u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Italiano-Russo", 0.0, 0, 1519516800, 70206, 0, 0], [978463777, "09A-2,5 Cooking Verbs & Answering", 0.0, 0, 1523232000, 8, 0, 6], [131084658, "YDS \u0130ngilizce den  T\u00fcrk\u00e7e'ye \u0130simler ve T\u00fcrevleri  ", 0.0, 0, 1485734400, 1150, 1145, 1], [788445595, "DANA5002: Test 2 Anterior neck (Gulati)", 0.0, 0, 1520812800, 91, 0, 2], [1520423974, "\u2022 4000 most frequently used german words [Neri]", 7.0, 0, 1516838400, 4012, 8562, 0], [1361715802, "Perio II-2", 0.0, 0, 1526169600, 123, 0, 10], [1147833469, "PERI5001: test2 Aggressive perio", 0.0, 0, 1520899200, 42, 0, 0], [554088453, "Remembering the Kanji 1, 3, \u221e (+ Vocab/Better Keywords)", 0.0, 0, 1408492800, 3235, 3, 0], [352182361, "Periodic Table: 25 Elements", 1.0, 1, 1482624000, 25, 29, 137], [723592150, "ATOM meridians quizzes LU, LI, ST, SP", 0.0, 0, 1512691200, 60, 0, 0], [1477878469, "Software Engineering Interview Questions", 0.0, 0, 1522195200, 8, 0, 0], [632752424, "Bacteriology - Avian", 0.0, 0, 1523577600, 141, 0, 5], [1221731749, "Common Basic Derivatives", 0.0, 0, 1510876800, 16, 0, 25], [86923209, "Anatom\u00eda Osteomuscular de miembro superior CES", 2.0, 0, 1502928000, 71, 0, 41], [2005866784, "Cloze Using Materials in Oxford Dictionary|\u725b\u6d25\u4f8b\u53e5\u586b\u7a7a", 4.0, 0, 1465862400, 3126, 0, 0], [1028379138, "Derivatives and Integrals", 0.0, 0, 1505692800, 59, 0, 0], [421710239, "Birds of North America", 1.0, 0, 1503705600, 706, 706, 450], [332830064, "Elekrochemische Energiespeicherung in Batterien", 0.0, 0, 1522886400, 32, 0, 34], [850435853, "Swine Bacteria Class Questions", 0.0, 0, 1516147200, 40, 0, 0], [659529929, "OCR Biology A- Patterns of Inheritance ", 0.0, 0, 1526774400, 34, 0, 0], [1376111740, "AnatomiaUNINTA - Cardiovascular - Membros Inferiores", 2.0, 0, 1521158400, 10, 0, 10], [1889285409, "Heisig - Remebering the Kanji Vol1 (201-300)", 5.0, 1, 1413417600, 100, 0, 0], [378138953, "PERI501: Lab #1", 0.0, 0, 1524614400, 87, 0, 15], [2046655767, "Cambridge Series", 0.0, 0, 1507766400, 6940, 157, 159], [1528737244, "American Slang words", 0.0, 0, 1510099200, 3, 0, 0], [15045563, "FMVZ-Bacteriologia M2", 0.0, 0, 1526428800, 99, 0, 0], [1984285834, "Remembering Simplified Hanzi (Heisig)", 0.0, 0, 1508630400, 3018, 3017, 0], [209961480, "DSM 5 Criteria", 0.0, 0, 1486339200, 151, 0, 0], [2056102032, "Anglais Industrie Couperin ", 0.0, 0, 1523404800, 149, 0, 0], [79785458, "Bacteriology Final Exam", 0.0, 0, 1523664000, 318, 0, 17], [424958819, "INORGANIC CHEMISTRY period 3", 0.0, 0, 1516060800, 23, 0, 0], [79018913, "Arteries and Veins", 0.0, 0, 1516924800, 132, 0, 93], [1692833737, "Anatomy - Pelvic Diaphragm, Pelvis, and Perineum", 0.0, 0, 1508976000, 45, 0, 51], [823257984, "ERTH 2312 Cnideria and Porifera Review", 0.0, 0, 1522800000, 30, 0, 9], [466608962, "periop exam 2", 0.0, 0, 1526947200, 143, 0, 10], [988992922, "Block 5 Week 2 SBOD - Posterior Triangle, Pharynx, Larynx", 0.0, 0, 1510963200, 141, 0, 92], [583892128, "Deutsch/B2/Experiment/Tjumen", 0.0, 0, 1526428800, 40, 0, 0], [1901257389, "PERI5001: fundamentals of periodontology", 0.0, 0, 1516406400, 97, 0, 4], [281186759, "Mastering Arabic (Wightwick and Gaafar)", 1.0, 0, 1507075200, 145, 0, 0], [320633244, "TV - Serie - Frinds S1E3 - phrases English to Portuguese", 1.0, 0, 1498003200, 324, 0, 0], [2128938406, "Real Sentences Series 6", 0.0, 0, 1523923200, 2799, 2799, 0], [738845600, "Chemie 2 Periodensystem", 0.0, 0, 1518825600, 19, 0, 2], [140876002, "Infodoceric", 0.0, 0, 1523232000, 4, 1, 0], [1506869770, "Das Periodensystem der Elemente 2010 (112 Elemente)", 0.0, 0, 1345852800, 112, 0, 0], [1573538217, "zelfbeeld aan zelfwaardering", 0.0, 0, 1524873600, 5, 0, 0], [395654496, "CMA Capitals of America", 0.0, 0, 1487203200, 27, 29, 133], [2071572967, "Material de embalagem - Bastos", 0.0, 0, 1523404800, 70, 0, 0], [1336843216, "ENT Minimal Criteria (Semmelweis)", 0.0, 0, 1527033600, 0, 0, 0], [1550508822, "Bacteriology", 0.0, 0, 1515283200, 809, 0, 82], [399436951, "Lukion biologia, verisoluja", 0.0, 0, 1516924800, 15, 0, 0], [781471411, "Qual a principal OBJETIVO da ADM DE MATERIAIS?", 0.0, 0, 1526947200, 0, 0, 0], [628966081, "Basic Flute Fingerings", 0.0, 0, 1481068800, 24, 0, 40], [1115728924, "S\u00edndromes ictericas", 0.0, 0, 1520985600, 8, 0, 0], [1933585441, "Perio II-1", 0.0, 0, 1520812800, 421, 0, 34], [1368627258, "InheritedSyndromes Natasha USMLE", 0.0, 0, 1467331200, 71, 0, 6], [684148606, "POWER ENGINEERING 4th Class Part A1", 0.0, 0, 1487894400, 714, 0, 153], [1570116959, "Microbiology - Gram-negative Bacteria", 0.0, 0, 1370044800, 45, 0, 27], [1966560446, "Spanish irregular verbs  (preterite)", 0.0, 0, 1480377600, 14, 0, 0], [801242379, "PermisQSER+VERIF", 0.0, 0, 1526947200, 81, 0, 0], [1567234722, "Exam 3 OCT and Uterine Drugs", 0.0, 0, 1525564800, 0, 0, 0], [341063187, "Optimering", 0.0, 0, 1527033600, 18, 0, 51], [35307024, "Series 65 Flashcards", 0.0, 0, 1487721600, 135, 0, 0], [985958866, "ID - Enteric viruses - Viral induced intestinal disease ", 0.0, 0, 1520726400, 46, 0, 26], [1924469390, "iHE_Materials (updated)", 0.0, 0, 1524096000, 10, 10, 10], [984632029, "Beginner 2 Latin American Spanish Sentences", 1.0, 0, 1519603200, 2162, 2142, 0], [772125846, "Bakterier och lajbans", 0.0, 0, 1525824000, 45, 0, 0], [2059640417, "Calculus: trig derivatives", 1.0, 0, 1464998400, 9, 0, 12], [138751107, "Heisig's Remembering The Kanji", 5.0, 1, 1489622400, 3000, 0, 0], [558607438, "North American Biomes and National Parks", 0.0, 1, 1460246400, 135, 0, 117], [485764848, "Native Immersion #35\u2013 American Sports Idioms", 0.0, 0, 1525392000, 30, 30, 0], [1122727713, "Italiano. Numeri cardinali", 0.0, 0, 1524009600, 119, 0, 0], [150185779, "Geriatrics", 0.0, 0, 1524700800, 357, 0, 15], [66861415, "RACP Inherited syndromes", 0.0, 0, 1520640000, 175, 0, 51], [1325999649, "Engineering Materials (HSC Engineering Studies)", 0.0, 0, 1490659200, 66, 0, 0], [3537271157, "FINRA Series 7 - 2012", 0.0, 0, 1375833600, 486, 0, 0], [1331884850, "Italiano. Numeri ordinali", 0.0, 0, 1524009600, 119, 0, 0], [1548350544, "(vanha merirosvo) \u041d\u0435\u043c\u0435\u0446\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Deutsch-Russisch", 1.0, 0, 1519516800, 174718, 0, 0], [800597601, "Requirements Engineering Flashcards", 0.0, 0, 1516060800, 61, 1, 9], [2145214821, "The 42 Sounds of American English | IPA Flash Deck", 0.0, 0, 1517961600, 42, 42, 37], [1122368190, "(vanha merirosvo) \u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / Fran\u00e7ais-Russe", 0.0, 0, 1519516800, 81735, 0, 0], [2141571282, "Bacteriologia M3", 1.0, 0, 1515110400, 88, 0, 0], [148344388, "Piano grand staff, key, and scale fingering basics MacFarren", 0.0, 0, 1499644800, 147, 0, 73], [287218956, "E-pathology: Pediatric, placental, & perinatal pathology", 0.0, 0, 1518652800, 176, 0, 25], [1953084002, "James W. Heisig Remembering Traditional Hanzi Vol.1", 0.0, 0, 1514764800, 1500, 0, 0], [1882499059, "Une Pile d'Erik", 0.0, 0, 1527292800, 2060, 2080, 2632], [661687139, "PERI5001: test2 Chronic perio", 0.0, 0, 1520899200, 43, 0, 2], [843023023, "PERI5001: test2 Plaque control techniques", 0.0, 0, 1520899200, 76, 0, 1], [551783526, "Android Development with Kotlin: Generic", 0.0, 0, 1516233600, 24, 0, 0], [50011729, "Heisig's remembering the kanji - 6th edition - All In One ", 0.0, 1, 1502841600, 3000, 0, 1637], [3883592462, "Danish version of Heisigs Remembering the Kanji 6th edition", 1.0, 0, 1375488000, 2200, 0, 0], [961063965, "FA-DE Konjugation von Verben (Pr\u00e4sens/Pr\u00e4teritum/Futur I)", 0.0, 0, 1511481600, 445, 0, 0], [1440128356, "anatom\u00eda extremidad superior. JCM", 0.0, 0, 1518998400, 100, 0, 42], [2071901206, "Remembering the Hanzi 1", 0.0, 0, 1345852800, 1500, 0, 0], [62003592, "James W. Heisig Remembering Traditional Hanzi Vol.2", 0.0, 0, 1514764800, 1536, 0, 1], [134311655, "YDS \u0130ngilizce den T\u00fcrk\u00e7e'ye \u0130simler ve T\u00fcrevleri", 0.0, 0, 1508371200, 1150, 1145, 1], [781350864, "Software Engineering - UoM 2017", 2.0, 0, 1494806400, 114, 0, 4], [1645525790, "Essential Calculus Identities (Integrals, Derivatives, Trig)", 0.0, 0, 1517788800, 40, 0, 80], [1079326533, "Bacteri\u00ebn voor 2B1 Geneeskunde Rotterdam", 0.0, 0, 1520208000, 13, 0, 0], [750214193, "English derivational pairs with pronunciation", 0.0, 0, 1517184000, 45, 88, 0], [731280596, "Preteritum", 0.0, 0, 1522454400, 42, 0, 0], [268376408, "South American States with Capitals and Flags", 2.0, 0, 1428969600, 15, 8, 17], [1036845280, "RADD5001: Test 3 Radiology in peril (peacock)", 0.0, 0, 1524614400, 37, 0, 6], [2114352374, "Heisig's Remembering the Kanji 6th Ed_First 294 Kanji ", 0.0, 0, 1518912000, 313, 0, 10], [619200347, "HENRION TS - P2 - caracteristiques des ondes", 0.0, 0, 1524096000, 36, 0, 26], [904475718, "FMVZ-Bacteriologia M1", 1.0, 0, 1524787200, 252, 0, 0], [474595048, "Europako, Espainiako eta Euskadiko biztanleria eta jarduera ", 0.0, 0, 1520294400, 84, 0, 0], [1699568992, "IHI430 - Bakteriologi", 0.0, 0, 1520899200, 39, 0, 0], [5407790, "Vocabulaire Espagnol CPGE Couperin", 0.0, 0, 1507507200, 249, 0, 0], [756417066, "Vocabulaire Anglais CPGE Couperin", 0.0, 0, 1507507200, 153, 0, 0], [1796885671, "ANGLAIS VENTE BAC PRO ANIMALERIE", 0.0, 0, 1521072000, 16, 0, 0], [404015883, "FBS - Pharmacology: Mycobacteria and Fungi", 0.0, 0, 1509667200, 47, 0, 0], [1896339791, "Eric Watson Japanese Vocabulary", 0.0, 0, 1468281600, 46, 0, 46], [1078442202, "ms_ConqueringThePGRE", 0.0, 0, 1522454400, 96, 0, 134], [39221134, "Colours, shapes, materials (K\u0119trzyn)", 0.0, 0, 1509667200, 30, 30, 30], [1167360200, "Remembering Traditional Hanzi Heisig Book 1", 1.0, 0, 1507507200, 1499, 0, 0], [625029814, "Chem 103 - Ions and Periodic Table etc", 0.0, 1, 1412726400, 107, 0, 0], [323670002, "Real Sentences Series 1", 0.0, 0, 1523923200, 2267, 2267, 0], [2052035901, "Remembering The Kana - Hiragana ", 0.0, 0, 1484092800, 9, 0, 0], [2000817267, "MP - Matematica e geometria per superiori", 0.0, 0, 1446768000, 104, 41, 100], [1910406713, "Periods of Classical Music", 1.0, 0, 1345852800, 65, 0, 0], [1533853649, "02 Project Characteristics", 0.0, 0, 1525046400, 23, 0, 0], [900081299, "Periodic Table of Elements", 0.0, 0, 1505174400, 112, 0, 0], [2142241244, "RADD5001: Test 2 Periapical disease", 0.0, 0, 1521763200, 65, 0, 11], [133102434, "Dental Materials 1", 0.0, 0, 1512864000, 403, 0, 3], [675898937, "Heritage MLS Clinical Chemistry", 0.0, 0, 1507161600, 893, 0, 9], [1245596822, "(vanha merirosvo) \u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u043e-\u0420\u0443\u0441\u0441\u043a\u0438\u0439 / English-Russian", 0.0, 0, 1519516800, 91310, 0, 0], [490209917, "Periodic table memory pegs", 4.0, 0, 1491436800, 105, 8, 2], [1866922257, "Metabolismo anaerobio de la glucosa en el eritrocito", 0.0, 0, 1520985600, 113, 0, 19], [1507853982, "periop exam 1", 0.0, 0, 1526342400, 59, 0, 0], [1038485603, "YDS \u0130ngilizce den  T\u00fcrk\u00e7e'ye Filler ve T\u00fcrevleri", 0.0, 0, 1485907200, 1056, 1054, 0], [1460254598, "Electrical Engineering formulie", 1.0, 0, 1487289600, 613, 0, 1410], [580499734, "Heritage MLS Blood Bank", 0.0, 0, 1507161600, 338, 0, 0], [738245993, "Managerial Accounting (UIC ACTG 211)", 0.0, 0, 1462838400, 103, 0, 9], [110041737, "Periodic Table", 7.0, 0, 1439596800, 109, 0, 0], [1604467414, "Tabla de derivadas", 0.0, 0, 1504224000, 43, 0, 0], [530649495, "Software Engineering", 0.0, 0, 1477094400, 10, 0, 1], [1119120132, "1/2 meridians quizzes", 0.0, 0, 1523318400, 108, 0, 0], [653129120, "Anatomy - Posterior Abdominal Wall and Pelvis Clinical Corre", 0.0, 0, 1508976000, 61, 0, 51], [947164600, "Vocab from Extra Deutsch Lernen Series", 2.0, 0, 1501113600, 403, 371, 398], [1395089395, "Spanish Nouns Latin America Simon Bolivar School Ecuador", 0.0, 0, 1480291200, 590, 39, 53], [685050780, "Some Word of English for the student of engineering book", 0.0, 0, 1493337600, 118, 26, 0], [2002445263, "Mastering Chinese (Pinyin)", 0.0, 0, 1509840000, 187, 0, 0], [665985483, "POLUI\u00c7\u00c3O ATMOSFERICA", 0.0, 0, 1524441600, 29, 0, 0], [8616450, "Units for Some Derived SI Quantities", 0.0, 0, 1448928000, 10, 0, 9], [4044939073, "Microbiology - Anaerobic Bacterial Infections", 1.0, 0, 1369785600, 23, 0, 14], [2029107991, "United States of America: US States, Maps, Flags, Capitals", 3.0, 0, 1497830400, 51, 0, 65], [1133534652, "FBS - Microbiology: Pathogenic Mycobacteria", 0.0, 0, 1508976000, 23, 0, 0], [476937617, "Greek letters used in mathematics, science, and engineering", 0.0, 0, 1500854400, 25, 0, 0], [2091054945, "Veterinary medicine 1st year S1 UCD", 0.0, 0, 1482537600, 642, 0, 225], [741882144, "Anatomia - Membro Superior", 1.0, 0, 1521072000, 199, 0, 0], [1533765180, "MLU Numerik", 0.0, 0, 1509667200, 582, 0, 20], [1035945593, "FBS - Microbiology: Gram Negative Bacteria", 0.0, 0, 1507248000, 54, 0, 2], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 2.0, 0, 1345852800, 3007, 0, 0], [1587286175, "David's Veterinary Anatomy Cards - Muscles of Dog", 0.0, 0, 1481328000, 290, 0, 23], [19585319, "Brand-Generic Rx Drugs", 0.0, 0, 1498867200, 275, 0, 0], [1742229320, "OSU - MSK - Gluteal Region and Posterior Thigh", 0.0, 0, 1418342400, 80, 0, 41], [1097944370, "INGL\u00caS - Viagens - Palavras Pesquisadas no Exterior", 0.0, 0, 1509062400, 31, 31, 0], [1205172059, "Infectious Diseases - UC Davis Veterinary - Quiz 5", 0.0, 0, 1488931200, 299, 0, 319], [1270061327, "University at Buffalo Calculus I Derivatives (MTH141)", 0.0, 0, 1508284800, 33, 0, 66], [2015383923, "ASL American sign language dictionary in SignWriting 2015", 0.0, 0, 1431129600, 5774, 0, 5795], [163577162, "Calculus I - Common Derivatives and Properties", 1.0, 0, 1468195200, 19, 17, 10], [661873878, "Electrical and Computer Engineering ", 0.0, 0, 1476489600, 12, 1, 5], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [2090663515, "Symbols for Some Derived SI Quantities", 0.0, 0, 1395532800, 10, 0, 9], [1809903103, "Periodensystem mit Atomdaten", 4.0, 0, 1351123200, 118, 0, 0], [607067326, "Engineering Economy", 0.0, 0, 1503273600, 111, 0, 0], [711567140, "800 Spanish Verbs Cloze - preterito indicativo", 1.0, 0, 1501113600, 5665, 0, 0], [2041636911, "Strength of Materials", 0.0, 0, 1503273600, 114, 0, 0], [1079844839, "HSC Chemistry Module 1 - Production of Materials ", 0.0, 0, 1469750400, 103, 3, 9], [1948865008, "French/American: Avoir & Etre", 0.0, 0, 1460851200, 15, 0, 0], [3528052324, "Heiseg's remembering the kanji", 0.0, 0, 1345852800, 3007, 0, 0], [174464096, "Diederich - Latin", 0.0, 0, 1398643200, 1475, 0, 3], [2520473800, "Anatomy:  Lungs, Superior and Posterior Mediastinums", 0.0, 0, 1383091200, 36, 0, 38], [1331750702, "Obs & Gynae Notes Cherie Deans", 0.0, 0, 1504396800, 578, 0, 74], [1491356119, "Urology Flashcards Cherie Deans", 0.0, 0, 1504396800, 184, 0, 31], [864908079, "Ophthalmology Notes Cherie Deans", 0.0, 0, 1504396800, 319, 0, 151], [751782965, "Mastering Muscles and Movement Group 4", 0.0, 0, 1355097600, 10, 0, 20], [546562774, "ScribeAmerica", 0.0, 0, 1501632000, 199, 0, 0], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [1050322009, "Colloquial Spanish of Latin America", 2.0, 0, 1427846400, 607, 0, 0], [1445796059, "Flute Fingering", 0.0, 0, 1473811200, 139, 0, 204], [229067761, "American English, Word Frequency - 1,500 to 2,000", 1.0, 0, 1459468800, 34, 35, 38], [1216676381, "Network Engineering (Cisco and Huawei)", 0.0, 0, 1454457600, 249, 0, 0], [1967282971, "Remembering the Kanji", 1.0, 0, 1457481600, 2205, 3, 8], [481928039, "Capital Cities of South America", 0.0, 0, 1476230400, 13, 2, 10], [923095544, "Bacterial and viral diseases. ", 0.0, 0, 1450569600, 32, 0, 0], [1227130157, "Human Anatomy I, Pericardium and Heart", 0.0, 0, 1442793600, 87, 0, 2], [2141333023, "Geological Eons, Eras, Periods and Epochs", 1.0, 0, 1419897600, 26, 0, 0], [2522743621, "German Irregular Verbs, Pr\u00e4teritum und Perfekt", 1.0, 0, 1373587200, 38, 0, 0], [1522433055, "Moroccan Arabic (Darija) Serious Explorer", 0.0, 1, 1430956800, 60, 60, 119], [1326863329, "Calculus Derivatives Rules (2012b)", 0.0, 1, 1416355200, 25, 0, 0], [1768993625, "Network Engineering (Huawei)", 0.0, 0, 1454457600, 155, 0, 0], [737368829, "SK Japanese Engineering and Science Vocab", 0.0, 0, 1345852800, 20, 0, 0], [3510053319, "Veterinary Radiology Boards", 0.0, 0, 1345852800, 720, 0, 19], [3089905314, "American Idioms", 4.0, 0, 1345852800, 600, 0, 0], [1122190930, "Periodic Table with Atomic Data Revised", 0.0, 0, 1460505600, 118, 0, 0], [482664639, "American Ham Radio Extra 2016-2020", 1.0, 0, 1469491200, 712, 0, 11], [844985362, "Periodick\u00e1 soustava prvk\u016f", 1.0, 0, 1424736000, 118, 0, 0], [1725300826, "OSU - Neuro - Arteries Anatomy", 0.0, 0, 1422748800, 54, 0, 35], [3990692596, "Erik's German Pronunciation Deck", 0.0, 0, 1353024000, 180, 176, 0], [1546670099, "History of India from 6th century BC till Mauryan Period", 0.0, 0, 1455408000, 22, 9, 1], [1627857978, "calculus identities and common derivatives", 0.0, 0, 1473206400, 19, 0, 16], [123737117, "LX0-104: Administering the System", 0.0, 0, 1458950400, 84, 0, 0], [1869343257, "South America note cards", 0.0, 0, 1474934400, 40, 0, 40], [1396647434, "ASL American sign language dictionary in SignWriting 2014", 0.0, 0, 1426204800, 9593, 0, 9594], [668066204, "OXFORD 4032 AMERICAN WORDS WITH SOUND", 0.0, 0, 1431388800, 4032, 0, 0], [1048232248, "Micro: Bacterial Structure and Classification", 0.0, 0, 1479081600, 161, 0, 9], [3158257782, "Remembering the Kana with sounds", 7.0, 0, 1345852800, 171, 124, 0], [1051104765, "Advanced Latin American Spanish", 1.0, 0, 1379376000, 148, 0, 0], [518313939, "West End Idiomas - Personal Feelings, Opinions & Experiences", 0.0, 0, 1422057600, 57, 0, 57], [94041200, "Imperial College Clinical Medicine", 0.0, 0, 1461628800, 839, 0, 11], [193901374, "American History II", 1.0, 0, 1437523200, 64, 0, 0], [688031346, "Drug Names - Brand to Generic", 0.0, 0, 1463529600, 224, 0, 0], [64066910, "Sveriges landskap (Provinces of Sweden)", 3.0, 1, 1441238400, 25, 0, 0], [51206747, "English Minimal Pairs (General American)", 3.0, 1, 1432512000, 24, 48, 48], [3850185205, "Remembering the Traditional Hanzi Book 2", 1.0, 0, 1345852800, 1536, 0, 0], [1561113034, "ScribeAmerica Medical Abbreviations ", 1.0, 0, 1479513600, 111, 0, 0], [2126877150, "History and Arts of Gupta Period", 1.0, 1, 1458259200, 48, 9, 1], [2451250379, "Phonemes of American English and their transcription", 0.0, 0, 1345852800, 101, 0, 0], [1952281942, "Mastering Muscles and Movement", 0.0, 0, 1404172800, 350, 0, 289], [1736214400, "Seri omran", 1.0, 1, 1449878400, 728, 1, 1], [1450277920, "Seri omomi (omran)", 1.0, 0, 1449878400, 1482, 1, 1], [1627669267, "James W. Heisig - Remembering Simplified Hanzi 1 & 2", 13.0, 1, 1449014400, 3225, 0, 0], [1808234590, "Heisig Kanji Yomikata (Remembering the Kanji, Vol 2 and 3)", 0.0, 0, 1525651200, 3892, 0, 0], [2471957626, "American English Braille Grades 1 & 2", 1.0, 1, 1357084800, 254, 0, 206], [973567196, "Gerda Malaperis Vortaro eo-en", 0.0, 0, 1458172800, 858, 0, 2], [1078219236, "Experimentalphysik I ", 1.0, 0, 1479686400, 109, 0, 74], [820284222, "Friends the TV Serie S1E2 all phrases [en-pt]", 0.0, 0, 1469750400, 327, 2, 1], [214103398, "Friends  the TV Serie S1E1 all phrases [en-pt]", 0.0, 0, 1469750400, 447, 2, 6], [1813900750, "Heisig - Remebering the Kanji Vol1 (101-200)", 5.0, 0, 1413417600, 100, 0, 0], [1384668489, "Heisig - Remebering the Kanji Vol1 (401-500)", 2.0, 0, 1420070400, 100, 0, 0], [2073778827, "Heisig - Remebering the Kanji Vol1 (301-400)", 3.0, 0, 1420070400, 100, 0, 0], [161599936, "Operating Systems Imperial", 1.0, 0, 1449705600, 196, 0, 116]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

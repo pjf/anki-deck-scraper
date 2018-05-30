@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Rog
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Rog</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1512794988, "Maya Hieroglyphic Syllabary", 0.0, 0, 1510012800, 167, 0, 167], [1673999436, "LVProgJapOnEscrita", 0.0, 0, 1521936000, 504, 0, 0], [1573760455, "Programming Practise and Applications", 0.0, 0, 1511222400, 153, 0, 85], [1139859999, "Beginning pronunciation for Greek, in progress", 2.0, 0, 1490659200, 24, 24, 0], [1413884199, "Prog tear 2 Cegep", 0.0, 0, 1523232000, 35, 0, 0], [1063307109, "web prog. test 1 CEGEP", 0.0, 0, 1526256000, 232, 0, 0], [1446325522, "Systems Programming and Computer Architecture (ETH Zurich)", 0.0, 0, 1517788800, 395, 0, 219], [1020916831, "Learn C the Hard Way - C Programming Key Terms", 0.0, 0, 1493856000, 32, 0, 0], [1040542581, "Egyptian Hieroglyphs - Triliteral Signs", 0.0, 0, 1520640000, 38, 0, 38], [1425620955, "Einf\u00fchrung in die imperative Programmierung - FernUni Hagen", 0.0, 0, 1522800000, 4, 0, 5], [536930601, "Znaki drogowe v0.1", 0.0, 0, 1520467200, 349, 0, 338], [930144492, "LVProgJapOnSente\u00e7as", 0.0, 0, 1521936000, 181, 0, 0], [87166077, "nuovo progetto italiano 1", 0.0, 0, 1482105600, 289, 0, 0], [326865869, "AspirantPolymath Python programming deck", 0.0, 0, 1515456000, 315, 0, 18], [2114868395, "Egyptian Hieroglyphs - Uniliteral Signs", 0.0, 0, 1520640000, 30, 0, 32], [2019403200, "prog. test 1 CEGEP", 0.0, 0, 1526256000, 93, 0, 1], [576160381, "M8 -  Grundlagen der Programmierung (mit JAVA)", 0.0, 0, 1522800000, 54, 0, 0], [473308225, "programming & ml", 0.0, 0, 1496275200, 10196, 0, 0], [1271918090, "Egyptian Hieroglyphs - Biliteral Signs", 0.0, 0, 1520640000, 75, 0, 74], [1871528437, "Category Theory for Programmers", 1.0, 0, 1522368000, 84, 0, 1], [1298924223, "Web Prog 3 CEGEP", 1.0, 0, 1525046400, 107, 0, 0], [515522168, "Web Prog Exam Cegep", 0.0, 0, 1526601600, 41, 0, 0], [1782812637, "Web Programming Cegep", 0.0, 0, 1522972800, 159, 0, 1], [821861436, "CSCI3352 Systems Programming Ch 6-11", 0.0, 0, 1525651200, 88, 0, 0], [956383726, "Algorithme et programme", 0.0, 0, 1523404800, 10, 0, 7], [1874842381, "nuovo progetto italiano 1", 0.0, 0, 1482105600, 348, 0, 0], [1474102661, "Neuro-Linguistic-Programming", 0.0, 1, 1486425600, 0, 0, 1], [337468292, "Programming concepts and syntax", 0.0, 0, 1486598400, 259, 0, 1], [1815981488, "Anatomia UFSM Sistema Urogenital", 0.0, 0, 1498521600, 123, 0, 123], [1651719458, "ABS English Grammar in Use ver.1.36 (in progress...)", 3.0, 0, 1507075200, 4074, 1220, 403], [1883921017, "Golang / Go Programming Lanaguage", 1.0, 0, 1470268800, 100, 0, 0], [430949715, "ADN Nursing Program", 0.0, 0, 1484956800, 1, 0, 0], [374018041, "FBS - Embryology: Urogenital Development", 0.0, 0, 1508976000, 30, 0, 10], [1620660318, "Chinese Link: Elementary & Intermediate (work in progress)", 0.0, 0, 1364256000, 1256, 0, 0], [1275122189, "Principles of Programming", 0.0, 0, 1493769600, 81, 0, 24], [272371778, "Tarbiyatou al-mouslim (programme de la madrassah) - Tome 1", 0.0, 0, 1488844800, 224, 1, 0], [754316715, "CFA Investment Foundation Program Terms", 0.0, 0, 1504224000, 473, 0, 0], [3476020715, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 Introduttiva", 0.0, 0, 1363219200, 386, 0, 0], [1506235265, "misc programming", 0.0, 0, 1459296000, 507, 0, 1], [410308095, "Shariahprogram Arabic 2014 Theory + Sarf (no tarkeeb)", 1.0, 0, 1398038400, 119, 0, 194], [1415497437, "Farsi (Persian) Core 100 with progressive difficulty", 3.0, 0, 1504224000, 202, 99, 101], [1174946396, "Japanese From Zero 1 (Progressive)", 1.0, 0, 1496620800, 908, 0, 0], [646738116, "Python Programming Language", 3.0, 0, 1399334400, 151, 0, 164], [2375007277, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 1", 0.0, 0, 1363305600, 390, 0, 0], [3121773115, "Programmierparadigmen am KIT vom WS12/13", 0.0, 0, 1375315200, 363, 0, 1], [1185680326, "German-Spanish-inprogress", 0.0, 0, 1484438400, 846, 0, 0], [1136372561, "programming languages", 0.0, 0, 1504656000, 37, 0, 0], [991942067, "Progetto italiano1", 1.0, 0, 1478822400, 1172, 1199, 353], [3054511886, "HUNGARIAN-ITALIAN Progetto Italiano A1 Unit\u00e1 2", 1.0, 1, 1363305600, 79, 0, 0], [1190059127, "C Programming for beginners", 0.0, 0, 1466294400, 30, 0, 0], [2248509738, "Socket Programming", 0.0, 0, 1357344000, 123, 0, 0], [443840448, "Programming interview questions", 0.0, 0, 1456790400, 60, 0, 0], [1642032620, "Numbers every programmer should know", 0.0, 0, 1455062400, 25, 0, 0], [1362143532, "Japanese: The Body (Progressive) Japanese from Zero", 0.0, 0, 1477785600, 10, 0, 0], [1551086219, "Ancient Egyptian Hieroglyphic Vocabulary", 2.0, 0, 1359504000, 15697, 0, 15697], [1604873510, "English GRE (In Progress)", 0.0, 0, 1471478400, 1678, 0, 227], [899989501, "French Persian(Farsi) vocabulaire progressive", 0.0, 0, 1423440000, 2856, 0, 0], [63102099, "Japanese Programming", 2.0, 0, 1499040000, 354, 0, 0], [4230074663, "words of \"Vocabulaire progressive francais Intermediaire\" ", 1.0, 1, 1358553600, 2109, 0, 0], [1361350346, "C Programming", 0.0, 1, 1362528000, 74, 0, 0], [2071416729, "Programme de PTSI-PT - Pr\u00e9pa ing\u00e9", 2.0, 0, 1470182400, 1972, 340, 3600], [1425414115, "programmer - intermediate", 1.0, 0, 1478563200, 344, 0, 0], [2552145678, "French-farsi - Vocabulaire progressive Du francais Debutant\t", 0.0, 0, 1358553600, 185, 0, 0], [1574741184, "Team C/C++ - Intro to Programming", 0.0, 0, 1405296000, 9, 1, 3], [1036836634, "Swift Programming Language Structure and Essentials", 0.0, 0, 1479945600, 28, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Onu
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Onu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1544859722, "Korean Pronunciation", 0.0, 0, 1527552000, 37, 76, 0], [1606353562, "Ingl\u00e9s 2: 250 palabras comunes con pronunciaciones y imagene", 0.0, 0, 1527206400, 266, 265, 266], [627469024, "Fraktur pronunciation&handwriting ", 0.0, 0, 1520812800, 53, 0, 106], [252721431, "Learn or improve English pronunciation & listening skills", 1.0, 0, 1508457600, 212, 784, 209], [1665740958, "Profe Kyle-625 Most Common English Words with Pronunciation", 6.0, 0, 1508544000, 612, 1215, 615], [1747674390, "Vietnamese Pronunciation Deck", 3.0, 0, 1511827200, 194, 248, 218], [1170201736, "JLPT N0 Vocab (Kanji/word <-> pronunciation and meaning)", 0.0, 0, 1374796800, 11911, 0, 0], [1139859999, "Beginning pronunciation for Greek, in progress", 2.0, 0, 1490659200, 24, 24, 0], [644151027, "Portuguese Phrase Book (Continental pronunciation)", 16.0, 1, 1385942400, 1111, 1111, 35], [1289982038, "Hindi Pronunciation Trainer", 1.0, 0, 1485907200, 76, 58, 78], [91349337, "Vocabulario ingles - espa\u00f1ol con la pronunciacion", 1.0, 0, 1496880000, 2915, 0, 0], [488160195, "British Pronunciation Guide  (RP)", 0.0, 0, 1526342400, 44, 2, 0], [547544182, "Koine Greek vocabulary with modern Greek pronunciation", 0.0, 0, 1492473600, 6, 62, 81], [1064579211, "Ingl\u00eas 2: 250 palavras comuns com pronuncias e imagens", 1.0, 0, 1525392000, 255, 253, 254], [288470956, "003_French Pronunciation", 0.0, 0, 1505952000, 120, 119, 18], [633024332, "Greek alphabet with modern pronunciation", 0.0, 0, 1526342400, 24, 24, 48], [2077090019, "Ecclesiastical Latin Pronunciation", 2.0, 0, 1500595200, 53, 45, 0], [599848889, "En la reparaci\u00f3n de ... participa una endonucleasa y una fos", 0.0, 0, 1526256000, 30, 0, 0], [1060586195, "Mandarin Pronunciation System (includes IPA)", 0.0, 0, 1526515200, 159, 0, 0], [1938500452, "En la reparaci\u00f3n de ... participa una endonucleasa y una fos", 0.0, 0, 1526256000, 9, 0, 0], [1157727331, "Top 100 English Words, Pronunciation, Spelling, IPA", 4.0, 0, 1497830400, 100, 100, 100], [1446279893, "English Pronunciation Deck: /\u026a/ and /i\u02d0/", 0.0, 0, 1510617600, 35, 70, 0], [142672861, "Basic Estonian words (with pictures and pronunciation)", 0.0, 0, 1521590400, 28, 28, 28], [715457895, "English IELTS Pronunciation 807", 0.0, 0, 1433203200, 196, 0, 0], [463067145, "English alphabet with pictures and pronunciation", 0.0, 0, 1526256000, 32, 64, 32], [750214193, "English derivational pairs with pronunciation", 0.0, 0, 1517184000, 45, 88, 0], [1456025364, "English Minimal Pairs, Pronunciation, Spelling, IPA", 3.0, 0, 1497830400, 50, 100, 99], [1996896606, "Top 100 German Words, Pronunciation, Spelling, IPA", 4.0, 0, 1497830400, 100, 98, 90], [79365203, "Japanese Pronunciation ", 0.0, 0, 1498694400, 721, 511, 316], [371705243, "Turkish Pronunciation for learners", 1.0, 0, 1455753600, 91, 91, 0], [655510582, "German Minimal Pairs, Pronunciation, Spelling, IPA", 3.0, 0, 1497830400, 28, 55, 56], [115334323, "British English IPA pronunciation drill", 2.0, 0, 1491436800, 1000, 1003, 0], [1667124712, "English Pronunciation - H Words", 0.0, 0, 1494892800, 91, 75, 0], [655306343, "georgian alphabet with pronunciation (audio)", 0.0, 0, 1500854400, 36, 70, 34], [3394541624, "Icelandic Pronunciation (differences from English only)", 0.0, 0, 1377648000, 30, 0, 0], [79293867, "Cantonese pronunciation: 2400 most common characters ", 0.0, 0, 1415491200, 2400, 0, 0], [1085268504, "American english pronunciation ", 0.0, 0, 1431302400, 13, 48, 4], [168692952, "Pronunciation practice phonetics (US accent+extra UK) M.F", 3.0, 0, 1381276800, 46, 51, 46], [1328851389, "Tamil Pronunciation Trainer", 1.0, 0, 1469577600, 76, 75, 1], [36387055, "Pronunciation Practice for Mandarin Chinese", 0.0, 0, 1477267200, 35, 35, 0], [3990692596, "Erik's German Pronunciation Deck", 0.0, 0, 1353024000, 180, 176, 0], [1896128618, "Vietnamese - English (attach pronunciation sound)", 0.0, 1, 1463270400, 24, 23, 0], [2125751123, "EnglishPronunciation", 0.0, 0, 1475884800, 1259, 0, 0], [1488984982, "Japanese JLPT1 grammar notes from 2010 plus some bonus", 1.0, 0, 1406851200, 225, 0, 0], [59073739, "[mux] Pronunciation excercise", 1.0, 0, 1392768000, 76, 192, 1], [2547322142, "Greek alphabet pronunciation: Attic, Koine, Modern, Erasmian", 3.0, 1, 1373328000, 32, 65, 0], [1111722370, "Barron\u2019s GRE 4813 wordlist w\u0131th pronunciat\u0131on, english and r", 1.0, 0, 1473552000, 4813, 0, 0], [143693304, "Ingl\u00eas Pronuncia (1k)", 9.0, 1, 1406419200, 1011, 1027, 2], [1975966926, "The 6500 Most Frequent Irish Words with Audio Pronunciations", 2.0, 2, 1466294400, 6453, 0, 0], [932662308, "French Pronunciation", 2.0, 0, 1462060800, 349, 401, 205]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

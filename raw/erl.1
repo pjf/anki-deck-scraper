@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Erl
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Erl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1008509907, "hyperlipidemia drugs", 0.0, 0, 1521763200, 38, 0, 11], [358717504, "ILV - Nederlands - moyen", 0.0, 0, 1508716800, 241, 0, 0], [490276367, "Alice in Wonderland", 0.0, 0, 1522540800, 9, 9, 0], [418733270, "Grundstufe Deutsch PL-DE Marcin Perli\u0144ski (mit Audio DE)", 16.0, 2, 1345852800, 1477, 1472, 0], [1691898457, "Vietnamesisch (HU Berlin)", 0.0, 0, 1499299200, 820, 0, 0], [371220120, "Kosten, Erl\u00f6s, Gewinn", 0.0, 0, 1525564800, 17, 0, 16], [705276076, "Studieplan Nederlands - Noors", 0.0, 0, 1511308800, 5294, 0, 0], [762024012, "Nederlands - Pools", 0.0, 0, 1509926400, 1149, 191, 176], [896794533, "Nederlands Arabisch - 1645 van de meeste gebruikte woorden. ", 0.0, 0, 1484006400, 1645, 812, 16], [519078349, "TU Berlin: EDV 2 - Lars Oergel", 0.0, 0, 1524787200, 98, 0, 0], [2017848846, "SiMa SS 2018, HWR Berlin", 0.0, 0, 1524528000, 216, 0, 1], [2077052835, "Sherlock\u7684\u65e5\u8bed\u7ea2\u5b9d\u4e66", 0.0, 0, 1520294400, 29, 4, 45], [577612655, "B\u00fcrgerliches Recht", 0.0, 0, 1523145600, 44, 0, 0], [646117985, "Nederlands Arabisch - 1645 van de meeste gebruikte woorden.", 0.0, 0, 1484006400, 1641, 1345, 16], [1568746432, "Nederlands naar Arabisch - \u0627\u063a\u0644\u0628 \u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0643\u0644\u0645\u0627\u062a \u0627\u0644\u0627\u0643\u062b\u0631 \u0627\u0633\u062a\u062e\u062f\u0627\u0645", 0.0, 0, 1491350400, 1948, 1578, 17], [1633623048, "Werkwoorden Nederlands -> Arabisch incl. Audio \t\u0627\u0644\u0627\u0641\u0639\u0627\u0644", 0.0, 0, 1486080000, 308, 156, 16], [1170990133, "Welkom A1-A2 Nederlands - Deutsch", 1.0, 0, 1473552000, 2448, 5, 1], [51509709, "Greek and Roman Mythology (CLAS 104 uWaterloo)", 0.0, 0, 1503964800, 1033, 0, 111], [1013636407, "In de startblokken. Nederlands voor Duitstaligen.", 0.0, 0, 1525046400, 903, 0, 0], [878320882, "Funktionsverbgef\u00fcge DE-DE (DaF) Marcin Perli\u0144ski ", 2.0, 0, 1345852800, 268, 0, 0], [4262659230, "Taal Vitaal: Nederlands <> Duits", 0.0, 0, 1373500800, 2493, 2482, 0], [3626394573, "Fremdw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 462, 0, 0], [3349670042, "Wirtschaftsdeutsch PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 214, 0, 0], [494028671, "Rektion der Substantive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 97, 0, 0], [637308974, "Nederlandse werkwoorden+vervoegingen - Tigrinya NLTI", 0.0, 0, 1493337600, 83, 67, 0], [1327832791, "Basis Nederlandse woorden naar Engels.", 0.0, 0, 1489968000, 320, 8, 16], [1179250149, "Woordenlijst Nederlands-Russisch", 0.0, 0, 1518739200, 1069, 1180, 0], [1298503609, "Farsi (Persian) Beginner- Goethe Verlag Starnberg with audio", 2.0, 0, 1505001600, 1800, 1800, 0], [3308080288, "Deutsche Sprichw\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 82, 0, 0], [3804361098, "Rektion der Adjektive PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 88, 0, 0], [4275438211, "Deutsch - Niederl\u00e4ndisch", 0.0, 0, 1369872000, 1457, 0, 1], [3067238433, "DE4 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 242, 0, 0], [2741150192, "Polnische Germanismen und Pseudogermanismen PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 333, 0, 0], [894435405, "Nederlandse woordenlijst B1", 2.0, 0, 1431907200, 432, 0, 0], [828410361, "Zwillingsformeln PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 55, 0, 0], [4052224371, "155 S\u00e4tze - Wirtschaftsdeutsch - PL-DE - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [179834300, "Fluent Forever - Nederlandse Zinnen", 0.0, 0, 1476489600, 1134, 800, 1061], [425152273, "Recht (Jura) PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 65, 0, 0], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [1573946898, "Wilhelm Hauff - Der junge Engl\u00e4nder - PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 344, 0, 0], [2334071406, "Neue Rechtschreibung \u00df-ss-sss DE-DE Marcin Perli\u0144ski", 1.0, 0, 1345852800, 113, 0, 0], [510184864, "Grund- und Mittelstufe PL<-->DE Lindarell + Marcin Perli\u0144ski", 2.0, 1, 1345852800, 4353, 0, 0], [370794976, "Nederlands - English", 0.0, 0, 1384473600, 74, 0, 0], [2657317463, "Chemie DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 28, 0, 0], [2711089641, "Plural 250 (DaF) DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 250, 0, 0], [2164886501, "Lautmalende W\u00f6rter PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 52, 0, 0], [1908956266, "Deutschtest 1 DE-DE (DaF) Marcin Perli\u0144ski", 1.0, 0, 1345852800, 125, 0, 0], [3628360626, "IPA motherload", 5.0, 1, 1345852800, 206, 204, 71], [32600325, "Pr\u00e4sens PL-DE-DE (Stammvokalwechsel usw.) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 39, 0, 0], [3075749955, "N\u00e9erlandais", 0.0, 1, 1368144000, 253, 0, 0], [3768529989, "Hauptst\u00e4dte Europas DE-DE Marcin Perli\u0144ski", 3.0, 0, 1345852800, 47, 0, 0], [1854461120, "Rektion der Verben PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 155, 0, 0], [3290680236, "DE1 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 575, 0, 0], [1789254966, "DE7 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 218, 0, 0], [1476585977, "DE2 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 325, 0, 0], [1929222132, "DE5 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 226, 0, 0], [855048452, "Grammatische Termini PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 106, 0, 0], [389347934, "Frans-Nederlands basiswoordenschat", 0.0, 0, 1420156800, 840, 0, 0], [280861795, "Nederlands in actie - Vocabulaire hoofdstuk 1", 0.0, 0, 1433980800, 73, 0, 0], [3639354247, "DE3 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 256, 0, 0], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [1271917279, "Grundformen deutscher Verben DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 112, 0, 0], [557173120, "132 wichtigste Hauptst\u00e4dte der Welt (Marcin Perli\u0144ski)", 0.0, 0, 1442102400, 132, 0, 0], [2887175275, "Abiturglossar Deutsch f\u00fcr polnische Lerner PL-DE Perli\u0144ski", 0.0, 0, 1345852800, 254, 0, 0], [2893249974, "Deutsche Komposita DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 32, 0, 0], [129772830, "\u00d6sterreichische Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 9, 0, 0], [2030823431, "DE8 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 192, 0, 0], [1417067786, "Engels-Nederlands", 1.0, 0, 1438819200, 153, 0, 0], [1335075975, "IT + Computer PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 243, 0, 0], [4148505294, "250 S\u00e4tze zum \u00dcbersetzen f\u00fcr Anf\u00e4nger PL-DE Marcin Perli\u0144ski", 1.0, 0, 1345852800, 250, 0, 0], [3258948483, "Antonyme DE-DE (DaF) Marcin Perli\u0144ski", 1.0, 0, 1345852800, 100, 0, 0], [3646503409, "DaF Test-500 (Jumbo-Test) Stufe C2 DE-DE Marcin Perli\u0144ski", 1.0, 0, 1345852800, 500, 0, 0], [805078514, "Pluralbildung DE-DE (DaF) MC-Test Marcin Perli\u0144ski", 0.0, 0, 1345852800, 50, 0, 0], [1799494936, "Tala Svenska A1 Lehrbuch GROA Verlag", 2.0, 0, 1392163200, 563, 0, 0], [744283000, "Deutsche Synonyme DE-DE (DaF) Marcin Perli\u0144ski", 0.0, 0, 1345852800, 505, 0, 0], [3136532859, "Deutsche Bundesl\u00e4nder DE-DE Marcin Perli\u0144ski", 2.0, 0, 1345852800, 16, 0, 0], [2841667976, "Nederlands - Italiaans en Italiaans - Nederlands", 1.0, 0, 1345852800, 4208, 0, 0], [1639905203, "Berlitz German", 0.0, 0, 1451952000, 149, 0, 0], [2798464655, "Deutsches Alphabet/Buchstabieralphabet - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 41, 0, 0], [1169028882, "Spaans::jaar 1::Neerland\u00e9s - Espa\u00f1ol (visual)", 3.0, 0, 1452643200, 1100, 1090, 1311], [2835882636, "Wiederholungstest MC500 (\u00fcberarbeitet von Marcin Perli\u0144ski)", 4.0, 1, 1345852800, 500, 0, 0], [1802224060, "Wortschatz - Stufe C1/C2 - L\u00fcckentest DE-DE Marcin Perli\u0144ski", 7.0, 0, 1345852800, 483, 0, 0], [1956391082, "Berliner Platz 1 (Arabisch Deutsch)", 1.0, 0, 1460419200, 1871, 1870, 3744], [2475853179, "Deutschtest 2 DE-DE (DaF) Marcin Perli\u0144ski", 1.0, 0, 1345852800, 125, 0, 0], [2066265122, "Berliner Platz PL-DE Maciej Karpi\u0144ski", 0.0, 0, 1345852800, 679, 0, 0], [1499728063, "Linguapolis Niveau 2 Nederlands cursus - Engels", 0.0, 0, 1410825600, 613, 0, 1], [3280779758, "150 sytuacji j\u0119zykowych PL-DE (matura) - Marcin Perli\u0144ski", 0.0, 0, 1345852800, 150, 0, 0], [4168812071, "Business English Wirtschaftsenglisch EN-DE Cordula Sauerland", 3.0, 0, 1345852800, 18454, 0, 0], [1696781240, "Toets Gesproken Nederlands (TGN)", 0.0, 0, 1413072000, 684, 708, 0], [1001038552, "Niemiecki - 1000 s\u0142\u00f3w - Marcin Perli\u0144ski (Audio DE+PL)", 3.0, 0, 1446336000, 1000, 2000, 0], [2232412781, "DE6 Deutsch f\u00fcr polnische Germanisten PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 161, 0, 0], [3226384180, "Deutsch - Nederlands", 1.0, 1, 1512864000, 9215, 0, 0], [2808653490, "Niderlandzki PL-NL (Wikibooks)", 0.0, 0, 1345852800, 282, 0, 0], [4109044851, "Der gro\u00dfe Artikeltest DE-DE (DaF) Marcin Perli\u0144ski", 12.0, 1, 1345852800, 1063, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

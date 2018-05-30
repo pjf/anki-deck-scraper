@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Enk
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Enk</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1984431573, "Japanese Beginner Genki Vocab", 0.0, 0, 1526342400, 516, 0, 0], [1354056000, "Genki 1 and 2 Vocabulary", 0.0, 0, 1519344000, 1370, 0, 0], [1598828132, "Jenkins CPE Cert", 0.0, 0, 1507680000, 397, 0, 0], [2101519599, "Genki 2 Lesson 14", 0.0, 0, 1491436800, 52, 25, 8], [1359406552, "Vocaboli Genki lezione 1-10", 0.0, 0, 1527465600, 350, 0, 0], [562497082, "Genki 2 Chapter 13 Vocabulary", 0.0, 1, 1491264000, 57, 25, 6], [1758197267, "Japanese Genki I Grammar, native speaker audio, images", 13.0, 1, 1504483200, 345, 217, 217], [87059434, "Subdecks: Genki 1 & 2 Complete", 0.0, 0, 1512950400, 4493, 0, 0], [442274081, "Genki Chapter 6 Kanji", 0.0, 0, 1515110400, 15, 0, 0], [942922371, "Genki 1 & 2, Incl Genki 1 Supplementary Vocab", 24.0, 2, 1345852800, 1369, 0, 0], [2002667426, "Genki 1 and 2 Vocabulary (Kanji / Kana / Romaji / Roumaji)", 0.0, 0, 1432166400, 799, 0, 0], [1728505027, "Genki 2 Chapter 18 Vocabulary", 0.0, 0, 1494720000, 54, 0, 0], [4625398, "Genki 1 Greetings", 1.0, 0, 1484697600, 18, 25, 6], [1765744189, "Genki II Chapter 20 Grammar", 0.0, 0, 1507766400, 26, 0, 0], [1033422971, "Genki II Chapter 22 Grammar", 0.0, 0, 1507766400, 25, 0, 0], [1691674755, "Genki 1 Chapters 1 - 4 JM", 0.0, 0, 1520812800, 261, 0, 0], [847163240, "Genki 1 Chapter 12 Vocabulary", 0.0, 0, 1488931200, 53, 25, 6], [1247811976, "Genki Chapter 6 Vocabulary", 0.0, 0, 1515542400, 43, 0, 0], [932226824, "Genki 1 & 2 Kanji ", 1.0, 0, 1476230400, 317, 0, 0], [619454674, "Genki Kanji Look and Learn Lesson 13 Kanji Vocabulary (Kaga)", 0.0, 0, 1523232000, 40, 0, 0], [1647225648, "Genki II Chapter 16 Grammar", 0.0, 0, 1505347200, 24, 0, 0], [477187352, "Genki 1 Lesson 3 Vocab", 0.0, 0, 1464393600, 53, 25, 6], [1188123894, "Jp Vocab - Genki I, II w/ Pop Furi, Kanji info", 15.0, 1, 1459900800, 1287, 1098, 6], [140196372, "Genki 2 Lesson 13 Vocabulary", 0.0, 0, 1492041600, 56, 25, 8], [742396121, "Thermodynamik I Fragenkatalog", 0.0, 0, 1488844800, 87, 0, 177], [1231495929, "Genki I Chapter 4 Vocabulary (With Kanji)", 0.0, 0, 1514851200, 60, 0, 0], [1884996757, "Genki 2 Chapter 16 Vocabulary", 0.0, 0, 1492992000, 48, 0, 0], [545074156, "Genki II Chapter 21 Grammar", 0.0, 0, 1507766400, 22, 0, 0], [819457706, "Kanji of Genki books", 0.0, 0, 1516406400, 56, 0, 56], [206789411, "Genki 2 Chapter 19 Vocabulary", 0.0, 0, 1497484800, 52, 0, 0], [1538412571, "Genki II Chapter 23 Grammar", 0.0, 0, 1507766400, 18, 0, 0], [1032135165, "Genki I Chapter 2 Grammar", 0.0, 0, 1504310400, 21, 0, 0], [31174319, "Genki 1 & 2 Kanji Words/Vocab", 0.0, 1, 1476230400, 471, 0, 0], [1335485749, "ES_GENKI_1", 0.0, 0, 1526515200, 178, 0, 0], [1594864929, "Genki II Chapter 13 Grammar", 0.0, 0, 1505347200, 28, 0, 0], [2063299720, "Genki II Chapter 14 Grammar", 0.0, 0, 1505347200, 17, 0, 0], [1232186817, "Genki I Chapter 11 Grammar", 0.0, 0, 1505347200, 10, 0, 0], [1980844461, "Genki II Chapter 15 Grammar", 0.0, 0, 1505347200, 12, 0, 0], [1094684872, "Genki I Chapter 10 Grammar", 0.0, 0, 1505347200, 20, 0, 0], [597290031, "Genki I Chapter 12 Grammar", 0.0, 0, 1505347200, 20, 0, 0], [727581108, "Genki II Chapter 19 Grammar", 0.0, 0, 1505347200, 21, 0, 0], [1132238466, "Genki 1 & 2 COMPLETE book 1 + JLPT N5 N4 + see description", 36.0, 3, 1518307200, 4500, 0, 0], [57980596, "Genki 2 Chapter 17 Vocabulary", 0.0, 0, 1494720000, 58, 0, 0], [478301103, "Genki 2 Chapter 15 Vocabulary", 0.0, 0, 1492992000, 49, 0, 0], [962624871, "Genki I Chapter 4 Grammar", 0.0, 0, 1504396800, 20, 0, 0], [905354826, "Genki 1 Chp 6 Vocab ", 0.0, 0, 1495670400, 0, 0, 0], [1757455048, "Genki 1 unit 6 vocab", 0.0, 0, 1481068800, 48, 0, 0], [1790358017, "Genki II Chapter 17 Grammar", 0.0, 0, 1505347200, 19, 0, 0], [1794191258, "Genki I Chapter 18 Grammar", 0.0, 0, 1505347200, 18, 0, 0], [1545285483, "Genki 2 Chapter 20 Vocabulary", 0.0, 0, 1500940800, 54, 0, 0], [2136719736, "SKS Fragenkatalog", 1.0, 0, 1483488000, 637, 0, 6], [673507109, "Genki I Chapter 8 Grammar", 0.0, 0, 1504569600, 24, 0, 0], [115163770, "Genki 1 Chapter 11 Vocabulary", 0.0, 0, 1487894400, 62, 25, 6], [2120327137, "Genki I - Greetings", 0.0, 0, 1509580800, 18, 0, 0], [832063733, "Genki 2 Chapter 23 Vocabulary", 0.0, 0, 1501977600, 48, 0, 0], [2074213003, "Genki 1 Lesson 1 Vocabulary (Audio+Images+Pitch+Furigana)", 5.0, 0, 1492560000, 54, 73, 67], [2652101261, "Genki I Vocab", 1.0, 0, 1355702400, 665, 0, 0], [1164778584, "Genki 2 Lesson 15 Vocabulary", 0.0, 0, 1491868800, 49, 25, 8], [832647484, "Genki I Chapter 1 Grammar", 0.0, 0, 1504224000, 7, 0, 0], [2954342358, "Genki II Vocabulary", 1.0, 0, 1345852800, 506, 0, 0], [1493908841, "Genki 2 Chapter 22 Vocabulary", 0.0, 0, 1501977600, 55, 0, 0], [1618227214, "Nomenklatur organische Chemie", 0.0, 0, 1490659200, 19, 0, 38], [1450006110, "Genki I Chapter 3 Grammar", 0.0, 0, 1504310400, 31, 0, 0], [779945566, "Genki 2 Chapter 21 Vocabulary", 0.0, 0, 1500940800, 56, 0, 0], [1350196144, "Genki I Chapter 7 Grammar", 0.0, 0, 1504483200, 17, 0, 0], [995193356, "Japanese Vocabulary Lesson 1 (Genki)", 0.0, 0, 1453939200, 57, 0, 0], [154272430, "Genki I Chapter 5 Grammar", 0.0, 0, 1504396800, 30, 0, 0], [4204366792, "Genki II Vocab", 2.0, 0, 1355702400, 581, 0, 0], [1441487581, "Anatomie - Gelenke, Muskeln Knochen", 0.0, 0, 1449878400, 56, 0, 0], [5633079, "Genki I Chapter 6 Grammar", 0.0, 0, 1504483200, 19, 0, 0], [1979595933, "Genki 1 Lesson 8 Vocabulary", 1.0, 0, 1407715200, 46, 0, 0], [826639601, "Genki I Chapter 4 Vocabulary", 1.0, 1, 1473206400, 59, 0, 1], [77151590, "JLPT N5/N4 + Genki", 0.0, 0, 1475280000, 3248, 399, 838], [363955747, "Genki I Chapter 9 Grammar", 0.0, 0, 1504569600, 18, 0, 0], [855824181, "Genki 1 and 2", 0.0, 0, 1444003200, 1166, 0, 0], [197404026, "Genki 1 Lesson 6 Vocabulary", 0.0, 0, 1407715200, 48, 0, 0], [1999137088, "Genki 1 Lesson 9 Vocabulary", 0.0, 0, 1456876800, 50, 1, 0], [947512094, "Genki 1 Vocab Lesson 3", 1.0, 0, 1459382400, 52, 0, 0], [1488367520, " Kanji Genki 1 + Zusatz", 0.0, 0, 1390780800, 481, 0, 0], [1227185893, "Genki 1 Lesson 3-8 Kanji", 0.0, 0, 1408233600, 101, 0, 0], [1709286505, "Genki 1 Lesson 10 Vocab", 0.0, 0, 1457136000, 57, 1, 0], [2128191610, "Genki 1 Lesson 7 Vocabulary", 1.0, 0, 1407715200, 49, 0, 0], [767233154, "Genki 1 Grammar Sentences", 2.0, 0, 1441497600, 354, 353, 1], [552069535, "Genki Kanji Vocab, Chpts 13-16", 0.0, 0, 1345852800, 219, 0, 0], [227608945, "Genki 1 Lesson 5 Vocabulary", 0.0, 0, 1407715200, 52, 0, 0], [3749749613, "Heisig Genki-1", 1.0, 0, 1345852800, 3008, 0, 0], [3673495391, "Genki II Kanji - All 171", 0.0, 0, 1345852800, 172, 0, 0], [961209631, "Genki I + II Kanji List", 3.0, 0, 1449619200, 1133, 0, 0], [1993369597, "Jenkins Certification Study Guide", 8.0, 0, 1456617600, 244, 0, 0], [473118228, "Genki 2nd Edition Vocabulary", 3.0, 0, 1521158400, 1209, 0, 0], [1612692294, "Genki 1 Lesson 2 Vocab", 0.0, 0, 1464307200, 90, 25, 6], [1667434465, "Genki-1 Grammar", 5.0, 0, 1345852800, 263, 0, 0], [531272293, "Genki Vocabulary", 12.0, 3, 1433808000, 1287, 1101, 7], [771155911, "Genki 1 Lesson 1 Vocab", 1.0, 0, 1464048000, 139, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

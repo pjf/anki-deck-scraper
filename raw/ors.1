@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ors
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ors</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[455842169, "Gresk-norsk MF", 0.0, 0, 1516147200, 1046, 0, 0], [1137571730, "Semi-Conductors", 0.0, 0, 1527292800, 80, 0, 12], [54023345, "Hebraisk - norsk MF", 0.0, 0, 1516320000, 744, 0, 0], [1789491828, "Spanyolorsz\u00e1g 2017", 0.0, 0, 1491177600, 275, 0, 0], [836220555, "iHE_Colors", 1.0, 0, 1520294400, 11, 11, 11], [1948889462, "[CVO] Chiaro! corso di italiano B1", 0.0, 0, 1527206400, 329, 0, 0], [1198641852, "Norsk for deg: Leksjon 01 (Hei, hei!)", 0.0, 0, 1485907200, 104, 0, 0], [1994529308, "Haskell lens operators", 2.0, 0, 1511136000, 50, 0, 0], [1498131067, "norsk", 0.0, 1, 1456617600, 1895, 0, 0], [1969224911, "Horsk\u00e9 prost\u0159ed\u00ed - cziml", 0.0, 0, 1523836800, 212, 0, 579], [1094736228, "High yield English-Italian connectors", 0.0, 0, 1438041600, 91, 3, 1], [705276076, "Studieplan Nederlands - Noors", 0.0, 0, 1511308800, 5294, 0, 0], [990967424, "Norsk for deg: Leksjon 04 (God tur!)", 0.0, 0, 1485907200, 161, 0, 0], [777055830, "Norsk for deg: Leksjon 08 (Hva er klokka?)", 0.0, 0, 1485907200, 202, 0, 0], [1785533052, "Morse Code", 0.0, 0, 1505692800, 26, 26, 0], [281682430, "Hochschule Reutlingen - Marktforschung I", 0.0, 0, 1524960000, 17, 0, 12], [686673625, "Colors - French", 0.0, 0, 1497744000, 11, 0, 0], [1783661466, "Norsk for deg: Leksjon 03 (Takk for maten!)", 0.0, 0, 1485907200, 161, 0, 0], [29629484, "ECG vectors", 0.0, 0, 1509667200, 46, 0, 0], [1301783639, "Longman Dictionary of Common Errors", 5.0, 0, 1507593600, 2982, 0, 0], [572721131, "Norsk for deg: Leksjon 02 (Hvem er dette?)", 0.0, 0, 1485907200, 67, 0, 0], [1023459239, "Audio Morse ", 0.0, 1, 1493337600, 26, 26, 0], [23629065, "Rois et Empereurs de France - Kings and Emperors of France", 0.0, 0, 1516752000, 38, 0, 0], [1936187819, "GCHS - Spanish 2 Honors - Unidad 4 - Las Rutinas (updated)", 0.0, 0, 1516320000, 82, 33, 3], [1149140279, "colors in french for kids", 0.0, 0, 1481500800, 11, 11, 11], [893650156, "Spanish conversational connectors ", 4.0, 0, 1403308800, 95, 0, 0], [469340758, "Pharmacology - (L3) GPCRs & enzyme linked receptors ", 0.0, 0, 1525219200, 20, 0, 1], [317567325, "Bioreactors7099", 0.0, 0, 1524355200, 91, 0, 0], [906499350, "Forschungsmethoden H\u00e4rrlein ", 0.0, 0, 1523404800, 29, 0, 15], [807598953, "GCHS - Spanish 4 Honors - Unidad 4 - Infinitivo (updated)", 0.0, 0, 1517443200, 20, 14, 0], [1664784735, "SAT Chemistry Flame Test Colors", 0.0, 0, 1498867200, 6, 0, 0], [435502029, "07A-3 Colors and Cars", 0.0, 0, 1522195200, 16, 0, 16], [1109715690, "Morse Code Practice: 100 Most Common English Words", 0.0, 0, 1527379200, 101, 101, 0], [1139953431, "104Learn Colors (English - Vietnamese)", 1.0, 0, 1470355200, 5, 0, 0], [87617578, "United States Senators - 2017", 1.0, 0, 1491264000, 152, 0, 151], [1340101181, "Norsktime MAI", 0.0, 0, 1524614400, 1, 0, 0], [1462508968, "Corso di lingua Giapponese per Italiani - Kakukanji 30-34", 0.0, 0, 1441584000, 95, 0, 0], [103907806, "Resistors", 0.0, 0, 1489017600, 200, 0, 0], [1517415045, "Norsk for deg: Leksjon 06 (Hytte til leie)", 0.0, 0, 1485907200, 207, 0, 0], [678605184, "Norsk for deg: Leksjon 05 (Alt i orden!)", 0.0, 0, 1485907200, 113, 0, 0], [483978387, "Norsk for deg: Leksjon 07 (I butikken)", 0.0, 0, 1485907200, 151, 0, 0], [1866112985, "OCR Physics A Vectors & Scalars Flashcards", 0.0, 0, 1458345600, 4, 0, 0], [282523710, "FBS - Metabolism: Inborn Errors of Metabolism", 0.0, 0, 1506729600, 32, 0, 15], [890993360, "Magyarorsz\u00e1g megy\u00e9i", 1.0, 1, 1389139200, 39, 0, 22], [612540248, "memorytrainingforstudentsofaplushero", 0.0, 0, 1515024000, 123, 0, 127], [1461984462, "U Nahuatl: Colors", 0.0, 0, 1503532800, 14, 14, 16], [706310214, "Navigators Topical Memory System - ESV", 1.0, 0, 1467331200, 60, 1, 2], [1062018420, "Russisk - Norsk,", 0.0, 0, 1455753600, 2213, 0, 1], [802364040, "HSC Physics: Motors & Generators - Motors", 0.0, 0, 1475712000, 19, 0, 0], [1175370355, "Pathology: Dermatology Tumors", 0.0, 0, 1479340800, 82, 0, 95], [2033234340, "100 Colors", 2.0, 0, 1398816000, 100, 0, 100], [617688518, "K\u00f6nnyen-gyorsan-n\u00e9met\u00fcl-mondatok", 0.0, 0, 1527638400, 1030, 0, 0], [950182698, "Morse Code - Letters and Numbers", 1.0, 2, 1384905600, 72, 0, 0], [775448073, "Calculus III - Vectors", 0.0, 0, 1468195200, 10, 17, 16], [3488983896, "Corso di lingua Giapponese per Italiani - Lezioni 16-29", 2.0, 0, 1345852800, 769, 0, 0], [1758895633, "Corso di lingua Giapponese per Italiani - Kakukanji 16-29", 0.0, 0, 1432425600, 319, 0, 0], [678779340, "Nynorsk verb-b\u00f8ying sonans", 0.0, 0, 1443657600, 112, 3, 0], [1312360566, "jQuery - Selectors", 0.0, 0, 1501804800, 35, 0, 0], [41905004, "HSC Physics: Motors & Generators - Magnetic Flux & EMF", 0.0, 0, 1475712000, 12, 0, 0], [583715296, "Anatom\u00eda del dorso.", 0.0, 0, 1503446400, 74, 0, 73], [2297788233, "Common German Conversation Connectors", 1.0, 3, 1345852800, 92, 0, 0], [900914860, "German Conversation Connectors", 1.0, 0, 1417564800, 88, 0, 0], [565372351, "Corso di lingua Giapponese per Italiani - Kakukanji 1-15", 0.0, 0, 1445299200, 208, 0, 0], [1291333535, "Haskell Lens library (operators and functions)", 0.0, 0, 1398470400, 21, 0, 15], [3681219101, "The Navigators TMS (Topical Memory System) Bible Verses", 2.0, 0, 1355011200, 60, 0, 0], [1361700302, "High-yield English-Spanish connectors", 0.0, 0, 1438041600, 91, 3, 1], [1830986847, "Division Flash Cards (Divisors up to 10)", 0.0, 0, 1397952000, 91, 0, 0], [1853472874, "Danial Professors (IELTS words)", 0.0, 0, 1461974400, 1132, 529, 0], [3434318753, "Corso di lingua Giapponese per Italiani - Lezioni 1-15", 3.0, 0, 1345852800, 641, 0, 0], [1847306328, "English - common errors of Vietnamese speakers of English ", 0.0, 0, 1450742400, 22, 0, 1], [2023773035, "Morseova abeceda (kompletn\u00ed v\u00fduka)", 0.0, 0, 1457222400, 63, 61, 11], [2057657198, "Conversational Connectors English - German", 1.0, 0, 1413763200, 446, 0, 0], [1090786624, "MCAT 2016 HorseApiece", 0.0, 0, 1472083200, 1964, 0, 121], [1395979918, "Corso di lingua Giapponese per Italiani - Lezioni 30-34", 1.0, 0, 1345852800, 335, 0, 0], [1724818770, "K\u00f6nnyen-gyorsan-n\u00e9met\u00fcl", 1.0, 0, 1527033600, 1241, 0, 0], [3645353967, "Morse Code Sound and Lights", 7.0, 0, 1419638400, 59, 59, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Lat
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Lat</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[289642102, "Memrise Template", 8.0, 1, 1497139200, 5, 0, 0], [88550706, "Latein - Stammformen", 0.0, 0, 1527206400, 44, 0, 0], [1282406431, "Collated list of Icelandic words", 2.0, 0, 1522713600, 1064, 0, 0], [1386119660, "A2 Wortliste Goethe (vocab, sentenses, audio, translation)", 2.0, 0, 1516752000, 1214, 3071, 0], [1096954974, "Latest RSVP", 0.0, 0, 1527638400, 68, 0, 0], [1607586032, "1 Latein 1 - Medizinische Terminologie - MEDICUS", 0.0, 0, 1506729600, 1707, 0, 0], [673435538, "Biochem: Cell cycle regulation and apoptosis", 1.0, 0, 1512259200, 104, 0, 0], [67490013, "Irregular dutch verbs w/Spanish translation", 0.0, 0, 1527638400, 219, 0, 0], [477508551, "Beginner Latin American Spanish Sentences", 24.0, 1, 1516579200, 1224, 1216, 0], [658472261, "Chinese/English - Comprehensive Compilation - With Examples", 11.0, 1, 1491350400, 9169, 0, 0], [2058809744, "Vocabulaire latin - fran\u00e7ais ; le monde", 0.0, 0, 1509321600, 764, 0, 0], [47487003, "Backend (Java, JEE, Spring and related technologies)", 3.0, 0, 1486512000, 1172, 0, 0], [3766718249, "Conditional & Future Lat Am Spanish Sentences (TTS accurate)", 3.0, 0, 1516579200, 164, 0, 0], [1834588284, "Circulatory system", 0.0, 0, 1482278400, 118, 1, 4], [1920977389, "Chimica Organica - Nomenclatura Composti", 0.0, 0, 1523059200, 18, 0, 18], [1641756649, "Latino coniugazioni 1a e 2a sostantivi + verbi e aggettivi", 0.0, 0, 1519603200, 56, 0, 0], [1503397243, "IPAP 18-2Microbio: Host Microbe Relationships", 0.0, 0, 1527638400, 59, 0, 5], [281217501, "Phille-Latein L30-42", 0.0, 0, 1524528000, 341, 0, 0], [1122323029, "Wheelock's Latin", 2.0, 0, 1438560000, 865, 0, 0], [1327652684, "Financial Regulation M1 Finance Dauphine", 0.0, 0, 1523059200, 198, 0, 53], [202862275, "Basic Latin Amer Spanish Imperative Sentences (TTS accurate)", 8.0, 0, 1516579200, 332, 332, 0], [60798677, "Human Development/Embryology, Stem Cells, & Related Lectures", 0.0, 0, 1506038400, 102, 0, 51], [410447184, "Les phrases lib\u00e9ratrices des constellations familiales", 0.0, 0, 1511481600, 25, 5, 0], [240442252, "Latein GWS", 0.0, 0, 1512172800, 2084, 0, 0], [782641286, "Biochem: transcription and translation", 0.0, 0, 1508025600, 122, 0, 0], [693970164, "Translation of 10000 words from Spanish to English (Alpha)", 0.0, 0, 1526083200, 9980, 0, 0], [442752559, "A Primer of Ecclesiastical Latin", 0.0, 0, 1507939200, 1203, 0, 0], [788445595, "DANA5002: Test 2 Anterior neck (Gulati)", 0.0, 0, 1520812800, 91, 0, 2], [9567757, "Envariabelanalys 2, LaTeX", 0.0, 0, 1515283200, 18, 0, 31], [1997262466, "Hasso-Plattner-Institute Mod II", 0.0, 0, 1524009600, 17, 0, 7], [180623737, "DCC Core Latin", 3.0, 0, 1447977600, 997, 0, 0], [1057809538, "Latin Roots - MXB", 0.0, 0, 1526256000, 308, 0, 2], [32416685, "Circulation and Breathing ", 0.0, 0, 1522195200, 121, 0, 0], [1890905833, "OCR Biology A- Populations and sustainability ", 0.0, 0, 1526774400, 43, 0, 0], [1098083161, "OCR RS Relationship", 0.0, 0, 1524700800, 40, 0, 0], [944261242, "Kapcsolatok-szlov\u00e9n ", 0.0, 0, 1526083200, 131, 0, 0], [75429329, "Vocabulaire de latin au coll\u00e8ge (cycle 4) fran\u00e7ais", 0.0, 0, 1516492800, 918, 0, 0], [704479004, "Anatomy - Heart and Mediastinum Clinical Correlates", 0.0, 0, 1506556800, 27, 0, 24], [1924428597, "Vokabeldeck Lingua Latina - Latein->Deutsch", 0.0, 0, 1522281600, 2119, 0, 0], [129788792, "Intro to Late Egyptian \u2013 Summer 2018", 0.0, 0, 1523145600, 668, 0, 0], [2121370548, "Unikurs Latein. Kurs I", 0.0, 0, 1524009600, 650, 0, 0], [2108546654, "Translation \u751f\u8bcd", 0.0, 0, 1524009600, 779, 0, 0], [1790185622, "Medieval Latin CMS Word List pp 44 - 86", 0.0, 0, 1485388800, 2059, 0, 0], [1590985302, "Latein Auspex", 0.0, 0, 1502409600, 1702, 0, 0], [623454258, "Irregular Verbs with Portuguese Translation", 0.0, 0, 1480377600, 166, 36, 1], [1057413479, "Latein Cursus A Lektion 13 Vokabeln + Personalpronomen", 1.0, 0, 1507507200, 42, 0, 0], [31950835, "Accidence and Syntax (Latin and Greek)", 0.0, 0, 1484265600, 165, 0, 0], [1873784738, "Latin Anatomical Terms - MSc Medical Radiation Physics", 0.0, 0, 1515801600, 41, 0, 0], [554636580, "PTE Academic Writing templates 4", 0.0, 0, 1526688000, 94, 0, 0], [2077090019, "Ecclesiastical Latin Pronunciation", 2.0, 0, 1500595200, 53, 45, 0], [718686062, "Anatomy Bones - High Quality images + cloze (latin language)", 1.0, 0, 1488067200, 391, 1, 454], [1126186000, "Latein Campus Lektion 11-20", 0.0, 0, 1519776000, 290, 0, 0], [153510524, "Stammformen Latein", 0.0, 0, 1461110400, 236, 0, 0], [1932541166, "[CHEMISTRY]\u2014 Atomic Number, Atomic Mass and Relativ Percent ", 0.0, 0, 1525996800, 10, 0, 0], [423775979, "Latein Campus lektion 3", 1.0, 0, 1507420800, 50, 0, 0], [1596230137, "Most used Dutch words with English translation+ audio", 4.0, 0, 1517356800, 1088, 906, 0], [760754928, "Vocabulaire de latin au coll\u00e8ge (3e) fran\u00e7ais", 0.0, 0, 1516579200, 333, 0, 0], [1060171623, "Latein Campus lektion 5", 1.0, 0, 1507420800, 38, 0, 0], [1388863624, "Latein Campus lektion 2", 1.0, 1, 1507420800, 43, 0, 0], [644136784, "Bible Quiz 48 Galatians", 0.0, 0, 1526601600, 84, 0, 0], [1724648766, "Hemostasis and Related Disorders", 0.0, 0, 1506643200, 283, 0, 24], [2051814774, "latina", 0.0, 0, 1527033600, 39, 0, 1], [216654225, "A02 Object Manipulation", 0.0, 0, 1522886400, 3, 3, 3], [984632029, "Beginner 2 Latin American Spanish Sentences", 1.0, 0, 1519603200, 2162, 2142, 0], [1906053932, "Latin Vocab of the Mass - Stage 3: Credo", 1.0, 0, 1500595200, 94, 0, 69], [750217993, "Phille-Latein Stammformen L1-23", 0.0, 0, 1512432000, 200, 0, 0], [920800492, "Latin Vocab of the Mass - Stage 4: Other Dialogue Parts", 1.0, 0, 1500595200, 154, 0, 109], [1977620739, "1 Latein 1 - Medizinische Terminologie", 0.0, 0, 1506729600, 1707, 0, 0], [36856676, "chemistry 4th form fractional distillation", 0.0, 0, 1525996800, 17, 0, 0], [559605956, "Latvian - Portuguese(Brazil)", 0.0, 0, 1523232000, 137, 0, 0], [1064112089, "Latin 1 Cumulative Vocab", 0.0, 0, 1526860800, 543, 0, 0], [580473040, "English irregular verbs - czech translation ", 0.0, 0, 1476835200, 103, 111, 41], [1187712017, "Histolog\u00eda Ulatrestructuras  UN", 0.0, 0, 1521504000, 58, 0, 7], [2078955317, "Wheelock's Latin Supreme", 0.0, 0, 1515196800, 2181, 0, 0], [777443483, "Latin Vocab of the Mass - Stage 1: Pater Noster SignumCrucis", 3.0, 0, 1500595200, 50, 0, 35], [7022509, "NSF -  Cardiovascular system - Changes in circulation at bir", 0.0, 0, 1514678400, 35, 0, 0], [1195481830, "DANA5002 Pterygopalatine Fossa", 0.0, 0, 1517702400, 71, 0, 17], [726769911, "List of Latin Phrases", 1.0, 0, 1511913600, 2151, 0, 0], [1494081427, "Body Parts and Related Terms in Japanese", 0.0, 0, 1526947200, 550, 0, 0], [222489074, "Latina I, AYTUK-485", 0.0, 0, 1525737600, 425, 0, 0], [734535545, "Herb common/latin name and ID", 0.0, 0, 1520640000, 110, 0, 68], [340665981, "Smith Middle School - Latin I and II Vocabulary", 0.0, 0, 1527033600, 894, 0, 0], [2144684382, "\u1f08\u03b8\u03ae\u03bd\u03b1\u03b6\u03b5 graece latine", 0.0, 0, 1520985600, 3383, 0, 0], [1984257795, "Pons olasz szavak (1 h\u00f3nap alatt megsz\u00f3lalni olaszul)", 0.0, 0, 1517184000, 398, 0, 0], [1805911436, "Greek and Latin root words (with English examples!)", 1.0, 0, 1495411200, 1603, 0, 0], [872769279, "Queneau-TS1-La nomenclature en chimie organique", 1.0, 0, 1508112000, 50, 0, 67], [947272864, "Quiz Deck Template", 4.0, 0, 1502064000, 21, 0, 4], [698533341, "IPAP 2-18 A&P II 2-1 Circulatory System", 0.0, 0, 1526688000, 82, 0, 78], [2095751451, "Hasso-Plattner-Institute Mathematik II", 0.0, 0, 1524009600, 34, 0, 47], [580320278, "Hasso-Plattner-Institute WWW", 0.0, 0, 1527292800, 156, 0, 106], [634617167, "Hasso-Plattner-Institute PT II", 0.0, 0, 1524009600, 5, 0, 0], [1813279340, "Hasso-Plattner-Institute Recht I", 0.0, 0, 1524009600, 7, 0, 4], [954044468, "Neumann Chapter 11. mastication and ventilation(KDY)", 0.0, 0, 1523404800, 42, 0, 40], [2017253775, "Wheelock's Latin Chapters 1-34 Vocabulary with audio", 1.0, 0, 1525132800, 723, 692, 0], [193601895, "Botanika systematicka - Poznavacka CZU (LAT/CZ)", 0.0, 0, 1519776000, 392, 0, 0], [1128836317, "Music A-level Template HEB", 0.0, 0, 1520208000, 2, 0, 2], [141596748, "Anatomie des Herzkreislaufsystems (Deutsch/latein)", 0.0, 0, 1524009600, 99, 0, 338], [1385538971, "Mode Constellations", 0.0, 0, 1425945600, 6, 0, 0], [1586166030, "B1 Wortliste DTZ Goethe (vocab,sentenses,audio,translation)", 1.0, 0, 1516752000, 2632, 6998, 0], [1002616604, "Simulation einer Unternehmensgr\u00fcndung", 0.0, 0, 1523145600, 187, 0, 0], [278308442, "Julia latest", 0.0, 0, 1521072000, 249, 123, 8], [821533188, "Vocabulaire de latin au coll\u00e8ge (4e) fran\u00e7ais", 9.0, 0, 1516579200, 389, 0, 0], [796654318, "SZIE N\u00f6v\u00e9nyorvos 2018 Gyomszab\u00e1lyoz\u00e1s gyakorlat felismer\u00e9s ", 0.0, 0, 1525564800, 400, 0, 398], [163368900, "Sentences to Translate - French - English - Pack1", 0.0, 0, 1494460800, 200, 0, 0], [857860490, "Koko k1 Latinum B - Lektionen 1 - 21", 0.0, 0, 1476662400, 785, 0, 0], [190060484, "Lingua Latina Per Se Illustrata : Familia Romana Fr-La", 0.0, 0, 1498089600, 270, 0, 0], [840634922, "The 100 most common English words, translated to Bulgarian.", 0.0, 0, 1441238400, 0, 8, 15], [160013138, "Biochemistry- oxidative phosphrylation", 0.0, 0, 1498608000, 17, 0, 0], [601553518, "Finance Simulation", 0.0, 0, 1521072000, 10, 0, 0], [1104788752, "Duas - Arabic with English Translation (+audio) SIA", 0.0, 0, 1526083200, 18, 18, 36], [29855334, "Latein Vokabular ", 0.0, 0, 1521072000, 1293, 0, 0], [1189993667, "Guyton & Hall Metabolism & Temperature Regulation", 0.0, 0, 1519603200, 43, 0, 93], [1235193643, "Toefl Writting Templated", 0.0, 0, 1482624000, 51, 42, 63], [633425826, "Vocabulaire de latin au coll\u00e8ge (5e) fran\u00e7ais", 0.0, 0, 1516579200, 209, 0, 0], [1429416700, "Qur'anic Vocabulary: all word forms, translations & examples", 28.0, 1, 1496620800, 15634, 0, 0], [985362862, "Population Axiology", 0.0, 0, 1526947200, 15, 0, 0], [9456275, "Latin/Greek Suffixes and Prefixes", 0.0, 0, 1485302400, 321, 0, 0], [859226608, "German irregular verbs with spanish notes and translation", 0.0, 0, 1345852800, 456, 0, 0], [699508288, "Latein", 0.0, 0, 1488067200, 646, 0, 0], [951423663, "blattt", 0.0, 0, 1526860800, 43, 0, 3], [779349559, "Grammaire latine", 0.0, 0, 1485907200, 849, 3, 3], [1028705571, "organic chemistry med studies related  ", 1.0, 0, 1498608000, 131, 0, 97], [1291418750, "Translational Mechanisms (test 2)", 0.0, 0, 1520380800, 18, 0, 7], [1054117812, "Latin Grammar", 0.0, 0, 1523318400, 15, 0, 0], [2088963654, "Barron's 3500 for SAT without Japanese translation", 0.0, 0, 1505347200, 3455, 0, 0], [300862231, "[French] Liste de locutions latines", 0.0, 0, 1496620800, 1316, 0, 0], [1285676212, "Deklination-Latein", 0.0, 0, 1505174400, 134, 0, 0], [24286324, "Latin Grammar Endings", 0.0, 0, 1506556800, 36, 0, 0], [1867785021, "HENRION TS - P5 - la relativit\u00e9 restreinte", 0.0, 0, 1522886400, 6, 0, 9], [879596105, "OSU - Neuro - Pterygopalatine Fossa Anatomy", 0.0, 0, 1422748800, 40, 0, 8], [603984351, "Latin GCSE vocab", 1.0, 0, 1462147200, 473, 0, 0], [1374364724, "Chemistry Nomenclature: Binary Ionic and Polyatomic ions", 0.0, 0, 1509926400, 43, 0, 0], [301095374, "Latin Words & Phrases Every [Hu]Man Should Know", 2.0, 0, 1490918400, 217, 0, 0], [2016493672, "Latin Vocab of the Mass - Stage 2: Kyrie, Gloria, Sanctus,AD", 1.0, 0, 1500595200, 59, 0, 45], [1569562719, "TS_sp\u00e9_R\u00e9gulationGlyc\u00e9mie", 0.0, 0, 1523232000, 11, 0, 0], [774040567, "Latein Cursus B (L1-20)", 1.0, 0, 1507593600, 51, 0, 0], [81519873, "NSF - Endocrine (L5) - Growth Hormone and Melatonin", 0.0, 0, 1524182400, 67, 0, 28], [1422532079, "Latin Vocabulary", 0.0, 0, 1507161600, 94, 0, 0], [973011720, "Adeo Latin", 1.0, 0, 1501027200, 1283, 0, 0], [491461917, "Embryology Face and palate", 0.0, 0, 1524614400, 38, 0, 12], [1804998209, "Embryology - Gastrulation", 0.0, 0, 1524614400, 12, 0, 2], [1604715381, "Quran Ayah English Translation (OpenArabic.org)", 1.0, 0, 1523664000, 6236, 0, 0], [1833450203, "Most used Dutch words with English translation+ audio", 2.0, 0, 1491696000, 915, 753, 17], [1653155491, "Latein vom Buch Medias in Res", 0.0, 0, 1489968000, 177, 5, 1], [1572543752, "Hungarian english words related authority ", 0.0, 1, 1461628800, 79, 12, 0], [1395089395, "Spanish Nouns Latin America Simon Bolivar School Ecuador", 0.0, 0, 1480291200, 590, 39, 53], [356880668, "English Irregular verbs (translated to Spanish)", 0.0, 0, 1525132800, 60, 0, 0], [278240367, "Cambridge Latin Stages 1-5", 0.0, 0, 1439856000, 182, 0, 4], [944864835, "Oscillations University Physics 2 (wip)", 0.0, 0, 1497225600, 9, 0, 14], [1829066962, "Latein Campus lektion 4", 1.0, 0, 1507420800, 47, 0, 0], [1543449568, "Vocabulaire latin - fran\u00e7ais ; la vie culturelle", 0.0, 0, 1509321600, 408, 0, 0], [132836232, "Vocabulaire latin - fran\u00e7ais ; la vie politique", 0.0, 0, 1509321600, 581, 0, 0], [1958833775, "Latein Campus lektion 1", 1.0, 0, 1507420800, 41, 0, 0], [1710971915, "Latin Vocab of the Mass - Stage 5: The Roman Canon", 1.0, 0, 1500595200, 294, 0, 212], [1394017728, "Finnish Core 2000 Word List(without translation)", 1.0, 0, 1454457600, 1841, 43, 1845], [810249417, "Speech Text template for iOS (AnkiMobile)", 10.0, 1, 1505692800, 8, 0, 0], [71281032, "Vocabulaire latin - fran\u00e7ais ; la vie sociale", 1.0, 0, 1509321600, 403, 0, 0], [1605152440, "Wheelock's Latin 7th Ed. Caput 1-29 ", 0.0, 0, 1491091200, 4056, 0, 0], [1461276999, "Chengyu list - HSK 3-5 - With English translations", 0.0, 0, 1500422400, 126, 0, 0], [731368649, "Frontend (JavaScript related technologies)", 3.0, 0, 1486339200, 681, 0, 0], [2099856914, "Spanish pronoun practice (Latin America)", 0.0, 0, 1445904000, 37, 0, 1], [1618227214, "Nomenklatur organische Chemie", 0.0, 0, 1490659200, 19, 0, 38], [269213494, "Cambridge Latin Course: Unit 2", 1.0, 0, 1479254400, 546, 0, 0], [133895080, "Khan Academy: AlgebraI (requires Latex)", 0.0, 0, 1500768000, 159, 0, 329], [1727042238, "Latein Grammatik ", 0.0, 0, 1463356800, 21, 1, 1], [4176040791, "Latein Klettverschluss GWS", 0.0, 0, 1383004800, 94, 0, 0], [1426612712, "DCC Core Latin Vocabulary ", 1.0, 0, 1523232000, 1002, 0, 0], [1138230785, "Basic Plattdeutsch/Niederdeutsch/Low German/Nedersaksies", 0.0, 0, 1399507200, 269, 0, 0], [3001803639, "German relative pronouns", 0.0, 0, 1360368000, 16, 0, 0], [1411451876, "Unikurs Latein", 2.0, 1, 1424131200, 379, 0, 0], [1386275570, "jQuery - DOM Manipulation", 0.0, 0, 1501804800, 10, 0, 0], [1906684131, "Irregular verbs FULL audio, SPANISH translation", 0.0, 0, 1443398400, 156, 432, 1], [1318968971, "Cambridge Latin Course: Unit 3", 0.0, 0, 1479254400, 631, 0, 0], [1011923924, "SM latino Oerb italiano", 0.0, 0, 1423353600, 1918, 0, 13], [548246746, "Medieval Latin", 2.0, 0, 1414195200, 2905, 0, 0], [174464096, "Diederich - Latin", 0.0, 0, 1398643200, 1475, 0, 3], [533207552, "Vocabulaire latin - fran\u00e7ais ; th\u00e9matique de l'homme", 0.0, 0, 1457395200, 741, 0, 0], [1658334062, "Gk and Latin Roots - Inspired Writing and Literature Classes", 1.0, 1, 1409788800, 32, 0, 0], [1660046849, "Constellations of the Northern Sky", 1.0, 0, 1345852800, 56, 0, 55], [2055497186, "Anatomie Allgemein Deutsch->Latein", 0.0, 0, 1458086400, 45, 0, 0], [1296521467, "Mongolian verbs and project/health-related vocabulary", 0.0, 0, 1345852800, 812, 0, 0], [2214700457, "German sentences with English translation", 1.0, 0, 1365465600, 3077, 0, 0], [1854429431, "First Year Latin vocabulary", 1.0, 0, 1449360000, 91, 0, 0], [1876097095, "Constellations", 3.0, 0, 1441929600, 89, 8, 1], [1050322009, "Colloquial Spanish of Latin America", 2.0, 0, 1427846400, 607, 0, 0], [1627574886, "Inhalational agents", 0.0, 0, 1462924800, 120, 0, 9], [545958596, "Greek by radio, lessons 1-75 Russian and English Translation", 4.0, 0, 1524096000, 6924, 0, 0], [490303092, "Ancient Greek Platonic Idioms", 0.0, 0, 1431475200, 54, 0, 0], [1748023561, "AQA English Literature Poetry GCSE Relationships Section", 0.0, 0, 1464307200, 237, 0, 98], [701288839, "Latin Paradigms", 0.0, 0, 1451260800, 43, 0, 84], [749287227, "List of Latin Phrases 18June2012_2-30pmPST", 1.0, 1, 1345852800, 1788, 0, 0], [1397480336, "Lingua Latina Familia Romana", 4.0, 0, 1475020800, 1856, 0, 0], [920980, "Korean words with Russian translation", 0.0, 1, 1353888000, 1, 0, 0], [629191217, "Angel: Nomenclature 7/24", 0.0, 0, 1437782400, 116, 0, 0], [1976698157, "Sharps and Flats in Major Scale Music -- Circle of Fifths", 0.0, 0, 1451174400, 37, 0, 0], [113518784, "Japanese Relative Time Words Version 1.01 (JTMW)", 0.0, 0, 1424390400, 118, 0, 0], [364787347, "Latein Konjugationen", 0.0, 0, 1386028800, 670, 0, 0], [551278005, "Constellations without lines", 0.0, 0, 1472947200, 88, 3, 705], [2097253105, "Latin: An Intensive Course (Moreland and Fleischer)", 0.0, 0, 1464048000, 907, 0, 1], [1314466920, "Vocabulaire latin - fran\u00e7ais ; la vie priv\u00e9e", 1.0, 0, 1459036800, 206, 0, 0], [3987096092, "600 parole base del latino", 1.0, 0, 1385683200, 600, 0, 0], [1742429345, "Rx Calculations", 0.0, 0, 1345852800, 33, 0, 0], [205388282, "Common Latex Commands", 7.0, 0, 1367366400, 248, 0, 3], [740967428, "Jouyou kanji & related compounds ", 2.0, 0, 1444176000, 14942, 0, 0], [3273053765, "\"Beginning Sanskrit\" cumulative vocabulary", 3.0, 0, 1414281600, 1325, 0, 1], [741876940, "Cambridge Latin Course Unit 1", 2.0, 0, 1472947200, 290, 0, 1], [777878970, "Cambridge Latin Course: Unit 1", 1.0, 0, 1458345600, 550, 0, 0], [673895033, "PBL Class of 2020 Step 1 Cumulative Study Deck\t", 0.0, 0, 1475539200, 1707, 1, 629], [1166989454, "Henle Second Year Latin vocabulary ", 0.0, 0, 1476921600, 376, 145, 7], [73088066, "Henle First Year Latin", 1.0, 0, 1476921600, 432, 210, 7], [512587002, "Latin 1 RNRMU / \u041b\u0430\u0442\u044b\u043d\u044c 1 \u0420\u041d\u0418\u041c\u0423", 0.0, 0, 1448150400, 57, 0, 0], [13825275, "Ace Correlatives Like a Native!\u2122", 0.0, 0, 1431648000, 59, 118, 1], [1106933499, "Greek and Latin Root Words", 2.0, 0, 1458864000, 300, 0, 0], [1051104765, "Advanced Latin American Spanish", 1.0, 0, 1379376000, 148, 0, 0], [4234732413, "Low Intermediate Latin Amer Spanish Sentences (TTS accurate)", 7.0, 0, 1516579200, 1100, 1098, 0], [1406969464, "English vocabulary & slang  with persian translation", 0.0, 0, 1432425600, 1147, 0, 0], [3157230824, "Advanced translation \u9ad8\u7ea7\u7ffb\u8bd1", 0.0, 0, 1385337600, 63, 0, 2], [215665486, "Vocabulaire latin", 0.0, 0, 1504828800, 1701, 0, 0], [348080831, "Top 2000 Words in Spoken English with Russian translation", 0.0, 0, 1439683200, 2247, 0, 0], [3003501636, "Wladcy Polski - lata panowania", 2.0, 1, 1345852800, 30, 0, 0], [356158293, "Advanced English vocabulary with Dutch translation", 0.0, 1, 1365638400, 1079, 0, 169], [2001113190, "900+ Spanish Verbs (Infinitives + Present Tense) [Latin Am.]", 2.0, 0, 1470614400, 948, 0, 0], [156528571, "Algorithmist's Latvian-English Tatoeba Sentences ", 0.0, 0, 1474416000, 509, 0, 0], [1181834904, "500 English words(pic and audio) (Ukrainian Translation)", 3.0, 0, 1425254400, 248, 234, 268], [387126451, "Latvian - English", 5.0, 0, 1458691200, 2574, 0, 0], [749237861, "Histoire des relations internationales I", 0.0, 0, 1478995200, 193, 0, 17], [805175148, "Ancient Greek Plato's Phaedrus", 1.0, 0, 1505001600, 276, 0, 0], [2193231899, "Latin 101, 201 and 301", 2.0, 0, 1345852800, 1021, 0, 0], [2016594195, "Angol kisokos Besz\u00e9dfordulatok", 7.0, 1, 1461628800, 373, 12, 0], [93980248, "Japanese everyday words and phrases, translated into Russian", 1.0, 1, 1350777600, 113, 105, 21], [1994329768, "1100+ words upper intermediate English translated to Spanish", 1.0, 0, 1423008000, 1182, 1182, 36], [833665190, "Algorithmist's Latvian words by frequency :1-100 with audio", 0.0, 0, 1482537600, 100, 100, 0], [1956391082, "Berliner Platz 1 (Arabisch Deutsch)", 1.0, 0, 1460419200, 1871, 1870, 3744], [25060778, "Latin / Greek Roots", 1.0, 1, 1423267200, 79, 0, 0], [880018939, "Some Latin words for medical Terminology ", 0.0, 0, 1478649600, 84, 8, 44], [2066265122, "Berliner Platz PL-DE Maciej Karpi\u0144ski", 0.0, 0, 1345852800, 679, 0, 0], [1981416035, "TS - Analyse spectrale et nomenclature", 0.0, 0, 1510704000, 30, 0, 45], [1295208084, "Latein Felix", 1.0, 0, 1443312000, 1581, 1, 0], [1674909651, "Chrono Trigger script. Japanese <-> English retranslation", 8.0, 0, 1372464000, 4701, 0, 0], [2425969234, "Latein - Medizinische Terminologie_Grammatik", 1.0, 0, 1378166400, 90, 0, 0], [2814203482, "German verbs with prepositions and spanish translation", 0.0, 0, 1345852800, 273, 0, 0], [2053900866, "Wheelock's Latin - Complete Vocabulary", 11.0, 0, 1345852800, 871, 0, 0], [758146693, "6000+ most common Slovak words (with english translations)", 0.0, 0, 1453507200, 6456, 0, 0], [3300683758, "Lingua Latina: Familia Romana 1-18", 4.0, 0, 1363392000, 856, 0, 0], [3185927584, "Latin regular verb conjugations", 0.0, 0, 1366156800, 210, 0, 0], [1736902404, "Latein - Medizinische Terminologie", 2.0, 0, 1378166400, 1830, 0, 0], [4242456248, "English idioms with Polish translation V1.1", 0.0, 0, 1362441600, 514, 0, 0], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57], [1187642133, "English idioms with Polish translation", 5.0, 2, 1345852800, 514, 0, 0], [525995828, "latina lingua", 0.0, 0, 1478304000, 1120, 0, 0], [2033132535, "English Irregular Verbs (russian translation and sound)", 25.0, 1, 1450915200, 308, 250, 41]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

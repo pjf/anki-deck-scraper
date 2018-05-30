@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Inu
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Inu</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1717279881, "Linux and Bash", 0.0, 0, 1511222400, 15, 0, 0], [1041395252, "Thoracic Wall, Heart, Mediastinum SLM", 0.0, 0, 1511308800, 137, 0, 20], [266736669, "6 Minute English Vocabulary", 5.0, 0, 1505001600, 3962, 0, 0], [1106074514, "6 Minute English", 5.0, 0, 1505001600, 153, 3, 153], [114804041, "Development: covering iOS, linux admin, algorithms and more ", 0.0, 0, 1479859200, 57, 1, 2], [704479004, "Anatomy - Heart and Mediastinum Clinical Correlates", 0.0, 0, 1506556800, 27, 0, 24], [210293374, "NSF - Head - (L2) Nasal cavity, paranasal sinuses and horns", 0.0, 0, 1520899200, 72, 0, 52], [2026824720, "Command Line Linux Shell - PT/BR - Iniciantes", 0.0, 0, 1502236800, 106, 0, 0], [1985258246, "Linux Powershell Commands", 0.0, 0, 1496448000, 22, 0, 0], [1171788920, "Linux Commands", 0.0, 0, 1496275200, 10, 0, 0], [479839995, "Mes cartes bash et GNU/Linux (en fran\u00e7ais)", 0.0, 0, 1507852800, 212, 0, 1], [1788012512, "E-pathology: Lung, pleura, mediastinum", 0.0, 0, 1518652800, 226, 0, 34], [3833461953, "Serbian Slang \u2014 Tipsy Pilgrim's Fluent in 20 Minutes", 0.0, 0, 1373932800, 28, 0, 0], [857860490, "Koko k1 Latinum B - Lektionen 1 - 21", 0.0, 0, 1476662400, 785, 0, 0], [2081615333, "Linux Academy - Linux Essentials", 0.0, 0, 1521676800, 340, 0, 0], [1059867546, "Anatomy - Heart and Mediastinum", 0.0, 0, 1506556800, 48, 0, 50], [804086225, "LX0-104 Comptia Linux+", 0.0, 0, 1457913600, 310, 0, 0], [1265839292, "\u00c4usseres Erscheinungsbild (English to German)", 0.0, 0, 1444176000, 20, 0, 0], [296048190, "Mac-, Linux- & Windows-commands in Terminal, PowerShell", 0.0, 0, 1459900800, 24, 0, 0], [2520473800, "Anatomy:  Lungs, Superior and Posterior Mediastinums", 0.0, 0, 1383091200, 36, 0, 38], [1007273388, "LPI - Linux Essentials ", 2.0, 1, 1441843200, 73, 0, 0], [500178169, "Basic Greek in 30 Minutes A Day, Part 1, James Found", 4.0, 0, 1449532800, 384, 0, 0], [1269843062, "yongfa365.Tec.Linux(\u5e38\u7528\u7684Linux\u6280\u5de7)", 1.0, 0, 1476144000, 68, 0, 0], [269214285, "Linux Essentials", 3.0, 0, 1470441600, 340, 0, 0], [1950743421, "Bash Command Line For Linux", 2.0, 0, 1398729600, 245, 0, 0], [805236247, "linux shell navigation shortcuts", 0.0, 0, 1400457600, 27, 0, 0], [937487521, "plus minus to/bis 100", 2.0, 1, 1392595200, 10000, 0, 0], [1672885309, "Linux Directory Structure", 0.0, 0, 1475712000, 42, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

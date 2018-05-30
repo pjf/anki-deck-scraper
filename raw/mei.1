@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Mei
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Mei</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[318568746, "Allgemeine Innere", 0.0, 0, 1510876800, 43, 0, 0], [1251668868, "\u4eba\u540d\u7528\u6f22\u5b57 Jinmeiyoukanji (Full Names+Single Names)", 2.0, 2, 1345852800, 2530, 0, 0], [906416760, "Short-Range-Certificate (SRC) Vokabeln allgemein", 0.0, 0, 1515628800, 99, 0, 0], [1796139282, "Primeira Fase \u2013 Medicina UFSC (Rech)", 0.0, 0, 1521158400, 2366, 0, 582], [430498871, "KMP3b (ohne Allgemeinmed) online Nachbesprechungen", 0.0, 0, 1516838400, 1162, 0, 4], [117058631, "Meine SIP1a", 0.0, 0, 1515196800, 2195, 0, 380], [1521519270, "Pharmakologie Allgemeines TU M\u00fcnchen", 0.0, 0, 1393286400, 70, 1, 0], [1389641767, "Meine SIP1b", 0.0, 0, 1515196800, 1823, 0, 130], [174522250, "Allgemeine Biologie", 0.0, 0, 1490659200, 70, 0, 0], [734674161, "Redoxgleichungen und allgemeines Chemie Wissen", 0.0, 0, 1490659200, 8, 0, 3], [573152847, "80 Primeiras Express\u00f5es em Franc\u00eas | Eli D\u00e1 a Dica", 8.0, 0, 1480636800, 80, 80, 1], [2055497186, "Anatomie Allgemein Deutsch->Latein", 0.0, 0, 1458086400, 45, 0, 0], [16585168, "Allgemeine Psychopathologie: die psychiatrischen Symptome", 1.0, 0, 1427846400, 240, 0, 0], [852624783, "AlexiaC: Biology Unit 2: Cell Division and Meiosis ", 0.0, 0, 1505088000, 2, 0, 0], [2009669666, "As Primeiras 1000 frases em Ingl\u00eas.", 26.0, 5, 1441497600, 1503, 1081, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

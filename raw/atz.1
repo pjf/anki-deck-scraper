@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Atz
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Atz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1659799294, "Klingonisch Grundwortschatz", 0.0, 0, 1527379200, 666, 0, 0], [1640225815, "Lernwortschatz 3", 0.0, 0, 1527638400, 60, 0, 0], [2074544729, "Lernwortschatz 10", 0.0, 0, 1527638400, 91, 0, 0], [870197891, "Lernwortschatz 2", 0.0, 0, 1527638400, 149, 0, 0], [1440396476, "Lernwortschatz 4", 0.0, 0, 1527638400, 98, 0, 0], [108383731, "Lernwortschatz 5", 0.0, 0, 1527638400, 68, 0, 0], [1887818969, "Lernwortschatz 7", 0.0, 0, 1527638400, 75, 0, 0], [34986935, "Lernwortschatz 6", 0.0, 0, 1527638400, 106, 0, 0], [750856442, "Lernwortschatz 8", 0.0, 0, 1527638400, 129, 0, 0], [1270729939, "Allemand -> Fran\u00e7ais Wortschatz", 1.0, 0, 1461283200, 36, 0, 0], [1050062420, "Umsatzsteuerrecht", 0.0, 0, 1522800000, 14, 0, 0], [1496906720, "Grund und Aufbauwortschatz Spanisch Klett", 0.0, 0, 1462147200, 199, 0, 0], [157520553, "Grundwortschatz, Deutsch-Spanisch, 4600 Begriffe, beidseitig", 0.0, 0, 1517529600, 4602, 0, 0], [239634361, "AusBlick 2 Wortschatz (n\u00e9met-magyar) ", 0.0, 0, 1525392000, 1554, 0, 0], [1288015589, "Italienisch Aufbauwortschatz B1B2", 0.0, 0, 1523145600, 935, 0, 0], [329995131, "Italienisch Basiswortschatz A1A2", 3.0, 0, 1523145600, 1001, 0, 0], [1778175722, "Englisch Deutsch Fortgeschritten B1-B2 Wortschatz mit Audio", 0.0, 0, 1518307200, 806, 799, 6], [780379241, "Katzeversuchthundumzubringen", 0.0, 0, 1520553600, 327, 0, 269], [1200988598, "Spanisch Deutsch Beginner A1-A2 Wortschatz", 0.0, 0, 1518307200, 585, 576, 2], [143535057, "Lernwortschatz 1", 0.0, 0, 1527638400, 115, 0, 0], [2239734893, "Deutsch-Englisch Grundwortschatz 07 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [161478300, "Deutsch Wortschatz", 0.0, 0, 1474934400, 941, 0, 0], [97028725, "Zum Wortschatz BERN Zivilisation", 0.0, 0, 1520294400, 8, 0, 0], [1036108615, "Deutsch-Englisch Grundwortschatz 16 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [497779681, "Wortschatz Aspekte Neu", 0.0, 1, 1485129600, 734, 0, 0], [1996034170, "Zusatzbezeichnung Notfallmedizin", 0.0, 0, 1514678400, 95, 0, 1], [1858930839, "Deutsch-Englisch Grundwortschatz 15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 59, 0], [1663301406, "Deutsch Oberstufe Wortschatz", 0.0, 0, 1449100800, 135, 0, 0], [3709737794, "Deutsch-Englisch Grundwortschatz 17 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1748401206, "Deutsch-Englisch Grundwortschatz 38 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3461687221, "Deutsch-Englisch Grundwortschatz 26-30 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1746947706, "Deutsch-Englisch Grundwortschatz 18 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [284983128, "Deutsch-Englisch Grundwortschatz 09 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3404056944, "Deutsch-Englisch Grundwortschatz 12 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2344316916, "Deutsch-Englisch Grundwortschatz 11-15 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [3068916598, "Deutsch-Englisch Grundwortschatz 20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [527680422, "Spanisch, erweiterter Wortschatz", 0.0, 0, 1445040000, 1806, 1889, 116], [1615919816, "Deutsch Aufbauwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 1.0, 0, 1373241600, 2049, 0, 0], [527139445, "Deutsch-Englisch Grundwortschatz 21-25 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1344867925, "Deutsch-Englisch Grundwortschatz 37 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [481753426, "Deutsch-Englisch Grundwortschatz 36 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [474334693, "Deutsch-Englisch Grundwortschatz 11 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [939080489, "Deutsch-Englisch Grundwortschatz 13 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2765795831, "Deutsch-Englisch Grundwortschatz 05 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [2395947040, "Mathematikwortschatz PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 59, 0, 0], [54211442, "Deutsch-Englisch Grundwortschatz 16-20 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [3732930072, "Deutsch-Englisch Grundwortschatz 02 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [251118466, "B1 Zertifikat Wortschatz", 1.0, 0, 1432339200, 224, 0, 0], [1683777055, "Deutsche Wortshatz", 2.0, 0, 1475625600, 167, 0, 0], [860999906, "Vischer Grundwortschatz (Verben)", 0.0, 0, 1399420800, 829, 0, 0], [1197210740, "Deutsch-Englisch Grundwortschatz 19 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [698219353, "Wortschatz bis B2", 0.0, 0, 1400198400, 1736, 0, 0], [1151816691, "Deutsch Wortschatz (Kurs)", 0.0, 2, 1454284800, 0, 0, 0], [506285649, "Spanisch Deutsch Grundwortschatz", 2.0, 0, 1451001600, 4695, 0, 0], [262089195, "Grund- und Aufbauwortschatz Griechisch", 2.0, 1, 1446508800, 682, 0, 0], [503761075, "Deutsch-Englisch Grundwortschatz 03 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1694925060, "Deutsch-Englisch Grundwortschatz 04 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1221062359, "Deutsch-Englisch Grundwortschatz 14 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [1488367520, " Kanji Genki 1 + Zusatz", 0.0, 0, 1390780800, 481, 0, 0], [1070593299, "Deutsch-Englisch Grundwortschatz 6-10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0], [1987523704, "Deutsch-Englisch Grundwortschatz 31-35 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 299, 0], [1072538630, "Deutsch-Englisch Grundwortschatz 39 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [59581328, "Grundwortschatz Neutestamentliches Griechisch (Koine)", 2.0, 0, 1467849600, 1134, 0, 0], [4214093825, "Deutsch-Englisch Grundwortschatz 06 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3277301784, "Deutsch-Englisch Grundwortschatz 10 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 30, 60, 0], [3913756983, "Englisch f\u00fcr Deutsche - Elementar- und Grundwortschatz", 2.0, 0, 1345852800, 2014, 0, 0], [1802224060, "Wortschatz - Stufe C1/C2 - L\u00fcckentest DE-DE Marcin Perli\u0144ski", 7.0, 0, 1345852800, 483, 0, 0], [691758931, "Deutsch Grundwortschatz - (deutsch-ungarisch) n\u00e9met-magyar", 10.0, 1, 1372636800, 1966, 0, 0], [1956391082, "Berliner Platz 1 (Arabisch Deutsch)", 1.0, 0, 1460419200, 1871, 1870, 3744], [2066265122, "Berliner Platz PL-DE Maciej Karpi\u0144ski", 0.0, 0, 1345852800, 679, 0, 0], [3087069031, "Deutsch-Englisch Grundwortschatz 01 von 56 (Audio DE+EN)", 0.0, 1, 1345852800, 30, 60, 0], [3463106713, "Deutsch-Englisch Grundwortschatz 1-5 von 56 (Audio DE+EN)", 0.0, 0, 1345852800, 150, 300, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

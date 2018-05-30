@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Isz
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Isz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[253751894, "4000 Essential English Words 5 [en-pl] M4R4M_KrisZet", 9.0, 1, 1479168000, 600, 1847, 649], [1716597667, "4000 Essential English Words 1 [en-pl] M4R4M_KrisZet", 41.0, 2, 1487462400, 600, 1846, 660], [924498027, "3.01.2017 Hiszpanski", 0.0, 0, 1484265600, 774, 0, 0], [130198145, "4000 Essential English Words 3 [en-pl] M4R4M_KrisZet", 15.0, 1, 1479168000, 599, 1844, 648], [1049648964, "4000 Essential English Words 4 [en-pl] M4R4M_KrisZet", 14.0, 1, 1479168000, 600, 1847, 649], [439640173, "chriszwj", 0.0, 0, 1521849600, 286, 0, 0], [2047197427, "4000 Essential English Words 2 [en-pl] M4R4M_KrisZet", 16.0, 1, 1479168000, 599, 1841, 647], [508104140, "1100 Barron's English Words_(angielsko-polski)_KrisZet", 4.0, 0, 1487462400, 1101, 1116, 940], [1025863650, "Hiszpa\u0144ski - kurs", 1.0, 0, 1498089600, 905, 0, 0], [1987226934, "Englisz Polish medical deck", 0.0, 0, 1487635200, 6279, 0, 0], [711349179, "Polish-English PL-EN Fiszki4GL. PL-EN poz.1 [Lelum Polelum]", 1.0, 0, 1496102400, 1081, 1081, 50], [698844140, "chrisZ99", 0.0, 0, 1521849600, 3020, 0, 0], [385224644, "English-Polish EN-PL FiszkiPlus Podst+\u015arZaaw [Lelum Polelum]", 1.0, 0, 1496102400, 3600, 7200, 55], [1603427253, "4000 Essential English Words 6 [en-pl] M4R4M_KrisZet", 10.0, 1, 1479168000, 599, 1844, 648], [1957889218, "1100 NB - ENGLISH_POLISH_(angielsko-polski) - v3_KrisZet", 4.0, 1, 1479168000, 1067, 1114, 184], [4068740251, "fiszki - j\u0119zyk japo\u0144ski", 0.0, 1, 1345852800, 300, 300, 32], [763571865, "\u00c9lelmiszerek", 0.0, 1, 1399075200, 50, 50, 0], [1783338642, "czasowniki hiszpa\u0144ski", 0.0, 0, 1450051200, 124, 0, 0], [597069243, "Hiszpa\u0144ski - Espa\u00f1ol - PL-ES (Tosia)", 1.0, 0, 1345852800, 903, 0, 0], [905840488, "Zbi\u00f3r r\u00f3\u017cnych s\u0142\u00f3wek z j\u0119zyka hiszpa\u0144skiego", 0.0, 0, 1450051200, 220, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>
