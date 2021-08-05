@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Lim
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Lim</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[169604721, "Forelimb RAD 2018", 0.0, 0, 1527638400, 100, 0, 179], [458287824, "Hindlimb RAD 2018", 0.0, 0, 1527638400, 100, 0, 196], [963395692, " NSF - Hindlimb - (4) nerves and blood supply", 0.0, 0, 1519689600, 42, 0, 28], [1687828090, "D&P Limbs & Head/Neck", 0.0, 0, 1523232000, 773, 0, 0], [1587229156, "Upper Limb Anatomy", 0.0, 0, 1515801600, 60, 0, 0], [1197311204, "Geografia do Brasil - Estrutura geol\u00f3gica,Climas e Vegeta\u00e7\u00e3o", 0.0, 0, 1527206400, 69, 0, 0], [1490294663, "Silliman University - Microbiology: Microbial Nutrition", 0.0, 0, 1520208000, 58, 0, 0], [1071225154, "Temel Kelimeler", 0.0, 0, 1527465600, 130, 0, 0], [178826958, "UPPER LIMB", 0.0, 0, 1521763200, 55, 0, 14], [2088030714, "NSF - Hindlimb & Integument - Histology ", 0.0, 0, 1520035200, 180, 0, 32], [1121509242, "NSF - Forelimb - Axial skeleton", 0.0, 0, 1523145600, 69, 0, 22], [2081474261, "NSF - Forelimb - Structural modifications of footpad ", 0.0, 0, 1523145600, 34, 0, 5], [1153636897, "NSF - Hindlimb - Distal HL and stay apparatus (equine)", 0.0, 0, 1520294400, 59, 0, 12], [801479787, "Govt Schemes for Prelims 2018", 0.0, 0, 1522886400, 114, 0, 21], [1694837923, "GSSE lower limb", 0.0, 0, 1488844800, 86, 41, 140], [819951122, "T-6 Ops limits and Boldface", 0.0, 0, 1521158400, 68, 0, 0], [575236376, "Preguntas Lim\u00f3n Ochoa", 0.0, 0, 1522108800, 5, 0, 0], [1262154566, "Upper Limb Anatomy", 0.0, 0, 1512086400, 125, 0, 100], [684431673, "Lower limb", 1.0, 0, 1487808000, 80, 40, 212], [1080982843, "226L voc anglais climate change", 2.0, 0, 1505433600, 34, 0, 0], [1863263105, "Silliman University - Microbiology: Viruses, viroids, prions", 0.0, 0, 1520208000, 41, 0, 0], [330923037, "Blood Vessels of the Upper Limb ", 0.0, 0, 1508198400, 27, 0, 0], [1647871088, "LOWER LIMB", 0.0, 0, 1521763200, 76, 0, 4], [155939594, "NSF - Forelimb - Movement and support of the shoulder joint", 0.0, 0, 1523145600, 54, 0, 4], [944881813, "NSF - Forelimb - Shoulder and brachial region", 0.0, 0, 1523145600, 66, 0, 9], [188153925, "NSF - Forelimb - Intro to musculoskeletal system ", 0.0, 0, 1523145600, 4, 0, 4], [1212265918, "NSF - Forelimb - Structures & functions of the antebrachium", 0.0, 0, 1523145600, 65, 0, 11], [1930579220, "NSF - Forelimb - Structures & functions of the distal FL", 0.0, 0, 1523145600, 85, 0, 7], [1726023411, "NSF - Hindlimb - (1) Structures of pelvic girdle and hip joi", 0.0, 0, 1519603200, 78, 0, 50], [1763182504, "RVU Lower Limb Dr. Funk", 0.0, 0, 1445385600, 840, 0, 830], [234536694, "MSK Anatomy Upper limb lab", 1.0, 0, 1515628800, 131, 0, 170], [1093875440, "Repasa los alimentos", 0.0, 0, 1524182400, 25, 0, 0], [1941948407, "NSF - Hindlimb - (L7) Axial skeleton ", 0.0, 0, 1520553600, 62, 0, 35], [1123767246, "Neuroanatomy - Cortex, Basal Ganglia, Limbic System, Thalamu", 0.0, 0, 1515542400, 33, 0, 29], [356563342, "NSF - Hindlimb - (L3) Distal HL (SA)", 0.0, 0, 1519776000, 111, 0, 33], [2065112968, "NSF - Hindlimb - Structures of the Proximal hindlimb (L2)", 0.0, 0, 1520121600, 86, 0, 68], [955266347, "Yamani Majdy - Hemmak Balim", 0.0, 0, 1520899200, 10, 0, 10], [1301882238, "NSF - Hindlimb - Bones practical ", 0.0, 0, 1519776000, 20, 0, 11], [90133892, "Kallimni 'Arabi Bishweesh 1", 0.0, 0, 1520208000, 18, 0, 0], [360034549, "Kallimni 'Arabi Bishweesh 2", 0.0, 0, 1520208000, 16, 0, 0], [686631694, " Kallimni 'Arabi Bishweesh 3", 0.0, 0, 1520208000, 18, 0, 0], [390915860, "Los alimentos", 0.0, 0, 1507507200, 22, 0, 0], [579585577, "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 - \u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439 Rus\u00e7a-T\u00fcrk\u00e7e kelimeler(\u0441\u043b\u043e\u0432)", 0.0, 0, 1526947200, 303, 0, 0], [1951052686, "NSF - Hindlimb (L5) - Structures of the equine proximal", 0.0, 0, 1520294400, 71, 0, 30], [47463181, "Upper Limbs, Shoulder, Pectoral Region, Axilla", 0.0, 0, 1522713600, 227, 0, 213], [1839713159, "RVU Upper Limb", 2.0, 0, 1443744000, 930, 0, 324], [1627255940, "Anatomy - Limbs (Upper and Lower)", 1.0, 0, 1510358400, 216, 0, 24], [1377400136, "Cirrus SR20 G6 airspeeds & limitations", 0.0, 0, 1525824000, 42, 0, 0], [1070685824, "Joints of the upper Limb ", 0.0, 0, 1508198400, 14, 0, 0], [1255315857, "Muscles of the upper limb ", 0.0, 0, 1508198400, 66, 0, 8], [1328602558, "Rus\u00e7a  (T\u00fcrk\u00e7e \u0130ngilizce) kelimeleer", 0.0, 0, 1473811200, 85, 80, 46], [1382731075, "Klimageographie Maya", 0.0, 0, 1522281600, 32, 0, 0], [1762608734, "INGL\u00caS - Viagens - Cozinha, Alimentos e Bebidas", 0.0, 0, 1509062400, 80, 0, 0], [1667935956, "Upper Limb Anatomy", 1.0, 0, 1476489600, 80, 0, 0], [4074379722, "Muscles of the lower limb", 0.0, 0, 1379894400, 420, 0, 55], [272371778, "Tarbiyatou al-mouslim (programme de la madrassah) - Tome 1", 0.0, 0, 1488844800, 224, 1, 0], [563455989, "Arabic for Muslims", 0.0, 0, 1439942400, 21, 23, 3], [327669948, "Historia-rafael.lima", 0.0, 0, 1510444800, 48, 0, 0], [1175044573, "Sublime Text 3 shortcuts for Mac", 0.0, 0, 1416528000, 100, 5, 0], [196809565, "L'alimentation", 0.0, 0, 1408060800, 121, 0, 131], [1971855870, "Upper limb Muscle actions and innervations", 0.0, 0, 1411862400, 17, 0, 0], [1829715180, "Anatomy Practical: Lower Limb Vessels", 0.0, 0, 1463443200, 11, 0, 22], [714412237, "Lower Limb Muscles Anatomy", 1.0, 0, 1471219200, 63, 0, 60], [855800187, "Parliment of India", 0.0, 0, 1345852800, 31, 0, 0], [417723432, "Anatomy Upper Limb", 0.0, 0, 1417564800, 105, 0, 173], [7181972, "Francais Perspectives A2 Zlimnig", 0.0, 1, 1410739200, 406, 0, 3], [2140796185, "Anatomy Practical: Lower Limb - bones + ligaments", 0.0, 0, 1462060800, 18, 0, 36], [1782164740, "Anatomy Practical Upper Limb bones ligaments and muscles", 5.0, 0, 1464739200, 57, 8, 133], [887799458, "Anatomy Practical: Lower limb muscles", 3.0, 0, 1462060800, 76, 0, 152]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

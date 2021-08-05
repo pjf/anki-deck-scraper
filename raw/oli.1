@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Oli
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Oli</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[756539601, "Duolingo French for English speakers", 0.0, 0, 1527206400, 1979, 1978, 0], [1848166350, "Native Immersion #22- The Holidays in English", 0.0, 0, 1521763200, 33, 33, 0], [1973732908, "Amino acids / metabolism", 0.0, 0, 1470355200, 42, 0, 0], [1354512917, "Duolingo German for English speakers", 0.0, 0, 1527206400, 2154, 4247, 0], [247695077, "Duolingo Spanish for English speakers", 0.0, 0, 1527206400, 1441, 1441, 0], [1445742952, "Duolingo Turkish for English speakers", 0.0, 0, 1527206400, 1136, 1136, 0], [1439614616, "Polish sentences for final", 0.0, 0, 1527033600, 257, 0, 0], [815785344, "Duolingo German for English Speakers (Detailed)", 10.0, 1, 1461628800, 2218, 5, 1], [1359406552, "Vocaboli Genki lezione 1-10", 0.0, 0, 1527465600, 350, 0, 0], [1102827807, "S\u0142ownik frekwencyjny ISEL-2000 angielsko polski english poli", 2.0, 0, 1458259200, 2000, 2000, 0], [860021367, "Policia Civil-Criminologia-Vunesp", 0.0, 0, 1527638400, 95, 0, 0], [909656562, "Private deck to support learning via Duolingo", 0.0, 0, 1513296000, 23, 0, 0], [739581193, "Mikro Monopol, Oligopol osv", 0.0, 0, 1527724800, 7, 0, 2], [2125180343, "\u219213 000 Polish sentences sorted from easy to hard \u2014 part2", 2.0, 0, 1485734400, 8643, 8523, 77], [1300679245, "Production polito", 0.0, 0, 1527379200, 68, 0, 0], [629626472, "FBS - Metabolism: Integration of Metabolism", 0.0, 0, 1505606400, 36, 0, 17], [1595653115, "Nempravilni glagoli Nemaci", 0.0, 0, 1527465600, 0, 0, 0], [545278958, "Najcesci  glagoli u nemackom jeziku ", 0.0, 0, 1527465600, 91, 0, 0], [55447282, "Vietnamese words+audio from Duolingo ", 0.0, 0, 1517443200, 475, 469, 0], [534422696, "Polish A1", 0.0, 0, 1483833600, 139, 0, 0], [2145687218, "british politics", 0.0, 0, 1515024000, 226, 0, 0], [211299652, "German (Duolingo + Babbel)", 1.0, 0, 1493164800, 309, 0, 0], [829830163, "DIB2 Yeast metabolism", 0.0, 0, 1518134400, 25, 0, 0], [1201359001, "Geology 1250 - Aeolian Formations", 0.0, 0, 1521158400, 14, 0, 3], [901753238, "polish-english words 20", 0.0, 0, 1489622400, 24, 0, 0], [1928470569, "Duolingo Hebrew", 3.0, 0, 1512691200, 2278, 2278, 0], [1413030463, "FBS - Thrombosis, Embolism, and Infarction", 0.0, 0, 1511913600, 39, 0, 2], [253287185, "Duolingo Swedish", 1.0, 0, 1512691200, 3446, 3375, 865], [994111468, "muskarinische Acetylcholin-Rezeptoren, Adrenorezeptoren", 0.0, 0, 1520553600, 25, 0, 0], [613880171, "Words_Polish_German_lessons", 0.0, 0, 1523491200, 118, 0, 0], [648669359, "RACP Paediatric Neurology/Metabolics", 0.0, 0, 1520640000, 173, 0, 9], [907145931, "Swedish - English Duolingo", 0.0, 0, 1515715200, 2228, 0, 0], [690665286, "Polish - English (konstrukcje budowlane - structural engi.)", 0.0, 0, 1488412800, 276, 276, 1], [173202166, "M1-Metabolism", 0.0, 0, 1520380800, 1254, 0, 935], [1247821833, "500 most used Polish adjectives", 0.0, 0, 1511222400, 444, 0, 0], [1278745315, "Biochemistry Metabolism 1: Anki God", 0.0, 0, 1511049600, 998, 0, 445], [617557101, "Politics", 0.0, 0, 1493164800, 74, 0, 0], [1174639555, "Government and Politics AS Level", 0.0, 0, 1485734400, 309, 0, 0], [492229412, "Biochem Exam 2 - Amino Acid Metabolism", 0.0, 0, 1507507200, 122, 0, 0], [1722323260, "German C1 Politics", 0.0, 0, 1506297600, 46, 0, 0], [1447708698, "SOLID-DRY Principles", 0.0, 0, 1518998400, 6, 0, 0], [1439534834, "Pharmacology - (L8) Drug metabolism ", 0.0, 0, 1526515200, 16, 0, 1], [583842063, "Vocabulario Tema 10 parte I Biolog\u00eda: Catabolismo", 0.0, 0, 1519516800, 19, 0, 0], [1492095301, "FBS - Metabolism: Anabolism of Amino Acids", 0.0, 0, 1505606400, 47, 0, 16], [548021961, "Vocaboli tedesco", 0.0, 0, 1486339200, 3, 0, 0], [1578096807, "Vocabulaire grec ancien - fran\u00e7ais ; la politique", 0.0, 0, 1506816000, 597, 0, 0], [1839790941, "Espagnol - Politique", 0.0, 0, 1510963200, 207, 0, 0], [1574127758, "FBS - Metabolism: Nutrients and Digestion", 0.0, 0, 1506988800, 62, 0, 17], [698064571, "Learning German with Duolingo", 0.0, 0, 1496707200, 1485, 0, 0], [1827127735, "Duolingo SPANISH for English learners", 3.0, 1, 1441152000, 2025, 0, 0], [1385752259, "Lecture 3 + 4 --- Fatty Acid Metabolism I and II", 1.0, 0, 1513036800, 62, 0, 0], [837935798, "POLISH (BASIC)", 1.0, 0, 1515110400, 92, 0, 58], [1857415598, "1000 most used Polish verbs", 0.0, 0, 1511222400, 960, 0, 0], [66604692, "Politik Lk Abi19, 11.1 GAK (Schillerschule)", 2.0, 0, 1515888000, 206, 0, 37], [1644640668, "Anabolismo", 0.0, 0, 1521331200, 29, 0, 0], [2109151413, "metabolism for Katie ", 0.0, 0, 1526688000, 239, 0, 53], [2122658701, "vocaboli ed espressioni inglesi", 0.0, 0, 1515110400, 1296, 0, 0], [1663806352, "Holistic Tarot Flash Cards -- Major", 0.0, 0, 1523836800, 22, 0, 22], [709545986, "Holistic Tarot Flash Cards -- Minor", 0.0, 0, 1523836800, 56, 0, 56], [404253228, "G\u00e9opolitique ECS, pr\u00e9pa HEC.", 0.0, 0, 1523318400, 194, 0, 0], [1693144100, "Repetytorium maturalne (angielsko-polski, English-Polish)", 0.0, 0, 1509494400, 3838, 3781, 0], [544061207, "Duolingo Turkish", 8.0, 0, 1435276800, 1129, 0, 0], [1877992074, "Duolingo Hungarian Beginner: Phrases - Ine. Case: Audio", 3.0, 0, 1517875200, 842, 1488, 0], [1413297948, "Kaplan Chapter 11: Lipid and Amino Acid Metabolism", 0.0, 0, 1523491200, 51, 0, 0], [234332210, "German Duolingo", 0.0, 0, 1500681600, 64, 0, 0], [225509796, "Duolingo French", 0.0, 0, 1485129600, 2936, 0, 3], [1284511098, "Metabolic Biochemistry Sarah", 0.0, 0, 1481068800, 144, 0, 98], [789291262, "Metabolism, enzymes and enzymes kinetics ", 0.0, 0, 1493596800, 1365, 0, 223], [1830092923, "High Valyrian ~ Duolingo ~ Beginner/Intermediate", 0.0, 0, 1524528000, 468, 0, 0], [429687684, "Political History of the USA", 0.0, 0, 1482192000, 321, 15, 92], [1189993667, "Guyton & Hall Metabolism & Temperature Regulation", 0.0, 0, 1519603200, 43, 0, 93], [30189604, "Duolingo rus", 0.0, 0, 1477526400, 1, 0, 0], [2036344821, "\u219213 000 Polish sentences sorted from easy to hard \u2014 part1", 4.0, 0, 1467676800, 5000, 5005, 1], [1578203190, "Neuroanatomy Consolidation ", 0.0, 0, 1485734400, 451, 0, 54], [1018719885, "Histoire politique fran\u00e7aise depuis 1870", 0.0, 0, 1510099200, 43, 0, 0], [1287704795, "english polish", 0.0, 0, 1494288000, 850, 846, 287], [1890762602, "MSI Q3 OMM Scoliosis", 0.0, 0, 1521590400, 56, 0, 7], [753006689, "Metabolic Pathways -- MCAT", 0.0, 0, 1523491200, 193, 0, 34], [638927981, "FBS Metabolism of Nucleotides", 0.0, 0, 1505952000, 55, 0, 32], [1987226934, "Englisz Polish medical deck", 0.0, 0, 1487635200, 6279, 0, 0], [1279195007, "FBS: Metabolism: Metabolism of Fatty Acids", 0.0, 0, 1505606400, 45, 0, 15], [711349179, "Polish-English PL-EN Fiszki4GL. PL-EN poz.1 [Lelum Polelum]", 1.0, 0, 1496102400, 1081, 1081, 50], [1762190294, "FBS - Metabolism: Catabolism of Amino Acids", 0.0, 0, 1505520000, 26, 0, 9], [2082236537, "Flagi i stolice \u015bwiata PL (polish version)", 1.0, 0, 1508112000, 199, 13, 199], [2111665450, "Biochemistry- Fatty Acid Metabolism", 0.0, 0, 1498608000, 19, 0, 0], [1790532050, "Hindi Russian Poliglot", 0.0, 0, 1499644800, 447, 12, 0], [1866922257, "Metabolismo anaerobio de la glucosa en el eritrocito", 0.0, 0, 1520985600, 113, 0, 19], [369991532, "Politische Geographie", 0.0, 0, 1522281600, 63, 0, 0], [1074132202, "Italijanski - Duolingo", 2.0, 1, 1453766400, 2143, 4216, 3], [1936853892, "Japo\u0144ski po polsku (Japanese in Polish)", 0.0, 0, 1522281600, 4064, 0, 0], [385224644, "English-Polish EN-PL FiszkiPlus Podst+\u015arZaaw [Lelum Polelum]", 1.0, 0, 1496102400, 3600, 7200, 55], [1846494394, "Polish Alphabet", 0.0, 0, 1495411200, 32, 0, 0], [1796088846, "Amino Acid Metbolism JUMC", 0.0, 0, 1524614400, 57, 0, 8], [791264849, "words polish - english", 0.0, 0, 1420675200, 935, 0, 0], [205188958, "FBS - Metabolism: Metabolism of Complex Lipids", 0.0, 0, 1505952000, 50, 0, 33], [1146450093, "Concursos - Policial", 0.0, 0, 1499990400, 10, 0, 11], [1397180451, "Duolingo Spanish", 0.0, 0, 1493510400, 1215, 0, 0], [20423935, "I love you in Polish - learn 12 ways of expressing your love", 2.0, 0, 1467072000, 12, 11, 0], [1395089395, "Spanish Nouns Latin America Simon Bolivar School Ecuador", 0.0, 0, 1480291200, 590, 39, 53], [1004270498, "AI Policy", 0.0, 0, 1526428800, 63, 0, 0], [1957889218, "1100 NB - ENGLISH_POLISH_(angielsko-polski) - v3_KrisZet", 4.0, 1, 1479168000, 1067, 1114, 184], [1054635811, "Spanish-Polish vocab and various phrases", 0.0, 0, 1409961600, 260, 0, 0], [282523710, "FBS - Metabolism: Inborn Errors of Metabolism", 0.0, 0, 1506729600, 32, 0, 15], [3372631172, "Czech-Polish, book Chcete Mluvit \u010cesky, all", 0.0, 0, 1366329600, 489, 0, 0], [1228512150, "Polish-French phrases", 1.0, 0, 1417392000, 397, 0, 0], [132836232, "Vocabulaire latin - fran\u00e7ais ; la vie politique", 0.0, 0, 1509321600, 581, 0, 0], [229745640, "Rosyjski-angielski \u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 Polish-Russian", 2.0, 0, 1485475200, 1372, 1500, 82], [930615524, "Lipid Metabolism- Digestion, Absorption, Transport ", 0.0, 0, 1489536000, 45, 0, 6], [284361201, "625 Most Common Polish Words", 0.0, 0, 1450483200, 0, 0, 0], [3897514489, "Hoch Middle Egyptian Lesson1 Monoliterals (Alphabetic Signs)", 1.0, 0, 1363392000, 29, 0, 29], [291483295, "Polish-English PL-EN S\u0142\u00f3wka (audio+image) [Lelum Polelum]", 1.0, 0, 1496102400, 1119, 1044, 1044], [2029355477, "600 essential TOEIC - Polish", 0.0, 0, 1442188800, 625, 653, 601], [2135578217, "Europa stolice (polish)", 1.0, 0, 1442275200, 48, 0, 0], [1675993672, "Portuguese Language on Duolingo", 0.0, 0, 1478390400, 1, 0, 0], [1436123429, "Polish English Vocabulary", 0.0, 0, 1396915200, 5402, 0, 0], [806991097, "Korea\u0144sko-Polski Polsko-Korea\u0144ki Polish-Korean PL-KO", 0.0, 0, 1460160000, 5257, 0, 0], [1100815964, "Nahuatlahtolil: Adjectives", 1.0, 0, 1464566400, 95, 93, 0], [3277764868, "Polish Verbs Conjugated", 0.0, 1, 1345852800, 572, 0, 0], [282274051, "Czech-polish", 0.0, 0, 1441756800, 140, 6, 35], [248616584, "Polish Quick & Dirty 30 (EN  PL)", 0.0, 0, 1445731200, 60, 38, 45], [53791103, "Magyar-Angol Duolingo", 0.0, 0, 1461196800, 617, 13, 0], [3462300877, "Mongolian sentences: past, present, & future with audio", 0.0, 0, 1374364800, 96, 120, 0], [1321839097, "Duolingo Romanian Vocabulary (RO  EN) ", 3.0, 0, 1490227200, 5418, 40, 53], [1471085542, "\u00bfComo se dice...? (cuaderno) + DuoLingo vocab + misc", 0.0, 0, 1416182400, 4947, 0, 0], [3782592735, "French \"travel\" words (French - Polish)", 1.0, 0, 1379462400, 156, 0, 0], [123314083, "Deutsch - Srpski: Nepravilni glagoli", 0.0, 0, 1427932800, 158, 0, 0], [1296521467, "Mongolian verbs and project/health-related vocabulary", 0.0, 0, 1345852800, 812, 0, 0], [1345157084, "Polish verb pairs - perfect/imperfect", 2.0, 0, 1399334400, 52, 0, 0], [1288263174, "Polish Nouns Declined", 2.0, 0, 1345852800, 1514, 0, 0], [1233510854, "Polish for beginners", 1.0, 0, 1421193600, 50, 1, 1], [1370229564, "Angol duolingo", 0.0, 0, 1465257600, 548, 383, 1], [2125472042, "Flagi \u015bwiata PL (polish version)", 3.0, 0, 1469836800, 198, 45, 244], [1956517816, "Lipid and fatty acid catabolism ", 0.0, 1, 1454716800, 18, 0, 3], [680531090, "Ultimate Geography: polish and english; polski i angielski", 3.0, 0, 1456444800, 309, 3, 568], [833321748, "French News and Politics ", 1.0, 1, 1477267200, 21, 0, 0], [1095254711, "VG's Biochemistry: Carbohydrate Metabolism", 0.0, 0, 1408752000, 29, 0, 7], [2112782806, "Police, law, surveillance", 0.0, 0, 1454976000, 19, 19, 12], [934225830, "Cholinergic and Adrenergic Pharmacology", 0.0, 0, 1411171200, 38, 0, 0], [804206907, "Abitur 2012 Biologie, Politik, Chemie", 0.0, 0, 1346371200, 1419, 0, 398], [596667445, "FBS - Metabolism of Carbohydrates", 0.0, 0, 1504742400, 45, 0, 8], [186112735, "Polish Core 100 - Basic words (EN  PL with audio)", 3.0, 0, 1436918400, 202, 109, 116], [262515824, "Polish - English / Random words", 0.0, 0, 1409011200, 151, 0, 0], [526354263, "ED Money vocabulary Polish-English", 0.0, 0, 1425772800, 77, 0, 0], [1665314112, "Duolingo Esperanto, Checkpoint 0 - 1", 1.0, 0, 1433116800, 134, 0, 0], [1365222489, "Polish-English food items", 1.0, 0, 1394409600, 145, 145, 145], [1591848990, "Polish-English fruit, vegetables and cooking", 0.0, 1, 1394409600, 32, 32, 32], [1359095949, "Duolingo Esperanto, Checkpoint 2 - 3, v2", 1.0, 0, 1434499200, 677, 0, 0], [1093674526, "Duolingo Esperanto, Checkpoint 1 -2", 1.0, 0, 1433289600, 238, 0, 0], [290956596, "Mikey's Polish <=> English Vocab Deck", 0.0, 0, 1358467200, 1367, 0, 0], [1761319009, "Mongolian, cards for beginner to GCSE level", 0.0, 0, 1473552000, 757, 0, 0], [1866623593, "Afryka- mapa polityczna", 3.0, 1, 1418256000, 107, 0, 55], [1751868419, "Polish Vocab", 0.0, 0, 1439510400, 939, 0, 1], [1703201144, "FBS - Overview of Metabolic Pathways", 0.0, 0, 1504656000, 59, 0, 12], [614200461, "Colin's learning Thai deck", 0.0, 0, 1427068800, 1687, 1709, 0], [1054148646, "Polish - English", 4.0, 0, 1427760000, 10283, 0, 0], [1268556378, "Arabisch-Deutsch (Politik)", 0.0, 0, 1375833600, 3740, 0, 0], [1659935680, "Endocrine, nutrition and metabolism", 0.0, 0, 1462060800, 103, 0, 6], [429654184, "600 essential words TOEIC - CURIOUS Polish", 0.0, 0, 1442793600, 625, 654, 608], [1542720299, "ED Job & work vocabulary Polish-English", 0.0, 0, 1348531200, 75, 0, 0], [3457735937, "Polish - Spanish deck", 0.0, 1, 1345852800, 135, 0, 0], [146748447, "Esperanto Duolingo worlds", 0.0, 0, 1468195200, 1737, 8, 0], [1427904553, "Duolingo English to German (birdie222)", 17.0, 1, 1450915200, 936, 909, 0], [193272018, "Brazilian Portuguese Duolingo", 0.0, 0, 1433376000, 149, 27, 0], [1401658787, "German Duolingo Plus with 6,500 word (adj50)", 7.0, 1, 1434931200, 4801, 0, 0], [101329176, "\u041c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b - \u0421\u0430\u0439\u043d \u0411\u0430\u0439\u043d\u0430 \u0423\u0443, 1-\u0440 \u041d\u043e\u043c [with Mongolian audio]", 0.0, 0, 1430006400, 970, 966, 0], [2027722896, "Kraje \u015bwiata - mapa PL (polish version)", 1.0, 0, 1468108800, 225, 6, 260], [1084907425, "English - Polish with sounds and IPA", 0.0, 0, 1466294400, 6666, 6661, 0], [2189979593, "ED Science vocabulary English-Polish", 0.0, 0, 1348531200, 68, 0, 0], [1476547324, "All exported words from the Duolingo Dutch course", 3.0, 1, 1453766400, 1849, 8, 16], [1893764878, "500 \u0441\u0430\u043c\u044b\u0445 \u043d\u0443\u0436\u043d\u044b\u0445 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0445 \u0441\u043b\u043e\u0432 (by tolik8) EN-RU", 0.0, 0, 1477267200, 566, 576, 0], [989254413, "\u041c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b - \u0421\u0430\u0439\u043d \u0411\u0430\u0439\u043d\u0430 \u0423\u0443, 2-\u0440 \u041d\u043e\u043c [with Mongolian audio]", 0.0, 0, 1430006400, 1220, 1222, 0], [1575523483, "How to say Polish letters using sounds from English", 0.0, 0, 1479600000, 33, 0, 0], [217565370, "Spanish Verbs that take Prepositions - Simon Bolivar Cuenca", 0.0, 0, 1477180800, 202, 39, 53], [288373613, "Polish -English", 0.0, 0, 1425513600, 1345, 1319, 0], [1499728063, "Linguapolis Niveau 2 Nederlands cursus - Engels", 0.0, 0, 1410825600, 613, 0, 1], [2067189441, "Polish - English (level 1)", 7.0, 1, 1349568000, 500, 0, 0], [1736531235, "Irregular Verb  English - Polish", 0.0, 1, 1442534400, 207, 240, 219], [402099813, "Polish-Russian dictionary", 1.0, 0, 1405123200, 966, 0, 0], [174670517, "Polish Flashcards", 0.0, 0, 1479772800, 10200, 0, 0], [843601977, "Polish English   Id\u0119...Jestem...Wracam", 0.0, 0, 1396915200, 141, 0, 0], [375040131, "Irish from Duolingo", 2.0, 0, 1459555200, 2350, 0, 0], [1466626645, "English - Polish 2000 top frequent words (ISEL)", 7.0, 2, 1345852800, 2000, 0, 0], [4242456248, "English idioms with Polish translation V1.1", 0.0, 0, 1362441600, 514, 0, 0], [202473312, "Duolingo German to English (birdie222)", 11.0, 1, 1450915200, 936, 909, 0], [1187642133, "English idioms with Polish translation", 5.0, 2, 1345852800, 514, 0, 0], [893391402, "English / Polish - audio, pictures; two ways; sntdvl", 0.0, 0, 1418169600, 185, 182, 156], [23611486, "ENG-POLISH PHRASAL VERBS.", 0.0, 0, 1442534400, 189, 222, 201], [3199057698, "Polish-English", 32.0, 3, 1345852800, 10250, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

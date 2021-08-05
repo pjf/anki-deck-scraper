@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Anz
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Anz</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[39888802, "Most Common 3000 Chinese Hanzi Characters", 43.0, 4, 1450483200, 3000, 3000, 1], [1920102453, "Franz\u00f6sisch regeln", 0.0, 0, 1520121600, 14, 0, 1], [1388314372, "2000 \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u044f\u0435\u043c\u044b\u0445 \u0438\u0435\u0440\u043e\u0433\u043b\u0438\u0444\u043e\u0432 hanzi-rus", 0.0, 0, 1480723200, 2000, 2000, 1], [104791472, "Hochschule Reutlingen - Finanzierung I", 0.0, 0, 1524960000, 33, 0, 4], [1752829911, "Besuch von franz\u00f6sischen Muttersprachlerinnen", 0.0, 0, 1522800000, 2935, 0, 0], [1950738364, "3000 Hanzi you should learn first", 3.0, 1, 1484870400, 3000, 3000, 1], [703687495, "Franz\u00f6sisch \u00c0 Plus 2", 0.0, 0, 1520294400, 35, 0, 0], [1984285834, "Remembering Simplified Hanzi (Heisig)", 0.0, 0, 1508630400, 3018, 3017, 0], [206059246, "Kanzen Master Kanji", 0.0, 1, 1511913600, 941, 0, 38], [1628593967, "Dan's ANZCA Part-1 Flash Cards", 0.0, 0, 1506816000, 12297, 0, 458], [1611635505, "Investition und Finanzierung deutsche Begriffe auf Englisch", 0.0, 0, 1520640000, 90, 0, 0], [828223189, "\u00c0 Plus - Chani\u00e8res: Franz\u00f6sisch", 0.0, 0, 1522972800, 638, 0, 0], [1002637353, "FANZCA - Professional Statements summaries", 0.0, 0, 1472515200, 42, 0, 0], [1716191560, "Franz\u00f6sisch Redewendungen (Buch und Zeit)", 0.0, 0, 1509840000, 56, 0, 0], [1831060319, "Pharmazie Biologie Holzpflanzen LST WS2017/18", 0.0, 0, 1521763200, 103, 0, 345], [1002408103, "ANZCA primary", 0.0, 0, 1411344000, 2171, 0, 2477], [1247510722, "FANZCA Exam MCQs", 0.0, 0, 1446681600, 3434, 0, 1895], [1953084002, "James W. Heisig Remembering Traditional Hanzi Vol.1", 0.0, 0, 1514764800, 1500, 0, 0], [981566332, "FANZCA statistics, trials & EBM", 0.0, 0, 1515110400, 34, 0, 0], [38459346, "FANZCA Transplant", 0.0, 0, 1515110400, 14, 0, 1], [597050240, "FANZCA Paediatrics", 0.0, 0, 1515110400, 72, 0, 21], [2035443717, "FANZCA Scores, guidelines and lists", 0.0, 0, 1515110400, 51, 0, 26], [1712610009, "Pflanzen Entstehung und Ausbreitung", 0.0, 0, 1523836800, 43, 0, 33], [2071901206, "Remembering the Hanzi 1", 0.0, 0, 1345852800, 1500, 0, 0], [1203128478, "Franz\u00f6sisch \u00c0 Plus 3", 0.0, 0, 1520294400, 834, 0, 0], [62003592, "James W. Heisig Remembering Traditional Hanzi Vol.2", 0.0, 0, 1514764800, 1536, 0, 1], [954003248, "BM2 Franztest 07.03.2018", 0.0, 0, 1520294400, 191, 0, 0], [274236100, "8500 Deutsch-Franz\u00f6sische W\u00f6rter", 0.0, 1, 1499558400, 8620, 0, 0], [1415767117, "FANZCA diseases & syndromes", 0.0, 0, 1517961600, 60, 0, 9], [1001552993, "Pflanzenbilder", 0.0, 0, 1491868800, 101, 0, 106], [1942335792, "Franz\u00f6sisch-Deutsch / Fran\u00e7ais-Allemand (Buch Voyage Neu A1)", 0.0, 0, 1499644800, 552, 0, 0], [1873004193, "Hanping HSK 3 Hanzi - Englsih", 0.0, 0, 1491955200, 403, 14, 7], [1167360200, "Remembering Traditional Hanzi Heisig Book 1", 1.0, 0, 1507507200, 1499, 0, 0], [1841366223, "FANZCA Landmark articles summary", 0.0, 0, 1482969600, 38, 0, 7], [575600464, "LFS AK 2018 Pflanzen", 0.0, 0, 1523232000, 84, 0, 84], [194670789, "Grundlagen der Physiologie: von Mikroorganismen zu Pflanzen ", 0.0, 0, 1499040000, 259, 0, 7], [515288002, "Jess D ANZCA Primary MCQ", 0.0, 0, 1497916800, 904, 0, 1], [817962744, "ANZCA1 Physiology", 0.0, 0, 1489104000, 2908, 0, 89], [382746315, "ANZCA1 Pharmacology", 0.0, 0, 1487289600, 1407, 0, 10], [1156943416, "Chinesisch einmal ganz anders Band 1", 1.0, 0, 1522713600, 1154, 1105, 0], [709277239, "GBW Hauswartschule Pflanzen", 1.0, 0, 1473811200, 314, 0, 634], [1355651906, "Assimil Franz\u00f6sisch ohne M\u00fche heute 1983 (L1-46)", 1.0, 0, 1492387200, 957, 0, 0], [2664757893, "Deutsche Franz\u00f6sische Vokabeln Gymnasium (1997 - 2002)", 3.0, 1, 1362787200, 2936, 0, 0], [892083049, "FANZCA final exam general flashcards RZ", 0.0, 0, 1482969600, 148, 0, 53], [1183654626, "T\u1ed5ng h\u1ee3p Ng\u1eef ph\u00e1p ti\u1ebfng Nh\u1eadt Soumatome N1, N2, N3 Kanzen N1", 0.0, 0, 1478736000, 1152, 1120, 2], [1021557545, "ANZCA Primary Examination MCQs", 0.0, 0, 1417219200, 2171, 0, 2477], [1885081400, "Stochastische Integration und Finanzmathematik", 0.0, 0, 1418342400, 255, 0, 303], [1032187246, "Franz\u00f6sisch f\u00fcr Fortgeschrittene", 1.0, 0, 1463529600, 563, 4, 3], [2048345805, "Franz\u00f6sisch Gymnasium Schweiz", 0.0, 0, 1378080000, 4545, 39, 0], [1783143577, "Simplified-Traditional Hanzi Characters", 1.0, 0, 1449792000, 2580, 0, 1], [985830994, "Wild- und Gartenpflanzen", 1.0, 0, 1460592000, 107, 0, 94], [573828444, "ANZCA primary MCQs 2015b", 1.0, 0, 1463702400, 118, 0, 0], [1916065590, "Zwanzig weniger eins - 1. Familie", 0.0, 0, 1373760000, 254, 0, 0], [1474731903, "Finanzbuchhaltung", 0.0, 0, 1447372800, 31, 0, 1], [662847082, "Similar Hanzi Pairs Ranked by Most Common", 1.0, 0, 1449100800, 416, 576, 1], [3850185205, "Remembering the Traditional Hanzi Book 2", 1.0, 0, 1345852800, 1536, 0, 0], [1627669267, "James W. Heisig - Remembering Simplified Hanzi 1 & 2", 13.0, 1, 1449014400, 3225, 0, 0], [303458514, "Pflanzenphysio: Teil Anatomie SS17", 2.0, 0, 1497052800, 97, 0, 38], [681522524, "Laws, Equations and Definitions ANZCA", 0.0, 0, 1478649600, 250, 0, 108], [584941178, "Finanzmathe", 1.0, 0, 1436054400, 110, 0, 228], [669767102, "Biologie - Holzpflanzen", 0.0, 0, 1447200000, 73, 0, 245], [1977695303, "Franz\u00f6sich DE-FR A1-A2-B1-B2 (ILS)", 1.0, 0, 1345852800, 1923, 0, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Orl
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Orl</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[2263258759, "Countries of the World", 25.0, 2, 1416009600, 204, 0, 407], [1680921485, "UWORLD GI Block 3", 0.0, 0, 1525132800, 67, 0, 0], [1272800928, "scribeforlife", 0.0, 0, 1525305600, 785, 0, 226], [2915332392, "[VectorMaps] Countries of the World", 52.0, 1, 1368835200, 194, 0, 388], [911084154, "UWORLD GI BLOCK 2", 0.0, 0, 1525046400, 85, 0, 2], [1404129505, "Lacy Uworld", 0.0, 0, 1524441600, 185, 0, 3], [1978250404, "Mikroanatomie: Vorlesung& Online Atlas", 1.0, 0, 1521590400, 437, 0, 133], [1159027817, "U World deck", 0.0, 0, 1490918400, 1714, 0, 104], [1820566187, "World Geo Test ", 0.0, 0, 1523491200, 1, 0, 0], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [1039669240, "World List Chapter 2", 0.0, 0, 1526428800, 26, 0, 0], [1717437455, "Chemie Vorlesung 1 Aufbau der Atome WS17/18 UTRM", 0.0, 0, 1516665600, 70, 0, 22], [1021086710, "UWorld Block 5-7-18", 0.0, 0, 1525737600, 29, 0, 1], [572180051, "Step 2 uworld offline ", 0.0, 0, 1492732800, 199, 0, 86], [1099643996, "UWorld Block 5-6-18", 0.0, 0, 1525651200, 120, 0, 7], [1080597248, "World Capitals", 0.0, 0, 1484697600, 194, 0, 0], [132221732, "World Currencies", 2.0, 0, 1496448000, 234, 0, 0], [1774632599, "Internal Medicine - based on UWorld, Step up to Medicine", 0.0, 0, 1517356800, 533, 0, 34], [1925967190, "UWorld Block 5-1-18", 0.0, 0, 1525219200, 73, 0, 3], [304180426, "UWORLD GI Block 1", 0.0, 0, 1524960000, 79, 0, 3], [417970663, "Countries, capitals and flags of the World", 1.0, 0, 1527379200, 199, 0, 1190], [1726184572, "Geography - world countries [LT]", 1.0, 1, 1508198400, 259, 0, 773], [2057138424, "My UWorld Deck", 0.0, 0, 1516492800, 107, 0, 0], [596859658, "WorldTour Geography Countries", 2.0, 0, 1514937600, 720, 0, 240], [1566688005, "uworld ryans yield ", 0.0, 0, 1526601600, 342, 0, 1], [867293087, "World Countries & Flags with Map, Sound, Wiki", 5.0, 0, 1497830400, 262, 261, 604], [455559937, "Uworld missed questions", 0.0, 0, 1522108800, 892, 0, 6], [1036923513, "Anglais #61 World Trade", 0.0, 0, 1522713600, 74, 0, 0], [796654318, "SZIE N\u00f6v\u00e9nyorvos 2018 Gyomszab\u00e1lyoz\u00e1s gyakorlat felismer\u00e9s ", 0.0, 0, 1525564800, 400, 0, 398], [1604279184, "World Leaders", 0.0, 0, 1521763200, 0, 0, 0], [927453257, "Step 1 UWorld", 3.0, 0, 1493683200, 642, 0, 1], [1761111977, "ORL", 0.0, 0, 1523232000, 321, 0, 0], [1506731642, "Geography - Countries of the world", 0.0, 0, 1509408000, 244, 0, 613], [2024668635, "Uworld step 2", 0.0, 0, 1492732800, 1166, 0, 67], [2064042150, "Geography - world bodies of water [LT] [EN]", 0.0, 0, 1508198400, 181, 0, 183], [536203422, "Uworld ObGYN", 0.0, 0, 1507075200, 488, 0, 0], [1627784595, "UWorld Step 2 (no psych)", 0.0, 0, 1509408000, 1067, 0, 65], [1707664428, "Clerkship Uworld Step 2 CK decks", 2.0, 0, 1497830400, 1247, 0, 4], [502875345, "UworldSTep1Qbank", 0.0, 0, 1504310400, 5308, 0, 0], [367749816, "Step 2 UWorld Cardiology", 0.0, 0, 1506297600, 149, 0, 0], [1193838224, "UWorld Block 5-5-18", 0.0, 0, 1525564800, 55, 0, 1], [1844907166, "Uworld missed qs", 1.0, 0, 1485216000, 410, 40, 138], [1559502875, "World History Flashcards", 1.0, 1, 1487203200, 12, 0, 0], [505455431, "Kreativ Angol Gyakorlo Hun-Eng", 0.0, 0, 1447804800, 178, 0, 0], [1733689599, "renal uworld", 0.0, 0, 1439942400, 203, 0, 0], [1961408431, "WorldFlags - Fixed White/Black Space", 2.0, 1, 1471651200, 197, 0, 197], [1423221379, "World History to 1500", 0.0, 0, 1471478400, 172, 6, 36], [99001622, "USMLE World Anatomy", 1.0, 0, 1475971200, 100, 2, 87], [1009076816, "Cities of the World", 0.0, 0, 1439942400, 100, 0, 0], [3916604735, "David Chalmers - Constructing the World", 0.0, 0, 1380412800, 120, 0, 0], [1211881577, "4000 Essential Words Adjorloo", 0.0, 0, 1479945600, 3599, 10768, 3591], [818056479, "World History time line from ncert", 0.0, 0, 1466035200, 340, 9, 1], [720779136, "Nick's Ap World History Deck", 0.0, 0, 1423180800, 1061, 0, 0], [1671772629, "Uworld medicine", 2.0, 0, 1497830400, 1151, 0, 9], [1095518829, "Usmle world mix 1", 0.0, 0, 1475971200, 55, 2, 23], [650530565, "first aid and uworld questions by shadmani", 0.0, 0, 1501977600, 2382, 0, 510], [30925552, "World Countries in Chinese", 0.0, 0, 1486857600, 198, 212, 86], [467070292, "USMLE World Immunology ", 1.0, 0, 1475971200, 68, 2, 18], [2401376321, "AP World History Original Ultimate Set from Quizlet", 3.0, 0, 1367971200, 1481, 0, 0], [143567569, "Uworld Charts & answers ", 0.0, 0, 1462838400, 578, 0, 116], [146748447, "Esperanto Duolingo worlds", 0.0, 0, 1468195200, 1737, 8, 0], [309757478, "Kreat\u00edv n\u00e9met kezd\u0151 0105. Gyakorl\u00f3 a hat\u00e1rozatlan n\u00e9vel\u0151", 0.0, 0, 1400457600, 80, 0, 0], [799622335, "One World English Textbook Grammar \u4e2d\u5b66\u6821\uff11\u304b\u3089\uff13\u5e74\u751f\u306e\u82f1\u8a9e\u306e\u6587\u6cd5", 1.0, 0, 1415059200, 108, 0, 0], [331131158, "Countries of the World (High Resolution Vector)", 8.0, 1, 1462752000, 194, 1, 386], [3109551834, "WorldFlags", 29.0, 0, 1345852800, 204, 0, 204], [936156054, "Usmle World microbiology", 1.0, 0, 1475971200, 251, 2, 57], [2032267259, "USMLE World biochemistry", 0.0, 0, 1475971200, 171, 2, 56], [123449169, "Nations of the World", 7.0, 0, 1462838400, 199, 401, 403]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

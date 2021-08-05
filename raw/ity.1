@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ity
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ity</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1391130062, "Security+ acronyms", 0.0, 0, 1497312000, 127, 0, 0], [1135616513, "Probability Concepts", 0.0, 0, 1489881600, 26, 0, 11], [604860369, "Unit 2 Mobility", 0.0, 0, 1516579200, 38, 0, 0], [1129659006, "Biblical Hebrew 178 Vocabulary, Stellenbosch University", 1.0, 0, 1487894400, 418, 442, 586], [621497173, "Modals of probability", 0.0, 0, 1520467200, 25, 0, 0], [1652138089, "Upper Extremity Anatomy Study Guide", 0.0, 0, 1491264000, 62, 0, 78], [1500322965, "Biology: Evolution, Biodiversity, ... Exam 2", 0.0, 0, 1487030400, 780, 0, 133], [1250245863, "Precalculus, Probability, and Statistics - Concepts/Terms", 2.0, 0, 1496793600, 104, 0, 40], [1667643011, "Musculoskeletal Anatomy of the Lower Extremity", 0.0, 0, 1527292800, 39, 0, 0], [1400092858, "L21 - Bioelectricity", 0.0, 0, 1526774400, 13, 0, 0], [1855818143, "Hanyu Shuiping Kaoshi (HSK) (all 5000 words, high quality)", 6.0, 1, 1454544000, 4995, 0, 0], [1233019874, "Viva city", 0.0, 0, 1473206400, 91, 0, 10], [1016814290, "Stu Mac Drawings HNN Glasgow University", 0.0, 0, 1526860800, 46, 0, 80], [1490294663, "Silliman University - Microbiology: Microbial Nutrition", 0.0, 0, 1520208000, 58, 0, 0], [210101443, "Personality Disorders", 0.0, 0, 1509321600, 80, 0, 0], [252004841, "CompTIA Security+ Exam SY0-501 Acronyms", 0.0, 0, 1524873600, 305, 0, 0], [1336298361, "DANA5002: Test 2 Cranial Cavity (tawfik)", 0.0, 0, 1519603200, 79, 0, 7], [36669109, "Bio Diversity Unit 3", 0.0, 0, 1523232000, 295, 0, 34], [1182627470, "University at Buffalo Calculus I, II Integrals (MTH141-2)", 2.0, 0, 1508284800, 42, 0, 84], [1251998928, "Pusan National University/ Level 4/ Korean-Russian-English", 0.0, 0, 1492992000, 527, 0, 489], [1738403565, "Science Yity", 0.0, 0, 1521849600, 11, 0, 0], [1090339108, "Lower Extremity Anatomy ", 0.0, 0, 1486425600, 1225, 48, 172], [936897711, "U.S. News 2018 National University Ranking", 0.0, 0, 1523491200, 100, 0, 0], [1890905833, "OCR Biology A- Populations and sustainability ", 0.0, 0, 1526774400, 43, 0, 0], [1826646204, "DANA5002: Test 2 Anatomy of the oral cavity and tongue", 0.0, 0, 1518998400, 91, 0, 3], [1012023244, "26 Cards of Purity", 0.0, 0, 1508976000, 22, 0, 0], [56036827, "Learning how to learn, University of California, San Diego", 0.0, 0, 1511136000, 76, 0, 0], [1260763125, "Lee University English 110 Vocabulary Words ", 0.0, 0, 1512000000, 25, 0, 0], [1329482253, "Comptia Security+", 0.0, 0, 1496188800, 297, 0, 0], [1978676, "equity - bpp", 0.0, 0, 1526860800, 96, 0, 0], [210293374, "NSF - Head - (L2) Nasal cavity, paranasal sinuses and horns", 0.0, 0, 1520899200, 72, 0, 52], [856532130, "Religious Studies GCSE-AQA-Buddhism and Christianity.", 1.0, 0, 1525824000, 161, 0, 0], [1057748049, "Japanese Advanced I Flashcards Temple University Japan", 0.0, 0, 1526947200, 840, 0, 0], [817165889, "Anatomy - Gluteal Region and Lower Extremity", 0.0, 0, 1511222400, 45, 0, 9], [2905536195, "German Vocabulary: Intertextuality and Discussion", 0.0, 0, 1345852800, 88, 0, 0], [454125971, "Anatomy: Lungs & Pulmonary Cavity", 0.0, 0, 1480550400, 139, 0, 26], [68905727, "CompTIA Security+ SY0-401 Acronyms", 1.0, 0, 1463529600, 244, 0, 0], [825593832, "CompTIA Security+ Plus", 0.0, 0, 1507075200, 138, 0, 1], [345592712, "Intro Hindi (Indiana University)", 0.0, 0, 1509753600, 647, 0, 0], [162212104, "Slippery Rock University Chemistry 2 Lab Final Dr. Zapien's ", 0.0, 0, 1525219200, 117, 0, 0], [1022891589, "Quality", 0.0, 0, 1525824000, 39, 0, 0], [718686062, "Anatomy Bones - High Quality images + cloze (latin language)", 1.0, 0, 1488067200, 391, 1, 454], [1070184998, "AQA AS physics ELECTRICITY", 0.0, 0, 1515974400, 21, 0, 0], [2015314113, "FBS - Immunology: Tolerance and Autoimmunity", 0.0, 0, 1506729600, 32, 0, 5], [1863263105, "Silliman University - Microbiology: Viruses, viroids, prions", 0.0, 0, 1520208000, 41, 0, 0], [895576189, "LearningLawTogether - Equity & Trusts", 0.0, 0, 1398643200, 111, 0, 0], [478019509, "City of Laramie Streets", 0.0, 0, 1522454400, 297, 0, 276], [1604843955, "Upper Extremity Anatomy Exam 5 update", 0.0, 0, 1501113600, 322, 0, 319], [344066703, "Default Hotkeys for Affinity Designer", 0.0, 0, 1522022400, 116, 0, 0], [3158098502, "Logic, Probability, and Applied Epistemology", 2.0, 0, 1345852800, 224, 0, 0], [441945653, "Manchester University German Course Vocab - Beginner A1", 0.0, 0, 1487203200, 212, 0, 0], [1349551225, "Erciyes University / ARD / 2018/2 / Teach Us Words", 0.0, 0, 1524960000, 58, 0, 0], [1168373621, "Medicine Fourth Year (University of Birmingham)", 0.0, 0, 1492128000, 1199, 9, 79], [1436001522, "Principles of information security - key terms", 0.0, 0, 1519084800, 109, 0, 4], [1651436490, "Christianity beliefs GCSE rs", 0.0, 0, 1526256000, 0, 0, 0], [1924049440, "13 - deformity correction", 0.0, 0, 1526169600, 3, 0, 4], [1419890709, "Anatomy - Gluteal Region and Lower Extremity Clinical Correl", 0.0, 0, 1512000000, 31, 0, 16], [1144491290, "Physics - Electricity", 1.0, 0, 1480550400, 9, 0, 2], [516269398, "DBIO5003: Final child obesity", 0.0, 0, 1525392000, 29, 0, 0], [222268213, "Introduction to Research Methods Swinburne University 2017", 0.0, 0, 1509494400, 194, 0, 15], [328238723, "Networking and security", 0.0, 0, 1517097600, 203, 0, 0], [232266219, "Unity Thai Language School (UTL) Flashcards", 1.0, 0, 1521417600, 3681, 3546, 0], [1825225753, "Infertility- across a womans lifespan-Nursing", 0.0, 0, 1519689600, 168, 0, 0], [994557038, "FBS - Immunology: NK Cell and Innate Immunity", 0.0, 0, 1510099200, 36, 0, 8], [3775262467, "HMS.IMP.T.Cell.Mediated.Immunity", 0.0, 0, 1364947200, 19, 0, 2], [1330550795, "NSF - Head - (L7) Histology of the Oral and Nasal Cavity", 0.0, 0, 1521244800, 74, 0, 39], [1500965103, "Community psychology", 0.0, 0, 1524355200, 0, 0, 0], [692998248, "CompTIA Security Plus SY0-401 - Protocols", 1.0, 0, 1491696000, 42, 0, 0], [624980648, "Muscles of the Lower Extremity ", 0.0, 0, 1488067200, 27, 0, 27], [25173560, "google-interview-university", 18.0, 1, 1477180800, 1227, 0, 0], [1694922041, "Organic Chemistry University of Cincinnati (revised)", 2.0, 0, 1392940800, 183, 0, 257], [73639474, "A level biology - topic 6 - infection, immunity and forensic", 0.0, 0, 1522713600, 58, 0, 0], [207415160, "Rationality and Biases [@jackkinsella]", 2.0, 1, 1404691200, 374, 0, 39], [1153613245, "Slippery Rock University Chemistry 2 Lab Final ", 0.0, 0, 1525219200, 86, 0, 1], [629753033, "Computer Security - Midterm Exam Stack", 0.0, 0, 1468195200, 311, 17, 1], [1223204628, "Sarbani community medicine ", 0.0, 0, 1491177600, 92, 0, 3], [480020793, "Static and Current Electricity", 0.0, 0, 1495756800, 20, 0, 8], [982902655, "fuck anatomy- oral cavity, radiology, implants, neck", 0.0, 0, 1411948800, 140, 0, 81], [334660848, "Probability for SOA Exam P / CAS Exam I", 0.0, 0, 1506384000, 365, 0, 719], [676861726, "Technology, virtuality, augmented reality", 1.0, 0, 1487376000, 24, 24, 5], [1429782100, "Tonality Cells", 0.0, 0, 1489881600, 420, 0, 959], [1572543752, "Hungarian english words related authority ", 0.0, 1, 1461628800, 79, 12, 0], [861713056, "CISSP Security Frameworks", 0.0, 0, 1461801600, 12, 0, 0], [603005456, "Chinese Characters for beginner \u6c49\u5b57 by Peking University MOOC", 0.0, 0, 1514678400, 637, 0, 0], [1546636494, "AQA Year 12 Electricity", 0.0, 0, 1497139200, 37, 0, 0], [1887592807, "OCR Biology A - Biodiversity ", 0.0, 0, 1525651200, 33, 0, 0], [1837557938, "Anatomy: Upper Extremity Chapter", 0.0, 0, 1418688000, 83, 0, 0], [1451622686, "Cambridge University Ethics and Law", 0.0, 0, 1509494400, 132, 0, 1], [944864835, "Oscillations University Physics 2 (wip)", 0.0, 0, 1497225600, 9, 0, 14], [405497812, "Abdominal, Pelvic, and Lower Extremity Anatomy", 0.0, 0, 1449100800, 1215, 0, 151], [502842769, "German Gender Rules and Tips I (Valparaiso University)", 1.0, 0, 1345852800, 33, 0, 0], [1270061327, "University at Buffalo Calculus I Derivatives (MTH141)", 0.0, 0, 1508284800, 33, 0, 66], [599813473, "A level biology - T4 - Biodiversity and Natural Resources", 0.0, 0, 1502582400, 51, 0, 0], [1968565138, "Security for CISSP", 0.0, 1, 1446076800, 288, 0, 0], [2362460778, "German Gender Rules and Tips II (Valparaiso University) ", 1.0, 0, 1345852800, 56, 0, 0], [1782645668, "USD Biology 151 Animal Diversity Vocabulary", 1.0, 0, 1476662400, 109, 0, 0], [1881295936, "Slovene - English: Personality", 0.0, 0, 1461283200, 18, 0, 0], [282127863, "Barry University Biochemistry II  BMS 528 Graham Shaw, Ph.D.", 0.0, 0, 1460764800, 1006, 0, 582], [998742738, "Irregular verbs in dutch-french, sorted by priority", 0.0, 0, 1469491200, 140, 0, 0], [282273988, "Fundamentals of Information Security Management WT 2014", 0.0, 0, 1423353600, 29, 0, 0], [1313006468, "RHCSA Objective: Manage security", 0.0, 0, 1466899200, 7, 0, 0], [1271195516, "Anatomy - Upper Extremity - LECOM@SetonHill", 0.0, 0, 1470528000, 148, 0, 127], [54778688, "Probability and Statistics (Temple University) Deck", 0.0, 0, 1424217600, 68, 0, 5], [319607100, "German Verbal Idioms (Valparaiso University)", 3.0, 0, 1345852800, 120, 0, 0], [1866623593, "Afryka- mapa polityczna", 3.0, 1, 1418256000, 107, 0, 55], [1405702896, "Pathophysiology at Ponce Health Sciences University", 0.0, 0, 1437696000, 1003, 0, 68], [1775726463, "Education and creativity", 0.0, 0, 1453161600, 34, 34, 3], [99967194, "English B1/B2 Reality", 0.0, 0, 1434412800, 16, 16, 3], [2087673883, "Main Probability Distribution Formulas", 1.0, 0, 1458345600, 10, 0, 10], [96285500, "DASI U2 Probability & Distributions", 1.0, 0, 1415145600, 20, 0, 0], [1760020495, "OWASP Top 10 Security Vulnerabilities", 0.0, 0, 1472083200, 9, 0, 0], [902716286, "probability CGSC4001 CGSC5001 Artificial Intelligence ", 0.0, 0, 1345852800, 20, 0, 0], [1554155983, "Durham University Medicine (Year One)", 0.0, 0, 1465862400, 775, 40, 909], [2077872612, "Heisig's Remember the Kanji 1-3 w/top 2 community stories", 15.0, 2, 1345852800, 3007, 0, 0], [301788824, "VMware Certified Professional Desktop Mobility", 0.0, 0, 1478563200, 56, 0, 0], [2734101689, "List of Personality Disorders", 0.0, 0, 1364947200, 14, 0, 0], [1952398056, "IATA airport and city codes", 1.0, 1, 1350086400, 10125, 0, 0], [1350917646, "Personality psychology", 0.0, 0, 1459728000, 26, 26, 5], [452110246, "German Gender Rules and Tips III (Valparaiso University)", 2.0, 0, 1345852800, 90, 0, 0], [1950172218, "Business - Quality Systems", 0.0, 0, 1400371200, 39, 7, 32], [483453950, "Cambridge Part II Physics: Relativity", 0.0, 0, 1413504000, 32, 0, 57]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

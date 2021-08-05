@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ory
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ory</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1193243824, "A Level OCR History on the commonwealth 1649-1653", 0.0, 0, 1526860800, 25, 0, 0], [2099557130, "History final ", 0.0, 0, 1512345600, 80, 0, 0], [534736904, "MCAT Psych/Soc 2: Learning, Memory, Motivation, and Emotion", 0.0, 0, 1466640000, 47, 0, 0], [1770056221, "Fonts \u2013 characteristics & history of popular typefaces", 3.0, 0, 1496707200, 47, 0, 0], [533017511, "English - Long-term memory", 0.0, 0, 1524614400, 517, 753, 0], [2070604580, "History GCSE cold war", 0.0, 0, 1527465600, 22, 0, 0], [1720191830, "FBS - Histology: Respiratory System", 0.0, 0, 1505433600, 47, 0, 15], [1834588284, "Circulatory system", 0.0, 0, 1482278400, 118, 1, 4], [1476187653, "GCSE History Crime and Punishment Edexcel", 0.0, 0, 1527465600, 287, 0, 0], [469279678, "Graph Theory Basics", 5.0, 0, 1485302400, 147, 9, 222], [513132685, "UCT History of Western Music II - semester 1", 0.0, 0, 1527465600, 254, 0, 10], [1981745081, "Haemostasis Laboratory Tests", 0.0, 0, 1523059200, 13, 0, 0], [1228282689, "History1250", 0.0, 0, 1520380800, 226, 0, 0], [192503470, "History Cold War Timeline Block 5 ", 0.0, 0, 1519862400, 17, 0, 0], [54785809, "Barron's AP World History", 0.0, 0, 1453766400, 60, 0, 1], [769462140, "Promissory Estoppel", 0.0, 0, 1523577600, 1, 0, 0], [504873894, "ANAT101 Introductory Osteology", 0.0, 0, 1520380800, 41, 0, 18], [643515359, "NSF - Respiratory - (L1) Intro and respiratory anatomy", 0.0, 0, 1514332800, 46, 0, 11], [2115049521, "NSF - Respiratory-(L3)Gas transport and pulmonary blood flow", 0.0, 0, 1514332800, 23, 0, 0], [1635311241, "Clinical Laboratory Science (Clinical Chemistry)", 1.0, 0, 1502064000, 587, 0, 0], [1458578321, "NSF - Respiratory - Respiratory histology", 0.0, 0, 1514332800, 28, 0, 9], [1773046601, "NSF - Respiratory - (L6) Applied respiratory physiology", 0.0, 0, 1514332800, 15, 0, 0], [953519248, "Modern States - CLEP History of the United States I", 0.0, 0, 1518480000, 770, 0, 0], [528235099, "A level OCR history on the Protectorate", 0.0, 0, 1526860800, 20, 0, 0], [398272782, "A level OCR history on the restoration 1658-1660", 0.0, 0, 1526860800, 26, 0, 0], [560967344, "AP US History: Important Dates", 0.0, 0, 1525651200, 33, 0, 0], [1977742479, "Respiratory body systems", 0.0, 0, 1526601600, 123, 0, 0], [373510159, "Information Theory", 0.0, 0, 1526428800, 84, 0, 37], [1624787539, "ID - Viruses - Viral respiratory disease ", 0.0, 0, 1520812800, 52, 0, 19], [1663767973, "Respiratory Week (Asthma/COPD) CPTP4.15-17", 0.0, 0, 1515628800, 49, 0, 27], [1903425503, "Memory and Dementia", 0.0, 0, 1523232000, 5, 0, 1], [454386146, "Shanghai Natural History Museum (English deck)", 0.0, 0, 1523404800, 25, 0, 0], [260359939, "History on Charles' personal rule", 0.0, 0, 1526947200, 26, 0, 0], [972801932, "GCSE History - USA ", 0.0, 0, 1480896000, 210, 0, 0], [1367321452, "IB 131L Lab #8: Respiratory System & Heart", 0.0, 0, 1509408000, 504, 0, 58], [714690577, "Chris Parry FACEM respiratory ", 0.0, 0, 1510185600, 89, 0, 15], [1971905257, "respiratory pathology", 0.0, 0, 1524700800, 36, 0, 36], [538661392, "Game Theory Definitions", 0.0, 0, 1487548800, 123, 0, 52], [1031205234, "Love Story", 0.0, 0, 1526601600, 350, 237, 0], [214775798, "History", 0.0, 0, 1481068800, 4, 0, 0], [392737825, "Respiratory Integrated Drugs", 0.0, 0, 1508716800, 49, 0, 3], [185203646, "Polskie daty historyczne", 0.0, 0, 1522281600, 60, 0, 0], [212996995, "Advaced French Visual Picture Memory", 2.0, 0, 1444521600, 211, 208, 214], [1737465043, "FVSA introductory module - Connective tissue histology", 0.0, 0, 1500508800, 40, 0, 6], [1242706844, "History Nazi LIFE", 0.0, 0, 1523404800, 19, 0, 0], [130794657, "50 key history dates with images", 1.0, 1, 1512950400, 48, 0, 45], [1254799838, "Art History Final Exam Review", 0.0, 0, 1481500800, 57, 0, 114], [1530062981, "ENV S 2: the story of stuff", 0.0, 0, 1521504000, 103, 0, 0], [1691361675, "Natural/Human Essential History", 0.0, 0, 1483315200, 19, 0, 0], [6057321, "history cold war practice", 0.0, 0, 1523923200, 102, 0, 0], [24302256, "Olfactory ", 0.0, 0, 1522713600, 65, 0, 8], [1006565911, "NSF - Head - (L4) Trigeminal and Vagoaccessory complex ", 0.0, 0, 1521331200, 39, 0, 4], [1718472100, "History of Medicine - Renaissance - LDSDMU20", 0.0, 0, 1471132800, 74, 0, 0], [553620569, "A History of Britain EP01 Beginning [made by locke]", 0.0, 0, 1509062400, 352, 352, 0], [2053119111, "Respiratory system anatomy", 0.0, 0, 1516233600, 386, 0, 34], [677572644, "Pathology: Respiratory (GSSE Bank)", 0.0, 0, 1493424000, 9, 0, 0], [76454955, "Egnlish HistoryThe triumvirate of Julius Caesar", 0.0, 0, 1520985600, 15, 0, 0], [445254723, "Native Immersion #34- Wordplay with Names, Big Bang Theory", 0.0, 0, 1525392000, 30, 30, 0], [1105972864, "English History The expansion of Rome", 0.0, 0, 1520294400, 14, 0, 0], [1149701356, "King John's Rule for A level History A", 0.0, 0, 1494201600, 82, 0, 0], [1476363674, "English History The reforms of Gracchi", 0.0, 0, 1520294400, 15, 0, 0], [601615265, "English History The reform attemps from Marius to Sulla", 0.0, 0, 1520294400, 11, 0, 0], [245527183, "RACP Paediatric Respiratory", 0.0, 0, 1520640000, 156, 0, 4], [1217994837, "FBS - Microbiology: Respiratory Viruses", 0.0, 0, 1510185600, 27, 0, 0], [246696117, "Shanghai History Museum Sentences \u4e2d\u6587", 0.0, 0, 1521072000, 18, 0, 0], [915057194, "NSF - Respiratory - (L2) Air flow and gas exchange ", 0.0, 0, 1514332800, 34, 0, 0], [395893800, "NSF - Respiratory - (L5) Respiratory embryology", 0.0, 0, 1514332800, 40, 0, 0], [1146823798, "History of Graphic Design Final Flashcards", 0.0, 0, 1525132800, 125, 0, 123], [1729784718, "IGCSE History Cold War", 0.0, 0, 1525305600, 50, 0, 0], [1824143880, "Ho\u0161ek - tepeln\u00e9 motory", 0.0, 0, 1519776000, 10, 0, 0], [1167843240, "Victor Wang History ", 0.0, 0, 1524182400, 2243, 0, 0], [698533341, "IPAP 2-18 A&P II 2-1 Circulatory System", 0.0, 0, 1526688000, 82, 0, 78], [1871528437, "Category Theory for Programmers", 1.0, 0, 1522368000, 84, 0, 1], [752700101, "Respiratory Physiology", 1.0, 0, 1515024000, 89, 0, 0], [563527269, "Histology Respiratory", 2.0, 0, 1483920000, 122, 0, 35], [1895990456, "Anatomy respiratory system, second lecture", 1.0, 0, 1493164800, 85, 0, 79], [1397657346, "Respiratory system", 0.0, 0, 1516233600, 642, 0, 19], [333065294, "History of Psychology", 0.0, 0, 1482019200, 141, 0, 1], [1316645724, "Hebrew Introductory Grammar Davidson", 0.0, 0, 1525910400, 435, 0, 0], [1477562212, "UQ Respiratory Deck", 0.0, 0, 1524787200, 237, 0, 17], [945033245, "fa respiratory ak2016", 0.0, 0, 1522454400, 745, 0, 132], [1783139038, "Major Eras in Japanese, Chinese, and Korean History", 0.0, 0, 1503532800, 71, 0, 0], [401596949, "Intellectual history", 1.0, 1, 1480809600, 11188, 0, 261], [429687684, "Political History of the USA", 0.0, 0, 1482192000, 321, 15, 92], [1595638456, "Applied Category Theory Course", 0.0, 0, 1522713600, 31, 0, 0], [647581105, "History of western music - UCT SACM History 1 (semester 2)", 0.0, 0, 1510704000, 261, 0, 1], [1115099298, "Respiratory FA ", 0.0, 0, 1509062400, 147, 0, 44], [103780150, "Respiratory Physiology", 0.0, 0, 1487289600, 686, 0, 1], [1694105211, "Fall 2016 PBL Respiratory Anatomy (cloze)", 1.0, 0, 1473897600, 140, 0, 100], [2470493007, "US History (1787-1860) - SAT 2 (SAT II) and AP US History", 0.0, 0, 1345852800, 202, 0, 0], [839969990, "History", 0.0, 0, 1506384000, 43, 0, 0], [1585017708, "Auditory system", 0.0, 0, 1521417600, 9, 0, 10], [436378155, "HMS.IMP.Respiratory.Infections", 0.0, 0, 1366156800, 40, 0, 12], [487170952, "OCR GCSE History Medicine Through Time", 1.0, 0, 1494374400, 305, 0, 0], [826946822, "HistoryOfArt2018", 0.0, 0, 1520985600, 89, 0, 89], [490209917, "Periodic table memory pegs", 4.0, 0, 1491436800, 105, 8, 2], [1169480491, "PSYC121- 01 History and Philosophy", 0.0, 0, 1496188800, 40, 0, 4], [1929749472, "Fundamentals of Music Theory", 0.0, 0, 1524355200, 85, 0, 14], [1639361866, "memory pegs 102", 0.0, 0, 1422057600, 101, 0, 0], [1442009244, "Chapter 9: Respiratory Tract Pathology", 2.0, 0, 1488412800, 287, 0, 0], [1171251530, "RESPIRATORY MEDICINE. inlcudes anatomy,phy,pharm, medicine", 0.0, 0, 1499299200, 918, 1, 251], [1229512957, "FBS - Embryology: Development of Respiratory System", 0.0, 0, 1505347200, 31, 0, 5], [969656348, "Respiratory pathophysiology", 0.0, 0, 1484784000, 239, 0, 47], [1747585818, "Respiratory COMPLETE First Aid 2016 Deck Yieldski", 0.0, 0, 1500508800, 249, 0, 340], [564613793, "History of western music - UCT SACM History 1", 1.0, 0, 1499472000, 225, 0, 5], [314181103, "Respiratory Pathoma", 0.0, 1, 1509062400, 512, 0, 71], [2131200028, "PPL theory exam, self-made", 0.0, 0, 1507507200, 212, 0, 0], [3380697856, "Heisig's Remembering the Kanji Lite (RTK) 1+3 + Story Button", 2.0, 0, 1345852800, 3007, 0, 0], [3640761774, "Musical Theory 101.", 3.0, 1, 1345939200, 281, 0, 0], [313593829, "history", 0.0, 0, 1510444800, 161, 0, 9], [929103746, "2015 Advanced Music Theory Rudiments for TLG", 0.0, 0, 1420761600, 141, 0, 17], [1559502875, "World History Flashcards", 1.0, 1, 1487203200, 12, 0, 0], [914591395, "Memory Techniques - Major Method", 0.0, 0, 1508198400, 121, 0, 0], [612540248, "memorytrainingforstudentsofaplushero", 0.0, 0, 1515024000, 123, 0, 127], [410308095, "Shariahprogram Arabic 2014 Theory + Sarf (no tarkeeb)", 1.0, 0, 1398038400, 119, 0, 194], [311992693, "Renal, Reproductive, & Respiratory COMPLETE First Aid 2016", 0.0, 0, 1499904000, 767, 0, 1075], [1854787519, "Music Theory and Production [@jackkinsella]", 7.0, 0, 1404691200, 1761, 0, 290], [1703568902, "Path. inflammatory Dermatoses", 0.0, 0, 1479340800, 48, 0, 51], [1321013648, "A level chemistry - Topic 4 - The ozone story", 0.0, 0, 1502582400, 16, 0, 0], [1070887202, "Zanki Respiratory", 0.0, 0, 1509062400, 537, 0, 94], [1208003417, "He Brews! Memory aids for Hebrew vocab", 0.0, 0, 1369008000, 242, 135, 249], [706310214, "Navigators Topical Memory System - ESV", 1.0, 0, 1467331200, 60, 1, 2], [225191508, "Scripture Memory (Alexandra Lee)", 0.0, 0, 1486771200, 288, 0, 0], [1021375878, "Topical Memory System (TMS) 180", 0.0, 0, 1440633600, 180, 0, 0], [1629993535, "History - grade 9 - post-WWI,Weimar,National Socialism", 0.0, 0, 1402531200, 71, 0, 8], [683017144, "Robinson/Coakley Introductory Syriac", 0.0, 0, 1403913600, 369, 0, 266], [1423221379, "World History to 1500", 0.0, 0, 1471478400, 172, 6, 36], [330887766, "Econometrics - Introductory econometrics (Wooldridge)", 1.0, 0, 1447286400, 108, 0, 78], [1155438392, "US History (1914-1945) - SAT 2 (SAT II) and AP US History", 0.0, 0, 1345852800, 161, 0, 0], [1062642314, "AP US History", 5.0, 1, 1345852800, 1293, 0, 0], [191286422, "Villanova Stat Theory 1", 0.0, 0, 1423180800, 122, 0, 113], [2426320920, "Factory physics questions", 2.0, 1, 1346889600, 1, 0, 0], [2070469758, "Animation History - Cap U 2D Animation", 2.0, 0, 1480204800, 278, 0, 0], [666018500, "Sz\u00f3rakosgat\u00f3 angol - Introductory verbs Hun-Eng", 0.0, 0, 1422835200, 25, 0, 0], [1233976942, "History of Psychology - Exam 1", 1.0, 0, 1413763200, 64, 0, 0], [2134065015, "LING102: A HIstory of English", 0.0, 0, 1429833600, 196, 0, 0], [818056479, "World History time line from ncert", 0.0, 0, 1466035200, 340, 9, 1], [720779136, "Nick's Ap World History Deck", 0.0, 0, 1423180800, 1061, 0, 0], [1546670099, "History of India from 6th century BC till Mauryan Period", 0.0, 0, 1455408000, 22, 9, 1], [349750013, "50 key history dates", 3.0, 1, 1447200000, 50, 0, 0], [1213226906, "History of Photography Exam Flashcards", 1.0, 0, 1449446400, 77, 0, 77], [3681219101, "The Navigators TMS (Topical Memory System) Bible Verses", 2.0, 0, 1355011200, 60, 0, 0], [1906313012, "Music Theory", 2.0, 0, 1442966400, 13, 0, 1], [963880369, "Respiratory physiology ", 0.0, 0, 1465344000, 182, 0, 22], [2567551207, "Ancient History (young kids homeschool)", 1.0, 0, 1345852800, 112, 0, 83], [2401376321, "AP World History Original Ultimate Set from Quizlet", 3.0, 0, 1367971200, 1481, 0, 0], [302498235, "History - grade 10 - WW2 ", 0.0, 0, 1430784000, 32, 0, 4], [193901374, "American History II", 1.0, 0, 1437523200, 64, 0, 0], [2057568095, "A1. Lesson 4. Kolory, wskazywanie przedmiot\u00f3w", 0.0, 0, 1422662400, 40, 40, 30], [693774671, "Clinical Laboratory Science (Hematology 1)", 0.0, 0, 1502064000, 393, 0, 0], [1629615916, "Clinical Laboratory Science (Hematology 2)", 0.0, 0, 1502064000, 124, 0, 0], [2126877150, "History and Arts of Gupta Period", 1.0, 1, 1458259200, 48, 9, 1], [907316357, "AP Art History - Mrs. Park", 0.0, 0, 1461283200, 284, 0, 411], [1035695103, "Respiratory anatomy and histology", 0.0, 0, 1420243200, 189, 0, 170], [2103624379, "US History (1945-present) - SAT 2 (SAT II) and AP US History", 0.0, 0, 1345852800, 152, 0, 0], [2653421671, "US History (1600-1787) - SAT 2 (SAT II) and AP US History", 1.0, 0, 1345852800, 190, 0, 0], [2140590542, "Respiratory Tract Pathology - Pathoma Ch 9", 2.0, 0, 1415059200, 225, 0, 128], [2527754327, "US History (1861-1914) - SAT 2 (SAT II) and AP US History", 0.0, 0, 1345852800, 478, 0, 0], [1210778195, "Advanced French Visual Picture Memory Vocabulary (2)", 2.0, 1, 1444521600, 200, 200, 279], [2032755489, "Major Mnemonic Memory System", 1.0, 0, 1472774400, 152, 0, 0], [459441318, "Deck of card PAO memory system", 1.0, 1, 1420416000, 26, 0, 26], [1672885309, "Linux Directory Structure", 0.0, 0, 1475712000, 42, 0, 0], [1646358567, "9- Respiratory and Digestive", 1.0, 0, 1481155200, 117, 0, 139]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

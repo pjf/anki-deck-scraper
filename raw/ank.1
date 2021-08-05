@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Ank
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Ank</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[238274785, "Deutsch German bg Krankenschwester", 0.0, 0, 1484265600, 331, 9, 6], [1028446624, "Pathology: Haematology GSSE Bank)", 0.0, 0, 1493424000, 43, 0, 0], [900994299, "Anki pharm cortico ucc", 0.0, 0, 1521590400, 59, 0, 0], [42529606, "Anki macmillan 7000 \u8bb0\u5fc6\u5e93", 6.0, 0, 1506384000, 6140, 6140, 0], [398959798, "English - Green Line New 3 Bayern (Danki Anki)", 1.0, 0, 1520380800, 1152, 1153, 0], [167505327, "Neuro Anki Deck", 0.0, 0, 1518652800, 302, 0, 6], [795225023, "English - Green Line New 6 Bayern (Danki Anki)", 0.0, 0, 1520380800, 1487, 1485, 0], [592750103, "English - Green Line New 5 Bayern (Danki Anki)", 0.0, 0, 1520380800, 1337, 1337, 0], [861094887, "Zanki Step one", 2.0, 0, 1514419200, 13038, 0, 2592], [575656891, "Anki flashcards deck for the LPI LPIC-1 Exam 101 & 102", 4.0, 0, 1498176000, 1474, 0, 34], [63894368, "Datenbanken", 0.0, 0, 1514937600, 80, 0, 7], [1048604911, "Zanki pharm", 0.0, 0, 1514419200, 2152, 0, 1586], [1197783004, "Kontof\u00fchrung, KF 2017/18 Teil 1 f\u00fcr Bankkaufleute", 0.0, 0, 1510617600, 80, 0, 0], [1896182986, "English - Green Line New 1 Bayern (Danki Anki)", 1.0, 0, 1520380800, 1933, 1936, 0], [1723417939, "Anki Higo", 0.0, 0, 1523750400, 241, 240, 0], [1762424377, "Peace's Anki CCNA2 Chapter 10a", 0.0, 0, 1508976000, 20, 0, 0], [1836405133, "Zanki immunology ", 0.0, 0, 1516492800, 383, 0, 85], [1939773305, "Stank - First Aid - Neuro", 0.0, 0, 1516924800, 323, 0, 26], [806165272, "Endocrine Pathology (Zanki / Pathoma)", 0.0, 0, 1510617600, 370, 0, 48], [1275104819, "Pathology: Cardiovascular (GSSE Bank)", 0.0, 0, 1493424000, 26, 0, 0], [1825128676, "anki share", 0.0, 0, 1526688000, 298, 2, 50], [362410242, "anki allah", 0.0, 0, 1526860800, 3, 0, 0], [1346912511, "The highly efficient GRE Anki deck", 30.0, 1, 1525737600, 569, 568, 563], [1673979244, "Psych anki for step 1", 0.0, 1, 1486857600, 117, 0, 203], [1580876309, "Kaplan q bank review", 0.0, 0, 1488412800, 237, 0, 30], [936897711, "U.S. News 2018 National University Ranking", 0.0, 0, 1523491200, 100, 0, 0], [48494026, "AnkiBoyz Pharma", 0.0, 0, 1524787200, 13, 0, 0], [548212952, "zanki steps", 0.0, 0, 1526256000, 13038, 0, 2592], [815918804, "Rachel's ANKI", 0.0, 0, 1527120000, 1632, 0, 63], [2096106599, "Datenbanken (WWI16B-SE)", 0.0, 0, 1521590400, 68, 0, 55], [1278745315, "Biochemistry Metabolism 1: Anki God", 0.0, 0, 1511049600, 998, 0, 445], [1514500217, "Updated Medicine Anki", 0.0, 0, 1502236800, 2104, 0, 752], [1919153980, "ANKI/DLCO - Marketing", 0.0, 0, 1520121600, 20, 0, 20], [1414156675, "\u6f22\u5b57N3 A ANKI", 0.0, 0, 1520812800, 69, 0, 0], [496685880, "Pathoma anki", 0.0, 0, 1490918400, 1553, 0, 495], [534848350, "Embryology For Lazy Katie Who Could Get Anki Done in Time ", 0.0, 0, 1526515200, 289, 0, 162], [83772875, "Kuch Modified Zanki Decks", 0.0, 0, 1521417600, 13695, 0, 3066], [1571242881, "Just Cause Jabra Is too lazy to fix anki", 0.0, 0, 1523923200, 534, 0, 8], [1455924148, "ITIL ANKI Flashcards", 0.0, 0, 1480982400, 320, 0, 0], [698189665, "Anki Share Test", 0.0, 0, 1526688000, 422, 0, 2], [1519085297, "Zanki Pharm", 2.0, 0, 1496793600, 2155, 0, 1178], [353355410, "Excel Shortcuts - Investment Banking - Finance - 100 Shortcu", 0.0, 0, 1510358400, 123, 0, 0], [286986892, "Anki 14000 v2.1 [NEW!] Spanish - English Demo", 13.0, 1, 1478217600, 188, 364, 0], [849976734, "ANKI/DLCO - Leadership", 0.0, 0, 1520121600, 20, 20, 20], [1876325444, "Biochemistry Block 1: ANKI God", 0.0, 0, 1511049600, 1066, 0, 168], [1859748535, "Physiology Block 2: Anki God", 0.0, 0, 1511049600, 272, 0, 76], [147587312, "Basic Physiology: Anki God", 0.0, 0, 1511049600, 921, 0, 89], [32541009, "Zanki GI Patho", 0.0, 0, 1513296000, 795, 0, 140], [2136261872, "WoC 1.2 10 Eten, kleding, aankopen", 0.0, 0, 1520380800, 22, 0, 0], [779094223, "Breast Pathology Zanki", 0.0, 0, 1511913600, 116, 0, 19], [78045525, "Staaten, L\u00e4nder, States und \u00dcberseegebiete (Anki2)", 1.0, 1, 1384732800, 323, 2, 950], [280041292, "primaAnkommen Mathematik 5-7, Kapitel 3 Geometrie", 0.0, 0, 1498435200, 105, 0, 59], [677572644, "Pathology: Respiratory (GSSE Bank)", 0.0, 0, 1493424000, 9, 0, 0], [1406412418, "Anki 14000 v2.6 SPANISH - ENGLISH [DEMO]", 22.0, 0, 1513900800, 108, 206, 0], [773679315, "Anki Deck - Bros", 1.0, 0, 1497398400, 14854, 0, 2572], [25514873, "pi anki", 0.0, 0, 1523404800, 111, 0, 0], [1234642166, "Zanki Repro Path", 0.0, 0, 1512604800, 598, 0, 107], [1662593621, "Zanki Step Decks", 0.0, 0, 1518134400, 13038, 0, 2592], [278963767, "Hey Julia check out this dank MCAT deck", 0.0, 0, 1517356800, 214, 0, 7], [368526368, "Kontof\u00fchrung, KF 2018 Teil 2 f\u00fcr Bankkaufleute", 0.0, 0, 1517097600, 20, 0, 0], [1316534397, "TN ortho path foot ankle ", 0.0, 0, 1515196800, 204, 0, 0], [1502138902, "Auslan Signbank Signs (Part One)", 1.0, 0, 1511136000, 5418, 0, 0], [1555313415, "backup anki", 0.0, 0, 1523232000, 444, 0, 0], [235284819, "WFSOM GI Anki Jsimps", 0.0, 0, 1523318400, 1201, 0, 235], [956593642, "Puplic health QBank ", 0.0, 0, 1523491200, 646, 0, 0], [422333227, "English - Green Line New 2 Bayern (Danki Anki)", 0.0, 0, 1520380800, 1315, 1318, 0], [462981223, "Sentences For Anki (Videoaula 15)", 0.0, 0, 1513987200, 23, 23, 0], [1577776143, "Zanki Mich", 0.0, 0, 1517616000, 1291, 0, 300], [14966240, "Zanki epidemiology/biostat ", 0.0, 0, 1516492800, 112, 0, 23], [50588120, "anki5", 0.0, 0, 1522713600, 53, 0, 0], [1696002304, "zanki endo", 0.0, 0, 1508889600, 947, 0, 123], [2123560431, "Cardiology Lecture Anki Cards", 0.0, 0, 1518134400, 208, 0, 64], [506293868, "Anki 1", 0.0, 0, 1516147200, 1115, 0, 15], [1026449647, "Neumann chapter 14. Ankle", 0.0, 0, 1524441600, 84, 0, 75], [34466666, "Anki 14000 v2.6 RU-EN-RU [DEMO]", 26.0, 0, 1513728000, 107, 211, 0], [2021329051, "Fran\u00e7ais - D\u00e9couvertes 1 (Danki Anki)", 2.0, 0, 1479945600, 1989, 2011, 1], [1765472963, "zanki", 0.0, 0, 1516752000, 13038, 0, 2592], [111436723, "Auslan Signbank Signs (Part Two)", 0.0, 0, 1511136000, 7368, 0, 0], [1494783974, "Zanki Physiology KCUMB", 0.0, 0, 1516924800, 381, 0, 69], [1320404495, "Zanki Step", 0.0, 0, 1514851200, 13038, 0, 2592], [723490435, "Anki5", 0.0, 0, 1526860800, 208, 0, 0], [1025740121, "Natalie's P&P Anki Quiz 2", 0.0, 0, 1525046400, 135, 0, 31], [1543771274, "WFSOM Pulm Anki jsimps", 0.0, 0, 1526515200, 976, 0, 213], [1908700626, "Neuroscience Anki Cards", 0.0, 0, 1522972800, 1251, 0, 606], [179882963, "Zanki Pharmacology", 0.0, 0, 1518134400, 2156, 0, 1587], [1326359377, "anki10", 0.0, 0, 1526860800, 84, 0, 0], [1846332561, "[ankiapp]", 0.0, 0, 1522886400, 30, 0, 0], [190951203, "Fran\u00e7ais - D\u00e9couvertes 2 (Danki Anki)", 1.0, 0, 1479945600, 997, 995, 1], [993866228, "NihongoShark.com Blank Vocabulary Deck", 4.0, 0, 1425168000, 1, 0, 1], [1882219838, "zanki", 0.0, 0, 1526256000, 2152, 0, 1586], [1045538639, "ANKI/DLCO - STRATEGY", 0.0, 0, 1520812800, 20, 20, 19], [1251919207, "ANKI/DLCO - TECHNOLOGY", 0.0, 0, 1520812800, 20, 0, 20], [22201186, "APGO UWise QBank", 0.0, 0, 1506643200, 1370, 0, 6], [759125002, "ANKI/DLCO - Entrepreneurship", 0.0, 0, 1520121600, 20, 0, 20], [439448287, "ANKI/DLCO - Crisis Management", 0.0, 0, 1520121600, 20, 0, 20], [1336436004, "ANKI/DLCO - Human Resources", 0.0, 0, 1520121600, 20, 0, 20], [1202236042, "ANKI/DLCO - Communication", 0.0, 0, 1520121600, 20, 0, 20], [201677083, "ANKI/DLCO - Innovation", 0.0, 0, 1520121600, 20, 0, 20], [365131907, "ANKI/DLCO - Finance", 0.0, 0, 1520121600, 20, 20, 19], [1210997304, "\u6f22\u5b57N3 B ANKI", 0.0, 0, 1520812800, 72, 0, 0], [1525359751, "\u6f22\u5b57N3 C ANKI", 0.0, 0, 1520812800, 70, 0, 0], [278979524, "ANKI/DLCO - Management", 0.0, 0, 1520121600, 20, 0, 19], [52799680, "ANKI/DLCO - Sales", 0.0, 0, 1520121600, 20, 0, 20], [1164658687, "Zanki Physiology and Pathology", 2.0, 0, 1503964800, 13038, 0, 2592], [170242522, "Terrace House (Anki)", 0.0, 0, 1526860800, 962, 960, 960], [1820254122, "Espa\u00f1ol - Encuentros 3 - Edic\u00edon 3000 (Danki Anki)", 0.0, 0, 1479945600, 541, 537, 1], [166949133, "LFS AK 2018 Krankheiten", 0.0, 0, 1523232000, 9, 0, 9], [1085769786, "Neuro Unit 4 Anki Deck", 0.0, 0, 1523577600, 110, 0, 38], [3078424777, "Mankiw - Macroeconomics", 0.0, 1, 1368403200, 16, 0, 0], [1986604248, "\u6c11\u6cd5\u306e\u898b\u51fa\u3057\u3060\u3051\u3092\u899a\u3048\u308b Japanese Civil Law Heading Anki", 0.0, 0, 1491091200, 117, 0, 0], [978096085, "Fran\u00e7ais - D\u00e9couvertes 4 (Danki Anki)", 0.0, 0, 1455667200, 842, 891, 4], [580499734, "Heritage MLS Blood Bank", 0.0, 0, 1507161600, 338, 0, 0], [502875345, "UworldSTep1Qbank", 0.0, 0, 1504310400, 5308, 0, 0], [1140152416, "Block 5 Humangenetik Erkrankungen", 0.0, 0, 1526169600, 23, 0, 0], [678830840, "Zanki Step Decks", 0.0, 0, 1518652800, 13038, 0, 2592], [76483578, "WFSOM CSP Anki jsimps Biochem Immunology Microbiology", 0.0, 0, 1501718400, 2990, 0, 1069], [105771249, "Anki 14000 v2.3 [Russian - English - Russian] DEMO", 65.0, 3, 1498867200, 165, 324, 0], [1590808462, "Drew Anki Head and Neck", 1.0, 0, 1505692800, 844, 0, 89], [1477472190, "Japon\u00e9s Kanken nivel 9", 0.0, 0, 1509494400, 1303, 0, 0], [1512683700, "\u6c11\u6cd5\u6761\u6587\u4e38\u899a\u3048 Japanese Civil Law ArticleNumber->Article Anki", 0.0, 0, 1491091200, 1106, 0, 0], [2099247622, "Anki - High Frequency Spanish Words", 0.0, 0, 1490572800, 292, 0, 0], [810249417, "Speech Text template for iOS (AnkiMobile)", 10.0, 1, 1505692800, 8, 0, 0], [803128989, "English - Green Line New 4 Bayern (Danki Anki)", 0.0, 0, 1520380800, 1225, 1225, 0], [1070887202, "Zanki Respiratory", 0.0, 0, 1509062400, 537, 0, 94], [1654381040, "Fran\u00e7ais - D\u00e9couvertes 3 (Danki Anki)", 0.0, 0, 1455667200, 847, 872, 4], [206033178, "Anki\u306e\u57fa\u790e\u77e5\u8b58", 0.0, 0, 1481328000, 113, 0, 0], [1009874510, "US Military - Rank & Insignia", 2.0, 0, 1419292800, 38, 0, 36], [264771246, "US Military Ranks", 0.0, 0, 1501286400, 87, 0, 0], [1496534152, "\u8d99\u4fca\u5f65\u75c5\u7406\u5b78anki", 0.0, 0, 1504483200, 138, 0, 1], [214234931, "Kanji in italiano per ankiweb (Jouyou kanji)", 0.0, 0, 1475884800, 2622, 8, 1], [1311117475, "\u82f1\u8a9eBoost! \u2010 Blank Deck\uff08\u7a7a\u767d\u306e\u5358\u8a9e\u5e33\uff09", 0.0, 0, 1413072000, 1, 3, 2], [1547365431, "AnkiBac : Fiches pour le bac de SVT", 1.0, 0, 1358899200, 71, 0, 0], [1856212368, "Cyrylica Gra\u017cdanka", 0.0, 0, 1345852800, 187, 0, 70], [1195844004, "anki5", 0.0, 0, 1523318400, 4978, 0, 0], [1794062026, "Sample Anki deck - General English and IELTS questions", 1.0, 0, 1416614400, 18, 0, 1], [2125404784, "WFSOM Cardiology Anki jsimps", 0.0, 0, 1501718400, 1217, 0, 241], [1145327344, "Espa\u00f1ol - Encuentros 2 - Edic\u00edon 3000 (Danki Anki)", 1.0, 0, 1479945600, 887, 911, 1], [3009949032, "Gabe's French Deck (Anki en Fran\u00e7ais sans Anglais)", 5.0, 2, 1345852800, 4089, 0, 2267], [1338419429, "The Ultimate CFA Level 1 Anki Deck", 4.0, 0, 1438300800, 1400, 8, 209], [662847082, "Similar Hanzi Pairs Ranked by Most Common", 1.0, 0, 1449100800, 416, 576, 1], [1651537278, "ldoce2anki", 4.0, 0, 1505088000, 33, 117, 3], [1111466194, "100 Most Common German Words - GermanAnkiDecks.com", 0.0, 0, 1386201600, 100, 0, 0], [226084984, "Goban Note Type for Anki SGF Plugin", 2.0, 0, 1449014400, 9, 0, 5], [4032994815, "RW, Rechnungswesen und Controlling f\u00fcr Bank komplett", 1.0, 0, 1377475200, 160, 0, 0], [4124362349, "AnkiBac : Fiches pour le bac d'Histoire", 1.0, 0, 1358899200, 47, 0, 0], [1508331191, "The Ultimate CFA Level II Anki Deck", 1.0, 0, 1462579200, 1393, 8, 439], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 1.0, 0, 1345852800, 806, 0, 0], [1669251172, "Espa\u00f1ol - Encuentros 1 - Edic\u00edon 3000 (Danki Anki)", 3.0, 0, 1479945600, 1365, 1391, 1], [1434563486, "JS Anki deck by Sivers", 3.0, 0, 1426377600, 351, 0, 0], [1738476925, "Brocencephalon Anki deck (FA+Path+Pharm)", 21.0, 2, 1453852800, 15696, 0, 2718]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

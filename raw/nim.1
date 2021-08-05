@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Nim
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Nim</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1016342431, "06A-1,2 Animal Body Parts & 2 Verbs", 0.0, 0, 1521763200, 10, 0, 10], [2001874749, "Spanish/Espa\u00f1ol Minimal Pairs", 3.0, 0, 1514419200, 64, 121, 120], [1124522425, "Cinimex English Pre-intermediate", 0.0, 0, 1522108800, 226, 0, 0], [1012316775, "Arabic minimal pairs ", 1.0, 0, 1484092800, 64, 128, 2], [1434910726, "Japanese Visual Novel, Anime, Manga, LN Vocab - V2K", 33.0, 1, 1466294400, 1988, 2016, 11], [953597328, "Irish Minimal Pairs Conamara", 0.0, 0, 1520294400, 23, 46, 0], [1770752217, "03A-3 Animals", 0.0, 0, 1520899200, 12, 0, 12], [2072937060, "Irish Minimal Pairs R\u00e1th Cairn ", 1.0, 0, 1520294400, 28, 56, 0], [977991183, "Japanese Animal Vocab", 0.0, 0, 1516060800, 78, 0, 0], [2063229922, "hebrew animals", 0.0, 0, 1518220800, 43, 42, 43], [1560265479, "OCR Biology A - Transport in Animals", 0.0, 0, 1525651200, 40, 0, 0], [1714281855, "Non Non Biyori (anime)", 0.0, 0, 1476921600, 535, 0, 63], [1171784672, "Zoo and Animals!", 0.0, 0, 1521244800, 17, 0, 0], [247377842, "01A-1 People,Animals,Pronouns Part 2", 1.0, 0, 1520294400, 13, 0, 13], [990598095, "Tejidos Animales", 0.0, 0, 1519084800, 31, 0, 0], [1160309431, "Japanese Minimal Pairs (based from Fluent Forever)", 0.0, 0, 1508371200, 101, 202, 0], [1299714260, "Japanese Minimal Pairs", 1.0, 0, 1498694400, 202, 202, 0], [1126964368, "[Cours de japonais !] Les animaux domestiques", 0.0, 0, 1484438400, 20, 0, 0], [1628354939, "Sistema digestivo de los animales", 0.0, 0, 1523836800, 61, 0, 0], [865961785, "A01 Animals", 0.0, 0, 1522368000, 10, 10, 10], [1336843216, "ENT Minimal Criteria (Semmelweis)", 0.0, 0, 1527033600, 0, 0, 0], [1544314024, "Foreign Animal Disease", 0.0, 0, 1524268800, 180, 0, 11], [1680923704, "iHE_Animals", 0.0, 0, 1520294400, 7, 7, 7], [609769689, "Sistema reproductor animal", 0.0, 0, 1526601600, 83, 0, 10], [723355196, "French/Fran\u00e7ais for Beginners, A1 & A2, IPA, Minimal Pairs", 5.0, 0, 1497830400, 2011, 2234, 2001], [794821555, "AW - Wild animals ", 0.0, 0, 1515369600, 26, 0, 0], [729423771, "internal medicine minimals", 0.0, 0, 1452384000, 66, 0, 1], [33428520, "Animal names Vietnamese - English ", 0.0, 0, 1487203200, 22, 0, 0], [1339162424, "A03 Animals", 0.0, 0, 1522886400, 11, 11, 11], [72561502, "Les animaux domestiques", 0.0, 0, 1521158400, 22, 20, 0], [703836905, "German Minimal Pairs (Swiss Accent)", 0.0, 0, 1520294400, 69, 138, 0], [1409514856, "625 Word German Deck / Picture Words & Minimal Pairs", 7.0, 2, 1445385600, 559, 646, 470], [926651622, "Animals ", 1.0, 0, 1515715200, 195, 151, 1], [1768902851, "Minimal pairs in English", 0.0, 0, 1515888000, 109, 211, 0], [2052973668, "Foreign Animal Disease", 0.0, 0, 1524441600, 295, 0, 10], [1136950935, "SBF Minimal Pairs Listening /L/ vs /R/ ", 0.0, 0, 1494115200, 24, 24, 0], [1267815448, "The Japan Foundation: Anime and Manga Phrases", 0.0, 0, 1493596800, 7044, 4943, 0], [1456025364, "English Minimal Pairs, Pronunciation, Spelling, IPA", 3.0, 0, 1497830400, 50, 100, 99], [679756373, "Animals", 0.0, 0, 1520208000, 7, 7, 7], [2078482557, "TIS_Animal", 0.0, 0, 1520208000, 7, 7, 7], [778401450, "SBF Minimal Pairs Initial /D/ vs /Th/ Listening", 0.0, 0, 1432252800, 22, 22, 0], [2046481572, "iHE_Animals", 0.0, 0, 1520208000, 7, 7, 7], [2091336733, "Animals: Pictures to English and Japanese", 1.0, 1, 1414195200, 150, 0, 150], [1772118659, "01A-1 People, Animals, Pronouns Part 1", 1.0, 0, 1520294400, 11, 0, 11], [1796885671, "ANGLAIS VENTE BAC PRO ANIMALERIE", 0.0, 0, 1521072000, 16, 0, 0], [2047708283, "arabic vocabulary - names of animals", 0.0, 0, 1345852800, 61, 0, 0], [1972666728, "Animals - Zwierz\u0119ta (K\u0119trzyn)", 0.0, 0, 1509667200, 89, 89, 89], [2027329528, "Animali", 0.0, 0, 1384905600, 50, 50, 0], [1503155689, "Animales", 0.0, 0, 1524182400, 16, 0, 0], [1802716931, "Japanese Animal Pictures", 0.0, 0, 1517875200, 150, 0, 150], [1671381844, "~7000 Japanese words from news, books, and anime", 2.0, 0, 1487894400, 6930, 3, 19], [400658997, "SBF Minimal Pairs /B/ vs /V/ Listening", 0.0, 0, 1489104000, 38, 38, 0], [1967591256, "Minimalist's RTK 1+3 Kanji | blog.MatthewHawkins.co", 1.0, 0, 1510876800, 3007, 0, 0], [2101361607, "SBF Minimal Pairs Listening /F/ vs /P/ ", 0.0, 0, 1494115200, 30, 30, 0], [949706809, "The Japan Foundation: Anime and Manga Grammar", 0.0, 0, 1493596800, 198, 197, 8], [655510582, "German Minimal Pairs, Pronunciation, Spelling, IPA", 3.0, 0, 1497830400, 28, 55, 56], [915160001, "2_Nima_Dutch for foreigners", 0.0, 0, 1453334400, 1926, 219, 6], [922425885, "Minimales Verbpebsum B1 PL-DE Marcin Perli\u0144ski", 0.0, 0, 1345852800, 588, 0, 0], [1782645668, "USD Biology 151 Animal Diversity Vocabulary", 1.0, 0, 1476662400, 109, 0, 0], [1666553909, "Hindi Minimal Pairs Deck", 0.0, 0, 1475971200, 102, 110, 234], [1363556164, "Hello Chinese - Animals", 0.0, 0, 1472947200, 11, 0, 0], [2070469758, "Animation History - Cap U 2D Animation", 2.0, 0, 1480204800, 278, 0, 0], [1872286725, "jQuery - Animations", 0.0, 0, 1501804800, 12, 0, 0], [2015783523, "Animals English-German Krzysztof Sobczak GIM", 0.0, 0, 1452124800, 72, 0, 0], [639896254, "Nahuatlahtolli: Animales", 1.0, 0, 1464566400, 43, 42, 0], [51206747, "English Minimal Pairs (General American)", 3.0, 1, 1432512000, 24, 48, 48], [525138553, "Minimal Pairs of English language", 1.0, 1, 1463011200, 712, 612, 0], [1621958370, "Arabic Animal Names (Vocabulary) (Vowel Signs)", 0.0, 0, 1422144000, 102, 61, 0], [1547258826, "Kanji JLPT N4 Eng w/stroke animation", 0.0, 0, 1462492800, 180, 0, 0], [942446998, "English Minimal Pairs (recognition exercise)", 0.0, 0, 1505001600, 44, 87, 0], [124017399, "Arabic minimal pairs", 0.0, 0, 1469232000, 36, 73, 1], [561347852, "Korean Minimal Pair Sounds v2", 0.0, 0, 1505088000, 52, 52, 0], [92726041, "1_Nima_English Vocabulary", 0.0, 0, 1453334400, 2326, 1410, 571], [1110516983, "Korean Minimal Pair Sounds", 4.0, 1, 1429401600, 52, 52, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>

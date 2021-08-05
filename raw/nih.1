@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="bg-gray">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Nih
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="/static/app.css?_=24b0bb4431af1f991da69327bfff0cbb"
+          type="text/css" media="screen"/>
+
+    
+    <style>
+        .stars {
+            width: 7.5rem;
+        }
+
+        .modcol {
+            width: 6em;
+        }
+
+        .decktitle {
+            word-break: break-all;
+        }
+    </style>
+
+
+
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span
+                    class="align-middle">AnkiWeb</span> <img id=logo height=32
+                                                             width=32
+                                                             src="/static/anki-logo2.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="https://ankiweb.net/account/login"
+                                                    class="btn btn-link">Log
+                                in</a>
+                            </li>
+                            <li class="nav-item"><a href="https://ankiweb.net/account/register"
+                                                    class="btn btn-primary">Sign
+                                up</a>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+
+<div style="float:right;">
+<input id=q type="text" value="" autofocus />
+<button class="btn btn-primary" onclick="shared.search();return false;">Search</button>
+</div>
+
+<h1>Nih</h1>
+
+<div id=list style="clear:both;"></div>
+
+
+
+</main>
+
+    <div class="container-fluid bg-gray">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="https://apps.ankiweb.net"
+                                    class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="/account/terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item"><a href="/account/privacy" class="nav-link">Privacy</a>
+            </li>
+        </ul>
+    </div>
+
+<script src="/static/vendor.js?_=b0b01b14710869a2878614b668977245"
+        type="text/javascript"></script>
+<script src="/static/app.js?_=f42b4ff080af5baa6a81d1237e987f8c"
+        type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+<script>
+    var shared = require("sharedlist").default;
+    shared.files = [[1980426654, "Minna no nihongo 1.15", 0.0, 0, 1488240000, 20, 20, 0], [174064441, "NihongoShark.com Pre-Loaded Vocabulary Deck", 25.0, 1, 1425168000, 3992, 3989, 1960], [1956010956, "NihongoShark.com Kanji Deck", 138.0, 9, 1447459200, 2200, 3, 2202], [1129051927, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.3 (2nd edition), EN to JP", 0.0, 0, 1493683200, 48, 0, 0], [1793574311, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.4 (2nd edition), EN to JP", 0.0, 0, 1492732800, 57, 0, 0], [1154777626, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.32 (2nd edition), EN to JP", 2.0, 0, 1494633600, 71, 0, 0], [945859568, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.13 (2nd edition), EN to JP", 0.0, 0, 1493164800, 38, 0, 0], [916720354, "Minna No Nihongo D\u00e9butant I & II (\u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e\u521d\u7d1a I & II)", 0.0, 0, 1525910400, 2420, 3015, 2], [2063186213, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.20 (2nd edition), EN to JP", 0.0, 0, 1493683200, 22, 0, 0], [1528548906, "NNihon", 0.0, 0, 1527552000, 17, 0, 0], [68296963, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.6 (2nd edition), EN to JP", 0.0, 0, 1492732800, 51, 0, 0], [158282684, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.16 (2nd edition), EN to JP", 0.0, 0, 1493164800, 64, 0, 0], [486759118, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.36 (2nd edition), EN to JP", 0.0, 0, 1499644800, 44, 0, 0], [1576038950, "Minna no Nihongo II - Exercise sentences", 0.0, 0, 1522454400, 359, 358, 0], [300193074, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.38 (2nd edition), EN to JP", 1.0, 0, 1499644800, 57, 0, 0], [1847451780, "Japanese: Minna No Nihongo 1", 10.0, 0, 1461024000, 790, 3, 0], [1786464756, "Nihongo", 0.0, 0, 1521849600, 4994, 4994, 0], [1166774113, "Minna No Nihongo - French", 1.0, 0, 1495497600, 1407, 972, 0], [39232247, "Minano Nihongo - T\u1eeb v\u1ef1ng", 0.0, 0, 1519689600, 80, 0, 430], [697345808, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.27 (2nd edition), EN to JP", 0.0, 0, 1494633600, 96, 0, 0], [2007810985, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.24 (2nd edition), EN to JP", 0.0, 0, 1493683200, 18, 0, 0], [992694207, "Minna no nihongo 1.25", 0.0, 0, 1493510400, 16, 0, 0], [1916560645, "Nihongo so-matome n3 kanji list", 0.0, 0, 1511049600, 513, 0, 0], [1126531378, "Minna no nihongo 1.24", 0.0, 0, 1492905600, 16, 0, 0], [1242148203, "NihongoShark Kenny\u2019s Study", 0.0, 0, 1514678400, 2200, 0, 2200], [1343742240, "Minna no nihongo 1.18", 0.0, 0, 1489104000, 25, 82, 82], [1126253275, "NihongoShark 2000 Step 01", 0.0, 0, 1522800000, 400, 49, 26], [791953473, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.23 (2nd edition), EN to JP", 0.0, 0, 1493683200, 23, 0, 0], [1422826774, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.37 (2nd edition), EN to JP", 0.0, 0, 1499644800, 59, 0, 0], [191224487, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.22 (2nd edition), EN to JP", 0.0, 0, 1493683200, 30, 0, 0], [489205187, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.8 (2nd edition), EN to JP", 0.0, 0, 1492732800, 57, 0, 0], [527536961, "Mina no nihongo voc", 0.0, 0, 1518307200, 1096, 0, 0], [920421417, "Minna no nihongo 1.12", 0.0, 0, 1486944000, 44, 44, 0], [1584833825, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.15 (2nd edition), EN to JP", 0.0, 0, 1493164800, 22, 0, 0], [43933402, "Minna No Nihongo Interm\u00e9diaire I & II (\u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e\u4e2d\u7d1a I & II)", 1.0, 0, 1525910400, 2493, 1492, 3], [1974748481, "Minna no nihongo 27 English", 0.0, 0, 1487116800, 45, 0, 0], [1554178031, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.10 (2nd edition), EN to JP", 0.0, 0, 1493683200, 48, 0, 0], [1144648004, "Minna no nihongo 1.19", 0.0, 0, 1490140800, 24, 81, 82], [1562489055, "Minna no Nihongo Buch Vokabeln Lektion 43-50 (Intermediate)", 0.0, 0, 1519776000, 208, 0, 0], [1495699540, "Minna no Nihongo Buch 1 Kanji (Anf\u00e4nger)", 0.0, 0, 1519776000, 218, 0, 0], [376269129, "Minna no nihongo 1.11", 0.0, 0, 1486944000, 57, 57, 0], [23944524, "Minna no Nihongo Buch Vokabeln Lektion 15-42 (Intermediate)", 0.0, 0, 1519776000, 650, 0, 0], [1114386004, "MINNA NIHONGO SO CAP 1 JAP-VIET", 1.0, 0, 1499040000, 345, 337, 271], [50824245, "Minna no Nihongo Billy", 0.0, 0, 1520035200, 9, 0, 0], [1854028272, "Minna no nihongo 1.14", 0.0, 0, 1487203200, 42, 42, 0], [310951347, "Nihongo so-matome N3 Vocabulary", 1.0, 0, 1510963200, 970, 0, 0], [1347778988, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.9 (2nd edition), EN to JP", 0.0, 0, 1492732800, 52, 0, 0], [469426436, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.26 (2nd edition), EN to JP", 0.0, 0, 1494633600, 51, 0, 0], [707802587, "MINNA NIHONGO SO CAP 2 JAP-VIET", 1.0, 0, 1499040000, 907, 890, 721], [1628700740, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.7 (2nd edition), EN to JP", 0.0, 0, 1492732800, 46, 0, 0], [1500351465, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.1 (2nd edition), EN to JP", 0.0, 0, 1492732800, 39, 0, 0], [1080078014, "Nihongo So-Matome N3 Grammar", 2.0, 0, 1525910400, 433, 0, 0], [1756948988, "Gustavo - japon\u00eas", 0.0, 0, 1515196800, 208, 0, 0], [726618650, "Minna no nihongo 1.20", 0.0, 0, 1490227200, 21, 57, 82], [1151585457, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.18 (2nd edition), EN to JP", 0.0, 0, 1493164800, 29, 0, 0], [441698459, "Nihongo sou-matome N2 Vocabulary - \u65e5\u672c\u8a9e\u7dcf\u307e\u3068\u3081N2\u8a9e\u5f59", 0.0, 0, 1484956800, 33, 0, 0], [938990655, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.45 (2nd edition), EN to JP", 0.0, 0, 1500336000, 28, 0, 0], [1232522183, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.28 (2nd edition), EN to JP", 0.0, 0, 1494633600, 61, 0, 0], [570874502, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.40 (2nd edition), EN to JP", 0.0, 0, 1499644800, 64, 0, 0], [433507373, "Gustavo - japon\u00eas 2", 0.0, 0, 1515196800, 54, 0, 0], [872603311, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.50 (2nd edition), EN to JP", 0.0, 0, 1500336000, 33, 0, 0], [391062099, "Minna no Nihongo Kanji Buch 2 (Intermediate)", 0.0, 0, 1519689600, 305, 0, 0], [318242269, "Minna no Nihongo Buch Vokabeln Lektion 1-14 (Anf\u00e4nger)", 0.0, 0, 1519689600, 30, 0, 0], [648139814, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.47 (2nd edition), EN to JP", 0.0, 0, 1500336000, 36, 0, 0], [623839876, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.42 (2nd edition), EN to JP", 0.0, 0, 1499644800, 49, 0, 0], [993866228, "NihongoShark.com Blank Vocabulary Deck", 4.0, 0, 1425168000, 1, 0, 1], [724181175, "Minna no nihongo 1.21", 0.0, 0, 1490832000, 39, 57, 82], [657043165, "T\u1eeb v\u1ef1ng Minna no Nihongo (Tr\u1ecdn b\u1ed9 50 b\u00e0i)", 0.0, 0, 1521417600, 2249, 0, 0], [1903596900, "Japanese: Minna No Nihongo 2", 0.0, 0, 1492732800, 453, 0, 0], [1377391962, "Nihongo sou-matome N2 Kanji - \u65e5\u672c\u8a9e\u7dcf\u307e\u3068\u3081N2\u6f22\u5b57\t", 0.0, 0, 1485907200, 14, 0, 0], [728549000, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.12 (2nd edition), EN to JP", 0.0, 0, 1493164800, 56, 0, 0], [1876028187, "NihongoShark.com: Kanji Reversed", 0.0, 0, 1520294400, 2200, 0, 2200], [1017043143, "mina no nihongo grammar", 0.0, 0, 1520121600, 13, 0, 0], [2139546410, "Nihongo_abc", 0.0, 0, 1523491200, 47, 0, 0], [135399764, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.43 (2nd edition), EN to JP", 0.0, 0, 1500336000, 25, 0, 0], [1657502241, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.35 (2nd edition), EN to JP", 0.0, 0, 1499644800, 49, 0, 0], [2122103436, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.30 (2nd edition), EN to JP", 0.0, 0, 1494633600, 48, 0, 0], [1776565935, "Minna no nihongo - italiano 1-15", 0.0, 0, 1482537600, 475, 3, 0], [4059179299, "Verbes du Minna no nihongo", 0.0, 0, 1345852800, 138, 0, 0], [2030018780, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.49 (2nd edition), EN to JP", 0.0, 0, 1500336000, 32, 0, 0], [203886410, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.29 (2nd edition), EN to JP", 0.0, 0, 1494633600, 65, 0, 0], [1412820598, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.41 (2nd edition), EN to JP", 0.0, 0, 1499644800, 62, 0, 0], [594396067, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.25 (2nd edition), EN to JP", 0.0, 0, 1493683200, 19, 0, 0], [1488338361, "Minna No Nihongo - English", 0.0, 0, 1495497600, 790, 0, 0], [230779207, "Nihongo Breakthrough - vocabulary, key sentences, kana", 0.0, 0, 1508371200, 899, 0, 0], [667827663, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.2 (2nd edition), EN to JP", 0.0, 0, 1492732800, 46, 0, 0], [1727854376, "Minna no nihongo 1.16", 0.0, 0, 1488412800, 50, 50, 0], [2118032, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.31 (2nd edition), EN to JP", 1.0, 0, 1494633600, 38, 0, 0], [203436614, "Minna no nihongo 1.13", 0.0, 0, 1487030400, 28, 28, 0], [412776228, "Minna no nihongo 1.17", 0.0, 0, 1489104000, 11, 57, 82], [1694198462, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.39 (2nd edition), EN to JP", 1.0, 0, 1499644800, 51, 0, 0], [61835526, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.21 (2nd edition), EN to JP", 0.0, 0, 1493683200, 41, 0, 0], [1061748205, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.34 (2nd edition), EN to JP", 0.0, 0, 1499644800, 55, 0, 0], [966461487, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.44 (2nd edition), EN to JP", 0.0, 0, 1500336000, 43, 0, 0], [1671359015, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.5 (2nd edition), EN to JP", 0.0, 0, 1492732800, 59, 0, 0], [2146361167, "Vocabulario Japon\u00e9s - Minna no nihongo 01-14", 0.0, 0, 1350950400, 580, 0, 0], [921084039, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.33 (2nd edition), EN to JP", 1.0, 0, 1499644800, 55, 0, 0], [1103061411, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.19 (2nd edition), EN to JP", 0.0, 0, 1494633600, 28, 0, 0], [379014239, "Minna No Nihongo 1.09 [DE]", 0.0, 0, 1467676800, 53, 50, 0], [23921572, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.11 (2nd edition), EN to JP", 0.0, 0, 1493164800, 61, 0, 0], [1711619641, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.46 (2nd edition), EN to JP", 0.0, 0, 1500336000, 33, 0, 0], [1967776648, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.17 (2nd edition), EN to JP", 0.0, 0, 1493164800, 35, 0, 0], [880062883, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 1.14 (2nd edition), EN to JP", 0.0, 0, 1493164800, 49, 0, 0], [1684749617, "Minna No Nihongo 1.02", 1.0, 0, 1467676800, 42, 40, 0], [1156022693, "Chukyu Nihongo - Lezioni 1-7", 0.0, 0, 1431043200, 263, 0, 0], [1645268817, "\u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e / Minna no nihongo Buch 1 [German / Deutsch]", 0.0, 1, 1456012800, 658, 0, 0], [2064530925, "Minna No Nihongo 1.01", 2.0, 0, 1467676800, 34, 31, 0], [2595959201, "Minna No Nihongo Chptrs 1-25", 0.0, 0, 1345852800, 1401, 0, 5], [251686251, "Minna No Nihongo 1.07", 0.0, 0, 1467676800, 50, 46, 0], [1570705890, "minna no nihongo 40-50 \u307f\u3093\u306a\u3000\u306e\u3000\u306b\u307b\u3093\u3054\u3000\uff14\uff10\uff0d\uff15\uff10", 2.0, 0, 1453334400, 384, 356, 277], [1942577716, "JF Nihongo Hiragana Vocabulary", 0.0, 0, 1444953600, 74, 0, 0], [1227152387, "kanji minna no nihongo", 0.0, 0, 1465776000, 36, 0, 2275], [1823889940, "\u304d\u305d\u306b\u307b\u3093\u3054 1 - Kiso Nihongo 1 - Vocabul\u00e1rio B\u00e1sico Japon\u00eas ", 0.0, 0, 1463616000, 203, 0, 0], [697462672, "Minna No Nihongo 1.08", 0.0, 0, 1467676800, 56, 55, 0], [1486012891, "Minna no Nihongo Ch\u00fbky\u00fb - German", 1.0, 1, 1380844800, 2525, 0, 0], [345887268, "Minna No Nihongo 1.06", 0.0, 0, 1467676800, 53, 52, 0], [210212430, "Nihongo So-matome N2 Vocabulary Week 1 / \u65e5\u672c\u8a9e\u7dcf\u307e\u3068\u3081N2 \u8a9e\u5f59 \u7b2c1\u9031", 0.0, 0, 1435104000, 179, 3, 0], [1230635908, "Nihongo Somatome N3 vocabulario_esa\u00f1ol(quetzalli)", 0.0, 0, 1382745600, 1397, 0, 0], [866818089, "Kanji N4 list from Nihongo Challenge book", 4.0, 0, 1439251200, 180, 0, 0], [2047409493, "Minna no Nihongo II vocabulary RUS full + audio", 6.0, 0, 1385424000, 1142, 869, 0], [579971337, "Minna no nihongo, \u307f\u3093\u306a\u306e\u65e5\u672c\u8a9e, 2.48 (2nd edition), EN to JP", 0.0, 0, 1500336000, 22, 0, 0], [1883899344, "Minna No Nihongo ", 0.0, 0, 1504915200, 1395, 432, 423], [430263280, "Vocabulario - Minna no Nihongo I", 6.0, 0, 1462838400, 703, 0, 0], [1047809698, "Minna No Nihongo 1.04", 1.0, 0, 1467676800, 52, 51, 0], [1391401563, "Minna No Nihongo 1.05", 1.0, 0, 1467676800, 57, 55, 0], [793464245, "Minna No Nihongo 1.03", 1.0, 0, 1467676800, 43, 40, 0], [988374585, "Nihongo So-Matome N2 Kanji", 2.0, 1, 1491955200, 2210, 0, 0], [238268516, "Nihongo so-matome N3 Kanji list", 6.0, 0, 1458000000, 846, 3, 0], [1963814571, "Minna no Nihongo", 1.0, 1, 1457222400, 1407, 972, 1], [576721558, "Minna No Nihongo 1.10 [DE]", 1.0, 0, 1467676800, 46, 39, 0], [3460822712, "Japanologie Uni Frankfurt Minna no Nihongo Lektionen 1-25", 1.0, 0, 1345852800, 806, 0, 0], [1492676219, "Minna No Nihongo 2 vocab", 4.0, 0, 1433030400, 1140, 352, 0]];
+    shared.decks = 1;
+
+    var $ = require("jquery");
+    $("#q").keyup(function(event) {
+        if (event.keyCode==13) {
+            shared.search();
+        }
+    });
+</script>
+
+</body>
+</html>
