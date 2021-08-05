@@ -1,3 +1,5 @@
+**NOTE: This code is no longer operational, running it may get you IP banned**
+
 This is the hackiest set of hacks to get a complete list of anki
 decks that has ever been written.
 
